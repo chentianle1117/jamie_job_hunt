@@ -17,6 +17,28 @@ version: 3.1.0
 
 ---
 
+## 🔄 STEP 0 — Sync Latest Updates
+
+> **ALWAYS do this first.** Jamie's feedback and preferences may have been updated from her
+> Mac sessions. Pull the latest before every run.
+
+```bash
+git pull origin main
+```
+
+Then read `jamie/preferences.md` — especially the "Strict Fit Scoring Rules" section.
+If any new guidelines were added (e.g., stricter qualification bars, new hard rejects),
+apply them during scoring.
+
+**After the run:** If you updated any reference files (h1b_verified.md, watchlist.md, etc.),
+commit and push so Jamie's next session has the latest data.
+
+```bash
+git add jamie/ && git commit -m "Update reference files from Oracle run $(date +%Y-%m-%d)" && git push
+```
+
+---
+
 ## 🖥️ PREREQUISITES — Read Before Running
 
 ### Chrome Browser (REQUIRED)

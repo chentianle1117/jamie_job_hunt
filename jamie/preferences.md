@@ -129,6 +129,46 @@ ONE from Column A AND ONE from Column B:
 
 ---
 
+## 🔴 Strict Fit Scoring Rules (Updated Mar 26, 2026)
+
+> **Context:** The 2026 job market is very competitive. Jamie's application time is limited
+> (1-2 per day). Only recommend roles where she is genuinely competitive on paper.
+
+### Hard rule: ★☆☆ required qualifications = PASS
+
+If a JD lists any of these as a **required** (not preferred) qualification, it's a strong PASS signal:
+- Multi-state employment compliance → ★☆☆ (zero experience)
+- Payroll administration → ★☆☆ (no experience, does not want this)
+- Benefits administration → ★☆☆ (no dedicated benefits work)
+- HRIS platform management (Workday, ADP, SAP admin) → ★☆☆ (only Greenhouse ATS)
+- Employee relations casework → ★☆☆ (no hands-on ER)
+- Compensation/total rewards → ★☆☆ (no comp experience)
+- Recruiting/talent acquisition as primary function → ★☆☆
+- Change management requiring Prosci/ADKAR cert → ★☆☆
+
+**Do NOT soft-pedal these as "learnable" or "stretch."** Competing candidates WILL have these skills.
+
+### Jamie's HR experience profile
+
+Jamie's experience is **broad generalist** — she has touched many HR functions but does not have
+deep expertise in any single operational HR function. Her real strengths are:
+- Program management and coordination (★★★)
+- Employee experience and engagement (★★★)
+- Data analytics and reporting (★★★)
+- L&D operations and vendor management (★★★)
+
+Roles that lean heavily on operational HR (payroll, benefits, compliance, HRIS admin, ER) are
+not a fit even if the title sounds right.
+
+### When to override a PASS
+
+Only override if ALL of these are true:
+1. The ★☆☆ requirement is listed as "preferred" not "required"
+2. AND there's an overwhelming advantage (cap-exempt + perfect title + Portland + personal connection)
+3. AND Jamie's ★★★ strengths cover 80%+ of the other requirements
+
+---
+
 ## 🟢 "Green Light" Companies
 
 * **Consulting:** Mercer, Aon, Korn Ferry, Deloitte (Human Capital), Accenture (Talent & Org), WTW, McKinsey Implementation, EY-Parthenon (People Advisory)
