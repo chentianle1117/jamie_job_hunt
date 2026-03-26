@@ -1,0 +1,17 @@
+# Cleanup logs (generated each run)
+cleanup_pages_done_*.json
+
+# Temporary output files
+email_body.txt
+telegram_msg.txt
+
+# Environment / secrets
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Claude Code local settings (user-specific)
+.claude/

@@ -1,0 +1,1 @@
+Get-Content "C:\Windows\Temp\jobs_rows.json" -Raw | & "C:\Users\chent\go\bin\gog.exe" sheets append 1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E "AI Search Bot Result!A1" --values-json - --insert INSERT_ROWS --account tianlechen0324@gmail.com
