@@ -16,7 +16,10 @@ You are helping Jamie (Yi-Chieh) Cheng evaluate whether a specific job is worth 
 Read these files (in parallel if possible):
 1. `jamie/preferences.md` — hard constraints, role priorities, fit scoring matrix, self-assessment
 2. `jamie/h1b_verified.md` — H1B verification cache
-3. `jamie/application_tracker.md` — check if she already applied to this company/role
+3. **Live application data** — Use WebFetch to pull Jamie's live Google Sheet:
+   - 2026 tab: `https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E/export?format=csv&gid=1018026840`
+   - 2025 tab: `https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E/export?format=csv&gid=0`
+   - If WebFetch fails, fall back to `jamie/application_tracker.md` (static snapshot)
 
 ### Step 2 — Get the Job Description
 
