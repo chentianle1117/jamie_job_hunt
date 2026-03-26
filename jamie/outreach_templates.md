@@ -90,50 +90,147 @@ Before drafting, read their profile for:
 
 ---
 
-## Message Templates (Adapt, Never Copy Verbatim)
+## LinkedIn Connection Requests (300 char limit)
 
-### Template A — Role-Specific Contact (someone on the team)
-```
-Hi {FirstName}, this is Jamie! I came across the {JobTitle} role at {Company}
-and noticed you work on the {their team/function} team. {Something specific
-about their work — e.g., "Your background in talent development at scale really
-caught my eye." OR "I saw your post about {topic} and found it really insightful."}
-I'd love to connect and hear about your experience — I'm exploring similar
-opportunities and would really value your perspective. Thank you!
-```
+These are short messages for the LinkedIn "Connect" button. Must be under 300 characters.
 
-### Template B — Alumni Connection
+### USC Alumni
 ```
-Hi {FirstName}! I'm Jamie, a fellow {USC/Wesleyan} alum ({graduation year}).
-I noticed you're at {Company} working in {their function} — {something specific
-about their career path, e.g., "your transition from consulting to in-house
-people ops is really inspiring"}. I'm currently looking at a {JobTitle} role
-there and would love to connect and learn about your experience. Hope to chat!
+Hi {FirstName}, this is Jamie, a fellow USC alum ✌️. I came across the {JobTitle}
+opportunity at {Company} and noticed that you work there. Can we connect to learn
+about your experience and any insights you might have about the role and the
+company? Thanks so much, and I hope to connect!
 ```
 
-### Template C — Hiring Manager (more formal, shorter)
+### Hiring Manager / Team Member
 ```
-Hi {FirstName}, I came across the {JobTitle} position on your team at {Company}
-and I'm very interested. {One sentence about why the role resonates — tied to
-THEIR team's work, not just Jamie's background.} I'd love the opportunity to
-connect and learn more about the team's priorities. Thank you for your time!
+Hi {FirstName}, this is Jamie! I came across a {JobTitle} opportunity at {Company}
+and noticed that you work there. Can we connect to learn about your experience
+and any insights you might have about the role and the company? Thanks so much,
+and I hope to connect!
 ```
 
-### Template D — Chinese-speaking Contact (bilingual sign-off)
+### Post-Application (already applied)
+```
+Hi {FirstName}! I recently applied to the {JobTitle} role at {Company} and was
+excited to see how well it aligns with my background and passion. I have a
+master's in Org Psych and experience in OD, EX, and program management. Can we
+connect and chat more about the role? Thank you!
+```
+
+### Shared Interest / Networking
+```
+Hi {FirstName}, Jamie here! I came across your profile and saw that you're also
+working in program management—always great to connect with others in the field.
+I've been focusing on product training and vendor management in my role, and
+would love to stay in touch and learn from each other!
+```
+
+### MAPP Alumni (USC Org Psych program)
+```
+Hi {FirstName}, this is Jamie—a fellow MAPP alum ✌️ I came across your profile
+and noticed we share similar career interests. I'd love to connect and learn
+more about your journey—thanks, and hope to chat soon!
+```
+
+### Wesleyan Alumni
+```
+Hi {FirstName}, this is Jamie—a fellow Wes alum! I noticed you're at {Company}
+working in {their function}. {Something specific about their career path.}
+I'd love to connect and learn about your experience. Hope to chat!
+```
+
+---
+
+## Follow-Up After Connecting (LinkedIn message or email)
+
+### Already Connected — Request Chat
+```
+Hi {FirstName}, thanks for connecting—hope you are doing well! Would it be
+possible for us to connect over a 15-minute Zoom call sometime in the next
+two weeks? :) I would love to learn more about your experience at {Company}
+as well as your career trajectory as an {their field} professional! Hope to
+hear back from you and happy {season/holiday}!
+```
+
+### Post-Application — Detailed Email to Hiring Manager
+```
+Subject: Interest in {Company}'s {JobTitle} Role — Jamie Cheng
+
+Hi {FirstName},
+
+This is Jamie—I hope you're doing well!
+
+I recently applied for the {JobTitle} role at {Company} and felt genuinely
+excited about the opportunity to contribute to meaningful work there—especially
+through approaches that are human-centered and data-driven!
+
+I have a background in organizational and educational psychology (from both
+my undergrad and graduate studies), and hands-on experience in L&D, program
+management, and employee experience across both startups and multinationals.
+{1-2 sentences connecting specific experience to their team's work.}
+
+I'd love the opportunity to connect and learn more about how I might be a
+good fit for this role. I've also attached my resume for reference.
+
+Thanks so much for your time, and I hope to speak with you soon!
+
+Warmly,
+Jamie Cheng
+```
+
+### Virtual Coffee Request (Portland-specific)
+```
+Subject: Quick coffee chat about {Company}'s {Team} team?
+
+Hi {FirstName},
+
+I hope you're doing well! I recently came across the {JobTitle} opportunity
+at {Company} and was excited to learn more about the team's work. I noticed
+you're part of {team/department}, and I'd love to hear about your experience.
+
+To introduce myself a bit: I currently work in program management, with
+experience in organizational development and HR, such as managing learning
+programs and optimizing global people processes for operational effectiveness.
+My husband and I will be moving back to Portland this May, so I've been
+exploring local opportunities and connecting with professionals in the area.
+
+If you'd be open to a brief 15-minute virtual coffee chat, I'd really
+appreciate the chance to learn more about your path and any insights you'd
+be willing to share about the team and culture.
+
+Thank you so much — I'd love to connect!
+
+Best,
+Jamie
+```
+
+### Mutual Connection Introduction Request
+```
+Hi {FirstName},
+
+I hope you've been doing well since we last spoke!
+
+Quick question for you—do you happen to know {ContactName} from {Company}?
+I saw that her company is hiring for a role I'm interested in and that she's
+a connection of yours on LinkedIn!
+
+If you do know her well, I wonder if you'd mind making an intro to see if
+she'd be open to chatting with me about her experience at the company?
+
+Thanks in advance for getting back to me—hope to hear from you again! 😊
+
+Warmly,
+Jamie
+```
+
+### Chinese-speaking Contact (bilingual sign-off)
 ```
 Hi {FirstName}, this is Jamie! I saw the {JobTitle} role at {Company} and
 noticed you work there. {Something specific about their work.} I'd love to
-connect and learn about your experience and any insights on the role. Thank
-you so much!
+connect and learn about your experience and any insights on the role.
+Thank you so much!
 可爱鸟鸟 🐣
-```
-
-### Template E — Warm Re-engagement (someone Jamie already connected with)
-```
-Hi {FirstName}! Hope you're doing well. I wanted to reach out because I noticed
-{Company} has a {JobTitle} opening that really aligns with what I'm looking for.
-Last time we chatted about {reference previous interaction}, and I'd love to
-reconnect and hear any insights you might have. Thanks so much!
 ```
 
 ---

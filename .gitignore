@@ -10,6 +10,9 @@ discovery_*.json
 verify_batch_*.json
 verified_candidates.json
 
+# Raw CSV exports (may contain passwords/credentials)
+*.csv
+
 # Environment / secrets
 .env
 *.env

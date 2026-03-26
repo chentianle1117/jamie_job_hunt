@@ -26,6 +26,7 @@ Read these before helping Jamie with any job-related task:
 | `jamie/h1b_verified.md` | Cache of companies verified for H1B sponsorship |
 | `jamie/watchlist.md` | Target companies across 7 tiers |
 | `jamie/search_strategy.md` | Search queries and strategy by role priority |
+| `jamie/application_tracker.md` | All applications with status, dates, contacts, outreach status |
 
 ## How to Help Jamie
 
