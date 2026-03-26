@@ -22,4 +22,6 @@ verified_candidates.json
 Thumbs.db
 
 # Claude Code local settings (user-specific, not shared)
-.claude/
+.claude/*
+# But DO track project-level skills (portable across machines)
+!.claude/skills/
