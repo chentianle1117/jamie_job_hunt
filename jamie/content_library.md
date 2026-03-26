@@ -358,11 +358,212 @@ I'm drawn to this {ROLE} role because it sits at the intersection of {JAMIE'S PA
 
 ---
 
+## Tailoring Playbook (Distilled from 20 Resume Variants)
+
+> **How to use:** When tailoring for a specific job, find the matching role type below.
+> Apply ALL dimensions simultaneously — summary, title, bullets, skills, location.
+> These are Jamie's actual patterns from real applications, not generic advice.
+
+### Quick Reference: 5 Decision Points
+
+| Dimension | What changes | Why |
+|---|---|---|
+| Summary line | Identity label + keywords + approach | Frames Jamie's professional identity for the role type |
+| InGenius job title | 4 variations | Signals PM vs L&D vs consulting vs product emphasis |
+| Bullet emphasis sets | 8 distinct sets (A–H) | Selects the most relevant accomplishments per role type |
+| Transition Projects pair | Pair A (results) or Pair B (diagnostic) | Completed impact vs forward-looking initiative |
+| Technical skills | 5 clusters | Shows the tools relevant to the role type |
+
+---
+
+### By Role Type
+
+#### L&D / Learning & Development
+
+| Dimension | Use |
+|---|---|
+| Summary identity | "Organizational Development professional" |
+| Summary keywords | "developing programs" / "improve people development" |
+| Summary approach | "human-centered, **systematic** approaches" |
+| InGenius title | **Program Enablement Manager** |
+| InGenius bullets | **Set A** — needs assessments for learning gaps, guides and workflows, **client conversion rate**, delivery strategy |
+| Transition Projects | **Pair A** (Upskill/Empower — completed results) |
+| Vestas | Standard set |
+| NextGen | Standard (engagement strategies) |
+| Kronos | Standard |
+| Skills | LMS (Canvas, Moodle) · MS Office · Data Analysis (SPSS, Excel) · Adobe InDesign · Canva |
+| Location | Portland or company-specific |
+| HRCI cert | Include |
+
+#### Program Management / Engagement
+
+| Dimension | Use |
+|---|---|
+| Summary identity | "Organizational Development professional" |
+| Summary keywords | "developing programs" / "improve people experience" |
+| Summary approach | "human-centered, **data-driven** approaches" |
+| InGenius title | **Program Manager, Enablement** |
+| InGenius bullets | **Set B** — establish cross-functional processes, listening sessions, communications strategy, **program enrollment rate** |
+| Transition Projects | **Pair B** (Facilitate/Redesign — forward-looking) |
+| Vestas | Standard or streamlined onboarding variant |
+| NextGen | Standard |
+| Kronos | Standard |
+| Skills | Project Management (Asana, Airtable) · MS Office · Data Analysis (Excel) · Google Workspace |
+| Location | "Open to Remote or Relocation (US-based)" or Portland |
+| HRCI cert | Include |
+
+#### HR / HRBP
+
+| Dimension | Use |
+|---|---|
+| Summary identity | "**Human Resources** professional" |
+| Summary keywords | "developing **people programs**" / "improve people experience" |
+| Summary approach | "human-centered, **systematic** approaches" |
+| InGenius title | **Program Enablement Manager** |
+| InGenius bullets | **Set H** — establish processes, listening sessions, communications strategy, program enrollment rate |
+| Transition Projects | **Pair A** (Upskill/Empower) |
+| Vestas | HR variant — "Supported HRBP team by piloting...", "Delivered strategic HR solutions for business priorities across projects in employee relations, headcount, and succession planning" |
+| NextGen | HR variant — "synthesizing engagement data", "provide reporting & insights", "leadership training and performance evaluations" |
+| Kronos | HR variant — "employee relations", "hard-to-fill", "Built global talent pipelines via targeted sourcing and workforce planning support" |
+| Skills | HRIS (SAP) · ATS (Greenhouse) · Data Analysis (Google Sheets, Excel, SPSS) · Microsoft Office |
+| Location | Portland or "Open to Remote" |
+| HRCI cert | Include |
+| Projects | "**Informed**" (not "Enhanced") Elanco |
+
+#### Consulting (Mercer, Deloitte, EY, etc.)
+
+| Dimension | Use |
+|---|---|
+| Summary identity | "Organizational Development professional" (**drop "97% extrovert!"**) |
+| Summary keywords | "developing programs" / "improve **business outcomes**" |
+| Summary approach | "human-centered, **data-driven** approaches" |
+| InGenius title | **Strategic Partnership & Program Enablement Manager** |
+| InGenius bullets | **Set G** — **30+** stakeholders, "via **data analysis**" (not "feedback analysis") |
+| Transition Projects | **Pair A** (Upskill/Empower) |
+| Vestas | Consulting variant — "**Launched**" DEI pilot, "**Directed** M&A integration", "clarifying **role** responsibilities", "**internal communications** and award-winning **HR initiatives**" |
+| NextGen | "Delivered projects in engagement, rewards & recognition, survey design & execution, and L&D to **elevate employee experience**" |
+| Kronos | Consulting variant — "**Standardized interview workflows and job description templates**", "hard-to-fill", "**personalized outreach and service**" |
+| Skills | **Survey Design & Data Analysis (Qualtrics, R, SPSS)** · MS Office · HRIS · ATS · CRM |
+| Location | Seattle or company-specific |
+| HRCI cert | **Drop** |
+| Projects | Promote YouTube capstone to full consulting project line; "**Informed**" Elanco |
+
+#### Talent Management
+
+| Dimension | Use |
+|---|---|
+| Summary identity | "**Talent Management** professional" |
+| Summary keywords | "developing programs" / "improve **talent experience**" |
+| Summary approach | "human-centered, **data-driven** approaches" |
+| InGenius title | **Program Enablement Manager** |
+| InGenius bullets | **Set E** — standardized processes, listening sessions, resource allocation/vendor logistics, program enrollment rate |
+| Transition Projects | **Pair A** + title changes to "Consultant, OD & **Talent Management**" |
+| Vestas | TM variant — M&A first, ER cases with legal counsel, "Partnered with DEI team", "Spearheaded HR Award-winning communications strategy" |
+| NextGen | HR/TM variant — "synthesizing engagement data", "leadership training", "performance assessment", "survey design" |
+| Kronos | TM variant — "recruiting and talent management to performance evaluation", "Built global talent pipelines" |
+| Skills | HRIS (SAP) · ATS (Greenhouse) · Data Analysis & Visualization (Excel, SPSS) · Microsoft Office |
+| Location | Portland |
+| HRCI cert | Include |
+
+#### Operations / Project Management
+
+| Dimension | Use |
+|---|---|
+| Summary identity | "**Strategic Program Manager**" |
+| Summary keywords | "developing **processes**" / "drive **operational excellence**" |
+| Summary approach | "human-centered, **data-driven** approaches" |
+| InGenius title | **Program Manager, Enablement** |
+| InGenius bullets | **Set F** — content creation, digital resource libraries, SOPs, webinar platforms, end-to-end project lifecycles |
+| Transition Projects | **Pair B** (Facilitate/Redesign) |
+| Vestas | Ops variant — streamlined onboarding via interviewing stakeholders, standardized workflows, "Supported HR operational workflows including purchase order and invoice processing and data-driven headcount forecasting" |
+| NextGen | Standard |
+| Kronos | Standard |
+| Skills | Project Management (Asana, Airtable) · Knowledge Management (SharePoint, Notion, Google Workspace) · MSFT Tools |
+| Location | Portland |
+| HRCI cert | **Drop** |
+
+#### Tech Company (Remote/Product-Oriented)
+
+| Dimension | Use |
+|---|---|
+| Summary identity | "**People Project Manager**" or "Organizational Development professional" |
+| Summary keywords | "developing **projects**" / "improve people experience" or "improve business operations" |
+| Summary approach | "human-centered, **data-driven** approaches" |
+| InGenius title | **Program Manager, Enablement** or **Product Enablement Manager** (for product companies) |
+| InGenius bullets | **Set D** — AI tools mention, "projects" not "programs", feedback loops, strategic objectives |
+| Transition Projects | Pair A or B (context-dependent) |
+| Vestas | Standard or gap analysis variant |
+| NextGen | Standard or "L&D strategies" variant |
+| Kronos | "**employer branding**" variant, "**genuine care and personalized outreach**" |
+| Skills | Project Management · Knowledge Management · **AI Productivity (ChatGPT, Notion AI, Gemini)** · MSFT Tools |
+| Location | "Open to Remote or Relocation (US-based)" or Seattle |
+| HRCI cert | **Drop** |
+| Special | Name the company's own product in skills if applicable (e.g., "Notion" for Notion) |
+
+---
+
+### Bullet Set Quick Reference
+
+| Set | Key Identifiers | Role Types |
+|---|---|---|
+| **A** | "needs assessments to identify **learning gaps**", "guides and workflows", "**client conversion** rate", "delivery strategy" | L&D, OD general |
+| **B** | "Establish cross-functional **processes**", "**listening sessions**", "**communications strategy**", "**program enrollment** rate" | PM/Engagement |
+| **C** | "cross-functional **workflows**", "needs assessment **interviews**", "program **design**, delivery" | Vendor/PM |
+| **D** | "**via AI tools**", "**projects**" (not programs), "**strategic objectives**", feedback loops | Tech companies |
+| **E** | "**Standardized** processes", "resource allocation, vendor logistics" | Talent Management |
+| **F** | "**digital resource libraries**", "**SOPs**", "webinar **platforms**", "end-to-end **lifecycles**", "**organize files**" | Operations/PM |
+| **G** | "**30+** stakeholders", "via **data analysis**" | Consulting |
+| **H** | Same as Set B but paired with HR-variant Vestas/NextGen/Kronos | HR/HRBP |
+
+### Transition Projects Pair Selection
+
+| Pair | Bullets | Best For |
+|---|---|---|
+| **A** "Upskill/Empower" | "Upskill HR team in data analytics to audit 300+ leave cases..." / "Empower HR to present executive-ready insights on $362K..." | L&D, HR, Consulting, OD — roles where **demonstrated quantified results** matter |
+| **B** "Facilitate/Redesign" | "Facilitate CEO/HR discovery and 10+ stay interviews to diagnose absenteeism..." / "Redesign engagement plan to clarify leave policy..." | PM, Ops, Engagement — roles where **diagnostic process and strategic initiative** matter |
+
+### Subtle Signals
+
+- **DEI terminology adapts:** "DEI pilot" (most), "Diversity & Inclusion" (Autodesk), "Diversity & Equity" (Instacart) — match the company's preferred framing
+- **"client conversion rate" vs "program enrollment rate"** — L&D/consulting = conversion (business impact); engagement/HR = enrollment (people impact)
+- **Drop "97% extrovert!" only for traditional consulting firms** (Mercer)
+- **Name the company's own product in skills** when applying to tech companies (e.g., Notion AI for Notion)
+- **Inflating stakeholder count (30+ vs 25+)** only used for Mercer/consulting — everywhere else stays 25+
+
+---
+
+### Resume Manifest (20 versions)
+
+| File | Company | Type | InGenius Title | Bullet Set | TP Pair | Location |
+|---|---|---|---|---|---|---|
+| _2026.pdf | Base/default | OD/EX | Program Enablement Mgr | A | A | Portland |
+| _2026_L&D.pdf | Generic L&D | L&D | Program Enablement Mgr | A | A | Portland |
+| _2026_HR.pdf | Generic HR | HR/HRBP | Program Enablement Mgr | H | A | Open to Remote |
+| _2026_Nike.pdf | Nike (ops) | Ops/PM | Project Mgr, Enablement | C | B | Portland |
+| _2026_Nike_TM.pdf | Nike (TM) | Talent Mgmt | Program Enablement Mgr | E | A | Portland |
+| _2026_Autodesk.pdf | Autodesk (L&D) | L&D | Program Enablement Mgr | A | A | Portland |
+| _2026_PM_Autodesk.pdf | Autodesk (PM) | Ops/PM | Program Mgr, Enablement | F | B | Portland |
+| _2026_Notion.pdf | Notion | Tech/PM | Program Mgr, Enablement | D | A | Open to Remote |
+| _2026_Roblox.pdf | Roblox | PM/Tech | Program Mgr, Enablement | C | B | Open to Remote |
+| _2026_Instacart.pdf | Instacart | PM/EX | Program Mgr, Enablement | B | B | Open to Remote |
+| _2026_RISE.pdf | RISE | PM/EX | Program Mgr, Enablement | B | B | Portland |
+| _2026_Swinerton.pdf | Swinerton | PM/EX | Program Mgr, Enablement | B | B | Portland |
+| _2026_Kforce Inc.pdf | Kforce | PM/Staffing | Program Mgr, Enablement | B | B | Open to Remote |
+| _2026_IntePros.pdf | IntePros (v2) | PM/Engagement | Program Mgr, Enablement | B | B | Open to Remote |
+| _IntePros.pdf | IntePros (v1) | Ops/PM | Program Mgr, Enablement | B | B | Open to Remote |
+| _Jamf.pdf | Jamf | OD/EX | Program Enablement Mgr | B | A | Open to Remote |
+| _Smarsh.pdf | Smarsh | PM/EX | Program Mgr, Enablement | B | B | Portland |
+| _Disney.pdf | Disney | HR/HRBP | Program Enablement Mgr | H | A | Portland |
+| _Mercer.pdf | Mercer | Consulting | Strategic Partnership & PM Enablement Mgr | G | A | Seattle |
+| _Anthropic.pdf | Anthropic | Tech/Product | Product Enablement Mgr | A (product variant) | A | Seattle |
+
+---
+
 ## File Update Log
 
-
-| Date       | Action                                                                                                                             |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Date | Action |
+|---|---|
 | 2026-03-24 | Created from David's comprehensive content dump. All resume variants, self-intros, email templates, and building blocks organized. |
+| 2026-03-26 | Added Tailoring Playbook distilled from all 20 resume variants. Codified 7 role-type recipes, 8 bullet sets, 2 transition pairs, 5 skills clusters, and resume manifest. |
 
 
