@@ -59,7 +59,7 @@ The user (David) must have:
 
 ```
 Base dir (Windows):   C:\Users\chent\Agentic_Workflows_2026\oracle-job-search\
-Base dir (VM):        /sessions/*/mnt/Agentic_Workflows_2026/oracle-job-search/
+Base dir (VM):        /sessions/*/mnt/Agentic_Workflows_2026/oracle-jamie/
 Notion DB ID:         442438a9-e372-48b7-b5f5-5f6ed8ee8e99
 Notion DS URL:        collection://442438a9-e372-48b7-b5f5-5f6ed8ee8e99
 Notion view URL:      https://www.notion.so/ea7cccd43f7a47a6b93a196241eb8d61
@@ -73,9 +73,9 @@ Google Sheet Tab:     AI Search Bot Result
 
 **Reference files** (read each run):
 ```
-job-search/watchlist.md       — 80+ target companies across 7 tiers (check every run)
-job-search/h1b_verified.md    — H1B verification cache (skip re-verifying known companies)
-job-search/outreach_templates.md — Jamie's networking style + message drafting protocol
+jamie/watchlist.md       — 80+ target companies across 7 tiers (check every run)
+jamie/h1b_verified.md    — H1B verification cache (skip re-verifying known companies)
+jamie/outreach_templates.md — Jamie's networking style + message drafting protocol
 ```
 
 **Output files** (Claude writes these each run):
@@ -635,7 +635,7 @@ WebSearch: "people programs manager" OR "talent programs coordinator" Portland O
 
 #### 2d-2. Watchlist Company Check (NEW v3.0)
 
-> **Read `job-search/watchlist.md` at the start of every run.**
+> **Read `jamie/watchlist.md` at the start of every run.**
 > Check ALL companies marked 🔄 ACTIVE in Tiers 1-3 via WebSearch or Chrome.
 > Update `last_checked` dates. Add any new companies discovered during search.
 
@@ -648,7 +648,7 @@ WebSearch: "people programs manager" OR "talent programs coordinator" Portland O
 
 #### 2d-3. H1B Verification Cache (NEW v3.0)
 
-> **Read `job-search/h1b_verified.md` before assessing any candidate.**
+> **Read `jamie/h1b_verified.md` before assessing any candidate.**
 > If company is ✅ Confirmed → skip H1B verification step.
 > If company is ❌ No H1B → immediate reject.
 > If company is NOT in the cache → verify via myvisajobs.com + JD language, then ADD to cache.
@@ -1381,7 +1381,7 @@ Rotate through 7 verses (day-of-week index, 0=Sun):
 0: Joshua 1:9 | 1: Jeremiah 29:11 | 2: Philippians 4:13 | 3: Isaiah 41:10
 4: Romans 15:13 | 5: Psalm 73:26 | 6: Isaiah 40:31
 
-Get Chinese + English text from `job-search/bible-verses.md`.
+Get Chinese + English text from `jamie/bible_verses.md`.
 
 ### Step 8 — Write email_body.txt
 
@@ -1642,14 +1642,13 @@ Run {N} · {Date} · {Day of Week}
 ## 📁 Reference Files
 
 ```
-job-search/resume.md              — Jamie's resume (GROUND TRUTH for tailoring)
-job-search/preferences.md         — Role priorities, fit criteria, search queries
-job-search/bible-verses.md        — Verses with Chinese translations
-job-search/bio_and_style.md       — Background and tone
-job-search/watchlist.md            — 80+ target companies across 7 tiers (NEW v3.0)
-job-search/h1b_verified.md        — H1B verification cache (NEW v3.0)
-job-search/outreach_templates.md  — Networking style guide + message drafting (NEW v3.0)
-job-search/jamie_content_library.md — MASTER content library: resume bullet variants, self-intros,
+jamie/resume.md              — Jamie's resume (GROUND TRUTH for tailoring)
+jamie/preferences.md         — Role priorities, fit criteria, search queries
+jamie/bible_verses.md        — Verses with Chinese translations
+jamie/watchlist.md            — 80+ target companies across 7 tiers (NEW v3.0)
+jamie/h1b_verified.md        — H1B verification cache (NEW v3.0)
+jamie/outreach_templates.md  — Networking style guide + message drafting (NEW v3.0)
+jamie/content_library.md — MASTER content library: resume bullet variants, self-intros,
                                        recruiter emails, cover letter blocks, "why company" templates (NEW v3.1)
 ```
 

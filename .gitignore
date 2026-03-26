@@ -1,9 +1,14 @@
-# Cleanup logs (generated each run)
+# Pipeline run artifacts (regenerated each run)
 cleanup_pages_done_*.json
-
-# Temporary output files
+cleanup_pages.json
 email_body.txt
 telegram_msg.txt
+jobs_rows.json
+
+# Discovery & verification batch files (intermediate pipeline data)
+discovery_*.json
+verify_batch_*.json
+verified_candidates.json
 
 # Environment / secrets
 .env
@@ -13,5 +18,5 @@ telegram_msg.txt
 .DS_Store
 Thumbs.db
 
-# Claude Code local settings (user-specific)
+# Claude Code local settings (user-specific, not shared)
 .claude/
