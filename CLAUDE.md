@@ -27,6 +27,7 @@ Read these before helping Jamie with any job-related task:
 | `jamie/watchlist.md` | Target companies across 7 tiers |
 | `jamie/search_strategy.md` | Search queries and strategy by role priority |
 | `jamie/application_tracker.md` | All applications with status, dates, contacts, outreach status |
+| `resume_bank/` | 20 tailored resume PDFs + 5 cover letters for past applications (reference for how Jamie adapts bullets per company) |
 
 ## How to Help Jamie
 

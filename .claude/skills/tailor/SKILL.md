@@ -18,6 +18,11 @@ Read these files:
 1. `jamie/content_library.md` — ALL bullet variants per role, self-intro versions, "what makes me stand out" blocks
 2. `jamie/resume.md` — current default resume (what's on the PDF now)
 3. `jamie/preferences.md` — specifically the "Resume Tailoring Rules" section
+4. **If a similar company/role exists in `resume_bank/`** — read that PDF to see how Jamie
+   previously tailored for a similar role. This is the best reference for her actual preferences.
+   Examples: `resume_bank/Resume_...Nike.pdf` for retail/ops roles,
+   `resume_bank/Resume_...L&D.pdf` for learning-focused roles,
+   `resume_bank/Resume_...HR.pdf` for HRBP roles, etc.
 
 ### Step 2 — Understand the Target JD
 
