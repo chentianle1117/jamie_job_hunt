@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "INPUT=$(cat); FILE=$(echo \"$INPUT\" | jq -r '.tool_input.file_path // empty'); if [[ -n \"$FILE\" ]] && ([[ \"$FILE\" == *\"/jamie/\"* ]] || [[ \"$FILE\" == *\"/pipeline/\"* ]] || [[ \"$FILE\" == *\"/.claude/skills/\"* ]]); then cd /Users/jamiecheng/jamie_job_hunt && eval \"$(/opt/homebrew/bin/brew shellenv zsh)\" && git add \"$FILE\" && git commit -m \"Auto-sync: update $(basename \\\"$FILE\\\") $(date +%Y-%m-%d)\" && git push origin main; fi 2>/dev/null || true",
+            "timeout": 30,
+            "statusMessage": "Syncing changes to GitHub..."
+          }
+        ]
+      }
+    ]
+  }
+}

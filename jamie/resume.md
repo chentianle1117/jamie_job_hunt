@@ -104,7 +104,7 @@
 - **HRIS/ATS:** Greenhouse
 - **LMS:** Canvas, Moodle
 - **Analytics:** SPSS, Excel (advanced), data visualization
-- **PM Tools:** Asana, Jira, MS Office Suite
+- **PM Tools:** Airtable, Asana, Jira, MS Office Suite
 - **Languages:** English (fluent), Mandarin Chinese (native), Spanish (basic)
 - **Certifications:** HRCI certification in progress
 
