@@ -20,3 +20,6 @@ verified_candidates.json
 # OS files
 .DS_Store
 Thumbs.db
+
+# Git worktrees (auto-managed by git, not for tracking)
+.claude/worktrees/

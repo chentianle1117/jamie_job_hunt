@@ -2,11 +2,11 @@
   "hooks": {
     "PostToolUse": [
       {
-        "matcher": "Edit|Write",
+        "matcher": "Edit|Write|Bash",
         "hooks": [
           {
             "type": "command",
-            "command": "INPUT=$(cat); FILE=$(echo \"$INPUT\" | jq -r '.tool_input.file_path // empty'); if [[ -n \"$FILE\" ]] && ([[ \"$FILE\" == *\"/jamie/\"* ]] || [[ \"$FILE\" == *\"/pipeline/\"* ]] || [[ \"$FILE\" == *\"/.claude/skills/\"* ]]); then cd /Users/jamiecheng/jamie_job_hunt && eval \"$(/opt/homebrew/bin/brew shellenv zsh)\" && git add \"$FILE\" && git commit -m \"Auto-sync: update $(basename \\\"$FILE\\\") $(date +%Y-%m-%d)\" && git push origin main; fi 2>/dev/null || true",
+            "command": "INPUT=$(cat); FILE=$(echo \"$INPUT\" | jq -r '.tool_input.file_path // .tool_input.command // empty'); if [[ \"$FILE\" == *\"/jamie_job_hunt/\"* ]] || [[ \"$FILE\" == *\"resume\"* ]] || [[ \"$FILE\" == *\"jamie/\"* ]] || [[ \"$FILE\" == *\"resume_bank\"* ]]; then cd /Users/jamiecheng/jamie_job_hunt && eval \"$(/opt/homebrew/bin/brew shellenv zsh)\" && git add -A && CHANGED=$(git diff --cached --name-only 2>/dev/null | head -5 | tr '\\n' ' ') && if [[ -n \"$CHANGED\" ]]; then git commit -m \"Auto-sync: update $CHANGED($(date +%Y-%m-%d))\" && git push origin main; fi; fi 2>/dev/null || true",
             "timeout": 30,
             "statusMessage": "Syncing changes to GitHub..."
           }
