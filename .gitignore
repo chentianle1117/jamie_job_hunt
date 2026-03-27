@@ -20,9 +20,3 @@ verified_candidates.json
 # OS files
 .DS_Store
 Thumbs.db
-
-# Claude Code local settings (user-specific, not shared)
-.claude/*
-# But DO track project-level skills and shared hooks (portable across machines)
-!.claude/skills/
-!.claude/settings.json
