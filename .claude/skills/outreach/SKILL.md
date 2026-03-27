@@ -29,32 +29,76 @@ From `$ARGUMENTS` or the current conversation, confirm:
 
 ### Step 3 — Find Contacts
 
-Search for potential contacts in this priority order:
+There are two modes depending on whether Chrome is available:
+
+---
+
+#### MODE A: With Chrome (`claude --chrome` or `/chrome` enabled)
+
+Chrome mode gives direct access to LinkedIn with Jamie's logged-in session. This is
+much more powerful — you can read full profiles, see mutual connections, and check
+alumni filters directly.
+
+**Step 3a — Navigate to company's LinkedIn People page:**
+1. Navigate to `https://www.linkedin.com/company/{company-slug}/people/`
+2. Use `get_page_text` to read the People page
+3. Filter by keywords: "HR", "People", "Talent", "L&D", "OD"
+
+**Step 3b — Search for alumni connections:**
+1. Navigate to `https://www.linkedin.com/search/results/people/?keywords={company}&school=university-of-southern-california`
+2. Read results with `get_page_text` — look for USC alumni at the company
+3. Repeat for Wesleyan: `&school=wesleyan-university`
+
+**Step 3c — Read individual profiles:**
+For each promising contact (aim for 2-3):
+1. Navigate to their LinkedIn profile URL
+2. Use `get_page_text` to extract:
+   - Current title and how long at the company
+   - Previous roles (career trajectory)
+   - Education (USC, Wesleyan, or other shared background)
+   - Recent posts or activity (use as conversation starter)
+   - Mutual connections
+   - Location
+3. Note 1-2 SPECIFIC details to reference in the outreach message
+
+**Step 3d — Pre-fill connection requests (if Jamie wants):**
+1. On the contact's profile, click "Connect"
+2. Click "Add a note"
+3. Type the drafted message into the note field
+4. **STOP — do NOT click Send.** Tell Jamie: "Message pre-filled for [Name]. Review and send when ready."
+
+> **Important:** Always pause before sending. Jamie controls the send button.
+> If LinkedIn shows a CAPTCHA or login prompt, pause and tell Jamie to handle it manually.
+
+---
+
+#### MODE B: Without Chrome (WebSearch fallback)
+
+Use WebSearch when Chrome is not available:
 
 **Priority 1 — Alumni connections:**
-Use WebSearch:
 ```
 site:linkedin.com/in "{company}" "USC" OR "University of Southern California"
 site:linkedin.com/in "{company}" "Wesleyan" OR "Wesleyan University"
 ```
 
 **Priority 2 — Hiring manager / team members:**
-Use WebSearch:
 ```
 site:linkedin.com/in "{company}" "people" OR "HR" OR "talent" "manager" OR "director"
 site:linkedin.com/in "{company}" "people programs" OR "talent development" OR "L&D"
 ```
 
 **Priority 3 — Department-adjacent contacts:**
-Use WebSearch:
 ```
 site:linkedin.com/in "{company}" "recruiting" OR "DEIB" OR "employee experience"
 ```
 
-For each contact found, note:
+---
+
+For each contact found (either mode), note:
 - Name, current title, how long at the company
 - Connection type: alumni / team member / hiring manager / adjacent
-- Anything specific from their LinkedIn snippet (recent promotion, shared interest, etc.)
+- Anything specific from their profile (recent promotion, shared interest, mutual connection, etc.)
 
 ### Step 4 — Check for Existing Connections
 

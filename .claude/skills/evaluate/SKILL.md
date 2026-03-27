@@ -24,8 +24,13 @@ Read these files (in parallel if possible):
 ### Step 2 — Get the Job Description
 
 If `$ARGUMENTS` contains a URL:
-- Use WebFetch to retrieve the page content and extract the JD
-- If the URL is a LinkedIn job link, try to extract the job details
+- **With Chrome:** Navigate to the URL and use `get_page_text` to read the full JD.
+  This is especially important for JS-rendered ATS pages (Greenhouse, Lever, Ashby, Workday)
+  that WebFetch cannot read. Also check if the posting is still live — look for
+  "No longer accepting applications", 404 pages, or redirect to job board homepage.
+- **Without Chrome:** Use WebFetch to retrieve the page content and extract the JD.
+  If WebFetch returns a 403/redirect/empty page, ask Jamie to paste the JD text directly.
+- If the URL is a LinkedIn job link, Chrome mode is strongly preferred (LinkedIn blocks WebFetch).
 
 If `$ARGUMENTS` contains pasted text:
 - Parse it directly as a job description
