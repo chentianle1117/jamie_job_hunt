@@ -170,15 +170,15 @@
 
     /* ── JD Panel ── */
     .jd-panel {
-      flex: 0 0 36%; background: #1a1a2e; color: #cfd8dc;
+      flex: 0 0 36%; background: #1a1a2e; color: #e8ecef;
       font-family: 'Inter','Segoe UI',sans-serif; font-size: 11px; line-height: 1.65;
       overflow-y: auto; max-height: calc(100vh - 36px);
       padding: 20px 22px; border-left: 3px solid #0d1117;
     }
     .jd-header { margin-bottom: 16px; border-bottom: 1px solid #333; padding-bottom: 10px; }
-    .jd-header h3 { font-size: 13px; color: #ecf0f1; margin: 0 0 4px 0; letter-spacing: 0.5px; }
-    .jd-meta { color: #7f8c9b; font-size: 10px; }
-    .jd-section-title { font-size: 11px; color: #8899aa; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px; margin: 14px 0 6px 0; }
+    .jd-header h3 { font-size: 13px; color: #ffffff; margin: 0 0 4px 0; letter-spacing: 0.5px; }
+    .jd-meta { color: #a0aab4; font-size: 10px; }
+    .jd-section-title { font-size: 11px; color: #b0c4d8; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px; margin: 14px 0 6px 0; }
     .jd-content p { margin-bottom: 8px; }
     .jd-content ul { margin: 0 0 8px 16px; }
     .jd-content li { margin-bottom: 4px; }
@@ -186,11 +186,11 @@
     /* ── JD highlights (color-coded to resume) ── */
     .jd-hl {
       display: inline; padding: 1px 3px; border-radius: 2px; cursor: pointer;
-      transition: outline 0.15s;
+      transition: outline 0.15s; color: #fff;
     }
-    .jd-swap  { background: rgba(230,168,23,0.2); border-bottom: 2px solid #e6a817; }
-    .jd-order { background: rgba(41,128,185,0.2); border-bottom: 2px solid #2980b9; }
-    .jd-word  { background: rgba(192,57,43,0.2); border-bottom: 2px solid #c0392b; }
+    .jd-swap  { background: rgba(230,168,23,0.3); border-bottom: 2px solid #e6a817; }
+    .jd-order { background: rgba(41,128,185,0.3); border-bottom: 2px solid #2980b9; }
+    .jd-word  { background: rgba(192,57,43,0.3); border-bottom: 2px solid #c0392b; }
     .jd-hl.active { outline: 2px solid; outline-offset: 2px; }
     .jd-swap.active  { outline-color: #e6a817; }
     .jd-order.active { outline-color: #2980b9; }
@@ -198,8 +198,8 @@
 
     /* Reasoning annotation */
     .jd-reason {
-      display: block; font-size: 9px; color: #6b7b8d; margin: 2px 0 10px 4px;
-      font-style: italic; padding-left: 8px; border-left: 2px solid #333;
+      display: block; font-size: 9px; color: #9bb0c4; margin: 2px 0 10px 4px;
+      font-style: italic; padding-left: 8px; border-left: 2px solid #444;
     }
 
     /* ── SVG connection lines ── */
@@ -208,9 +208,9 @@
       pointer-events: none; z-index: 9997;
     }
     .connection-svg path {
-      fill: none; stroke-width: 1.5; opacity: 0.35; transition: opacity 0.15s, stroke-width 0.15s;
+      fill: none; stroke-width: 2; opacity: 0; transition: opacity 0.2s;
     }
-    .connection-svg path.active { stroke-width: 2.5; opacity: 0.9; }
+    .connection-svg path.active { opacity: 0.85; }
     .connection-svg .conn-swap  { stroke: #e6a817; }
     .connection-svg .conn-order { stroke: #2980b9; }
     .connection-svg .conn-word  { stroke: #c0392b; }
@@ -503,138 +503,120 @@
   var jdPanel = document.getElementById('jd-panel');
   if (!svg || !resumePanel || !jdPanel) return;
 
-  // ── Draw bezier connection lines ──
-  function drawConnections() {
-    svg.innerHTML = '';
-    if (document.body.classList.contains('diff-off')) return;
-
-    var els = document.querySelectorAll('[data-jd]');
-    els.forEach(function(el) {
-      var jdIds = el.dataset.jd.split(',');
-      jdIds.forEach(function(jdId) {
-        var jdEl = document.getElementById(jdId.trim());
-        if (!jdEl) return;
-
-        var rRect = el.getBoundingClientRect();
-        var jRect = jdEl.getBoundingClientRect();
-
-        // Skip if either is off-screen
-        if (rRect.height === 0 || jRect.height === 0) return;
-
-        var x1 = rRect.right;
-        var y1 = rRect.top + rRect.height / 2;
-        var x2 = jRect.left;
-        var y2 = jRect.top + jRect.height / 2;
-
-        var cpOffset = Math.min(Math.abs(x2 - x1) * 0.4, 80);
-
-        var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-        path.setAttribute('d',
-          'M ' + x1 + ',' + y1 +
-          ' C ' + (x1 + cpOffset) + ',' + y1 +
-          ' ' + (x2 - cpOffset) + ',' + y2 +
-          ' ' + x2 + ',' + y2
-        );
-
-        // Determine color class
-        var cls = 'conn-word';
-        if (el.classList.contains('changed')) cls = 'conn-swap';
-        else if (el.classList.contains('reordered')) cls = 'conn-order';
-        path.classList.add(cls);
-        path.dataset.resumeId = getElId(el);
-        path.dataset.jdId = jdId.trim();
-
-        svg.appendChild(path);
-      });
-    });
-  }
-
   function getElId(el) {
     if (!el.id) el.id = 'r_' + Math.random().toString(36).substr(2, 6);
     return el.id;
   }
 
-  // ── Hover interaction ──
-  function activateLink(resumeEl, jdId) {
-    resumeEl.classList.add('active');
-    var jdEl = document.getElementById(jdId);
-    if (jdEl) {
-      jdEl.classList.add('active');
-      // Scroll JD panel to show this excerpt
-      jdEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
-    // Highlight SVG paths
-    svg.querySelectorAll('path').forEach(function(p) {
-      if (p.dataset.resumeId === resumeEl.id && p.dataset.jdId === jdId) {
-        p.classList.add('active');
-      }
+  // ── Draw lines ONLY for a specific hover pair ──
+  // Lines go from the resume element's right edge to the JD element's left edge,
+  // with a smooth bezier curve through the gap between panels.
+  function drawLinesFor(resumeEl, jdIds) {
+    svg.innerHTML = '';
+    if (!resumeEl || !jdIds || !jdIds.length) return;
+
+    jdIds.forEach(function(jdId) {
+      var jdEl = document.getElementById(jdId.trim());
+      if (!jdEl) return;
+
+      var rRect = resumeEl.getBoundingClientRect();
+      var jRect = jdEl.getBoundingClientRect();
+      if (rRect.height === 0 || jRect.height === 0) return;
+
+      // Start: right edge of the resume element, vertically centered
+      var x1 = rRect.right + 4;
+      var y1 = rRect.top + rRect.height / 2;
+
+      // End: left edge of the JD element, vertically centered
+      var x2 = jRect.left - 4;
+      var y2 = jRect.top + jRect.height / 2;
+
+      // Clamp y to visible area (below toolbar)
+      y1 = Math.max(40, Math.min(window.innerHeight - 4, y1));
+      y2 = Math.max(40, Math.min(window.innerHeight - 4, y2));
+
+      // Control point offset scales with the horizontal gap
+      var gap = Math.abs(x2 - x1);
+      var cpX = Math.max(gap * 0.35, 40);
+
+      var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      path.setAttribute('d',
+        'M ' + x1 + ',' + y1 +
+        ' C ' + (x1 + cpX) + ',' + y1 +
+        ' ' + (x2 - cpX) + ',' + y2 +
+        ' ' + x2 + ',' + y2
+      );
+
+      var cls = 'conn-word';
+      if (resumeEl.classList.contains('changed')) cls = 'conn-swap';
+      else if (resumeEl.classList.contains('reordered')) cls = 'conn-order';
+      path.classList.add(cls);
+      path.classList.add('active');
+      svg.appendChild(path);
     });
   }
 
-  function deactivateAll() {
+  function clearAll() {
+    svg.innerHTML = '';
     document.querySelectorAll('.active').forEach(function(el) {
       el.classList.remove('active');
     });
-    svg.querySelectorAll('path.active').forEach(function(p) {
-      p.classList.remove('active');
-    });
   }
 
-  // Resume side → JD side
+  // ── Resume side hover → show lines to JD ──
   document.addEventListener('mouseover', function(e) {
     if (document.body.classList.contains('diff-off')) return;
     var el = e.target.closest('[data-jd]');
     if (el && resumePanel.contains(el)) {
-      deactivateAll();
-      el.dataset.jd.split(',').forEach(function(jdId) {
-        activateLink(el, jdId.trim());
+      clearAll();
+      el.classList.add('active');
+      var jdIds = el.dataset.jd.split(',');
+      // Scroll JD excerpts into view instantly, then draw lines after layout settles
+      jdIds.forEach(function(jdId) {
+        var jdEl = document.getElementById(jdId.trim());
+        if (jdEl) {
+          jdEl.classList.add('active');
+          jdEl.scrollIntoView({ behavior: 'instant', block: 'center' });
+        }
+      });
+      requestAnimationFrame(function() {
+        requestAnimationFrame(function() {
+          drawLinesFor(el, jdIds);
+        });
       });
     }
   });
 
-  // JD side → Resume side
+  // ── JD side hover → show lines to resume ──
   jdPanel.addEventListener('mouseover', function(e) {
     if (document.body.classList.contains('diff-off')) return;
     var mark = e.target.closest('.jd-hl');
     if (mark) {
-      deactivateAll();
+      clearAll();
       mark.classList.add('active');
-      // Find all resume elements linking to this JD id
+      var matched = [];
       document.querySelectorAll('[data-jd]').forEach(function(el) {
-        if (el.dataset.jd.split(',').map(function(s){return s.trim()}).indexOf(mark.id) >= 0) {
+        var ids = el.dataset.jd.split(',').map(function(s){return s.trim()});
+        if (ids.indexOf(mark.id) >= 0) {
           el.classList.add('active');
-          el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-          // Highlight matching SVG path
-          svg.querySelectorAll('path').forEach(function(p) {
-            if (p.dataset.jdId === mark.id && p.dataset.resumeId === el.id) {
-              p.classList.add('active');
-            }
-          });
+          el.scrollIntoView({ behavior: 'instant', block: 'center' });
+          matched.push(el);
         }
+      });
+      requestAnimationFrame(function() {
+        requestAnimationFrame(function() {
+          matched.forEach(function(el) { drawLinesFor(el, [mark.id]); });
+        });
       });
     }
   });
 
-  // Clear on mouseout from both panels
+  // ── Clear everything on mouseout ──
   document.addEventListener('mouseout', function(e) {
     var leaving = e.target.closest('[data-jd], .jd-hl');
     var entering = e.relatedTarget ? e.relatedTarget.closest('[data-jd], .jd-hl') : null;
-    if (leaving && !entering) deactivateAll();
+    if (leaving && !entering) clearAll();
   });
-
-  // Redraw on scroll or resize
-  var redrawTimer;
-  function scheduleRedraw() {
-    clearTimeout(redrawTimer);
-    redrawTimer = setTimeout(drawConnections, 16);
-  }
-
-  resumePanel.addEventListener('scroll', scheduleRedraw);
-  jdPanel.addEventListener('scroll', scheduleRedraw);
-  window.addEventListener('resize', scheduleRedraw);
-
-  // Initial draw after DOM settles
-  setTimeout(drawConnections, 200);
 })();
 </script>
 
