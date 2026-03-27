@@ -3,240 +3,215 @@ name: tailor
 description: >
   Tailor Jamie's resume for a specific job description. Use when Jamie says "tailor my resume",
   "help me with my resume for this job", "which bullets should I use?", "customize resume",
-  or after /evaluate recommends GO. Selects best bullet variants, suggests wording changes,
-  and provides a complete recommended bullet set that fits on one page.
+  or after /evaluate recommends GO. Selects best bullet variants, applies word-level JD keyword
+  swaps, and produces a tailored HTML with diff UI (toolbar, change-log, highlights).
 argument-hint: "<paste job description or reference the job just evaluated>"
 ---
 
 ## Stage 2: Resume Tailoring
 
-You are helping Jamie select and fine-tune resume bullets for a specific application.
-
 ### Step 1 — Load Context
 
 Read these files:
-1. `jamie/content_library.md` — ALL bullet variants per role, self-intro versions, "what makes me stand out" blocks
-2. `jamie/resume.md` — current default resume (what's on the PDF now)
-3. `jamie/preferences.md` — specifically the "Resume Tailoring Rules" section
-4. **If a similar company/role exists in `resume_bank/`** — read that PDF to see how Jamie
-   previously tailored for a similar role. This is the best reference for her actual preferences.
-   Examples: `resume_bank/Resume_...Nike.pdf` for retail/ops roles,
-   `resume_bank/Resume_...L&D.pdf` for learning-focused roles,
-   `resume_bank/Resume_...HR.pdf` for HRBP roles, etc.
+1. `jamie/content_library.md` — ALL bullet variants per role, self-intro versions
+2. `jamie/preferences.md` — Resume Tailoring Rules section
+3. `resume_templates/TEMPLATES.md` — which template maps to which role type
+4. **If a similar role exists in `tailored_resumes/`** — read that HTML to see prior tailoring decisions
 
-### Step 2 — Understand the Target JD
+### Step 2 — Pick the Right Template
 
-If `$ARGUMENTS` contains a job description, use it.
-If not, ask Jamie to paste it or reference which job from the current conversation.
+Based on the JD, select the closest template from `resume_templates/`:
+
+| JD emphasis | Template |
+|-------------|----------|
+| "employee/workplace experience", "culture", "people programs" | `template_EX-WX.html` |
+| "program management", "project lifecycle", "operations" | `template_PM.html` |
+| "learning design", "L&D", "curriculum", "enablement" | `template_LD.html` |
+| "HRBP", "HR generalist", "ER", "talent" | `template_HR-HRBP.html` |
+| General / unclear | `template_base.html` |
+
+Copy the template:
+```bash
+cp resume_templates/template_EX-WX.html tailored_resumes/Company_RoleType_YYYY-MM-DD.html
+```
+
+Also copy it as the active working file:
+```bash
+cp resume_templates/template_EX-WX.html jamie/resume.html
+```
+
+### Step 3 — Understand the Target JD
 
 Extract:
-- **Key requirements** the JD emphasizes (ranked by prominence)
-- **Keywords** that appear repeatedly (these are what ATS and hiring managers scan for)
-- **Tone** of the JD (startup casual? corporate formal? mission-driven?)
+- **Key requirements** ranked by prominence
+- **Keywords** that appear repeatedly (ATS + hiring manager scan targets)
+- **Tone** (startup casual? corporate formal? mission-driven?)
 
-### Step 3 — Select Bullet Variants
+### Step 4 — Select Bullet Variants
 
-For each role in Jamie's resume, `jamie/content_library.md` has multiple variant sets:
-- **Core variants** — general purpose
-- **Program Management emphasis**
-- **L&D/Operations emphasis**
-- **Vendor/Program Management emphasis**
-- **Engagement/HR emphasis**
-
-Select the variant set per role that best matches the JD. Then within that set, pick the
-4 strongest bullets (Jamie's resume has 4 bullets per role to stay on one page).
+The chosen template already has a good starting set. Review each role and decide:
+1. Does the template's InGenius variant set match this JD, or should you switch?
+2. Should any bullets from a different variant set replace the weakest bullet?
+3. What reordering within each role would put the most JD-relevant bullet first?
 
 **Decision framework:**
 1. Which variant set has the most natural keyword overlap with the JD?
 2. Within that set, which 4 bullets demonstrate the most relevant accomplishments?
-3. Do any individual bullets from OTHER variant sets fit better than the weakest bullet in the chosen set?
+3. Do any individual bullets from OTHER variant sets fit better than the weakest?
 
-### Step 4 — Fine-Tune Wording
+### Step 5 — Fine-Tune Wording (Word-Level Swaps)
 
-This is the critical step. Jamie's #1 complaint about AI resume help is that it sounds **too cliche**.
+This is critical. Jamie's #1 complaint: **AI resume help sounds too cliche**.
 
 **Rules:**
 - DO naturally incorporate 3-5 key terms from the JD into existing bullet language
-- DO reorder bullets so the most relevant one comes first under each role
-- DO suggest small wording tweaks (swap a verb, add a qualifier) to better align
-- DO NOT rewrite bullets from scratch — these are Jamie's words about her real experience
-- DO NOT stuff every JD keyword into every bullet — that's what makes it sound fake
-- DO NOT use phrases like "drove strategic transformation", "spearheaded cross-functional synergies", "leveraged holistic approaches" unless she literally did that specific thing
-- DO NOT make all bullets sound the same — vary sentence structure and opening verbs
+- DO reorder bullets so the most relevant one comes first
+- DO suggest small wording tweaks (swap a verb, add a qualifier)
+- DO NOT rewrite bullets from scratch — these are Jamie's words
+- DO NOT stuff every JD keyword into every bullet
+- DO NOT use "drove strategic transformation", "spearheaded cross-functional synergies", etc.
+- DO NOT make all bullets sound the same — vary sentence structure
 
-**The balance:** Hit the KEY IDEAS the JD is looking for (e.g., "program management at scale",
-"data-driven decision making", "stakeholder collaboration") rather than copying its exact phrases.
-The reader should think "this person has done the work" not "this person copied our JD into their resume."
+**Goal:** Hit the KEY IDEAS the JD looks for, not copy exact phrases. Reader should think
+"this person has done the work" not "this person copied our JD."
 
-### Step 5 — Check One-Page Constraint
+### Step 6 — Deliver Recommendations (Chat First)
 
-Jamie's resume MUST stay on one page. Each role gets exactly 4 bullet points.
-The layout is fixed:
-- Header + summary (3 lines)
-- 5 roles × (title/company line + 4 bullets)
-- Education (2 schools)
-- Projects & Awards (3 lines)
-- Skills (3 lines)
-
-If your suggested bullets are longer than the originals, flag it:
-"This bullet is ~15 chars longer than the original — may push the page. Consider trimming: [suggestion]"
-
-### Step 6 — Deliver Recommendations
-
-Format your response as:
+Present the tailoring plan before touching the HTML:
 
 ```
 ## Resume Tailoring for: [Company] — [Job Title]
 
+### Template Used: [template name]
 ### Emphasis: [which variant set / hybrid]
 
-### Transition Projects (OD Consultant)
-1. [bullet — note if changed from current and why]
-2. [bullet]
+### Summary: [proposed change]
 
-### InGenius Prep (Program Enablement Manager)
-1. [bullet — note which variant set this came from]
+### InGenius — [variant set used]
+1. [bullet] — [note: same / swapped from X / reordered from #N]
 2. [bullet]
 3. [bullet]
 4. [bullet]
 
-### NextGen Healthcare (OD Intern)
-1. [bullet]
-...
+### NextGen
+1–4. [bullets with notes]
 
-### Vestas (HRBP Assistant)
-1. [bullet]
-...
+### Vestas
+1–4. [bullets with notes]
 
-### Kronos Research (HR Intern)
-1. [bullet]
-...
+### Skills
+[proposed skills line]
 
-### Summary Line Suggestion
-[If the JD calls for a specific emphasis, suggest a tweak to Jamie's summary paragraph]
-
-### Self-Intro Version to Use
-[Reference which self-intro from content_library.md fits best for cover letter / email]
-
-### Changes from Current Resume
-- [List each change: "InGenius bullet 3: swapped from L&D emphasis to PM emphasis because..."]
-- [Total changes: X of 20 bullets modified]
+### Changes Summary
+- [X] bullet swaps (🟡)
+- [Y] reorders (🔵)
+- [Z] word-level swaps (🔴)
 ```
 
-### Step 7 — Apply Changes to HTML Resume
+### Step 7 — Apply Changes to HTML with Full Diff System
 
-After presenting recommendations and getting Jamie's approval on the bullet selections,
-**directly edit `jamie/resume.html`** with the changes.
+After Jamie approves (or auto-proceed if she said "go ahead"), edit `jamie/resume.html`.
 
-**How to mark changes:**
-Wrap every changed piece of text in `<span class="changed">...</span>`. This highlights
-it in yellow in the browser so Jamie can see exactly what was modified.
+**Three change types — use the correct class for each:**
 
-Example:
+#### 🟡 Whole bullet swapped (different variant from content_library)
 ```html
-<!-- BEFORE -->
-<li>Conduct needs assessments with 25+ global stakeholders to identify learning gaps and design 3 new educational programs</li>
-
-<!-- AFTER (changed bullet, highlighted) -->
-<li><span class="changed">Establish cross-functional processes and documentation for 70+ staff, streamlining operations and reducing onboarding time by 75%</span></li>
+<li class="changed"
+    data-original="[exact original bullet text]"
+    data-reason="[why this variant fits the JD better]">New bullet text here</li>
 ```
 
-**What to change in the HTML:**
-1. **Summary line** — update identity label, keywords, and approach per the tailoring playbook
-2. **InGenius job title** — swap the title text in the `.job-title` div
-3. **Bullet text** — replace `<li>` content for each swapped bullet
-4. **Skills section** — update the technical skills line per the role-type recipe
-5. **Location line** — update "Open to Remote" vs "Portland" vs "Seattle"
-6. **Transition Projects bullets** — swap to Pair A or Pair B as appropriate
-
-**Mark ALL changes with `class="changed"`** — even small wording tweaks. Jamie needs to
-see every single modification.
-
-**After editing, tell Jamie:**
-```
-Resume HTML updated with [X] changes (highlighted in yellow).
-
-To preview:
-  open jamie/resume.html    (Mac — opens in browser)
-
-You'll see a red dashed line showing where page 1 ends.
-Yellow highlights show every change I made.
-
-→ Review the preview. Tell me if anything needs adjusting.
-→ When you're happy, say "export" and I'll generate the PDF.
+#### 🔵 Reordered (same text, moved to different position)
+```html
+<li class="reordered"
+    data-was="[original position number, e.g. 3]"
+    data-reason="[why this order serves the JD better]">Same bullet text here</li>
 ```
 
-### Step 8 — Live Preview Workflow
-
-Jamie opens `jamie/resume.html` in her browser (Chrome recommended). She will see:
-
-1. **Yellow highlights** on every changed bullet, title, or skills line
-2. **Red dashed "PAGE 1 ENDS HERE" guide** showing the one-page boundary
-3. The actual layout with fonts, spacing, and formatting
-
-**If content overflows past the red line:**
-- Tell Jamie which bullet is too long and suggest trimming
-- Or suggest removing a less-relevant bullet entirely
-- Edit the HTML, save, and Jamie refreshes the browser to see the update instantly
-
-**Live editing loop:**
-```
-Jamie: "Bullet 3 is too long, it's pushing below the line"
-Claude: [trims the bullet in resume.html]
-Claude: "Trimmed — refresh your browser to check"
-Jamie: [refreshes] "Looks good now"
-Claude: "Ready to export?"
+#### 🔴 Word-level JD keyword swap (verb/noun changed to match JD language)
+```html
+Before: <li>...improved <span class="keyword" data-original="analytics" data-reason="JD uses exact phrase 'data analysis'">analysis</span>...</li>
 ```
 
-VS Code users: Install the "Live Server" extension for auto-refresh on save.
-Or just Cmd+R in the browser after each edit.
+**IMPORTANT:** Every `data-reason` must explain the JD reasoning, not just describe the change.
+- BAD: `data-reason="Changed 'analytics' to 'analysis'"`
+- GOOD: `data-reason="JD uses exact phrase 'data analysis' 4 times — terminology alignment"`
 
-### Step 9 — Save Tailored Version to Resume Bank
-
-Before exporting, save the tailored HTML as a versioned copy:
-
-```bash
-cp jamie/resume.html "resume_bank/Resume_Jamie_2026_{Company}_{Date}.html"
+#### Also update the Diff Toolbar at top of HTML:
+```html
+<div class="diff-version">
+  📄 Tailored for: <strong>[Company] — [Job Title]</strong>
+  <span class="diff-date">[Date]</span>
+  ...
+</div>
 ```
 
-Example: `resume_bank/Resume_Jamie_2026_Notion_2026-03-27.html`
+#### And build the Change Log table (`#change-log`):
+```html
+<tr><td>[Location]</td><td class="tag-swap">🟡 bullet swap</td><td class="orig">[original]</td><td class="new">[new]</td><td>[JD reason]</td></tr>
+<tr><td>[Location]</td><td class="tag-order">🔵 reorder</td><td class="orig">was #N</td><td class="new">now #M</td><td>[JD reason]</td></tr>
+<tr><td>[Location]</td><td class="tag-word">🔴 word swap</td><td class="orig">[old word]</td><td class="new">[new word]</td><td>[JD reason]</td></tr>
+```
 
-This preserves each tailored version for future reference (the playbook auto-distill
-can read these later to update patterns).
+### Step 8 — Export to PDF
 
-### Step 10 — Export to PDF
-
-When Jamie says "export", "looks good", or "generate PDF":
-
-**On Mac:**
 ```bash
 "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
   --headless --no-pdf-header-footer \
-  --print-to-pdf="jamie/resume_tailored.pdf" \
+  --print-to-pdf="tailored_resumes/Company_RoleType_YYYY-MM-DD.pdf" \
   "file://$(pwd)/jamie/resume.html"
 ```
 
-**On Windows:**
-```bash
-"/c/Program Files/Google/Chrome/Application/chrome.exe" \
-  --headless --disable-gpu --no-pdf-header-footer \
-  --print-to-pdf="jamie/resume_tailored.pdf" \
-  "file:///$(pwd)/jamie/resume.html"
+Also copy to: `jamie/resume_tailored.pdf` (for quick access)
+
+### Step 9 — PDF Quality Gates (MANDATORY after every export)
+
+Run these checks after every export. Do NOT skip.
+
+#### Gate 1: Single-line bullets
+Every bullet must fit on ONE line in the PDF. Run a character-count check:
+```python
+# Warn any bullet over ~112 chars (approximate single-line limit at 8.8pt Calibri)
+```
+If any bullet is too long → trim it, re-export, check again. Iterate until all pass.
+
+**Trimming priority:** Remove adjectives before cutting metrics or specifics.
+
+#### Gate 2: Work sample hyperlinks
+`(Work Sample)` text on NextGen and Vestas must be clickable `<a>` tags:
+- NextGen: `https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing`
+- Vestas: `https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing`
+
+Verify these are present in the HTML as `<a class="work-sample" href="...">` before exporting.
+
+#### Gate 3: One page
+Check that the resume doesn't overflow. The red dashed line in the browser shows page 1 boundary.
+
+**Tell Jamie the gate results:**
+```
+PDF exported — quality gates:
+✅ Work sample links: present
+✅ One page: confirmed
+⚠️ Bullet 3 (InGenius) at 128 chars — may wrap. Trimming...
 ```
 
-After export:
-1. Remove all `<span class="changed">` wrappers from the HTML (clean it up)
-2. Copy the PDF to resume_bank too: `resume_bank/Resume_Jamie_2026_{Company}_{Date}.pdf`
-3. Show Jamie: `"PDF exported to jamie/resume_tailored.pdf — open to verify."`
+### Step 10 — Save and Index
+
+1. Copy PDF to `tailored_resumes/Company_RoleType_YYYY-MM-DD.pdf`
+2. Add entry to `tailored_resumes/INDEX.md`
+3. Add entry to `resume_bank/` (for reference in future tailoring)
 
 ### Step 11 — Iterate
 
-Jamie WILL have feedback. Common patterns:
-- "That sounds too corporate" → dial back to her original wording, just reorder
-- "Can you make bullet X hit [keyword] harder?" → find a natural way to incorporate it
-- "That's too long, it's past the red line" → trim without losing the metric/impact
-- "I like the original better" → revert and explain why you suggested the change
-- "The spacing looks off" → adjust font size or margin in the CSS (small increments: 0.1pt)
+Jamie WILL have feedback. Stay responsive and don't over-edit.
 
-This is a back-and-forth process. Stay responsive and don't over-edit.
-Each time you edit the HTML, Jamie refreshes her browser to see the result instantly.
+| She says | You do |
+|----------|--------|
+| "too corporate" | Revert to original wording, just reorder |
+| "make bullet X hit [keyword] harder" | Find natural way to incorporate it |
+| "too long, past the red line" | Trim without losing the metric/impact |
+| "I like the original better" | Revert, note why you suggested the change |
+| "sounds like AI" | RED FLAG — significantly simplify, use her own phrases |
+
+After each HTML edit, Jamie refreshes her browser (Cmd+R) to see the result.
+Do NOT tell Jamie to check the preview panel — she refreshes Chrome directly.
