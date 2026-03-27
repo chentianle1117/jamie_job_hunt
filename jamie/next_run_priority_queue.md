@@ -1,10 +1,27 @@
-# 🔜 Next Run Priority Queue — Updated Mar 26, 2026 (Run 3)
+# 🔜 Next Run Priority Queue — Updated Mar 26, 2026 (Run 4)
 
-> **Run 3 Summary (Mar 26, 2026):** Mass expiry wave across all P1/P2 discovery batches — 90%+ expired.
-> New verified live picks: 1 new (Greenlight America POp Manager). 2 urgency re-surfaces from Notion (US Mobile POA ⚡, Flexential HRBP ⚠️ aging).
-> Run 3 queue cleanup: dbt Labs → EXPIRED ❌ | Hightouch → EXPIRED ❌ | Arc'teryx → EXPIRED ❌ | Voltus → auto-reject confirmed.
-> Freshness downgrades: CloudKitchens (37d, >30d stale), Everlywell (99d, stale), Figma People Analyst (99d, stale), Seneca R+PO Spec (79d, stale).
-> GlossGenius PBP (27d): still live, H1B pre-screen pending — must message Alyssa Holden TODAY.
+> **Run 4 Summary (Mar 26, 2026 — same day as Run 3):** ZERO-PICK DAY.
+> 25+ candidates verified across all batches. Every single one failed: mass expiry wave + no-H1B blocking + YOE gate + location gate.
+> Run 4 cleanup: Flexential HRBP → EXPIRED ❌ (Workday removed) | GlossGenius PBP → PASS (NYC in-office, location fail)
+> H1B cache updated: Plaid ✅ added (40 LCAs FY2025 all approved) — both People PM roles expired but cache updated for future.
+> Market condition: Brutally tight. 90%+ of discovered candidates expire within days of posting. Recommend daily runs.
+
+## 🔔 Run 4 Key Findings
+
+### Temporal Technologies — Onboarding Program Manager (LIVE — Run 5 Monitor)
+- **URL:** https://job-boards.greenhouse.io/temporaltechnologies/jobs/5085976007
+- **Status:** LIVE ✅ | H1B: ❓ Uncertain (32 LCAs FY2022-2024, only 4 in FY2022) | **New posting**
+- **YOE:** 4+ years | **Salary:** $124K–$180K | **Location:** Bellevue WA (1 week/month in-office; remote otherwise)
+- **Gate flag:** Required "high quality instructional design skills" → ★☆☆ for Jamie → HARD REJECT per preferences.md
+- **Action for Run 5:** Skip — ID requirement is a hard reject. Monitor for new People Ops roles at Temporal.
+
+### Customer.io — Talent Development PM (LIVE but NO H1B)
+- **Status:** LIVE ✅ but "we're not able to offer visa sponsorship" + 4-7+ YOE required → DOUBLE FAIL
+- **No action needed.** H1B cache: Customer.io = ❌ (add to NO H1B list if seen again)
+
+---
+
+# 🔜 Next Run Priority Queue — Full Verification Mar 26, 2026 (Run 3)
 
 ## 🔔 Run 3 Late Verification Notes (background agents completed after email sent)
 

@@ -51,6 +51,7 @@
 | Adidas | myvisajobs.com | 2026-03-24 | Portland HQ |
 | US Mobile | h1bgrader.com — 11 LCAs FY2022-2025, 4 in FY2025 YTD | 2026-03-24 | NYC HQ, telecom startup |
 | dbt Labs | JD explicit language: "Assist with immigration cases, including visa sponsorship, renewals, and compliance, in partnership with external immigration counsel" | 2026-03-25 | Run 2 Pick #1 (POG role). One of strongest H1B signals possible in any JD. |
+| Plaid | h1bgrader.com — 40 LCAs FY2025 all approved, 31 H1B petitions FY2025 approved | 2026-03-26 | Strong fintech H1B sponsor. Run 4 — People PM roles expired but H1B confirmed for future. |
 
 ---
 
@@ -87,6 +88,8 @@
 |---------|--------|---------------|-------|
 | Deloitte | Confirmed no H1B in current program | 2026-03-24 | SKIP permanently |
 | PCC (Portland Community College) | JD explicit: "not currently able to provide visa sponsorship" | 2026-03-05 | Cap-exempt but unwilling |
+| Customer.io | JD explicit: "we're not able to offer visa sponsorship or relocation support at this time" | 2026-03-26 | Run 4 — Talent Dev PM role confirmed no sponsorship |
+| DriveWealth | JD explicit: "DriveWealth is unable to sponsor or take over sponsorship of an employment Visa at this time" | 2026-03-26 | Run 4 — EX & People Programs Specialist confirmed no sponsorship |
 
 ---
 
@@ -120,3 +123,4 @@
 |------|--------|
 | 2026-03-24 | Initial cache created with 27 confirmed, 14 cap-exempt, 2 no-H1B, 5 unknown. |
 | 2026-03-25 | Added dbt Labs as ✅ Confirmed — explicit JD language in People Ops Generalist posting (job 4671312005). |
+| 2026-03-26 | Added Plaid as ✅ Confirmed — 40 LCAs FY2025 all approved via h1bgrader.com (Run 4). |
