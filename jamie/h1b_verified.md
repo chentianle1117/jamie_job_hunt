@@ -43,7 +43,7 @@
 | Mercer | myvisajobs.com | 2026-03-24 | Consulting |
 | Aon | myvisajobs.com | 2026-03-24 | Consulting |
 | Korn Ferry | myvisajobs.com | 2026-03-24 | Consulting |
-| WTW | myvisajobs.com | 2026-03-24 | Consulting |
+| WTW | myvisajobs.com (company-level LCAs) | 2026-03-24 | ⚠️ CAVEAT: Early Career programs (EX Analyst, Comp Analyst 2026) explicitly require "authorized to work WITHOUT sponsorship now or in future." Senior/experienced roles may still sponsor — verify per posting. |
 | Accenture | myvisajobs.com | 2026-03-24 | Consulting |
 | McKinsey | myvisajobs.com | 2026-03-24 | Consulting |
 | HubSpot | myvisajobs.com | 2026-03-24 | |
@@ -124,3 +124,6 @@
 | 2026-03-24 | Initial cache created with 27 confirmed, 14 cap-exempt, 2 no-H1B, 5 unknown. |
 | 2026-03-25 | Added dbt Labs as ✅ Confirmed — explicit JD language in People Ops Generalist posting (job 4671312005). |
 | 2026-03-26 | Added Plaid as ✅ Confirmed — 40 LCAs FY2025 all approved via h1bgrader.com (Run 4). |
+| 2026-03-26 | Added Customer.io as ❌ — JD explicit no sponsorship (Talent Dev PM role, Run 4). |
+| 2026-03-26 | Added DriveWealth as ❌ — JD explicit unable to sponsor (EX & People Programs Specialist, Run 4). |
+| 2026-03-27 | Updated WTW entry — Early Career programs (2026 intake) explicitly require no-sponsorship candidates. Senior roles may still sponsor. Caveat added to ✅ row. (Run 4 completion) |
