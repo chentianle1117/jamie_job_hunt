@@ -123,12 +123,120 @@ Format your response as:
 - [Total changes: X of 20 bullets modified]
 ```
 
-### Step 7 — Iterate
+### Step 7 — Apply Changes to HTML Resume
+
+After presenting recommendations and getting Jamie's approval on the bullet selections,
+**directly edit `jamie/resume.html`** with the changes.
+
+**How to mark changes:**
+Wrap every changed piece of text in `<span class="changed">...</span>`. This highlights
+it in yellow in the browser so Jamie can see exactly what was modified.
+
+Example:
+```html
+<!-- BEFORE -->
+<li>Conduct needs assessments with 25+ global stakeholders to identify learning gaps and design 3 new educational programs</li>
+
+<!-- AFTER (changed bullet, highlighted) -->
+<li><span class="changed">Establish cross-functional processes and documentation for 70+ staff, streamlining operations and reducing onboarding time by 75%</span></li>
+```
+
+**What to change in the HTML:**
+1. **Summary line** — update identity label, keywords, and approach per the tailoring playbook
+2. **InGenius job title** — swap the title text in the `.job-title` div
+3. **Bullet text** — replace `<li>` content for each swapped bullet
+4. **Skills section** — update the technical skills line per the role-type recipe
+5. **Location line** — update "Open to Remote" vs "Portland" vs "Seattle"
+6. **Transition Projects bullets** — swap to Pair A or Pair B as appropriate
+
+**Mark ALL changes with `class="changed"`** — even small wording tweaks. Jamie needs to
+see every single modification.
+
+**After editing, tell Jamie:**
+```
+Resume HTML updated with [X] changes (highlighted in yellow).
+
+To preview:
+  open jamie/resume.html    (Mac — opens in browser)
+
+You'll see a red dashed line showing where page 1 ends.
+Yellow highlights show every change I made.
+
+→ Review the preview. Tell me if anything needs adjusting.
+→ When you're happy, say "export" and I'll generate the PDF.
+```
+
+### Step 8 — Live Preview Workflow
+
+Jamie opens `jamie/resume.html` in her browser (Chrome recommended). She will see:
+
+1. **Yellow highlights** on every changed bullet, title, or skills line
+2. **Red dashed "PAGE 1 ENDS HERE" guide** showing the one-page boundary
+3. The actual layout with fonts, spacing, and formatting
+
+**If content overflows past the red line:**
+- Tell Jamie which bullet is too long and suggest trimming
+- Or suggest removing a less-relevant bullet entirely
+- Edit the HTML, save, and Jamie refreshes the browser to see the update instantly
+
+**Live editing loop:**
+```
+Jamie: "Bullet 3 is too long, it's pushing below the line"
+Claude: [trims the bullet in resume.html]
+Claude: "Trimmed — refresh your browser to check"
+Jamie: [refreshes] "Looks good now"
+Claude: "Ready to export?"
+```
+
+VS Code users: Install the "Live Server" extension for auto-refresh on save.
+Or just Cmd+R in the browser after each edit.
+
+### Step 9 — Save Tailored Version to Resume Bank
+
+Before exporting, save the tailored HTML as a versioned copy:
+
+```bash
+cp jamie/resume.html "resume_bank/Resume_Jamie_2026_{Company}_{Date}.html"
+```
+
+Example: `resume_bank/Resume_Jamie_2026_Notion_2026-03-27.html`
+
+This preserves each tailored version for future reference (the playbook auto-distill
+can read these later to update patterns).
+
+### Step 10 — Export to PDF
+
+When Jamie says "export", "looks good", or "generate PDF":
+
+**On Mac:**
+```bash
+"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
+  --headless --no-pdf-header-footer \
+  --print-to-pdf="jamie/resume_tailored.pdf" \
+  "file://$(pwd)/jamie/resume.html"
+```
+
+**On Windows:**
+```bash
+"/c/Program Files/Google/Chrome/Application/chrome.exe" \
+  --headless --disable-gpu --no-pdf-header-footer \
+  --print-to-pdf="jamie/resume_tailored.pdf" \
+  "file:///$(pwd)/jamie/resume.html"
+```
+
+After export:
+1. Remove all `<span class="changed">` wrappers from the HTML (clean it up)
+2. Copy the PDF to resume_bank too: `resume_bank/Resume_Jamie_2026_{Company}_{Date}.pdf`
+3. Show Jamie: `"PDF exported to jamie/resume_tailored.pdf — open to verify."`
+
+### Step 11 — Iterate
 
 Jamie WILL have feedback. Common patterns:
 - "That sounds too corporate" → dial back to her original wording, just reorder
 - "Can you make bullet X hit [keyword] harder?" → find a natural way to incorporate it
-- "That's too long" → trim without losing the metric/impact
+- "That's too long, it's past the red line" → trim without losing the metric/impact
 - "I like the original better" → revert and explain why you suggested the change
+- "The spacing looks off" → adjust font size or margin in the CSS (small increments: 0.1pt)
 
 This is a back-and-forth process. Stay responsive and don't over-edit.
+Each time you edit the HTML, Jamie refreshes her browser to see the result instantly.

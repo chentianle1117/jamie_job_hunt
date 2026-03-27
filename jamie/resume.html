@@ -196,11 +196,47 @@
     font-weight: bold;
   }
 
-  /* ---- PRINT: suppress Chrome header/footer ---- */
+  /* ---- CHANGE HIGHLIGHTS (removed before PDF export) ---- */
+  .changed {
+    background-color: #fff3cd;
+    border-bottom: 1px dashed #d4a017;
+  }
+
+  /* ---- PAGE BOUNDARY INDICATOR (screen only) ---- */
+  .page-guide {
+    position: fixed;
+    top: 10.08in; /* letter height minus margins: 11in - 0.4in - 0.35in - ~0.17in chrome offset */
+    left: 0;
+    right: 0;
+    border-top: 2px dashed #e74c3c;
+    z-index: 9999;
+    pointer-events: none;
+  }
+
+  .page-guide::after {
+    content: "⬆ PAGE 1 ENDS HERE — content below this line will overflow to page 2";
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    font-size: 9px;
+    color: #e74c3c;
+    font-family: sans-serif;
+    background: white;
+    padding: 1px 5px;
+  }
+
+  /* ---- PRINT: suppress Chrome header/footer + hide guides ---- */
   @media print {
     body {
       -webkit-print-color-adjust: exact;
       print-color-adjust: exact;
+    }
+    .changed {
+      background-color: transparent !important;
+      border-bottom: none !important;
+    }
+    .page-guide {
+      display: none !important;
     }
   }
 </style>
@@ -356,6 +392,9 @@
   <li><b>Languages:</b> English (fluent) &middot; Mandarin Chinese (native) &middot; Spanish (basic)</li>
   <li><b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)</li>
 </ul>
+
+<!-- Page boundary guide (visible in browser, hidden in PDF) -->
+<div class="page-guide"></div>
 
 </body>
 </html>
