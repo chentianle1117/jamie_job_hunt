@@ -140,6 +140,25 @@
   .kw-legend .leg-tools { background: rgba(244,143,177,0.2); color: #f48fb1; }
   .kw-legend .leg-prog  { background: rgba(100,181,246,0.2); color: #64b5f6; }
 
+  /* Keyword hover glow — all same-group items light up */
+  body.mode-keywords .kw.kw-active[data-kwg="data"]  { background: #b2dfdb; outline: 1.5px solid #4dd0e1; }
+  body.mode-keywords .kw.kw-active[data-kwg="coord"] { background: #ffe0b2; outline: 1.5px solid #ffb74d; }
+  body.mode-keywords .kw.kw-active[data-kwg="cross"] { background: #e1bee7; outline: 1.5px solid #ce93d8; }
+  body.mode-keywords .kw.kw-active[data-kwg="ex"]    { background: #c8e6c9; outline: 1.5px solid #81c784; }
+  body.mode-keywords .kw.kw-active[data-kwg="tools"] { background: #f8bbd0; outline: 1.5px solid #f48fb1; }
+  body.mode-keywords .kw.kw-active[data-kwg="prog"]  { background: #bbdefb; outline: 1.5px solid #64b5f6; }
+
+  body.mode-keywords .jd-kw.kw-active[data-kwg="data"]  { background: rgba(77,208,225,0.35); outline: 1.5px solid #4dd0e1; }
+  body.mode-keywords .jd-kw.kw-active[data-kwg="coord"] { background: rgba(255,183,77,0.35); outline: 1.5px solid #ffb74d; }
+  body.mode-keywords .jd-kw.kw-active[data-kwg="cross"] { background: rgba(206,147,216,0.35); outline: 1.5px solid #ce93d8; }
+  body.mode-keywords .jd-kw.kw-active[data-kwg="ex"]    { background: rgba(129,199,132,0.35); outline: 1.5px solid #81c784; }
+  body.mode-keywords .jd-kw.kw-active[data-kwg="tools"] { background: rgba(244,143,177,0.35); outline: 1.5px solid #f48fb1; }
+  body.mode-keywords .jd-kw.kw-active[data-kwg="prog"]  { background: rgba(100,181,246,0.35); outline: 1.5px solid #64b5f6; }
+
+  /* Dim non-active keywords when a group is hovered */
+  body.mode-keywords.kw-hovering .kw:not(.kw-active)    { opacity: 0.25; }
+  body.mode-keywords.kw-hovering .jd-kw:not(.kw-active) { opacity: 0.25; }
+
   /* MODE 3: CLEAN — no highlights */
   /* (default — no special class needed, all .kw / .jd-kw / diff classes are unstyled) */
 
@@ -545,11 +564,71 @@
     }
   });
 
-  // ── Clear on mouseout ──
+  // ── Clear on mouseout (changes mode) ──
   document.addEventListener('mouseout', function(e) {
+    if (!document.body.classList.contains('mode-changes')) return;
     var leaving = e.target.closest('[data-jd], .jd-hl');
     var entering = e.relatedTarget ? e.relatedTarget.closest('[data-jd], .jd-hl') : null;
     if (leaving && !entering) clearAll();
+  });
+
+  // ── KEYWORDS MODE: hover + click-to-pin ──
+  var kwPinned = null; // locked group name, or null
+
+  function setKwGroup(group) {
+    document.body.classList.add('kw-hovering');
+    document.querySelectorAll('.kw-active').forEach(function(el) { el.classList.remove('kw-active'); });
+    document.querySelectorAll('.kw[data-kwg="'+group+'"], .jd-kw[data-kwg="'+group+'"]').forEach(function(el) {
+      el.classList.add('kw-active');
+    });
+  }
+
+  function clearKwHover() {
+    if (kwPinned) return; // don't clear if pinned
+    document.body.classList.remove('kw-hovering');
+    document.querySelectorAll('.kw-active').forEach(function(el) { el.classList.remove('kw-active'); });
+  }
+
+  function clearKwPin() {
+    kwPinned = null;
+    document.body.classList.remove('kw-hovering');
+    document.querySelectorAll('.kw-active').forEach(function(el) { el.classList.remove('kw-active'); });
+  }
+
+  // Hover: highlight group (unless pinned)
+  document.addEventListener('mouseover', function(e) {
+    if (!document.body.classList.contains('mode-keywords')) return;
+    if (kwPinned) return;
+    var kw = e.target.closest('.kw, .jd-kw');
+    if (kw && kw.dataset.kwg) setKwGroup(kw.dataset.kwg);
+  });
+
+  document.addEventListener('mouseout', function(e) {
+    if (!document.body.classList.contains('mode-keywords')) return;
+    var leaving = e.target.closest('.kw, .jd-kw');
+    var entering = e.relatedTarget ? e.relatedTarget.closest('.kw, .jd-kw') : null;
+    if (leaving && !entering) clearKwHover();
+  });
+
+  // Click: pin/unpin a keyword group
+  document.addEventListener('click', function(e) {
+    if (!document.body.classList.contains('mode-keywords')) return;
+    var kw = e.target.closest('.kw, .jd-kw');
+    if (kw && kw.dataset.kwg) {
+      var group = kw.dataset.kwg;
+      if (kwPinned === group) {
+        // clicking same group again → unpin
+        clearKwPin();
+      } else {
+        // pin this group
+        kwPinned = group;
+        setKwGroup(group);
+      }
+      e.preventDefault();
+    } else {
+      // clicked outside any keyword → unpin
+      if (kwPinned) clearKwPin();
+    }
   });
 })();
 </script>
