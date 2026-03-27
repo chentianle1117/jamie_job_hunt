@@ -5,40 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jamie (Yi-Chieh) Cheng — Resume</title>
 <style>
-  @page {
-    size: letter;
-    margin: 0.4in 0.5in 0.35in 0.5in;
-  }
+  @page { size: letter; margin: 0.4in 0.5in 0.35in 0.5in; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Calibri','Helvetica Neue','Arial',sans-serif; font-size: 9.2pt; line-height: 1.22; color: #1a1a1a; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  body {
-    font-family: 'Calibri', 'Helvetica Neue', 'Arial', sans-serif;
-    font-size: 9.2pt;
-    line-height: 1.22;
-    color: #1a1a1a;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-  }
-
-  /* ---- HEADER ---- */
+  /* ── Resume base styles ── */
   .header { text-align: center; margin-bottom: 2pt; }
-  .header h1 { font-family: 'Calibri','Helvetica Neue',sans-serif; font-size: 19pt; font-weight: bold; letter-spacing: 0.3pt; margin-bottom: 1pt; color: #000; }
+  .header h1 { font-size: 19pt; font-weight: bold; letter-spacing: 0.3pt; margin-bottom: 1pt; color: #000; }
   .header .contact { font-size: 8.5pt; color: #333; }
   .header .contact a { color: #333; text-decoration: none; }
-
-  /* ---- SUMMARY ---- */
-  .summary { border: 1px solid #b0b0b0; padding: 4pt 7pt; margin: 4pt 0 4pt 0; font-size: 8.8pt; line-height: 1.28; font-style: italic; color: #222; }
+  .summary { border: 1px solid #b0b0b0; padding: 4pt 7pt; margin: 4pt 0; font-size: 8.8pt; line-height: 1.28; font-style: italic; color: #222; }
   .summary b { font-style: italic; font-weight: bold; }
-
-  /* ---- SECTION HEADERS ---- */
   .section-header { text-align: center; font-size: 9pt; font-weight: bold; letter-spacing: 0.8pt; text-transform: uppercase; border-top: 1px solid #000; border-bottom: 1px solid #000; padding: 1.5pt 0; margin: 5pt 0 4pt 0; }
-
-  /* ---- JOB ENTRY ---- */
   .job { margin-bottom: 4pt; }
   .job-title-row { display: flex; justify-content: space-between; align-items: baseline; }
   .job-title { font-weight: bold; font-size: 9.2pt; }
@@ -49,29 +27,21 @@
   .job-dates { font-style: italic; font-size: 9.2pt; text-align: right; white-space: nowrap; color: #2a6496; }
   .job ul { margin: 1pt 0 0 12pt; padding: 0; }
   .job li { font-size: 8.8pt; line-height: 1.22; margin-bottom: 0pt; padding-left: 1pt; }
-
-  /* ---- EDUCATION ---- */
   .edu { margin-bottom: 2pt; }
   .edu-row { display: flex; justify-content: space-between; align-items: baseline; }
   .edu-school { font-weight: bold; font-size: 9.2pt; }
   .edu-location { font-size: 9.2pt; text-align: right; }
   .edu-degree { font-size: 9.2pt; }
   .edu-dates { font-style: italic; font-size: 9.2pt; text-align: right; color: #2a6496; }
-  .edu ul { margin: 0pt 0 0 12pt; padding: 0; }
+  .edu ul { margin: 0 0 0 12pt; padding: 0; }
   .edu li { font-size: 8.8pt; line-height: 1.22; }
-
-  /* ---- PROJECTS / SKILLS ---- */
   .simple-list { margin: 0 0 0 12pt; padding: 0; }
-  .simple-list li { font-size: 8.8pt; line-height: 1.25; margin-bottom: 0pt; }
+  .simple-list li { font-size: 8.8pt; line-height: 1.25; }
   .simple-list li b { font-weight: bold; }
 
   /* ================================================================
-     DIFF SYSTEM — SPLIT-PANE LAYOUT (screen only)
-     Left: Resume (65%)   |   Right: JD Panel (35%)
-     SVG connection lines drawn between matching elements
+     TOOLBAR
      ================================================================ */
-
-  /* ── Toolbar (full width, sticky) ── */
   .diff-toolbar {
     position: sticky; top: 0; z-index: 9998;
     background: #2c3e50; color: #ecf0f1;
@@ -81,16 +51,19 @@
   .diff-version { flex: 1; }
   .diff-version strong { color: #f1c40f; }
   .diff-version .diff-date { color: #95a5a6; margin-left: 8px; }
-  .diff-controls { display: flex; gap: 6px; }
+  .diff-controls { display: flex; gap: 4px; }
   .diff-controls button {
-    background: #34495e; color: white; border: 1px solid #4a6278;
+    background: #34495e; color: #aaa; border: 1px solid #4a6278;
     padding: 3px 9px; border-radius: 3px; cursor: pointer; font-size: 10px; font-family: sans-serif;
   }
-  .diff-controls button:hover { background: #4a6278; }
+  .diff-controls button:hover { background: #4a6278; color: white; }
+  .diff-controls button.active { background: #1abc9c; color: #fff; border-color: #16a085; }
 
-  /* ── Change Log panel (full width, collapsible) ── */
-  #change-log { background: #f8f9fa; border-bottom: 2px solid #dee2e6; padding: 10px 14px; font-family: sans-serif; font-size: 9px; line-height: 1.5; }
-  #change-log.hidden { display: none; }
+  /* ================================================================
+     CHANGE LOG (collapsible, only in changes mode)
+     ================================================================ */
+  #change-log { background: #f8f9fa; border-bottom: 2px solid #dee2e6; padding: 10px 14px; font-family: sans-serif; font-size: 9px; line-height: 1.5; display: none; }
+  body.mode-changes #change-log.visible { display: block; }
   #change-log h3 { font-size: 10px; color: #2c3e50; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.5px; }
   #change-log table { width: 100%; border-collapse: collapse; }
   #change-log th { background: #2c3e50; color: white; padding: 3px 8px; text-align: left; font-weight: normal; }
@@ -102,126 +75,129 @@
   #change-log .orig { color: #6c757d; text-decoration: line-through; }
   #change-log .new  { color: #198754; }
 
-  /* ── 🟡 Whole bullet swapped ── */
-  body:not(.diff-off) li.changed {
+  /* ================================================================
+     MODE 1: CHANGES — diff indicators, ghost text, connection lines
+     ================================================================ */
+  body.mode-changes li.changed {
     border-left: 4px solid #e6a817; padding-left: 6pt; margin-left: -10pt;
     background: #fff8e1; cursor: pointer; list-style-position: inside;
   }
-  body:not(.diff-off) li.changed::before {
+  body.mode-changes li.changed::before {
     content: "↩ " attr(data-original);
     display: block; color: #999; text-decoration: line-through;
     font-size: 7.2pt; font-style: italic; line-height: 1.3; margin-bottom: 1.5pt;
   }
-
-  /* ── 🔵 Reordered bullet ── */
-  body:not(.diff-off) li.reordered {
+  body.mode-changes li.reordered {
     border-left: 4px solid #2980b9; padding-left: 6pt; margin-left: -10pt;
     background: #f0f7ff; cursor: pointer; list-style-position: inside;
   }
-  body:not(.diff-off) li.reordered::after {
+  body.mode-changes li.reordered::after {
     content: " ↕ was #" attr(data-was);
     color: #2980b9; font-size: 7.2pt; font-style: italic; font-weight: bold;
   }
-
-  /* ── 🔴 Word-level JD keyword swap ── */
-  body:not(.diff-off) span.keyword {
+  body.mode-changes span.keyword {
     background: #fde8e8; border-bottom: 2px solid #c0392b; cursor: pointer;
   }
-  body:not(.diff-off) span.keyword::after {
+  body.mode-changes span.keyword::after {
     content: " ‹" attr(data-original) "›";
     color: #c0392b; font-size: 7.2pt; font-style: italic; font-weight: bold;
   }
-
-  /* ── Active highlight (bidirectional hover) ── */
-  body:not(.diff-off) li.changed.active  { outline: 2px solid #e6a817; outline-offset: 1px; }
-  body:not(.diff-off) li.reordered.active { outline: 2px solid #2980b9; outline-offset: 1px; }
-  body:not(.diff-off) span.keyword.active { outline: 2px solid #c0392b; outline-offset: 1px; }
-
-  /* ── Page boundary (screen only) ── */
-  .page-guide {
-    border-top: 2px dashed #e74c3c; margin-top: 4pt; position: relative;
-  }
-  .page-guide::after {
-    content: "⬆ PAGE 1 ENDS HERE";
-    position: absolute; top: 2px; right: 0;
-    font-size: 9px; color: #e74c3c; font-family: sans-serif; background: white; padding: 1px 5px;
-  }
+  body.mode-changes li.changed.active  { outline: 2px solid #e6a817; outline-offset: 1px; }
+  body.mode-changes li.reordered.active { outline: 2px solid #2980b9; outline-offset: 1px; }
+  body.mode-changes span.keyword.active { outline: 2px solid #c0392b; outline-offset: 1px; }
 
   /* ================================================================
-     SCREEN LAYOUT: split-pane with JD panel
+     MODE 2: KEYWORDS — matching terms highlighted same color both sides
+     Six keyword groups with distinct colors
+     ================================================================ */
+
+  /* Resume side (white bg) */
+  body.mode-keywords .kw { border-radius: 2px; padding: 0 1px; }
+  body.mode-keywords .kw[data-kwg="data"]  { background: #e0f2f1; }
+  body.mode-keywords .kw[data-kwg="coord"] { background: #fff3e0; }
+  body.mode-keywords .kw[data-kwg="cross"] { background: #f3e5f5; }
+  body.mode-keywords .kw[data-kwg="ex"]    { background: #e8f5e9; }
+  body.mode-keywords .kw[data-kwg="tools"] { background: #fce4ec; }
+  body.mode-keywords .kw[data-kwg="prog"]  { background: #e3f2fd; }
+
+  /* JD side (dark bg) */
+  body.mode-keywords .jd-kw { border-radius: 2px; padding: 0 2px; }
+  body.mode-keywords .jd-kw[data-kwg="data"]  { color: #4dd0e1; border-bottom: 2px solid #4dd0e1; }
+  body.mode-keywords .jd-kw[data-kwg="coord"] { color: #ffb74d; border-bottom: 2px solid #ffb74d; }
+  body.mode-keywords .jd-kw[data-kwg="cross"] { color: #ce93d8; border-bottom: 2px solid #ce93d8; }
+  body.mode-keywords .jd-kw[data-kwg="ex"]    { color: #81c784; border-bottom: 2px solid #81c784; }
+  body.mode-keywords .jd-kw[data-kwg="tools"] { color: #f48fb1; border-bottom: 2px solid #f48fb1; }
+  body.mode-keywords .jd-kw[data-kwg="prog"]  { color: #64b5f6; border-bottom: 2px solid #64b5f6; }
+
+  /* Keyword legend in JD panel */
+  body.mode-keywords .kw-legend { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 14px 0; }
+  body:not(.mode-keywords) .kw-legend { display: none; }
+  .kw-legend span { font-size: 9px; padding: 2px 6px; border-radius: 3px; }
+  .kw-legend .leg-data  { background: rgba(77,208,225,0.2); color: #4dd0e1; }
+  .kw-legend .leg-coord { background: rgba(255,183,77,0.2); color: #ffb74d; }
+  .kw-legend .leg-cross { background: rgba(206,147,216,0.2); color: #ce93d8; }
+  .kw-legend .leg-ex    { background: rgba(129,199,132,0.2); color: #81c784; }
+  .kw-legend .leg-tools { background: rgba(244,143,177,0.2); color: #f48fb1; }
+  .kw-legend .leg-prog  { background: rgba(100,181,246,0.2); color: #64b5f6; }
+
+  /* MODE 3: CLEAN — no highlights */
+  /* (default — no special class needed, all .kw / .jd-kw / diff classes are unstyled) */
+
+  /* ── Page boundary (screen only) ── */
+  .page-guide { border-top: 2px dashed #e74c3c; margin-top: 4pt; position: relative; }
+  .page-guide::after { content: "⬆ PAGE 1 ENDS HERE"; position: absolute; top: 2px; right: 0; font-size: 9px; color: #e74c3c; font-family: sans-serif; background: white; padding: 1px 5px; }
+
+  /* ================================================================
+     SCREEN: split-pane layout
      ================================================================ */
   @media screen {
     body { background: #4a4a52; min-height: 100vh; }
+    .split-layout { display: flex; max-width: 1440px; margin: 0 auto; position: relative; }
+    .resume-panel { flex: 0 0 64%; padding: 16px; overflow-y: auto; max-height: calc(100vh - 36px); }
+    .resume-page { background: white; max-width: 8.5in; padding: 0.4in 0.5in 0.35in 0.5in; box-shadow: 0 4px 24px rgba(0,0,0,0.45); }
 
-    .split-layout {
-      display: flex; max-width: 1440px; margin: 0 auto; position: relative;
-    }
-
-    .resume-panel {
-      flex: 0 0 64%; padding: 16px; overflow-y: auto;
-      max-height: calc(100vh - 36px);
-    }
-
-    .resume-page {
-      background: white; max-width: 8.5in;
-      padding: 0.4in 0.5in 0.35in 0.5in;
-      box-shadow: 0 4px 24px rgba(0,0,0,0.45);
-    }
-
-    /* ── JD Panel ── */
     .jd-panel {
       flex: 0 0 36%; background: #1a1a2e; color: #e8ecef;
       font-family: 'Inter','Segoe UI',sans-serif; font-size: 11px; line-height: 1.65;
-      overflow-y: auto; max-height: calc(100vh - 36px);
-      padding: 20px 22px; border-left: 3px solid #0d1117;
+      overflow-y: auto; max-height: calc(100vh - 36px); padding: 20px 22px; border-left: 3px solid #0d1117;
     }
     .jd-header { margin-bottom: 16px; border-bottom: 1px solid #333; padding-bottom: 10px; }
-    .jd-header h3 { font-size: 13px; color: #ffffff; margin: 0 0 4px 0; letter-spacing: 0.5px; }
+    .jd-header h3 { font-size: 13px; color: #fff; margin: 0 0 4px 0; }
     .jd-meta { color: #a0aab4; font-size: 10px; }
     .jd-section-title { font-size: 11px; color: #b0c4d8; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px; margin: 14px 0 6px 0; }
     .jd-content p { margin-bottom: 8px; }
     .jd-content ul { margin: 0 0 8px 16px; }
     .jd-content li { margin-bottom: 4px; }
 
-    /* ── JD highlights (color-coded to resume) ── */
-    .jd-hl {
-      display: inline; padding: 1px 3px; border-radius: 2px; cursor: pointer;
-      transition: outline 0.15s; color: #fff;
-    }
-    .jd-swap  { background: rgba(230,168,23,0.3); border-bottom: 2px solid #e6a817; }
-    .jd-order { background: rgba(41,128,185,0.3); border-bottom: 2px solid #2980b9; }
-    .jd-word  { background: rgba(192,57,43,0.3); border-bottom: 2px solid #c0392b; }
-    .jd-hl.active { outline: 2px solid; outline-offset: 2px; }
-    .jd-swap.active  { outline-color: #e6a817; }
-    .jd-order.active { outline-color: #2980b9; }
-    .jd-word.active  { outline-color: #c0392b; }
+    /* JD change-link highlights (changes mode only) */
+    .jd-hl { display: inline; padding: 1px 3px; border-radius: 2px; cursor: pointer; transition: outline 0.15s; }
+    body.mode-changes .jd-hl { color: #fff; }
+    body.mode-changes .jd-swap  { background: rgba(230,168,23,0.3); border-bottom: 2px solid #e6a817; }
+    body.mode-changes .jd-order { background: rgba(41,128,185,0.3); border-bottom: 2px solid #2980b9; }
+    body.mode-changes .jd-word  { background: rgba(192,57,43,0.3); border-bottom: 2px solid #c0392b; }
+    body.mode-changes .jd-hl.active { outline: 2px solid; outline-offset: 2px; }
+    body.mode-changes .jd-swap.active  { outline-color: #e6a817; }
+    body.mode-changes .jd-order.active { outline-color: #2980b9; }
+    body.mode-changes .jd-word.active  { outline-color: #c0392b; }
+    /* Hide change-link highlights when NOT in changes mode */
+    body:not(.mode-changes) .jd-hl { color: inherit; background: none; border: none; }
 
-    /* Reasoning annotation */
-    .jd-reason {
-      display: block; font-size: 9px; color: #9bb0c4; margin: 2px 0 10px 4px;
-      font-style: italic; padding-left: 8px; border-left: 2px solid #444;
-    }
+    /* JD reasoning annotations (changes mode only) */
+    .jd-reason { display: none; font-size: 9px; color: #9bb0c4; margin: 2px 0 10px 4px; font-style: italic; padding-left: 8px; border-left: 2px solid #444; }
+    body.mode-changes .jd-reason { display: block; }
 
-    /* ── SVG connection lines ── */
-    .connection-svg {
-      position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
-      pointer-events: none; z-index: 9997;
-    }
-    .connection-svg path {
-      fill: none; stroke-width: 2; opacity: 0; transition: opacity 0.2s;
-    }
+    /* SVG connection lines (changes mode only) */
+    .connection-svg { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 9997; }
+    .connection-svg path { fill: none; stroke-width: 2; opacity: 0; transition: opacity 0.2s; }
     .connection-svg path.active { opacity: 0.85; }
     .connection-svg .conn-swap  { stroke: #e6a817; }
     .connection-svg .conn-order { stroke: #2980b9; }
     .connection-svg .conn-word  { stroke: #c0392b; }
-
-    /* diff-off: dim JD highlights, hide lines */
-    body.diff-off .jd-hl { opacity: 0.15; }
-    body.diff-off .connection-svg { display: none; }
+    body:not(.mode-changes) .connection-svg { display: none; }
   }
 
   /* ================================================================
-     PRINT: clean resume only — hide everything else
+     PRINT: clean resume only
      ================================================================ */
   @media print {
     body { background: white !important; }
@@ -230,54 +206,52 @@
     .resume-panel { flex: none !important; width: 100% !important; padding: 0 !important; overflow: visible !important; max-height: none !important; }
     .resume-page { box-shadow: none !important; margin: 0 !important; padding: 0 !important; max-width: none !important; }
     .page-guide { display: none !important; }
-    li.changed  { border-left: none !important; background: transparent !important; padding-left: 1pt !important; margin-left: 0 !important; list-style-position: outside !important; }
-    li.changed::before { display: none !important; }
-    li.reordered { border-left: none !important; background: transparent !important; padding-left: 1pt !important; margin-left: 0 !important; list-style-position: outside !important; }
-    li.reordered::after { display: none !important; }
+    li.changed, li.reordered { border-left: none !important; background: transparent !important; padding-left: 1pt !important; margin-left: 0 !important; list-style-position: outside !important; }
+    li.changed::before, li.reordered::after { display: none !important; }
     span.keyword { background: transparent !important; border-bottom: none !important; }
     span.keyword::after { display: none !important; }
+    .kw, .jd-kw { background: transparent !important; border: none !important; color: inherit !important; }
   }
 </style>
 </head>
-<body>
+<body class="mode-keywords">
 
-<!-- ==================== TOOLBAR ==================== -->
+<!-- ══════════ TOOLBAR ══════════ -->
 <div class="diff-toolbar">
   <div class="diff-version">
-    📄 Tailored for: <strong>Superhuman — Workplace Experience Coordinator</strong>
+    📄 <strong>Superhuman — Workplace Experience Coordinator</strong>
     <span class="diff-date">Mar 27, 2026</span>
-    &nbsp;·&nbsp; 🟡 swap &nbsp; 🔵 reorder &nbsp; 🔴 word &nbsp;·&nbsp; click any highlight to connect
   </div>
   <div class="diff-controls">
-    <button onclick="document.body.classList.toggle('diff-off'); this.textContent = document.body.classList.contains('diff-off') ? '👁 Show Changes' : '✅ Hide Changes'; drawConnections()">✅ Hide Changes</button>
-    <button onclick="document.getElementById('change-log').classList.toggle('hidden')">📋 Change Log</button>
+    <button id="btn-changes" onclick="setMode('changes')">🔧 Changes</button>
+    <button id="btn-keywords" class="active" onclick="setMode('keywords')">🔗 Keywords</button>
+    <button id="btn-clean" onclick="setMode('clean')">📄 Clean</button>
+    <button id="btn-log" onclick="document.getElementById('change-log').classList.toggle('visible')">📋 Log</button>
   </div>
 </div>
 
-<!-- ==================== CHANGE LOG ==================== -->
-<div id="change-log" class="hidden">
-  <h3>Change Log — Superhuman WX Coordinator · Mar 27, 2026</h3>
+<!-- ══════════ CHANGE LOG ══════════ -->
+<div id="change-log">
+  <h3>Change Log — Superhuman WX Coordinator</h3>
   <table>
     <tr><th>Location</th><th>Type</th><th>Before</th><th>After</th><th>Why</th></tr>
-    <tr><td>Summary</td><td class="tag-swap">🟡</td><td class="orig">Organizational Development professional</td><td class="new">OD &amp; Workplace Experience professional</td><td>Direct title match for ATS</td></tr>
-    <tr><td>InGenius #1</td><td class="tag-swap">🟡</td><td class="orig">Conduct needs assessments… learning gaps</td><td class="new">Manage end-to-end lifecycles… vendor performance</td><td>JD: "coordinate complex logistics and operations"</td></tr>
-    <tr><td>InGenius #2</td><td class="tag-swap">🟡</td><td class="orig">Develop guides and workflows…</td><td class="new">Establish cross-functional processes…</td><td>JD: "cross-functional collaboration"</td></tr>
-    <tr><td>InGenius #3</td><td class="tag-swap">🟡</td><td class="orig">…78% client conversion rate</td><td class="new">…78% program enrollment rate</td><td>Internal role — not sales language</td></tr>
-    <tr><td>InGenius #4</td><td class="tag-swap">🟡</td><td class="orig">Manage 20+ programs… positioning</td><td class="new">Conduct needs assessments… strategy</td><td>Analytical framing fits WX better</td></tr>
-    <tr><td>NextGen #2→1</td><td class="tag-order">🔵</td><td class="orig">was #2</td><td class="new">now #1</td><td>JD: "data and metrics" — lead with data</td></tr>
-    <tr><td>NextGen #4→2</td><td class="tag-order">🔵</td><td class="orig">was #4</td><td class="new">now #2</td><td>JD: "employee experience" in title</td></tr>
-    <tr><td>Vestas #4→1</td><td class="tag-order">🔵</td><td class="orig">was #4</td><td class="new">now #1</td><td>Best EX/culture bullet — core WX match</td></tr>
-    <tr><td>Vestas #1 word</td><td class="tag-word">🔴</td><td class="orig">engagement</td><td class="new">employee engagement</td><td>JD: "employee experience" explicit</td></tr>
-    <tr><td>Vestas #3 word</td><td class="tag-word">🔴</td><td class="orig">conducting</td><td class="new">coordinating</td><td>JD: "coordinate" primary verb</td></tr>
-    <tr><td>Trans. #1 word</td><td class="tag-word">🔴</td><td class="orig">analytics</td><td class="new">analysis</td><td>JD: exact "data analysis"</td></tr>
-    <tr><td>Skills</td><td class="tag-swap">🟡</td><td class="orig">LMS · MS Office</td><td class="new">Google Workspace · Notion · LMS · MS Office</td><td>JD: required tools</td></tr>
+    <tr><td>Summary</td><td class="tag-swap">🟡</td><td class="orig">OD professional</td><td class="new">OD &amp; Workplace Experience</td><td>Direct title match</td></tr>
+    <tr><td>InGenius #1</td><td class="tag-swap">🟡</td><td class="orig">Conduct needs assessments…</td><td class="new">Manage end-to-end lifecycles…</td><td>JD: "coordinate complex logistics"</td></tr>
+    <tr><td>InGenius #2</td><td class="tag-swap">🟡</td><td class="orig">Develop guides…</td><td class="new">Establish cross-functional processes…</td><td>JD: "cross-functional" + "operations"</td></tr>
+    <tr><td>InGenius #3</td><td class="tag-swap">🟡</td><td class="orig">…client conversion rate</td><td class="new">…program enrollment rate</td><td>Internal role framing</td></tr>
+    <tr><td>InGenius #4</td><td class="tag-swap">🟡</td><td class="orig">Manage 20+ programs…</td><td class="new">Conduct needs assessments…</td><td>Analytical framing for WX</td></tr>
+    <tr><td>NextGen #2→1</td><td class="tag-order">🔵</td><td class="orig">was #2</td><td class="new">now #1</td><td>Lead with data analysis</td></tr>
+    <tr><td>Vestas #4→1</td><td class="tag-order">🔵</td><td class="orig">was #4</td><td class="new">now #1</td><td>EX/culture bullet first</td></tr>
+    <tr><td>Vestas word</td><td class="tag-word">🔴</td><td class="orig">conducting/directing</td><td class="new">coordinating</td><td>JD: "coordinate" verb</td></tr>
+    <tr><td>Trans. word</td><td class="tag-word">🔴</td><td class="orig">analytics</td><td class="new">analysis</td><td>JD: exact "data analysis"</td></tr>
+    <tr><td>Skills</td><td class="tag-swap">🟡</td><td class="orig">LMS · MS Office</td><td class="new">Google Workspace · Notion · …</td><td>JD required tools</td></tr>
   </table>
 </div>
 
-<!-- ==================== SPLIT LAYOUT ==================== -->
+<!-- ══════════ SPLIT LAYOUT ══════════ -->
 <div class="split-layout">
 
-<!-- ────────── LEFT: RESUME ────────── -->
+<!-- ──── LEFT: RESUME ──── -->
 <div class="resume-panel" id="resume-panel">
 <div class="resume-page">
 
@@ -291,10 +265,10 @@
 </div>
 
 <div class="summary">
-  I'm Jamie&mdash;a curious, people-loving (97% extrovert!) <span class="keyword" data-original="Organizational Development" data-reason="Role title is 'Workplace Experience Coordinator' — direct title match" data-jd="jd1">Organizational Development &amp; Workplace Experience</span> professional who thrives on
-  <b>solving problems through data analysis</b>, <b>developing programs grounded in insights</b>, and
-  <b>collaborating with stakeholders for sustainable impact</b>.
-  Expect me to always be seeking ways we can improve the <span class="keyword" data-original="people development" data-reason="Mirrors JD's primary noun" data-jd="jd1">people development and workplace experience</span>&mdash;through human-centered, systematic approaches.
+  I'm Jamie&mdash;a curious, people-loving (97% extrovert!) <span class="keyword kw" data-kwg="ex" data-original="Organizational Development" data-reason="Direct title match" data-jd="jd1">Organizational Development &amp; Workplace Experience</span> professional who thrives on
+  <b>solving problems through <span class="kw" data-kwg="data">data analysis</span></b>, <b>developing programs grounded in insights</b>, and
+  <b><span class="kw" data-kwg="cross">collaborating with stakeholders</span> for sustainable impact</b>.
+  Expect me to always be seeking ways we can improve the <span class="keyword kw" data-kwg="ex" data-original="people development" data-reason="Mirrors JD noun" data-jd="jd1">people development and workplace experience</span>&mdash;through human-centered, systematic approaches.
 </div>
 
 <div class="section-header">Professional Experience</div>
@@ -309,8 +283,8 @@
     <div class="job-dates">August 2025&ndash;Present</div>
   </div>
   <ul>
-    <li>Upskill HR team in data <span class="keyword" data-original="analytics" data-reason="JD uses exact phrase 'data analysis'" data-jd="jd4">analysis</span> to audit 300+ leave cases, successfully refuting cost assumptions via evidence-based insights</li>
-    <li>Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training</li>
+    <li>Upskill HR team in <span class="keyword kw" data-kwg="data" data-original="analytics" data-reason="JD: exact 'data analysis'" data-jd="jd4">data analysis</span> to audit 300+ leave cases, successfully refuting cost assumptions via evidence-based <span class="kw" data-kwg="data">insights</span></li>
+    <li>Empower HR to present executive-ready <span class="kw" data-kwg="data">insights</span> on $362K in leave costs, leading to policy redesigns and first aid training</li>
   </ul>
 </div>
 
@@ -324,10 +298,10 @@
     <div class="job-dates">September 2023&ndash;Present</div>
   </div>
   <ul>
-    <li class="changed" data-original="Conduct needs assessments with 25+ global stakeholders to identify learning gaps and design 3 new educational programs" data-reason="JD: 'coordinate complex logistics and operations' — lifecycle ownership framing" data-jd="jd2">Manage end-to-end lifecycles for 20+ projects, utilizing feedback loops to optimize operational strategies and vendor performance</li>
-    <li class="changed" data-original="Develop guides and workflows for 70+ cross-functional staff, improving program knowledge and reducing onboarding time by 75%" data-reason="JD: 'cross-functional collaboration' and 'operations'" data-jd="jd3">Establish cross-functional processes and documentation for 70+ staff, streamlining operations and reducing onboarding time by 75%</li>
-    <li class="changed" data-original="…driving a 78% client conversion rate" data-reason="WX is internal — 'program enrollment' not sales language" data-jd="jd5">Facilitate training webinars for 600+ participants, boosting program engagement and achieving a 78% program enrollment rate</li>
-    <li class="changed" data-original="Manage 20+ programs and 10+ vendors, refining program positioning, delivery strategy, and operations via feedback analysis" data-reason="Analytical framing fits WX; 'positioning' is commercial" data-jd="jd4">Conduct needs assessments and analyze feedback from 25+ global stakeholders to inform program design and strategy</li>
+    <li class="changed" data-original="Conduct needs assessments with 25+ global stakeholders to identify learning gaps and design 3 new educational programs" data-reason="JD: 'coordinate complex logistics and operations'" data-jd="jd2">Manage <span class="kw" data-kwg="prog">end-to-end lifecycles</span> for 20+ projects, utilizing <span class="kw" data-kwg="data">feedback</span> loops to optimize <span class="kw" data-kwg="coord">operational</span> strategies and vendor performance</li>
+    <li class="changed" data-original="Develop guides and workflows for 70+ cross-functional staff, improving program knowledge and reducing onboarding time by 75%" data-reason="JD: 'cross-functional collaboration' and 'operations'" data-jd="jd3">Establish <span class="kw" data-kwg="cross">cross-functional</span> processes and documentation for 70+ staff, streamlining <span class="kw" data-kwg="coord">operations</span> and reducing onboarding time by 75%</li>
+    <li class="changed" data-original="…driving a 78% client conversion rate" data-reason="Internal role — 'program enrollment' not sales" data-jd="jd5">Facilitate training webinars for 600+ participants, boosting <span class="kw" data-kwg="prog">program</span> engagement and achieving a 78% program enrollment rate</li>
+    <li class="changed" data-original="Manage 20+ programs and 10+ vendors, refining program positioning via feedback analysis" data-reason="Analytical framing fits WX" data-jd="jd4">Conduct needs assessments and <span class="kw" data-kwg="data">analyze feedback</span> from 25+ global stakeholders to inform <span class="kw" data-kwg="prog">program</span> design and strategy</li>
   </ul>
 </div>
 
@@ -341,9 +315,9 @@
     <div class="job-dates">January 2023&ndash;May 2023</div>
   </div>
   <ul>
-    <li class="reordered" data-was="2" data-reason="Data analysis is a core JD ask — lead with strongest evidence" data-jd="jd4">Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on satisfaction drivers</li>
-    <li class="reordered" data-was="4" data-reason="'Employee experience' is in the job title" data-jd="jd6">Improved employee experience via 5 cross-functional projects focusing on survey development, rewards &amp; recognition, and L&amp;D</li>
-    <li class="reordered" data-was="1" data-reason="Still strong but secondary to EX and data" data-jd="jd4">Led a manager effectiveness initiative, transforming feedback data into actionable reports that informed engagement strategies</li>
+    <li class="reordered" data-was="2" data-reason="Lead with data analysis" data-jd="jd4"><span class="kw" data-kwg="data">Analyzed</span> 2,000+ <span class="kw" data-kwg="ex">employee experiences</span> to amplify employee voice and guide C-suite decisions on satisfaction drivers</li>
+    <li class="reordered" data-was="4" data-reason="'Employee experience' in JD title" data-jd="jd6">Improved <span class="kw" data-kwg="ex">employee experience</span> via 5 <span class="kw" data-kwg="cross">cross-functional</span> projects focusing on survey development, rewards &amp; recognition, and L&amp;D</li>
+    <li class="reordered" data-was="1" data-reason="Still strong, secondary to EX/data" data-jd="jd4">Led a manager effectiveness initiative, transforming <span class="kw" data-kwg="data">feedback data</span> into actionable reports that informed engagement strategies</li>
     <li>Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review</li>
   </ul>
 </div>
@@ -358,10 +332,10 @@
     <div class="job-dates">February 2022&ndash;October 2022</div>
   </div>
   <ul>
-    <li class="reordered" data-was="4" data-reason="Best EX/culture bullet — core WX match" data-jd="jd6">Strengthened <span class="keyword" data-original="engagement" data-reason="JD: 'employee experience' — explicit EX emphasis" data-jd="jd6">employee engagement</span> via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors</li>
-    <li class="reordered" data-was="1" data-reason="Culture programs are core WX work" data-jd="jd6">Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations</li>
-    <li class="reordered" data-was="3" data-reason="Onboarding is operational WX work" data-jd="jd2">Optimized onboarding processes across 3 global locations by <span class="keyword" data-original="conducting" data-reason="JD: 'coordinate' is primary action verb" data-jd="jd2">coordinating</span> process analysis and clarifying job responsibilities</li>
-    <li class="reordered" data-was="2" data-reason="M&amp;A context is distracting for WX" data-jd="jd3">Facilitated smooth organizational change by <span class="keyword" data-original="directing" data-reason="'coordinating' matches JD collaboration language" data-jd="jd3">coordinating</span> a Mergers &amp; Acquisitions project and overseeing cross-functional stakeholders</li>
+    <li class="reordered" data-was="4" data-reason="Best EX/culture bullet" data-jd="jd6">Strengthened <span class="keyword kw" data-kwg="ex" data-original="engagement" data-reason="JD: 'employee experience'" data-jd="jd6">employee engagement</span> via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors</li>
+    <li class="reordered" data-was="1" data-reason="Culture programs = core WX" data-jd="jd6">Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations</li>
+    <li class="reordered" data-was="3" data-reason="Onboarding = operational WX" data-jd="jd2">Optimized onboarding processes across 3 global locations by <span class="keyword kw" data-kwg="coord" data-original="conducting" data-reason="JD: 'coordinate'" data-jd="jd2">coordinating</span> <span class="kw" data-kwg="data">process analysis</span> and clarifying job responsibilities</li>
+    <li class="reordered" data-was="2" data-reason="M&amp;A distracting for WX" data-jd="jd3">Facilitated smooth organizational change by <span class="keyword kw" data-kwg="coord" data-original="directing" data-reason="'coordinating' = JD collab language" data-jd="jd3">coordinating</span> a Mergers &amp; Acquisitions project and overseeing <span class="kw" data-kwg="cross">cross-functional</span> stakeholders</li>
   </ul>
 </div>
 
@@ -383,34 +357,17 @@
 </div>
 
 <div class="section-header">Education</div>
-
 <div class="edu">
-  <div class="edu-row">
-    <div class="edu-school">University of Southern California</div>
-    <div class="edu-location">Los Angeles, CA</div>
-  </div>
-  <div class="edu-row">
-    <div class="edu-degree">MS in Applied Organizational Psychology (GPA: 3.95)</div>
-    <div class="edu-dates">August 2022&ndash;May 2023</div>
-  </div>
-  <ul>
-    <li>Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics &amp; Leadership, Consumer Psychology</li>
-  </ul>
+  <div class="edu-row"><div class="edu-school">University of Southern California</div><div class="edu-location">Los Angeles, CA</div></div>
+  <div class="edu-row"><div class="edu-degree">MS in Applied Organizational Psychology (GPA: 3.95)</div><div class="edu-dates">August 2022&ndash;May 2023</div></div>
+  <ul><li>Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics &amp; Leadership, Consumer Psychology</li></ul>
 </div>
-
 <div class="edu">
-  <div class="edu-row">
-    <div class="edu-school">Wesleyan University</div>
-    <div class="edu-location">Middletown, CT</div>
-  </div>
-  <div class="edu-row">
-    <div class="edu-degree">BA in Psychology and Education Studies (GPA: 4.00)</div>
-    <div class="edu-dates">August 2017&ndash;December 2021</div>
-  </div>
+  <div class="edu-row"><div class="edu-school">Wesleyan University</div><div class="edu-location">Middletown, CT</div></div>
+  <div class="edu-row"><div class="edu-degree">BA in Psychology and Education Studies (GPA: 4.00)</div><div class="edu-dates">August 2017&ndash;December 2021</div></div>
 </div>
 
 <div class="section-header">Projects &amp; Awards</div>
-
 <ul class="simple-list">
   <li><b>Consulting Projects:</b> Enhanced <b>Elanco Animal Health</b> employer branding &amp; talent attraction strategy via survey design/execution</li>
   <li><b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research</li>
@@ -418,49 +375,55 @@
 </ul>
 
 <div class="section-header">Skills</div>
-
 <ul class="simple-list">
-  <li><b>Technical Skills:</b> <span class="keyword" data-original="LMS (Canvas, Moodle-user) · MS Office (Word, PowerPoint)" data-reason="JD requires Google Workspace and Notion" data-jd="jd7">HRIS &middot; ATS (Greenhouse) &middot; Google Workspace &middot; Notion &middot; LMS (Canvas, Moodle) &middot; MS Office &middot; Data Analysis (SPSS, Excel)</span></li>
+  <li><b>Technical Skills:</b> <span class="keyword kw" data-kwg="tools" data-original="LMS (Canvas, Moodle-user) · MS Office (Word, PowerPoint)" data-reason="JD requires Google Workspace + Notion" data-jd="jd7">HRIS &middot; ATS (Greenhouse) &middot; <span class="kw" data-kwg="tools">Google Workspace</span> &middot; <span class="kw" data-kwg="tools">Notion</span> &middot; LMS (Canvas, Moodle) &middot; MS Office &middot; <span class="kw" data-kwg="data">Data Analysis</span> (SPSS, Excel)</span></li>
   <li><b>Languages:</b> English (fluent) &middot; Mandarin Chinese (native) &middot; Spanish (basic)</li>
   <li><b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)</li>
 </ul>
 
 <div class="page-guide"></div>
+</div><!-- .resume-page -->
+</div><!-- .resume-panel -->
 
-</div><!-- end .resume-page -->
-</div><!-- end .resume-panel -->
-
-<!-- ────────── SVG CONNECTION LINES ────────── -->
+<!-- ──── SVG LINES ──── -->
 <svg id="connections" class="connection-svg"></svg>
 
-<!-- ────────── RIGHT: JD PANEL ────────── -->
+<!-- ──── RIGHT: JD PANEL ──── -->
 <div class="jd-panel" id="jd-panel">
   <div class="jd-header">
     <h3>Job Description</h3>
-    <div class="jd-meta">Superhuman — Workplace Experience Coordinator &middot; San Francisco, CA &middot; $80K–$110K</div>
+    <div class="jd-meta">Superhuman — Workplace Experience Coordinator &middot; SF Bay Area &middot; $80K–$110K</div>
   </div>
+
+  <div class="kw-legend">
+    <span class="leg-data">Data/Analysis</span>
+    <span class="leg-coord">Coordinate/Ops</span>
+    <span class="leg-cross">Cross-functional</span>
+    <span class="leg-ex">Employee Exp.</span>
+    <span class="leg-tools">Tools</span>
+    <span class="leg-prog">Programs</span>
+  </div>
+
   <div class="jd-content">
-
     <div class="jd-section-title">About Superhuman</div>
-    <p>Superhuman is the AI-native communication platform. Superhuman is redefining work through AI-powered productivity solutions. As part of the Early Career Program, team members are matched to roles based on preferences, skills, and where they will thrive.</p>
+    <p>Superhuman is the <span class="jd-kw" data-kwg="tools">AI-native</span> communication platform, redefining work through AI-powered productivity solutions. As part of the Early Career Program, team members are matched to roles where they will thrive.</p>
 
-    <div class="jd-section-title">Role: <mark class="jd-hl jd-swap" id="jd1">Workplace Experience Coordinator</mark></div>
-    <span class="jd-reason">→ Summary: Added "Workplace Experience" to identity label for direct ATS title match</span>
-    <p>This is not a rotational program. Team members in this role must be based in the San Francisco Bay Area and collaborate in person.</p>
+    <div class="jd-section-title">Role: <mark class="jd-hl jd-swap" id="jd1"><span class="jd-kw" data-kwg="ex">Workplace Experience</span> Coordinator</mark></div>
+    <span class="jd-reason">→ Summary: Added "Workplace Experience" to identity label for ATS title match</span>
 
     <div class="jd-section-title">What You'll Do</div>
     <ul>
-      <li><mark class="jd-hl jd-swap" id="jd2">Coordinate complex logistics and operations</mark>, including scheduling, events, recruitment processes, or pipeline development, with precision and creativity
-        <span class="jd-reason">→ InGenius #1: swapped to lifecycle/operations framing<br>→ Vestas #3: "conducting" → "coordinating" to mirror this verb</span>
+      <li><mark class="jd-hl jd-swap" id="jd2"><span class="jd-kw" data-kwg="coord">Coordinate</span> complex <span class="jd-kw" data-kwg="coord">logistics</span> and <span class="jd-kw" data-kwg="coord">operations</span></mark>, including scheduling, events, recruitment processes, or pipeline development, with precision and creativity
+        <span class="jd-reason">→ InGenius #1: swapped to lifecycle/operations framing<br>→ Vestas #3: "conducting" → "coordinating"</span>
       </li>
-      <li><mark class="jd-hl jd-order" id="jd3">Research, analyze, and optimize</mark> using data and metrics to inform strategic decisions and <mark class="jd-hl jd-swap" id="jd3b">identify opportunities for process improvement</mark>
-        <span class="jd-reason">→ InGenius #2: "Establish cross-functional processes" maps to process improvement<br>→ Vestas #4: "directing" → "coordinating" for collaboration language</span>
+      <li>Research, <mark class="jd-hl jd-order" id="jd3"><span class="jd-kw" data-kwg="data">analyze</span>, and optimize</mark> using <span class="jd-kw" data-kwg="data">data and metrics</span> to inform strategic decisions and identify opportunities for <span class="jd-kw" data-kwg="prog">process improvement</span>
+        <span class="jd-reason">→ InGenius #2: "Establish cross-functional processes"<br>→ Vestas #4: "directing" → "coordinating"</span>
       </li>
-      <li><mark class="jd-hl jd-order" id="jd5">Own end-to-end initiatives</mark> from concept to execution, collaborating cross-functionally and driving results independently
-        <span class="jd-reason">→ InGenius #3: internal framing ("program enrollment" not "client conversion")</span>
+      <li>Own <mark class="jd-hl jd-order" id="jd5"><span class="jd-kw" data-kwg="prog">end-to-end initiatives</span></mark> from concept to execution, <span class="jd-kw" data-kwg="cross">collaborating cross-functionally</span> and driving results independently
+        <span class="jd-reason">→ InGenius #3: internal framing ("program enrollment")</span>
       </li>
-      <li>Master productivity tools like Coda, Superhuman, Grammarly, and other <mark class="jd-hl jd-swap" id="jd7">AI-native tools</mark> that power modern work
-        <span class="jd-reason">→ Skills: Added Google Workspace + Notion (required tools)</span>
+      <li>Master productivity tools like Coda, Superhuman, Grammarly, and other <mark class="jd-hl jd-swap" id="jd7"><span class="jd-kw" data-kwg="tools">AI-native tools</span></mark> that power modern work
+        <span class="jd-reason">→ Skills: Added Google Workspace + Notion</span>
       </li>
     </ul>
 
@@ -475,78 +438,62 @@
     <div class="jd-section-title">Nice to Have</div>
     <ul>
       <li>0-2 years professional experience</li>
-      <li>Event planning or coordination experience</li>
-      <li><mark class="jd-hl jd-word" id="jd4">Data analysis</mark> experience
-        <span class="jd-reason">→ Trans. Projects: "analytics" → "analysis" for exact match<br>→ NextGen reorder: 2,000+ employee analysis leads first<br>→ InGenius #4: analytical framing for needs assessment</span>
+      <li>Event planning or <span class="jd-kw" data-kwg="coord">coordination</span> experience</li>
+      <li><mark class="jd-hl jd-word" id="jd4"><span class="jd-kw" data-kwg="data">Data analysis</span></mark> experience
+        <span class="jd-reason">→ Trans.: "analytics" → "analysis"<br>→ NextGen reorder: 2,000+ analysis leads</span>
       </li>
-      <li><mark class="jd-hl jd-order" id="jd6">Employee experience</mark> or people operations interest
-        <span class="jd-reason">→ NextGen #4→2: EX project surfaced second<br>→ Vestas #4→1: EX/culture bullet leads<br>→ Vestas word: "engagement" → "employee engagement"</span>
+      <li><mark class="jd-hl jd-order" id="jd6"><span class="jd-kw" data-kwg="ex">Employee experience</span></mark> or people operations interest
+        <span class="jd-reason">→ NextGen: EX project surfaced #2<br>→ Vestas: EX/culture bullet leads<br>→ "engagement" → "employee engagement"</span>
       </li>
     </ul>
 
     <div class="jd-section-title">Compensation</div>
-    <p>$80,000 – $110,000 base salary + equity + benefits. San Francisco Bay Area, in-person.</p>
+    <p>$80,000 – $110,000 base + equity + benefits. San Francisco Bay Area, in-person.</p>
 
     <div class="jd-section-title">H1B Status</div>
-    <p style="color: #4CAF50; font-weight: bold;">✅ Confirmed sponsor — Superhuman (via Grammarly) files H1B regularly per LCA records.</p>
-
+    <p style="color: #4CAF50; font-weight: bold;">✅ Confirmed sponsor — files H1B regularly per LCA records.</p>
   </div>
 </div>
 
-</div><!-- end .split-layout -->
+</div><!-- .split-layout -->
 
-<!-- ==================== JAVASCRIPT ==================== -->
+<!-- ══════════ JAVASCRIPT ══════════ -->
 <script>
 (function() {
   var svg = document.getElementById('connections');
   var resumePanel = document.getElementById('resume-panel');
   var jdPanel = document.getElementById('jd-panel');
+
+  // ── Mode switching ──
+  window.setMode = function(mode) {
+    document.body.className = mode === 'clean' ? '' : 'mode-' + mode;
+    document.querySelectorAll('.diff-controls button').forEach(function(b) { b.classList.remove('active'); });
+    document.getElementById('btn-' + mode).classList.add('active');
+    if (svg) svg.innerHTML = '';
+    // Hide change log when leaving changes mode
+    if (mode !== 'changes') document.getElementById('change-log').classList.remove('visible');
+  };
+
   if (!svg || !resumePanel || !jdPanel) return;
 
-  function getElId(el) {
-    if (!el.id) el.id = 'r_' + Math.random().toString(36).substr(2, 6);
-    return el.id;
-  }
-
-  // ── Draw lines ONLY for a specific hover pair ──
-  // Lines go from the resume element's right edge to the JD element's left edge,
-  // with a smooth bezier curve through the gap between panels.
+  // ── Draw lines for one resume element ──
   function drawLinesFor(resumeEl, jdIds) {
     svg.innerHTML = '';
-    if (!resumeEl || !jdIds || !jdIds.length) return;
-
     jdIds.forEach(function(jdId) {
       var jdEl = document.getElementById(jdId.trim());
       if (!jdEl) return;
-
       var rRect = resumeEl.getBoundingClientRect();
       var jRect = jdEl.getBoundingClientRect();
       if (rRect.height === 0 || jRect.height === 0) return;
 
-      // Start: right edge of the resume element, vertically centered
-      var x1 = rRect.right + 4;
-      var y1 = rRect.top + rRect.height / 2;
-
-      // End: left edge of the JD element, vertically centered
-      var x2 = jRect.left - 4;
-      var y2 = jRect.top + jRect.height / 2;
-
-      // Clamp y to visible area (below toolbar)
+      var x1 = rRect.right + 4, y1 = rRect.top + rRect.height / 2;
+      var x2 = jRect.left - 4,  y2 = jRect.top + jRect.height / 2;
       y1 = Math.max(40, Math.min(window.innerHeight - 4, y1));
       y2 = Math.max(40, Math.min(window.innerHeight - 4, y2));
-
-      // Control point offset scales with the horizontal gap
-      var gap = Math.abs(x2 - x1);
-      var cpX = Math.max(gap * 0.35, 40);
+      var cp = Math.max(Math.abs(x2 - x1) * 0.35, 40);
 
       var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-      path.setAttribute('d',
-        'M ' + x1 + ',' + y1 +
-        ' C ' + (x1 + cpX) + ',' + y1 +
-        ' ' + (x2 - cpX) + ',' + y2 +
-        ' ' + x2 + ',' + y2
-      );
-
+      path.setAttribute('d', 'M '+x1+','+y1+' C '+(x1+cp)+','+y1+' '+(x2-cp)+','+y2+' '+x2+','+y2);
       var cls = 'conn-word';
       if (resumeEl.classList.contains('changed')) cls = 'conn-swap';
       else if (resumeEl.classList.contains('reordered')) cls = 'conn-order';
@@ -558,60 +505,47 @@
 
   function clearAll() {
     svg.innerHTML = '';
-    document.querySelectorAll('.active').forEach(function(el) {
-      el.classList.remove('active');
-    });
+    document.querySelectorAll('.active').forEach(function(el) { el.classList.remove('active'); });
   }
 
-  // ── Resume side hover → show lines to JD ──
+  // ── Resume hover → JD (changes mode only) ──
   document.addEventListener('mouseover', function(e) {
-    if (document.body.classList.contains('diff-off')) return;
+    if (!document.body.classList.contains('mode-changes')) return;
     var el = e.target.closest('[data-jd]');
     if (el && resumePanel.contains(el)) {
       clearAll();
       el.classList.add('active');
       var jdIds = el.dataset.jd.split(',');
-      // Scroll JD excerpts into view instantly, then draw lines after layout settles
       jdIds.forEach(function(jdId) {
         var jdEl = document.getElementById(jdId.trim());
-        if (jdEl) {
-          jdEl.classList.add('active');
-          jdEl.scrollIntoView({ behavior: 'instant', block: 'center' });
-        }
+        if (jdEl) { jdEl.classList.add('active'); jdEl.scrollIntoView({ behavior: 'instant', block: 'center' }); }
       });
-      requestAnimationFrame(function() {
-        requestAnimationFrame(function() {
-          drawLinesFor(el, jdIds);
-        });
-      });
+      requestAnimationFrame(function() { requestAnimationFrame(function() { drawLinesFor(el, jdIds); }); });
     }
   });
 
-  // ── JD side hover → show lines to resume ──
+  // ── JD hover → Resume (changes mode only) ──
   jdPanel.addEventListener('mouseover', function(e) {
-    if (document.body.classList.contains('diff-off')) return;
+    if (!document.body.classList.contains('mode-changes')) return;
     var mark = e.target.closest('.jd-hl');
     if (mark) {
       clearAll();
       mark.classList.add('active');
       var matched = [];
       document.querySelectorAll('[data-jd]').forEach(function(el) {
-        var ids = el.dataset.jd.split(',').map(function(s){return s.trim()});
-        if (ids.indexOf(mark.id) >= 0) {
+        if (el.dataset.jd.split(',').map(function(s){return s.trim()}).indexOf(mark.id) >= 0) {
           el.classList.add('active');
           el.scrollIntoView({ behavior: 'instant', block: 'center' });
           matched.push(el);
         }
       });
-      requestAnimationFrame(function() {
-        requestAnimationFrame(function() {
-          matched.forEach(function(el) { drawLinesFor(el, [mark.id]); });
-        });
-      });
+      requestAnimationFrame(function() { requestAnimationFrame(function() {
+        matched.forEach(function(el) { drawLinesFor(el, [mark.id]); });
+      }); });
     }
   });
 
-  // ── Clear everything on mouseout ──
+  // ── Clear on mouseout ──
   document.addEventListener('mouseout', function(e) {
     var leaving = e.target.closest('[data-jd], .jd-hl');
     var entering = e.relatedTarget ? e.relatedTarget.closest('[data-jd], .jd-hl') : null;
