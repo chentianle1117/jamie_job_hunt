@@ -22,7 +22,7 @@
 
 | Company | Verification Source | Date Verified | Notes |
 |---------|-------------------|---------------|-------|
-| Roblox | JD + LCA filings | 2026-03-24 | Active Early Career PM role confirms sponsorship |
+| Roblox | JD + LCA filings | 2026-03-28 | 206 H1B petitions FY2025, mostly engineering. People Science Assoc (7079505) = EXPLICIT no H1B. Early Career PM (7566178) = no sponsorship language found either way. Treat as uncertain for non-engineering roles. |
 | Axon | JD language + LCA filings | 2026-03-24 | Boston hybrid role confirms |
 | Google | myvisajobs.com top sponsor | 2026-03-24 | Massive H1B sponsor |
 | Meta | myvisajobs.com top sponsor | 2026-03-24 | Major sponsor |
@@ -72,7 +72,7 @@
 | University of Oregon | University | Eugene OR | 2026-03-24 | |
 | University of Washington | University | Seattle WA | 2026-03-24 | |
 | PeaceHealth | Hospital/Nonprofit | PNW | 2026-03-24 | |
-| Providence Health | Hospital/Nonprofit | Portland OR | 2026-03-24 | |
+| Providence Health | H1BGrader + MyVisaJobs | 2026-03-28 | Cap-exempt (hospital). 50 H-1B LCAs FY2022-2024 — concentrated in clinical/physician roles. HR/HRBP roles rarely if ever sponsored historically. VERIFY willingness for HRBP roles before applying. |
 | Legacy Health | Hospital/Nonprofit | Portland OR | 2026-03-24 | Verify willingness |
 | Kaiser Permanente NW | Hospital/Nonprofit | Portland OR | 2026-03-24 | |
 | Seattle Children's Hospital | Hospital | Seattle WA | 2026-03-24 | |
