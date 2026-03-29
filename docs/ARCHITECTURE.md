@@ -267,14 +267,6 @@ STEP 0.5 — PRE-FETCH (Python scripts + Gmail MCP)
 | Delivery | 2 min | 2 min | Same |
 | **TOTAL** | **~19 min** | **~16-18 min** | Faster + more exhaustive |
 
-### New Discovery Sources (Agent G)
-
-**Agent G: Netherlands/EU boards** — IamExpat, Together Abroad, Undutchables, Arbeitnow, LinkedIn NL
-- Searches 8 EU-specific job boards
-- Targets 13+ NL companies (Booking, ASML, Adyen, Philips, etc.)
-- No H1B constraint (Orientation Year = free labor market access)
-- Tagged with 🇳🇱 in email digest
-
 ### New US Sources Added to Existing Agents
 
 - **Agent D** now includes HigherEdJobs (cap-exempt university/nonprofit HR roles)

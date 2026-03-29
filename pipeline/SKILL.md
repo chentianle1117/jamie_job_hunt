@@ -64,7 +64,6 @@ python pipeline/scripts/fetch_ats_jobs.py
 
 ```bash
 python pipeline/scripts/jobspy_search.py
-python pipeline/scripts/jobspy_search.py --include-nl  # also search Netherlands
 ```
 
 - Scrapes LinkedIn, Indeed, Glassdoor concurrently using `python-jobspy`
@@ -323,7 +322,6 @@ Some job boards block Chrome navigation (Greenhouse, LinkedIn, Stripe). For thes
   - Agent D: Cap-exempt employers (nonprofits, hospitals, universities — Tier 3) + HigherEdJobs
   - Agent E: Alt boards (Handshake, Built In, SHRM, Idealist, Wellfound) + Remote boards (FlexJobs, WWR, Remote.co)
   - Agent F: PNW local searches (Portland/Seattle Batches Y–AF) + Greenhouse/Lever bulk WebSearch
-  - Agent G: Netherlands/EU boards (IamExpat, Together Abroad, Undutchables, Arbeitnow, LinkedIn NL)
   - Each agent returns a raw URL list + title + company. No verification — just discovery.
 - **Step 3 (Verification — ALL candidates, exhaustive):**
   - **Route by ATS type** (see Step 3a URL routing table)
@@ -785,43 +783,7 @@ WebSearch: site:himalayas.app "people" OR "HR" OR "talent" program manager OR sp
 Remote roles need 80%+ match + one advantage (per preferences.md). But these boards have
 lower applicant volume than LinkedIn Remote, so competition may be more manageable.
 
-#### 2d-6. Netherlands / EU Job Boards (NEW v3.3 — for Jamie's NL plan)
-
-> **Jamie is applying for a Netherlands Orientation Year visa.** Start surfacing NL/EU roles
-> NOW so she can build a target list before arrival. With Orientation Year, she has FREE
-> labor market access — no employer sponsorship needed for the first year.
-
-```
-WebSearch: site:iamexpat.nl "people" OR "HR" OR "talent" OR "organizational development" OR "program manager"
-WebSearch: site:togetherabroad.nl "HR" OR "people" OR "talent" OR "learning"
-WebSearch: site:undutchables.nl "HR" OR "people" OR "talent" OR "employee experience"
-WebSearch: site:englishjobsearch.nl "HR" OR "people" OR "talent" OR "program"
-WebSearch: "people program manager" OR "HR program manager" OR "talent development" Amsterdam OR Rotterdam OR Netherlands site:linkedin.com
-WebSearch: site:arbeitnow.com "people" OR "HR" OR "talent" OR "organizational development" Netherlands
-```
-
-**Adzuna API (if MCP server installed):**
-If the Adzuna MCP server is available (`folathecoder/adzuna-job-search-mcp`), use it to search
-Netherlands, UK, and Germany for People/HR/OD roles. Adzuna covers 12 countries with a free API.
-Register at developer.adzuna.com for API keys.
-
-**NL-specific role titles to search (English-language):**
-- People & Culture Manager / Coordinator
-- HR Business Partner (entry/junior — NL companies are more open to junior HRBPs)
-- Talent Development Specialist
-- Employee Experience Coordinator
-- Learning & Development Specialist
-- Organizational Development Consultant
-- People Operations Specialist
-
-**NL role evaluation rules:**
-- H1B constraint does NOT apply to NL roles (Orientation Year = free labor market access)
-- Location constraint: Amsterdam, Rotterdam, The Hague, Utrecht, Eindhoven preferred
-- English-language requirement: role must be doable in English
-- Remote bar does NOT apply (different market dynamics)
-- Tag NL roles with 🇳🇱 in the email digest and Notion
-
-#### 2d-7. Outcome Tracking (NEW v3.3)
+#### 2d-6. Outcome Tracking (NEW v3.3)
 
 > **After each pipeline run, check Jamie's Google Sheet for updates on past applications.**
 > This builds a feedback loop to improve future scoring.
