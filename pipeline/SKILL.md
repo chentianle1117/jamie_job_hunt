@@ -9,7 +9,7 @@ description: >
   People Program Management, HR Specialist, Employee Engagement/Experience, OD/OCM,
   and entry-level Consulting roles, auditing the Notion database, enriching entries with
   cover letters and networking connections, and preparing email delivery.
-version: 3.3.0
+version: 3.4.0
 ---
 
 > Daily HR/L&D/OD/Consulting job search for Jamie (Yi-Chieh) Cheng.
@@ -92,6 +92,12 @@ For each alert email:
 
 ### How Pre-Fetch integrates with Step 2
 
+> ⚠️ **ATS pre-fetch is a SUPPLEMENT, not a replacement for WebSearch discovery.**
+> ATS APIs cover ~36 tech companies (Greenhouse/Lever users). They tend to surface
+> senior-level roles at NYC/SF companies — NOT the Portland cap-exempt roles that
+> are Jamie's best path. **ALL WebSearch discovery agents MUST run to completion
+> regardless of what the ATS pre-fetch finds.** Never short-circuit discovery.
+
 In Step 2 discovery, BEFORE launching WebSearch agents:
 1. Read `C:\Windows\Temp\ats_jobs.json` (if exists, < 24 hours old)
 2. Read `C:\Windows\Temp\jobspy_results.json` (if exists, < 24 hours old)
@@ -99,6 +105,7 @@ In Step 2 discovery, BEFORE launching WebSearch agents:
 4. **ATS API jobs skip Chrome verification** (they are confirmed live by the API)
 5. **JobSpy + email alert jobs still need Chrome verification** (scraped data may be stale)
 6. Deduplicate by URL across all sources before proceeding to Step 3
+7. **DO NOT score or pick from ATS results alone** — wait for ALL discovery agents to complete
 
 ---
 
@@ -184,13 +191,15 @@ cleanup_pages.json    — Page IDs archived this run
 
 ## 🔁 Pipeline Philosophy — Quality Over Quantity
 
-> **Core principle: Find 1–3 genuinely excellent jobs per day. NOT 5 mediocre ones.**
+> **Core principle: Surface ALL genuinely viable jobs each run. Let Jamie choose.**
 >
 > Jamie can carefully apply to 1-2 jobs per day. Each application takes 30-60 min of her real time.
 > Every job surfaced must be genuinely worth that investment based on her ACTUAL experience.
 >
-> **Maximum 3 jobs per run. Minimum 0. No quota pressure.**
-> It's better to send Jamie 0 jobs than to send 1 bad one. She will apply to everything you send.
+> **Show all ⭐+ candidates. Enrich the top 3. No artificial cap.**
+> It's better to send Jamie 0 jobs than to send 1 bad one. But if there are 5 good ones,
+> show all 5 — she'll prioritize. The email digest ranks them; enrichment (cover letter,
+> networking) only runs for the top 3 by score.
 >
 > **The resume exaggeration trap:**
 > Jamie's resume (like most resumes) uses strong framing. When writing tailoring suggestions,
@@ -323,6 +332,10 @@ Some job boards block Chrome navigation (Greenhouse, LinkedIn, Stripe). For thes
   - Agent E: Alt boards (Handshake, Built In, SHRM, Idealist, Wellfound) + Remote boards (FlexJobs, WWR, Remote.co)
   - Agent F: PNW local searches (Portland/Seattle Batches Y–AF) + Greenhouse/Lever bulk WebSearch
   - Each agent returns a raw URL list + title + company. No verification — just discovery.
+- **⚠️ WAIT GATE: ALL discovery agents (A–F) MUST complete before Step 3 begins.**
+  Do NOT start verification or scoring based on ATS pre-fetch alone. The cap-exempt
+  and Portland-local roles from Agents D and F are often the best picks — they take
+  longer to discover but are higher value for Jamie's specific situation.
 - **Step 3 (Verification — ALL candidates, exhaustive):**
   - **Route by ATS type** (see Step 3a URL routing table)
   - **Main thread:** Ashby URLs (Chrome `get_page_text`) + LinkedIn URLs (Chrome)
@@ -381,6 +394,21 @@ Add urgency level to the Notes property:
 > **⚠️ CRITICAL: `notion-search` returns max 10 results per query. The DB may have 20–40+ entries.**
 > You MUST run MULTIPLE search queries with varied keywords to find ALL entries before auditing.
 > Never assume you've seen everything after a single search.
+
+**1a-pre. Check Google Sheets for already-applied roles (NEW v3.4):**
+
+> ⚠️ **CRITICAL: The Notion DB does NOT contain all roles Jamie has applied to.**
+> The ground truth for applications + rejections is the Google Sheet.
+> Flatiron Health was resurfaced in Run 6 despite Jamie already being rejected —
+> because the pipeline only checked Notion (which didn't have it from a prior manual app).
+
+Before auditing Notion, fetch the Google Sheet to build a complete skip list:
+
+```
+WebFetch(url="https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E/export?format=csv&gid=1018026840", prompt="Extract all company names and job titles from the 2026 tab. Return as a list of {company, title, status} objects.")
+```
+
+Add ALL companies from the Google Sheet to the skip list — regardless of status (Applied, Rejected, Not God's Plan, Interview, etc.). Jamie has already evaluated these roles.
 
 **1a. Exhaust the full DB with multi-batch searches** — Run ALL of the following queries in sequence, collecting unique page IDs across all batches:
 
@@ -1304,23 +1332,36 @@ For each verified-live candidate, assess against Jamie's ACTUAL experience from 
 - ❌ What she's missing (hard requirements she doesn't meet)
 - If ❌ list has more than 1-2 hard requirements → SKIP
 
-### Step 5 — Score and Pick Top 3 (maximum)
+### Step 5 — Score and Present ALL Viable Candidates
 
 **Scoring (weight order):**
-1. **Visa certainty** (confirmed > cap-exempt > unknown)
+1. **Visa certainty** (cap-exempt > confirmed H1B sponsor > unknown)
+   - **🏛️ Cap-exempt bonus (+10%):** Universities, nonprofits (501(c)(3/4)), and hospitals
+     are H1B cap-exempt — no lottery, no timing constraint, year-round sponsorship.
+     This is Jamie's strongest visa path. Cap-exempt employers get a +10% scoring bonus.
+   - Cap-exempt + Portland/Seattle = best possible combination. Prioritize these above all.
 2. **Honest fit score** — real JD match percentage based on actual experience
 3. **Role-priority tier** (P1 > P2 > P3 > P4)
 4. **Location** (Portland/Seattle in-person > Other US in-person/hybrid > Remote-exceptional-fit only)
 5. **Freshness** (< 7 days > 7-14 > 14-30)
 
+> **Cap-exempt discovery is the highest-value activity in this pipeline.**
+> Tech companies found via ATS APIs are useful but secondary. The Portland cap-exempt
+> roles from Agent D (HigherEdJobs, Idealist, university career sites) and Agent F
+> (PNW local searches) are often harder to find but far more actionable for Jamie.
+
 > ⚠️ **EXPERIENCE GATE:** Any role requiring 5+ years → automatic disqualification before scoring.
 
-**Max 3. OK to pick fewer. Never pad with weak matches.**
+**Present ALL candidates that pass the fit threshold. Do NOT cap at 3.**
+Jamie will decide which to apply to. She benefits from seeing the full landscape,
+not a pre-filtered shortlist. Rank them by score but include all ⭐+ roles.
+Enrichment (cover letter, networking) is done for the top 3, but all viable roles
+appear in the email digest with their scores and key details.
 
 **Rating criteria:**
-- ⭐⭐⭐ Perfect = 80%+ actual JD match + confirmed H1B + in-person/local + P1-P2 role
+- ⭐⭐⭐ Perfect = 80%+ actual JD match + confirmed/cap-exempt H1B + in-person/local + P1-P2 role
 - ⭐⭐ Good = 65-80% match + confirmed/cap-exempt H1B + good location + ≤4 yrs required
-- ⭐ Near-miss = 55-65% match — only if no better options, in-person preferred
+- ⭐ Worth reviewing = 55-65% match — include in digest with honest assessment
 
 **Urgency tag (v3.0) — add to every pick based on posting date:**
 - ⚡ URGENT (posted 0-2 days ago) — flag in email: "apply within 24-48 hrs!"
@@ -1616,8 +1657,18 @@ Dear Jamie, 👋💕
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-(repeat full block for #2, #3 — MAX 3 total)
+(repeat full enriched block for top 3 by score)
 (URGENCY_TAG: ⚡ URGENT / 🔶 FRESH / ⏳ AGING / 💤 STALE)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 Additional Viable Roles (scored but not fully enriched):
+
+| # | Company | Role | Location | H1B | Rating | Key Note |
+|---|---------|------|----------|-----|--------|----------|
+| 4 | {Co.} | {Role} | {Loc} | ✅/🏛️/❓ | ⭐⭐ | {one-line why} |
+| 5 | {Co.} | {Role} | {Loc} | ✅/🏛️/❓ | ⭐ | {one-line why} |
+(include ALL candidates that pass the ⭐+ threshold — no cap)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -1660,7 +1711,7 @@ https://www.notion.so/ea7cccd43f7a47a6b93a196241eb8d61
 {ONE_LINE_WHY}
 {URL}
 
-(repeat for all picks — max 3)
+(repeat for ALL viable picks — no cap)
 
 🧹 Marked {N} expired entries as Pass
 📊 Notion updated ✅
