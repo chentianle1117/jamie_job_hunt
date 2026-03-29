@@ -232,27 +232,80 @@ Chrome is the serial bottleneck. To minimize time:
 
 ---
 
-## Future Enhancements
+## v3.3 Enhancements (Mar 28, 2026)
 
-1. **Outcome Tracking:** Google Sheet integration to track apply → screen → offer pipeline
-   - Add `Outcome` column to Notion DB or Google Sheet
-   - After each application, track: Applied → Phone Screen → Interview → Offer/Reject
-   - Use this data to tune scoring weights over time
+### New Pre-Fetch Layer (Step 0.5)
 
-2. **Proactive Company Monitoring:**
+Added a pre-fetch stage that runs BEFORE the main agent pipeline:
+
+```
+STEP 0.5 — PRE-FETCH (Python scripts + Gmail MCP)
+│
+├── fetch_ats_jobs.py     — Greenhouse + Lever public JSON APIs (14 verified companies)
+│   Output: C:\Windows\Temp\ats_jobs.json
+│   Speed: ~10 sec for all companies (vs ~8 min Chrome verification)
+│   Reliability: 100% (public APIs, no auth, no anti-bot)
+│
+├── jobspy_search.py      — LinkedIn + Indeed + Glassdoor scraper (python-jobspy)
+│   Output: C:\Windows\Temp\jobspy_results.json + .csv
+│   Speed: ~30-60 sec for 6 search configs
+│   Reliability: Indeed = excellent (no rate limit); LinkedIn = good (~100 results)
+│
+└── Gmail MCP alerts       — Parse job alert emails from LinkedIn/Indeed/Glassdoor
+    Speed: ~10 sec
+    Catches: Jobs that Brave-backed WebSearch misses (~13% miss rate vs Google)
+```
+
+**Impact on pipeline timing:**
+| Phase | v3.2 | v3.3 | Change |
+|-------|------|------|--------|
+| Pre-fetch | — | 1-2 min | NEW |
+| Discovery | 4 min | 4 min | Same |
+| Chrome verify | 8 min | 4-5 min | **~40% fewer URLs need Chrome** (ATS API jobs pre-verified) |
+| Fit assessment | 2 min | 2 min | Same |
+| Enrichment | 3 min | 3 min | Same |
+| Delivery | 2 min | 2 min | Same |
+| **TOTAL** | **~19 min** | **~16-18 min** | Faster + more exhaustive |
+
+### New Discovery Sources (Agent G)
+
+**Agent G: Netherlands/EU boards** — IamExpat, Together Abroad, Undutchables, Arbeitnow, LinkedIn NL
+- Searches 8 EU-specific job boards
+- Targets 13+ NL companies (Booking, ASML, Adyen, Philips, etc.)
+- No H1B constraint (Orientation Year = free labor market access)
+- Tagged with 🇳🇱 in email digest
+
+### New US Sources Added to Existing Agents
+
+- **Agent D** now includes HigherEdJobs (cap-exempt university/nonprofit HR roles)
+- **Agent E** now includes FlexJobs, We Work Remotely, Remote.co, Himalayas
+- **Email alerts** parsed at start of each run via Gmail MCP
+
+### Outcome Tracking Loop (2d-7)
+
+End-of-run check against Google Sheet for status updates on past applications.
+Builds feedback data for improving future scoring and resume tailoring.
+
+---
+
+## Future Enhancements (Remaining)
+
+1. **Proactive Company Monitoring:**
    - Track companies that recently raised funding (Crunchbase)
    - Track new CHRO/VP People hires (LinkedIn alerts)
    - These predict future people programs openings
 
-3. **Scheduled Runs:**
-   - Use `create_scheduled_task` for automatic daily execution
-   - Weekday mornings (9am PT) when fresh listings appear
-
-4. **Network Graph:**
+2. **Network Graph:**
    - Build a running graph of Jamie's connections and outreach attempts
    - Track: who was contacted, response received, referral given
    - Avoid re-contacting the same person for different roles
 
+3. **Adzuna MCP Server:**
+   - Install `folathecoder/adzuna-job-search-mcp` for direct Claude Code integration
+   - Covers 12 countries (NL, UK, DE, FR, etc.) with structured API access
+   - Requires free API key from developer.adzuna.com
+
 ---
 
 *Created: Mar 24, 2026 — v3.0.0*
+*Updated: Mar 28, 2026 — v3.3.0 (pre-fetch layer, NL/EU sources, outcome tracking)*

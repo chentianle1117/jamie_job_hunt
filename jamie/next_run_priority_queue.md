@@ -1,3 +1,49 @@
+# 🔜 Next Run Priority Queue — Updated Mar 28, 2026 (Run 5)
+
+> **Run 5 Summary (Mar 28, 2026 — Saturday):** 2 NEW PICKS after expanded double-pass search (40+ WebSearches + Chrome verification).
+> Pick #1: Providence Health AHRBP (Portland Hybrid, Cap-Exempt) — verify H1B for non-clinical roles first
+> Pick #2: OPB People & Culture Generalist (Portland Hybrid, 501(c)(3) Cap-Exempt, only 2 YOE required) — ⭐⭐⭐ BEST FIT FOUND
+> Carry-forwards: Greenlight America (Apr 17 deadline!), US Mobile (NYC relocation decision)
+> Cleanup: Disney Glendale AHRBP → Pass 👋 (51 days old) + 2 batch duplicates
+> Expired during verification: Aledade POA (404), Kikoff POA (404), Equality Fed Culture Manager (unpublished), Home Forward HR Coord (unavailable)
+> Rejected: OHS HR Manager (5+ YOE), Providence DEI Manager (senior), City of Portland DEI (not cap-exempt), Mercy Corps Director (senior), Beghou (no H1B), Voltus (no H1B)
+> Market: Tight for Portland + cap-exempt + <5 YOE + HR. Q2 postings should pick up in early April.
+
+## 🔔 Run 5 Active Items for Run 6
+
+### OPB People & Culture Generalist — VERIFY STILL OPEN (Run 6 Priority)
+- **URL:** https://www.idealist.org/en/nonprofit-job/7a47dcce199f4e77bb5169da0de4a885-people-and-culture-generalist-opb-portland
+- **Also on:** OPB Careers, Oregon SHRM, Portland HRMA
+- **Status:** New 🆕 | Notion page: 33133d12-d95a-816c-88a7-e81cf98d2a0a
+- **Action:** Verify still live. If Jamie hasn't applied yet, escalate to URGENT.
+
+### Providence AHRBP — AWAITING H1B VERIFICATION
+- **URL:** https://providence.jobs/portland-or/associate-hr-business-partner-hybrid/A1AA2D768B904FCA899D8F5AF94DB65D/job/
+- **Status:** New 🆕 | Notion page: 33133d12-d95a-81cc-aafd-f509b29ab879
+- **Blocker:** H1B for non-clinical HRBP roles unconfirmed. Jamie should contact Jenni Coleman first.
+- **Action:** Check if Jamie has messaged Jenni Coleman. If no response after 5 business days → deprioritize.
+
+### Greenlight America People Ops Manager — DEADLINE APRIL 17 ⚡
+- **URL:** https://www.idealist.org/en/nonprofit-job/3c98b59b59e44d8cbc9a21264857b342-people-operations-manager-greenlight-america-washington
+- **Status:** New 🆕 (carry-forward from Run 3)
+- **Action:** ESCALATE if Jamie hasn't applied by Run 6. Only 20 days left.
+
+### US Mobile People Ops Associate — NYC DECISION PENDING
+- **URL:** https://jobs.lever.co/USMobile/dc0b8c8e-1873-4892-8b88-0328e8af70ed
+- **Status:** New 🆕 (carry-forward from Run 2) | 4 days old as of Run 5
+- **Action:** Verify still live. If Jamie is open to NYC → apply immediately. If not → move to Pass 👋.
+
+### Watchlist — Companies to Monitor for New Postings
+- **Columbia Sportswear** (Beaverton) — H1B sponsor (39 LCAs), no current HR coordinator openings
+- **Adidas** (Portland) — likely H1B sponsor, no current People Ops openings found
+- **Trimble** (Lake Oswego) — H1B sponsor, has HRBP opening but likely too senior
+- **OHSU** — cap-exempt, monitor for HR Coordinator or HRBP postings (SR HRBP is too senior)
+- **PSU** — cap-exempt university, monitor for HR postings
+- **Mercy Corps** — cap-exempt 501(c)(3), Portland HQ, monitor for coordinator-level roles (Director level = too senior)
+- **Portland Art Museum** — 501(c)(3), had HR Coordinator posting recently, may repost
+
+---
+
 # 🔜 Next Run Priority Queue — Updated Mar 26, 2026 (Run 4)
 
 > **Run 4 Summary (Mar 26, 2026 — same day as Run 3):** ZERO-PICK DAY.

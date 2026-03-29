@@ -177,8 +177,54 @@
 
 ---
 
+## Tier 8 — NETHERLANDS / EU BOARDS & COMPANIES (NEW v3.3)
+
+> **For Jamie's Orientation Year plan.** These roles do NOT require H1B — Orientation Year
+> grants free labor market access in the Netherlands. Start building a target list now.
+
+### EU Job Boards
+
+| Platform | URL | What to Search | Notes |
+|----------|-----|----------------|-------|
+| IamExpat Jobs | iamexpat.nl/career/jobs-netherlands | "people" "HR" "talent" "OD" "program" | Top expat board in NL. |
+| Together Abroad | togetherabroad.nl | "HR" "people" "talent" "learning" | Specializes in international career coaching + listings. |
+| Undutchables | undutchables.nl | "HR" "people" "talent" "employee experience" | Pioneer in recruiting internationals in NL. |
+| EnglishJobSearch.nl | englishjobsearch.nl/jobs/human_resources | "HR" "people" "talent" "program" | English-language HR jobs in NL. |
+| Arbeitnow | arbeitnow.com | "people" "HR" "talent" "OD" Netherlands | EU-focused. Free JSON API (no auth). |
+| LinkedIn NL | linkedin.com/jobs (filter: Netherlands) | "people program" "HR" "talent" Amsterdam | Filter by country. 400+ HR jobs typically. |
+| Glassdoor NL | glassdoor.nl | "organizational development" "HR" English | 70+ English-speaking HR jobs in NL. |
+| Indeed NL | nl.indeed.com | "people" "HR" "talent" English | Good volume, filter by English. |
+
+### NL Target Companies (Recognised Sponsors — can fast-track HSM visa)
+
+| Company | Careers URL | Search Terms | ATS | Notes |
+|---------|-------------|--------------|-----|-------|
+| Booking.com | careers.booking.com | "people" "talent" "HR" "program" | Custom | Amsterdam HQ. Major tech employer. |
+| ASML | asml.com/careers | "people" "HR" "talent" "OD" | Workday | Eindhoven. World's most valuable tech company. |
+| Adyen | careers.adyen.com | "people" "talent" "HR" | Greenhouse | Amsterdam. Fintech. |
+| Philips | careers.philips.com | "people" "talent" "HR" "OD" | Workday | Amsterdam/Eindhoven. Healthcare tech. |
+| TomTom | tomtom.com/careers | "people" "talent" "HR" | Greenhouse | Amsterdam. Maps/navigation. |
+| Databricks NL | databricks.com/company/careers | "people" "talent" "HR" | Greenhouse | Amsterdam office. |
+| Miro | miro.com/careers | "people" "talent" "HR" | Greenhouse | Amsterdam office. |
+| JustEat Takeaway | careers.justeattakeaway.com | "people" "HR" "talent" | Workday | Amsterdam HQ. |
+| ING | ing.com/careers | "people" "HR" "talent" "OD" | Custom | Amsterdam. Major bank. |
+| ABN AMRO | abnamro.com/careers | "people" "HR" "talent" | Custom | Amsterdam. Banking. |
+| Heineken | theheinekencompany.com/careers | "people" "HR" "talent" | Workday | Amsterdam HQ. Global FMCG. |
+| Shell | shell.com/careers | "people" "HR" "talent" "OD" | Workday | The Hague. Energy major. |
+| Unilever | careers.unilever.com | "people" "HR" "talent" | Workday | Rotterdam HQ. Global FMCG. |
+
+### NL Recruitment Agencies (for People/HR roles)
+
+- **Adams Multilingual Recruitment** — Amsterdam, specializes in international placements
+- **Hays Netherlands** — Major recruiter with HR/People vertical
+- **Michael Page Netherlands** — International recruitment, HR specialization
+- **Randstad Multilingual** — Large agency with international focus
+
+---
+
 ## 📋 Update Log
 
 | Date | Action |
 |------|--------|
+| 2026-03-28 | v3.3: Added Tier 8 (Netherlands/EU boards + companies). Added ATS mapping info. |
 | 2026-03-24 | Initial watchlist created. 80+ companies across 7 tiers. |

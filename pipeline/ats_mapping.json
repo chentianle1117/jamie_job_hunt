@@ -1,0 +1,69 @@
+{
+  "_description": "ATS mapping for watchlist companies. Used by fetch_ats_jobs.py to query public APIs.",
+  "_updated": "2026-03-28",
+  "_api_docs": {
+    "greenhouse": "https://developers.greenhouse.io/job-board.html — GET /v1/boards/{slug}/jobs?content=true",
+    "lever": "https://github.com/lever/postings-api — GET /v0/postings/{slug}?mode=json"
+  },
+  "greenhouse": {
+    "stripe": { "name": "Stripe", "slug": "stripe", "verified": true },
+    "figma": { "name": "Figma", "slug": "figma", "verified": true },
+    "discord": { "name": "Discord", "slug": "discord", "verified": true },
+    "roblox": { "name": "Roblox", "slug": "roblox", "verified": true },
+    "airbnb": { "name": "Airbnb", "slug": "airbnb", "verified": true },
+    "duolingo": { "name": "Duolingo", "slug": "duolingo", "verified": true },
+    "hubspot": { "name": "HubSpot", "slug": "hubspotjobs", "verified": true },
+    "cloudflare": { "name": "Cloudflare", "slug": "cloudflare", "verified": true },
+    "datadog": { "name": "Datadog", "slug": "datadog", "verified": true },
+    "twilio": { "name": "Twilio", "slug": "twilio", "verified": true },
+    "block": { "name": "Block/Square", "slug": "block", "verified": true },
+    "epicgames": { "name": "Epic Games", "slug": "epicgames", "verified": true },
+    "riotgames": { "name": "Riot Games", "slug": "riotgames", "verified": true },
+    "flatiron": { "name": "Flatiron Health", "slug": "flatironhealth", "verified": false },
+    "activision": { "name": "Activision Blizzard", "slug": "activisionblizzard", "verified": false },
+    "snap": { "name": "Snap", "slug": "snap", "verified": false },
+    "docusign": { "name": "DocuSign", "slug": "docusign", "verified": false },
+    "redfin": { "name": "Redfin", "slug": "redfin", "verified": false },
+    "zillow": { "name": "Zillow", "slug": "zillow", "verified": false },
+    "expedia": { "name": "Expedia", "slug": "expediagroup", "verified": false },
+    "headspace": { "name": "Headspace", "slug": "headspace", "verified": false },
+    "hingehealth": { "name": "Hinge Health", "slug": "hingehealth", "verified": false },
+    "modernhealth": { "name": "Modern Health", "slug": "modernhealth", "verified": false },
+    "tempus": { "name": "Tempus AI", "slug": "tempus", "verified": false },
+    "color": { "name": "Color Health", "slug": "color", "verified": false },
+    "includedhealth": { "name": "Included Health", "slug": "includedhealth", "verified": false },
+    "veeva": { "name": "Veeva Systems", "slug": "veeva", "verified": false },
+    "ro": { "name": "Ro", "slug": "ro", "verified": false },
+    "vacasa": { "name": "Vacasa", "slug": "vacasa", "verified": false },
+    "puppet": { "name": "Puppet", "slug": "puppet", "verified": false },
+    "latticesemi": { "name": "Lattice Semiconductor", "slug": "latticesemiconductor", "verified": false },
+    "jama": { "name": "Jama Software", "slug": "jamasoftware", "verified": false }
+  },
+  "lever": {
+    "spotify": { "name": "Spotify", "slug": "spotify", "verified": true },
+    "netflix": { "name": "Netflix", "slug": "netflix", "verified": true },
+    "atlassian": { "name": "Atlassian", "slug": "atlassian", "verified": true },
+    "shopify": { "name": "Shopify", "slug": "shopify", "verified": false }
+  },
+  "workday": {
+    "nike": { "name": "Nike", "url": "https://jobs.nike.com" },
+    "intel": { "name": "Intel", "url": "https://jobs.intel.com" },
+    "salesforce": { "name": "Salesforce", "url": "https://salesforce.wd12.myworkdayjobs.com" },
+    "snap_wd": { "name": "Snap (Workday)", "url": "https://snapchat.wd1.myworkdayjobs.com" },
+    "disney": { "name": "Disney", "url": "https://disney.wd5.myworkdayjobs.com" },
+    "adidas": { "name": "Adidas", "url": "https://careers.adidas-group.com" },
+    "columbia": { "name": "Columbia Sportswear", "url": "https://www.columbiasportswear.com/careers" },
+    "daimler": { "name": "Daimler Trucks NA", "url": "https://dtna.com/careers" },
+    "tmobile": { "name": "T-Mobile", "url": "https://www.t-mobile.com/careers" }
+  },
+  "custom": {
+    "amazon": { "name": "Amazon", "url": "https://amazon.jobs" },
+    "microsoft": { "name": "Microsoft", "url": "https://careers.microsoft.com" },
+    "adobe": { "name": "Adobe (Phenom)", "url": "https://careers.adobe.com" },
+    "ea": { "name": "EA (gr8people)", "url": "https://ea.gr8people.com/jobs" },
+    "canva": { "name": "Canva", "url": "https://www.canva.com/careers/jobs/" }
+  },
+  "ashby": {
+    "notion": { "name": "Notion", "url": "https://www.notion.so/careers" }
+  }
+}

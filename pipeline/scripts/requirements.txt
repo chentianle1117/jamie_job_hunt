@@ -1,0 +1,7 @@
+# Dependencies for Oracle pipeline Python scripts
+# Install: pip install -r requirements.txt
+
+requests>=2.31.0          # fetch_ats_jobs.py — Greenhouse/Lever API calls
+python-jobspy>=1.1.0      # jobspy_search.py — LinkedIn/Indeed/Glassdoor scraping
+beautifulsoup4>=4.12.0    # jobspy dependency
+pandas>=2.0.0             # jobspy CSV export (optional but recommended)

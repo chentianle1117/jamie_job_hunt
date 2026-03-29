@@ -191,7 +191,7 @@ jamie_job_hunt/
 │   ├── resume.html                  ← Editable HTML resume template
 │   ├── outreach_templates.md        ← LinkedIn/email message templates in Jamie's voice
 │   ├── h1b_verified.md              ← H1B sponsorship cache (50+ companies)
-│   ├── watchlist.md                 ← 80+ target companies across 7 tiers
+│   ├── watchlist.md                 ← 100+ target companies across 8 tiers (incl. Netherlands)
 │   ├── search_strategy.md           ← Search queries by role priority
 │   ├── application_tracker.md       ← Live Google Sheets URLs + static fallback
 │   └── bible_verses.md              ← Daily encouragement verses
@@ -210,9 +210,14 @@ jamie_job_hunt/
 │   └── apply-pipeline/SKILL.md      ← /apply-pipeline command
 │
 ├── pipeline/                        ← Oracle discovery pipeline (David's machine)
-│   ├── SKILL.md                     ← Full 13-step pipeline definition
+│   ├── SKILL.md                     ← Full pipeline definition (v3.3)
+│   ├── ats_mapping.json             ← ATS type + API slug for each watchlist company
 │   ├── run_oracle.ps1               ← Email + Telegram delivery script
-│   └── scripts/                     ← Helper scripts
+│   └── scripts/
+│       ├── fetch_ats_jobs.py        ← Greenhouse/Lever public API fetcher (pre-step)
+│       ├── jobspy_search.py         ← LinkedIn/Indeed/Glassdoor scraper (pre-step)
+│       ├── do_sheet.ps1             ← Google Sheets append
+│       └── requirements.txt         ← Python dependencies
 │
 └── docs/                            ← Architecture & workflow documentation
     ├── ARCHITECTURE.md              ← Multi-agent pipeline architecture
