@@ -9,7 +9,7 @@ description: >
   People Program Management, HR Specialist, Employee Engagement/Experience, OD/OCM,
   and entry-level Consulting roles, auditing the Notion database, enriching entries with
   cover letters and networking connections, and preparing email delivery.
-version: 3.4.0
+version: 3.4.1
 ---
 
 > Daily HR/L&D/OD/Consulting job search for Jamie (Yi-Chieh) Cheng.
@@ -332,6 +332,17 @@ Some job boards block Chrome navigation (Greenhouse, LinkedIn, Stripe). For thes
   - Agent E: Alt boards (Handshake, Built In, SHRM, Idealist, Wellfound) + Remote boards (FlexJobs, WWR, Remote.co)
   - Agent F: PNW local searches (Portland/Seattle Batches Y–AF) + Greenhouse/Lever bulk WebSearch
   - Each agent returns a raw URL list + title + company. No verification — just discovery.
+  - **⚠️ AGENT OUTPUT QUALITY RULES (v3.4.1):**
+    - Return ONLY direct job posting URLs (containing a specific job ID or posting slug)
+    - Do NOT return search result pages, category pages, or aggregator landing pages
+    - Do NOT return LinkedIn hub pages (e.g., linkedin.com/jobs/hr-coordinator-jobs)
+    - Do NOT return Glassdoor search URLs (e.g., glassdoor.com/Job/remote-...-jobs-SRCH_...)
+    - Each result MUST have: exact job title, company name, direct apply URL
+    - If a WebSearch only returns aggregator pages, note "no direct URLs found" and move on
+    - Dedup within each agent: same company+title = one entry only
+  - **⚠️ SKIP LIST IS COMPANY+TITLE PAIRS (v3.4.1):**
+    - Do NOT skip an entire company. Only skip the exact (company, role title) pair.
+    - Example: skip "Early Career PM @ Roblox" but keep "People Ops Coordinator @ Roblox"
 - **⚠️ WAIT GATE: ALL discovery agents (A–F) MUST complete before Step 3 begins.**
   Do NOT start verification or scoring based on ATS pre-fetch alone. The cap-exempt
   and Portland-local roles from Agents D and F are often the best picks — they take
@@ -402,13 +413,27 @@ Add urgency level to the Notes property:
 > Flatiron Health was resurfaced in Run 6 despite Jamie already being rejected —
 > because the pipeline only checked Notion (which didn't have it from a prior manual app).
 
-Before auditing Notion, fetch the Google Sheet to build a complete skip list:
+Before auditing Notion, fetch the Google Sheet to build a dedup list:
 
 ```
-WebFetch(url="https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E/export?format=csv&gid=1018026840", prompt="Extract all company names and job titles from the 2026 tab. Return as a list of {company, title, status} objects.")
+WebFetch(url="https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E/export?format=csv&gid=1018026840", prompt="Extract all rows as {company, title, status} objects from the 2026 tab.")
 ```
 
-Add ALL companies from the Google Sheet to the skip list — regardless of status (Applied, Rejected, Not God's Plan, Interview, etc.). Jamie has already evaluated these roles.
+> ⚠️ **DEDUP BY COMPANY+TITLE PAIR, NOT BY COMPANY ALONE (v3.4.1):**
+> The skip list should contain **specific (company, role title) pairs**, not entire companies.
+> Jamie may have applied to "Early Career PM" at Roblox — but Roblox could post a
+> "People Operations Coordinator" next week. That's a DIFFERENT role and should NOT be skipped.
+>
+> **Skip rule:** Only skip a discovered role if there is an EXACT or near-exact title match
+> at the same company in the Google Sheet or Notion DB. "Near-exact" means the core role
+> is the same (e.g., "People Ops Associate" ≈ "People Operations Associate").
+> A different role at the same company is NOT skipped.
+>
+> **Example:**
+> - Google Sheet has: Roblox — "Early Career Program Manager" → skip "Early Career PM @ Roblox"
+> - Google Sheet has: Roblox — "Early Career Program Manager" → DO NOT skip "People Ops Coordinator @ Roblox"
+> - Notion has: Flatiron — "TEE Associate" (Pass) → skip "TEE Associate @ Flatiron"
+> - Notion has: Flatiron — "TEE Associate" (Pass) → DO NOT skip "L&D Coordinator @ Flatiron" (if it existed)
 
 **1a. Exhaust the full DB with multi-batch searches** — Run ALL of the following queries in sequence, collecting unique page IDs across all batches:
 
@@ -430,7 +455,7 @@ Batch 10: query="experience business partner"     → HRBP and EX variants
 Deduplicate by page ID across all batches. This should surface all entries.
 If a batch returns 10 results, run additional keyword-varied queries until batches return <5 new unique IDs.
 
-**1b. Build skip list** — Extract every company name (any status) to avoid duplicates.
+**1b. Build skip list** — Extract every **(company, role title) pair** (any status) to avoid exact duplicates. Do NOT skip entire companies — only skip the specific role that was already tracked.
 
 **1c. Verify EVERY "New 🆕" entry via Chrome — METICULOUS** — For EACH entry:
 
@@ -468,9 +493,13 @@ Step 3: Check content for status signals
 - Workday "page doesn't exist" = expired (add to cleanup list)
 - Page loads with full JD and Apply button = live (verify freshness)
 
-**If live → check posting date:**
-- Posted > 30 days ago → add to cleanup_pages.json with reason "too old (posted {date})"
-- Otherwise → keep as active
+**If live → extract posted date (REQUIRED v3.4.1):**
+- Look for "Posted X days ago", "Published date", or date in the page metadata
+- Record the exact or approximate posted date for EVERY verified-live role
+- This date goes into the Notion "Posted Date" property and the email digest
+- Posted > 30 days ago → still include but mark as 💤 STALE in email
+- Do NOT auto-reject based on age alone — let Jamie decide
+- If posted date cannot be determined, note "posted date unknown" rather than guessing
 
 **1d. Mark-as-Deactivated Protocol** ← UPDATED v2.7
 > ⚠️ Do NOT delete or archive entries from Notion. Keep all entries as historical records.
@@ -1352,11 +1381,24 @@ For each verified-live candidate, assess against Jamie's ACTUAL experience from 
 
 > ⚠️ **EXPERIENCE GATE:** Any role requiring 5+ years → automatic disqualification before scoring.
 
-**Present ALL candidates that pass the fit threshold. Do NOT cap at 3.**
-Jamie will decide which to apply to. She benefits from seeing the full landscape,
-not a pre-filtered shortlist. Rank them by score but include all ⭐+ roles.
+**Present ALL candidates that pass the HARD CONSTRAINTS. Do NOT over-filter.**
+Jamie will decide which to apply to. She benefits from seeing the full landscape.
+The pipeline's job is to FIND and VERIFY roles, not to gatekeep them.
+
+**Hard constraints (auto-reject):**
+- Requires 5+ years experience
+- Explicitly says "no sponsorship" / "US citizens only"
+- Non-US location
+- Senior/Director/VP/C-level title
+
+**Everything else gets included in the email digest**, even if it's a stretch.
+For each role, provide enough info for Jamie to decide:
+- Posted date, salary, YOE requirement, location, H1B status
+- 1-2 sentence honest assessment of fit and gaps
+- Cap-exempt status clearly marked
+
 Enrichment (cover letter, networking) is done for the top 3, but all viable roles
-appear in the email digest with their scores and key details.
+appear in the email digest ranked by score with full details.
 
 **Rating criteria:**
 - ⭐⭐⭐ Perfect = 80%+ actual JD match + confirmed/cap-exempt H1B + in-person/local + P1-P2 role
