@@ -173,6 +173,24 @@ Also update the `.kw-legend` to match the actual keyword groups used for this ro
 <tr><td>[Location]</td><td class="tag-word">🔴 word swap</td><td class="orig">[old word]</td><td class="new">[new word]</td><td>[JD reason]</td></tr>
 ```
 
+#### Additional content rules per tailoring:
+
+**Location line** (in `.header .contact`):
+- Role in Portland, OR (or suburbs: Beaverton, Hillsboro, Vancouver WA) → `Relocating to Portland, Oregon in May 2026`
+- Role in Seattle, WA → `Relocating to Seattle, WA in May 2026`
+- Remote / other relocation / unclear → `Open to Remote or Relocation (US-based)` ← default
+
+**Projects & Awards section**:
+- Consulting-related roles (consulting firms, OD consulting, human capital advisory): use two consulting project labels:
+  - `<b>OD Consulting Project:</b> Informed <b>Elanco Animal Health</b>...` (NOT "Enhanced", NOT "Consulting Projects:")
+  - `<b>Research Consulting Project:</b> Examined non-monetary factors... for <b>YouTube</b>...` (NOT "Master's Capstone:")
+- All other roles: keep `<b>Consulting Projects:</b>` + `<b>Master's Capstone:</b>` labels as-is
+
+**Formatting constants (verify on every tailored copy)**:
+- Summary: **no border**, text-align: center — `.summary { padding: ...; text-align: center; }` (no `border:` rule)
+- Links: **visible hyperlinks** — `.header .contact a { color: #2a6496; text-decoration: underline; }`
+- LinkedIn `<a href="http://www.linkedin.com/in/jamieyccheng">` must be present with correct href
+
 ### Step 8 — Export to PDF
 
 Export from the **tailored file** (not `jamie/resume.html`):
