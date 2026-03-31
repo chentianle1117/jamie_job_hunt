@@ -171,6 +171,14 @@ The `id="jdN"` on JD marks must match `data-jd="jdN"` on the corresponding resum
 
 Also update the `.kw-legend` to match the actual keyword groups used for this role.
 
+**Keyword highlight CSS spec (use this exact spec — do NOT use the old faint pastel version):**
+- Base `.kw` tint (always visible): `#b2dfdb` / `#ffe0b2` / `#e1bee7` / `#c8e6c9` / `#f8bbd0` / `#bbdefb`
+- Base `.jd-kw`: colored text + `rgba(..., 0.18)` background tint + 2px border-bottom
+- Active `.kw.kw-active`: saturated solid color with `color: #fff` (e.g. `#26c6da`, `#ffa726`, `#ab47bc`, `#66bb6a`, `#ec407a`, `#42a5f5`) + `outline: 2px solid`
+- Active `.jd-kw.kw-active`: `rgba(..., 0.85)` background + `color: #fff` + `outline: 2px solid`
+- Dim opacity on non-active: `0.2` (not `0.25`)
+- Add `transition: background 0.15s, outline 0.15s` to both `.kw` and `.jd-kw`
+
 #### Also update the Diff Toolbar at top of HTML:
 ```html
 <div class="diff-version">

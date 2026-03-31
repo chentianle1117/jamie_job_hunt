@@ -111,23 +111,23 @@
      Six keyword groups with distinct colors
      ================================================================ */
 
-  /* Resume side (white bg) */
-  body.mode-keywords .kw { border-radius: 2px; padding: 0 1px; }
-  body.mode-keywords .kw[data-kwg="data"]  { background: #e0f2f1; }
-  body.mode-keywords .kw[data-kwg="coord"] { background: #fff3e0; }
-  body.mode-keywords .kw[data-kwg="cross"] { background: #f3e5f5; }
-  body.mode-keywords .kw[data-kwg="ex"]    { background: #e8f5e9; }
-  body.mode-keywords .kw[data-kwg="tools"] { background: #fce4ec; }
-  body.mode-keywords .kw[data-kwg="prog"]  { background: #e3f2fd; }
+  /* Resume side (white bg) — visible base tint */
+  body.mode-keywords .kw { border-radius: 2px; padding: 0 2px; transition: background 0.15s, outline 0.15s; }
+  body.mode-keywords .kw[data-kwg="data"]  { background: #b2dfdb; }
+  body.mode-keywords .kw[data-kwg="coord"] { background: #ffe0b2; }
+  body.mode-keywords .kw[data-kwg="cross"] { background: #e1bee7; }
+  body.mode-keywords .kw[data-kwg="ex"]    { background: #c8e6c9; }
+  body.mode-keywords .kw[data-kwg="tools"] { background: #f8bbd0; }
+  body.mode-keywords .kw[data-kwg="prog"]  { background: #bbdefb; }
 
-  /* JD side (dark bg) */
-  body.mode-keywords .jd-kw { border-radius: 2px; padding: 0 2px; }
-  body.mode-keywords .jd-kw[data-kwg="data"]  { color: #4dd0e1; border-bottom: 2px solid #4dd0e1; }
-  body.mode-keywords .jd-kw[data-kwg="coord"] { color: #ffb74d; border-bottom: 2px solid #ffb74d; }
-  body.mode-keywords .jd-kw[data-kwg="cross"] { color: #ce93d8; border-bottom: 2px solid #ce93d8; }
-  body.mode-keywords .jd-kw[data-kwg="ex"]    { color: #81c784; border-bottom: 2px solid #81c784; }
-  body.mode-keywords .jd-kw[data-kwg="tools"] { color: #f48fb1; border-bottom: 2px solid #f48fb1; }
-  body.mode-keywords .jd-kw[data-kwg="prog"]  { color: #64b5f6; border-bottom: 2px solid #64b5f6; }
+  /* JD side (dark bg) — colored text + subtle bg tint */
+  body.mode-keywords .jd-kw { border-radius: 2px; padding: 0 2px; transition: background 0.15s, outline 0.15s; }
+  body.mode-keywords .jd-kw[data-kwg="data"]  { color: #4dd0e1; background: rgba(77,208,225,0.18); border-bottom: 2px solid #4dd0e1; }
+  body.mode-keywords .jd-kw[data-kwg="coord"] { color: #ffb74d; background: rgba(255,183,77,0.18); border-bottom: 2px solid #ffb74d; }
+  body.mode-keywords .jd-kw[data-kwg="cross"] { color: #ce93d8; background: rgba(206,147,216,0.18); border-bottom: 2px solid #ce93d8; }
+  body.mode-keywords .jd-kw[data-kwg="ex"]    { color: #81c784; background: rgba(129,199,132,0.18); border-bottom: 2px solid #81c784; }
+  body.mode-keywords .jd-kw[data-kwg="tools"] { color: #f48fb1; background: rgba(244,143,177,0.18); border-bottom: 2px solid #f48fb1; }
+  body.mode-keywords .jd-kw[data-kwg="prog"]  { color: #64b5f6; background: rgba(100,181,246,0.18); border-bottom: 2px solid #64b5f6; }
 
   /* Keyword legend in JD panel */
   body.mode-keywords .kw-legend { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 14px 0; }
@@ -140,24 +140,24 @@
   .kw-legend .leg-tools { background: rgba(244,143,177,0.2); color: #f48fb1; }
   .kw-legend .leg-prog  { background: rgba(100,181,246,0.2); color: #64b5f6; }
 
-  /* Keyword hover glow — all same-group items light up */
-  body.mode-keywords .kw.kw-active[data-kwg="data"]  { background: #b2dfdb; outline: 1.5px solid #4dd0e1; }
-  body.mode-keywords .kw.kw-active[data-kwg="coord"] { background: #ffe0b2; outline: 1.5px solid #ffb74d; }
-  body.mode-keywords .kw.kw-active[data-kwg="cross"] { background: #e1bee7; outline: 1.5px solid #ce93d8; }
-  body.mode-keywords .kw.kw-active[data-kwg="ex"]    { background: #c8e6c9; outline: 1.5px solid #81c784; }
-  body.mode-keywords .kw.kw-active[data-kwg="tools"] { background: #f8bbd0; outline: 1.5px solid #f48fb1; }
-  body.mode-keywords .kw.kw-active[data-kwg="prog"]  { background: #bbdefb; outline: 1.5px solid #64b5f6; }
+  /* Keyword active state — strong highlight, clear pop */
+  body.mode-keywords .kw.kw-active[data-kwg="data"]  { background: #26c6da; color: #fff; outline: 2px solid #00acc1; }
+  body.mode-keywords .kw.kw-active[data-kwg="coord"] { background: #ffa726; color: #fff; outline: 2px solid #fb8c00; }
+  body.mode-keywords .kw.kw-active[data-kwg="cross"] { background: #ab47bc; color: #fff; outline: 2px solid #8e24aa; }
+  body.mode-keywords .kw.kw-active[data-kwg="ex"]    { background: #66bb6a; color: #fff; outline: 2px solid #43a047; }
+  body.mode-keywords .kw.kw-active[data-kwg="tools"] { background: #ec407a; color: #fff; outline: 2px solid #d81b60; }
+  body.mode-keywords .kw.kw-active[data-kwg="prog"]  { background: #42a5f5; color: #fff; outline: 2px solid #1e88e5; }
 
-  body.mode-keywords .jd-kw.kw-active[data-kwg="data"]  { background: rgba(77,208,225,0.65); color: #fff; outline: 1.5px solid #4dd0e1; }
-  body.mode-keywords .jd-kw.kw-active[data-kwg="coord"] { background: rgba(255,183,77,0.65); color: #fff; outline: 1.5px solid #ffb74d; }
-  body.mode-keywords .jd-kw.kw-active[data-kwg="cross"] { background: rgba(206,147,216,0.65); color: #fff; outline: 1.5px solid #ce93d8; }
-  body.mode-keywords .jd-kw.kw-active[data-kwg="ex"]    { background: rgba(129,199,132,0.65); color: #fff; outline: 1.5px solid #81c784; }
-  body.mode-keywords .jd-kw.kw-active[data-kwg="tools"] { background: rgba(244,143,177,0.65); color: #fff; outline: 1.5px solid #f48fb1; }
-  body.mode-keywords .jd-kw.kw-active[data-kwg="prog"]  { background: rgba(100,181,246,0.65); color: #fff; outline: 1.5px solid #64b5f6; }
+  body.mode-keywords .jd-kw.kw-active[data-kwg="data"]  { background: rgba(77,208,225,0.85); color: #fff; outline: 2px solid #4dd0e1; }
+  body.mode-keywords .jd-kw.kw-active[data-kwg="coord"] { background: rgba(255,183,77,0.85); color: #fff; outline: 2px solid #ffb74d; }
+  body.mode-keywords .jd-kw.kw-active[data-kwg="cross"] { background: rgba(206,147,216,0.85); color: #fff; outline: 2px solid #ce93d8; }
+  body.mode-keywords .jd-kw.kw-active[data-kwg="ex"]    { background: rgba(129,199,132,0.85); color: #fff; outline: 2px solid #81c784; }
+  body.mode-keywords .jd-kw.kw-active[data-kwg="tools"] { background: rgba(244,143,177,0.85); color: #fff; outline: 2px solid #f48fb1; }
+  body.mode-keywords .jd-kw.kw-active[data-kwg="prog"]  { background: rgba(100,181,246,0.85); color: #fff; outline: 2px solid #64b5f6; }
 
   /* Dim non-active keywords when a group is hovered */
-  body.mode-keywords.kw-hovering .kw:not(.kw-active)    { opacity: 0.25; }
-  body.mode-keywords.kw-hovering .jd-kw:not(.kw-active) { opacity: 0.25; }
+  body.mode-keywords.kw-hovering .kw:not(.kw-active)    { opacity: 0.2; }
+  body.mode-keywords.kw-hovering .jd-kw:not(.kw-active) { opacity: 0.2; }
 
   /* MODE 3: CLEAN — no highlights */
   /* (default — no special class needed, all .kw / .jd-kw / diff classes are unstyled) */
