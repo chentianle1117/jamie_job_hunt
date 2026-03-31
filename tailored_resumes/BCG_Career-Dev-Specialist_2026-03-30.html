@@ -162,6 +162,33 @@
   /* MODE 3: CLEAN — no highlights */
   /* (default — no special class needed, all .kw / .jd-kw / diff classes are unstyled) */
 
+  /* ================================================================
+     EDIT MODE
+     ================================================================ */
+  #edit-log { background: #1a2a1a; border-bottom: 2px solid #2d5a2d; padding: 10px 14px; font-family: sans-serif; font-size: 9px; line-height: 1.5; display: none; color: #b8d4b8; }
+  #edit-log.visible { display: block; }
+  #edit-log h3 { font-size: 10px; color: #90ee90; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.5px; }
+  #edit-log table { width: 100%; border-collapse: collapse; }
+  #edit-log th { background: #2d5a2d; color: #c8e6c8; padding: 3px 8px; text-align: left; font-weight: normal; }
+  #edit-log td { padding: 3px 8px; border-bottom: 1px solid #2d5a2d; vertical-align: top; }
+  #edit-log tr:hover td { background: #1f3a1f; }
+  #edit-log .orig { color: #e88; text-decoration: line-through; }
+  #edit-log .new  { color: #8e8; }
+  #edit-log .ts   { color: #666; white-space: nowrap; }
+  #edit-log .no-edits { color: #666; font-style: italic; }
+
+  body.mode-edit .resume-page li,
+  body.mode-edit .resume-page .summary,
+  body.mode-edit .resume-page .simple-list li { cursor: text; }
+
+  body.mode-edit .resume-page li:hover,
+  body.mode-edit .resume-page .summary:hover,
+  body.mode-edit .resume-page .simple-list li:hover { outline: 1.5px dashed #1abc9c; outline-offset: 2px; background: rgba(26,188,156,0.06); }
+
+  body.mode-edit .resume-page [contenteditable="true"] { outline: 2px solid #1abc9c !important; background: rgba(26,188,156,0.1) !important; }
+
+  #btn-edit.active { background: #1abc9c; color: #fff; border-color: #16a085; }
+
   /* ── Page boundary (screen only) ── */
   .page-guide { border-top: 2px dashed #e74c3c; margin-top: 4pt; position: relative; }
   .page-guide::after { content: "⬆ PAGE 1 ENDS HERE"; position: absolute; top: 2px; right: 0; font-size: 9px; color: #e74c3c; font-family: sans-serif; background: white; padding: 1px 5px; }
@@ -246,7 +273,18 @@
     <button id="btn-keywords" class="active" onclick="setMode('keywords')">🔗 Keywords</button>
     <button id="btn-clean" onclick="setMode('clean')">📄 Clean</button>
     <button id="btn-log" onclick="document.getElementById('change-log').classList.toggle('visible')">📋 Log</button>
+    <button id="btn-edit" onclick="toggleEditMode()">✏️ Edit</button>
+    <button id="btn-edits" onclick="document.getElementById('edit-log').classList.toggle('visible')">📝 Edits</button>
   </div>
+</div>
+
+<!-- ══════════ EDIT LOG ══════════ -->
+<div id="edit-log">
+  <h3>Jamie's Edits</h3>
+  <table>
+    <tr><th>Time</th><th>Location</th><th>Before</th><th>After</th></tr>
+  </table>
+  <p class="no-edits" style="display:none">No edits yet.</p>
 </div>
 
 <!-- ══════════ CHANGE LOG ══════════ -->
@@ -625,6 +663,94 @@
       if (kwPinned) clearKwPin();
     }
   });
+})();
+
+// ── INLINE EDIT MODE ──
+(function() {
+  var editMode = false;
+  var editLog = [];
+  var editables = [];
+
+  function getLabel(el) {
+    // Try to find a meaningful label: job title + bullet index
+    var job = el.closest('.job, .edu, .simple-list, .summary');
+    if (!job) return 'Resume';
+    var titleEl = job.querySelector('.job-title, .edu-school');
+    var label = titleEl ? titleEl.textContent.replace('(Work Sample)', '').trim() : 'Resume';
+    if (el.tagName === 'LI') {
+      var lis = Array.from(job.querySelectorAll('li'));
+      var idx = lis.indexOf(el);
+      label += ' #' + (idx + 1);
+    }
+    return label;
+  }
+
+  function getPlainText(el) {
+    // Get text content without diff annotations (::before/::after are not in textContent)
+    return el.textContent.trim();
+  }
+
+  function logEdit(el, before, after) {
+    if (before === after) return;
+    var now = new Date();
+    var ts = now.getHours().toString().padStart(2,'0') + ':' +
+             now.getMinutes().toString().padStart(2,'0') + ':' +
+             now.getSeconds().toString().padStart(2,'0');
+    var label = getLabel(el);
+    editLog.push({ ts: ts, label: label, before: before, after: after });
+
+    var table = document.querySelector('#edit-log table');
+    var noEdits = document.querySelector('#edit-log .no-edits');
+    if (noEdits) noEdits.style.display = 'none';
+    var tr = document.createElement('tr');
+    tr.innerHTML = '<td class="ts">' + ts + '</td>' +
+                   '<td>' + label + '</td>' +
+                   '<td class="orig">' + before.replace(/</g,'&lt;') + '</td>' +
+                   '<td class="new">' + after.replace(/</g,'&lt;') + '</td>';
+    table.appendChild(tr);
+    // Auto-show log when edits happen
+    document.getElementById('edit-log').classList.add('visible');
+  }
+
+  function enableEditing() {
+    // Make all li and summary elements in resume editable
+    var targets = document.querySelectorAll('.resume-page li, .resume-page .summary');
+    targets.forEach(function(el) {
+      el.setAttribute('contenteditable', 'true');
+      el.setAttribute('spellcheck', 'true');
+      el._beforeEdit = getPlainText(el);
+      el.addEventListener('blur', function() {
+        var after = getPlainText(el);
+        logEdit(el, el._beforeEdit, after);
+        el._beforeEdit = after; // update for next edit
+      });
+      editables.push(el);
+    });
+  }
+
+  function disableEditing() {
+    editables.forEach(function(el) {
+      el.removeAttribute('contenteditable');
+      el.removeAttribute('spellcheck');
+    });
+    editables = [];
+  }
+
+  window.toggleEditMode = function() {
+    editMode = !editMode;
+    var btn = document.getElementById('btn-edit');
+    if (editMode) {
+      document.body.classList.add('mode-edit');
+      btn.classList.add('active');
+      btn.textContent = '✏️ Editing';
+      enableEditing();
+    } else {
+      document.body.classList.remove('mode-edit');
+      btn.classList.remove('active');
+      btn.textContent = '✏️ Edit';
+      disableEditing();
+    }
+  };
 })();
 </script>
 
