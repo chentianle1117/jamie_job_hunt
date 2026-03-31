@@ -1,4 +1,5 @@
 {
+  "alwaysThinkingEnabled": false,
   "hooks": {
     "PostToolUse": [
       {
