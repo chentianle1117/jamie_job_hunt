@@ -16,6 +16,7 @@
    * **Tier 1:** Portland, OR (and suburbs: Beaverton, Hillsboro, Vancouver WA) — moderate bar
    * **Tier 2:** Remote (US-Based) — HIGH bar (see section below)
    * **Tier 3:** Seattle, WA — moderate bar
+   * **Note (Mar 2026):** Portland/Remote/Seattle is her preference, not a hard constraint. She is open to relocation for the right role. Evaluate role fit first; flag location as a consideration if out-of-area.
 3. **Seniority:** No Senior/Director/VP/Principal/C-level titles. Jamie has ~3 years experience.
 
 ## 🚫 Hard Reject Filters

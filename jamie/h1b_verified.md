@@ -52,6 +52,7 @@
 | US Mobile | h1bgrader.com — 11 LCAs FY2022-2025, 4 in FY2025 YTD | 2026-03-24 | NYC HQ, telecom startup |
 | dbt Labs | JD explicit language: "Assist with immigration cases, including visa sponsorship, renewals, and compliance, in partnership with external immigration counsel" | 2026-03-25 | Run 2 Pick #1 (POG role). One of strongest H1B signals possible in any JD. |
 | Plaid | h1bgrader.com — 40 LCAs FY2025 all approved, 31 H1B petitions FY2025 approved | 2026-03-26 | Strong fintech H1B sponsor. Run 4 — People PM roles expired but H1B confirmed for future. |
+| The Boston Consulting Group (BCG) | h1bdata.info + myvisajobs.com — 1,674 LCA filings FY2022–2024, ~100% approval rate, ranked #74 US sponsor | 2026-03-30 | Major consulting firm. For-profit (not cap-exempt). Career Development Specialist role evaluated. |
 
 ---
 

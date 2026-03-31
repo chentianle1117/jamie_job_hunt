@@ -8,6 +8,18 @@ description: >
 argument-hint: "<paste job description or reference the job just evaluated>"
 ---
 
+## ⚠️ CRITICAL — Git + Working Directory Rules (HIGH PRIORITY)
+
+**Before doing anything else:**
+1. Work ONLY in `/Users/jamiecheng/jamie_job_hunt/` (main repo, `main` branch)
+2. Run `git pull` before starting any tailoring session
+3. Never create branches — commit directly to `main`
+4. After completing a session: `git add -p && git commit && git push`
+
+**Do NOT work in any worktree path** (e.g. `.claude/worktrees/...`)
+
+---
+
 ## Stage 2: Resume Tailoring
 
 ### Step 1 — Load Context
@@ -18,27 +30,21 @@ Read these files:
 3. `resume_templates/TEMPLATES.md` — which template maps to which role type
 4. **If a similar role exists in `tailored_resumes/`** — read that HTML to see prior tailoring decisions
 
-### Step 2 — Pick the Right Template
+### Step 2 — Create the Tailored File
 
-Based on the JD, select the closest template from `resume_templates/`:
+**`jamie/resume.html` is the source of truth for the full diff UI.**
+It contains the complete three-mode toolbar (Changes / Keywords / Clean), change log, split-pane
+JD panel, SVG connection lines, keyword group highlighting, and click-to-pin interaction.
+**Never rebuild the UI from scratch.** Always copy from this file.
 
-| JD emphasis | Template |
-|-------------|----------|
-| "employee/workplace experience", "culture", "people programs" | `template_EX-WX.html` |
-| "program management", "project lifecycle", "operations" | `template_PM.html` |
-| "learning design", "L&D", "curriculum", "enablement" | `template_LD.html` |
-| "HRBP", "HR generalist", "ER", "talent" | `template_HR-HRBP.html` |
-| General / unclear | `template_base.html` |
-
-Copy the template:
+Create the tailored version:
 ```bash
-cp resume_templates/template_EX-WX.html tailored_resumes/Company_RoleType_YYYY-MM-DD.html
+cp jamie/resume.html tailored_resumes/Company_RoleType_YYYY-MM-DD.html
 ```
 
-Also copy it as the active working file:
-```bash
-cp resume_templates/template_EX-WX.html jamie/resume.html
-```
+**Do NOT edit `jamie/resume.html` directly during tailoring.** All edits go to the `tailored_resumes/` copy.
+The Superhuman version (`tailored_resumes/Superhuman_WX-Coordinator_2026-03-27.html`) is the reference
+for a correctly completed tailored file.
 
 ### Step 3 — Understand the Target JD
 
@@ -110,7 +116,8 @@ Present the tailoring plan before touching the HTML:
 
 ### Step 7 — Apply Changes to HTML with Full Diff System
 
-After Jamie approves (or auto-proceed if she said "go ahead"), edit `jamie/resume.html`.
+After Jamie approves (or auto-proceed if she said "go ahead"), edit the tailored file
+`tailored_resumes/Company_RoleType_YYYY-MM-DD.html` (NOT `jamie/resume.html`).
 
 **Three change types — use the correct class for each:**
 
@@ -137,6 +144,19 @@ Before: <li>...improved <span class="keyword" data-original="analytics" data-rea
 - BAD: `data-reason="Changed 'analytics' to 'analysis'"`
 - GOOD: `data-reason="JD uses exact phrase 'data analysis' 4 times — terminology alignment"`
 
+#### Build the JD Panel (right side):
+
+Replace the `.jd-panel` div content with the actual job description. Use these classes:
+- `<span class="jd-kw" data-kwg="GROUP">keyword</span>` — color-coded keyword on JD side (same groups: data/coord/cross/ex/tools/prog)
+- `<mark class="jd-hl jd-swap" id="jdN">requirement text</mark>` — anchor for swap change type (🟡)
+- `<mark class="jd-hl jd-order" id="jdN">requirement text</mark>` — anchor for reorder change type (🔵)
+- `<mark class="jd-hl jd-word" id="jdN">requirement text</mark>` — anchor for word swap (🔴)
+- `<span class="jd-reason">→ explanation of which resume bullet this connects to</span>` — visible in Changes mode only
+
+The `id="jdN"` on JD marks must match `data-jd="jdN"` on the corresponding resume bullets — this is what makes connection lines work.
+
+Also update the `.kw-legend` to match the actual keyword groups used for this role.
+
 #### Also update the Diff Toolbar at top of HTML:
 ```html
 <div class="diff-version">
@@ -155,11 +175,13 @@ Before: <li>...improved <span class="keyword" data-original="analytics" data-rea
 
 ### Step 8 — Export to PDF
 
+Export from the **tailored file** (not `jamie/resume.html`):
+
 ```bash
 "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
   --headless --no-pdf-header-footer \
   --print-to-pdf="tailored_resumes/Company_RoleType_YYYY-MM-DD.pdf" \
-  "file://$(pwd)/jamie/resume.html"
+  "file://$(pwd)/tailored_resumes/Company_RoleType_YYYY-MM-DD.html"
 ```
 
 Also copy to: `jamie/resume_tailored.pdf` (for quick access)

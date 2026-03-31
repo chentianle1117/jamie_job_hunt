@@ -45,7 +45,7 @@ Run through these in order. If ANY fails, it's an instant **PASS**:
 1. **Already applied?** Check `jamie/application_tracker.md` for this company + similar title
 2. **Visa:** Does the JD say "no sponsorship" or "must be authorized without sponsorship"? → PASS
 3. **Seniority:** Is the title Senior/Director/VP/Principal/C-level? (Exception: "Senior Associate" at consulting firms is OK) → PASS
-4. **Location:** Is it on-site outside Portland/Seattle/Remote? Flag it but don't auto-reject — Jamie has applied to NYC and SF roles before
+4. **Location:** Portland/Remote/Seattle is her preference but she is open to relocation if the role content and fit are genuinely strong. Flag out-of-area roles and note the location, but do NOT auto-reject on location alone. Evaluate on role fit first — if GO on content, note the location as a consideration, not a blocker.
 5. **Hard reject roles:** Pure Sales, Pure SWE, Senior HRBP, Instructional Designer (80%+ content creation), Technical PM requiring PMP
 
 ### Step 4 — H1B Sponsorship Check
