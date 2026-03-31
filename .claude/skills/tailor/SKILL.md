@@ -14,9 +14,23 @@ argument-hint: "<paste job description or reference the job just evaluated>"
 1. Work ONLY in `/Users/jamiecheng/jamie_job_hunt/` (main repo, `main` branch)
 2. Run `git pull` before starting any tailoring session
 3. Never create branches — commit directly to `main`
-4. After completing a session: `git add -p && git commit && git push`
+4. After completing a session: commit with a descriptive message and `git push`
 
 **Do NOT work in any worktree path** (e.g. `.claude/worktrees/...`)
+
+**Check your working directory:** If `pwd` returns anything containing `worktrees` or a branch name,
+you are in the wrong place. Run `cd /Users/jamiecheng/jamie_job_hunt` to fix it before proceeding.
+
+**The interface may show a branch name (e.g. "claude/objective-elbakyan")** — this is the worktree
+the session was started in, not where files should be edited. Always confirm you are writing files
+to `/Users/jamiecheng/jamie_job_hunt/` and not a worktree copy.
+
+## ⚡ Token Efficiency Rules
+
+1. **Read `jamie/profile_compact.md` first** — ~60 lines with all hard constraints, H1B quick
+   reference, and fit scoring. Only read `preferences.md` or `h1b_verified.md` if compact is insufficient.
+2. **Read `content_library.md` once per session** — if already read, don't re-read.
+3. **Read the tailored file once before editing** — don't re-read the full HTML after each edit.
 
 ---
 
