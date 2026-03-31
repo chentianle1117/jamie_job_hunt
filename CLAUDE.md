@@ -14,20 +14,22 @@ and Program Management professional seeking HR/People/OD/L&D roles in Portland, 
 
 ## Key Reference Files
 
-Read these before helping Jamie with any job-related task:
+**Token-efficient loading: Read `jamie/profile_compact.md` FIRST for any quick check.**
+Only load full files when the task specifically requires them (see table).
 
-| File | What it contains |
-|------|-----------------|
-| `jamie/preferences.md` | Hard constraints, role priorities, fit scoring matrix, resume tailoring rules |
-| `jamie/content_library.md` | Expanded resume bullets (multiple variants per role), self-intro versions, email templates, cover letter building blocks |
-| `jamie/resume.md` | Current resume in markdown (matches the PDF) |
-| `jamie/resume.pdf` | Formatted one-page PDF resume |
-| `jamie/outreach_templates.md` | LinkedIn/email outreach style guide, message templates, contact finding protocol |
-| `jamie/h1b_verified.md` | Cache of companies verified for H1B sponsorship |
-| `jamie/watchlist.md` | Target companies across 7 tiers |
-| `jamie/search_strategy.md` | Search queries and strategy by role priority |
-| `jamie/application_tracker.md` | All applications with status, dates, contacts, outreach status |
-| `resume_bank/` | 20 tailored resume PDFs + 5 cover letters for past applications (reference for how Jamie adapts bullets per company) |
+| File | What it contains | When to read |
+|------|-----------------|-------------|
+| `jamie/profile_compact.md` | Condensed profile: constraints, H1B cache, scoring formula, self-assessment | **ALWAYS first** — sufficient for go/pass decisions |
+| `jamie/preferences.md` | Full hard constraints, role priorities, fit scoring matrix, resume tailoring rules | Only for STRETCH/GO roles needing deep analysis |
+| `jamie/content_library.md` | Expanded resume bullets (multiple variants per role), self-intro versions, email templates | Only during `/tailor` or cover letter drafting |
+| `jamie/resume.md` | Current resume in markdown (matches the PDF) | Only during `/tailor` |
+| `jamie/resume.pdf` | Formatted one-page PDF resume | Reference only |
+| `jamie/outreach_templates.md` | LinkedIn/email outreach style guide, message templates, contact finding protocol | Only during `/outreach` |
+| `jamie/h1b_verified.md` | Cache of companies verified for H1B sponsorship | Only if company not in profile_compact.md |
+| `jamie/watchlist.md` | Target companies across 7 tiers | Only during Oracle pipeline runs |
+| `jamie/search_strategy.md` | Search queries and strategy by role priority | Only during Oracle pipeline runs |
+| `jamie/application_tracker.md` | All applications with status, dates, contacts, outreach status | Dedup checks (prefer Google Sheet via WebFetch) |
+| `resume_bank/` | 20 tailored resume PDFs + 5 cover letters for past applications | Reference during `/tailor` for similar roles |
 
 ## How to Help Jamie
 
@@ -132,3 +134,16 @@ Be direct, warm, and practical. Jamie is smart and decisive — give her clear r
 not hedged maybes. When something is a stretch, say so. When something is a great fit, be
 enthusiastic about it. Use the same energy you'd have as a supportive friend who happens to
 be really good at HR recruiting.
+
+## Token Efficiency — Team Plan Budget Rules
+
+> David and Jamie share a firm Claude Team plan with per-seat limits.
+> All skills must minimize token consumption automatically — no extra user effort.
+
+### Core Rules
+1. **Compact first:** Always read `jamie/profile_compact.md` before full files. Only escalate to `preferences.md` / `h1b_verified.md` / `content_library.md` when the specific task demands it.
+2. **Sub-agents = Haiku by default:** Any spawned agent doing data retrieval, Notion CRUD, scoring, verification, or file lookup MUST use `model: "haiku"`. Only use Sonnet for drafting (outreach, cover letters) or fit judgment.
+3. **Don't auto-generate expensive content:** Cover letters, contact research, and Chrome browsing are expensive. Ask Jamie before doing them — don't auto-run.
+4. **Suggest `/clear` between jobs:** After completing an evaluation or pipeline run, remind Jamie to `/clear` before starting a new job. Stale context = wasted tokens on every message.
+5. **One file read per session:** If you've already read `content_library.md` in this session, don't re-read it. Reference what you already know.
+6. **Disable unused MCPs:** At session start, suggest turning off MCP servers Jamie doesn't need for this task (Figma, Linear, Slack, Calendar, etc.). Each loaded server adds token overhead.

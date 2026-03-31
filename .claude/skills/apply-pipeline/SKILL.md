@@ -246,6 +246,38 @@ This includes preferences about tone, bullet style, types of roles she doesn't w
 
 ---
 
+## TOKEN EFFICIENCY — Baked-In Rules (v1.0)
+
+> David and Jamie share a Claude Team plan with per-seat limits (~55K tokens per 5-hour window).
+> Every skill must be as token-efficient as possible without sacrificing quality.
+
+### File Read Strategy: Compact First, Expand on Demand
+| When | Read this | NOT this |
+|------|-----------|----------|
+| Stage 1 (evaluate) | `jamie/profile_compact.md` (~60 lines) | `preferences.md` + `h1b_verified.md` (385 lines) |
+| Stage 2 (tailor) — MUST read full files | `content_library.md` + `preferences.md` | No shortcut — need full bullet text |
+| Stage 3 (outreach) | `outreach_templates.md` only | NOT `content_library.md` (unless cover letter needed) |
+
+### Session Hygiene (automatic)
+- After completing a full pipeline run, suggest `/clear` to Jamie before next job
+- Never carry forward stale context from a previous evaluation into a new one
+- If Jamie evaluates multiple jobs in sequence, each one should be independent
+
+### Enrichment: On-Demand Only
+- Do NOT auto-generate cover letters or contact research unless Jamie asks or says "go ahead"
+- Stage 3 (outreach) and Stage 4 (apply) should ask before doing expensive work:
+  - "Want me to search for contacts at [Company]?" (Chrome browsing = expensive)
+  - "Should I draft a cover letter?" (Sonnet generation = expensive)
+- If Jamie says "just prep the checklist" → skip contact search + cover letter, go straight to checklist
+
+### Sub-Agent Rules
+- Every spawned agent MUST specify `model: "haiku"` unless it needs voice/judgment
+- Chrome navigation agents: `sonnet` (needs page understanding)
+- Notion CRUD / file lookup agents: `haiku`
+- If in doubt, use `haiku` — it handles 90% of mechanical tasks correctly
+
+---
+
 ## OUTPUT PRINCIPLES
 
 1. **Dashboards at every stage** — Jamie should always know where she is and what's next

@@ -11,15 +11,25 @@ argument-hint: "<paste job description or URL>"
 
 You are helping Jamie (Yi-Chieh) Cheng evaluate whether a specific job is worth applying to.
 
-### Step 1 — Load Context
+### Step 1 — Load Context (Token-Efficient)
 
-Read these files (in parallel if possible):
-1. `jamie/preferences.md` — hard constraints, role priorities, fit scoring matrix, self-assessment
-2. `jamie/h1b_verified.md` — H1B verification cache
-3. **Live application data** — Use WebFetch to pull Jamie's live Google Sheet:
-   - 2026 tab: `https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E/export?format=csv&gid=1018026840`
-   - 2025 tab: `https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E/export?format=csv&gid=0`
-   - If WebFetch fails, fall back to `jamie/application_tracker.md` (static snapshot)
+**Default: Read `jamie/profile_compact.md` FIRST** (~60 lines vs ~385 lines).
+This contains all hard constraints, H1B quick reference, fit scoring formula, and self-assessment.
+It is sufficient for Steps 3-5 (hard constraint check, H1B check, fit assessment).
+
+**Only escalate to full files when needed:**
+- Read `jamie/preferences.md` (253 lines) — only if the role is a STRETCH and you need the full
+  self-assessment table, networking templates, or search query context
+- Read `jamie/h1b_verified.md` (132 lines) — only if the company is NOT in profile_compact.md's
+  quick reference (i.e., not in confirmed/cap-exempt/no-sponsor lists)
+- **Live application data** — Use WebFetch to pull Jamie's live Google Sheet:
+  - 2026 tab: `https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E/export?format=csv&gid=1018026840`
+  - 2025 tab: `https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E/export?format=csv&gid=0`
+  - If WebFetch fails, fall back to `jamie/application_tracker.md` (static snapshot)
+
+> **Why:** Each file read costs tokens. profile_compact.md has everything for a quick
+> go/pass decision at ~1/6 the token cost. Only load full files for GO/STRETCH roles
+> that proceed to tailoring.
 
 ### Step 2 — Get the Job Description
 

@@ -26,9 +26,9 @@ version: 3.4.1
 git pull origin main
 ```
 
-Then read `jamie/preferences.md` — especially the "Strict Fit Scoring Rules" section.
-If any new guidelines were added (e.g., stricter qualification bars, new hard rejects),
-apply them during scoring.
+Then read `jamie/profile_compact.md` — it contains all hard constraints, scoring formula,
+and H1B quick reference. Only read `jamie/preferences.md` if you need the full
+self-assessment table or networking templates (i.e., during enrichment, not discovery).
 
 **After the run:** If you updated any reference files (h1b_verified.md, watchlist.md, etc.),
 commit and push so Jamie's next session has the latest data.
@@ -142,13 +142,26 @@ For each alert email:
 > The `/jobs/collections/recommended/` URL is the algorithm-curated feed — it surfaces roles
 > specifically matched to Jamie's profile. The search bar returns generic keyword results.
 
-### How Pre-Fetch integrates with Step 2
+### How Pre-Fetch & LinkedIn integrate with Step 2
 
-> ⚠️ **ATS pre-fetch is a SUPPLEMENT, not a replacement for WebSearch discovery.**
-> ATS APIs cover ~36 tech companies (Greenhouse/Lever users). They tend to surface
-> senior-level roles at NYC/SF companies — NOT the Portland cap-exempt roles that
-> are Jamie's best path. **ALL WebSearch discovery agents MUST run to completion
-> regardless of what the ATS pre-fetch finds.** Never short-circuit discovery.
+> **LinkedIn "Top Job Picks" is now the PRIMARY discovery source (v3.5).**
+> LinkedIn's algorithm already filters 500M+ listings to ~381 tailored recommendations.
+> These are high-signal, pre-vetted candidates that cost zero WebSearch tokens.
+>
+> **Early-exit rule (v3.5 — Token Budget Optimization):**
+> If LinkedIn Top Job Picks yields **5+ viable candidates** (pass hard constraints,
+> worth evaluating), **skip Agents A-F WebSearch entirely.** LinkedIn already did
+> the discovery work — running 6 parallel WebSearch agents on top is redundant
+> and burns ~10K+ tokens for marginal yield.
+>
+> **When to run full discovery (Agents A-F):**
+> - LinkedIn yields < 5 viable candidates
+> - David explicitly says "run full discovery" or "deep search"
+> - It's been 3+ days since the last full discovery run
+> - Looking for cap-exempt roles specifically (LinkedIn doesn't filter for this well)
+>
+> **ATS pre-fetch** is still a supplement — run it if the Python scripts are available,
+> but it's lower priority than LinkedIn.
 
 In Step 2 discovery, BEFORE launching WebSearch agents:
 1. Read `C:\Windows\Temp\ats_jobs.json` (if exists, < 24 hours old)
@@ -215,11 +228,13 @@ Google Sheet ID:      1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E
 Google Sheet Tab:     AI Search Bot Result
 ```
 
-**Reference files** (read each run):
+**Reference files** (token-efficient loading):
 ```
+jamie/profile_compact.md    — LOAD FIRST: condensed profile, H1B cache, scoring formula (~60 lines)
 jamie/watchlist.md          — 80+ target companies across 8 tiers (check every run)
-jamie/h1b_verified.md       — H1B verification cache (skip re-verifying known companies)
-jamie/outreach_templates.md — Jamie's networking style + message drafting protocol
+jamie/h1b_verified.md       — Full H1B verification cache (only if company not in profile_compact)
+jamie/outreach_templates.md — Jamie's networking style + message drafting protocol (only in Step 6)
+jamie/preferences.md        — Full preferences (only if deep evaluation needed)
 pipeline/ats_mapping.json   — ATS type + API slug for each watchlist company
 ```
 
