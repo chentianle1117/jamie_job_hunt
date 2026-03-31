@@ -142,6 +142,26 @@ For each alert email:
 > The `/jobs/collections/recommended/` URL is the algorithm-curated feed — it surfaces roles
 > specifically matched to Jamie's profile. The search bar returns generic keyword results.
 
+### 🚀 MANUAL PASTE MODE (Token-Efficient — Preferred)
+
+> **Use this when David has Chrome open himself.** Instead of Claude navigating LinkedIn
+> (expensive: ~5K tokens per page load), David scrolls LinkedIn "Top Job Picks" himself
+> and pastes the visible listing text directly into the chat.
+
+**How to use:**
+1. Open https://www.linkedin.com/jobs/collections/recommended/ in your browser
+2. Scroll through the left panel — copy-paste ALL visible listing text into the chat
+   (title, company, location, badges — just select-all and paste, raw text is fine)
+3. Say: "Here are today's listings — run the pipeline"
+
+**What Claude does in manual paste mode:**
+- Skips ALL Chrome navigation (Steps 0.5d, Chrome verification for pasted jobs)
+- Reads the pasted text as the discovery pool
+- Still uses WebFetch for individual job URL verification (much cheaper than Chrome)
+- Proceeds directly to scoring (Step 3)
+
+> ⚡ **Token savings:** ~15-25K tokens per run. Recommended as default when David is at his desk.
+
 ### How Pre-Fetch & LinkedIn integrate with Step 2
 
 > **LinkedIn "Top Job Picks" is now the PRIMARY discovery source (v3.5).**
@@ -1881,14 +1901,24 @@ https://www.notion.so/ea7cccd43f7a47a6b93a196241eb8d61
 ]
 ```
 
-### Step 11 — Create Gmail Draft
+### Step 11 — Email Draft Delivery
 
-Use `gmail_create_draft` to jamiecheng0103@gmail.com with subject "🌸✨ 每日工作小汇报 · Daily Job Digest ✨🌸" and body from email_body.txt.
+> ⚡ **TOKEN-EFFICIENT METHOD (preferred):** Output the email body as plain text directly
+> in the chat. David copies and pastes it into Gmail manually. Zero Chrome tokens spent.
+> Only use Chrome injection as a fallback if David explicitly asks.
 
-> **URL clickability:** Use `contentType: "text/plain"` (default). Gmail auto-links all plain-text
-> URLs (https://...) so Jamie can click directly. Do NOT use HTML or markdown link syntax.
-> Every URL in the email (job posting, LinkedIn profiles, Notion link) must be a full
-> `https://` URL on its own line so Gmail renders it as a clickable blue link.
+**Standard method:**
+1. Write body to `email_body.txt` (always do this regardless of delivery method)
+2. Output the full email body as a code block in the chat response
+3. Tell David: "Copy the text above → Gmail → New Compose → To: jamiecheng0103@gmail.com → Subject: 🌸✨ 每日工作小汇报 · Daily Job Digest ✨🌸 → Paste body → Save as draft"
+
+**Fallback (Chrome injection — only if David requests):**
+Use `gmail_create_draft` MCP or Chrome JS inject. Do NOT use this by default —
+Chrome navigation for Gmail costs ~5-10K tokens and is fragile (body injection breaks on navigation).
+
+> **URL clickability:** Use plain text only. Gmail auto-links all `https://` URLs.
+> Do NOT use markdown `[text](url)` syntax — Gmail doesn't render it.
+> Put every URL on its own line.
 
 ### Step 12 — Send Telegram (best effort)
 
@@ -1924,7 +1954,8 @@ Run {N} · {Date} · {Day of Week}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 📧 EMAIL
-   Status:  ✅ Gmail draft created (Draft ID: {id})
+   Status:  ✅ Body output in chat (copy-paste to Gmail)
+            OR: ✅ Gmail draft created (Draft ID: {id})
    To:      jamiecheng0103@gmail.com
    Picks:   {N} new picks included
 
