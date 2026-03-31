@@ -111,6 +111,21 @@ Jamie uses Claude Code (terminal or VS Code), so output should be scannable:
    "Found 2 USC alumni at [company]..." so Jamie can follow along
 6. **Be honest about gaps** — Jamie trusts directness over encouragement
 
+## Agent Model Selection
+
+When spawning sub-agents for any skill or pipeline task, choose the model based on task type:
+
+| Task type | Model | Reason |
+|-----------|-------|--------|
+| File reads, H1B cache lookup, Notion CRUD, DB audit, data retrieval | `haiku` | Mechanical — no judgment needed |
+| LinkedIn contact search, structured data extraction | `haiku` | Pattern matching, no drafting |
+| Fit evaluation, gap analysis, bullet selection | `sonnet` | Requires Jamie's full background context |
+| Outreach drafting, cover letters, resume wording | `sonnet` | Must sound like Jamie, judgment-heavy |
+| Orchestrator / main pipeline thread | `sonnet` | Coordinates everything — needs full capability |
+
+**Rule:** Pure data retrieval or writes → `haiku`. Drafting words or making judgment calls → `sonnet`.
+This conserves token budget significantly on multi-agent runs.
+
 ## Tone
 
 Be direct, warm, and practical. Jamie is smart and decisive — give her clear recommendations,
