@@ -90,6 +90,58 @@ For each alert email:
 2. Add any new jobs to the discovery candidate pool (Step 2)
 3. These still need Chrome/WebFetch verification (alerts may contain expired listings)
 
+### 0.5d. LinkedIn "Top Job Picks" — PRIMARY Discovery Source (NEW v3.4.2)
+
+> **This is the single highest-signal discovery source.** LinkedIn's recommendation algorithm
+> already knows Jamie's profile, skills, work history, and search behavior — it pre-filters
+> all 500M+ listings down to the ~381 most relevant. Use it at the start of EVERY run.
+
+**How to access:**
+
+1. In Chrome, navigate to:
+   ```
+   https://www.linkedin.com/jobs/collections/recommended/
+   ```
+
+2. This opens the **"Top job picks for you"** page — a **two-panel interface**:
+   - **Left panel**: Scrollable job list, each card shows company, title, location, and H1B/PERM/E-Verify badges
+   - **Right panel**: Full job description for the currently selected job — loads instantly when you click a listing
+   - **URL updates** to `?currentJobId=JOBID` when you click a listing — each job has a stable permalink
+
+3. **Scroll through the left panel** to collect all visible listings (381 results available). You can also click into individual jobs to read the full JD on the right panel WITHOUT leaving the page.
+
+4. **To read a full JD**: Click the job title in the left panel → right panel updates with:
+   - Full description (responsibilities, qualifications, company overview)
+   - Hiring manager / job poster with LinkedIn profile (useful for outreach in Step 5)
+   - Salary range, work type (on-site/hybrid/remote), applicant count, posting date
+
+5. **Key filter signals visible per listing (no clicking needed):**
+   - 🟢 **H1B badge** = employer confirmed H1B in LinkedIn's database — high priority for Jamie
+   - **PERM badge** = employer has PERM history (likely willing to sponsor long-term)
+   - **E-Verify badge** = on the federal E-Verify system (baseline for sponsorship likelihood)
+   - **"X school alumni work here"** = alumni connection (USC or Wesleyan → mention in outreach)
+   - **"Be an early applicant"** = posted recently, low competition — prioritize these
+   - **"You'd be a top applicant"** = strong profile match — always evaluate these
+
+**Recommended workflow per run:**
+```
+1. Navigate to https://www.linkedin.com/jobs/collections/recommended/
+2. Scroll through left panel, noting all visible listings (title, company, location, badges)
+3. Click each promising listing → read full JD in right panel
+4. Copy job title, company, URL (from ?currentJobId= param or "share" button), and key JD details
+5. Add all candidates to the discovery pool — treat as pre-vetted by LinkedIn's algorithm
+6. These jobs still need H1B verification (check jamie/h1b_verified.md + WebSearch if unknown)
+7. Proceed to Step 3 scoring as normal
+```
+
+> ⚠️ **Do NOT only screenshot the left panel.** Reading the full JD in the right panel is
+> essential — the title alone won't tell you if the role requires 5+ years or if it's a fit.
+> Click through each promising listing before scoring.
+
+> ⚠️ **LinkedIn "Jobs for You" ≠ LinkedIn search results.** Do NOT use the LinkedIn search bar.
+> The `/jobs/collections/recommended/` URL is the algorithm-curated feed — it surfaces roles
+> specifically matched to Jamie's profile. The search bar returns generic keyword results.
+
 ### How Pre-Fetch integrates with Step 2
 
 > ⚠️ **ATS pre-fetch is a SUPPLEMENT, not a replacement for WebSearch discovery.**
@@ -370,6 +422,28 @@ Some job boards block Chrome navigation (Greenhouse, LinkedIn, Stripe). For thes
 - **Use main thread** for: Chrome verification (Ashby + LinkedIn), Notion MCP calls, Gmail draft, file writes, collecting agent outputs
 - **Use `run_in_background: true`** for ALL discovery agents AND all WebFetch verification agents
 - **Progressive writes mandatory** for any agent doing >5 sequential verifications — write partial results to file, do not hold in memory
+
+### Model Selection — Use the Cheapest Model That Can Do the Job (v3.4.2)
+
+> Token spend compounds fast across parallel agents. Defaulting everything to Sonnet wastes
+> budget on mechanical tasks that Haiku handles perfectly. Always specify `model:` explicitly.
+
+| Agent task | Model | Reason |
+|---|---|---|
+| Discovery WebSearch batches (A–F) | `haiku` | Keyword search + URL extraction — no judgment needed |
+| WebFetch verification batches | `haiku` | Read page → check live/expired — mechanical |
+| Notion DB audit / scoring patch | `haiku` | Formula application — pure computation |
+| Notion CRUD (add/update pages) | `haiku` | Property writes — no judgment |
+| Watchlist / ATS API fetch | `haiku` | Structured data pull — no judgment |
+| Step 1 DB audit agent | `haiku` | Read Notion → check missing fields → update |
+| Step 3 verification agents (non-Ashby) | `haiku` | WebFetch + live/expired decision |
+| Step 6 enrichment agents (cover letter, outreach) | `sonnet` | Drafting requires voice + judgment |
+| Fit evaluation / scoring for new roles | `sonnet` | Requires understanding of Jamie's situation |
+| LinkedIn "Jobs for You" browsing + JD reading | `sonnet` | Judgment-heavy triage |
+| Orchestrator / main thread | `sonnet` | Coordinates everything — needs full capability |
+
+**Rule:** In every `Agent` tool call, set `model: "haiku"` unless the task is in the Sonnet row above.
+**Never** leave model unspecified for background agents — it defaults to Sonnet and burns budget.
 
 ---
 
@@ -1400,16 +1474,37 @@ For each role, provide enough info for Jamie to decide:
 Enrichment (cover letter, networking) is done for the top 3, but all viable roles
 appear in the email digest ranked by score with full details.
 
-**Rating criteria:**
-- ⭐⭐⭐ Perfect = 80%+ actual JD match + confirmed/cap-exempt H1B + in-person/local + P1-P2 role
-- ⭐⭐ Good = 65-80% match + confirmed/cap-exempt H1B + good location + ≤4 yrs required
-- ⭐ Worth reviewing = 55-65% match — include in digest with honest assessment
+**Fit Score formula (v3.4.1) — compute a 0-100 numerical score for EVERY candidate:**
 
-**Urgency tag (v3.0) — add to every pick based on posting date:**
-- ⚡ URGENT (posted 0-2 days ago) — flag in email: "apply within 24-48 hrs!"
-- 🔶 FRESH (posted 3-7 days ago) — flag in email: "apply this week"
-- ⏳ AGING (posted 8-14 days ago) — still worth applying, note in email
-- 💤 STALE (posted 15-30 days ago) — only if perfect fit, otherwise skip
+```
+Base score = JD match % (honest assessment vs Jamie's actual experience)
+  +10 if cap-exempt employer (hospital/university/501c3 nonprofit)
+  +5  if confirmed H1B sponsor (per h1b_verified.md or JD states it)
+  +5  if Portland or Seattle in-person/hybrid
+  +3  if P1 or P2 role priority tier
+  -10 if remote-only (national competition, harder for H1B)
+  -5  if requires 3-4 yrs experience (Jamie has ~3, borderline)
+
+Cap at 100. Round to nearest whole number.
+Store this number in the Notion "Fit Score" property (0-100).
+```
+
+**JD match % guidelines (the Base score):**
+- 80-100%: Jamie hits every core requirement with direct experience
+- 65-79%: Strong on 3-4 core requirements, 1-2 gaps that are learnable
+- 55-64%: Hits the theme but missing 2+ core requirements or lacks direct examples
+- Below 55%: Auto-skip (don't add to Notion)
+
+**Rating (star bracket — derived from Fit Score):**
+- ⭐⭐⭐ Perfect = Fit Score ≥ 80
+- ⭐⭐ Good = Fit Score 65–79
+- ⭐ Worth reviewing = Fit Score 55–64
+
+**Urgency tag (v3.4.1) — stored in Notion "Urgency" select AND shown in email:**
+- 🚨 Urgent = posted < 7 days ago — flag in email: "apply within 24-48 hrs!"
+- 🔶 Fresh = posted 7-14 days ago — flag in email: "apply this week"
+- ⏳ Aging = posted 14-30 days ago — still worth applying, note in email
+- 💤 Stale = posted 30+ days ago — only if Fit Score ≥ 80, otherwise skip
 
 ### Step 6 — Add to Notion (honest content)
 
@@ -1424,7 +1519,9 @@ For each pick (max 3), create a Notion page in DB `442438a9-e372-48b7-b5f5-5f6ed
 - Posted Date (date — REAL from Chrome), Added Date (date — today)
 - H1B Friendly (select: ✅ Confirmed, 🏛️ Cap-Exempt, ❓ Unknown, ❌ No Sponsorship)
 - Rating (select: ⭐⭐⭐ Perfect, ⭐⭐ Good, ⭐ Near-miss)
-- Status = "New 🆕"
+- Fit Score (number — 0-100, computed via formula above — REQUIRED v3.4.1)
+- Urgency (select: 🚨 Urgent, 🔶 Fresh, ⏳ Aging, 💤 Stale — based on posted date — REQUIRED v3.4.1)
+- Status = "Not started" (Notion native status field — pipeline adds new roles as "Not started"; Jamie moves to "Applied" when she submits)
 
 **Page Content — use EXACT PAGE FORMAT from template below.**
 

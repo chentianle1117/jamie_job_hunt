@@ -91,6 +91,7 @@
 | PCC (Portland Community College) | JD explicit: "not currently able to provide visa sponsorship" | 2026-03-05 | Cap-exempt but unwilling |
 | Customer.io | JD explicit: "we're not able to offer visa sponsorship or relocation support at this time" | 2026-03-26 | Run 4 — Talent Dev PM role confirmed no sponsorship |
 | DriveWealth | JD explicit: "DriveWealth is unable to sponsor or take over sponsorship of an employment Visa at this time" | 2026-03-26 | Run 4 — EX & People Programs Specialist confirmed no sponsorship |
+| Boeing | JD explicit: "Employer will not sponsor applicants for employment visa status" | 2026-03-31 | Run 5 — Employee Development Specialist (Everett WA). Hard reject. |
 
 ---
 
@@ -128,3 +129,4 @@
 | 2026-03-26 | Added Customer.io as ❌ — JD explicit no sponsorship (Talent Dev PM role, Run 4). |
 | 2026-03-26 | Added DriveWealth as ❌ — JD explicit unable to sponsor (EX & People Programs Specialist, Run 4). |
 | 2026-03-27 | Updated WTW entry — Early Career programs (2026 intake) explicitly require no-sponsorship candidates. Senior roles may still sponsor. Caveat added to ✅ row. (Run 4 completion) |
+| 2026-03-31 | Added Boeing as ❌ — JD explicit no sponsorship (Employee Development Specialist, Everett WA). Run 5. |

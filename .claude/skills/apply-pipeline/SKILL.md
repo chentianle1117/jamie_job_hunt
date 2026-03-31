@@ -227,6 +227,25 @@ This includes preferences about tone, bullet style, types of roles she doesn't w
 
 ---
 
+## MODEL SELECTION — Use the Cheapest Model That Can Do the Job (v1.1)
+
+> This pipeline spawns background agents at Stages 1, 3, and sometimes 4.
+> Always specify `model:` explicitly — unspecified defaults to Sonnet and wastes budget.
+
+| Stage / Agent task | Model | Reason |
+|---|---|---|
+| H1B cache lookup (h1b_verified.md read) | `haiku` | File read + match — mechanical |
+| Application tracker read/update (Notion CRUD) | `haiku` | Property writes — no judgment |
+| LinkedIn contact search (name + URL extraction) | `haiku` | Structured data pull |
+| Outreach message drafting | `sonnet` | Requires Jamie's voice + relationship awareness |
+| Cover letter drafting | `sonnet` | Judgment-heavy, must sound like Jamie |
+| Fit evaluation / gap analysis | `sonnet` | Requires understanding of Jamie's full background |
+| Orchestrator / main pipeline thread | `sonnet` | Coordinates stages — needs full capability |
+
+**Rule:** Any agent doing pure data retrieval or writes → `haiku`. Any agent drafting words or making fit judgments → `sonnet`.
+
+---
+
 ## OUTPUT PRINCIPLES
 
 1. **Dashboards at every stage** — Jamie should always know where she is and what's next

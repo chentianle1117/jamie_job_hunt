@@ -558,3 +558,35 @@
 | 2026-03-25 PM | **BACKGROUND AGENT SWEEP (5 parallel agents, 100+ candidates re-verified)** — All expired findings confirmed. 6 documented Ashby false positives from stale LinkedIn/search indexing (Kikoff, Equip, Notion Program Specialist, Sierra, Harvey ×2 all showed "live" on LinkedIn but Chrome confirmed `posting:null`). Voyager Technologies moved to expired. 8 additional expired entries added. No new Tier 1/2 candidates found. **Final count: 1 Tier 1 (Superhuman), 3 Tier 2, 8 Tier 3 live gate fails, 80+ expired.** |
 | 2026-03-25 PM | **WAVE 3 DISCOVERY + VERIFICATION** — Targeted search for Greenhouse/Lever roles missed by prior waves. **1 NEW TIER 1 CONFIRMED: Superhuman Early Career Program** (`job-boards.greenhouse.io/grammarly/jobs/7474047`) — LIVE ✅, H1B ✅ (8 LCAs FY22-24, 1 I-129 approved FY2025), SF hybrid, $80-110K, 0-2 YOE. Note: "first cohort Feb 2026" in JD but still live. Deel People Ops confirmed LIVE but location=LATAM (gate fail). Hiive People Ops Specialist (Ashby) = expired posting:null. Notion page created for Superhuman. |
 | 2026-03-25 PM | **GREENHOUSE DIRECT BOARD SCAN (10 companies)** — Rippling (404, not on Greenhouse), Gusto (4 roles: all senior/Learning Partner gate fail 8-12+ YOE), Anthropic (3 roles: all senior/Head-level gate fail), Stripe (5 roles: ER Partner Mexico City gate fail, Core Recruiter 5+ YOE gate fail, Comp Analyst borderline stretch added Tier 3), Lattice (1 role: Senior Manager = gate fail), Culture Amp (0 roles), Notion (0 roles), HubSpot (JS-rendered), Zendesk (404), Figma (11 roles: People Partner 8-12+ YOE fail, Early Career Recruiter 5+ YOE fail, **People Analyst PASS** — added Tier 2 conditional, 8 senior/international gate fails). Also verified: Superhuman POC `7439843` expired, Khan Academy POC expired, Pomelo Care POA expired. Wave 3 agent false positives: Hiive + Grammarly legacy POC + Khan Academy = all expired stale index. **Net new Tier 2: Figma People Analyst (conditional — data-heavy role, verify SQL/Python skills before applying).** |
+
+---
+
+# 🔜 Next Run Priority Queue — Updated Mar 29, 2026 (Run 6)
+
+> **Run 6 Summary (Mar 29, 2026 — Sunday):** ZERO-PICK DAY.
+> 40+ WebSearches + 3 parallel discovery agents + 25+ Chrome verifications.
+> ~95% expiry rate across all sources. Sunday market extremely quiet.
+> Carry-forward cleanup: OPB → EXPIRED (unpublished), Providence AHRBP → EXPIRED (404)
+> Still live: Greenlight America (Apr 17 deadline, but fails quality bar), US Mobile (NYC decision pending)
+> All other verified candidates: expired on ATS direct check or failed gates (5+ YOE, no H1B, ★☆☆ areas)
+
+## 🔔 Run 6 Active Items for Run 7
+
+### Greenlight America People Ops Manager — QUALITY BAR CONCERN
+- **URL:** https://www.idealist.org/en/nonprofit-job/3c98b59b59e44d8cbc9a21264857b342-people-operations-manager-greenlight-america-washington
+- **Status:** Live as of Mar 29 | Deadline Apr 17
+- **Issue:** Requires multi-state employment compliance (★☆☆), heavy benefits admin/payroll/HRIS
+- **Recommendation:** PASS unless Jamie has new compliance experience. Does NOT meet strict quality bar.
+
+### US Mobile People Ops Associate — NYC DECISION STILL PENDING
+- **URL:** https://jobs.lever.co/USMobile/dc0b8c8e-1873-4892-8b88-0328e8af70ed
+- **Status:** LIVE as of Mar 29 | H1B: ✅ Confirmed | $70-90K | 1-3 yrs
+- **Action:** Jamie needs to decide on NYC relocation. If yes → apply immediately. If no → Pass 👋.
+
+### Watchlist — Companies to Monitor for New Postings (Q2 ramp expected)
+- **Roblox** — Early Career PM posted previously, monitor for repost
+- **Columbia Sportswear** (Beaverton) — H1B sponsor, no current HR coordinator openings
+- **Adidas** (Portland) — likely H1B sponsor, no current People Ops openings
+- **OHSU** — cap-exempt, monitor for HR Coordinator or OD postings
+- **PSU** — cap-exempt university, monitor for HR postings
+- **Mercy Corps** — cap-exempt 501(c)(3), Portland HQ, coordinator-level only
