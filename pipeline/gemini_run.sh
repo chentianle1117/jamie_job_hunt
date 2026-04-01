@@ -22,6 +22,7 @@
 
 GEMINI_MODEL="gemini-2.5-pro"
 GEMINI_CONTEXT_FILE="/tmp/gemini_context.txt"
+GEMINI_PROMPT_FILE="/tmp/gemini_prompt.txt"
 GEMINI_ERR_FILE="/tmp/gemini_err.txt"
 GEMINI_OUTPUT=""
 GEMINI_OK="false"
@@ -30,6 +31,9 @@ gemini_run() {
   local PROMPT="$1"
   shift
   local CONTEXT_FILES=("$@")
+
+  # Write prompt to file to avoid shell quoting/newline mangling
+  printf '%s' "$PROMPT" > "$GEMINI_PROMPT_FILE"
 
   # Build context file from all inputs
   rm -f "$GEMINI_CONTEXT_FILE"
@@ -43,8 +47,8 @@ gemini_run() {
     fi
   done
 
-  # Attempt 1
-  GEMINI_OUTPUT=$(cat "$GEMINI_CONTEXT_FILE" | gemini -m "$GEMINI_MODEL" -p "$PROMPT" 2>"$GEMINI_ERR_FILE")
+  # Attempt 1 — prompt via file to preserve newlines and special chars
+  GEMINI_OUTPUT=$(cat "$GEMINI_CONTEXT_FILE" | gemini -m "$GEMINI_MODEL" -p "$(cat $GEMINI_PROMPT_FILE)" 2>"$GEMINI_ERR_FILE")
   local EXIT1=$?
 
   if [ $EXIT1 -eq 0 ] && [ -n "$GEMINI_OUTPUT" ]; then
@@ -55,12 +59,10 @@ gemini_run() {
   # Log attempt 1 failure
   echo "⚠ Gemini attempt 1 failed (exit $EXIT1): $(cat $GEMINI_ERR_FILE | head -3)" >&2
 
-  # Attempt 2 — stricter grounding instruction prepended
-  local STRICT_PROMPT="IMPORTANT: Use ONLY information explicitly present in the provided files above. Do not invent, extrapolate, or add external knowledge. If a fact is not in the files, omit it.
+  # Attempt 2 — prepend strict grounding instruction
+  printf 'IMPORTANT: Use ONLY information explicitly present in the provided files. Do not invent or extrapolate. If a fact is not in the files, omit it.\n\n%s' "$PROMPT" > "$GEMINI_PROMPT_FILE"
 
-$PROMPT"
-
-  GEMINI_OUTPUT=$(cat "$GEMINI_CONTEXT_FILE" | gemini -m "$GEMINI_MODEL" -p "$STRICT_PROMPT" 2>"$GEMINI_ERR_FILE")
+  GEMINI_OUTPUT=$(cat "$GEMINI_CONTEXT_FILE" | gemini -m "$GEMINI_MODEL" -p "$(cat $GEMINI_PROMPT_FILE)" 2>"$GEMINI_ERR_FILE")
   local EXIT2=$?
 
   if [ $EXIT2 -eq 0 ] && [ -n "$GEMINI_OUTPUT" ]; then
@@ -69,7 +71,7 @@ $PROMPT"
     return 0
   fi
 
-  # Both attempts failed
+  # Both attempts failed — Claude handles natively
   echo "✗ Gemini unavailable after 2 attempts. Claude should handle natively." >&2
   echo "  Error: $(cat $GEMINI_ERR_FILE | head -3)" >&2
   GEMINI_OUTPUT=""
