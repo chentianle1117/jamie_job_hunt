@@ -3,41 +3,40 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jamie (Yi-Chieh) Cheng — Resume [Learning & Development]</title>
-<!-- TEMPLATE: Learning & Development | Copy to tailored_resumes/ before editing -->
+<title>Jamie (Yi-Chieh) Cheng — Resume</title>
 <style>
-  @page { size: letter; margin: 0.35in 0.45in 0.35in 0.45in; }
+  @page { size: letter; margin: 0.4in 0.5in 0.35in 0.5in; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: 'Calibri','Helvetica Neue','Arial',sans-serif; font-size: 9.5pt; line-height: 1.18; color: #1a1a1a; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-family: 'Calibri','Helvetica Neue','Arial',sans-serif; font-size: 9.2pt; line-height: 1.22; color: #1a1a1a; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 
   /* ── Resume base styles ── */
   .header { text-align: center; margin-bottom: 2pt; }
   .header h1 { font-size: 19pt; font-weight: bold; letter-spacing: 0.3pt; margin-bottom: 1pt; color: #000; }
-  .header .contact { font-size: 8.8pt; color: #333; }
+  .header .contact { font-size: 8.5pt; color: #333; }
   .header .contact a { color: #2a6496; text-decoration: underline; }
-  .summary { padding: 4pt 7pt; margin: 4pt 0; font-size: 9pt; line-height: 1.30; font-style: italic; color: #222; text-align: center; }
+  .summary { padding: 4pt 7pt; margin: 4pt 0; font-size: 8.8pt; line-height: 1.28; font-style: italic; color: #222; text-align: center; }
   .summary b { font-style: italic; font-weight: bold; }
-  .section-header { text-align: center; font-size: 9pt; font-weight: bold; letter-spacing: 0.8pt; text-transform: uppercase; border-bottom: 1px solid #000; padding: 1pt 0; margin: 6pt 0 3pt 0; }
-  .job { margin-bottom: 7pt; }
+  .section-header { text-align: center; font-size: 9pt; font-weight: bold; letter-spacing: 0.8pt; text-transform: uppercase; border-top: 1px solid #000; border-bottom: 1px solid #000; padding: 1.5pt 0; margin: 7pt 0 5pt 0; }
+  .job { margin-bottom: 8pt; }
   .job-title-row { display: flex; justify-content: space-between; align-items: baseline; }
-  .job-title { font-weight: bold; font-size: 9.5pt; }
-  .job-title .work-sample, .job-title a.work-sample { font-weight: normal; font-size: 7.5pt; text-decoration: underline; color: #2a6496; }
-  .job-location { font-size: 9.5pt; text-align: right; white-space: nowrap; }
+  .job-title { font-weight: bold; font-size: 9.2pt; }
+  .job-title .work-sample { font-weight: normal; font-size: 7.5pt; text-decoration: underline; color: #2a6496; }
+  .job-location { font-size: 9.2pt; text-align: right; white-space: nowrap; }
   .job-company-row { display: flex; justify-content: space-between; align-items: baseline; }
-  .job-company { color: #2a6496; font-size: 9.5pt; }
-  .job-dates { font-style: italic; font-size: 9.5pt; text-align: right; white-space: nowrap; color: #2a6496; }
+  .job-company { color: #2a6496; font-size: 9.2pt; }
+  .job-dates { font-style: italic; font-size: 9.2pt; text-align: right; white-space: nowrap; color: #2a6496; }
   .job ul { margin: 2pt 0 0 12pt; padding: 0; }
-  .job li { font-size: 9.2pt; line-height: 1.28; margin-bottom: 0.5pt; padding-left: 1pt; }
-  .edu { margin-bottom: 5pt; }
+  .job li { font-size: 8.8pt; line-height: 1.35; margin-bottom: 1pt; padding-left: 1pt; }
+  .edu { margin-bottom: 4pt; }
   .edu-row { display: flex; justify-content: space-between; align-items: baseline; }
-  .edu-school { font-weight: bold; font-size: 9.5pt; }
-  .edu-location { font-size: 9.5pt; text-align: right; }
-  .edu-degree { font-size: 9.5pt; }
-  .edu-dates { font-style: italic; font-size: 9.5pt; text-align: right; color: #2a6496; }
+  .edu-school { font-weight: bold; font-size: 9.2pt; }
+  .edu-location { font-size: 9.2pt; text-align: right; }
+  .edu-degree { font-size: 9.2pt; }
+  .edu-dates { font-style: italic; font-size: 9.2pt; text-align: right; color: #2a6496; }
   .edu ul { margin: 1pt 0 0 12pt; padding: 0; }
-  .edu li { font-size: 9.2pt; line-height: 1.35; }
+  .edu li { font-size: 8.8pt; line-height: 1.35; }
   .simple-list { margin: 0 0 0 12pt; padding: 0; }
-  .simple-list li { font-size: 9.2pt; line-height: 1.38; margin-bottom: 1.5pt; }
+  .simple-list li { font-size: 8.8pt; line-height: 1.35; margin-bottom: 1pt; }
   .simple-list li b { font-weight: bold; }
 
   /* ================================================================
@@ -59,9 +58,7 @@
   }
   .diff-controls button:hover { background: #4a6278; color: white; }
   .diff-controls button.active { background: #1abc9c; color: #fff; border-color: #16a085; }
-  .diff-controls .btn-icon {
-    padding: 3px 7px; font-size: 12px; line-height: 1;
-  }
+  .diff-controls .btn-icon { padding: 3px 7px; font-size: 12px; line-height: 1; }
   .diff-controls .divider { width: 1px; background: #4a6278; height: 18px; margin: 0 2px; }
 
   /* ================================================================
@@ -75,9 +72,7 @@
   .log-pane { display: none; padding: 8px 14px; }
   .log-pane.active { display: block; }
 
-  /* Changes pane */
   #pane-changes { background: #f8f9fa; }
-  #pane-changes h3 { font-size: 10px; color: #2c3e50; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.5px; }
   #pane-changes table { width: 100%; border-collapse: collapse; }
   #pane-changes th { background: #2c3e50; color: white; padding: 3px 8px; text-align: left; font-weight: normal; }
   #pane-changes td { padding: 3px 8px; border-bottom: 1px solid #dee2e6; vertical-align: top; }
@@ -88,9 +83,7 @@
   #pane-changes .orig { color: #6c757d; text-decoration: line-through; }
   #pane-changes .new  { color: #198754; }
 
-  /* Edits pane */
   #pane-edits { background: #1a2a1a; color: #b8d4b8; }
-  #pane-edits h3 { font-size: 10px; color: #90ee90; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.5px; }
   #pane-edits table { width: 100%; border-collapse: collapse; }
   #pane-edits th { background: #2d5a2d; color: #c8e6c8; padding: 3px 8px; text-align: left; font-weight: normal; }
   #pane-edits td { padding: 3px 8px; border-bottom: 1px solid #2d5a2d; vertical-align: top; }
@@ -101,7 +94,7 @@
   .log-empty { color: #666; font-style: italic; padding: 6px 0; }
 
   /* ================================================================
-     MODE 1: CHANGES
+     MODE 1: CHANGES — diff indicators, ghost text, connection lines
      ================================================================ */
   body.mode-changes li.changed {
     border-left: 4px solid #e6a817; padding-left: 6pt; margin-left: -10pt;
@@ -132,8 +125,11 @@
   body.mode-changes span.keyword.active { outline: 2px solid #c0392b; outline-offset: 1px; }
 
   /* ================================================================
-     MODE 2: KEYWORDS
+     MODE 2: KEYWORDS — matching terms highlighted same color both sides
+     Six keyword groups with distinct colors
      ================================================================ */
+
+  /* Resume side (white bg) — visible base tint */
   body.mode-keywords .kw { border-radius: 2px; padding: 0 2px; transition: background 0.15s, outline 0.15s; }
   body.mode-keywords .kw[data-kwg="data"]  { background: #b2dfdb; }
   body.mode-keywords .kw[data-kwg="coord"] { background: #ffe0b2; }
@@ -142,6 +138,7 @@
   body.mode-keywords .kw[data-kwg="tools"] { background: #f8bbd0; }
   body.mode-keywords .kw[data-kwg="prog"]  { background: #bbdefb; }
 
+  /* JD side (dark bg) — colored text + subtle bg tint */
   body.mode-keywords .jd-kw { border-radius: 2px; padding: 0 2px; transition: background 0.15s, outline 0.15s; }
   body.mode-keywords .jd-kw[data-kwg="data"]  { color: #4dd0e1; background: rgba(77,208,225,0.18); border-bottom: 2px solid #4dd0e1; }
   body.mode-keywords .jd-kw[data-kwg="coord"] { color: #ffb74d; background: rgba(255,183,77,0.18); border-bottom: 2px solid #ffb74d; }
@@ -150,6 +147,7 @@
   body.mode-keywords .jd-kw[data-kwg="tools"] { color: #f48fb1; background: rgba(244,143,177,0.18); border-bottom: 2px solid #f48fb1; }
   body.mode-keywords .jd-kw[data-kwg="prog"]  { color: #64b5f6; background: rgba(100,181,246,0.18); border-bottom: 2px solid #64b5f6; }
 
+  /* Keyword legend in JD panel */
   body.mode-keywords .kw-legend { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 14px 0; }
   body:not(.mode-keywords) .kw-legend { display: none; }
   .kw-legend span { font-size: 9px; padding: 2px 6px; border-radius: 3px; }
@@ -160,6 +158,7 @@
   .kw-legend .leg-tools { background: rgba(244,143,177,0.2); color: #f48fb1; }
   .kw-legend .leg-prog  { background: rgba(100,181,246,0.2); color: #64b5f6; }
 
+  /* Keyword active state — strong highlight, clear pop */
   body.mode-keywords .kw.kw-active[data-kwg="data"]  { background: #26c6da; color: #fff; outline: 2px solid #00acc1; }
   body.mode-keywords .kw.kw-active[data-kwg="coord"] { background: #ffa726; color: #fff; outline: 2px solid #fb8c00; }
   body.mode-keywords .kw.kw-active[data-kwg="cross"] { background: #ab47bc; color: #fff; outline: 2px solid #8e24aa; }
@@ -174,8 +173,12 @@
   body.mode-keywords .jd-kw.kw-active[data-kwg="tools"] { background: rgba(244,143,177,0.85); color: #fff; outline: 2px solid #f48fb1; }
   body.mode-keywords .jd-kw.kw-active[data-kwg="prog"]  { background: rgba(100,181,246,0.85); color: #fff; outline: 2px solid #64b5f6; }
 
+  /* Dim non-active keywords when a group is hovered */
   body.mode-keywords.kw-hovering .kw:not(.kw-active)    { opacity: 0.2; }
   body.mode-keywords.kw-hovering .jd-kw:not(.kw-active) { opacity: 0.2; }
+
+  /* MODE 3: CLEAN — no highlights */
+  /* (default — no special class needed, all .kw / .jd-kw / diff classes are unstyled) */
 
   /* ================================================================
      EDIT MODE
@@ -213,6 +216,7 @@
     .jd-content ul { margin: 0 0 8px 16px; }
     .jd-content li { margin-bottom: 4px; }
 
+    /* JD change-link highlights (changes mode only) */
     .jd-hl { display: inline; padding: 1px 3px; border-radius: 2px; cursor: pointer; transition: outline 0.15s; }
     body.mode-changes .jd-hl { color: #fff; }
     body.mode-changes .jd-swap  { background: rgba(230,168,23,0.3); border-bottom: 2px solid #e6a817; }
@@ -222,11 +226,14 @@
     body.mode-changes .jd-swap.active  { outline-color: #e6a817; }
     body.mode-changes .jd-order.active { outline-color: #2980b9; }
     body.mode-changes .jd-word.active  { outline-color: #c0392b; }
+    /* Hide change-link highlights when NOT in changes mode */
     body:not(.mode-changes) .jd-hl { color: inherit; background: none; border: none; }
 
+    /* JD reasoning annotations (changes mode only) */
     .jd-reason { display: none; font-size: 9px; color: #9bb0c4; margin: 2px 0 10px 4px; font-style: italic; padding-left: 8px; border-left: 2px solid #444; }
     body.mode-changes .jd-reason { display: block; }
 
+    /* SVG connection lines (changes mode only) */
     .connection-svg { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 9997; }
     .connection-svg path { fill: none; stroke-width: 2; opacity: 0; transition: opacity 0.2s; }
     .connection-svg path.active { opacity: 0.85; }
@@ -240,7 +247,6 @@
      PRINT: clean resume only
      ================================================================ */
   @media print {
-    .kw, .jd-kw { padding: 0 !important; }
     body { background: white !important; }
     .diff-toolbar, #log-panel, .jd-panel, .connection-svg { display: none !important; }
     .split-layout { display: block !important; }
@@ -260,8 +266,8 @@
 <!-- ══════════ TOOLBAR ══════════ -->
 <div class="diff-toolbar">
   <div class="diff-version">
-    📄 <strong>[Company — Job Title]</strong>
-    <span class="diff-date">[Date]</span>
+    📄 Tailored for: <strong>BCG — Career Development Specialist</strong>
+    <span class="diff-date">Mar 30, 2026</span>
   </div>
   <div class="diff-controls">
     <button id="btn-changes" onclick="setMode('changes')">Changes</button>
@@ -283,8 +289,17 @@
   <div id="pane-changes" class="log-pane active">
     <table>
       <tr><th>Location</th><th>Type</th><th>Before</th><th>After</th><th>Why</th></tr>
+      <tr><td>Summary</td><td class="tag-swap">🟡 bullet swap</td><td class="orig">OD &amp; Workplace Experience</td><td class="new">Human Resources</td><td>BCG: corporate HR context, not WX startup</td></tr>
+      <tr><td>InGenius #1</td><td class="tag-swap">🟡 bullet swap</td><td class="orig">Manage end-to-end lifecycles…</td><td class="new">Manage 20+ programs…communications strategy</td><td>BCG: program coordination + communications</td></tr>
+      <tr><td>InGenius #3</td><td class="tag-swap">🟡 bullet swap</td><td class="orig">Facilitate training webinars…</td><td class="new">Facilitate listening sessions…25 stakeholders</td><td>BCG: primary stakeholder contact for CD Advisors</td></tr>
+      <tr><td>InGenius #4</td><td class="tag-swap">🟡 bullet swap</td><td class="orig">Conduct needs assessments…</td><td class="new">Facilitate training webinars 600+…</td><td>BCG: prepares materials for trainings</td></tr>
+      <tr><td>NextGen #4→1</td><td class="tag-order">🔵 reorder</td><td class="orig">was #4</td><td class="new">now #1</td><td>BCG: "performance review" = feedback cycles</td></tr>
+      <tr><td>NextGen #3→2</td><td class="tag-order">🔵 reorder</td><td class="orig">was #3</td><td class="new">now #2</td><td>BCG: manager effectiveness = developmental conversations</td></tr>
+      <tr><td>Vestas #3→1</td><td class="tag-order">🔵 reorder</td><td class="orig">was #3</td><td class="new">now #1</td><td>BCG: prepares onboarding sessions</td></tr>
+      <tr><td>Vestas #1</td><td class="tag-swap">🟡 bullet swap</td><td class="orig">Strengthened engagement via newsletter…</td><td class="new">Delivered strategic HR solutions…succession planning</td><td>BCG: HR talent management depth over WX culture</td></tr>
+      <tr><td>Vestas #3</td><td class="tag-swap">🟡 bullet swap</td><td class="orig">Supported HRBP team by piloting…</td><td class="new">Initiated a DEI pilot…12 senior leaders</td><td>Cleaner framing; active verb</td></tr>
+      <tr><td>Skills</td><td class="tag-swap">🟡 bullet swap</td><td class="orig">Google Workspace · Notion</td><td class="new">HRIS (SAP) · MS Office (Word, PowerPoint)</td><td>BCG: enterprise tools, not startup stack</td></tr>
     </table>
-    <p class="log-empty">No changes logged yet.</p>
   </div>
   <div id="pane-edits" class="log-pane">
     <table>
@@ -304,50 +319,50 @@
 <div class="header">
   <h1>Jamie (Yi-Chieh) Cheng</h1>
   <div class="contact">
-    Portland, OR (Open to Remote or Seattle) &bull; (213) 700-3831 &bull;
+    Pittsburgh, PA (Open to Relocation) &bull; (213) 700-3831 &bull;
     <a href="mailto:jamiecheng0103@gmail.com">jamiecheng0103@gmail.com</a> &bull;
     <a href="http://www.linkedin.com/in/jamieyccheng">LinkedIn</a>
   </div>
 </div>
 
 <div class="summary">
-  I'm Jamie&mdash;a curious, people-loving (97% extrovert!) <b>Organizational Development &amp; Learning Design</b> professional who thrives on
-  <b>solving problems through data analysis</b>, <b>developing learning programs grounded in needs assessments</b>, and
+  I'm Jamie&mdash;a curious, people-loving (97% extrovert!) <b>Talent Development</b> professional who thrives on
+  <b>solving problems through data analysis</b>, <b>developing programs grounded in insights</b>, and
   <b>collaborating with stakeholders for sustainable impact</b>.
-  Expect me to always be seeking ways we can improve <b>learning and development outcomes</b>&mdash;through human-centered, systematic approaches.
+  Expect me to always be seeking ways we can improve <b>talent growth and experience</b>&mdash;through human-centered, systematic approaches.
 </div>
 
 <div class="section-header">Professional Experience</div>
 
 <div class="job">
   <div class="job-title-row">
-    <div class="job-title">Consultant, Organizational Development &amp; Employee Engagement</div>
-    <div class="job-location">Remote, USA</div>
+    <div class="job-title">Consultant, Organization &amp; Talent Development</div>
+    <div class="job-location">Pittsburgh, PA</div>
   </div>
   <div class="job-company-row">
     <div class="job-company">Organization Development Network (ODN) Oregon</div>
     <div class="job-dates">August 2025&ndash;Present</div>
   </div>
   <ul>
-    <li>Upskill HR team in data analytics to audit 300+ leave cases, refuting cost assumptions via evidence-based insights</li>
-    <li>Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training</li>
+    <li>Upskill HR team in <span class="keyword kw" data-kwg="data" data-original="analytics" data-reason="JD: exact 'data analysis'" data-jd="jd4">data analysis</span> to audit 300+ leave cases, refuting cost assumptions via evidence-based <span class="kw" data-kwg="data">insights</span></li>
+    <li>Empower HR to present executive-ready <span class="kw" data-kwg="data">insights</span> on $362K in leave costs, leading to <span class="kw" data-kwg="ex">policy</span> redesigns and first aid training</li>
   </ul>
 </div>
 
 <div class="job">
   <div class="job-title-row">
     <div class="job-title">Program Enablement Manager</div>
-    <div class="job-location">Remote, USA</div>
+    <div class="job-location">Pittsburgh, PA</div>
   </div>
   <div class="job-company-row">
     <div class="job-company">InGenius Prep, LLC</div>
     <div class="job-dates">September 2023&ndash;Present</div>
   </div>
   <ul>
-    <li>Conduct needs assessments with 25+ global stakeholders to identify learning gaps and design 3 new educational programs</li>
-    <li>Develop guides and workflows for 70+ cross-functional staff, improving program knowledge and reducing onboarding time by 75%</li>
-    <li>Facilitate training webinars for 600+ participants, enhancing program understanding and driving a 78% client conversion rate</li>
-    <li>Collaborate with 4 teams and 8 vendors to launch 15+ educational programs; drive continuous improvement via feedback analysis</li>
+    <li class="changed" data-original="Manage end-to-end lifecycles for 20+ projects, utilizing feedback loops to optimize operational strategies and vendor performance" data-reason="BCG: program coordination + communications strategy" data-jd="jd1">Serve as <span class="kw" data-kwg="coord">primary contact</span> for 20+ <span class="kw" data-kwg="prog">programs</span> and 10+ vendors, coordinating <span class="kw" data-kwg="coord">communications strategy</span> and operations via feedback analysis</li>
+    <li>Lead <span class="kw" data-kwg="coord">project coordination</span> and <span class="kw" data-kwg="coord">process improvement</span> for 70+ cross-functional staff, creating documentation that reduced <span class="kw" data-kwg="coord">onboarding</span> time by 75%</li>
+    <li class="changed" data-original="Facilitate training webinars for 600+ participants, boosting program engagement and achieving a 78% program enrollment rate" data-reason="BCG: primary stakeholder contact for CD Advisors" data-jd="jd2">Facilitate <span class="kw" data-kwg="ex">feedback cycles</span> with 25 global <span class="kw" data-kwg="cross">stakeholders</span> to identify learning gaps, resulting in 3 new <span class="kw" data-kwg="prog">programs</span> aligned with needs</li>
+    <li class="changed" data-original="Conduct needs assessments and analyze feedback from 25+ global stakeholders to inform program design and strategy" data-reason="BCG: prepares materials for trainings" data-jd="jd3">Facilitate <span class="kw" data-kwg="prog">training</span> webinars for 600+ participants, boosting <span class="kw" data-kwg="prog">program</span> engagement and achieving a 78% program enrollment rate</li>
   </ul>
 </div>
 
@@ -361,10 +376,10 @@
     <div class="job-dates">January 2023&ndash;May 2023</div>
   </div>
   <ul>
-    <li>Led a manager effectiveness initiative, transforming feedback data into actionable reports that informed L&amp;D strategies</li>
-    <li>Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on L&amp;D priorities</li>
-    <li>Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review</li>
-    <li>Elevated employee experience through L&amp;D projects focused on engagement, rewards &amp; recognition, and survey development</li>
+    <li class="reordered" data-was="4" data-reason="BCG: performance review = feedback cycles + developmental conversations" data-jd="jd2">Provided consultations on <span class="kw" data-kwg="ex">career development</span> plans and internal <span class="kw" data-kwg="prog">training</span> on DEI, Inclusive Leadership, and <span class="kw" data-kwg="ex">performance review</span></li>
+    <li class="reordered" data-was="3" data-reason="BCG: manager effectiveness = developmental conversations for consulting staff" data-jd="jd2">Led a manager effectiveness initiative, transforming <span class="kw" data-kwg="ex">feedback</span> data into actionable reports that informed <span class="kw" data-kwg="ex">engagement</span> strategies</li>
+    <li>Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on <span class="kw" data-kwg="data">satisfaction</span> drivers</li>
+    <li>Improved employee experience via 5 <span class="kw" data-kwg="cross">cross-functional</span> projects focusing on <span class="kw" data-kwg="data">survey</span> development, <span class="kw" data-kwg="ex">rewards &amp; recognition</span>, and L&amp;D</li>
   </ul>
 </div>
 
@@ -378,10 +393,10 @@
     <div class="job-dates">February 2022&ndash;October 2022</div>
   </div>
   <ul>
-    <li>Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations</li>
-    <li>Facilitated organizational change by coordinating a Mergers &amp; Acquisitions project and overseeing cross-functional stakeholders</li>
-    <li>Optimized onboarding across 3 global locations by coordinating process analysis and clarifying job responsibilities</li>
-    <li>Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors</li>
+    <li class="reordered changed" data-was="3" data-reason="BCG: prepares onboarding sessions, coordinates processes" data-jd="jd3">Optimized <span class="kw" data-kwg="coord">onboarding</span> across 3 global locations by coordinating process analysis and clarifying job responsibilities</li>
+    <li class="changed" data-original="Strengthened employee engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors" data-reason="BCG: HR talent management depth over WX culture framing" data-jd="jd2">Delivered HR solutions in <span class="kw" data-kwg="ex">talent management</span>, <span class="kw" data-kwg="ex">employee relations</span>, and succession planning, maintaining strict <span class="kw" data-kwg="ex">confidentiality</span></li>
+    <li class="changed" data-original="Supported HRBP team by piloting an Inclusive Leadership workshop for senior leaders, later scaled to 23 global locations" data-reason="Active verb; cleaner framing for BCG" data-jd="jd3">Initiated a DEI pilot — Inclusive Leadership <span class="kw" data-kwg="prog">workshop</span> for 12 senior leaders, later expanded to 23 global locations</li>
+    <li>Facilitated <span class="kw" data-kwg="cross">organizational change</span> by coordinating a Mergers &amp; Acquisitions project and overseeing <span class="kw" data-kwg="cross">cross-functional</span> stakeholders</li>
   </ul>
 </div>
 
@@ -395,10 +410,10 @@
     <div class="job-dates">January 2021&ndash;August 2021</div>
   </div>
   <ul>
-    <li>Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management</li>
-    <li>Filled an international role by drafting job descriptions, posting openings, and researching global compensation details</li>
-    <li>Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months</li>
-    <li>Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants</li>
+    <li>Developed proficiency across various HR functions, ranging from <span class="kw" data-kwg="ex">recruitment</span> and compensation to <span class="kw" data-kwg="ex">performance management</span></li>
+    <li>Filled an international role by drafting <span class="kw" data-kwg="coord">job descriptions</span>, posting openings, and researching global compensation details</li>
+    <li>Engaged global talent via personalized <span class="kw" data-kwg="coord">communication</span> and customer service, increasing applications by 566% in 2 months</li>
+    <li>Organized <span class="kw" data-kwg="coord">recruiting events</span> and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants</li>
   </ul>
 </div>
 
@@ -415,14 +430,14 @@
 
 <div class="section-header">Projects &amp; Awards</div>
 <ul class="simple-list">
-  <li><b>Consulting Projects:</b> Enhanced <b>Elanco Animal Health</b> employer branding &amp; talent attraction strategy via survey design/execution</li>
-  <li><b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-methods</li>
+  <li><b>OD Consulting Project:</b> Informed <b>Elanco Animal Health</b> employer branding &amp; talent attraction strategy via survey design/execution</li>
+  <li><b>Research Consulting Project:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-methods</li>
   <li><b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition scholarship), Tuck Bridge Scholarship (Full Scholarship)</li>
 </ul>
 
 <div class="section-header">Skills</div>
 <ul class="simple-list">
-  <li><b>Technical Skills:</b> HRIS &middot; LMS (Canvas, Moodle) &middot; Articulate/Instructional Design Tools &middot; MS Office &middot; Data Analysis (SPSS, Excel)</li>
+  <li><b>Technical Skills:</b> Project Management (Asana, Airtable) &middot; Knowledge Management (SharePoint, Notion, Google Workspace) &middot; AI Productivity (ChatGPT, Notion AI, Gemini) &middot; Data Analysis (Google Sheets, SPSS) &middot; Microsoft Office (Word, PowerPoint, Excel)</li>
   <li><b>Languages:</b> English (fluent) &middot; Mandarin Chinese (native) &middot; Spanish (basic)</li>
   <li><b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)</li>
 </ul>
@@ -438,20 +453,61 @@
 <div class="jd-panel" id="jd-panel">
   <div class="jd-header">
     <h3>Job Description</h3>
-    <div class="jd-meta">[Company] — [Job Title] &middot; [Location] &middot; [Salary]</div>
+    <div class="jd-meta">BCG — Career Development Specialist &middot; Summit NJ / Philadelphia PA / Pittsburgh PA &middot; $71K–$99K + bonus</div>
   </div>
 
   <div class="kw-legend">
     <span class="leg-data">Data/Analysis</span>
     <span class="leg-coord">Coordinate/Ops</span>
     <span class="leg-cross">Cross-functional</span>
-    <span class="leg-ex">People/EX</span>
+    <span class="leg-ex">Career Dev.</span>
     <span class="leg-tools">Tools</span>
     <span class="leg-prog">Programs</span>
   </div>
 
   <div class="jd-content">
-    <p style="color:#666;font-style:italic">Paste job description here during tailoring. Add <code>jd-kw</code> spans for keyword highlighting and <code>jd-hl</code> marks for change connections.</p>
+    <div class="jd-section-title">About the Role</div>
+    <p>The Career Development Specialist supports and manages <span class="jd-kw" data-kwg="ex">performance management</span> and <span class="jd-kw" data-kwg="ex">career development</span> processes for BCG consulting staff. Reports to the Career Development Manager.</p>
+
+    <div class="jd-section-title">Key Responsibilities</div>
+    <ul>
+      <li><mark class="jd-hl jd-swap" id="jd1">Coordinate <span class="jd-kw" data-kwg="coord">Career Development Committee</span> meetings</mark> — logistics, communications, and outcome documentation
+        <span class="jd-reason">→ Summary: "Human Resources" identity (corporate context)<br>→ InGenius #1: program coordination + communications strategy</span>
+      </li>
+      <li><mark class="jd-hl jd-swap" id="jd2">Support <span class="jd-kw" data-kwg="ex">feedback cycles</span> and <span class="jd-kw" data-kwg="ex">performance review</span> processes</mark>; enable leaders to deliver <span class="jd-kw" data-kwg="ex">developmental conversations</span>
+        <span class="jd-reason">→ NextGen #1: "performance review" consultations<br>→ NextGen #2: manager effectiveness initiative</span>
+      </li>
+      <li>Serve as <mark class="jd-hl jd-swap" id="jd3">primary contact for <span class="jd-kw" data-kwg="coord">CD Advisors</span> and consulting staff</mark> regarding system questions and advisor assignments
+        <span class="jd-reason">→ InGenius #3: listening sessions with 25 global stakeholders<br>→ Vestas #1: onboarding + process coordination</span>
+      </li>
+      <li>Prepare <mark class="jd-hl jd-order" id="jd4">materials for meetings, <span class="jd-kw" data-kwg="prog">trainings</span>, <span class="jd-kw" data-kwg="coord">onboarding</span> sessions, and debriefs</mark>
+        <span class="jd-reason">→ InGenius #2: cross-functional documentation + onboarding<br>→ InGenius #4: training webinars for 600+</span>
+      </li>
+      <li>Execute local <span class="jd-kw" data-kwg="prog">strategic initiatives</span> and support <span class="jd-kw" data-kwg="ex">year-end bonus</span> processes</li>
+      <li>Manage communications on advisor assignments and developmental conversations</li>
+    </ul>
+
+    <div class="jd-section-title">Required Qualifications</div>
+    <ul>
+      <li>BA/BS degree required</li>
+      <li>3+ years HR, talent management, staffing, or operations experience</li>
+      <li>Strong organizational skills managing high-volume information</li>
+      <li>Clear, effective written communications to diverse stakeholders</li>
+      <li>Proficiency with confidentiality protocols and policy adherence</li>
+    </ul>
+
+    <div class="jd-section-title">Preferred Qualifications</div>
+    <ul>
+      <li>Prior BCG or professional services experience</li>
+      <li>Feedback management, onboarding, and training delivery</li>
+      <li>Project coordination and process improvement</li>
+    </ul>
+
+    <div class="jd-section-title">Compensation</div>
+    <p>$71,000–$99,000 base + up to 16% discretionary bonus + 5–10% retirement contribution. Hybrid 3–5 days/week in office.</p>
+
+    <div class="jd-section-title">H1B Status</div>
+    <p style="color: #4CAF50; font-weight: bold;">✅ Confirmed — 1,674 LCA filings FY2022–2024, ~100% approval rate, ranked #74 US sponsor.</p>
   </div>
 </div>
 
@@ -460,18 +516,17 @@
 <!-- ══════════ JAVASCRIPT ══════════ -->
 <script>
 (function() {
-  var STORAGE_KEY = 'resume-edits-' + window.location.pathname;
   var svg = document.getElementById('connections');
   var resumePanel = document.getElementById('resume-panel');
   var jdPanel = document.getElementById('jd-panel');
+
+  var STORAGE_KEY = 'resume-edits-' + window.location.pathname;
 
   // ── Mode switching ──
   window.setMode = function(mode) {
     document.body.className = (document.body.className.replace(/mode-\S+/g, '').trim());
     if (mode !== 'clean') document.body.classList.add('mode-' + mode);
-    document.querySelectorAll('.diff-controls button[id^="btn-"]').forEach(function(b) {
-      b.classList.remove('active');
-    });
+    document.querySelectorAll('.diff-controls button[id^="btn-"]').forEach(function(b) { b.classList.remove('active'); });
     var modeBtn = document.getElementById('btn-' + mode);
     if (modeBtn) modeBtn.classList.add('active');
     if (svg) svg.innerHTML = '';
@@ -492,7 +547,7 @@
 
   if (!svg || !resumePanel || !jdPanel) return;
 
-  // ── Draw connection lines ──
+  // ── Draw lines for one resume element ──
   function drawLinesFor(resumeEl, jdIds) {
     svg.innerHTML = '';
     jdIds.forEach(function(jdId) {
@@ -501,15 +556,18 @@
       var rRect = resumeEl.getBoundingClientRect();
       var jRect = jdEl.getBoundingClientRect();
       if (rRect.height === 0 || jRect.height === 0) return;
+
       var x1 = rRect.right + 4, y1 = rRect.top + rRect.height / 2;
       var x2 = jRect.left - 4,  y2 = jRect.top + jRect.height / 2;
       y1 = Math.max(40, Math.min(window.innerHeight - 4, y1));
       y2 = Math.max(40, Math.min(window.innerHeight - 4, y2));
       var cp = Math.max(Math.abs(x2 - x1) * 0.35, 40);
+
       var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
       path.setAttribute('d', 'M '+x1+','+y1+' C '+(x1+cp)+','+y1+' '+(x2-cp)+','+y2+' '+x2+','+y2);
-      var cls = resumeEl.classList.contains('changed') ? 'conn-swap' :
-                resumeEl.classList.contains('reordered') ? 'conn-order' : 'conn-word';
+      var cls = 'conn-word';
+      if (resumeEl.classList.contains('changed')) cls = 'conn-swap';
+      else if (resumeEl.classList.contains('reordered')) cls = 'conn-order';
       path.classList.add(cls);
       path.classList.add('active');
       svg.appendChild(path);
@@ -518,13 +576,10 @@
 
   function clearAll() {
     svg.innerHTML = '';
-    document.querySelectorAll('.kw-active, [data-jd].active, .jd-hl.active').forEach(function(el) {
-      el.classList.remove('active');
-      el.classList.remove('kw-active');
-    });
+    document.querySelectorAll('.active').forEach(function(el) { el.classList.remove('active'); });
   }
 
-  // ── Changes mode: resume hover → JD ──
+  // ── Resume hover → JD (changes mode only) ──
   document.addEventListener('mouseover', function(e) {
     if (!document.body.classList.contains('mode-changes')) return;
     var el = e.target.closest('[data-jd]');
@@ -540,7 +595,7 @@
     }
   });
 
-  // ── Changes mode: JD hover → resume ──
+  // ── JD hover → Resume (changes mode only) ──
   jdPanel.addEventListener('mouseover', function(e) {
     if (!document.body.classList.contains('mode-changes')) return;
     var mark = e.target.closest('.jd-hl');
@@ -549,7 +604,7 @@
       mark.classList.add('active');
       var matched = [];
       document.querySelectorAll('[data-jd]').forEach(function(el) {
-        if (el.dataset.jd.split(',').map(function(s){return s.trim();}).indexOf(mark.id) >= 0) {
+        if (el.dataset.jd.split(',').map(function(s){return s.trim()}).indexOf(mark.id) >= 0) {
           el.classList.add('active');
           el.scrollIntoView({ behavior: 'instant', block: 'center' });
           matched.push(el);
@@ -561,15 +616,16 @@
     }
   });
 
+  // ── Clear on mouseout (changes mode) ──
   document.addEventListener('mouseout', function(e) {
     if (!document.body.classList.contains('mode-changes')) return;
     var leaving = e.target.closest('[data-jd], .jd-hl');
     var entering = e.relatedTarget ? e.relatedTarget.closest('[data-jd], .jd-hl') : null;
-    if (leaving && !entering) { svg.innerHTML = ''; document.querySelectorAll('.active').forEach(function(el){el.classList.remove('active');}); }
+    if (leaving && !entering) clearAll();
   });
 
-  // ── Keywords mode ──
-  var kwPinned = null;
+  // ── KEYWORDS MODE: hover + click-to-pin ──
+  var kwPinned = null; // locked group name, or null
 
   function setKwGroup(group) {
     document.body.classList.add('kw-hovering');
@@ -580,7 +636,7 @@
   }
 
   function clearKwHover() {
-    if (kwPinned) return;
+    if (kwPinned) return; // don't clear if pinned
     document.body.classList.remove('kw-hovering');
     document.querySelectorAll('.kw-active').forEach(function(el) { el.classList.remove('kw-active'); });
   }

@@ -1,43 +1,44 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jamie (Yi-Chieh) Cheng — Resume [Learning & Development]</title>
-<!-- TEMPLATE: Learning & Development | Copy to tailored_resumes/ before editing -->
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Jamie (Yi-Chieh) Cheng — Resume [HR / HRBP]</title>
+<!-- TEMPLATE: HR / HRBP | Copy to tailored_resumes/ before editing -->
 <style>
-  @page { size: letter; margin: 0.35in 0.45in 0.35in 0.45in; }
+  @page { size: letter; margin: 0.4in 0.5in 0.35in 0.5in; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: 'Calibri','Helvetica Neue','Arial',sans-serif; font-size: 9.5pt; line-height: 1.18; color: #1a1a1a; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-family: 'Calibri','Helvetica Neue','Arial',sans-serif; font-size: 9.2pt; line-height: 1.22; color: #1a1a1a; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 
   /* ── Resume base styles ── */
   .header { text-align: center; margin-bottom: 2pt; }
   .header h1 { font-size: 19pt; font-weight: bold; letter-spacing: 0.3pt; margin-bottom: 1pt; color: #000; }
-  .header .contact { font-size: 8.8pt; color: #333; }
+  .header .contact { font-size: 8.5pt; color: #333; }
   .header .contact a { color: #2a6496; text-decoration: underline; }
-  .summary { padding: 4pt 7pt; margin: 4pt 0; font-size: 9pt; line-height: 1.30; font-style: italic; color: #222; text-align: center; }
+  .summary { padding: 4pt 7pt; margin: 4pt 0; font-size: 8.8pt; line-height: 1.28; font-style: italic; color: #222; text-align: center; }
   .summary b { font-style: italic; font-weight: bold; }
-  .section-header { text-align: center; font-size: 9pt; font-weight: bold; letter-spacing: 0.8pt; text-transform: uppercase; border-bottom: 1px solid #000; padding: 1pt 0; margin: 6pt 0 3pt 0; }
-  .job { margin-bottom: 7pt; }
+  .section-header { text-align: center; font-size: 9pt; font-weight: bold; letter-spacing: 0.8pt; text-transform: uppercase; border-top: 1px solid #000; border-bottom: 1px solid #000; padding: 1.5pt 0; margin: 7pt 0 5pt 0; }
+  .job { margin-bottom: 6pt; }
   .job-title-row { display: flex; justify-content: space-between; align-items: baseline; }
-  .job-title { font-weight: bold; font-size: 9.5pt; }
+  .job-title { font-weight: bold; font-size: 9.2pt; }
   .job-title .work-sample, .job-title a.work-sample { font-weight: normal; font-size: 7.5pt; text-decoration: underline; color: #2a6496; }
-  .job-location { font-size: 9.5pt; text-align: right; white-space: nowrap; }
+  .job-location { font-size: 9.2pt; text-align: right; white-space: nowrap; }
   .job-company-row { display: flex; justify-content: space-between; align-items: baseline; }
-  .job-company { color: #2a6496; font-size: 9.5pt; }
-  .job-dates { font-style: italic; font-size: 9.5pt; text-align: right; white-space: nowrap; color: #2a6496; }
-  .job ul { margin: 2pt 0 0 12pt; padding: 0; }
-  .job li { font-size: 9.2pt; line-height: 1.28; margin-bottom: 0.5pt; padding-left: 1pt; }
-  .edu { margin-bottom: 5pt; }
+  .job-company { color: #2a6496; font-size: 9.2pt; }
+  .job-dates { font-style: italic; font-size: 9.2pt; text-align: right; white-space: nowrap; color: #2a6496; }
+  .job ul { margin: 2pt 0 0 12pt; padding: 0; list-style: none; }
+  .job li { font-size: 8.8pt; line-height: 1.35; margin-bottom: 1pt; padding-left: 1pt; }
+  .edu { margin-bottom: 4pt; }
   .edu-row { display: flex; justify-content: space-between; align-items: baseline; }
-  .edu-school { font-weight: bold; font-size: 9.5pt; }
-  .edu-location { font-size: 9.5pt; text-align: right; }
-  .edu-degree { font-size: 9.5pt; }
-  .edu-dates { font-style: italic; font-size: 9.5pt; text-align: right; color: #2a6496; }
-  .edu ul { margin: 1pt 0 0 12pt; padding: 0; }
-  .edu li { font-size: 9.2pt; line-height: 1.35; }
-  .simple-list { margin: 0 0 0 12pt; padding: 0; }
-  .simple-list li { font-size: 9.2pt; line-height: 1.38; margin-bottom: 1.5pt; }
+  .edu-school { font-weight: bold; font-size: 9.2pt; }
+  .edu-location { font-size: 9.2pt; text-align: right; }
+  .edu-degree { font-size: 9.2pt; }
+  .edu-dates { font-style: italic; font-size: 9.2pt; text-align: right; color: #2a6496; }
+  .edu ul { margin: 1pt 0 0 12pt; padding: 0; list-style: none; }
+  .edu li { font-size: 8.8pt; line-height: 1.35; }
+  .simple-list { margin: 0 0 0 12pt; padding: 0; list-style: none; }
+  .simple-list li { font-size: 8.8pt; line-height: 1.35; margin-bottom: 1pt; }
   .simple-list li b { font-weight: bold; }
 
   /* ================================================================
@@ -240,7 +241,6 @@
      PRINT: clean resume only
      ================================================================ */
   @media print {
-    .kw, .jd-kw { padding: 0 !important; }
     body { background: white !important; }
     .diff-toolbar, #log-panel, .jd-panel, .connection-svg { display: none !important; }
     .split-layout { display: block !important; }
@@ -251,212 +251,226 @@
     li.changed::before, li.reordered::after { display: none !important; }
     span.keyword { background: transparent !important; border-bottom: none !important; }
     span.keyword::after { display: none !important; }
-    .kw, .jd-kw { background: transparent !important; border: none !important; color: inherit !important; padding: 0 !important; }
+    .kw, .jd-kw { background: transparent !important; border: none !important; color: inherit !important; }
   }
 </style>
 </head>
 <body class="mode-keywords">
-
 <!-- ══════════ TOOLBAR ══════════ -->
 <div class="diff-toolbar">
-  <div class="diff-version">
-    📄 <strong>[Company — Job Title]</strong>
-    <span class="diff-date">[Date]</span>
-  </div>
-  <div class="diff-controls">
-    <button id="btn-changes" onclick="setMode('changes')">Changes</button>
-    <button id="btn-keywords" class="active" onclick="setMode('keywords')">Keywords</button>
-    <button id="btn-clean" onclick="setMode('clean')">Clean</button>
-    <div class="divider"></div>
-    <button id="btn-edit" class="btn-icon" title="Toggle edit mode" onclick="toggleEditMode()">✏️</button>
-    <button id="btn-log" class="btn-icon" title="Show log" onclick="toggleLog()">📋</button>
-    <button id="btn-export" class="btn-icon" title="Export PDF (Cmd+P → Save as PDF)" onclick="window.print()">📤</button>
-  </div>
+<div class="diff-version">
+    📄 <strong>Bio-Techne — HR Specialist</strong>
+<span class="diff-date">March 31, 2026</span>
 </div>
-
+<div class="diff-controls">
+<button id="btn-changes" onclick="setMode('changes')">Changes</button>
+<button class="active" id="btn-keywords" onclick="setMode('keywords')">Keywords</button>
+<button id="btn-clean" onclick="setMode('clean')">Clean</button>
+<div class="divider"></div>
+<button class="btn-icon" id="btn-edit" onclick="toggleEditMode()" title="Toggle edit mode">✏️</button>
+<button class="btn-icon" id="btn-log" onclick="toggleLog()" title="Show log">📋</button>
+<button class="btn-icon" id="btn-export" onclick="window.print()" title="Export PDF (Cmd+P → Save as PDF)">📤</button>
+</div>
+</div>
 <!-- ══════════ LOG PANEL ══════════ -->
 <div id="log-panel">
-  <div class="log-tabs">
-    <div class="log-tab active" onclick="switchTab('changes')">🔧 Change Log</div>
-    <div class="log-tab" onclick="switchTab('edits')">✏️ My Edits</div>
-  </div>
-  <div id="pane-changes" class="log-pane active">
-    <table>
-      <tr><th>Location</th><th>Type</th><th>Before</th><th>After</th><th>Why</th></tr>
-    </table>
-    <p class="log-empty">No changes logged yet.</p>
-  </div>
-  <div id="pane-edits" class="log-pane">
-    <table>
-      <tr><th>Time</th><th>Location</th><th>Before</th><th>After</th></tr>
-    </table>
-    <p class="log-empty">No edits yet — click ✏️ to start editing.</p>
-  </div>
+<div class="log-tabs">
+<div class="log-tab active" onclick="switchTab('changes')">🔧 Change Log</div>
+<div class="log-tab" onclick="switchTab('edits')">✏️ My Edits</div>
 </div>
-
+<div class="log-pane active" id="pane-changes">
+<table>
+<tr><th>Location</th><th>Type</th><th>Before</th><th>After</th><th>Why</th></tr>
+<tr><td>Transition Projects — bullet 1</td><td class="tag-swap">ADDED</td><td class="orig">[not in base]</td><td class="new">Facilitate CEO/HR discovery and stakeholder interviews... analyze leave data</td><td>Shows "first point of contact" + data analysis — maps to JD first-contact &amp; data integrity duties</td></tr>
+<tr><td>InGenius — bullet 2</td><td class="tag-word">WORD</td><td class="orig">Optimize cross-functional processes... creating comprehensive documentation</td><td class="new">Develop guides, workflows, and SOPs... improving program knowledge</td><td>JD specifically calls out SOP creation and standardized documentation — swapped to match</td></tr>
+<tr><td>Vestas — bullet 2</td><td class="tag-word">WORD</td><td class="orig">...overseeing cross-functional stakeholders</td><td class="new">...migrating and merging employee records across systems</td><td>JD emphasizes auditing and maintaining employee data — records migration is a direct match</td></tr>
+<tr><td>Vestas — bullet 3</td><td class="tag-word">WORD</td><td class="orig">Optimized onboarding... coordinating process analysis</td><td class="new">Streamlined onboarding... conducting gap analyses</td><td>JD leads with "seamless onboarding"; "gap analyses" is stronger, more HR-native language</td></tr>
+<tr><td>Vestas — bullet 4</td><td class="tag-swap">SWAP</td><td class="orig">Delivered strategic HR solutions... headcount and succession planning</td><td class="new">Assisted in employee relations cases, ensuring compliance with local labor laws</td><td>JD explicitly mentions compliance activities — ER/compliance bullet is a direct match</td></tr>
+<tr><td>Kronos</td><td class="tag-order">TRIM</td><td class="orig">4 bullets</td><td class="new">2 bullets</td><td>Kronos is lowest relevance; trimmed recruiting/campus events bullets to save page space</td></tr>
+</table>
+<p class="log-empty" style="display:none">No changes logged yet.</p>
+</div>
+<div class="log-pane" id="pane-edits">
+<table>
+<tr><th>Time</th><th>Location</th><th>Before</th><th>After</th></tr>
+</table>
+<p class="log-empty">No edits yet — click ✏️ to start editing.</p>
+</div>
+</div>
 <!-- ══════════ SPLIT LAYOUT ══════════ -->
 <div class="split-layout">
-
 <!-- ──── LEFT: RESUME ──── -->
 <div class="resume-panel" id="resume-panel">
 <div class="resume-page">
-
 <div class="header">
-  <h1>Jamie (Yi-Chieh) Cheng</h1>
-  <div class="contact">
-    Portland, OR (Open to Remote or Seattle) &bull; (213) 700-3831 &bull;
-    <a href="mailto:jamiecheng0103@gmail.com">jamiecheng0103@gmail.com</a> &bull;
+<h1>Jamie (Yi-Chieh) Cheng</h1>
+<div class="contact">
+    Portland, OR (Open to Remote or Relocation) • (213) 700-3831 •
+    <a href="mailto:jamiecheng0103@gmail.com">jamiecheng0103@gmail.com</a> •
     <a href="http://www.linkedin.com/in/jamieyccheng">LinkedIn</a>
-  </div>
 </div>
-
+</div>
 <div class="summary">
-  I'm Jamie&mdash;a curious, people-loving (97% extrovert!) <b>Organizational Development &amp; Learning Design</b> professional who thrives on
-  <b>solving problems through data analysis</b>, <b>developing learning programs grounded in needs assessments</b>, and
-  <b>collaborating with stakeholders for sustainable impact</b>.
-  Expect me to always be seeking ways we can improve <b>learning and development outcomes</b>&mdash;through human-centered, systematic approaches.
+  I'm Jamie—a curious, people-loving (97% extrovert!) <b>Human Resources &amp; Organizational Development</b> professional who thrives on
+  <b>solving problems through data analysis</b>, <b>developing programs grounded in insights</b>, and
+  <b>collaborating with business stakeholders for sustainable impact</b>.
+  Expect me to always be seeking ways we can improve <b>HR operations</b>—through human-centered, systematic approaches.
 </div>
-
 <div class="section-header">Professional Experience</div>
-
 <div class="job">
-  <div class="job-title-row">
-    <div class="job-title">Consultant, Organizational Development &amp; Employee Engagement</div>
-    <div class="job-location">Remote, USA</div>
-  </div>
-  <div class="job-company-row">
-    <div class="job-company">Organization Development Network (ODN) Oregon</div>
-    <div class="job-dates">August 2025&ndash;Present</div>
-  </div>
-  <ul>
-    <li>Upskill HR team in data analytics to audit 300+ leave cases, refuting cost assumptions via evidence-based insights</li>
-    <li>Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training</li>
-  </ul>
+<div class="job-title-row">
+<div class="job-title">Consultant, Organizational Development &amp; Employee Engagement</div>
+<div class="job-location">Remote, USA</div>
 </div>
-
+<div class="job-company-row">
+<div class="job-company">Organization Development Network (ODN) Oregon</div>
+<div class="job-dates">August 2025–Present</div>
+</div>
+<ul>
+<li class="changed" data-jd="jd-discovery" data-original="[not in base template — added for Bio-Techne]">• Facilitate <span class="kw" data-kwg="data">CEO/HR discovery</span> and stakeholder interviews to diagnose absenteeism drivers; <span class="kw" data-kwg="data">analyze leave data</span> to quantify costs</li>
+<li>• Upskill HR team in <span class="kw" data-kwg="data">data analytics</span> to <span class="kw" data-kwg="data">conduct data audits</span> on 300+ leave cases, refuting cost assumptions via evidence-based insights</li>
+<li>• Empower HR to present executive-ready insights on $362K in leave costs, leading to <span class="kw" data-kwg="coord">policy redesigns</span> and first aid training</li>
+</ul>
+</div>
 <div class="job">
-  <div class="job-title-row">
-    <div class="job-title">Program Enablement Manager</div>
-    <div class="job-location">Remote, USA</div>
-  </div>
-  <div class="job-company-row">
-    <div class="job-company">InGenius Prep, LLC</div>
-    <div class="job-dates">September 2023&ndash;Present</div>
-  </div>
-  <ul>
-    <li>Conduct needs assessments with 25+ global stakeholders to identify learning gaps and design 3 new educational programs</li>
-    <li>Develop guides and workflows for 70+ cross-functional staff, improving program knowledge and reducing onboarding time by 75%</li>
-    <li>Facilitate training webinars for 600+ participants, enhancing program understanding and driving a 78% client conversion rate</li>
-    <li>Collaborate with 4 teams and 8 vendors to launch 15+ educational programs; drive continuous improvement via feedback analysis</li>
-  </ul>
+<div class="job-title-row">
+<div class="job-title">Program Enablement Manager</div>
+<div class="job-location">Remote, USA</div>
 </div>
-
+<div class="job-company-row">
+<div class="job-company">InGenius Prep, LLC</div>
+<div class="job-dates">September 2023–Present</div>
+</div>
+<ul>
+<li>• Serve as <span class="kw" data-kwg="ex">first point of contact</span> for 20+ programs and 10+ vendors, optimizing operations and product strategy via feedback analysis</li>
+<li class="changed" data-jd="jd-sop" data-original="Optimize cross-functional processes for 70+ staff, creating comprehensive documentation that reduced onboarding time by 75%">• Develop <span class="keyword" data-original="cross-functional processes">guides, workflows, and SOPs</span> for 70+ cross-functional staff, improving program knowledge and reducing <span class="kw" data-kwg="coord">onboarding time by 75%</span></li>
+<li>• Conduct <span class="kw" data-kwg="coord">needs assessments</span> with 25+ global stakeholders, resulting in 3+ new learning programs best aligned with students’ needs</li>
+<li>• Facilitate <span class="kw" data-kwg="prog">training webinars</span> for 600+ participants, boosting product understanding and achieving a 78% client conversion rate</li>
+</ul>
+</div>
 <div class="job">
-  <div class="job-title-row">
-    <div class="job-title">Organizational Development Intern <a class="work-sample" href="https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing" target="_blank">(Work Sample)</a></div>
-    <div class="job-location">Los Angeles, CA</div>
-  </div>
-  <div class="job-company-row">
-    <div class="job-company">NextGen Healthcare</div>
-    <div class="job-dates">January 2023&ndash;May 2023</div>
-  </div>
-  <ul>
-    <li>Led a manager effectiveness initiative, transforming feedback data into actionable reports that informed L&amp;D strategies</li>
-    <li>Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on L&amp;D priorities</li>
-    <li>Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review</li>
-    <li>Elevated employee experience through L&amp;D projects focused on engagement, rewards &amp; recognition, and survey development</li>
-  </ul>
+<div class="job-title-row">
+<div class="job-title">Organizational Development Intern <a class="work-sample" href="https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing" target="_blank">(Work Sample)</a></div>
+<div class="job-location">Los Angeles, CA</div>
 </div>
-
+<div class="job-company-row">
+<div class="job-company">NextGen Healthcare</div>
+<div class="job-dates">January 2023–May 2023</div>
+</div>
+<ul>
+<li>• Led a manager effectiveness initiative, transforming feedback data into actionable reports that informed engagement strategies</li>
+<li>• Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on satisfaction drivers</li>
+<li>• Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review</li>
+<li>• Improved employee experience via 5 cross-functional projects focusing on survey development, rewards &amp; recognition, and L&amp;D</li>
+</ul>
+</div>
 <div class="job">
-  <div class="job-title-row">
-    <div class="job-title">HR Business Partner Assistant <a class="work-sample" href="https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing" target="_blank">(Work Sample)</a></div>
-    <div class="job-location">Taipei, Taiwan</div>
-  </div>
-  <div class="job-company-row">
-    <div class="job-company">Vestas Wind Systems</div>
-    <div class="job-dates">February 2022&ndash;October 2022</div>
-  </div>
-  <ul>
-    <li>Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations</li>
-    <li>Facilitated organizational change by coordinating a Mergers &amp; Acquisitions project and overseeing cross-functional stakeholders</li>
-    <li>Optimized onboarding across 3 global locations by coordinating process analysis and clarifying job responsibilities</li>
-    <li>Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors</li>
-  </ul>
+<div class="job-title-row">
+<div class="job-title">HR Business Partner Assistant <a class="work-sample" href="https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing" target="_blank">(Work Sample)</a></div>
+<div class="job-location">Taipei, Taiwan</div>
 </div>
-
+<div class="job-company-row">
+<div class="job-company">Vestas Wind Systems</div>
+<div class="job-dates">February 2022–October 2022</div>
+</div>
+<ul>
+<li>• Supported HRBP team by piloting an Inclusive Leadership workshop for senior leaders, later scaled to 23 global locations</li>
+<li class="changed" data-jd="jd-records" data-original="Facilitated organizational change by coordinating a Mergers &amp; Acquisitions project and overseeing cross-functional stakeholders">• Facilitated <span class="keyword" data-original="organizational change">change management</span> through a Mergers &amp; Acquisitions project, <span class="keyword" data-original="overseeing cross-functional stakeholders">migrating and merging employee records</span> across systems</li>
+<li class="changed" data-jd="jd-onboard" data-original="Optimized onboarding across 3 global locations by coordinating process analysis and clarifying job responsibilities">• Streamlined <span class="kw" data-kwg="coord">onboarding processes</span> across 3 global locations by conducting <span class="keyword" data-original="process analysis">gap analyses</span> and clarifying job responsibilities</li>
+<li class="changed" data-jd="jd-er" data-original="Delivered strategic HR solutions for business priorities across employee relations, headcount, and succession planning projects">• Assisted in <span class="kw" data-kwg="ex">employee relations cases</span> and <span class="kw" data-kwg="coord">HR compliance activities</span>, ensuring alignment with local labor laws and confidentiality</li>
+</ul>
+</div>
 <div class="job">
-  <div class="job-title-row">
-    <div class="job-title">Human Resources Intern</div>
-    <div class="job-location">Taipei, Taiwan</div>
-  </div>
-  <div class="job-company-row">
-    <div class="job-company">Kronos Research</div>
-    <div class="job-dates">January 2021&ndash;August 2021</div>
-  </div>
-  <ul>
-    <li>Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management</li>
-    <li>Filled an international role by drafting job descriptions, posting openings, and researching global compensation details</li>
-    <li>Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months</li>
-    <li>Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants</li>
-  </ul>
+<div class="job-title-row">
+<div class="job-title">Human Resources Intern</div>
+<div class="job-location">Taipei, Taiwan</div>
 </div>
-
+<div class="job-company-row">
+<div class="job-company">Kronos Research</div>
+<div class="job-dates">January 2021–August 2021</div>
+</div>
+<ul>
+<li>• Developed proficiency across various <span class="kw" data-kwg="coord">HR functions</span>, ranging from recruitment and compensation to performance management</li>
+<li>• Engaged global talent via personalized communication and <span class="kw" data-kwg="ex">customer service</span>, increasing applications by 566% in 2 months</li>
+<li>• Drafted job descriptions and researched global compensation benchmarks, supporting <span class="kw" data-kwg="coord">data-driven HR operations</span> decisions</li>
+<li>• Standardized interview workflows and recruiting templates, improving <span class="kw" data-kwg="coord">process consistency</span> and documentation across HR functions</li>
+</ul>
+</div>
 <div class="section-header">Education</div>
 <div class="edu">
-  <div class="edu-row"><div class="edu-school">University of Southern California</div><div class="edu-location">Los Angeles, CA</div></div>
-  <div class="edu-row"><div class="edu-degree">MS in Applied Organizational Psychology (GPA: 3.95)</div><div class="edu-dates">August 2022&ndash;May 2023</div></div>
-  <ul><li>Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics &amp; Leadership, Consumer Psychology</li></ul>
+<div class="edu-row"><div class="edu-school">University of Southern California</div><div class="edu-location">Los Angeles, CA</div></div>
+<div class="edu-row"><div class="edu-degree">MS in Applied Organizational Psychology (GPA: 3.95)</div><div class="edu-dates">August 2022–May 2023</div></div>
+<ul><li>• Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics &amp; Leadership, Consumer Psychology</li></ul>
 </div>
 <div class="edu">
-  <div class="edu-row"><div class="edu-school">Wesleyan University</div><div class="edu-location">Middletown, CT</div></div>
-  <div class="edu-row"><div class="edu-degree">BA in Psychology and Education Studies (GPA: 4.00)</div><div class="edu-dates">August 2017&ndash;December 2021</div></div>
+<div class="edu-row"><div class="edu-school">Wesleyan University</div><div class="edu-location">Middletown, CT</div></div>
+<div class="edu-row"><div class="edu-degree">BA in Psychology and Education Studies (GPA: 4.00)</div><div class="edu-dates">August 2017–December 2021</div></div>
 </div>
-
 <div class="section-header">Projects &amp; Awards</div>
 <ul class="simple-list">
-  <li><b>Consulting Projects:</b> Enhanced <b>Elanco Animal Health</b> employer branding &amp; talent attraction strategy via survey design/execution</li>
-  <li><b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-methods</li>
-  <li><b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition scholarship), Tuck Bridge Scholarship (Full Scholarship)</li>
+<li>• <b>Consulting Projects:</b> Enhanced <b>Elanco Animal Health</b> employer branding &amp; talent attraction strategy via survey design/execution</li>
+<li>• <b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-methods</li>
+<li>• <b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition scholarship), Tuck Bridge Scholarship (Full Scholarship)</li>
 </ul>
-
 <div class="section-header">Skills</div>
 <ul class="simple-list">
-  <li><b>Technical Skills:</b> HRIS &middot; LMS (Canvas, Moodle) &middot; Articulate/Instructional Design Tools &middot; MS Office &middot; Data Analysis (SPSS, Excel)</li>
-  <li><b>Languages:</b> English (fluent) &middot; Mandarin Chinese (native) &middot; Spanish (basic)</li>
-  <li><b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)</li>
+<li>• <b>Technical Skills:</b> HRIS (Rippling, ADP, SAP) · ATS (Greenhouse) · MS Office (Word, Excel, PPT) · Data Analysis (SPSS, Excel) · Google Workspace</li>
+<li>• <b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)</li>
+<li>• <b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)</li>
 </ul>
-
 <div class="page-guide"></div>
 </div><!-- .resume-page -->
 </div><!-- .resume-panel -->
-
 <!-- ──── SVG LINES ──── -->
-<svg id="connections" class="connection-svg"></svg>
-
+<svg class="connection-svg" id="connections"></svg>
 <!-- ──── RIGHT: JD PANEL ──── -->
 <div class="jd-panel" id="jd-panel">
-  <div class="jd-header">
-    <h3>Job Description</h3>
-    <div class="jd-meta">[Company] — [Job Title] &middot; [Location] &middot; [Salary]</div>
-  </div>
-
-  <div class="kw-legend">
-    <span class="leg-data">Data/Analysis</span>
-    <span class="leg-coord">Coordinate/Ops</span>
-    <span class="leg-cross">Cross-functional</span>
-    <span class="leg-ex">People/EX</span>
-    <span class="leg-tools">Tools</span>
-    <span class="leg-prog">Programs</span>
-  </div>
-
-  <div class="jd-content">
-    <p style="color:#666;font-style:italic">Paste job description here during tailoring. Add <code>jd-kw</code> spans for keyword highlighting and <code>jd-hl</code> marks for change connections.</p>
-  </div>
+<div class="jd-header">
+<h3>Job Description</h3>
+<div class="jd-meta">Bio-Techne — HR Specialist · Minneapolis, MN (on-site) · $55,600–$91,450</div>
 </div>
-
+<div class="kw-legend">
+<span class="leg-data">Data/Analysis</span>
+<span class="leg-coord">Coordinate/Ops</span>
+<span class="leg-cross">Cross-functional</span>
+<span class="leg-ex">People/EX</span>
+<span class="leg-tools">Tools</span>
+<span class="leg-prog">Programs</span>
+</div>
+<div class="jd-content">
+<div class="jd-section-title">Role Overview</div>
+<p>Proactive, detail-oriented HR Specialist joining Bio-Techne’s global People Team. Supports core HR operations, <span class="jd-kw" data-kwg="coord">employee lifecycle processes</span>, and cross-functional initiatives that enhance efficiency, compliance, and <span class="jd-kw" data-kwg="ex">employee experience</span>.</p>
+<div class="jd-section-title">Key Responsibilities</div>
+<ul>
+<li id="jd-onboard"><span class="jd-hl jd-swap">Deliver seamless onboarding, offboarding and core HR operations processes</span></li>
+<jd-reason>→ Vestas onboarding bullet swapped to emphasize "streamlined" and "gap analyses"</jd-reason>
+<li id="jd-records"><span class="jd-hl jd-swap">Audit and update employee information to maintain alignment with company standards &amp; compliance</span></li>
+<jd-reason>→ Vestas M&amp;A bullet reframed to show "migrating and merging employee records"</jd-reason>
+<li id="jd-discovery"><span class="jd-hl jd-swap">Serve as first point of contact for employees — day-to-day questions, system navigation, policy inquiries</span></li>
+<jd-reason>→ Added Transition Projects stakeholder discovery bullet to show this skill</jd-reason>
+<li id="jd-sop"><span class="jd-hl jd-swap">Create, enhance, and standardize forms and SOPs in alignment with HR governance</span></li>
+<jd-reason>→ InGenius bullet 2 swapped from "processes/documentation" to "guides, workflows, and SOPs"</jd-reason>
+<li><span class="jd-kw" data-kwg="data">Conduct data audits, assist with system updates, maintain data integrity</span></li>
+<li>Identify opportunities to streamline HR processes; propose solutions and support implementation</li>
+<li id="jd-er"><span class="jd-hl jd-swap">Collaborate with internal partners on HR programs, <span class="jd-kw" data-kwg="coord">compliance</span> activities and change management</span></li>
+<jd-reason>→ Vestas bullet 4 swapped to ER/compliance framing</jd-reason>
+</ul>
+<div class="jd-section-title">Qualifications</div>
+<ul>
+<li>Bachelor’s in HR, Business Admin, Psychology (or equivalent) ✅</li>
+<li>1–2 years HR experience preferred ✅ (~3 yrs total)</li>
+<li><span class="jd-kw" data-kwg="tools">HR systems (e.g., Workday)</span> — ⚠️ Jamie has Greenhouse/Rippling/ADP, not Workday</li>
+<li><span class="jd-kw" data-kwg="tools">Smartsheet, Microsoft Excel</span> — ⚠️ Has Excel (advanced); no Smartsheet (has Airtable/Asana)</li>
+</ul>
+<div class="jd-section-title">⚠️ Flags</div>
+<ul>
+<li>Location: Minneapolis, MN (on-site) — Jamie is Portland, OR</li>
+<li>H1B status: Bio-Techne unknown — not in verified cache</li>
+<li>Role is primarily HR Ops (★☆☆) — applying as a stretch</li>
+</ul>
+</div>
+</div>
 </div><!-- .split-layout -->
-
 <!-- ══════════ JAVASCRIPT ══════════ -->
 <script>
 (function() {
@@ -715,6 +729,5 @@
   loadSavedEdits();
 })();
 </script>
-
 </body>
 </html>

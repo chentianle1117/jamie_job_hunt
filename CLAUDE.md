@@ -65,6 +65,31 @@ Only load full files when the task specifically requires them (see table).
 - The goal is: hit the key IDEAS the JD is looking for, not copy its exact phrases
 - When in doubt, keep Jamie's original wording — it's already strong
 
+### Resume file naming convention (permanent):
+All tailored resume files must follow this format:
+`{Company}_{Jamie (Yi-Chieh) Cheng}_{Role-Title}_{YYYY-MM-DD}.html` and `.pdf`
+Example: `BCG_Jamie (Yi-Chieh) Cheng_Career-Dev-Specialist_2026-03-30.html`
+This applies to every new resume created — both the HTML working file and the exported PDF.
+
+### Job location rules (permanent — apply to ALL resumes):
+- **Header location:** Always use `Portland, OR (Open to Remote or Relocation)` as Jamie's personal location in the resume header
+- **ODN Oregon location:** Always `Remote, USA` — do NOT change to a company city (e.g. Salt Lake City)
+- **InGenius Prep location:** Always `Remote, USA` — do NOT change to a company city
+- **Never infer job location from the employer's HQ** — only use the location Jamie actually worked from
+
+### Resume spacing & formatting rules (permanent — apply to ALL resumes):
+- **Word spacing:** In the print CSS, always include `padding: 0 !important` on `.kw, .jd-kw` so keyword highlight spans don't create uneven word gaps in the PDF
+- **Section headers — single border:** Use `border-bottom: 1px solid #000` only — NO `border-top`. Remove any existing `border-top` from `.section-header`
+- **Section header margin:** `margin: 6pt 0 3pt 0` as baseline; increase if content is short and page has bottom gap
+- **Job spacing:** Use `.job { margin-bottom: 7pt; }` as baseline; adjust up if page has bottom gap
+- **Font sizes:** body `9.5pt`, bullet `li` elements `9.2pt`, summary `9pt` — these are the readable standard. Do not go below `9.2pt` body without explicit instruction
+- **Page margins:** `0.35in 0.45in 0.35in 0.45in` (top right bottom left) — tighter than default to give font more room
+- **Vertical centering:** After export, measure actual top and bottom blank using pixel scan (content start y / dpi = top blank; (h - content end y) / dpi = bottom blank). Adjust top margin until top blank ≈ bottom blank. Formula: new_top_margin = (top_blank + bottom_blank) / 2. Bottom margin stays at 0.35in.
+- **Top/bottom balance:** After exporting, visually verify the blank space at the bottom is roughly equal to the top margin. If bottom-heavy, increase top margin (not job margins) to shift content down toward center
+- **Bullet point check:** After export, render a PNG preview and confirm no bullet wraps to a second line
+- **Bullet characters:** Always add literal `•` text nodes to `<li>` elements (via BeautifulSoup) and set `list-style: none` so bullets copy-paste correctly from the PDF
+- **One page rule:** Resume must always fit on exactly one page — verify page count after every PDF export
+
 ## Available Skills
 
 Jamie can trigger these individually or let them chain:
@@ -141,7 +166,7 @@ be really good at HR recruiting.
 > All skills must minimize token consumption automatically — no extra user effort.
 
 ### Core Rules
-1. **Gemini reads full files; Claude reads compact:** When Gemini Pro is doing the reading/generation, pipe full files (`preferences.md`, `content_library.md`, `h1b_verified.md`) — Gemini has 1M context and is free. Claude should still use `profile_compact.md` for its own quick judgments (go/pass decisions, scoring) to avoid loading 500+ lines into Claude's context.
+1. **Compact first:** Always read `jamie/profile_compact.md` before full files. Only escalate to `preferences.md` / `h1b_verified.md` / `content_library.md` when the specific task demands it.
 2. **Sub-agents = Haiku by default:** Any spawned agent doing data retrieval, Notion CRUD, scoring, verification, or file lookup MUST use `model: "haiku"`. Only use Sonnet for drafting (outreach, cover letters) or fit judgment.
 3. **Don't auto-generate expensive content:** Cover letters, contact research, and Chrome browsing are expensive. Ask Jamie before doing them — don't auto-run.
 4. **Suggest `/clear` between jobs:** After completing an evaluation or pipeline run, remind Jamie to `/clear` before starting a new job. Stale context = wasted tokens on every message.

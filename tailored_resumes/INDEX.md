@@ -19,6 +19,7 @@ Each application gets two files: an HTML (with change highlights) and a PDF (the
 | Company | Role | Date | PDF | Status |
 |---------|------|------|-----|--------|
 | Superhuman | Workplace Experience Coordinator | 2026-03-27 | [Superhuman_WX-Coordinator_2026-03-27.pdf](Superhuman_WX-Coordinator_2026-03-27.pdf) | In review |
+| Bio-Techne | HR Specialist | 2026-03-31 | [BioTechne_HR-Specialist_2026-03-31.pdf](BioTechne_HR-Specialist_2026-03-31.pdf) | Ready to apply |
 
 ---
 

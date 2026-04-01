@@ -11,146 +11,107 @@ argument-hint: "<paste job description or URL>"
 
 You are helping Jamie (Yi-Chieh) Cheng evaluate whether a specific job is worth applying to.
 
----
+### Step 1 — Load Context (Token-Efficient)
 
-## 🤖 Gemini-First Architecture (PRIMARY PATH)
+**Default: Read `jamie/profile_compact.md` FIRST** (~60 lines vs ~385 lines).
+This contains all hard constraints, H1B quick reference, fit scoring formula, and self-assessment.
+It is sufficient for Steps 3-5 (hard constraint check, H1B check, fit assessment).
 
-> Claude does NOT read Jamie's profile files directly.
-> Dump all profile files into Gemini Pro's 1M context in one shot.
-> Gemini generates grounded in the actual source — hallucination of experience is structurally prevented.
-> Claude: get the JD → build the prompt → run Gemini → grep-verify → present to Jamie.
+**Only escalate to full files when needed:**
+- Read `jamie/preferences.md` (253 lines) — only if the role is a STRETCH and you need the full
+  self-assessment table, networking templates, or search query context
+- Read `jamie/h1b_verified.md` (132 lines) — only if the company is NOT in profile_compact.md's
+  quick reference (i.e., not in confirmed/cap-exempt/no-sponsor lists)
+- **Live application data** — Use WebFetch to pull Jamie's live Google Sheet:
+  - 2026 tab: `https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E/export?format=csv&gid=1018026840`
+  - 2025 tab: `https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E/export?format=csv&gid=0`
+  - If WebFetch fails, fall back to `jamie/application_tracker.md` (static snapshot)
 
-### Step 1 — Get the Job Description
+> **Why:** Each file read costs tokens. profile_compact.md has everything for a quick
+> go/pass decision at ~1/6 the token cost. Only load full files for GO/STRETCH roles
+> that proceed to tailoring.
+
+### Step 2 — Get the Job Description
 
 If `$ARGUMENTS` contains a URL:
-- **With Chrome:** Navigate and `get_page_text` — required for JS-rendered ATS (Greenhouse, Lever, Ashby, Workday) and LinkedIn (blocks WebFetch). Also verify posting is still live (no "No longer accepting" or 404).
-- **Without Chrome:** WebFetch the URL. If 403/redirect/empty → ask Jamie to paste JD directly.
+- **With Chrome:** Navigate to the URL and use `get_page_text` to read the full JD.
+  This is especially important for JS-rendered ATS pages (Greenhouse, Lever, Ashby, Workday)
+  that WebFetch cannot read. Also check if the posting is still live — look for
+  "No longer accepting applications", 404 pages, or redirect to job board homepage.
+- **Without Chrome:** Use WebFetch to retrieve the page content and extract the JD.
+  If WebFetch returns a 403/redirect/empty page, ask Jamie to paste the JD text directly.
+- If the URL is a LinkedIn job link, Chrome mode is strongly preferred (LinkedIn blocks WebFetch).
 
-If `$ARGUMENTS` contains pasted text: use it directly.
-If neither: ask Jamie to paste the JD or provide a URL.
+If `$ARGUMENTS` contains pasted text:
+- Parse it directly as a job description
 
-### Step 2 — Run Gemini Evaluation (fat-context)
+If neither:
+- Ask Jamie to paste the job description or provide a URL
 
-```bash
-# On Jamie's Mac: repo is at /Users/jamiecheng/jamie_job_hunt/
-# Store JD text in a temp var or file first
-JD_TEXT="<fetched or pasted JD text>"
+### Step 3 — Hard Constraint Check
 
-cat jamie/preferences.md \
-    jamie/h1b_verified.md \
-    jamie/profile_compact.md \
-    jamie/application_tracker.md > /tmp/eval_context.txt
-echo "===== JOB DESCRIPTION =====" >> /tmp/eval_context.txt
-echo "$JD_TEXT" >> /tmp/eval_context.txt
+Run through these in order. If ANY fails, it's an instant **PASS**:
 
-cat /tmp/eval_context.txt | gemini -m gemini-2.5-pro -p "
-You are evaluating a job posting for Jamie (Yi-Chieh) Cheng. All her profile context is above.
-Run these checks in order:
+1. **Already applied?** Check `jamie/application_tracker.md` for this company + similar title
+2. **Visa:** Does the JD say "no sponsorship" or "must be authorized without sponsorship"? → PASS
+3. **Seniority:** Is the title Senior/Director/VP/Principal/C-level? (Exception: "Senior Associate" at consulting firms is OK) → PASS
+4. **Location:** Portland/Remote/Seattle is her preference but she is open to relocation if the role content and fit are genuinely strong. Flag out-of-area roles and note the location, but do NOT auto-reject on location alone. Evaluate on role fit first — if GO on content, note the location as a consideration, not a blocker.
+5. **Hard reject roles:** Pure Sales, Pure SWE, Senior HRBP, Instructional Designer (80%+ content creation), Technical PM requiring PMP
 
-1. HARD GATES (instant PASS if any fail):
-   - JD says 'no sponsorship' or 'must be authorized without sponsorship' → PASS
-   - Title is Senior/Director/VP/Principal/C-level (exception: 'Senior Associate' at consulting) → PASS
-   - Pure Sales, Pure SWE, Instructional Designer (80%+ content creation), Technical PM w/ PMP req → PASS
-   - Already applied — check application_tracker section above for this company + similar title → PASS
+### Step 4 — H1B Sponsorship Check
 
-2. H1B STATUS: check h1b_verified section above. If not found:
-   - University/nonprofit hospital/FQHC/nonprofit research org → Cap-Exempt 🏛️
-   - Big 4 / major consulting firm → Confirmed ✅
-   - Otherwise → Unknown ⚠️ (needs verification)
+1. Check `jamie/h1b_verified.md` for the company
+2. If not found, determine:
+   - Is it a **cap-exempt** employer? (university, nonprofit hospital, FQHC, nonprofit research org) → GOOD
+   - Is it a **Big 4 / major consulting firm**? → CONFIRMED
+   - Otherwise: use WebSearch to check `site:h1bdata.info "{company name}"` for LCA filing history
+3. Report: **Confirmed** / **Cap-Exempt** / **Unknown (needs verification)** / **No Sponsorship**
 
-3. FIT ASSESSMENT: map each major JD requirement to Jamie's ACTUAL experience from preferences.md above.
-   Use ONLY experience described in the profile above — do not invent or extrapolate.
-   Remote bar: 80%+ match + additional advantage. Local/Portland/Seattle bar: 60-70%.
-   Identify priority tier: P1 (Program Mgmt), P2 (Engagement/OD), P3 (HR Generalist/HRBP),
-   P4 (Consulting), P5 (Adjacent/stretch)
+### Step 5 — Fit Assessment
 
-4. VERDICT: GO / STRETCH / PASS with honest reasoning.
+Using the self-assessment table in `jamie/preferences.md`:
 
-Output in this EXACT format — no deviations:
+1. List each major JD requirement and map it to Jamie's strength level (3-star, 2-star, 1-star)
+2. Calculate approximate match percentage
+3. Apply the **remote vs. local bar**:
+   - Remote roles need 80%+ match PLUS an additional advantage
+   - Portland/Seattle roles need 60-70% match
+4. Identify which of the 5 role priority categories this falls into (P1-P5)
+
+### Step 6 — Deliver the Verdict
+
+Format your response as:
+
+```
 ## [COMPANY] — [JOB TITLE]
+
 **Recommendation: GO / STRETCH / PASS**
+
 ### Quick Facts
 - Location: [location + arrangement]
 - H1B: [Confirmed ✅ / Cap-Exempt 🏛️ / Unknown ⚠️ / No ❌]
 - Priority: P[1-5] — [category name]
-- Match: ~[X]%
-- Already applied? [Yes / No]
+- Match: ~[X]% of JD requirements
+- Already applied? [Yes — skip / No]
+
 ### Why This Fits (or Doesn't)
-[2-3 sentences — cite specific experience from profile above, no invented metrics]
+[2-3 sentences on alignment with Jamie's experience]
+
 ### Strengths
-- [JD requirement] → [Jamie's specific experience from profile above]
-- [repeat for top 3]
-### Gaps
-- [JD requires X — Jamie has limited/no experience here, based only on profile above]
+- [bullet matching JD req → Jamie's specific experience]
+- [bullet matching JD req → Jamie's specific experience]
+
+### Gaps to Be Aware Of
+- [bullet: JD requires X — Jamie has limited experience here]
+
 ### If She Applies
-- Resume emphasis: [variant type from content_library]
-- Outreach angle: [alumni? hiring manager? specific angle]
-"
-GEMINI_EXIT=$?
+- Best resume variant emphasis: [L&D ops / Program Mgmt / OD / Engagement / etc.]
+- Key bullets to feature from content_library.md: [brief pointer]
+- Outreach angle: [alumni connection? hiring manager on LinkedIn?]
 ```
 
-### Step 3 — Grep Grounding Check (mandatory, near-zero tokens)
-
-Before presenting to Jamie, verify every specific claim in Strengths against source files:
-
-```bash
-# Verify any cited metric or experience snippet exists in profile files
-# Examples:
-grep -i "vendor" jamie/preferences.md jamie/profile_compact.md        # "managed vendor relationships"
-grep -i "600" jamie/preferences.md jamie/profile_compact.md           # "600+ employees"
-grep -i "onboarding" jamie/preferences.md jamie/profile_compact.md    # onboarding program claim
-grep -i "COMPANY_NAME" jamie/h1b_verified.md jamie/profile_compact.md # H1B status check
-
-# Cliché check on the full output
-echo "$GEMINI_OUTPUT" | grep -iE "spearhead|leverage|synerg|drove strategic|cross-functional impact|thrilled|passionate about"
-# Any match → remove that phrase before presenting
-```
-
-**If grep finds no match for a claimed fact:**
-→ Remove the claim from Strengths
-→ Re-prompt Gemini once: *"Recheck Strengths — cite only experience explicitly in the profile section above. Remove any metric not found there."*
-→ If second attempt fails or Gemini is down → Claude native fallback below
-
-### Step 4 — Present to Jamie
-
-Output the verified evaluation. Add at the bottom:
-
-```
----
-💡 Next steps:
-  /tailor — tailor resume for this role
-  /outreach — find contacts + draft messages
-  /clear — start fresh before next evaluation
-```
-
----
-
-## ⚠️ Fallback: Claude Native (when Gemini unavailable)
-
-```bash
-# Gemini unavailable if: exit code != 0, rate limit, CLI not found
-if [ $GEMINI_EXIT -ne 0 ]; then
-  echo "⚠️ Gemini unavailable — evaluating natively"
-fi
-```
-
-**Claude reads directly:**
-1. `jamie/profile_compact.md` — hard constraints, H1B quick reference, fit scoring (~60 lines, sufficient for go/pass)
-2. `jamie/preferences.md` — only if STRETCH and need full self-assessment table
-3. `jamie/h1b_verified.md` — only if company not in profile_compact.md quick reference
-
-**Live application dedup** — WebFetch Jamie's Google Sheet:
-- 2026: `https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E/export?format=csv&gid=1018026840`
-- 2025: `https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E/export?format=csv&gid=0`
-- If WebFetch fails: `jamie/application_tracker.md`
-
-**Then run hard constraint check, H1B check, fit assessment, and deliver verdict in the same output format above.**
-
----
-
-## Important Notes (apply in both paths)
+### Important Notes
 - Be honest about gaps. Jamie's preferences.md says: "When there's a gap, say it directly."
-- Don't inflate match % — use the self-assessment table as ground truth
-- STRETCH: explain what makes it worth applying anyway (networking, dream company, cap-exempt)
-- PASS: be clear and brief — don't soften with "but maybe if..."
-- Location is NOT an auto-reject — flag it, evaluate role fit first
+- Don't inflate match percentage — use the self-assessment table as ground truth
+- If it's a STRETCH, explain what would make it worth applying anyway (networking opportunity, dream company, cap-exempt, etc.)
+- If it's a PASS, be clear and brief — don't soften it with "but maybe if..."

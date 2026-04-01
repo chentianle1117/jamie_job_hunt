@@ -9,59 +9,11 @@ description: >
   People Program Management, HR Specialist, Employee Engagement/Experience, OD/OCM,
   and entry-level Consulting roles, auditing the Notion database, enriching entries with
   cover letters and networking connections, and preparing email delivery.
-version: 3.5.0
+version: 3.4.1
 ---
 
 > Daily HR/L&D/OD/Consulting job search for Jamie (Yi-Chieh) Cheng.
 > Run this skill when asked: "Run oracle", "Find jobs for Jamie", or "Run the job search pipeline"
-
----
-
-## 🤖 GEMINI CLI INTEGRATION (Token Budget — READ FIRST)
-
-> **Core rule: Gemini reads, scans, and generates. Claude decides, verifies, and writes.**
-> Gemini CLI is free (Google One AI Pro, 1M context), authenticated as davchen1117@gmail.com.
-> Offload all large-text reads and prose generation to Gemini to conserve Claude tokens.
-
-### Division of labor
-
-| Task | Who does it | Command pattern |
-|------|-------------|-----------------|
-| Read & parse `ats_jobs.json` / `jobspy_results.json` | **Gemini Pro** | `cat file.json \| gemini -m gemini-2.5-pro -p "..."` |
-| Filter/score discovery candidates against hard constraints | **Gemini Pro** | `cat listings.txt \| gemini -m gemini-2.5-pro -p "..."` |
-| Read full JD text after WebFetch | **Gemini Pro** | `echo "$JD_TEXT" \| gemini -m gemini-2.5-pro -p "..."` |
-| Draft Notion page content (why fit, gaps, tailoring, outreach) | **Gemini Pro** | `cat profile_compact.md jd.txt \| gemini -m gemini-2.5-pro -p "..."` |
-| Draft email_body.txt | **Gemini Pro** | `cat profile_compact.md picks.txt \| gemini -m gemini-2.5-pro -p "..."` |
-| Draft telegram_msg.txt | **Gemini Pro** | `echo "$PICKS_SUMMARY" \| gemini -m gemini-2.5-pro -p "..."` |
-| All MCP calls (Notion, Gmail, Slack) | **Claude only** | Gemini has zero MCP support |
-| Fit judgment, go/stretch/pass decisions | **Claude only** | Requires Jamie's full context + judgment |
-| All file writes to disk | **Claude only** | Write tool |
-| H1B verification decisions | **Claude only** | Judgment call, not pattern matching |
-
-### Syntax quick reference
-
-```bash
-# Pipe pre-fetched job data to Gemini for filtering
-cat "C:\Windows\Temp\ats_jobs.json" | gemini -m gemini-2.5-pro -p "Filter these jobs: keep only roles matching People/HR/OD/L&D scope, <5 yrs experience required, US-based or remote. Return job title, company, URL, and reason kept. Reject silently."
-
-# Pipe pasted listings text for initial scoring
-echo "$PASTED_LISTINGS" | gemini -m gemini-2.5-pro -p "Apply these hard reject rules: [paste rules]. Return: KEEP or REJECT | title | company | reason. One line per job."
-
-# Pipe a JD + profile to draft Notion enrichment content
-cat profile_compact.md jd_raw.txt | gemini -m gemini-2.5-pro -p "Draft Oracle enrichment: Why Fit (3 bullets), Gaps (2 bullets), Resume Tailoring (3 bullet swaps), H1B note. Use Jamie's experience only — no invention. Return structured sections."
-
-# Draft full email body
-cat picks_summary.txt bible_verse.txt | gemini -m gemini-2.5-pro -p "Draft the Oracle daily digest email to Jamie. Follow this structure: [paste email template]. Return plain text only, no markdown."
-```
-
-### Where each step uses Gemini (see inline 🤖 markers throughout)
-
-- **Step 0.5** — pipe `ats_jobs.json` and `jobspy_results.json` through Gemini Flash for pre-filtering
-- **Step 2** — pipe pasted listings or discovery text through Gemini Flash for hard-gate filtering
-- **Step 3f** — pipe fetched JD text through Gemini Flash for structured data extraction
-- **Step 6** — pipe JD + profile to Gemini Pro to draft all Notion page prose sections
-- **Step 8** — pipe picks summary to Gemini Pro to draft `email_body.txt`
-- **Step 9** — pipe picks summary to Gemini Flash to draft `telegram_msg.txt`
 
 ---
 
@@ -108,12 +60,6 @@ python pipeline/scripts/fetch_ats_jobs.py
 - These jobs are **already live** (API returns only active postings) — skip Chrome verification for them
 - **Verified ATS slugs (14 companies):** Stripe, Figma, Discord, Roblox, Airbnb, Duolingo, HubSpot, Cloudflare, Datadog, Twilio, Block, Epic Games, Riot Games, Spotify
 
-> 🤖 **GEMINI — pipe output for pre-filtering:**
-> ```bash
-> cat "C:\Windows\Temp\ats_jobs.json" | gemini -m gemini-2.5-pro -p "Filter these jobs for Jamie Cheng. Keep: People/HR/OD/L&D/Consulting scope, <5 yrs experience required, H1B-eligible company. Reject: Senior/Director/VP, pure TA/recruiting, instructional design. Return one line per kept job: TITLE | COMPANY | URL | WHY KEPT"
-> ```
-> Claude reads Gemini's filtered output — do NOT read the raw JSON yourself.
-
 ### 0.5b. JobSpy Scraper (optional — deeper LinkedIn/Indeed coverage)
 
 ```bash
@@ -126,11 +72,6 @@ python pipeline/scripts/jobspy_search.py
 - Runs 6 US search configs + 2 NL configs (with `--include-nl` flag)
 - **Output:** `C:\Windows\Temp\jobspy_results.json` + `.csv`
 - **Install once:** `pip install -r pipeline/scripts/requirements.txt`
-
-> 🤖 **GEMINI — pipe JobSpy output for filtering (same pattern as ATS):**
-> ```bash
-> cat "C:\Windows\Temp\jobspy_results.json" | gemini -m gemini-2.5-pro -p "Filter these scraped job listings for an HR/People/OD professional with ~3 yrs experience needing H1B sponsorship. Hard reject: Senior/VP/Director titles, 5+ yrs required, pure TA/recruiting. Return: TITLE | COMPANY | URL | LOCATION | KEEP/REJECT | REASON"
-> ```
 
 ### 0.5c. Email Alerts Check (Gmail MCP)
 
@@ -200,26 +141,6 @@ For each alert email:
 > ⚠️ **LinkedIn "Jobs for You" ≠ LinkedIn search results.** Do NOT use the LinkedIn search bar.
 > The `/jobs/collections/recommended/` URL is the algorithm-curated feed — it surfaces roles
 > specifically matched to Jamie's profile. The search bar returns generic keyword results.
-
-### 🚀 MANUAL PASTE MODE (Token-Efficient — Preferred)
-
-> **Use this when David has Chrome open himself.** Instead of Claude navigating LinkedIn
-> (expensive: ~5K tokens per page load), David scrolls LinkedIn "Top Job Picks" himself
-> and pastes the visible listing text directly into the chat.
-
-**How to use:**
-1. Open https://www.linkedin.com/jobs/collections/recommended/ in your browser
-2. Scroll through the left panel — copy-paste ALL visible listing text into the chat
-   (title, company, location, badges — just select-all and paste, raw text is fine)
-3. Say: "Here are today's listings — run the pipeline"
-
-**What Claude does in manual paste mode:**
-- Skips ALL Chrome navigation (Steps 0.5d, Chrome verification for pasted jobs)
-- Reads the pasted text as the discovery pool
-- Still uses WebFetch for individual job URL verification (much cheaper than Chrome)
-- Proceeds directly to scoring (Step 3)
-
-> ⚡ **Token savings:** ~15-25K tokens per run. Recommended as default when David is at his desk.
 
 ### How Pre-Fetch & LinkedIn integrate with Step 2
 
@@ -680,14 +601,6 @@ Step 3: Check content for status signals
 **1e. Summary of deactivated entries** — At the end of the audit, note how many entries were marked as "Pass 👋" and the reasons, so Jamie knows what changed. Include this count in the email digest.
 
 ### Step 2 — Discovery (cast wide, filter strict)
-
-> 🤖 **GEMINI — use for initial hard-gate filtering of all pasted/collected listings:**
-> When David pastes raw job listings text (Manual Paste Mode) or after any discovery batch,
-> pipe to Gemini Flash BEFORE reading them yourself:
-> ```bash
-> echo "PASTE_RAW_LISTINGS_HERE" | gemini -m gemini-2.5-pro -p "Apply these hard reject rules to each listing: (1) title contains Senior/VP/Director/Lead/Manager with 5+ yrs → REJECT, (2) pure recruiting/TA coordinator → REJECT, (3) instructional design → REJECT, (4) no remote + not Portland/Seattle → REJECT. For each job: KEEP or REJECT | TITLE | COMPANY | LOCATION | REASON. Be terse."
-> ```
-> Claude then reads only the KEEP list — skip REJECT entries entirely.
 
 > **Search philosophy: scan up to ~1000 listings across all sources, surface ~20–40 candidates for closer review, pick at most 3.**
 > The search effort is deliberately large. The filter is deliberately strict.
@@ -1489,13 +1402,6 @@ WebFetch verification already gives partial data. Fill in any missing fields:
 - Confirm exact posting date from the page (not Google/search results)
 - Note any sponsorship language explicitly stated
 
-> 🤖 **GEMINI — pipe each fetched JD text for structured extraction:**
-> After WebFetch returns a JD page, pipe the raw text to Gemini Flash:
-> ```bash
-> echo "$JD_RAW_TEXT" | gemini -m gemini-2.5-pro -p "Extract from this job description: (1) exact years experience required, (2) eligible states if mentioned, (3) any sponsorship language (exact quote), (4) posting date, (5) salary range if listed, (6) work type (remote/hybrid/onsite), (7) top 5 required qualifications. Return as labeled fields, one per line."
-> ```
-> Claude reads Gemini's extracted fields — do NOT re-read the full JD yourself.
-
 > **Freshness rule:** REJECT if posted > 30 days ago. Prefer < 14 days.
 
 ### Step 4 — Honest Fit Assessment
@@ -1616,17 +1522,6 @@ Store this number in the Notion "Fit Score" property (0-100).
 - 💤 Stale = posted 30+ days ago — only if Fit Score ≥ 80, otherwise skip
 
 ### Step 6 — Add to Notion (honest content)
-
-> 🤖 **GEMINI — draft all Notion prose sections before Claude writes to Notion:**
-> Pipe JD text + Jamie's profile to Gemini Pro to generate the content blocks.
-> Claude then reviews, spot-checks for invented experience, and writes to Notion via MCP.
-> ```bash
-> cat "oracle-job-search/jamie/profile_compact.md" > /tmp/notion_draft_input.txt
-> echo "--- JOB DESCRIPTION ---" >> /tmp/notion_draft_input.txt
-> echo "$JD_TEXT" >> /tmp/notion_draft_input.txt
-> cat /tmp/notion_draft_input.txt | gemini -m gemini-2.5-pro -p "Draft Notion enrichment page for Jamie Cheng applying to this role. Sections needed: (1) Why This Fits Jamie — 3 honest bullets citing her ACTUAL experience, (2) Gaps to Address — 2 honest gaps with mitigation, (3) Resume Tailoring — 3 specific bullet swaps (original → revised with JD keyword, must use only experience she actually has), (4) Outreach — 2 networking contact types to search for with draft LinkedIn messages in Jamie's voice (<300 chars each), (5) H1B Note — what we know and what to verify. Return labeled sections, plain text."
-> ```
-> **Claude's job after Gemini draft:** verify no invented accomplishments → write to Notion MCP.
 
 For each pick (max 3), create a Notion page in DB `442438a9-e372-48b7-b5f5-5f6ed8ee8e99`.
 
@@ -1826,16 +1721,6 @@ Get Chinese + English text from `jamie/bible_verses.md`.
 
 ### Step 8 — Write email_body.txt
 
-> 🤖 **GEMINI — draft the full email body, Claude reviews and writes to disk:**
-> ```bash
-> # Build input file with picks summary + verse + template reference
-> echo "PICKS: $PICKS_SUMMARY" > /tmp/email_input.txt
-> echo "VERSE: $BIBLE_VERSE_TEXT" >> /tmp/email_input.txt
-> echo "NETWORKING: $CONTACTS_SUMMARY" >> /tmp/email_input.txt
-> cat /tmp/email_input.txt | gemini -m gemini-2.5-pro -p "Draft a daily job digest email to Jamie (Yi-Chieh) Cheng from her partner David. Warm, bilingual (Chinese/English headers), starts with bible verse, then job picks with full action details (networking contacts with LinkedIn URLs + draft messages, resume tailoring bullets, apply link). End with cleanup summary and encouragement. Sign off as 最爱你的鼠鼠 🐹❤️. Plain text only, no markdown. See oracle pipeline email format."
-> ```
-> Claude: review draft → confirm no invented experience → write to `email_body.txt` via Write tool → output in chat for David to paste.
-
 > **v3.0: The email is now a SELF-CONTAINED ACTION SHEET.**
 > Jamie should be able to read the email and start networking + applying
 > without needing to open Notion first. Every pick includes full networking
@@ -1973,12 +1858,6 @@ https://www.notion.so/ea7cccd43f7a47a6b93a196241eb8d61
 
 ### Step 9 — Write telegram_msg.txt
 
-> 🤖 **GEMINI — draft Telegram message:**
-> ```bash
-> echo "$PICKS_ONE_LINERS" | gemini -m gemini-2.5-pro -p "Write a short Telegram job digest message for Jamie. Format: emoji header, numbered picks (company - title - location, one-line why, URL), cleanup count, encouragement. Plain text, under 500 chars total."
-> ```
-> Claude writes output to `telegram_msg.txt`.
-
 ```
 🐣 Oracle's Daily Top {N} ({MONTH} {DAY}):
 
@@ -2002,24 +1881,14 @@ https://www.notion.so/ea7cccd43f7a47a6b93a196241eb8d61
 ]
 ```
 
-### Step 11 — Email Draft Delivery
+### Step 11 — Create Gmail Draft
 
-> ⚡ **TOKEN-EFFICIENT METHOD (preferred):** Output the email body as plain text directly
-> in the chat. David copies and pastes it into Gmail manually. Zero Chrome tokens spent.
-> Only use Chrome injection as a fallback if David explicitly asks.
+Use `gmail_create_draft` to jamiecheng0103@gmail.com with subject "🌸✨ 每日工作小汇报 · Daily Job Digest ✨🌸" and body from email_body.txt.
 
-**Standard method:**
-1. Write body to `email_body.txt` (always do this regardless of delivery method)
-2. Output the full email body as a code block in the chat response
-3. Tell David: "Copy the text above → Gmail → New Compose → To: jamiecheng0103@gmail.com → Subject: 🌸✨ 每日工作小汇报 · Daily Job Digest ✨🌸 → Paste body → Save as draft"
-
-**Fallback (Chrome injection — only if David requests):**
-Use `gmail_create_draft` MCP or Chrome JS inject. Do NOT use this by default —
-Chrome navigation for Gmail costs ~5-10K tokens and is fragile (body injection breaks on navigation).
-
-> **URL clickability:** Use plain text only. Gmail auto-links all `https://` URLs.
-> Do NOT use markdown `[text](url)` syntax — Gmail doesn't render it.
-> Put every URL on its own line.
+> **URL clickability:** Use `contentType: "text/plain"` (default). Gmail auto-links all plain-text
+> URLs (https://...) so Jamie can click directly. Do NOT use HTML or markdown link syntax.
+> Every URL in the email (job posting, LinkedIn profiles, Notion link) must be a full
+> `https://` URL on its own line so Gmail renders it as a clickable blue link.
 
 ### Step 12 — Send Telegram (best effort)
 
@@ -2055,8 +1924,7 @@ Run {N} · {Date} · {Day of Week}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 📧 EMAIL
-   Status:  ✅ Body output in chat (copy-paste to Gmail)
-            OR: ✅ Gmail draft created (Draft ID: {id})
+   Status:  ✅ Gmail draft created (Draft ID: {id})
    To:      jamiecheng0103@gmail.com
    Picks:   {N} new picks included
 
