@@ -11,6 +11,50 @@ argument-hint: "<paste job description or URL>"
 
 You are helping Jamie (Yi-Chieh) Cheng evaluate whether a specific job is worth applying to.
 
+---
+
+### ⚡ Gemini Fat-Context Grounding (run BEFORE Steps 1–6)
+
+After you have the JD text in hand (from Step 2), run Gemini to do the heavy fit analysis.
+This offloads the large file reads to Gemini's fat context window and saves Claude tokens.
+
+**How to run:**
+
+```bash
+# Write the JD to a temp file
+echo "$JD_TEXT" > /tmp/jd_current.txt
+
+# Source the wrapper and call it
+source pipeline/gemini_run.sh
+gemini_run \
+  "You are a job fit analyst for Jamie Cheng, an OD/HR professional seeking people roles in Portland OR or remote US, requiring H1B sponsorship.
+
+Analyze the job description against Jamie's profile and return a structured evaluation with these exact sections:
+1. HARD_CONSTRAINTS: list any instant-pass triggers (no sponsorship, senior title, pure sales/SWE, etc.) — or write NONE
+2. H1B_STATUS: Confirmed / Cap-Exempt / Unknown / No-Sponsorship — and brief reason
+3. ROLE_PRIORITY: P1/P2/P3/P4/P5 and category name
+4. MATCH_SCORE: 0-100 integer
+5. STRENGTHS: 3-5 bullets mapping JD requirements to Jamie's experience
+6. GAPS: 2-4 bullets of honest gaps
+7. RESUME_EMPHASIS: which bullet variant set fits best (L&D/PM/OD/Engagement/Vendor)
+8. VERDICT: GO / STRETCH / PASS with one sentence reason
+
+Ground your answer ONLY in the files provided. Do not invent experience Jamie does not have." \
+  /tmp/jd_current.txt \
+  jamie/profile_compact.md \
+  jamie/preferences.md
+```
+
+**Using Gemini's output:**
+- If `$GEMINI_OK` = `"true"`: use `$GEMINI_OUTPUT` as the structured analysis for Steps 3–6.
+  Verify STRENGTHS/GAPS are grounded: run `gemini_verify` on 2-3 key claims against `jamie/profile_compact.md`.
+  If grounding check fails on a claim, drop that claim and note it.
+- If `$GEMINI_OK` = `"false"`: skip Gemini output entirely — run Steps 3–6 natively using Claude's own reads.
+
+**Do NOT show the raw Gemini output to Jamie.** Use it as your working notes to fill in Step 6's verdict format.
+
+---
+
 ### Step 1 — Load Context (Token-Efficient)
 
 **Default: Read `jamie/profile_compact.md` FIRST** (~60 lines vs ~385 lines).
