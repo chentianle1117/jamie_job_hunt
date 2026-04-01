@@ -27,12 +27,12 @@ version: 3.5.0
 
 | Task | Who does it | Command pattern |
 |------|-------------|-----------------|
-| Read & parse `ats_jobs.json` / `jobspy_results.json` | **Gemini Flash** | `cat file.json \| gemini -m gemini-2.5-flash -p "..."` |
-| Filter/score discovery candidates against hard constraints | **Gemini Flash** | `cat listings.txt \| gemini -m gemini-2.5-flash -p "..."` |
-| Read full JD text after WebFetch | **Gemini Flash** | `echo "$JD_TEXT" \| gemini -m gemini-2.5-flash -p "..."` |
+| Read & parse `ats_jobs.json` / `jobspy_results.json` | **Gemini Pro** | `cat file.json \| gemini -m gemini-2.5-pro -p "..."` |
+| Filter/score discovery candidates against hard constraints | **Gemini Pro** | `cat listings.txt \| gemini -m gemini-2.5-pro -p "..."` |
+| Read full JD text after WebFetch | **Gemini Pro** | `echo "$JD_TEXT" \| gemini -m gemini-2.5-pro -p "..."` |
 | Draft Notion page content (why fit, gaps, tailoring, outreach) | **Gemini Pro** | `cat profile_compact.md jd.txt \| gemini -m gemini-2.5-pro -p "..."` |
 | Draft email_body.txt | **Gemini Pro** | `cat profile_compact.md picks.txt \| gemini -m gemini-2.5-pro -p "..."` |
-| Draft telegram_msg.txt | **Gemini Flash** | `echo "$PICKS_SUMMARY" \| gemini -m gemini-2.5-flash -p "..."` |
+| Draft telegram_msg.txt | **Gemini Pro** | `echo "$PICKS_SUMMARY" \| gemini -m gemini-2.5-pro -p "..."` |
 | All MCP calls (Notion, Gmail, Slack) | **Claude only** | Gemini has zero MCP support |
 | Fit judgment, go/stretch/pass decisions | **Claude only** | Requires Jamie's full context + judgment |
 | All file writes to disk | **Claude only** | Write tool |
@@ -42,10 +42,10 @@ version: 3.5.0
 
 ```bash
 # Pipe pre-fetched job data to Gemini for filtering
-cat "C:\Windows\Temp\ats_jobs.json" | gemini -m gemini-2.5-flash -p "Filter these jobs: keep only roles matching People/HR/OD/L&D scope, <5 yrs experience required, US-based or remote. Return job title, company, URL, and reason kept. Reject silently."
+cat "C:\Windows\Temp\ats_jobs.json" | gemini -m gemini-2.5-pro -p "Filter these jobs: keep only roles matching People/HR/OD/L&D scope, <5 yrs experience required, US-based or remote. Return job title, company, URL, and reason kept. Reject silently."
 
 # Pipe pasted listings text for initial scoring
-echo "$PASTED_LISTINGS" | gemini -m gemini-2.5-flash -p "Apply these hard reject rules: [paste rules]. Return: KEEP or REJECT | title | company | reason. One line per job."
+echo "$PASTED_LISTINGS" | gemini -m gemini-2.5-pro -p "Apply these hard reject rules: [paste rules]. Return: KEEP or REJECT | title | company | reason. One line per job."
 
 # Pipe a JD + profile to draft Notion enrichment content
 cat profile_compact.md jd_raw.txt | gemini -m gemini-2.5-pro -p "Draft Oracle enrichment: Why Fit (3 bullets), Gaps (2 bullets), Resume Tailoring (3 bullet swaps), H1B note. Use Jamie's experience only — no invention. Return structured sections."
@@ -110,7 +110,7 @@ python pipeline/scripts/fetch_ats_jobs.py
 
 > 🤖 **GEMINI — pipe output for pre-filtering:**
 > ```bash
-> cat "C:\Windows\Temp\ats_jobs.json" | gemini -m gemini-2.5-flash -p "Filter these jobs for Jamie Cheng. Keep: People/HR/OD/L&D/Consulting scope, <5 yrs experience required, H1B-eligible company. Reject: Senior/Director/VP, pure TA/recruiting, instructional design. Return one line per kept job: TITLE | COMPANY | URL | WHY KEPT"
+> cat "C:\Windows\Temp\ats_jobs.json" | gemini -m gemini-2.5-pro -p "Filter these jobs for Jamie Cheng. Keep: People/HR/OD/L&D/Consulting scope, <5 yrs experience required, H1B-eligible company. Reject: Senior/Director/VP, pure TA/recruiting, instructional design. Return one line per kept job: TITLE | COMPANY | URL | WHY KEPT"
 > ```
 > Claude reads Gemini's filtered output — do NOT read the raw JSON yourself.
 
@@ -129,7 +129,7 @@ python pipeline/scripts/jobspy_search.py
 
 > 🤖 **GEMINI — pipe JobSpy output for filtering (same pattern as ATS):**
 > ```bash
-> cat "C:\Windows\Temp\jobspy_results.json" | gemini -m gemini-2.5-flash -p "Filter these scraped job listings for an HR/People/OD professional with ~3 yrs experience needing H1B sponsorship. Hard reject: Senior/VP/Director titles, 5+ yrs required, pure TA/recruiting. Return: TITLE | COMPANY | URL | LOCATION | KEEP/REJECT | REASON"
+> cat "C:\Windows\Temp\jobspy_results.json" | gemini -m gemini-2.5-pro -p "Filter these scraped job listings for an HR/People/OD professional with ~3 yrs experience needing H1B sponsorship. Hard reject: Senior/VP/Director titles, 5+ yrs required, pure TA/recruiting. Return: TITLE | COMPANY | URL | LOCATION | KEEP/REJECT | REASON"
 > ```
 
 ### 0.5c. Email Alerts Check (Gmail MCP)
@@ -685,7 +685,7 @@ Step 3: Check content for status signals
 > When David pastes raw job listings text (Manual Paste Mode) or after any discovery batch,
 > pipe to Gemini Flash BEFORE reading them yourself:
 > ```bash
-> echo "PASTE_RAW_LISTINGS_HERE" | gemini -m gemini-2.5-flash -p "Apply these hard reject rules to each listing: (1) title contains Senior/VP/Director/Lead/Manager with 5+ yrs → REJECT, (2) pure recruiting/TA coordinator → REJECT, (3) instructional design → REJECT, (4) no remote + not Portland/Seattle → REJECT. For each job: KEEP or REJECT | TITLE | COMPANY | LOCATION | REASON. Be terse."
+> echo "PASTE_RAW_LISTINGS_HERE" | gemini -m gemini-2.5-pro -p "Apply these hard reject rules to each listing: (1) title contains Senior/VP/Director/Lead/Manager with 5+ yrs → REJECT, (2) pure recruiting/TA coordinator → REJECT, (3) instructional design → REJECT, (4) no remote + not Portland/Seattle → REJECT. For each job: KEEP or REJECT | TITLE | COMPANY | LOCATION | REASON. Be terse."
 > ```
 > Claude then reads only the KEEP list — skip REJECT entries entirely.
 
@@ -1492,7 +1492,7 @@ WebFetch verification already gives partial data. Fill in any missing fields:
 > 🤖 **GEMINI — pipe each fetched JD text for structured extraction:**
 > After WebFetch returns a JD page, pipe the raw text to Gemini Flash:
 > ```bash
-> echo "$JD_RAW_TEXT" | gemini -m gemini-2.5-flash -p "Extract from this job description: (1) exact years experience required, (2) eligible states if mentioned, (3) any sponsorship language (exact quote), (4) posting date, (5) salary range if listed, (6) work type (remote/hybrid/onsite), (7) top 5 required qualifications. Return as labeled fields, one per line."
+> echo "$JD_RAW_TEXT" | gemini -m gemini-2.5-pro -p "Extract from this job description: (1) exact years experience required, (2) eligible states if mentioned, (3) any sponsorship language (exact quote), (4) posting date, (5) salary range if listed, (6) work type (remote/hybrid/onsite), (7) top 5 required qualifications. Return as labeled fields, one per line."
 > ```
 > Claude reads Gemini's extracted fields — do NOT re-read the full JD yourself.
 
@@ -1975,7 +1975,7 @@ https://www.notion.so/ea7cccd43f7a47a6b93a196241eb8d61
 
 > 🤖 **GEMINI — draft Telegram message:**
 > ```bash
-> echo "$PICKS_ONE_LINERS" | gemini -m gemini-2.5-flash -p "Write a short Telegram job digest message for Jamie. Format: emoji header, numbered picks (company - title - location, one-line why, URL), cleanup count, encouragement. Plain text, under 500 chars total."
+> echo "$PICKS_ONE_LINERS" | gemini -m gemini-2.5-pro -p "Write a short Telegram job digest message for Jamie. Format: emoji header, numbered picks (company - title - location, one-line why, URL), cleanup count, encouragement. Plain text, under 500 chars total."
 > ```
 > Claude writes output to `telegram_msg.txt`.
 
