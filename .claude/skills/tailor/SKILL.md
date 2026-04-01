@@ -31,44 +31,101 @@ to `/Users/jamiecheng/jamie_job_hunt/` and not a worktree copy.
 2. **Read `content_library.md` once per session** — if already read, don't re-read.
 3. **Read the tailored file once before editing** — don't re-read the full HTML after each edit.
 
-## 🤖 Gemini CLI Integration — Use for All Prose Generation
+## 🤖 Gemini-First Tailoring Architecture
 
-> **Core rule: Gemini Pro drafts all text output. Claude reviews, judges, and writes to disk.**
-> Gemini CLI is free (Google One AI Pro), no tool access, text-in/text-out only.
-> This is the single biggest token saver for tailoring — the back-and-forth iteration is expensive.
+> **Claude does NOT read Jamie's profile files directly for tailoring.**
+> Dump `content_library.md` + `preferences.md` + `resume.md` + the full JD into Gemini Pro's
+> 1M context window. Gemini generates grounded in her ACTUAL bullets — hallucination is
+> structurally prevented because every bullet must come from text that's literally in the prompt.
 
-### When to call Gemini in this skill
-
-| Step | Call Gemini for | Claude does |
-|------|----------------|-------------|
-| Step 3 — JD Analysis | Extract key requirements, keywords, tone | Verify the extraction is correct |
-| Step 4 — Bullet Selection | Recommend which variant set + which 4 bullets per role | Final go/no-go judgment |
-| Step 5 — Fine-Tune Wording | Draft word-level swaps and reordering | Check for AI clichés, revert if needed |
-| Step 6 — Draft Plan | Write the full tailoring plan block | Review + present to Jamie |
-| Step 11 — Iteration | Re-draft affected bullets after Jamie's feedback | Apply judgment, write HTML edits |
-
-### Syntax for each step
+### Primary path — fat-context Gemini prompt (Steps 3-6):
 
 ```bash
-# Step 3-6: Full tailoring plan draft (pipe JD + content library)
-cat jamie/content_library.md > /tmp/tailor_input.txt
-echo "--- JOB DESCRIPTION ---" >> /tmp/tailor_input.txt
-echo "$JD_TEXT" >> /tmp/tailor_input.txt
-cat /tmp/tailor_input.txt | gemini -m gemini-2.5-pro -p "Draft a resume tailoring plan for Jamie Cheng applying to this role. Rules: (1) Only use bullets she actually did — no invention, (2) NO clichés like 'drove strategic transformation', (3) vary sentence structure, (4) hit key IDEAS not exact phrases. Output: template recommendation, variant set for each role (InGenius/NextGen/Vestas), 4 bullets per role with notes (kept/swapped/reordered), word-level swaps with JD reason, Changes Summary counts. Use the exact format from SKILL.md Step 6."
+JD_TEXT="<fetched or pasted JD>"
 
-# Step 11: Re-draft one bullet after feedback
-echo "Original bullet: $ORIGINAL" | gemini -m gemini-2.5-pro -p "Jamie said: '$FEEDBACK'. Revise this resume bullet to address her feedback while keeping her voice. Rules: no AI clichés, use her own phrasing where possible, keep it under 112 chars. Return only the revised bullet text."
+cat jamie/content_library.md \
+    jamie/preferences.md \
+    jamie/resume.md > /tmp/tailor_context.txt
+echo "===== JOB DESCRIPTION =====" >> /tmp/tailor_context.txt
+echo "$JD_TEXT" >> /tmp/tailor_context.txt
+
+cat /tmp/tailor_context.txt | gemini -m gemini-2.5-pro -p "
+You are tailoring Jamie Cheng's resume for this job. Her full bullet variants are in
+content_library above. Her tailoring rules are in preferences above.
+
+CRITICAL: Use ONLY bullets that exist verbatim in content_library above. Never invent.
+NO clichés: 'drove strategic transformation', 'spearheaded', 'leveraged', etc.
+Vary sentence structure. Hit key IDEAS from JD, not exact phrases.
+
+Output EXACTLY this format:
+## Resume Tailoring for: [Company] — [Job Title]
+### Template Used: [name]
+### Emphasis: [variant set + reasoning]
+### Summary: [1-line approach]
+### InGenius — [variant set used]
+1. [exact bullet from content_library] — [same/swapped from X/reordered from #N]
+(4 bullets)
+### NextGen (4 bullets, same format)
+### Vestas (4 bullets, same format)
+### Skills: [proposed line]
+### Word-level swaps:
+- [resume location]: '[original]' → '[revised]' — [JD reason in one clause]
+### Changes Summary: [X] swaps 🟡, [Y] reorders 🔵, [Z] word swaps 🔴
+"
+GEMINI_EXIT=$?
 ```
 
-### Iteration workflow (Step 11)
+### Grounding check — cheap Grep verification (MANDATORY before presenting to Jamie):
 
-The expensive pattern is: Jamie gives feedback → Claude re-reads context → Claude drafts → repeat.
-With Gemini: Claude pipes the specific bullet + feedback to Gemini → reviews the output → writes HTML.
-Claude only pays tokens to *review* one bullet, not to regenerate from full context.
+> This is the key quality gate. Gemini had ALL of content_library.md in its context,
+> so any invented bullet would be detectable as text that doesn't exist in the file.
+> Use Grep — costs near-zero tokens, catches hallucinations instantly.
 
-> ⚠️ **Claude must always review Gemini's bullet output** before writing to HTML.
-> Check for: invented accomplishments, AI clichés ("spearheaded", "drove", "leveraged"),
-> bullets that sound like a different person. If any → revise manually or re-prompt Gemini.
+```bash
+# For each proposed bullet in Gemini's output, grep a distinctive phrase against content_library
+# Example: Gemini proposes "reduced onboarding time by 75%"
+grep -i "75%" jamie/content_library.md   # → found? ✅ grounded. Not found? ❌ flag it
+
+# For each word-level swap, verify the original phrase exists in resume.md
+grep -i "original phrase" jamie/resume.md  # → found? ✅ real swap. Not found? ❌ invented
+```
+
+**If grep finds no match:** remove that bullet/swap from the plan, replace with the nearest
+real variant from content_library, or re-prompt Gemini with "bullet X was not found in
+content_library — replace with a real variant from the [InGenius/NextGen/Vestas] section."
+
+**Cliché check** (also grep-based, near-zero tokens):
+```bash
+echo "$GEMINI_OUTPUT" | grep -iE "spearhead|leverage|synerg|transform|drove strategic|cross-functional impact"
+# Any match → remove that phrase before presenting
+```
+
+### Fallback chain:
+```bash
+if [ $GEMINI_EXIT -ne 0 ]; then
+  echo "⚠️ Gemini unavailable — Claude tailoring natively"
+  # Claude: read content_library.md + preferences.md, run Steps 3-6 below directly
+fi
+```
+
+### Iteration path (Step 11) — keep Gemini in the loop, grep-verify each revision:
+
+```bash
+# Jamie gives feedback — pipe ONLY the relevant variant block + feedback, not full context
+grep -A 20 "InGenius.*variant\|ROLE: InGenius" jamie/content_library.md > /tmp/variants.txt
+echo "Current bullet: $CURRENT" >> /tmp/variants.txt
+echo "Jamie's feedback: $FEEDBACK" >> /tmp/variants.txt
+
+cat /tmp/variants.txt | gemini -m gemini-2.5-pro -p "
+Revise this resume bullet based on Jamie's feedback.
+Use ONLY the variant text above — no new accomplishments.
+No clichés. Keep her voice. Under 112 chars. Return revised bullet only."
+
+# Then grep-verify the revision exists in content_library before writing to HTML
+grep -i "KEY_PHRASE_FROM_REVISION" jamie/content_library.md
+```
+
+Claude pays tokens only to review ~2 lines of Gemini output per iteration + run one grep.
 
 ---
 
