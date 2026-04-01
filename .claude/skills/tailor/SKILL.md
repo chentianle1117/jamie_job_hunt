@@ -73,10 +73,9 @@ This offloads the 10,000-token content_library.md read to Gemini's fat context w
 # Write the JD to a temp file
 echo "$JD_TEXT" > /tmp/jd_current.txt
 
-# Source the wrapper and call it
-source pipeline/gemini_run.sh
-gemini_run \
-  "You are a resume tailoring assistant for Jamie Cheng, an OD/HR professional.
+# Run Gemini via Python wrapper (robust — no shell quoting issues, has timeout + retry)
+python3 pipeline/gemini_run.py \
+  --prompt "You are a resume tailoring assistant for Jamie Cheng, an OD/HR professional.
 
 Using ONLY the bullet variants in content_library.md, recommend the best bullet selections for this job description.
 
@@ -87,29 +86,31 @@ Return these exact sections:
 4. INGENIUS_BULLETS: list 4 bullets to use (exact text from content_library.md), in recommended order
 5. NEXTGEN_BULLETS: list 4 bullets to use (exact text from content_library.md), in recommended order
 6. VESTAS_BULLETS: list 4 bullets to use (exact text from content_library.md), in recommended order
-7. WORD_SWAPS: up to 5 specific word-level swaps (format: 'original phrase' → 'new phrase' | reason: JD uses X)
+7. WORD_SWAPS: up to 5 specific word-level swaps (format: 'original phrase' -> 'new phrase' | reason: JD uses X)
 8. SKILLS_LINE: recommended Technical Skills line content
-9. SUMMARY: one summary sentence in Jamie's voice (no clichés — no 'spearhead', 'leverage', 'synergy', 'driven')
+9. SUMMARY: one summary sentence in Jamie's voice (no cliches)
 10. GAPS: honest gaps between this JD and Jamie's experience
 
 Rules:
 - ONLY use bullet text that appears verbatim in content_library.md. Never invent bullets.
 - WORD_SWAPS must be small changes (1-4 words), not full rewrites.
 - SUMMARY must sound like Jamie, not a robot." \
-  /tmp/jd_current.txt \
-  jamie/content_library.md \
-  jamie/preferences.md
+  --context /tmp/jd_current.txt jamie/content_library.md jamie/preferences.md \
+  --verify "audit 300+" "InGenius" \
+  --cliche-check \
+  > /tmp/gemini_output.txt 2>/tmp/gemini_err.txt
 
-# Run cliché check on output
-gemini_cliche_check "$GEMINI_OUTPUT"
+GEMINI_EXIT=$?
+GEMINI_OK=$( [ $GEMINI_EXIT -eq 0 ] && echo "true" || echo "false" )
+GEMINI_OUTPUT=$(cat /tmp/gemini_output.txt)
+# Note: exit 2 means cliché found but output still printed — check stderr and fix SUMMARY manually
 ```
 
 **Using Gemini's output:**
-- If `$GEMINI_OK` = `"true"`: use `$GEMINI_OUTPUT` as the bullet selection plan for Steps 4–5.
-  Spot-check 2–3 recommended bullets exist in `content_library.md` via `gemini_verify`.
-  If a bullet isn't found verbatim, fall back to Claude's own selection for that role only.
-  If cliché check flagged the SUMMARY, revert to the closest self-intro version from `content_library.md`.
-- If `$GEMINI_OK` = `"false"`: skip Gemini entirely — read `content_library.md` directly and select bullets yourself (Step 1 already loaded it).
+- If `$GEMINI_OK` = `"true"` (exit 0): use `$GEMINI_OUTPUT` as the bullet selection plan for Steps 4–5.
+  If exit was 2 (cliché): output is still usable — just revert the SUMMARY to the closest self-intro from `content_library.md`.
+  Spot-check 2–3 recommended bullets exist verbatim in `content_library.md`. If not found, fall back to Claude's own selection for that role only.
+- If `$GEMINI_OK` = `"false"` (exit 1): skip Gemini entirely — read `content_library.md` directly and select bullets yourself.
 
 **Do NOT skip Step 6 (present plan to Jamie before touching HTML)** even when using Gemini output.
 

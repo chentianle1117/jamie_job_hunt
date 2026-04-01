@@ -24,10 +24,9 @@ This offloads the large file reads to Gemini's fat context window and saves Clau
 # Write the JD to a temp file
 echo "$JD_TEXT" > /tmp/jd_current.txt
 
-# Source the wrapper and call it
-source pipeline/gemini_run.sh
-gemini_run \
-  "You are a job fit analyst for Jamie Cheng, an OD/HR professional seeking people roles in Portland OR or remote US, requiring H1B sponsorship.
+# Run Gemini via Python wrapper (robust — no shell quoting issues, has timeout + retry)
+python3 pipeline/gemini_run.py \
+  --prompt "You are a job fit analyst for Jamie Cheng, an OD/HR professional seeking people roles in Portland OR or remote US, requiring H1B sponsorship.
 
 Analyze the job description against Jamie's profile and return a structured evaluation with these exact sections:
 1. HARD_CONSTRAINTS: list any instant-pass triggers (no sponsorship, senior title, pure sales/SWE, etc.) — or write NONE
@@ -40,15 +39,18 @@ Analyze the job description against Jamie's profile and return a structured eval
 8. VERDICT: GO / STRETCH / PASS with one sentence reason
 
 Ground your answer ONLY in the files provided. Do not invent experience Jamie does not have." \
-  /tmp/jd_current.txt \
-  jamie/profile_compact.md \
-  jamie/preferences.md
+  --context /tmp/jd_current.txt jamie/profile_compact.md jamie/preferences.md \
+  --verify "MS" "USC" \
+  > /tmp/gemini_output.txt 2>/tmp/gemini_err.txt
+
+GEMINI_EXIT=$?
+GEMINI_OK=$( [ $GEMINI_EXIT -eq 0 ] && echo "true" || echo "false" )
+GEMINI_OUTPUT=$(cat /tmp/gemini_output.txt)
 ```
 
 **Using Gemini's output:**
 - If `$GEMINI_OK` = `"true"`: use `$GEMINI_OUTPUT` as the structured analysis for Steps 3–6.
-  Verify STRENGTHS/GAPS are grounded: run `gemini_verify` on 2-3 key claims against `jamie/profile_compact.md`.
-  If grounding check fails on a claim, drop that claim and note it.
+  If any grounding warnings appear in `/tmp/gemini_err.txt`, drop those claims.
 - If `$GEMINI_OK` = `"false"`: skip Gemini output entirely — run Steps 3–6 natively using Claude's own reads.
 
 **Do NOT show the raw Gemini output to Jamie.** Use it as your working notes to fill in Step 6's verdict format.

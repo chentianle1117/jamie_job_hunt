@@ -1,23 +1,24 @@
 #!/bin/bash
 # =============================================================================
-# gemini_run.sh — Gemini Pro wrapper with fallback for Oracle pipeline
+# gemini_run.sh — DEPRECATED
 #
-# Usage:
+# Superseded by pipeline/gemini_run.py (Python version).
+# The Python version is more robust: no shell quoting issues, has timeout
+# handling, automatic temp file cleanup, and cleaner error reporting.
+#
+# Skills (/evaluate, /tailor) now call:
+#   python3 pipeline/gemini_run.py --prompt "..." --context file1 file2 ...
+#
+# This file is kept as a fallback for environments where Python is unavailable.
+# =============================================================================
+#
+# Original usage (bash version):
 #   source pipeline/gemini_run.sh
 #   gemini_run "prompt text" context_file1 [context_file2 ...]
 #
 # Returns:
 #   GEMINI_OUTPUT  — the text output (empty if failed)
 #   GEMINI_OK      — "true" if succeeded, "false" if fell back to Claude
-#
-# Behavior:
-#   1. Concatenate all context files → /tmp/gemini_context.txt
-#   2. Pipe to gemini-2.5-pro with the prompt
-#   3. On exit != 0: retry once with stricter grounding instruction
-#   4. On second failure: set GEMINI_OK=false so Claude knows to go native
-#   5. Grounding check: grep each VERIFY_TERM against context files
-#      Call: gemini_verify "term to check" file1 [file2 ...]
-#      Returns 0 (found) or 1 (not found → flag to Claude)
 # =============================================================================
 
 GEMINI_MODEL="gemini-2.5-pro"
