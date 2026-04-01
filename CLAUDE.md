@@ -141,7 +141,7 @@ be really good at HR recruiting.
 > All skills must minimize token consumption automatically — no extra user effort.
 
 ### Core Rules
-1. **Compact first:** Always read `jamie/profile_compact.md` before full files. Only escalate to `preferences.md` / `h1b_verified.md` / `content_library.md` when the specific task demands it.
+1. **Gemini reads full files; Claude reads compact:** When Gemini Pro is doing the reading/generation, pipe full files (`preferences.md`, `content_library.md`, `h1b_verified.md`) — Gemini has 1M context and is free. Claude should still use `profile_compact.md` for its own quick judgments (go/pass decisions, scoring) to avoid loading 500+ lines into Claude's context.
 2. **Sub-agents = Haiku by default:** Any spawned agent doing data retrieval, Notion CRUD, scoring, verification, or file lookup MUST use `model: "haiku"`. Only use Sonnet for drafting (outreach, cover letters) or fit judgment.
 3. **Don't auto-generate expensive content:** Cover letters, contact research, and Chrome browsing are expensive. Ask Jamie before doing them — don't auto-run.
 4. **Suggest `/clear` between jobs:** After completing an evaluation or pipeline run, remind Jamie to `/clear` before starting a new job. Stale context = wasted tokens on every message.

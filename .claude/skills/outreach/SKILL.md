@@ -8,6 +8,33 @@ description: >
 argument-hint: "<company name and job title, or reference the job being discussed>"
 ---
 
+## 🤖 Gemini CLI Integration — Use for All Message Drafting
+
+> **Core rule: Gemini Pro drafts all outreach messages. Claude reviews tone/authenticity and writes.**
+> Message drafting + revision loops are the #1 token cost in this skill.
+
+| Step | Gemini does | Claude does |
+|------|-------------|-------------|
+| Step 3d — Profile hook | Draft the 1-sentence personalization hook from profile text | Verify it sounds specific and genuine |
+| Step 5 — Draft messages | Write all connection requests + emails using templates + profile data | Check anti-cliché rules, count chars, approve |
+| Revision loops | Re-draft after Jamie's feedback ("too formal", "too eager") | Apply judgment, write final version |
+
+```bash
+# Draft outreach messages (pipe profile summary + templates)
+cat jamie/outreach_templates.md > /tmp/outreach_input.txt
+echo "--- CONTACT PROFILE ---" >> /tmp/outreach_input.txt
+echo "$PROFILE_SUMMARY" >> /tmp/outreach_input.txt
+echo "--- ROLE ---" >> /tmp/outreach_input.txt
+echo "$ROLE_AND_COMPANY" >> /tmp/outreach_input.txt
+cat /tmp/outreach_input.txt | gemini -m gemini-2.5-pro -p "Draft a LinkedIn connection request from Jamie Cheng to this contact. Rules: under 300 characters, reference ONE specific thing from their profile (not their title), mention the role at the company, warm and genuine tone — NOT corporate, NOT 'I'd love to pick your brain', NOT generic flattery. Return: draft message + character count."
+
+# Revise after Jamie feedback
+echo "Current message: $CURRENT_MSG" | gemini -m gemini-2.5-pro -p "Jamie said: '$FEEDBACK'. Revise this LinkedIn message. Keep it under 300 chars, keep the specific personal detail, adjust tone as directed. Return only the revised message + character count."
+```
+
+> ⚠️ Claude must check every Gemini-drafted message against the anti-cliché list before showing Jamie.
+> If it contains "I'd love to pick your brain", "truly inspirational", "passionate about [JD phrase]" → re-prompt or fix manually.
+
 ## Stage 3: Networking Outreach
 
 You are helping Jamie identify the right people to contact and draft genuine outreach messages.

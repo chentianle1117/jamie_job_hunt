@@ -27,10 +27,48 @@ to `/Users/jamiecheng/jamie_job_hunt/` and not a worktree copy.
 
 ## ⚡ Token Efficiency Rules
 
-1. **Read `jamie/profile_compact.md` first** — ~60 lines with all hard constraints, H1B quick
-   reference, and fit scoring. Only read `preferences.md` or `h1b_verified.md` if compact is insufficient.
+1. **Read full profile files directly** — Gemini Pro has 1M context window so compactness is not a concern when Gemini is doing the reading. Pipe `preferences.md`, `content_library.md`, and `h1b_verified.md` directly to Gemini. Only use `profile_compact.md` if Claude needs to make a quick go/pass judgment without Gemini.
 2. **Read `content_library.md` once per session** — if already read, don't re-read.
 3. **Read the tailored file once before editing** — don't re-read the full HTML after each edit.
+
+## 🤖 Gemini CLI Integration — Use for All Prose Generation
+
+> **Core rule: Gemini Pro drafts all text output. Claude reviews, judges, and writes to disk.**
+> Gemini CLI is free (Google One AI Pro), no tool access, text-in/text-out only.
+> This is the single biggest token saver for tailoring — the back-and-forth iteration is expensive.
+
+### When to call Gemini in this skill
+
+| Step | Call Gemini for | Claude does |
+|------|----------------|-------------|
+| Step 3 — JD Analysis | Extract key requirements, keywords, tone | Verify the extraction is correct |
+| Step 4 — Bullet Selection | Recommend which variant set + which 4 bullets per role | Final go/no-go judgment |
+| Step 5 — Fine-Tune Wording | Draft word-level swaps and reordering | Check for AI clichés, revert if needed |
+| Step 6 — Draft Plan | Write the full tailoring plan block | Review + present to Jamie |
+| Step 11 — Iteration | Re-draft affected bullets after Jamie's feedback | Apply judgment, write HTML edits |
+
+### Syntax for each step
+
+```bash
+# Step 3-6: Full tailoring plan draft (pipe JD + content library)
+cat jamie/content_library.md > /tmp/tailor_input.txt
+echo "--- JOB DESCRIPTION ---" >> /tmp/tailor_input.txt
+echo "$JD_TEXT" >> /tmp/tailor_input.txt
+cat /tmp/tailor_input.txt | gemini -m gemini-2.5-pro -p "Draft a resume tailoring plan for Jamie Cheng applying to this role. Rules: (1) Only use bullets she actually did — no invention, (2) NO clichés like 'drove strategic transformation', (3) vary sentence structure, (4) hit key IDEAS not exact phrases. Output: template recommendation, variant set for each role (InGenius/NextGen/Vestas), 4 bullets per role with notes (kept/swapped/reordered), word-level swaps with JD reason, Changes Summary counts. Use the exact format from SKILL.md Step 6."
+
+# Step 11: Re-draft one bullet after feedback
+echo "Original bullet: $ORIGINAL" | gemini -m gemini-2.5-pro -p "Jamie said: '$FEEDBACK'. Revise this resume bullet to address her feedback while keeping her voice. Rules: no AI clichés, use her own phrasing where possible, keep it under 112 chars. Return only the revised bullet text."
+```
+
+### Iteration workflow (Step 11)
+
+The expensive pattern is: Jamie gives feedback → Claude re-reads context → Claude drafts → repeat.
+With Gemini: Claude pipes the specific bullet + feedback to Gemini → reviews the output → writes HTML.
+Claude only pays tokens to *review* one bullet, not to regenerate from full context.
+
+> ⚠️ **Claude must always review Gemini's bullet output** before writing to HTML.
+> Check for: invented accomplishments, AI clichés ("spearheaded", "drove", "leveraged"),
+> bullets that sound like a different person. If any → revise manually or re-prompt Gemini.
 
 ---
 
