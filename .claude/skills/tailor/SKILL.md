@@ -137,13 +137,13 @@ The chosen template already has a good starting set. Review each role and decide
 
 ### Step 5 — Fine-Tune Wording (Word-Level Swaps)
 
-This is critical. Jamie's #1 complaint: **AI resume help sounds too cliche**.
+This is critical. Your #1 complaint: **AI resume help sounds too cliche**.
 
 **Rules:**
 - DO naturally incorporate 3-5 key terms from the JD into existing bullet language
 - DO reorder bullets so the most relevant one comes first
 - DO suggest small wording tweaks (swap a verb, add a qualifier)
-- DO NOT rewrite bullets from scratch — these are Jamie's words
+- DO NOT rewrite bullets from scratch — these are your words
 - DO NOT stuff every JD keyword into every bullet
 - DO NOT use "drove strategic transformation", "spearheaded cross-functional synergies", etc.
 - DO NOT make all bullets sound the same — vary sentence structure
@@ -186,7 +186,7 @@ Present the tailoring plan before touching the HTML:
 
 ### Step 7 — Apply Changes to HTML with Full Diff System
 
-After Jamie approves (or auto-proceed if she said "go ahead"), edit the tailored file
+After you approve (or auto-proceed if you said "go ahead"), edit the tailored file
 `tailored_resumes/Company_RoleType_YYYY-MM-DD.html` (NOT `jamie/resume.html`).
 
 **Three change types — use the correct class for each:**
@@ -321,15 +321,15 @@ PDF exported — quality gates:
 
 ### Step 11 — Iterate
 
-Jamie WILL have feedback. Stay responsive and don't over-edit.
+You WILL have feedback. Stay responsive and don't over-edit.
 
-| She says | You do |
-|----------|--------|
+| You say | What to do |
+|---------|------------|
 | "too corporate" | Revert to original wording, just reorder |
 | "make bullet X hit [keyword] harder" | Find natural way to incorporate it |
 | "too long, past the red line" | Trim without losing the metric/impact |
-| "I like the original better" | Revert, note why you suggested the change |
-| "sounds like AI" | RED FLAG — significantly simplify, use her own phrases |
+| "I like the original better" | Revert, note why the change was suggested |
+| "sounds like AI" | RED FLAG — significantly simplify, use your own phrases |
 
-After each HTML edit, Jamie refreshes her browser (Cmd+R) to see the result.
-Do NOT tell Jamie to check the preview panel — she refreshes Chrome directly.
+After each HTML edit, you refresh your browser (Cmd+R) to see the result.
+Do NOT say "check the preview panel" — you refresh Chrome directly.

@@ -101,7 +101,7 @@ Run through these in order. If ANY fails, it's an instant **PASS**:
 1. **Already applied?** Check `jamie/application_tracker.md` for this company + similar title
 2. **Visa:** Does the JD say "no sponsorship" or "must be authorized without sponsorship"? → PASS
 3. **Seniority:** Is the title Senior/Director/VP/Principal/C-level? (Exception: "Senior Associate" at consulting firms is OK) → PASS
-4. **Location:** Portland/Remote/Seattle is her preference but she is open to relocation if the role content and fit are genuinely strong. Flag out-of-area roles and note the location, but do NOT auto-reject on location alone. Evaluate on role fit first — if GO on content, note the location as a consideration, not a blocker.
+4. **Location:** Portland/Remote/Seattle is your preference but you are open to relocation if the role content and fit are genuinely strong. Flag out-of-area roles and note the location, but do NOT auto-reject on location alone. Evaluate on role fit first — if GO on content, note the location as a consideration, not a blocker.
 5. **Hard reject roles:** Pure Sales, Pure SWE, Senior HRBP, Instructional Designer (80%+ content creation), Technical PM requiring PMP
 
 ### Step 4 — H1B Sponsorship Check
@@ -141,23 +141,23 @@ Format your response as:
 - Already applied? [Yes — skip / No]
 
 ### Why This Fits (or Doesn't)
-[2-3 sentences on alignment with Jamie's experience]
+[2-3 sentences on alignment with your experience]
 
 ### Strengths
-- [bullet matching JD req → Jamie's specific experience]
-- [bullet matching JD req → Jamie's specific experience]
+- [bullet matching JD req → your specific experience]
+- [bullet matching JD req → your specific experience]
 
 ### Gaps to Be Aware Of
-- [bullet: JD requires X — Jamie has limited experience here]
+- [bullet: JD requires X — you have limited experience here]
 
-### If She Applies
+### If You Apply
 - Best resume variant emphasis: [L&D ops / Program Mgmt / OD / Engagement / etc.]
 - Key bullets to feature from content_library.md: [brief pointer]
 - Outreach angle: [alumni connection? hiring manager on LinkedIn?]
 ```
 
 ### Important Notes
-- Be honest about gaps. Jamie's preferences.md says: "When there's a gap, say it directly."
+- Be honest about gaps. The rule is: "When there's a gap, say it directly."
 - Don't inflate match percentage — use the self-assessment table as ground truth
 - If it's a STRETCH, explain what would make it worth applying anyway (networking opportunity, dream company, cap-exempt, etc.)
 - If it's a PASS, be clear and brief — don't soften it with "but maybe if..."

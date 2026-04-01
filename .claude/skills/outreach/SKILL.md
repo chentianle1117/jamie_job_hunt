@@ -16,7 +16,7 @@ You are helping Jamie identify the right people to contact and draft genuine out
 
 Read these files:
 1. `jamie/outreach_templates.md` — her voice, style guide, message templates by type, quality checklist
-2. `jamie/application_tracker.md` — check if she already has contacts at this company
+2. `jamie/application_tracker.md` — check if you already have contacts at this company
 3. `jamie/content_library.md` — self-intro versions and "why this company" building blocks
 
 ### Step 2 — Identify the Target
@@ -25,7 +25,7 @@ From `$ARGUMENTS` or the current conversation, confirm:
 - **Company name**
 - **Job title**
 - **Location** (matters for the Portland angle in messages)
-- **What Jamie knows about the role** (from /evaluate or her own research)
+- **What you know about the role** (from /evaluate or your own research)
 
 ### Step 3 — Find Contacts
 
@@ -35,7 +35,7 @@ There are two modes depending on whether Chrome is available:
 
 #### MODE A: With Chrome (`claude --chrome` or `/chrome` enabled)
 
-Chrome mode gives direct access to LinkedIn with Jamie's logged-in session. This is
+Chrome mode gives direct access to LinkedIn with your logged-in session. This is
 much more powerful — full profiles, mutual connections, alumni filters, and message pre-fill.
 
 > **Prerequisites:** Jamie must be logged into LinkedIn in Chrome before starting.
@@ -107,16 +107,16 @@ Goal: Find people Jamie is already connected to who know someone at the company.
 3. For each 2nd-degree connection, note:
    - Their name and title
    - The mutual connection(s) shown (this is who Jamie knows that knows them)
-4. Flag any mutual connections Jamie has actually interacted with (check application_tracker.md)
+4. Flag any mutual connections you have actually interacted with (check application_tracker.md)
 
-This is valuable because Jamie can ask the mutual connection for an introduction —
+This is valuable because you can ask the mutual connection for an introduction —
 much warmer than a cold connection request.
 
-Report to Jamie:
+Report:
 ```
 2nd-degree connections at [Company]:
-- [Name] ([Title]) — mutual: [Jamie's connection name]
-- [Name] ([Title]) — mutual: [Jamie's connection name]
+- [Name] ([Title]) — mutual: [your connection name]
+- [Name] ([Title]) — mutual: [your connection name]
 → Recommendation: Ask [mutual connection] for an intro to [best contact]
 ```
 
@@ -149,7 +149,7 @@ For each of the top 2-3 contacts from Steps 3a-3c:
    - Is their profile formal (corporate headshot, buttoned-up summary) or casual
      (first-person, emoji, personal stories)?
    - Recent posts: professional tone or conversational?
-   - This determines whether Jamie's message should be more formal (Template C) or
+   - This determines whether your message should be more formal (Template C) or
      warm/casual (Template A/B)
 
 4. For each contact, write a **1-sentence personalization hook**:
@@ -173,6 +173,7 @@ Hi [Name], this is Jamie! [1 specific detail from their profile — e.g., "I saw
 also studied org psych" or "Your move from consulting to People Ops resonates with
 my path"]. I came across the [Role] at [Company] and would love to connect. Thank you!
 ```
+(Draft in first person as Jamie — "I came across...", "my path", etc.)
 
 Count the characters. If over 300, trim — cut the middle, keep the specific detail and the ask.
 
@@ -186,9 +187,9 @@ but weave in:
 
 ---
 
-**Step 3f — Pre-Fill Messages in LinkedIn (optional, if Jamie requests)**
+**Step 3f — Pre-Fill Messages in LinkedIn (optional, if you request)**
 
-If Jamie says "go ahead and pre-fill" or "set up the messages":
+If you say "go ahead and pre-fill" or "set up the messages":
 
 1. Navigate to Contact 1's LinkedIn profile
 2. Click the **"Connect"** button
@@ -238,8 +239,8 @@ For each contact found (either mode), note:
 ### Step 4 — Check for Existing Connections
 
 Cross-reference contacts against `jamie/application_tracker.md`:
-- Has Jamie already reached out to anyone at this company?
-- Does she have any existing LinkedIn connections there?
+- Have you already reached out to anyone at this company?
+- Do you have any existing LinkedIn connections there?
 - Flag any "Connected" or "Reached out" entries for this company
 
 ### Step 5 — Draft Messages
@@ -272,7 +273,7 @@ profile — because you did.
 - [ ] If career path similarity: draws the parallel ("I'm on a similar path — from consulting to in-house OD")
 - [ ] Matches their tone (formal profile = formal message; casual profile = warm message)
 
-**Message rules (from Jamie's outreach style):**
+**Message rules (from your outreach style):**
 - LinkedIn connection requests: MUST be under 300 characters
 - Reference something SPECIFIC about the contact (not generic)
 - Do NOT ask for referrals in the first message
@@ -282,7 +283,7 @@ profile — because you did.
 - End with gratitude and openness, not a hard ask
 
 **The anti-cliche rule:**
-Jamie's biggest complaint is messages that sound too purposeful or over-eager. Avoid:
+Your biggest complaint is messages that sound too purposeful or over-eager. Avoid:
 - "I'd love to pick your brain"
 - "I'm SO passionate about [exact JD phrase]"
 - "I was THRILLED to discover this opportunity"
@@ -300,7 +301,7 @@ Instead: be specific, be brief, sound like a real person writing to another real
 **Examples of what NOT to do (BAD):**
 - "I noticed your extensive experience in the people space" (could say this about anyone)
 - "Your career journey is truly inspirational" (empty flattery)
-- "I'm reaching out because I'm passionate about people operations" (about Jamie, not about them)
+- "I'm reaching out because I'm passionate about people operations" (about the sender, not about them)
 
 ### Step 6 — Build Outreach Strategy
 
@@ -346,7 +347,7 @@ Recommend a contact order:
 
 ### Step 7 — Portland Angle
 
-If Jamie is applying to a Portland-area company, she has a powerful personal angle:
+If applying to a Portland-area company, you have a powerful personal angle:
 "My husband and I are moving back to Portland" (or already in Portland).
 Suggest where to weave this into messages — it signals local commitment and is a
 genuine conversation starter, especially for hiring managers concerned about relocation.
@@ -355,7 +356,7 @@ genuine conversation starter, especially for hiring managers concerned about rel
 - If no contacts are found via WebSearch, say so honestly. Not every company will have
   discoverable LinkedIn contacts. Suggest alternative approaches (check company About page,
   look for team blogs, search for conference speakers from that company).
-- Jamie may ask you to revise messages multiple times. Stay patient — this is the most
+- You may ask to revise messages multiple times. Stay patient — this is the most
   personal part of the process and getting the tone right matters.
 - Never fabricate a contact. If you're not sure someone works there, say "found via LinkedIn
   search — verify before sending."

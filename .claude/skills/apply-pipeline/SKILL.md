@@ -12,7 +12,7 @@ argument-hint: "<paste job description or URL>"
 ## Full Application Pipeline
 
 You are guiding Jamie through the complete job application process. This is interactive —
-she will give feedback at every stage. Listen carefully and adapt.
+you will give feedback at every stage. Listen carefully and adapt.
 
 ---
 
@@ -66,9 +66,9 @@ Execute the full `/evaluate` skill logic:
   → Or: ask me questions, give feedback, or say "pass" to stop here.
 ```
 
-**If PASS:** Explain why briefly and stop. Don't push Jamie to apply to something that's not a fit.
+**If PASS:** Explain why briefly and stop. Don't push applying to something that's not a fit.
 
-**If GO or STRETCH:** Wait for Jamie's confirmation before proceeding.
+**If GO or STRETCH:** Wait for your confirmation before proceeding.
 
 ---
 
@@ -107,13 +107,13 @@ Execute the full `/tailor` skill logic:
   → Or: "this sounds too cliche", "change bullet X", "show me the full bullets"
 ```
 
-**FEEDBACK LOOP:** This is where Jamie will most likely push back. Common responses:
+**FEEDBACK LOOP:** This is where you will most likely push back. Common responses:
 - "Too cliche" → revert to closer-to-original wording, just reorder bullets
 - "I like bullet X better from the other set" → swap it in
 - "That's too long" → trim the specific bullet
 - "Show me side by side" → show current vs. proposed for each role
 
-Stay in Stage 2 until Jamie says she's satisfied. Don't rush to Stage 3.
+Stay in Stage 2 until you say you're satisfied. Don't rush to Stage 3.
 
 ---
 
@@ -152,7 +152,7 @@ Execute the full `/outreach` skill logic:
   → Or: "rewrite message for X", "too eager", "find more people"
 ```
 
-**FEEDBACK LOOP:** Messages are personal — Jamie will want to adjust tone. Listen for:
+**FEEDBACK LOOP:** Messages are personal — you will want to adjust tone. Listen for:
 - "Too formal" / "too casual" → adjust register
 - "Don't mention X" → remove that reference
 - "Can you find someone in [specific team]?" → do another targeted search
@@ -192,7 +192,7 @@ This is the pre-flight checklist before Jamie hits "Apply."
   □ Log in Google Sheets tracker: date, company, role, status = "Applied"
   □ Set reminder: follow up in 1 week if no response
 
-  → All done! Good luck, Jamie! 🙏
+  → All done! Good luck! 🙏
 ```
 
 ---
@@ -209,7 +209,7 @@ Throughout the ENTIRE pipeline, watch for Jamie's feedback and adapt immediately
 | "too casual" | Add more professional framing |
 | "too long" | Cut to essential facts + one metric |
 | "sounds desperate" | Remove urgency, make it more matter-of-fact |
-| "sounds like AI wrote it" | Biggest red flag — significantly simplify, use Jamie's own phrases |
+| "sounds like AI wrote it" | Biggest red flag — significantly simplify, use your own phrases |
 
 ### Process Feedback
 | Jamie says | What to do |
@@ -218,11 +218,11 @@ Throughout the ENTIRE pipeline, watch for Jamie's feedback and adapt immediately
 | "go back to [stage]" | Return and revise |
 | "I don't want to apply" | Stop gracefully, no pressure |
 | "just do the evaluation" | Run Stage 1 only |
-| "I already have contacts" | Skip contact search, just draft messages for her contacts |
+| "I already have contacts" | Skip contact search, just draft messages for your contacts |
 
 ### Learning Feedback (save for future)
-If Jamie gives feedback that should apply to ALL future applications (not just this one),
-note it clearly: "Got it — I'll remember [X] for future applications too."
+If you give feedback that should apply to ALL future applications (not just this one),
+acknowledge it clearly: "Got it — I'll remember [X] for future applications too."
 This includes preferences about tone, bullet style, types of roles she doesn't want, etc.
 
 ---
@@ -237,8 +237,8 @@ This includes preferences about tone, bullet style, types of roles she doesn't w
 | H1B cache lookup (h1b_verified.md read) | `haiku` | File read + match — mechanical |
 | Application tracker read/update (Notion CRUD) | `haiku` | Property writes — no judgment |
 | LinkedIn contact search (name + URL extraction) | `haiku` | Structured data pull |
-| Outreach message drafting | `sonnet` | Requires Jamie's voice + relationship awareness |
-| Cover letter drafting | `sonnet` | Judgment-heavy, must sound like Jamie |
+| Outreach message drafting | `sonnet` | Requires your voice + relationship awareness |
+| Cover letter drafting | `sonnet` | Judgment-heavy, must sound like you |
 | Fit evaluation / gap analysis | `sonnet` | Requires understanding of Jamie's full background |
 | Orchestrator / main pipeline thread | `sonnet` | Coordinates stages — needs full capability |
 
@@ -285,4 +285,4 @@ This includes preferences about tone, bullet style, types of roles she doesn't w
 3. **Progress indicators** — update the pipeline overview as stages complete
 4. **Summaries, not walls of text** — lead with the verdict, details below
 5. **Ask before proceeding** — never auto-advance to the next stage without confirmation
-6. **Be honest about gaps** — Jamie trusts directness over encouragement
+6. **Be honest about gaps** — you trust directness over encouragement
