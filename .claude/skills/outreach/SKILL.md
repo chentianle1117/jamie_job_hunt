@@ -8,32 +8,83 @@ description: >
 argument-hint: "<company name and job title, or reference the job being discussed>"
 ---
 
-## 🤖 Gemini CLI Integration — Use for All Message Drafting
+## 🤖 Gemini-First Architecture (PRIMARY PATH)
 
-> **Core rule: Gemini Pro drafts all outreach messages. Claude reviews tone/authenticity and writes.**
-> Message drafting + revision loops are the #1 token cost in this skill.
+> Claude does NOT read Jamie's outreach templates or profile files directly for message drafting.
+> Dump outreach_templates + content_library (self-intro) + contact profile text into Gemini Pro.
+> Gemini drafts using Jamie's actual voice and templates as source — grounded, not improvised.
 
-| Step | Gemini does | Claude does |
-|------|-------------|-------------|
-| Step 3d — Profile hook | Draft the 1-sentence personalization hook from profile text | Verify it sounds specific and genuine |
-| Step 5 — Draft messages | Write all connection requests + emails using templates + profile data | Check anti-cliché rules, count chars, approve |
-| Revision loops | Re-draft after Jamie's feedback ("too formal", "too eager") | Apply judgment, write final version |
+### Fat-context Gemini prompt for message drafting (Step 5):
 
 ```bash
-# Draft outreach messages (pipe profile summary + templates)
-cat jamie/outreach_templates.md > /tmp/outreach_input.txt
-echo "--- CONTACT PROFILE ---" >> /tmp/outreach_input.txt
-echo "$PROFILE_SUMMARY" >> /tmp/outreach_input.txt
-echo "--- ROLE ---" >> /tmp/outreach_input.txt
-echo "$ROLE_AND_COMPANY" >> /tmp/outreach_input.txt
-cat /tmp/outreach_input.txt | gemini -m gemini-2.5-pro -p "Draft a LinkedIn connection request from Jamie Cheng to this contact. Rules: under 300 characters, reference ONE specific thing from their profile (not their title), mention the role at the company, warm and genuine tone — NOT corporate, NOT 'I'd love to pick your brain', NOT generic flattery. Return: draft message + character count."
+# After finding contact profile text (from Chrome or WebSearch)
+CONTACT_PROFILE="<scraped profile text>"
+ROLE="[Job Title] at [Company]"
 
-# Revise after Jamie feedback
-echo "Current message: $CURRENT_MSG" | gemini -m gemini-2.5-pro -p "Jamie said: '$FEEDBACK'. Revise this LinkedIn message. Keep it under 300 chars, keep the specific personal detail, adjust tone as directed. Return only the revised message + character count."
+cat jamie/outreach_templates.md \
+    jamie/content_library.md > /tmp/outreach_context.txt
+echo "===== CONTACT PROFILE =====" >> /tmp/outreach_context.txt
+echo "$CONTACT_PROFILE" >> /tmp/outreach_context.txt
+echo "===== ROLE =====" >> /tmp/outreach_context.txt
+echo "$ROLE" >> /tmp/outreach_context.txt
+
+cat /tmp/outreach_context.txt | gemini -m gemini-2.5-pro -p "
+Draft a LinkedIn connection request from Jamie Cheng to this contact for the role above.
+Jamie's voice, templates, and self-intro variants are in outreach_templates and content_library above.
+
+RULES — violations will be caught before sending:
+- Under 300 characters (hard LinkedIn limit)
+- Reference ONE specific thing from their profile above (not their title — something personal)
+- Mention the specific role + company
+- Warm and genuine — NOT 'I'd love to pick your brain', NOT generic flattery, NOT over-eager
+- If USC/Wesleyan alum detected in profile → mention school connection
+- If career path similarity detected → draw the parallel briefly
+- Match their tone: formal profile → formal message, casual profile → casual message
+
+Return:
+DRAFT: [message text]
+CHARS: [character count]
+HOOK USED: [the specific detail referenced]
+"
+GEMINI_EXIT=$?
+
 ```
 
-> ⚠️ Claude must check every Gemini-drafted message against the anti-cliché list before showing Jamie.
-> If it contains "I'd love to pick your brain", "truly inspirational", "passionate about [JD phrase]" → re-prompt or fix manually.
+### Grounding check — verify hook is real (mandatory, near-zero tokens):
+
+```bash
+# Verify the "HOOK USED" detail actually exists in the contact profile text we piped in
+echo "$CONTACT_PROFILE" | grep -i "HOOK_KEYWORD"
+# Found? ✅ present to Jamie. Not found? ❌ Gemini invented it — re-prompt once:
+# "The hook '[X]' does not appear in the contact profile above. Use only details explicitly in the profile."
+```
+
+**Cliché check:**
+```bash
+echo "$GEMINI_DRAFT" | grep -iE "pick your brain|truly inspirational|passionate about|thrilled|impressive career|extensive experience"
+# Any match → remove and re-prompt or fix manually before showing Jamie
+```
+
+**Fallback chain:**
+```bash
+if [ $GEMINI_EXIT -ne 0 ]; then
+  echo "⚠️ Gemini unavailable — Claude drafting natively"
+  # Claude: read outreach_templates.md + use contact profile text directly
+fi
+```
+
+### Revision loop — keep Gemini in the loop:
+
+```bash
+# Jamie says message is "too formal" / "too eager" / "reword this"
+echo "Current message: $CURRENT_MSG" >> /tmp/revision.txt
+echo "Jamie's feedback: $FEEDBACK" >> /tmp/revision.txt
+cat /tmp/revision.txt | gemini -m gemini-2.5-pro -p "
+Revise this LinkedIn connection request based on Jamie's feedback.
+Keep under 300 chars. Keep the specific personal detail (the hook).
+Adjust tone as directed. Return revised message + character count only."
+# Then re-run grounding + cliché check on revision
+```
 
 ## Stage 3: Networking Outreach
 
