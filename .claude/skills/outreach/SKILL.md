@@ -15,7 +15,7 @@ You are helping Jamie identify the right people to contact and draft genuine out
 ### Step 1 — Load Context
 
 Read these files:
-1. `jamie/outreach_templates.md` — her voice, style guide, message templates by type, quality checklist
+1. `jamie/outreach_templates.md` — your voice, style guide, message templates by type, quality checklist
 2. `jamie/application_tracker.md` — check if you already have contacts at this company
 3. `jamie/content_library.md` — self-intro versions and "why this company" building blocks
 
@@ -38,8 +38,8 @@ There are two modes depending on whether Chrome is available:
 Chrome mode gives direct access to LinkedIn with your logged-in session. This is
 much more powerful — full profiles, mutual connections, alumni filters, and message pre-fill.
 
-> **Prerequisites:** Jamie must be logged into LinkedIn in Chrome before starting.
-> If LinkedIn shows a login wall or CAPTCHA at any point, STOP and tell Jamie to handle it.
+> **Prerequisites:** You must be logged into LinkedIn in Chrome before starting.
+> If LinkedIn shows a login wall or CAPTCHA at any point, STOP — you need to handle it manually.
 
 ---
 
@@ -181,7 +181,7 @@ Count the characters. If over 300, trim — cut the middle, keep the specific de
 Use the Virtual Coffee Request or Post-Application email template from outreach_templates.md,
 but weave in:
 - The specific detail from their profile (Step 3d)
-- Something about Jamie's experience that MIRRORS their career path
+- Something about your experience that MIRRORS their career path
 - The Portland/relocation angle if relevant
 - A reference to the company's mission or recent news
 
@@ -197,14 +197,14 @@ If you say "go ahead and pre-fill" or "set up the messages":
 4. Type the drafted connection request message into the text field
 5. **STOP.** Do NOT click "Send" or "Send now."
 6. Tell Jamie: `"Message pre-filled for [Name]. Text: [show the message]. Review and press Send when ready."`
-7. Wait for Jamie's confirmation before moving to the next contact
+7. Wait for your confirmation before moving to the next contact
 
 Repeat for Contact 2 and Contact 3.
 
 > **CRITICAL:** Never click Send. Never click "Send without a note."
-> If the Connect button is grayed out (already connected, or "Follow" only), tell Jamie.
+> If the Connect button is grayed out (already connected, or "Follow" only), tell you.
 > If LinkedIn shows a weekly connection limit warning, stop and report it.
-> If CAPTCHA appears, stop and tell Jamie to complete it manually.
+> If CAPTCHA appears, stop — you need to complete it manually.
 
 ---
 

@@ -88,8 +88,8 @@ Return these exact sections:
 6. VESTAS_BULLETS: list 4 bullets to use (exact text from content_library.md), in recommended order
 7. WORD_SWAPS: up to 5 specific word-level swaps (format: 'original phrase' -> 'new phrase' | reason: JD uses X)
 8. SKILLS_LINE: recommended Technical Skills line content
-9. SUMMARY: one summary sentence in Jamie's voice (no cliches)
-10. GAPS: honest gaps between this JD and Jamie's experience
+9. SUMMARY: one summary sentence in your voice (no cliches)
+10. GAPS: honest gaps between this JD and your experience
 
 Rules:
 - ONLY use bullet text that appears verbatim in content_library.md. Never invent bullets.

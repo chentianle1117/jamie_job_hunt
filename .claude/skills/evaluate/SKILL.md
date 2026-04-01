@@ -68,7 +68,7 @@ It is sufficient for Steps 3-5 (hard constraint check, H1B check, fit assessment
   self-assessment table, networking templates, or search query context
 - Read `jamie/h1b_verified.md` (132 lines) — only if the company is NOT in profile_compact.md's
   quick reference (i.e., not in confirmed/cap-exempt/no-sponsor lists)
-- **Live application data** — Use WebFetch to pull Jamie's live Google Sheet:
+- **Live application data** — Use WebFetch to pull your live Google Sheet:
   - 2026 tab: `https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E/export?format=csv&gid=1018026840`
   - 2025 tab: `https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E/export?format=csv&gid=0`
   - If WebFetch fails, fall back to `jamie/application_tracker.md` (static snapshot)
@@ -117,7 +117,7 @@ Run through these in order. If ANY fails, it's an instant **PASS**:
 
 Using the self-assessment table in `jamie/preferences.md`:
 
-1. List each major JD requirement and map it to Jamie's strength level (3-star, 2-star, 1-star)
+1. List each major JD requirement and map it to your strength level (3-star, 2-star, 1-star)
 2. Calculate approximate match percentage
 3. Apply the **remote vs. local bar**:
    - Remote roles need 80%+ match PLUS an additional advantage

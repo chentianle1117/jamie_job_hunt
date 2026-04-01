@@ -18,7 +18,7 @@ you will give feedback at every stage. Listen carefully and adapt.
 
 ### PIPELINE OVERVIEW (show this first)
 
-When Jamie triggers this pipeline, immediately show her this roadmap:
+When you trigger this pipeline, immediately show this roadmap:
 
 ```
 === APPLICATION PIPELINE ===
@@ -171,12 +171,12 @@ This is the pre-flight checklist before Jamie hits "Apply."
   ✅ Job evaluated — [GO / STRETCH] with [X]% match
   ✅ Resume tailored — [X] bullets customized
   ✅ Outreach — [X] contacts identified, messages drafted
-  □  Resume PDF exported (Jamie does this manually)
+  □  Export your tailored resume as PDF
   □  Cover letter needed? [Yes — draft below / No / Optional]
 
   COVER LETTER (if needed):
   [Draft using content_library.md building blocks — self-intro + why this company
-   + 2-3 pillars connecting Jamie's experience to JD + closing]
+   + 2-3 pillars connecting your experience to JD + closing]
 
   APPLICATION ANSWERS (common questions):
   • Willing to relocate? → [Yes — moving to Portland / Already in Portland / Open to relocation]
@@ -199,10 +199,10 @@ This is the pre-flight checklist before Jamie hits "Apply."
 
 ## ACTIVE LISTENING & FEEDBACK PROTOCOL
 
-Throughout the ENTIRE pipeline, watch for Jamie's feedback and adapt immediately:
+Throughout the ENTIRE pipeline, watch for your feedback and adapt immediately:
 
 ### Tone Feedback
-| Jamie says | What to do |
+| You say | What to do |
 |---|---|
 | "too cliche" / "sounds fake" | Revert to original wording, reduce keyword insertion |
 | "too formal" / "too corporate" | Use shorter sentences, casual vocabulary |
@@ -212,7 +212,7 @@ Throughout the ENTIRE pipeline, watch for Jamie's feedback and adapt immediately
 | "sounds like AI wrote it" | Biggest red flag — significantly simplify, use your own phrases |
 
 ### Process Feedback
-| Jamie says | What to do |
+| You say | What to do |
 |---|---|
 | "skip to [stage]" | Jump ahead, but note what was skipped |
 | "go back to [stage]" | Return and revise |
@@ -223,7 +223,7 @@ Throughout the ENTIRE pipeline, watch for Jamie's feedback and adapt immediately
 ### Learning Feedback (save for future)
 If you give feedback that should apply to ALL future applications (not just this one),
 acknowledge it clearly: "Got it — I'll remember [X] for future applications too."
-This includes preferences about tone, bullet style, types of roles she doesn't want, etc.
+This includes preferences about tone, bullet style, types of roles you don't want, etc.
 
 ---
 
@@ -239,7 +239,7 @@ This includes preferences about tone, bullet style, types of roles she doesn't w
 | LinkedIn contact search (name + URL extraction) | `haiku` | Structured data pull |
 | Outreach message drafting | `sonnet` | Requires your voice + relationship awareness |
 | Cover letter drafting | `sonnet` | Judgment-heavy, must sound like you |
-| Fit evaluation / gap analysis | `sonnet` | Requires understanding of Jamie's full background |
+| Fit evaluation / gap analysis | `sonnet` | Requires understanding of your full background |
 | Orchestrator / main pipeline thread | `sonnet` | Coordinates stages — needs full capability |
 
 **Rule:** Any agent doing pure data retrieval or writes → `haiku`. Any agent drafting words or making fit judgments → `sonnet`.
@@ -268,7 +268,7 @@ This includes preferences about tone, bullet style, types of roles she doesn't w
 - Stage 3 (outreach) and Stage 4 (apply) should ask before doing expensive work:
   - "Want me to search for contacts at [Company]?" (Chrome browsing = expensive)
   - "Should I draft a cover letter?" (Sonnet generation = expensive)
-- If Jamie says "just prep the checklist" → skip contact search + cover letter, go straight to checklist
+- If you say "just prep the checklist" → skip contact search + cover letter, go straight to checklist
 
 ### Sub-Agent Rules
 - Every spawned agent MUST specify `model: "haiku"` unless it needs voice/judgment
@@ -280,8 +280,8 @@ This includes preferences about tone, bullet style, types of roles she doesn't w
 
 ## OUTPUT PRINCIPLES
 
-1. **Dashboards at every stage** — Jamie should always know where she is and what's next
-2. **Clear action items** — every dashboard ends with specific checkboxes for Jamie
+1. **Dashboards at every stage** — you should always know where you are and what's next
+2. **Clear action items** — every dashboard ends with specific checkboxes for you
 3. **Progress indicators** — update the pipeline overview as stages complete
 4. **Summaries, not walls of text** — lead with the verdict, details below
 5. **Ask before proceeding** — never auto-advance to the next stage without confirmation
