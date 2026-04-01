@@ -21,7 +21,7 @@
 
 ### Consultant, Organizational Development & Employee Engagement (Remote, USA)
 
-**Transition Projects Inc. (via ODN Oregon) — August 2025 to Present**
+**Organization Development Network (ODN) Oregon — August 2025 to Present**
 
 - Facilitate CEO/HR discovery and stakeholder interviews to diagnose absenteeism drivers; analyze leave data to quantify costs
 - Design a year-round engagement & communications plan and recommend programs, targeting 5%+ absenteeism reduction

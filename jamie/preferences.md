@@ -58,7 +58,7 @@ Local presence is a real competitive advantage. More lenient, but:
 ## 🎯 Role Priorities (in order)
 
 ### Priority 1 — People / HR Consulting (Junior / Entry-Level)
-Jamie wants to break into consulting. Has OD consulting exp (Transition Projects via ODN Oregon) but limited.
+Jamie wants to break into consulting. Has OD consulting exp (Organization Development Network (ODN) Oregon) but limited.
 * Talent Development Consultant
 * Employee Experience Consultant
 * OD Consultant (entry-level)
