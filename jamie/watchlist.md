@@ -109,7 +109,7 @@
 | Accenture | accenture.com/careers | "talent" "change management" "analyst" "people" | ✅ Confirmed | — | Large. Filter: analyst/associate only. |
 | McKinsey | mckinsey.com/careers | "people" "org" "analyst" "associate" | ✅ Confirmed | — | Implementation/org practice. |
 | Deloitte | — | — | ❌ No H1B | — | SKIP. Confirmed no H1B in current program. |
-| BCG | — | — | ❌ Skip list | — | SKIP. On skip list. |
+| BCG | bcg.com/careers | "people" "talent" "HR" "program" "organizational development" "analyst" "associate" | ✅ Confirmed | — | Top-tier management consulting. Check for HR/people/OD analyst & associate roles. |
 
 ---
 
@@ -181,5 +181,6 @@
 
 | Date | Action |
 |------|--------|
+| 2026-04-02 | BCG moved off skip list → active in Tier 4 with careers URL and search keywords. |
 | 2026-03-28 | v3.3: Added ATS mapping info. NL/EU Tier 8 prepared but kept in separate agent. |
 | 2026-03-24 | Initial watchlist created. 80+ companies across 7 tiers. |
