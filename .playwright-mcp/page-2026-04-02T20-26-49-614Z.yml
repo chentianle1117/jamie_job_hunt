@@ -1,0 +1,269 @@
+- generic [ref=e2]:
+  - link "Skip To Main Content" [ref=e3] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link "Providence home" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - navigation:
+          - button "Navigation menu" [ref=e9] [cursor=pointer]:
+            - generic [ref=e13]: Navigation menu
+    - generic [ref=e14]:
+      - search [ref=e15]:
+        - generic [ref=e16]:
+          - heading "Search for jobs" [level=2] [ref=e17]
+          - combobox "Keyword" [ref=e19]:
+            - generic [ref=e20]: Keyword
+            - textbox "Keyword" [ref=e22]:
+              - /placeholder: Search by job title, keywords, military code
+          - combobox "Location" [ref=e24]:
+            - generic [ref=e25]: Location
+            - textbox "Location" [ref=e27]:
+              - /placeholder: Search by city
+          - button "Search" [ref=e28] [cursor=pointer]
+      - main [ref=e29]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e35]:
+              - heading "Program Manager- Medical Management - Remote" [level=1] [ref=e36]
+              - generic [ref=e37]: Portland, OR
+            - generic [ref=e38]:
+              - link "Apply Now" [ref=e39] [cursor=pointer]:
+                - /url: https://rr.jobsyn.org/75A99AF8BB434F9394960520D3856D5110
+              - link "Caregivers/ Employees Apply Here" [ref=e40] [cursor=pointer]:
+                - /url: https://evac.fa.us2.oraclecloud.com/fscmUI/faces/deeplink?objType=IRC_RECRUITING&action=ICE_JOB_DETAILS_RESP&objKey=pRequisitionNo=423050
+              - list [ref=e41]:
+                - listitem [ref=e42]:
+                  - button "Share this job" [ref=e43] [cursor=pointer]:
+                    - img [ref=e44]
+                    - text: Share this job
+          - generic [ref=e48]:
+            - tablist [ref=e49]:
+              - generic [ref=e51]:
+                - tab "About Who We Are" [ref=e52] [cursor=pointer]:
+                  - heading "About Who We Are" [level=2] [ref=e53]
+                - tab "Benefits" [ref=e54] [cursor=pointer]:
+                  - heading "Benefits" [level=2] [ref=e55]
+                - tab "Join our Talent Network" [ref=e56] [cursor=pointer]:
+                  - heading "Join our Talent Network" [level=2] [ref=e57]
+            - tabpanel
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - paragraph [ref=e60]:
+                - strong [ref=e61]: Description
+              - generic [ref=e62]:
+                - paragraph [ref=e63]: "ReqID: 423050"
+                - paragraph [ref=e64]: "Company: Providence"
+                - paragraph [ref=e65]: "Job Category: Project Management"
+                - paragraph [ref=e66]: "Shift: Day"
+                - paragraph [ref=e67]: "Schedule: Full time"
+                - paragraph [ref=e68]: "Work Location: Providence Health Plaza (HR) Bldg 1-Portland"
+              - generic [ref=e69]:
+                - paragraph [ref=e70]:
+                  - strong [ref=e71]: Program Manager - Medical Management - Remote
+                - paragraph [ref=e72]: Under the direction of the Head of Providence Health Plan Payment Integrity (PI), the program manager of PI is responsible for the development, evaluation, coordination, implementation, and monitoring of all PI initiatives across the health plan. The PI manager oversees and drives all aspects and outcomes of PI through strategic matrixed relationships, ensuring initiatives have been appropriately communicated and prioritized across a wide range of stakeholders. Primary responsibilities include detailed tracking of initiatives with established data and expected ROI savings estimates, creation of manual and automated workflow pathways, plan policy development, and regulatory, contract, and benefit vetting. This role is responsible for setting and driving accountability through the Plan PI Committee, including identification and escalation of roadblocks.
+                - paragraph [ref=e73]: Providence Health Plan caregivers are not simply valued – they’re invaluable. Join our team at Providence Health Plan Partners and thrive in our culture of patient-focused, whole-person care built on understanding, commitment, and mutual respect. Your voice matters here, because we know that to inspire and retain the best people, we must empower them.
+                - paragraph [ref=e74]:
+                  - strong [ref=e75]: "This role offers 100% remote work for candidates residing in:"
+                - list [ref=e76]:
+                  - listitem [ref=e77]:
+                    - paragraph [ref=e78]: Oregon
+                  - listitem [ref=e79]:
+                    - paragraph [ref=e80]: Washington
+                  - listitem [ref=e81]:
+                    - paragraph [ref=e82]: California
+                - paragraph [ref=e83]:
+                  - strong [ref=e84]: "Required Qualifications:"
+                - list [ref=e85]:
+                  - listitem [ref=e86]:
+                    - paragraph [ref=e87]: Bachelor's Degree
+                  - listitem [ref=e88]:
+                    - paragraph [ref=e89]: 3 years Healthcare experience in project coordination encompassing operations analysis, outcomes measurement methodology, data management and quality improvement process design.
+                  - listitem [ref=e90]:
+                    - paragraph [ref=e91]: 3 years Experience with performance improvement/organizational change tools.
+                  - listitem [ref=e92]:
+                    - paragraph [ref=e93]: 3 years Change management experience.
+                  - listitem [ref=e94]:
+                    - paragraph [ref=e95]: Experience in Six Sigma and/or Lean methodology
+                - paragraph [ref=e96]:
+                  - strong [ref=e97]: "Salary Range by Location:"
+                - list [ref=e98]:
+                  - listitem [ref=e99]:
+                    - paragraph [ref=e100]:
+                      - strong [ref=e101]: "California: Humboldt:"
+                      - text: "Min: $44.35, Max: $68.86"
+                  - listitem [ref=e102]:
+                    - paragraph [ref=e103]:
+                      - strong [ref=e104]: "California: All Northern California - Except Humboldt:"
+                      - text: "Min: $49.76, Max: $77.25"
+                  - listitem [ref=e105]:
+                    - paragraph [ref=e106]:
+                      - strong [ref=e107]: "California: All Southern California - Except Bakersfield:"
+                      - text: "Min: $44.35, Max: $68.86"
+                  - listitem [ref=e108]:
+                    - paragraph [ref=e109]:
+                      - strong [ref=e110]: "California: Bakersfield:"
+                      - text: "Min: $42.55, Max: $66.06"
+                  - listitem [ref=e111]:
+                    - paragraph [ref=e112]:
+                      - strong [ref=e113]: "Oregon: Non-Portland Service Area:"
+                      - text: "Min: $39.67, Max: $61.58"
+                  - listitem [ref=e114]:
+                    - paragraph [ref=e115]:
+                      - strong [ref=e116]: "Oregon: Portland Service Area:"
+                      - text: "Min: $42.55, Max: $66.06"
+                  - listitem [ref=e117]:
+                    - paragraph [ref=e118]:
+                      - strong [ref=e119]: "Washington: Western - Except Tukwila:"
+                      - text: "Min: $44.35, Max: $68.86"
+                  - listitem [ref=e120]:
+                    - paragraph [ref=e121]:
+                      - strong [ref=e122]: "Washington: Tukwila:"
+                      - text: "Min: $44.35, Max: $68.86"
+                  - listitem [ref=e123]:
+                    - paragraph [ref=e124]:
+                      - strong [ref=e125]: "Washington: Eastern:"
+                      - text: "Min: $37.86, Max: $58.78"
+                  - listitem [ref=e126]:
+                    - paragraph [ref=e127]:
+                      - strong [ref=e128]: "Washington: Southeastern:"
+                      - text: "Min: Min: $39.67, Max: $61.58"
+                - paragraph [ref=e129]:
+                  - strong [ref=e130]: Why Join Providence Health Plan?
+                - paragraph [ref=e131]:
+                  - text: Our
+                  - link "best-in-class benefits" [ref=e132] [cursor=pointer]:
+                    - /url: https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fprovidence.jobs%2Fbenefits%2F&data=05%7C01%7Cethelleah.torres1%40providence.org%7C6da11282629946c936bc08dbf64b1e78%7C2e3190869a2646a3865f615bed576786%7C0%7C0%7C638374574718197112%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=CHUc7JRL0t6AAExYx6UfCEVEH8gfmaw9cEOZ4wX0%2BZU%3D&reserved=0
+                  - text: are uniquely designed to support you and your family in staying well, growing professionally, and achieving financial security. We take care of you, so you can focus on delivering our
+                  - link "Mission" [ref=e133] [cursor=pointer]:
+                    - /url: https://providence.jobs/mission/
+                  - text: of caring for everyone, especially the most vulnerable in our communities.
+                - paragraph [ref=e134]: Accepting a new position at another facility that is part of the Providence family of organizations may change your current benefits. Changes in benefits, including paid time-off, happen for various reasons. These reasons can include changes of Legal Employer, FTE, Union, location, time-off plan policies, availability of health and welfare benefit plan offerings, and other various reasons.
+                - paragraph [ref=e135]:
+                  - strong [ref=e136]: About Providence
+                - paragraph [ref=e137]: At Providence, our strength lies in Our Promise of “Know me, care for me, ease my way.” Working at our family of organizations means that regardless of your role, we’ll walk alongside you in your career, supporting you so you can support others. We provide best-in-class benefits and we foster an inclusive workplace where diversity is valued, and everyone is essential, heard and respected. Together, our 120,000 caregivers (all employees) serve in over 50 hospitals, over 1,000 clinics and a full range of health and social services across Alaska, California, Montana, New Mexico, Oregon, Texas and Washington. As a comprehensive health care organization, we are serving more people, advancing best practices and continuing our more than 100-year tradition of serving the poor and vulnerable.
+                - paragraph [ref=e138]: Posted are the minimum and the maximum wage rates on the wage range for this position. The successful candidate's placement on the wage range for this position will be determined based upon relevant job experience and other applicable factors. These amounts are the base pay range; additional compensation may be available for this role, such as shift differentials, standby/on-call, overtime, premiums, extra shift incentives, or bonus opportunities.
+                - paragraph [ref=e139]:
+                  - text: Providence offers a comprehensive benefits package including a retirement 401(k) Savings Plan with employer matching, health care benefits (medical, dental, vision), life insurance, disability insurance, time off benefits (paid parental leave, vacations, holidays, health issues), voluntary benefits, well-being resources and much more. Learn more at
+                  - link "providence.jobs/benefits" [ref=e140] [cursor=pointer]:
+                    - /url: https://providence.jobs/benefits/
+                  - text: .
+                  - text: "Applicants in the Unincorporated County of Los Angeles: Qualified applications with arrest or conviction records will be considered for employment in accordance with the"
+                  - link "Unincorporated Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act" [ref=e141] [cursor=pointer]:
+                    - /url: https://s3-us-west-2.amazonaws.com/images.provhealth.org/HR-onboarding/LA_County_Fair_Chance_Ordinance_2024.pdf
+                  - text: .
+                  - strong [ref=e142]: About the Team
+                - paragraph [ref=e143]: Providence Shared Services is a service line within Providence that provides a variety of functional and system support services for our family of organizations across Alaska, California, Montana, New Mexico, Oregon, Texas and Washington. We are focused on supporting our Mission by delivering a robust foundation of services and sharing of specialized expertise.
+                - paragraph [ref=e144]:
+                  - text: Providence is proud to be an
+                  - link "Equal Opportunity Employer" [ref=e145] [cursor=pointer]:
+                    - /url: https://www.providenceiscalling.jobs/eeo/
+                  - text: . We are committed to the principle that every workforce member has the right to work in surroundings that are free from all forms of unlawful discrimination and harassment on the basis of race, color, gender, disability, veteran, military status, religion, age, creed, national origin, sexual identity or expression, sexual orientation, marital status, genetic information, or any other basis prohibited by local, state, or federal law. We believe
+                  - link "diversity" [ref=e146] [cursor=pointer]:
+                    - /url: https://providence.jobs/diversity/
+                  - text: makes us stronger, so we are dedicated to shaping an inclusive workforce, learning from each other, and creating equal opportunities for advancement.
+              - generic [ref=e147]:
+                - paragraph [ref=e148]: "Pay Range: $ See Posting - $ See Posting"
+                - paragraph [ref=e149]: The amounts listed are the base pay range; additional compensation may be available for this role, such as shift differentials, standby/on-call, overtime, premiums, extra shift incentives, or bonus opportunities.
+              - generic [ref=e150]:
+                - link "Apply Now" [ref=e151] [cursor=pointer]:
+                  - /url: https://rr.jobsyn.org/75A99AF8BB434F9394960520D3856D5110
+                - link "Caregivers/ Employees Apply Here" [ref=e152] [cursor=pointer]:
+                  - /url: https://evac.fa.us2.oraclecloud.com/fscmUI/faces/deeplink?objType=IRC_RECRUITING&action=ICE_JOB_DETAILS_RESP&objKey=pRequisitionNo=423050
+              - list [ref=e153]:
+                - listitem [ref=e154]:
+                  - button "Share this job" [ref=e155] [cursor=pointer]:
+                    - img [ref=e156]
+                    - text: Share this job
+            - iframe [ref=e159]:
+              - generic [active] [ref=f2e1]:
+                - generic [ref=f2e6]:
+                  - generic [ref=f2e9] [cursor=pointer]:
+                    - paragraph [ref=f2e13]: Why do you choose to work at Providence?
+                    - paragraph [ref=f2e21]: Samantha Gilbertson
+                    - paragraph [ref=f2e23]: Mission Services Coordinator
+                  - generic [ref=f2e26] [cursor=pointer]:
+                    - paragraph [ref=f2e30]: Why do you choose to work at Providence?
+                    - paragraph [ref=f2e34]: Nicole Kennard
+                    - paragraph [ref=f2e36]: Talent Consulting Director
+                  - generic [ref=f2e39] [cursor=pointer]:
+                    - paragraph [ref=f2e43]: How does Providence foster inclusivity in the workplace?
+                    - paragraph [ref=f2e47]: Angelica Nunez
+                    - paragraph [ref=f2e49]: Human Resource Business Partner
+                  - generic [ref=f2e52] [cursor=pointer]:
+                    - paragraph [ref=f2e56]: How does Providence support you and your goals?
+                    - paragraph [ref=f2e60]: Lori Lynn Staley
+                    - paragraph [ref=f2e62]: Compliance Specialist
+                - alert [ref=f2e68]
+        - link [ref=e163] [cursor=pointer]:
+          - /url: /family/
+      - generic [ref=e164]: 5018 HCS MEDICAL MANAGEMENT OR REGION
+    - generic [ref=e165]:
+      - contentinfo [ref=e166]:
+        - generic [ref=e169]:
+          - generic [ref=e170]:
+            - heading "Connect with us" [level=3] [ref=e171]
+            - paragraph [ref=e172]:
+              - text: Keep in touch to hear about our
+              - text: caregivers and organization.
+            - list [ref=e173]:
+              - listitem [ref=e174]:
+                - link "facebook" [ref=e175] [cursor=pointer]:
+                  - /url: https://www.facebook.com/ProvidenceCareers
+                  - img [ref=e176]
+              - listitem [ref=e178]:
+                - link "instagram" [ref=e179] [cursor=pointer]:
+                  - /url: https://www.instagram.com/provcareers/
+                  - img [ref=e180]
+              - listitem [ref=e182]:
+                - link "linkedin" [ref=e183] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/showcase/providencehealthsystemcareers/
+                  - img [ref=e184]
+              - listitem [ref=e186]:
+                - link "youtube" [ref=e187] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@providencecareers
+                  - img [ref=e188]
+              - listitem [ref=e190]:
+                - link "twitter" [ref=e191] [cursor=pointer]:
+                  - /url: https://twitter.com/providence
+                  - img [ref=e192]
+          - list [ref=e194]:
+            - listitem [ref=e195]:
+              - paragraph [ref=e196]:
+                - link "View all jobs" [ref=e197] [cursor=pointer]:
+                  - /url: /jobs/
+            - listitem [ref=e198]:
+              - paragraph [ref=e199]:
+                - link "Join our talent network" [ref=e200] [cursor=pointer]:
+                  - /url: https://providence.avature.net/providencetalentnetwork
+        - list [ref=e203]:
+          - listitem [ref=e204]: © 2026 Providence Health & Services. All rights reserved.
+          - listitem [ref=e205]:
+            - link "EEO, Applicant Notices and Accommodations" [ref=e206] [cursor=pointer]:
+              - /url: /eeo/
+            - text: "|"
+          - listitem [ref=e207]:
+            - link "FAQs" [ref=e208] [cursor=pointer]:
+              - /url: /faq/
+            - text: "|"
+          - listitem [ref=e209]:
+            - link "Terms of Use & Privacy Policy" [ref=e210] [cursor=pointer]:
+              - /url: https://www.providence.org/utility-pages/privacy-policy
+            - text: "|"
+          - listitem [ref=e211]:
+            - link "Disclaimer" [ref=e212] [cursor=pointer]:
+              - /url: https://www.providence.org/utility-pages/disclaimer
+            - text: "|"
+          - listitem [ref=e213]:
+            - link "Non-discrimination and Accessibility Rights" [ref=e214] [cursor=pointer]:
+              - /url: http://www.providence.org/Utility-Pages/PHS-nondiscrimination-statement
+      - generic [ref=e217]:
+        - paragraph [ref=e218]:
+          - text: We use cookies to improve your experience on our site. To find out more, read our
+          - link "privacy policy" [ref=e219] [cursor=pointer]:
+            - /url: https://directemployers.org/privacy-terms/
+          - text: .
+        - generic [ref=e220]:
+          - button "Accept Cookies" [ref=e221] [cursor=pointer]
+          - button "Decline Cookies" [ref=e222] [cursor=pointer]
