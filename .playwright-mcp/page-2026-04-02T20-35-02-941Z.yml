@@ -1,0 +1,180 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]: .
+    - generic [ref=e4]: ..
+    - generic [ref=e5]: .
+  - generic [ref=e6]:
+    - link "Skip to main content." [ref=e7] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - banner [ref=e12]:
+          - generic [ref=e15]:
+            - link "Go to Home Page" [ref=e17] [cursor=pointer]:
+              - /url: https://egmk.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/?utm_medium=jobshare&utm_source=External+Job+Share
+            - generic [ref=e18]:
+              - link "Manage profile" [ref=e21] [cursor=pointer]:
+                - /url: https://egmk.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/my-profile/sign-in
+                - generic [ref=e22]: 
+              - button "Open menu" [ref=e24] [cursor=pointer]:
+                - generic [ref=e25]:
+                  - emphasis [ref=e26]
+                  - emphasis [ref=e27]
+                  - emphasis [ref=e28]
+        - main [ref=e30]:
+          - generic [ref=e37]:
+            - generic [ref=e40]:
+              - button "Copy Link" [ref=e45] [cursor=pointer]:
+                - emphasis [ref=e46]: 
+              - button "Add Job to My Job Selections" [ref=e48] [cursor=pointer]: 
+              - link "View More Jobs" [ref=e50] [cursor=pointer]:
+                - /url: https://egmk.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/jobs?utm_medium=jobshare&utm_source=External+Job+Share
+                - generic [ref=e51]:
+                  - text: 
+                  - generic [ref=e52]: View More Jobs
+            - article [ref=e53]:
+              - generic [ref=e59]:
+                - generic [ref=e63]:
+                  - heading "Talent Management Specialist II" [level=1] [ref=e65]
+                  - generic [ref=e67]: Pittsburgh, PA, United States (Hybrid)
+                - generic [ref=e75]:
+                  - heading "Job Description" [level=2] [ref=e76]
+                  - generic [ref=e77]:
+                    - paragraph [ref=e78]: HWI has a fantastic opportunity to join our Talent Acquisition team as a Talent Management Specialist II. In this highly collaborative role, you will work closely with our business leaders to develop our internal talent through succession planning, talent development and analysis.
+                    - generic [ref=e79]: The Talent Management Specialist II is responsible for implementing and continuously improving the global succession planning and talent development strategy. This role will ensure leadership continuity and maintain strong internal talent pipelines. This role partners closely with business leaders and HR stakeholders to identify high-potential employees, assess critical roles, develop future leaders, and develop and align talent initiatives with the organizational strategy.
+                    - generic [ref=e80]:
+                      - strong [ref=e82]: "Responsibilities:"
+                      - generic [ref=e83]: Succession Planning and Talent Reviews
+                      - generic [ref=e84]: Partner with global, local business leaders and HR to identify critical roles, assess talent risk and bench strengths across the organization and employee development initiatives
+                      - list [ref=e86]:
+                        - listitem [ref=e87]: Develop, maintain, and update succession plans, including readiness levels and development pathways, ensuring processes are fair, inclusive, and consistent
+                        - listitem [ref=e88]: Facilitate talent reviews, succession planning including career path discussions, calibration sessions, and leadership discussions
+                        - listitem [ref=e89]: Track succession coverage and bench strength metrics; identify gaps and recommend practical solutions
+                        - listitem [ref=e90]: Coach leaders on talent identification, development, and succession best practices
+                      - generic [ref=e91]: Talent Development
+                      - list [ref=e93]:
+                        - listitem [ref=e94]: Partner with Learning & Development to manage leadership development programs to align training with operational and future capability needs
+                        - listitem [ref=e95]: Create and support Individual Development Plans (IDPs) for high-potential and critical-role talent
+                        - listitem [ref=e96]: Promote internal mobility and career pathing initiatives
+                      - generic [ref=e97]: Talent Assessment and Analytics
+                      - list [ref=e99]:
+                        - listitem [ref=e100]: Administer and interpret talent assessment tools (Harrison or other assessment)
+                        - listitem [ref=e101]: Analyze talent and succession data to assess readiness, development progress, and pipeline health
+                        - listitem [ref=e102]:
+                          - paragraph [ref=e103]: Prepare clear, actionable dashboards, insights, and reports for HR and business leaders on a regular cadence
+                          - paragraph [ref=e104]
+                      - strong [ref=e106]: "Requirements:"
+                    - list [ref=e109]:
+                      - listitem [ref=e110]: The Talent Management Specialist II requires 4–7 years of experience in talent management, succession planning, or leadership development in a global organization
+                      - listitem [ref=e111]: Bachelor’s degree in Human Resources, Organizational Development, Business, Psychology, or related field, Master’s degree and professional certification (e.g., SHRM, CIPD) preferred
+                      - listitem [ref=e112]: Experience facilitating talent reviews and working with senior leaders
+                      - listitem [ref=e113]: Proven experience designing and implementing development programs
+                      - listitem [ref=e114]: Strong understanding of leadership competencies, talent assessment tools, and development methodologies.
+                      - listitem [ref=e115]: Excellent facilitation, communication, and stakeholder management skills
+                      - listitem [ref=e116]: Experience working in a rapidly changing, complex environment
+                      - listitem [ref=e117]: Skill in establishing and maintaining effective working relationships with internal customers and Senior Management
+                      - listitem [ref=e118]: Ability to effectively communicate and interact with all levels of personnel within the organization, including presenting information and responding to questions from groups of managers, clients, customers and the public
+                      - listitem [ref=e119]: Ability to speak effectively before groups of customers or employees of the organization and to facilitate group discussions and serve as project lead as appropriate
+                      - listitem [ref=e120]: Ability to plan own work, pay close attention to detail and handle multiple priorities
+                      - listitem [ref=e121]: Ability to effectively market and promote the company in communities served
+                      - listitem [ref=e122]: Proficient in Microsoft products including Excel, Word and PowerPoint
+                      - listitem [ref=e123]: Oracle Cloud (or other HRIS system) knowledge
+                      - listitem [ref=e124]: Lean and/or Six Sigma experience is a plus
+                    - generic [ref=e125]:
+                      - strong [ref=e127]: "Physical and Environmental Requirements:"
+                      - list [ref=e129]:
+                        - listitem [ref=e130]: "Physical Activity: Requires more than 2/3 of time sitting, and talking or hearing; 1/3 to 2/3 of time standing, walking, using hands/fingers to handle and/or feel and reaching with hands and arms; less than 1/3 of time climbing or balancing and stooping, kneeling, crouching or crawling."
+                        - listitem [ref=e131]: "Lifting: Requires lifting up to 10 pounds less than 1/3 of time."
+                        - listitem [ref=e132]: "Vision: Requires accurate close, distance and color vision, and the ability to focus."
+                        - listitem [ref=e133]: "Environment: Requires more than 2/3 of time in an office setting with very limited exposure; less than 1/3 of time working in wet or humid conditions, extreme hot or cold, or outdoor weather conditions, exposed to fumes, airborne particles, toxic or caustic chemicals."
+                        - listitem [ref=e134]: "Noise: Requires exposure to moderate noise conditions"
+                - button "Apply Now" [ref=e141] [cursor=pointer]:
+                  - generic [ref=e142]: Apply Now
+                - generic [ref=e148]:
+                  - heading "Job Info" [level=2] [ref=e149]
+                  - list [ref=e153]:
+                    - listitem [ref=e154]:
+                      - generic [ref=e155]: Job Identification
+                      - generic [ref=e156]: "4069"
+                    - listitem [ref=e157]:
+                      - generic [ref=e158]: Posting Date
+                      - generic [ref=e159]: 03/05/2026, 08:12 AM
+                    - listitem [ref=e160]:
+                      - generic [ref=e161]: Degree Level
+                      - generic [ref=e162]: Bachelor's Degree
+                    - listitem [ref=e163]:
+                      - generic [ref=e164]: Job Schedule
+                      - generic [ref=e165]: Full time
+                    - listitem [ref=e166]:
+                      - generic [ref=e167]: Locations
+                      - generic [ref=e168]:
+                        - generic [ref=e170]:
+                          - emphasis [ref=e171]: 
+                          - text: 2000 Park Lane Drive, Pittsburgh, PA, 15275, US
+                        - generic [ref=e172]: (Hybrid)
+                - generic [ref=e181]:
+                  - list [ref=e182]:
+                    - listitem [ref=e183]:
+                      - generic "You're viewing job locations plotted on the map. If you're using a keyboard or other assistive tool, go to the job info section for location details." [ref=e184]:
+                        - region "Map" [ref=e185]
+                        - generic:
+                          - group [ref=e186]:
+                            - button "Legend" [ref=e191] [cursor=pointer]
+                          - generic [ref=e192]:
+                            - button "Zoom In" [ref=e193] [cursor=pointer]
+                            - button "Zoom Out" [ref=e195] [cursor=pointer]
+                          - group [ref=e197]:
+                            - generic [ref=e199]:
+                              - link "© Oracle Corporation":
+                                - /url: "#"
+                              - link "Terms" [ref=e200] [cursor=pointer]:
+                                - /url: https://elocation.oracle.com/elocation/legal.html
+                              - link "Legal Notices" [ref=e201] [cursor=pointer]:
+                                - /url: https://www.oracle.com/legal/terms.html
+                        - generic:
+                          - generic: Use command and scroll to zoom the map
+                        - generic [ref=e202]:
+                          - generic [ref=e204]:
+                            - paragraph [ref=e205]: 2000 Park Lane Drive, Pittsburgh, PA, 15275, US
+                            - link "Copy to Clipboard" [ref=e206] [cursor=pointer]:
+                              - /url: ""
+                          - button "Close" [ref=e207] [cursor=pointer]: 
+                  - generic:
+                    - button [ref=e208] [cursor=pointer]: 
+                    - button [ref=e209] [cursor=pointer]: 
+                - generic [ref=e213]:
+                  - heading "Similar Jobs" [level=2] [ref=e215]
+                  - list [ref=e218]:
+                    - listitem [ref=e219]:
+                      - generic [ref=e221] [cursor=pointer]:
+                        - link "Manager, Maintenance Department II Windham, OH, United States (On-site) • Posted on 02/17/2026 HWI has a fantastic opportunity to join our Maintenance Team as Manager, Maintenance Department II. This is a challenging role in which you will drive equipment performance improvements, manage maintenance costs, and optimize Preventive and Predictive Maintenance strategies. You will lead and develop maintenance staff and oversee capital projects to ensure quality, efficiency, and production goals are achieved." [ref=e222]:
+                          - /url: https://egmk.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/4009/?utm_medium=jobshare&utm_source=External+Job+Share
+                          - generic [ref=e223]:
+                            - generic [ref=e225]:
+                              - generic [ref=e226]: Manager, Maintenance Department II
+                              - generic [ref=e227]:
+                                - generic [ref=e228]: Windham, OH, United States (On-site) •
+                                - generic [ref=e231]: Posted on 02/17/2026
+                            - paragraph [ref=e232]: HWI has a fantastic opportunity to join our Maintenance Team as Manager, Maintenance Department II. This is a challenging role in which you will drive equipment performance improvements, manage maintenance costs, and optimize Preventive and Predictive Maintenance strategies. You will lead and develop maintenance staff and oversee capital projects to ensure quality, efficiency, and production goals are achieved.
+                        - generic [ref=e233]:
+                          - button "Add Job to My Job Selections" [ref=e235]: 
+                          - generic [ref=e236]: 
+                    - listitem [ref=e237]:
+                      - generic [ref=e239] [cursor=pointer]:
+                        - link "Technical Marketing Manager II United States (Remote) • Posted on 01/13/2026 HWI has a fantastic opportunity to lead our Technical Marketing team. This is a challenging role in which you will support the steel segment with a strong technical focus on steel ladle solutions." [ref=e240]:
+                          - /url: https://egmk.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/3801/?utm_medium=jobshare&utm_source=External+Job+Share
+                          - generic [ref=e241]:
+                            - generic [ref=e243]:
+                              - generic [ref=e244]: Technical Marketing Manager II
+                              - generic [ref=e245]:
+                                - generic [ref=e246]: United States (Remote) •
+                                - generic [ref=e249]: Posted on 01/13/2026
+                            - paragraph [ref=e250]: HWI has a fantastic opportunity to lead our Technical Marketing team. This is a challenging role in which you will support the steel segment with a strong technical focus on steel ladle solutions.
+                        - generic [ref=e251]:
+                          - button "Add Job to My Job Selections" [ref=e253]: 
+                          - generic [ref=e254]: 
+      - contentinfo
+    - alert
+    - status [ref=e255]:
+      - paragraph [ref=e256]: Page Talent Management Specialist II - Calderys Career Opportunities Careers loaded
+    - alert [ref=e257]
