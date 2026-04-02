@@ -1,0 +1,250 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "H1B Salary Database 2025" [ref=e5] [cursor=pointer]:
+        - /url: index.php
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "Companies" [ref=e9] [cursor=pointer]:
+            - /url: "#"
+            - text: Companies
+        - listitem [ref=e11]:
+          - link "Job Titles" [ref=e12] [cursor=pointer]:
+            - /url: "#"
+            - text: Job Titles
+        - listitem [ref=e14]:
+          - link "Cities" [ref=e15] [cursor=pointer]:
+            - /url: topcities.php
+        - listitem [ref=e16]:
+          - link "Highest Paid" [ref=e17] [cursor=pointer]:
+            - /url: "#"
+            - text: Highest Paid
+        - listitem [ref=e19]:
+          - link [ref=e20] [cursor=pointer]:
+            - /url: jobs.php?q=software
+  - generic [ref=e22]:
+    - iframe [ref=e25]:
+      - generic [ref=f1457e2]:
+        - iframe [ref=f1457e5]:
+          - link "Help is always ready with VrboCare.™ Book now" [ref=f1482e2] [cursor=pointer]:
+            - /url: javascript:void(window.open(clickTag))
+            - generic [ref=f1482e4]:
+              - img [ref=f1482e10]
+              - img [ref=f1482e16]
+              - img [ref=f1482e21]
+              - img [ref=f1482e28]
+              - paragraph [ref=f1482e36]
+              - img [ref=f1482e41]
+              - paragraph [ref=f1482e50]:
+                - text: Help is always ready with VrboCare.
+                - superscript [ref=f1482e51]: ™
+              - generic [ref=f1482e57]: Book now
+              - generic [ref=f1482e62]:
+                - img
+        - generic [ref=f1457e6]:
+          - generic:
+            - img [ref=f1457e10] [cursor=pointer]
+            - button [ref=f1457e13] [cursor=pointer]:
+              - img [ref=f1457e14]
+    - img "Ezoic" [ref=e28] [cursor=pointer]
+  - iframe [ref=e35]:
+    - iframe [ref=f1456e1]:
+      - generic [ref=f1465e5]:
+        - insertion [ref=f1465e7]:
+          - iframe [ref=f1465e8]:
+            - link "Advertisement" [ref=f1466e4] [cursor=pointer]:
+              - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstHdt6fKSL3KM6pJ0Ez-l-KF4oDf6aKfli7PM0yJCGrL48exhlrUHKymBD47JfY94cHDJNULk1BOvNTyW0L8vA8qEHAX3nsagiwoRY2nmO_WBbTmjlqUThHuVzvUTjiF3rwP2fw-2x_BXcnk9lP9CGo8kql5ygKQ4n-bMShFbgMRAIrk4eG6IK0seCWtGbDJRT2YnF2OcuOGjdxGxjdB-MdlPO1sSxe1hOgsw29UOWhzmeLAMnPOdhOhGJPehjCbsuuEBJL7SV_1-RauuU2YXDoxaiyXzJJFM0KNMoXOjx8FdnC6GPoPupWi25r-ECd6jdpYqIlLPQUYQm5ZWmyDf4n1T_3m0rSxpCPCauA6CL0lqFSH1Jr5g_0LYnXZykQL9SUTAPSzk3gCrQi1OvtPleEZOBM1nNmVwLMaLSCLzpYY__ZJLFTxv48U7aoJBl9aJ0Td2o0Bzgy0gLYT0iqLy2sZYJf2zQcLv2ARt-S9bXX3MWj_NawP3ItQVHOHfv6x0TnIIZl22LU-VgWOH2MUmSeHkt4GaE&sai=AMfl-YSr5tXAH3VZuH8oXkdF1-afEt4De53SEvTTUQho9AuCG-tXQuE9DAGAfwKe3-FH1S3LYvj2emjWeFY3455Nxu2dbTVD0pXFLQLzWe2UlSHYexlD_fSBjv6QZuGw4lH579d_JX1-2vlVstwj-VZlo9S8rhdcsqi7oK-240nQTuAr_yvS1qlM39YQwttNa6jur0oCxibWKuwR9f9d2f5fsefSXlkxSEe_0sHkJnUQ9f5VI97HJ4ErJ9Crl8mMP4ilZCY_IbDK3Mo-n-uJU3X363Dc7TEFiVH9ar1TnVjPQ1A2h8x6&sig=Cg0ArKJSzJPzPAOZhtAz&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCcIG1VtbOabWPHY-vjvAPleDjiAOI76j0XN69t5avAcCNtwEQASDg2u-gAWDJnqeM0KT0D8gBCeACAKgDAcgDAqoE2AJP0BkeAVPDOZ4ojR3T26O_Kj1xCNre5o8lw4jfyqcmdaGguPM6ZY3hNykPLIeLUclUwXMg5eYcC1UCpH5sc4WruCmAbp-nFmU9_Yat2o5OzCWlHcJfiU3PhQ2QCy2MritOM53xjy7-dzkGEkhtPkvqwaV8bxw33OwG2dbQalcSKHmlvraKlSTxSdr4WxDiY6vummC-9Ka9kNGK0LZfMqB0W3pDogGfHH8ErlcwVVdmZvQke-aIZIttMwdIm1cEPMDI3CV4jChUlYKWvWYgBn4niRP7KLKXm6_gt0GT7_YQU-GbESDenPTQxIcNipg3W3AdTxveormClES3T5fZ-BcXPRDDe0xzJYwP336o3Qz3WBY33lUnweMak6mQKTTcySfVtpk-4jT1zafmGBFA68n5LVhTlKGHeN0fzEtyEQmgRIagnkceuWyVjVPcLgVhnYuzRgvHUxUwj-AEAYAGnteQ5tSMp_AVoAYhqAeT2LECqAeU2LECqAeV2LECqAemvhuoB5bYG6gHqpuxAqgH_56xAqgH35-xAqgHrb6xAqgHv9OxAtgHANIILQiAYRABMgiKgoCAgICACDoOgECAwICAgICogAKogxBIvf3BOljX55-whdCTA_oLAggBgAwBqg0CVVPiDRMIho2gsIXQkwMVj5cDCB0V8Bgx6g0TCNX1oLCF0JMDFY-XAwgdFfAYMYgO____________AdAVAYAXAbIXEBgMKgo4Nzg3NDUwMjI2UAGqGBcJ9ihcjwfDHkESCjg3ODc0NTAyMjYYAQ%26num%3D1%26sig%3DAOD64_3PT-HHamMCuhqhddV3vvEBCXFnWA%26client%3Dca-pub-1175987143200523%26adurl%3Dhttps://exch.quantserve.com/r%3F%26a%3Dp-e9KDqb0WIZVj6%26labels%3D_qc.clk,_click.adserver.rtb,_click.rand.858758063%26rtbip%3D192.184.73.25%26rtbdata2%3DEAA6FGh0dHBzOi8vaDFiZGF0YS5pbmZvWihLMU9NM1hsZmk0MHdVOS1MZUZQQzJudGZqdHN3WDQzYUxRajlBdldjgAGvt76ZA7oBG0NBRVNFSmpkeGxlX1NNTTB4cWlsSFpqbmZyY8AB8LkmyAGEhNX_1DPaARYyZGkzQlF5MkFWV2hOY2RjY0ZDelZBsAIIyAIA0ALO4Yb7-J_3zKkB6AJH8gIOCIb5LhD84bHgqofk-1nyAgwIRxDu_qm6gYrKuAr4AgCKAxYwLnB1Yi0xMTc1OTg3MTQzMjAwNTIzmAMAqAMAsgMQJgAQFrBCckMEy613xVmL97oDEgnhTwn_HHI9DRGu_ZX9zdU_hMIDEgmpQCFDCTpUZxFK9WPDxv_6hMgDg4CAENgDr7e-mQPiAw9wLWU5S0RxYjBXSVpWajbqAwUI2AUQWvIDBTE1MTAy-AMAgATtA4oEAjc3kgQSNTQ5NjQ0MzkzODQ4OTg5Njc5mgQSCQ9NN3JbbWcqEcWTxjaAtyCpogQSCeFPCf8ccj0NEa79lf3N1T-EqgQSCeFPCf8ccj0NEa79lf3N1T-EuATQBcIEApED0AQH8gQCVVOABQGKBSo4MDA0M2E2MWNhNDRjNTE3ZjM1M2E4NzZiODMzZDgzOWU0NWZmMzJiMzKQBQGaBRWABDphykTFF_NTqHa4M9g55F_zKzKiBSRXOVN6dGtuU3FmWkVuOVRLZElIdjRXalZwXzEtZ25zWGp2QT2wBQK4BQDABa-3vpkDyAXhoKoE0gUGCAIQAhgS6AUGmgYUChIJD003clttZyoRxZPGNoC3IKmgBgC1Bvqulji6BkoKAlVTEgJQQRj8AyINYmV0aGVsJTIwcGFyayoFMTUxMDI6DXZlcml6b24lMjB1c2FaGHZlcml6b24lMjBjb21tdW5pY2F0aW9uc8kGQIgiBNoPgBHxBgMIIgTaD4AR-AYBgAcAigcSCalAIUMJOlRnEUr1Y8PG__qEsAeFybMEuAeNmYYF2AcE%26redirecturl3%3Dhttps://squareup.com/t/tid_9397/team_performance_mktg/onbd_self/funnel_lower/cmtp_performance/pr_cross_product/d_display/tar_prospect/p_quantcast/cn_evergreen/l_us%253Froute%253D/i/60B0F5E8F3%2526dclid%253D%2525edclid!%2526gad_source%253D7%2526gad_campaignid%253D21664461536
+              - img "Advertisement" [ref=f1466e5]
+        - link [ref=f1465e9] [cursor=pointer]:
+          - /url: https://pixel.quantcount.com/r?a=p-9fYuixa7g_Hm2;rand=858758063;labels=_click.creative.iab,_qc.iab.clk.p-e9KDqb0WIZVj6.0.10587277;redirecturl2=http://www.quantcast.com/adchoices
+          - img [ref=f1465e11]
+  - generic [ref=e36]:
+    - generic [ref=e37]:
+      - paragraph [ref=e38]: Search Salary Now
+      - paragraph [ref=e39]:
+        - iframe [ref=e44]:
+          - generic [active]:
+            - generic:
+              - generic [ref=f1423e2]:
+                - link "Advertisement" [ref=f1423e5] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsscxe_Lq-gMPnT0Asz9ema4jCIRaW6Go2saSLnrHBX2BHwxJ-SqOAa0NAmXnNv08pa0Eq0HrNz2LO8fOVsxxge0MnSLL-OTU1LPc6BUHTilXGR-PzR4WUaBrF9fcGOzDl079Onq8_by9vn_nk7lXB2P-vexobbBc5xu2fJJxBHXAWWe7PkgHoI6usiROudB8_MvH36riz7VVR5fK6s3F37mVoIeI1Rpb48zWlDQbbEgZ5t9hxqBrikyOOe7rH44gx9Z3WSFsn6lm3G4B4zEhx57t4kq9wC-1O3T0cXy38C6Jm686qDHBJlF5coZPMwIwfPzOo6dKesxhwdEtCuuTDAdX8ni9EuNX-SZyh9YjTHf1fouvC3kKDUhdITkDbElQRfOltbqJ4he7QLw1tlS2zuymorw-2A3oA99sOT6d8jBgvdzGIR32jAHovNweVo57trLnyjiOMvwv42i54CCIAetSFLM8-g4skcLFJcRapIFBppCpaUtgIMLn9plih4Y5Yc7YfoJrsUlaeoZKwYIlUvahbufLBav2FEujnOhshAEOeLQ_NgBms7EGCQrdgMmeuLF70o1_AmzI2qBtm5qwpPk64TTAdtMGMmP-WHKZgQo6L3gZMCzHLkGZFRGGsyL0MPkbnxJgviHOBLcFIxAtuWK96_81uF7VKdOG5MF4YByr4f-4iWBPfhNmuEydX8vQJFvQ3Z_ScOeTZGWqwz0MBd74E2OkofFN84qtCrUgnZWtOQ_XHbt9fG1F-oWQ9nbJ1aARqoIrYNEEg167m_CoZ5W7trZeKAG0eB_y2TxqIkQ0MtkQpQh75dZ-fxxLNln4Kb1zZ8N9nhFdxqMxc2sPBgAen_8zaP8aM2fO9q828_JqD9cMpD_oA4nV7d3YaNk9fCEzKw7aJamfvhCLvHD8G5gkaX9ZVr3QnrAb6tm4C2ZQEaSsZiB9-9u06DdPiseDD0yX6UXHdoZpbmWzvX-rmbWW45-O2iOy5DkVvY7NKBh0LaM2AOQzsn8q5ROzZ2AAeM82pB_KRHDJ_BbFQUtL9BzY5J7fW-11pXLxZNPOgBFJBGwkBtjvwiu4UPuocj-wce5_oidFyUaA_CcF7yHfWHikNmGuGSToQnP3H1JvP1iMxrPpiZ4BFhQSUbnqqTdYyuQd1dSedzDHX14f096llvZT9Iyf_gM5AcLvGisX_itol5jR4Cx4FzXOJEIFnUt7anMK005h8j9M0HbS1CfXPVuEZXLUH1DYbVUSsyiUWpT5qap34jb6johP35Rn4OuRwXYiJRFLSqhKe0DuYodMvn4ZPNqeGEC2wyYl7nBZYZMFoq_jPuWVA6R80VqAcSSB7_lzyX7JM0fiKUPTDPq5nHw0tOJ88EoK0qjtOgDB5V3BX7HNtdlx3PwlQfYbTiVpley6a242PQvCYYKtY5Ff21-MLG24OZlazMCxKH3P-2GjPUF7vAPNgjTMDkCgmOZKTAa9aqZ2pyUbY_ohIMq5I-FbN3EiybqHpH5Ko-mlSgROiSnPLkPnpXTuvlLbVg9H1d0BMwHlmzIjQMa-JqOvK-AG5eOZiy6WRgl89Ggnd5JPtr6SmlSKsOfz7weGLy_wHrRJRg1PvCwIV_LnkrrlGHN1F0Sq2nhtc_8PbDZiV7qeaNok5tr6rFWwWoNlPVuagK7h7bYnLYFsUlAAjfZmqa9WBwdol-oCnSbQQw_o89af5wTj9RCBI9IyRH43otw0jeVFHHlF0jzUAVq6OnS0VudhofOXeGiPhDCYrwLh4DoVoYFGJGoaFzBWzp6balI7aQ95l9V0-8w_BkNYsKs8Lyt5p_j2Fcp6yWD9GZZtpP8ov7RC5cdgSfQzeaISb8A9GgOtYdbT3hsJv2DMMX1nCidHXjJjtulvI3sR-WmK3jbBg&sai=AMfl-YT4jewOvwcbJrjnTdwkm-c7VX6nPRaZJ5TzLLa9j0ZGVbx4N7S-090dV1-_iwjaNFQC4AqCWii_cBqCNCTEtDUAfOE5ktnMEA2Jyjp0pkG77VJAWVXLj6C10Cc9FsEp8bxgZMR0NgkbnxGNq6FWrlAuoldu_CgTLGyygta1RiQTphicUMLOLkaJNYqNtGPdFIz4OJsn6mysEIrgW1iTGeYibXWz1yUYDfe_jB7rsE_iXGEVoH7Ake5tRVXcSMFIW1wBfNSke5hJ-ATZugoVIYtPOYbgWs9dFukjJyAVtT3S0BeDAVWvHKwGJVXZqb0_S3WPJ0yMYE4-qwBz0YiT3zSy0YkNH_RJpbCNycnbyKk4JDaDzeQtWnYvd9URv44JockoViA7QRpnt8PYBK5SMiZVv0x8xLVXb-iqOcpVxjlB7VaJCCN4TUbBxJYbZbPIhCcpZqU_rb8-jt8GsTgc81lh5BnKOt-ezpMjFTQh-N7ifY_sUKHFhiwXNFWO1IRw_LXqgWbAxUnZoCbGyKOqmNVQgprgt-VsDJvjigoFP2cylWhWwB-ufmcz51V7Ii6tSwSLgEmEGRYzyj4j5XVgLfpGB_Pd36VsOMJz0LK9Ud1okzbKpkEwKVyTRzHWB60gZlfLXdMrYLeSCULEvzgmzXft4FQ1ke3QIw2mVyr7HHkQbeDKLBKL8BuI9DaFh80WCCEtImNQVg2owlx4cyxck_YCVdPvh-K4sTu1iCdX9-3-XQEcnGi5yTYlvzjTMBpf9bb4eR90cCx5xSdxOg2Vs4_OoT98B7pCAtiXwzpg8TT5cL8C-pjY7jEQ5Yd2MsmKn1v0G788Vb8ZP2fejLGzNbSHefwK5_EF6_kmtF-pRuZAeJe4MbK9eciPftmuSsyZs3jNAhI7-ygZLoBoPlFguzwndFZjsYfWeUSQb7k-NcYKsHgvcGf6B0TW5MpDAfRuM9uQuQ5Svs6VeUbJM8MtU2aHnDOhIJ4LZhc-IvODOevDr3fbHYomvIpyWeVWCsKL3li-iopOMDJDxsFRwZ4Z8KthrF65xFVPUWKIYvVuRYYVwjCq1zncrEZR0DYkV2nXxe-cdtcv6mnkHQh0piYJqdaTFOdkxoLrokZIAw&sig=Cg0ArKJSzDkx5nnhZLn7&pr=8:6998800D84FA0733&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.hertz.com/us/en/deals-and-offers/us-offers/save-up-to-25-now%3Futm_content%3DFKQ-Display%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D22684062889
+                  - img "Advertisement" [ref=f1423e6]
+                - generic [ref=f1423e7]:
+                  - generic:
+                    - img [ref=f1423e11] [cursor=pointer]
+                    - button [ref=f1423e14] [cursor=pointer]:
+                      - img [ref=f1423e15]
+              - generic:
+                - iframe
+        - text: "Trending now:"
+        - link "Meta" [ref=e45] [cursor=pointer]:
+          - /url: index.php?em=META+PLATFORMS&year=2025
+        - text: ","
+        - link "Amazon" [ref=e46] [cursor=pointer]:
+          - /url: index.php?em=amazon+&year=2025
+        - text: ","
+        - link "Apple" [ref=e47] [cursor=pointer]:
+          - /url: index.php?em=apple inc&year=2025
+        - text: ","
+        - link "Nvidia" [ref=e48] [cursor=pointer]:
+          - /url: index.php?em=Nvidia&year=2025
+        - text: ","
+        - link "Google" [ref=e49] [cursor=pointer]:
+          - /url: index.php?em=google&year=2025
+        - text: ","
+        - link "Tesla" [ref=e50] [cursor=pointer]:
+          - /url: index.php?em=tesla inc&year=2025
+        - text: ","
+        - link "OpenAI" [ref=e51] [cursor=pointer]:
+          - /url: index.php?em=openai+opco+llc&year=2025
+        - text: ","
+        - link "Microsoft" [ref=e52] [cursor=pointer]:
+          - /url: index.php?em=Microsoft&year=2025
+        - text: ","
+        - link "Salesforce" [ref=e53] [cursor=pointer]:
+          - /url: index.php?em=salesforce&year=2025
+      - search [ref=e54]:
+        - generic [ref=e55]:
+          - status [ref=e56]
+          - searchbox "Employer" [ref=e57]: equus workforce solutions
+          - status [ref=e58]
+          - searchbox "and/or Job Title" [ref=e59]
+          - status [ref=e60]
+          - searchbox "and/or City" [ref=e61]
+          - combobox [ref=e62]:
+            - option "All Years"
+            - option "2025" [selected]
+            - option "2024"
+            - option "2023"
+            - option "2022"
+            - option "2021"
+            - option "2020"
+            - option "2019"
+            - option "2018"
+            - option "2017"
+            - option "2016"
+            - option "2015"
+            - option "2014"
+            - option "2013"
+            - option "2012"
+        - button "Search" [ref=e63] [cursor=pointer]
+    - alert [ref=e64]:
+      - button "Close" [ref=e65] [cursor=pointer]: ×
+      - generic [ref=e66]:
+        - text: We have found
+        - link "job openings" [ref=e67] [cursor=pointer]:
+          - /url: jobs.php?q=company:"equus workforce solutions" &loc=
+        - text: "from equus workforce solutions:"
+    - heading "Equus Workforce Solutions H1B Salary 2025" [level=1] [ref=e68]
+    - paragraph [ref=e69]:
+      - text: 0 records was found,
+      - link "try search again" [ref=e70] [cursor=pointer]:
+        - /url: index.php?em=EQUUS WORKFORCE SOLUTIONS&job=&city=
+    - grid [ref=e71]:
+      - rowgroup [ref=e72]:
+        - 'row "EMPLOYER: No sort applied, activate to apply an ascending sort JOB TITLE: No sort applied, activate to apply an ascending sort BASE SALARY: No sort applied, activate to apply an ascending sort LOCATION: No sort applied, activate to apply an ascending sort SUBMIT DATE: No sort applied, activate to apply an ascending sort START DATE: No sort applied, activate to apply an ascending sort" [ref=e73]':
+          - 'columnheader "EMPLOYER: No sort applied, activate to apply an ascending sort" [ref=e74] [cursor=pointer]':
+            - generic [ref=e75]: EMPLOYER
+          - 'columnheader "JOB TITLE: No sort applied, activate to apply an ascending sort" [ref=e76] [cursor=pointer]':
+            - generic [ref=e77]: JOB TITLE
+          - 'columnheader "BASE SALARY: No sort applied, activate to apply an ascending sort" [ref=e78] [cursor=pointer]':
+            - generic [ref=e79]: BASE SALARY
+          - 'columnheader "LOCATION: No sort applied, activate to apply an ascending sort" [ref=e80] [cursor=pointer]':
+            - generic [ref=e81]: LOCATION
+          - 'columnheader "SUBMIT DATE: No sort applied, activate to apply an ascending sort" [ref=e82] [cursor=pointer]':
+            - generic [ref=e83]: SUBMIT DATE
+          - 'columnheader "START DATE: No sort applied, activate to apply an ascending sort" [ref=e84] [cursor=pointer]':
+            - generic [ref=e85]: START DATE
+      - rowgroup
+    - paragraph [ref=e87]:
+      - text: This website indexes the Labor Condition Application (
+      - link "LCA" [ref=e88] [cursor=pointer]:
+        - /url: http://en.wikipedia.org/wiki/Labor_Condition_Application
+      - text: ) disclosure data from the
+      - link "United States Department of Labor (DOL)" [ref=e89] [cursor=pointer]:
+        - /url: http://www.foreignlaborcert.doleta.gov/performancedata.cfm#dis
+      - text: .
+      - text: Prior to filing an H-1B petition with the USCIS, an employer must file an LCA with the DOL.
+      - text: An LCA is used by employers as supporting evidence for the petition for an H-1B visa.
+      - text: DOL disclosure data does not indicate the employer's intended use for the LCA.
+    - generic [ref=e93]:
+      - iframe [ref=e95]:
+        - generic [ref=f1491e2]:
+          - generic:
+            - img [ref=f1491e6] [cursor=pointer]
+            - button [ref=f1491e9] [cursor=pointer]:
+              - img [ref=f1491e10]
+      - img "Ezoic" [ref=e98] [cursor=pointer]
+    - generic [ref=e99]:
+      - text: Indexed more than 4.8 million records between Oct. 2013 and Sept. 2025
+      - text: Copyright @ h1bdata.info. All rights reserved.
+      - link "Contact us" [ref=e100] [cursor=pointer]:
+        - /url: mailto:admin@h1bdata.info
+      - link "Privacy policy" [ref=e101] [cursor=pointer]:
+        - /url: https://g.ezoic.net/privacy/h1bdata.info
+      - link "Advertise" [ref=e102] [cursor=pointer]:
+        - /url: direct-sales.html
+    - generic [ref=e105]:
+      - generic [ref=e106]:
+        - list [ref=e109]:
+          - listitem [ref=e110] [cursor=pointer]:
+            - generic [ref=e111]:
+              - generic [ref=e112]: x
+              - region "Video Player" [ref=e113]:
+                - 'img "video of: Shane Hummus: make money on youtube: a guide for creators over 50, simple methods revealed" [ref=e117]'
+                - button "Play Video" [ref=e118]:
+                  - text: 
+                  - generic [ref=e119]: Play Video
+                - text:          
+          - listitem [ref=e120] [cursor=pointer]:
+            - list [ref=e122]:
+              - listitem [ref=e123]:
+                - generic [ref=e124]:
+                  - text: 
+                  - generic "Now Playing" [ref=e125]
+              - listitem [ref=e126]:
+                - button "Play" [ref=e128]: 
+              - listitem [ref=e129]:
+                - button "Play" [ref=e131]: 
+              - listitem [ref=e132]:
+                - button "Play" [ref=e134]: 
+              - listitem [ref=e135]:
+                - button "Play" [ref=e137]: 
+              - listitem [ref=e138]:
+                - button "Play" [ref=e140]: 
+              - listitem [ref=e141]:
+                - button "Play" [ref=e143]: 
+              - listitem [ref=e144]:
+                - button "Play" [ref=e146]: 
+              - listitem [ref=e147]:
+                - button "Play" [ref=e149]: 
+              - listitem [ref=e150]:
+                - button "Play" [ref=e152]: 
+              - listitem
+        - generic [ref=e153]:
+          - generic [ref=e154] [cursor=pointer]: x
+          - region "Video Player" [ref=e155]:
+            - 'img "video of: Master’s Degrees With the Highest Return on Investment in Today’s Job Market" [ref=e159] [cursor=pointer]'
+            - button "Play Video" [ref=e160] [cursor=pointer]:
+              - text: 
+              - generic [ref=e161]: Play Video
+            - text:           
+          - generic [ref=e162]:
+            - link "channel logo" [ref=e164]
+            - link "Master’s Degrees With the Highest Return on Investment in Today’s Job Market" [ref=e167] [cursor=pointer]:
+              - /url: https://open.video/@roi-tv/v/masters-degrees-with-the-highest-return-on-investment-in-todays-job-market
+            - button "share" [ref=e169] [cursor=pointer]:
+              - img [ref=e171]
+          - link "Watch on Open.Video" [ref=e174] [cursor=pointer]:
+            - /url: https://open.video/@roi-tv/v/masters-degrees-with-the-highest-return-on-investment-in-todays-job-market
+            - generic [ref=e175]:
+              - generic [ref=e176]: Watch on
+              - img [ref=e177]
+      - link "Master’s Degrees With the Highest Return on Investment in Today’s Job Market" [ref=e179] [cursor=pointer]:
+        - /url: https://open.video/@roi-tv/v/masters-degrees-with-the-highest-return-on-investment-in-todays-job-market
+  - generic [ref=e180]:
+    - generic [ref=e181] [cursor=pointer]: X
+    - region "Video Player" [ref=e182]:
+      - text:       
+      - text:   
+  - iframe

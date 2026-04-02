@@ -1,0 +1,98 @@
+[    -605ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://api.ziprecruiter.com/jobs/v1?refine_by_salary=60000&days_ago=90&jobs_per_page=12&api_key=s2tazsn64nxt2dri6fq4tzyprbgf7rn4&search=company:%22harbison%20walker%22&radius_miles=100&page=1:0
+[    4439ms] [ERROR] Attestation check for Protected Audience on https://prebid.smilewanted.com failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4439ms] [ERROR] Attestation check for Protected Audience on https://g2.gumgum.com failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4439ms] [ERROR] Attestation check for Protected Audience on https://tlx.3lift.com failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4439ms] [ERROR] Attestation check for Protected Audience on https://htlb.casalemedia.com failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4439ms] [ERROR] Attestation check for Protected Audience on https://prebid.trustedstack.com failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4439ms] [ERROR] Attestation check for Protected Audience on https://direct.adsrvr.org failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4439ms] [ERROR] Attestation check for Protected Audience on https://onetag-sys.com failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4441ms] [ERROR] Attestation check for Protected Audience on https://ads.yieldmo.com failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4441ms] [ERROR] Attestation check for Protected Audience on https://prebid.media.net failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4441ms] [ERROR] Attestation check for Protected Audience on https://prebid.smilewanted.com failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4441ms] [ERROR] Attestation check for Protected Audience on https://prebid.trustedstack.com failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4441ms] [ERROR] Attestation check for Protected Audience on https://tlx.3lift.com failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4441ms] [ERROR] Attestation check for Protected Audience on https://apex.go.sonobi.com failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4441ms] [ERROR] Attestation check for Protected Audience on https://htlb.casalemedia.com failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4441ms] [ERROR] Attestation check for Protected Audience on https://mweb-hb.presage.io failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4441ms] [ERROR] Attestation check for Protected Audience on https://direct.adsrvr.org failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4442ms] [ERROR] Attestation check for Protected Audience on https://onetag-sys.com failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4497ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://js-sec.indexww.com/prebid/topics/topics_frame.html?bidder=ix:0
+[    4502ms] [ERROR] Mixed Content: The page at 'https://h1bdata.info/index.php?em=harbison+walker' was loaded over HTTPS, but requested an insecure frame 'http://www.optmd.com/'. This request has been blocked; the content must be served over HTTPS. @ https://js-sec.indexww.com/prebid/topics/topics_frame.html?bidder=ix:0
+[  -72634ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://sync-tm.everesttech.net/upi/pid/5w3jqr4k?redir=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dg8f47s39e399f3fe%26google_hm%3D%24%7BTM_USER_ID_BASE64ENC_URLENC%7D&google_gid=CAESEBCvWbowLQahIzxuix3bNeM&google_cver=1&google_push=AXcoOmTh6SjV1VzYRktCk3euNEraiyCcDBui5n2DRe7szgRHUTrOs6Ivtmsrl6xNsPJy540LvBQo8EpXvpEFJPhGZZ7W5J-uw2g:0
+[  -59155ms] [ERROR] Permissions policy violation: accelerometer is not allowed in this document. @ https://transparency.peer-39.com/api/init-6845t8qo4yd8s4f4if8a.js?FORMAT=display&TAG_TYPE=impression&DSP_ID=84101&DSP_NAME=dv360&AUCTION_ID=ABAjH0howbidvugSDcdtpdmgCGGB&ADVERTISER_ID=&ADVERTISER_NAME=generic&CAMPAIGN_ID=1010908778&CAMPAIGN_NAME=&TARGETING_GROUP_ID=22593126188&CREATIVE_NAME=&CREATIVE_ID=663281214&DSP_URL=https://h1bdata.info/index.php&DSP_APP_ID=&DSP_POSTAL_CODE=&DSP_COUNTRY=&DSP_DEVICE_TYPE=&DSP_AD_SIZE=&PUBLISHER_ID=60&EXCHANGE_ID=60&DEAL_ID=&ADSXT_PUBLISHER_ID=4503-OB&AD_SYSTEM_DOMAIN=smartadserver.com:0
+[  -59155ms] [WARNING] The deviceorientation events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features @ https://transparency.peer-39.com/api/init-6845t8qo4yd8s4f4if8a.js?FORMAT=display&TAG_TYPE=impression&DSP_ID=84101&DSP_NAME=dv360&AUCTION_ID=ABAjH0howbidvugSDcdtpdmgCGGB&ADVERTISER_ID=&ADVERTISER_NAME=generic&CAMPAIGN_ID=1010908778&CAMPAIGN_NAME=&TARGETING_GROUP_ID=22593126188&CREATIVE_NAME=&CREATIVE_ID=663281214&DSP_URL=https://h1bdata.info/index.php&DSP_APP_ID=&DSP_POSTAL_CODE=&DSP_COUNTRY=&DSP_DEVICE_TYPE=&DSP_AD_SIZE=&PUBLISHER_ID=60&EXCHANGE_ID=60&DEAL_ID=&ADSXT_PUBLISHER_ID=4503-OB&AD_SYSTEM_DOMAIN=smartadserver.com:0
+[  -59155ms] [ERROR] Permissions policy violation: accelerometer is not allowed in this document. @ https://transparency.peer-39.com/api/init-6845t8qo4yd8s4f4if8a.js?FORMAT=display&TAG_TYPE=impression&DSP_ID=84101&DSP_NAME=dv360&AUCTION_ID=ABAjH0howbidvugSDcdtpdmgCGGB&ADVERTISER_ID=&ADVERTISER_NAME=generic&CAMPAIGN_ID=1010908778&CAMPAIGN_NAME=&TARGETING_GROUP_ID=22593126188&CREATIVE_NAME=&CREATIVE_ID=663281214&DSP_URL=https://h1bdata.info/index.php&DSP_APP_ID=&DSP_POSTAL_CODE=&DSP_COUNTRY=&DSP_DEVICE_TYPE=&DSP_AD_SIZE=&PUBLISHER_ID=60&EXCHANGE_ID=60&DEAL_ID=&ADSXT_PUBLISHER_ID=4503-OB&AD_SYSTEM_DOMAIN=smartadserver.com:0
+[  -59155ms] [WARNING] The devicemotion events are blocked by permissions policy. See https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md#sensor-features @ https://transparency.peer-39.com/api/init-6845t8qo4yd8s4f4if8a.js?FORMAT=display&TAG_TYPE=impression&DSP_ID=84101&DSP_NAME=dv360&AUCTION_ID=ABAjH0howbidvugSDcdtpdmgCGGB&ADVERTISER_ID=&ADVERTISER_NAME=generic&CAMPAIGN_ID=1010908778&CAMPAIGN_NAME=&TARGETING_GROUP_ID=22593126188&CREATIVE_NAME=&CREATIVE_ID=663281214&DSP_URL=https://h1bdata.info/index.php&DSP_APP_ID=&DSP_POSTAL_CODE=&DSP_COUNTRY=&DSP_DEVICE_TYPE=&DSP_AD_SIZE=&PUBLISHER_ID=60&EXCHANGE_ID=60&DEAL_ID=&ADSXT_PUBLISHER_ID=4503-OB&AD_SYSTEM_DOMAIN=smartadserver.com:0
+[    4537ms] [ERROR] Attestation check for Protected Audience on https://prebid.smilewanted.com failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4537ms] [ERROR] Attestation check for Protected Audience on https://prebid.smilewanted.com failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4537ms] [ERROR] Attestation check for Protected Audience on https://htlb.casalemedia.com failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4537ms] [ERROR] Attestation check for Protected Audience on https://prebid.trustedstack.com failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4537ms] [ERROR] Attestation check for Protected Audience on https://tlx.3lift.com failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4537ms] [ERROR] Attestation check for Protected Audience on https://direct.adsrvr.org failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4537ms] [ERROR] Attestation check for Protected Audience on https://onetag-sys.com failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4537ms] [ERROR] Attestation check for Protected Audience on https://g2.gumgum.com failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4537ms] [ERROR] Attestation check for Protected Audience on https://g2.gumgum.com failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4537ms] [ERROR] Attestation check for Protected Audience on https://g2.gumgum.com failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4537ms] [ERROR] Attestation check for Protected Audience on https://g2.gumgum.com failed. @ https://h1bdata.info/index.php?em=harbison+walker:0
+[    4538ms] [LOG] Called iframe: acdn.adnxs.com [] 
+Number of topics:  0 @ https://acdn.adnxs.com/prebid/topics/topics_frame.html?bidder=appnexus:17
+[    5411ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://api.ziprecruiter.com/jobs/v1?refine_by_salary=60000&days_ago=90&jobs_per_page=12&api_key=s2tazsn64nxt2dri6fq4tzyprbgf7rn4&search=company:%22equus%20workforce%22&radius_miles=100&page=1:0
+[    5561ms] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'dcn')
+    at <anonymous> (https://solutions.cdn.optable.co/ezoic/sdk.js:1:42329)
+    at <anonymous> (https://solutions.cdn.optable.co/ezoic/sdk.js:1:51544)
+    at <anonymous> (https://solutions.cdn.optable.co/ezoic/sdk.js:1:51548)
+    at <anonymous> (https://solutions.cdn.optable.co/ezoic/sdk.js:1:51552)
+[    7012ms] [WARNING] VIDEOJS: WARN: videojs.mergeOptions is deprecated and will be removed in 9.0; please use videojs.obj.merge instead. @ https://go.ezodn.com/beardeddragon/wyvern.js?cb=186:11
+[    7015ms] [WARNING] VIDEOJS: WARN: videojs.formatTime is deprecated and will be removed in 9.0; please use videojs.time.formatTime instead. @ https://go.ezodn.com/beardeddragon/wyvern.js?cb=186:11
+[    7117ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://js-sec.indexww.com/prebid/topics/topics_frame.html?bidder=ix:0
+[    7192ms] [ERROR] Mixed Content: The page at 'https://h1bdata.info/index.php?em=equus+workforce' was loaded over HTTPS, but requested an insecure frame 'http://www.optmd.com/'. This request has been blocked; the content must be served over HTTPS. @ https://js-sec.indexww.com/prebid/topics/topics_frame.html?bidder=ix:0
+[    7193ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://eb2.3lift.com/topics/topics_frame.html?bidder=triplelift:0
+[    7211ms] [LOG] Called iframe: ads.pubmatic.com [] 
+Number of topics:  0 @ https://ads.pubmatic.com/AdServer/js/topics/topics_frame.html?bidder=pubmatic:19
+[    7211ms] [LOG] Called iframe: onetag-sys.com [] 
+Number of topics:  0 @ https://onetag-sys.com/static/topicsapi.html?bidder=onetag:13
+[    7212ms] [LOG] Called iframe: acdn.adnxs.com [] 
+Number of topics:  0 @ https://acdn.adnxs.com/prebid/topics/topics_frame.html?bidder=appnexus:17
+[    7464ms] [ERROR] Attestation check for Protected Audience on https://g2.gumgum.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7464ms] [ERROR] Attestation check for Protected Audience on https://tlx.3lift.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7464ms] [ERROR] Attestation check for Protected Audience on https://ap.lijit.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7464ms] [ERROR] Attestation check for Protected Audience on https://c2shb.pubgw.yahoo.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7464ms] [ERROR] Attestation check for Protected Audience on https://ex.ingage.tech failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7464ms] [ERROR] Attestation check for Protected Audience on https://prebid.trustedstack.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7464ms] [ERROR] Attestation check for Protected Audience on https://onetag-sys.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7464ms] [ERROR] Attestation check for Protected Audience on https://direct.adsrvr.org failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7464ms] [ERROR] Attestation check for Protected Audience on https://htlb.casalemedia.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7464ms] [ERROR] Attestation check for Protected Audience on https://onetag-sys.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7464ms] [ERROR] Attestation check for Protected Audience on https://ex.ingage.tech failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7464ms] [ERROR] Attestation check for Protected Audience on https://tlx.3lift.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7464ms] [ERROR] Attestation check for Protected Audience on https://c2shb.pubgw.yahoo.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7464ms] [ERROR] Attestation check for Protected Audience on https://ap.lijit.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7464ms] [ERROR] Attestation check for Protected Audience on https://prebid.trustedstack.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7464ms] [ERROR] Attestation check for Protected Audience on https://direct.adsrvr.org failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7464ms] [ERROR] Attestation check for Protected Audience on https://prebid.smilewanted.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7464ms] [ERROR] Attestation check for Protected Audience on https://prebid.a-mo.net failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7464ms] [ERROR] Attestation check for Protected Audience on https://htlb.casalemedia.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7465ms] [ERROR] Attestation check for Protected Audience on https://ads.yieldmo.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7465ms] [ERROR] Attestation check for Protected Audience on https://hbopenbid.pubmatic.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7465ms] [ERROR] Attestation check for Protected Audience on https://grid-bidder.criteo.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7465ms] [ERROR] Attestation check for Protected Audience on https://hbopenbid.pubmatic.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7465ms] [ERROR] Attestation check for Protected Audience on https://direct.adsrvr.org failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7465ms] [ERROR] Attestation check for Protected Audience on https://prebid-server.rubiconproject.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7465ms] [ERROR] Attestation check for Protected Audience on https://ads.yieldmo.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7465ms] [ERROR] Attestation check for Protected Audience on https://prebid.cootlogix.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7465ms] [ERROR] Attestation check for Protected Audience on https://api.w.inmobi.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7465ms] [ERROR] Attestation check for Protected Audience on https://prebid.media.net failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7465ms] [ERROR] Attestation check for Protected Audience on https://prebid.a-mo.net failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7465ms] [ERROR] Attestation check for Protected Audience on https://tlx.3lift.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7465ms] [ERROR] Attestation check for Protected Audience on https://htlb.casalemedia.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7465ms] [ERROR] Attestation check for Protected Audience on https://hbopenbid.pubmatic.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7465ms] [ERROR] Attestation check for Protected Audience on https://grid-bidder.criteo.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7793ms] [WARNING] Specifying 'overflow: visible' on img, video and canvas tags may cause them to produce visual content outside of the element bounds. See https://github.com/WICG/view-transitions/blob/main/debugging_overflow_on_images.md for details. @ https://ads.bidsystem.ai/bsads.js:0
+[    7889ms] [ERROR] Attestation check for Protected Audience on https://tlx.3lift.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7889ms] [ERROR] Attestation check for Protected Audience on https://htlb.casalemedia.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7889ms] [ERROR] Attestation check for Protected Audience on https://targeting.unrulymedia.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7889ms] [ERROR] Attestation check for Protected Audience on https://direct.adsrvr.org failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7889ms] [ERROR] Attestation check for Protected Audience on https://prebid.smilewanted.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7889ms] [ERROR] Attestation check for Protected Audience on https://onetag-sys.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    7925ms] [ERROR] Attestation check for Protected Audience on https://hbopenbid.pubmatic.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[    8195ms] [WARNING] [Audigent] cannot find __gpp framework @ https://a.ad.gt/api/v1/u/matches/524?_it=amazon:0

@@ -1,0 +1,65 @@
+[     384ms] [ERROR] Attestation check for Protected Audience on https://prebid.trustedstack.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[     384ms] [ERROR] Attestation check for Protected Audience on https://onetag-sys.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[     384ms] [ERROR] Attestation check for Protected Audience on https://g2.gumgum.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[     384ms] [ERROR] Attestation check for Protected Audience on https://g2.gumgum.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[     384ms] [ERROR] Attestation check for Protected Audience on https://g2.gumgum.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[     384ms] [ERROR] Attestation check for Protected Audience on https://ap.lijit.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[     384ms] [ERROR] Attestation check for Protected Audience on https://direct.adsrvr.org failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[     385ms] [ERROR] Attestation check for Protected Audience on https://c2shb.pubgw.yahoo.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[     385ms] [ERROR] Attestation check for Protected Audience on https://tlx.3lift.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[     385ms] [ERROR] Attestation check for Protected Audience on https://htlb.casalemedia.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[     385ms] [ERROR] Attestation check for Protected Audience on https://ex.ingage.tech failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[     385ms] [ERROR] Attestation check for Protected Audience on https://prebid.smilewanted.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[     385ms] [ERROR] Attestation check for Protected Audience on https://prebid.smilewanted.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[     385ms] [ERROR] Attestation check for Protected Audience on https://prebid.smilewanted.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[     385ms] [ERROR] Attestation check for Protected Audience on https://targeting.unrulymedia.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[     386ms] [ERROR] Attestation check for Protected Audience on https://grid-bidder.criteo.com failed. @ https://h1bdata.info/index.php?em=equus+workforce:0
+[     470ms] [ERROR] Failed to load resource: the server responded with a status of 502 () @ chrome-error://chromewebdata/:0
+[     473ms] [ERROR] Refused to display 'https://cs.ingage.tech/' in a frame because it set 'X-Frame-Options' to 'sameorigin'. @ chrome-error://chromewebdata/:0
+[    3307ms] [ERROR] Attestation check for Protected Audience on https://direct.adsrvr.org failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3307ms] [ERROR] Attestation check for Protected Audience on https://onetag-sys.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3307ms] [ERROR] Attestation check for Protected Audience on https://htlb.casalemedia.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3307ms] [ERROR] Attestation check for Protected Audience on https://tlx.3lift.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3307ms] [ERROR] Attestation check for Protected Audience on https://ex.ingage.tech failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3307ms] [ERROR] Attestation check for Protected Audience on https://prebid.trustedstack.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3307ms] [ERROR] Attestation check for Protected Audience on https://ads.yieldmo.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3325ms] [WARNING] VIDEOJS: WARN: videojs.mergeOptions is deprecated and will be removed in 9.0; please use videojs.obj.merge instead. @ https://go.ezodn.com/beardeddragon/wyvern.js?cb=186:11
+[    3326ms] [WARNING] VIDEOJS: WARN: videojs.formatTime is deprecated and will be removed in 9.0; please use videojs.time.formatTime instead. @ https://go.ezodn.com/beardeddragon/wyvern.js?cb=186:11
+[    3448ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://js-sec.indexww.com/prebid/topics/topics_frame.html?bidder=ix:0
+[    3455ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://eb2.3lift.com/topics/topics_frame.html?bidder=triplelift:0
+[    3462ms] [ERROR] Mixed Content: The page at 'https://h1bdata.info/index.php?em=hwi' was loaded over HTTPS, but requested an insecure frame 'http://www.optmd.com/'. This request has been blocked; the content must be served over HTTPS. @ https://js-sec.indexww.com/prebid/topics/topics_frame.html?bidder=ix:0
+[    3465ms] [LOG] Called iframe: ads.pubmatic.com [] 
+Number of topics:  0 @ https://ads.pubmatic.com/AdServer/js/topics/topics_frame.html?bidder=pubmatic:19
+[    3466ms] [LOG] Called iframe: acdn.adnxs.com [] 
+Number of topics:  0 @ https://acdn.adnxs.com/prebid/topics/topics_frame.html?bidder=appnexus:17
+[    3466ms] [LOG] Called iframe: onetag-sys.com [] 
+Number of topics:  0 @ https://onetag-sys.com/static/topicsapi.html?bidder=onetag:13
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://direct.adsrvr.org failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://mweb-hb.presage.io failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://tlx.3lift.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://htlb.casalemedia.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://onetag-sys.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://prebid.trustedstack.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://prebid.media.net failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://prebid.smilewanted.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://ex.ingage.tech failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://hbopenbid.pubmatic.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://hbopenbid.pubmatic.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://direct.adsrvr.org failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://ads.yieldmo.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://tlx.3lift.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://prg.smartadserver.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://prg.smartadserver.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://prebid-server.rubiconproject.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://ssp.disqus.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://onetag-sys.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://ssc.33across.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://htlb.casalemedia.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://prebid.cootlogix.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://prebid.media.net failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://hb.minutemedia-prebid.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://api.w.inmobi.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://hbopenbid.pubmatic.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://grid-bidder.criteo.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    3543ms] [ERROR] Attestation check for Protected Audience on https://ads.yieldmo.com failed. @ https://h1bdata.info/index.php?em=hwi:0
+[    4042ms] [WARNING] [Audigent] cannot find __gpp framework @ https://a.ad.gt/api/v1/u/matches/524?_it=amazon:0

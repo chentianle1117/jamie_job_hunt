@@ -1,0 +1,1511 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "H1B Salary Database 2025" [ref=e5] [cursor=pointer]:
+        - /url: index.php
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "Companies" [ref=e9] [cursor=pointer]:
+            - /url: "#"
+            - text: Companies
+        - listitem [ref=e11]:
+          - link "Job Titles" [ref=e12] [cursor=pointer]:
+            - /url: "#"
+            - text: Job Titles
+        - listitem [ref=e14]:
+          - link "Cities" [ref=e15] [cursor=pointer]:
+            - /url: topcities.php
+        - listitem [ref=e16]:
+          - link "Highest Paid" [ref=e17] [cursor=pointer]:
+            - /url: "#"
+            - text: Highest Paid
+        - listitem [ref=e19]:
+          - link [ref=e20] [cursor=pointer]:
+            - /url: jobs.php?q=software
+  - img "Ezoic" [ref=e27] [cursor=pointer]
+  - generic [ref=e30]:
+    - generic [ref=e31]: ···
+    - img "Ezoic" [ref=e34] [cursor=pointer]
+  - generic [ref=e38]: ···
+  - generic [ref=e39]:
+    - generic [ref=e40]:
+      - paragraph [ref=e41]: Search Salary Now
+      - paragraph [ref=e42]:
+        - text: "Trending now:"
+        - link "Meta" [ref=e43] [cursor=pointer]:
+          - /url: index.php?em=META+PLATFORMS&year=2025
+        - text: ","
+        - link "Amazon" [ref=e44] [cursor=pointer]:
+          - /url: index.php?em=amazon+&year=2025
+        - text: ","
+        - link "Apple" [ref=e45] [cursor=pointer]:
+          - /url: index.php?em=apple inc&year=2025
+        - text: ","
+        - link "Nvidia" [ref=e46] [cursor=pointer]:
+          - /url: index.php?em=Nvidia&year=2025
+        - text: ","
+        - link "Google" [ref=e47] [cursor=pointer]:
+          - /url: index.php?em=google&year=2025
+        - text: ","
+        - link "Tesla" [ref=e48] [cursor=pointer]:
+          - /url: index.php?em=tesla inc&year=2025
+        - text: ","
+        - link "OpenAI" [ref=e49] [cursor=pointer]:
+          - /url: index.php?em=openai+opco+llc&year=2025
+        - text: ","
+        - link "Microsoft" [ref=e50] [cursor=pointer]:
+          - /url: index.php?em=Microsoft&year=2025
+        - text: ","
+        - link "Salesforce" [ref=e51] [cursor=pointer]:
+          - /url: index.php?em=salesforce&year=2025
+      - search [ref=e52]:
+        - generic [ref=e53]:
+          - status [ref=e54]
+          - searchbox "Employer" [ref=e55]: boston scientific
+          - status [ref=e56]
+          - searchbox "and/or Job Title" [ref=e57]
+          - status [ref=e58]
+          - searchbox "and/or City" [ref=e59]
+          - combobox [ref=e60]:
+            - option "All Years"
+            - option "2025" [selected]
+            - option "2024"
+            - option "2023"
+            - option "2022"
+            - option "2021"
+            - option "2020"
+            - option "2019"
+            - option "2018"
+            - option "2017"
+            - option "2016"
+            - option "2015"
+            - option "2014"
+            - option "2013"
+            - option "2012"
+        - button "Search" [ref=e61] [cursor=pointer]
+      - generic [ref=e64]: ···
+    - alert [ref=e65]:
+      - button "Close" [ref=e66] [cursor=pointer]: ×
+      - generic [ref=e67]:
+        - text: We have found
+        - link "job openings" [ref=e68] [cursor=pointer]:
+          - /url: jobs.php?q=company:"boston scientific" &loc=
+        - text: "from boston scientific:"
+    - heading "Boston Scientific H1B Salary 2025" [level=1] [ref=e69]
+    - paragraph [ref=e70]: 90 records was found, Median Salary is $122855.5. 0 percents of the salary are above $200K, 11 percents of the salary are between $150K and $200K, 76 percents of the salary are between $100K and $150K, 13 percents of the salary are less than $100k
+    - button "Employers (1)" [ref=e72] [cursor=pointer]: Employers (1)
+    - button "Job Titles (71)" [ref=e75] [cursor=pointer]: Job Titles (71)
+    - button "Cities (33)" [ref=e78] [cursor=pointer]: Cities (33)
+    - button "Years (1)" [ref=e81] [cursor=pointer]: Years (1)
+    - generic [ref=e83]:
+      - generic [ref=e84]:
+        - text: <100k
+        - generic [ref=e85]: 13.333333333333% Complete (success)
+      - generic [ref=e86]:
+        - text: 100k-150k
+        - generic [ref=e87]: 75.555555555556% Complete (success)
+      - generic [ref=e88]:
+        - text: 150k-200k
+        - generic [ref=e89]: 11.111111111111% Complete (warning)
+      - generic:
+        - text: ">200k"
+        - generic [ref=e90]: 0% Complete (danger)
+    - grid [ref=e91]:
+      - rowgroup [ref=e92]:
+        - 'row "EMPLOYER: No sort applied, activate to apply an ascending sort JOB TITLE: No sort applied, activate to apply an ascending sort BASE SALARY: No sort applied, activate to apply an ascending sort LOCATION: No sort applied, activate to apply an ascending sort SUBMIT DATE: No sort applied, activate to apply an ascending sort START DATE: No sort applied, activate to apply an ascending sort" [ref=e93]':
+          - 'columnheader "EMPLOYER: No sort applied, activate to apply an ascending sort" [ref=e94] [cursor=pointer]':
+            - generic [ref=e95]: EMPLOYER
+          - 'columnheader "JOB TITLE: No sort applied, activate to apply an ascending sort" [ref=e96] [cursor=pointer]':
+            - generic [ref=e97]: JOB TITLE
+          - 'columnheader "BASE SALARY: No sort applied, activate to apply an ascending sort" [ref=e98] [cursor=pointer]':
+            - generic [ref=e99]: BASE SALARY
+          - 'columnheader "LOCATION: No sort applied, activate to apply an ascending sort" [ref=e100] [cursor=pointer]':
+            - generic [ref=e101]: LOCATION
+          - 'columnheader "SUBMIT DATE: No sort applied, activate to apply an ascending sort" [ref=e102] [cursor=pointer]':
+            - generic [ref=e103]: SUBMIT DATE
+          - 'columnheader "START DATE: No sort applied, activate to apply an ascending sort" [ref=e104] [cursor=pointer]':
+            - generic [ref=e105]: START DATE
+      - rowgroup [ref=e106]:
+        - row "BOSTON SCIENTIFIC CORPORATION ANALYST II, IT BUSINESS 108,150 MARLBOROUGH, MA 08/21/2025 01/08/2026" [ref=e107]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e108]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e109] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "ANALYST II, IT BUSINESS" [ref=e110]:
+            - link "ANALYST II, IT BUSINESS" [ref=e111] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=ANALYST+II%2C+IT+BUSINESS&city=&year=2025
+          - gridcell "108,150" [ref=e112]:
+            - link "108,150" [ref=e113] [cursor=pointer]:
+              - /url: details.php?id=I-200-25233-258981
+          - gridcell "MARLBOROUGH, MA" [ref=e114]:
+            - link "MARLBOROUGH, MA" [ref=e115] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MARLBOROUGH&year=2025
+          - gridcell "08/21/2025" [ref=e116]
+          - gridcell "01/08/2026" [ref=e117]
+        - row "BOSTON SCIENTIFIC CORPORATION ANALYST III, SUPPLY CHAIN 97,758 MARLBOROUGH, MA 04/04/2025 09/10/2025" [ref=e118]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e119]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e120] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "ANALYST III, SUPPLY CHAIN" [ref=e121]:
+            - link "ANALYST III, SUPPLY CHAIN" [ref=e122] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=ANALYST+III%2C+SUPPLY+CHAIN&city=&year=2025
+          - gridcell "97,758" [ref=e123]:
+            - link "97,758" [ref=e124] [cursor=pointer]:
+              - /url: details.php?id=I-200-25094-833083
+          - gridcell "MARLBOROUGH, MA" [ref=e125]:
+            - link "MARLBOROUGH, MA" [ref=e126] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MARLBOROUGH&year=2025
+          - gridcell "04/04/2025" [ref=e127]
+          - gridcell "09/10/2025" [ref=e128]
+        - row "BOSTON SCIENTIFIC CORPORATION ANALYST SR., IT BUSINESS 112,736 WOODSTOCK, GA 01/08/2025 01/24/2025" [ref=e129]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e130]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e131] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "ANALYST SR., IT BUSINESS" [ref=e132]:
+            - link "ANALYST SR., IT BUSINESS" [ref=e133] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=ANALYST+SR.%2C+IT+BUSINESS&city=&year=2025
+          - gridcell "112,736" [ref=e134]:
+            - link "112,736" [ref=e135] [cursor=pointer]:
+              - /url: details.php?id=I-200-25008-604990
+          - gridcell "WOODSTOCK, GA" [ref=e136]:
+            - link "WOODSTOCK, GA" [ref=e137] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=WOODSTOCK&year=2025
+          - gridcell "01/08/2025" [ref=e138]
+          - gridcell "01/24/2025" [ref=e139]
+        - row "BOSTON SCIENTIFIC CORPORATION ASSOCIATE MANAGER, A 1 1A TECHNOLOGY AND DELIVERY 123,106 MARLBOROUGH, MA 03/28/2025 09/19/2025" [ref=e140]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e141]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e142] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "ASSOCIATE MANAGER, A 1 1A TECHNOLOGY AND DELIVERY" [ref=e143]:
+            - link "ASSOCIATE MANAGER, A 1 1A TECHNOLOGY AND DELIVERY" [ref=e144] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=ASSOCIATE+MANAGER%2C+A+1+1A+TECHNOLOGY+AND+DELIVERY&city=&year=2025
+          - gridcell "123,106" [ref=e145]:
+            - link "123,106" [ref=e146] [cursor=pointer]:
+              - /url: details.php?id=I-200-25087-812319
+          - gridcell "MARLBOROUGH, MA" [ref=e147]:
+            - link "MARLBOROUGH, MA" [ref=e148] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MARLBOROUGH&year=2025
+          - gridcell "03/28/2025" [ref=e149]
+          - gridcell "09/19/2025" [ref=e150]
+        - row "BOSTON SCIENTIFIC CORPORATION ASSOCIATE PROGRAM DIRECTOR 124,717 VALENCIA, CA 04/01/2025 09/14/2025" [ref=e151]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e152]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e153] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "ASSOCIATE PROGRAM DIRECTOR" [ref=e154]:
+            - link "ASSOCIATE PROGRAM DIRECTOR" [ref=e155] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=ASSOCIATE+PROGRAM+DIRECTOR&city=&year=2025
+          - gridcell "124,717" [ref=e156]:
+            - link "124,717" [ref=e157] [cursor=pointer]:
+              - /url: details.php?id=I-200-25091-819700
+          - gridcell "VALENCIA, CA" [ref=e158]:
+            - link "VALENCIA, CA" [ref=e159] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=VALENCIA&year=2025
+          - gridcell "04/01/2025" [ref=e160]
+          - gridcell "09/14/2025" [ref=e161]
+        - row "BOSTON SCIENTIFIC CORPORATION BUSINESS PROCESS ANALYST III 105,277 DULUTH, GA 03/10/2025 03/31/2025" [ref=e162]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e163]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e164] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "BUSINESS PROCESS ANALYST III" [ref=e165]:
+            - link "BUSINESS PROCESS ANALYST III" [ref=e166] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=BUSINESS+PROCESS+ANALYST+III&city=&year=2025
+          - gridcell "105,277" [ref=e167]:
+            - link "105,277" [ref=e168] [cursor=pointer]:
+              - /url: details.php?id=I-200-25069-763613
+          - gridcell "DULUTH, GA" [ref=e169]:
+            - link "DULUTH, GA" [ref=e170] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=DULUTH&year=2025
+          - gridcell "03/10/2025" [ref=e171]
+          - gridcell "03/31/2025" [ref=e172]
+        - row "BOSTON SCIENTIFIC CORPORATION COMPLEX PCI MARKET DEVELOPMENT SPECIALIST 67,018 SAN JUAN, PR 04/28/2025 10/01/2025" [ref=e173]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e174]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e175] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "COMPLEX PCI MARKET DEVELOPMENT SPECIALIST" [ref=e176]:
+            - link "COMPLEX PCI MARKET DEVELOPMENT SPECIALIST" [ref=e177] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=COMPLEX+PCI+MARKET+DEVELOPMENT+SPECIALIST&city=&year=2025
+          - gridcell "67,018" [ref=e178]:
+            - link "67,018" [ref=e179] [cursor=pointer]:
+              - /url: details.php?id=I-200-25118-910486
+          - gridcell "SAN JUAN, PR" [ref=e180]:
+            - link "SAN JUAN, PR" [ref=e181] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=SAN+JUAN&year=2025
+          - gridcell "04/28/2025" [ref=e182]
+          - gridcell "10/01/2025" [ref=e183]
+        - row "BOSTON SCIENTIFIC CORPORATION DATA ENGINEER - P4 129,688 WOODSTOCK, GA 04/29/2025 10/01/2025" [ref=e184]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e185]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e186] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "DATA ENGINEER - P4" [ref=e187]:
+            - link "DATA ENGINEER - P4" [ref=e188] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=DATA+ENGINEER+-+P4&city=&year=2025
+          - gridcell "129,688" [ref=e189]:
+            - link "129,688" [ref=e190] [cursor=pointer]:
+              - /url: details.php?id=I-200-25119-915352
+          - gridcell "WOODSTOCK, GA" [ref=e191]:
+            - link "WOODSTOCK, GA" [ref=e192] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=WOODSTOCK&year=2025
+          - gridcell "04/29/2025" [ref=e193]
+          - gridcell "10/01/2025" [ref=e194]
+        - row "BOSTON SCIENTIFIC CORPORATION DATA SCIENTIST II 78,894 MAPLE GROVE, MN 04/29/2025 10/01/2025" [ref=e195]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e196]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e197] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "DATA SCIENTIST II" [ref=e198]:
+            - link "DATA SCIENTIST II" [ref=e199] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=DATA+SCIENTIST+II&city=&year=2025
+          - gridcell "78,894" [ref=e200]:
+            - link "78,894" [ref=e201] [cursor=pointer]:
+              - /url: details.php?id=I-200-25120-919411
+          - gridcell "MAPLE GROVE, MN" [ref=e202]:
+            - link "MAPLE GROVE, MN" [ref=e203] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MAPLE+GROVE&year=2025
+          - gridcell "04/29/2025" [ref=e204]
+          - gridcell "10/01/2025" [ref=e205]
+        - row "BOSTON SCIENTIFIC CORPORATION DEVELOPER, SR. SOFTWARE 127,504 ALPHARETTA, GA 01/31/2025 07/05/2025" [ref=e206]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e207]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e208] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "DEVELOPER, SR. SOFTWARE" [ref=e209]:
+            - link "DEVELOPER, SR. SOFTWARE" [ref=e210] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=DEVELOPER%2C+SR.+SOFTWARE&city=&year=2025
+          - gridcell "127,504" [ref=e211]:
+            - link "127,504" [ref=e212] [cursor=pointer]:
+              - /url: details.php?id=I-200-25031-658731
+          - gridcell "ALPHARETTA, GA" [ref=e213]:
+            - link "ALPHARETTA, GA" [ref=e214] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=ALPHARETTA&year=2025
+          - gridcell "01/31/2025" [ref=e215]
+          - gridcell "07/05/2025" [ref=e216]
+        - row "BOSTON SCIENTIFIC CORPORATION EP CLINICAL MANAGER 120,000 HOBOKEN, NJ 07/01/2025 08/01/2025" [ref=e217]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e218]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e219] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "EP CLINICAL MANAGER" [ref=e220]:
+            - link "EP CLINICAL MANAGER" [ref=e221] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=EP+CLINICAL+MANAGER&city=&year=2025
+          - gridcell "120,000" [ref=e222]:
+            - link "120,000" [ref=e223] [cursor=pointer]:
+              - /url: details.php?id=I-200-25183-146462
+          - gridcell "HOBOKEN, NJ" [ref=e224]:
+            - link "HOBOKEN, NJ" [ref=e225] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=HOBOKEN&year=2025
+          - gridcell "07/01/2025" [ref=e226]
+          - gridcell "08/01/2025" [ref=e227]
+        - row "BOSTON SCIENTIFIC CORPORATION FELLOW R&D, INTERVENTIONAL ONCOLOGY PERIPHERAL INTERVENTIONS 139,734 JERSEY CITY, NJ 02/25/2025 07/06/2025" [ref=e228]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e229]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e230] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "FELLOW R&D, INTERVENTIONAL ONCOLOGY PERIPHERAL INTERVENTIONS" [ref=e231]:
+            - link "FELLOW R&D, INTERVENTIONAL ONCOLOGY PERIPHERAL INTERVENTIONS" [ref=e232] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=FELLOW+R%26D%2C+INTERVENTIONAL+ONCOLOGY+PERIPHERAL+INTERVENTIONS&city=&year=2025
+          - gridcell "139,734" [ref=e233]:
+            - link "139,734" [ref=e234] [cursor=pointer]:
+              - /url: details.php?id=I-203-25056-723987
+          - gridcell "JERSEY CITY, NJ" [ref=e235]:
+            - link "JERSEY CITY, NJ" [ref=e236] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=JERSEY+CITY&year=2025
+          - gridcell "02/25/2025" [ref=e237]
+          - gridcell "07/06/2025" [ref=e238]
+        - row "BOSTON SCIENTIFIC CORPORATION HEMA ANALYST 92,914 ROUND ROCK, TX 05/23/2025 10/01/2025" [ref=e239]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e240]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e241] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "HEMA ANALYST" [ref=e242]:
+            - link "HEMA ANALYST" [ref=e243] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=HEMA+ANALYST&city=&year=2025
+          - gridcell "92,914" [ref=e244]:
+            - link "92,914" [ref=e245] [cursor=pointer]:
+              - /url: details.php?id=I-200-25143-011898
+          - gridcell "ROUND ROCK, TX" [ref=e246]:
+            - link "ROUND ROCK, TX" [ref=e247] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=ROUND+ROCK&year=2025
+          - gridcell "05/23/2025" [ref=e248]
+          - gridcell "10/01/2025" [ref=e249]
+        - row "BOSTON SCIENTIFIC CORPORATION IT ARCHITECT 136,310 CANDLER, NC 01/14/2025 07/01/2025" [ref=e250]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e251]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e252] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "IT ARCHITECT" [ref=e253]:
+            - link "IT ARCHITECT" [ref=e254] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=IT+ARCHITECT&city=&year=2025
+          - gridcell "136,310" [ref=e255]:
+            - link "136,310" [ref=e256] [cursor=pointer]:
+              - /url: details.php?id=I-200-25015-618874
+          - gridcell "CANDLER, NC" [ref=e257]:
+            - link "CANDLER, NC" [ref=e258] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=CANDLER&year=2025
+          - gridcell "01/14/2025" [ref=e259]
+          - gridcell "07/01/2025" [ref=e260]
+        - row "BOSTON SCIENTIFIC CORPORATION IT MANAGER 140,733 MARLBOROUGH, MA 07/08/2025 11/21/2025" [ref=e261]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e262]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e263] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "IT MANAGER" [ref=e264]:
+            - link "IT MANAGER" [ref=e265] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=IT+MANAGER&city=&year=2025
+          - gridcell "140,733" [ref=e266]:
+            - link "140,733" [ref=e267] [cursor=pointer]:
+              - /url: details.php?id=I-200-25189-158091
+          - gridcell "MARLBOROUGH, MA" [ref=e268]:
+            - link "MARLBOROUGH, MA" [ref=e269] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MARLBOROUGH&year=2025
+          - gridcell "07/08/2025" [ref=e270]
+          - gridcell "11/21/2025" [ref=e271]
+        - row "BOSTON SCIENTIFIC CORPORATION MANAGER I, MANUFACTURING ENGINEERING 150,322 COVENTRY, RI 04/24/2025 10/24/2025" [ref=e272]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e273]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e274] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "MANAGER I, MANUFACTURING ENGINEERING" [ref=e275]:
+            - link "MANAGER I, MANUFACTURING ENGINEERING" [ref=e276] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=MANAGER+I%2C+MANUFACTURING+ENGINEERING&city=&year=2025
+          - gridcell "150,322" [ref=e277]:
+            - link "150,322" [ref=e278] [cursor=pointer]:
+              - /url: details.php?id=I-200-25114-899005
+          - gridcell "COVENTRY, RI" [ref=e279]:
+            - link "COVENTRY, RI" [ref=e280] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=COVENTRY&year=2025
+          - gridcell "04/24/2025" [ref=e281]
+          - gridcell "10/24/2025" [ref=e282]
+        - row "BOSTON SCIENTIFIC CORPORATION MANUFACTURING ENGINEER III 74,610 SPENCER, IN 01/06/2025 06/13/2025" [ref=e283]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e284]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e285] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "MANUFACTURING ENGINEER III" [ref=e286]:
+            - link "MANUFACTURING ENGINEER III" [ref=e287] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=MANUFACTURING+ENGINEER+III&city=&year=2025
+          - gridcell "74,610" [ref=e288]:
+            - link "74,610" [ref=e289] [cursor=pointer]:
+              - /url: details.php?id=I-200-25006-596501
+          - gridcell "SPENCER, IN" [ref=e290]:
+            - link "SPENCER, IN" [ref=e291] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=SPENCER&year=2025
+          - gridcell "01/06/2025" [ref=e292]
+          - gridcell "06/13/2025" [ref=e293]
+        - row "BOSTON SCIENTIFIC CORPORATION MEDICAL OPERATIONS, ASSOCIATE DIRECTOR 193,253 EWING, NJ 02/25/2025 08/02/2025" [ref=e294]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e295]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e296] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "MEDICAL OPERATIONS, ASSOCIATE DIRECTOR" [ref=e297]:
+            - link "MEDICAL OPERATIONS, ASSOCIATE DIRECTOR" [ref=e298] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=MEDICAL+OPERATIONS%2C+ASSOCIATE+DIRECTOR&city=&year=2025
+          - gridcell "193,253" [ref=e299]:
+            - link "193,253" [ref=e300] [cursor=pointer]:
+              - /url: details.php?id=I-200-25056-723937
+          - gridcell "EWING, NJ" [ref=e301]:
+            - link "EWING, NJ" [ref=e302] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=EWING&year=2025
+          - gridcell "02/25/2025" [ref=e303]
+          - gridcell "08/02/2025" [ref=e304]
+        - row "BOSTON SCIENTIFIC CORPORATION MES MANUFACTURING EXECUTION SYSTEM MODELER I 79,914 QUINCY, MA 04/22/2025 10/01/2025" [ref=e305]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e306]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e307] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "MES MANUFACTURING EXECUTION SYSTEM MODELER I" [ref=e308]:
+            - link "MES MANUFACTURING EXECUTION SYSTEM MODELER I" [ref=e309] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=MES+MANUFACTURING+EXECUTION+SYSTEM+MODELER+I&city=&year=2025
+          - gridcell "79,914" [ref=e310]:
+            - link "79,914" [ref=e311] [cursor=pointer]:
+              - /url: details.php?id=I-200-25113-893052
+          - gridcell "QUINCY, MA" [ref=e312]:
+            - link "QUINCY, MA" [ref=e313] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=QUINCY&year=2025
+          - gridcell "04/22/2025" [ref=e314]
+          - gridcell "10/01/2025" [ref=e315]
+        - row "BOSTON SCIENTIFIC CORPORATION MOLDING PROCESS ENGINEER III 90,126 MAPLE GROVE, MN 04/30/2025 10/01/2025" [ref=e316]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e317]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e318] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "MOLDING PROCESS ENGINEER III" [ref=e319]:
+            - link "MOLDING PROCESS ENGINEER III" [ref=e320] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=MOLDING+PROCESS+ENGINEER+III&city=&year=2025
+          - gridcell "90,126" [ref=e321]:
+            - link "90,126" [ref=e322] [cursor=pointer]:
+              - /url: details.php?id=I-200-25120-922987
+          - gridcell "MAPLE GROVE, MN" [ref=e323]:
+            - link "MAPLE GROVE, MN" [ref=e324] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MAPLE+GROVE&year=2025
+          - gridcell "04/30/2025" [ref=e325]
+          - gridcell "10/01/2025" [ref=e326]
+        - row "BOSTON SCIENTIFIC CORPORATION PRINCIPAL BUSINESS SYSTEMS ANALYST 141,898 ST. PAUL, MN 04/04/2025 10/01/2025" [ref=e327]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e328]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e329] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "PRINCIPAL BUSINESS SYSTEMS ANALYST" [ref=e330]:
+            - link "PRINCIPAL BUSINESS SYSTEMS ANALYST" [ref=e331] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=PRINCIPAL+BUSINESS+SYSTEMS+ANALYST&city=&year=2025
+          - gridcell "141,898" [ref=e332]:
+            - link "141,898" [ref=e333] [cursor=pointer]:
+              - /url: details.php?id=I-200-25094-833808
+          - gridcell "ST. PAUL, MN" [ref=e334]:
+            - link "ST. PAUL, MN" [ref=e335] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=ST.+PAUL&year=2025
+          - gridcell "04/04/2025" [ref=e336]
+          - gridcell "10/01/2025" [ref=e337]
+        - row "BOSTON SCIENTIFIC CORPORATION PRINCIPAL CYBERSECURITY ENGINEER 141,898 MAPLE GROVE, MN 06/03/2025 07/07/2025" [ref=e338]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e339]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e340] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "PRINCIPAL CYBERSECURITY ENGINEER" [ref=e341]:
+            - link "PRINCIPAL CYBERSECURITY ENGINEER" [ref=e342] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=PRINCIPAL+CYBERSECURITY+ENGINEER&city=&year=2025
+          - gridcell "141,898" [ref=e343]:
+            - link "141,898" [ref=e344] [cursor=pointer]:
+              - /url: details.php?id=I-200-25154-046347
+          - gridcell "MAPLE GROVE, MN" [ref=e345]:
+            - link "MAPLE GROVE, MN" [ref=e346] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MAPLE+GROVE&year=2025
+          - gridcell "06/03/2025" [ref=e347]
+          - gridcell "07/07/2025" [ref=e348]
+        - row "BOSTON SCIENTIFIC CORPORATION PRINCIPAL CYBERSECURITY ENGINEER 141,898 MAPLE GROVE, MN 06/03/2025 07/07/2025" [ref=e349]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e350]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e351] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "PRINCIPAL CYBERSECURITY ENGINEER" [ref=e352]:
+            - link "PRINCIPAL CYBERSECURITY ENGINEER" [ref=e353] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=PRINCIPAL+CYBERSECURITY+ENGINEER&city=&year=2025
+          - gridcell "141,898" [ref=e354]:
+            - link "141,898" [ref=e355] [cursor=pointer]:
+              - /url: details.php?id=I-200-25154-046491
+          - gridcell "MAPLE GROVE, MN" [ref=e356]:
+            - link "MAPLE GROVE, MN" [ref=e357] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MAPLE+GROVE&year=2025
+          - gridcell "06/03/2025" [ref=e358]
+          - gridcell "07/07/2025" [ref=e359]
+        - row "BOSTON SCIENTIFIC CORPORATION PRINCIPAL CYBERSECURITY SOFTWARE ENGINEER 151,549 VALENCIA, CA 02/18/2025 06/01/2025" [ref=e360]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e361]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e362] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "PRINCIPAL CYBERSECURITY SOFTWARE ENGINEER" [ref=e363]:
+            - link "PRINCIPAL CYBERSECURITY SOFTWARE ENGINEER" [ref=e364] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=PRINCIPAL+CYBERSECURITY+SOFTWARE+ENGINEER&city=&year=2025
+          - gridcell "151,549" [ref=e365]:
+            - link "151,549" [ref=e366] [cursor=pointer]:
+              - /url: details.php?id=I-200-25049-703601
+          - gridcell "VALENCIA, CA" [ref=e367]:
+            - link "VALENCIA, CA" [ref=e368] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=VALENCIA&year=2025
+          - gridcell "02/18/2025" [ref=e369]
+          - gridcell "06/01/2025" [ref=e370]
+        - row "BOSTON SCIENTIFIC CORPORATION PRINCIPAL DATA ENGINEER 122,970 MARLBOROUGH, MA 02/26/2025 08/24/2025" [ref=e371]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e372]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e373] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "PRINCIPAL DATA ENGINEER" [ref=e374]:
+            - link "PRINCIPAL DATA ENGINEER" [ref=e375] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=PRINCIPAL+DATA+ENGINEER&city=&year=2025
+          - gridcell "122,970" [ref=e376]:
+            - link "122,970" [ref=e377] [cursor=pointer]:
+              - /url: details.php?id=I-200-25057-726287
+          - gridcell "MARLBOROUGH, MA" [ref=e378]:
+            - link "MARLBOROUGH, MA" [ref=e379] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MARLBOROUGH&year=2025
+          - gridcell "02/26/2025" [ref=e380]
+          - gridcell "08/24/2025" [ref=e381]
+        - row "BOSTON SCIENTIFIC CORPORATION PRINCIPAL R&D ENGINEER 126,443 MAPLE GROVE, MN 07/24/2025 01/06/2026" [ref=e382]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e383]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e384] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "PRINCIPAL R&D ENGINEER" [ref=e385]:
+            - link "PRINCIPAL R&D ENGINEER" [ref=e386] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=PRINCIPAL+R%26D+ENGINEER&city=&year=2025
+          - gridcell "126,443" [ref=e387]:
+            - link "126,443" [ref=e388] [cursor=pointer]:
+              - /url: details.php?id=I-200-25205-197657
+          - gridcell "MAPLE GROVE, MN" [ref=e389]:
+            - link "MAPLE GROVE, MN" [ref=e390] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MAPLE+GROVE&year=2025
+          - gridcell "07/24/2025" [ref=e391]
+          - gridcell "01/06/2026" [ref=e392]
+        - row "BOSTON SCIENTIFIC CORPORATION PRINCIPAL RESEARCH SCIENTIST 128,045 SHOREVIEW, MN 05/05/2025 10/06/2025" [ref=e393]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e394]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e395] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "PRINCIPAL RESEARCH SCIENTIST" [ref=e396]:
+            - link "PRINCIPAL RESEARCH SCIENTIST" [ref=e397] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=PRINCIPAL+RESEARCH+SCIENTIST&city=&year=2025
+          - gridcell "128,045" [ref=e398]:
+            - link "128,045" [ref=e399] [cursor=pointer]:
+              - /url: details.php?id=I-200-25126-940368
+          - gridcell "SHOREVIEW, MN" [ref=e400]:
+            - link "SHOREVIEW, MN" [ref=e401] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=SHOREVIEW&year=2025
+          - gridcell "05/05/2025" [ref=e402]
+          - gridcell "10/06/2025" [ref=e403]
+        - row "BOSTON SCIENTIFIC CORPORATION PRINCIPAL RESEARCH SCIENTIST 128,045 SHOREVIEW, MN 04/09/2025 10/07/2025" [ref=e404]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e405]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e406] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "PRINCIPAL RESEARCH SCIENTIST" [ref=e407]:
+            - link "PRINCIPAL RESEARCH SCIENTIST" [ref=e408] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=PRINCIPAL+RESEARCH+SCIENTIST&city=&year=2025
+          - gridcell "128,045" [ref=e409]:
+            - link "128,045" [ref=e410] [cursor=pointer]:
+              - /url: details.php?id=I-200-25099-844713
+          - gridcell "SHOREVIEW, MN" [ref=e411]:
+            - link "SHOREVIEW, MN" [ref=e412] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=SHOREVIEW&year=2025
+          - gridcell "04/09/2025" [ref=e413]
+          - gridcell "10/07/2025" [ref=e414]
+        - row "BOSTON SCIENTIFIC CORPORATION PRINCIPAL SOFTWARE ENGINEER 122,741 ST. PAUL, MN 04/04/2025 10/01/2025" [ref=e415]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e416]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e417] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "PRINCIPAL SOFTWARE ENGINEER" [ref=e418]:
+            - link "PRINCIPAL SOFTWARE ENGINEER" [ref=e419] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=PRINCIPAL+SOFTWARE+ENGINEER&city=&year=2025
+          - gridcell "122,741" [ref=e420]:
+            - link "122,741" [ref=e421] [cursor=pointer]:
+              - /url: details.php?id=I-200-25094-833521
+          - gridcell "ST. PAUL, MN" [ref=e422]:
+            - link "ST. PAUL, MN" [ref=e423] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=ST.+PAUL&year=2025
+          - gridcell "04/04/2025" [ref=e424]
+          - gridcell "10/01/2025" [ref=e425]
+        - row "BOSTON SCIENTIFIC CORPORATION PRINCIPAL SOFTWARE ENGINEER 131,082 QUINCY, MA 09/09/2025 03/06/2026" [ref=e426]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e427]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e428] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "PRINCIPAL SOFTWARE ENGINEER" [ref=e429]:
+            - link "PRINCIPAL SOFTWARE ENGINEER" [ref=e430] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=PRINCIPAL+SOFTWARE+ENGINEER&city=&year=2025
+          - gridcell "131,082" [ref=e431]:
+            - link "131,082" [ref=e432] [cursor=pointer]:
+              - /url: details.php?id=I-200-25252-297154
+          - gridcell "QUINCY, MA" [ref=e433]:
+            - link "QUINCY, MA" [ref=e434] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=QUINCY&year=2025
+          - gridcell "09/09/2025" [ref=e435]
+          - gridcell "03/06/2026" [ref=e436]
+        - row "BOSTON SCIENTIFIC CORPORATION PRINCIPAL SOFTWARE ENGINEER 141,898 MAPLE GROVE, MN 01/02/2025 01/15/2025" [ref=e437]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e438]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e439] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "PRINCIPAL SOFTWARE ENGINEER" [ref=e440]:
+            - link "PRINCIPAL SOFTWARE ENGINEER" [ref=e441] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=PRINCIPAL+SOFTWARE+ENGINEER&city=&year=2025
+          - gridcell "141,898" [ref=e442]:
+            - link "141,898" [ref=e443] [cursor=pointer]:
+              - /url: details.php?id=I-200-25002-590386
+          - gridcell "MAPLE GROVE, MN" [ref=e444]:
+            - link "MAPLE GROVE, MN" [ref=e445] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MAPLE+GROVE&year=2025
+          - gridcell "01/02/2025" [ref=e446]
+          - gridcell "01/15/2025" [ref=e447]
+        - row "BOSTON SCIENTIFIC CORPORATION PRINCIPAL SOFTWARE ENGINEER 149,781 MCKINNEY, TX 06/10/2025 11/07/2025" [ref=e448]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e449]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e450] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "PRINCIPAL SOFTWARE ENGINEER" [ref=e451]:
+            - link "PRINCIPAL SOFTWARE ENGINEER" [ref=e452] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=PRINCIPAL+SOFTWARE+ENGINEER&city=&year=2025
+          - gridcell "149,781" [ref=e453]:
+            - link "149,781" [ref=e454] [cursor=pointer]:
+              - /url: details.php?id=I-200-25161-075008
+          - gridcell "MCKINNEY, TX" [ref=e455]:
+            - link "MCKINNEY, TX" [ref=e456] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MCKINNEY&year=2025
+          - gridcell "06/10/2025" [ref=e457]
+          - gridcell "11/07/2025" [ref=e458]
+        - row "BOSTON SCIENTIFIC CORPORATION PRINCIPAL SOFTWARE TEST ENGINEER 119,288 ST. PAUL, MN 04/22/2025 10/01/2025" [ref=e459]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e460]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e461] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "PRINCIPAL SOFTWARE TEST ENGINEER" [ref=e462]:
+            - link "PRINCIPAL SOFTWARE TEST ENGINEER" [ref=e463] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=PRINCIPAL+SOFTWARE+TEST+ENGINEER&city=&year=2025
+          - gridcell "119,288" [ref=e464]:
+            - link "119,288" [ref=e465] [cursor=pointer]:
+              - /url: details.php?id=I-200-25113-893058
+          - gridcell "ST. PAUL, MN" [ref=e466]:
+            - link "ST. PAUL, MN" [ref=e467] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=ST.+PAUL&year=2025
+          - gridcell "04/22/2025" [ref=e468]
+          - gridcell "10/01/2025" [ref=e469]
+        - row "BOSTON SCIENTIFIC CORPORATION PRINCIPAL SYSTEMS ENGINEER 128,045 MAPLE GROVE, MN 01/03/2025 02/03/2025" [ref=e470]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e471]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e472] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "PRINCIPAL SYSTEMS ENGINEER" [ref=e473]:
+            - link "PRINCIPAL SYSTEMS ENGINEER" [ref=e474] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=PRINCIPAL+SYSTEMS+ENGINEER&city=&year=2025
+          - gridcell "128,045" [ref=e475]:
+            - link "128,045" [ref=e476] [cursor=pointer]:
+              - /url: details.php?id=I-200-25003-594264
+          - gridcell "MAPLE GROVE, MN" [ref=e477]:
+            - link "MAPLE GROVE, MN" [ref=e478] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MAPLE+GROVE&year=2025
+          - gridcell "01/03/2025" [ref=e479]
+          - gridcell "02/03/2025" [ref=e480]
+        - row "BOSTON SCIENTIFIC CORPORATION PRINCIPAL SYSTEMS ENGINEER 144,651 SAINT PAUL, MN 04/26/2025 10/24/2025" [ref=e481]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e482]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e483] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "PRINCIPAL SYSTEMS ENGINEER" [ref=e484]:
+            - link "PRINCIPAL SYSTEMS ENGINEER" [ref=e485] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=PRINCIPAL+SYSTEMS+ENGINEER&city=&year=2025
+          - gridcell "144,651" [ref=e486]:
+            - link "144,651" [ref=e487] [cursor=pointer]:
+              - /url: details.php?id=I-200-25117-908963
+          - gridcell "SAINT PAUL, MN" [ref=e488]:
+            - link "SAINT PAUL, MN" [ref=e489] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=SAINT+PAUL&year=2025
+          - gridcell "04/26/2025" [ref=e490]
+          - gridcell "10/24/2025" [ref=e491]
+        - row "BOSTON SCIENTIFIC CORPORATION PRINCIPAL SYSTEMS ENGINEER 144,651 SAINT PAUL, MN 04/24/2025 10/24/2025" [ref=e492]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e493]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e494] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "PRINCIPAL SYSTEMS ENGINEER" [ref=e495]:
+            - link "PRINCIPAL SYSTEMS ENGINEER" [ref=e496] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=PRINCIPAL+SYSTEMS+ENGINEER&city=&year=2025
+          - gridcell "144,651" [ref=e497]:
+            - link "144,651" [ref=e498] [cursor=pointer]:
+              - /url: details.php?id=I-201-25114-901715
+          - gridcell "SAINT PAUL, MN" [ref=e499]:
+            - link "SAINT PAUL, MN" [ref=e500] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=SAINT+PAUL&year=2025
+          - gridcell "04/24/2025" [ref=e501]
+          - gridcell "10/24/2025" [ref=e502]
+        - row "BOSTON SCIENTIFIC CORPORATION PRINCIPAL SYSTEMS ENGINEER 147,846 MARLBOROUGH, MA 01/14/2025 01/28/2025" [ref=e503]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e504]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e505] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "PRINCIPAL SYSTEMS ENGINEER" [ref=e506]:
+            - link "PRINCIPAL SYSTEMS ENGINEER" [ref=e507] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=PRINCIPAL+SYSTEMS+ENGINEER&city=&year=2025
+          - gridcell "147,846" [ref=e508]:
+            - link "147,846" [ref=e509] [cursor=pointer]:
+              - /url: details.php?id=I-200-25015-618746
+          - gridcell "MARLBOROUGH, MA" [ref=e510]:
+            - link "MARLBOROUGH, MA" [ref=e511] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MARLBOROUGH&year=2025
+          - gridcell "01/14/2025" [ref=e512]
+          - gridcell "01/28/2025" [ref=e513]
+        - row "BOSTON SCIENTIFIC CORPORATION PRINCIPAL SYSTEMS ENGINEER 147,846 MARLBOROUGH, MA 01/02/2025 02/03/2025" [ref=e514]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e515]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e516] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "PRINCIPAL SYSTEMS ENGINEER" [ref=e517]:
+            - link "PRINCIPAL SYSTEMS ENGINEER" [ref=e518] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=PRINCIPAL+SYSTEMS+ENGINEER&city=&year=2025
+          - gridcell "147,846" [ref=e519]:
+            - link "147,846" [ref=e520] [cursor=pointer]:
+              - /url: details.php?id=I-200-25002-589915
+          - gridcell "MARLBOROUGH, MA" [ref=e521]:
+            - link "MARLBOROUGH, MA" [ref=e522] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MARLBOROUGH&year=2025
+          - gridcell "01/02/2025" [ref=e523]
+          - gridcell "02/03/2025" [ref=e524]
+        - row "BOSTON SCIENTIFIC CORPORATION PRINCIPAL SYSTEMS ENGINEER 151,549 VALENCIA, CA 01/16/2025 07/18/2025" [ref=e525]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e526]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e527] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "PRINCIPAL SYSTEMS ENGINEER" [ref=e528]:
+            - link "PRINCIPAL SYSTEMS ENGINEER" [ref=e529] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=PRINCIPAL+SYSTEMS+ENGINEER&city=&year=2025
+          - gridcell "151,549" [ref=e530]:
+            - link "151,549" [ref=e531] [cursor=pointer]:
+              - /url: details.php?id=I-200-25016-622776
+          - gridcell "VALENCIA, CA" [ref=e532]:
+            - link "VALENCIA, CA" [ref=e533] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=VALENCIA&year=2025
+          - gridcell "01/16/2025" [ref=e534]
+          - gridcell "07/18/2025" [ref=e535]
+        - row "BOSTON SCIENTIFIC CORPORATION PRINCIPAL SYSTEMS EVALUATION ENGINEER 131,186 ARDEN HILLS, MN 07/08/2025 08/18/2025" [ref=e536]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e537]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e538] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "PRINCIPAL SYSTEMS EVALUATION ENGINEER" [ref=e539]:
+            - link "PRINCIPAL SYSTEMS EVALUATION ENGINEER" [ref=e540] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=PRINCIPAL+SYSTEMS+EVALUATION+ENGINEER&city=&year=2025
+          - gridcell "131,186" [ref=e541]:
+            - link "131,186" [ref=e542] [cursor=pointer]:
+              - /url: details.php?id=I-200-25190-160810
+          - gridcell "ARDEN HILLS, MN" [ref=e543]:
+            - link "ARDEN HILLS, MN" [ref=e544] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=ARDEN+HILLS&year=2025
+          - gridcell "07/08/2025" [ref=e545]
+          - gridcell "08/18/2025" [ref=e546]
+        - row "BOSTON SCIENTIFIC CORPORATION PRINCIPLE PROJECT MANAGER 145,246 VALENCIA, CA 08/26/2025 10/10/2025" [ref=e547]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e548]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e549] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "PRINCIPLE PROJECT MANAGER" [ref=e550]:
+            - link "PRINCIPLE PROJECT MANAGER" [ref=e551] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=PRINCIPLE+PROJECT+MANAGER&city=&year=2025
+          - gridcell "145,246" [ref=e552]:
+            - link "145,246" [ref=e553] [cursor=pointer]:
+              - /url: details.php?id=I-200-25238-268093
+          - gridcell "VALENCIA, CA" [ref=e554]:
+            - link "VALENCIA, CA" [ref=e555] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=VALENCIA&year=2025
+          - gridcell "08/26/2025" [ref=e556]
+          - gridcell "10/10/2025" [ref=e557]
+        - row "BOSTON SCIENTIFIC CORPORATION QA ENGINEER II- DATA SCIENTIST 96,179 ST. PAUL, MN 04/04/2025 10/01/2025" [ref=e558]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e559]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e560] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "QA ENGINEER II- DATA SCIENTIST" [ref=e561]:
+            - link "QA ENGINEER II- DATA SCIENTIST" [ref=e562] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=QA+ENGINEER+II-+DATA+SCIENTIST&city=&year=2025
+          - gridcell "96,179" [ref=e563]:
+            - link "96,179" [ref=e564] [cursor=pointer]:
+              - /url: details.php?id=I-200-25094-834010
+          - gridcell "ST. PAUL, MN" [ref=e565]:
+            - link "ST. PAUL, MN" [ref=e566] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=ST.+PAUL&year=2025
+          - gridcell "04/04/2025" [ref=e567]
+          - gridcell "10/01/2025" [ref=e568]
+        - row "BOSTON SCIENTIFIC CORPORATION QUALITY ENGINEER III 115,000 COVENTRY, RI 05/22/2025 06/02/2025" [ref=e569]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e570]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e571] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "QUALITY ENGINEER III" [ref=e572]:
+            - link "QUALITY ENGINEER III" [ref=e573] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=QUALITY+ENGINEER+III&city=&year=2025
+          - gridcell "115,000" [ref=e574]:
+            - link "115,000" [ref=e575] [cursor=pointer]:
+              - /url: details.php?id=I-200-25142-007181
+          - gridcell "COVENTRY, RI" [ref=e576]:
+            - link "COVENTRY, RI" [ref=e577] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=COVENTRY&year=2025
+          - gridcell "05/22/2025" [ref=e578]
+          - gridcell "06/02/2025" [ref=e579]
+        - row "BOSTON SCIENTIFIC CORPORATION R & D ENGINEER III 123,000 IRVINE, CA 06/16/2025 07/01/2025" [ref=e580]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e581]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e582] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "R & D ENGINEER III" [ref=e583]:
+            - link "R & D ENGINEER III" [ref=e584] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=R+%26+D+ENGINEER+III&city=&year=2025
+          - gridcell "123,000" [ref=e585]:
+            - link "123,000" [ref=e586] [cursor=pointer]:
+              - /url: details.php?id=I-200-25167-094540
+          - gridcell "IRVINE, CA" [ref=e587]:
+            - link "IRVINE, CA" [ref=e588] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=IRVINE&year=2025
+          - gridcell "06/16/2025" [ref=e589]
+          - gridcell "07/01/2025" [ref=e590]
+        - row "BOSTON SCIENTIFIC CORPORATION REGIONAL MANAGER 115,000 CHESHIRE, CT 06/23/2025 08/15/2025" [ref=e591]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e592]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e593] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "REGIONAL MANAGER" [ref=e594]:
+            - link "REGIONAL MANAGER" [ref=e595] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=REGIONAL+MANAGER&city=&year=2025
+          - gridcell "115,000" [ref=e596]:
+            - link "115,000" [ref=e597] [cursor=pointer]:
+              - /url: details.php?id=I-200-25174-122415
+          - gridcell "CHESHIRE, CT" [ref=e598]:
+            - link "CHESHIRE, CT" [ref=e599] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=CHESHIRE&year=2025
+          - gridcell "06/23/2025" [ref=e600]
+          - gridcell "08/15/2025" [ref=e601]
+        - row "BOSTON SCIENTIFIC CORPORATION REGIONAL MANAGER 115,000 CHESHIRE, CT 03/10/2025 08/15/2025" [ref=e602]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e603]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e604] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "REGIONAL MANAGER" [ref=e605]:
+            - link "REGIONAL MANAGER" [ref=e606] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=REGIONAL+MANAGER&city=&year=2025
+          - gridcell "115,000" [ref=e607]:
+            - link "115,000" [ref=e608] [cursor=pointer]:
+              - /url: details.php?id=I-200-25069-762677
+          - gridcell "CHESHIRE, CT" [ref=e609]:
+            - link "CHESHIRE, CT" [ref=e610] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=CHESHIRE&year=2025
+          - gridcell "03/10/2025" [ref=e611]
+          - gridcell "08/15/2025" [ref=e612]
+        - row "BOSTON SCIENTIFIC CORPORATION REGULATORY AFFAIRS SPECIALIST II 81,682 MARLBOROUGH, MA 07/20/2025 07/20/2025" [ref=e613]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e614]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e615] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "REGULATORY AFFAIRS SPECIALIST II" [ref=e616]:
+            - link "REGULATORY AFFAIRS SPECIALIST II" [ref=e617] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=REGULATORY+AFFAIRS+SPECIALIST+II&city=&year=2025
+          - gridcell "81,682" [ref=e618]:
+            - link "81,682" [ref=e619] [cursor=pointer]:
+              - /url: details.php?id=I-200-25201-187141
+          - gridcell "MARLBOROUGH, MA" [ref=e620]:
+            - link "MARLBOROUGH, MA" [ref=e621] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MARLBOROUGH&year=2025
+          - gridcell "07/20/2025" [ref=e622]
+          - gridcell "07/20/2025" [ref=e623]
+        - row "BOSTON SCIENTIFIC CORPORATION REGULATORY AFFAIRS SPECIALIST III 100,734 MAPLE GROVE, MN 04/30/2025 10/01/2025" [ref=e624]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e625]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e626] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "REGULATORY AFFAIRS SPECIALIST III" [ref=e627]:
+            - link "REGULATORY AFFAIRS SPECIALIST III" [ref=e628] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=REGULATORY+AFFAIRS+SPECIALIST+III&city=&year=2025
+          - gridcell "100,734" [ref=e629]:
+            - link "100,734" [ref=e630] [cursor=pointer]:
+              - /url: details.php?id=I-200-25120-922989
+          - gridcell "MAPLE GROVE, MN" [ref=e631]:
+            - link "MAPLE GROVE, MN" [ref=e632] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MAPLE+GROVE&year=2025
+          - gridcell "04/30/2025" [ref=e633]
+          - gridcell "10/01/2025" [ref=e634]
+        - row "BOSTON SCIENTIFIC CORPORATION RPA DEVELOPER II 103,907 IRVING, TX 08/12/2025 02/10/2026" [ref=e635]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e636]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e637] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "RPA DEVELOPER II" [ref=e638]:
+            - link "RPA DEVELOPER II" [ref=e639] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=RPA+DEVELOPER+II&city=&year=2025
+          - gridcell "103,907" [ref=e640]:
+            - link "103,907" [ref=e641] [cursor=pointer]:
+              - /url: details.php?id=I-200-25224-236408
+          - gridcell "IRVING, TX" [ref=e642]:
+            - link "IRVING, TX" [ref=e643] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=IRVING&year=2025
+          - gridcell "08/12/2025" [ref=e644]
+          - gridcell "02/10/2026" [ref=e645]
+        - row "BOSTON SCIENTIFIC CORPORATION SCRUM MASTER 124,259 QUINCY, MA 06/02/2025 09/26/2025" [ref=e646]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e647]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e648] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SCRUM MASTER" [ref=e649]:
+            - link "SCRUM MASTER" [ref=e650] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SCRUM+MASTER&city=&year=2025
+          - gridcell "124,259" [ref=e651]:
+            - link "124,259" [ref=e652] [cursor=pointer]:
+              - /url: details.php?id=I-200-25153-041960
+          - gridcell "QUINCY, MA" [ref=e653]:
+            - link "QUINCY, MA" [ref=e654] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=QUINCY&year=2025
+          - gridcell "06/02/2025" [ref=e655]
+          - gridcell "09/26/2025" [ref=e656]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR ANALYST - HEMA 116,043 MAPLE GROVE, MN 01/30/2025 05/16/2025" [ref=e657]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e658]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e659] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR ANALYST - HEMA" [ref=e660]:
+            - link "SENIOR ANALYST - HEMA" [ref=e661] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+ANALYST+-+HEMA&city=&year=2025
+          - gridcell "116,043" [ref=e662]:
+            - link "116,043" [ref=e663] [cursor=pointer]:
+              - /url: details.php?id=I-200-25030-655245
+          - gridcell "MAPLE GROVE, MN" [ref=e664]:
+            - link "MAPLE GROVE, MN" [ref=e665] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MAPLE+GROVE&year=2025
+          - gridcell "01/30/2025" [ref=e666]
+          - gridcell "05/16/2025" [ref=e667]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR ANALYST - HEMA 116,043 MAPLE GROVE, MN 01/15/2025 05/16/2025" [ref=e668]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e669]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e670] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR ANALYST - HEMA" [ref=e671]:
+            - link "SENIOR ANALYST - HEMA" [ref=e672] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+ANALYST+-+HEMA&city=&year=2025
+          - gridcell "116,043" [ref=e673]:
+            - link "116,043" [ref=e674] [cursor=pointer]:
+              - /url: details.php?id=I-200-25016-621801
+          - gridcell "MAPLE GROVE, MN" [ref=e675]:
+            - link "MAPLE GROVE, MN" [ref=e676] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MAPLE+GROVE&year=2025
+          - gridcell "01/15/2025" [ref=e677]
+          - gridcell "05/16/2025" [ref=e678]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR ANALYST - HEMA 146,000 ALPHARETTA, GA 06/16/2025 06/16/2025" [ref=e679]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e680]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e681] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR ANALYST - HEMA" [ref=e682]:
+            - link "SENIOR ANALYST - HEMA" [ref=e683] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+ANALYST+-+HEMA&city=&year=2025
+          - gridcell "146,000" [ref=e684]:
+            - link "146,000" [ref=e685] [cursor=pointer]:
+              - /url: details.php?id=I-200-25167-097051
+          - gridcell "ALPHARETTA, GA" [ref=e686]:
+            - link "ALPHARETTA, GA" [ref=e687] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=ALPHARETTA&year=2025
+          - gridcell "06/16/2025" [ref=e688]
+          - gridcell "06/16/2025" [ref=e689]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR DATA SCIENTIST 114,952 GREENSBORO, NC 09/19/2025 02/13/2026" [ref=e690]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e691]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e692] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR DATA SCIENTIST" [ref=e693]:
+            - link "SENIOR DATA SCIENTIST" [ref=e694] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+DATA+SCIENTIST&city=&year=2025
+          - gridcell "114,952" [ref=e695]:
+            - link "114,952" [ref=e696] [cursor=pointer]:
+              - /url: details.php?id=I-200-25262-321527
+          - gridcell "GREENSBORO, NC" [ref=e697]:
+            - link "GREENSBORO, NC" [ref=e698] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=GREENSBORO&year=2025
+          - gridcell "09/19/2025" [ref=e699]
+          - gridcell "02/13/2026" [ref=e700]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR DATA SCIENTIST 114,952 GREENSBORO, NC 09/02/2025 02/14/2026" [ref=e701]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e702]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e703] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR DATA SCIENTIST" [ref=e704]:
+            - link "SENIOR DATA SCIENTIST" [ref=e705] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+DATA+SCIENTIST&city=&year=2025
+          - gridcell "114,952" [ref=e706]:
+            - link "114,952" [ref=e707] [cursor=pointer]:
+              - /url: details.php?id=I-200-25246-282295
+          - gridcell "GREENSBORO, NC" [ref=e708]:
+            - link "GREENSBORO, NC" [ref=e709] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=GREENSBORO&year=2025
+          - gridcell "09/02/2025" [ref=e710]
+          - gridcell "02/14/2026" [ref=e711]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR DESIGN QUALITY ENGINEER 122,221 PLAINFIELD, IL 06/10/2025 08/22/2025" [ref=e712]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e713]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e714] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR DESIGN QUALITY ENGINEER" [ref=e715]:
+            - link "SENIOR DESIGN QUALITY ENGINEER" [ref=e716] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+DESIGN+QUALITY+ENGINEER&city=&year=2025
+          - gridcell "122,221" [ref=e717]:
+            - link "122,221" [ref=e718] [cursor=pointer]:
+              - /url: details.php?id=I-200-25161-074475
+          - gridcell "PLAINFIELD, IL" [ref=e719]:
+            - link "PLAINFIELD, IL" [ref=e720] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=PLAINFIELD&year=2025
+          - gridcell "06/10/2025" [ref=e721]
+          - gridcell "08/22/2025" [ref=e722]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR ELECTRICAL ENGINEER 113,838 ARDEN HILLS, MN 08/12/2025 01/17/2026" [ref=e723]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e724]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e725] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR ELECTRICAL ENGINEER" [ref=e726]:
+            - link "SENIOR ELECTRICAL ENGINEER" [ref=e727] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+ELECTRICAL+ENGINEER&city=&year=2025
+          - gridcell "113,838" [ref=e728]:
+            - link "113,838" [ref=e729] [cursor=pointer]:
+              - /url: details.php?id=I-200-25225-238368
+          - gridcell "ARDEN HILLS, MN" [ref=e730]:
+            - link "ARDEN HILLS, MN" [ref=e731] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=ARDEN+HILLS&year=2025
+          - gridcell "08/12/2025" [ref=e732]
+          - gridcell "01/17/2026" [ref=e733]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR FIRMWARE ENGINEER 106,579 MAPLE GROVE, MN 07/07/2025 07/21/2025" [ref=e734]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e735]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e736] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR FIRMWARE ENGINEER" [ref=e737]:
+            - link "SENIOR FIRMWARE ENGINEER" [ref=e738] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+FIRMWARE+ENGINEER&city=&year=2025
+          - gridcell "106,579" [ref=e739]:
+            - link "106,579" [ref=e740] [cursor=pointer]:
+              - /url: details.php?id=I-200-25189-157452
+          - gridcell "MAPLE GROVE, MN" [ref=e741]:
+            - link "MAPLE GROVE, MN" [ref=e742] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MAPLE+GROVE&year=2025
+          - gridcell "07/07/2025" [ref=e743]
+          - gridcell "07/21/2025" [ref=e744]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR FRONT END DEVELOPER, IT DIGITAL SALES ENABLEMENT 131,082 MARLBOROUGH, MA 08/26/2025 02/18/2026" [ref=e745]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e746]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e747] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR FRONT END DEVELOPER, IT DIGITAL SALES ENABLEMENT" [ref=e748]:
+            - link "SENIOR FRONT END DEVELOPER, IT DIGITAL SALES ENABLEMENT" [ref=e749] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+FRONT+END+DEVELOPER%2C+IT+DIGITAL+SALES+ENABLEMENT&city=&year=2025
+          - gridcell "131,082" [ref=e750]:
+            - link "131,082" [ref=e751] [cursor=pointer]:
+              - /url: details.php?id=I-200-25238-267339
+          - gridcell "MARLBOROUGH, MA" [ref=e752]:
+            - link "MARLBOROUGH, MA" [ref=e753] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MARLBOROUGH&year=2025
+          - gridcell "08/26/2025" [ref=e754]
+          - gridcell "02/18/2026" [ref=e755]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR MACHINE VISION ENGINEER 121,347 MAPLE GROVE, MN 03/10/2025 03/31/2025" [ref=e756]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e757]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e758] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR MACHINE VISION ENGINEER" [ref=e759]:
+            - link "SENIOR MACHINE VISION ENGINEER" [ref=e760] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+MACHINE+VISION+ENGINEER&city=&year=2025
+          - gridcell "121,347" [ref=e761]:
+            - link "121,347" [ref=e762] [cursor=pointer]:
+              - /url: details.php?id=I-200-25069-763656
+          - gridcell "MAPLE GROVE, MN" [ref=e763]:
+            - link "MAPLE GROVE, MN" [ref=e764] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MAPLE+GROVE&year=2025
+          - gridcell "03/10/2025" [ref=e765]
+          - gridcell "03/31/2025" [ref=e766]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR MANUFACTURING ENGINEER 91,395 SPENCER, IN 05/20/2025 06/19/2025" [ref=e767]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e768]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e769] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR MANUFACTURING ENGINEER" [ref=e770]:
+            - link "SENIOR MANUFACTURING ENGINEER" [ref=e771] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+MANUFACTURING+ENGINEER&city=&year=2025
+          - gridcell "91,395" [ref=e772]:
+            - link "91,395" [ref=e773] [cursor=pointer]:
+              - /url: details.php?id=I-200-25140-997869
+          - gridcell "SPENCER, IN" [ref=e774]:
+            - link "SPENCER, IN" [ref=e775] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=SPENCER&year=2025
+          - gridcell "05/20/2025" [ref=e776]
+          - gridcell "06/19/2025" [ref=e777]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR MATERIAL PROGRAM MANAGER, MANUFACTURING ENGINEERING 110,843 ST. PAUL, MN 05/20/2025 10/01/2025" [ref=e778]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e779]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e780] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR MATERIAL PROGRAM MANAGER, MANUFACTURING ENGINEERING" [ref=e781]:
+            - link "SENIOR MATERIAL PROGRAM MANAGER, MANUFACTURING ENGINEERING" [ref=e782] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+MATERIAL+PROGRAM+MANAGER%2C+MANUFACTURING+ENGINEERING&city=&year=2025
+          - gridcell "110,843" [ref=e783]:
+            - link "110,843" [ref=e784] [cursor=pointer]:
+              - /url: details.php?id=I-200-25140-996641
+          - gridcell "ST. PAUL, MN" [ref=e785]:
+            - link "ST. PAUL, MN" [ref=e786] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=ST.+PAUL&year=2025
+          - gridcell "05/20/2025" [ref=e787]
+          - gridcell "10/01/2025" [ref=e788]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR PRODUCT MANAGER, IT DIGITAL SALES ENABLEMENT 151,923 MARLBOROUGH, MA 04/22/2025 10/01/2025" [ref=e789]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e790]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e791] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR PRODUCT MANAGER, IT DIGITAL SALES ENABLEMENT" [ref=e792]:
+            - link "SENIOR PRODUCT MANAGER, IT DIGITAL SALES ENABLEMENT" [ref=e793] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+PRODUCT+MANAGER%2C+IT+DIGITAL+SALES+ENABLEMENT&city=&year=2025
+          - gridcell "151,923" [ref=e794]:
+            - link "151,923" [ref=e795] [cursor=pointer]:
+              - /url: details.php?id=I-200-25113-893061
+          - gridcell "MARLBOROUGH, MA" [ref=e796]:
+            - link "MARLBOROUGH, MA" [ref=e797] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MARLBOROUGH&year=2025
+          - gridcell "04/22/2025" [ref=e798]
+          - gridcell "10/01/2025" [ref=e799]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR PRODUCT MANAGER, IT DIGITAL SALES ENABLEMENT 158,413 MARLBOROUGH, MA 06/02/2025 10/01/2025" [ref=e800]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e801]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e802] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR PRODUCT MANAGER, IT DIGITAL SALES ENABLEMENT" [ref=e803]:
+            - link "SENIOR PRODUCT MANAGER, IT DIGITAL SALES ENABLEMENT" [ref=e804] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+PRODUCT+MANAGER%2C+IT+DIGITAL+SALES+ENABLEMENT&city=&year=2025
+          - gridcell "158,413" [ref=e805]:
+            - link "158,413" [ref=e806] [cursor=pointer]:
+              - /url: details.php?id=I-200-25153-040016
+          - gridcell "MARLBOROUGH, MA" [ref=e807]:
+            - link "MARLBOROUGH, MA" [ref=e808] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MARLBOROUGH&year=2025
+          - gridcell "06/02/2025" [ref=e809]
+          - gridcell "10/01/2025" [ref=e810]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR R&D ENGINEER 100,235 IRVINE, CA 08/21/2025 08/31/2025" [ref=e811]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e812]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e813] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR R&D ENGINEER" [ref=e814]:
+            - link "SENIOR R&D ENGINEER" [ref=e815] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+R%26D+ENGINEER&city=&year=2025
+          - gridcell "100,235" [ref=e816]:
+            - link "100,235" [ref=e817] [cursor=pointer]:
+              - /url: details.php?id=I-200-25233-259220
+          - gridcell "IRVINE, CA" [ref=e818]:
+            - link "IRVINE, CA" [ref=e819] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=IRVINE&year=2025
+          - gridcell "08/21/2025" [ref=e820]
+          - gridcell "08/31/2025" [ref=e821]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR REGULATORY AFFAIRS SPECIALIST 106,974 MARLBOROUGH, MA 03/03/2025 06/18/2025" [ref=e822]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e823]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e824] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR REGULATORY AFFAIRS SPECIALIST" [ref=e825]:
+            - link "SENIOR REGULATORY AFFAIRS SPECIALIST" [ref=e826] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+REGULATORY+AFFAIRS+SPECIALIST&city=&year=2025
+          - gridcell "106,974" [ref=e827]:
+            - link "106,974" [ref=e828] [cursor=pointer]:
+              - /url: details.php?id=I-200-25062-737132
+          - gridcell "MARLBOROUGH, MA" [ref=e829]:
+            - link "MARLBOROUGH, MA" [ref=e830] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MARLBOROUGH&year=2025
+          - gridcell "03/03/2025" [ref=e831]
+          - gridcell "06/18/2025" [ref=e832]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR RESEARCH SCIENTIST 94,203 ST. PAUL, MN 04/04/2025 10/01/2025" [ref=e833]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e834]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e835] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR RESEARCH SCIENTIST" [ref=e836]:
+            - link "SENIOR RESEARCH SCIENTIST" [ref=e837] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+RESEARCH+SCIENTIST&city=&year=2025
+          - gridcell "94,203" [ref=e838]:
+            - link "94,203" [ref=e839] [cursor=pointer]:
+              - /url: details.php?id=I-200-25094-833729
+          - gridcell "ST. PAUL, MN" [ref=e840]:
+            - link "ST. PAUL, MN" [ref=e841] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=ST.+PAUL&year=2025
+          - gridcell "04/04/2025" [ref=e842]
+          - gridcell "10/01/2025" [ref=e843]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR SOFTWARE DESIGN QUALITY ENGINEER 106,579 MAPLE GROVE, MN 08/21/2025 02/19/2026" [ref=e844]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e845]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e846] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR SOFTWARE DESIGN QUALITY ENGINEER" [ref=e847]:
+            - link "SENIOR SOFTWARE DESIGN QUALITY ENGINEER" [ref=e848] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+SOFTWARE+DESIGN+QUALITY+ENGINEER&city=&year=2025
+          - gridcell "106,579" [ref=e849]:
+            - link "106,579" [ref=e850] [cursor=pointer]:
+              - /url: details.php?id=I-200-25233-259528
+          - gridcell "MAPLE GROVE, MN" [ref=e851]:
+            - link "MAPLE GROVE, MN" [ref=e852] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MAPLE+GROVE&year=2025
+          - gridcell "08/21/2025" [ref=e853]
+          - gridcell "02/19/2026" [ref=e854]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR SOFTWARE DEVELOPER 126,589 KATY, TX 06/03/2025 11/14/2025" [ref=e855]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e856]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e857] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR SOFTWARE DEVELOPER" [ref=e858]:
+            - link "SENIOR SOFTWARE DEVELOPER" [ref=e859] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+SOFTWARE+DEVELOPER&city=&year=2025
+          - gridcell "126,589" [ref=e860]:
+            - link "126,589" [ref=e861] [cursor=pointer]:
+              - /url: details.php?id=I-200-25154-046410
+          - gridcell "KATY, TX" [ref=e862]:
+            - link "KATY, TX" [ref=e863] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=KATY&year=2025
+          - gridcell "06/03/2025" [ref=e864]
+          - gridcell "11/14/2025" [ref=e865]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR SOFTWARE DEVELOPER 126,589 KATY, TX 06/03/2025 11/14/2025" [ref=e866]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e867]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e868] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR SOFTWARE DEVELOPER" [ref=e869]:
+            - link "SENIOR SOFTWARE DEVELOPER" [ref=e870] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+SOFTWARE+DEVELOPER&city=&year=2025
+          - gridcell "126,589" [ref=e871]:
+            - link "126,589" [ref=e872] [cursor=pointer]:
+              - /url: details.php?id=I-200-25154-046542
+          - gridcell "KATY, TX" [ref=e873]:
+            - link "KATY, TX" [ref=e874] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=KATY&year=2025
+          - gridcell "06/03/2025" [ref=e875]
+          - gridcell "11/14/2025" [ref=e876]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR SOFTWARE ENGINEER 3D GRAPHICS 131,082 WALTHAM, MA 07/03/2025 08/04/2025" [ref=e877]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e878]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e879] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR SOFTWARE ENGINEER 3D GRAPHICS" [ref=e880]:
+            - link "SENIOR SOFTWARE ENGINEER 3D GRAPHICS" [ref=e881] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+SOFTWARE+ENGINEER+3D+GRAPHICS&city=&year=2025
+          - gridcell "131,082" [ref=e882]:
+            - link "131,082" [ref=e883] [cursor=pointer]:
+              - /url: details.php?id=I-200-25184-152036
+          - gridcell "WALTHAM, MA" [ref=e884]:
+            - link "WALTHAM, MA" [ref=e885] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=WALTHAM&year=2025
+          - gridcell "07/03/2025" [ref=e886]
+          - gridcell "08/04/2025" [ref=e887]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR STRATEGY MANAGER 137,093 FREMONT, CA 01/29/2025 07/04/2025" [ref=e888]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e889]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e890] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR STRATEGY MANAGER" [ref=e891]:
+            - link "SENIOR STRATEGY MANAGER" [ref=e892] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+STRATEGY+MANAGER&city=&year=2025
+          - gridcell "137,093" [ref=e893]:
+            - link "137,093" [ref=e894] [cursor=pointer]:
+              - /url: details.php?id=I-200-25029-650570
+          - gridcell "FREMONT, CA" [ref=e895]:
+            - link "FREMONT, CA" [ref=e896] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=FREMONT&year=2025
+          - gridcell "01/29/2025" [ref=e897]
+          - gridcell "07/04/2025" [ref=e898]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR SUPPLY CHAIN ANALYST 103,000 MARLBOROUGH, MA 06/05/2025 07/01/2025" [ref=e899]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e900]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e901] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR SUPPLY CHAIN ANALYST" [ref=e902]:
+            - link "SENIOR SUPPLY CHAIN ANALYST" [ref=e903] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+SUPPLY+CHAIN+ANALYST&city=&year=2025
+          - gridcell "103,000" [ref=e904]:
+            - link "103,000" [ref=e905] [cursor=pointer]:
+              - /url: details.php?id=I-200-25156-059573
+          - gridcell "MARLBOROUGH, MA" [ref=e906]:
+            - link "MARLBOROUGH, MA" [ref=e907] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MARLBOROUGH&year=2025
+          - gridcell "06/05/2025" [ref=e908]
+          - gridcell "07/01/2025" [ref=e909]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR SYSTEMS ENGINEER 122,325 WALTHAM, MA 02/05/2025 03/21/2025" [ref=e910]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e911]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e912] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR SYSTEMS ENGINEER" [ref=e913]:
+            - link "SENIOR SYSTEMS ENGINEER" [ref=e914] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+SYSTEMS+ENGINEER&city=&year=2025
+          - gridcell "122,325" [ref=e915]:
+            - link "122,325" [ref=e916] [cursor=pointer]:
+              - /url: details.php?id=I-200-25037-669893
+          - gridcell "WALTHAM, MA" [ref=e917]:
+            - link "WALTHAM, MA" [ref=e918] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=WALTHAM&year=2025
+          - gridcell "02/05/2025" [ref=e919]
+          - gridcell "03/21/2025" [ref=e920]
+        - row "BOSTON SCIENTIFIC CORPORATION SENIOR SYSTEMS ENGINEER 125,798 ARDEN HILLS, MN 09/18/2025 02/20/2026" [ref=e921]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e922]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e923] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SENIOR SYSTEMS ENGINEER" [ref=e924]:
+            - link "SENIOR SYSTEMS ENGINEER" [ref=e925] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SENIOR+SYSTEMS+ENGINEER&city=&year=2025
+          - gridcell "125,798" [ref=e926]:
+            - link "125,798" [ref=e927] [cursor=pointer]:
+              - /url: details.php?id=I-200-25261-318403
+          - gridcell "ARDEN HILLS, MN" [ref=e928]:
+            - link "ARDEN HILLS, MN" [ref=e929] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=ARDEN+HILLS&year=2025
+          - gridcell "09/18/2025" [ref=e930]
+          - gridcell "02/20/2026" [ref=e931]
+        - row "BOSTON SCIENTIFIC CORPORATION SOFTWARE ENGINEER III 102,565 WALTHAM, MA 04/04/2025 10/01/2025" [ref=e932]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e933]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e934] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SOFTWARE ENGINEER III" [ref=e935]:
+            - link "SOFTWARE ENGINEER III" [ref=e936] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SOFTWARE+ENGINEER+III&city=&year=2025
+          - gridcell "102,565" [ref=e937]:
+            - link "102,565" [ref=e938] [cursor=pointer]:
+              - /url: details.php?id=I-200-25094-833228
+          - gridcell "WALTHAM, MA" [ref=e939]:
+            - link "WALTHAM, MA" [ref=e940] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=WALTHAM&year=2025
+          - gridcell "04/04/2025" [ref=e941]
+          - gridcell "10/01/2025" [ref=e942]
+        - row "BOSTON SCIENTIFIC CORPORATION SOFTWARE ENGINEERING MANAGER I 119,288 ST PAUL, MN 05/22/2025 10/01/2025" [ref=e943]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e944]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e945] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SOFTWARE ENGINEERING MANAGER I" [ref=e946]:
+            - link "SOFTWARE ENGINEERING MANAGER I" [ref=e947] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SOFTWARE+ENGINEERING+MANAGER+I&city=&year=2025
+          - gridcell "119,288" [ref=e948]:
+            - link "119,288" [ref=e949] [cursor=pointer]:
+              - /url: details.php?id=I-200-25142-006776
+          - gridcell "ST PAUL, MN" [ref=e950]:
+            - link "ST PAUL, MN" [ref=e951] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=ST+PAUL&year=2025
+          - gridcell "05/22/2025" [ref=e952]
+          - gridcell "10/01/2025" [ref=e953]
+        - row "BOSTON SCIENTIFIC CORPORATION SOFTWARE TEST ENGINEER II 84,157 WALTHAM, MA 04/29/2025 10/01/2025" [ref=e954]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e955]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e956] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SOFTWARE TEST ENGINEER II" [ref=e957]:
+            - link "SOFTWARE TEST ENGINEER II" [ref=e958] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SOFTWARE+TEST+ENGINEER+II&city=&year=2025
+          - gridcell "84,157" [ref=e959]:
+            - link "84,157" [ref=e960] [cursor=pointer]:
+              - /url: details.php?id=I-200-25119-915317
+          - gridcell "WALTHAM, MA" [ref=e961]:
+            - link "WALTHAM, MA" [ref=e962] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=WALTHAM&year=2025
+          - gridcell "04/29/2025" [ref=e963]
+          - gridcell "10/01/2025" [ref=e964]
+        - row "BOSTON SCIENTIFIC CORPORATION SR. CLINICAL ANALYTICS ANALYST 110,885 ARDEN HILLS, MN 04/29/2025 10/01/2025" [ref=e965]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e966]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e967] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SR. CLINICAL ANALYTICS ANALYST" [ref=e968]:
+            - link "SR. CLINICAL ANALYTICS ANALYST" [ref=e969] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SR.+CLINICAL+ANALYTICS+ANALYST&city=&year=2025
+          - gridcell "110,885" [ref=e970]:
+            - link "110,885" [ref=e971] [cursor=pointer]:
+              - /url: details.php?id=I-200-25119-915212
+          - gridcell "ARDEN HILLS, MN" [ref=e972]:
+            - link "ARDEN HILLS, MN" [ref=e973] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=ARDEN+HILLS&year=2025
+          - gridcell "04/29/2025" [ref=e974]
+          - gridcell "10/01/2025" [ref=e975]
+        - row "··· Ezoic" [ref=e976]:
+          - gridcell "··· Ezoic" [ref=e977]:
+            - generic [ref=e978]:
+              - generic [ref=e979]: ···
+              - img "Ezoic" [ref=e982] [cursor=pointer]
+        - row "BOSTON SCIENTIFIC CORPORATION SR. DATA ENGINEER 112,986 HUNTERSVILLE, NC 05/22/2025 10/10/2025" [ref=e983]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e984]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e985] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SR. DATA ENGINEER" [ref=e986]:
+            - link "SR. DATA ENGINEER" [ref=e987] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SR.+DATA+ENGINEER&city=&year=2025
+          - gridcell "112,986" [ref=e988]:
+            - link "112,986" [ref=e989] [cursor=pointer]:
+              - /url: details.php?id=I-200-25142-006904
+          - gridcell "HUNTERSVILLE, NC" [ref=e990]:
+            - link "HUNTERSVILLE, NC" [ref=e991] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=HUNTERSVILLE&year=2025
+          - gridcell "05/22/2025" [ref=e992]
+          - gridcell "10/10/2025" [ref=e993]
+        - row "BOSTON SCIENTIFIC CORPORATION SR. DIGITAL PRODUCT MANAGER, ECOMMERCE 151,923 MARLBOROUGH, MA 01/29/2025 07/31/2025" [ref=e994]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e995]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e996] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SR. DIGITAL PRODUCT MANAGER, ECOMMERCE" [ref=e997]:
+            - link "SR. DIGITAL PRODUCT MANAGER, ECOMMERCE" [ref=e998] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SR.+DIGITAL+PRODUCT+MANAGER%2C+ECOMMERCE&city=&year=2025
+          - gridcell "151,923" [ref=e999]:
+            - link "151,923" [ref=e1000] [cursor=pointer]:
+              - /url: details.php?id=I-202-25029-651981
+          - gridcell "MARLBOROUGH, MA" [ref=e1001]:
+            - link "MARLBOROUGH, MA" [ref=e1002] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MARLBOROUGH&year=2025
+          - gridcell "01/29/2025" [ref=e1003]
+          - gridcell "07/31/2025" [ref=e1004]
+        - row "BOSTON SCIENTIFIC CORPORATION SR. ENGINEER II, RESEARCH & DEVELOPMENT 105,872 ARDEN HILLS, MN 06/10/2025 09/08/2025" [ref=e1005]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e1006]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e1007] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SR. ENGINEER II, RESEARCH & DEVELOPMENT" [ref=e1008]:
+            - link "SR. ENGINEER II, RESEARCH & DEVELOPMENT" [ref=e1009] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SR.+ENGINEER+II%2C+RESEARCH+%26+DEVELOPMENT&city=&year=2025
+          - gridcell "105,872" [ref=e1010]:
+            - link "105,872" [ref=e1011] [cursor=pointer]:
+              - /url: details.php?id=I-200-25162-077622
+          - gridcell "ARDEN HILLS, MN" [ref=e1012]:
+            - link "ARDEN HILLS, MN" [ref=e1013] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=ARDEN+HILLS&year=2025
+          - gridcell "06/10/2025" [ref=e1014]
+          - gridcell "09/08/2025" [ref=e1015]
+        - row "BOSTON SCIENTIFIC CORPORATION SR. ENGINEER II, RESEARCH & DEVELOPMENT 105,872 ARDEN HILLS, MN 04/15/2025 09/10/2025" [ref=e1016]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e1017]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e1018] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SR. ENGINEER II, RESEARCH & DEVELOPMENT" [ref=e1019]:
+            - link "SR. ENGINEER II, RESEARCH & DEVELOPMENT" [ref=e1020] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SR.+ENGINEER+II%2C+RESEARCH+%26+DEVELOPMENT&city=&year=2025
+          - gridcell "105,872" [ref=e1021]:
+            - link "105,872" [ref=e1022] [cursor=pointer]:
+              - /url: details.php?id=I-200-25105-868005
+          - gridcell "ARDEN HILLS, MN" [ref=e1023]:
+            - link "ARDEN HILLS, MN" [ref=e1024] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=ARDEN+HILLS&year=2025
+          - gridcell "04/15/2025" [ref=e1025]
+          - gridcell "09/10/2025" [ref=e1026]
+        - row "BOSTON SCIENTIFIC CORPORATION SR. SALESFORCE TECHNICAL LEAD 153,358 ROYERSFORD, PA 07/18/2025 01/16/2026" [ref=e1027]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e1028]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e1029] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SR. SALESFORCE TECHNICAL LEAD" [ref=e1030]:
+            - link "SR. SALESFORCE TECHNICAL LEAD" [ref=e1031] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SR.+SALESFORCE+TECHNICAL+LEAD&city=&year=2025
+          - gridcell "153,358" [ref=e1032]:
+            - link "153,358" [ref=e1033] [cursor=pointer]:
+              - /url: details.php?id=I-200-25199-186763
+          - gridcell "ROYERSFORD, PA" [ref=e1034]:
+            - link "ROYERSFORD, PA" [ref=e1035] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=ROYERSFORD&year=2025
+          - gridcell "07/18/2025" [ref=e1036]
+          - gridcell "01/16/2026" [ref=e1037]
+        - row "BOSTON SCIENTIFIC CORPORATION SR. SOFTWARE DESIGN ASSURANCE ENGINEER 109,782 MAPLE GROVE, MN 07/29/2025 09/01/2025" [ref=e1038]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e1039]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e1040] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SR. SOFTWARE DESIGN ASSURANCE ENGINEER" [ref=e1041]:
+            - link "SR. SOFTWARE DESIGN ASSURANCE ENGINEER" [ref=e1042] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SR.+SOFTWARE+DESIGN+ASSURANCE+ENGINEER&city=&year=2025
+          - gridcell "109,782" [ref=e1043]:
+            - link "109,782" [ref=e1044] [cursor=pointer]:
+              - /url: details.php?id=I-200-25210-207088
+          - gridcell "MAPLE GROVE, MN" [ref=e1045]:
+            - link "MAPLE GROVE, MN" [ref=e1046] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MAPLE+GROVE&year=2025
+          - gridcell "07/29/2025" [ref=e1047]
+          - gridcell "09/01/2025" [ref=e1048]
+        - row "BOSTON SCIENTIFIC CORPORATION SR. SUPPLIER ENGINEER - SFMD 123,000 ST. PAUL, MN 02/20/2025 03/10/2025" [ref=e1049]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e1050]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e1051] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SR. SUPPLIER ENGINEER - SFMD" [ref=e1052]:
+            - link "SR. SUPPLIER ENGINEER - SFMD" [ref=e1053] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SR.+SUPPLIER+ENGINEER+-+SFMD&city=&year=2025
+          - gridcell "123,000" [ref=e1054]:
+            - link "123,000" [ref=e1055] [cursor=pointer]:
+              - /url: details.php?id=I-200-25051-711071
+          - gridcell "ST. PAUL, MN" [ref=e1056]:
+            - link "ST. PAUL, MN" [ref=e1057] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=ST.+PAUL&year=2025
+          - gridcell "02/20/2025" [ref=e1058]
+          - gridcell "03/10/2025" [ref=e1059]
+        - row "BOSTON SCIENTIFIC CORPORATION SR. TECHNICAL ARCHITECT 154,669 INDIAN TRAIL, NC 09/22/2025 02/06/2026" [ref=e1060]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e1061]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e1062] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SR. TECHNICAL ARCHITECT" [ref=e1063]:
+            - link "SR. TECHNICAL ARCHITECT" [ref=e1064] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SR.+TECHNICAL+ARCHITECT&city=&year=2025
+          - gridcell "154,669" [ref=e1065]:
+            - link "154,669" [ref=e1066] [cursor=pointer]:
+              - /url: details.php?id=I-200-25265-326137
+          - gridcell "INDIAN TRAIL, NC" [ref=e1067]:
+            - link "INDIAN TRAIL, NC" [ref=e1068] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=INDIAN+TRAIL&year=2025
+          - gridcell "09/22/2025" [ref=e1069]
+          - gridcell "02/06/2026" [ref=e1070]
+        - row "BOSTON SCIENTIFIC CORPORATION SR. TECHNICAL ARCHITECT 163,550 GEORGETOWN, TX 08/21/2025 11/07/2025" [ref=e1071]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e1072]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e1073] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SR. TECHNICAL ARCHITECT" [ref=e1074]:
+            - link "SR. TECHNICAL ARCHITECT" [ref=e1075] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SR.+TECHNICAL+ARCHITECT&city=&year=2025
+          - gridcell "163,550" [ref=e1076]:
+            - link "163,550" [ref=e1077] [cursor=pointer]:
+              - /url: details.php?id=I-200-25233-259949
+          - gridcell "GEORGETOWN, TX" [ref=e1078]:
+            - link "GEORGETOWN, TX" [ref=e1079] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=GEORGETOWN&year=2025
+          - gridcell "08/21/2025" [ref=e1080]
+          - gridcell "11/07/2025" [ref=e1081]
+        - row "BOSTON SCIENTIFIC CORPORATION SYSTEMS ENGINEER III 107,931 WALTHAM, MA 06/30/2025 07/14/2025" [ref=e1082]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e1083]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e1084] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "SYSTEMS ENGINEER III" [ref=e1085]:
+            - link "SYSTEMS ENGINEER III" [ref=e1086] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=SYSTEMS+ENGINEER+III&city=&year=2025
+          - gridcell "107,931" [ref=e1087]:
+            - link "107,931" [ref=e1088] [cursor=pointer]:
+              - /url: details.php?id=I-200-25181-141476
+          - gridcell "WALTHAM, MA" [ref=e1089]:
+            - link "WALTHAM, MA" [ref=e1090] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=WALTHAM&year=2025
+          - gridcell "06/30/2025" [ref=e1091]
+          - gridcell "07/14/2025" [ref=e1092]
+        - row "BOSTON SCIENTIFIC CORPORATION TECHNICAL LEAD, IT DIGITAL SALES ENABLEMENT 137,696 MARLBOROUGH, MA 08/21/2025 02/09/2026" [ref=e1093]:
+          - gridcell "BOSTON SCIENTIFIC CORPORATION" [ref=e1094]:
+            - link "BOSTON SCIENTIFIC CORPORATION" [ref=e1095] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC+CORPORATION&job=&city=&year=2025
+          - gridcell "TECHNICAL LEAD, IT DIGITAL SALES ENABLEMENT" [ref=e1096]:
+            - link "TECHNICAL LEAD, IT DIGITAL SALES ENABLEMENT" [ref=e1097] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=TECHNICAL+LEAD%2C+IT+DIGITAL+SALES+ENABLEMENT&city=&year=2025
+          - gridcell "137,696" [ref=e1098]:
+            - link "137,696" [ref=e1099] [cursor=pointer]:
+              - /url: details.php?id=I-200-25233-259398
+          - gridcell "MARLBOROUGH, MA" [ref=e1100]:
+            - link "MARLBOROUGH, MA" [ref=e1101] [cursor=pointer]:
+              - /url: index.php?em=BOSTON+SCIENTIFIC&job=&city=MARLBOROUGH&year=2025
+          - gridcell "08/21/2025" [ref=e1102]
+          - gridcell "02/09/2026" [ref=e1103]
+    - generic [ref=e1104]:
+      - paragraph [ref=e1105]:
+        - text: This website indexes the Labor Condition Application (
+        - link "LCA" [ref=e1106] [cursor=pointer]:
+          - /url: http://en.wikipedia.org/wiki/Labor_Condition_Application
+        - text: ) disclosure data from the
+        - link "United States Department of Labor (DOL)" [ref=e1107] [cursor=pointer]:
+          - /url: http://www.foreignlaborcert.doleta.gov/performancedata.cfm#dis
+        - text: .
+        - text: Prior to filing an H-1B petition with the USCIS, an employer must file an LCA with the DOL.
+        - text: An LCA is used by employers as supporting evidence for the petition for an H-1B visa.
+        - text: DOL disclosure data does not indicate the employer's intended use for the LCA.
+        - generic [ref=e1108]:
+          - generic [ref=e1109]: ···
+          - img "Ezoic" [ref=e1112] [cursor=pointer]
+      - generic [ref=e1113]:
+        - generic [ref=e1114]: ···
+        - img "Ezoic" [ref=e1117] [cursor=pointer]
+    - generic [ref=e1118]:
+      - text: Indexed more than 4.8 million records between Oct. 2013 and Sept. 2025
+      - text: Copyright @ h1bdata.info. All rights reserved.
+      - link "Contact us" [ref=e1119] [cursor=pointer]:
+        - /url: mailto:admin@h1bdata.info
+      - link "Privacy policy" [ref=e1120] [cursor=pointer]:
+        - /url: https://g.ezoic.net/privacy/h1bdata.info
+      - link "Advertise" [ref=e1121] [cursor=pointer]:
+        - /url: direct-sales.html
+  - iframe

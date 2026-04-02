@@ -1,0 +1,128 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "H1B Salary Database 2025" [ref=e5] [cursor=pointer]:
+        - /url: index.php
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "Companies" [ref=e9] [cursor=pointer]:
+            - /url: "#"
+            - text: Companies
+        - listitem [ref=e11]:
+          - link "Job Titles" [ref=e12] [cursor=pointer]:
+            - /url: "#"
+            - text: Job Titles
+        - listitem [ref=e14]:
+          - link "Cities" [ref=e15] [cursor=pointer]:
+            - /url: topcities.php
+        - listitem [ref=e16]:
+          - link "Highest Paid" [ref=e17] [cursor=pointer]:
+            - /url: "#"
+            - text: Highest Paid
+        - listitem [ref=e19]:
+          - link [ref=e20] [cursor=pointer]:
+            - /url: jobs.php?q=software
+  - generic [ref=e27]:
+    - generic [ref=e28]:
+      - paragraph [ref=e29]: Search Salary Now
+      - paragraph [ref=e30]:
+        - text: "Trending now:"
+        - link "Meta" [ref=e31] [cursor=pointer]:
+          - /url: index.php?em=META+PLATFORMS&year=2025
+        - text: ","
+        - link "Amazon" [ref=e32] [cursor=pointer]:
+          - /url: index.php?em=amazon+&year=2025
+        - text: ","
+        - link "Apple" [ref=e33] [cursor=pointer]:
+          - /url: index.php?em=apple inc&year=2025
+        - text: ","
+        - link "Nvidia" [ref=e34] [cursor=pointer]:
+          - /url: index.php?em=Nvidia&year=2025
+        - text: ","
+        - link "Google" [ref=e35] [cursor=pointer]:
+          - /url: index.php?em=google&year=2025
+        - text: ","
+        - link "Tesla" [ref=e36] [cursor=pointer]:
+          - /url: index.php?em=tesla inc&year=2025
+        - text: ","
+        - link "OpenAI" [ref=e37] [cursor=pointer]:
+          - /url: index.php?em=openai+opco+llc&year=2025
+        - text: ","
+        - link "Microsoft" [ref=e38] [cursor=pointer]:
+          - /url: index.php?em=Microsoft&year=2025
+        - text: ","
+        - link "Salesforce" [ref=e39] [cursor=pointer]:
+          - /url: index.php?em=salesforce&year=2025
+      - search [ref=e40]:
+        - generic [ref=e41]:
+          - status [ref=e42]
+          - searchbox "Employer" [ref=e43]: equus
+          - status [ref=e44]
+          - searchbox "and/or Job Title" [ref=e45]
+          - status [ref=e46]
+          - searchbox "and/or City" [ref=e47]
+          - combobox [ref=e48]:
+            - option "All Years"
+            - option "2025" [selected]
+            - option "2024"
+            - option "2023"
+            - option "2022"
+            - option "2021"
+            - option "2020"
+            - option "2019"
+            - option "2018"
+            - option "2017"
+            - option "2016"
+            - option "2015"
+            - option "2014"
+            - option "2013"
+            - option "2012"
+        - button "Search" [ref=e49] [cursor=pointer]
+    - alert [ref=e50]:
+      - button "Close" [ref=e51] [cursor=pointer]: ×
+      - generic [ref=e52]:
+        - text: We have found
+        - link "job openings" [ref=e53] [cursor=pointer]:
+          - /url: jobs.php?q=company:"equus" &loc=
+        - text: "from equus:"
+    - heading "Equus H1B Salary 2025" [level=1] [ref=e54]
+    - paragraph [ref=e55]:
+      - text: 0 records was found,
+      - link "try search again" [ref=e56] [cursor=pointer]:
+        - /url: index.php?em=EQUUS&job=&city=
+    - grid [ref=e57]:
+      - rowgroup [ref=e58]:
+        - 'row "EMPLOYER: No sort applied, activate to apply an ascending sort JOB TITLE: No sort applied, activate to apply an ascending sort BASE SALARY: No sort applied, activate to apply an ascending sort LOCATION: No sort applied, activate to apply an ascending sort SUBMIT DATE: No sort applied, activate to apply an ascending sort START DATE: No sort applied, activate to apply an ascending sort" [ref=e59]':
+          - 'columnheader "EMPLOYER: No sort applied, activate to apply an ascending sort" [ref=e60] [cursor=pointer]':
+            - generic [ref=e61]: EMPLOYER
+          - 'columnheader "JOB TITLE: No sort applied, activate to apply an ascending sort" [ref=e62] [cursor=pointer]':
+            - generic [ref=e63]: JOB TITLE
+          - 'columnheader "BASE SALARY: No sort applied, activate to apply an ascending sort" [ref=e64] [cursor=pointer]':
+            - generic [ref=e65]: BASE SALARY
+          - 'columnheader "LOCATION: No sort applied, activate to apply an ascending sort" [ref=e66] [cursor=pointer]':
+            - generic [ref=e67]: LOCATION
+          - 'columnheader "SUBMIT DATE: No sort applied, activate to apply an ascending sort" [ref=e68] [cursor=pointer]':
+            - generic [ref=e69]: SUBMIT DATE
+          - 'columnheader "START DATE: No sort applied, activate to apply an ascending sort" [ref=e70] [cursor=pointer]':
+            - generic [ref=e71]: START DATE
+      - rowgroup
+    - paragraph [ref=e73]:
+      - text: This website indexes the Labor Condition Application (
+      - link "LCA" [ref=e74] [cursor=pointer]:
+        - /url: http://en.wikipedia.org/wiki/Labor_Condition_Application
+      - text: ) disclosure data from the
+      - link "United States Department of Labor (DOL)" [ref=e75] [cursor=pointer]:
+        - /url: http://www.foreignlaborcert.doleta.gov/performancedata.cfm#dis
+      - text: .
+      - text: Prior to filing an H-1B petition with the USCIS, an employer must file an LCA with the DOL.
+      - text: An LCA is used by employers as supporting evidence for the petition for an H-1B visa.
+      - text: DOL disclosure data does not indicate the employer's intended use for the LCA.
+    - generic [ref=e76]:
+      - text: Indexed more than 4.8 million records between Oct. 2013 and Sept. 2025
+      - text: Copyright @ h1bdata.info. All rights reserved.
+      - link "Contact us" [ref=e77] [cursor=pointer]:
+        - /url: mailto:admin@h1bdata.info
+      - link "Privacy policy" [ref=e78] [cursor=pointer]:
+        - /url: https://g.ezoic.net/privacy/h1bdata.info
+      - link "Advertise" [ref=e79] [cursor=pointer]:
+        - /url: direct-sales.html
