@@ -495,7 +495,37 @@ Add urgency level to the Notes property:
 > You MUST run MULTIPLE search queries with varied keywords to find ALL entries before auditing.
 > Never assume you've seen everything after a single search.
 
-**1a-pre. Check Google Sheets for already-applied roles (NEW v3.4):**
+**1a-pre-0. Read Notion FIRST — build "Not a Fit" skip list (NEW v3.5):**
+
+> ⚠️ **ALWAYS do this before anything else in Step 1.** Before checking Google Sheets or running
+> batch audits, query the Notion DB for ALL entries with Status = "Not a fit" or Status = "Pass".
+> Jamie marks roles "Not a fit" when she has personally reviewed them and decided they're wrong
+> for her — reasons she may not have documented. These must NEVER be re-surfaced.
+
+Run these two targeted queries to capture all excluded entries:
+```
+notion-query: filter Status = "Not a fit"   → extract all (company, title) pairs
+notion-query: filter Status = "Pass"        → extract all (company, title) pairs
+```
+
+> ⚠️ **Since notion-search doesn't support status filters directly, use keyword batches:**
+> Run batches with queries like "not a fit", "pass", "rejected" AND cross-reference the
+> Status field in each result. Collect EVERY entry where Status is "Not a fit" or "Pass".
+
+**Build the "Do Not Surface" list** from these results:
+- Every (company, title) pair with Status = "Not a fit" → **HARD SKIP** — never add to picks
+- Every (company, title) pair with Status = "Pass" → **HARD SKIP** — never add to picks
+- Every (company, title) pair with Status = "Rejected/Unavailable" → **HARD SKIP**
+- Every (company, title) pair with Status = "Applied" → **SOFT SKIP** — already in pipeline, don't duplicate
+
+Log the full "Do Not Surface" list before proceeding. This list is the dedup ground truth.
+
+> **Why this matters:** Jamie spends real time reviewing roles. If she marked something "Not a fit",
+> she has a reason — bad culture, wrong level, she knows someone there, whatever. Re-surfacing it
+> wastes her time and erodes trust in the pipeline. The Notion DB is the authoritative record of
+> her decisions. Read it first.
+
+**1a-pre. Check Google Sheets for already-applied roles (v3.4):**
 
 > ⚠️ **CRITICAL: The Notion DB does NOT contain all roles Jamie has applied to.**
 > The ground truth for applications + rejections is the Google Sheet.
@@ -521,8 +551,12 @@ WebFetch(url="https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldb
 > **Example:**
 > - Google Sheet has: Roblox — "Early Career Program Manager" → skip "Early Career PM @ Roblox"
 > - Google Sheet has: Roblox — "Early Career Program Manager" → DO NOT skip "People Ops Coordinator @ Roblox"
+> - Notion has: Flatiron — "TEE Associate" (Not a fit) → skip "TEE Associate @ Flatiron"
+> - Notion has: Flatiron — "TEE Associate" (Not a fit) → DO NOT skip "L&D Coordinator @ Flatiron" (if it existed)
 > - Notion has: Flatiron — "TEE Associate" (Pass) → skip "TEE Associate @ Flatiron"
-> - Notion has: Flatiron — "TEE Associate" (Pass) → DO NOT skip "L&D Coordinator @ Flatiron" (if it existed)
+
+**Combined "Do Not Surface" list = Notion "Not a fit" + Notion "Pass" + Notion "Rejected/Unavailable" + Google Sheet rejections.**
+When a discovered role matches any entry on this combined list → **skip immediately, no scoring needed.**
 
 **1a. Exhaust the full DB with multi-batch searches** — Run ALL of the following queries in sequence, collecting unique page IDs across all batches:
 
@@ -544,7 +578,16 @@ Batch 10: query="experience business partner"     → HRBP and EX variants
 Deduplicate by page ID across all batches. This should surface all entries.
 If a batch returns 10 results, run additional keyword-varied queries until batches return <5 new unique IDs.
 
-**1b. Build skip list** — Extract every **(company, role title) pair** (any status) to avoid exact duplicates. Do NOT skip entire companies — only skip the specific role that was already tracked.
+**1b. Finalize skip list** — Merge the "Do Not Surface" list from step 1a-pre-0 with the Google Sheet rejections and ANY remaining Notion entries (any status) to get a complete (company, role title) dedup map. Log the full list before proceeding to discovery.
+
+> **Status priority for the skip list:**
+> - "Not a fit" = Jamie personally reviewed and rejected → HARD SKIP, highest priority
+> - "Pass" = pipeline auto-filtered or Jamie passed → HARD SKIP
+> - "Rejected/Unavailable" = company rejected Jamie or role closed → HARD SKIP
+> - "Applied" = already submitted → SOFT SKIP (don't add duplicate Notion entry, but note if role is still open)
+> - "Not started" = in Notion but not yet applied → SOFT SKIP (already tracked, don't add duplicate)
+
+Do NOT skip entire companies — only skip the specific (company + title) pair that was tracked.
 
 **1c. Verify EVERY "New 🆕" entry via Chrome — METICULOUS** — For EACH entry:
 
