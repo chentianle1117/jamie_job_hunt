@@ -75,21 +75,31 @@
     position: sticky; top: 0; z-index: 9998;
     background: #2c3e50; color: #ecf0f1;
     display: flex; justify-content: space-between; align-items: center;
-    padding: 6px 12px; font-family: sans-serif; font-size: 10px; gap: 10px;
+    padding: 9px 16px; font-family: sans-serif; font-size: 11px; gap: 12px;
   }
-  .diff-version { flex: 1; display: flex; align-items: center; gap: 8px; }
-  .diff-version strong { color: #f1c40f; }
-  .diff-version .diff-date { color: #95a5a6; margin-left: 8px; }
-  .diff-controls { display: flex; gap: 4px; align-items: center; }
+  .diff-version { flex: 1; display: flex; align-items: center; gap: 10px; }
+  .diff-version strong { color: #f1c40f; font-size: 12px; }
+  .diff-version .diff-date { color: #95a5a6; margin-left: 6px; }
+  .diff-controls { display: flex; gap: 5px; align-items: center; }
   .diff-controls button {
-    background: #34495e; color: #aaa; border: 1px solid #4a6278;
-    padding: 3px 9px; border-radius: 3px; cursor: pointer; font-size: 10px; font-family: sans-serif;
+    background: #34495e; color: #bdc3c7; border: 1px solid #4a6278;
+    padding: 5px 12px; border-radius: 4px; cursor: pointer; font-size: 11px; font-family: sans-serif;
   }
   .diff-controls button:hover { background: #4a6278; color: white; }
   .diff-controls button.active { background: #1abc9c; color: #fff; border-color: #16a085; }
-  .diff-controls .btn-icon { padding: 3px 7px; font-size: 12px; line-height: 1; }
-  .diff-controls .divider { width: 1px; background: #4a6278; height: 18px; margin: 0 2px; }
-  #resume-select { background: #34495e; color: #ecf0f1; border: 1px solid #4a6278; padding: 3px 6px; border-radius: 3px; font-size: 10px; font-family: sans-serif; max-width: 280px; }
+  .diff-controls .btn-icon { padding: 5px 10px; font-size: 14px; line-height: 1; }
+  .diff-controls .divider { width: 1px; background: #4a6278; height: 22px; margin: 0 4px; }
+  /* Auto-fit: prominent pill button */
+  #btn-autofit {
+    background: #1abc9c !important; color: #fff !important;
+    border: 1.5px solid #16a085 !important;
+    padding: 6px 16px !important; border-radius: 20px !important;
+    font-size: 12px !important; font-weight: 600 !important; letter-spacing: 0.3px;
+    box-shadow: 0 2px 6px rgba(26,188,156,0.35);
+    transition: background 0.15s, box-shadow 0.15s;
+  }
+  #btn-autofit:hover { background: #16a085 !important; box-shadow: 0 3px 10px rgba(26,188,156,0.5); }
+  #resume-select { background: #34495e; color: #ecf0f1; border: 1px solid #4a6278; padding: 5px 8px; border-radius: 4px; font-size: 11px; font-family: sans-serif; max-width: 280px; }
 
   /* ================================================================
      LOG PANEL — tabbed (Changes + Edits)
@@ -353,22 +363,21 @@
     </select>
     📄 <strong id="toolbar-title">No resume loaded</strong>
     <span class="diff-date" id="toolbar-date"></span>
-    <span id="font-indicator" style="display:none;font-size:9px;padding:2px 6px;border-radius:3px;margin-left:8px;font-weight:bold;"></span>
+    <span id="font-indicator" style="display:none;font-size:10px;padding:3px 8px;border-radius:4px;margin-left:8px;font-weight:bold;"></span>
   </div>
   <div class="diff-controls">
     <button id="btn-changes" onclick="setMode('changes')">Changes</button>
     <button id="btn-keywords" class="active" onclick="setMode('keywords')">Keywords</button>
     <button id="btn-clean" onclick="setMode('clean')">Clean</button>
     <div class="divider"></div>
-    <label style="color:#7f8c8d;font-size:9px;white-space:nowrap;">Font</label>
+    <label style="color:#7f8c8d;font-size:10px;white-space:nowrap;">Font</label>
     <input type="range" id="font-slider" min="7.5" max="14.0" step="0.05" value="9.5"
       style="width:160px;cursor:pointer;accent-color:#1abc9c;vertical-align:middle;"
       oninput="onFontSlider(this.value)">
-    <span id="font-display" style="color:#1abc9c;font-size:9px;min-width:28px;text-align:right;">9.5</span>
-    <button id="btn-autofit" class="btn-icon" title="Auto-fit font size to fill page" onclick="autoFit()">⚡</button>
+    <span id="font-display" style="color:#1abc9c;font-size:11px;min-width:30px;text-align:right;font-weight:600;">9.5</span>
+    <button id="btn-autofit" title="Auto-fit font to fill page margin guides" onclick="autoFit()">⚡ Auto-Fit</button>
     <div class="divider"></div>
     <button id="btn-edit" class="btn-icon" title="Toggle edit mode (click bullet to edit, Enter=save, Esc=cancel)" onclick="toggleEditMode()">✏️</button>
-    <button id="btn-log" class="btn-icon" title="Show log" onclick="toggleLog()">📋</button>
     <button id="btn-export" class="btn-icon" title="Export PDF (Cmd+P)" onclick="window.print()">📤</button>
   </div>
 </div>
