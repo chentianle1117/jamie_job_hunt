@@ -345,7 +345,14 @@
     <button id="btn-keywords" class="active" onclick="setMode('keywords')">Keywords</button>
     <button id="btn-clean" onclick="setMode('clean')">Clean</button>
     <div class="divider"></div>
-    <button id="btn-edit" class="btn-icon" title="Toggle edit mode" onclick="toggleEditMode()">✏️</button>
+    <label style="color:#7f8c8d;font-size:9px;white-space:nowrap;">Font</label>
+    <input type="range" id="font-slider" min="8.0" max="10.5" step="0.05" value="9.5"
+      style="width:72px;cursor:pointer;accent-color:#1abc9c;vertical-align:middle;"
+      oninput="onFontSlider(this.value)">
+    <span id="font-display" style="color:#1abc9c;font-size:9px;min-width:28px;text-align:right;">9.5</span>
+    <button id="btn-autofit" class="btn-icon" title="Auto-fit font size to fill page" onclick="autoFit()">⚡</button>
+    <div class="divider"></div>
+    <button id="btn-edit" class="btn-icon" title="Toggle edit mode (click bullet to edit, Enter=save, Esc=cancel)" onclick="toggleEditMode()">✏️</button>
     <button id="btn-log" class="btn-icon" title="Show log" onclick="toggleLog()">📋</button>
     <button id="btn-export" class="btn-icon" title="Export PDF (Cmd+P)" onclick="window.print()">📤</button>
   </div>
@@ -394,6 +401,10 @@
   </div>
 </div>
 
+<!-- EDIT MODE HINT -->
+<div id="edit-hint" style="display:none;position:fixed;bottom:0;left:0;right:0;background:#1a6b3a;color:#b8f0c8;text-align:center;padding:5px;font-family:sans-serif;font-size:11px;z-index:9999;">
+  ✏️ Edit mode — click any bullet to edit &nbsp;|&nbsp; <b>Enter</b> to save &nbsp;|&nbsp; <b>Esc</b> to cancel &nbsp;|&nbsp; Changes auto-save to JSON
+</div>
 <!-- AUTO-CHECK WARNINGS -->
 <div class="check-warning" id="overflow-warning">⚠️ Content overflows — trim bullets or reduce margins</div>
 <div class="check-warning" id="wrap-warning"></div>
@@ -428,14 +439,16 @@
     h += '<div class="summary">' + expandKw(d.summary, 'kw') + '</div>';
     // Experience
     h += '<div class="section-header">Professional Experience</div>';
-    d.experience.forEach(function(job) {
+    d.experience.forEach(function(job, ji) {
       h += '<div class="job"><div class="job-title-row"><div class="job-title">' + job.title;
       if (job.workSampleUrl) h += ' <a class="work-sample" href="' + job.workSampleUrl + '" target="_blank">(Work Sample)</a>';
       h += '</div><div class="job-location">' + job.location + '</div></div>';
       h += '<div class="job-company-row"><div class="job-company">' + job.company + '</div>';
       h += '<div class="job-dates">' + job.dates + '</div></div><ul>';
-      job.bullets.forEach(function(b) {
+      job.bullets.forEach(function(b, bi) {
         var cls = '', attrs = '';
+        // Data indices for edit-mode saving
+        attrs += ' data-job="' + ji + '" data-bullet="' + bi + '"';
         if (b.change === 'swap' || b.change === 'word') {
           cls = ' class="changed"';
           if (b.original) attrs += ' data-original="' + b.original.replace(/"/g, '&quot;') + '"';
@@ -599,8 +612,11 @@
       document.getElementById('toolbar-title').textContent =
         (data.meta.company ? data.meta.company + ' — ' : '') + (data.meta.role || 'Resume');
       document.getElementById('toolbar-date').textContent = data.meta.date || '';
-      // Set margins
+      // Set margins + sync slider range
       setMargins(data.meta.pageMargins);
+      var fr = (data.meta && data.meta.fontRange) || [8.5, 10.0];
+      var slider = document.getElementById('font-slider');
+      if (slider) { slider.min = fr[0]; slider.max = fr[1]; }
       // Render
       document.getElementById('resume-page').innerHTML = buildResume(data);
       document.getElementById('jd-content').innerHTML = buildJD(data);
@@ -775,33 +791,46 @@
     } else if (kwPinned) { kwPinned = null; clearKwHover(); }
   });
 
-  // ══════════ EDIT MODE + LOCALSTORAGE ══════════
+  // ══════════ EDIT MODE — direct editing, auto-saves to JSON file ══════════
+  // Flow: click bullet → edit inline → Enter (confirm) or Esc (cancel) → saves to file
+  // The live poll detects the saved file has the same hash it just wrote, so no re-render loop.
+
   var editMode = false;
   var editables = [];
-  var savedEdits = [];
-  var STORAGE_KEY = 'resume-edits-viewer';
 
-  function updateStorageKey() {
-    if (currentData && currentData.meta) {
-      STORAGE_KEY = 'resume-edits-' + currentData.meta.company + '-' + currentData.meta.role + '-' + currentData.meta.date;
-    }
+  // ── Save currentData back to the JSON file ──
+  function saveToFile(onSuccess) {
+    if (!watchName || !currentData) return;
+    var filename = watchName + '.json';
+    var body = JSON.stringify(currentData, null, 2);
+    // Pre-update the watch hash so the live poll doesn't re-render what we just saved
+    watchHash = simpleHash(body);
+    fetch('/save?file=' + encodeURIComponent(filename), {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: body
+    }).then(function(r) {
+      if (!r.ok) throw new Error('Save failed: ' + r.status);
+      flashSaved();
+      if (onSuccess) onSuccess();
+    }).catch(function(err) {
+      console.error(err);
+      flashSaved('⚠ Save failed — is server.py running?');
+    });
   }
 
-  function loadSavedEdits() {
-    updateStorageKey();
-    try { var raw = localStorage.getItem(STORAGE_KEY); if (raw) savedEdits = JSON.parse(raw); } catch(e) {}
-    if (savedEdits.length) {
-      var table = document.querySelector('#pane-edits table');
-      var empty = document.querySelector('#pane-edits .log-empty');
-      if (empty) empty.style.display = 'none';
-      savedEdits.forEach(function(entry) {
-        var tr = document.createElement('tr');
-        tr.innerHTML = '<td class="ts">' + entry.ts + '</td><td>' + entry.label + '</td><td class="orig">' + entry.before.replace(/</g,'&lt;') + '</td><td class="new">' + entry.after.replace(/</g,'&lt;') + '</td>';
-        table.appendChild(tr);
-      });
-    }
+  function flashSaved(msg) {
+    var el = document.getElementById('live-indicator');
+    if (!el) return;
+    el.textContent = msg || '✓ Saved';
+    el.style.background = msg ? '#e74c3c' : '#27ae60';
+    el.style.display = 'block';
+    el.style.opacity = '1';
+    setTimeout(function() {
+      el.style.opacity = '0';
+      setTimeout(function() { el.style.display = 'none'; el.textContent = '⟳ Updated'; el.style.background = '#1abc9c'; }, 450);
+    }, 1800);
   }
-  function saveEdits() { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(savedEdits)); } catch(e) {} }
 
   function getLabel(el) {
     var job = el.closest('.job, .edu, .simple-list');
@@ -812,40 +841,106 @@
     return label;
   }
 
-  function logEdit(el, before, after) {
+  function logEdit(label, before, after) {
     if (before === after) return;
     var now = new Date();
     var ts = now.getHours().toString().padStart(2,'0') + ':' + now.getMinutes().toString().padStart(2,'0') + ':' + now.getSeconds().toString().padStart(2,'0');
-    var entry = { ts: ts, label: getLabel(el), before: before, after: after };
-    savedEdits.push(entry); saveEdits();
     var table = document.querySelector('#pane-edits table');
-    document.querySelector('#pane-edits .log-empty').style.display = 'none';
+    var empty = document.querySelector('#pane-edits .log-empty');
+    if (empty) empty.style.display = 'none';
     var tr = document.createElement('tr');
-    tr.innerHTML = '<td class="ts">' + ts + '</td><td>' + entry.label + '</td><td class="orig">' + entry.before.replace(/</g,'&lt;') + '</td><td class="new">' + entry.after.replace(/</g,'&lt;') + '</td>';
+    tr.innerHTML = '<td class="ts">' + ts + '</td><td>' + label + '</td>' +
+      '<td class="orig">' + before.replace(/</g,'&lt;').substring(0,60) + '</td>' +
+      '<td class="new">' + after.replace(/</g,'&lt;').substring(0,60) + '</td>';
     table.appendChild(tr);
-    document.getElementById('log-panel').classList.add('visible');
-    switchTab('edits');
+  }
+
+  function makeBulletEditable(li) {
+    // Strip the leading "• " bullet char for editing, restore on commit
+    li.setAttribute('contenteditable', 'true');
+    li.setAttribute('spellcheck', 'true');
+    // Store the raw text (without bullet char) as the "before" state
+    var rawBefore = li.textContent.replace(/^•\s*/, '').trim();
+    li._editBefore = rawBefore;
+
+    li.addEventListener('keydown', onBulletKeydown);
+    li.addEventListener('blur', onBulletBlur);
+    editables.push(li);
+  }
+
+  function onBulletKeydown(e) {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      this.blur(); // triggers onBulletBlur → save
+    } else if (e.key === 'Escape') {
+      // Revert to original text
+      var ji = parseInt(this.dataset.job);
+      var bi = parseInt(this.dataset.bullet);
+      if (!isNaN(ji) && !isNaN(bi) && currentData) {
+        this.innerHTML = '&bull; ' + expandKw(currentData.experience[ji].bullets[bi].text, 'kw');
+      }
+      this.blur();
+    }
+  }
+
+  function onBulletBlur() {
+    var li = this;
+    var rawAfter = li.textContent.replace(/^•\s*/, '').trim();
+    var before = li._editBefore || '';
+    if (rawAfter === before) return; // no change
+
+    var ji = parseInt(li.dataset.job);
+    var bi = parseInt(li.dataset.bullet);
+    if (isNaN(ji) || isNaN(bi) || !currentData) return;
+
+    // Update in-memory data
+    currentData.experience[ji].bullets[bi].text = rawAfter;
+    logEdit(getLabel(li), before, rawAfter);
+
+    // Re-render the bullet's keyword spans without full re-render
+    li.innerHTML = '&bull; ' + expandKw(rawAfter, 'kw');
+    li._editBefore = rawAfter;
+
+    // Persist to file
+    saveToFile(function() {
+      // Re-run auto-fit + checks after save
+      setTimeout(function() { autoFit(); runAutoChecks(); }, 80);
+    });
   }
 
   function enableEditing() {
-    document.querySelectorAll('.resume-page li, .resume-page .summary').forEach(function(el) {
-      el.setAttribute('contenteditable', 'true');
-      el.setAttribute('spellcheck', 'true');
-      el._beforeEdit = el.textContent.trim();
-      el.addEventListener('blur', function() { logEdit(el, el._beforeEdit, el.textContent.trim()); el._beforeEdit = el.textContent.trim(); });
-      editables.push(el);
+    document.querySelectorAll('.resume-page li[data-job]').forEach(function(li) {
+      makeBulletEditable(li);
     });
+    // Show hint
+    var hint = document.getElementById('edit-hint');
+    if (hint) hint.style.display = 'block';
   }
+
   function disableEditing() {
-    editables.forEach(function(el) { el.removeAttribute('contenteditable'); el.removeAttribute('spellcheck'); });
+    editables.forEach(function(el) {
+      el.removeAttribute('contenteditable');
+      el.removeAttribute('spellcheck');
+      el.removeEventListener('keydown', onBulletKeydown);
+      el.removeEventListener('blur', onBulletBlur);
+    });
     editables = [];
+    var hint = document.getElementById('edit-hint');
+    if (hint) hint.style.display = 'none';
   }
 
   window.toggleEditMode = function() {
     editMode = !editMode;
     var btn = document.getElementById('btn-edit');
-    if (editMode) { document.body.classList.add('mode-edit'); btn.classList.add('active'); enableEditing(); }
-    else { document.body.classList.remove('mode-edit'); btn.classList.remove('active'); disableEditing(); }
+    if (editMode) {
+      document.body.classList.add('mode-edit');
+      btn.classList.add('active');
+      enableEditing();
+    } else {
+      document.body.classList.remove('mode-edit');
+      btn.classList.remove('active');
+      disableEditing();
+    }
   };
 
   // ══════════ AUTO-FIT FONT SIZE ══════════
@@ -898,16 +993,37 @@
 
   function updateFontBadge(pt, status) {
     var badge = document.getElementById('font-indicator');
-    if (!badge) return;
-    badge.style.display = 'inline-block';
-    if (status === 'ok') {
-      badge.textContent = pt.toFixed(1) + 'pt';
-      badge.style.background = '#27ae60'; badge.style.color = '#fff';
-    } else if (status === 'warn') {
-      badge.textContent = pt.toFixed(1) + 'pt ⚠';
-      badge.style.background = '#e74c3c'; badge.style.color = '#fff';
+    var slider = document.getElementById('font-slider');
+    var display = document.getElementById('font-display');
+    if (badge) {
+      badge.style.display = 'inline-block';
+      if (status === 'ok') {
+        badge.textContent = pt.toFixed(1) + 'pt';
+        badge.style.background = '#27ae60'; badge.style.color = '#fff';
+      } else if (status === 'warn') {
+        badge.textContent = pt.toFixed(1) + 'pt ⚠';
+        badge.style.background = '#e74c3c'; badge.style.color = '#fff';
+      }
     }
+    if (slider) slider.value = pt.toFixed(2);
+    if (display) display.textContent = pt.toFixed(1);
   }
+
+  // ── Manual font slider ──
+  window.onFontSlider = function(val) {
+    var pt = parseFloat(val);
+    var display = document.getElementById('font-display');
+    if (display) display.textContent = pt.toFixed(1);
+    var badge = document.getElementById('font-indicator');
+    if (badge) {
+      badge.style.display = 'inline-block';
+      badge.textContent = pt.toFixed(1) + 'pt';
+      badge.style.background = '#2980b9'; badge.style.color = '#fff';
+    }
+    applyFontSize(pt);
+    // Re-run checks (not auto-fit) so warnings update
+    setTimeout(function() { runAutoChecks(); scaleResumePage(); }, 40);
+  };
 
   function autoFit() {
     if (!currentData) return;
@@ -1028,8 +1144,11 @@
   }
 
   function flashIndicator() {
+    // Used by live poll when Claude edits the JSON externally
     var el = document.getElementById('live-indicator');
     if (!el) return;
+    el.textContent = '⟳ Updated';
+    el.style.background = '#1abc9c';
     el.style.display = 'block';
     el.style.opacity = '1';
     setTimeout(function() {

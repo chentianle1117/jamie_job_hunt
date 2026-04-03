@@ -37,8 +37,10 @@ Jamie needs a local server to preview resumes. Start it automatically:
 
 ```bash
 # Check if server is already running on port 8080
-lsof -i :8080 > /dev/null 2>&1 || python3 -m http.server 8080 &
+lsof -i :8080 > /dev/null 2>&1 || python server.py 8080 &
 ```
+
+> **Why `server.py` not `python -m http.server`:** `server.py` adds a writable `/save` endpoint that the viewer uses to auto-save Jamie's inline edits back to JSON. Use `python server.py` (not `python3`) on Windows.
 
 This runs in the background. Jamie never needs to do this manually.
 
