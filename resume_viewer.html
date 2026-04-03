@@ -272,6 +272,10 @@
     #overflow-warning.visible ~ #wrap-warning { bottom: 30px; }
     #wrap-warning.visible { bottom: 0; }
     #overflow-warning.visible + #wrap-warning.visible { bottom: 30px; }
+    /* Warnings only apply in clean mode — hide in keywords, changes, and edit modes */
+    body.mode-keywords .check-warning,
+    body.mode-changes .check-warning,
+    body.mode-edit .check-warning { display: none !important; }
 
     /* Draggable split divider */
     .split-divider {
