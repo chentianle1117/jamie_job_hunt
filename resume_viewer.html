@@ -1142,10 +1142,14 @@
     var children = page.children;
     for (var i = 0; i < children.length; i++) {
       var el = children[i];
-      // Skip pseudo-element placeholders and UI overlay elements
-      if (el.classList.contains('check-warning') ||
-          el.classList.contains('overflow-zone') ||
-          el.tagName === 'svg') continue;
+      // Skip UI overlay elements — these are position:absolute and must not
+      // inflate the content measurement (#overflow-overlay stretches to bottom:0
+      // so offsetTop+offsetHeight = 1056px regardless of content, which was
+      // causing getContentBottomPx to always return the paper edge, triggering
+      // a false ⚠ early-exit in autoFit even when the resume was short)
+      var pos = window.getComputedStyle(el).position;
+      if (pos === 'absolute' || pos === 'fixed') continue;
+      if (el.classList.contains('check-warning') || el.tagName === 'svg') continue;
       var b = el.offsetTop + el.offsetHeight;
       if (b > max) max = b;
     }
