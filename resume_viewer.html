@@ -1067,8 +1067,9 @@
 
     var range = meta.fontRange || [8.5, 10.0];
     var minF = range[0], maxF = range[1];
-    // Allow expanding beyond maxF for short content (consistent bottom margin)
-    var maxExpand = Math.max(maxF, 12.5);
+    // Search all the way up to 24pt — the wrap check is the natural ceiling,
+    // not an arbitrary cap. For sparse content, font expands until bullets wrap.
+    var maxExpand = Math.max(maxF, 24.0);
     var page = document.getElementById('resume-page');
 
     // Target: content should end at bottom-margin boundary, not spill into it
