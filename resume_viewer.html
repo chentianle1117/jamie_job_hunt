@@ -338,6 +338,15 @@
     .jd-content p { margin-bottom: 8px; }
     .jd-content ul { margin: 0 0 8px 16px; }
     .jd-content li { margin-bottom: 4px; }
+    .jd-font-bar {
+      position: sticky; bottom: 0;
+      display: flex; align-items: center; gap: 8px;
+      background: #141424; border-top: 1px solid #2a2a45;
+      padding: 7px 0 6px 0; margin-top: 12px;
+    }
+    .jd-font-label { font-size: 10px; color: #6c7a89; white-space: nowrap; }
+    .jd-font-bar input[type=range] { flex: 1; accent-color: #1abc9c; cursor: pointer; }
+    #jd-font-display { font-size: 10px; color: #1abc9c; min-width: 30px; text-align: right; font-weight: 600; }
     .jd-hl { display: inline; padding: 1px 3px; border-radius: 2px; cursor: pointer; transition: outline 0.15s; }
     body.mode-changes .jd-hl { color: #f0f4f8; }
     body.mode-changes .jd-swap  { background: rgba(230,168,23,0.18); border-left: 3px solid #e6a817; padding-left: 5px; border-bottom: none; }
@@ -452,6 +461,12 @@
     <div class="kw-legend" id="kw-legend"></div>
     <div class="jd-content" id="jd-content">
       <p style="color:#666;font-style:italic">Load a resume to see the job description panel.</p>
+    </div>
+    <div class="jd-font-bar">
+      <span class="jd-font-label">Text size</span>
+      <input type="range" id="jd-font-slider" min="9" max="18" step="0.5" value="11"
+        oninput="onJdFontSlider(this.value)">
+      <span id="jd-font-display">11px</span>
     </div>
   </div>
 </div>
@@ -1090,7 +1105,8 @@
 
   function getWrappingBullets() {
     var wraps = [];
-    document.querySelectorAll('.resume-page li').forEach(function(li, idx) {
+    // Skills items are expected to wrap — exclude from wrap warnings
+    document.querySelectorAll('.resume-page li:not([data-skills])').forEach(function(li, idx) {
       li.classList.remove('wrap-highlight'); // clear stale highlights first
       var ls = window.getComputedStyle(li);
       var lineH = parseFloat(ls.lineHeight);
@@ -1121,7 +1137,15 @@
     if (display) display.textContent = pt.toFixed(1);
   }
 
-  // ── Manual font slider ──
+  // ── JD panel font slider ──
+  window.onJdFontSlider = function(val) {
+    var px = parseFloat(val);
+    document.getElementById('jd-content').style.fontSize = px + 'px';
+    var disp = document.getElementById('jd-font-display');
+    if (disp) disp.textContent = px + 'px';
+  };
+
+  // ── Resume font slider ──
   window.onFontSlider = function(val) {
     var pt = parseFloat(val);
     var display = document.getElementById('font-display');
