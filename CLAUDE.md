@@ -67,9 +67,10 @@ Only load full files when the task specifically requires them (see table).
 
 ### Resume file naming convention (permanent):
 All tailored resume files must follow this format:
-`{Company}_{Jamie (Yi-Chieh) Cheng}_{Role-Title}_{YYYY-MM-DD}.html` and `.pdf`
-Example: `BCG_Jamie (Yi-Chieh) Cheng_Career-Dev-Specialist_2026-03-30.html`
-This applies to every new resume created — both the HTML working file and the exported PDF.
+`{Company}_{Jamie (Yi-Chieh) Cheng}_{Role-Title}_{YYYY-MM-DD}.json` (content file) and `.pdf` (export)
+Example: `BCG_Jamie (Yi-Chieh) Cheng_Career-Dev-Specialist_2026-03-30.json`
+The resume system uses a single shared viewer (`resume_viewer.html`) that renders any `.json` file.
+Never create per-resume `.html` files — edit the `.json` only.
 
 ### Job location rules (permanent — apply to ALL resumes):
 - **Header location:** Always use `Portland, OR (Open to Remote or Relocation)` as Jamie's personal location in the resume header
