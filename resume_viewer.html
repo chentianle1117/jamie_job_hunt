@@ -287,6 +287,32 @@
     body.mode-changes .check-warning,
     body.mode-edit .check-warning { display: none !important; }
 
+    /* ── Overflow zone overlay ── */
+    /* Red tint + border at the margin guide line when content overflows */
+    #overflow-overlay {
+      display: none; position: absolute; left: 0; right: 0; bottom: 0;
+      pointer-events: none; z-index: 450;
+      background: rgba(231, 76, 60, 0.10);
+      border-top: 2px solid rgba(231, 76, 60, 0.80);
+    }
+    body.mode-keywords #overflow-overlay,
+    body.mode-changes #overflow-overlay,
+    body.mode-edit #overflow-overlay { display: none !important; }
+
+    /* ── Wrap highlight ── */
+    /* Orange outline on bullets that wrap to a second line */
+    .resume-page li.wrap-highlight {
+      outline: 2px solid rgba(230, 126, 34, 0.85);
+      outline-offset: 1px;
+      background: rgba(230, 126, 34, 0.08) !important;
+      border-radius: 2px;
+    }
+    body.mode-keywords .wrap-highlight,
+    body.mode-changes .wrap-highlight,
+    body.mode-edit .wrap-highlight {
+      outline: none !important; background: transparent !important;
+    }
+
     /* Draggable split divider */
     .split-divider {
       flex: 0 0 4px; cursor: col-resize;
@@ -602,9 +628,23 @@
   function checkOverflow() {
     var warning = document.getElementById('overflow-warning');
     var page = document.getElementById('resume-page');
-    if (getContentBottomPx(page) > getTargetBottom(page) + 4) {
+    var target = getTargetBottom(page);
+    var bottom = getContentBottomPx(page);
+
+    // Lazily create the in-page overlay div (wiped on each innerHTML build)
+    var overlay = document.getElementById('overflow-overlay');
+    if (!overlay) {
+      overlay = document.createElement('div');
+      overlay.id = 'overflow-overlay';
+      page.appendChild(overlay);
+    }
+
+    if (bottom > target + 4) {
+      overlay.style.top = target + 'px';
+      overlay.style.display = 'block';
       warning.classList.add('visible');
     } else {
+      overlay.style.display = 'none';
       warning.classList.remove('visible');
     }
   }
@@ -1151,11 +1191,13 @@
   function getWrappingBullets() {
     var wraps = [];
     document.querySelectorAll('.resume-page li:not(.add-btn)').forEach(function(li, idx) {
+      li.classList.remove('wrap-highlight'); // clear stale highlights first
       var ls = window.getComputedStyle(li);
       var lineH = parseFloat(ls.lineHeight);
       if (isNaN(lineH)) lineH = parseFloat(ls.fontSize) * 1.3;
       if (li.offsetHeight > lineH * 1.65) {
         wraps.push({ idx: idx, text: li.textContent.trim() });
+        li.classList.add('wrap-highlight'); // highlight directly on the element
       }
     });
     return wraps;
