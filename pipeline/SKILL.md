@@ -517,8 +517,23 @@ notion-query: filter Status = "Pass"        → extract all (company, title) pai
 - Every (company, title) pair with Status = "Pass" → **HARD SKIP** — never add to picks
 - Every (company, title) pair with Status = "Rejected/Unavailable" → **HARD SKIP**
 - Every (company, title) pair with Status = "Applied" → **SOFT SKIP** — already in pipeline, don't duplicate
+- Every (company, title) pair with Status = "Not started" → **SOFT SKIP** — already tracked, do NOT create a duplicate Notion page
 
 Log the full "Do Not Surface" list before proceeding. This list is the dedup ground truth.
+
+> ⚠️ **DEDUP GATE — MANDATORY BEFORE ANY NOTION PAGE CREATION (v3.5.1):**
+> Before creating ANY new Notion page in Step 6, cross-check the company + title pair against
+> the full "Do Not Surface" list built here. If a match exists at ANY status level:
+> - "Not a fit" / "Pass" / "Rejected/Unavailable" → DO NOT create the page. Skip the role entirely.
+> - "Applied" / "Not started" → DO NOT create a duplicate page. Note it in the email instead.
+>
+> **This check must happen BEFORE spending tokens on enrichment, networking research, or cover
+> letter drafting for that role.** Enriching a duplicate wastes budget and creates Notion noise.
+> The dedup list from Step 1a-pre-0 is the gate. Use it at every pick.
+>
+> **Same-company, different-title = different role = OK to add.**
+> Same-company + same-title = DUPLICATE = skip, even if job IDs differ (verify if job IDs differ
+> at same org — could be two genuinely separate openings, but confirm before adding).
 
 > **Why this matters:** Jamie spends real time reviewing roles. If she marked something "Not a fit",
 > she has a reason — bad culture, wrong level, she knows someone there, whatever. Re-surfacing it
@@ -1565,6 +1580,13 @@ Store this number in the Notion "Fit Score" property (0-100).
 - 💤 Stale = posted 30+ days ago — only if Fit Score ≥ 80, otherwise skip
 
 ### Step 6 — Add to Notion (honest content)
+
+> ⚠️ **DEDUP CHECK BEFORE EVERY PAGE CREATION (v3.5.1):**
+> Before creating a Notion page for any pick, verify it is NOT already in the dedup list from Step 1a-pre-0.
+> - If status is "Not a fit" or "Pass" → DO NOT add. Remove from picks entirely. Don't enrich it.
+> - If status is "Applied" or "Not started" → DO NOT add a duplicate page. Mention in email only.
+> - Same company + same title at same org with different job IDs → verify they are genuinely separate openings before adding.
+> **Failure to check this wastes enrichment tokens and pollutes Notion with duplicates.**
 
 For each pick (max 3), create a Notion page in DB `442438a9-e372-48b7-b5f5-5f6ed8ee8e99`.
 
