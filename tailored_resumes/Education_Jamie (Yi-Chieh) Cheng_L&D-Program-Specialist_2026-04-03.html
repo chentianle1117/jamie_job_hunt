@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Jamie (Yi-Chieh) Cheng — HWI Talent Management Specialist II</title>
-<!-- TAILORED: HWI — Talent Management Specialist II | 2026-04-02 -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jamie (Yi-Chieh) Cheng — Cascadia Health Training &amp; Development Specialist</title>
 <style>
-  @page { size: letter; margin: 0.69in 0.45in 0.45in 0.45in; }
+  @page { size: letter; margin: 0.66in 0.45in 0.35in 0.45in; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Calibri','Helvetica Neue','Arial',sans-serif; font-size: 9.5pt; line-height: 1.18; color: #1a1a1a; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 
@@ -19,26 +17,26 @@
   .summary { padding: 4pt 7pt; margin: 4pt 0; font-size: 9pt; line-height: 1.30; font-style: italic; color: #222; text-align: center; }
   .summary b { font-style: italic; font-weight: bold; }
   .section-header { text-align: center; font-size: 9pt; font-weight: bold; letter-spacing: 0.8pt; text-transform: uppercase; border-bottom: 1px solid #000; padding: 1pt 0; margin: 6pt 0 3pt 0; }
-  .job { margin-bottom: 5pt; }
+  .job { margin-bottom: 7pt; }
   .job-title-row { display: flex; justify-content: space-between; align-items: baseline; }
   .job-title { font-weight: bold; font-size: 9.5pt; }
-  .job-title .work-sample, .job-title a.work-sample { font-weight: normal; font-size: 7.5pt; text-decoration: underline; color: #2a6496; }
+  .job-title .work-sample { font-weight: normal; font-size: 7.5pt; text-decoration: underline; color: #2a6496; }
   .job-location { font-size: 9.5pt; text-align: right; white-space: nowrap; }
   .job-company-row { display: flex; justify-content: space-between; align-items: baseline; }
   .job-company { color: #2a6496; font-size: 9.5pt; }
   .job-dates { font-style: italic; font-size: 9.5pt; text-align: right; white-space: nowrap; color: #2a6496; }
-  .job ul { margin: 2pt 0 0 12pt; padding: 0; list-style: none; }
+  .job ul { margin: 1pt 0 0 12pt; padding: 0; }
   .job li { font-size: 9.2pt; line-height: 1.28; margin-bottom: 0.5pt; padding-left: 1pt; }
-  .edu { margin-bottom: 5pt; }
+  .edu { margin-bottom: 2pt; }
   .edu-row { display: flex; justify-content: space-between; align-items: baseline; }
   .edu-school { font-weight: bold; font-size: 9.5pt; }
   .edu-location { font-size: 9.5pt; text-align: right; }
   .edu-degree { font-size: 9.5pt; }
   .edu-dates { font-style: italic; font-size: 9.5pt; text-align: right; color: #2a6496; }
-  .edu ul { margin: 1pt 0 0 12pt; padding: 0; list-style: none; }
-  .edu li { font-size: 9.2pt; line-height: 1.35; }
+  .edu ul { margin: 0 0 0 12pt; padding: 0; }
+  .edu li { font-size: 8.8pt; line-height: 1.22; }
   .simple-list { margin: 0; padding: 0; list-style: none; }
-  .simple-list li { font-size: 9.2pt; line-height: 1.38; margin-bottom: 1.5pt; }
+  .simple-list li { font-size: 8.8pt; line-height: 1.25; list-style: none; padding-left: 0; }
   .simple-list li b { font-weight: bold; }
 
   /* ================================================================
@@ -60,9 +58,7 @@
   }
   .diff-controls button:hover { background: #4a6278; color: white; }
   .diff-controls button.active { background: #1abc9c; color: #fff; border-color: #16a085; }
-  .diff-controls .btn-icon {
-    padding: 3px 7px; font-size: 12px; line-height: 1;
-  }
+  .diff-controls .btn-icon { padding: 3px 7px; font-size: 12px; line-height: 1; }
   .diff-controls .divider { width: 1px; background: #4a6278; height: 18px; margin: 0 2px; }
 
   /* ================================================================
@@ -102,7 +98,7 @@
   .log-empty { color: #666; font-style: italic; padding: 6px 0; }
 
   /* ================================================================
-     MODE 1: CHANGES
+     MODE 1: CHANGES — diff indicators, ghost text, connection lines
      ================================================================ */
   body.mode-changes li.changed {
     border-left: 4px solid #e6a817; padding-left: 6pt; margin-left: -10pt;
@@ -133,8 +129,11 @@
   body.mode-changes span.keyword.active { outline: 2px solid #c0392b; outline-offset: 1px; }
 
   /* ================================================================
-     MODE 2: KEYWORDS
+     MODE 2: KEYWORDS — matching terms highlighted same color both sides
+     Six keyword groups with distinct colors
      ================================================================ */
+
+  /* Resume side (white bg) — visible base tint */
   body.mode-keywords .kw { border-radius: 2px; padding: 0 2px; transition: background 0.15s, outline 0.15s; }
   body.mode-keywords .kw[data-kwg="data"]  { background: #b2dfdb; }
   body.mode-keywords .kw[data-kwg="coord"] { background: #ffe0b2; }
@@ -143,6 +142,7 @@
   body.mode-keywords .kw[data-kwg="tools"] { background: #f8bbd0; }
   body.mode-keywords .kw[data-kwg="prog"]  { background: #bbdefb; }
 
+  /* JD side (dark bg) — colored text + subtle bg tint */
   body.mode-keywords .jd-kw { border-radius: 2px; padding: 0 2px; transition: background 0.15s, outline 0.15s; }
   body.mode-keywords .jd-kw[data-kwg="data"]  { color: #4dd0e1; background: rgba(77,208,225,0.18); border-bottom: 2px solid #4dd0e1; }
   body.mode-keywords .jd-kw[data-kwg="coord"] { color: #ffb74d; background: rgba(255,183,77,0.18); border-bottom: 2px solid #ffb74d; }
@@ -151,6 +151,7 @@
   body.mode-keywords .jd-kw[data-kwg="tools"] { color: #f48fb1; background: rgba(244,143,177,0.18); border-bottom: 2px solid #f48fb1; }
   body.mode-keywords .jd-kw[data-kwg="prog"]  { color: #64b5f6; background: rgba(100,181,246,0.18); border-bottom: 2px solid #64b5f6; }
 
+  /* Keyword legend in JD panel */
   body.mode-keywords .kw-legend { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 14px 0; }
   body:not(.mode-keywords) .kw-legend { display: none; }
   .kw-legend span { font-size: 9px; padding: 2px 6px; border-radius: 3px; }
@@ -161,6 +162,7 @@
   .kw-legend .leg-tools { background: rgba(244,143,177,0.2); color: #f48fb1; }
   .kw-legend .leg-prog  { background: rgba(100,181,246,0.2); color: #64b5f6; }
 
+  /* Keyword active state — strong highlight, clear pop */
   body.mode-keywords .kw.kw-active[data-kwg="data"]  { background: #26c6da; color: #fff; outline: 2px solid #00acc1; }
   body.mode-keywords .kw.kw-active[data-kwg="coord"] { background: #ffa726; color: #fff; outline: 2px solid #fb8c00; }
   body.mode-keywords .kw.kw-active[data-kwg="cross"] { background: #ab47bc; color: #fff; outline: 2px solid #8e24aa; }
@@ -175,8 +177,12 @@
   body.mode-keywords .jd-kw.kw-active[data-kwg="tools"] { background: rgba(244,143,177,0.85); color: #fff; outline: 2px solid #f48fb1; }
   body.mode-keywords .jd-kw.kw-active[data-kwg="prog"]  { background: rgba(100,181,246,0.85); color: #fff; outline: 2px solid #64b5f6; }
 
+  /* Dim non-active keywords when a group is hovered */
   body.mode-keywords.kw-hovering .kw:not(.kw-active)    { opacity: 0.2; }
   body.mode-keywords.kw-hovering .jd-kw:not(.kw-active) { opacity: 0.2; }
+
+  /* MODE 3: CLEAN — no highlights */
+  /* (default — no special class needed, all .kw / .jd-kw / diff classes are unstyled) */
 
   /* ================================================================
      EDIT MODE
@@ -214,6 +220,7 @@
     .jd-content ul { margin: 0 0 8px 16px; }
     .jd-content li { margin-bottom: 4px; }
 
+    /* JD change-link highlights (changes mode only) */
     .jd-hl { display: inline; padding: 1px 3px; border-radius: 2px; cursor: pointer; transition: outline 0.15s; }
     body.mode-changes .jd-hl { color: #fff; }
     body.mode-changes .jd-swap  { background: rgba(230,168,23,0.3); border-bottom: 2px solid #e6a817; }
@@ -223,11 +230,14 @@
     body.mode-changes .jd-swap.active  { outline-color: #e6a817; }
     body.mode-changes .jd-order.active { outline-color: #2980b9; }
     body.mode-changes .jd-word.active  { outline-color: #c0392b; }
+    /* Hide change-link highlights when NOT in changes mode */
     body:not(.mode-changes) .jd-hl { color: inherit; background: none; border: none; }
 
+    /* JD reasoning annotations (changes mode only) */
     .jd-reason { display: none; font-size: 9px; color: #9bb0c4; margin: 2px 0 10px 4px; font-style: italic; padding-left: 8px; border-left: 2px solid #444; }
     body.mode-changes .jd-reason { display: block; }
 
+    /* SVG connection lines (changes mode only) */
     .connection-svg { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 9997; }
     .connection-svg path { fill: none; stroke-width: 2; opacity: 0; transition: opacity 0.2s; }
     .connection-svg path.active { opacity: 0.85; }
@@ -241,8 +251,9 @@
      PRINT: clean resume only
      ================================================================ */
   @media print {
+    .kw, .jd-kw { padding: 0 !important; }
     body { background: white !important; }
-    .diff-toolbar, #log-panel, .jd-panel, .connection-svg { display: none !important; }
+    .diff-toolbar, #change-log, .jd-panel, .connection-svg { display: none !important; }
     .split-layout { display: block !important; }
     .resume-panel { flex: none !important; width: 100% !important; padding: 0 !important; overflow: visible !important; max-height: none !important; }
     .resume-page { box-shadow: none !important; margin: 0 !important; padding: 0 !important; max-width: none !important; }
@@ -252,248 +263,250 @@
     span.keyword { background: transparent !important; border-bottom: none !important; }
     span.keyword::after { display: none !important; }
     .kw, .jd-kw { background: transparent !important; border: none !important; color: inherit !important; padding: 0 !important; }
-    /* Chrome spacing overrides to match WeasyPrint rendering */
-    body { line-height: 1.22 !important; }
-    .job li { line-height: 1.22 !important; margin-bottom: 0.5pt !important; }
-    .simple-list li { line-height: 1.30 !important; margin-bottom: 2pt !important; }
-    .section-header { margin: 5pt 0 3pt 0 !important; }
-    .job { margin-bottom: 6pt !important; }
-    .summary { margin: 4pt 0 !important; padding: 3pt 7pt !important; }
-    .edu { margin-bottom: 5pt !important; }
   }
 </style>
 </head>
 <body class="mode-keywords">
+
 <!-- ══════════ TOOLBAR ══════════ -->
 <div class="diff-toolbar">
-<div class="diff-version">
-    📄 Tailored for: <strong>HWI — Talent Management Specialist II</strong>
-<span class="diff-date">April 2, 2026</span>
+  <div class="diff-version">
+    📄 Tailored for: <strong>Cascadia Health — Training &amp; Development Specialist I</strong>
+    <span class="diff-date">April 3, 2026</span>
+  </div>
+  <div class="diff-controls">
+    <button id="btn-changes" onclick="setMode('changes')">Changes</button>
+    <button id="btn-keywords" class="active" onclick="setMode('keywords')">Keywords</button>
+    <button id="btn-clean" onclick="setMode('clean')">Clean</button>
+    <div class="divider"></div>
+    <button id="btn-edit" class="btn-icon" title="Toggle edit mode" onclick="toggleEditMode()">✏️</button>
+    <button id="btn-log" class="btn-icon" title="Show log" onclick="toggleLog()">📋</button>
+    <button id="btn-export" class="btn-icon" title="Export PDF (Cmd+P → Save as PDF)" onclick="window.print()">📤</button>
+  </div>
 </div>
-<div class="diff-controls">
-<button id="btn-changes" onclick="setMode('changes')">Changes</button>
-<button class="active" id="btn-keywords" onclick="setMode('keywords')">Keywords</button>
-<button id="btn-clean" onclick="setMode('clean')">Clean</button>
-<div class="divider"></div>
-<button class="btn-icon" id="btn-edit" onclick="toggleEditMode()" title="Toggle edit mode">✏️</button>
-<button class="btn-icon" id="btn-log" onclick="toggleLog()" title="Show log">📋</button>
-<button class="btn-icon" id="btn-export" onclick="window.print()" title="Export PDF (Cmd+P → Save as PDF)">📤</button>
-</div>
-</div>
+
 <!-- ══════════ LOG PANEL ══════════ -->
 <div id="log-panel">
-<div class="log-tabs">
-<div class="log-tab active" onclick="switchTab('changes')">🔧 Change Log</div>
-<div class="log-tab" onclick="switchTab('edits')">✏️ My Edits</div>
+  <div class="log-tabs">
+    <div class="log-tab active" onclick="switchTab('changes')">🔧 Change Log</div>
+    <div class="log-tab" onclick="switchTab('edits')">✏️ My Edits</div>
+  </div>
+  <div id="pane-changes" class="log-pane active">
+    <table>
+      <tr><th>Location</th><th>Type</th><th>Before</th><th>After</th><th>Why</th></tr>
+      <tr><td>Summary</td><td class="tag-word">🔴 word swap</td><td class="orig">solving problems through data analysis / developing people programs</td><td class="new">designing and facilitating training programs / developing learning experiences</td><td>JD core duties: training facilitation + L&amp;D design — front-loading these in summary signals direct competency match</td></tr>
+      <tr><td>InGenius #1</td><td class="tag-order">🔵 reorder</td><td class="orig">was #3: Conduct needs assessments</td><td class="new">now #1: Facilitate training webinars for 600+</td><td>Facilitation is the #1 JD requirement — leading with 600+ facilitation metric signals core competency</td></tr>
+      <tr><td>InGenius #2</td><td class="tag-order">🔵 reorder</td><td class="orig">was #1: Conduct needs assessments</td><td class="new">now #2: Conduct needs assessments (training needs)</td><td>JD explicitly requires training needs assessment; reordered to surface early</td></tr>
+      <tr><td>InGenius #2</td><td class="tag-word">🔴 word swap</td><td class="orig">identify learning gaps</td><td class="new">identify training needs</td><td>JD uses "training needs assessment" — direct terminology alignment</td></tr>
+      <tr><td>InGenius #3</td><td class="tag-order">🔵 reorder</td><td class="orig">was #2: Develop guides and workflows</td><td class="new">now #3: Develop guides and workflows (staff knowledge)</td><td>Onboarding and staff knowledge development directly match JD duties</td></tr>
+      <tr><td>InGenius #3</td><td class="tag-word">🔴 word swap</td><td class="orig">improving program knowledge</td><td class="new">improving staff knowledge</td><td>JD uses "staff" throughout; "staff knowledge" matches org context (behavioral health staff)</td></tr>
+      <tr><td>NextGen #1</td><td class="tag-order">🔵 reorder</td><td class="orig">was #3</td><td class="new">now #1: DEI, Inclusive Leadership training</td><td>DEI + internal training leads — Cascadia is an HSI with explicit equity values</td></tr>
+      <tr><td>NextGen #2</td><td class="tag-order">🔵 reorder</td><td class="orig">was #4</td><td class="new">now #2: L&amp;D projects</td><td>L&amp;D emphasis matches T&amp;D Specialist role focus</td></tr>
+      <tr><td>Vestas #1</td><td class="tag-order">🔵 reorder</td><td class="orig">was #3</td><td class="new">now #1: DEI Inclusive Leadership workshop</td><td>Facilitation + DEI alignment with Cascadia's mission as an HSI</td></tr>
+      <tr><td>Vestas #2</td><td class="tag-order">🔵 reorder</td><td class="orig">was #1</td><td class="new">now #2: Onboarding</td><td>JD explicitly asks to "assist with onboarding new staff" — surfaces this skill directly</td></tr>
+      <tr><td>Skills</td><td class="tag-word">🔴 word swap</td><td class="orig">HRIS (SAP) &middot; ATS (Greenhouse) &middot; MS Office (Word, PowerPoint)</td><td class="new">HRIS &middot; LMS (Canvas, Moodle) &middot; MS Office &amp; Teams</td><td>JD specifically mentions LMS admin + Microsoft Teams training — LMS is core to the role; Teams signals direct tool familiarity</td></tr>
+    </table>
+  </div>
+  <div id="pane-edits" class="log-pane">
+    <table>
+      <tr><th>Time</th><th>Location</th><th>Before</th><th>After</th></tr>
+    </table>
+    <p class="log-empty">No edits yet — click ✏️ to start editing.</p>
+  </div>
 </div>
-<div class="log-pane active" id="pane-changes">
-<table>
-<tr><th>Location</th><th>Type</th><th>Before</th><th>After</th><th>Why</th></tr>
-<tr><td>ODN #1</td><td class="tag-swap">🟡 bullet swap</td><td class="orig">Empower HR to present executive-ready deliverables on $362K…driving policy redesigns</td><td class="new">Upskill HR team in data analytics to audit 300+ leave cases, refuting cost assumptions via evidence-based insights</td><td>JD: "data literacy advocate" + "audit data irregularities" — direct match</td></tr>
-<tr><td>ODN #2</td><td class="tag-swap">🟡 bullet swap</td><td class="orig">Consult with executive leadership to redesign accountability structures…</td><td class="new">Analyze workforce data on absenteeism to quantify $362K; empower HR to present executive-ready dashboards driving policy redesigns</td><td>JD: dashboards/visualizations + data-driven decision-making — reframed to lead with the analysis action</td></tr>
-<tr><td>InGenius #1</td><td class="tag-order">🔵 reorder</td><td class="orig">was #3</td><td class="new">now #1</td><td>JD top priority: "partner with stakeholders to understand reporting and analytics needs"</td></tr>
-<tr><td>InGenius #2</td><td class="tag-swap">🟡 bullet swap</td><td class="orig">Develop process documentation and operational resources for 70+ staff…</td><td class="new">Develop guides and workflows for 70+ cross-functional staff…</td><td>JD: "develop and document new processes to accurately report on critical data"</td></tr>
-<tr><td>InGenius #3</td><td class="tag-swap">🟡 bullet swap</td><td class="orig">Coordinate communications and training materials for 600+ participants…75% enrollment rate</td><td class="new">Facilitate training webinars for 600+ participants…78% client conversion rate</td><td>JD: "data literacy advocate — training on analytics tools via job-aids and training materials"</td></tr>
-<tr><td>InGenius #4</td><td class="tag-swap">🟡 bullet swap</td><td class="orig">Manage end-to-end lifecycles for 20+ cross-functional initiatives, tracking milestones…</td><td class="new">Manage 20+ programs and 10+ vendors, refining strategy via feedback analysis</td><td>JD: continuous improvement via metrics and feedback analysis</td></tr>
-<tr><td>NextGen #1</td><td class="tag-order">🔵 reorder</td><td class="orig">was #2</td><td class="new">now #1</td><td>Strongest data analytics bullet — JD prioritizes workforce data analysis</td></tr>
-<tr><td>NextGen #1</td><td class="tag-word">🔴 word swap</td><td class="orig">employee data points</td><td class="new">employee survey data points</td><td>JD preferred qual: "survey design" — surfaces that experience</td></tr>
-<tr><td>NextGen #2</td><td class="tag-order">🔵 reorder</td><td class="orig">was #1</td><td class="new">now #2</td><td>Data storytelling framing supports "dashboards and visualizations" JD theme</td></tr>
-<tr><td>NextGen #3</td><td class="tag-swap">🟡 bullet swap</td><td class="orig">Coordinated 5 cross-functional projects focused on survey development, rewards &amp; recognition…</td><td class="new">Elevated EX through projects in engagement, survey development, and L&amp;D…</td><td>JD preferred: "survey design" — more direct framing</td></tr>
-<tr><td>Vestas #1</td><td class="tag-order">🔵 reorder</td><td class="orig">was #4</td><td class="new">now #1</td><td>JD requires: "work with sensitive employee data, maintaining confidentiality" — leads with that signal</td></tr>
-<tr><td>Vestas #4</td><td class="tag-swap">🟡 bullet swap</td><td class="orig">Led change management coordination for M&amp;A project…</td><td class="new">Assisted in employee relations cases, ensuring compliance with local labor laws and confidentiality</td><td>ER case handling + confidentiality more relevant than M&amp;A for analytics role</td></tr>
-<tr><td>Skills</td><td class="tag-order">🔵 reorder</td><td class="orig">Project Management listed first</td><td class="new">Data Analysis listed first</td><td>JD is analytics-focused — data tools should lead the skills line</td></tr>
-<tr><td>Skills</td><td class="tag-word">🔴 word swap</td><td class="orig">Data Analysis (SPSS, Google Sheets, Excel)</td><td class="new">Data Analysis (SPSS, Excel, Google Sheets, data visualization)</td><td>JD: "data visualization" is a core requirement — surfaced explicitly</td></tr>
-</table>
-</div>
-<div class="log-pane" id="pane-edits">
-<table>
-<tr><th>Time</th><th>Location</th><th>Before</th><th>After</th></tr>
-</table>
-<p class="log-empty">No edits yet — click ✏️ to start editing.</p>
-</div>
-</div>
+
 <!-- ══════════ SPLIT LAYOUT ══════════ -->
 <div class="split-layout">
+
 <!-- ──── LEFT: RESUME ──── -->
 <div class="resume-panel" id="resume-panel">
 <div class="resume-page">
+
 <div class="header">
-<h1>Jamie (Yi-Chieh) Cheng</h1>
-<div class="contact">
-    2695 South Water Street, Pittsburgh, Pennsylvania • (213) 700-3831 •
-    <a href="mailto:jamiecheng0103@gmail.com">jamiecheng0103@gmail.com</a> •
+  <h1>Jamie (Yi-Chieh) Cheng</h1>
+  <div class="contact">
+    Relocating to Portland, Oregon in May 2026 &bull; (213) 700-3831 &bull;
+    <a href="mailto:jamiecheng0103@gmail.com">jamiecheng0103@gmail.com</a> &bull;
     <a href="http://www.linkedin.com/in/jamieyccheng">LinkedIn</a>
-</div>
-</div>
-<div class="summary">
-  I'm Jamie—a curious, people-loving (97% extrovert!) <b>Organization &amp; Talent Development</b> professional who thrives on
-  <b>solving problems through data analysis</b>, <b>developing people programs grounded in insights</b>, and
-  <b>collaborating with stakeholders for sustainable impact</b>.
-  Expect me to always be seeking ways we can improve people experience—through human-centered, systematic approaches.
   </div>
+</div>
+
+<div class="summary">
+  I'm Jamie&mdash;a curious, people-loving (97% extrovert!) <b>Organization &amp; Talent Development</b> professional who thrives on
+  <b>designing learning programs grounded in evidence</b>, <b>building people-centered educational experiences</b>, and
+  <b>collaborating with educators and stakeholders for sustainable impact</b>.
+  Expect me to always be seeking ways we can improve <b>people development</b>&mdash;through human-centered, systematic approaches.
+</div>
+
 <div class="section-header">Professional Experience</div>
+
+  
 <div class="job">
-<div class="job-title-row">
-<div class="job-title">Consultant, Organization &amp; Talent Development</div>
-<div class="job-location">Remote, USA</div>
+  <div class="job-title-row">
+    <div class="job-title">Program Enablement Manager</div>
+    <div class="job-location">Remote, USA</div>
+  </div>
+  <div class="job-company-row">
+    <div class="job-company">InGenius Prep, LLC</div>
+    <div class="job-dates">September 2023&ndash;Present</div>
+  </div>
+  <ul>
+    <li class="reordered" data-was="3" data-reason="Merged facilitate + execute/product training into one bullet — removes duplication, retains 600+ metric and conversion rate" data-jd="jd1">Facilitate training webinars for 600+ participants, enhancing product understanding and driving a 78% client conversion rate</li>
+    <li class="reordered" data-was="1" data-reason="JD explicitly requires training needs assessment; reordered to surface this second" data-jd="jd2">Conduct needs assessments with 25+ global stakeholders to identify <span class="kw" data-kwg="ld">training needs</span> and design 3 new educational programs</li>
+    <li class="reordered" data-was="2" data-reason="Onboarding and staff knowledge development directly match JD duties; reordered to #3" data-jd="jd3">Develop guides and workflows for 70+ cross-functional <span class="kw" data-kwg="collab">staff</span>, improving <span class="kw" data-kwg="ld">staff knowledge</span> and reducing <span class="kw" data-kwg="prog">onboarding</span> time by 75%</li>
+    <li class="changed" data-original="Execute a new product training program by hosting live sessions and producing videos that reached 500+ participants" data-reason="JD: participate in workgroups, represent P&amp;C team, agency collaboration — culture-building angle fits Cascadia's mission-driven nonprofit context">Collaborate with cross-functional teams to launch 15+ educational products, refining program positioning, delivery strategy, and operations via feedback analysis</li>
+  </ul>
 </div>
-<div class="job-company-row">
-<div class="job-company">Organization Development Network (ODN) Oregon</div>
-<div class="job-dates">August 2025–Present</div>
-</div>
-<ul>
-<li class="changed" data-jd="jd1" data-original="Upskill HR team in data analytics to audit 300+ leave cases, successfully refuting cost assumptions via evidence-based insights" data-reason="JD asks for 'data literacy advocate' and 'auditing data irregularities' — this bullet hits both directly">• Upskill HR team in <span class="kw" data-kwg="data">data analytics</span> to audit 300+ sensitive leave cases and refute cost assumptions via <span class="kw" data-kwg="data">evidence-based analysis</span></li>
-<li class="changed" data-jd="jd2" data-original="Empower HR leadership team to present executive-ready deliverables on $362K in costs, driving policy redesigns and process improvements" data-reason="JD emphasizes dashboards/visualizations + data-driven decision-making — reframed to lead with the data analysis action">• Guided HR team to quantify $362K in <span class="kw" data-kwg="data">absenteeism costs</span>; created executive-ready <span class="kw" data-kwg="data">data reports</span> driving policy redesigns</li>
-</ul>
-</div>
+
 <div class="job">
-<div class="job-title-row">
-<div class="job-title">Program Enablement Manager</div>
-<div class="job-location">Remote, USA</div>
+  <div class="job-title-row">
+    <div class="job-title">Organizational Development Intern <a class="work-sample" href="https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing" target="_blank">(Work Sample)</a></div>
+    <div class="job-location">Los Angeles, CA</div>
+  </div>
+  <div class="job-company-row">
+    <div class="job-company">NextGen Healthcare</div>
+    <div class="job-dates">January 2023&ndash;May 2023</div>
+  </div>
+  <ul>
+    <li class="reordered" data-was="3" data-reason="DEI + internal training leads — Cascadia is an HSI with explicit equity values; signals DEI training alignment" data-jd="jd4">Provided consultations to improve strategic plans and internal <span class="kw" data-kwg="train">training</span> on <span class="kw" data-kwg="dei">DEI, Inclusive Leadership</span>, and performance review</li>
+    <li class="reordered" data-was="4" data-reason="L&amp;D projects bullet leads with learning emphasis matching T&amp;D Specialist role" data-jd="jd5">Elevated employee experience through <span class="kw" data-kwg="ld">L&amp;D projects</span> focused on engagement, rewards &amp; recognition, and survey development</li>
+    <li>Led a manager effectiveness initiative, transforming feedback data into actionable reports that informed <span class="kw" data-kwg="ld">L&amp;D strategies</span></li>
+    <li>Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on <span class="kw" data-kwg="ld">L&amp;D priorities</span></li>
+  </ul>
 </div>
-<div class="job-company-row">
-<div class="job-company">InGenius Prep, LLC</div>
-<div class="job-dates">September 2023–Present</div>
-</div>
-<ul>
-<li class="reordered" data-jd="jd3" data-reason="JD's top priority is 'partner with stakeholders to understand reporting and analytics needs' — leads with that" data-was="3">• Conduct needs assessments with 25+ global <span class="kw" data-kwg="cross">stakeholders</span>, surfacing <span class="kw" data-kwg="data">learning gap insights</span> to co-design 3 tailored programs</li>
-<li class="changed" data-jd="jd4" data-original="Develop process documentation and operational resources for 70+ staff, streamlining workflows and reducing onboarding time by 75%" data-reason="JD asks for 'develop and document new processes to accurately report on critical data' — guides/workflows framing is more concrete">• Develop process documentation and workflows for 70+ <span class="kw" data-kwg="cross">cross-functional</span> staff, reducing onboarding time by 75%</li>
-<li class="changed" data-jd="jd5" data-original="Coordinate communications and training materials for 600+ participants, supporting program delivery and driving 75% enrollment rate" data-reason="JD calls for 'data literacy advocate — training on analytics tools via job-aids and training materials' — this bullet mirrors that directly">• Facilitate training webinars for 600+ participants, increasing <span class="kw" data-kwg="ex">program understanding</span> and driving 78% enrollment rate</li>
-<li class="changed" data-jd="jd6" data-original="Manage end-to-end lifecycles for 20+ cross-functional initiatives, tracking milestones and progress to drive seamless execution" data-reason="JD emphasizes continuous improvement via feedback analysis and metrics — this variant surfaces that directly">• Manage end-to-end lifecycles for 20+ projects; optimize strategies and vendor performance via <span class="kw" data-kwg="data">feedback analysis</span></li>
-</ul>
-</div>
+
 <div class="job">
-<div class="job-title-row">
-<div class="job-title">Organizational Development Intern <a class="work-sample" href="https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing" target="_blank">(Work Sample)</a></div>
-<div class="job-location">Los Angeles, CA</div>
+  <div class="job-title-row">
+    <div class="job-title">HR Business Partner Assistant <a class="work-sample" href="https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing" target="_blank">(Work Sample)</a></div>
+    <div class="job-location">Taipei, Taiwan</div>
+  </div>
+  <div class="job-company-row">
+    <div class="job-company">Vestas Wind Systems</div>
+    <div class="job-dates">February 2022&ndash;October 2022</div>
+  </div>
+  <ul>
+    <li class="reordered" data-was="3" data-reason="DEI facilitation leads — Inclusive Leadership workshop directly shows training facilitation + Cascadia's equity mission alignment" data-jd="jd4">Initiated a <span class="kw" data-kwg="dei">DEI</span> pilot with an <span class="kw" data-kwg="train">Inclusive Leadership workshop</span> for 12 senior leaders, later expanded to 23 other global locations</li>
+    <li class="reordered" data-was="1" data-reason="Onboarding support is an explicit JD duty — surfacing this second signals direct match" data-jd="jd3">Optimized <span class="kw" data-kwg="prog">onboarding</span> across 3 global locations by coordinating process analysis and clarifying job responsibilities</li>
+    <li>Facilitated smooth organizational change by directing a Mergers &amp; Acquisitions project, overseeing cross-functional stakeholders</li>
+    <li>Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors</li>
+  </ul>
 </div>
-<div class="job-company-row">
-<div class="job-company">NextGen Healthcare</div>
-<div class="job-dates">January 2023–May 2023</div>
+
+<div class="job changed-section">
+  <div class="job-title-row">
+    <div class="job-title">Curriculum Developer &amp; Course Instructor</div>
+    <div class="job-location">Norton, MA</div>
+  </div>
+  <div class="job-company-row">
+    <div class="job-company">EXPLO</div>
+    <div class="job-dates">June 2019&ndash;August 2019</div>
+  </div>
+  <ul>
+    <li>Designed and <span class="kw" data-kwg="train">facilitated</span> a 3-week English immersion <span class="kw" data-kwg="ld">curriculum</span> for 12 international students, incorporating feedback-driven adjustments to continuously improve <span class="kw" data-kwg="ld">learning outcomes</span></li>
+    <li>Delivered culturally responsive lessons, adjusting content and pacing in real time to meet <span class="kw" data-kwg="dei">learner needs</span> and maintain engagement</li>
+    <li>Developed <span class="kw" data-kwg="ld">instructional materials</span>&mdash;slides, worksheets, and activities&mdash;aligned to learning objectives to support knowledge retention and skill application</li>
+  </ul>
 </div>
-<ul>
-<li class="reordered" data-jd="jd7" data-reason="Strongest data analytics bullet — leads with the actual analysis action; JD prioritizes workforce data analysis above all" data-was="2">• Analyzed 2,000+ employee <span class="kw" data-kwg="data">survey data</span>, surfacing <span class="kw" data-kwg="data">insights</span> and key engagement drivers to recommend C-suite actions</li>
-<li class="reordered" data-jd="jd8" data-reason="Translating data into executive-ready reports = 'dashboards and visualizations that tell a clear story' per JD" data-was="1">• Led manager effectiveness initiative, translating <span class="kw" data-kwg="data">data</span> into executive-ready insights to inform leadership development</li>
-<li class="changed" data-jd="jd9" data-original="Coordinated 5 cross-functional projects focused on survey development, rewards &amp; recognition, and L&amp;D to improve employee experience" data-reason="JD preferred qual mentions 'survey design' — surfaces this experience more directly">• Managed <span class="kw" data-kwg="prog">SharePoint dashboards</span> for people metrics, NPS, and <span class="kw" data-kwg="data">survey insights</span> to drive employee recognition</li>
-<li>• Improved employee experience via 5 <span class="kw" data-kwg="cross">cross-functional</span> projects in <span class="kw" data-kwg="data">survey development</span>, performance review, and L&amp;D</li>
-</ul>
-</div>
-<div class="job">
-<div class="job-title-row">
-<div class="job-title">HR Business Partner Assistant <a class="work-sample" href="https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing" target="_blank">(Work Sample)</a></div>
-<div class="job-location">Taipei, Taiwan</div>
-</div>
-<div class="job-company-row">
-<div class="job-company">Vestas Wind Systems</div>
-<div class="job-dates">February 2022–October 2022</div>
-</div>
-<ul>
-<li class="reordered" data-jd="jd10" data-reason="JD explicitly requires 'ability to work with sensitive employee data, maintaining confidentiality' — leads with that signal" data-was="4">• Assisted leadership in headcount forecasting; analyzed historical <span class="kw" data-kwg="data">workforce data</span> to project future headcounts via <span class="kw" data-kwg="data">graphs</span></li>
-<li>• Streamlined onboarding across 3 global sites; interviewed <span class="kw" data-kwg="cross">stakeholders</span> to clarify responsibilities and map new team workflows</li>
-<li>• Initiated a DEI Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 global locations</li>
-<li class="changed" data-jd="jd11" data-original="Led change management coordination for an M&amp;A project, aligning cross-functional stakeholders and documenting decisions and outcomes" data-reason="Combined ER cases + cross-functional project breadth (succession planning, L&amp;D, survey dev) to surface confidentiality + program scope">• Supported 5 <span class="kw" data-kwg="cross">cross-functional</span> HR projects in talent development, succession planning, and ER; upheld <span class="kw" data-kwg="ex">confidentiality</span></li>
-</ul>
-</div>
-<div class="job">
-<div class="job-title-row">
-<div class="job-title">Human Resources Intern</div>
-<div class="job-location">Taipei, Taiwan</div>
-</div>
-<div class="job-company-row">
-<div class="job-company">Kronos Research</div>
-<div class="job-dates">January 2021–August 2021</div>
-</div>
-<ul>
-<li>• Managed <span class="kw" data-kwg="cross">cross-functional</span> HR operations spanning recruitment, compensation analysis, and performance management globally</li>
-<li>• Coordinated international talent acquisition end-to-end, including job postings and compensation benchmarking</li>
-<li>• Drove a 566% increase in applications in 2 months through personalized global outreach and talent engagement</li>
-<li>• Planned recruiting events and C-suite panels at top 3 universities, engaging 230+ students and 80+ applicants</li>
-</ul>
-</div>
+
 <div class="section-header">Education</div>
 <div class="edu">
-<div class="edu-row"><div class="edu-school">University of Southern California</div><div class="edu-location">Los Angeles, CA</div></div>
-<div class="edu-row"><div class="edu-degree">MS in Applied Industrial-Organizational (IO) Psychology (GPA: 3.95)</div><div class="edu-dates">August 2022–May 2023</div></div>
-<ul><li>• Relevant Coursework: Organizational Psychology, Research Methods, Applied Statistics, Group Dynamics &amp; Leadership</li></ul>
+  <div class="edu-row"><div class="edu-school">University of Southern California</div><div class="edu-location">Los Angeles, CA</div></div>
+  <div class="edu-row"><div class="edu-degree">MS in Applied Organizational Psychology (GPA: 3.95)</div><div class="edu-dates">August 2022&ndash;May 2023</div></div>
+  <ul><li>Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics &amp; Leadership, Consumer Psychology</li></ul>
 </div>
 <div class="edu">
-<div class="edu-row"><div class="edu-school">Wesleyan University</div><div class="edu-location">Middletown, CT</div></div>
-<div class="edu-row"><div class="edu-degree">BA in Psychology and Education Studies (GPA: 4.00)</div><div class="edu-dates">August 2017–December 2021</div></div>
+  <div class="edu-row"><div class="edu-school">Wesleyan University</div><div class="edu-location">Middletown, CT</div></div>
+  <div class="edu-row"><div class="edu-degree">BA in Psychology and Education Studies (GPA: 4.00)</div><div class="edu-dates">August 2017&ndash;December 2021</div></div>
+  <ul><li>Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation</li></ul>
 </div>
+
 <div class="section-header">Projects &amp; Awards</div>
 <ul class="simple-list">
-<li><b>Consulting Projects:</b> Enhanced <b>Elanco Animal Health</b> employer branding and talent strategy via survey design and execution</li>
-<li><b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-methods research</li>
-<li><b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)</li>
+  <li><b>OD Consulting (ODN Oregon):</b> Applied data analysis and coaching to guide external clients through organizational engagement challenges and structural improvements</li>
+  <li><b>Consulting Projects:</b> Enhanced <b>Elanco Animal Health</b> employer branding &amp; talent attraction strategy via survey design/execution</li>
+  <li><b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research</li>
+  <li><b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition scholarship), Tuck Bridge Scholarship (Full Scholarship)</li>
 </ul>
+
 <div class="section-header">Skills</div>
 <ul class="simple-list">
-<li><b>Data &amp; PM Tools:</b> HRIS (SAP) · ATS (Greenhouse) · Data Analysis (Google Sheets, Excel) · Project Management (Asana, Airtable)</li>
-<li><b>Productivity:</b> Knowledge Management (SharePoint, Notion) · AI Tools (ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint)</li>
-<li><b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)</li>
-<li><b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)</li>
+  <li><b>Technical Skills:</b> CRM (HubSpot) &middot; LMS (Canvas, Moodle) &middot; Project Management (Asana, Airtable) &middot; Data Analysis (Google Sheets, Excel, SPSS) &middot; Knowledge Management (SharePoint, Notion) &middot; Microsoft Office (Word, PowerPoint) &middot; Design Tools (Canva, Adobe InDesign)</li>
+  <li><b>Languages:</b> English (fluent) &middot; Mandarin Chinese (native) &middot; Spanish (basic)</li>
+  <li><b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)</li>
 </ul>
+
 <div class="page-guide"></div>
 </div><!-- .resume-page -->
 </div><!-- .resume-panel -->
+
 <!-- ──── SVG LINES ──── -->
-<svg class="connection-svg" id="connections"></svg>
+<svg id="connections" class="connection-svg"></svg>
+
 <!-- ──── RIGHT: JD PANEL ──── -->
 <div class="jd-panel" id="jd-panel">
-<div class="jd-header">
-<h3>Job Description</h3>
+  <div class="jd-header">
+    <h3>Job Description</h3>
+    <div class="jd-meta">Cascadia Health — Training &amp; Development Specialist I &middot; Portland, OR (on-site) &middot; $65,731–$70,436</div>
+  </div>
+
+  <div class="kw-legend">
+    <span class="leg-coord">Training/Facilitation</span>
+    <span class="leg-data">L&amp;D/Needs Assessment</span>
+    <span class="leg-tools">LMS/Tech Systems</span>
+    <span class="leg-cross">Collaboration/Staff</span>
+    <span class="leg-ex">DEI/Equity</span>
+    <span class="leg-prog">Programs/Onboarding/Onboarding</span>
+  </div>
+
+  <div class="jd-content">
+    <div class="jd-section-title">Position Overview</div>
+    <p>The <span class="jd-kw" data-kwg="train">Training and Development Specialist</span> works within the People and Culture department to <span class="jd-kw" data-kwg="train">develop, implement, and facilitate</span> live and online trainings. Assists with <span class="jd-kw" data-kwg="prog">onboarding new staff</span>, administers the <span class="jd-kw" data-kwg="tech">LMS</span>, and facilitates trainings supporting a wide range of staff. Person-first, <span class="jd-kw" data-kwg="dei">trauma-informed</span> approach required.</p>
+
+    <div class="jd-section-title">Live Training Facilitation</div>
+    <ul>
+      <li><mark class="jd-hl jd-order" id="jd1">Facilitate <span class="jd-kw" data-kwg="train">in-person and virtual training</span> for new hires, including foundational technology systems training</mark>
+        <span class="jd-reason">→ InGenius #1: "Facilitate training webinars for 600+ participants" — reordered to lead</span>
+      </li>
+      <li><mark class="jd-hl jd-order" id="jd2">Develop and provide training: <span class="jd-kw" data-kwg="train">DEI, Inclusive Leadership</span>, management, safety, EHR documentation</mark>
+        <span class="jd-reason">→ NextGen #1: "internal training on DEI, Inclusive Leadership" — reordered to lead<br>→ Vestas #1: DEI Inclusive Leadership workshop</span>
+      </li>
+      <li>Facilitate independently for <span class="jd-kw" data-kwg="train">up to 8 hours (all day)</span>, in person or virtually</li>
+    </ul>
+
+    <div class="jd-section-title">Technology &amp; LMS Administration</div>
+    <ul>
+      <li><mark class="jd-hl jd-word" id="jd3"><span class="jd-kw" data-kwg="tech">LMS administration</span>: user accounts, modules, training plans, auto-enrollments, reports</mark>
+        <span class="jd-reason">→ Skills line: LMS (Canvas, Moodle) + MS Office &amp; Teams — word swap adds Teams</span>
+      </li>
+      <li>Train staff in <span class="jd-kw" data-kwg="tech">LMS, EHR, HRIS, Microsoft Teams</span></li>
+    </ul>
+
+    <div class="jd-section-title">Collaboration &amp; Needs Assessment</div>
+    <ul>
+      <li><mark class="jd-hl jd-order" id="jd4">Assess agency <span class="jd-kw" data-kwg="ld">training needs</span>; develop and implement instructional material</mark>
+        <span class="jd-reason">→ InGenius #2: word swap "learning gaps" → "training needs" — direct terminology match</span>
+      </li>
+      <li><mark class="jd-hl jd-order" id="jd5">Participate in workgroups; represent <span class="jd-kw" data-kwg="collab">training team and P&amp;C department</span></mark>
+        <span class="jd-reason">→ NextGen #2: "L&amp;D projects" — reordered to surface learning emphasis</span>
+      </li>
+      <li><span class="jd-kw" data-kwg="prog">Assist with onboarding new staff</span> and support staff at all levels of the agency</li>
+    </ul>
+
+    <div class="jd-section-title">Qualifications</div>
+    <ul>
+      <li>Bachelor's Degree in related field preferred</li>
+      <li>2 years experience providing training or teaching required</li>
+      <li><span class="jd-kw" data-kwg="train">Virtual facilitation</span> experience strongly preferred</li>
+      <li>Knowledge of <span class="jd-kw" data-kwg="ld">training curriculum design and implementation</span></li>
+    </ul>
+
+    <div class="jd-section-title">H1B Status</div>
+    <p style="color: #4CAF50; font-weight: bold;">🏛️ Cap-Exempt — Cascadia Health is a nonprofit behavioral health organization; qualifies as cap-exempt employer under INA §214(g)(5).</p>
+  </div>
 </div>
-<div class="kw-legend">
-<span class="leg-data">Data/Analytics</span>
-<span class="leg-coord">Governance/Accuracy</span>
-<span class="leg-cross">Stakeholders/Collab</span>
-<span class="leg-ex">Confidentiality/HR</span>
-<span class="leg-tools">Tools/BI</span>
-<span class="leg-prog">Reporting/Metrics</span>
-</div>
-<div class="jd-content">
-<div class="jd-meta">HWI — Talent Management Specialist II · Salt Lake City, UT · $72,000–$108,000</div>
-<div class="jd-section-title">Role Overview</div>
-<p>The <span class="jd-kw" data-kwg="data">People Analytics</span> team uncovers <span class="jd-kw" data-kwg="data">data-driven insights</span>, understands the talent lifecycle, and enables transformational change. This role supports <span class="jd-kw" data-kwg="prog">people data and analytics</span>, creates <span class="jd-kw" data-kwg="prog">dashboards and visualizations</span> through storytelling, and builds <span class="jd-kw" data-kwg="data">data literacy</span> across the organization.</p>
-<div class="jd-section-title">Key Responsibilities</div>
-<ul>
-<li>• <mark class="jd-hl jd-swap" id="jd1">Acts as a <span class="jd-kw" data-kwg="data">data literacy</span> advocate — broadening internal knowledge of analytics tools through <span class="jd-kw" data-kwg="data">job-aids and training materials</span></mark>
-<span class="jd-reason">→ ODN bullet 1: upskilling HR team in data analytics</span></li>
-<li>• <mark class="jd-hl jd-swap" id="jd2">Assists in creating <span class="jd-kw" data-kwg="prog">dashboards and visualizations</span>; supports <span class="jd-kw" data-kwg="data">workforce data</span> analysis for <span class="jd-kw" data-kwg="data">data-driven decision-making</span></mark>
-<span class="jd-reason">→ ODN bullet 2: analyzing workforce data, executive dashboards on $362K costs</span></li>
-<li>• <mark class="jd-hl jd-order" id="jd3">Partners with <span class="jd-kw" data-kwg="cross">stakeholders</span> to understand <span class="jd-kw" data-kwg="prog">reporting and analytics needs</span>, answers questions, and provides recommendations</mark>
-<span class="jd-reason">→ InGenius bullet 1 (reordered to #1): needs assessments with 25+ global stakeholders</span></li>
-<li>• <mark class="jd-hl jd-swap" id="jd4">Helps develop and document new <span class="jd-kw" data-kwg="coord">processes</span> to accurately report on critical data</mark>
-<span class="jd-reason">→ InGenius bullet 2: guides and workflows for 70+ staff</span></li>
-<li>• <mark class="jd-hl jd-swap" id="jd5">Builds <span class="jd-kw" data-kwg="data">data literacy</span> through communication and <span class="jd-kw" data-kwg="data">training on analytics tools</span></mark>
-<span class="jd-reason">→ InGenius bullet 3: training webinars for 600+ participants</span></li>
-<li>• <mark class="jd-hl jd-swap" id="jd6">Supports <span class="jd-kw" data-kwg="coord">process improvement</span> projects by delivering <span class="jd-kw" data-kwg="prog">metrics</span> to support business case development</mark>
-<span class="jd-reason">→ InGenius bullet 4: refining strategy via feedback analysis</span></li>
-<li>• <mark class="jd-hl jd-order" id="jd7">Analyzed <span class="jd-kw" data-kwg="data">employee survey data</span> to report insights and recommend actions — <span class="jd-kw" data-kwg="data">data-driven</span> HR decisions</mark>
-<span class="jd-reason">→ NextGen bullet 1 (reordered to #1): analyzed 2,000+ employee survey data points</span></li>
-<li>• <mark class="jd-hl jd-order" id="jd8">Translating <span class="jd-kw" data-kwg="data">data</span> into executive-ready reports to inform leadership decisions — <span class="jd-kw" data-kwg="prog">data storytelling</span></mark>
-<span class="jd-reason">→ NextGen bullet 2 (reordered to #2): manager effectiveness initiative</span></li>
-<li>• <mark class="jd-hl jd-swap" id="jd9"><span class="jd-kw" data-kwg="data">Survey development</span> and cross-functional EX projects</mark>
-<span class="jd-reason">→ NextGen bullet 3: survey development preferred qual match</span></li>
-<li>• <mark class="jd-hl jd-order" id="jd10">Ability to work with sensitive employee data, maintaining <span class="jd-kw" data-kwg="ex">confidentiality</span></mark>
-<span class="jd-reason">→ Vestas bullet 1 (reordered to #1): confidentiality in succession planning</span></li>
-<li>• <mark class="jd-hl jd-swap" id="jd11">Assists in employee relations cases, ensuring compliance and <span class="jd-kw" data-kwg="ex">confidentiality</span></mark>
-<span class="jd-reason">→ Vestas bullet 4 (swapped): ER case handling with confidentiality</span></li>
-</ul>
-<div class="jd-section-title">Qualifications</div>
-<ul>
-<li>• Bachelor’s in HR, Data Analytics, IO Psychology, or related ✅ (MS Applied Org Psych)</li>
-<li>• 0–1 years data analytics/reporting experience ✅ (NextGen + ODN)</li>
-<li>• Basic understanding of data analytics and statistics ✅ (SPSS, survey analysis)</li>
-<li>• Work with sensitive employee data + confidentiality ✅</li>
-<li>• Workday Reporting ⚠️ (not claimed — gap; entry-level, trainable)</li>
-<li>• BI tools (Power BI, Tableau, Looker) ⚠️ (SPSS + Excel foundation; gap noted)</li>
-</ul>
-<div class="jd-section-title">✅ H1B Status</div>
-<p>HWI has no H1B LCA filings on record. Sponsorship unconfirmed — verify before applying.</p>
-</div>
-</div>
+
 </div><!-- .split-layout -->
+
 <!-- ══════════ JAVASCRIPT ══════════ -->
 <script>
 (function() {
@@ -506,9 +519,7 @@
   window.setMode = function(mode) {
     document.body.className = (document.body.className.replace(/mode-\S+/g, '').trim());
     if (mode !== 'clean') document.body.classList.add('mode-' + mode);
-    document.querySelectorAll('.diff-controls button[id^="btn-"]').forEach(function(b) {
-      b.classList.remove('active');
-    });
+    document.querySelectorAll('.diff-controls button[id^="btn-"]').forEach(function(b) { b.classList.remove('active'); });
     var modeBtn = document.getElementById('btn-' + mode);
     if (modeBtn) modeBtn.classList.add('active');
     if (svg) svg.innerHTML = '';
@@ -529,7 +540,7 @@
 
   if (!svg || !resumePanel || !jdPanel) return;
 
-  // ── Draw connection lines ──
+  // ── Draw lines for one resume element ──
   function drawLinesFor(resumeEl, jdIds) {
     svg.innerHTML = '';
     jdIds.forEach(function(jdId) {
@@ -538,15 +549,18 @@
       var rRect = resumeEl.getBoundingClientRect();
       var jRect = jdEl.getBoundingClientRect();
       if (rRect.height === 0 || jRect.height === 0) return;
+
       var x1 = rRect.right + 4, y1 = rRect.top + rRect.height / 2;
       var x2 = jRect.left - 4,  y2 = jRect.top + jRect.height / 2;
       y1 = Math.max(40, Math.min(window.innerHeight - 4, y1));
       y2 = Math.max(40, Math.min(window.innerHeight - 4, y2));
       var cp = Math.max(Math.abs(x2 - x1) * 0.35, 40);
+
       var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
       path.setAttribute('d', 'M '+x1+','+y1+' C '+(x1+cp)+','+y1+' '+(x2-cp)+','+y2+' '+x2+','+y2);
-      var cls = resumeEl.classList.contains('changed') ? 'conn-swap' :
-                resumeEl.classList.contains('reordered') ? 'conn-order' : 'conn-word';
+      var cls = 'conn-word';
+      if (resumeEl.classList.contains('changed')) cls = 'conn-swap';
+      else if (resumeEl.classList.contains('reordered')) cls = 'conn-order';
       path.classList.add(cls);
       path.classList.add('active');
       svg.appendChild(path);
@@ -555,13 +569,10 @@
 
   function clearAll() {
     svg.innerHTML = '';
-    document.querySelectorAll('.kw-active, [data-jd].active, .jd-hl.active').forEach(function(el) {
-      el.classList.remove('active');
-      el.classList.remove('kw-active');
-    });
+    document.querySelectorAll('.active').forEach(function(el) { el.classList.remove('active'); });
   }
 
-  // ── Changes mode: resume hover → JD ──
+  // ── Resume hover → JD (changes mode only) ──
   document.addEventListener('mouseover', function(e) {
     if (!document.body.classList.contains('mode-changes')) return;
     var el = e.target.closest('[data-jd]');
@@ -577,7 +588,7 @@
     }
   });
 
-  // ── Changes mode: JD hover → resume ──
+  // ── JD hover → Resume (changes mode only) ──
   jdPanel.addEventListener('mouseover', function(e) {
     if (!document.body.classList.contains('mode-changes')) return;
     var mark = e.target.closest('.jd-hl');
@@ -586,7 +597,7 @@
       mark.classList.add('active');
       var matched = [];
       document.querySelectorAll('[data-jd]').forEach(function(el) {
-        if (el.dataset.jd.split(',').map(function(s){return s.trim();}).indexOf(mark.id) >= 0) {
+        if (el.dataset.jd.split(',').map(function(s){return s.trim()}).indexOf(mark.id) >= 0) {
           el.classList.add('active');
           el.scrollIntoView({ behavior: 'instant', block: 'center' });
           matched.push(el);
@@ -598,15 +609,16 @@
     }
   });
 
+  // ── Clear on mouseout (changes mode) ──
   document.addEventListener('mouseout', function(e) {
     if (!document.body.classList.contains('mode-changes')) return;
     var leaving = e.target.closest('[data-jd], .jd-hl');
     var entering = e.relatedTarget ? e.relatedTarget.closest('[data-jd], .jd-hl') : null;
-    if (leaving && !entering) { svg.innerHTML = ''; document.querySelectorAll('.active').forEach(function(el){el.classList.remove('active');}); }
+    if (leaving && !entering) clearAll();
   });
 
-  // ── Keywords mode ──
-  var kwPinned = null;
+  // ── KEYWORDS MODE: hover + click-to-pin ──
+  var kwPinned = null; // locked group name, or null
 
   function setKwGroup(group) {
     document.body.classList.add('kw-hovering');
@@ -617,7 +629,7 @@
   }
 
   function clearKwHover() {
-    if (kwPinned) return;
+    if (kwPinned) return; // don't clear if pinned
     document.body.classList.remove('kw-hovering');
     document.querySelectorAll('.kw-active').forEach(function(el) { el.classList.remove('kw-active'); });
   }
@@ -752,5 +764,6 @@
   loadSavedEdits();
 })();
 </script>
+
 </body>
 </html>

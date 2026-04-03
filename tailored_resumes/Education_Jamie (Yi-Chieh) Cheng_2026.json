@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "company": "Education",
+    "role": "L&D Program Specialist",
+    "date": "2026-04-03",
+    "pageMargins": {
+      "top": "0.66in",
+      "right": "0.45in",
+      "bottom": "0.35in",
+      "left": "0.45in"
+    }
+  },
+  "header": {
+    "location": "Relocating to Portland, Oregon in May 2026"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Organization & Talent Development</b> professional who thrives on <b>designing learning programs grounded in evidence</b>, <b>building people-centered educational experiences</b>, and <b>collaborating with educators and stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve <b>people development</b>—through human-centered, systematic approaches.",
+  "keywordGroups": {
+    "coord": "Training/Facilitation",
+    "data": "L&D/Needs Assessment",
+    "tools": "LMS/Tech Systems",
+    "cross": "Collaboration/Staff",
+    "ex": "DEI/Equity",
+    "prog": "Programs/Curriculum"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Facilitate {coord|training} webinars for 600+ participants, enhancing product understanding and driving a 78% client conversion rate",
+          "change": null
+        },
+        {
+          "text": "Conduct needs assessments with 25+ global stakeholders to identify {data|training needs} and design 3 new educational programs",
+          "change": null
+        },
+        {
+          "text": "Develop guides and workflows for 70+ cross-functional {cross|staff}, improving {data|staff knowledge} and reducing {prog|onboarding} time by 75%",
+          "change": null
+        },
+        {
+          "text": "Collaborate with cross-functional teams to launch 15+ educational products, refining program positioning, delivery strategy, and operations via feedback analysis",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Led manager effectiveness strategic initiative, translating data into executive-ready reports to inform leadership decisions and strategy",
+          "change": null
+        },
+        {
+          "text": "Analyzed 2,000+ employee data points, communicating insights to C-suite stakeholders to guide decisions on organizational priorities",
+          "change": null
+        },
+        {
+          "text": "Supported leadership in advancing strategic initiatives through consultations on DEI and performance management",
+          "change": null
+        },
+        {
+          "text": "Coordinated 5 cross-functional projects focused on survey development, rewards & recognition, and L&D to improve employee experience",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Initiated a {ex|DEI} pilot with an {coord|Inclusive Leadership workshop} for 12 senior leaders, later expanded to 23 other global locations",
+          "change": null
+        },
+        {
+          "text": "Optimized {prog|onboarding} across 3 global locations by coordinating process analysis and clarifying job responsibilities",
+          "change": null
+        },
+        {
+          "text": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, overseeing cross-functional stakeholders",
+          "change": null
+        },
+        {
+          "text": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "explo",
+      "title": "Curriculum Developer & Course Instructor",
+      "company": "EXPLO",
+      "location": "Norton, MA",
+      "dates": "June 2019–August 2019",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Designed and {coord|facilitated} a 3-week English immersion {prog|curriculum} for 12 international students, incorporating feedback-driven adjustments to continuously improve {data|learning outcomes}",
+          "change": null
+        },
+        {
+          "text": "Delivered culturally responsive lessons, adjusting content and pacing in real time to meet {ex|learner needs} and maintain engagement",
+          "change": null
+        },
+        {
+          "text": "Developed {data|instructional materials}—slides, worksheets, and activities—aligned to learning objectives to support knowledge retention and skill application",
+          "change": null
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": [
+        "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
+      ]
+    }
+  ],
+  "projects": [
+    "<b>OD Consulting (ODN Oregon):</b> Applied data analysis and coaching to guide clients through organizational engagement and structural improvement challenges",
+    "<b>Consulting Projects:</b> Enhanced <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition scholarship), Tuck Bridge Scholarship (Full Scholarship)"
+  ],
+  "skills": [
+    "<b>Technical Skills:</b> CRM (HubSpot) · LMS (Canvas, Moodle) · Project Management (Asana, Airtable) · Data Analysis (Google Sheets, Excel, SPSS) · Knowledge Management (SharePoint, Notion) · Microsoft Office (Word, PowerPoint) · Design Tools (Canva, Adobe InDesign)",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "General education-sector template — not tailored to a specific JD",
+    "sections": []
+  },
+  "changeLog": []
+}

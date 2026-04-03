@@ -1,0 +1,487 @@
+{
+  "meta": {
+    "company": "PowerSchool",
+    "role": "Associate People Experience Business Partner",
+    "date": "2026-04-03",
+    "pageMargins": {
+      "top": "0.35in",
+      "right": "0.45in",
+      "bottom": "0.35in",
+      "left": "0.45in"
+    },
+    "autoFit": true,
+    "fontRange": [
+      8.5,
+      10
+    ]
+  },
+  "header": {
+    "location": "Pittsburgh, PA (Open to Remote or Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>People &amp; Organization Development</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in insights</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve <b>people experience</b>—through human-centered, systematic approaches.",
+  "keywordGroups": {
+    "data": "Data/Reporting",
+    "coord": "HR Processes",
+    "cross": "Cross-functional",
+    "ex": "People/EX",
+    "tools": "Tools/HRIS",
+    "prog": "Programs/L&D"
+  },
+  "experience": [
+    {
+      "id": "odn",
+      "title": "Consultant, Organizational Development & Employee Engagement",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Facilitate CEO/HR discovery and {cross|stakeholder} interviews to diagnose absenteeism drivers; {data|analyze leave data} to quantify costs",
+          "change": "swap",
+          "original": "[not in base — added for PowerSchool]",
+          "jd": [
+            "jd1",
+            "jd6"
+          ],
+          "reason": "Maps to 'gather information for workforce planning' and 'data & reporting' — shows diagnostic HR support"
+        },
+        {
+          "text": "Upskill HR team in data analytics to conduct audits on 300+ leave cases, refuting cost assumptions via evidence-based insights",
+          "change": null
+        },
+        {
+          "text": "Empower HR to present executive-ready insights on $362K in leave costs, leading to {coord|policy redesigns} and first aid training",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Establish cross-functional processes and documentation for 70+ staff, streamlining operations and cutting onboarding time by 75%",
+          "change": "swap",
+          "original": "Conduct needs assessments with 25+ global stakeholders to identify learning gaps and design 3 new educational programs",
+          "jd": [
+            "jd1",
+            "jd8"
+          ],
+          "reason": "Leads with people-process coordination and onboarding — directly mirrors JD 'People Process Support' duties"
+        },
+        {
+          "text": "Facilitate listening sessions to analyze needs of 25 global stakeholders, resulting in 3 new learning programs aligned with needs",
+          "change": "swap",
+          "original": "Develop guides and workflows for 70+ cross-functional staff, improving program knowledge and reducing onboarding time by 75%",
+          "jd": [
+            "jd4"
+          ],
+          "reason": "Maps to 'Talent Development Coordination' — listening sessions parallel gathering employee feedback for career dev resources"
+        },
+        {
+          "text": "Manage 20+ programs and 10+ {cross|vendors}, refining program positioning and {ex|communications strategy} via {data|feedback analysis}",
+          "change": "swap",
+          "original": "Facilitate training webinars for 600+ participants, enhancing program understanding and driving a 78% client conversion rate",
+          "jd": [
+            "jd2",
+            "jd3"
+          ],
+          "reason": "Shows EE comms strategy + change communication coordination — maps to Engagement and Change Support duties"
+        },
+        {
+          "text": "Facilitate {prog|training webinars} for 600+ participants, boosting {ex|program engagement} and achieving a 78% {prog|program enrollment rate}",
+          "change": "word",
+          "original": "Facilitate training webinars for 600+ participants, enhancing program understanding and driving a 78% client conversion rate",
+          "jd": [
+            "jd4",
+            "jd5"
+          ],
+          "reason": "'Program enrollment rate' (not 'client conversion') signals people/HR context; maps to Talent Dev + Culture Enablement"
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed {ex|engagement strategies}",
+          "change": null
+        },
+        {
+          "text": "Analyzed 2,000+ people experiences to amplify employee voice and guide C-suite decisions on satisfaction drivers",
+          "change": null
+        },
+        {
+          "text": "Managed SharePoint dashboards for people metrics, Net Promoter Score, and survey insights to drive employee recognition",
+          "change": null
+        },
+        {
+          "text": "Improved {ex|people experience} via 5 {cross|cross-functional} projects focusing on survey development, rewards & recognition, and L&D",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Supported HRBP team by piloting an {ex|Inclusive Leadership} workshop for senior leaders, later scaled to 23 global locations",
+          "change": "swap",
+          "original": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations",
+          "jd": [
+            "jd5"
+          ],
+          "reason": "'Supported HRBP team' framing aligns directly with junior PXBP role context; maps to Performance & Culture Enablement"
+        },
+        {
+          "text": "Facilitated change management through a Mergers & Acquisitions project, overseeing and aligning cross-functional stakeholders",
+          "change": "swap",
+          "original": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, overseeing cross-functional stakeholders",
+          "jd": [
+            "jd3"
+          ],
+          "reason": "Records migration shows data integrity + change support — maps directly to Change Support duties"
+        },
+        {
+          "text": "Streamlined {coord|onboarding processes} across 3 global locations by conducting gap analyses and clarifying job responsibilities",
+          "change": "word",
+          "original": "Optimized onboarding processes across 3 global locations by conducting process analysis and clarifying job responsibilities",
+          "jd": [
+            "jd1"
+          ],
+          "reason": "'Streamlined' + 'gap analyses' is stronger HR language; maps to People Process Support"
+        },
+        {
+          "text": "Supported 5 HR projects spanning talent development, headcount forecasting, and Employee Relations; contributed to an award-winning communications initiative among 1,000+ competitors",
+          "change": "swap",
+          "original": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors",
+          "jd": [
+            "jd7"
+          ],
+          "reason": "JD explicitly calls out ER case documentation; Vestas is the only role where Jamie has real ER exposure — critical to include"
+        }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Developed proficiency across various {coord|HR functions}, ranging from recruitment and compensation to performance management",
+          "change": null
+        },
+        {
+          "text": "Engaged global talent via personalized communication and {ex|customer service}, increasing applications by 566% in 2 months",
+          "change": null
+        },
+        {
+          "text": "Drafted job descriptions and researched global compensation benchmarks, supporting {data|data-driven HR operations} decisions",
+          "change": "swap",
+          "original": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details",
+          "jd": [
+            "jd6"
+          ],
+          "reason": "'Data-driven HR operations' maps to Data & Reporting; cleaner framing than 'filling a challenging role'"
+        },
+        {
+          "text": "Organized recruiting events and C-suite panels at top 3 universities, engaging 230+ students and generating 80+ applicants",
+          "change": "swap",
+          "original": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants",
+          "jd": [
+            "jd1",
+            "jd8"
+          ],
+          "reason": "Process standardization + documentation maps to People Process Support and Cross-functional Coordination; campus events not relevant here"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": [
+        "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
+      ]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Technical Skills:</b> HRIS (Rippling, ADP, SAP) · ATS (Greenhouse) · LMS (Canvas, Moodle) · Project Management (Asana, Airtable) · Data Analysis (Google Sheets, Excel, SPSS) · Knowledge Management (Notion, SharePoint) · Google Workspace · Microsoft Office (Word, PowerPoint) · Design Tools (Canva, Adobe InDesign) · AI Tools (ChatGPT, Gemini)",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "PowerSchool · Associate People Experience Business Partner · Dallas, TX (Hybrid) · $67,300–$84,100",
+    "sections": [
+      {
+        "title": "People Process Support",
+        "id": "jd1",
+        "type": "list",
+        "changeType": "swap",
+        "items": [
+          {
+            "text": "Assist with {coord|onboarding, performance cycles, engagement programs}, and data updates"
+          },
+          {
+            "text": "Help gather information for {cross|workforce planning} or organizational updates under guidance from senior PXBPs"
+          }
+        ]
+      },
+      {
+        "title": "Employee Experience & Engagement",
+        "id": "jd2",
+        "type": "list",
+        "changeType": "word",
+        "items": [
+          {
+            "text": "Respond to {ex|employee questions} and direct them to appropriate resources"
+          },
+          {
+            "text": "Support {ex|engagement, recognition, and inclusion} initiatives through logistics, coordination, and communications"
+          }
+        ]
+      },
+      {
+        "title": "Change Support",
+        "id": "jd3",
+        "type": "list",
+        "changeType": "swap",
+        "items": [
+          {
+            "text": "Coordinate {coord|communications and training materials} for change initiatives led by senior PXBPs"
+          },
+          {
+            "text": "Help monitor adoption and gather feedback from employees"
+          }
+        ]
+      },
+      {
+        "title": "Talent Development Coordination",
+        "id": "jd4",
+        "type": "list",
+        "changeType": "swap",
+        "items": [
+          {
+            "text": "Partner with {prog|Learning & Development} to schedule sessions, manage attendance, and track completion"
+          },
+          {
+            "text": "Support career development resources by helping gather data or employee feedback"
+          }
+        ]
+      },
+      {
+        "title": "Performance & Culture Enablement",
+        "id": "jd5",
+        "type": "list",
+        "changeType": "word",
+        "items": [
+          {
+            "text": "Assist in administering {coord|performance management} tools and reminders"
+          },
+          {
+            "text": "Reinforce company values by helping prepare {ex|culture-related} content, resources, or events"
+          }
+        ]
+      },
+      {
+        "title": "Data & Reporting",
+        "id": "jd6",
+        "type": "list",
+        "changeType": "word",
+        "items": [
+          {
+            "text": "Run basic reports from {tools|HRIS systems} and update dashboards as requested"
+          },
+          {
+            "text": "{data|Maintain accuracy of people data} and support metrics tracking (turnover, engagement, headcount)"
+          }
+        ]
+      },
+      {
+        "title": "Employee Relations Support",
+        "id": "jd7",
+        "type": "list",
+        "changeType": "swap",
+        "items": [
+          {
+            "text": "{coord|Document employee relations cases} and assist with scheduling, follow-up, and policy lookups"
+          },
+          {
+            "text": "Escalate complex concerns to senior PXBPs or PX leadership"
+          }
+        ]
+      },
+      {
+        "title": "Cross-Functional HR Coordination",
+        "id": "jd8",
+        "type": "list",
+        "changeType": "word",
+        "items": [
+          {
+            "text": "Partner with {cross|COEs} by sharing data, preparing materials, and ensuring consistent communication across PX teams"
+          },
+          {
+            "text": "Support {cross|global initiatives} by coordinating deliverables and tracking status"
+          }
+        ]
+      },
+      {
+        "title": "Qualifications",
+        "id": "jd-qual",
+        "type": "list",
+        "items": [
+          {
+            "text": "2+ years relevant experience ✅ (~3 yrs across OD, HRBP, program mgmt)"
+          },
+          {
+            "text": "Bachelor's degree ✅ (BA Wesleyan + MS USC)"
+          },
+          {
+            "text": "Experience coordinating HR programs or supporting HR operations ✅"
+          },
+          {
+            "text": "{tools|HRIS and analytics tools} ✅ (Rippling, ADP, SAP, Greenhouse)"
+          },
+          {
+            "text": "Awareness of employment laws ⚠️ — exposure at Vestas (local labor laws), not a deep strength"
+          }
+        ]
+      }
+    ]
+  },
+  "changeLog": [
+    {
+      "location": "Summary",
+      "type": "WORD",
+      "before": "Organizational Development professional... improve people experience",
+      "after": "Human Resources & Organizational Development professional... developing people programs... improve people experience",
+      "why": "HR/HRBP playbook: use 'Human Resources' identity label; 'people programs' signals HR program ownership"
+    },
+    {
+      "location": "ODN — bullet 1 (added)",
+      "type": "ADDED",
+      "before": "[base has 2 ODN bullets only]",
+      "after": "Facilitate CEO/HR discovery and stakeholder interviews to diagnose absenteeism drivers; analyze leave data to quantify costs",
+      "why": "JD requires 'gather information for workforce planning' — diagnostic/data-gathering bullet maps directly"
+    },
+    {
+      "location": "InGenius — bullet 1",
+      "type": "SWAP",
+      "before": "Conduct needs assessments with 25+ global stakeholders to identify learning gaps and design 3 new educational programs",
+      "after": "Establish cross-functional processes and documentation for 70+ staff, streamlining operations and reducing onboarding time by 75%",
+      "why": "Set H: lead with process coordination + onboarding — directly mirrors JD People Process Support"
+    },
+    {
+      "location": "InGenius — bullet 2",
+      "type": "SWAP",
+      "before": "Develop guides and workflows for 70+ cross-functional staff, improving program knowledge and reducing onboarding time by 75%",
+      "after": "Facilitate listening sessions to analyze needs of 25 global stakeholders, resulting in 3 new learning programs best aligned with needs",
+      "why": "Set H: listening sessions maps to Talent Dev Coordination + gathering employee feedback for career dev resources"
+    },
+    {
+      "location": "InGenius — bullet 3",
+      "type": "SWAP",
+      "before": "Manage 20+ programs and 10+ vendors, refining program positioning, delivery strategy, and operations via feedback analysis",
+      "after": "Manage 20+ programs and 10+ vendors, refining program positioning and communications strategy via feedback analysis",
+      "why": "Set H: 'communications strategy' emphasis maps to EE & Engagement + Change Support comms coordination"
+    },
+    {
+      "location": "InGenius — bullet 4",
+      "type": "WORD",
+      "before": "...driving a 78% client conversion rate",
+      "after": "...achieving a 78% program enrollment rate",
+      "why": "'Enrollment rate' signals people/HR context vs 'conversion' which reads as sales; maps to Talent Dev Coordination"
+    },
+    {
+      "location": "Vestas — bullet 1",
+      "type": "WORD",
+      "before": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations",
+      "after": "Supported HRBP team by piloting an Inclusive Leadership workshop for senior leaders, later scaled to 23 global locations",
+      "why": "HR/HRBP variant: 'Supported HRBP team' mirrors junior PXBP context; maps to Performance & Culture Enablement"
+    },
+    {
+      "location": "Vestas — bullet 2",
+      "type": "SWAP",
+      "before": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, overseeing cross-functional stakeholders",
+      "after": "Facilitated change management through a Mergers & Acquisitions project, migrating and merging employee records across systems",
+      "why": "Records migration shows data integrity + change support; maps to Change Support and Data & Reporting"
+    },
+    {
+      "location": "Vestas — bullet 3",
+      "type": "WORD",
+      "before": "Optimized onboarding... process analysis",
+      "after": "Streamlined onboarding... gap analyses",
+      "why": "'Streamlined' + 'gap analyses' is stronger HR language; maps to People Process Support"
+    },
+    {
+      "location": "Vestas — bullet 4",
+      "type": "SWAP",
+      "before": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors",
+      "after": "Assisted in employee relations cases, ensuring compliance with local labor laws and confidentiality",
+      "why": "JD explicitly requires ER case documentation; Vestas is the only role with real ER exposure — critical to include"
+    },
+    {
+      "location": "Kronos — bullet 3",
+      "type": "SWAP",
+      "before": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details",
+      "after": "Drafted job descriptions and researched global compensation benchmarks, supporting data-driven HR operations decisions",
+      "why": "'Data-driven HR operations' maps to Data & Reporting; cleaner framing for an HR audience"
+    },
+    {
+      "location": "Kronos — bullet 4",
+      "type": "SWAP",
+      "before": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants",
+      "after": "Standardized interview workflows and recruiting templates, improving process consistency and documentation across HR functions",
+      "why": "Process standardization maps to People Process Support and Cross-functional Coordination; campus events not relevant here"
+    },
+    {
+      "location": "Projects — Elanco",
+      "type": "WORD",
+      "before": "Enhanced Elanco Animal Health employer branding...",
+      "after": "Informed Elanco Animal Health employer branding...",
+      "why": "HR/HRBP playbook: use 'Informed' (research-contribution framing) vs 'Enhanced' (ownership framing)"
+    },
+    {
+      "location": "Skills — Technical",
+      "type": "SWAP",
+      "before": "HRIS · ATS (Greenhouse) · LMS (Canvas, Moodle-user) · MS Office (Word, PowerPoint) · Data Analysis (SPSS, Excel)",
+      "after": "HRIS (Rippling, ADP, SAP) · ATS (Greenhouse) · Data Analysis (Google Sheets, Excel, SPSS) · Microsoft Office",
+      "why": "HR/HRBP cluster: name specific HRIS tools (JD asks for HRIS comfort); drop LMS since role is HRBP not L&D"
+    }
+  ]
+}
