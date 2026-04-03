@@ -9,7 +9,7 @@ description: >
   People Program Management, HR Specialist, Employee Engagement/Experience, OD/OCM,
   and entry-level Consulting roles, auditing the Notion database, enriching entries with
   cover letters and networking connections, and preparing email delivery.
-version: 3.4.1
+version: 3.6.0
 ---
 
 > Daily HR/L&D/OD/Consulting job search for Jamie (Yi-Chieh) Cheng.
@@ -148,17 +148,24 @@ For each alert email:
 > LinkedIn's algorithm already filters 500M+ listings to ~381 tailored recommendations.
 > These are high-signal, pre-vetted candidates that cost zero WebSearch tokens.
 >
-> **Early-exit rule (v3.5 — Token Budget Optimization):**
+> **Early-exit rule (v3.6 — Token Budget Optimization):**
 > If LinkedIn Top Job Picks yields **5+ viable candidates** (pass hard constraints,
 > worth evaluating), **skip Agents A-F WebSearch entirely.** LinkedIn already did
 > the discovery work — running 6 parallel WebSearch agents on top is redundant
 > and burns ~10K+ tokens for marginal yield.
+>
+> **Apr 3 data point:** Full secondary discovery (PSU/OHSU/Providence/Idealist/Greenhouse/Lever/
+> watchlist — 3 parallel agents, 40+ searches) yielded 0 new verified picks on top of what LinkedIn
+> already found. Idealist leads were all expired; Greenhouse IDs were stale; watchlist companies had
+> no new openings. This validates the early-exit rule strongly.
 >
 > **When to run full discovery (Agents A-F):**
 > - LinkedIn yields < 5 viable candidates
 > - David explicitly says "run full discovery" or "deep search"
 > - It's been 3+ days since the last full discovery run
 > - Looking for cap-exempt roles specifically (LinkedIn doesn't filter for this well)
+> - **Cap-exempt search is still worth running even with 5+ LinkedIn picks** — these are a separate
+>   category LinkedIn doesn't surface well (university/hospital/nonprofit direct sites)
 >
 > **ATS pre-fetch** is still a supplement — run it if the Python scripts are available,
 > but it's lower priority than LinkedIn.
@@ -256,6 +263,30 @@ cleanup_pages.json    — Page IDs archived this run
 
 ---
 
+## 🛂 H1B vs Cap-Exempt — Critical Distinction (v3.6)
+
+> **Cap-exempt employer ≠ H1B sponsor.** These are DIFFERENT things. NEVER conflate them.
+>
+> - **Cap-exempt** (501(c)(3) nonprofit / university / hospital / government) means the employer
+>   can file an H1B petition at ANY time of year without the April lottery cap. BUT they still
+>   must CHOOSE to sponsor — many cap-exempt employers have policies against it.
+>
+> - **H1B sponsor** = the employer has confirmed they will file an H1B petition for the employee.
+>   This is what Jamie actually needs.
+>
+> **Scoring rule (v3.6):**
+> - If cap-exempt status is confirmed but H1B sponsorship is unknown → tag as ❓, note "verify
+>   in screening call — cap-exempt but sponsorship policy unknown"
+> - Only tag 🏛️ Cap-Exempt with +10 bonus if you have EVIDENCE they sponsor (e.g., USCIS PERM
+>   filings, LCA database, prior job postings mentioning sponsorship, press reports)
+> - Do NOT assume cap-exempt = will sponsor. Many nonprofits explicitly do NOT sponsor H1B.
+>
+> **Apr 3 error:** Pathfinder Network and Benchmark Senior Living were initially tagged 🏛️ Cap-Exempt
+> with +10 scoring bonus. Late Gemini verification confirmed neither sponsors H1B. Both were
+> downgraded to ❓ Unknown. This cost tokens and may have inflated Jamie's expectations.
+
+---
+
 ## 🔁 Pipeline Philosophy — Quality Over Quantity
 
 > **Core principle: Surface ALL genuinely viable jobs each run. Let Jamie choose.**
@@ -328,6 +359,23 @@ Some job boards block Chrome navigation (Greenhouse, LinkedIn, Stripe). For thes
    Do NOT rely on WebSearch/LinkedIn indexing as final answer — they are stale by weeks/months.
 4. If neither works and status is unknown → mark as "⚠️ unverified" in the queue, do NOT include in today's picks
 5. Always log the verification method used (Chrome / WebFetch / WebSearch)
+
+### Greenhouse/Lever Verification — CRITICAL (learned Apr 3 run, v3.6)
+> ⚠️ **Greenhouse job IDs decay fast.** A job ID found via WebSearch may be weeks old.
+> WebFetch on `job-boards.greenhouse.io/{slug}/jobs/{id}` often returns the WRONG JOB
+> (another active posting at the same company) or a generic job board page — NOT the target role.
+> This silently produces false "live" signals.
+>
+> **Reliable Greenhouse verification:**
+> 1. WebFetch the specific URL → if returned content shows a DIFFERENT job title than expected → DISCARD
+> 2. The job is only confirmed live if the fetched title matches the expected title exactly
+> 3. If mismatched: the original job ID is expired/archived; the board is showing a fallback listing
+> 4. Do NOT carry forward Greenhouse IDs from secondary agents unless title-verified
+>
+> **For Lever:** Same principle — WebFetch the URL, confirm title match before treating as live.
+>
+> **Practical implication:** WebSearch-sourced Greenhouse/Lever jobs have a HIGH stale rate.
+> Only include them in today's picks if explicitly title-verified. Flag all others as ⚠️ unverified.
 
 ### Agent Decomposition
 
