@@ -287,12 +287,7 @@
       z-index: 10000;
     }
     .check-warning.visible { display: block; }
-    #overflow-warning { background: #e74c3c; bottom: 0; }
     #wrap-warning { background: #e67e22; bottom: 0; }
-    /* Stack both if visible */
-    #overflow-warning.visible ~ #wrap-warning { bottom: 30px; }
-    #wrap-warning.visible { bottom: 0; }
-    #overflow-warning.visible + #wrap-warning.visible { bottom: 30px; }
     /* Warnings only apply in clean mode — hide in keywords, changes, and edit modes */
     body.mode-keywords .check-warning,
     body.mode-changes .check-warning { display: none !important; }
@@ -477,7 +472,6 @@
 </div>
 
 <!-- AUTO-CHECK WARNINGS -->
-<div class="check-warning" id="overflow-warning">⚠️ Content overflows — trim bullets or reduce margins</div>
 <div class="check-warning" id="wrap-warning"></div>
 <!-- LIVE UPDATE / SAVE INDICATOR -->
 <div id="live-indicator" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:#27ae60;color:#fff;font-family:sans-serif;font-size:16px;font-weight:bold;padding:12px 28px;border-radius:8px;z-index:10002;opacity:0;transition:opacity 0.3s;box-shadow:0 4px 20px rgba(0,0,0,0.4);pointer-events:none;">✓ Saved</div>
@@ -642,9 +636,8 @@
     root.style.setProperty('--page-margin-left', margins.left);
   }
 
-  // ── Overflow check ──
+  // ── Overflow overlay (no banner — auto-fit handles overflow; badge ⚠ signals when it can't) ──
   function checkOverflow() {
-    var warning = document.getElementById('overflow-warning');
     var page = document.getElementById('resume-page');
     var target = getTargetBottom(page);
     var bottom = getContentBottomPx(page);
@@ -657,14 +650,8 @@
       page.appendChild(overlay);
     }
 
-    if (bottom > target + 4) {
-      overlay.style.top = target + 'px';
-      overlay.style.display = 'block';
-      warning.classList.add('visible');
-    } else {
-      overlay.style.display = 'none';
-      warning.classList.remove('visible');
-    }
+    overlay.style.top = target + 'px';
+    overlay.style.display = bottom > target + 4 ? 'block' : 'none';
   }
 
   // ── Bullet wrap check ──
