@@ -99,6 +99,8 @@
     transition: background 0.15s, box-shadow 0.15s;
   }
   #btn-autofit:hover { background: #16a085 !important; box-shadow: 0 3px 10px rgba(26,188,156,0.5); }
+  .diff-controls button:disabled { opacity: 0.28; cursor: not-allowed; }
+  #btn-undo, #btn-redo { font-size: 15px !important; padding: 4px 9px !important; }
   /* In keywords/changes mode: outlined style — signals "will switch to clean first" */
   body.mode-keywords #btn-autofit,
   body.mode-changes #btn-autofit {
@@ -417,6 +419,9 @@
       oninput="onFontSlider(this.value)">
     <span id="font-display" style="color:#1abc9c;font-size:11px;min-width:30px;text-align:right;font-weight:600;">9.5</span>
     <button id="btn-autofit" title="Auto-fit font to fill page margin guides" onclick="autoFit()">⚡ Auto-Fit</button>
+    <div class="divider"></div>
+    <button id="btn-undo" class="btn-icon" title="Nothing to undo" onclick="undo()" disabled>↩</button>
+    <button id="btn-redo" class="btn-icon" title="Nothing to redo" onclick="redo()" disabled>↪</button>
     <div class="divider"></div>
     <button id="btn-export" class="btn-icon" title="Export PDF (Cmd+P)" onclick="window.print()">📤</button>
   </div>
@@ -894,6 +899,68 @@
   // All text fields are editable: bullets, summary, job titles/company/location/dates,
   // education fields, skills, projects. Enter = confirm, Esc = cancel.
 
+  // ── Undo / Redo ──
+  var undoStack = [];
+  var redoStack = [];
+  var UNDO_LIMIT = 30;
+
+  function updateUndoUI() {
+    var u = document.getElementById('btn-undo');
+    var r = document.getElementById('btn-redo');
+    if (u) {
+      u.disabled = undoStack.length === 0;
+      u.title = undoStack.length
+        ? 'Undo (' + undoStack.length + ' step' + (undoStack.length > 1 ? 's' : '') + ') — Ctrl+Z'
+        : 'Nothing to undo';
+    }
+    if (r) {
+      r.disabled = redoStack.length === 0;
+      r.title = redoStack.length
+        ? 'Redo (' + redoStack.length + ' step' + (redoStack.length > 1 ? 's' : '') + ') — Ctrl+Y'
+        : 'Nothing to redo';
+    }
+  }
+
+  function pushUndo(snapshot) {
+    undoStack.push(snapshot);
+    if (undoStack.length > UNDO_LIMIT) undoStack.shift();
+    redoStack = []; // new edit clears redo history
+    updateUndoUI();
+  }
+
+  function applySnapshot(snapshot) {
+    currentData = JSON.parse(snapshot);
+    var page = document.getElementById('resume-page');
+    page.innerHTML = buildResume(currentData);
+    enableEditing();
+    saveToFile(function() {
+      setTimeout(function() { autoFit(); runAutoChecks(); scaleResumePage(); }, 80);
+    });
+  }
+
+  window.undo = function() {
+    if (!undoStack.length) return;
+    redoStack.push(JSON.stringify(currentData));
+    applySnapshot(undoStack.pop());
+    updateUndoUI();
+  };
+
+  window.redo = function() {
+    if (!redoStack.length) return;
+    undoStack.push(JSON.stringify(currentData));
+    if (undoStack.length > UNDO_LIMIT) undoStack.shift();
+    applySnapshot(redoStack.pop());
+    updateUndoUI();
+  };
+
+  // Ctrl+Z / Ctrl+Y — only fires when no contenteditable is focused
+  // (browser handles native undo within an active field)
+  document.addEventListener('keydown', function(e) {
+    var active = document.activeElement;
+    if (active && active.getAttribute('contenteditable') === 'true') return;
+    if ((e.ctrlKey || e.metaKey) && !e.shiftKey && e.key === 'z') { e.preventDefault(); window.undo(); }
+    if ((e.ctrlKey || e.metaKey) && (e.key === 'y' || (e.shiftKey && e.key === 'z'))) { e.preventDefault(); window.redo(); }
+  });
 
   // ── Save currentData back to the JSON file ──
   function saveToFile(onSuccess) {
@@ -1016,6 +1083,7 @@
     var before = el._editBefore || '';
     if (raw === before) return; // no change
 
+    pushUndo(JSON.stringify(currentData)); // snapshot before mutation
     if (!updateDataFromElement(el, raw)) return;
     logEdit(getLabel(el), before, raw);
     el._editBefore = raw;
