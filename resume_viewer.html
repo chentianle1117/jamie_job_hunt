@@ -200,9 +200,12 @@
      ================================================================ */
   body.mode-edit .resume-page li,
   body.mode-edit .resume-page .summary { cursor: text; }
-  body.mode-edit .resume-page li:hover,
-  body.mode-edit .resume-page .summary:hover { outline: 1.5px dashed #1abc9c; outline-offset: 2px; background: rgba(26,188,156,0.06); }
-  body.mode-edit .resume-page [contenteditable="true"] { outline: 2px solid #1abc9c !important; background: rgba(26,188,156,0.1) !important; }
+  body.mode-edit .resume-page li:hover { outline: 1.5px dashed #1abc9c; outline-offset: 2px; background: rgba(26,188,156,0.07); }
+  body.mode-edit .resume-page [contenteditable="true"]:focus {
+    outline: 2px solid #1abc9c !important; background: rgba(26,188,156,0.12) !important;
+  }
+  /* Green border around the whole page when editing */
+  body.mode-edit .resume-page { box-shadow: 0 0 0 3px #1abc9c, 0 4px 24px rgba(0,0,0,0.45) !important; }
   #btn-edit.active { background: #1abc9c !important; color: #fff !important; border-color: #16a085 !important; }
 
   /* ================================================================
@@ -230,20 +233,6 @@
       position: relative;
       transform-origin: top center;
       flex-shrink: 0;
-    }
-
-    /* Overflow detection: red zone past content boundary */
-    .resume-page::after {
-      content: '';
-      position: absolute;
-      top: calc(11in - var(--page-margin-bottom));
-      left: 0;
-      right: 0;
-      height: 3in;
-      background: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(231,76,60,0.12) 10px, rgba(231,76,60,0.12) 20px);
-      border-top: 3px solid #e74c3c;
-      pointer-events: none;
-      z-index: 1;
     }
 
     /* Warning banners */
@@ -401,15 +390,15 @@
   </div>
 </div>
 
-<!-- EDIT MODE HINT -->
-<div id="edit-hint" style="display:none;position:fixed;bottom:0;left:0;right:0;background:#1a6b3a;color:#b8f0c8;text-align:center;padding:5px;font-family:sans-serif;font-size:11px;z-index:9999;">
-  ✏️ Edit mode — click any bullet to edit &nbsp;|&nbsp; <b>Enter</b> to save &nbsp;|&nbsp; <b>Esc</b> to cancel &nbsp;|&nbsp; Changes auto-save to JSON
+<!-- EDIT MODE HINT — appears as a sub-bar below the toolbar -->
+<div id="edit-hint" style="display:none;background:#16a085;color:#d5f5ef;text-align:center;padding:4px 12px;font-family:sans-serif;font-size:10px;letter-spacing:0.3px;">
+  ✏️ &nbsp;<b>Edit mode ON</b> — click any bullet to edit &nbsp;·&nbsp; <b>Enter</b> = confirm &nbsp;·&nbsp; <b>Esc</b> = cancel &nbsp;·&nbsp; changes auto-save to JSON file
 </div>
 <!-- AUTO-CHECK WARNINGS -->
 <div class="check-warning" id="overflow-warning">⚠️ Content overflows — trim bullets or reduce margins</div>
 <div class="check-warning" id="wrap-warning"></div>
-<!-- LIVE UPDATE INDICATOR -->
-<div id="live-indicator" style="display:none;position:fixed;top:40px;right:12px;background:#1abc9c;color:#fff;font-family:sans-serif;font-size:10px;padding:3px 8px;border-radius:3px;z-index:10001;opacity:0;transition:opacity 0.4s;">⟳ Updated</div>
+<!-- LIVE UPDATE / SAVE INDICATOR -->
+<div id="live-indicator" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:#27ae60;color:#fff;font-family:sans-serif;font-size:16px;font-weight:bold;padding:12px 28px;border-radius:8px;z-index:10002;opacity:0;transition:opacity 0.3s;box-shadow:0 4px 20px rgba(0,0,0,0.4);pointer-events:none;">✓ Saved</div>
 
 <!-- ══════════ JAVASCRIPT ══════════ -->
 <script>
@@ -822,14 +811,18 @@
   function flashSaved(msg) {
     var el = document.getElementById('live-indicator');
     if (!el) return;
+    // Centered, large "✓ Saved" splash
     el.textContent = msg || '✓ Saved';
-    el.style.background = msg ? '#e74c3c' : '#27ae60';
-    el.style.display = 'block';
-    el.style.opacity = '1';
+    el.style.background = msg ? '#c0392b' : '#27ae60';
+    el.style.fontSize = '16px'; el.style.fontWeight = 'bold';
+    el.style.padding = '12px 28px'; el.style.borderRadius = '8px';
+    el.style.top = '50%'; el.style.left = '50%';
+    el.style.right = 'auto'; el.style.transform = 'translate(-50%,-50%)';
+    el.style.display = 'block'; el.style.opacity = '1';
     setTimeout(function() {
       el.style.opacity = '0';
-      setTimeout(function() { el.style.display = 'none'; el.textContent = '⟳ Updated'; el.style.background = '#1abc9c'; }, 450);
-    }, 1800);
+      setTimeout(function() { el.style.display = 'none'; }, 350);
+    }, 1200);
   }
 
   function getLabel(el) {
@@ -1075,6 +1068,7 @@
     void page.scrollHeight;
     updateFontBadge(lo, 'ok');
   }
+  window.autoFit = autoFit; // expose to global scope for onclick
 
   // ══════════ SCALE RESUME TO FIT PANEL ══════════
   function scaleResumePage() {
@@ -1144,17 +1138,25 @@
   }
 
   function flashIndicator() {
-    // Used by live poll when Claude edits the JSON externally
+    // Used by live poll when Claude edits the JSON externally — small corner badge
     var el = document.getElementById('live-indicator');
     if (!el) return;
-    el.textContent = '⟳ Updated';
+    el.textContent = '⟳ Claude updated';
     el.style.background = '#1abc9c';
-    el.style.display = 'block';
-    el.style.opacity = '1';
+    el.style.fontSize = '11px';
+    el.style.padding = '4px 10px';
+    el.style.top = '44px'; el.style.right = '12px';
+    el.style.left = 'auto'; el.style.transform = 'none';
+    el.style.borderRadius = '4px'; el.style.fontWeight = 'normal';
+    el.style.display = 'block'; el.style.opacity = '1';
     setTimeout(function() {
       el.style.opacity = '0';
-      setTimeout(function() { el.style.display = 'none'; }, 450);
-    }, 1200);
+      setTimeout(function() {
+        el.style.display = 'none';
+        // Reset to centered save style for next use
+        el.style.cssText = el.style.cssText; // no-op, styles reset via flashSaved
+      }, 400);
+    }, 1400);
   }
 
   function startPolling(name) {
