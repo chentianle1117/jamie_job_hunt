@@ -3,7 +3,9 @@
     "company": "",
     "role": "",
     "date": "",
-    "pageMargins": { "top": "0.35in", "right": "0.45in", "bottom": "0.35in", "left": "0.45in" }
+    "pageMargins": { "top": "0.35in", "right": "0.45in", "bottom": "0.35in", "left": "0.45in" },
+    "autoFit": true,
+    "fontRange": [8.5, 10.0]
   },
   "header": {
     "location": "Portland, OR (Open to Remote or Relocation)"
