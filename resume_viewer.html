@@ -99,6 +99,17 @@
     transition: background 0.15s, box-shadow 0.15s;
   }
   #btn-autofit:hover { background: #16a085 !important; box-shadow: 0 3px 10px rgba(26,188,156,0.5); }
+  /* In keywords/changes mode: outlined style — signals "will switch to clean first" */
+  body.mode-keywords #btn-autofit,
+  body.mode-changes #btn-autofit {
+    background: transparent !important;
+    border-color: #1abc9c !important; color: #1abc9c !important;
+    box-shadow: none !important; opacity: 0.80;
+  }
+  body.mode-keywords #btn-autofit:hover,
+  body.mode-changes #btn-autofit:hover {
+    background: rgba(26,188,156,0.15) !important; opacity: 1;
+  }
   #resume-select { background: #34495e; color: #ecf0f1; border: 1px solid #4a6278; padding: 5px 8px; border-radius: 4px; font-size: 11px; font-family: sans-serif; max-width: 280px; }
 
   /* ================================================================
@@ -754,6 +765,17 @@
     if (modeBtn) modeBtn.classList.add('active');
     if (svg) svg.innerHTML = '';
     if (editMode) document.body.classList.add('mode-edit');
+    // Update Auto-Fit button label to signal clean-mode requirement
+    var afBtn = document.getElementById('btn-autofit');
+    if (afBtn) {
+      if (mode === 'clean') {
+        afBtn.innerHTML = '⚡ Auto-Fit';
+        afBtn.title = 'Auto-fit font to fill page margin guides';
+      } else {
+        afBtn.innerHTML = '⚡ Auto-Fit → Clean';
+        afBtn.title = 'Auto-Fit measures clean text — will switch to Clean mode first';
+      }
+    }
   };
 
   // ── Log panel ──
@@ -1249,6 +1271,14 @@
 
   function autoFit() {
     if (!currentData) return;
+    // Auto-fit must run on clean text — keyword/diff spans inflate layout.
+    // If not in clean mode, switch first then re-run after reflow.
+    if (document.body.classList.contains('mode-keywords') ||
+        document.body.classList.contains('mode-changes')) {
+      setMode('clean');
+      setTimeout(function() { autoFit(); runAutoChecks(); }, 60);
+      return;
+    }
     var meta = currentData.meta || {};
     if (meta.autoFit === false) {
       var scale = meta.fontScale || 1.0;
