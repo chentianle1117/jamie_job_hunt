@@ -217,26 +217,24 @@
   body.mode-keywords.kw-hovering .jd-kw:not(.kw-active) { opacity: 0.2; }
 
   /* ================================================================
-     EDIT MODE
+     INLINE EDITING — always on, all modes
      ================================================================ */
-  body.mode-edit .resume-page li,
-  body.mode-edit .resume-page .summary,
-  body.mode-edit .resume-page [data-field] { cursor: text; }
-  body.mode-edit .resume-page li:hover,
-  body.mode-edit .resume-page [data-field]:hover { outline: 1.5px dashed #1abc9c; outline-offset: 2px; background: rgba(26,188,156,0.07); }
-  body.mode-edit .resume-page [contenteditable="true"]:focus {
+  .resume-page [data-field],
+  .resume-page li[data-bullet],
+  .resume-page li[data-skills],
+  .resume-page li[data-projects],
+  .resume-page li[data-edu-bullet] { cursor: text; }
+  .resume-page [data-field]:hover,
+  .resume-page li[data-bullet]:hover,
+  .resume-page li[data-skills]:hover,
+  .resume-page li[data-projects]:hover,
+  .resume-page li[data-edu-bullet]:hover {
+    outline: 1.5px dashed rgba(26,188,156,0.45); outline-offset: 2px;
+    background: rgba(26,188,156,0.04);
+  }
+  .resume-page [contenteditable="true"]:focus {
     outline: 2px solid #1abc9c !important; background: rgba(26,188,156,0.12) !important;
   }
-  /* "+Add" inline buttons — only shown in edit mode */
-  .resume-page .add-btn {
-    display: none; cursor: pointer; color: #1abc9c; font-size: 8pt; font-style: italic;
-    list-style: none; padding: 1px 0; opacity: 0.7;
-  }
-  body.mode-edit .resume-page .add-btn { display: list-item; }
-  body.mode-edit .resume-page .add-btn:hover { opacity: 1; background: rgba(26,188,156,0.1); outline: none !important; }
-  /* Green border around the whole page when editing */
-  body.mode-edit .resume-page { box-shadow: 0 0 0 3px #1abc9c, 0 4px 24px rgba(0,0,0,0.45) !important; }
-  #btn-edit.active { background: #1abc9c !important; color: #fff !important; border-color: #16a085 !important; }
 
   /* ================================================================
      SCREEN: split-pane layout + FIXED PAPER CONTAINER
@@ -295,8 +293,7 @@
     #overflow-warning.visible + #wrap-warning.visible { bottom: 30px; }
     /* Warnings only apply in clean mode — hide in keywords, changes, and edit modes */
     body.mode-keywords .check-warning,
-    body.mode-changes .check-warning,
-    body.mode-edit .check-warning { display: none !important; }
+    body.mode-changes .check-warning { display: none !important; }
 
     /* ── Overflow zone overlay ── */
     /* Red tint + border at the margin guide line when content overflows */
@@ -307,8 +304,7 @@
       border-top: 2px solid rgba(231, 76, 60, 0.80);
     }
     body.mode-keywords #overflow-overlay,
-    body.mode-changes #overflow-overlay,
-    body.mode-edit #overflow-overlay { display: none !important; }
+    body.mode-changes #overflow-overlay { display: none !important; }
 
     /* ── Wrap highlight ── */
     /* Orange outline on bullets that wrap to a second line */
@@ -319,8 +315,7 @@
       border-radius: 2px;
     }
     body.mode-keywords .wrap-highlight,
-    body.mode-changes .wrap-highlight,
-    body.mode-edit .wrap-highlight {
+    body.mode-changes .wrap-highlight {
       outline: none !important; background: transparent !important;
     }
 
@@ -414,7 +409,6 @@
     <span id="font-display" style="color:#1abc9c;font-size:11px;min-width:30px;text-align:right;font-weight:600;">9.5</span>
     <button id="btn-autofit" title="Auto-fit font to fill page margin guides" onclick="autoFit()">⚡ Auto-Fit</button>
     <div class="divider"></div>
-    <button id="btn-edit" class="btn-icon" title="Toggle edit mode (click bullet to edit, Enter=save, Esc=cancel)" onclick="toggleEditMode()">✏️</button>
     <button id="btn-export" class="btn-icon" title="Export PDF (Cmd+P)" onclick="window.print()">📤</button>
   </div>
 </div>
@@ -462,10 +456,6 @@
   </div>
 </div>
 
-<!-- EDIT MODE HINT — appears as a sub-bar below the toolbar -->
-<div id="edit-hint" style="display:none;background:#16a085;color:#d5f5ef;text-align:center;padding:4px 12px;font-family:sans-serif;font-size:10px;letter-spacing:0.3px;">
-  ✏️ &nbsp;<b>Edit mode ON</b> — click any text to edit (bullets, titles, locations, skills…) &nbsp;·&nbsp; <b>Enter</b> = confirm &nbsp;·&nbsp; <b>Shift+Enter</b> = newline &nbsp;·&nbsp; <b>Esc</b> = cancel &nbsp;·&nbsp; changes auto-save to JSON
-</div>
 <!-- AUTO-CHECK WARNINGS -->
 <div class="check-warning" id="overflow-warning">⚠️ Content overflows — trim bullets or reduce margins</div>
 <div class="check-warning" id="wrap-warning"></div>
@@ -527,7 +517,6 @@
         }
         h += '<li' + cls + attrs + '>&bull; ' + expandKw(b.text, 'kw') + '</li>';
       });
-      h += '<li class="add-btn" data-add-bullet="' + ji + '" onclick="addEditableItem(\'bullet\',' + ji + ')">+ add bullet</li>';
       h += '</ul></div>';
     });
     // Education
@@ -553,12 +542,10 @@
     // Projects
     h += '<div class="section-header">Projects &amp; Awards</div><ul class="simple-list">';
     d.projects.forEach(function(p, pi) { h += '<li data-projects="' + pi + '">&bull; ' + p + '</li>'; });
-    h += '<li class="add-btn" onclick="addEditableItem(\'project\')">+ add project/award</li>';
     h += '</ul>';
     // Skills
     h += '<div class="section-header">Skills</div><ul class="simple-list">';
     d.skills.forEach(function(s, si) { h += '<li data-skills="' + si + '">&bull; ' + expandKw(s, 'kw') + '</li>'; });
-    h += '<li class="add-btn" onclick="addEditableItem(\'skill\')">+ add skill</li>';
     h += '</ul>';
     return h;
   }
@@ -706,6 +693,7 @@
       if (slider) { slider.min = fr[0]; slider.max = fr[1]; }
       // Render
       document.getElementById('resume-page').innerHTML = buildResume(data);
+      enableEditing();
       document.getElementById('jd-content').innerHTML = buildJD(data);
       buildLegend(data.keywordGroups);
       buildChangeLog(data.changeLog);
@@ -758,13 +746,11 @@
     document.body.className = document.body.className.replace(/mode-\S+/g, '').trim();
     if (mode !== 'clean') document.body.classList.add('mode-' + mode);
     document.querySelectorAll('.diff-controls button[id^="btn-"]').forEach(function(b) {
-      if (b.id === 'btn-edit') return;
       b.classList.remove('active');
     });
     var modeBtn = document.getElementById('btn-' + mode);
     if (modeBtn) modeBtn.classList.add('active');
     if (svg) svg.innerHTML = '';
-    if (editMode) document.body.classList.add('mode-edit');
     // Update Auto-Fit button label to signal clean-mode requirement
     var afBtn = document.getElementById('btn-autofit');
     if (afBtn) {
@@ -893,8 +879,6 @@
   // All text fields are editable: bullets, summary, job titles/company/location/dates,
   // education fields, skills, projects. Enter = confirm, Esc = cancel.
 
-  var editMode = false;
-  var editables = [];
 
   // ── Save currentData back to the JSON file ──
   function saveToFile(onSuccess) {
@@ -994,21 +978,6 @@
       : el.textContent.trim());
     el.addEventListener('keydown', onEditableKeydown);
     el.addEventListener('blur', onEditableBlur);
-    editables.push(el);
-  }
-
-  // ── Remove a newly-added item if left empty ──
-  function removeNewItem(el) {
-    var d = el.dataset;
-    if (currentData) {
-      if (d.skills !== undefined) currentData.skills.splice(+d.skills, 1);
-      else if (d.projects !== undefined) currentData.projects.splice(+d.projects, 1);
-      else if (d.job !== undefined && d.bullet !== undefined)
-        currentData.experience[+d.job].bullets.splice(+d.bullet, 1);
-    }
-    el.remove();
-    // Persist the deletion
-    saveToFile(function() { setTimeout(function() { autoFit(); runAutoChecks(); }, 80); });
   }
 
   function onEditableKeydown(e) {
@@ -1017,11 +986,6 @@
       this.blur();
     } else if (e.key === 'Escape') {
       var prev = this._editBefore || '';
-      if (this._newItem && !prev) {
-        // Escape on an empty new item — remove it entirely
-        removeNewItem(this);
-        return;
-      }
       this.innerHTML = this._isBullet ? ('&bull; ' + expandKw(prev, 'kw')) : prev;
       this._editBefore = prev;
       this.blur();
@@ -1033,12 +997,6 @@
     var raw = el._isBullet
       ? el.textContent.replace(/^•\s*/, '').trim()
       : el.textContent.trim();
-
-    // Empty new item left blank → remove it
-    if (el._newItem && !raw) {
-      removeNewItem(el);
-      return;
-    }
 
     var before = el._editBefore || '';
     if (raw === before) return; // no change
@@ -1060,95 +1018,15 @@
     });
   }
 
+  // Editing is always on — called after every resume build
   function enableEditing() {
     if (!currentData) return;
-    // Experience bullets
-    document.querySelectorAll('.resume-page li[data-bullet]').forEach(function(li) {
-      makeEditable(li, true);
-    });
-    // All data-field elements: job title spans, company, location, dates, summary, edu fields
-    document.querySelectorAll('.resume-page [data-field]').forEach(function(el) {
-      makeEditable(el, false);
-    });
-    // Skills items
-    document.querySelectorAll('.resume-page li[data-skills]').forEach(function(li) {
-      makeEditable(li, true);
-    });
-    // Projects items
-    document.querySelectorAll('.resume-page li[data-projects]').forEach(function(li) {
-      makeEditable(li, true);
-    });
-    // Education bullets
-    document.querySelectorAll('.resume-page li[data-edu-bullet]').forEach(function(li) {
-      makeEditable(li, true);
-    });
-    var hint = document.getElementById('edit-hint');
-    if (hint) hint.style.display = 'block';
+    document.querySelectorAll('.resume-page li[data-bullet]').forEach(function(li) { makeEditable(li, true); });
+    document.querySelectorAll('.resume-page [data-field]').forEach(function(el) { makeEditable(el, false); });
+    document.querySelectorAll('.resume-page li[data-skills]').forEach(function(li) { makeEditable(li, true); });
+    document.querySelectorAll('.resume-page li[data-projects]').forEach(function(li) { makeEditable(li, true); });
+    document.querySelectorAll('.resume-page li[data-edu-bullet]').forEach(function(li) { makeEditable(li, true); });
   }
-
-  function disableEditing() {
-    editables.forEach(function(el) {
-      el.removeAttribute('contenteditable');
-      el.removeAttribute('spellcheck');
-      el.removeEventListener('keydown', onEditableKeydown);
-      el.removeEventListener('blur', onEditableBlur);
-    });
-    editables = [];
-    var hint = document.getElementById('edit-hint');
-    if (hint) hint.style.display = 'none';
-  }
-
-  // ── Add new item inline (skills, projects, bullets) ──
-  window.addEditableItem = function(type, jobIdx) {
-    if (!currentData) return;
-    var li = document.createElement('li');
-    li.innerHTML = '&bull; ';
-
-    if (type === 'skill') {
-      var idx = currentData.skills.length;
-      currentData.skills.push('');
-      li.dataset.skills = idx;
-      var btn = document.querySelector('.resume-page li[onclick*="addEditableItem(\'skill\')"]');
-      if (btn) btn.parentNode.insertBefore(li, btn);
-    } else if (type === 'project') {
-      var idx = currentData.projects.length;
-      currentData.projects.push('');
-      li.dataset.projects = idx;
-      var btn = document.querySelector('.resume-page li[onclick*="addEditableItem(\'project\')"]');
-      if (btn) btn.parentNode.insertBefore(li, btn);
-    } else if (type === 'bullet' && jobIdx !== undefined) {
-      var bullets = currentData.experience[jobIdx].bullets;
-      var bi = bullets.length;
-      bullets.push({ text: '' });
-      li.dataset.job = jobIdx; li.dataset.bullet = bi;
-      var btn = document.querySelector('.resume-page li[data-add-bullet="' + jobIdx + '"]');
-      if (btn) btn.parentNode.insertBefore(li, btn);
-    }
-
-    // Mark as new so empty-on-blur removes it instead of saving blank
-    li._newItem = true;
-    makeEditable(li, true);
-    li.focus();
-    // Select all so user can just start typing
-    var range = document.createRange();
-    range.selectNodeContents(li);
-    window.getSelection().removeAllRanges();
-    window.getSelection().addRange(range);
-  };
-
-  window.toggleEditMode = function() {
-    editMode = !editMode;
-    var btn = document.getElementById('btn-edit');
-    if (editMode) {
-      document.body.classList.add('mode-edit');
-      btn.classList.add('active');
-      enableEditing();
-    } else {
-      document.body.classList.remove('mode-edit');
-      btn.classList.remove('active');
-      disableEditing();
-    }
-  };
 
   // ══════════ AUTO-FIT FONT SIZE ══════════
   // Binary-search for the largest font size (within a range) where:
@@ -1212,7 +1090,7 @@
 
   function getWrappingBullets() {
     var wraps = [];
-    document.querySelectorAll('.resume-page li:not(.add-btn)').forEach(function(li, idx) {
+    document.querySelectorAll('.resume-page li').forEach(function(li, idx) {
       li.classList.remove('wrap-highlight'); // clear stale highlights first
       var ls = window.getComputedStyle(li);
       var lineH = parseFloat(ls.lineHeight);
@@ -1436,6 +1314,7 @@
           currentData = data;
           setMargins(data.meta.pageMargins);
           document.getElementById('resume-page').innerHTML = buildResume(data);
+          enableEditing();
           document.getElementById('jd-content').innerHTML = buildJD(data);
           buildLegend(data.keywordGroups);
           buildChangeLog(data.changeLog);
