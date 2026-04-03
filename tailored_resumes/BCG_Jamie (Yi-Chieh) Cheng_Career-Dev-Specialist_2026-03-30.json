@@ -1,0 +1,381 @@
+{
+  "meta": {
+    "company": "BCG",
+    "role": "Career Dev Specialist",
+    "date": "2026-03-30",
+    "pageMargins": {
+      "top": "0.4in",
+      "right": "0.5in",
+      "bottom": "0.35in",
+      "left": "0.5in"
+    }
+  },
+  "header": {
+    "location": "Pittsburgh, PA (Open to Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Talent Development</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in insights</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve <b>talent growth and experience</b>—through human-centered, systematic approaches.",
+  "keywordGroups": {
+    "data": "Data/Analysis",
+    "coord": "Coordinate/Ops",
+    "cross": "Cross-functional",
+    "ex": "Career Dev.",
+    "tools": "Tools",
+    "prog": "Programs"
+  },
+  "experience": [
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Pittsburgh, PA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Upskill HR team in data analysis to audit 300+ leave cases, refuting cost assumptions via evidence-based {data|insights}",
+          "change": null
+        },
+        {
+          "text": "Empower HR to present executive-ready {data|insights} on $362K in leave costs, leading to {ex|policy} redesigns and first aid training",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Pittsburgh, PA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Serve as {coord|primary contact} for 20+ {prog|programs} and 10+ vendors, coordinating {coord|communications strategy} and operations via feedback analysis",
+          "change": "swap",
+          "original": "Manage end-to-end lifecycles for 20+ projects, utilizing feedback loops to optimize operational strategies and vendor performance",
+          "jd": [
+            "jd1"
+          ],
+          "reason": "BCG: program coordination + communications strategy"
+        },
+        {
+          "text": "Lead {coord|project coordination} and {coord|process improvement} for 70+ cross-functional staff, creating documentation that reduced {coord|onboarding} time by 75%",
+          "change": null
+        },
+        {
+          "text": "Facilitate {ex|feedback cycles} with 25 global {cross|stakeholders} to identify learning gaps, resulting in 3 new {prog|programs} aligned with needs",
+          "change": "swap",
+          "original": "Facilitate training webinars for 600+ participants, boosting program engagement and achieving a 78% program enrollment rate",
+          "jd": [
+            "jd2"
+          ],
+          "reason": "BCG: primary stakeholder contact for CD Advisors"
+        },
+        {
+          "text": "Facilitate {prog|training} webinars for 600+ participants, boosting {prog|program} engagement and achieving a 78% program enrollment rate",
+          "change": "swap",
+          "original": "Conduct needs assessments and analyze feedback from 25+ global stakeholders to inform program design and strategy",
+          "jd": [
+            "jd3"
+          ],
+          "reason": "BCG: prepares materials for trainings"
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Provided consultations on {ex|career development} plans and internal {prog|training} on DEI, Inclusive Leadership, and {ex|performance review}",
+          "change": "reorder",
+          "was": 4,
+          "jd": [
+            "jd2"
+          ],
+          "reason": "BCG: performance review = feedback cycles + developmental conversations"
+        },
+        {
+          "text": "Led a manager effectiveness initiative, transforming {ex|feedback} data into actionable reports that informed {ex|engagement} strategies",
+          "change": "reorder",
+          "was": 3,
+          "jd": [
+            "jd2"
+          ],
+          "reason": "BCG: manager effectiveness = developmental conversations for consulting staff"
+        },
+        {
+          "text": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on {data|satisfaction} drivers",
+          "change": null
+        },
+        {
+          "text": "Improved employee experience via 5 {cross|cross-functional} projects focusing on {data|survey} development, {ex|rewards & recognition}, and L&D",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Optimized {coord|onboarding} across 3 global locations by coordinating process analysis and clarifying job responsibilities",
+          "change": "swap",
+          "was": 3,
+          "jd": [
+            "jd3"
+          ],
+          "reason": "BCG: prepares onboarding sessions, coordinates processes"
+        },
+        {
+          "text": "Delivered HR solutions in {ex|talent management}, {ex|employee relations}, and succession planning, maintaining strict {ex|confidentiality}",
+          "change": "swap",
+          "original": "Strengthened employee engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors",
+          "jd": [
+            "jd2"
+          ],
+          "reason": "BCG: HR talent management depth over WX culture framing"
+        },
+        {
+          "text": "Initiated a DEI pilot — Inclusive Leadership {prog|workshop} for 12 senior leaders, later expanded to 23 global locations",
+          "change": "swap",
+          "original": "Supported HRBP team by piloting an Inclusive Leadership workshop for senior leaders, later scaled to 23 global locations",
+          "jd": [
+            "jd3"
+          ],
+          "reason": "Active verb; cleaner framing for BCG"
+        },
+        {
+          "text": "Facilitated {cross|organizational change} by coordinating a Mergers & Acquisitions project and overseeing {cross|cross-functional} stakeholders",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Developed proficiency across various HR functions, ranging from {ex|recruitment} and compensation to {ex|performance management}",
+          "change": null
+        },
+        {
+          "text": "Filled an international role by drafting {coord|job descriptions}, posting openings, and researching global compensation details",
+          "change": null
+        },
+        {
+          "text": "Engaged global talent via personalized {coord|communication} and customer service, increasing applications by 566% in 2 months",
+          "change": null
+        },
+        {
+          "text": "Organized {coord|recruiting events} and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants",
+          "change": null
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": []
+    }
+  ],
+  "projects": [
+    "<b>OD Consulting Project:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Research Consulting Project:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-methods",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition scholarship), Tuck Bridge Scholarship (Full Scholarship)"
+  ],
+  "skills": [
+    "<b>Technical Skills:</b> Project Management (Asana, Airtable) · Knowledge Management (SharePoint, Notion, Google Workspace) · AI Productivity (ChatGPT, Notion AI, Gemini) · Data Analysis (Google Sheets, SPSS) · Microsoft Office (Word, PowerPoint, Excel)",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "",
+    "sections": [
+      {
+        "title": "About the Role",
+        "type": "paragraph",
+        "content": "The Career Development Specialist supports and manages {ex|performance management} and {ex|career development} processes for BCG consulting staff. Reports to the Career Development Manager."
+      },
+      {
+        "title": "Key Responsibilities",
+        "type": "list",
+        "items": [
+          {
+            "id": "jd1",
+            "changeType": "swap",
+            "text": "Coordinate {coord|Career Development Committee} meetings",
+            "reason": "Summary: \"Human Resources\" identity (corporate context)<br>→ InGenius #1: program coordination + communications strategy"
+          },
+          {
+            "id": "jd2",
+            "changeType": "swap",
+            "text": "Support {ex|feedback cycles} and {ex|performance review} processes",
+            "reason": "NextGen #1: \"performance review\" consultations<br>→ NextGen #2: manager effectiveness initiative"
+          },
+          {
+            "id": "jd3",
+            "changeType": "swap",
+            "text": "primary contact for {coord|CD Advisors} and consulting staff",
+            "reason": "InGenius #3: listening sessions with 25 global stakeholders<br>→ Vestas #1: onboarding + process coordination"
+          },
+          {
+            "id": "jd4",
+            "changeType": "reorder",
+            "text": "materials for meetings, {prog|trainings}, {coord|onboarding} sessions, and debriefs",
+            "reason": "InGenius #2: cross-functional documentation + onboarding<br>→ InGenius #4: training webinars for 600+"
+          },
+          {
+            "text": "Execute local {prog|strategic initiatives} and support {ex|year-end bonus} processes"
+          },
+          {
+            "text": "Manage communications on advisor assignments and developmental conversations"
+          }
+        ]
+      },
+      {
+        "title": "Required Qualifications",
+        "type": "list",
+        "items": [
+          {
+            "text": "BA/BS degree required"
+          },
+          {
+            "text": "3+ years HR, talent management, staffing, or operations experience"
+          },
+          {
+            "text": "Strong organizational skills managing high-volume information"
+          },
+          {
+            "text": "Clear, effective written communications to diverse stakeholders"
+          },
+          {
+            "text": "Proficiency with confidentiality protocols and policy adherence"
+          }
+        ]
+      },
+      {
+        "title": "Preferred Qualifications",
+        "type": "list",
+        "items": [
+          {
+            "text": "Prior BCG or professional services experience"
+          },
+          {
+            "text": "Feedback management, onboarding, and training delivery"
+          },
+          {
+            "text": "Project coordination and process improvement"
+          }
+        ]
+      },
+      {
+        "title": "Compensation",
+        "type": "paragraph",
+        "content": "$71,000–$99,000 base + up to 16% discretionary bonus + 5–10% retirement contribution. Hybrid 3–5 days/week in office."
+      },
+      {
+        "title": "H1B Status",
+        "type": "paragraph",
+        "content": "✅ Confirmed — 1,674 LCA filings FY2022–2024, ~100% approval rate, ranked #74 US sponsor."
+      }
+    ]
+  },
+  "changeLog": [
+    {
+      "location": "Summary",
+      "type": "swap",
+      "before": "OD & Workplace Experience",
+      "after": "Human Resources",
+      "why": "BCG: corporate HR context, not WX startup"
+    },
+    {
+      "location": "InGenius #1",
+      "type": "swap",
+      "before": "Manage end-to-end lifecycles…",
+      "after": "Manage 20+ programs…communications strategy",
+      "why": "BCG: program coordination + communications"
+    },
+    {
+      "location": "InGenius #3",
+      "type": "swap",
+      "before": "Facilitate training webinars…",
+      "after": "Facilitate listening sessions…25 stakeholders",
+      "why": "BCG: primary stakeholder contact for CD Advisors"
+    },
+    {
+      "location": "InGenius #4",
+      "type": "swap",
+      "before": "Conduct needs assessments…",
+      "after": "Facilitate training webinars 600+…",
+      "why": "BCG: prepares materials for trainings"
+    },
+    {
+      "location": "NextGen #4→1",
+      "type": "reorder",
+      "before": "was #4",
+      "after": "now #1",
+      "why": "BCG: \"performance review\" = feedback cycles"
+    },
+    {
+      "location": "NextGen #3→2",
+      "type": "reorder",
+      "before": "was #3",
+      "after": "now #2",
+      "why": "BCG: manager effectiveness = developmental conversations"
+    },
+    {
+      "location": "Vestas #3→1",
+      "type": "reorder",
+      "before": "was #3",
+      "after": "now #1",
+      "why": "BCG: prepares onboarding sessions"
+    },
+    {
+      "location": "Vestas #1",
+      "type": "swap",
+      "before": "Strengthened engagement via newsletter…",
+      "after": "Delivered strategic HR solutions…succession planning",
+      "why": "BCG: HR talent management depth over WX culture"
+    },
+    {
+      "location": "Vestas #3",
+      "type": "swap",
+      "before": "Supported HRBP team by piloting…",
+      "after": "Initiated a DEI pilot…12 senior leaders",
+      "why": "Cleaner framing; active verb"
+    },
+    {
+      "location": "Skills",
+      "type": "swap",
+      "before": "Google Workspace · Notion",
+      "after": "HRIS (SAP) · MS Office (Word, PowerPoint)",
+      "why": "BCG: enterprise tools, not startup stack"
+    }
+  ]
+}

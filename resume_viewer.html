@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jamie's Resume Viewer</title>
+<style>
+  /* ================================================================
+     CSS VARIABLES — formatting rules from CLAUDE.md
+     Agent updates these for global formatting changes.
+     ================================================================ */
+  :root {
+    --body-font-size: 9.5pt;
+    --bullet-font-size: 9.2pt;
+    --summary-font-size: 9pt;
+    --header-name-size: 19pt;
+    --header-contact-size: 8.8pt;
+    --section-header-size: 9pt;
+    --job-title-size: 9.5pt;
+    --work-sample-size: 7.5pt;
+    --body-line-height: 1.18;
+    --bullet-line-height: 1.28;
+    --summary-line-height: 1.30;
+    --section-header-margin: 6pt 0 3pt 0;
+    --job-margin-bottom: 7pt;
+    --edu-margin-bottom: 5pt;
+    --page-margin-top: 0.35in;
+    --page-margin-right: 0.45in;
+    --page-margin-bottom: 0.35in;
+    --page-margin-left: 0.45in;
+    --accent-color: #2a6496;
+  }
+
+  @page {
+    size: letter;
+    margin: var(--page-margin-top) var(--page-margin-right) var(--page-margin-bottom) var(--page-margin-left);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Calibri','Helvetica Neue','Arial',sans-serif; font-size: var(--body-font-size); line-height: var(--body-line-height); color: #1a1a1a; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  /* ── Resume base styles ── */
+  .header { text-align: center; margin-bottom: 2pt; }
+  .header h1 { font-size: var(--header-name-size); font-weight: bold; letter-spacing: 0.3pt; margin-bottom: 1pt; color: #000; }
+  .header .contact { font-size: var(--header-contact-size); color: #333; }
+  .header .contact a { color: var(--accent-color); text-decoration: underline; }
+  .summary { padding: 4pt 7pt; margin: 4pt 0; font-size: var(--summary-font-size); line-height: var(--summary-line-height); font-style: italic; color: #222; text-align: center; }
+  .summary b { font-style: italic; font-weight: bold; }
+  .section-header { text-align: center; font-size: var(--section-header-size); font-weight: bold; letter-spacing: 0.8pt; text-transform: uppercase; border-bottom: 1px solid #000; padding: 1pt 0; margin: var(--section-header-margin); }
+  .job { margin-bottom: var(--job-margin-bottom); }
+  .job-title-row { display: flex; justify-content: space-between; align-items: baseline; }
+  .job-title { font-weight: bold; font-size: var(--job-title-size); }
+  .job-title .work-sample, .job-title a.work-sample { font-weight: normal; font-size: var(--work-sample-size); text-decoration: underline; color: var(--accent-color); }
+  .job-location { font-size: var(--job-title-size); text-align: right; white-space: nowrap; }
+  .job-company-row { display: flex; justify-content: space-between; align-items: baseline; }
+  .job-company { color: var(--accent-color); font-size: var(--job-title-size); }
+  .job-dates { font-style: italic; font-size: var(--job-title-size); text-align: right; white-space: nowrap; color: var(--accent-color); }
+  .job ul { margin: 2pt 0 0 12pt; padding: 0; list-style: none; }
+  .job li { font-size: var(--bullet-font-size); line-height: var(--bullet-line-height); margin-bottom: 0.5pt; padding-left: 1pt; }
+  .edu { margin-bottom: var(--edu-margin-bottom); }
+  .edu-row { display: flex; justify-content: space-between; align-items: baseline; }
+  .edu-school { font-weight: bold; font-size: var(--job-title-size); }
+  .edu-location { font-size: var(--job-title-size); text-align: right; }
+  .edu-degree { font-size: var(--job-title-size); }
+  .edu-dates { font-style: italic; font-size: var(--job-title-size); text-align: right; color: var(--accent-color); }
+  .edu ul { margin: 1pt 0 0 12pt; padding: 0; list-style: none; }
+  .edu li { font-size: var(--bullet-font-size); line-height: 1.35; }
+  .simple-list { margin: 0; padding: 0; list-style: none; }
+  .simple-list li { font-size: var(--bullet-font-size); line-height: 1.38; margin-bottom: 1.5pt; }
+  .simple-list li b { font-weight: bold; }
+
+  /* ================================================================
+     TOOLBAR
+     ================================================================ */
+  .diff-toolbar {
+    position: sticky; top: 0; z-index: 9998;
+    background: #2c3e50; color: #ecf0f1;
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 6px 12px; font-family: sans-serif; font-size: 10px; gap: 10px;
+  }
+  .diff-version { flex: 1; display: flex; align-items: center; gap: 8px; }
+  .diff-version strong { color: #f1c40f; }
+  .diff-version .diff-date { color: #95a5a6; margin-left: 8px; }
+  .diff-controls { display: flex; gap: 4px; align-items: center; }
+  .diff-controls button {
+    background: #34495e; color: #aaa; border: 1px solid #4a6278;
+    padding: 3px 9px; border-radius: 3px; cursor: pointer; font-size: 10px; font-family: sans-serif;
+  }
+  .diff-controls button:hover { background: #4a6278; color: white; }
+  .diff-controls button.active { background: #1abc9c; color: #fff; border-color: #16a085; }
+  .diff-controls .btn-icon { padding: 3px 7px; font-size: 12px; line-height: 1; }
+  .diff-controls .divider { width: 1px; background: #4a6278; height: 18px; margin: 0 2px; }
+  #resume-select { background: #34495e; color: #ecf0f1; border: 1px solid #4a6278; padding: 3px 6px; border-radius: 3px; font-size: 10px; font-family: sans-serif; max-width: 280px; }
+
+  /* ================================================================
+     LOG PANEL — tabbed (Changes + Edits)
+     ================================================================ */
+  #log-panel { display: none; font-family: sans-serif; font-size: 9px; line-height: 1.5; }
+  #log-panel.visible { display: block; }
+  .log-tabs { display: flex; background: #1e2d3d; border-bottom: 2px solid #dee2e6; }
+  .log-tab { padding: 5px 14px; cursor: pointer; color: #7f8c8d; font-size: 9px; border-bottom: 2px solid transparent; margin-bottom: -2px; }
+  .log-tab.active { color: #ecf0f1; border-bottom-color: #1abc9c; }
+  .log-pane { display: none; padding: 8px 14px; }
+  .log-pane.active { display: block; }
+  #pane-changes { background: #f8f9fa; }
+  #pane-changes h3 { font-size: 10px; color: #2c3e50; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.5px; }
+  #pane-changes table { width: 100%; border-collapse: collapse; }
+  #pane-changes th { background: #2c3e50; color: white; padding: 3px 8px; text-align: left; font-weight: normal; }
+  #pane-changes td { padding: 3px 8px; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+  #pane-changes tr:hover td { background: #e9ecef; }
+  #pane-changes .tag-swap  { color: #856404; font-weight: bold; }
+  #pane-changes .tag-word  { color: #842029; font-weight: bold; }
+  #pane-changes .tag-order { color: #084298; font-weight: bold; }
+  #pane-changes .orig { color: #6c757d; text-decoration: line-through; }
+  #pane-changes .new  { color: #198754; }
+  #pane-edits { background: #1a2a1a; color: #b8d4b8; }
+  #pane-edits h3 { font-size: 10px; color: #90ee90; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.5px; }
+  #pane-edits table { width: 100%; border-collapse: collapse; }
+  #pane-edits th { background: #2d5a2d; color: #c8e6c8; padding: 3px 8px; text-align: left; font-weight: normal; }
+  #pane-edits td { padding: 3px 8px; border-bottom: 1px solid #2d5a2d; vertical-align: top; }
+  #pane-edits tr:hover td { background: #1f3a1f; }
+  #pane-edits .orig { color: #e88; text-decoration: line-through; }
+  #pane-edits .new  { color: #8e8; }
+  #pane-edits .ts   { color: #666; white-space: nowrap; }
+  .log-empty { color: #666; font-style: italic; padding: 6px 0; }
+
+  /* ================================================================
+     MODE 1: CHANGES
+     ================================================================ */
+  body.mode-changes li.changed {
+    border-left: 4px solid #e6a817; padding-left: 6pt; margin-left: -10pt;
+    background: #fff8e1; cursor: pointer; list-style-position: inside;
+  }
+  body.mode-changes li.changed::before {
+    content: "↩ " attr(data-original);
+    display: block; color: #999; text-decoration: line-through;
+    font-size: 7.2pt; font-style: italic; line-height: 1.3; margin-bottom: 1.5pt;
+  }
+  body.mode-changes li.reordered {
+    border-left: 4px solid #2980b9; padding-left: 6pt; margin-left: -10pt;
+    background: #f0f7ff; cursor: pointer; list-style-position: inside;
+  }
+  body.mode-changes li.reordered::after {
+    content: " ↕ was #" attr(data-was);
+    color: #2980b9; font-size: 7.2pt; font-style: italic; font-weight: bold;
+  }
+  body.mode-changes span.keyword {
+    background: #fde8e8; border-bottom: 2px solid #c0392b; cursor: pointer;
+  }
+  body.mode-changes span.keyword::after {
+    content: " ‹" attr(data-original) "›";
+    color: #c0392b; font-size: 7.2pt; font-style: italic; font-weight: bold;
+  }
+  body.mode-changes li.changed.active  { outline: 2px solid #e6a817; outline-offset: 1px; }
+  body.mode-changes li.reordered.active { outline: 2px solid #2980b9; outline-offset: 1px; }
+  body.mode-changes span.keyword.active { outline: 2px solid #c0392b; outline-offset: 1px; }
+
+  /* ================================================================
+     MODE 2: KEYWORDS
+     ================================================================ */
+  body.mode-keywords .kw { border-radius: 2px; padding: 0 2px; transition: background 0.15s, outline 0.15s; }
+  body.mode-keywords .kw[data-kwg="data"]  { background: #b2dfdb; }
+  body.mode-keywords .kw[data-kwg="coord"] { background: #ffe0b2; }
+  body.mode-keywords .kw[data-kwg="cross"] { background: #e1bee7; }
+  body.mode-keywords .kw[data-kwg="ex"]    { background: #c8e6c9; }
+  body.mode-keywords .kw[data-kwg="tools"] { background: #f8bbd0; }
+  body.mode-keywords .kw[data-kwg="prog"]  { background: #bbdefb; }
+  body.mode-keywords .jd-kw { border-radius: 2px; padding: 0 2px; transition: background 0.15s, outline 0.15s; }
+  body.mode-keywords .jd-kw[data-kwg="data"]  { color: #4dd0e1; background: rgba(77,208,225,0.18); border-bottom: 2px solid #4dd0e1; }
+  body.mode-keywords .jd-kw[data-kwg="coord"] { color: #ffb74d; background: rgba(255,183,77,0.18); border-bottom: 2px solid #ffb74d; }
+  body.mode-keywords .jd-kw[data-kwg="cross"] { color: #ce93d8; background: rgba(206,147,216,0.18); border-bottom: 2px solid #ce93d8; }
+  body.mode-keywords .jd-kw[data-kwg="ex"]    { color: #81c784; background: rgba(129,199,132,0.18); border-bottom: 2px solid #81c784; }
+  body.mode-keywords .jd-kw[data-kwg="tools"] { color: #f48fb1; background: rgba(244,143,177,0.18); border-bottom: 2px solid #f48fb1; }
+  body.mode-keywords .jd-kw[data-kwg="prog"]  { color: #64b5f6; background: rgba(100,181,246,0.18); border-bottom: 2px solid #64b5f6; }
+  body.mode-keywords .kw-legend { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 14px 0; }
+  body:not(.mode-keywords) .kw-legend { display: none; }
+  .kw-legend span { font-size: 9px; padding: 2px 6px; border-radius: 3px; }
+  .kw-legend .leg-data  { background: rgba(77,208,225,0.2); color: #4dd0e1; }
+  .kw-legend .leg-coord { background: rgba(255,183,77,0.2); color: #ffb74d; }
+  .kw-legend .leg-cross { background: rgba(206,147,216,0.2); color: #ce93d8; }
+  .kw-legend .leg-ex    { background: rgba(129,199,132,0.2); color: #81c784; }
+  .kw-legend .leg-tools { background: rgba(244,143,177,0.2); color: #f48fb1; }
+  .kw-legend .leg-prog  { background: rgba(100,181,246,0.2); color: #64b5f6; }
+  body.mode-keywords .kw.kw-active[data-kwg="data"]  { background: #26c6da; color: #fff; outline: 2px solid #00acc1; }
+  body.mode-keywords .kw.kw-active[data-kwg="coord"] { background: #ffa726; color: #fff; outline: 2px solid #fb8c00; }
+  body.mode-keywords .kw.kw-active[data-kwg="cross"] { background: #ab47bc; color: #fff; outline: 2px solid #8e24aa; }
+  body.mode-keywords .kw.kw-active[data-kwg="ex"]    { background: #66bb6a; color: #fff; outline: 2px solid #43a047; }
+  body.mode-keywords .kw.kw-active[data-kwg="tools"] { background: #ec407a; color: #fff; outline: 2px solid #d81b60; }
+  body.mode-keywords .kw.kw-active[data-kwg="prog"]  { background: #42a5f5; color: #fff; outline: 2px solid #1e88e5; }
+  body.mode-keywords .jd-kw.kw-active[data-kwg="data"]  { background: rgba(77,208,225,0.85); color: #fff; outline: 2px solid #4dd0e1; }
+  body.mode-keywords .jd-kw.kw-active[data-kwg="coord"] { background: rgba(255,183,77,0.85); color: #fff; outline: 2px solid #ffb74d; }
+  body.mode-keywords .jd-kw.kw-active[data-kwg="cross"] { background: rgba(206,147,216,0.85); color: #fff; outline: 2px solid #ce93d8; }
+  body.mode-keywords .jd-kw.kw-active[data-kwg="ex"]    { background: rgba(129,199,132,0.85); color: #fff; outline: 2px solid #81c784; }
+  body.mode-keywords .jd-kw.kw-active[data-kwg="tools"] { background: rgba(244,143,177,0.85); color: #fff; outline: 2px solid #f48fb1; }
+  body.mode-keywords .jd-kw.kw-active[data-kwg="prog"]  { background: rgba(100,181,246,0.85); color: #fff; outline: 2px solid #64b5f6; }
+  body.mode-keywords.kw-hovering .kw:not(.kw-active)    { opacity: 0.2; }
+  body.mode-keywords.kw-hovering .jd-kw:not(.kw-active) { opacity: 0.2; }
+
+  /* ================================================================
+     EDIT MODE
+     ================================================================ */
+  body.mode-edit .resume-page li,
+  body.mode-edit .resume-page .summary { cursor: text; }
+  body.mode-edit .resume-page li:hover,
+  body.mode-edit .resume-page .summary:hover { outline: 1.5px dashed #1abc9c; outline-offset: 2px; background: rgba(26,188,156,0.06); }
+  body.mode-edit .resume-page [contenteditable="true"] { outline: 2px solid #1abc9c !important; background: rgba(26,188,156,0.1) !important; }
+  #btn-edit.active { background: #1abc9c !important; color: #fff !important; border-color: #16a085 !important; }
+
+  /* ================================================================
+     SCREEN: split-pane layout + FIXED PAPER CONTAINER
+     ================================================================ */
+  @media screen {
+    body { background: #4a4a52; min-height: 100vh; }
+    .split-layout { display: flex; max-width: 1440px; margin: 0 auto; position: relative; }
+    .resume-panel { flex: 0 0 64%; padding: 16px; overflow-y: auto; max-height: calc(100vh - 36px); display: flex; justify-content: center; }
+
+    /* THE KEY FIX: fixed paper container matches PDF exactly */
+    .resume-page {
+      background: white;
+      width: 8.5in;
+      min-width: 8.5in;
+      max-width: 8.5in;
+      min-height: 11in;
+      padding: var(--page-margin-top) var(--page-margin-right) var(--page-margin-bottom) var(--page-margin-left);
+      box-shadow: 0 4px 24px rgba(0,0,0,0.45);
+      position: relative;
+    }
+
+    /* Overflow detection: red zone past page 1 boundary */
+    .resume-page::after {
+      content: '';
+      position: absolute;
+      top: 11in;
+      left: 0;
+      right: 0;
+      height: 3in;
+      background: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(231,76,60,0.06) 10px, rgba(231,76,60,0.06) 20px);
+      border-top: 3px solid #e74c3c;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    /* Page boundary label */
+    .page-guide {
+      position: absolute;
+      top: calc(11in - var(--page-margin-top) - var(--page-margin-bottom));
+      left: 0; right: 0;
+      border-top: 2px dashed #e74c3c;
+    }
+    .page-guide::after {
+      content: "PAGE 1 ENDS HERE";
+      position: absolute; top: 2px; right: 0;
+      font-size: 9px; color: #e74c3c; font-family: sans-serif;
+      background: white; padding: 1px 5px;
+    }
+
+    /* Overflow warning banner */
+    .overflow-warning {
+      display: none;
+      position: fixed; bottom: 0; left: 0; right: 0;
+      background: #e74c3c; color: white; text-align: center;
+      padding: 6px; font-family: sans-serif; font-size: 12px; font-weight: bold;
+      z-index: 10000;
+    }
+    .overflow-warning.visible { display: block; }
+
+    .jd-panel {
+      flex: 0 0 36%; background: #1a1a2e; color: #e8ecef;
+      font-family: 'Inter','Segoe UI',sans-serif; font-size: 11px; line-height: 1.65;
+      overflow-y: auto; max-height: calc(100vh - 36px); padding: 20px 22px; border-left: 3px solid #0d1117;
+    }
+    .jd-header { margin-bottom: 16px; border-bottom: 1px solid #333; padding-bottom: 10px; }
+    .jd-header h3 { font-size: 13px; color: #fff; margin: 0 0 4px 0; }
+    .jd-meta { color: #a0aab4; font-size: 10px; }
+    .jd-section-title { font-size: 11px; color: #b0c4d8; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px; margin: 14px 0 6px 0; }
+    .jd-content p { margin-bottom: 8px; }
+    .jd-content ul { margin: 0 0 8px 16px; }
+    .jd-content li { margin-bottom: 4px; }
+    .jd-hl { display: inline; padding: 1px 3px; border-radius: 2px; cursor: pointer; transition: outline 0.15s; }
+    body.mode-changes .jd-hl { color: #fff; }
+    body.mode-changes .jd-swap  { background: rgba(230,168,23,0.3); border-bottom: 2px solid #e6a817; }
+    body.mode-changes .jd-order { background: rgba(41,128,185,0.3); border-bottom: 2px solid #2980b9; }
+    body.mode-changes .jd-word  { background: rgba(192,57,43,0.3); border-bottom: 2px solid #c0392b; }
+    body.mode-changes .jd-hl.active { outline: 2px solid; outline-offset: 2px; }
+    body.mode-changes .jd-swap.active  { outline-color: #e6a817; }
+    body.mode-changes .jd-order.active { outline-color: #2980b9; }
+    body.mode-changes .jd-word.active  { outline-color: #c0392b; }
+    body:not(.mode-changes) .jd-hl { color: inherit; background: none; border: none; }
+    .jd-reason { display: none; font-size: 9px; color: #9bb0c4; margin: 2px 0 10px 4px; font-style: italic; padding-left: 8px; border-left: 2px solid #444; }
+    body.mode-changes .jd-reason { display: block; }
+    .connection-svg { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 9997; }
+    .connection-svg path { fill: none; stroke-width: 2; opacity: 0; transition: opacity 0.2s; }
+    .connection-svg path.active { opacity: 0.85; }
+    .connection-svg .conn-swap  { stroke: #e6a817; }
+    .connection-svg .conn-order { stroke: #2980b9; }
+    .connection-svg .conn-word  { stroke: #c0392b; }
+    body:not(.mode-changes) .connection-svg { display: none; }
+
+    /* Empty state */
+    .empty-state { text-align: center; padding: 60px 20px; color: #95a5a6; font-family: sans-serif; }
+    .empty-state h2 { font-size: 18px; margin-bottom: 12px; color: #ecf0f1; }
+    .empty-state p { font-size: 12px; line-height: 1.6; }
+    .empty-state code { background: #34495e; padding: 2px 6px; border-radius: 3px; font-size: 11px; }
+  }
+
+  /* ================================================================
+     PRINT: clean resume only
+     ================================================================ */
+  @media print {
+    .kw, .jd-kw { padding: 0 !important; }
+    body { background: white !important; }
+    .diff-toolbar, #log-panel, .jd-panel, .connection-svg, .overflow-warning { display: none !important; }
+    .split-layout { display: block !important; }
+    .resume-panel { flex: none !important; width: 100% !important; padding: 0 !important; overflow: visible !important; max-height: none !important; display: block !important; }
+    .resume-page { box-shadow: none !important; margin: 0 !important; padding: 0 !important; max-width: none !important; min-width: auto !important; width: auto !important; min-height: auto !important; }
+    .resume-page::after { display: none !important; }
+    .page-guide { display: none !important; }
+    li.changed, li.reordered { border-left: none !important; background: transparent !important; padding-left: 1pt !important; margin-left: 0 !important; list-style-position: outside !important; }
+    li.changed::before, li.reordered::after { display: none !important; }
+    span.keyword { background: transparent !important; border-bottom: none !important; }
+    span.keyword::after { display: none !important; }
+    .kw, .jd-kw { background: transparent !important; border: none !important; color: inherit !important; padding: 0 !important; }
+  }
+</style>
+</head>
+<body class="mode-keywords">
+
+<!-- ══════════ TOOLBAR ══════════ -->
+<div class="diff-toolbar">
+  <div class="diff-version">
+    <select id="resume-select" onchange="loadResume(this.value)">
+      <option value="">— Select resume —</option>
+    </select>
+    📄 <strong id="toolbar-title">No resume loaded</strong>
+    <span class="diff-date" id="toolbar-date"></span>
+  </div>
+  <div class="diff-controls">
+    <button id="btn-changes" onclick="setMode('changes')">Changes</button>
+    <button id="btn-keywords" class="active" onclick="setMode('keywords')">Keywords</button>
+    <button id="btn-clean" onclick="setMode('clean')">Clean</button>
+    <div class="divider"></div>
+    <button id="btn-edit" class="btn-icon" title="Toggle edit mode" onclick="toggleEditMode()">✏️</button>
+    <button id="btn-log" class="btn-icon" title="Show log" onclick="toggleLog()">📋</button>
+    <button id="btn-export" class="btn-icon" title="Export PDF (Cmd+P)" onclick="window.print()">📤</button>
+  </div>
+</div>
+
+<!-- ══════════ LOG PANEL ══════════ -->
+<div id="log-panel">
+  <div class="log-tabs">
+    <div class="log-tab active" onclick="switchTab('changes')">🔧 Change Log</div>
+    <div class="log-tab" onclick="switchTab('edits')">✏️ My Edits</div>
+  </div>
+  <div class="log-pane active" id="pane-changes">
+    <table><tr><th>Location</th><th>Type</th><th>Before</th><th>After</th><th>Why</th></tr></table>
+  </div>
+  <div class="log-pane" id="pane-edits">
+    <table><tr><th>Time</th><th>Location</th><th>Before</th><th>After</th></tr></table>
+    <p class="log-empty">No edits yet — click ✏️ to start editing.</p>
+  </div>
+</div>
+
+<!-- ══════════ SPLIT LAYOUT ══════════ -->
+<div class="split-layout">
+  <!-- LEFT: RESUME -->
+  <div class="resume-panel" id="resume-panel">
+    <div class="resume-page" id="resume-page">
+      <div class="empty-state" id="empty-state">
+        <h2>No resume loaded</h2>
+        <p>Select a resume from the dropdown above,<br>or open with a URL parameter:<br><br>
+        <code>resume_viewer.html?resume=filename</code></p>
+      </div>
+    </div>
+  </div>
+  <!-- SVG LINES -->
+  <svg class="connection-svg" id="connections"></svg>
+  <!-- RIGHT: JD PANEL -->
+  <div class="jd-panel" id="jd-panel">
+    <div class="jd-header"><h3>Job Description</h3></div>
+    <div class="kw-legend" id="kw-legend"></div>
+    <div class="jd-content" id="jd-content">
+      <p style="color:#666;font-style:italic">Load a resume to see the job description panel.</p>
+    </div>
+  </div>
+</div>
+
+<!-- OVERFLOW WARNING -->
+<div class="overflow-warning" id="overflow-warning">⚠️ Content overflows page 1 — trim bullets or reduce font size</div>
+
+<!-- ══════════ JAVASCRIPT ══════════ -->
+<script>
+(function() {
+  var svg = document.getElementById('connections');
+  var resumePanel = document.getElementById('resume-panel');
+  var jdPanel = document.getElementById('jd-panel');
+  var currentData = null;
+
+  // ── Keyword expansion: {kwg|text} → <span class="kw" data-kwg="kwg">text</span> ──
+  function expandKw(text, cls) {
+    if (!text) return '';
+    return text.replace(/\{(\w+)\|([^}]+)\}/g, function(_, g, w) {
+      return '<span class="' + cls + '" data-kwg="' + g + '">' + w + '</span>';
+    });
+  }
+
+  // ── Build resume HTML from JSON ──
+  function buildResume(d) {
+    var h = '';
+    // Header
+    h += '<div class="header"><h1>Jamie (Yi-Chieh) Cheng</h1>';
+    h += '<div class="contact">' + (d.header.location || '') + ' &bull; (213) 700-3831 &bull; ';
+    h += '<a href="mailto:jamiecheng0103@gmail.com">jamiecheng0103@gmail.com</a> &bull; ';
+    h += '<a href="http://www.linkedin.com/in/jamieyccheng">LinkedIn</a></div></div>';
+    // Summary
+    h += '<div class="summary">' + expandKw(d.summary, 'kw') + '</div>';
+    // Experience
+    h += '<div class="section-header">Professional Experience</div>';
+    d.experience.forEach(function(job) {
+      h += '<div class="job"><div class="job-title-row"><div class="job-title">' + job.title;
+      if (job.workSampleUrl) h += ' <a class="work-sample" href="' + job.workSampleUrl + '" target="_blank">(Work Sample)</a>';
+      h += '</div><div class="job-location">' + job.location + '</div></div>';
+      h += '<div class="job-company-row"><div class="job-company">' + job.company + '</div>';
+      h += '<div class="job-dates">' + job.dates + '</div></div><ul>';
+      job.bullets.forEach(function(b) {
+        var cls = '', attrs = '';
+        if (b.change === 'swap' || b.change === 'word') {
+          cls = ' class="changed"';
+          if (b.original) attrs += ' data-original="' + b.original.replace(/"/g, '&quot;') + '"';
+          if (b.jd) attrs += ' data-jd="' + b.jd.join(',') + '"';
+          if (b.reason) attrs += ' data-reason="' + b.reason.replace(/"/g, '&quot;') + '"';
+        } else if (b.change === 'reorder') {
+          cls = ' class="reordered"';
+          if (b.was) attrs += ' data-was="' + b.was + '"';
+          if (b.jd) attrs += ' data-jd="' + b.jd.join(',') + '"';
+          if (b.reason) attrs += ' data-reason="' + b.reason.replace(/"/g, '&quot;') + '"';
+        }
+        h += '<li' + cls + attrs + '>&bull; ' + expandKw(b.text, 'kw') + '</li>';
+      });
+      h += '</ul></div>';
+    });
+    // Education
+    h += '<div class="section-header">Education</div>';
+    d.education.forEach(function(edu) {
+      h += '<div class="edu"><div class="edu-row"><div class="edu-school">' + edu.school + '</div>';
+      h += '<div class="edu-location">' + edu.location + '</div></div>';
+      h += '<div class="edu-row"><div class="edu-degree">' + edu.degree + '</div>';
+      h += '<div class="edu-dates">' + edu.dates + '</div></div>';
+      if (edu.bullets && edu.bullets.length) {
+        h += '<ul>';
+        edu.bullets.forEach(function(b) { h += '<li>&bull; ' + b + '</li>'; });
+        h += '</ul>';
+      }
+      h += '</div>';
+    });
+    // Projects
+    h += '<div class="section-header">Projects &amp; Awards</div><ul class="simple-list">';
+    d.projects.forEach(function(p) { h += '<li>&bull; ' + p + '</li>'; });
+    h += '</ul>';
+    // Skills
+    h += '<div class="section-header">Skills</div><ul class="simple-list">';
+    d.skills.forEach(function(s) { h += '<li>&bull; ' + expandKw(s, 'kw') + '</li>'; });
+    h += '</ul>';
+    // Page guide
+    h += '<div class="page-guide"></div>';
+    return h;
+  }
+
+  // ── Build JD panel from JSON ──
+  function buildJD(d) {
+    if (!d.jd || !d.jd.sections || !d.jd.sections.length) {
+      return '<p style="color:#666;font-style:italic">No job description provided for this resume.</p>';
+    }
+    var h = '<div class="jd-meta">' + (d.jd.meta || '') + '</div>';
+    d.jd.sections.forEach(function(sec) {
+      h += '<div class="jd-section-title">' + sec.title + '</div>';
+      if (sec.type === 'paragraph') {
+        h += '<p>' + expandKw(sec.content, 'jd-kw') + '</p>';
+      } else if (sec.type === 'list') {
+        h += '<ul>';
+        sec.items.forEach(function(item) {
+          h += '<li>';
+          if (item.id && item.changeType) {
+            h += '<mark class="jd-hl jd-' + item.changeType + '" id="' + item.id + '">';
+            h += expandKw(item.text, 'jd-kw');
+            h += '</mark>';
+            if (item.reason) h += '<span class="jd-reason">→ ' + item.reason + '</span>';
+          } else {
+            h += expandKw(item.text || item, 'jd-kw');
+          }
+          h += '</li>';
+        });
+        h += '</ul>';
+      }
+    });
+    return h;
+  }
+
+  // ── Build keyword legend ──
+  function buildLegend(groups) {
+    var el = document.getElementById('kw-legend');
+    if (!groups) { el.innerHTML = ''; return; }
+    var h = '';
+    var keys = Object.keys(groups);
+    keys.forEach(function(k) {
+      h += '<span class="leg-' + k + '">' + groups[k] + '</span>';
+    });
+    el.innerHTML = h;
+  }
+
+  // ── Build change log table ──
+  function buildChangeLog(log) {
+    var table = document.querySelector('#pane-changes table');
+    // Keep header row
+    while (table.rows.length > 1) table.deleteRow(1);
+    if (!log || !log.length) return;
+    log.forEach(function(entry) {
+      var tr = table.insertRow();
+      var typeTag = entry.type === 'swap' ? 'tag-swap' : entry.type === 'reorder' ? 'tag-order' : 'tag-word';
+      var typeLabel = entry.type === 'swap' ? '🟡 bullet swap' : entry.type === 'reorder' ? '🔵 reorder' : '🔴 word swap';
+      tr.innerHTML = '<td>' + entry.location + '</td>' +
+        '<td class="' + typeTag + '">' + typeLabel + '</td>' +
+        '<td class="orig">' + (entry.before || '') + '</td>' +
+        '<td class="new">' + (entry.after || '') + '</td>' +
+        '<td>' + (entry.why || '') + '</td>';
+    });
+  }
+
+  // ── Set page margins from JSON ──
+  function setMargins(margins) {
+    if (!margins) return;
+    var root = document.documentElement;
+    root.style.setProperty('--page-margin-top', margins.top);
+    root.style.setProperty('--page-margin-right', margins.right);
+    root.style.setProperty('--page-margin-bottom', margins.bottom);
+    root.style.setProperty('--page-margin-left', margins.left);
+    // Update @page rule
+    var sheets = document.styleSheets;
+    for (var i = 0; i < sheets.length; i++) {
+      try {
+        var rules = sheets[i].cssRules;
+        for (var j = 0; j < rules.length; j++) {
+          if (rules[j].type === CSSRule.PAGE_RULE) {
+            rules[j].style.margin = margins.top + ' ' + margins.right + ' ' + margins.bottom + ' ' + margins.left;
+          }
+        }
+      } catch(e) {}
+    }
+  }
+
+  // ── Overflow check ──
+  function checkOverflow() {
+    var page = document.getElementById('resume-page');
+    var warning = document.getElementById('overflow-warning');
+    // 11in in px at 96dpi = 1056
+    var margins = currentData && currentData.meta && currentData.meta.pageMargins;
+    var mt = margins ? parseFloat(margins.top) * 96 : 0.35 * 96;
+    var mb = margins ? parseFloat(margins.bottom) * 96 : 0.35 * 96;
+    var maxContent = 11 * 96 - mt - mb;
+    if (page.scrollHeight > maxContent + 20) {
+      warning.classList.add('visible');
+    } else {
+      warning.classList.remove('visible');
+    }
+  }
+
+  // ── Load resume from JSON ──
+  window.loadResume = function(name) {
+    if (!name) return;
+    var url = 'tailored_resumes/' + name + '.json';
+    fetch(url).then(function(r) {
+      if (!r.ok) {
+        // Try resume_data/ for templates
+        return fetch('resume_data/' + name + '.json');
+      }
+      return r;
+    }).then(function(r) {
+      if (!r.ok) throw new Error('Not found: ' + name);
+      return r.json();
+    }).then(function(data) {
+      currentData = data;
+      // Update toolbar
+      document.getElementById('toolbar-title').textContent =
+        (data.meta.company ? data.meta.company + ' — ' : '') + (data.meta.role || 'Resume');
+      document.getElementById('toolbar-date').textContent = data.meta.date || '';
+      // Set margins
+      setMargins(data.meta.pageMargins);
+      // Render
+      document.getElementById('resume-page').innerHTML = buildResume(data);
+      document.getElementById('jd-content').innerHTML = buildJD(data);
+      buildLegend(data.keywordGroups);
+      buildChangeLog(data.changeLog);
+      // Reset edit pane
+      var editTable = document.querySelector('#pane-edits table');
+      while (editTable.rows.length > 1) editTable.deleteRow(1);
+      document.querySelector('#pane-edits .log-empty').style.display = '';
+      // Check overflow
+      setTimeout(checkOverflow, 100);
+      // Update URL
+      history.replaceState(null, '', '?resume=' + name);
+    }).catch(function(err) {
+      console.error(err);
+      document.getElementById('resume-page').innerHTML =
+        '<div class="empty-state"><h2>Error loading resume</h2><p>' + err.message + '</p></div>';
+    });
+  };
+
+  // ── Populate dropdown from index ──
+  function loadIndex() {
+    fetch('tailored_resumes/index.json').then(function(r) { return r.json(); }).then(function(list) {
+      var sel = document.getElementById('resume-select');
+      list.forEach(function(item) {
+        var opt = document.createElement('option');
+        opt.value = item.file;
+        opt.textContent = item.label || item.file;
+        sel.appendChild(opt);
+      });
+      // Auto-load from URL param
+      var params = new URLSearchParams(window.location.search);
+      var resume = params.get('resume');
+      if (resume) {
+        sel.value = resume;
+        loadResume(resume);
+      }
+    }).catch(function() {
+      // No index file — just check URL param
+      var params = new URLSearchParams(window.location.search);
+      var resume = params.get('resume');
+      if (resume) loadResume(resume);
+    });
+  }
+
+  loadIndex();
+
+  // ══════════ MODE SWITCHING ══════════
+  window.setMode = function(mode) {
+    document.body.className = document.body.className.replace(/mode-\S+/g, '').trim();
+    if (mode !== 'clean') document.body.classList.add('mode-' + mode);
+    document.querySelectorAll('.diff-controls button[id^="btn-"]').forEach(function(b) {
+      if (b.id === 'btn-edit') return;
+      b.classList.remove('active');
+    });
+    var modeBtn = document.getElementById('btn-' + mode);
+    if (modeBtn) modeBtn.classList.add('active');
+    if (svg) svg.innerHTML = '';
+    if (editMode) document.body.classList.add('mode-edit');
+  };
+
+  // ── Log panel ──
+  window.toggleLog = function() { document.getElementById('log-panel').classList.toggle('visible'); };
+  window.switchTab = function(tab) {
+    document.querySelectorAll('.log-tab').forEach(function(t) { t.classList.remove('active'); });
+    document.querySelectorAll('.log-pane').forEach(function(p) { p.classList.remove('active'); });
+    document.querySelector('.log-tab[onclick*="' + tab + '"]').classList.add('active');
+    document.getElementById('pane-' + tab).classList.add('active');
+  };
+
+  if (!svg || !resumePanel || !jdPanel) return;
+
+  // ══════════ CONNECTION LINES ══════════
+  function drawLinesFor(resumeEl, jdIds) {
+    svg.innerHTML = '';
+    jdIds.forEach(function(jdId) {
+      var jdEl = document.getElementById(jdId.trim());
+      if (!jdEl) return;
+      var rRect = resumeEl.getBoundingClientRect();
+      var jRect = jdEl.getBoundingClientRect();
+      if (rRect.height === 0 || jRect.height === 0) return;
+      var x1 = rRect.right + 4, y1 = rRect.top + rRect.height / 2;
+      var x2 = jRect.left - 4,  y2 = jRect.top + jRect.height / 2;
+      y1 = Math.max(40, Math.min(window.innerHeight - 4, y1));
+      y2 = Math.max(40, Math.min(window.innerHeight - 4, y2));
+      var cp = Math.max(Math.abs(x2 - x1) * 0.35, 40);
+      var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      path.setAttribute('d', 'M '+x1+','+y1+' C '+(x1+cp)+','+y1+' '+(x2-cp)+','+y2+' '+x2+','+y2);
+      var cls = resumeEl.classList.contains('changed') ? 'conn-swap' :
+                resumeEl.classList.contains('reordered') ? 'conn-order' : 'conn-word';
+      path.classList.add(cls, 'active');
+      svg.appendChild(path);
+    });
+  }
+
+  function clearAll() {
+    svg.innerHTML = '';
+    document.querySelectorAll('.kw-active, [data-jd].active, .jd-hl.active').forEach(function(el) {
+      el.classList.remove('active', 'kw-active');
+    });
+  }
+
+  // ══════════ CHANGES MODE INTERACTIONS ══════════
+  document.addEventListener('mouseover', function(e) {
+    if (!document.body.classList.contains('mode-changes')) return;
+    var el = e.target.closest('[data-jd]');
+    if (el && resumePanel.contains(el)) {
+      clearAll(); el.classList.add('active');
+      var jdIds = el.dataset.jd.split(',');
+      jdIds.forEach(function(jdId) {
+        var jdEl = document.getElementById(jdId.trim());
+        if (jdEl) { jdEl.classList.add('active'); jdEl.scrollIntoView({ behavior: 'instant', block: 'center' }); }
+      });
+      requestAnimationFrame(function() { requestAnimationFrame(function() { drawLinesFor(el, jdIds); }); });
+    }
+  });
+
+  jdPanel.addEventListener('mouseover', function(e) {
+    if (!document.body.classList.contains('mode-changes')) return;
+    var mark = e.target.closest('.jd-hl');
+    if (mark) {
+      clearAll(); mark.classList.add('active');
+      document.querySelectorAll('[data-jd]').forEach(function(el) {
+        if (el.dataset.jd.split(',').map(function(s){return s.trim();}).indexOf(mark.id) >= 0) {
+          el.classList.add('active'); el.scrollIntoView({ behavior: 'instant', block: 'center' });
+          requestAnimationFrame(function() { requestAnimationFrame(function() { drawLinesFor(el, [mark.id]); }); });
+        }
+      });
+    }
+  });
+
+  document.addEventListener('mouseout', function(e) {
+    if (!document.body.classList.contains('mode-changes')) return;
+    var leaving = e.target.closest('[data-jd], .jd-hl');
+    var entering = e.relatedTarget ? e.relatedTarget.closest('[data-jd], .jd-hl') : null;
+    if (leaving && !entering) { svg.innerHTML = ''; document.querySelectorAll('.active').forEach(function(el){el.classList.remove('active');}); }
+  });
+
+  // ══════════ KEYWORDS MODE ══════════
+  var kwPinned = null;
+  function setKwGroup(group) {
+    document.body.classList.add('kw-hovering');
+    document.querySelectorAll('.kw-active').forEach(function(el) { el.classList.remove('kw-active'); });
+    document.querySelectorAll('.kw[data-kwg="'+group+'"], .jd-kw[data-kwg="'+group+'"]').forEach(function(el) { el.classList.add('kw-active'); });
+  }
+  function clearKwHover() {
+    if (kwPinned) return;
+    document.body.classList.remove('kw-hovering');
+    document.querySelectorAll('.kw-active').forEach(function(el) { el.classList.remove('kw-active'); });
+  }
+  document.addEventListener('mouseover', function(e) {
+    if (!document.body.classList.contains('mode-keywords') || kwPinned) return;
+    var kw = e.target.closest('.kw, .jd-kw');
+    if (kw && kw.dataset.kwg) setKwGroup(kw.dataset.kwg);
+  });
+  document.addEventListener('mouseout', function(e) {
+    if (!document.body.classList.contains('mode-keywords')) return;
+    var leaving = e.target.closest('.kw, .jd-kw');
+    var entering = e.relatedTarget ? e.relatedTarget.closest('.kw, .jd-kw') : null;
+    if (leaving && !entering) clearKwHover();
+  });
+  document.addEventListener('click', function(e) {
+    if (!document.body.classList.contains('mode-keywords')) return;
+    var kw = e.target.closest('.kw, .jd-kw');
+    if (kw && kw.dataset.kwg) {
+      var group = kw.dataset.kwg;
+      if (kwPinned === group) { kwPinned = null; clearKwHover(); }
+      else { kwPinned = group; setKwGroup(group); }
+      e.preventDefault();
+    } else if (kwPinned) { kwPinned = null; clearKwHover(); }
+  });
+
+  // ══════════ EDIT MODE + LOCALSTORAGE ══════════
+  var editMode = false;
+  var editables = [];
+  var savedEdits = [];
+  var STORAGE_KEY = 'resume-edits-viewer';
+
+  function updateStorageKey() {
+    if (currentData && currentData.meta) {
+      STORAGE_KEY = 'resume-edits-' + currentData.meta.company + '-' + currentData.meta.role + '-' + currentData.meta.date;
+    }
+  }
+
+  function loadSavedEdits() {
+    updateStorageKey();
+    try { var raw = localStorage.getItem(STORAGE_KEY); if (raw) savedEdits = JSON.parse(raw); } catch(e) {}
+    if (savedEdits.length) {
+      var table = document.querySelector('#pane-edits table');
+      var empty = document.querySelector('#pane-edits .log-empty');
+      if (empty) empty.style.display = 'none';
+      savedEdits.forEach(function(entry) {
+        var tr = document.createElement('tr');
+        tr.innerHTML = '<td class="ts">' + entry.ts + '</td><td>' + entry.label + '</td><td class="orig">' + entry.before.replace(/</g,'&lt;') + '</td><td class="new">' + entry.after.replace(/</g,'&lt;') + '</td>';
+        table.appendChild(tr);
+      });
+    }
+  }
+  function saveEdits() { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(savedEdits)); } catch(e) {} }
+
+  function getLabel(el) {
+    var job = el.closest('.job, .edu, .simple-list');
+    if (!job) return 'Summary';
+    var titleEl = job.querySelector('.job-title, .edu-school');
+    var label = titleEl ? titleEl.textContent.replace('(Work Sample)','').trim() : 'Resume';
+    if (el.tagName === 'LI') { var idx = Array.from(job.querySelectorAll('li')).indexOf(el); label += ' #' + (idx + 1); }
+    return label;
+  }
+
+  function logEdit(el, before, after) {
+    if (before === after) return;
+    var now = new Date();
+    var ts = now.getHours().toString().padStart(2,'0') + ':' + now.getMinutes().toString().padStart(2,'0') + ':' + now.getSeconds().toString().padStart(2,'0');
+    var entry = { ts: ts, label: getLabel(el), before: before, after: after };
+    savedEdits.push(entry); saveEdits();
+    var table = document.querySelector('#pane-edits table');
+    document.querySelector('#pane-edits .log-empty').style.display = 'none';
+    var tr = document.createElement('tr');
+    tr.innerHTML = '<td class="ts">' + ts + '</td><td>' + entry.label + '</td><td class="orig">' + entry.before.replace(/</g,'&lt;') + '</td><td class="new">' + entry.after.replace(/</g,'&lt;') + '</td>';
+    table.appendChild(tr);
+    document.getElementById('log-panel').classList.add('visible');
+    switchTab('edits');
+  }
+
+  function enableEditing() {
+    document.querySelectorAll('.resume-page li, .resume-page .summary').forEach(function(el) {
+      el.setAttribute('contenteditable', 'true');
+      el.setAttribute('spellcheck', 'true');
+      el._beforeEdit = el.textContent.trim();
+      el.addEventListener('blur', function() { logEdit(el, el._beforeEdit, el.textContent.trim()); el._beforeEdit = el.textContent.trim(); });
+      editables.push(el);
+    });
+  }
+  function disableEditing() {
+    editables.forEach(function(el) { el.removeAttribute('contenteditable'); el.removeAttribute('spellcheck'); });
+    editables = [];
+  }
+
+  window.toggleEditMode = function() {
+    editMode = !editMode;
+    var btn = document.getElementById('btn-edit');
+    if (editMode) { document.body.classList.add('mode-edit'); btn.classList.add('active'); enableEditing(); }
+    else { document.body.classList.remove('mode-edit'); btn.classList.remove('active'); disableEditing(); }
+  };
+})();
+</script>
+</body>
+</html>

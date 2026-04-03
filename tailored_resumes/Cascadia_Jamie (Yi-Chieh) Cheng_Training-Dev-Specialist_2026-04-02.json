@@ -1,0 +1,371 @@
+{
+  "meta": {
+    "company": "Cascadia",
+    "role": "Training Dev Specialist",
+    "date": "2026-04-02",
+    "pageMargins": {
+      "top": "0.66in",
+      "right": "0.45in",
+      "bottom": "0.35in",
+      "left": "0.45in"
+    }
+  },
+  "header": {
+    "location": "Relocating to Portland, Oregon in May 2026"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Organization & Talent Development</b> professional who thrives on <b>uncovering learning needs via data analysis</b>, <b>developing learning experiences grounded in insights</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve <b>people development</b>—through human-centered, systematic approaches.",
+  "keywordGroups": {
+    "coord": "Training/Facilitation",
+    "data": "L&D/Needs Assessment",
+    "tools": "LMS/Tech Systems",
+    "cross": "Collaboration/Staff",
+    "ex": "DEI/Equity",
+    "prog": "Programs/Onboarding/Onboarding"
+  },
+  "experience": [
+    {
+      "id": "odn",
+      "title": "Consultant, Organizational Development & Employee Engagement",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Upskill HR team in data analysis to audit 300+ leave cases, successfully refuting cost assumptions via evidence-based {data|insights}",
+          "change": null
+        },
+        {
+          "text": "Empower HR to present executive-ready {data|insights} on $362K in leave costs, leading to policy redesigns and first aid training",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Facilitate training webinars for 600+ participants, enhancing product understanding and driving a 78% client conversion rate",
+          "change": "reorder",
+          "was": 3,
+          "jd": [
+            "jd1"
+          ],
+          "reason": "Merged facilitate + execute/product training into one bullet — removes duplication, retains 600+ metric and conversion rate"
+        },
+        {
+          "text": "Conduct needs assessments with 25+ global stakeholders to identify {ld|training needs} and design 3 new educational programs",
+          "change": "reorder",
+          "was": 1,
+          "jd": [
+            "jd2"
+          ],
+          "reason": "JD explicitly requires training needs assessment; reordered to surface this second"
+        },
+        {
+          "text": "Develop guides and workflows for 70+ cross-functional {collab|staff}, improving {ld|staff knowledge} and reducing {prog|onboarding} time by 75%",
+          "change": "reorder",
+          "was": 2,
+          "jd": [
+            "jd3"
+          ],
+          "reason": "Onboarding and staff knowledge development directly match JD duties; reordered to #3"
+        },
+        {
+          "text": "Collaborate with cross-functional teams to launch 15+ educational products, refining program positioning, delivery strategy, and operations via feedback analysis",
+          "change": "swap",
+          "original": "Execute a new product training program by hosting live sessions and producing videos that reached 500+ participants",
+          "reason": "JD: participate in workgroups, represent P&C team, agency collaboration — culture-building angle fits Cascadia's mission-driven nonprofit context"
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Provided consultations to improve strategic plans and internal {train|training} on {dei|DEI, Inclusive Leadership}, and performance review",
+          "change": "reorder",
+          "was": 3,
+          "jd": [
+            "jd4"
+          ],
+          "reason": "DEI + internal training leads — Cascadia is an HSI with explicit equity values; signals DEI training alignment"
+        },
+        {
+          "text": "Elevated employee experience through {ld|L&D projects} focused on engagement, rewards & recognition, and survey development",
+          "change": "reorder",
+          "was": 4,
+          "jd": [
+            "jd5"
+          ],
+          "reason": "L&D projects bullet leads with learning emphasis matching T&D Specialist role"
+        },
+        {
+          "text": "Led a manager effectiveness initiative, transforming feedback data into actionable reports that informed {ld|L&D strategies}",
+          "change": null
+        },
+        {
+          "text": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on {ld|L&D priorities}",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Initiated a {dei|DEI} pilot with an {train|Inclusive Leadership workshop} for 12 senior leaders, later expanded to 23 other global locations",
+          "change": "reorder",
+          "was": 3,
+          "jd": [
+            "jd4"
+          ],
+          "reason": "DEI facilitation leads — Inclusive Leadership workshop directly shows training facilitation + Cascadia's equity mission alignment"
+        },
+        {
+          "text": "Optimized {prog|onboarding} across 3 global locations by coordinating process analysis and clarifying job responsibilities",
+          "change": "reorder",
+          "was": 1,
+          "jd": [
+            "jd3"
+          ],
+          "reason": "Onboarding support is an explicit JD duty — surfacing this second signals direct match"
+        },
+        {
+          "text": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, overseeing cross-functional stakeholders",
+          "change": null
+        },
+        {
+          "text": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors",
+          "change": null
+        },
+        {
+          "text": "Designed and {train|facilitated} a 3-week English immersion {ld|curriculum} for 12 international students, incorporating feedback-driven adjustments to continuously improve {ld|learning outcomes}",
+          "change": null
+        },
+        {
+          "text": "Delivered culturally responsive lessons, adjusting content and pacing in real time to meet {dei|learner needs} and maintain engagement",
+          "change": null
+        },
+        {
+          "text": "Developed {ld|instructional materials}—slides, worksheets, and activities—aligned to learning objectives to support knowledge retention and skill application",
+          "change": null
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": [
+        "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
+      ]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Enhanced <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition scholarship), Tuck Bridge Scholarship (Full Scholarship)"
+  ],
+  "skills": [
+    "<b>Technical Skills:</b> LMS (Canvas, Moodle-user) · MS Office (Word, PowerPoint) · Data Analysis (SPSS, Excel) · Adobe InDesign · Canva",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "",
+    "sections": [
+      {
+        "title": "Position Overview",
+        "type": "paragraph",
+        "content": "The {train|Training and Development Specialist} works within the People and Culture department to {train|develop, implement, and facilitate} live and online trainings. Assists with {prog|onboarding new staff}, administers the {tech|LMS}, and facilitates trainings supporting a wide range of staff. Person-first, {dei|trauma-informed} approach required."
+      },
+      {
+        "title": "Live Training Facilitation",
+        "type": "list",
+        "items": [
+          {
+            "id": "jd1",
+            "changeType": "reorder",
+            "text": "Facilitate {train|in-person and virtual training} for new hires, including foundational technology systems training",
+            "reason": "InGenius #1: \"Facilitate training webinars for 600+ participants\" — reordered to lead"
+          },
+          {
+            "id": "jd2",
+            "changeType": "reorder",
+            "text": "Develop and provide training: {train|DEI, Inclusive Leadership}, management, safety, EHR documentation",
+            "reason": "NextGen #1: \"internal training on DEI, Inclusive Leadership\" — reordered to lead<br>→ Vestas #1: DEI Inclusive Leadership workshop"
+          },
+          {
+            "text": "Facilitate independently for {train|up to 8 hours (all day)}, in person or virtually"
+          }
+        ]
+      },
+      {
+        "title": "Technology & LMS Administration",
+        "type": "list",
+        "items": [
+          {
+            "id": "jd3",
+            "changeType": "word",
+            "text": "{tech|LMS administration}: user accounts, modules, training plans, auto-enrollments, reports",
+            "reason": "Skills line: LMS (Canvas, Moodle) + MS Office & Teams — word swap adds Teams"
+          },
+          {
+            "text": "Train staff in {tech|LMS, EHR, HRIS, Microsoft Teams}"
+          }
+        ]
+      },
+      {
+        "title": "Collaboration & Needs Assessment",
+        "type": "list",
+        "items": [
+          {
+            "id": "jd4",
+            "changeType": "reorder",
+            "text": "Assess agency {ld|training needs}; develop and implement instructional material",
+            "reason": "InGenius #2: word swap \"learning gaps\" → \"training needs\" — direct terminology match"
+          },
+          {
+            "id": "jd5",
+            "changeType": "reorder",
+            "text": "Participate in workgroups; represent {collab|training team and P&C department}",
+            "reason": "NextGen #2: \"L&D projects\" — reordered to surface learning emphasis"
+          },
+          {
+            "text": "{prog|Assist with onboarding new staff} and support staff at all levels of the agency"
+          }
+        ]
+      },
+      {
+        "title": "Qualifications",
+        "type": "list",
+        "items": [
+          {
+            "text": "Bachelor's Degree in related field preferred"
+          },
+          {
+            "text": "2 years experience providing training or teaching required"
+          },
+          {
+            "text": "{train|Virtual facilitation} experience strongly preferred"
+          },
+          {
+            "text": "Knowledge of {ld|training curriculum design and implementation}"
+          }
+        ]
+      },
+      {
+        "title": "H1B Status",
+        "type": "paragraph",
+        "content": "🏛️ Cap-Exempt — Cascadia Health is a nonprofit behavioral health organization; qualifies as cap-exempt employer under INA §214(g)(5)."
+      }
+    ]
+  },
+  "changeLog": [
+    {
+      "location": "Summary",
+      "type": "word",
+      "before": "solving problems through data analysis / developing people programs",
+      "after": "designing and facilitating training programs / developing learning experiences",
+      "why": "JD core duties: training facilitation + L&D design — front-loading these in summary signals direct competency match"
+    },
+    {
+      "location": "InGenius #1",
+      "type": "reorder",
+      "before": "was #3: Conduct needs assessments",
+      "after": "now #1: Facilitate training webinars for 600+",
+      "why": "Facilitation is the #1 JD requirement — leading with 600+ facilitation metric signals core competency"
+    },
+    {
+      "location": "InGenius #2",
+      "type": "reorder",
+      "before": "was #1: Conduct needs assessments",
+      "after": "now #2: Conduct needs assessments (training needs)",
+      "why": "JD explicitly requires training needs assessment; reordered to surface early"
+    },
+    {
+      "location": "InGenius #2",
+      "type": "word",
+      "before": "identify learning gaps",
+      "after": "identify training needs",
+      "why": "JD uses \"training needs assessment\" — direct terminology alignment"
+    },
+    {
+      "location": "InGenius #3",
+      "type": "reorder",
+      "before": "was #2: Develop guides and workflows",
+      "after": "now #3: Develop guides and workflows (staff knowledge)",
+      "why": "Onboarding and staff knowledge development directly match JD duties"
+    },
+    {
+      "location": "InGenius #3",
+      "type": "word",
+      "before": "improving program knowledge",
+      "after": "improving staff knowledge",
+      "why": "JD uses \"staff\" throughout; \"staff knowledge\" matches org context (behavioral health staff)"
+    },
+    {
+      "location": "NextGen #1",
+      "type": "reorder",
+      "before": "was #3",
+      "after": "now #1: DEI, Inclusive Leadership training",
+      "why": "DEI + internal training leads — Cascadia is an HSI with explicit equity values"
+    },
+    {
+      "location": "NextGen #2",
+      "type": "reorder",
+      "before": "was #4",
+      "after": "now #2: L&D projects",
+      "why": "L&D emphasis matches T&D Specialist role focus"
+    },
+    {
+      "location": "Vestas #1",
+      "type": "reorder",
+      "before": "was #3",
+      "after": "now #1: DEI Inclusive Leadership workshop",
+      "why": "Facilitation + DEI alignment with Cascadia's mission as an HSI"
+    },
+    {
+      "location": "Vestas #2",
+      "type": "reorder",
+      "before": "was #1",
+      "after": "now #2: Onboarding",
+      "why": "JD explicitly asks to \"assist with onboarding new staff\" — surfaces this skill directly"
+    },
+    {
+      "location": "Skills",
+      "type": "word",
+      "before": "HRIS (SAP) · ATS (Greenhouse) · MS Office (Word, PowerPoint)",
+      "after": "HRIS · LMS (Canvas, Moodle) · MS Office & Teams",
+      "why": "JD specifically mentions LMS admin + Microsoft Teams training — LMS is core to the role; Teams signals direct tool familiarity"
+    }
+  ]
+}

@@ -83,9 +83,8 @@ This applies to every new resume created — both the HTML working file and the 
 - **Section header margin:** `margin: 6pt 0 3pt 0` as baseline; increase if content is short and page has bottom gap
 - **Job spacing:** Use `.job { margin-bottom: 7pt; }` as baseline; adjust up if page has bottom gap
 - **Font sizes:** body `9.5pt`, bullet `li` elements `9.2pt`, summary `9pt` — these are the readable standard. Do not go below `9.2pt` body without explicit instruction
-- **Page margins:** `0.35in 0.45in 0.35in 0.45in` (top right bottom left) — tighter than default to give font more room
-- **Vertical centering:** After export, measure actual top and bottom blank using pixel scan (content start y / dpi = top blank; (h - content end y) / dpi = bottom blank). Adjust top margin until top blank ≈ bottom blank. Formula: new_top_margin = (top_blank + bottom_blank) / 2. Bottom margin stays at 0.35in.
-- **Top/bottom balance:** After exporting, visually verify the blank space at the bottom is roughly equal to the top margin. If bottom-heavy, increase top margin (not job margins) to shift content down toward center
+- **Page margins (HARD REQUIREMENT):** All four margins (top, bottom, left, right) MUST be consistent and balanced in the final PDF. Default: `0.35in 0.45in 0.35in 0.45in` (top right bottom left). Adjust via `meta.pageMargins` in the JSON. After export, verify all four margins are even — this is non-negotiable.
+- **Vertical centering:** After export, visually verify the blank space at the bottom is roughly equal to the top margin. If bottom-heavy, increase top margin (not job margins) to shift content down toward center
 - **Bullet point check:** After export, render a PNG preview and confirm no bullet wraps to a second line
 - **Bullet characters:** Always add literal `•` text nodes to `<li>` elements (via BeautifulSoup) and set `list-style: none` so bullets copy-paste correctly from the PDF
 - **One page rule:** Resume must always fit on exactly one page — verify page count after every PDF export

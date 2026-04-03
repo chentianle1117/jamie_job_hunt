@@ -1,0 +1,444 @@
+{
+  "meta": {
+    "company": "WGU",
+    "role": "People Analytics Partner I",
+    "date": "2026-03-31",
+    "pageMargins": {
+      "top": "0.65in",
+      "right": "0.45in",
+      "bottom": "0.35in",
+      "left": "0.45in"
+    }
+  },
+  "header": {
+    "location": "Portland, OR (Open to Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Organization & Talent Development</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing insights grounded in evidence</b>, and <b>collaborating with stakeholders</b> to drive data-informed decisions. Expect me to always be seeking ways we can improve people development—through human-centered, systematic approaches.",
+  "keywordGroups": {
+    "data": "Data/Analytics",
+    "coord": "Governance/Accuracy",
+    "cross": "Stakeholders/Collab",
+    "ex": "Confidentiality/HR",
+    "tools": "Tools/BI",
+    "prog": "Reporting/Metrics"
+  },
+  "experience": [
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Upskill HR team in {data|data analytics} to audit 300+ sensitive leave cases and refute cost assumptions via {data|evidence-based analysis}",
+          "change": "swap",
+          "original": "Upskill HR team in data analytics to audit 300+ leave cases, successfully refuting cost assumptions via evidence-based insights",
+          "jd": [
+            "jd1"
+          ],
+          "reason": "JD asks for 'data literacy advocate' and 'auditing data irregularities' — this bullet hits both directly"
+        },
+        {
+          "text": "Guided HR leaders to quantify $362K in {data|absenteeism costs} and create executive-ready {data|data reports} driving policy redesigns and training",
+          "change": "swap",
+          "original": "Empower HR leadership team to present executive-ready deliverables on $362K in costs, driving policy redesigns and process improvements",
+          "jd": [
+            "jd2"
+          ],
+          "reason": "JD emphasizes dashboards/visualizations + data-driven decision-making — reframed to lead with the data analysis action"
+        }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Conduct needs assessments with 25+ global {cross|stakeholders}, surfacing {data|learning gap insights} to co-design 3 tailored programs",
+          "change": "reorder",
+          "was": 3,
+          "jd": [
+            "jd3"
+          ],
+          "reason": "JD's top priority is 'partner with stakeholders to understand reporting and analytics needs' — leads with that"
+        },
+        {
+          "text": "Develop process documentation, digital resource libraries, and workflows for 70+ {cross|cross-functional} staff, cutting onboarding time by 75%",
+          "change": "swap",
+          "original": "Develop process documentation and operational resources for 70+ staff, streamlining workflows and reducing onboarding time by 75%",
+          "jd": [
+            "jd4"
+          ],
+          "reason": "JD asks for 'develop and document new processes to accurately report on critical data' — guides/workflows framing is more concrete"
+        },
+        {
+          "text": "Facilitate training webinars for 600+ participants, increasing {ex|program understanding} and driving 78% enrollment rate",
+          "change": "swap",
+          "original": "Coordinate communications and training materials for 600+ participants, supporting program delivery and driving 75% enrollment rate",
+          "jd": [
+            "jd5"
+          ],
+          "reason": "JD calls for 'data literacy advocate — training on analytics tools via job-aids and training materials' — this bullet mirrors that directly"
+        },
+        {
+          "text": "Manage end-to-end lifecycles for 20+ projects, utilizing {data|feedback analysis} to optimize operational strategies and vendor performance",
+          "change": "swap",
+          "original": "Manage end-to-end lifecycles for 20+ cross-functional initiatives, tracking milestones and progress to drive seamless execution",
+          "jd": [
+            "jd6"
+          ],
+          "reason": "JD emphasizes continuous improvement via feedback analysis and metrics — this variant surfaces that directly"
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Analyzed 2,000+ employee {data|survey data}, surfacing {data|insights} and key engagement drivers to recommend C-suite actions",
+          "change": "reorder",
+          "was": 2,
+          "jd": [
+            "jd7"
+          ],
+          "reason": "Strongest data analytics bullet — leads with the actual analysis action; JD prioritizes workforce data analysis above all"
+        },
+        {
+          "text": "Led manager effectiveness initiative, translating {data|data} into an executive-ready presentation to inform training strategy",
+          "change": "reorder",
+          "was": 1,
+          "jd": [
+            "jd8"
+          ],
+          "reason": "Translating data into executive-ready reports = 'dashboards and visualizations that tell a clear story' per JD"
+        },
+        {
+          "text": "Managed weekly {prog|SharePoint dashboards} for people metrics, Net Promoter Score, and {data|survey insights} to drive employee recognition",
+          "change": "swap",
+          "original": "Coordinated 5 cross-functional projects focused on survey development, rewards & recognition, and L&D to improve employee experience",
+          "jd": [
+            "jd9"
+          ],
+          "reason": "JD preferred qual mentions 'survey design' — surfaces this experience more directly"
+        },
+        {
+          "text": "Improved employee experience via 5 {cross|cross-functional} projects in {data|survey development}, performance review, and L&D",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Assisted leadership in headcount forecasting; analyzed historical {data|workforce data} to project future headcounts via {data|graphs}",
+          "change": "reorder",
+          "was": 4,
+          "jd": [
+            "jd10"
+          ],
+          "reason": "JD explicitly requires 'ability to work with sensitive employee data, maintaining confidentiality' — leads with that signal"
+        },
+        {
+          "text": "Streamlined onboarding across 3 global sites; interviewed {cross|stakeholders} to clarify responsibilities and map new team workflows",
+          "change": null
+        },
+        {
+          "text": "Initiated a DEI Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 global locations",
+          "change": null
+        },
+        {
+          "text": "Supported 5 {cross|cross-functional} HR projects in talent development, succession, and {ex|Employee Relations}; upheld alignment and {ex|confidentiality}",
+          "change": "swap",
+          "original": "Led change management coordination for an M&A project, aligning cross-functional stakeholders and documenting decisions and outcomes",
+          "jd": [
+            "jd11"
+          ],
+          "reason": "Combined ER cases + cross-functional project breadth (succession planning, L&D, survey dev) to surface confidentiality + program scope"
+        }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Managed {cross|cross-functional} HR operations spanning recruitment, compensation analysis, and performance management globally",
+          "change": null
+        },
+        {
+          "text": "Coordinated end-to-end international talent acquisition, including job descriptions, postings, and global compensation benchmarking",
+          "change": null
+        },
+        {
+          "text": "Drove a 566% increase in applications in 2 months through personalized global outreach and talent engagement",
+          "change": null
+        },
+        {
+          "text": "Planned and executed recruiting events and C-suite panels at top 3 universities, engaging 230+ students and generating 80+ applicants",
+          "change": null
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Industrial-Organizational (IO) Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Applied Statistics, Group Dynamics & Leadership"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": []
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Enhanced <b>Elanco Animal Health</b> employer branding and talent strategy via survey design and execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-methods research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Data & PM Tools:</b> Data Analysis (SPSS, Excel, Google Sheets, Tableau) · Project Management (Asana, Airtable)",
+    "<b>Productivity:</b> Knowledge Management (SharePoint, Notion) · AI Tools (ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint)",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "WGU — People Analytics Partner I · Salt Lake City, UT · $72,000–$108,000",
+    "sections": [
+      {
+        "title": "Role Overview",
+        "type": "paragraph",
+        "content": "The {data|People Analytics} team uncovers {data|data-driven insights}, understands the talent lifecycle, and enables transformational change. This role supports {prog|people data and analytics}, creates {prog|dashboards and visualizations} through storytelling, and builds {data|data literacy} across the organization."
+      },
+      {
+        "title": "Key Responsibilities",
+        "type": "list",
+        "items": [
+          {
+            "id": "jd1",
+            "changeType": "swap",
+            "text": "Acts as a {data|data literacy} advocate — broadening internal knowledge of analytics tools through {data|job-aids and training materials}",
+            "reason": "ODN bullet 1: upskilling HR team in data analytics"
+          },
+          {
+            "id": "jd2",
+            "changeType": "swap",
+            "text": "Assists in creating {prog|dashboards and visualizations}; supports {data|workforce data} analysis for {data|data-driven decision-making}",
+            "reason": "ODN bullet 2: analyzing workforce data, executive dashboards on $362K costs"
+          },
+          {
+            "id": "jd3",
+            "changeType": "reorder",
+            "text": "Partners with {cross|stakeholders} to understand {prog|reporting and analytics needs}, answers questions, and provides recommendations",
+            "reason": "InGenius bullet 1 (reordered to #1): needs assessments with 25+ global stakeholders"
+          },
+          {
+            "id": "jd4",
+            "changeType": "swap",
+            "text": "Helps develop and document new {coord|processes} to accurately report on critical data",
+            "reason": "InGenius bullet 2: guides and workflows for 70+ staff"
+          },
+          {
+            "id": "jd5",
+            "changeType": "swap",
+            "text": "Builds {data|data literacy} through communication and {data|training on analytics tools}",
+            "reason": "InGenius bullet 3: training webinars for 600+ participants"
+          },
+          {
+            "id": "jd6",
+            "changeType": "swap",
+            "text": "Supports {coord|process improvement} projects by delivering {prog|metrics} to support business case development",
+            "reason": "InGenius bullet 4: refining strategy via feedback analysis"
+          },
+          {
+            "id": "jd7",
+            "changeType": "reorder",
+            "text": "Analyzed {data|employee survey data} to report insights and recommend actions — {data|data-driven} HR decisions",
+            "reason": "NextGen bullet 1 (reordered to #1): analyzed 2,000+ employee survey data points"
+          },
+          {
+            "id": "jd8",
+            "changeType": "reorder",
+            "text": "Translating {data|data} into executive-ready reports to inform leadership decisions — {prog|data storytelling}",
+            "reason": "NextGen bullet 2 (reordered to #2): manager effectiveness initiative"
+          },
+          {
+            "id": "jd9",
+            "changeType": "swap",
+            "text": "{data|Survey development} and cross-functional EX projects",
+            "reason": "NextGen bullet 3: survey development preferred qual match"
+          },
+          {
+            "id": "jd10",
+            "changeType": "reorder",
+            "text": "Ability to work with sensitive employee data, maintaining {ex|confidentiality}",
+            "reason": "Vestas bullet 1 (reordered to #1): confidentiality in succession planning"
+          },
+          {
+            "id": "jd11",
+            "changeType": "swap",
+            "text": "Assists in employee relations cases, ensuring compliance and {ex|confidentiality}",
+            "reason": "Vestas bullet 4 (swapped): ER case handling with confidentiality"
+          }
+        ]
+      },
+      {
+        "title": "Qualifications",
+        "type": "list",
+        "items": [
+          {
+            "text": "Bachelor’s in HR, Data Analytics, IO Psychology, or related ✅ (MS Applied Org Psych)"
+          },
+          {
+            "text": "0–1 years data analytics/reporting experience ✅ (NextGen + ODN)"
+          },
+          {
+            "text": "Basic understanding of data analytics and statistics ✅ (SPSS, survey analysis)"
+          },
+          {
+            "text": "Work with sensitive employee data + confidentiality ✅"
+          },
+          {
+            "text": "Workday Reporting ⚠️ (not claimed — gap; entry-level, trainable)"
+          },
+          {
+            "text": "BI tools (Power BI, Tableau, Looker) ⚠️ (SPSS + Excel foundation; gap noted)"
+          }
+        ]
+      },
+      {
+        "title": "✅ H1B Status",
+        "type": "paragraph",
+        "content": "WGU = accredited university → CAP-EXEMPT. No lottery risk. Green light."
+      }
+    ]
+  },
+  "changeLog": [
+    {
+      "location": "ODN #1",
+      "type": "swap",
+      "before": "Empower HR to present executive-ready deliverables on $362K…driving policy redesigns",
+      "after": "Upskill HR team in data analytics to audit 300+ leave cases, refuting cost assumptions via evidence-based insights",
+      "why": "JD: \"data literacy advocate\" + \"audit data irregularities\" — direct match"
+    },
+    {
+      "location": "ODN #2",
+      "type": "swap",
+      "before": "Consult with executive leadership to redesign accountability structures…",
+      "after": "Analyze workforce data on absenteeism to quantify $362K; empower HR to present executive-ready dashboards driving policy redesigns",
+      "why": "JD: dashboards/visualizations + data-driven decision-making — reframed to lead with the analysis action"
+    },
+    {
+      "location": "InGenius #1",
+      "type": "reorder",
+      "before": "was #3",
+      "after": "now #1",
+      "why": "JD top priority: \"partner with stakeholders to understand reporting and analytics needs\""
+    },
+    {
+      "location": "InGenius #2",
+      "type": "swap",
+      "before": "Develop process documentation and operational resources for 70+ staff…",
+      "after": "Develop guides and workflows for 70+ cross-functional staff…",
+      "why": "JD: \"develop and document new processes to accurately report on critical data\""
+    },
+    {
+      "location": "InGenius #3",
+      "type": "swap",
+      "before": "Coordinate communications and training materials for 600+ participants…75% enrollment rate",
+      "after": "Facilitate training webinars for 600+ participants…78% client conversion rate",
+      "why": "JD: \"data literacy advocate — training on analytics tools via job-aids and training materials\""
+    },
+    {
+      "location": "InGenius #4",
+      "type": "swap",
+      "before": "Manage end-to-end lifecycles for 20+ cross-functional initiatives, tracking milestones…",
+      "after": "Manage 20+ programs and 10+ vendors, refining strategy via feedback analysis",
+      "why": "JD: continuous improvement via metrics and feedback analysis"
+    },
+    {
+      "location": "NextGen #1",
+      "type": "reorder",
+      "before": "was #2",
+      "after": "now #1",
+      "why": "Strongest data analytics bullet — JD prioritizes workforce data analysis"
+    },
+    {
+      "location": "NextGen #1",
+      "type": "word",
+      "before": "employee data points",
+      "after": "employee survey data points",
+      "why": "JD preferred qual: \"survey design\" — surfaces that experience"
+    },
+    {
+      "location": "NextGen #2",
+      "type": "reorder",
+      "before": "was #1",
+      "after": "now #2",
+      "why": "Data storytelling framing supports \"dashboards and visualizations\" JD theme"
+    },
+    {
+      "location": "NextGen #3",
+      "type": "swap",
+      "before": "Coordinated 5 cross-functional projects focused on survey development, rewards & recognition…",
+      "after": "Elevated EX through projects in engagement, survey development, and L&D…",
+      "why": "JD preferred: \"survey design\" — more direct framing"
+    },
+    {
+      "location": "Vestas #1",
+      "type": "reorder",
+      "before": "was #4",
+      "after": "now #1",
+      "why": "JD requires: \"work with sensitive employee data, maintaining confidentiality\" — leads with that signal"
+    },
+    {
+      "location": "Vestas #4",
+      "type": "swap",
+      "before": "Led change management coordination for M&A project…",
+      "after": "Assisted in employee relations cases, ensuring compliance with local labor laws and confidentiality",
+      "why": "ER case handling + confidentiality more relevant than M&A for analytics role"
+    },
+    {
+      "location": "Skills",
+      "type": "reorder",
+      "before": "Project Management listed first",
+      "after": "Data Analysis listed first",
+      "why": "JD is analytics-focused — data tools should lead the skills line"
+    },
+    {
+      "location": "Skills",
+      "type": "word",
+      "before": "Data Analysis (SPSS, Google Sheets, Excel)",
+      "after": "Data Analysis (SPSS, Excel, Google Sheets, data visualization)",
+      "why": "JD: \"data visualization\" is a core requirement — surfaced explicitly"
+    }
+  ]
+}

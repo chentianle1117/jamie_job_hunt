@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "company": "WGU",
+    "role": "Program Dev Ops Manager",
+    "date": "2026-03-31",
+    "pageMargins": {
+      "top": "0.69in",
+      "right": "0.45in",
+      "bottom": "0.35in",
+      "left": "0.45in"
+    }
+  },
+  "header": {
+    "location": "Portland, OR (Open to Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Program Development & Operations</b> professional who thrives on <b>coordinating strategic initiatives</b>, <b>developing processes grounded in data</b>, and <b>aligning stakeholders for sustainable organizational impact</b>. Expect me to always be seeking ways we can improve <b>operational efficiency and team alignment</b>—through human-centered, systematic approaches.",
+  "keywordGroups": {
+    "data": "Data/Analysis",
+    "coord": "Coordinate/Ops",
+    "cross": "Cross-functional",
+    "ex": "People/EX",
+    "tools": "Tools",
+    "prog": "Programs"
+  },
+  "experience": [
+    {
+      "id": "odn",
+      "title": "Consultant, Organization Development & Operations",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Empower HR leadership team to present executive-ready deliverables on $362K in costs, driving {coord|policy redesigns} and {coord|process improvements}",
+          "change": null
+        },
+        {
+          "text": "Consult with executive leadership to redesign accountability structures and clarify {cross|cross-functional} roles in support of a 2-year {prog|strategic plan}",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Manage end-to-end lifecycles for 20+ {prog|cross-functional initiatives}, tracking {coord|milestones} and progress to drive seamless execution",
+          "change": null
+        },
+        {
+          "text": "Develop {coord|process documentation} and {coord|operational resources} for 70+ staff, streamlining workflows and reducing onboarding time by 75%",
+          "change": null
+        },
+        {
+          "text": "Coordinate {cross|cross-functional} needs assessments with 25+ global {cross|stakeholders} to inform {prog|strategic planning} and learning program design",
+          "change": null
+        },
+        {
+          "text": "Coordinate {coord|communications} and training materials for 600+ participants, supporting program delivery and driving 75% enrollment rate",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Led manager effectiveness {prog|strategic initiative}, translating data into executive-ready reports to inform {cross|leadership} decisions and strategy",
+          "change": null
+        },
+        {
+          "text": "Analyzed 2,000+ employee data points, communicating {data|insights} to {cross|C-suite stakeholders} to guide decisions on organizational priorities",
+          "change": null
+        },
+        {
+          "text": "Supported leadership in advancing {prog|strategic initiatives} through consultations and training spanning DEI and performance management",
+          "change": null
+        },
+        {
+          "text": "Coordinated 5 {cross|cross-functional} projects focused on survey development, rewards & recognition, and L&D to improve employee experience",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Led {coord|change management} coordination for an M&A project, aligning {cross|cross-functional stakeholders} and documenting decisions and outcomes",
+          "change": null
+        },
+        {
+          "text": "Streamlined {coord|onboarding processes} across 3 global locations via {coord|process improvement} and gap analysis, clarifying cross-team responsibilities",
+          "change": null
+        },
+        {
+          "text": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later scaled to 23 global locations",
+          "change": null
+        },
+        {
+          "text": "Delivered {prog|strategic HR solutions} in talent management and succession planning, ensuring {cross|organizational alignment} and confidentiality",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Managed cross-functional HR operations spanning recruitment, compensation analysis, and performance management globally",
+          "change": null
+        },
+        {
+          "text": "Coordinated end-to-end international talent acquisition, including job descriptions, postings, and global compensation benchmarking",
+          "change": null
+        },
+        {
+          "text": "Drove a 566% increase in applications in 2 months through personalized global outreach and stakeholder engagement",
+          "change": null
+        },
+        {
+          "text": "Planned and executed recruiting events and C-suite panels at top 3 universities, engaging 230+ students and generating 80+ applicants",
+          "change": null
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": []
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Enhanced <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-methods",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition scholarship), Tuck Bridge Scholarship (Full Scholarship)"
+  ],
+  "skills": [
+    "<b>Technical Skills:</b> Project Management (Asana, Airtable) · Knowledge Management (SharePoint, Notion, Google Workspace) · AI Productivity (ChatGPT, Gemini) · Data Analysis (SPSS, Google Sheets, Excel) · Microsoft Office (Word, PowerPoint)",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "WGU — Program Development Operations Manager · Salt Lake City, UT · $88,300–$132,400",
+    "sections": [
+      {
+        "title": "Role Overview",
+        "type": "paragraph",
+        "content": "Provides {coord|strategic and operational support} to Program Development leadership. Coordinates {prog|strategic initiatives}, strengthens {coord|communications}, and helps establish {coord|processes} to keep teams {cross|aligned on priorities}. Central resource for {coord|change management} and ensuring key decisions are communicated clearly."
+      },
+      {
+        "title": "Key Responsibilities",
+        "type": "list",
+        "items": [
+          {
+            "text": "{coord|Coordinate projects and initiatives} across teams; track {coord|milestones, deliverables}, and progress"
+          },
+          {
+            "text": "Facilitate {cross|stakeholder communication} and {cross|cross-functional collaboration}"
+          },
+          {
+            "text": "Coordinate {coord|leadership communications}; prepare materials for initiatives and priorities"
+          },
+          {
+            "text": "Support {coord|change management} and {coord|process improvement} efforts"
+          },
+          {
+            "text": "Maintain {coord|process documentation} and operational resources"
+          },
+          {
+            "text": "Support {prog|strategic initiative} planning, tracking, and execution"
+          }
+        ]
+      },
+      {
+        "title": "Qualifications",
+        "type": "list",
+        "items": [
+          {
+            "text": "Bachelor’s degree in business, org leadership, PM, or related ✅"
+          },
+          {
+            "text": "Experience supporting projects, strategic initiatives, operations ✅"
+          },
+          {
+            "text": "5+ years preferred ⚠️ (~3 years)"
+          },
+          {
+            "text": "Higher education experience preferred ⚠️ (not direct)"
+          }
+        ]
+      },
+      {
+        "title": "✅ H1B Status",
+        "type": "paragraph",
+        "content": "WGU = accredited university → CAP-EXEMPT. No lottery risk. Green light."
+      }
+    ]
+  },
+  "changeLog": []
+}

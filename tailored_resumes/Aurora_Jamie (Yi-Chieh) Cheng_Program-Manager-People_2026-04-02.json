@@ -1,0 +1,306 @@
+{
+  "meta": {
+    "company": "Aurora",
+    "role": "Program Manager People",
+    "date": "2026-04-02",
+    "pageMargins": {
+      "top": "0.35in",
+      "right": "0.45in",
+      "bottom": "0.35in",
+      "left": "0.45in"
+    }
+  },
+  "header": {
+    "location": "2695 S Water St, Pittsburgh, PA"
+  },
+  "summary": "I’m Jamie—a curious, people-loving (97% extrovert!) <b>Program Manager</b> who thrives on <b>driving {prog|continuous improvement} through data analysis</b>, <b>developing {prog|programs} grounded in insights</b>, and <b>{cross|collaborating with stakeholders} for sustainable impact</b>. Expect me to always be seeking ways we can improve people experience—through human-centered, data-driven approaches.",
+  "keywordGroups": {
+    "data": "Data/Analysis",
+    "coord": "Coordinate/Ops",
+    "cross": "Cross-functional",
+    "ex": "People/EX",
+    "tools": "Tools",
+    "prog": "Programs"
+  },
+  "experience": [
+    {
+      "id": "odn",
+      "title": "Consultant, Organizational Development & Employee Engagement",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Upskill HR team in {data|data analysis} to audit 300+ leave cases, successfully refuting cost assumptions via evidence-based {data|insights}",
+          "change": null,
+          "jd": [
+            "jd5"
+          ]
+        },
+        {
+          "text": "Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Manager, Enablement",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "{prog|Streamlined} {cross|cross-functional} processes and built digital resources for 70+ staff via AI tools, reducing onboarding time by 75%",
+          "change": "swap",
+          "original": "Establish cross-functional processes and documentation for 70+ staff, streamlining operations and reducing onboarding time by 75%",
+          "jd": [
+            "jd4"
+          ],
+          "reason": "JD: Force Multiply — building digital infrastructure removes blockers for 70+ staff; AI tools framing shows tech-savviness"
+        },
+        {
+          "text": "Conduct {cross|interviews} to analyze needs of 25 global {cross|stakeholders}, resulting in 3 new {prog|programs} aligned with strategic objectives",
+          "change": "swap",
+          "original": "Conduct needs assessments and analyze feedback from 25+ global stakeholders to inform program design and strategy",
+          "jd": [
+            "jd3"
+          ],
+          "reason": "JD: Connect the Dots — listening sessions + 25 global stakeholders shows stakeholder alignment discipline"
+        },
+        {
+          "text": "Manage {prog|end-to-end} lifecycles for 20+ {prog|programs}, optimizing {change|communications} and {change|adoption} strategies via feedback analysis",
+          "change": null,
+          "jd": [
+            "jd1"
+          ]
+        },
+        {
+          "text": "Facilitate training webinars for 600+ participants, boosting {prog|program} engagement and achieving a 78% program enrollment rate",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Led a manager effectiveness initiative, translating feedback {data|data} into actionable reports that informed {cross|engagement} strategies",
+          "change": "reorder",
+          "was": 3,
+          "jd": [
+            "jd2"
+          ],
+          "reason": "JD: Impact Mindset — manager effectiveness initiative shows program ownership from diagnosis to delivery"
+        },
+        {
+          "text": "Analyzed 2,000+ employee responses, reporting {data|insights} and recommending actions to the C-suite for employee engagement",
+          "change": null
+        },
+        {
+          "text": "Provided consultations to improve {prog|strategic plans} and internal training on DEI, Inclusive Leadership, and performance review",
+          "change": null
+        },
+        {
+          "text": "Elevated employee experience through {cross|cross-functional projects} focusing on {change|engagement}, rewards & recognition, survey development, and L&D",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations",
+          "change": null
+        },
+        {
+          "text": "Facilitated smooth {change|organizational change} by directing a Mergers & Acquisitions project, overseeing {cross|cross-functional stakeholders}",
+          "change": "reorder",
+          "was": 4,
+          "jd": [
+            "jd2"
+          ],
+          "reason": "JD: Master Change Management — M&A project directed top-down organizational change across cross-functional teams"
+        },
+        {
+          "text": "Optimized global onboarding processes across 3 locations by conducting process analysis and clarifying job responsibilities",
+          "change": null
+        },
+        {
+          "text": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Developed proficiency across HR functions ranging from employer branding and compensation to performance management",
+          "change": null
+        },
+        {
+          "text": "Filled a challenging international role by drafting JDs, coordinating interviews via {tools|Greenhouse}, and benchmarking compensation",
+          "change": null
+        },
+        {
+          "text": "Engaged global talent through genuine care and personalized outreach, driving a 566% increase in applications in 2 months",
+          "change": null
+        },
+        {
+          "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants",
+          "change": null
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": []
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Enhanced <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-methods",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition scholarship), Tuck Bridge Scholarship (Full Scholarship)"
+  ],
+  "skills": [
+    "<b>Technical Skills:</b> Project Management ({tools|Asana}, Airtable) · HR Systems ({tools|Greenhouse}, {tools|Workday}) · Knowledge Management (SharePoint, Notion, Google Workspace) · AI Productivity (ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint)",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)"
+  ],
+  "jd": {
+    "meta": "",
+    "sections": [
+      {
+        "title": "Job Description",
+        "type": "mixed",
+        "items": [
+          {
+            "text": "Aurora — Program Manager, People Team"
+          },
+          {
+            "id": "jd4",
+            "changeType": "swap",
+            "text": "Force Multiply: Make everyone more effective by removing blockers, {prog|streamlining processes}, and ensuring meetings are decisive and actionable.",
+            "reason": "InGenius #1: \"Streamlined cross-functional processes and built digital resources for 70+ staff via AI tools\""
+          },
+          {
+            "id": "jd3",
+            "changeType": "swap",
+            "text": "Connect the Dots: Serve as the \"glue\" between the People team and the business. Ensure {cross|stakeholders are aligned}, risks are flagged early, and no silos are formed.",
+            "reason": "InGenius #2: \"Conduct interviews to analyze needs of 25 global stakeholders\""
+          },
+          {
+            "id": "jd1",
+            "changeType": "swap",
+            "text": "Drive Program Strategy & Execution: Translate concepts into rigorous {prog|project charters}. Define the \"what, why, and how,\" manage the timeline, and ensure the team crosses the finish line.",
+            "reason": "InGenius #3: \"Manage end-to-end lifecycles for 20+ programs\""
+          },
+          {
+            "id": "jd2",
+            "changeType": "reorder",
+            "text": "Master Change Management: Design {change|communication plans}, messaging, and {change|adoption strategies} to ensure our distributed workforce embraces the changes you implement.",
+            "reason": "InGenius #3: \"adoption strategies\" swap · Vestas #2: M&A project · NextGen #1: manager effectiveness"
+          },
+          {
+            "text": "Continuously Improve: Always thinking of ways to improve things while delivering on programs and projects."
+          },
+          {
+            "id": "jd5",
+            "changeType": "swap",
+            "text": "Tech & Data Savviness: Comfortable with {tools|Monday.com}, {tools|Jira}. Familiarity with HR systems ({tools|Workday}, {tools|Greenhouse}) is a bonus.",
+            "reason": "ODN #1: \"data analysis to audit 300+ leave cases\" · Skills: Jira, Greenhouse, Workday-familiar"
+          },
+          {
+            "text": "High Agency & Accountability: You are a \"driver\", not a passenger. Track, prioritize, and drive projects without needing to be reminded."
+          },
+          {
+            "text": "Location: Mountain View, CA · San Francisco, CA · Pittsburgh, PA (in-person Mon/Tue/Thu minimum)"
+          }
+        ]
+      }
+    ]
+  },
+  "changeLog": [
+    {
+      "location": "Summary",
+      "type": "word",
+      "before": "People Project Manager",
+      "after": "People Program Manager",
+      "why": "JD title: \"Program Manager, People Team\" — mirrors role language"
+    },
+    {
+      "location": "InGenius #1",
+      "type": "swap",
+      "before": "Establish cross-functional processes and documentation for 70+ staff…",
+      "after": "Streamlined cross-functional processes and built digital resources for 70+ staff via AI tools…",
+      "why": "JD: Force Multiply + tech savviness — AI tools framing shows digital enablement at scale"
+    },
+    {
+      "location": "InGenius #2",
+      "type": "swap",
+      "before": "Conduct needs assessments and analyze feedback from 25+ stakeholders…",
+      "after": "Conduct interviews to analyze needs of 25 global stakeholders…",
+      "why": "JD: Connect the Dots — \"listening sessions\" mirrors how Aurora wants PM to gather stakeholder alignment"
+    },
+    {
+      "location": "InGenius #3",
+      "type": "word",
+      "before": "…optimize communication strategies and vendor performance",
+      "after": "…optimize communications and adoption strategies",
+      "why": "JD uses \"adoption strategies\" in Change Management requirement — direct terminology alignment"
+    },
+    {
+      "location": "NextGen #1",
+      "type": "reorder",
+      "before": "was #3",
+      "after": "now #1",
+      "why": "Manager effectiveness = Impact Mindset; leads with strongest program ownership signal for Aurora"
+    },
+    {
+      "location": "Vestas #2",
+      "type": "reorder",
+      "before": "was #4: Facilitated organizational change",
+      "after": "now #2: M&A project + cross-functional stakeholders",
+      "why": "JD: Master Change Management — M&A is the clearest change management signal; moved up for visibility"
+    },
+    {
+      "location": "Skills",
+      "type": "word",
+      "before": "HRIS · ATS (Greenhouse) · LMS…",
+      "after": "PM (Asana, Jira) · HR Tech (Greenhouse, Workday-familiar)…",
+      "why": "JD explicitly lists Jira, Workday, Greenhouse — restructured skills to surface these first"
+    }
+  ]
+}

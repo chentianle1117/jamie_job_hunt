@@ -23,3 +23,6 @@ Thumbs.db
 
 # Git worktrees (auto-managed by git, not for tracking)
 .claude/worktrees/
+
+# Playwright MCP artifacts (screenshots, logs, session data)
+.playwright-mcp/

@@ -1,0 +1,408 @@
+{
+  "meta": {
+    "company": "Superhuman",
+    "role": "WX Coordinator",
+    "date": "2026-03-27",
+    "pageMargins": {
+      "top": "0.4in",
+      "right": "0.5in",
+      "bottom": "0.35in",
+      "left": "0.5in"
+    }
+  },
+  "header": {
+    "location": "Open to Remote or Relocation (US-based)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) Organizational Development & Workplace Experience professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in insights</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve the people development and workplace experience—through human-centered, systematic approaches.",
+  "keywordGroups": {},
+  "experience": [
+    {
+      "id": "odn",
+      "title": "Consultant, Organizational Development & Employee Engagement",
+      "company": "Transition Projects Inc. (via ODN Oregon)",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Upskill HR team in data analysis to audit 300+ leave cases, successfully refuting cost assumptions via evidence-based insights",
+          "change": null
+        },
+        {
+          "text": "Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Manage end-to-end lifecycles for 20+ projects, utilizing feedback loops to optimize operational strategies and vendor performance",
+          "change": "swap",
+          "original": "Conduct needs assessments with 25+ global stakeholders to identify learning gaps and design 3 new educational programs",
+          "jd": [
+            "jd2"
+          ],
+          "reason": "JD: 'coordinate complex logistics and operations' — lifecycle ownership framing"
+        },
+        {
+          "text": "Establish cross-functional processes and documentation for 70+ staff, streamlining operations and reducing onboarding time by 75%",
+          "change": "swap",
+          "original": "Develop guides and workflows for 70+ cross-functional staff, improving program knowledge and reducing onboarding time by 75%",
+          "jd": [
+            "jd3"
+          ],
+          "reason": "JD: 'cross-functional collaboration' and 'operations'"
+        },
+        {
+          "text": "Facilitate training webinars for 600+ participants, boosting program engagement and achieving a 78% program enrollment rate",
+          "change": "swap",
+          "original": "…driving a 78% client conversion rate",
+          "jd": [
+            "jd5"
+          ],
+          "reason": "WX is internal — 'program enrollment' not sales language"
+        },
+        {
+          "text": "Conduct needs assessments and analyze feedback from 25+ global stakeholders to inform program design and strategy",
+          "change": "swap",
+          "original": "Manage 20+ programs and 10+ vendors, refining program positioning, delivery strategy, and operations via feedback analysis",
+          "jd": [
+            "jd4"
+          ],
+          "reason": "Analytical framing fits WX; 'positioning' is commercial"
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on satisfaction drivers",
+          "change": "reorder",
+          "was": 2,
+          "jd": [
+            "jd4"
+          ],
+          "reason": "Data analysis is a core JD ask — lead with strongest evidence"
+        },
+        {
+          "text": "Improved employee experience via 5 cross-functional projects focusing on survey development, rewards & recognition, and L&D",
+          "change": "reorder",
+          "was": 4,
+          "jd": [
+            "jd6"
+          ],
+          "reason": "'Employee experience' is in the job title"
+        },
+        {
+          "text": "Led a manager effectiveness initiative, transforming feedback data into actionable reports that informed engagement strategies",
+          "change": "reorder",
+          "was": 1,
+          "jd": [
+            "jd4"
+          ],
+          "reason": "Still strong but secondary to EX and data"
+        },
+        {
+          "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Strengthened employee engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors",
+          "change": "reorder",
+          "was": 4,
+          "jd": [
+            "jd6"
+          ],
+          "reason": "Best EX/culture bullet — core WX match"
+        },
+        {
+          "text": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations",
+          "change": "reorder",
+          "was": 1,
+          "jd": [
+            "jd6"
+          ],
+          "reason": "Culture programs are core WX work"
+        },
+        {
+          "text": "Optimized onboarding processes across 3 global locations by coordinating process analysis and clarifying job responsibilities",
+          "change": "reorder",
+          "was": 3,
+          "jd": [
+            "jd2"
+          ],
+          "reason": "Onboarding is operational WX work"
+        },
+        {
+          "text": "Facilitated smooth organizational change by coordinating a Mergers & Acquisitions project and overseeing cross-functional stakeholders",
+          "change": "reorder",
+          "was": 2,
+          "jd": [
+            "jd3"
+          ],
+          "reason": "M&A context is distracting for WX"
+        }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management",
+          "change": null
+        },
+        {
+          "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details",
+          "change": null
+        },
+        {
+          "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months",
+          "change": null
+        },
+        {
+          "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants",
+          "change": null
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": []
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Enhanced <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition scholarship), Tuck Bridge Scholarship (Full Scholarship)"
+  ],
+  "skills": [
+    "<b>Technical Skills:</b> HRIS · ATS (Greenhouse) · Google Workspace · Notion · LMS (Canvas, Moodle) · MS Office · Data Analysis (SPSS, Excel)",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "",
+    "sections": [
+      {
+        "title": "About Superhuman",
+        "type": "paragraph",
+        "content": "Superhuman is the AI-native communication platform. Superhuman is redefining work through AI-powered productivity solutions. As part of the Early Career Program, team members are matched to roles based on preferences, skills, and where they will thrive."
+      },
+      {
+        "title": "Role: Workplace Experience Coordinator",
+        "type": "paragraph",
+        "content": "→ Summary: Added \"Workplace Experience\" to identity label for direct ATS title match This is not a rotational program. Team members in this role must be based in the San Francisco Bay Area and collaborate in person."
+      },
+      {
+        "title": "What You'll Do",
+        "type": "list",
+        "items": [
+          {
+            "id": "jd2",
+            "changeType": "swap",
+            "text": "Coordinate complex logistics and operations",
+            "reason": "InGenius #1: swapped to lifecycle/operations framing<br>→ Vestas #3: \"conducting\" → \"coordinating\" to mirror this verb"
+          },
+          {
+            "id": "jd3",
+            "changeType": "reorder",
+            "text": "Research, analyze, and optimize",
+            "reason": "InGenius #2: \"Establish cross-functional processes\" maps to process improvement<br>→ Vestas #4: \"directing\" → \"coordinating\" for collaboration language"
+          },
+          {
+            "id": "jd5",
+            "changeType": "reorder",
+            "text": "Own end-to-end initiatives",
+            "reason": "InGenius #3: internal framing (\"program enrollment\" not \"client conversion\")"
+          },
+          {
+            "id": "jd7",
+            "changeType": "swap",
+            "text": "AI-native tools",
+            "reason": "Skills: Added Google Workspace + Notion (required tools)"
+          }
+        ]
+      },
+      {
+        "title": "Requirements",
+        "type": "list",
+        "items": [
+          {
+            "text": "BA/BS degree or equivalent experience"
+          },
+          {
+            "text": "Strong written and verbal communication skills"
+          },
+          {
+            "text": "Adaptable problem-solving mindset"
+          },
+          {
+            "text": "Passion for AI and technology"
+          }
+        ]
+      },
+      {
+        "title": "Nice to Have",
+        "type": "list",
+        "items": [
+          {
+            "text": "0-2 years professional experience"
+          },
+          {
+            "text": "Event planning or coordination experience"
+          },
+          {
+            "id": "jd4",
+            "changeType": "word",
+            "text": "Data analysis",
+            "reason": "Trans. Projects: \"analytics\" → \"analysis\" for exact match<br>→ NextGen reorder: 2,000+ employee analysis leads first<br>→ InGenius #4: analytical framing for needs assessment"
+          },
+          {
+            "id": "jd6",
+            "changeType": "reorder",
+            "text": "Employee experience",
+            "reason": "NextGen #4→2: EX project surfaced second<br>→ Vestas #4→1: EX/culture bullet leads<br>→ Vestas word: \"engagement\" → \"employee engagement\""
+          }
+        ]
+      },
+      {
+        "title": "Compensation",
+        "type": "paragraph",
+        "content": "$80,000 – $110,000 base salary + equity + benefits. San Francisco Bay Area, in-person."
+      },
+      {
+        "title": "H1B Status",
+        "type": "paragraph",
+        "content": "✅ Confirmed sponsor — Superhuman (via Grammarly) files H1B regularly per LCA records."
+      }
+    ]
+  },
+  "changeLog": [
+    {
+      "location": "Summary",
+      "type": "",
+      "before": "Organizational Development professional",
+      "after": "OD & Workplace Experience professional",
+      "why": "Direct title match for ATS"
+    },
+    {
+      "location": "InGenius #1",
+      "type": "",
+      "before": "Conduct needs assessments… learning gaps",
+      "after": "Manage end-to-end lifecycles… vendor performance",
+      "why": "JD: \"coordinate complex logistics and operations\""
+    },
+    {
+      "location": "InGenius #2",
+      "type": "",
+      "before": "Develop guides and workflows…",
+      "after": "Establish cross-functional processes…",
+      "why": "JD: \"cross-functional collaboration\""
+    },
+    {
+      "location": "InGenius #3",
+      "type": "",
+      "before": "…78% client conversion rate",
+      "after": "…78% program enrollment rate",
+      "why": "Internal role — not sales language"
+    },
+    {
+      "location": "InGenius #4",
+      "type": "",
+      "before": "Manage 20+ programs… positioning",
+      "after": "Conduct needs assessments… strategy",
+      "why": "Analytical framing fits WX better"
+    },
+    {
+      "location": "NextGen #2→1",
+      "type": "",
+      "before": "was #2",
+      "after": "now #1",
+      "why": "JD: \"data and metrics\" — lead with data"
+    },
+    {
+      "location": "NextGen #4→2",
+      "type": "",
+      "before": "was #4",
+      "after": "now #2",
+      "why": "JD: \"employee experience\" in title"
+    },
+    {
+      "location": "Vestas #4→1",
+      "type": "",
+      "before": "was #4",
+      "after": "now #1",
+      "why": "Best EX/culture bullet — core WX match"
+    },
+    {
+      "location": "Vestas #1 word",
+      "type": "",
+      "before": "engagement",
+      "after": "employee engagement",
+      "why": "JD: \"employee experience\" explicit"
+    },
+    {
+      "location": "Vestas #3 word",
+      "type": "",
+      "before": "conducting",
+      "after": "coordinating",
+      "why": "JD: \"coordinate\" primary verb"
+    },
+    {
+      "location": "Trans. #1 word",
+      "type": "",
+      "before": "analytics",
+      "after": "analysis",
+      "why": "JD: exact \"data analysis\""
+    },
+    {
+      "location": "Skills",
+      "type": "",
+      "before": "LMS · MS Office",
+      "after": "Google Workspace · Notion · LMS · MS Office",
+      "why": "JD: required tools"
+    }
+  ]
+}
