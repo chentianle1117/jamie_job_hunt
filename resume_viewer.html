@@ -199,11 +199,20 @@
      EDIT MODE
      ================================================================ */
   body.mode-edit .resume-page li,
-  body.mode-edit .resume-page .summary { cursor: text; }
-  body.mode-edit .resume-page li:hover { outline: 1.5px dashed #1abc9c; outline-offset: 2px; background: rgba(26,188,156,0.07); }
+  body.mode-edit .resume-page .summary,
+  body.mode-edit .resume-page [data-field] { cursor: text; }
+  body.mode-edit .resume-page li:hover,
+  body.mode-edit .resume-page [data-field]:hover { outline: 1.5px dashed #1abc9c; outline-offset: 2px; background: rgba(26,188,156,0.07); }
   body.mode-edit .resume-page [contenteditable="true"]:focus {
     outline: 2px solid #1abc9c !important; background: rgba(26,188,156,0.12) !important;
   }
+  /* "+Add" inline buttons — only shown in edit mode */
+  .resume-page .add-btn {
+    display: none; cursor: pointer; color: #1abc9c; font-size: 8pt; font-style: italic;
+    list-style: none; padding: 1px 0; opacity: 0.7;
+  }
+  body.mode-edit .resume-page .add-btn { display: list-item; }
+  body.mode-edit .resume-page .add-btn:hover { opacity: 1; background: rgba(26,188,156,0.1); outline: none !important; }
   /* Green border around the whole page when editing */
   body.mode-edit .resume-page { box-shadow: 0 0 0 3px #1abc9c, 0 4px 24px rgba(0,0,0,0.45) !important; }
   #btn-edit.active { background: #1abc9c !important; color: #fff !important; border-color: #16a085 !important; }
@@ -405,7 +414,7 @@
 
 <!-- EDIT MODE HINT — appears as a sub-bar below the toolbar -->
 <div id="edit-hint" style="display:none;background:#16a085;color:#d5f5ef;text-align:center;padding:4px 12px;font-family:sans-serif;font-size:10px;letter-spacing:0.3px;">
-  ✏️ &nbsp;<b>Edit mode ON</b> — click any bullet to edit &nbsp;·&nbsp; <b>Enter</b> = confirm &nbsp;·&nbsp; <b>Esc</b> = cancel &nbsp;·&nbsp; changes auto-save to JSON file
+  ✏️ &nbsp;<b>Edit mode ON</b> — click any text to edit (bullets, titles, locations, skills…) &nbsp;·&nbsp; <b>Enter</b> = confirm &nbsp;·&nbsp; <b>Shift+Enter</b> = newline &nbsp;·&nbsp; <b>Esc</b> = cancel &nbsp;·&nbsp; changes auto-save to JSON
 </div>
 <!-- AUTO-CHECK WARNINGS -->
 <div class="check-warning" id="overflow-warning">⚠️ Content overflows — trim bullets or reduce margins</div>
@@ -438,18 +447,22 @@
     h += '<a href="mailto:jamiecheng0103@gmail.com">jamiecheng0103@gmail.com</a> &bull; ';
     h += '<a href="http://www.linkedin.com/in/jamieyccheng">LinkedIn</a></div></div>';
     // Summary
-    h += '<div class="summary">' + expandKw(d.summary, 'kw') + '</div>';
+    h += '<div class="summary" data-field="summary">' + expandKw(d.summary, 'kw') + '</div>';
     // Experience
     h += '<div class="section-header">Professional Experience</div>';
     d.experience.forEach(function(job, ji) {
-      h += '<div class="job"><div class="job-title-row"><div class="job-title">' + job.title;
+      h += '<div class="job"><div class="job-title-row">';
+      h += '<div class="job-title"><span data-job="' + ji + '" data-field="title">' + job.title + '</span>';
       if (job.workSampleUrl) h += ' <a class="work-sample" href="' + job.workSampleUrl + '" target="_blank">(Work Sample)</a>';
-      h += '</div><div class="job-location">' + job.location + '</div></div>';
-      h += '<div class="job-company-row"><div class="job-company">' + job.company + '</div>';
-      h += '<div class="job-dates">' + job.dates + '</div></div><ul>';
+      h += '</div>';
+      h += '<div class="job-location" data-job="' + ji + '" data-field="location">' + job.location + '</div>';
+      h += '</div>';
+      h += '<div class="job-company-row">';
+      h += '<div class="job-company" data-job="' + ji + '" data-field="company">' + job.company + '</div>';
+      h += '<div class="job-dates" data-job="' + ji + '" data-field="dates">' + job.dates + '</div>';
+      h += '</div><ul>';
       job.bullets.forEach(function(b, bi) {
         var cls = '', attrs = '';
-        // Data indices for edit-mode saving
         attrs += ' data-job="' + ji + '" data-bullet="' + bi + '"';
         if (b.change === 'swap' || b.change === 'word') {
           cls = ' class="changed"';
@@ -464,29 +477,38 @@
         }
         h += '<li' + cls + attrs + '>&bull; ' + expandKw(b.text, 'kw') + '</li>';
       });
+      h += '<li class="add-btn" data-add-bullet="' + ji + '" onclick="addEditableItem(\'bullet\',' + ji + ')">+ add bullet</li>';
       h += '</ul></div>';
     });
     // Education
     h += '<div class="section-header">Education</div>';
-    d.education.forEach(function(edu) {
-      h += '<div class="edu"><div class="edu-row"><div class="edu-school">' + edu.school + '</div>';
-      h += '<div class="edu-location">' + edu.location + '</div></div>';
-      h += '<div class="edu-row"><div class="edu-degree">' + edu.degree + '</div>';
-      h += '<div class="edu-dates">' + edu.dates + '</div></div>';
+    d.education.forEach(function(edu, ei) {
+      h += '<div class="edu"><div class="edu-row">';
+      h += '<div class="edu-school" data-edu="' + ei + '" data-field="school">' + edu.school + '</div>';
+      h += '<div class="edu-location" data-edu="' + ei + '" data-field="location">' + edu.location + '</div>';
+      h += '</div>';
+      h += '<div class="edu-row">';
+      h += '<div class="edu-degree" data-edu="' + ei + '" data-field="degree">' + edu.degree + '</div>';
+      h += '<div class="edu-dates" data-edu="' + ei + '" data-field="dates">' + edu.dates + '</div>';
+      h += '</div>';
       if (edu.bullets && edu.bullets.length) {
         h += '<ul>';
-        edu.bullets.forEach(function(b) { h += '<li>&bull; ' + b + '</li>'; });
+        edu.bullets.forEach(function(b, bi) {
+          h += '<li data-edu="' + ei + '" data-edu-bullet="' + bi + '">&bull; ' + b + '</li>';
+        });
         h += '</ul>';
       }
       h += '</div>';
     });
     // Projects
     h += '<div class="section-header">Projects &amp; Awards</div><ul class="simple-list">';
-    d.projects.forEach(function(p) { h += '<li>&bull; ' + p + '</li>'; });
+    d.projects.forEach(function(p, pi) { h += '<li data-projects="' + pi + '">&bull; ' + p + '</li>'; });
+    h += '<li class="add-btn" onclick="addEditableItem(\'project\')">+ add project/award</li>';
     h += '</ul>';
     // Skills
     h += '<div class="section-header">Skills</div><ul class="simple-list">';
-    d.skills.forEach(function(s) { h += '<li>&bull; ' + expandKw(s, 'kw') + '</li>'; });
+    d.skills.forEach(function(s, si) { h += '<li data-skills="' + si + '">&bull; ' + expandKw(s, 'kw') + '</li>'; });
+    h += '<li class="add-btn" onclick="addEditableItem(\'skill\')">+ add skill</li>';
     h += '</ul>';
     return h;
   }
@@ -794,8 +816,8 @@
   });
 
   // ══════════ EDIT MODE — direct editing, auto-saves to JSON file ══════════
-  // Flow: click bullet → edit inline → Enter (confirm) or Esc (cancel) → saves to file
-  // The live poll detects the saved file has the same hash it just wrote, so no re-render loop.
+  // All text fields are editable: bullets, summary, job titles/company/location/dates,
+  // education fields, skills, projects. Enter = confirm, Esc = cancel.
 
   var editMode = false;
   var editables = [];
@@ -805,8 +827,7 @@
     if (!watchName || !currentData) return;
     var filename = watchName + '.json';
     var body = JSON.stringify(currentData, null, 2);
-    // Pre-update the watch hash so the live poll doesn't re-render what we just saved
-    watchHash = simpleHash(body);
+    watchHash = simpleHash(body); // pre-update so live poll doesn't re-render what we saved
     fetch('/save?file=' + encodeURIComponent(filename), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -824,7 +845,6 @@
   function flashSaved(msg) {
     var el = document.getElementById('live-indicator');
     if (!el) return;
-    // Centered, large "✓ Saved" splash
     el.textContent = msg || '✓ Saved';
     el.style.background = msg ? '#c0392b' : '#27ae60';
     el.style.fontSize = '16px'; el.style.fontWeight = 'bold';
@@ -840,7 +860,7 @@
 
   function getLabel(el) {
     var job = el.closest('.job, .edu, .simple-list');
-    if (!job) return 'Summary';
+    if (!job) return el.dataset.field || 'Summary';
     var titleEl = job.querySelector('.job-title, .edu-school');
     var label = titleEl ? titleEl.textContent.replace('(Work Sample)','').trim() : 'Resume';
     if (el.tagName === 'LI') { var idx = Array.from(job.querySelectorAll('li')).indexOf(el); label += ' #' + (idx + 1); }
@@ -861,64 +881,109 @@
     table.appendChild(tr);
   }
 
-  function makeBulletEditable(li) {
-    // Strip the leading "• " bullet char for editing, restore on commit
-    li.setAttribute('contenteditable', 'true');
-    li.setAttribute('spellcheck', 'true');
-    // Store the raw text (without bullet char) as the "before" state
-    var rawBefore = li.textContent.replace(/^•\s*/, '').trim();
-    li._editBefore = rawBefore;
+  // ── Update currentData from an editable element's data attributes ──
+  function updateDataFromElement(el, newText) {
+    if (!currentData) return false;
+    var d = el.dataset;
+    var job = d.job !== undefined ? +d.job : NaN;
+    var bullet = d.bullet !== undefined ? +d.bullet : NaN;
+    var edu = d.edu !== undefined ? +d.edu : NaN;
+    var eduBullet = d.eduBullet !== undefined ? +d.eduBullet : NaN;
 
-    li.addEventListener('keydown', onBulletKeydown);
-    li.addEventListener('blur', onBulletBlur);
-    editables.push(li);
+    if (!isNaN(job) && !isNaN(bullet)) {
+      currentData.experience[job].bullets[bullet].text = newText;
+    } else if (!isNaN(job) && d.field) {
+      currentData.experience[job][d.field] = newText;
+    } else if (!isNaN(edu) && !isNaN(eduBullet)) {
+      currentData.education[edu].bullets[eduBullet] = newText;
+    } else if (!isNaN(edu) && d.field) {
+      currentData.education[edu][d.field] = newText;
+    } else if (d.skills !== undefined) {
+      currentData.skills[+d.skills] = newText;
+    } else if (d.projects !== undefined) {
+      currentData.projects[+d.projects] = newText;
+    } else if (d.field === 'summary') {
+      currentData.summary = newText;
+    } else {
+      return false;
+    }
+    return true;
   }
 
-  function onBulletKeydown(e) {
-    if (e.key === 'Enter') {
+  // ── Generic editable: works for bullets, fields, skills, projects ──
+  function makeEditable(el, isBullet) {
+    el.setAttribute('contenteditable', 'true');
+    el.setAttribute('spellcheck', 'true');
+    el._isBullet = isBullet;
+    el._editBefore = (isBullet
+      ? el.textContent.replace(/^•\s*/, '').trim()
+      : el.textContent.trim());
+    el.addEventListener('keydown', onEditableKeydown);
+    el.addEventListener('blur', onEditableBlur);
+    editables.push(el);
+  }
+
+  function onEditableKeydown(e) {
+    if (e.key === 'Enter' && !e.shiftKey) {
       e.preventDefault();
-      this.blur(); // triggers onBulletBlur → save
+      this.blur();
     } else if (e.key === 'Escape') {
-      // Revert to original text
-      var ji = parseInt(this.dataset.job);
-      var bi = parseInt(this.dataset.bullet);
-      if (!isNaN(ji) && !isNaN(bi) && currentData) {
-        this.innerHTML = '&bull; ' + expandKw(currentData.experience[ji].bullets[bi].text, 'kw');
-      }
+      // Restore previous text and cancel
+      var prev = this._editBefore || '';
+      this.innerHTML = this._isBullet ? ('&bull; ' + expandKw(prev, 'kw')) : prev;
+      this._editBefore = prev; // prevent blur from saving
       this.blur();
     }
   }
 
-  function onBulletBlur() {
-    var li = this;
-    var rawAfter = li.textContent.replace(/^•\s*/, '').trim();
-    var before = li._editBefore || '';
-    if (rawAfter === before) return; // no change
+  function onEditableBlur() {
+    var el = this;
+    var raw = el._isBullet
+      ? el.textContent.replace(/^•\s*/, '').trim()
+      : el.textContent.trim();
+    var before = el._editBefore || '';
+    if (raw === before) return; // no change
 
-    var ji = parseInt(li.dataset.job);
-    var bi = parseInt(li.dataset.bullet);
-    if (isNaN(ji) || isNaN(bi) || !currentData) return;
+    if (!updateDataFromElement(el, raw)) return;
+    logEdit(getLabel(el), before, raw);
+    el._editBefore = raw;
 
-    // Update in-memory data
-    currentData.experience[ji].bullets[bi].text = rawAfter;
-    logEdit(getLabel(li), before, rawAfter);
+    // Re-render keyword spans in the element
+    var hasKw = el.dataset.skills !== undefined || el.dataset.field === 'summary' ||
+                (el.dataset.job !== undefined && el.dataset.bullet !== undefined);
+    if (el._isBullet) {
+      el.innerHTML = '&bull; ' + (hasKw ? expandKw(raw, 'kw') : raw);
+    } else if (hasKw) {
+      el.innerHTML = expandKw(raw, 'kw');
+    }
 
-    // Re-render the bullet's keyword spans without full re-render
-    li.innerHTML = '&bull; ' + expandKw(rawAfter, 'kw');
-    li._editBefore = rawAfter;
-
-    // Persist to file
     saveToFile(function() {
-      // Re-run auto-fit + checks after save
       setTimeout(function() { autoFit(); runAutoChecks(); }, 80);
     });
   }
 
   function enableEditing() {
-    document.querySelectorAll('.resume-page li[data-job]').forEach(function(li) {
-      makeBulletEditable(li);
+    if (!currentData) return;
+    // Experience bullets
+    document.querySelectorAll('.resume-page li[data-bullet]').forEach(function(li) {
+      makeEditable(li, true);
     });
-    // Show hint
+    // All data-field elements: job title spans, company, location, dates, summary, edu fields
+    document.querySelectorAll('.resume-page [data-field]').forEach(function(el) {
+      makeEditable(el, false);
+    });
+    // Skills items
+    document.querySelectorAll('.resume-page li[data-skills]').forEach(function(li) {
+      makeEditable(li, true);
+    });
+    // Projects items
+    document.querySelectorAll('.resume-page li[data-projects]').forEach(function(li) {
+      makeEditable(li, true);
+    });
+    // Education bullets
+    document.querySelectorAll('.resume-page li[data-edu-bullet]').forEach(function(li) {
+      makeEditable(li, true);
+    });
     var hint = document.getElementById('edit-hint');
     if (hint) hint.style.display = 'block';
   }
@@ -927,13 +992,50 @@
     editables.forEach(function(el) {
       el.removeAttribute('contenteditable');
       el.removeAttribute('spellcheck');
-      el.removeEventListener('keydown', onBulletKeydown);
-      el.removeEventListener('blur', onBulletBlur);
+      el.removeEventListener('keydown', onEditableKeydown);
+      el.removeEventListener('blur', onEditableBlur);
     });
     editables = [];
     var hint = document.getElementById('edit-hint');
     if (hint) hint.style.display = 'none';
   }
+
+  // ── Add new item inline (skills, projects, bullets) ──
+  window.addEditableItem = function(type, jobIdx) {
+    if (!currentData) return;
+    var li = document.createElement('li');
+    li.innerHTML = '&bull; ';
+
+    if (type === 'skill') {
+      var idx = currentData.skills.length;
+      currentData.skills.push('');
+      li.dataset.skills = idx;
+      var btn = document.querySelector('.resume-page li[onclick*="addEditableItem(\'skill\')"]');
+      if (btn) btn.parentNode.insertBefore(li, btn);
+    } else if (type === 'project') {
+      var idx = currentData.projects.length;
+      currentData.projects.push('');
+      li.dataset.projects = idx;
+      var btn = document.querySelector('.resume-page li[onclick*="addEditableItem(\'project\')"]');
+      if (btn) btn.parentNode.insertBefore(li, btn);
+    } else if (type === 'bullet' && jobIdx !== undefined) {
+      var bullets = currentData.experience[jobIdx].bullets;
+      var bi = bullets.length;
+      bullets.push({ text: '' });
+      li.dataset.job = jobIdx; li.dataset.bullet = bi;
+      var btn = document.querySelector('.resume-page li[data-add-bullet="' + jobIdx + '"]');
+      if (btn) btn.parentNode.insertBefore(li, btn);
+    }
+
+    // Make the new item editable right away
+    makeEditable(li, true);
+    li.focus();
+    // Select all so user can just start typing
+    var range = document.createRange();
+    range.selectNodeContents(li);
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+  };
 
   window.toggleEditMode = function() {
     editMode = !editMode;
