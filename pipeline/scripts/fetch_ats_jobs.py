@@ -221,20 +221,22 @@ def main():
              "greenhouse_hits": 0, "lever_hits": 0, "errors": []}
 
     if args.edu_only:
-        # Only query education sector companies
+        # Only query education sector companies (skip non-dict entries like _note)
         edu_section = mapping.get("education_sector", {})
-        gh_items = {k: v for k, v in edu_section.items() if v.get("type") == "greenhouse"}
-        lv_items = {k: v for k, v in edu_section.items() if v.get("type") == "lever"}
+        gh_items = {k: v for k, v in edu_section.items()
+                    if isinstance(v, dict) and v.get("type") == "greenhouse"}
+        lv_items = {k: v for k, v in edu_section.items()
+                    if isinstance(v, dict) and v.get("type") == "lever"}
     else:
         # Query all sections: greenhouse, lever, and education_sector
         gh_items = dict(mapping.get("greenhouse", {}))
         edu_gh = {k: v for k, v in mapping.get("education_sector", {}).items()
-                  if v.get("type") == "greenhouse"}
+                  if isinstance(v, dict) and v.get("type") == "greenhouse"}
         gh_items.update(edu_gh)
 
         lv_items = dict(mapping.get("lever", {}))
         edu_lv = {k: v for k, v in mapping.get("education_sector", {}).items()
-                  if v.get("type") == "lever"}
+                  if isinstance(v, dict) and v.get("type") == "lever"}
         lv_items.update(edu_lv)
 
     # Greenhouse
