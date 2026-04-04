@@ -9,7 +9,7 @@ description: >
   People Program Management, HR Specialist, Employee Engagement/Experience, OD/OCM,
   and entry-level Consulting roles, auditing the Notion database, enriching entries with
   cover letters and networking connections, and preparing email delivery.
-version: 3.6.0
+version: 4.0.0
 ---
 
 > Daily HR/L&D/OD/Consulting job search for Jamie (Yi-Chieh) Cheng.
@@ -58,37 +58,52 @@ python pipeline/scripts/fetch_ats_jobs.py
 - Filters for People/HR/OD/L&D keywords, excludes Senior/Director/VP
 - **Output:** `C:\Windows\Temp\ats_jobs.json` — read this in Step 2 as a pre-verified source
 - These jobs are **already live** (API returns only active postings) — skip Chrome verification for them
-- **Verified ATS slugs (14 companies):** Stripe, Figma, Discord, Roblox, Airbnb, Duolingo, HubSpot, Cloudflare, Datadog, Twilio, Block, Epic Games, Riot Games, Spotify
+- Also queries **Ashby boards** (SSR JSON API): `GET https://api.ashbyhq.com/posting-api/job-board/{slug}`
+- **ATS coverage (v4.0):** 60+ Greenhouse slugs, 18 Lever slugs, 14 Ashby slugs (see `ats_mapping.json`)
+- **Includes education/professional dev orgs** — ATD-affiliated companies, edtech, workforce dev
+- **H1B status included per company** — `h1b: "confirmed"` entries skip manual verification
 
 ### 0.5b. JobSpy Scraper (optional — deeper LinkedIn/Indeed coverage)
 
 ```bash
+# Default: 16 US search configs (P1 + P2 + P3 + local + education sector)
 python pipeline/scripts/jobspy_search.py
+
+# Education sector focus (ATD/CPTD orgs, workforce dev, edtech)
+python pipeline/scripts/jobspy_search.py --edu-only
+
+# Default + education sector
+python pipeline/scripts/jobspy_search.py --include-edu
+
+# Netherlands/EU pivot
+python pipeline/scripts/jobspy_search.py --include-nl
 ```
 
 - Scrapes LinkedIn, Indeed, Glassdoor concurrently using `python-jobspy`
 - Indeed has **zero rate limiting** (best scraping source)
 - LinkedIn caps at ~page 10 per IP (~100 results) — still catches jobs WebSearch misses
-- Runs 6 US search configs + 2 NL configs (with `--include-nl` flag)
+- **16 US configs** covering: P1 programs (Portland + remote), P2 OD/OCM/L&D ops, local Portland/Seattle, P3 consulting, education/CPT orgs, junior HRBP
 - **Output:** `C:\Windows\Temp\jobspy_results.json` + `.csv`
-- **Install once:** `pip install -r pipeline/scripts/requirements.txt`
+- **Install once:** `pip install python-jobspy requests beautifulsoup4 pandas`
 
-### 0.5c. Email Alerts Check (Gmail MCP)
+### 0.5c. Email Alerts Check (Gmail MCP — lightweight, 1 query only)
 
-> **Set up once:** Create job alert emails on LinkedIn, Indeed, and Glassdoor for Jamie's
-> top search queries. Alerts deliver new postings to `jamiecheng0103@gmail.com` daily.
-> This catches jobs that Brave-backed WebSearch misses (WebSearch ≠ Google; ~13% miss rate).
-
-At the start of each run, search Gmail for recent job alert emails:
+> **One quick Gmail scan at the start of each run.** Do NOT scan every email in detail.
+> The goal is to catch any job alert digests from LinkedIn/Indeed/Glassdoor that might
+> surface roles the pipeline would otherwise miss.
+>
+> ⚠️ Keep this step fast — 1 Gmail search, skim results for new URLs, add to pool and move on.
+> The Google Sheet (tab "2026") is the ground truth for applied jobs — not email.
+> Do NOT try to reconcile applied status from email history.
 
 ```
-gmail_search_messages(q="subject:(job alert OR new jobs OR jobs for you) newer_than:2d", maxResults=10)
+gmail_search_messages(q="subject:(job alert OR new jobs OR jobs for you) newer_than:2d", maxResults=5)
 ```
 
-For each alert email:
-1. `gmail_read_message(messageId)` — extract job titles, companies, and URLs
-2. Add any new jobs to the discovery candidate pool (Step 2)
-3. These still need Chrome/WebFetch verification (alerts may contain expired listings)
+If results exist: for each email, extract job titles + URLs from the subject/snippet only.
+If a title looks relevant (matches SKILL.md P1/P2 tier titles) → add URL to discovery pool.
+Skip reading full email bodies — snippet is sufficient for quick triage.
+These URLs still need Chrome/WebFetch verification (alerts often contain expired listings).
 
 ### 0.5d. LinkedIn "Top Job Picks" — PRIMARY Discovery Source (NEW v3.4.2)
 
@@ -543,63 +558,65 @@ Add urgency level to the Notes property:
 > You MUST run MULTIPLE search queries with varied keywords to find ALL entries before auditing.
 > Never assume you've seen everything after a single search.
 
-**1a-pre-0. Read Notion FIRST — build "Not a Fit" skip list (NEW v3.5):**
+**1a-pre-0 — DUAL DEDUP: Read BOTH Google Sheet AND Notion before anything else (v4.0)**
 
-> ⚠️ **ALWAYS do this before anything else in Step 1.** Before checking Google Sheets or running
-> batch audits, query the Notion DB for ALL entries with Status = "Not a fit" or Status = "Pass".
-> Jamie marks roles "Not a fit" when she has personally reviewed them and decided they're wrong
-> for her — reasons she may not have documented. These must NEVER be re-surfaced.
-
-Run these two targeted queries to capture all excluded entries:
-```
-notion-query: filter Status = "Not a fit"   → extract all (company, title) pairs
-notion-query: filter Status = "Pass"        → extract all (company, title) pairs
-```
-
-> ⚠️ **Since notion-search doesn't support status filters directly, use keyword batches:**
-> Run batches with queries like "not a fit", "pass", "rejected" AND cross-reference the
-> Status field in each result. Collect EVERY entry where Status is "Not a fit" or "Pass".
-
-**Build the "Do Not Surface" list** from these results:
-- Every (company, title) pair with Status = "Not a fit" → **HARD SKIP** — never add to picks
-- Every (company, title) pair with Status = "Pass" → **HARD SKIP** — never add to picks
-- Every (company, title) pair with Status = "Rejected/Unavailable" → **HARD SKIP**
-- Every (company, title) pair with Status = "Applied" → **SOFT SKIP** — already in pipeline, don't duplicate
-- Every (company, title) pair with Status = "Not started" → **SOFT SKIP** — already tracked, do NOT create a duplicate Notion page
-
-Log the full "Do Not Surface" list before proceeding. This list is the dedup ground truth.
-
-> ⚠️ **DEDUP GATE — MANDATORY BEFORE ANY NOTION PAGE CREATION (v3.5.1):**
-> Before creating ANY new Notion page in Step 6, cross-check the company + title pair against
-> the full "Do Not Surface" list built here. If a match exists at ANY status level:
-> - "Not a fit" / "Pass" / "Rejected/Unavailable" → DO NOT create the page. Skip the role entirely.
-> - "Applied" / "Not started" → DO NOT create a duplicate page. Note it in the email instead.
+> **Two sources. Different roles. Both required. Check BOTH every run.**
 >
-> **This check must happen BEFORE spending tokens on enrichment, networking research, or cover
-> letter drafting for that role.** Enriching a duplicate wastes budget and creates Notion noise.
-> The dedup list from Step 1a-pre-0 is the gate. Use it at every pick.
+> | Source | What it contains | What it catches |
+> |--------|-----------------|-----------------|
+> | **Google Sheet (tab "2026")** | Every job Jamie has ever applied to, including manual apps | Jobs applied to outside this pipeline that never entered Notion |
+> | **Notion DB** | Active pipeline entries + Jamie's personal decisions ("Not a fit") | Roles Jamie reviewed and rejected for reasons she may not have written down |
+>
+> **The relationship:** Notion is the intermediate staging area where new finds land and Jamie reviews them.
+> The Google Sheet is the complete applied history. Neither is a subset of the other — you need both.
+>
+> Confirmed failure mode: Flatiron Health was resurfaced despite Jamie being rejected — because the
+> pipeline checked Notion only (which didn't have the manually-applied role from a prior session).
+
+**Step A — Fetch Google Sheet (tab "2026"):**
+
+```
+WebFetch(
+  url="https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E/export?format=csv&gid=1018026840",
+  prompt="Extract all rows as {company, title, status} objects. Tab name is '2026'."
+)
+```
+
+From this, build **Sheet Skip List** — all (company, title) pairs that have been applied to or rejected.
+> If WebFetch fails: retry once. If still fails, flag to David and proceed with Notion-only — note gap in email.
+
+**Step B — Read Notion DB (all entries, all statuses):**
+
+Run ALL 10 batches in Step 1a (below) to collect every Notion page ID + status.
+From this, build **Notion Skip List**:
+- Status = "Not a fit" → **HARD SKIP** (Jamie personally reviewed and rejected — her decision, no override)
+- Status = "Pass" → **HARD SKIP** (pipeline filtered or Jamie passed)
+- Status = "Rejected/Unavailable" → **HARD SKIP** (company rejected Jamie or role closed)
+- Status = "Applied" → **SOFT SKIP** (already submitted — don't add duplicate page)
+- Status = "Not started" → **SOFT SKIP** (already in Notion pipeline — don't add duplicate page)
+
+> ⚠️ **Since notion-search doesn't support status filters directly, use keyword batches.**
+> Collect ALL pages, then check each page's Status field. See Step 1a for the 10 batch queries.
+
+**Combined "Do Not Surface" list = Sheet Skip List + Notion Skip List.**
+Log the full combined list before discovery. This is the gate for ALL new picks.
+
+> ⚠️ **DEDUP GATE — MANDATORY BEFORE ANY NOTION PAGE CREATION (v4.0):**
+> Before creating ANY new Notion page in Step 6, cross-check the company + title pair against
+> the combined "Do Not Surface" list. If a match exists:
+> - "Not a fit" / "Pass" / "Rejected" (from either source) → **DO NOT create page. Skip the role.**
+> - "Applied" / "Not started" (from either source) → **DO NOT create duplicate. Note in email instead.**
+>
+> **This check happens BEFORE enrichment, cover letter, or networking research for that role.**
+> Enriching a duplicate wastes budget and pollutes Notion with noise Jamie has to manually clean.
 >
 > **Same-company, different-title = different role = OK to add.**
-> Same-company + same-title = DUPLICATE = skip, even if job IDs differ (verify if job IDs differ
-> at same org — could be two genuinely separate openings, but confirm before adding).
+> Same-company + same-title = DUPLICATE = skip, even if job IDs differ.
 
-> **Why this matters:** Jamie spends real time reviewing roles. If she marked something "Not a fit",
-> she has a reason — bad culture, wrong level, she knows someone there, whatever. Re-surfacing it
-> wastes her time and erodes trust in the pipeline. The Notion DB is the authoritative record of
-> her decisions. Read it first.
-
-**1a-pre. Check Google Sheets for already-applied roles (v3.4):**
-
-> ⚠️ **CRITICAL: The Notion DB does NOT contain all roles Jamie has applied to.**
-> The ground truth for applications + rejections is the Google Sheet.
-> Flatiron Health was resurfaced in Run 6 despite Jamie already being rejected —
-> because the pipeline only checked Notion (which didn't have it from a prior manual app).
-
-Before auditing Notion, fetch the Google Sheet to build a dedup list:
-
-```
-WebFetch(url="https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E/export?format=csv&gid=1018026840", prompt="Extract all rows as {company, title, status} objects from the 2026 tab.")
-```
+> **Why Notion matters even though Sheet is ground truth:**
+> Jamie marks roles "Not a fit" in Notion when she's personally reviewed them — bad culture,
+> wrong level, someone she knows there. These rejections may never appear in the Sheet.
+> Both sources carry information the other doesn't. Check both, every time.
 
 > ⚠️ **DEDUP BY COMPANY+TITLE PAIR, NOT BY COMPANY ALONE (v3.4.1):**
 > The skip list should contain **specific (company, role title) pairs**, not entire companies.
@@ -652,59 +669,86 @@ If a batch returns 10 results, run additional keyword-varied queries until batch
 
 Do NOT skip entire companies — only skip the specific (company + title) pair that was tracked.
 
-**1c. Verify EVERY "New 🆕" entry via Chrome — METICULOUS** — For EACH entry:
+**1c. Verify ALL "Not started" and "New 🆕" entries via Chrome — METICULOUS and AGGRESSIVE (v4.0)**
+
+> ⚠️ **Verify ALL "Not started" entries, not just new ones.** Notion accumulates stale entries
+> over time because the pipeline only verified them when they were added — but jobs expire daily.
+> Known problem: many existing Notion pages have dead links that were never cleaned up.
+> Every run must audit the full "Not started" backlog, not just what was added today.
+
+**Priority order for verification:**
+1. **All "Not started" entries** — these are in Jamie's review queue. If the link is dead, she should NOT be spending time on it.
+2. **All "New 🆕" entries added this run**
+3. Other statuses (Applied, Interview) — verify only if the posting date is > 30 days old
+
+**For EACH entry to verify:**
 
 **DO NOT rely on tab title alone.** Always read the actual page content.
 
 ```
 Step 1: navigate to the job URL
 Step 2: get_page_text(tabId) — read actual text, not just screenshot
-Step 3: Check content for status signals
+Step 3: Check content for status signals (see below)
+Step 4: If expired → immediately update Notion status to "Pass 👋" with reason
 ```
 
 **Status signals to look for in page TEXT:**
 - ✅ Live: "Apply now", "Submit application", active application form visible
-- ❌ Dead (Greenhouse): page text contains "error" or "An error occurred" or URL has `?error=true`
-- ❌ Dead (Lever): page returns HTTP 404 or "Job not found"
-- ❌ Dead (Workday): page text contains "The page you are looking for doesn't exist." with a "Search for Jobs" button — this is Workday's 404 for expired postings
-- ❌ Dead (LinkedIn): text contains "No longer accepting applications"
-- ❌ Dead (LinkedIn): text contains "This job is no longer available"
-- ❌ Dead (LinkedIn — ghost listing): text shows "Reposted X months/years ago" AND applicant count is 0 or near-zero — these are zombie listings never removed from the platform; DELETE
-- ❌ Dead (General): text contains "This position has been filled" or "job has been removed"
-- ❌ Dead (General): company career page shows only generic jobs/search page — no specific JD found — DELETE (no specific URL = unverifiable)
+- ❌ Dead (Greenhouse): page text contains "An error occurred" OR URL has `?error=true` OR title mismatch (different job loaded)
+- ❌ Dead (Lever): page returns HTTP 404 OR contains "Job not found" OR "This job is no longer available"
+- ❌ Dead (Workday): page text contains "The page you are looking for doesn't exist" with a "Search for Jobs" button
+- ❌ Dead (LinkedIn): text contains "No longer accepting applications" OR "This job is no longer available"
+- ❌ Dead (LinkedIn — ghost listing): text shows "Reposted X months/years ago" AND applicant count is 0 or near-zero — zombie listings never removed
+- ❌ Dead (Ashby): WebFetch response body contains `"posting":null`
+- ❌ Dead (General): text contains "This position has been filled" OR "job has been removed" OR "position is closed"
 - ❌ Dead (Redirect): URL redirected to generic `/jobs` or search results page (not a specific JD)
-- ❌ Closed (ZipRecruiter/Indeed): "This job listing is no longer active"
-- ❌ Visa fail: text contains "US citizens only", "no visa sponsorship", "must be authorized"
-- ❌ No URL: Notion entry has only a company homepage (e.g., `company.com/careers`) with no specific job ID in the URL — treat as unverifiable, DELETE unless a direct posting URL can be found
+- ❌ Dead (ZipRecruiter/Indeed): "This job listing is no longer active"
+- ❌ Visa fail: text contains "US citizens only", "no visa sponsorship", "must be authorized to work"
+- ❌ No URL / bad URL: Notion entry has only a company homepage (`company.com/careers`) with no specific job ID — unverifiable → Pass immediately
 
-**For entries where job URL leads to LinkedIn or similar:**
-- Read full page text — look explicitly for "No longer accepting applications"
-- LinkedIn posts > 30 days with "No longer accepting" = archived entry
-- LinkedIn "Reposted X years ago" with 0 applicants = zombie ghost listing = archived entry
+**For entries on company career sites — extra verification step:**
+- Greenhouse: WebFetch the URL first (fast). If title in response ≠ expected title → EXPIRED (Greenhouse silently serves a different job when the original is gone)
+- Lever: WebFetch → 404 or "Job not found" = expired
+- Workday: WebFetch or Chrome → "page doesn't exist" = expired
+- Ashby: WebFetch → check for `"posting":null` = expired (reliable signal)
+- LinkedIn: Chrome only — check for "No longer accepting applications"
 
-**For entries on company career sites (Greenhouse/Lever/Workday):**
-- Greenhouse error page = expired (add to cleanup list)
-- Lever 404 = expired (add to cleanup list)
-- Workday "page doesn't exist" = expired (add to cleanup list)
-- Page loads with full JD and Apply button = live (verify freshness)
-
-**If live → extract posted date (REQUIRED v3.4.1):**
+**If live → extract posted date (REQUIRED):**
 - Look for "Posted X days ago", "Published date", or date in the page metadata
-- Record the exact or approximate posted date for EVERY verified-live role
-- This date goes into the Notion "Posted Date" property and the email digest
-- Posted > 30 days ago → still include but mark as 💤 STALE in email
-- Do NOT auto-reject based on age alone — let Jamie decide
-- If posted date cannot be determined, note "posted date unknown" rather than guessing
+- Record the exact or approximate posted date
+- Posted > 30 days ago → mark as 💤 STALE; still keep in Notion for Jamie to decide
+- If posted date cannot be determined → note "posted date unknown"
 
-**1d. Mark-as-Deactivated Protocol** ← UPDATED v2.7
-> ⚠️ Do NOT delete or archive entries from Notion. Keep all entries as historical records.
-> When a role is expired, dead, wrong fit, or fails quality bar:
-> 1. Change its **Status** to "Pass 👋"
-> 2. Add a **Notes** explaining why (e.g., "Expired — job posting removed Mar 9", "Wrong location — Santa Clara not Portland")
-> This preserves a complete record of all jobs reviewed, which is valuable for tracking search patterns and avoiding re-surfacing dead leads.
-> The `cleanup_pages.json` file is NO LONGER used for archiving. Skip writing it.
+**1d. Aggressive Pass Protocol (v4.0) — act on expired entries immediately**
 
-**1e. Summary of deactivated entries** — At the end of the audit, note how many entries were marked as "Pass 👋" and the reasons, so Jamie knows what changed. Include this count in the email digest.
+> ⚠️ Do NOT defer cleanup. When a link is confirmed dead, update Notion RIGHT NOW.
+> Dead links sitting in "Not started" waste Jamie's review time — she clicks them and gets 404s.
+> The purpose of Step 1 is to clean the deck BEFORE surfacing new picks, not after.
+
+For every entry confirmed expired or dead:
+1. Update Notion **Status** → "Pass 👋"
+2. Update Notion **Notes** → reason + date (e.g., "Expired — confirmed 404 on 2026-04-03", "Greenhouse error page — original posting removed", "LinkedIn: No longer accepting applications")
+3. Log it in the run summary (count of entries cleaned up)
+
+> Do NOT delete Notion entries — preserve as historical record. Just change Status + add Notes.
+> The `cleanup_pages.json` file is NO LONGER used. Skip writing it.
+
+**Cleanup target:** The goal of each Step 1 audit is zero "Not started" entries with dead links.
+If there are 10+ stale entries to clean, run a haiku-model background agent to batch the Notion updates:
+
+```
+Agent prompt: "Update these Notion pages to Status='Pass 👋' with Notes='[reason]':
+  [list of page IDs + reason per page]
+  Use notion-update-page for each. Model: haiku."
+```
+
+**1e. Audit summary** — At the end of Step 1, report:
+- # entries verified (total checked)
+- # entries marked Pass 👋 (expired/dead links cleaned up)
+- # entries still active in "Not started" queue (Jamie's current review backlog)
+- # entries skipped (Applied/Interview — not re-verified unless old)
+
+Include this in the email digest so Jamie can see her Notion is clean.
 
 ### Step 2 — Discovery (cast wide, filter strict)
 
@@ -889,6 +933,21 @@ nonprofitoregon.org/job-board → Oregon nonprofit HR/people/talent roles
 
 > ⚠️ **Cap-exempt note:** Universities, nonprofits, and hospitals are H1B cap-exempt. Jamie can receive cap-exempt H1B sponsorship at any time of year (not just the April lottery). This is a MAJOR advantage — apply to cap-exempt employers even for roles where fit is 60-65% (Portland/Seattle moderate bar), especially if the H1B advantage offsets competition.
 
+**Education / Talent Development Sector (Jamie's preference — check every run):**
+```
+coursera.org/careers → "people programs" OR "talent development" OR "HR specialist"
+cornerstone.com/careers → "people programs" OR "talent" OR "HR" OR "L&D"
+degreed.com/careers → "people programs" OR "talent" OR "HR"
+betterup.com/careers → "people programs" OR "talent" OR "HR"
+guild.com/careers → "people" OR "talent" OR "HR" OR "program"
+jobs.td.org → (ATD Job Bank — WebFetch: niche board)
+360learning.com/careers → "people" OR "talent" OR "HR"
+skillsoft.com/careers → "people programs" OR "talent development" OR "HR"
+ddiworld.com/careers → "people" OR "talent" OR "consultant" OR "analyst"
+```
+These orgs align with Jamie's applied org psych background. Mix of cap-exempt (ATD = nonprofit)
+and H1B-active (edtech companies). Lower applicant competition than LinkedIn. Check every run.
+
 **Use WebSearch for Greenhouse/Lever bulk search:**
 ```
 site:greenhouse.io "people programs" "program manager" posted:2weeks
@@ -934,49 +993,117 @@ WebSearch: "succession planning" OR "talent review" coordinator analyst site:gre
 WebSearch: "performance management" program coordinator specialist -HRIS -Workday site:greenhouse.io 2026
 ```
 
-#### 2d. Additional Job Boards (NEW v3.0 — non-LinkedIn sources)
+#### 2d. Additional Job Boards (v4.0 — non-LinkedIn sources)
 
 > **These platforms surface roles that DON'T appear on LinkedIn.** Run every pipeline.
-> Use WebSearch for initial discovery, then Chrome-verify any candidates found.
+> Boards marked **[WebFetch-direct]** should be accessed via WebFetch to the structured URL
+> (not WebSearch) — direct fetch returns curated HR-specific listings with less noise.
+> Boards marked **[WebSearch]** use search because they require keyword queries.
 
-**Handshake (early career — Jamie's exact tier):**
+**Built In Portland [WebFetch-direct] — PRIORITY:**
+```
+WebFetch: https://www.builtinportland.com/jobs?specialty=Human+Resources
+WebFetch: https://www.builtinportland.com/jobs?specialty=People&q=talent+OR+programs+OR+experience
+```
+Portland-specific tech job board. Curated companies, almost zero staffing agency noise.
+These are local employers who actively hire in PDX — Jamie's geographic advantage applies here.
+
+**Built In Seattle [WebFetch-direct]:**
+```
+WebFetch: https://www.builtinseattle.com/jobs?specialty=Human+Resources
+WebFetch: https://www.builtinseattle.com/jobs?specialty=People&q=talent+OR+programs+OR+experience
+```
+Seattle tech companies — many are H1B sponsors, accessible from Portland.
+
+**Built In Remote HR [WebFetch-direct]:**
+```
+WebFetch: https://builtin.com/jobs/remote/hr?q=people+program+OR+talent+development+OR+employee+experience
+```
+Remote HR roles at tech companies — less LinkedIn competition than LinkedIn's remote filter.
+
+**ATD Job Bank [WebFetch-direct] — Talent Development specialists:**
+```
+WebFetch: https://jobs.td.org/jobs/?q=program+manager+OR+coordinator+OR+specialist&l=Portland%2C+OR&r=50
+WebFetch: https://jobs.td.org/jobs/?q=talent+development+OR+people+programs&remote=1
+```
+ATD (Association for Talent Development) board — employers posting here are specifically
+looking for talent development professionals. Very high relevance to Jamie's background.
+Many posting orgs sponsor H1B (corporate L&D teams at Fortune 500s).
+
+**ODN Job Board [WebFetch-direct] — OD specialists:**
+```
+WebFetch: https://jobs.odnetwork.org/jobs/?q=organizational+development+OR+OD+OR+talent
+```
+Organization Development Network board — OD-specific roles. Less traffic than LinkedIn,
+so lower applicant competition. Roles posted here often don't appear on LinkedIn.
+
+**SHRM HR Jobs [WebFetch-direct]:**
+```
+WebFetch: https://jobs.shrm.org/jobs/?q=program+manager+OR+specialist+OR+coordinator&l=Portland%2C+OR
+WebFetch: https://jobs.shrm.org/jobs/?q=people+programs+OR+talent+development&remote=1
+```
+HR-specific board. Different company set from LinkedIn. Less staffing agency noise.
+
+**Education / CPT Sector [WebSearch] — Jamie's stated preference:**
+```
+WebSearch: "talent development" OR "L&D program manager" "workforce development" site:greenhouse.io OR site:lever.co -"instructional design"
+WebSearch: "people programs" OR "HR specialist" "certification" OR "professional development" OR "corporate training" site:greenhouse.io 2026
+WebSearch: "ATD" OR "SHRM" "talent development" program coordinator specialist 2026 -staffing
+WebSearch: "professional development programs" coordinator OR specialist "HR" OR "people" site:greenhouse.io OR site:lever.co
+WebSearch: "corporate education" OR "workforce learning" program manager OR coordinator remote 2026
+```
+⚠️ Education-sector and professional certification firms (ATD-affiliated, workforce dev orgs,
+edtech with corporate training arms) are Jamie's stated preference. These orgs align with her
+applied org psych background. Many are cap-exempt (nonprofit) or active H1B sponsors (edtech).
+
+**HigherEdJobs [WebFetch-direct] — Universities (H1B cap-exempt ANY time of year):**
+```
+WebFetch: https://www.higheredjobs.com/search/advanced.cfm?JobCat=26&Region=38&Region=48&Remote=1&PosType=1&InstType=1&Keyword=HR+talent+OD+learning
+```
+Plus direct university career pages (use WebSearch to find job postings):
+```
+WebSearch: site:jobs.hrc.pdx.edu "people" OR "talent" OR "HR" OR "learning" OR "OD"
+WebSearch: site:uoregon.edu/jobs "people" OR "talent" OR "HR" OR "training"
+WebSearch: site:oregonstate.edu/jobs "people" OR "HR" OR "talent development"
+WebSearch: site:uw.edu/jobs "people" OR "talent" OR "HR" OR "organizational development"
+```
+
+**Handshake [WebSearch] — early career roles:**
 ```
 WebSearch: site:joinhandshake.com "people programs" OR "talent programs" OR "HR program manager"
 WebSearch: site:joinhandshake.com "employee experience" OR "engagement" coordinator OR specialist
 WebSearch: site:joinhandshake.com "organizational development" OR "change management" analyst
 ```
-⚠️ Handshake is the #1 platform for early career roles. Many companies post here EXCLUSIVELY
-for entry/associate positions. High signal, very low noise vs LinkedIn.
+⚠️ Handshake is the #1 platform for entry/associate roles. Many companies post here EXCLUSIVELY
+for early career positions. High signal, very low noise vs LinkedIn.
 
-**Built In (tech companies, curated):**
+**Idealist [WebFetch-direct] — nonprofits (cap-exempt potential):**
 ```
-WebSearch: site:builtin.com/jobs "people programs" OR "talent" OR "employee experience" Portland OR Seattle OR "San Francisco" OR remote
-WebSearch: site:builtin.com/jobs "HR program manager" OR "people operations" OR "OD specialist"
+WebFetch: https://www.idealist.org/en/jobs?q=people+OR+talent+OR+HR+OR+organizational+development&location=Portland%2C+OR&radius=50
 ```
-Built In PDX/Seattle/SF have curated tech company listings. Less staffing agency spam.
+⚠️ HIGH STALE RATE (Apr 3 data: 5/5 Idealist leads were expired). Always Chrome-verify
+before adding to picks. Use WebFetch to get the page, then Chrome to verify each URL.
 
-**SHRM Job Board (HR-specific):**
-```
-WebSearch: site:jobs.shrm.org "program manager" OR "OD specialist" OR "talent development" OR "engagement"
-```
-Niche HR board. Many HR professionals post here who don't use LinkedIn heavily.
-
-**Idealist (nonprofits — cap-exempt potential):**
-```
-WebSearch: site:idealist.org "people" OR "HR" OR "talent" OR "organizational development" Portland OR Oregon OR remote
-```
-Nonprofits = cap-exempt H1B advantage. These roles rarely appear on LinkedIn.
-
-**Wellfound / AngelList (startups):**
+**Wellfound / AngelList [WebSearch] — startups:**
 ```
 WebSearch: site:wellfound.com "people operations" OR "HR" OR "talent" OR "people programs"
 ```
-Startups with < 200 employees often have fewer applicants. Good for standing out.
+Startups < 200 employees often have fewer applicants. Good for standing out.
 
-**Google for Jobs (aggregator of aggregators):**
+**Nonprofit Oregon [WebFetch-direct]:**
 ```
-WebSearch: "people programs manager" OR "talent programs coordinator" Portland OR Seattle OR remote "posted" site:google.com/search
+WebFetch: https://nonprofitoregon.org/job-board
 ```
+Oregon-specific nonprofit jobs. Cap-exempt employers. Check for HR/OD/talent roles.
+
+**Google Jobs [WebSearch — aggregates career pages Google indexes directly]:**
+```
+WebSearch: "people programs manager" OR "talent programs coordinator" OR "employee experience program manager" site:careers.google.com -Google
+WebSearch: "people program manager" OR "talent development coordinator" "Portland" OR "Seattle" OR "remote" 2026 -site:linkedin.com -site:glassdoor.com -site:indeed.com
+WebSearch: "HR specialist" OR "talent development" OR "OD specialist" "Portland, OR" OR "Seattle, WA" OR "remote" posted 2026
+```
+Google Jobs aggregates company career pages differently than LinkedIn — catches jobs that
+don't appear in the LinkedIn algorithm feed, especially at mid-size companies.
 
 #### 2d-2. Watchlist Company Check (NEW v3.0)
 
@@ -1000,26 +1127,37 @@ WebSearch: "people programs manager" OR "talent programs coordinator" Portland O
 
 This eliminates redundant H1B checks across runs and builds a growing knowledge base.
 
-#### 2d-4. HigherEdJobs — Cap-Exempt Employers (NEW v3.3)
+#### 2d-4. HigherEdJobs — Cap-Exempt Employers
 
-> **Universities and research institutions are H1B CAP-EXEMPT.** Jamie can receive H1B
-> sponsorship at any time of year — no April lottery. HigherEdJobs is THE dedicated board
-> for these roles. Many positions here never appear on LinkedIn.
+> Covered in Section 2d above. Check individual university career pages via the WebSearch
+> queries listed there. HigherEdJobs WebFetch URL is in `ats_mapping.json` → `niche_boards.higheredjobs_oregon`.
+
+#### 2d-4b. Workday Direct Searches — Enterprise Companies (v4.0)
+
+> **Nike, Starbucks, Amazon, Microsoft, Disney, Intel, Providence use Workday ATS.**
+> Workday has no public API. These companies MUST be searched by navigating their career pages.
+> Use WebFetch on the structured career URLs (from `ats_mapping.json → workday` section).
+> These companies are high-value targets — they sponsor H1B actively and have dedicated
+> people programs, talent development, and OD teams.
 
 ```
-WebSearch: site:higheredjobs.com "people" OR "talent" OR "organizational development" OR "program manager" Portland OR Oregon OR remote
-WebSearch: site:higheredjobs.com "HR" OR "human resources" "coordinator" OR "specialist" OR "associate" Oregon OR Washington OR remote
-WebSearch: site:higheredjobs.com "learning" OR "training" OR "employee experience" "coordinator" OR "manager" remote OR Oregon
-WebSearch: site:higheredjobs.com "change management" OR "OD" "specialist" OR "analyst" university
+# Run ALL of these — one WebSearch per company is sufficient for discovery:
+WebSearch: site:jobs.nike.com "people program" OR "talent development" OR "HR specialist" OR "employee experience"
+WebSearch: site:starbucks.wd1.myworkdayjobs.com "talent" OR "people" OR "learning" OR "HR specialist"
+WebSearch: site:amazon.jobs "people experience" OR "HR program manager" OR "talent development" OR "employee engagement"
+WebSearch: site:careers.microsoft.com "people programs" OR "talent development" OR "HR specialist" OR "OD"
+WebSearch: site:jobs.disneycareers.com "HR specialist" OR "people programs" OR "talent development" OR "learning"
+WebSearch: site:jobs.intel.com "people" OR "talent" OR "OD" OR "HR specialist" Hillsboro OR Portland OR remote
+WebSearch: site:salesforce.wd12.myworkdayjobs.com "people programs" OR "talent development" OR "employee experience"
+WebSearch: site:tmobile.wd1.myworkdayjobs.com "people program" OR "talent" OR "HR specialist"
 ```
 
-Also check individual university career pages directly:
-```
-WebSearch: site:jobs.hrc.pdx.edu "people" OR "talent" OR "HR" OR "learning" OR "OD"
-WebSearch: site:uoregon.edu/jobs "people" OR "talent" OR "HR" OR "training"
-WebSearch: site:oregonstate.edu/jobs "people" OR "HR" OR "talent development"
-WebSearch: site:uw.edu/jobs "people" OR "talent" OR "HR" OR "organizational development"
-```
+⚠️ Workday career pages are NOT indexed well by LinkedIn's algorithm — these companies'
+People/Talent roles often don't appear in LinkedIn's recommended feed even when they're open.
+Direct Workday searches are the only reliable way to catch them.
+
+⚠️ For Providence Health (cap-exempt hospital): Check `providence.jobs` directly.
+For OHSU (cap-exempt university hospital): Check `ohsu.edu/careers` directly.
 
 #### 2d-5. Remote-Specific Job Boards (NEW v3.3)
 
@@ -1510,6 +1648,43 @@ WebFetch verification already gives partial data. Fill in any missing fields:
 
 > **Freshness rule:** REJECT if posted > 30 days ago. Prefer < 14 days.
 
+### Step 3c — Structured JD Skill Extraction (NEW v4.0 — run BEFORE Step 4 fit assessment)
+
+> **Extract required skills from each verified-live JD before scoring.** This prevents
+> accidental score inflation by making skill gaps visible upfront, not discovered mid-scoring.
+> Takes ~30 seconds per JD — cheap compared to the cost of enriching a bad fit.
+
+For each verified-live candidate, extract these fields from the JD text:
+
+```
+REQUIRED skills (★★★ — "required" / "must have" / "minimum qualification"):
+  - List each one: [ ] skill / experience area
+
+PREFERRED skills (★★☆ — "preferred" / "nice to have" / "plus"):
+  - List each one: [ ] skill / experience area
+
+Experience required: X years (required) / Y years (preferred)
+Location type: Remote / Hybrid X days / On-site | Location: [city, state]
+Visa language: [quote exact text if "no sponsorship" or "must be authorized"]
+Salary range: [if stated]
+```
+
+Then rate Jamie's match against each REQUIRED skill:
+- ✅ Direct match (she has done exactly this)
+- ⚠️ Partial match (adjacent experience — needs honest framing)
+- ❌ Gap (she hasn't done this; would need to learn on the job)
+
+**Auto-flag rules:**
+- If 3+ REQUIRED skills are ❌ → mark as `SKIP` before proceeding to full Step 4 assessment
+- If JD contains a ★★★ required skill that is in Jamie's ★☆☆ self-assessment areas
+  (instructional design, payroll, ER, HRIS admin) → mark as `SKIP`
+- If YOE required > 4 years anywhere in required qualifications → `SKIP` immediately
+
+This structured extraction feeds directly into Step 4 (fit %) and Step 5 (scoring).
+Log it as a compact block in the pick dashboard — it's the evidence behind the fit score.
+
+---
+
 ### Step 4 — Honest Fit Assessment
 
 > **Be Jamie's honest advisor, not her hype machine.**
@@ -1539,6 +1714,16 @@ For each verified-live candidate, assess against Jamie's ACTUAL experience from 
 - Local Pacific Northwest presence = lowest competition + H1B cap-exempt university/hospital advantage
 - Accept 60%+ fit for Portland/Seattle in-person if P1–P2 tier
 - JD should not lean heavily on ★☆☆ areas
+
+**4c-2. Education Sector / Professional Development Orgs — Jamie's stated preference:**
+- Companies in the talent development, workforce training, CPT/CPTD certification, and edtech
+  corporate training space are a strong cultural fit given Jamie's applied org psych background
+- Accept 65%+ fit for these orgs even if remote, because domain alignment matters
+- Examples: ATD (Association for Talent Development), organizations developing CPTD-related programs,
+  workforce development nonprofits (cap-exempt advantage), edtech with corporate L&D divisions
+  (Coursera, Degreed, 360Learning, Cornerstone OnDemand), consulting firms that focus on
+  talent and learning (DDI, Korn Ferry, Mercer, Right Management / ManpowerGroup)
+- ⚠️ Still apply H1B check — not all ed-sector orgs sponsor. Cap-exempt nonprofit advantage applies.
 
 **4d. Check against self-assessment in preferences.md:**
 - If role leans on ★☆☆ areas (instructional design, payroll, ER) → probably not a fit

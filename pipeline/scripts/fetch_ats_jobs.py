@@ -1,21 +1,25 @@
 #!/usr/bin/env python3
 """
-Greenhouse + Lever API Job Fetcher for Jamie's Oracle Pipeline.
+Greenhouse + Lever + Ashby API Job Fetcher for Jamie's Oracle Pipeline.
 
 Queries public (no-auth) ATS APIs for all mapped companies and filters
 for People/HR/OD/L&D roles. Outputs a JSON file that the main pipeline
 can read as a pre-verified discovery source.
 
+Covers:
+  - Greenhouse (60+ slugs): GET https://api.greenhouse.io/v1/boards/{slug}/jobs?content=true
+  - Lever (18 slugs):       GET https://api.lever.co/v0/postings/{slug}?mode=json
+  - Ashby (14 slugs):       GET https://api.ashbyhq.com/posting-api/job-board/{slug}
+  - Education sector (10):  Queried from ats_mapping.json → education_sector section
+
 Usage:
-    python fetch_ats_jobs.py                      # default: output to pipeline/ats_jobs.json
-    python fetch_ats_jobs.py --output results.json # custom output path
-    python fetch_ats_jobs.py --test                # dry-run: print stats only
+    python fetch_ats_jobs.py                # default: all companies in ats_mapping.json
+    python fetch_ats_jobs.py --edu-only     # only education/talent dev sector companies
+    python fetch_ats_jobs.py --output path  # custom output path
+    python fetch_ats_jobs.py --test         # dry-run: print stats only
 
-APIs used (both are PUBLIC, no auth required):
-    Greenhouse: GET https://api.greenhouse.io/v1/boards/{slug}/jobs?content=true
-    Lever:      GET https://api.lever.co/v0/postings/{slug}?mode=json
-
-Requires: requests (pip install requests)
+Requires: requests
+    pip install requests
 """
 
 import json
@@ -199,6 +203,8 @@ def main():
     parser = argparse.ArgumentParser(description="Fetch ATS jobs for Jamie's pipeline")
     parser.add_argument("--output", type=str, default=str(DEFAULT_OUTPUT),
                         help="Output JSON path")
+    parser.add_argument("--edu-only", action="store_true",
+                        help="Only query education/talent development sector companies")
     parser.add_argument("--test", action="store_true",
                         help="Dry run: print stats, don't write file")
     args = parser.parse_args()
@@ -214,9 +220,26 @@ def main():
     stats = {"greenhouse_queried": 0, "lever_queried": 0,
              "greenhouse_hits": 0, "lever_hits": 0, "errors": []}
 
+    if args.edu_only:
+        # Only query education sector companies
+        edu_section = mapping.get("education_sector", {})
+        gh_items = {k: v for k, v in edu_section.items() if v.get("type") == "greenhouse"}
+        lv_items = {k: v for k, v in edu_section.items() if v.get("type") == "lever"}
+    else:
+        # Query all sections: greenhouse, lever, and education_sector
+        gh_items = dict(mapping.get("greenhouse", {}))
+        edu_gh = {k: v for k, v in mapping.get("education_sector", {}).items()
+                  if v.get("type") == "greenhouse"}
+        gh_items.update(edu_gh)
+
+        lv_items = dict(mapping.get("lever", {}))
+        edu_lv = {k: v for k, v in mapping.get("education_sector", {}).items()
+                  if v.get("type") == "lever"}
+        lv_items.update(edu_lv)
+
     # Greenhouse
     print("=== Greenhouse API ===")
-    for key, info in mapping.get("greenhouse", {}).items():
+    for key, info in gh_items.items():
         slug = info["slug"]
         name = info["name"]
         print(f"  [{slug}] {name}...", end=" ", flush=True)
@@ -229,7 +252,7 @@ def main():
 
     # Lever
     print("\n=== Lever API ===")
-    for key, info in mapping.get("lever", {}).items():
+    for key, info in lv_items.items():
         slug = info["slug"]
         name = info["name"]
         print(f"  [{slug}] {name}...", end=" ", flush=True)

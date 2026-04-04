@@ -177,10 +177,38 @@
 
 ---
 
+## Tier 8 — EDUCATION / TALENT DEVELOPMENT SECTOR (Jamie's preference — check every run)
+
+> Companies in the talent development, CPT/CPTD certification, workforce training, and corporate
+> learning space. Strong cultural alignment with Jamie's applied org psych background.
+> Mix of ATD-affiliated, edtech with L&D divisions, and workforce dev nonprofits (cap-exempt).
+
+| Company | Careers URL | Search Keywords | H1B Status | Last Checked | Notes |
+|---------|-------------|-----------------|------------|--------------|-------|
+| ATD (Assoc. for Talent Development) | jobs.td.org | "program manager" "coordinator" "specialist" | 🏛️ Cap-Exempt | — | Professional association. Cap-exempt. |
+| Coursera | coursera.org/careers | "people programs" "HR" "talent" "L&D" | ✅ Confirmed | — | Edtech. Corporate training arm. |
+| LinkedIn Learning | careers.linkedin.com | "people programs" "talent" "L&D" | ✅ Confirmed | — | Part of LinkedIn/Microsoft. |
+| Cornerstone OnDemand | cornerstoneondemand.com/careers | "people" "talent" "HR" "program" | ✅ Confirmed | — | LMS/talent mgmt software. |
+| Degreed | degreed.com/careers | "people" "talent" "HR" "program" | ✅ Confirmed | — | Learning experience platform. |
+| 360Learning | 360learning.com/careers | "people" "talent" "HR" | ✅ Confirmed | — | Collaborative learning platform. |
+| Udemy for Business | udemy.com/careers | "people programs" "HR" "talent" | ✅ Confirmed | — | Edtech / corporate learning. |
+| NovoEd | novoed.com/careers | "people" "talent" "program" | ❓ Unknown | — | Cohort-based corporate learning. |
+| DDI (Development Dimensions Intl) | ddiworld.com/careers | "people" "talent" "consultant" "analyst" | ✅ Confirmed | — | Leadership development consulting. |
+| Right Management (ManpowerGroup) | right.com/careers | "talent" "career" "consulting" "analyst" | ✅ Confirmed | — | Outplacement + talent advisory. |
+| BetterUp | betterup.com/careers | "people programs" "talent" "HR" | ✅ Confirmed | — | Coaching + performance platform. |
+| Guild Education | guild.com/careers | "people" "talent" "HR" "program" | ✅ Confirmed | — | Workforce education benefits. |
+| InStride | instride.co/careers | "people" "talent" "program" "workforce education" | ❓ Unknown | — | Workforce education programs. |
+| Percipio (Skillsoft) | skillsoft.com/careers | "people" "talent" "HR" "program" | ✅ Confirmed | — | Corporate learning platform. |
+| Torch Leadership | torch.io/careers | "people" "talent" "program" | ❓ Unknown | — | Leadership coaching platform. |
+| Hone | honehq.com/careers | "people" "talent" "program" "HR" | ❓ Unknown | — | Live learning for managers. |
+
+---
+
 ## 📋 Update Log
 
 | Date | Action |
 |------|--------|
+| 2026-04-03 | v4.0: Added Tier 8 — Education/Talent Development sector (16 companies). Jamie's stated preference for CPT/CPTD-aligned orgs. |
 | 2026-04-02 | BCG moved off skip list → active in Tier 4 with careers URL and search keywords. |
 | 2026-03-28 | v3.3: Added ATS mapping info. NL/EU Tier 8 prepared but kept in separate agent. |
 | 2026-03-24 | Initial watchlist created. 80+ companies across 7 tiers. |

@@ -12,9 +12,13 @@ Glassdoor works but is slower.
 Usage:
     python jobspy_search.py                        # default search
     python jobspy_search.py --location "Amsterdam"  # EU search
+    python jobspy_search.py --include-nl            # add Netherlands configs
+    python jobspy_search.py --edu-only              # education sector only
     python jobspy_search.py --test                  # dry-run
 
-Requires: python-jobspy (pip install python-jobspy)
+Requires: python-jobspy
+    pip install python-jobspy
+    pip install requests beautifulsoup4 pandas  (optional CSV export)
 """
 
 import json
@@ -32,10 +36,12 @@ except ImportError:
 DEFAULT_OUTPUT_JSON = Path("C:/Windows/Temp/jobspy_results.json")
 DEFAULT_OUTPUT_CSV = Path("C:/Windows/Temp/jobspy_results.csv")
 
-# Search configurations for Jamie's target roles
+# ---------------------------------------------------------------------------
+# P1 — People Program Management (primary target)
+# ---------------------------------------------------------------------------
 SEARCH_CONFIGS = [
     {
-        "name": "People Program Manager",
+        "name": "People Program Manager (Portland local)",
         "term": '"people program manager" OR "HR program manager" OR "talent program manager"',
         "location": "Portland, OR",
         "distance": 50,
@@ -43,37 +49,163 @@ SEARCH_CONFIGS = [
     },
     {
         "name": "People Program Manager (Remote)",
-        "term": '"people program manager" OR "HR program manager"',
+        "term": '"people program manager" OR "HR program manager" OR "talent programs coordinator"',
         "location": "United States",
         "is_remote": True,
         "results": 30,
     },
     {
-        "name": "OD / Employee Experience",
-        "term": '"organizational development" OR "employee experience" OR "engagement specialist"',
-        "location": "Portland, OR",
-        "distance": 50,
-        "results": 20,
-    },
-    {
-        "name": "L&D Operations",
-        "term": '"learning and development" OR "L&D" OR "training manager" OR "learning operations"',
-        "location": "Portland, OR",
-        "distance": 50,
-        "results": 20,
-    },
-    {
-        "name": "Talent Development Consulting",
-        "term": '"talent development consultant" OR "people advisory" OR "OD consultant" OR "HR consultant"',
+        "name": "Early Career Program Manager",
+        "term": '"early career program manager" OR "university programs manager" OR "campus programs coordinator" OR "early talent program"',
         "location": "United States",
         "is_remote": True,
         "results": 20,
     },
     {
-        "name": "Junior HRBP",
-        "term": '"associate HRBP" OR "HRBP assistant" OR "junior people partner" OR "HR associate"',
+        "name": "People Programs Associate/Specialist",
+        "term": '"people programs associate" OR "people programs specialist" OR "talent programs associate" OR "talent and engagement associate"',
+        "location": "United States",
+        "is_remote": True,
+        "results": 20,
+    },
+    {
+        "name": "Employee Experience Program Manager",
+        "term": '"employee experience program manager" OR "employee experience coordinator" OR "EX program"',
+        "location": "United States",
+        "is_remote": True,
+        "results": 20,
+    },
+    # ---------------------------------------------------------------------------
+    # P2 — OD, OCM, Engagement, L&D Ops
+    # ---------------------------------------------------------------------------
+    {
+        "name": "OD / Employee Experience (Portland)",
+        "term": '"organizational development" OR "employee experience" OR "engagement specialist" OR "OD specialist"',
         "location": "Portland, OR",
         "distance": 50,
+        "results": 25,
+    },
+    {
+        "name": "L&D Operations (Portland)",
+        "term": '"learning and development" OR "learning operations" OR "training coordinator" OR "L&D coordinator"',
+        "location": "Portland, OR",
+        "distance": 50,
+        "results": 20,
+    },
+    {
+        "name": "OCM / Change Management Analyst",
+        "term": '"organizational change management" OR "OCM analyst" OR "change enablement" OR "change specialist"',
+        "location": "United States",
+        "is_remote": True,
+        "results": 20,
+    },
+    {
+        "name": "Talent Development (Remote)",
+        "term": '"talent development coordinator" OR "talent development program" OR "talent management specialist" NOT "senior director" NOT "vice president"',
+        "location": "United States",
+        "is_remote": True,
+        "results": 20,
+    },
+    {
+        "name": "Talent Operations",
+        "term": '"talent operations coordinator" OR "talent operations manager" OR "talent operations specialist"',
+        "location": "United States",
+        "is_remote": True,
+        "results": 15,
+    },
+    # ---------------------------------------------------------------------------
+    # P2 — Portland/Seattle local on-site/hybrid (competitive advantage)
+    # ---------------------------------------------------------------------------
+    {
+        "name": "People Ops / HR Associate (Portland local)",
+        "term": '"people operations" OR "HR associate" OR "people coordinator" OR "HR coordinator" OR "HRBP associate"',
+        "location": "Portland, OR",
+        "distance": 50,
+        "results": 25,
+    },
+    {
+        "name": "HR / People Roles (Seattle)",
+        "term": '"people programs" OR "talent development" OR "HR specialist" OR "employee experience" OR "OD specialist"',
+        "location": "Seattle, WA",
+        "distance": 30,
+        "results": 25,
+    },
+    # ---------------------------------------------------------------------------
+    # P3 — Consulting (entry/analyst level)
+    # ---------------------------------------------------------------------------
+    {
+        "name": "Talent Development Consulting",
+        "term": '"talent development consultant" OR "people advisory" OR "OD consultant" OR "human capital analyst" OR "workforce transformation analyst"',
+        "location": "United States",
+        "is_remote": True,
+        "results": 20,
+    },
+    {
+        "name": "HR Consulting Analyst",
+        "term": '"HR consulting analyst" OR "HR associate consultant" OR "people advisory analyst" OR "talent consulting associate"',
+        "location": "United States",
+        "is_remote": True,
+        "results": 15,
+    },
+    # ---------------------------------------------------------------------------
+    # Junior HRBP
+    # ---------------------------------------------------------------------------
+    {
+        "name": "Junior HRBP (Portland/Seattle)",
+        "term": '"associate HRBP" OR "HRBP associate" OR "junior people partner" OR "HR business partner associate"',
+        "location": "Portland, OR",
+        "distance": 150,  # catches Seattle too
+        "results": 20,
+    },
+    # ---------------------------------------------------------------------------
+    # Education sector — CPT / CPTD / I/O Psych orgs (NEW — Jamie's preference)
+    # Test prep, professional development, workforce training, edtech
+    # ---------------------------------------------------------------------------
+    {
+        "name": "Education / Training Orgs (L&D focus)",
+        "term": '"instructional design" OR "learning programs manager" OR "talent development" OR "training specialist" OR "curriculum developer" site:greenhouse.io OR site:lever.co',
+        "location": "United States",
+        "is_remote": True,
+        "results": 20,
+    },
+    {
+        "name": "Workforce Development / Edtech PM",
+        "term": '"workforce development program manager" OR "corporate training manager" OR "learning program manager" OR "education program manager" -"school district" -"K-12"',
+        "location": "United States",
+        "is_remote": True,
+        "results": 20,
+    },
+]
+
+# ---------------------------------------------------------------------------
+# Education sector deep search — ATD / professional certification orgs
+# Run with --edu-only flag for a focused education sector run
+# ---------------------------------------------------------------------------
+EDU_SEARCH_CONFIGS = [
+    {
+        "name": "ATD / CPT firms (talent development orgs)",
+        "term": '"talent development" OR "learning & development" OR "performance improvement" "program manager" OR "specialist" OR "coordinator"',
+        "location": "United States",
+        "is_remote": True,
+        "results": 25,
+    },
+    {
+        "name": "Test prep / EdTech L&D roles",
+        "term": '"people programs" OR "talent development" OR "HR specialist" site:greenhouse.io',
+        "location": "United States",
+        "is_remote": True,
+        "results": 20,
+    },
+    {
+        "name": "University / higher ed HR (cap-exempt)",
+        "term": '"HR coordinator" OR "talent development" OR "organizational development" OR "people programs" "university" OR "college" OR "higher education"',
+        "location": "United States",
+        "results": 20,
+    },
+    {
+        "name": "Nonprofit L&D / workforce dev (cap-exempt)",
+        "term": '"workforce development" OR "employee learning" OR "talent programs" "nonprofit" OR "NGO" OR "foundation" -"school district"',
+        "location": "United States",
         "results": 20,
     },
 ]
@@ -136,11 +268,20 @@ def main():
                         help="Override location for all searches")
     parser.add_argument("--include-nl", action="store_true",
                         help="Also run Netherlands-specific searches")
+    parser.add_argument("--edu-only", action="store_true",
+                        help="Run education/CPT sector searches only")
+    parser.add_argument("--include-edu", action="store_true",
+                        help="Add education sector searches to the default run")
     parser.add_argument("--test", action="store_true")
     args = parser.parse_args()
 
     all_results = []
-    configs = SEARCH_CONFIGS.copy()
+    if args.edu_only:
+        configs = EDU_SEARCH_CONFIGS.copy()
+    else:
+        configs = SEARCH_CONFIGS.copy()
+        if args.include_edu:
+            configs.extend(EDU_SEARCH_CONFIGS)
     if args.include_nl:
         configs.extend(NL_SEARCH_CONFIGS)
 

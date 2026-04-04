@@ -1,69 +1,267 @@
 {
   "_description": "ATS mapping for watchlist companies. Used by fetch_ats_jobs.py to query public APIs.",
-  "_updated": "2026-03-28",
+  "_updated": "2026-04-03",
+  "_version": "2.0",
   "_api_docs": {
     "greenhouse": "https://developers.greenhouse.io/job-board.html — GET /v1/boards/{slug}/jobs?content=true",
-    "lever": "https://github.com/lever/postings-api — GET /v0/postings/{slug}?mode=json"
+    "lever": "https://github.com/lever/postings-api — GET /v0/postings/{slug}?mode=json",
+    "ashby": "GET https://api.ashbyhq.com/posting-api/job-board/{slug}?includeCompensation=true (JSON, no auth)",
+    "workday_note": "No public API — use direct career site searches in SKILL.md Step 2b"
   },
   "greenhouse": {
-    "stripe": { "name": "Stripe", "slug": "stripe", "verified": true },
-    "figma": { "name": "Figma", "slug": "figma", "verified": true },
-    "discord": { "name": "Discord", "slug": "discord", "verified": true },
-    "roblox": { "name": "Roblox", "slug": "roblox", "verified": true },
-    "airbnb": { "name": "Airbnb", "slug": "airbnb", "verified": true },
-    "duolingo": { "name": "Duolingo", "slug": "duolingo", "verified": true },
-    "hubspot": { "name": "HubSpot", "slug": "hubspotjobs", "verified": true },
-    "cloudflare": { "name": "Cloudflare", "slug": "cloudflare", "verified": true },
-    "datadog": { "name": "Datadog", "slug": "datadog", "verified": true },
-    "twilio": { "name": "Twilio", "slug": "twilio", "verified": true },
-    "block": { "name": "Block/Square", "slug": "block", "verified": true },
-    "epicgames": { "name": "Epic Games", "slug": "epicgames", "verified": true },
-    "riotgames": { "name": "Riot Games", "slug": "riotgames", "verified": true },
-    "flatiron": { "name": "Flatiron Health", "slug": "flatironhealth", "verified": false },
-    "activision": { "name": "Activision Blizzard", "slug": "activisionblizzard", "verified": false },
-    "snap": { "name": "Snap", "slug": "snap", "verified": false },
-    "docusign": { "name": "DocuSign", "slug": "docusign", "verified": false },
-    "redfin": { "name": "Redfin", "slug": "redfin", "verified": false },
-    "zillow": { "name": "Zillow", "slug": "zillow", "verified": false },
-    "expedia": { "name": "Expedia", "slug": "expediagroup", "verified": false },
-    "headspace": { "name": "Headspace", "slug": "headspace", "verified": false },
-    "hingehealth": { "name": "Hinge Health", "slug": "hingehealth", "verified": false },
-    "modernhealth": { "name": "Modern Health", "slug": "modernhealth", "verified": false },
-    "tempus": { "name": "Tempus AI", "slug": "tempus", "verified": false },
-    "color": { "name": "Color Health", "slug": "color", "verified": false },
-    "includedhealth": { "name": "Included Health", "slug": "includedhealth", "verified": false },
-    "veeva": { "name": "Veeva Systems", "slug": "veeva", "verified": false },
-    "ro": { "name": "Ro", "slug": "ro", "verified": false },
-    "vacasa": { "name": "Vacasa", "slug": "vacasa", "verified": false },
-    "puppet": { "name": "Puppet", "slug": "puppet", "verified": false },
-    "latticesemi": { "name": "Lattice Semiconductor", "slug": "latticesemiconductor", "verified": false },
-    "jama": { "name": "Jama Software", "slug": "jamasoftware", "verified": false }
+    "stripe": { "name": "Stripe", "slug": "stripe", "verified": true, "h1b": "confirmed" },
+    "figma": { "name": "Figma", "slug": "figma", "verified": true, "h1b": "confirmed" },
+    "discord": { "name": "Discord", "slug": "discord", "verified": true, "h1b": "confirmed" },
+    "roblox": { "name": "Roblox", "slug": "roblox", "verified": true, "h1b": "confirmed" },
+    "airbnb": { "name": "Airbnb", "slug": "airbnb", "verified": true, "h1b": "confirmed" },
+    "duolingo": { "name": "Duolingo", "slug": "duolingo", "verified": true, "h1b": "confirmed" },
+    "hubspot": { "name": "HubSpot", "slug": "hubspotjobs", "verified": true, "h1b": "confirmed" },
+    "cloudflare": { "name": "Cloudflare", "slug": "cloudflare", "verified": true, "h1b": "confirmed" },
+    "datadog": { "name": "Datadog", "slug": "datadog", "verified": true, "h1b": "confirmed" },
+    "twilio": { "name": "Twilio", "slug": "twilio", "verified": true, "h1b": "confirmed" },
+    "block": { "name": "Block/Square", "slug": "block", "verified": true, "h1b": "confirmed" },
+    "epicgames": { "name": "Epic Games", "slug": "epicgames", "verified": true, "h1b": "confirmed" },
+    "riotgames": { "name": "Riot Games", "slug": "riotgames", "verified": true, "h1b": "confirmed" },
+    "flatiron": { "name": "Flatiron Health", "slug": "flatironhealth", "verified": true, "h1b": "confirmed" },
+    "activision": { "name": "Activision Blizzard", "slug": "activisionblizzard", "verified": false, "h1b": "confirmed" },
+    "snap": { "name": "Snap", "slug": "snap", "verified": false, "h1b": "confirmed" },
+    "docusign": { "name": "DocuSign", "slug": "docusign", "verified": false, "h1b": "confirmed" },
+    "redfin": { "name": "Redfin", "slug": "redfin", "verified": false, "h1b": "unknown" },
+    "zillow": { "name": "Zillow", "slug": "zillow", "verified": false, "h1b": "confirmed" },
+    "expedia": { "name": "Expedia", "slug": "expediagroup", "verified": false, "h1b": "confirmed" },
+    "headspace": { "name": "Headspace", "slug": "headspace", "verified": false, "h1b": "unknown" },
+    "hingehealth": { "name": "Hinge Health", "slug": "hingehealth", "verified": false, "h1b": "confirmed" },
+    "modernhealth": { "name": "Modern Health", "slug": "modernhealth", "verified": false, "h1b": "unknown" },
+    "tempus": { "name": "Tempus AI", "slug": "tempus", "verified": false, "h1b": "confirmed" },
+    "color": { "name": "Color Health", "slug": "color", "verified": false, "h1b": "unknown" },
+    "includedhealth": { "name": "Included Health", "slug": "includedhealth", "verified": false, "h1b": "unknown" },
+    "veeva": { "name": "Veeva Systems", "slug": "veeva", "verified": false, "h1b": "confirmed" },
+    "ro": { "name": "Ro", "slug": "ro", "verified": false, "h1b": "unknown" },
+    "vacasa": { "name": "Vacasa", "slug": "vacasa", "verified": false, "h1b": "unknown" },
+    "puppet": { "name": "Puppet", "slug": "puppet", "verified": false, "h1b": "unknown" },
+    "latticesemi": { "name": "Lattice Semiconductor", "slug": "latticesemiconductor", "verified": false, "h1b": "confirmed" },
+    "jama": { "name": "Jama Software", "slug": "jamasoftware", "verified": false, "h1b": "unknown" },
+    "waymo": { "name": "Waymo", "slug": "waymo", "verified": false, "h1b": "confirmed" },
+    "lyft": { "name": "Lyft", "slug": "lyft", "verified": false, "h1b": "confirmed" },
+    "databricks": { "name": "Databricks", "slug": "databricks", "verified": false, "h1b": "confirmed" },
+    "snowflake": { "name": "Snowflake", "slug": "snowflake", "verified": false, "h1b": "confirmed" },
+    "brex": { "name": "Brex", "slug": "brex", "verified": false, "h1b": "confirmed" },
+    "plaid": { "name": "Plaid", "slug": "plaid", "verified": false, "h1b": "confirmed" },
+    "robinhood": { "name": "Robinhood", "slug": "robinhood", "verified": false, "h1b": "confirmed" },
+    "nerdwallet": { "name": "NerdWallet", "slug": "nerdwallet", "verified": false, "h1b": "confirmed" },
+    "benchling": { "name": "Benchling", "slug": "benchling", "verified": false, "h1b": "confirmed" },
+    "canva": { "name": "Canva", "slug": "canva", "verified": false, "h1b": "confirmed" },
+    "linear": { "name": "Linear", "slug": "linear", "verified": false, "h1b": "unknown" },
+    "verkada": { "name": "Verkada", "slug": "verkada", "verified": false, "h1b": "confirmed" },
+    "gusto": { "name": "Gusto", "slug": "gusto", "verified": false, "h1b": "confirmed" },
+    "rippling": { "name": "Rippling", "slug": "rippling", "verified": false, "h1b": "confirmed" },
+    "lattice": { "name": "Lattice (HR software)", "slug": "lattice", "verified": false, "h1b": "confirmed" },
+    "culture-amp": { "name": "Culture Amp", "slug": "cultureamp", "verified": false, "h1b": "confirmed" },
+    "patreon": { "name": "Patreon", "slug": "patreon", "verified": false, "h1b": "confirmed" },
+    "kickstarter": { "name": "Kickstarter", "slug": "kickstarter", "verified": false, "h1b": "unknown" },
+    "duolingo2": { "name": "Duolingo (Ashby alt)", "slug": "duolingo", "verified": false, "h1b": "confirmed" },
+    "squarespace": { "name": "Squarespace", "slug": "squarespace", "verified": false, "h1b": "confirmed" },
+    "wix": { "name": "Wix", "slug": "wix", "verified": false, "h1b": "confirmed" },
+    "amplitude": { "name": "Amplitude", "slug": "amplitude", "verified": false, "h1b": "confirmed" },
+    "mixpanel": { "name": "Mixpanel", "slug": "mixpanel", "verified": false, "h1b": "confirmed" },
+    "segment": { "name": "Twilio Segment", "slug": "segment", "verified": false, "h1b": "confirmed" },
+    "instacart": { "name": "Instacart", "slug": "instacart", "verified": false, "h1b": "confirmed" },
+    "doordash": { "name": "DoorDash", "slug": "doordash", "verified": false, "h1b": "confirmed" },
+    "coinbase": { "name": "Coinbase", "slug": "coinbase", "verified": false, "h1b": "confirmed" },
+    "chime": { "name": "Chime", "slug": "chime", "verified": false, "h1b": "confirmed" },
+    "benchmarkseniorliving": { "name": "Benchmark Senior Living", "slug": "benchmarkseniorliving", "verified": false, "h1b": "no" },
+    "stantec": { "name": "Stantec", "slug": "stantec", "verified": false, "h1b": "confirmed", "_note": "113 LCAs verified Apr 3" }
   },
   "lever": {
-    "spotify": { "name": "Spotify", "slug": "spotify", "verified": true },
-    "netflix": { "name": "Netflix", "slug": "netflix", "verified": true },
-    "atlassian": { "name": "Atlassian", "slug": "atlassian", "verified": true },
-    "shopify": { "name": "Shopify", "slug": "shopify", "verified": false }
-  },
-  "workday": {
-    "nike": { "name": "Nike", "url": "https://jobs.nike.com" },
-    "intel": { "name": "Intel", "url": "https://jobs.intel.com" },
-    "salesforce": { "name": "Salesforce", "url": "https://salesforce.wd12.myworkdayjobs.com" },
-    "snap_wd": { "name": "Snap (Workday)", "url": "https://snapchat.wd1.myworkdayjobs.com" },
-    "disney": { "name": "Disney", "url": "https://disney.wd5.myworkdayjobs.com" },
-    "adidas": { "name": "Adidas", "url": "https://careers.adidas-group.com" },
-    "columbia": { "name": "Columbia Sportswear", "url": "https://www.columbiasportswear.com/careers" },
-    "daimler": { "name": "Daimler Trucks NA", "url": "https://dtna.com/careers" },
-    "tmobile": { "name": "T-Mobile", "url": "https://www.t-mobile.com/careers" }
-  },
-  "custom": {
-    "amazon": { "name": "Amazon", "url": "https://amazon.jobs" },
-    "microsoft": { "name": "Microsoft", "url": "https://careers.microsoft.com" },
-    "adobe": { "name": "Adobe (Phenom)", "url": "https://careers.adobe.com" },
-    "ea": { "name": "EA (gr8people)", "url": "https://ea.gr8people.com/jobs" },
-    "canva": { "name": "Canva", "url": "https://www.canva.com/careers/jobs/" }
+    "spotify": { "name": "Spotify", "slug": "spotify", "verified": true, "h1b": "confirmed" },
+    "netflix": { "name": "Netflix", "slug": "netflix", "verified": true, "h1b": "confirmed" },
+    "atlassian": { "name": "Atlassian", "slug": "atlassian", "verified": true, "h1b": "confirmed" },
+    "shopify": { "name": "Shopify", "slug": "shopify", "verified": false, "h1b": "confirmed" },
+    "reddit": { "name": "Reddit", "slug": "reddit", "verified": false, "h1b": "confirmed" },
+    "dropbox": { "name": "Dropbox", "slug": "dropbox", "verified": false, "h1b": "confirmed" },
+    "zoom": { "name": "Zoom", "slug": "zoom", "verified": false, "h1b": "confirmed" },
+    "figma-lever": { "name": "Figma (Lever alt)", "slug": "figma", "verified": false, "h1b": "confirmed" },
+    "box": { "name": "Box", "slug": "box", "verified": false, "h1b": "confirmed" },
+    "intercom": { "name": "Intercom", "slug": "intercom", "verified": false, "h1b": "confirmed" },
+    "twitch": { "name": "Twitch", "slug": "twitch", "verified": false, "h1b": "confirmed" },
+    "eventbrite": { "name": "Eventbrite", "slug": "eventbrite", "verified": false, "h1b": "confirmed" },
+    "thumbtack": { "name": "Thumbtack", "slug": "thumbtack", "verified": false, "h1b": "unknown" },
+    "accenture": { "name": "Accenture", "slug": "accenture", "verified": false, "h1b": "confirmed" },
+    "mercer": { "name": "Mercer", "slug": "mercer", "verified": false, "h1b": "confirmed" },
+    "kornferry": { "name": "Korn Ferry", "slug": "kornferry", "verified": false, "h1b": "confirmed" },
+    "aon": { "name": "Aon", "slug": "aon", "verified": false, "h1b": "confirmed" },
+    "willisre": { "name": "Willis Towers Watson", "slug": "wtwco", "verified": false, "h1b": "confirmed" }
   },
   "ashby": {
-    "notion": { "name": "Notion", "url": "https://www.notion.so/careers" }
+    "notion": { "name": "Notion", "slug": "notion", "verified": true, "h1b": "confirmed" },
+    "vercel": { "name": "Vercel", "slug": "vercel", "verified": false, "h1b": "confirmed" },
+    "retool": { "name": "Retool", "slug": "retool", "verified": false, "h1b": "confirmed" },
+    "mercury": { "name": "Mercury", "slug": "mercury", "verified": false, "h1b": "confirmed" },
+    "hex": { "name": "Hex", "slug": "hex-2", "verified": false, "h1b": "unknown" },
+    "ramp": { "name": "Ramp", "slug": "ramp", "verified": false, "h1b": "confirmed" },
+    "deel": { "name": "Deel", "slug": "deel", "verified": false, "h1b": "confirmed" },
+    "remote": { "name": "Remote.com", "slug": "remote", "verified": false, "h1b": "confirmed" },
+    "replit": { "name": "Replit", "slug": "replit", "verified": false, "h1b": "confirmed" },
+    "descript": { "name": "Descript", "slug": "descript", "verified": false, "h1b": "confirmed" },
+    "loom": { "name": "Loom (now Atlassian)", "slug": "loom", "verified": false, "h1b": "confirmed" },
+    "miro": { "name": "Miro", "slug": "miro", "verified": false, "h1b": "confirmed" },
+    "figma-ashby": { "name": "Figma (Ashby alt)", "slug": "figma", "verified": false, "h1b": "confirmed" },
+    "watershed": { "name": "Watershed", "slug": "watershed", "verified": false, "h1b": "confirmed" }
+  },
+  "workday": {
+    "_note": "Workday has no public API. Direct search URLs below are used by SKILL.md Step 2b Workday section.",
+    "nike": {
+      "name": "Nike",
+      "url": "https://jobs.nike.com/search?q=people+program+OR+talent+OR+HR+specialist&location=Portland",
+      "h1b": "confirmed",
+      "_search_terms": ["people programs", "talent development", "HR specialist", "employee experience", "OD"]
+    },
+    "intel": {
+      "name": "Intel",
+      "url": "https://jobs.intel.com/en/search#q=people%20program%20OR%20talent%20OR%20HR&location=Hillsboro",
+      "h1b": "confirmed",
+      "_search_terms": ["people programs", "talent", "OD", "HR specialist"]
+    },
+    "salesforce": {
+      "name": "Salesforce",
+      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site?q=people+program+OR+talent+development",
+      "h1b": "confirmed",
+      "_search_terms": ["people programs", "talent development", "employee experience", "OD"]
+    },
+    "snap_wd": {
+      "name": "Snap (Workday)",
+      "url": "https://careers.snap.com/jobs?q=people+program+OR+talent+OR+HR",
+      "h1b": "confirmed",
+      "_search_terms": ["people programs", "talent", "HR specialist"]
+    },
+    "disney": {
+      "name": "Disney",
+      "url": "https://jobs.disneycareers.com/search-jobs?q=people+program+OR+talent+OR+HR+specialist",
+      "h1b": "confirmed",
+      "_search_terms": ["HR specialist", "people programs", "talent development", "learning"]
+    },
+    "adidas": {
+      "name": "Adidas",
+      "url": "https://careers.adidas-group.com/jobs?q=talent+OR+people+OR+HR&location=Portland",
+      "h1b": "confirmed",
+      "_search_terms": ["talent", "people", "HR specialist", "OD"]
+    },
+    "columbia": {
+      "name": "Columbia Sportswear",
+      "url": "https://www.columbiasportswear.com/careers",
+      "h1b": "confirmed",
+      "_search_terms": ["HR", "people", "talent", "learning"]
+    },
+    "daimler": {
+      "name": "Daimler Trucks NA",
+      "url": "https://jobs.daimlertruck.com/search?q=HR+OR+talent+OR+people&location=Portland",
+      "h1b": "unknown",
+      "_search_terms": ["HR", "talent", "learning", "OD"]
+    },
+    "tmobile": {
+      "name": "T-Mobile",
+      "url": "https://www.t-mobile.com/careers/job-search?q=people+program+OR+talent+OR+HR",
+      "h1b": "confirmed",
+      "_search_terms": ["people programs", "talent development", "HR specialist"]
+    },
+    "amazon": {
+      "name": "Amazon",
+      "url": "https://amazon.jobs/en/search?base_query=people+experience+OR+HR+program+manager+OR+talent+development",
+      "h1b": "confirmed",
+      "_search_terms": ["people experience", "HR program manager", "talent development", "employee engagement"]
+    },
+    "microsoft": {
+      "name": "Microsoft",
+      "url": "https://careers.microsoft.com/v2/global/en/search.html?q=people+programs+OR+talent+development+OR+HR+specialist",
+      "h1b": "confirmed",
+      "_search_terms": ["people programs", "talent development", "HR specialist", "OD"]
+    },
+    "starbucks": {
+      "name": "Starbucks",
+      "url": "https://starbucks.wd1.myworkdayjobs.com/en-US/Global_Careers?q=people+OR+talent+OR+learning",
+      "h1b": "confirmed",
+      "_search_terms": ["talent", "people", "learning", "HR specialist"]
+    },
+    "providence": {
+      "name": "Providence Health",
+      "url": "https://www.providencejobs.org/search?q=HR+OR+talent+OR+OD+OR+learning&location=Portland",
+      "h1b": "unknown",
+      "_cap_exempt": true,
+      "_search_terms": ["HR", "talent", "OD", "learning", "organizational development"]
+    }
+  },
+  "custom": {
+    "ea": { "name": "EA (gr8people)", "url": "https://ea.gr8people.com/jobs?q=people+program+OR+talent+OR+HR", "h1b": "confirmed" },
+    "twitch": { "name": "Twitch (Amazon)", "url": "https://www.twitch.tv/jobs/en", "h1b": "confirmed" },
+    "pinterest": { "name": "Pinterest", "url": "https://www.pinterestcareers.com/jobs?q=people+program+OR+talent+OR+HR", "h1b": "confirmed" },
+    "twitter": { "name": "X (Twitter)", "url": "https://careers.x.com/en/jobs?q=people+programs+OR+talent", "h1b": "confirmed" }
+  },
+  "education_sector": {
+    "_note": "Tier 8 watchlist — talent development, edtech, workforce learning. Jamie's stated preference.",
+    "coursera": { "name": "Coursera", "slug": "coursera", "type": "greenhouse", "h1b": "confirmed" },
+    "cornerstone": { "name": "Cornerstone OnDemand", "slug": "cornerstoneondemand", "type": "greenhouse", "h1b": "confirmed" },
+    "degreed": { "name": "Degreed", "slug": "degreed", "type": "greenhouse", "h1b": "confirmed" },
+    "360learning": { "name": "360Learning", "slug": "360learning", "type": "lever", "h1b": "confirmed" },
+    "betterup": { "name": "BetterUp", "slug": "betterup", "type": "greenhouse", "h1b": "confirmed" },
+    "guild": { "name": "Guild Education", "slug": "guild", "type": "greenhouse", "h1b": "confirmed" },
+    "skillsoft": { "name": "Skillsoft / Percipio", "slug": "skillsoft", "type": "greenhouse", "h1b": "confirmed" },
+    "ddi": { "name": "DDI (Development Dimensions Intl)", "slug": "ddiworld", "type": "greenhouse", "h1b": "confirmed" },
+    "udemy": { "name": "Udemy", "slug": "udemy", "type": "greenhouse", "h1b": "confirmed" },
+    "linkedin-learning": { "name": "LinkedIn (LinkedIn Learning)", "slug": "linkedin", "type": "greenhouse", "h1b": "confirmed" }
+  },
+  "niche_boards": {
+    "_note": "Direct WebFetch URLs for professional association job boards — higher callback rates than LinkedIn",
+    "atd": {
+      "name": "ATD Job Bank (training & development)",
+      "fetch_url": "https://jobs.td.org/jobs/?q=program+manager+OR+coordinator+OR+specialist+OR+analyst&l=Portland%2C+OR&r=50",
+      "remote_url": "https://jobs.td.org/jobs/?q=program+manager+OR+talent+development+OR+employee+experience&r=&remote=1",
+      "h1b_relevance": "high — corporate L&D roles often at H1B sponsors"
+    },
+    "odn": {
+      "name": "ODN Job Board (org development network)",
+      "fetch_url": "https://jobs.odnetwork.org/jobs/?q=organizational+development+OR+OD+OR+talent&l=",
+      "h1b_relevance": "medium — OD-specific roles, many at large corps"
+    },
+    "shrm": {
+      "name": "SHRM HR Jobs",
+      "fetch_url": "https://jobs.shrm.org/jobs/?q=program+manager+OR+specialist+OR+coordinator&l=Portland%2C+OR",
+      "remote_url": "https://jobs.shrm.org/jobs/?q=people+programs+OR+talent+development&remote=1",
+      "h1b_relevance": "medium — HR professionals board, diverse employers"
+    },
+    "siop": {
+      "name": "SIOP (Society for Industrial-Organizational Psychology)",
+      "fetch_url": "https://www.siop.org/SIOP/Professionals/JobBoard/JobListings.aspx",
+      "h1b_relevance": "high — I-O psychology roles often in OD/talent at large corps"
+    },
+    "builtin_portland": {
+      "name": "Built In Portland",
+      "fetch_url": "https://www.builtinportland.com/jobs?q=people+program+OR+talent+OR+HR+specialist&specialty=Human+Resources",
+      "h1b_relevance": "high — Portland tech companies, curated, less staffing spam"
+    },
+    "builtin_seattle": {
+      "name": "Built In Seattle",
+      "fetch_url": "https://www.builtinseattle.com/jobs?q=people+program+OR+talent+OR+HR+specialist&specialty=Human+Resources",
+      "h1b_relevance": "high — Seattle tech companies, many H1B sponsors"
+    },
+    "builtin_remote": {
+      "name": "Built In Remote HR",
+      "fetch_url": "https://builtin.com/jobs/remote/hr?q=people+program+OR+talent+development+OR+employee+experience",
+      "h1b_relevance": "high — remote roles at tech companies"
+    },
+    "nonprofitoregon": {
+      "name": "Nonprofit Oregon Job Board",
+      "fetch_url": "https://nonprofitoregon.org/job-board",
+      "h1b_relevance": "medium — cap-exempt employers, but many don't sponsor"
+    },
+    "idealist_portland": {
+      "name": "Idealist Portland Nonprofits",
+      "fetch_url": "https://www.idealist.org/en/jobs?q=people+OR+talent+OR+HR+OR+organizational+development&location=Portland%2C+OR&radius=50",
+      "h1b_relevance": "medium — cap-exempt advantage but high stale rate (verify Chrome)"
+    },
+    "higheredjobs_oregon": {
+      "name": "HigherEdJobs Oregon/Washington",
+      "fetch_url": "https://www.higheredjobs.com/search/advanced.cfm?JobCat=26&Region=38&Region=48&Remote=1&PosType=1&InstType=1&Keyword=HR+talent+organizational+development+learning",
+      "h1b_relevance": "very_high — universities are H1B cap-exempt, any time of year"
+    }
   }
 }
