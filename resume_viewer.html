@@ -726,11 +726,11 @@
     });
     // Projects
     h += '<div class="section-header">Projects &amp; Awards</div><ul class="simple-list">';
-    d.projects.forEach(function(p, pi) { h += '<li data-projects="' + pi + '">&bull; ' + p + '</li>'; });
+    d.projects.forEach(function(p, pi) { h += '<li data-projects="' + pi + '">' + p + '</li>'; });
     h += '</ul>';
     // Skills
     h += '<div class="section-header">Skills</div><ul class="simple-list">';
-    d.skills.forEach(function(s, si) { h += '<li data-skills="' + si + '">&bull; ' + expandKw(s, 'kw') + '</li>'; });
+    d.skills.forEach(function(s, si) { h += '<li data-skills="' + si + '">' + expandKw(s, 'kw') + '</li>'; });
     h += '</ul>';
     return h;
   }

@@ -13,7 +13,7 @@
   "header": {
     "location": "Relocating to Portland, Oregon in May 2026"
   },
-  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Organization & Talent Development</b> professional who thrives on <b>designing learning programs grounded in evidence</b>, <b>building people-centered educational experiences</b>, and <b>collaborating with educators and stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve <b>people development</b>—through human-centered, systematic approaches.",
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Learning & Organization Development</b> professional who thrives on <b>designing educational programs grounded in evidence</b>, solving problems through data analysis, and collaborating with stakeholders for sustainable impact. Expect me to always be seeking ways we can improve <b>learning experiences</b>—through human-centered, systematic approaches.",
   "keywordGroups": {
     "coord": "Training/Facilitation",
     "data": "L&D/Needs Assessment",
@@ -36,11 +36,11 @@
           "change": null
         },
         {
-          "text": "Conduct needs assessments with 25+ global stakeholders to identify {data|training needs} and design 3 new educational programs",
+          "text": "Develop guides and workflows for 70+ cross-functional {cross|staff}, improving {data|staff knowledge} and reducing {prog|onboarding} time by 75%",
           "change": null
         },
         {
-          "text": "Develop guides and workflows for 70+ cross-functional {cross|staff}, improving {data|staff knowledge} and reducing {prog|onboarding} time by 75%",
+          "text": "Conduct needs assessments with 25+ global stakeholders to identify {data|training needs} and design 3 new educational programs",
           "change": null
         },
         {
@@ -58,19 +58,19 @@
       "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
       "bullets": [
         {
-          "text": "Led manager effectiveness strategic initiative, translating data into executive-ready reports to inform leadership decisions and strategy",
+          "text": "Led a manager effectiveness initiative, transforming feedback data into actionable reports that informed leadership strategies",
           "change": null
         },
         {
-          "text": "Analyzed 2,000+ employee data points, communicating insights to C-suite stakeholders to guide decisions on organizational priorities",
+          "text": "Analyzed 2,000+ employee experiences, communicating insights to C-suite stakeholders to guide decisions on training priorities",
           "change": null
         },
         {
-          "text": "Supported leadership in advancing strategic initiatives through consultations on DEI and performance management",
+          "text": "Managed SharePoint dashboards for people metrics, Net Promoter Score, and survey insights to drive employee engagement",
           "change": null
         },
         {
-          "text": "Coordinated 5 cross-functional projects focused on survey development, rewards & recognition, and L&D to improve employee experience",
+          "text": "Improved employee experience via 5 cross-functional projects focusing on survey development, rewards & recognition, and L&D",
           "change": null
         }
       ]
@@ -84,15 +84,15 @@
       "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
       "bullets": [
         {
-          "text": "Initiated a {ex|DEI} pilot with an {coord|Inclusive Leadership workshop} for 12 senior leaders, later expanded to 23 other global locations",
-          "change": null
-        },
-        {
           "text": "Optimized {prog|onboarding} across 3 global locations by coordinating process analysis and clarifying job responsibilities",
           "change": null
         },
         {
           "text": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, overseeing cross-functional stakeholders",
+          "change": null
+        },
+        {
+          "text": "Initiated a {ex|DEI} pilot with an {coord|Inclusive Leadership workshop} for 12 senior leaders, later expanded to 23 other global locations",
           "change": null
         },
         {
@@ -145,7 +145,7 @@
     }
   ],
   "projects": [
-    "<b>OD Consulting (ODN Oregon):</b> Applied data analysis and coaching to guide clients through organizational engagement and structural improvement challenges",
+    "<b>OD Consulting:</b> Applied data analysis and coaching to improve client engagement and organizational effectiveness",
     "<b>Consulting Projects:</b> Enhanced <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
     "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
     "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition scholarship), Tuck Bridge Scholarship (Full Scholarship)"
