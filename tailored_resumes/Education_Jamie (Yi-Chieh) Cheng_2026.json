@@ -4,9 +4,9 @@
     "role": "L&D Program Specialist",
     "date": "2026-04-03",
     "pageMargins": {
-      "top": "0.35in",
+      "top": "0.34in",
       "right": "0.45in",
-      "bottom": "0.35in",
+      "bottom": "0.26in",
       "left": "0.45in"
     }
   },
@@ -66,7 +66,7 @@
           "change": null
         },
         {
-          "text": "Managed SharePoint dashboards tracking people metrics, survey insights, and engagement data",
+          "text": "Managed SharePoint dashboards tracking people metrics, survey insights, and engagement data to drive employee recognition",
           "change": null
         },
         {
@@ -146,12 +146,12 @@
   ],
   "projects": [
     "<b>OD Consulting (ODN Oregon):</b> Applied data analysis and coaching to improve client engagement and organizational effectiveness",
-    "<b>College Admissions Counseling</b> (Part-Time): Mentored 4 high school students through the college application process over 2 years; all gained admission to reach and top-choice schools",
     "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>College Admissions Counseling</b> (Part-Time): Guided 4 students through career exploration, college list development, and essay writing over 2 years; all gained admission to reach and top-choice schools",
     "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition scholarship), Tuck Bridge Scholarship (Full Scholarship)"
   ],
   "skills": [
-    "Technical Skills: CRM (HubSpot) · LMS (Canvas, Moodle) · Project Management (Asana, Airtable) · Data Analysis (Google Sheets, Excel) · Knowledge Management (SharePoint, Notion) · Microsoft Office (Word, PowerPoint) · Design Tools (Canva, Adobe InDesign)",
+    "<b>Technical Skills:</b> CRM (HubSpot) · LMS (Canvas, Moodle) · Project Management (Asana, Airtable) · Data Analysis (Google Sheets, Excel) · Knowledge Management (SharePoint, Notion) · Microsoft Office (Word, PowerPoint) · Design Tools (Canva, Adobe InDesign)",
     "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
     "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
   ],
