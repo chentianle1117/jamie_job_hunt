@@ -18,12 +18,20 @@
    * **Tier 3:** Seattle, WA — moderate bar
    * **Note (Mar 2026):** Portland/Remote/Seattle is her preference, not a hard constraint. She is open to relocation for the right role. Evaluate role fit first; flag location as a consideration if out-of-area.
 3. **Seniority:** No Senior/Director/VP/Principal/C-level titles. Jamie has ~3 years experience.
+   * Exception: "Senior Associate" at consulting firms IS acceptable (industry-standard early-career title).
+   * "Senior Consultant," "Senior Specialist," or any other "Senior [X]" at consulting firms → **REJECT** (requires 5+ years).
+   * "Lead" or "Leader" titles → **REJECT** (implies team management / 5+ years experience).
+4. **Years of experience:** If a role requires 4-5+ years, reject any title containing "Senior" (except "Senior Associate"). Jamie has ~3 years — she is not competitive for senior-level roles.
+5. **HRIS-specific roles:** Roles centered on a specific HRIS platform (e.g., "Workday Implementation Consultant," "Workday Analyst," "SAP SuccessFactors Specialist") → **REJECT**. Jamie has no hands-on Workday/SAP/Oracle HCM experience. General HR tech literacy is fine; platform-specific implementation is not.
 
 ## 🚫 Hard Reject Filters
 
 * Pure "Sales" roles (unless EdTech sales enablement)
 * Pure "Software Engineering" roles
 * **Senior HRBP / HRBP Manager** (requires 5+ years deep HR exp)
+* **Senior [anything] at consulting firms** (except Senior Associate) — requires 5+ years
+* **Lead / Leader titles** — implies team management experience Jamie doesn't have
+* **HRIS platform-specific roles** (Workday, SAP, Oracle HCM implementation/admin) — no platform experience
 * **Instructional Designer** or roles where 80%+ is building training content / e-learning authoring
 * **Technical Product Manager** or PM roles requiring PMP/CAPM cert or engineering domain
 * **Heavy operational HR** focused on payroll, benefits admin, ER casework, HRIS admin
@@ -141,7 +149,7 @@ If a JD lists any of these as a **required** (not preferred) qualification, it's
 - Multi-state employment compliance → ★☆☆ (zero experience)
 - Payroll administration → ★☆☆ (no experience, does not want this)
 - Benefits administration → ★☆☆ (no dedicated benefits work)
-- HRIS platform management (Workday, ADP, SAP admin) → ★☆☆ (only Greenhouse ATS)
+- HRIS platform management (Workday, ADP, SAP, Oracle HCM admin/implementation) → ★☆☆ (only Greenhouse ATS). **Roles centered on a specific HRIS platform are a hard PASS.**
 - Employee relations casework → ★☆☆ (no hands-on ER)
 - Compensation/total rewards → ★☆☆ (no comp experience)
 - Recruiting/talent acquisition as primary function → ★☆☆
@@ -250,4 +258,18 @@ Only override if ALL of these are true:
 
 ---
 
-*v2.0 — Mar 4, 2026*
+---
+
+## 📅 Job Posting Date Verification
+
+> LinkedIn "posted X days ago" dates can be misleading — companies repost or refresh listings
+> that were originally posted weeks or months earlier.
+
+**Rule:** When evaluating freshness, always check the **original posting date on the company's
+careers page** (not LinkedIn's date). If the company site shows it was posted 30+ days ago,
+mark it as stale regardless of what LinkedIn says. Flag discrepancies explicitly:
+"LinkedIn says 3 days ago, but company site shows posted Feb 15 — this is a repost."
+
+---
+
+*v2.1 — Apr 6, 2026*

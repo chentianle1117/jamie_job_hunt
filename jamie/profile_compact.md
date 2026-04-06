@@ -11,7 +11,11 @@
 
 ## Hard Rejects (instant PASS)
 - "No sponsorship" / "must be authorized without sponsorship"
-- Senior / Director / VP / Principal / C-level (exception: "Senior Associate" at consulting firms)
+- Senior / Director / VP / Principal / C-level (exception: "Senior Associate" at consulting firms only)
+- "Senior Consultant," "Senior Specialist," etc. at consulting firms → REJECT (5+ yr roles)
+- "Lead" / "Leader" titles → REJECT (implies team mgmt / 5+ years)
+- HRIS platform-specific roles (Workday, SAP, Oracle HCM implementation) → REJECT (no platform exp)
+- Roles requiring 4-5+ years → REJECT any "Senior" title (except Senior Associate)
 - Pure Sales, Pure SWE, Senior HRBP, Instructional Designer (80%+ content), Technical PM (PMP)
 - Pure recruiting/TA roles
 

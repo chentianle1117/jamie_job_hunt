@@ -30,6 +30,8 @@
     --page-margin-bottom: 0.35in;
     --page-margin-left: 0.45in;
     --accent-color: #2a6496;
+    --word-spacing: 0pt;
+    --vertical-scale: 1.0;
   }
 
   @page {
@@ -55,7 +57,7 @@
   .job-company-row { display: flex; justify-content: space-between; align-items: baseline; }
   .job-company { color: var(--accent-color); font-size: var(--job-title-size); }
   .job-dates { font-style: italic; font-size: var(--job-title-size); text-align: right; white-space: nowrap; color: var(--accent-color); }
-  .job ul { margin: 2pt 0 0 12pt; padding: 0; list-style: none; }
+  .job ul { margin: 2pt 0 0 8pt; padding: 0; list-style: none; }
   .job li { font-size: var(--bullet-font-size); line-height: var(--bullet-line-height); margin-bottom: 0.5pt; padding-left: 1pt; }
   .edu { margin-bottom: var(--edu-margin-bottom); }
   .edu-row { display: flex; justify-content: space-between; align-items: baseline; }
@@ -364,6 +366,7 @@
       position: relative;
       transform-origin: top center;
       flex-shrink: 0;
+      word-spacing: var(--word-spacing);
     }
 
     /* Margin guide — dashed reference border showing target margin on all four sides */
@@ -482,7 +485,7 @@
     .split-layout { display: block !important; }
     #resume-page-wrap { display: block !important; padding: 0 !important; height: auto !important; }
     .resume-panel { flex: none !important; width: 100% !important; padding: 0 !important; overflow: visible !important; max-height: none !important; display: block !important; }
-    .resume-page { box-shadow: none !important; margin: 0 !important; padding: var(--page-margin-top) var(--page-margin-right) var(--page-margin-bottom) var(--page-margin-left) !important; max-width: none !important; min-width: auto !important; width: auto !important; min-height: 11in !important; transform: none !important; }
+    .resume-page { box-shadow: none !important; margin: 0 !important; padding: var(--page-margin-top) var(--page-margin-right) var(--page-margin-bottom) var(--page-margin-left) !important; max-width: none !important; min-width: auto !important; width: auto !important; min-height: 11in !important; transform: none !important; word-spacing: var(--word-spacing) !important; }
     .resume-page::before, .resume-page::after { display: none !important; }
     li.changed, li.reordered { border-left: none !important; background: transparent !important; padding-left: 1pt !important; margin-left: 0 !important; list-style-position: outside !important; }
     li.changed::before, li.reordered::after { display: none !important; }
@@ -509,12 +512,30 @@
     <button id="btn-keywords" class="active" onclick="setMode('keywords')">Keywords</button>
     <button id="btn-clean" onclick="setMode('clean')">Clean</button>
     <div class="divider"></div>
-    <label style="color:#7f8c8d;font-size:10px;white-space:nowrap;">Font</label>
-    <input type="range" id="font-slider" min="7.5" max="14.0" step="0.01" value="9.5"
-      style="width:160px;cursor:pointer;accent-color:#1abc9c;vertical-align:middle;"
-      oninput="onFontSlider(this.value)">
-    <span id="font-display" style="color:#1abc9c;font-size:11px;min-width:38px;text-align:right;font-weight:600;">9.50</span>
-    <button id="btn-autofit" title="Auto-fit font to fill page margin guides" onclick="autoFit()">⚡ Auto-Fit</button>
+    <div style="display:flex;flex-direction:column;gap:1px;padding:2px 0;">
+      <div style="display:flex;align-items:center;gap:4px;">
+        <label style="color:#7f8c8d;font-size:10px;white-space:nowrap;width:42px;text-align:right;">Font</label>
+        <input type="range" id="font-slider" min="7.5" max="14.0" step="0.01" value="9.5"
+          style="width:130px;cursor:pointer;accent-color:#1abc9c;vertical-align:middle;"
+          oninput="onFontSlider(this.value)">
+        <span id="font-display" style="color:#1abc9c;font-size:10px;min-width:38px;text-align:right;font-weight:600;">9.50</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:4px;">
+        <label style="color:#7f8c8d;font-size:10px;white-space:nowrap;width:42px;text-align:right;">Spacing</label>
+        <input type="range" id="ws-slider" min="-0.5" max="1.0" step="0.05" value="0"
+          style="width:130px;cursor:pointer;accent-color:#1abc9c;vertical-align:middle;"
+          oninput="onWordSpacingSlider(this.value)">
+        <span id="ws-display" style="color:#1abc9c;font-size:10px;min-width:38px;text-align:right;font-weight:600;">0.00pt</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:4px;">
+        <label style="color:#7f8c8d;font-size:10px;white-space:nowrap;width:42px;text-align:right;">V-Space</label>
+        <input type="range" id="vs-slider" min="0.7" max="1.5" step="0.01" value="1.0"
+          style="width:130px;cursor:pointer;accent-color:#1abc9c;vertical-align:middle;"
+          oninput="onVerticalSlider(this.value)">
+        <span id="vs-display" style="color:#1abc9c;font-size:10px;min-width:38px;text-align:right;font-weight:600;">1.00x</span>
+      </div>
+    </div>
+    <button id="btn-autofit" title="Auto-fit font, spacing, and vertical scale" onclick="autoFit()">⚡ Auto-Fit</button>
     <div class="divider"></div>
     <button id="btn-undo" class="btn-icon" title="Nothing to undo" onclick="undo()" disabled>↩</button>
     <button id="btn-redo" class="btn-icon" title="Nothing to redo" onclick="redo()" disabled>↪</button>
@@ -1312,12 +1333,47 @@
     r.style.setProperty('--section-header-size', (basePt * FONT_RATIOS.sectionHeader).toFixed(2) + 'pt');
     r.style.setProperty('--job-title-size', basePt + 'pt');
     r.style.setProperty('--work-sample-size', (basePt * FONT_RATIOS.workSample).toFixed(2) + 'pt');
-    // Scale vertical spacing proportionally
-    var s = basePt / BASE_DEFAULT;
-    r.style.setProperty('--section-header-margin', (6*s).toFixed(1) + 'pt 0 ' + (3*s).toFixed(1) + 'pt 0');
-    r.style.setProperty('--job-margin-bottom', (7*s).toFixed(1) + 'pt');
-    r.style.setProperty('--edu-margin-bottom', (5*s).toFixed(1) + 'pt');
   }
+
+  function applyVerticalScale(factor) {
+    var r = document.documentElement;
+    r.style.setProperty('--vertical-scale', factor);
+    r.style.setProperty('--section-header-margin', (6*factor).toFixed(1) + 'pt 0 ' + (3*factor).toFixed(1) + 'pt 0');
+    r.style.setProperty('--job-margin-bottom', (7*factor).toFixed(1) + 'pt');
+    r.style.setProperty('--edu-margin-bottom', (5*factor).toFixed(1) + 'pt');
+    r.style.setProperty('--bullet-line-height', (1.28*factor).toFixed(3));
+    r.style.setProperty('--summary-line-height', (1.30*factor).toFixed(3));
+    // bullet margin-bottom on .job li
+    var jobLis = document.querySelectorAll('.resume-page .job li');
+    for (var i = 0; i < jobLis.length; i++) {
+      jobLis[i].style.marginBottom = (0.5*factor).toFixed(2) + 'pt';
+    }
+    // simple-list li margin-bottom
+    var slLis = document.querySelectorAll('.resume-page .simple-list li');
+    for (var j = 0; j < slLis.length; j++) {
+      slLis[j].style.marginBottom = (1.5*factor).toFixed(2) + 'pt';
+    }
+  }
+
+  window.onWordSpacingSlider = function(val) {
+    var v = parseFloat(val);
+    document.documentElement.style.setProperty('--word-spacing', v + 'pt');
+    var display = document.getElementById('ws-display');
+    if (display) display.textContent = v.toFixed(2) + 'pt';
+    var slider = document.getElementById('ws-slider');
+    if (slider) slider.value = v;
+    setTimeout(function() { runAutoChecks(); scaleResumePage(); }, 40);
+  };
+
+  window.onVerticalSlider = function(val) {
+    var v = parseFloat(val);
+    applyVerticalScale(v);
+    var display = document.getElementById('vs-display');
+    if (display) display.textContent = v.toFixed(2) + 'x';
+    var slider = document.getElementById('vs-slider');
+    if (slider) slider.value = v;
+    setTimeout(function() { runAutoChecks(); scaleResumePage(); }, 40);
+  };
 
   // ── Content bottom measurement using offsetTop + offsetHeight ──
   // scrollHeight is unreliable: with min-height:11in it always returns 1056px;
@@ -1361,7 +1417,7 @@
       var ls = window.getComputedStyle(li);
       var lineH = parseFloat(ls.lineHeight);
       if (isNaN(lineH)) lineH = parseFloat(ls.fontSize) * 1.3;
-      if (li.offsetHeight > lineH * 1.65) {
+      if (li.offsetHeight > lineH * 1.55) {
         wraps.push({ idx: idx, text: li.textContent.trim() });
         li.classList.add('wrap-highlight'); // highlight directly on the element
       }
@@ -1410,21 +1466,41 @@
     setTimeout(function() { runAutoChecks(); scaleResumePage(); }, 40);
   };
 
-  // ══════════ AUTO-FIT FONT SIZE ══════════
-  // Goal: find the largest font where content bottom === bottom margin guide.
-  //   targetBottom = 11*96 - paddingBottom (e.g. 1056 - 33.6 = 1022.4px)
-  //   This is exactly where the dashed ::before guide line sits.
-  // Measurement: getContentBottomPx() — bottom of last content child via offsetTop+offsetHeight.
-  //   No min-height manipulation needed — offsetTop is layout px, immune to CSS min-height.
-  // Both directions:
-  //   • Dense content → shrink font until content fits within targetBottom
-  //   • Sparse content → grow font until content fills to targetBottom
-  // Priority: consistent margins. Wrapping bullets shown as warnings but don't block sizing.
+  // ══════════ AUTO-FIT (3-PARAMETER) ══════════
+  // Optimizes font size, word-spacing, and vertical-scale to:
+  //   1. Fill page to consistent margins (content bottom ≈ target bottom)
+  //   2. Eliminate bullet wrapping (except skills section)
+  // Algorithm:
+  //   1. Reset word-spacing=0, vertical-scale=1.0
+  //   2. Binary-search font size to fill page (with print safety margin)
+  //   3. Fix wrapping bullets: reduce word-spacing, then reduce font if needed
+  //   4. Re-fill vertical gap by increasing vertical-scale
+  // PRINT SAFETY: Chrome print renders text ~1-2% larger than screen.
+  //   We use a 15px buffer (~0.16in) so what fits on screen fits in print.
+
+  function updateAllSliders(fontPt, ws, vs) {
+    // Font slider
+    var fontSlider = document.getElementById('font-slider');
+    var fontDisplay = document.getElementById('font-display');
+    if (fontSlider) fontSlider.value = fontPt.toFixed(2);
+    if (fontDisplay) fontDisplay.textContent = fontPt.toFixed(2);
+    // Word spacing slider
+    var wsSlider = document.getElementById('ws-slider');
+    var wsDisplay = document.getElementById('ws-display');
+    if (wsSlider) wsSlider.value = ws.toFixed(2);
+    if (wsDisplay) wsDisplay.textContent = ws.toFixed(2) + 'pt';
+    // Vertical scale slider
+    var vsSlider = document.getElementById('vs-slider');
+    var vsDisplay = document.getElementById('vs-display');
+    if (vsSlider) vsSlider.value = vs.toFixed(2);
+    if (vsDisplay) vsDisplay.textContent = vs.toFixed(2) + 'x';
+  }
+
+  var PRINT_MARGIN = 15; // px safety buffer — Chrome print renders text ~1-2% larger than screen
 
   function autoFit() {
     if (!currentData) return;
     // Auto-fit must run on clean text — keyword/diff spans inflate layout.
-    // If not in clean mode, switch first then re-run after reflow.
     if (document.body.classList.contains('mode-keywords') ||
         document.body.classList.contains('mode-changes')) {
       setMode('clean');
@@ -1435,44 +1511,117 @@
     if (meta.autoFit === false) {
       var scale = meta.fontScale || 1.0;
       applyFontSize(BASE_DEFAULT * scale);
+      applyVerticalScale(1.0);
+      document.documentElement.style.setProperty('--word-spacing', '0pt');
       updateFontBadge(BASE_DEFAULT * scale, 'ok');
+      updateAllSliders(BASE_DEFAULT * scale, 0, 1.0);
       return;
     }
 
     var range = meta.fontRange || [8.5, 10.0];
     var minF = range[0];
-    var maxExpand = 24.0; // hard ceiling
+    var maxExpand = 24.0;
     var page = document.getElementById('resume-page');
-    // Force a reflow so offsetTop/offsetHeight are current before we start
-    void page.offsetHeight;
-    var target = getTargetBottom(page); // e.g. 1022.4px = bottom of content area = margin guide
+    var r = document.documentElement;
 
-    // Check if even minF overflows the page
-    applyFontSize(minF);
+    // Step 1: Reset word-spacing and vertical-scale
+    r.style.setProperty('--word-spacing', '0pt');
+    applyVerticalScale(1.0);
     void page.offsetHeight;
-    if (getContentBottomPx(page) > target + 4) {
+    var target = getTargetBottom(page);
+
+    // Check if even minF overflows
+    applyFontSize(minF);
+    applyVerticalScale(1.0);
+    void page.offsetHeight;
+    if (getContentBottomPx(page) > target - PRINT_MARGIN) {
       updateFontBadge(minF, 'warn');
+      updateAllSliders(minF, 0, 1.0);
       return;
     }
 
-    // Binary search: largest font where content bottom ≤ targetBottom.
-    // Fills sparse content UP to the margin guide; shrinks dense content DOWN into it.
+    // Step 2: Binary-search font size (with 2px print safety margin)
     var lo = minF, hi = maxExpand;
     for (var i = 0; i < 40; i++) {
       var mid = (lo + hi) / 2;
       applyFontSize(mid);
-      void page.offsetHeight; // synchronous reflow
-      if (getContentBottomPx(page) <= target + 1) {
+      void page.offsetHeight;
+      if (getContentBottomPx(page) <= target - PRINT_MARGIN) {
         lo = mid;
       } else {
         hi = mid;
       }
       if (hi - lo < 0.005) break;
     }
-
-    applyFontSize(lo);
+    var bestFont = lo;
+    applyFontSize(bestFont);
     void page.offsetHeight;
-    updateFontBadge(lo, 'ok');
+
+    // Step 3: Fix wrapping bullets by reducing word-spacing, then font
+    var currentWS = 0;
+    var wraps = getWrappingBullets();
+    if (wraps.length > 0) {
+      // Try reducing word-spacing down to -0.3pt
+      for (var ws = -0.05; ws >= -0.3; ws -= 0.05) {
+        r.style.setProperty('--word-spacing', ws + 'pt');
+        void page.offsetHeight;
+        wraps = getWrappingBullets();
+        if (wraps.length === 0) { currentWS = ws; break; }
+      }
+      // If wraps persist, reduce font and retry
+      if (wraps.length > 0) {
+        r.style.setProperty('--word-spacing', '0pt');
+        currentWS = 0;
+        for (var attempt = 0; attempt < 20; attempt++) {
+          bestFont -= 0.03;
+          if (bestFont < minF) { bestFont = minF; break; }
+          applyFontSize(bestFont);
+          void page.offsetHeight;
+          wraps = getWrappingBullets();
+          if (wraps.length === 0) break;
+          // Also try word-spacing again at this font size
+          for (var ws2 = -0.05; ws2 >= -0.3; ws2 -= 0.05) {
+            r.style.setProperty('--word-spacing', ws2 + 'pt');
+            void page.offsetHeight;
+            wraps = getWrappingBullets();
+            if (wraps.length === 0) { currentWS = ws2; break; }
+          }
+          if (wraps.length === 0) break;
+          r.style.setProperty('--word-spacing', '0pt');
+          currentWS = 0;
+        }
+      }
+    }
+
+    // Apply final font + word-spacing
+    applyFontSize(bestFont);
+    r.style.setProperty('--word-spacing', currentWS + 'pt');
+    void page.offsetHeight;
+
+    // Step 4: Adjust vertical-scale upward to fill remaining gap
+    var currentVS = 1.0;
+    var contentBottom = getContentBottomPx(page);
+    if (contentBottom < target - PRINT_MARGIN - 4) {
+      // Binary search vertical-scale from 1.0 upward to fill gap
+      var vlo = 1.0, vhi = 1.5;
+      for (var vi = 0; vi < 30; vi++) {
+        var vmid = (vlo + vhi) / 2;
+        applyVerticalScale(vmid);
+        void page.offsetHeight;
+        if (getContentBottomPx(page) <= target - PRINT_MARGIN) {
+          vlo = vmid;
+        } else {
+          vhi = vmid;
+        }
+        if (vhi - vlo < 0.005) break;
+      }
+      currentVS = vlo;
+      applyVerticalScale(currentVS);
+      void page.offsetHeight;
+    }
+
+    updateFontBadge(bestFont, 'ok');
+    updateAllSliders(bestFont, currentWS, currentVS);
   }
   window.autoFit = autoFit; // expose to global scope for onclick
   window.runAutoChecks = runAutoChecks; // expose for tune panel

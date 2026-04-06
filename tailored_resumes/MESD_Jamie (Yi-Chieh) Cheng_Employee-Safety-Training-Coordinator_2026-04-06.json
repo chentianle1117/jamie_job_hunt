@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "company": "MESD",
+    "role": "Employee Safety & Readiness Training Coordinator",
+    "date": "2026-04-06",
+    "pageMargins": {
+      "top": "0.34in",
+      "right": "0.45in",
+      "bottom": "0.26in",
+      "left": "0.45in"
+    }
+  },
+  "header": {
+    "location": "Portland, Oregon (Open to Relocation)"
+  },
+  "summary": "I'm Jamie\u2014a curious, people-loving (97% extrovert!) <b>Training & Organizational Development</b> professional who thrives on <b>designing workforce readiness programs grounded in evidence</b>, <b>analyzing data to improve safety and compliance outcomes</b>, and <b>partnering cross-functionally with HR and operations leaders</b>. Expect me to always be seeking ways we can strengthen <b>employee preparedness</b>\u2014through human-centered, systematic approaches.",
+  "keywordGroups": {
+    "coord": "Training/Facilitation",
+    "data": "Needs Assessment/Data",
+    "tools": "LMS/Systems",
+    "cross": "Cross-Functional/HR",
+    "ex": "DEI/Equity",
+    "prog": "Programs/Compliance"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023\u2013Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Facilitate {coord|training} webinars for 600+ participants, enhancing program understanding and driving a 78% client conversion rate",
+          "change": null
+        },
+        {
+          "text": "Develop guides and workflows for 70+ {cross|cross-functional staff}, improving {data|staff knowledge} and reducing {prog|onboarding} time by 75%",
+          "change": null
+        },
+        {
+          "text": "Conduct {data|needs assessments} with 25+ global stakeholders to identify {data|training gaps} and design 3 new educational programs",
+          "change": null
+        },
+        {
+          "text": "Collaborate with {cross|cross-functional teams} to launch 15+ educational programs, refining delivery strategy and operations via feedback",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023\u2013May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Led a manager effectiveness initiative, transforming feedback data into actionable reports that informed leadership strategies",
+          "change": null
+        },
+        {
+          "text": "Analyzed 2,000+ employee responses, communicating insights to C-suite stakeholders to guide decisions on {coord|training} priorities",
+          "change": null
+        },
+        {
+          "text": "Managed SharePoint dashboards tracking people metrics, survey insights, and {data|engagement data} to drive employee recognition",
+          "change": null
+        },
+        {
+          "text": "Improved employee experience via 5 {cross|cross-functional} projects focusing on survey development, rewards & recognition, and L&D",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022\u2013October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Coordinated with external vendors and {prog|OSHA} team to deliver employee {coord|workplace safety training}, ensuring compliance",
+          "change": "NEW \u2014 replaces M&A bullet. Based on Jamie actual experience coordinating safety training with vendors and OSHA team at Vestas"
+        },
+        {
+          "text": "Streamlined {prog|onboarding} across 3 global locations by coordinating process analysis and clarifying job responsibilities",
+          "change": null
+        },
+        {
+          "text": "Initiated a {ex|DEI} pilot with an {coord|Inclusive Leadership workshop} for 12 senior leaders, later expanded to 23 other global locations",
+          "change": null
+        },
+        {
+          "text": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ companies",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "explo",
+      "title": "Curriculum Developer & Course Instructor",
+      "company": "EXPLO",
+      "location": "Norton, MA",
+      "dates": "June 2019\u2013August 2019",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Designed and {coord|facilitated} a 3-week immersion {prog|curriculum} for 12 students, applying {data|adult learning principles} to improve outcomes",
+          "change": "Reworded to surface adult learning principles"
+        },
+        {
+          "text": "Delivered culturally responsive lessons, adjusting content and pacing in real time to meet diverse {ex|learner needs}",
+          "change": null
+        },
+        {
+          "text": "Developed {data|instructional materials} aligned to learning objectives to support knowledge retention and skill application",
+          "change": null
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022\u2013May 2023",
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017\u2013December 2021",
+      "bullets": [
+        "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
+      ]
+    }
+  ],
+  "projects": [
+    "<b>OD Consulting (ODN Oregon):</b> Applied data analysis and coaching to improve client engagement and organizational effectiveness",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>College Admissions Counseling</b> (Part-Time): Guided 4 students through college applications; all admitted to top-choice schools",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition scholarship), Tuck Bridge Scholarship (Full Scholarship)"
+  ],
+  "skills": [
+    "<b>Technical Skills:</b> LMS (Canvas, Moodle) \u00b7 Project Management (Asana, Airtable) \u00b7 Data Analysis (Google Sheets, Excel, SPSS) \u00b7 Knowledge Management (SharePoint, Notion) \u00b7 Microsoft Office (Word, PowerPoint) \u00b7 Design Tools (Canva, Adobe InDesign)",
+    "<b>Languages:</b> English (fluent) \u00b7 Mandarin Chinese (native) \u00b7 Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "MESD \u2014 Employee Safety & Readiness Training Coordinator (Portland, OR). Cap-exempt public education. Posted Mar 31, 2026.",
+    "sections": [
+      {
+        "title": "Training Design & Delivery",
+        "type": "list",
+        "items": [
+          "Safety training: crisis prevention, de-escalation, PPE, injury prevention",
+          "Apply adult learning principles and best practices",
+          "Assess organizational and program-level training needs",
+          "Develop safety orientation for new employees"
+        ]
+      },
+      {
+        "title": "Program Coordination & Systems",
+        "type": "list",
+        "items": [
+          "Design and manage training schedules, session logistics, delivery timelines",
+          "Oversee safety orientation for substitutes and temporary staff",
+          "Track training completion and recertification requirements"
+        ]
+      },
+      {
+        "title": "Injury Prevention & Analysis",
+        "type": "list",
+        "items": [
+          "Review injury and near-miss data to identify patterns",
+          "Evaluate training effectiveness and recommend improvements",
+          "Handle employee training records with discretion and confidentiality"
+        ]
+      },
+      {
+        "title": "Collaboration & Compliance",
+        "type": "list",
+        "items": [
+          "Partner with HR, Risk Management, and program leaders",
+          "Support district emergency preparedness efforts",
+          "Coordinate worksite-specific orientation for transfers"
+        ]
+      }
+    ]
+  },
+  "changeLog": [
+    "2026-04-06: Created for MESD Employee Safety & Readiness Training Coordinator",
+    "Replaced Vestas M&A bullet with workplace safety training/OSHA coordination bullet (Jamie's actual experience)",
+    "Reworded EXPLO bullet to surface 'adult learning principles'",
+    "Summary reframed around workforce readiness, safety compliance, and cross-functional HR partnership",
+    "Keyword groups updated for safety/compliance/training themes"
+  ]
+}
