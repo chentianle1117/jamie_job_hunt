@@ -21,6 +21,7 @@
     --body-line-height: 1.18;
     --bullet-line-height: 1.28;
     --summary-line-height: 1.30;
+    --summary-margin: 4pt 0;
     --section-header-margin: 6pt 0 3pt 0;
     --job-margin-bottom: 7pt;
     --edu-margin-bottom: 5pt;
@@ -43,7 +44,7 @@
   .header h1 { font-size: var(--header-name-size); font-weight: bold; letter-spacing: 0.3pt; margin-bottom: 1pt; color: #000; }
   .header .contact { font-size: var(--header-contact-size); color: #333; }
   .header .contact a { color: var(--accent-color); text-decoration: underline; }
-  .summary { padding: 4pt 7pt; margin: 4pt 0; font-size: var(--summary-font-size); line-height: var(--summary-line-height); font-style: italic; color: #222; text-align: center; }
+  .summary { padding: 4pt 7pt; margin: var(--summary-margin); font-size: var(--summary-font-size); line-height: var(--summary-line-height); font-style: italic; color: #222; text-align: center; }
   .summary b { font-style: italic; font-weight: bold; }
   .section-header { text-align: center; font-size: var(--section-header-size); font-weight: bold; letter-spacing: 0.8pt; text-transform: uppercase; border-bottom: 1px solid #000; padding: 1pt 0; margin: var(--section-header-margin); }
   .job { margin-bottom: var(--job-margin-bottom); }
@@ -113,6 +114,106 @@
     background: rgba(26,188,156,0.15) !important; opacity: 1;
   }
   #resume-select { background: #34495e; color: #ecf0f1; border: 1px solid #4a6278; padding: 5px 8px; border-radius: 4px; font-size: 11px; font-family: sans-serif; max-width: 280px; }
+
+  /* Tune panel toggle button */
+  #btn-tune {
+    background: #34495e; color: #bdc3c7; border: 1px solid #4a6278;
+    padding: 5px 10px; border-radius: 4px; cursor: pointer; font-size: 13px; line-height: 1;
+    transition: background 0.15s;
+  }
+  #btn-tune:hover { background: #4a6278; color: white; }
+  #btn-tune.active { background: #8e44ad; color: #fff; border-color: #7d3c98; }
+
+  /* ================================================================
+     TUNE PANEL — vertical right-side drawer
+     ================================================================ */
+  #tune-panel {
+    position: fixed;
+    right: 0; top: 36px; bottom: 0;
+    width: 220px;
+    background: #1e1e2e;
+    border-left: 2px solid #3d2b5e;
+    z-index: 9990;
+    font-family: 'Inter','Segoe UI',sans-serif;
+    font-size: 11px;
+    color: #ccc;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: transform 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: -4px 0 20px rgba(0,0,0,0.45);
+    overflow-y: auto;
+  }
+  #tune-panel.open { transform: translateX(0); }
+
+  .tune-header {
+    padding: 12px 14px 8px;
+    border-bottom: 1px solid #2e2e48;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .tune-header h4 {
+    margin: 0; font-size: 12px; font-weight: 700;
+    color: #c39be0; letter-spacing: 0.4px; text-transform: uppercase;
+  }
+  .tune-reset-all {
+    font-size: 9.5px; color: #7f6fa0; cursor: pointer;
+    text-decoration: underline; background: none; border: none;
+    padding: 0; font-family: inherit; line-height: 1;
+  }
+  .tune-reset-all:hover { color: #c39be0; }
+
+  .tune-section {
+    padding: 10px 14px 6px;
+    border-bottom: 1px solid #2a2a40;
+  }
+  .tune-section-label {
+    font-size: 10px; font-weight: 700; letter-spacing: 0.6px;
+    text-transform: uppercase; color: #8e7fb0; margin-bottom: 10px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .tune-section-reset {
+    font-size: 9px; color: #5a4e70; cursor: pointer;
+    text-decoration: underline; background: none; border: none;
+    padding: 0; font-family: inherit;
+  }
+  .tune-section-reset:hover { color: #8e7fb0; }
+
+  .tune-row {
+    display: flex; align-items: center;
+    margin-bottom: 9px; gap: 8px;
+  }
+  .tune-label {
+    width: 78px; flex-shrink: 0;
+    font-size: 10px; color: #9a90b4; line-height: 1.3;
+  }
+  .tune-row input[type=range] {
+    flex: 1; accent-color: #9b59b6; cursor: pointer;
+    height: 4px;
+  }
+  .tune-value {
+    width: 32px; flex-shrink: 0; text-align: right;
+    font-size: 10px; font-weight: 600; color: #c39be0;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .tune-divider {
+    height: 1px; background: #2a2a40; margin: 2px 0 10px;
+  }
+
+  .tune-footer {
+    padding: 10px 14px;
+    margin-top: auto;
+    border-top: 1px solid #2e2e48;
+    font-size: 9.5px; color: #5a4e70; line-height: 1.5;
+  }
+
+  /* When tune panel is open, shrink the split layout to make room */
+  body.tune-open .split-layout {
+    margin-right: 220px;
+  }
+  body.tune-open .jd-panel {
+    /* JD panel gets a bit narrower when tune drawer is open */
+  }
 
   /* ================================================================
      LOG PANEL — tabbed (Changes + Edits)
@@ -419,6 +520,8 @@
     <button id="btn-redo" class="btn-icon" title="Nothing to redo" onclick="redo()" disabled>↪</button>
     <div class="divider"></div>
     <button id="btn-export" class="btn-icon" title="Export PDF (Cmd+P)" onclick="window.print()">📤</button>
+    <div class="divider"></div>
+    <button id="btn-tune" title="Section fine-tuning sliders" onclick="toggleTunePanel()">🎛</button>
   </div>
 </div>
 
@@ -468,6 +571,74 @@
         oninput="onJdFontSlider(this.value)">
       <span id="jd-font-display">11px</span>
     </div>
+  </div>
+</div>
+
+<!-- ══════════ TUNE PANEL ══════════ -->
+<div id="tune-panel">
+  <div class="tune-header">
+    <h4>🎛 Fine-Tune</h4>
+    <button class="tune-reset-all" onclick="tuneResetAll()">Reset all</button>
+  </div>
+
+  <!-- SUMMARY SECTION -->
+  <div class="tune-section">
+    <div class="tune-section-label">
+      Summary
+      <button class="tune-section-reset" onclick="tuneResetSection('summary')">reset</button>
+    </div>
+    <div class="tune-row">
+      <span class="tune-label">Font size</span>
+      <input type="range" id="tune-summary-font" min="-1.5" max="1.5" step="0.05" value="0"
+        oninput="onTuneSlider('summary-font', this.value)">
+      <span class="tune-value" id="tune-summary-font-val">+0.0</span>
+    </div>
+    <div class="tune-row">
+      <span class="tune-label">Line height</span>
+      <input type="range" id="tune-summary-lh" min="-0.15" max="0.20" step="0.01" value="0"
+        oninput="onTuneSlider('summary-lh', this.value)">
+      <span class="tune-value" id="tune-summary-lh-val">+0.00</span>
+    </div>
+    <div class="tune-row">
+      <span class="tune-label">Block spacing</span>
+      <input type="range" id="tune-summary-sp" min="-4" max="6" step="0.5" value="0"
+        oninput="onTuneSlider('summary-sp', this.value)">
+      <span class="tune-value" id="tune-summary-sp-val">+0.0</span>
+    </div>
+  </div>
+
+  <div class="tune-divider"></div>
+
+  <!-- EXPERIENCE + SKILLS SECTION -->
+  <div class="tune-section">
+    <div class="tune-section-label">
+      Experience &amp; Skills
+      <button class="tune-section-reset" onclick="tuneResetSection('exp')">reset</button>
+    </div>
+    <div class="tune-row">
+      <span class="tune-label">Font size</span>
+      <input type="range" id="tune-exp-font" min="-1.5" max="1.5" step="0.05" value="0"
+        oninput="onTuneSlider('exp-font', this.value)">
+      <span class="tune-value" id="tune-exp-font-val">+0.0</span>
+    </div>
+    <div class="tune-row">
+      <span class="tune-label">Line height</span>
+      <input type="range" id="tune-exp-lh" min="-0.15" max="0.20" step="0.01" value="0"
+        oninput="onTuneSlider('exp-lh', this.value)">
+      <span class="tune-value" id="tune-exp-lh-val">+0.00</span>
+    </div>
+    <div class="tune-row">
+      <span class="tune-label">Job spacing</span>
+      <input type="range" id="tune-exp-sp" min="-4" max="6" step="0.5" value="0"
+        oninput="onTuneSlider('exp-sp', this.value)">
+      <span class="tune-value" id="tune-exp-sp-val">+0.0</span>
+    </div>
+  </div>
+
+  <div class="tune-footer">
+    Auto-Fit sets the global baseline.<br>
+    These sliders nudge individual sections.<br>
+    Reset to let Auto-Fit recalculate.
   </div>
 </div>
 
@@ -1038,13 +1209,32 @@
   }
 
   // ── Generic editable: works for bullets, fields, skills, projects ──
+  // ── innerHtml-aware text extraction ──
+  // Preserves <b>/<strong>/<i>/<em> tags as our JSON markup uses them.
+  // Strips only contenteditable artefacts (extra spans from browser, kw highlights).
+  // Returns a clean string suitable for saving to JSON and re-rendering.
+  function getEditableText(el, isBullet) {
+    // Clone so we can mutate without touching the live DOM
+    var clone = el.cloneNode(true);
+    // Remove keyword highlight spans — unwrap their text content
+    clone.querySelectorAll('.kw, .jd-kw').forEach(function(span) {
+      var txt = document.createTextNode(span.textContent);
+      span.parentNode.replaceChild(txt, span);
+    });
+    // Normalise: collapse consecutive text nodes
+    clone.normalize();
+    // Strip leading bullet character added by buildResume
+    var html = clone.innerHTML;
+    if (isBullet) html = html.replace(/^•\s*/, '').replace(/^&bull;\s*/i, '');
+    return html.trim();
+  }
+
   function makeEditable(el, isBullet) {
     el.setAttribute('contenteditable', 'true');
     el.setAttribute('spellcheck', 'true');
     el._isBullet = isBullet;
-    el._editBefore = (isBullet
-      ? el.textContent.replace(/^•\s*/, '').trim()
-      : el.textContent.trim());
+    // Store raw HTML (with bold tags) as the baseline, not just textContent
+    el._editBefore = getEditableText(el, isBullet);
     el.addEventListener('keydown', onEditableKeydown);
     el.addEventListener('blur', onEditableBlur);
   }
@@ -1054,18 +1244,19 @@
       e.preventDefault();
       this.blur();
     } else if (e.key === 'Escape') {
+      // _editBefore is now stored as HTML (may contain <b>, kw spans already expanded)
+      // Restore directly without double-expanding
       var prev = this._editBefore || '';
-      this.innerHTML = this._isBullet ? ('&bull; ' + expandKw(prev, 'kw')) : prev;
-      this._editBefore = prev;
+      this.innerHTML = this._isBullet ? ('&bull; ' + prev) : prev;
       this.blur();
+      // Don't update _editBefore on Escape — it's already the correct prior value
     }
   }
 
   function onEditableBlur() {
     var el = this;
-    var raw = el._isBullet
-      ? el.textContent.replace(/^•\s*/, '').trim()
-      : el.textContent.trim();
+    // Use HTML-aware extraction to preserve <b>/<strong>/<i>/<em>
+    var raw = getEditableText(el, el._isBullet);
 
     var before = el._editBefore || '';
     if (raw === before) return; // no change
@@ -1408,6 +1599,145 @@
         .catch(function() {});
     }, 1500);
   }
+
+})();
+
+  // ══════════ TUNE PANEL — per-section fine-tuning ══════════
+  // These deltas are applied ON TOP of whatever autoFit() sets globally.
+  // They modify CSS variables scoped to specific sections only.
+  // autoFit() is global; tune sliders are incremental overrides.
+
+  var tuneState = {
+    'summary-font': 0,  // pt delta on summary font size
+    'summary-lh':   0,  // absolute delta on summary line-height
+    'summary-sp':   0,  // pt delta on summary block top+bottom margin
+    'exp-font':     0,  // pt delta on bullet/body font size for exp+skills
+    'exp-lh':       0,  // absolute delta on bullet line-height
+    'exp-sp':       0   // pt delta on job margin-bottom
+  };
+
+  // CSS variable targets for each slider key
+  var TUNE_MAP = {
+    'summary-font': function(delta, base) {
+      var r = document.documentElement;
+      var cur = parseFloat(getComputedStyle(r).getPropertyValue('--summary-font-size')) || 9.0;
+      r.style.setProperty('--summary-font-size', (cur + delta).toFixed(2) + 'pt');
+    },
+    'summary-lh': function(delta) {
+      var r = document.documentElement;
+      var cur = parseFloat(getComputedStyle(r).getPropertyValue('--summary-line-height')) || 1.30;
+      r.style.setProperty('--summary-line-height', (cur + delta).toFixed(3));
+    },
+    'summary-sp': function(delta) {
+      var r = document.documentElement;
+      // summary block: margin 4pt 0 + padding 4pt 7pt → adjust top/bottom of .summary margin
+      var cur = 4; // default summary margin top
+      r.style.setProperty('--summary-margin', (cur + delta).toFixed(1) + 'pt 0');
+    },
+    'exp-font': function(delta) {
+      var r = document.documentElement;
+      var curBullet = parseFloat(getComputedStyle(r).getPropertyValue('--bullet-font-size')) || 9.2;
+      var curBody   = parseFloat(getComputedStyle(r).getPropertyValue('--body-font-size'))   || 9.5;
+      r.style.setProperty('--bullet-font-size', (curBullet + delta).toFixed(2) + 'pt');
+      r.style.setProperty('--job-title-size',   (curBody   + delta).toFixed(2) + 'pt');
+    },
+    'exp-lh': function(delta) {
+      var r = document.documentElement;
+      var cur = parseFloat(getComputedStyle(r).getPropertyValue('--bullet-line-height')) || 1.28;
+      r.style.setProperty('--bullet-line-height', (cur + delta).toFixed(3));
+    },
+    'exp-sp': function(delta) {
+      var r = document.documentElement;
+      var cur = parseFloat(getComputedStyle(r).getPropertyValue('--job-margin-bottom')) || 7.0;
+      r.style.setProperty('--job-margin-bottom', (cur + delta).toFixed(1) + 'pt');
+    }
+  };
+
+  // Apply all current tune deltas on top of the current CSS variable state.
+  // Called after autoFit() re-establishes the baseline, and on every slider move.
+  function applyTuneDeltas() {
+    Object.keys(tuneState).forEach(function(key) {
+      var delta = tuneState[key];
+      if (delta !== 0 && TUNE_MAP[key]) TUNE_MAP[key](delta);
+    });
+  }
+
+  // Slider oninput handler
+  window.onTuneSlider = function(key, rawVal) {
+    var val = parseFloat(rawVal);
+    tuneState[key] = val;
+
+    // Update displayed value
+    var valEl = document.getElementById('tune-' + key + '-val');
+    if (valEl) {
+      var formatted = (val >= 0 ? '+' : '') + val.toFixed(
+        key.endsWith('-lh') ? 2 : 1
+      );
+      valEl.textContent = formatted;
+    }
+
+    // Re-run autoFit to get clean baseline, then apply deltas
+    // Use a lightweight re-apply instead of full autoFit for responsiveness
+    applyTuneDeltas();
+    setTimeout(function() { runAutoChecks(); scaleResumePage(); }, 30);
+  };
+
+  // Reset one section's sliders to zero
+  window.tuneResetSection = function(section) {
+    var keys = section === 'summary'
+      ? ['summary-font','summary-lh','summary-sp']
+      : ['exp-font','exp-lh','exp-sp'];
+    keys.forEach(function(key) {
+      tuneState[key] = 0;
+      var el = document.getElementById('tune-' + key);
+      if (el) el.value = 0;
+      var valEl = document.getElementById('tune-' + key + '-val');
+      if (valEl) valEl.textContent = key.endsWith('-lh') ? '+0.00' : '+0.0';
+    });
+    // Re-run full autoFit to restore clean baseline
+    autoFit();
+    setTimeout(function() { runAutoChecks(); scaleResumePage(); }, 80);
+  };
+
+  // Reset all sliders
+  window.tuneResetAll = function() {
+    Object.keys(tuneState).forEach(function(key) { tuneState[key] = 0; });
+    document.querySelectorAll('#tune-panel input[type=range]').forEach(function(el) { el.value = 0; });
+    document.querySelectorAll('.tune-value').forEach(function(el) {
+      el.textContent = el.id && el.id.endsWith('-lh-val') ? '+0.00' : '+0.0';
+    });
+    autoFit();
+    setTimeout(function() { runAutoChecks(); scaleResumePage(); }, 80);
+  };
+
+  // Open/close tune panel
+  window.toggleTunePanel = function() {
+    var panel = document.getElementById('tune-panel');
+    var btn = document.getElementById('btn-tune');
+    if (!panel || !btn) return;
+    var isOpen = panel.classList.contains('open');
+    if (isOpen) {
+      panel.classList.remove('open');
+      btn.classList.remove('active');
+      document.body.classList.remove('tune-open');
+    } else {
+      panel.classList.add('open');
+      btn.classList.add('active');
+      document.body.classList.add('tune-open');
+      setTimeout(function() { scaleResumePage(); }, 240); // after transition
+    }
+  };
+
+  // After autoFit runs globally, re-apply any pending tune deltas
+  // Patch autoFit so tune overrides survive every auto-refit
+  (function() {
+    var _origAutoFit = window.autoFit;
+    window.autoFit = function() {
+      _origAutoFit.apply(this, arguments);
+      // After a short reflow delay, re-apply section tweaks
+      setTimeout(function() { applyTuneDeltas(); }, 30);
+    };
+  })();
 
 })();
 </script>
