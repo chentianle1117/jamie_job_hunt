@@ -2,10 +2,9 @@
 # run_oracle.ps1 — Oracle Job Search: Cleanup + Delivery
 #
 # This is the SINGLE script to run after each Oracle search.
-# It does 3 things:
+# It does 2 things:
 #   1. Archives expired/old Notion entries (reads cleanup_pages.json)
 #   2. Sends the daily email to Jamie
-#   3. Sends the Telegram digest
 #
 # Run: powershell -ExecutionPolicy Bypass -File "C:\Users\chent\Agentic_Workflows_2026\oracle-job-search\run_oracle.ps1"
 ###############################################################
@@ -24,7 +23,7 @@ Write-Host "========================================" -ForegroundColor Cyan
 # STEP 1: Notion Cleanup (archive expired pages)
 # ─────────────────────────────────────────────
 Write-Host ""
-Write-Host "[1/3] Notion Cleanup..." -ForegroundColor Yellow
+Write-Host "[1/2] Notion Cleanup..." -ForegroundColor Yellow
 
 $cleanupPath = "$baseDir\cleanup_pages.json"
 if (Test-Path $cleanupPath) {
@@ -69,7 +68,7 @@ if (Test-Path $cleanupPath) {
 # STEP 2: Send Email
 # ─────────────────────────────────────────────
 Write-Host ""
-Write-Host "[2/3] Sending email to Jamie..." -ForegroundColor Yellow
+Write-Host "[2/2] Sending email to Jamie..." -ForegroundColor Yellow
 
 $emailBodyPath = "$baseDir\email_body.txt"
 if (Test-Path $emailBodyPath) {
@@ -85,30 +84,6 @@ if (Test-Path $emailBodyPath) {
     }
 } else {
     Write-Host "  [SKIP] email_body.txt not found." -ForegroundColor Red
-}
-
-# ─────────────────────────────────────────────
-# STEP 3: Send Telegram
-# ─────────────────────────────────────────────
-Write-Host ""
-Write-Host "[3/3] Sending Telegram..." -ForegroundColor Yellow
-
-$telegramPath = "$baseDir\telegram_msg.txt"
-if (Test-Path $telegramPath) {
-    $botToken = $env:TELEGRAM_BOT_TOKEN
-    $chatId   = $env:TELEGRAM_CHAT_ID
-    $msg      = Get-Content $telegramPath -Raw -Encoding UTF8
-    $body     = @{ chat_id = $chatId; text = $msg } | ConvertTo-Json -Depth 2
-    try {
-        Invoke-RestMethod -Uri "https://api.telegram.org/bot$botToken/sendMessage" `
-            -Method Post -Body $body -ContentType "application/json; charset=utf-8" | Out-Null
-        Write-Host "  [OK] Telegram sent." -ForegroundColor Green
-    }
-    catch {
-        Write-Host "  [FAIL] Telegram error: $($_.Exception.Message)" -ForegroundColor Red
-    }
-} else {
-    Write-Host "  [SKIP] telegram_msg.txt not found." -ForegroundColor Red
 }
 
 Write-Host ""

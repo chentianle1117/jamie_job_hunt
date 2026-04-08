@@ -244,8 +244,6 @@ Notion DS URL:        collection://442438a9-e372-48b7-b5f5-5f6ed8ee8e99
 Notion view URL:      https://www.notion.so/ea7cccd43f7a47a6b93a196241eb8d61
 Email from:           tianlechen0324@gmail.com
 Email to:             jamiecheng0103@gmail.com
-Telegram Bot Token:   (use $env:TELEGRAM_BOT_TOKEN)
-Telegram Chat ID:     (use $env:TELEGRAM_CHAT_ID)
 Google Sheet ID:      1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E
 Google Sheet Tab:     AI Search Bot Result
 ```
@@ -269,7 +267,6 @@ C:\Windows\Temp\jobspy_results.json — LinkedIn/Indeed/Glassdoor scraper result
 **Output files** (Claude writes these each run):
 ```
 email_body.txt        — Bilingual email for Jamie
-telegram_msg.txt      — Telegram digest
 jobs_rows.json        — Google Sheets rows
 cleanup_pages.json    — Page IDs archived this run
 ```
@@ -443,7 +440,6 @@ Some job boards block Chrome navigation (Greenhouse, LinkedIn, Stripe). For thes
                    ┌──────▼──────┐
                    │  DELIVERY   │
                    │  Gmail +    │
-                   │  Telegram + │
                    │  Notion     │
                    └─────────────┘
 ```
@@ -2154,23 +2150,7 @@ https://www.notion.so/ea7cccd43f7a47a6b93a196241eb8d61
 > - Notion has the DEEP content (cover letter, full company research, interview prep)
 > - The email has the ACTION content (who to contact, what to say, where to apply, how to tailor)
 
-### Step 9 — Write telegram_msg.txt
-
-```
-🐣 Oracle's Daily Top {N} ({MONTH} {DAY}):
-
-🌟 #1 {COMPANY} - {JOB_TITLE} ({LOCATION})
-{ONE_LINE_WHY}
-{URL}
-
-(repeat for ALL viable picks — no cap)
-
-🧹 Marked {N} expired entries as Pass
-📊 Notion updated ✅
-加油 Jamie! 💪🌈
-```
-
-### Step 10 — Write jobs_rows.json
+### Step 9 — Write jobs_rows.json
 
 ```json
 [
@@ -2188,30 +2168,15 @@ Use `gmail_create_draft` to jamiecheng0103@gmail.com with subject "🌸✨ 每�
 > Every URL in the email (job posting, LinkedIn profiles, Notion link) must be a full
 > `https://` URL on its own line so Gmail renders it as a clickable blue link.
 
-### Step 12 — Send Telegram (best effort)
-
-POST to `https://api.telegram.org/bot{TOKEN}/sendMessage` with telegram_msg.txt.
-If blocked (expected — VM egress proxy), note it.
-
-### Step 13 — Tell User to Run Delivery Script
-
-**Always end by giving the user this exact PowerShell command to run:**
-
-```powershell
-powershell -ExecutionPolicy Bypass -File "C:\Users\chent\Agentic_Workflows_2026\oracle-job-search\run_oracle.ps1"
-```
-
-This command does 2 things:
-1. Sends email via `gog.exe` (skips if `email_body.txt` not present — OK when using Gmail MCP draft instead)
-2. Sends Telegram digest (skips if `telegram_msg.txt` not present)
+### Step 12 — Pipeline Complete
 
 Note: Archiving/deletion is NO LONGER performed. Expired entries are marked "Pass 👋" directly in Notion during the audit step, preserving all records.
 
 ---
 
-### Step 14 — Terminal Run Summary (MANDATORY — output as one complete block)
+### Step 13 — Terminal Run Summary (MANDATORY — output as one complete block)
 
-> **Always output this after Step 13 — and again after all late background agents finish.**
+> **Always output this after Step 12 — and again after all late background agents finish.**
 > This is David's single checkpoint to verify the run is complete and correct.
 > Never fragment it across messages. One clean block, every time.
 
