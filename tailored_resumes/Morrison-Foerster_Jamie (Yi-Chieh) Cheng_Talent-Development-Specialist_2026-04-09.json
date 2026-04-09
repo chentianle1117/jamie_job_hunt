@@ -72,7 +72,7 @@
           "reason": "Added 'learning gaps' keyword highlight — maps to e-learning platform ownership and training design responsibilities"
         },
         {
-          "text": "Develop {prog|guides and workflows} for 70+ {cross|cross-functional} staff, improving program knowledge and reducing onboarding time by 75%",
+          "text": "Develop {prog|learning resources} and workflows for 70+ {cross|cross-functional} staff, reducing onboarding time by 75%",
           "change": "word",
           "original": "Develop guides and workflows for 70+ {cross|cross-functional} staff, improving program knowledge and reducing onboarding time by 75%",
           "jd": [
@@ -91,7 +91,7 @@
           "reason": "Highlighted 'training webinars' — direct evidence of facilitating training at scale, maps to 'design and deliver engaging training sessions'"
         },
         {
-          "text": "Manage 20+ programs and 10+ {coord|vendors}, refining program positioning, {prog|delivery strategy}, and operations via {data|feedback analysis}",
+          "text": "Manage 20+ programs and 10+ {coord|vendors}, improving {prog|program effectiveness}, communications strategy, and operations via {data|feedback analysis}",
           "change": "word",
           "original": "Manage 20+ programs and 10+ vendors, refining program positioning, delivery strategy, and operations via {data|feedback analysis}",
           "jd": [
@@ -163,7 +163,7 @@
           "reason": "Highlighted 'workshop' — designing and delivering training maps to 'design and deliver engaging training sessions'"
         },
         {
-          "text": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, overseeing {cross|cross-functional stakeholders}",
+          "text": "Facilitated seamless organizational change by directing a Mergers & Acquisitions project, overseeing {cross|cross-functional stakeholders}",
           "jd": [
             "jd3"
           ],
@@ -177,9 +177,9 @@
           "reason": "Onboarding optimization maps directly to 'deliver exceptional new-hire experience' and orientation programming"
         },
         {
-          "text": "Strengthened {ex|engagement} via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors",
+          "text": "Supported 5 HR projects in talent development, succession, and Employee Relations; upheld alignment and confidentiality",
           "change": "word",
-          "original": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors",
+          "original": "Delivered solutions and supported 5 HR projects in talent development, succession, and Employee Relations; upheld alignment and confidentiality",
           "jd": [
             "jd9"
           ],
@@ -202,7 +202,7 @@
           "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details"
         },
         {
-          "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months"
+          "text": "Delivered an exceptional candidate experience via personalized communication and interview logistics support, increasing applications by 566% in 2 months"
         },
         {
           "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants"
@@ -225,7 +225,9 @@
       "location": "Middletown, CT",
       "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
       "dates": "August 2017–December 2021",
-      "bullets": ["Relevant Coursework: Educational Psychology, Learning & Instruction, Organizational Behavior, Statistics"]
+      "bullets": [
+        "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
+      ]
     }
   ],
   "projects": [
@@ -234,7 +236,7 @@
     "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
   ],
   "skills": [
-    "<b>Technical Skills:</b> HRIS (Rippling, SAP) · ATS (Greenhouse) · LMS (Canvas, Moodle) · Project Management (Asana, Airtable) · Knowledge Management (Notion, SharePoint) · Microsoft Office (Word, PowerPoint, Excel, Teams) · GenAI Tools (ChatGPT, Gemini, Claude) · Zoom",
+    "<b>Technical Skills:</b> HRIS (Rippling, SAP) · ATS (Greenhouse) · LMS (Canvas, Moodle) · Project &amp; Knowledge Management (Asana, Airtable, Notion, SharePoint) · Microsoft Office (Word, PowerPoint, Excel, Teams) · GenAI Tools (ChatGPT, Gemini, Claude) · Zoom",
     "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
     "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
   ],
