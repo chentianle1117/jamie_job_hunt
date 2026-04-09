@@ -18,7 +18,7 @@
   "header": {
     "location": "Portland, OR (Open to Relocation)"
   },
-  "summary": "I'm Jamie—a curious, people-centered (97% extrovert!) <b>Organizational Development</b> professional who thrives on <b>solving problems through {data|data analysis}</b>, <b>developing {prog|programs} grounded in evidence</b>, and <b>collaborating with {cross|stakeholders} for sustainable change</b>. Expect me to always be seeking ways we can improve employee experience—through human-centered, data-driven approaches.",
+  "summary": "I'm Jamie—a curious, people-centered (97% extrovert!) Strategic Program Manager who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable change</b>. Expect me to always be seeking ways we can improve business operations—through human-centered, systematic approaches.",
   "keywordGroups": {
     "data": "Data/KPIs",
     "coord": "Program Delivery",
@@ -71,14 +71,14 @@
     },
     {
       "id": "ingenius",
-      "title": "Program Manager, Enablement",
+      "title": "Product Enablement Manager",
       "company": "InGenius Prep, LLC",
       "location": "Remote, USA",
       "dates": "September 2023–Present",
       "workSampleUrl": null,
       "bullets": [
         {
-          "text": "Conduct needs assessments with 25+ global {cross|stakeholders} to identify learning gaps and design 3 new {prog|training programs}",
+          "text": "Conduct needs assessments with 25+ global stakeholders to identify learning gaps and design 3 new educational products",
           "change": "word",
           "original": "Conduct needs assessments with 25+ global {cross|stakeholders} to identify learning gaps and design 3 new educational programs",
           "jd": [
@@ -89,7 +89,7 @@
           "reason": "Directly maps to training design plus stakeholder collaboration for GenAI literacy programs."
         },
         {
-          "text": "Develop digital learning resources and workflows for 70+ cross-functional staff, improving onboarding and reducing onboarding time by 75%",
+          "text": "Develop guides and workflows for 70+ cross-functional staff, improving product knowledge and reducing onboarding time by 75%",
           "change": "word",
           "original": "Develop guides and workflows for 70+ {cross|cross-functional} staff, improving program knowledge and reducing onboarding time by 75%",
           "jd": [
@@ -99,7 +99,7 @@
           "reason": "Shows scalable learning content delivery and support for digital learning environments."
         },
         {
-          "text": "Facilitate {prog|training webinars} for 600+ participants, driving adoption and achieving a 78% conversion rate",
+          "text": "Facilitate training webinars for 600+ participants, enhancing product understanding and driving a 78% client conversion rate",
           "change": "word",
           "original": "Facilitate training webinars for 600+ participants, enhancing {prog|program understanding} and driving a 78% client conversion rate",
           "jd": [
@@ -110,7 +110,7 @@
           "reason": "Demonstrates delivery at scale and measurable program outcomes."
         },
         {
-          "text": "Manage 20+ programs and 10+ vendors, refining communications, content, and delivery strategy via {data|feedback analysis}",
+          "text": "Manage 20+ programs and 10+ vendors, refining product positioning, delivery strategy, and operations via feedback analysis",
           "change": "word",
           "original": "Manage 20+ programs and 10+ vendors, refining program positioning, delivery strategy, and operations via {data|feedback analysis}",
           "jd": [
@@ -131,7 +131,7 @@
       "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
       "bullets": [
         {
-          "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed engagement strategies",
+          "text": "Led a manager effectiveness initiative, transforming feedback data into actionable reports that informed L&D strategies",
           "jd": [
             "jd5",
             "jd6",
@@ -139,7 +139,7 @@
           ]
         },
         {
-          "text": "Analyzed 2,000+ employee responses, reporting insights and recommending actions to the C-suite for engagement strategy",
+          "text": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on satisfaction drivers",
           "change": "word",
           "original": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on satisfaction drivers",
           "jd": [
@@ -150,7 +150,7 @@
           "reason": "Direct KPI and reporting evidence for continuous improvement."
         },
         {
-          "text": "Managed SharePoint dashboards for people metrics, Net Promoter Score, and survey insights to drive employee recognition",
+          "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review",
           "change": "swap",
           "original": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review",
           "jd": [
@@ -159,7 +159,7 @@
           "reason": "Uses the metrics/dashboard-focused version per your preference."
         },
         {
-          "text": "Improved {ex|employee experience} via 5 {cross|cross-functional} projects focusing on survey development, rewards & recognition, and L&D",
+          "text": "Improved employee experience via 5 cross-functional projects focusing on survey development, rewards & recognition, and L&D",
           "jd": [
             "jd9"
           ]
@@ -182,7 +182,7 @@
           ]
         },
         {
-          "text": "Facilitated organizational change management by directing a Mergers & Acquisitions project, overseeing {cross|cross-functional stakeholders}",
+          "text": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, overseeing cross-functional stakeholders",
           "change": "word",
           "original": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, overseeing {cross|cross-functional stakeholders}",
           "jd": [
@@ -199,7 +199,7 @@
           ]
         },
         {
-          "text": "Supported 5 {cross|cross-functional} HR projects in talent development, succession, and Employee Relations; upheld compliance and confidentiality",
+          "text": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors",
           "change": "swap",
           "original": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors",
           "jd": [
@@ -259,8 +259,7 @@
     "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
   ],
   "skills": [
-    "<b>Technical Skills:</b> HRIS (Rippling, ADP, SAP) · ATS (Greenhouse) · LMS (Canvas, Moodle) · Project Management (Asana, Airtable, Jira) · Knowledge Management (Notion, SharePoint) · Google Workspace · Microsoft Office (Word, PowerPoint, Excel) · Design Tools (Canva, Adobe InDesign) · GenAI Tools (ChatGPT, Gemini, Claude)",
-    "<b>Data Analysis & Research:</b> Excel (PivotTables, VLOOKUP, charts) · Google Sheets · SPSS (statistical analysis) · Survey Design & Analysis (Qualtrics, Google Forms, SurveyMonkey) · People Analytics (headcount forecasting, engagement metrics, NPS, leave cost analysis) · SharePoint Dashboards · Data Visualization (charts, executive reports)",
+    "<b>Technical Skills:</b> HRIS (Rippling, ADP, SAP) · ATS (Greenhouse) · LMS (Canvas, Moodle) · Project Management (Asana, Airtable) · Knowledge Management (Notion, SharePoint) · Google Workspace · Microsoft Office (Word, PowerPoint, Excel) · Design Tools (Canva, Adobe InDesign) · GenAI Tools (ChatGPT, Gemini, Claude)",
     "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
     "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
   ],
