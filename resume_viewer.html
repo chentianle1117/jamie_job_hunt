@@ -347,7 +347,8 @@
   @media screen {
     body { background: #4a4a52; min-height: 100vh; }
     .split-layout { display: flex; width: 100%; position: relative; }
-    .resume-panel { flex: 0 0 64%; overflow-y: auto; max-height: calc(100vh - 36px); }
+    .resume-panel { flex: 0 0 64%; overflow-y: auto; max-height: calc(100vh - 36px); scrollbar-width: none; -ms-overflow-style: none; }
+    .resume-panel::-webkit-scrollbar { display: none; }
 
     /* Scale wrapper — JS sets height to match scaled paper */
     #resume-page-wrap {
@@ -481,7 +482,10 @@
   @media print {
     .kw, .jd-kw { padding: 0 !important; }
     body { background: white !important; }
-    .diff-toolbar, #log-panel, .jd-panel, .connection-svg, .check-warning, .split-divider { display: none !important; }
+    .diff-toolbar, #log-panel, .jd-panel, .connection-svg, .check-warning, .split-divider, #overflow-overlay, #tune-panel, #live-indicator { display: none !important; }
+    html, body { width: 100% !important; overflow-x: hidden !important; }
+    * { scrollbar-width: none !important; -ms-overflow-style: none !important; box-shadow: none !important; }
+    *::-webkit-scrollbar { display: none !important; width: 0 !important; }
     .split-layout { display: block !important; }
     #resume-page-wrap { display: block !important; padding: 0 !important; height: auto !important; }
     .resume-panel { flex: none !important; width: 100% !important; padding: 0 !important; overflow: visible !important; max-height: none !important; display: block !important; }

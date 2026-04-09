@@ -1193,10 +1193,14 @@ Click into JDs with ANY of these titles, even if the exact wording is slightly d
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-P1 — BEST FIT: People Program Management (PRIMARY TARGET)
+P1 — BEST FIT: Talent Development + People Program Management (PRIMARY TARGET)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-These are the sweet spot — PM skills + people/talent/HR domain.
-Always prioritize, always read full JD.
+Jamie's SWEET SPOT = data analysis + dashboards + managing people development programs.
+Always prioritize, always read full JD responsibilities (not just titles).
+
+⚠️ CRITICAL RULE (Apr 2026): ALWAYS read the actual JD responsibilities section before
+scoring. Titles can be misleading — a "Talent Development Specialist" could actually be
+80% recruiting or admin. If 50%+ of duties are leave, ER, recruiting, payroll, or admin → PASS.
 
 People Programs Manager / Coordinator / Lead
 People Program Manager (any company)
@@ -1261,9 +1265,10 @@ stated interest in collecting feedback → analyzing → improving programs with
 ⚠️ ONLY in people/employee/talent context. Customer service call center ops = skip.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-P2 — GREAT FIT: Employee Engagement / Experience + OD/OCM
+P2 — GREAT FIT: Employee Experience / Engagement + OD/OCM
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Strong domain alignment with Jamie's background.
+⚠️ Read JD responsibilities — skip if role is actually admin HR, leave, ER, or recruiting.
 
 Employee Engagement Manager / Specialist / Coordinator
 Employee Experience Manager / Specialist
@@ -1306,11 +1311,13 @@ People Strategy Analyst / Associate
 Talent & Rewards Consulting Analyst
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-P4 — CONDITIONAL: HR / HRBP (ASSOCIATE or ASSISTANT ONLY)
+P4 — DEPRIORITIZED: HR / HRBP (ASSOCIATE or ASSISTANT ONLY)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-⚠️ STRICT: ONLY consider HR/HRBP roles if title explicitly includes "Associate", "Assistant",
-or "Coordinator" AND the JD is clearly entry/early-career (≤2 yrs required, or
-"no HR experience required" language). Mid-level HR Generalist and HRBP roles are OUT.
+⚠️ STRICT (updated Apr 2026): Jamie has only 10 months direct HRBP experience (Vestas).
+ONLY consider HRBP roles at assistant/associate level. Skip anything above associate.
+Skip if role is admin-heavy, leave-focused, ER-heavy, or recruiting-heavy.
+Jamie wants to AVOID going deeper into operational HR — she prefers talent dev + programs.
+Mid-level HR Generalist and HRBP roles are OUT.
 
 HR Associate / HR Assistant
 HRBP Associate / HR Business Partner Associate

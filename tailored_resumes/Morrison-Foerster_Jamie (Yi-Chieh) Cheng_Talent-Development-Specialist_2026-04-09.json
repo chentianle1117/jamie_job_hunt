@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "company": "",
+    "role": "",
+    "date": "",
+    "pageMargins": { "top": "0.35in", "right": "0.45in", "bottom": "0.35in", "left": "0.45in" },
+    "autoFit": true,
+    "fontRange": [8.5, 10.0]
+  },
+  "header": {
+    "location": "Portland, OR (Open to Remote or Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Organizational Development</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in insights</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve people experience—through human-centered, systematic approaches.",
+  "keywordGroups": {
+    "data": "Data/Analytics",
+    "coord": "Coordination/Ops",
+    "cross": "Stakeholders/Collab",
+    "ex": "Employee Experience",
+    "tools": "Tools/Systems",
+    "prog": "Programs/L&D"
+  },
+  "experience": [
+    {
+      "id": "odn",
+      "title": "Consultant, Organizational Development & Employee Engagement",
+      "company": "Transition Projects Inc. (via ODN Oregon)",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Upskill HR team in {data|data analytics} to audit 300+ leave cases, successfully refuting cost assumptions via {data|evidence-based insights}" },
+        { "text": "Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training" }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Conduct needs assessments with 25+ global {cross|stakeholders} to identify learning gaps and design 3 new educational programs" },
+        { "text": "Develop guides and workflows for 70+ {cross|cross-functional} staff, improving program knowledge and reducing onboarding time by 75%" },
+        { "text": "Facilitate training webinars for 600+ participants, enhancing {prog|program understanding} and driving a 78% client conversion rate" },
+        { "text": "Manage 20+ programs and 10+ vendors, refining program positioning, delivery strategy, and operations via {data|feedback analysis}" }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        { "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed engagement strategies" },
+        { "text": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on satisfaction drivers" },
+        { "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review" },
+        { "text": "Improved {ex|employee experience} via 5 {cross|cross-functional} projects focusing on survey development, rewards & recognition, and L&D" }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        { "text": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations" },
+        { "text": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, overseeing {cross|cross-functional stakeholders}" },
+        { "text": "Optimized onboarding processes across 3 global locations by conducting process analysis and clarifying job responsibilities" },
+        { "text": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors" }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management" },
+        { "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details" },
+        { "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months" },
+        { "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": ["Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": []
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Enhanced <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Technical Skills:</b> HRIS · ATS (Greenhouse) · LMS (Canvas, Moodle-user) · MS Office (Word, PowerPoint) · Data Analysis (SPSS, Excel)",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "",
+    "sections": []
+  },
+  "changeLog": []
+}

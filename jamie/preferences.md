@@ -63,42 +63,48 @@ Local presence is a real competitive advantage. More lenient, but:
 
 ---
 
-## 🎯 Role Priorities (in order)
+## 🎯 Role Priorities (in order) — Updated Apr 6, 2026
 
-### Priority 1 — People / HR Consulting (Junior / Entry-Level)
-Jamie wants to break into consulting. Has OD consulting exp (Organization Development Network (ODN) Oregon) but limited.
-* Talent Development Consultant
-* Employee Experience Consultant
-* OD Consultant (entry-level)
-* Change Management Consultant / Analyst
-* People Advisory / Human Capital Consultant (associate)
+> **Key shift:** Focus on Talent Development + Program Management sweet spot.
+> De-prioritize HRBP and general HR. Avoid admin-heavy HR, recruiting, leave, ER.
+> **CRITICAL:** Always read the actual JD responsibilities, not just the title — titles can be misleading.
 
-### Priority 2 — People Program Management (non-techy)
-Strong program mgmt exp (InGenius Prep: 3 programs, 20+ vendors, 600+ ppl). No PM certs.
+### Priority 1 — Talent Development / People Program Management (SWEET SPOT)
+Jamie's ideal: data analysis + dashboard management + managing programs related to people development.
+~3 years experience. This is where her skills converge best.
+* Talent Development Program Manager / Coordinator
+* Talent Development Specialist (program-focused, not instructional design)
 * People Program Manager / Coordinator
-* HR Program Manager
-* Talent Program Manager
-* Employee Engagement Program Manager
-* L&D Program Manager (ops/vendor-focused)
+* L&D Program Manager (ops/data/vendor-focused, NOT content creation)
+* Employee Development Program Manager
+* Training Program Manager / Coordinator (scheduling, data, vendor mgmt)
 
-### Priority 3 — L&D Management / Operations / Strategy
-Good for management/ops/strategy — NOT instructional design.
-* L&D Manager / Coordinator (operations-focused)
-* Learning Operations Specialist
-* Training Manager (vendor coordination, scheduling, strategy)
-* Talent Development Specialist (strategy, not content creation)
+### Priority 2 — People / HR Consulting (Associate Level)
+Jamie wants to break into consulting. Has OD consulting exp (ODN Oregon) but limited.
+**Associate / Analyst level ONLY** — not Senior Consultant.
+* Talent Development Consultant (associate)
+* Employee Experience Consultant (associate)
+* OD Consultant (entry-level / associate)
+* People Advisory / Human Capital Consultant (associate / analyst)
+* Change Management Consultant / Analyst (associate)
 
-### Priority 4 — Junior HRBP / HRBP Assistant
-HRBP Assistant exp (Vestas) but limited. Prefers strategic side.
-* HRBP Assistant / Associate HRBP / Junior HRBP
-* People Partner (junior)
-* HR Associate (strategic focus)
-
-### Priority 5 — OD / Employee Experience
-* OD Specialist / OD Analyst
+### Priority 3 — Employee Experience / OD
 * Employee Experience Specialist / Coordinator
+* OD Specialist / OD Analyst
+* Engagement Specialist / Coordinator
 * Change Management Specialist (junior)
-* Engagement Specialist
+
+### Priority 4 — Junior HRBP (ONLY assistant/associate level)
+Jamie has only 10 months of direct HRBP experience (Vestas). Only consider:
+* HRBP Assistant / Associate HRBP — **ONLY these levels**
+* People Partner (junior/associate) — **must be non-admin focused**
+* **SKIP any HRBP role that is admin-heavy, leave-focused, ER-heavy, or recruiting-heavy**
+* **SKIP any HRBP role above associate level** — Jamie is not competitive
+
+### Priority 5 — General HR (VERY selective)
+Only consider if the role is strategic/program-focused, NOT operational.
+* HR Associate / Coordinator — **only if focused on programs, engagement, or analytics**
+* **HARD PASS if primary responsibilities include:** payroll, leave administration, employee relations casework, benefits admin, recruiting/TA, HRIS admin
 
 ---
 

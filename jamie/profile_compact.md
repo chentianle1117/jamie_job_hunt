@@ -19,12 +19,15 @@
 - Pure Sales, Pure SWE, Senior HRBP, Instructional Designer (80%+ content), Technical PM (PMP)
 - Pure recruiting/TA roles
 
-## Role Priorities
-1. **P1** People/HR Consulting (OD Consultant, Change Mgmt Consultant, Talent Dev Consultant)
-2. **P2** People Program Management (People/HR/Talent Program Manager)
-3. **P3** L&D Mgmt/Ops/Strategy (L&D Manager, Learning Ops, Training Manager, Talent Dev Specialist)
-4. **P4** Junior HRBP (Associate HRBP, People Partner junior)
-5. **P5** OD/Employee Experience (OD Specialist, EX Specialist, Change Mgmt Specialist)
+## Role Priorities (Updated Apr 6, 2026)
+1. **P1** Talent Dev / People Program Mgmt — SWEET SPOT (data + dashboards + people dev programs)
+2. **P2** People/HR Consulting at associate/analyst level only
+3. **P3** Employee Experience / OD (EX Specialist, OD Analyst, Engagement)
+4. **P4** Junior HRBP — ONLY assistant/associate level (10 mo direct exp)
+5. **P5** General HR — ONLY if strategic/program-focused, NOT operational
+
+**AVOID:** Admin HR, leave, ER, recruiting/TA, payroll, benefits, HRIS admin
+**CRITICAL:** Read actual JD responsibilities, not just titles
 
 ## Self-Assessment (ground truth for match %)
 | Level | Domains |

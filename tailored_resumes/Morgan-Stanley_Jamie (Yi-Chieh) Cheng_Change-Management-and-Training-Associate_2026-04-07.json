@@ -1,0 +1,447 @@
+{
+  "meta": {
+    "company": "Morgan Stanley",
+    "role": "Change Management and Training Associate",
+    "date": "2026-04-07",
+    "pageMargins": {
+      "top": "0.35in",
+      "right": "0.45in",
+      "bottom": "0.35in",
+      "left": "0.45in"
+    },
+    "autoFit": true,
+    "fontRange": [
+      8.5,
+      10
+    ]
+  },
+  "header": {
+    "location": "Pittsburgh, PA (Open to Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-centered (97% extrovert!) <b>Organizational Development</b> professional who thrives on <b>solving problems through {data|data analysis}</b>, <b>developing {prog|programs} grounded in evidence</b>, and <b>collaborating with {cross|stakeholders} for sustainable change</b>. Expect me to always be seeking ways we can improve employee experience—through human-centered, data-driven approaches.",
+  "keywordGroups": {
+    "data": "Data/KPIs",
+    "coord": "Program Delivery",
+    "cross": "Stakeholder Partnership",
+    "change": "Change/Comms",
+    "tools": "AI/Risk/Tools",
+    "prog": "Training/L&D"
+  },
+  "experience": [
+    {
+      "id": "odn",
+      "title": "Consultant, Organizational Development & Strategy",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Facilitate CEO/HR discovery and {cross|stakeholder} interviews to diagnose absenteeism drivers; {data|analyze leave data} to quantify costs",
+          "change": "swap",
+          "jd": [
+            "jd4",
+            "jd6",
+            "jd9"
+          ],
+          "reason": "Adds diagnostic + analytics line to lead with strategy and data."
+        },
+        {
+          "text": "Upskill HR team in {data|data analytics} to audit 300+ leave cases, successfully refuting cost assumptions via evidence-based insights",
+          "change": "word",
+          "original": "Upskill HR team in {data|data analytics} to audit 300+ leave cases, successfully refuting cost assumptions via evidence-based insights",
+          "jd": [
+            "jd5",
+            "jd6"
+          ],
+          "reason": "Keeps quantified analytics impact."
+        },
+        {
+          "text": "Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training",
+          "change": "word",
+          "original": "Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training",
+          "jd": [
+            "jd6",
+            "jd7",
+            "jd8"
+          ],
+          "reason": "Keeps executive communication and business impact."
+        }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Manager, Enablement",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Conduct needs assessments with 25+ global {cross|stakeholders} to identify learning gaps and design 3 new {prog|training programs}",
+          "change": "word",
+          "original": "Conduct needs assessments with 25+ global {cross|stakeholders} to identify learning gaps and design 3 new educational programs",
+          "jd": [
+            "jd1",
+            "jd4",
+            "jd9"
+          ],
+          "reason": "Directly maps to training design plus stakeholder collaboration for GenAI literacy programs."
+        },
+        {
+          "text": "Develop digital learning resources and workflows for 70+ cross-functional staff, improving onboarding and reducing onboarding time by 75%",
+          "change": "word",
+          "original": "Develop guides and workflows for 70+ {cross|cross-functional} staff, improving program knowledge and reducing onboarding time by 75%",
+          "jd": [
+            "jd1",
+            "jd2"
+          ],
+          "reason": "Shows scalable learning content delivery and support for digital learning environments."
+        },
+        {
+          "text": "Facilitate {prog|training webinars} for 600+ participants, driving adoption and achieving a 78% conversion rate",
+          "change": "word",
+          "original": "Facilitate training webinars for 600+ participants, enhancing {prog|program understanding} and driving a 78% client conversion rate",
+          "jd": [
+            "jd1",
+            "jd4",
+            "jd6"
+          ],
+          "reason": "Demonstrates delivery at scale and measurable program outcomes."
+        },
+        {
+          "text": "Manage 20+ programs and 10+ vendors, refining communications, content, and delivery strategy via {data|feedback analysis}",
+          "change": "word",
+          "original": "Manage 20+ programs and 10+ vendors, refining program positioning, delivery strategy, and operations via {data|feedback analysis}",
+          "jd": [
+            "jd3",
+            "jd8",
+            "jd9"
+          ],
+          "reason": "Aligns with cross-functional program execution and communication planning."
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed engagement strategies",
+          "jd": [
+            "jd5",
+            "jd6",
+            "jd7"
+          ]
+        },
+        {
+          "text": "Analyzed 2,000+ employee responses, reporting insights and recommending actions to the C-suite for engagement strategy",
+          "change": "word",
+          "original": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on satisfaction drivers",
+          "jd": [
+            "jd6",
+            "jd7",
+            "jd15"
+          ],
+          "reason": "Direct KPI and reporting evidence for continuous improvement."
+        },
+        {
+          "text": "Managed SharePoint dashboards for people metrics, Net Promoter Score, and survey insights to drive employee recognition",
+          "change": "swap",
+          "original": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review",
+          "jd": [
+            "jd6"
+          ],
+          "reason": "Uses the metrics/dashboard-focused version per your preference."
+        },
+        {
+          "text": "Improved {ex|employee experience} via 5 {cross|cross-functional} projects focusing on survey development, rewards & recognition, and L&D",
+          "jd": [
+            "jd9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations",
+          "jd": [
+            "jd1",
+            "jd5"
+          ]
+        },
+        {
+          "text": "Facilitated organizational change management by directing a Mergers & Acquisitions project, overseeing {cross|cross-functional stakeholders}",
+          "change": "word",
+          "original": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, overseeing {cross|cross-functional stakeholders}",
+          "jd": [
+            "jd4",
+            "jd9",
+            "jd13"
+          ],
+          "reason": "Strong change-management signal tied to multi-team coordination."
+        },
+        {
+          "text": "Optimized onboarding processes across 3 global locations by conducting process analysis and clarifying job responsibilities",
+          "jd": [
+            "jd2"
+          ]
+        },
+        {
+          "text": "Supported 5 {cross|cross-functional} HR projects in talent development, succession, and Employee Relations; upheld compliance and confidentiality",
+          "change": "swap",
+          "original": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors",
+          "jd": [
+            "jd10",
+            "jd16"
+          ],
+          "reason": "Directly aligns with ER and compliance requirements."
+        }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management"
+        },
+        {
+          "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details"
+        },
+        {
+          "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months"
+        },
+        {
+          "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": [
+        "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
+      ]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping engagement for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Technical Skills:</b> HRIS (Rippling, ADP, SAP) · ATS (Greenhouse) · LMS (Canvas, Moodle) · Project Management (Asana, Airtable) · Data Analysis (Google Sheets, Excel, SPSS) · Knowledge Management (Notion, SharePoint) · Google Workspace · Microsoft Office (Word, PowerPoint) · Design Tools (Canva, Adobe InDesign) · GenAI Tools (ChatGPT, Gemini)",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "Morgan Stanley — Change Management and Training Associate | New York, NY | Full-time | Posted Mar 24, 2026 | Base pay: $90,000-$155,000",
+    "sections": [
+      {
+        "title": "Training Development & Delivery",
+        "type": "mixed",
+        "items": [
+          {
+            "id": "jd1",
+            "changeType": "word",
+            "text": "Design and implement {prog|training programs} and content tailored to diverse roles and business units for GenAI enablement.",
+            "reason": "InGenius bullets 1 & 3: needs assessments → 3 new training programs, webinars for 600+ participants driving adoption."
+          },
+          {
+            "id": "jd2",
+            "changeType": "word",
+            "text": "Support development and maintenance of {prog|digital learning environments}, optimizing {coord|content management} workflows for scalable delivery.",
+            "reason": "InGenius bullet 2: digital learning resources and workflows for 70+ staff, reducing ramp time by 75%."
+          },
+          {
+            "id": "jd3",
+            "changeType": "word",
+            "text": "Keep training content current by integrating latest GenAI advancements; work with SMEs on accuracy and relevance.",
+            "reason": "InGenius bullet 4: refining communications, content, and delivery strategy via feedback analysis. GenAI tools listed in skills."
+          }
+        ]
+      },
+      {
+        "title": "Change Management & Transformation",
+        "type": "mixed",
+        "items": [
+          {
+            "id": "jd4",
+            "changeType": "word",
+            "text": "Support {change|change management} strategies to drive GenAI adoption, addressing barriers such as resistance or lack of understanding.",
+            "reason": "Vestas: change management on M&A project. InGenius bullet 3: driving adoption with 78% conversion. Summary: sustainable change."
+          },
+          {
+            "id": "jd5",
+            "changeType": "word",
+            "text": "Foster a culture of innovation and continuous learning, encouraging employees to embrace new capabilities.",
+            "reason": "ODN: upskilling HR team in data analytics. Vestas: DEI pilot expanded to 23 global locations. NextGen: manager effectiveness initiative."
+          }
+        ]
+      },
+      {
+        "title": "Performance & Optimization",
+        "type": "mixed",
+        "items": [
+          {
+            "id": "jd6",
+            "changeType": "word",
+            "text": "Track and analyze key {data|performance metrics} to measure effectiveness of training and change initiatives.",
+            "reason": "ODN: $362K cost analysis, 300+ case audit. NextGen: 2,000+ survey responses, SharePoint dashboards, NPS. InGenius: 78% conversion rate."
+          },
+          {
+            "id": "jd7",
+            "changeType": "word",
+            "text": "Contribute to continuous improvement by identifying optimization areas and reporting on {data|program impact}.",
+            "reason": "ODN: evidence-based insights refuting cost assumptions → policy redesigns. NextGen: actionable reports to C-suite."
+          }
+        ]
+      },
+      {
+        "title": "Communication & Stakeholder Management",
+        "type": "mixed",
+        "items": [
+          {
+            "id": "jd8",
+            "changeType": "word",
+            "text": "Partner with corporate and business unit {change|communications} to execute internal communication plans on training opportunities.",
+            "reason": "InGenius bullet 4: refining communications and delivery strategy. ODN: empowering HR to present executive-ready insights."
+          },
+          {
+            "id": "jd9",
+            "changeType": "word",
+            "text": "Build relationships with key {cross|stakeholders}, communicating program goals and outcomes; support alignment across diverse groups.",
+            "reason": "Strong across all roles: 25+ global stakeholders (InGenius), cross-functional HR projects (Vestas), CEO/HR discovery (ODN)."
+          }
+        ]
+      },
+      {
+        "title": "Risk Management",
+        "type": "mixed",
+        "items": [
+          {
+            "id": "jd10",
+            "changeType": "word",
+            "text": "Ensure training initiatives comply with company policies, regulatory requirements, and ethical guidelines.",
+            "reason": "Vestas: compliance and confidentiality across 5 cross-functional HR projects. NextGen Healthcare = regulated industry."
+          },
+          {
+            "id": "jd11",
+            "changeType": "word",
+            "text": "Understand and communicate common {tools|GenAI risks} (hallucinations, bias, data privacy) and identify potential pitfalls for users.",
+            "reason": "Gap: Jamie uses GenAI tools daily but hasn't formally trained others on AI risk. Skills list GenAI tools; interview talking point prepared."
+          }
+        ]
+      },
+      {
+        "title": "Qualifications & Skills",
+        "type": "mixed",
+        "items": [
+          {
+            "id": "jd12",
+            "changeType": "word",
+            "text": "Bachelor's degree required; L&D experience with focus on {prog|training program design} and delivery.",
+            "reason": "✅ MS in Applied Org Psych (exceeds). InGenius: designed 3 programs, delivered webinars to 600+."
+          },
+          {
+            "id": "jd13",
+            "changeType": "word",
+            "text": "Exposure to organizational {change|change management} and transformation initiatives.",
+            "reason": "✅ Vestas: M&A change management project. ODN: org change consulting."
+          },
+          {
+            "id": "jd14",
+            "changeType": "word",
+            "text": "Understanding of AI/ML concepts, especially GenAI; strong writing and content creation skills.",
+            "reason": "Partial: daily GenAI user (ChatGPT, Gemini). Writing shown through guides, workflows, communications across roles."
+          },
+          {
+            "id": "jd15",
+            "changeType": "word",
+            "text": "{data|Analytical skills} for tracking KPIs; excellent communication and interpersonal skills; thrive in fast-paced environment.",
+            "reason": "✅ Data analysis across every role. Communication is a through-line. 97% extrovert + cross-cultural experience."
+          },
+          {
+            "id": "jd16",
+            "changeType": "word",
+            "text": "Experience in highly regulated industries (e.g., financial services) is a plus.",
+            "reason": "Partial: NextGen Healthcare (regulated). Vestas (energy/compliance). No direct financial services experience."
+          }
+        ]
+      }
+    ]
+  },
+  "changeLog": [
+    {
+      "location": "Summary",
+      "type": "word",
+      "before": "General OD summary",
+      "after": "OD + training + change + analytics framing",
+      "why": "Aligns opening with Morgan Stanley AI training/adoption scope."
+    },
+    {
+      "location": "InGenius title",
+      "type": "word",
+      "before": "Program Enablement Manager",
+      "after": "Program Manager, Enablement",
+      "why": "Better match to associate-level program ownership language."
+    },
+    {
+      "location": "InGenius bullets",
+      "type": "word",
+      "before": "General program phrasing",
+      "after": "Training, onboarding, communication, and measurable outcomes language",
+      "why": "JD prioritizes training delivery, stakeholder alignment, and performance measurement."
+    },
+    {
+      "location": "Vestas bullet 2",
+      "type": "word",
+      "before": "Facilitated smooth organizational change...",
+      "after": "Facilitated organizational change...",
+      "why": "Keeps change-management proof concise and direct."
+    },
+    {
+      "location": "Skills",
+      "type": "word",
+      "before": "HRIS-heavy baseline",
+      "after": "PM + learning tools + AI productivity + analytics",
+      "why": "Reflects GenAI enablement and program execution context."
+    },
+    {
+      "location": "JD panel",
+      "type": "word",
+      "before": "Empty",
+      "after": "8 mapped requirements with change reasons",
+      "why": "Shows requirement-to-bullet traceability in Changes mode."
+    }
+  ]
+}
