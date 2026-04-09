@@ -1,8 +1,8 @@
 {
   "meta": {
-    "company": "",
-    "role": "",
-    "date": "",
+    "company": "Morrison & Foerster",
+    "role": "Talent Development Specialist",
+    "date": "2026-04-09",
     "pageMargins": { "top": "0.35in", "right": "0.45in", "bottom": "0.35in", "left": "0.45in" },
     "autoFit": true,
     "fontRange": [8.5, 10.0]
@@ -12,12 +12,12 @@
   },
   "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Organizational Development</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in insights</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve people experience—through human-centered, systematic approaches.",
   "keywordGroups": {
-    "data": "Data/Analytics",
-    "coord": "Coordination/Ops",
+    "data": "Data/Metrics",
+    "coord": "Vendor/Ops",
     "cross": "Stakeholders/Collab",
     "ex": "Employee Experience",
-    "tools": "Tools/Systems",
-    "prog": "Programs/L&D"
+    "tools": "LMS/Tools",
+    "prog": "L&D Programs"
   },
   "experience": [
     {
@@ -28,8 +28,16 @@
       "dates": "August 2025–Present",
       "workSampleUrl": null,
       "bullets": [
-        { "text": "Upskill HR team in {data|data analytics} to audit 300+ leave cases, successfully refuting cost assumptions via {data|evidence-based insights}" },
-        { "text": "Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training" }
+        {
+          "text": "Upskill HR team in {data|data analytics} to audit 300+ leave cases, successfully refuting cost assumptions via {data|evidence-based insights}",
+          "jd": ["jd5"],
+          "reason": "Demonstrates evaluating programs with data — maps to 'leverage data and metrics to evaluate learning programs'"
+        },
+        {
+          "text": "Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training",
+          "jd": ["jd4", "jd5"],
+          "reason": "Building manager capability via data-backed insights — maps to 'enhance manager development tools'"
+        }
       ]
     },
     {
@@ -40,10 +48,34 @@
       "dates": "September 2023–Present",
       "workSampleUrl": null,
       "bullets": [
-        { "text": "Conduct needs assessments with 25+ global {cross|stakeholders} to identify learning gaps and design 3 new educational programs" },
-        { "text": "Develop guides and workflows for 70+ {cross|cross-functional} staff, improving program knowledge and reducing onboarding time by 75%" },
-        { "text": "Facilitate training webinars for 600+ participants, enhancing {prog|program understanding} and driving a 78% client conversion rate" },
-        { "text": "Manage 20+ programs and 10+ vendors, refining program positioning, delivery strategy, and operations via {data|feedback analysis}" }
+        {
+          "text": "Conduct needs assessments with 25+ global {cross|stakeholders} to identify {prog|learning gaps} and design 3 new educational programs",
+          "change": "word",
+          "original": "Conduct needs assessments with 25+ global {cross|stakeholders} to identify learning gaps and design 3 new educational programs",
+          "jd": ["jd1", "jd3"],
+          "reason": "Added 'learning gaps' keyword highlight — maps to e-learning platform ownership and training design responsibilities"
+        },
+        {
+          "text": "Develop {prog|guides and workflows} for 70+ {cross|cross-functional} staff, improving program knowledge and reducing onboarding time by 75%",
+          "change": "word",
+          "original": "Develop guides and workflows for 70+ {cross|cross-functional} staff, improving program knowledge and reducing onboarding time by 75%",
+          "jd": ["jd7", "jd9"],
+          "reason": "Added 'guides and workflows' keyword highlight — onboarding time reduction maps to new-hire experience and capability building"
+        },
+        {
+          "text": "Facilitate {prog|training webinars} for 600+ participants, enhancing program understanding and driving a 78% client conversion rate",
+          "change": "word",
+          "original": "Facilitate training webinars for 600+ participants, enhancing {prog|program understanding} and driving a 78% client conversion rate",
+          "jd": ["jd2"],
+          "reason": "Highlighted 'training webinars' — direct evidence of facilitating training at scale, maps to 'design and deliver engaging training sessions'"
+        },
+        {
+          "text": "Manage 20+ programs and 10+ {coord|vendors}, refining program positioning, {prog|delivery strategy}, and operations via {data|feedback analysis}",
+          "change": "word",
+          "original": "Manage 20+ programs and 10+ vendors, refining program positioning, delivery strategy, and operations via {data|feedback analysis}",
+          "jd": ["jd3", "jd8"],
+          "reason": "Highlighted 'vendors' and 'delivery strategy' — vendor management maps to 'sourcing vendors/facilitators' and talent acquisition operations"
+        }
       ]
     },
     {
@@ -54,10 +86,28 @@
       "dates": "January 2023–May 2023",
       "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
       "bullets": [
-        { "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed engagement strategies" },
-        { "text": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on satisfaction drivers" },
-        { "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review" },
-        { "text": "Improved {ex|employee experience} via 5 {cross|cross-functional} projects focusing on survey development, rewards & recognition, and L&D" }
+        {
+          "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed {prog|engagement strategies}",
+          "jd": ["jd4", "jd5"],
+          "reason": "Manager effectiveness → maps directly to 'enhance and promote manager development tools'"
+        },
+        {
+          "text": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on satisfaction drivers",
+          "jd": ["jd5", "jd7"],
+          "reason": "Large-scale data analysis → maps to 'leverage data and metrics' and talent review insights"
+        },
+        {
+          "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and {prog|performance review}",
+          "change": "word",
+          "original": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review",
+          "jd": ["jd2", "jd6"],
+          "reason": "Highlighted 'performance review' — maps directly to 'support performance management cycles, including facilitating CAP sessions'"
+        },
+        {
+          "text": "Improved {ex|employee experience} via 5 {cross|cross-functional} projects focusing on survey development, rewards & recognition, and L&D",
+          "jd": ["jd9"],
+          "reason": "Breadth of L&D + EX projects maps to MoFo's full employee lifecycle scope"
+        }
       ]
     },
     {
@@ -68,10 +118,30 @@
       "dates": "February 2022–October 2022",
       "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
       "bullets": [
-        { "text": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations" },
-        { "text": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, overseeing {cross|cross-functional stakeholders}" },
-        { "text": "Optimized onboarding processes across 3 global locations by conducting process analysis and clarifying job responsibilities" },
-        { "text": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors" }
+        {
+          "text": "Initiated a DEI pilot with an Inclusive Leadership {prog|workshop} for 12 senior leaders, later expanded to 23 other global locations",
+          "change": "word",
+          "original": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations",
+          "jd": ["jd2"],
+          "reason": "Highlighted 'workshop' — designing and delivering training maps to 'design and deliver engaging training sessions'"
+        },
+        {
+          "text": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, overseeing {cross|cross-functional stakeholders}",
+          "jd": ["jd3"],
+          "reason": "Cross-functional stakeholder management maps to MoFo's stakeholder partnership requirement"
+        },
+        {
+          "text": "Optimized onboarding processes across 3 global locations by conducting process analysis and clarifying job responsibilities",
+          "jd": ["jd9"],
+          "reason": "Onboarding optimization maps directly to 'deliver exceptional new-hire experience' and orientation programming"
+        },
+        {
+          "text": "Strengthened {ex|engagement} via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors",
+          "change": "word",
+          "original": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors",
+          "jd": ["jd9"],
+          "reason": "Highlighted 'engagement' — employee engagement and communications maps to candidate/early talent experience"
+        }
       ]
     },
     {
@@ -82,7 +152,7 @@
       "dates": "January 2021–August 2021",
       "workSampleUrl": null,
       "bullets": [
-        { "text": "Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management" },
+        { "text": "Developed proficiency across various HR functions, ranging from recruitment and compensation to {prog|performance management}" },
         { "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details" },
         { "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months" },
         { "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants" }
@@ -111,13 +181,64 @@
     "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
   ],
   "skills": [
-    "<b>Technical Skills:</b> HRIS · ATS (Greenhouse) · LMS (Canvas, Moodle-user) · MS Office (Word, PowerPoint) · Data Analysis (SPSS, Excel)",
+    "<b>Technical Skills:</b> HRIS · ATS (Greenhouse) · LMS (Canvas, Moodle) · MS Office (Word, PowerPoint, Excel) · Data Analysis (SPSS, Excel)",
     "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
     "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
   ],
   "jd": {
-    "meta": "",
-    "sections": []
+    "meta": {
+      "company": "Morrison & Foerster LLP",
+      "role": "Talent Development Specialist",
+      "location": "San Francisco, CA",
+      "salary": "$80,000–$112,000"
+    },
+    "sections": [
+      {
+        "heading": "Key Responsibilities",
+        "items": [
+          { "id": "jd1", "text": "Own and optimize {tools|e-learning platforms}—driving engagement, tracking usage, and building impactful {prog|learning paths}", "changeType": "swap" },
+          { "id": "jd2", "text": "Design and deliver engaging {prog|training sessions} for Business Professionals on performance, communication, and workplace skills", "changeType": "swap" },
+          { "id": "jd3", "text": "Partner with {cross|stakeholders} to implement training solutions, sourcing {coord|vendors or facilitators} and evaluating program effectiveness", "changeType": "swap" },
+          { "id": "jd4", "text": "Enhance and promote {prog|manager development tools}, equipping HRBPs and leaders with practical resources", "changeType": "word" },
+          { "id": "jd5", "text": "Leverage {data|data and metrics} to evaluate learning programs, continuously improving the manager toolkit and leadership training", "changeType": "word" },
+          { "id": "jd6", "text": "Support {prog|performance management} cycles, including facilitating CAP sessions and tracking key performance insights", "changeType": "swap" },
+          { "id": "jd7", "text": "Contribute to {prog|talent review} processes by maintaining talent data, profiles, and development planning resources", "changeType": "word" },
+          { "id": "jd8", "text": "Play a key role in talent acquisition operations—managing intranet content, coordinating projects, maintaining {coord|vendor relationships}", "changeType": "swap" },
+          { "id": "jd9", "text": "Help deliver an exceptional {ex|candidate and new-hire experience} by supporting interview logistics, leading orientation programming", "changeType": "swap" }
+        ]
+      },
+      {
+        "heading": "Requirements",
+        "items": [
+          { "id": "jd10", "text": "Bachelor's degree required; preferred fields: Business, Adult Education, or Human Resources" },
+          { "id": "jd11", "text": "Minimum 3+ years of experience in HR functions, preferably {prog|Learning & Development}" },
+          { "id": "jd12", "text": "Advanced proficiency in {tools|MS Office (Word, Excel, PowerPoint, Outlook)}; familiarity with {tools|LMS}, HR systems, and {tools|ATS} strongly preferred" },
+          { "id": "jd13", "text": "Strong facilitation and presentation skills, with experience leading both in-person and virtual training sessions" },
+          { "id": "jd14", "text": "Strong {data|analytical skills} with ability to assess needs, prioritize, and align work with business objectives" }
+        ]
+      }
+    ]
   },
-  "changeLog": []
+  "changeLog": [
+    {
+      "section": "InGenius — Bullets 1–4",
+      "change": "word",
+      "reason": "Applied L&D Set A keyword highlights: 'learning gaps' (jd1/jd3), 'guides and workflows' (jd7/jd9), 'training webinars' (jd2), 'vendors'+'delivery strategy' (jd3/jd8)"
+    },
+    {
+      "section": "NextGen — Bullet 3",
+      "change": "word",
+      "reason": "Highlighted 'performance review' to surface match with MoFo's performance management cycles / CAP sessions (jd6)"
+    },
+    {
+      "section": "Vestas — Bullets 1 & 4",
+      "change": "word",
+      "reason": "Highlighted 'workshop' and 'engagement' to surface training design and employee engagement signals (jd2/jd9)"
+    },
+    {
+      "section": "Skills — Technical Skills",
+      "change": "word",
+      "reason": "Added Excel to MS Office explicitly to match JD's 'advanced proficiency in Excel'; removed '-user' qualifier from Moodle"
+    }
+  ]
 }
