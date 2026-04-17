@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "company": "Nike",
+    "role": "Talent Management",
+    "date": "2026-04-14",
+    "pageMargins": {
+      "top": "0.35in",
+      "right": "0.45in",
+      "bottom": "0.35in",
+      "left": "0.45in"
+    },
+    "autoFit": true,
+    "fontRange": [
+      8.0,
+      10
+    ]
+  },
+  "header": {
+    "location": "Portland, OR (Open to Remote or Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Organization &amp; Talent Development</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve people experience—through human-centered, data-driven approaches.",
+  "experience": [
+    {
+      "id": "odn",
+      "title": "Consultant, Organization &amp; Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Upskill HR team in data analytics to audit 300+ confidential leave cases, using evidence-based insights to refute cost assumptions"
+        },
+        {
+          "text": "Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training"
+        },
+        {
+          "text": "Consult with executive leadership to redesign accountability structures and clarify cross-functional roles in support of a 2-year strategic plan"
+        }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Facilitate listening sessions with 25 global stakeholders, surfacing learning gap insights to co-design 3 tailored programs"
+        },
+        {
+          "text": "Develop process documentation, digital resource libraries, and workflows for 70+ cross-functional staff, cutting onboarding time by 75%"
+        },
+        {
+          "text": "Facilitate training webinars for 600+ participants, increasing program understanding and driving 78% enrollment rate"
+        },
+        {
+          "text": "Manage end-to-end lifecycles for 20+ projects, utilizing feedback analysis to optimize operational strategies and vendor performance"
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Analyzed 2,000+ employee survey data, surfacing insights and key engagement drivers to recommend C-suite actions"
+        },
+        {
+          "text": "Led manager effectiveness initiative, translating data into an executive-ready presentation to inform training strategy"
+        },
+        {
+          "text": "Managed weekly SharePoint dashboards for people metrics, Net Promoter Score, and survey insights to drive employee recognition"
+        },
+        {
+          "text": "Improved employee experience via 5 cross-functional projects in survey development, performance review, and L&D"
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, overseeing cross-functional stakeholders"
+        },
+        {
+          "text": "Streamlined onboarding across 3 global sites; interviewed stakeholders to clarify responsibilities and map new team workflows"
+        },
+        {
+          "text": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to other 23 global locations"
+        },
+        {
+          "text": "Supported 5 cross-functional HR projects in talent development, succession, and Employee Relations; upheld alignment and confidentiality"
+        }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Managed cross-functional HR operations spanning recruitment, compensation analysis, and performance management globally"
+        },
+        {
+          "text": "Coordinated end-to-end international talent acquisition, including job descriptions, postings, and global compensation benchmarking"
+        },
+        {
+          "text": "Drove a 566% increase in applications in 2 months through personalized global outreach and talent engagement"
+        },
+        {
+          "text": "Planned and executed recruiting events and C-suite panels at top 3 universities, engaging 230+ students and generating 80+ applicants"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": [
+        "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
+      ]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b>'s employer branding &amp; talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition scholarship), Tuck Bridge Scholarship (Full Scholarship)"
+  ],
+  "skills": [
+    "<b>Data &amp; PM Tools:</b> Data Analysis (Excel, Google Sheets, SPSS) · Project Management (Asana, Airtable)<span style=\"word-spacing: -0.333333px;\">&nbsp;· CRM (HubSpot)</span>",
+    "<b>Productivity:</b> Knowledge Management (SharePoint, Notion) · AI Tools (ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint)",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ]
+}

@@ -25,6 +25,7 @@
     --section-header-margin: 6pt 0 3pt 0;
     --job-margin-bottom: 7pt;
     --edu-margin-bottom: 5pt;
+    --edu-ul-margin-top: 2pt;
     --page-margin-top: 0.35in;
     --page-margin-right: 0.45in;
     --page-margin-bottom: 0.35in;
@@ -65,7 +66,7 @@
   .edu-location { font-size: var(--job-title-size); text-align: right; }
   .edu-degree { font-size: var(--job-title-size); }
   .edu-dates { font-style: italic; font-size: var(--job-title-size); text-align: right; color: var(--accent-color); }
-  .edu ul { margin: 1pt 0 0 12pt; padding: 0; list-style: none; }
+  .edu ul { margin: var(--edu-ul-margin-top) 0 0 12pt; padding: 0; list-style: none; }
   .edu li { font-size: var(--bullet-font-size); line-height: 1.35; }
   .simple-list { margin: 0; padding: 0; list-style: none; }
   .simple-list li { font-size: var(--bullet-font-size); line-height: 1.38; margin-bottom: 1.5pt; }
@@ -1345,6 +1346,7 @@
     r.style.setProperty('--section-header-margin', (6*factor).toFixed(1) + 'pt 0 ' + (3*factor).toFixed(1) + 'pt 0');
     r.style.setProperty('--job-margin-bottom', (7*factor).toFixed(1) + 'pt');
     r.style.setProperty('--edu-margin-bottom', (5*factor).toFixed(1) + 'pt');
+    r.style.setProperty('--edu-ul-margin-top', (2*factor).toFixed(1) + 'pt');
     r.style.setProperty('--bullet-line-height', (1.28*factor).toFixed(3));
     r.style.setProperty('--summary-line-height', (1.30*factor).toFixed(3));
     // bullet margin-bottom on .job li
