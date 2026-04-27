@@ -1,0 +1,319 @@
+{
+  "meta": {
+    "company": "Autodesk",
+    "role": "Proactive Support Operations Specialist",
+    "date": "2026-04-17",
+    "pageMargins": {
+      "top": "0.35in",
+      "right": "0.45in",
+      "bottom": "0.35in",
+      "left": "0.45in"
+    },
+    "autoFit": true,
+    "fontRange": [
+      8.5,
+      10
+    ]
+  },
+  "header": {
+    "location": "Portland, OR (Open to Remote or Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Strategic Program Manager</b> who thrives on <b>solving problems through data analysis</b>, <b>developing processes grounded in insights</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can drive operational outcomes—through human-centered, data-driven approaches.",
+  "keywordGroups": {
+    "data": "Data/Analytics",
+    "coord": "Coordination/Ops",
+    "cross": "Stakeholders/Collab",
+    "ex": "Impact/Outcomes",
+    "tools": "Tools/Systems",
+    "prog": "Programs/Initiatives"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Program Manager, Enablement",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Partner with 4 teams and 8 vendors to launch and manage 15+ educational programs worth $115K in revenue",
+          "change": "swap",
+          "original": "Conduct needs assessments with 25+ global stakeholders to identify learning gaps and design 3 new educational programs",
+          "jd": [
+            "jd1",
+            "jd2"
+          ],
+          "reason": "Cross-functional execution with financial outcomes — maps to JD's initiative delivery and multi-team coordination"
+        },
+        {
+          "text": "Manage {coord|end-to-end lifecycles} for 20+ {prog|projects}, utilizing {data|feedback loops} to optimize {coord|operational strategies} and vendor performance",
+          "change": "swap",
+          "original": "Develop guides and workflows for 70+ cross-functional staff, improving program knowledge and reducing onboarding time by 75%",
+          "jd": [
+            "jd1",
+            "jd5",
+            "jd3"
+          ],
+          "reason": "End-to-end lifecycle management with optimization loops maps to initiative tracking, milestone ownership, and blocker resolution"
+        },
+        {
+          "text": "Establish {cross|cross-functional} {coord|processes} and documentation for 70+ staff, {coord|streamlining operations} and reducing onboarding time by 75%",
+          "change": "swap",
+          "original": "Facilitate training webinars for 600+ participants, enhancing program understanding and driving a 78% client conversion rate",
+          "jd": [
+            "jd7",
+            "jd5"
+          ],
+          "reason": "Process improvement with measurable ops outcome — maps to JD's scalable approaches and operational rhythm"
+        },
+        {
+          "text": "Drive {coord|continuous improvement} by conducting interviews and needs assessments with 25+ global {cross|stakeholders} for {coord|needs alignment}",
+          "change": "swap",
+          "original": "Manage 20+ programs and 10+ vendors, refining program positioning, delivery strategy, and operations via feedback analysis",
+          "jd": [
+            "jd2",
+            "jd6",
+            "jd7"
+          ],
+          "reason": "Proactive stakeholder interviews and alignment emphasis matches JD's connector role and improvement mindset"
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed engagement strategies"
+        },
+        {
+          "text": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on satisfaction drivers"
+        },
+        {
+          "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review"
+        },
+        {
+          "text": "Improved {ex|employee experience} via 5 {cross|cross-functional} projects focusing on survey development, rewards & recognition, and L&D"
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Facilitated smooth {coord|organizational change} by directing a {prog|Mergers & Acquisitions project}, overseeing {cross|cross-functional stakeholders}",
+          "change": "reorder",
+          "was": 2,
+          "jd": [
+            "jd1",
+            "jd2"
+          ],
+          "reason": "M&A project moved first — shows large-scale cross-functional initiative coordination most relevant to this ops role"
+        },
+        {
+          "text": "Streamlined {coord|onboarding processes} across 3 global locations by conducting {data|gap analyses} and clarifying job responsibilities",
+          "change": "word",
+          "original": "Optimized onboarding processes across 3 global locations by conducting process analysis and clarifying job responsibilities",
+          "jd": [
+            "jd7"
+          ],
+          "reason": "Ops variant: 'Streamlined' + 'gap analyses' signals structured process improvement methodology"
+        },
+        {
+          "text": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations",
+          "change": "reorder",
+          "was": 1,
+          "original": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations",
+          "jd": [],
+          "reason": "Moved to third to prioritize ops-relevant bullets; 'DEI' → 'Diversity & Inclusion' per Autodesk's preferred terminology"
+        },
+        {
+          "text": "Supported 5 {cross|HR projects} in {prog|talent development, succession, and Employee Relations}; upheld {coord|alignment} and confidentiality",
+          "change": "swap",
+          "original": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors",
+          "jd": ["jd2", "jd8"],
+          "reason": "Shows breadth of HR project support and accountability — maps to JD's connector/alignment and follow-through requirements"
+        }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management"
+        },
+        {
+          "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details"
+        },
+        {
+          "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months"
+        },
+        {
+          "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": [
+        "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
+      ]
+    }
+  ],
+  "projects": [
+    "<b>OD Consulting (ODN Oregon):</b> Applied data analysis and coaching to improve client engagement and organizational effectiveness",
+    "<b>Consulting Projects:</b> Enhanced <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Data &amp; PM Tools:</b> Data Analysis (Excel, Google Sheets, SPSS) · Project Management (Asana, Airtable)",
+    "<b>Productivity:</b> Knowledge Management (SharePoint, Notion) · AI Tools (ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint, Outlook)",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)"
+  ],
+  "jd": {
+    "meta": "Autodesk · Proactive Support Operations Specialist · Portland OR / Remote · $76K–$136,730 · Req #25WD93781",
+    "sections": [
+      {
+        "title": "What You Will Do",
+        "items": [
+          {
+            "id": "jd1",
+            "text": "{coord|Drive execution} of key {prog|initiatives and programs}, ensuring clear {coord|milestones}, ownership, and follow-through from planning through delivery",
+            "changeType": "swap"
+          },
+          {
+            "id": "jd2",
+            "text": "{cross|Coordinate across teams} (TAM, Predictive Support, Customer Reliability, Diagnostics) to ensure {coord|alignment} and progress",
+            "changeType": "swap"
+          },
+          {
+            "id": "jd3",
+            "text": "Identify {coord|risks, dependencies, and blockers} early and proactively drive resolution",
+            "changeType": "swap"
+          },
+          {
+            "id": "jd4",
+            "text": "Support {coord|planning and prioritization} cycles, helping leaders stay focused on highest-impact work",
+            "changeType": "swap"
+          },
+          {
+            "id": "jd5",
+            "text": "Establish and maintain clear {coord|tracking} of initiatives, deliverables, and outcomes across stakeholders",
+            "changeType": "swap"
+          },
+          {
+            "id": "jd6",
+            "text": "Facilitate {cross|alignment discussions} and working sessions to drive decisions on cross-functional efforts",
+            "changeType": "swap"
+          },
+          {
+            "id": "jd7",
+            "text": "{coord|Improve processes} and ways of working by identifying inefficiencies and introducing scalable approaches",
+            "changeType": "word"
+          },
+          {
+            "id": "jd8",
+            "text": "Act as a {cross|connector}, bringing the right people together to solve problems and {coord|ensure accountability}"
+          }
+        ]
+      },
+      {
+        "title": "What We're Looking For",
+        "items": [
+          {
+            "id": "jd9",
+            "text": "3–5+ years in {coord|operations, program coordination}, or project delivery in a {cross|cross-functional} environment"
+          },
+          {
+            "id": "jd10",
+            "text": "Strong {coord|organizational and prioritization} skills — multiple initiatives simultaneously"
+          },
+          {
+            "id": "jd11",
+            "text": "Excellent {cross|communication and stakeholder management} skills, including with senior leadership"
+          },
+          {
+            "id": "jd12",
+            "text": "Preferred: {tools|Airtable, Jira} or similar; Customer Success / SaaS / org transformation experience"
+          }
+        ]
+      }
+    ]
+  },
+  "changeLog": [
+    {
+      "type": "summary",
+      "description": "3 minimal word swaps: 'programs' → 'processes', 'improve people experience' → 'drive operational outcomes', 'systematic' → 'data-driven'"
+    },
+    {
+      "type": "odn_company",
+      "description": "Fixed company name to 'Organization Development Network (ODN) Oregon' (was incorrect 'Transition Projects Inc. (via ODN Oregon)')"
+    },
+    {
+      "type": "odn_bullets",
+      "description": "Switched Pair A → Pair B: facilitation/planning emphasis replaces completed-results bullets for ops/PM role type"
+    },
+    {
+      "type": "ingenius_title",
+      "description": "'Program Manager, Enablement' (ops/PM signal) vs base 'Program Enablement Manager'"
+    },
+    {
+      "type": "ingenius_bullets",
+      "description": "All 4 bullets swapped to Set F/Ops: cross-functional execution ($115K), end-to-end lifecycle management, process improvement (75%), stakeholder alignment"
+    },
+    {
+      "type": "vestas_reorder",
+      "description": "M&A project moved to bullet 1 — signals cross-functional initiative coordination for ops role"
+    },
+    {
+      "type": "vestas_word",
+      "description": "Onboarding bullet: 'Optimized/process analysis' → 'Streamlined/gap analyses' for ops methodology signal"
+    },
+    {
+      "type": "vestas_dei",
+      "description": "'DEI' → 'Diversity & Inclusion' per Autodesk's preferred framing (content library subtle signals)"
+    },
+    {
+      "type": "nextgen_dei",
+      "description": "'DEI' → 'Diversity & Inclusion' in NextGen bullet for consistency with Autodesk framing"
+    },
+    {
+      "type": "skills",
+      "description": "Technical skills swapped to Ops/PM cluster: Project Management (Asana, Airtable) + Knowledge Management (SharePoint, Notion, Google Workspace)"
+    },
+    {
+      "type": "skills_cert",
+      "description": "HRCI certification line dropped per Ops/PM playbook rule"
+    }
+  ]
+}

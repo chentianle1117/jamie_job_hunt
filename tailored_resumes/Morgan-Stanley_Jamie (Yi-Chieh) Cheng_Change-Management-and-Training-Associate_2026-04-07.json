@@ -16,9 +16,9 @@
     ]
   },
   "header": {
-    "location": "Portland, OR (Open to Relocation)"
+    "location": "Pittsburgh, Pennsylvania (Open to Relocation)"
   },
-  "summary": "I'm Jamie—a curious, people-centered (97% extrovert!) Strategic Program Manager who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable change</b>. Expect me to always be seeking ways we can improve business operations—through human-centered, systematic approaches.",
+  "summary": "I'm Jamie—a curious, people-centered (97% extrovert!) Organizational Development professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable change</b>. <br>Expect me to always be seeking ways we can empower people to embrace change—through human-centered, data-driven approaches.",
   "keywordGroups": {
     "data": "Data/KPIs",
     "coord": "Program Delivery",
@@ -175,13 +175,6 @@
       "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
       "bullets": [
         {
-          "text": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations",
-          "jd": [
-            "jd1",
-            "jd5"
-          ]
-        },
-        {
           "text": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, overseeing cross-functional stakeholders",
           "change": "word",
           "original": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, overseeing {cross|cross-functional stakeholders}",
@@ -193,13 +186,20 @@
           "reason": "Strong change-management signal tied to multi-team coordination."
         },
         {
+          "text": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations",
+          "jd": [
+            "jd1",
+            "jd5"
+          ]
+        },
+        {
           "text": "Optimized onboarding processes across 3 global locations by conducting process analysis and clarifying job responsibilities",
           "jd": [
             "jd2"
           ]
         },
         {
-          "text": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors",
+          "text": "Supported 5 cross-functional HR projects in talent development, succession, and Employee Relations; upheld compliance and confidentiality",
           "change": "swap",
           "original": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors",
           "jd": [
@@ -240,7 +240,7 @@
       "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
       "dates": "August 2022–May 2023",
       "bullets": [
-        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Change Management"
       ]
     },
     {
