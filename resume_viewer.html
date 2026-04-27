@@ -681,6 +681,24 @@
   var jdPanel = document.getElementById('jd-panel');
   var currentData = null;
 
+  // ── DPI calibration ──
+  // The CSS uses physical units (in/pt) but JS measures in CSS pixels.
+  // Browsers don't always render 1in as exactly 96px (zoom, high-DPI displays,
+  // print preview all shift the ratio). Hardcoding 96 caused screen vs print
+  // mismatch — autoFit packed content to 1056px assuming 11in=1056px, but the
+  // browser/printer rendered 11in differently and content overflowed.
+  // Fix: measure the browser's actual px-per-inch by inserting a 1in reference
+  // element and reading its rendered width. Recompute on every call so zoom
+  // changes are picked up.
+  function getPxPerInch() {
+    var el = document.createElement('div');
+    el.style.cssText = 'position:absolute;left:-9999px;top:-9999px;width:1in;height:1in;visibility:hidden;pointer-events:none;';
+    (document.body || document.documentElement).appendChild(el);
+    var px = el.offsetWidth;
+    el.parentNode.removeChild(el);
+    return px || 96; // fallback if measurement fails before body ready
+  }
+
   // ── Keyword expansion: {kwg|text} → <span class="kw" data-kwg="kwg">text</span> ──
   function expandKw(text, cls) {
     if (!text) return '';
@@ -1412,7 +1430,7 @@
   function getTargetBottom(page) {
     var style = window.getComputedStyle(page);
     var padBottom = parseFloat(style.paddingBottom) || 0;
-    return 11 * 96 - padBottom; // e.g. 1056 - 33.6 = 1022.4px
+    return 11 * getPxPerInch() - padBottom; // 11in measured in browser's actual px-per-inch
   }
 
   function getWrappingBullets() {
@@ -1502,7 +1520,11 @@
     if (vsDisplay) vsDisplay.textContent = vs.toFixed(2) + 'x';
   }
 
-  var PRINT_MARGIN = 15; // px safety buffer — Chrome print renders text ~1-2% larger than screen
+  // Print safety buffer in inches (~0.16in). Converting to px at runtime keeps
+  // the buffer proportional to the browser's actual DPI instead of being a flat
+  // 15px hack that under-buffers on high-DPI screens.
+  var PRINT_SAFETY_INCHES = 0.16;
+  function getPrintMargin() { return PRINT_SAFETY_INCHES * getPxPerInch(); }
 
   function autoFit() {
     if (!currentData) return;
@@ -1540,7 +1562,7 @@
     applyFontSize(minF);
     applyVerticalScale(1.0);
     void page.offsetHeight;
-    if (getContentBottomPx(page) > target - PRINT_MARGIN) {
+    if (getContentBottomPx(page) > target - getPrintMargin()) {
       updateFontBadge(minF, 'warn');
       updateAllSliders(minF, 0, 1.0);
       return;
@@ -1552,7 +1574,7 @@
       var mid = (lo + hi) / 2;
       applyFontSize(mid);
       void page.offsetHeight;
-      if (getContentBottomPx(page) <= target - PRINT_MARGIN) {
+      if (getContentBottomPx(page) <= target - getPrintMargin()) {
         lo = mid;
       } else {
         hi = mid;
@@ -1607,14 +1629,14 @@
     // Step 4: Adjust vertical-scale upward to fill remaining gap
     var currentVS = 1.0;
     var contentBottom = getContentBottomPx(page);
-    if (contentBottom < target - PRINT_MARGIN - 4) {
+    if (contentBottom < target - getPrintMargin() - 4) {
       // Binary search vertical-scale from 1.0 upward to fill gap
       var vlo = 1.0, vhi = 1.5;
       for (var vi = 0; vi < 30; vi++) {
         var vmid = (vlo + vhi) / 2;
         applyVerticalScale(vmid);
         void page.offsetHeight;
-        if (getContentBottomPx(page) <= target - PRINT_MARGIN) {
+        if (getContentBottomPx(page) <= target - getPrintMargin()) {
           vlo = vmid;
         } else {
           vhi = vmid;
@@ -1638,13 +1660,14 @@
     var page = document.getElementById('resume-page');
     var wrap = document.getElementById('resume-page-wrap');
     if (!page || !wrap || !panel) return;
+    var ppi = getPxPerInch();
     var availW = panel.clientWidth - 32; // 16px padding each side
-    var pageW = 8.5 * 96; // 816px at 96dpi
+    var pageW = 8.5 * ppi; // browser's actual px-per-inch, not hardcoded 96
     var scale = Math.min(1, availW / pageW);
     page.style.transform = 'scale(' + scale + ')';
     page.style.transformOrigin = 'top center';
     // Set wrap height so the panel scroll area matches the scaled visual height
-    wrap.style.height = (Math.ceil(11 * 96 * scale) + 32) + 'px';
+    wrap.style.height = (Math.ceil(11 * ppi * scale) + 32) + 'px';
   }
   window.scaleResumePage = scaleResumePage;
 
