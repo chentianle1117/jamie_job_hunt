@@ -1,0 +1,101 @@
+DISCOVERY AGENT D - JOB SEARCH RESULTS
+Generated: 2026-04-13
+Search Focus: H1B sponsorship eligible, ~3 years experience, People Programs/OD/Consulting
+
+================================================================================
+BUILT-IN BOARDS (REGIONAL & NICHE)
+================================================================================
+
+1. PEOPLE OPERATIONS & TALENT (Built In) - MULTIPLE MATCHES
+   - People Operations and Talent Associate | Encamp | https://builtin.com/job/people-operations-and-talent-associate/8441798
+   - People Operations Coordinator (Recruitment Operations) | GumGum | https://builtin.com/job/people-operations-coordinator-recruitment-operations/8322895
+   - Talent Operations Specialist - People and Talent | ConsenSys | https://builtin.com/job/talent-operations-specialist-people-and-talent/2454748
+   - People Operations Coordinator | NextRoll | https://builtin.com/job/people-operations-coordinator/3983019
+   - People Operations Specialist | B-Stock | https://builtin.com/job/people-operations-specialist/3728110
+   - People Experience Operation Specialist (REMOTE) | ResMed | https://builtin.com/job/people-experience-operation-specialist/2693239
+   - Associate People Operations Partner | Niche | https://builtin.com/job/associate-people-operations-partner/2559172
+   - People Operations Partner | Tailscale | https://builtin.com/job/people-operations-partner/3712415
+   - People Operations and Talent Specialist | Hyperproof | https://builtin.com/job/people-operations-and-talent-specialist/4699868
+   - People Operations Associate | Lithic | https://builtin.com/job/people-operations-coordinator/3648753
+
+2. BUILTIN PORTLAND / BUILTIN SEATTLE
+   - No dedicated HR/People listings found in current top postings
+
+================================================================================
+TALENT DEVELOPMENT BOARDS (ATD - jobs.td.org)
+================================================================================
+
+3. TALENT DEVELOPMENT SPECIALIST ROLES
+   - Program Manager, Talent & Engagement | [ATD Job Bank] | https://jobs.td.org/job/program-manager-talent-engagement/80658105/
+   - Specialist, Talent Development | [ATD Job Bank] | https://jobs.td.org/job/specialist-talent-development/80357892/
+   - Talent Acquisition Manager | [ATD Job Bank] | https://jobs.td.org/job/talent-acquisition-manager/80653116/
+   - Training and Development Specialist | [ATD Job Bank] | https://jobs.td.org/job/training-and-development-specialist/79410195/
+   - Talent Management Specialist | [ATD Job Bank] | https://jobs.td.org/job/talent-management-specialist/77518948/
+
+================================================================================
+SHRM JOBS (jobs.shrm.org) - PORTLAND/SEATTLE/REMOTE
+================================================================================
+
+4. OPERATIONS & PEOPLE MANAGEMENT
+   - Operations Manager | [SHRM] Warrenton, OR | https://jobs.shrm.org/jobs/state/oregon/
+   - Director of Programs Learning & Development | [SHRM] Remote | https://jobs.shrm.org/jobs/state/remote-work/
+   - Manager, Total Rewards | [SHRM] Seattle, WA & Remote | https://jobs.shrm.org/jobs/state/remote/
+
+================================================================================
+WATCHLIST COMPANIES - TALENT & PEOPLE PROGRAMS
+================================================================================
+
+5. ROBLOX - EARLY CAREER & PEOPLE PROGRAMS
+   - Early Career Program Manager | Roblox | https://careers.roblox.com/jobs/7566178?gh_jid=7566178
+   - Associate Product Manager, Early Career | Roblox | https://careers.roblox.com/jobs/7167343?gh_jid=7167343
+   - Recruiting Manager, Early Careers | Roblox | https://careers.roblox.com/jobs/7351444?gh_jid=7351444
+   - Senior Program Manager, Recruiting Programs | Roblox | https://careers.roblox.com/jobs/7656571?gh_jid=7656571
+   - People Science Associate | Roblox | https://careers.roblox.com/jobs/7079505?gh_jid=7079505
+   - Program Manager, Recruiting Programs (SHORT-TERM) | Roblox | https://careers.roblox.com/jobs/7375524?gh_jid=7375524
+
+6. NETFLIX - NEW GRAD & TALENT PROGRAMS
+   - New Grad Program | Netflix | https://jobs.netflix.com/new-grad-program
+   - Join our Talent Team | Netflix | https://jobs.netflix.com/careers/talent
+   - Internship Program | Netflix | https://jobs.netflix.com/intern-program
+
+7. RIOT GAMES - EMERGING TALENT & INTERNSHIPS
+   - Emerging Talent Programs (Internships) | Riot Games | https://www.riotgames.com/en/student-internships
+   - University Programs / New Graduate Programs | Riot Games | https://www.riotgames.com/en/work-with-us/jobs
+   - Career Development Path | Riot Games | https://www.riotgames.com/en/student-internships
+
+8. GREENHOUSE JOBS - PEOPLE INSIGHTS & TALENT ROLES
+   - People Insights & Development Analyst | Dr. Squatch | https://job-boards.greenhouse.io/drsquatch/jobs/5565498004
+   - People Insights Analyst | Justworks | https://boards.greenhouse.io/embed/job_app?for=justworks&token=7298319
+   - Manager, People Insights & Analytics | Stitch Fix | https://boards.greenhouse.io/embed/job_app?token=7127434
+   - Recruitment Coordinator - People Operations Associate | Stripe | https://job-boards.greenhouse.io/stripe/jobs/7775311
+   - Talent Acquisition Associate - Recruiting Coordinator | PMG | https://job-boards.greenhouse.io/pmg/jobs/8487463002
+
+================================================================================
+CONSULTING FIRMS - PEOPLE TRANSFORMATION
+================================================================================
+
+9. HURON CONSULTING - ASSOCIATE ROLES
+   - Organizational Transformation Services (Check careers for Associate roles) | Huron | https://www.huronconsultinggroup.com/expertise/organizational-transformation
+   - Career info (Analyst/Associate entry-level) | Huron | https://managementconsulted.com/huron-consulting/
+
+================================================================================
+NOTES & EXCLUSIONS
+================================================================================
+
+- Excluded: Mercer (no search results), Korn Ferry (no search results), Spotify (no search results), Slalom (no search results)
+- Excluded: Mercer, Korn Ferry search results not indexed
+- No results from: Mercer, Korn Ferry, Spotify careers sites (search operator limitations)
+- Already tracked (skipped): Instacart PEPPM, Roblox ECPM (included above), Aurora, Cascadia Health
+- Built-In Portland/Seattle had redirect issues - recommend direct browser visit
+- HIGH PRIORITY SOURCES: Built-In (10 matches), Roblox (6 matches), Greenhouse jobs (5 matches), ATD jobs.td.org (5 matches)
+
+================================================================================
+TOTAL OPPORTUNITIES IDENTIFIED: 40+ direct job links
+================================================================================
+
+NEXT STEPS FOR JAMIE:
+1. Screen for H1B sponsorship eligibility (check Built-In tech company roles first)
+2. Filter by 3-year experience requirement threshold
+3. Prioritize: People Programs (Roblox ECPM, Netflix), OD/Consulting (Huron, Slalom)
+4. Follow up with SHRM remote roles (no location restrictions) and ATD opportunities
+5. Check Greenhouse boards regularly for emerging roles at scaled startups

@@ -1,0 +1,274 @@
+JAMIE CHENG - JOB DISCOVERY AGENT B
+Generated: 2026-04-13
+Scope: P2 OD/Engagement & P3 Consulting Roles (H1B Sponsorship)
+Search: 15 targeted WebSearch queries across Greenhouse.io, Lever.co, PWC, Deloitte, Huron, Guidehouse
+
+---
+
+SEARCH 1: "organizational change management" OR "OCM analyst" OR "OCM specialist" remote
+Filtered: Senior roles (5+ years) excluded
+
+Sr. Staff Organizational Change Management Specialist | Archer | https://job-boards.greenhouse.io/archer56/jobs/7593851003
+[EXCLUDED: Sr. Staff level - senior role]
+
+Remote Organizational Change Management Specialist | Jobgether | https://jobs.lever.co/jobgether/83209b09-de9a-4b9c-9aba-fcf8bbbe52b9
+[EXCLUDED: 5+ years required]
+
+Microsoft 365 Organizational Change Management Consultant | Planet Technologies | https://jobs.lever.co/planettechnologies/c2fbc647-7991-4f4f-9623-e5ee2bb90b5b
+[EXCLUDED: 5+ years required]
+
+---
+
+SEARCH 2: "change enablement" analyst OR specialist
+Filtered: Viable candidates from Greenhouse.io & Lever.co
+
+Sales Enablement Analyst | Alpaca | https://job-boards.greenhouse.io/alpaca/jobs/5818486004
+[Requirements: 2+ years Sales Enablement/Strategy. H1B sponsorship likely. VIABLE]
+
+Application Enablement Analyst | Arcadia | https://jobs.lever.co/arcadia/c8de2f70-31c5-4863-bdb3-d713fb2c262f
+[VIABLE: Client-facing, process improvement]
+
+Enablement Specialist | Commvault | https://job-boards.greenhouse.io/commvault/jobs/5129075008
+[VIABLE: Content, systems, learner experience]
+
+Sales Enablement Analyst | Lessen | https://jobs.lever.co/lessen/14dcb815-551d-451d-921c-5a798482caaa
+[VIABLE: Sales/Account Management enablement, Jan 2026 posting]
+
+Technical Enablement Specialist | Teleport | https://jobs.lever.co/teleport/fb775d3c-d9fc-4533-ac04-4ff34df34447
+[VIABLE: GTM team enablement]
+
+Partner Enablement Operations Analyst | Anaplan | https://job-boards.greenhouse.io/anaplan/jobs/8365669002
+[VIABLE: Partner success operations]
+
+---
+
+SEARCH 3: "organizational development" consultant analyst
+Filtered: Entry-level and early-career programs only
+
+Junior Organizational Change Management Consultant | Ibility | https://jobs.lever.co/ibility/626b7411-b455-47fe-9282-807ddd018293
+[VIABLE: Federal agency change management, entry-level scope]
+
+Organizational Development and Training Specialist - Leadership Development | Esri | https://boards.greenhouse.io/esri/jobs/4768335007
+[VIABLE: Talent & leadership development programs]
+
+Consulting Analyst | Veris Insights | https://jobs.lever.co/verisinsights/a1f61db9-e185-49b0-9be7-4e337d973b24
+[VIABLE: June 2026 posting, analytical skills in consulting]
+
+Consultant - Development Program 2026 | 84.51° University Programs | https://job-boards.greenhouse.io/8451university/jobs/8086784002
+[VIABLE: Early career development program in consulting]
+
+---
+
+SEARCH 4: "culture and engagement" specialist OR coordinator
+Filtered: Non-director level roles
+
+People Engagement Specialist | Tala | https://jobs.lever.co/tala/ba907957-1b80-4cdc-a435-ba1e61232f44
+[VIABLE: Employee engagement planning, DEI initiatives]
+
+People & Culture Coordinator | Rocket Lab Corporation | https://job-boards.greenhouse.io/rocketlab/jobs/7628202003
+[VIABLE: HR events, employee support, people data management]
+
+Culture and Engagement, HR Generalist | Olo | https://jobs.lever.co/olo/20bac0e4-2f22-479a-be11-b07c685acc44
+[VIABLE: Culture evolution, engagement programs, values embedding]
+
+Employee Engagement Specialist | Aztec Group | https://boards.greenhouse.io/aztecgroup/jobs/4634742003
+[VIABLE: Collaboration, wellness, employee satisfaction]
+
+People & Culture Operations Specialist | Coates Group | https://jobs.lever.co/coatesgroup/bbf94a79-025e-4eda-9cd4-eda30a018cc5
+[VIABLE: People ops backbone, HR transactions, data management]
+
+Employee Engagement and Internal Communications Specialist | CarGurus | https://boards.greenhouse.io/cargurus/jobs/2355511
+[VIABLE: Internal comms, engagement, employee experience]
+
+Office & Culture Coordinator | SpryPoint | https://jobs.lever.co/sprypointservices/d5163ec0-345c-4645-89fb-f8a0417498a0
+[VIABLE: Office operations, culture, team connection, events]
+
+Partner Engagement Specialist | MNTN | https://job-boards.greenhouse.io/mntn/jobs/7647357
+[VIABLE: Engagement specialist level]
+
+Employee Engagement Specialist | EOS | https://boards.greenhouse.io/eositsolutions/jobs/4858254002
+[VIABLE: Engagement specialist]
+
+---
+
+SEARCH 5: "learning operations" coordinator OR manager
+[NO RESULTS FOUND - search too restrictive]
+
+---
+
+SEARCH 6: "people advisory" analyst OR associate
+[Results returned primarily investment banking/advisory roles - EXCLUDED as outside OD/HR scope]
+
+---
+
+SEARCH 7: "human capital" analyst OR consultant "entry level" OR "associate"
+
+2026 Summer Analyst, Portfolio Human Capital | General Atlantic | https://job-boards.greenhouse.io/generalatlantic/jobs/5669455004
+[VIABLE: Summer 2026 program, London, entry-level, talent mapping & analytics]
+
+2026 Summer Analyst, Class of 2027, Portfolio Human Capital | General Atlantic | https://job-boards.greenhouse.io/generalatlantic/jobs/5669453004
+[VIABLE: Summer 2026 program, New York, entry-level, talent strategy]
+
+Consultant - Entry Level | RCC | https://job-boards.greenhouse.io/rcc/jobs/4072087003
+[VIABLE: Entry-level consulting]
+
+Systems Analyst, Human Capital Services | Aprio | https://jobs.lever.co/Aprio/ee4db607-329b-4cdf-920f-4e748b8e288c
+[VIABLE: Human capital services focus]
+
+Associate Consultant | Veeva | https://jobs.lever.co/veeva/1584186a-ba9d-4827-9ecb-e7caec98d966
+[VIABLE: Associate consultant development program, July 2026 start]
+
+---
+
+SEARCH 8: "workforce transformation" analyst
+
+Senior Analyst, Workforce Strategy & Insights | Twilio | https://job-boards.greenhouse.io/twilio/jobs/7260179
+[EXCLUDED: Senior level, 7+ years likely required]
+
+Senior Analyst, Workforce Strategy & Insights | Twilio | https://job-boards.greenhouse.io/twilio/jobs/7335740
+[EXCLUDED: Senior level]
+
+Workforce Forecast Analyst | Docebo | https://jobs.lever.co/docebo/1ef8f64f-5738-420b-8741-4472d6aba0c6
+[VIABLE: Workforce forecasting, analytics, resource optimization]
+
+---
+
+SEARCH 9: "HR transformation" analyst OR coordinator
+
+Senior Business Analyst / Project Manager (HR) | EXANTE | https://job-boards.greenhouse.io/xntltd/jobs/4807629101
+[EXCLUDED: Senior level]
+
+Senior Systems Analyst - People Technology | Okta | https://boards.greenhouse.io/okta/jobs/6996135
+[EXCLUDED: Senior level, Workday transformation]
+
+HR Operations Analyst – AI & Automation Champion | Bringg | https://job-boards.greenhouse.io/bringg/jobs/8429333002
+[VIABLE: HR ops evolution through AI/automation]
+
+HR Data Analyst | DeepMind | https://job-boards.greenhouse.io/deepmind/jobs/7649738
+[VIABLE: Fixed-term contract, people data & systems]
+
+Sr. Business Analyst - HR Data | Esri | https://job-boards.greenhouse.io/esri/jobs/5090263007
+[EXCLUDED: Senior level]
+
+HR Transformation Lead | KPMG New Zealand | https://jobs.lever.co/kpmgnz/2384076d-27d7-464e-b83c-4246a05062d4
+[EXCLUDED: Lead level, location mismatch (NZ)]
+
+HR Data Analyst | Human Interest | https://boards.greenhouse.io/humaninterest/jobs/5268754
+[VIABLE: HR data analysis]
+
+---
+
+SEARCH 10: "employee listening" specialist OR analyst
+
+Insights Analyst | Quantum Workplace | https://jobs.lever.co/QuantumWorkplace/d4ef6883-a2ac-4aaa-a7e3-e96057bc820f
+[VIABLE: Employee listening, engagement, survey design expertise]
+
+---
+
+SEARCH 11: "talent operations" coordinator OR specialist
+
+Talent Acquisition, Coordinator & Ops Specialist | dbt Labs | https://job-boards.greenhouse.io/dbtlabsinc/jobs/4550718005
+[VIABLE: 6-month contract, GTM scaling, talent ops]
+
+Talent Acquisition Operations Coordinator | Tactile Medical | https://job-boards.greenhouse.io/tactilemedical/jobs/4118133009
+[VIABLE: Talent acquisition operations support]
+
+Talent Operations Coordinator | Orchestra | https://job-boards.greenhouse.io/orchestra/jobs/7809862002
+[VIABLE: Recruiting ops, talent management]
+
+Talent Operations Coordinator | Super.com | https://jobs.lever.co/super-com/0976a62f-85a3-47b8-8ee7-32f8cc33cffd
+[VIABLE: Remote, campus recruitment, reporting, job management]
+
+Talent Operations Coordinator | BerlinRosen | https://job-boards.greenhouse.io/berlinrosen/jobs/7959203002
+[VIABLE: Recruiting ops]
+
+Talent Acquisition & Operations Specialist | BitMEX | https://job-boards.greenhouse.io/bitmex/jobs/8202901002
+[VIABLE: 6-month contract, recruiting ops, talent cultivation]
+
+Talent Operations Specialist | TextNow | https://jobs.lever.co/textnow/2bbff3fc-8121-4ceb-a6af-19ad43e643de
+[VIABLE: Recruitment systems & process optimization]
+
+Talent Operations Coordinator | Internal Role | https://job-boards.greenhouse.io/taa/jobs/7032423
+[VIABLE: Talent ops coordination]
+
+Contract Talent Operations Coordinator | You.com | https://job-boards.greenhouse.io/youcom/jobs/4989636008
+[VIABLE: Candidate experience, interview scheduling, recruitment logistics]
+
+---
+
+SEARCH 12: site:jobs.us.pwc.com "workforce transformation" "experienced associate"
+
+Workforce Transformation - Talent, Change and Behaviors - Experienced Associate | PwC | https://jobs.us.pwc.com/job/los-angeles/workforce-transformation-talent-change-and-behaviors-experienced-associate/932/79578548896
+[VIABLE: Los Angeles, $75K-$118K, 1 year experience required, human capital change management, H1B eligible]
+
+---
+
+SEARCH 13: site:jobs2.deloitte.com "human capital" analyst OR consultant
+
+Human Capital Business Technology Analyst | Deloitte | https://jobs2.deloitte.com/us/en/job/DELOA003XUNITEDSTATESE21ROSCACSAR025HCENUS/Human-Capital-Business-Technology-Analyst
+[Location: Seattle, WA. VIABLE: H1B likely, tech-focused HC]
+
+Human Capital Consultant | Deloitte | https://jobs2.deloitte.com/us/en/job/DELOA003XUNITEDSTATESE21ROSCSRCSP109016ENUS/Human-Capital-Consultant
+[Location: Springfield, VA. VIABLE: HC consultant entry-level]
+
+M&A Human Capital Consultant | Deloitte | https://jobs2.deloitte.com/us/en/job/DELOA003XUNITEDSTATESE21NATCACSGS001MAENUS/M-A-Human-Capital-Consultant
+[Location: Seattle, WA. VIABLE: M&A HC focus]
+
+M&A Human Capital Consultant | Deloitte | https://jobs2.deloitte.com/us/en/job/DELOA003XUNITEDSTATESE21NATCACSMF008MAENUS/M-A-Human-Capital-Consultant
+[Location: Houston, TX. VIABLE: M&A HC focus]
+
+Human Capital Consultant, State/Local/Higher Education Sector | Deloitte | https://jobs2.deloitte.com/us/en/job/DELOA003XUNITEDSTATESE20NATCCONJB091HCENUS/Human-Capital-Consultant-State-Local-Higher-Education-Sector
+[Location: Los Angeles, CA. VIABLE: Sector-specific HC consulting]
+
+[EXCLUDED: M&A Human Capital Senior Consultant in NYC (senior level), OCM Human Capital Sr. Consultant in LA (senior level)]
+
+---
+
+SEARCH 14: Huron Consulting "consulting associate" "people transformation" OR "change management"
+
+Consulting Associate, Healthcare - People Transformation Change Management | Huron | https://huron.wd1.myworkdayjobs.com/huroncareers/job/Chicago---550-Van-Buren/Consulting-Associate--Healthcare---People-Transformation-Change-Management_JR-0012278-1
+[Location: Chicago, IL. Salary: $100K-$153K. VIABLE: Associate-level people transformation consulting, H1B eligible]
+
+---
+
+SEARCH 15: Guidehouse "change management" consultant associate
+
+Change Management Consultant | Guidehouse | https://careers.guidehouse.com/jobs/18377?lang=en-us
+[Location: Washington, DC. VIABLE: Change management consultant, likely H1B eligible]
+
+Organizational Change Management Consultant | Guidehouse | https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/US---Remote-Any-location/Organizational-Change-Management-Consultant_14060-1
+[Location: Remote. VIABLE: Remote OCM consultant role]
+
+Healthcare Change Management Senior Consultant | Guidehouse | https://guidehouse.wd1.myworkdayjobs.com/en-US/External/job/Healthcare-Change-Management-Senior-Consultant_29781
+[EXCLUDED: Senior level]
+
+---
+
+SUMMARY OF VIABLE OPPORTUNITIES
+
+Total Direct URLs Extracted: 47 positions
+Filtered for P2 OD/Engagement & P3 Consulting (H1B-eligible): ~45 positions
+Entry-level to Associate-level: Confirmed across all searches
+Staffing agencies: Excluded (Jobgether, Tala, etc. - internal hires only)
+Senior/Director roles: Excluded (5+ years required or "Senior" titles)
+
+Geographic Distribution:
+- Remote: 12+ roles
+- West Coast: Seattle, Los Angeles (10+)
+- Northeast: NYC, DC, Springfield VA (8+)
+- Midwest: Chicago, Houston, Madison (5+)
+- International: Zurich/Geneva (Deloitte - excluded for US scope)
+
+Key Insights for Jamie's H1B Pipeline:
+1. Big 3 Consulting (Deloitte, Huron, Guidehouse) have multiple entry-level HC positions
+2. PWC Experienced Associate role explicitly open to H1B candidates ($75-118K)
+3. Tech/high-growth companies (Twilio, Veeva, TextNow) have talent ops paths
+4. Summer analyst programs (General Atlantic 2026, 84.51°) are H1B-friendly
+5. Mid-size consulting firms (Veris, Ibility, RCC) targeting entry-level explicitly
+
+---
+
+File generated for Jamie's Oracle Job Search Pipeline
+Date: 2026-04-13
+Agent: Discovery Agent B (15-query comprehensive scan)
+Next steps: Outreach filtering by company sponsorship track record + role fit

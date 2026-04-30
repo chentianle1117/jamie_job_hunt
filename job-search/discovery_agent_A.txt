@@ -1,0 +1,61 @@
+JAMIE CHENG JOB DISCOVERY - APRIL 13, 2026
+Search Date: 2026-04-13
+Target Roles: P1 People Program Management, P2 OD/Consulting
+Experience Required: ~3 years, H1B sponsorship eligible
+
+=== DIRECT JOB POSTING URLs ===
+
+People Program Manager | Mercury | https://job-boards.greenhouse.io/mercury/jobs/5364040004
+People Program Manager | OLIPOP | https://job-boards.greenhouse.io/olipop/jobs/6627256003
+Lead People Programs Manager | Jobgether | https://jobs.lever.co/jobgether/ed86d5a5-3f64-490c-a35c-e1ca21796739
+Talent Development Program Manager | Customer.io | https://job-boards.greenhouse.io/customerio/jobs/7739885
+Talent Development Program Manager | Cribl | https://job-boards.greenhouse.io/cribl/jobs/5741436004
+Early Talent Program Manager | MaintainX | https://job-boards.greenhouse.io/maintainx/jobs/5031855007
+Early Talent Program Manager | Robinhood | https://job-boards.greenhouse.io/robinhood/jobs/7453295
+Employee Experience Program Manager | dbt Labs | https://job-boards.greenhouse.io/dbtlabsinc/jobs/4580984005
+Talent and Organizational Development Program Manager | Green Thumb Industries | https://job-boards.greenhouse.io/greenthumbindustries/jobs/7729148
+Talent Development Coordinator | Zeeco | https://jobs.lever.co/zeeco/cc3d9ea2-5ca0-4040-9d26-0591ab359c31
+Talent Development Manager | Pennylane | https://jobs.lever.co/pennylane/3dd08291-53f6-4c0e-895d-c2a6d3ab0376
+Learning & Development Program Manager | Woven by Toyota | https://jobs.lever.co/woven-by-toyota/dd8e249c-b2d5-424b-9633-c7653ad310ce
+Talent Management Program Coordinator | Industrial Electric Manufacturing | https://job-boards.greenhouse.io/industrialelectricmanufacturing/jobs/4049678009
+Talent Operations Associate | Bridgewater Associates | https://job-boards.greenhouse.io/bridgewater89/jobs/7853774002
+Talent Operations Specialist | Helion Energy | https://job-boards.greenhouse.io/helionenergy/jobs/4610420005
+Corporate Communications & Employee Engagement Coordinator | Included Health | https://jobs.lever.co/includedhealth/7bbe505e-5465-4706-86e9-7870bd2ff822
+
+=== FILTERED OUT (ineligible) ===
+
+- Samsara (Senior Program Manager, Talent Attraction) - SENIOR title
+- Gong.io (Senior Talent Development Program Manager) - SENIOR title, 4-8+ years
+- GitLab (Program Manager, Talent Management) - No direct remote confirmation in search result
+- Axios (Manager, Talent Development) - MANAGER at non-consulting firm
+- DigitalOcean (Early Career Recruiting Program Manager) - Requires 5+ years
+- Duolingo (Senior Talent Development Program Manager) - SENIOR title
+- DoorDash (Program Manager, Talent Processes) - Manager at tech (non-consulting)
+- Databricks (Senior Program Manager, Talent & Leadership Development) - SENIOR title, 5+ years
+- Dropbox (Senior Manager, Talent Management) - SENIOR title, Manager level
+- Remote.com (Senior Manager, Talent Management) - SENIOR title, Manager level
+- Airbnb (Senior Employee Experience Program Manager) - SENIOR title
+- Axon (Axon Aid Program Manager & Employee Experience) - Boston hybrid, not remote
+- Engine (Senior Manager, Employee Experience & Events) - SENIOR/Manager title
+- Pendo (Sr. Program Manager - Employee Engagement) - SR./Senior title, 5+ years
+- Legend Biotech (Employee Experience & Program Manager) - Generic role title
+- Seamless.AI (Senior Human Resources Program Manager) - SENIOR title
+- Flex (Director of Talent Development and Performance) - DIRECTOR title
+- Zscaler (Strategic Program Manager, Employee Engagement) - Multiple SENIOR titles
+- Skylight (Staff/Principal Engagement Manager) - Staff/Principal level
+- JUUL Labs (Employee Engagement Program Manager) - No direct URL in results
+- The Weather Company (Employee Engagement & Attraction Coordinator) - No direct URL
+- Relativity Space (Staff Program Manager - Inclusion & Engagement) - Staff level
+- Addepar (Manager, Employee Experience and Engagement) - MANAGER title
+- Rithum (Training & Development Specialist) - L&D specialist, not program management
+- Fazz (Organization Development Specialist) - Based in Jakarta, Indonesia
+- Esri (Organizational Development and Training Specialist) - L&D specialist focus
+- Alimentiv (Sr. Manager, Leadership & Organizational Development) - SR. MANAGER, 5+ years
+- ION Group (Rotational Analyst, 2026 Leadership Development Program) - Analyst level, not PM
+- Capco (Associate Talent Program) - Training/development program, not hiring managers
+- GLC Advisors (Class of 2026 Full Time Analyst) - Analyst program
+- Warburg Pincus (2026 US Analyst Program) - Analyst program
+- FanDuel - No relevant title extracted
+- Red Ventures - No specific roles listed
+
+TOTAL ELIGIBLE POSITIONS: 16

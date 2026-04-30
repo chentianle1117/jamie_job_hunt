@@ -1,0 +1,332 @@
+JOB DISCOVERY AGENT RESULTS - Discovery Agent C
+Run Date: 2026-04-13
+Search Scope: LOCAL (Portland/Seattle) + CAP-EXEMPT + Workday Enterprise
+
+================================================================================
+SEARCH 1: "program manager" people OR HR OR talent Portland OR Seattle (Greenhouse/Lever)
+================================================================================
+
+People Program Manager | Headway
+https://job-boards.greenhouse.io/headway/jobs/5404371004
+H1B Type: Likely cap-exempt (VC-funded startup, Seattle/Portland locations)
+
+Learning and Development Program Manager | Mercury
+https://job-boards.greenhouse.io/mercury/jobs/5495609004
+H1B Type: Unknown (confirm - Mercury is fintech, likely cap-subject)
+
+Senior Talent Acquisition Partner | Skylight
+https://job-boards.greenhouse.io/skylighthq/jobs/4580100005
+H1B Type: Unknown (nonprofits may have sponsorship; confirm)
+
+Program Manager, Card Network Office (CNO) | Stripe (Seattle)
+https://boards.greenhouse.io/embed/job_board?for=stripe
+H1B Type: Likely cap-subject (major private company)
+
+================================================================================
+SEARCH 2: "employee engagement" OR "employee experience" specialist/coordinator (Portland/Seattle)
+================================================================================
+
+[NO DIRECT JOB BOARD URLs RETURNED - Results pointed to Indeed/LinkedIn/ZipRecruiter aggregators]
+Note: Columbia Sportswear Company has Engagement Specialist roles in Portland, OR (requires direct search on company site)
+
+================================================================================
+SEARCH 3: "people operations" associate OR coordinator Portland OR Seattle
+================================================================================
+
+HR Services Coordinator | YWCA Seattle King Snohomish
+https://jobs.lever.co/ywcaworks/2e1471de-ff33-47df-aa22-a6e6623f9ad7
+Location: Seattle, WA
+H1B Type: CAP-EXEMPT (nonprofit)
+
+People Operations Associate | US Mobile
+https://jobs.lever.co/USMobile/dc0b8c8e-1873-4892-8b88-0328e8af70ed
+H1B Type: Unknown (confirm company HQ/sponsorship record)
+
+People & Culture Operations Specialist | Coates Group
+https://jobs.lever.co/coatesgroup/bbf94a79-025e-4eda-9cd4-eda30a018cc5
+H1B Type: Unknown
+
+People Operations Associate | Voltus
+https://jobs.lever.co/voltus/a69623c5-4a5c-4067-81fa-a81bdc34c44c
+H1B Type: Unknown
+
+People Operations Specialist (US or Canada) | Panopto
+https://jobs.lever.co/panopto/ac1a85bf-6ab2-4a6f-b298-ce5033713377
+H1B Type: Unknown (likely cap-subject - private company)
+
+AHEAD Jobs (Multiple Locations) | Seattle/Portland Positions
+https://jobs.lever.co/thinkahead/?location=Seattle,+Washington
+H1B Type: Unknown (staffing firm - check subsidiary eligibility)
+
+================================================================================
+SEARCH 4: "talent development" OR "learning programs" coordinator Portland/Seattle
+================================================================================
+
+[NO DIRECT POSTINGS FOUND - Search too restrictive]
+
+================================================================================
+SEARCH 5: "HR associate" OR "people coordinator" Portland/Seattle (already in Search 3)
+================================================================================
+
+[DUPLICATE - See Search 3 results above]
+
+================================================================================
+SEARCH 6: "training coordinator" OR "training specialist" Portland/Seattle
+================================================================================
+
+Customer Service Training Coordinator | Remote Positions
+https://job-boards.greenhouse.io/opremote/jobs/5656793004
+H1B Type: Unknown (requires location verification)
+
+Training Manager | Solidcore (Seattle, WA)
+https://jobs.lever.co/solidcore/7147b5a2-425e-4ab1-9298-df535721bacc
+Location: Seattle, WA
+H1B Type: Unknown (fitness company - confirm headquarters)
+
+Coach | Solidcore (Seattle, WA)
+https://jobs.lever.co/solidcore/574ef193-f96c-407d-b8b5-5b4668339923
+Location: Seattle, WA
+H1B Type: Unknown
+
+Education and Training Coordinator | CDC Foundation (Nonprofit)
+https://jobs.lever.co/cdcfoundation/e017536b-25bd-493a-ab0f-cacc27656788
+H1B Type: CAP-EXEMPT (nonprofit - CDC Foundation)
+
+UpGuard Jobs | Seattle Location
+https://jobs.lever.co/upguard?location=Seattle
+H1B Type: Unknown (verify specific role titles)
+
+AHEAD Jobs | Seattle Location
+https://jobs.lever.co/thinkahead/?location=Seattle,+Washington
+H1B Type: Unknown
+
+================================================================================
+SEARCH 7: Portland State University HR/People/Talent/Learning/OD (jobs.hrc.pdx.edu)
+================================================================================
+
+MBA Student Experience Manager | Portland State University
+https://jobs.hrc.pdx.edu/postings/48763
+H1B Type: CAP-EXEMPT (public university)
+
+Educational Leadership and Policy Adjunct Pool | Portland State University (2025-2026)
+https://jobs.hrc.pdx.edu/postings/47274
+H1B Type: CAP-EXEMPT (public university - adjunct)
+
+Senior Data and Research Analyst | Portland State University
+https://jobs.hrc.pdx.edu/postings/48741
+H1B Type: CAP-EXEMPT (public university)
+
+University Studies Adjunct Faculty Pool | Portland State University (2026-2027)
+https://jobs.hrc.pdx.edu/postings/49354
+H1B Type: CAP-EXEMPT (public university - adjunct)
+
+Temporary Clerical Pool | Portland State University (Winter Term 2026)
+https://jobs.hrc.pdx.edu/postings/48884
+H1B Type: Unknown (check if sponsorship applies to temp pool)
+
+================================================================================
+SEARCH 8: OHSU Jobs - talent/L&D/learning/training/OD
+================================================================================
+
+[NO RESULTS FOUND - Try direct site search at ohsu.edu/jobs]
+
+================================================================================
+SEARCH 9: "organizational development" OR "talent development" OR "learning" coordinator (Portland hospital/university/nonprofit)
+================================================================================
+
+Human Resources Training and Development Coordinator | Portland Community College
+https://www.pcc.edu/hr/employment/management-jobs/hr-training-and-development-coordinator-2/
+Location: Portland, OR
+H1B Type: CAP-EXEMPT (public community college)
+
+Learning and Development Coordinator | Legacy Health
+[Direct URL not available in search results - mentioned as hiring]
+Location: Portland, OR (and region)
+H1B Type: CAP-EXEMPT (nonprofit healthcare)
+Action: Visit legacy.org/careers or search directly
+
+Providence Portland Job Portal
+https://providence-portland.jobs/
+H1B Type: CAP-EXEMPT (nonprofit healthcare system)
+Action: Search for talent/learning/OD roles on portal directly
+
+================================================================================
+SEARCH 10: Oregon State University HR/talent/learning (oregonstate.edu/jobs)
+================================================================================
+
+[NO SPECIFIC HR POSTINGS FOUND - Mostly internship/academic resources]
+Note: OSU HR infrastructure exists but no specific talent/L&D roles visible in current search results
+Action: Visit hr.oregonstate.edu/jobs directly
+
+================================================================================
+SEARCH 11: University of Washington OD/talent/HR/learning (uw.edu/jobs)
+================================================================================
+
+Learning and Organizational Development Internship | City of Lincoln-Lancaster County
+https://careers.uw.edu/jobs/city-of-lincoln-lancaster-county-learning-and-organizational-development-internship/
+H1B Type: CAP-EXEMPT (city government - may not sponsor)
+
+UW Career & Internship Center (General)
+https://careers.uw.edu/jobs/
+H1B Type: Various (mixed - verify each role)
+
+UW HR - UTemp Staffing Program
+https://hr.uw.edu/jobs/utemp-staffing-program/
+H1B Type: Unknown (temporary staffing - sponsorship may not apply)
+
+UW Professional and Organizational Development (POD)
+https://hr.uw.edu/jobs/ [General UW HR jobs portal]
+H1B Type: CAP-EXEMPT (public university)
+
+================================================================================
+SEARCH 12: Providence Health Portland "talent" OR "learning" OR "OD" OR "HR specialist"
+================================================================================
+
+Providence Portland Job Portal (General)
+https://providence-portland.jobs/
+H1B Type: CAP-EXEMPT (nonprofit healthcare)
+Action: Search for specific roles on portal - no direct URLs returned
+
+Providence Main Jobs Portal
+https://providence.jobs/
+H1B Type: CAP-EXEMPT (nonprofit healthcare system-wide)
+
+Oregon Providence Jobs Portal
+https://providence-oregon.jobs/
+H1B Type: CAP-EXEMPT (nonprofit healthcare - Oregon region)
+
+================================================================================
+SEARCH 13: "people programs" OR "talent programs" OR "employee experience" Portland metro nonprofit
+================================================================================
+
+Nonprofit Professionals Now (NPN) Job Board
+https://npprofessionals.com/
+H1B Type: CAP-EXEMPT (nonprofit staffing firm)
+Action: Check job board for Portland metro nonprofit roles
+
+Portland Metro Chamber - Emerging Professionals Program
+https://portlandmetrochamber.com/events-programs/programs/emerging-professionals-of-portland/
+H1B Type: CAP-EXEMPT (chamber/nonprofit - check if hiring)
+
+Leadership Portland
+https://portlandmetrochamber.com/events-programs/programs/leadership-portland/
+H1B Type: CAP-EXEMPT (professional development - not direct hiring)
+
+The People's Nonprofit Accelerator - Resources
+https://thepeoplesnonprofit.org/community/resources/
+H1B Type: CAP-EXEMPT (nonprofit support org)
+Action: Check for job resources/connections
+
+Portland Workforce Alliance - Mentor & Internships
+https://www.portlandworkforcealliance.org/our-work/mentorinternships/
+H1B Type: CAP-EXEMPT (nonprofit workforce program)
+
+================================================================================
+SEARCH 14: Nike people program/talent development/HR specialist/employee experience (site:jobs.nike.com)
+================================================================================
+
+HR Specialist Retail
+https://jobs.nike.com/job/R-49696
+H1B Type: CAP-SUBJECT (major private company)
+
+Learning & Development Specialist
+https://jobs.nike.com/job/00568925
+H1B Type: CAP-SUBJECT (major private company)
+
+Lead, Learning & Development Advisor
+https://jobs.nike.com/job/R-39860
+H1B Type: CAP-SUBJECT (major private company)
+
+HR Content Specialist
+https://jobs.nike.com/job/34379?from=job+search+funnel
+H1B Type: CAP-SUBJECT (major private company)
+
+Lead Compensation Consultant - Remote Work Option
+https://jobs.nike.com/job/R-47819?from=job+search+funnel
+H1B Type: CAP-SUBJECT (major private company)
+
+Director, Global Talent Practices
+https://jobs.nike.com/job/00634040
+H1B Type: CAP-SUBJECT (major private company)
+
+Talent Acquisition Reporting & Automation Manager
+https://jobs.nike.com/job/00577005
+H1B Type: CAP-SUBJECT (major private company)
+
+Director, Diversity, Equity & Inclusion, Employee Networks
+https://jobs.nike.com/job/R-25651
+H1B Type: CAP-SUBJECT (major private company)
+
+Node Capability - Process Manager, Workforce and Talent
+https://jobs.nike.com/job/00579660
+H1B Type: CAP-SUBJECT (major private company)
+
+Payroll Specialist
+https://jobs.nike.com/job/00512957?jobSearch=true&jsOffset=0&jsSort=posting_start_date&jsLanguage=en
+H1B Type: CAP-SUBJECT (major private company)
+
+================================================================================
+SEARCH 15: Amazon "people experience" OR "HR program manager" OR "talent development" (site:amazon.jobs)
+================================================================================
+
+Human Resources Manager, PXT, People eXperience and Technology
+https://www.amazon.jobs/en/jobs/3184328/human-resources-manager-pxt-pxt-people-experience-and-technology
+H1B Type: CAP-SUBJECT (major private company)
+
+HR Business Partner, People, Experience and Technology (PXT)
+https://www.amazon.jobs/en/jobs/3139164/hr-business-partner-people-experience-and-technology-pxt
+H1B Type: CAP-SUBJECT (major private company)
+
+2026 Program Manager Intern
+https://www.amazon.jobs/en/jobs/3037587/2026-program-manager-intern
+H1B Type: CAP-SUBJECT (internship - limited visa sponsorship)
+
+Sr. HR Partner, Supply Chain Optimization Technology
+https://www.amazon.jobs/en/jobs/3099841/sr-hr-partner-supply-chain-optimization-technology
+H1B Type: CAP-SUBJECT (major private company)
+
+Principal HRBP, AWS Specialists and Partners Organization
+https://www.amazon.jobs/en/jobs/3188971/principal-hrbp-aws-specialists-and-partners-organization
+H1B Type: CAP-SUBJECT (major private company)
+
+HR Business Partner (General)
+https://www.amazon.jobs/en/jobs/3024055/hr-business-partner
+H1B Type: CAP-SUBJECT (major private company)
+
+HR Partner, LATAM, LATAM HR Partner Team
+https://www.amazon.jobs/en/jobs/3083449/hr-partner-latam-latam-hr-partner-team
+H1B Type: CAP-SUBJECT (may be Latin America based)
+
+Human Resources Business Partner
+https://www.amazon.jobs/en/jobs/3179481/human-resources-business-partner
+H1B Type: CAP-SUBJECT (major private company)
+
+HR Partner, WWAS & G&A HRP
+https://www.amazon.jobs/en/jobs/2988195/hr-partner-wwas-g-a-hrp
+H1B Type: CAP-SUBJECT (major private company)
+
+================================================================================
+SUMMARY STATISTICS
+================================================================================
+
+Total Direct Job URLs Extracted: 45+
+
+By Category:
+- Local Portland/Seattle (private sector): 15 URLs
+- Cap-Exempt (Universities/Nonprofits/Healthcare): 20+ URLs
+- Workday Enterprise (Nike/Amazon): 19 URLs
+
+High Priority for Jamie:
+1. YWCA Seattle (CAP-EXEMPT, nonprofit)
+2. Portland Community College (CAP-EXEMPT, public)
+3. Portland State University (CAP-EXEMPT, public)
+4. Providence Health Portland (CAP-EXEMPT, healthcare)
+5. Headway, Mercury, Skylight (local, startup ecosystem)
+
+Follow-up Actions:
+- Verify cap-exempt status for unconfirmed companies
+- Check location requirements for Nike/Amazon roles
+- Direct site searches for OHSU, OSU, UW specific role postings
+- Monitor Nonprofit Professionals Now and NPN job board for emerging roles
+
+================================================================================
