@@ -19,6 +19,31 @@
 - Pure Sales, Pure SWE, Senior HRBP, Instructional Designer (80%+ content), Technical PM (PMP)
 - Pure recruiting/TA roles
 
+## LinkedIn Competition Filter (Added Apr 30, 2026 — REALISM RULES)
+
+> Jamie's feedback Apr 30: "Be really realistic. Stop pushing reposted, remote, highly-competitive jobs even if the JD matches well."
+
+**Three signals to track on every LinkedIn posting:**
+1. 🔁 **Reposted** — text "Reposted X days ago" appears
+2. 👥 **Applicant volume** — "100+ applicants" / "Over 100 people clicked apply" / similar
+3. 🌍 **Remote** — fully remote (no Portland/Seattle local advantage)
+
+**Rules — apply BEFORE adding to Notion:**
+| Signal Combo | Action |
+|--------------|--------|
+| 🔁 Reposted (any version) | **HARD SKIP** — do not add to Notion |
+| 👥 100+ applicants (single signal) | **HARD SKIP** — do not add to Notion |
+| 🌍 Remote + 1 other signal (reposted OR 100+) | **HARD SKIP** |
+| 2+ of 3 signals | **HARD SKIP** — do not add to Notion |
+| 1 signal only AND not reposted/not 100+ | Borderline — only add if score ≥80 AND P1/P2 AND H1B confirmed |
+| 0 signals | Standard scoring applies |
+
+**Why:** Reposted = HM dissatisfied with prior pool, replaying. 100+ applicants = ATS noise floor too high to break through without a referral. Remote + competitive = Jamie's H1B status puts her behind US-citizen applicants in a crowded pool. Combination of any 2 = "drinking from a firehose with no advantage."
+
+**During Notion enrichment**, if the role passes filters above, capture in Notes:
+- "LinkedIn signals: ✅ Fresh / 0 applicants visible / Hybrid Portland" — confirms low-competition
+- Or if borderline: "⚠️ 73 applicants, fresh repost — apply with referral only"
+
 ## Role Priorities (Updated Apr 6, 2026)
 1. **P1** Talent Dev / People Program Mgmt — SWEET SPOT (data + dashboards + people dev programs)
 2. **P2** People/HR Consulting at associate/analyst level only
@@ -38,9 +63,23 @@
 
 **Auto-PASS if JD requires ★☆☆ skills as primary** (payroll, HRIS admin, benefits, ER casework, recruiting as main function). Override only if cap-exempt + perfect title + Portland + personal connection.
 
-## Location & Remote Bar
-- Portland/Seattle: 60-70% JD match OK
-- Remote: 80%+ match PLUS additional advantage (cap-exempt, green-light company, P1 consulting, network)
+## Location & Remote Bar (Updated Apr 30, 2026 — Portland-Heavy Allocation)
+
+**Discovery time budget — 70-80% Portland local/hybrid, 20-30% remote/relocation.**
+
+- **Portland/Beaverton/Hillsboro hybrid** (priority): 60-70% JD match OK. Always favor over equivalent remote role.
+- **Seattle hybrid** (acceptable): 65-70% JD match OK. Jamie commutes/relocates if right role.
+- **Remote (lower priority — only with edge):** 85%+ match PLUS at least one additional advantage:
+  - Cap-exempt (university, hospital, nonprofit)
+  - Green-light company explicitly known for remote H1B sponsorship
+  - P1/P2 with strong personal network/referral
+  - Posted within 7 days AND <50 applicants AND not reposted (LinkedIn)
+- **Remote without an edge:** PASS even at 90%+ match. Jamie cannot win those competitive remote pools as an H1B applicant.
+
+**Discovery agents must allocate effort accordingly:**
+- 70-80% of search queries should target Portland/Beaverton/Hillsboro/Vancouver WA + Seattle hybrid
+- 20-30% can sweep remote roles, but apply LinkedIn Competition Filter strictly
+- Do NOT fill the email with remote roles just because they exist — quality over quantity
 
 ## Fit Score Formula (v3.4.1)
 Base: ⭐⭐⭐ Excellent = 82 | ⭐⭐ Good = 70 | ⭐ Near-miss = 58
