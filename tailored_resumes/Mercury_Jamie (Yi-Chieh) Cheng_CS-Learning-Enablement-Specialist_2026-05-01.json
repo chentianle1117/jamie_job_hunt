@@ -10,12 +10,15 @@
       "left": "0.45in"
     },
     "autoFit": true,
-    "fontRange": [8.5, 10.0]
+    "fontRange": [
+      8.5,
+      10
+    ]
   },
   "header": {
     "location": "Portland, OR (Open to Remote or Relocation)"
   },
-  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Organizational Development</b> professional who thrives on <b>building scalable learning programs</b>, <b>establishing metrics that demonstrate impact</b>, and <b>partnering across teams to enable people</b>.&nbsp;<div>Expect me to always be seeking ways we can improve <b>people development</b>—through human-centered, systematic approaches.</div>",
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Organizational Development</b> professional who thrives on <span style=\"font-size: 11.1867px;\"><b>developing programs grounded in evidence</b></span>, <b>driving improvement via data analysis</b>, and <b>partnering across teams to enable people</b>.&nbsp;<div>Expect me to always be seeking ways we can improve <b>people development</b>—through human-centered, systematic approaches.</div>",
   "keywordGroups": {
     "prog": "Programs/Enablement",
     "coord": "Lifecycle/Systems",
@@ -33,6 +36,15 @@
       "dates": "August 2025–Present",
       "workSampleUrl": null,
       "bullets": [
+        {
+          "text": "Consult with {cross|executive leadership} to {prog|redesign accountability structures} and clarify {cross|cross-functional roles} in support of a 2-year strategic plan",
+          "change": "swap",
+          "jd": [
+            "jd1",
+            "jd8"
+          ],
+          "reason": "NEW bullet — surfaces exec consulting + cross-functional role clarity, directly maps Mercury's CS/Quality/Strategy partnership pillar"
+        },
         {
           "text": "Upskill HR team in {data|data analytics} to audit 300+ leave cases, successfully refuting cost assumptions via {data|evidence-based insights}"
         },
@@ -53,29 +65,40 @@
           "text": "Conduct needs assessments with 25+ {cross|stakeholders} to {prog|identify learning gaps} and design 3 {prog|enablement programs} for product launch",
           "change": "word",
           "original": "Conduct needs assessments with 25+ global stakeholders to identify learning gaps and design 3 new educational programs",
-          "jd": ["jd1", "jd5"],
+          "jd": [
+            "jd1",
+            "jd5"
+          ],
           "reason": "Swapped 'educational programs' → 'enablement programs for product launch' to mirror Mercury's CS enablement framing"
         },
         {
-          "text": "Develop {prog|guides and onboarding documentation} for 70+ {cross|cross-functional} staff, reducing onboarding by 75% via {coord|scalable knowledge systems}",
+          "text": "Develop {coord|timelines, processes, and knowledge base}&nbsp;for 70+ {cross|cross-functional} staff, reducing onboarding by 75%",
           "change": "word",
           "original": "Develop guides and workflows for 70+ cross-functional staff, improving program knowledge and reducing onboarding time by 75%",
-          "jd": ["jd6", "jd4"],
-          "reason": "Surfaces 'scalable knowledge systems' + 'onboarding documentation' to map JD's scalable learning systems and KM practices"
+          "jd": [
+            "jd6"
+          ],
+          "reason": "Honest reframe — 'timelines, processes, knowledge base' reflects what Jamie actually built (docs, protocols, resources). Maps JD's KM practices pillar without stretching to 'scalable systems'"
         },
         {
-          "text": "Facilitate {prog|training webinars} for 600+ participants, establishing {data|engagement and completion metrics} that drove a 78% client conversion rate",
+          "text": "Facilitate {prog|training webinars} for 600+ participants, leveraging {data|attendance and feedback} to refine delivery and drive 78% customer conversion",
           "change": "word",
           "original": "Facilitate training webinars for 600+ participants, enhancing program understanding and driving a 78% client conversion rate",
-          "jd": ["jd2", "jd3"],
-          "reason": "Replaces vague 'enhancing program understanding' with explicit 'engagement and completion metrics' to map JD's learning-metrics requirement"
+          "jd": [
+            "jd2",
+            "jd3"
+          ],
+          "reason": "Honest reframe — 'leveraging attendance and feedback to refine delivery' reflects what Jamie actually did (tracked webinar data informally) instead of overclaiming 'completion metrics'. 78% conversion rate IS the metric"
         },
         {
-          "text": "Manage 20+ {prog|programs} and 10+ vendors end-to-end, refining {coord|delivery strategy} via {data|feedback analysis and content audits}",
+          "text": "Manage 20+ {prog|programs} and 10+ vendors end-to-end, refining {coord|delivery strategy} and {data|auditing content} via {data|feedback analysis}",
           "change": "word",
           "original": "Manage 20+ programs and 10+ vendors, refining program positioning, delivery strategy, and operations via feedback analysis",
-          "jd": ["jd7", "jd8"],
-          "reason": "Adds 'end-to-end' + 'content audits' to mirror JD's end-to-end program ownership and training-material auditing"
+          "jd": [
+            "jd7",
+            "jd8"
+          ],
+          "reason": "Per Jamie's edit — 'auditing content' as an action verb (parallel with refining) reads more direct and maps JD's training-material audit requirement"
         }
       ]
     },
@@ -88,29 +111,39 @@
       "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
       "bullets": [
         {
-          "text": "Provided {prog|consultations} to improve {prog|internal training} on DEI, Inclusive Leadership, and performance review",
-          "change": "reorder",
-          "was": 3,
-          "reason": "Moved to lead — internal training consultation is the strongest L&D-adjacent bullet for Mercury's enablement focus"
+          "text": "Analyzed 2,000+ {data|employee survey responses}, surfacing key engagement drivers to inform C-suite actions",
+          "change": "swap",
+          "original": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on satisfaction drivers",
+          "jd": [
+            "jd2"
+          ],
+          "reason": "Reordered to lead — large-scale survey analysis is the strongest data/metrics signal for Mercury's learning-metrics pillar"
         },
         {
-          "text": "Improved {ex|employee experience} via 5 {cross|cross-functional} projects focusing on L&amp;D, survey development, and rewards &amp; recognition",
-          "change": "reorder",
-          "was": 4,
+          "text": "Led a manager effectiveness initiative, translating {data|data} into an {prog|executive-ready presentation} that informed training strategy",
+          "change": "word",
+          "original": "Led a manager effectiveness initiative, transforming feedback data into actionable reports that informed engagement strategies",
+          "jd": [
+            "jd2",
+            "jd5"
+          ],
+          "reason": "Reframed to surface 'training strategy' (vs 'engagement strategies') — directly maps Mercury's L&D / training-effectiveness focus"
+        },
+        {
+          "text": "Managed weekly {tools|SharePoint dashboards} tracking {data|people metrics, NPS, and survey insights} to inform recognition and engagement initiatives",
+          "change": "swap",
+          "original": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review",
+          "jd": [
+            "jd2",
+            "jd6"
+          ],
+          "reason": "NEW bullet — surfaces concrete KM tool (SharePoint), CS-relevant metric (NPS), and weekly cadence. Directly maps Mercury's KM practices and metrics pillars"
+        },
+        {
+          "text": "Improved {ex|employee experience} via 5 {cross|cross-functional} projects in survey development, performance review, and {prog|L&amp;D}",
+          "change": "word",
           "original": "Improved employee experience via 5 cross-functional projects focusing on survey development, rewards & recognition, and L&D",
-          "reason": "Moved up; reordered list to lead with L&D for visibility in this role's emphasis"
-        },
-        {
-          "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed engagement strategies",
-          "change": "reorder",
-          "was": 1,
-          "reason": "Moved down — strong data signal but less directly tied to learning enablement work"
-        },
-        {
-          "text": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on satisfaction drivers",
-          "change": "reorder",
-          "was": 2,
-          "reason": "Moved down — broad data analytics signal supports the metrics requirement but is more general"
+          "reason": "Tightened; reordered list to lead with survey/performance/L&D for direct relevance to Mercury's learning-metrics + program ownership"
         }
       ]
     },
@@ -203,7 +236,7 @@
     "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
   ],
   "skills": [
-    "<b>Technical Skills:</b> LMS (Canvas, Moodle) · Knowledge Management (Notion, SharePoint, Google Workspace) · Design Tools (Canva, Adobe InDesign) · Data Analysis (SPSS, Excel) · GenAI (ChatGPT, Gemini, Claude)",
+    "<b>Technical Skills:</b> LMS (Canvas, Moodle) · Project Management (Asana, Airtable) · Knowledge Management (Notion, SharePoint, Google Workspace) · Data Analysis (Excel, Google Sheets, SPSS) · Design Tools (Canva, Adobe InDesign) · GenAI Tools (ChatGPT, Gemini, Claude)",
     "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
     "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
   ],
