@@ -33,6 +33,7 @@
     --accent-color: #2a6496;
     --word-spacing: 0pt;
     --vertical-scale: 1.0;
+    --print-zoom: 1;
   }
 
   @page {
@@ -490,7 +491,7 @@
     .split-layout { display: block !important; }
     #resume-page-wrap { display: block !important; padding: 0 !important; height: auto !important; }
     .resume-panel { flex: none !important; width: 100% !important; padding: 0 !important; overflow: visible !important; max-height: none !important; display: block !important; }
-    .resume-page { box-shadow: none !important; margin: 0 !important; padding: var(--page-margin-top) var(--page-margin-right) var(--page-margin-bottom) var(--page-margin-left) !important; max-width: none !important; min-width: auto !important; width: auto !important; min-height: 11in !important; transform: none !important; word-spacing: var(--word-spacing) !important; }
+    .resume-page { box-shadow: none !important; margin: 0 !important; padding: var(--page-margin-top) var(--page-margin-right) var(--page-margin-bottom) var(--page-margin-left) !important; max-width: none !important; min-width: auto !important; width: auto !important; min-height: 11in !important; transform: none !important; word-spacing: var(--word-spacing) !important; zoom: var(--print-zoom, 1) !important; }
     .resume-page::before, .resume-page::after { display: none !important; }
     li.changed, li.reordered { border-left: none !important; background: transparent !important; padding-left: 1pt !important; margin-left: 0 !important; list-style-position: outside !important; }
     li.changed::before, li.reordered::after { display: none !important; }
@@ -1406,7 +1407,7 @@
   // offsetTop is relative to the offsetParent (.resume-page has position:relative).
   // This measurement is unaffected by min-height, transform:scale, or padding quirks.
   //
-  // targetBottom = 11*96 - paddingBottom = where the bottom margin guide line sits.
+  // targetBottom = 11in*pxPerInch - paddingBottom = where the bottom margin guide line sits.
   // When getContentBottomPx() === targetBottom, content ends exactly at the guide.
   function getContentBottomPx(page) {
     var max = 0;
@@ -1520,11 +1521,36 @@
     if (vsDisplay) vsDisplay.textContent = vs.toFixed(2) + 'x';
   }
 
-  // Print safety buffer in inches (~0.16in). Converting to px at runtime keeps
-  // the buffer proportional to the browser's actual DPI instead of being a flat
-  // 15px hack that under-buffers on high-DPI screens.
-  var PRINT_SAFETY_INCHES = 0.16;
+  // Print safety buffer in inches. Chrome/Safari print rendering can lay out
+  // text 2-4% larger than screen due to font hinting differences. With a 0.30in
+  // buffer (~2.7% of 11in), content packed to 96.5% of available space on screen
+  // still fits in print even if rendering expands. (Was 0.16in but observed
+  // overflow even with that buffer.)
+  var PRINT_SAFETY_INCHES = 0.30;
   function getPrintMargin() { return PRINT_SAFETY_INCHES * getPxPerInch(); }
+
+  // ── Print-mode scale safety net ──
+  // Even with autoFit + buffer, residual print/screen rendering differences can
+  // push content over 11in. After autoFit, measure final content height and set
+  // a CSS zoom factor on .resume-page that takes effect ONLY in print mode.
+  // Result: if content fits within 11in, zoom=1 (no effect). If content slightly
+  // exceeds 11in in print, zoom shrinks proportionally to fit one page.
+  function setPrintZoom() {
+    var page = document.getElementById('resume-page');
+    if (!page) return;
+    var contentBottom = getContentBottomPx(page);
+    var ppi = getPxPerInch();
+    var style = window.getComputedStyle(page);
+    var padBottom = parseFloat(style.paddingBottom) || 0;
+    var maxBottom = 11 * ppi - padBottom;
+    var ratio = 1;
+    if (contentBottom > maxBottom) {
+      ratio = maxBottom / contentBottom;
+      // Don't go below 0.85 — at that point trim content rather than over-shrink
+      if (ratio < 0.85) ratio = 0.85;
+    }
+    document.documentElement.style.setProperty('--print-zoom', ratio.toFixed(4));
+  }
 
   function autoFit() {
     if (!currentData) return;
@@ -1650,6 +1676,9 @@
 
     updateFontBadge(bestFont, 'ok');
     updateAllSliders(bestFont, currentWS, currentVS);
+    // After autoFit settles, compute print-mode zoom safety net so any residual
+    // screen-vs-print rendering difference is absorbed by CSS zoom in print only.
+    setPrintZoom();
   }
   window.autoFit = autoFit; // expose to global scope for onclick
   window.runAutoChecks = runAutoChecks; // expose for tune panel
@@ -1678,6 +1707,13 @@
       window.addEventListener('resize', scaleResumePage);
     }
     scaleResumePage();
+
+    // Belt-and-suspenders: recompute print zoom right before print fires.
+    // Cmd+P / File→Print can be invoked without re-running autoFit, so attach
+    // here as a final safety measure so even cold-loaded print preview fits.
+    window.addEventListener('beforeprint', function() {
+      try { setPrintZoom(); } catch (e) {}
+    });
   })();
 
   // ══════════ DRAGGABLE SPLIT DIVIDER ══════════
