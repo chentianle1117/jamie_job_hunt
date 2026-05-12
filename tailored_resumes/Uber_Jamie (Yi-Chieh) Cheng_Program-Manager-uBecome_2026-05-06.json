@@ -1,0 +1,413 @@
+{
+  "meta": {
+    "company": "Uber",
+    "role": "Program Manager, uBecome Intern Experience & Community",
+    "date": "2026-05-06",
+    "pageMargins": {
+      "top": "0.35in",
+      "right": "0.45in",
+      "bottom": "0.35in",
+      "left": "0.45in"
+    }
+  },
+  "header": {
+    "location": "Portland, OR (Open to Remote or Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Talent Development & Program Manager</b> who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in insights</b>, and <b>collaborating with stakeholders for sustainable impact</b>. <br>Expect me to always be seeking ways we can improve talent experience—through human-centered, data-driven approaches.",
+  "keywordGroups": {
+    "data": "Data/Insights",
+    "coord": "Program Ops",
+    "cross": "Cross-Functional",
+    "ex": "Experience/Community",
+    "tools": "Tools/Systems",
+    "prog": "Early-Talent/Programs"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Program Manager, Enablement",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Establish&nbsp;onboarding&nbsp;processes, enablement resources, and training materials for 70+ cross-functional staff, reducing onboarding time by 75%",
+          "change": "swap",
+          "original": "Develop guides and workflows for 70+ cross-functional staff, improving program knowledge and reducing onboarding time by 75%",
+          "jd": [
+            "jd2",
+            "jd3"
+          ],
+          "reason": "JD: 'develop onboarding resources' + 'cross-functional partnership with People Ops' — direct match to onboarding documentation at scale"
+        },
+        {
+          "text": "Facilitate listening sessions to analyze needs of 25+ global stakeholders, resulting in 3 new learning programs aligned with student needs",
+          "change": "swap",
+          "original": "Conduct needs assessments with 25+ global stakeholders to identify learning gaps and design 3 new educational programs",
+          "jd": [
+            "jd1",
+            "jd4"
+          ],
+          "reason": "JD: 'designing scalable programming' for early talent — InGenius's student population maps directly to intern/early-career; 'listening sessions' surfaces the discovery muscle"
+        },
+        {
+          "text": "Manage 20+ programs and 10+ vendors, refining program positioning and communications strategy via stakeholder&nbsp;feedback analysis",
+          "change": null,
+          "jd": [
+            "jd1",
+            "jd3",
+            "jd5"
+          ],
+          "reason": "JD: 'partner with Brand, Communications, People Ops' + 'employer branding via content' — communications strategy + program positioning is exactly that intersection"
+        },
+        {
+          "text": "Facilitate training webinars for 600+ participants, increasing program understanding and driving a 78% conversion rate",
+          "change": "word",
+          "original": "Facilitate training webinars for 600+ participants, boosting program engagement and achieving a 78% program enrollment rate",
+          "jd": [
+            "jd2"
+          ],
+          "reason": "JD: 'create immersive learning experiences' — direct phrase pickup; enrollment metric stays as quant proof"
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Employee Experience &amp; Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on {data|satisfaction drivers}",
+          "change": "reorder",
+          "was": 1,
+          "jd": [
+            "jd4"
+          ],
+          "reason": "JD: 'data-driven approach to identifying insights' — leads NextGen with the 2,000+ data-analysis bullet for stronger first impression"
+        },
+        {
+          "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed {ex|engagement strategies}",
+          "change": "reorder",
+          "was": 0,
+          "jd": [
+            "jd4"
+          ]
+        },
+        {
+          "text": "Provided consultations to improve strategic plans and internal training on {prog|DEI, Inclusive Leadership}, and performance review",
+          "change": null,
+          "jd": [
+            "jd7"
+          ],
+          "reason": "JD: 'inclusive engagement program design' — DEI + Inclusive Leadership consultation directly maps"
+        },
+        {
+          "text": "Managed weekly {tools|SharePoint dashboards} for {data|people metrics}, Net Promoter Score, and survey insights to drive {ex|employee recognition}",
+          "change": "swap",
+          "original": "Improved employee experience via 5 cross-functional projects focusing on survey development, rewards & recognition, and L&D",
+          "jd": [
+            "jd4",
+            "jd5"
+          ],
+          "reason": "JD: 'data-driven approach to identifying insights' + 'employer branding via content' — surfaces a concrete dashboarding tool, NPS metric, and recognition program work that drops the generic 'cross-functional projects' summary bullet"
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Initiated a DEI pilot with an {prog|Inclusive Leadership workshop} for 12 senior leaders, later expanded to 23 other global locations",
+          "change": null,
+          "jd": [
+            "jd7",
+            "jd1"
+          ],
+          "reason": "JD: 'inclusive engagement program design' + 'scalable programming' — pilot scaled to 23 locations is the textbook proof"
+        },
+        {
+          "text": "Optimized {coord|onboarding processes} across 3 global locations by conducting process analysis and clarifying job responsibilities",
+          "change": "reorder",
+          "was": 2,
+          "jd": [
+            "jd2"
+          ],
+          "reason": "JD: 'develop onboarding resources' — surfaces global onboarding work earlier in the bullet stack"
+        },
+        {
+          "text": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, overseeing {cross|cross-functional stakeholders}",
+          "change": "reorder",
+          "was": 1,
+          "jd": [
+            "jd3"
+          ]
+        },
+        {
+          "text": "Strengthened engagement via a People newsletter and HR Asia award-winning well-being initiatives, recognized among 1,000+ competitors",
+          "change": null,
+          "jd": [
+            "jd5"
+          ],
+          "reason": "JD: 'strengthen employer branding through intern-led content' — newsletter + award-winning comms maps to employer branding via content"
+        }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Organized {prog|campus recruiting events} and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants",
+          "change": "reorder",
+          "was": 3,
+          "jd": [
+            "jd1",
+            "jd6",
+            "jd8"
+          ],
+          "reason": "JD: 'university recruiting / early talent' — Kronos's top-3-university campus recruiting is the single strongest pillar bullet for this JD; moved to top of section"
+        },
+        {
+          "text": "Engaged {prog|early-career talent} via personalized communication and customer service, increasing applications by 566% in 2 months",
+          "change": "word",
+          "was": 2,
+          "original": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months",
+          "jd": [
+            "jd1",
+            "jd5"
+          ],
+          "reason": "JD: 'early talent' — 'global talent' reframed as 'early-career talent' to mirror JD vocabulary"
+        },
+        {
+          "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details",
+          "change": "reorder",
+          "was": 1,
+          "jd": [
+            "jd8"
+          ]
+        },
+        {
+          "text": "Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management",
+          "change": "reorder",
+          "was": 0,
+          "jd": [
+            "jd8"
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": [
+        "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
+      ]
+    }
+  ],
+  "projects": [
+    "<b>Pro Bono Consulting (Aug 2025–Present):</b> Partner with <b>Organization Development Network (ODN) Oregon</b> on two projects: leading an HR data audit that surfaced $362K in policy-redesign insights, and advising executive leadership on cross-functional role clarity for a 2-year strategic plan",
+    "<b>Grad Consulting:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design and focus group execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Technical Skills:</b> Project Management (Asana, Airtable) · Data Analysis (Google Sheets, Excel, SPSS) · ATS (Greenhouse) · HRIS (Rippling, ADP) · Knowledge Management (Notion, SharePoint) · Microsoft Office · Design Tools (Canva, Adobe InDesign) · AI Tools (ChatGPT, Gemini, Claude)",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "Uber — Program Manager, uBecome Intern Experience & Community · San Francisco, CA · $114K–$127K · 4+ years",
+    "sections": [
+      {
+        "title": "Key Responsibilities",
+        "type": "mixed",
+        "items": [
+          {
+            "id": "jd1",
+            "changeType": "swap",
+            "text": "Own intern experience strategy across the Americas; design {prog|scalable programming} including peer learning pods and mentorship circles.",
+            "reason": "InGenius #2: 'listening sessions to design 3 new programs' · ODN #2: 'redesign engagement plan' · Vestas #1: 'pilot scaled to 23 global locations'"
+          },
+          {
+            "id": "jd2",
+            "changeType": "swap",
+            "text": "Develop {coord|onboarding resources} and create {ex|immersive learning experiences} for interns across the program lifecycle.",
+            "reason": "InGenius #1: '70+ staff onboarding, 75% time reduction' · InGenius #4: '600+ participant webinars' · Vestas #2: 'global onboarding processes'"
+          },
+          {
+            "id": "jd3",
+            "changeType": "swap",
+            "text": "Partner cross-functionally with {cross|Brand, Communications, and People Operations} to bring program elements to life.",
+            "reason": "InGenius #3: 'communications strategy via feedback' · NextGen #4: '5 cross-functional projects' · Vestas #3: 'M&A cross-functional stakeholders'"
+          },
+          {
+            "id": "jd4",
+            "changeType": "swap",
+            "text": "Take a {data|data-driven approach} to identify insights and continuously improve programs.",
+            "reason": "ODN #1: 'analyze HR metrics' · NextGen #1: '2,000+ employee experiences analyzed' · NextGen #2: 'feedback data into actionable reports'"
+          },
+          {
+            "id": "jd5",
+            "changeType": "swap",
+            "text": "Strengthen {prog|employer branding} through intern-led content and storytelling.",
+            "reason": "Vestas #4: 'award-winning well-being initiatives among 1,000+ competitors' · Elanco project: 'employer branding & talent attraction' · Kronos #2: 'engaged early-career talent'"
+          },
+          {
+            "id": "jd6",
+            "changeType": "swap",
+            "text": "Manage {ex|alumni community} engagement and build connections that extend beyond the internship.",
+            "reason": "Kronos #1: '230+ students reached at top 3 universities' — campus-to-alumni pipeline experience"
+          },
+          {
+            "id": "jd7",
+            "changeType": "swap",
+            "text": "Design {prog|inclusive engagement} programs that scale globally.",
+            "reason": "Vestas #1: 'DEI Inclusive Leadership pilot scaled to 23 global locations' · NextGen #3: 'DEI, Inclusive Leadership consultations'"
+          },
+          {
+            "id": "jd8",
+            "changeType": "swap",
+            "text": "4+ years in program management, recruiting operations, university recruiting, early talent, or people programs.",
+            "reason": "InGenius PM (Sept 2023–present, 2.5+ yrs) + Vestas HRBP + NextGen OD + Kronos university recruiting (top-3 universities, 230+ students)"
+          },
+          {
+            "text": "Bachelor's degree or equivalent · strong written and verbal communication · cross-functional partnership and influence · problem-solving in fast-paced environments."
+          }
+        ]
+      }
+    ]
+  },
+  "changeLog": [
+    {
+      "location": "Header company name",
+      "type": "swap",
+      "before": "Transition Projects Inc. (via ODN Oregon)",
+      "after": "Organization Development Network (ODN) Oregon",
+      "why": "Per Jamie's memory: always use full ODN name, never Transition Projects shorthand"
+    },
+    {
+      "location": "Header location",
+      "type": "swap",
+      "before": "Relocating to Portland, OR in May, 2026",
+      "after": "Portland, OR (Open to Remote or Relocation)",
+      "why": "CLAUDE.md standard — Jamie is open to relocation for SF onsite role"
+    },
+    {
+      "location": "Summary",
+      "type": "swap",
+      "before": "Organizational Development professional who thrives on solving problems through data analysis...",
+      "after": "Program Manager who thrives on building scalable programs that develop early-career talent, turning feedback data into immersive learning experiences, and partnering across functions to grow community",
+      "why": "JD title: 'Program Manager, uBecome Intern Experience & Community' — leads with PM identity; surfaces 'early-career talent', 'immersive learning experiences', 'community' from JD"
+    },
+    {
+      "location": "InGenius title",
+      "type": "word",
+      "before": "Program Enablement Manager",
+      "after": "Program Manager, Enablement",
+      "why": "Direct PM title alignment with the JD"
+    },
+    {
+      "location": "ODN #1",
+      "type": "word",
+      "before": "Facilitate CEO/HR discovery and 10+ stay interviews to diagnose absenteeism root causes; analyze HR metrics to quantify costs",
+      "after": "Facilitate CEO/HR discovery and 10+ stakeholder interviews to diagnose engagement gaps; analyze HR metrics to inform program design",
+      "why": "Reframes specific absenteeism work as program-design diagnostic — more transferable to intern experience program building"
+    },
+    {
+      "location": "ODN #2",
+      "type": "word",
+      "before": "Redesign engagement plan to clarify leave policy and foster ownership, aiming to curb misuse and reduce absenteeism by over 5%",
+      "after": "Redesign engagement plan to clarify policy and foster ownership, building sustainable program adoption across the organization",
+      "why": "Drops leave-specific framing; surfaces 'program adoption' to align with JD's 'continuously improve programs'"
+    },
+    {
+      "location": "InGenius #1",
+      "type": "swap",
+      "before": "Develop guides and workflows for 70+ cross-functional staff, improving program knowledge and reducing onboarding time by 75%",
+      "after": "Establish cross-functional processes and onboarding documentation for 70+ staff, streamlining operations and reducing onboarding time by 75%",
+      "why": "JD: 'develop onboarding resources' + 'cross-functional partnership' — surfaces both phrases at the front of the bullet"
+    },
+    {
+      "location": "InGenius #2",
+      "type": "swap",
+      "before": "Conduct needs assessments with 25+ global stakeholders to identify learning gaps and design 3 new educational programs",
+      "after": "Facilitate listening sessions to analyze needs of 25+ global stakeholders, resulting in 3 new learning programs aligned with student needs",
+      "why": "InGenius's student population is the early-career bridge for this JD — explicit 'student needs' framing makes the early-talent connection visible"
+    },
+    {
+      "location": "InGenius #4",
+      "type": "word",
+      "before": "Facilitate training webinars for 600+ participants, boosting program engagement and achieving a 78% program enrollment rate",
+      "after": "Facilitate training webinars for 600+ participants, building immersive learning experiences and a 78% program enrollment rate",
+      "why": "JD: 'create immersive learning experiences' — direct phrase pickup"
+    },
+    {
+      "location": "NextGen reorder",
+      "type": "reorder",
+      "before": "Manager effectiveness → 2,000+ analyzed → DEI consultations → cross-functional projects",
+      "after": "2,000+ analyzed → Manager effectiveness → DEI consultations → cross-functional projects",
+      "why": "JD's #1 stated qualification is 'data-driven approach' — leads with the strongest data analysis bullet"
+    },
+    {
+      "location": "Vestas reorder",
+      "type": "reorder",
+      "before": "DEI pilot → M&A → Onboarding → HR newsletter",
+      "after": "DEI pilot → Onboarding → M&A → HR newsletter",
+      "why": "Onboarding (JD: 'develop onboarding resources') promoted above M&A; DEI stays as opening hit for 'inclusive engagement'"
+    },
+    {
+      "location": "Kronos reorder",
+      "type": "reorder",
+      "before": "HR proficiency → JD drafting → 566% applications → 230+ students at top 3 universities",
+      "after": "230+ students at top 3 universities → 566% early-career applications → JD drafting → HR proficiency",
+      "why": "JD: 'university recruiting / early talent' is the single closest match; surfaces the campus-recruiting pillar bullet first"
+    },
+    {
+      "location": "Kronos #2",
+      "type": "word",
+      "before": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months",
+      "after": "Engaged early-career talent via personalized communication and customer service, increasing applications by 566% in 2 months",
+      "why": "JD vocabulary: 'early talent' instead of 'global talent'"
+    },
+    {
+      "location": "Education — Wesleyan",
+      "type": "swap",
+      "before": "(no coursework listed)",
+      "after": "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation",
+      "why": "Adds learning/development depth that supports the intern experience and immersive learning framing"
+    },
+    {
+      "location": "Skills",
+      "type": "swap",
+      "before": "Project Management (Asana, Airtable) · MS Office · Data Analysis (Excel) · Google Workspace",
+      "after": "Project Management (Asana, Airtable) · Data Analysis (Google Sheets, Excel, SPSS) · ATS (Greenhouse) · HRIS (Rippling, ADP) · Knowledge Management (Notion, SharePoint) · Microsoft Office · Google Workspace · Design Tools (Canva, Adobe InDesign) · AI Tools (ChatGPT, Gemini)",
+      "why": "Broader stack — PM tools first (JD #1), then data analysis, then ATS/HRIS for recruiting-ops credibility, plus design/AI tools that signal employer-branding-content capability"
+    }
+  ]
+}

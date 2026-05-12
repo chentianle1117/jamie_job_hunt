@@ -11,14 +11,14 @@
     },
     "autoFit": true,
     "fontRange": [
-      8.0,
+      8,
       10
     ]
   },
   "header": {
     "location": "Portland, OR (Open to Remote or Relocation)"
   },
-  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Organization &amp; Talent Development</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve people experience—through human-centered, data-driven approaches.",
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Organization Development &amp; People Operations</b>&nbsp;professional who thrives on <b>solving problems through data analysis</b>, <b>developing processes grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable change</b>. <br>Expect me to always be seeking ways we can improve people experience—through human-centered, data-driven approaches.",
   "experience": [
     {
       "id": "odn",
@@ -29,10 +29,10 @@
       "workSampleUrl": null,
       "bullets": [
         {
-          "text": "Upskill HR team in data analytics to audit 300+ confidential leave-of-absence cases for compliance, using evidence-based insights to refute cost assumptions"
+          "text": "Upskill HR team in data analytics to audit 300+ confidential leave-of-absence cases, using evidence-based insights to refute cost assumptions"
         },
         {
-          "text": "Translate $362K in leave-cost data into executive-ready insights, identifying trends and leading to policy redesigns and first aid training"
+          "text": "Translate $362K in leave-cost data into executive-ready insights, identifying trends leading to policy redesigns and first aid training"
         },
         {
           "text": "Consult with executive leadership to redesign accountability structures and clarify cross-functional roles in support of a 2-year strategic plan"
@@ -48,16 +48,16 @@
       "workSampleUrl": null,
       "bullets": [
         {
-          "text": "Facilitate listening sessions with 25 global stakeholders, surfacing learning gap insights to co-design 3 tailored programs"
-        },
-        {
           "text": "Develop SOPs, process documentation, digital resource libraries, and workflows for 70+ cross-functional staff, cutting onboarding time by 75%"
         },
         {
-          "text": "Facilitate training webinars for 600+ participants, increasing program understanding and driving 78% enrollment rate"
+          "text": "Manage end-to-end lifecycles for 20+ projects, utilizing feedback analysis to optimize operational strategies and vendor performance"
         },
         {
-          "text": "Manage end-to-end lifecycles for 20+ projects, utilizing feedback analysis to optimize operational strategies and vendor performance"
+          "text": "Facilitate listening sessions with 25 global stakeholders, surfacing learning gaps to co-design 3 tailored programs"
+        },
+        {
+          "text": "Deliver training sessions for 600+ participants, increasing program understanding and driving a 78% enrollment rate"
         }
       ]
     },
@@ -70,16 +70,16 @@
       "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
       "bullets": [
         {
-          "text": "Analyzed 2,000+ employee survey data, identifying trends and key engagement drivers to recommend C-suite actions"
+          "text": "Analyzed 2,000+ employee survey responses, identifying trends and key engagement drivers to recommend C-suite actions"
         },
         {
-          "text": "Led manager effectiveness initiative, translating data into an executive-ready presentation to inform training strategy"
-        },
-        {
-          "text": "Managed weekly SharePoint dashboards for HR data quality, people metrics, Net Promoter Score, and survey insights to drive employee recognition"
+          "text": "Managed SharePoint dashboards for people metrics, Net Promoter Score, and survey insights to drive employee recognition and engagement"
         },
         {
           "text": "Improved employee experience via 5 cross-functional projects in survey development, performance review, and L&D"
+        },
+        {
+          "text": "Led manager effectiveness initiative, translating data into an executive-ready presentation to inform training strategy"
         }
       ]
     },
@@ -92,16 +92,16 @@
       "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
       "bullets": [
         {
-          "text": "Supported a large-scale organizational transformation by directing a Mergers & Acquisitions project, migrating employee records and partnering with cross-functional stakeholders"
+          "text": "Directed a Mergers &amp; Acquisitions project, partnering with Payroll, People Data, and Finance to ensure smooth organizational transformation"
         },
         {
-          "text": "Streamlined onboarding transactions across 3 global sites; interviewed stakeholders to clarify responsibilities and map new team workflows"
+          "text": "Streamlined onboarding processes across 3 global sites; interviewed stakeholders to clarify responsibilities and map new team workflows"
         },
         {
-          "text": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to other 23 global locations"
+          "text": "Supported 5 cross-functional HR projects in talent development, succession, and Employee Relations, ensuring data accuracy and confidentiality"
         },
         {
-          "text": "Supported 5 cross-functional HR projects in talent development, succession, and Employee Relations; ensuring data accuracy and confidentiality"
+          "text": "Standardized immigration and relocation processes in partnership with immigration attorneys and Mobility team, closing gaps and clarifying handoffs for future cases"
         }
       ]
     },
@@ -114,7 +114,7 @@
       "workSampleUrl": null,
       "bullets": [
         {
-          "text": "Managed cross-functional HR operations across the employee lifecycle — spanning recruitment, compensation analysis, and performance management globally"
+          "text": "Managed cross-functional HR operations across the employee lifecycle — spanning recruitment, compensation, and performance management"
         },
         {
           "text": "Coordinated end-to-end international talent acquisition, including job descriptions, postings, and global compensation benchmarking"
@@ -154,7 +154,7 @@
     "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition scholarship), Tuck Bridge Scholarship (Full Scholarship)"
   ],
   "skills": [
-    "<b>Technical Skills:</b> HRIS (Workday, Rippling, ADP, SAP) · ServiceNow · ATS (Greenhouse) · LMS (Canvas, Moodle) · Project Management (Asana, Airtable) · Data Analysis (Google Sheets, Excel, SPSS) · Knowledge Management (Notion, SharePoint) · Microsoft Office (Word, PowerPoint) · Design Tools (Canva, Adobe InDesign) · AI Tools (ChatGPT, Gemini)",
+    "<b>Technical Skills:</b> HRIS (Workday, Rippling, ADP, SAP) · ServiceNow · ATS (Greenhouse) · LMS (Canvas) · Project Management (Asana, Airtable) · Data Analysis (Google Sheets, Excel, SPSS) · Knowledge Management (Notion, SharePoint) · Microsoft Office (Word, PowerPoint) · AI Tools (ChatGPT, Claude)",
     "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
     "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
   ]
