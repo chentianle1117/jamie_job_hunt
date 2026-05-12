@@ -1,49 +1,119 @@
 {
   "meta": {
-    "company": "",
-    "role": "",
-    "date": "",
-    "pageMargins": { "top": "0.35in", "right": "0.45in", "bottom": "0.35in", "left": "0.45in" },
+    "company": "ConductorOne",
+    "role": "Talent & Workplace Coordinator",
+    "date": "2026-05-12",
+    "pageMargins": {
+      "top": "0.35in",
+      "right": "0.45in",
+      "bottom": "0.35in",
+      "left": "0.45in"
+    },
     "autoFit": true,
-    "fontRange": [8.5, 10.0]
+    "fontRange": [
+      8.5,
+      10
+    ]
   },
   "header": {
     "location": "Portland, OR (Open to Remote or Relocation)"
   },
-  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Organizational Development</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in insights</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve people experience—through human-centered, systematic approaches.",
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Talent &amp; Organization Development</b> professional who thrives on <b>running cross-functional programs</b>, <b>driving data-driven process improvements</b>, and <b>elevating talent experience</b>. Always seeking ways to improve people experience through human-centered, strategic approaches.",
   "keywordGroups": {
-    "data": "Data/Analytics",
-    "coord": "Coordination/Ops",
-    "cross": "Stakeholders/Collab",
-    "ex": "Employee Experience",
+    "data": "Data/Process",
+    "coord": "Coordination/Logistics",
+    "cross": "Stakeholders/Cross-functional",
+    "ex": "Candidate/Employee Experience",
     "tools": "Tools/Systems",
-    "prog": "Programs/L&D"
+    "prog": "Programs/Operations"
   },
   "experience": [
     {
       "id": "odn",
-      "title": "Consultant, Organizational Development & Employee Engagement",
-      "company": "Transition Projects Inc. (via ODN Oregon)",
+      "title": "Consultant, Talent &amp; Organization Development",
+      "company": "Organization Development Network (ODN) Oregon",
       "location": "Remote, USA",
       "dates": "August 2025–Present",
       "workSampleUrl": null,
       "bullets": [
-        { "text": "Upskill HR team in {data|data analytics} to audit 300+ leave cases, successfully refuting cost assumptions via {data|evidence-based insights}" },
-        { "text": "Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training" }
+        {
+          "text": "Facilitate CEO/HR discovery and {cross|stakeholder} interviews to diagnose absenteeism drivers; analyze leave data to quantify costs",
+          "change": "swap",
+          "original": "Upskill HR team in data analytics to audit 300+ leave cases, successfully refuting cost assumptions via evidence-based insights",
+          "jd": [
+            "jd2",
+            "jd7"
+          ],
+          "reason": "Pair B opener — emphasizes stakeholder interviews + diagnostic work, matches C1's 'consolidate feedback to inform improvements' and 'jump into problems'"
+        },
+        {
+          "text": "Empower HR to present executive-ready insights on $362K in {data|leave costs}, leading to {prog|policy redesigns} and first aid training",
+          "change": "swap",
+          "original": "Design a year-round engagement & communications plan and recommend programs, targeting 5%+ absenteeism reduction",
+          "jd": [
+            "jd3",
+            "jd6"
+          ],
+          "reason": "Pair A closer — $362K data analysis + executive presentation surfaces data-analytics thread that summary now promises"
+        },
+        {
+          "text": "Consult with executive leadership to redesign {prog|accountability structures} and clarify {cross|cross-functional roles} in support of a 2-year strategic plan",
+          "change": "add",
+          "jd": [
+            "jd1",
+            "jd6"
+          ],
+          "reason": "Added 3rd ODN bullet — executive consulting + cross-functional role clarification shows strategic breadth and direct stakeholder partnering"
+        }
       ]
     },
     {
       "id": "ingenius",
-      "title": "Program Enablement Manager",
+      "title": "Program Manager, Enablement",
       "company": "InGenius Prep, LLC",
       "location": "Remote, USA",
       "dates": "September 2023–Present",
       "workSampleUrl": null,
       "bullets": [
-        { "text": "Conduct needs assessments with 25+ global {cross|stakeholders} to identify learning gaps and design 3 new educational programs" },
-        { "text": "Develop guides and workflows for 70+ {cross|cross-functional} staff, improving program knowledge and reducing onboarding time by 75%" },
-        { "text": "Facilitate training webinars for 600+ participants, enhancing {prog|program understanding} and driving a 78% client conversion rate" },
-        { "text": "Manage 20+ programs and 10+ vendors, refining program positioning, delivery strategy, and operations via {data|feedback analysis}" }
+        {
+          "text": "Coordinate 10+ vendors and manage 20+ programs, using feedback loops to refine communication strategy and vendor performance",
+          "change": "combine",
+          "original": "Manage end-to-end lifecycles for 20+ projects + Manage 20+ programs and 10+ vendors, refining program positioning via feedback analysis",
+          "jd": [
+            "jd1",
+            "jd2",
+            "jd6"
+          ],
+          "reason": "Combined former #1 (lifecycles + feedback loops) with former #4 (vendors + multi-calendar) — surfaces the coordinator-specific skills without redundancy"
+        },
+        {
+          "text": "Establish {cross|cross-functional} processes and documentation for 70+ staff, streamlining {prog|operations} and reducing onboarding time by 75%",
+          "change": "swap",
+          "original": "Develop guides and workflows for 70+ cross-functional staff, improving program knowledge and reducing onboarding time by 75%",
+          "jd": [
+            "jd4",
+            "jd5"
+          ],
+          "reason": "Reframe to emphasize 'streamlining operations' and 'onboarding' — direct match to C1's onboarding logistics and process improvement responsibilities"
+        },
+        {
+          "text": "Facilitate {coord|listening sessions} with 25+ global {cross|stakeholders}, surfacing insights that shaped 3 new programs aligned to user needs",
+          "change": "swap",
+          "original": "Facilitate training webinars for 600+ participants, enhancing program understanding and driving a 78% client conversion rate",
+          "jd": [
+            "jd1"
+          ],
+          "reason": "Set B listening-sessions variant — closer match to 'consolidate feedback from multiple sources' than the webinar metric"
+        },
+        {
+          "text": "Facilitate training webinars for 600+ participants, enhancing {prog|program engagement} and driving a 78% program enrollment rate",
+          "change": "add",
+          "jd": [
+            "jd1",
+            "jd7"
+          ],
+          "reason": "Added back the 600+ training webinar bullet — shows scale of stakeholder-facing comms work, complements the coordinator role's interviewer-prep / onsite-coord theme"
+        }
       ]
     },
     {
@@ -54,10 +124,28 @@
       "dates": "January 2023–May 2023",
       "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
       "bullets": [
-        { "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed engagement strategies" },
-        { "text": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on satisfaction drivers" },
-        { "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review" },
-        { "text": "Improved {ex|employee experience} via 5 {cross|cross-functional} projects focusing on survey development, rewards & recognition, and L&D" }
+        {
+          "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed engagement strategies"
+        },
+        {
+          "text": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on satisfaction drivers"
+        },
+        {
+          "text": "Improved {ex|employee experience} via 5 {cross|cross-functional} projects focusing on survey development, rewards & recognition, and L&D",
+          "change": "reorder",
+          "was": 3,
+          "reason": "Move EX/cross-functional bullet up — most relevant to C1's candidate/employee experience focus"
+        },
+        {
+          "text": "Managed {tools|SharePoint} dashboards for {data|people metrics}, Net Promoter Score, and survey insights to drive {ex|employee recognition}",
+          "change": "swap",
+          "original": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review",
+          "jd": [
+            "jd3",
+            "jd6"
+          ],
+          "reason": "Swapped DEI consultations for SharePoint dashboards bullet — ties directly to skills line (SharePoint, KM) and surfaces NPS/metrics data work that supports C1's 'reporting queries' + 'process improvement' asks"
+        }
       ]
     },
     {
@@ -68,10 +156,24 @@
       "dates": "February 2022–October 2022",
       "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
       "bullets": [
-        { "text": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations" },
-        { "text": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, overseeing {cross|cross-functional stakeholders}" },
-        { "text": "Optimized onboarding processes across 3 global locations by conducting process analysis and clarifying job responsibilities" },
-        { "text": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors" }
+        {
+          "text": "Optimized {prog|onboarding processes} across 3 global locations by conducting process analysis and clarifying job responsibilities",
+          "change": "reorder",
+          "was": 2,
+          "reason": "Lead with onboarding — C1 explicitly calls out 'support new hire onboarding logistics'"
+        },
+        {
+          "text": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, overseeing {cross|cross-functional stakeholders}",
+          "change": "reorder",
+          "was": 1,
+          "reason": "Demote M&A — strong work but less directly relevant"
+        },
+        {
+          "text": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations"
+        },
+        {
+          "text": "Strengthened engagement via an HR newsletter and {coord|award-winning well-being initiatives}, recognized among 1,000+ competitors"
+        }
       ]
     },
     {
@@ -82,10 +184,24 @@
       "dates": "January 2021–August 2021",
       "workSampleUrl": null,
       "bullets": [
-        { "text": "Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management" },
-        { "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details" },
-        { "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months" },
-        { "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants" }
+        {
+          "text": "Developed proficiency across HR functions including recruitment {coord|coordination}, compensation, and performance management"
+        },
+        {
+          "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details"
+        },
+        {
+          "text": "Engaged global talent via personalized {ex|candidate communication} and customer service, increasing applications by 566% in 2 months",
+          "change": "word",
+          "original": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months",
+          "jd": [
+            "jd2"
+          ],
+          "reason": "Add 'candidate communication' framing — C1 asks for thoughtful candidate experience from first touch through offer"
+        },
+        {
+          "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants"
+        }
       ]
     }
   ],
@@ -95,14 +211,18 @@
       "location": "Los Angeles, CA",
       "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
       "dates": "August 2022–May 2023",
-      "bullets": ["Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"]
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+      ]
     },
     {
       "school": "Wesleyan University",
       "location": "Middletown, CT",
       "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
       "dates": "August 2017–December 2021",
-      "bullets": []
+      "bullets": [
+        "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
+      ]
     }
   ],
   "projects": [
@@ -111,13 +231,80 @@
     "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
   ],
   "skills": [
-    "<b>Technical Skills:</b> HRIS · ATS (Greenhouse) · LMS (Canvas, Moodle-user) · MS Office (Word, PowerPoint) · Data Analysis (SPSS, Excel)",
+    "<b>Technical Skills:</b> Project Management (Asana, Airtable) · Knowledge Management (Notion, SharePoint) · Google Workspace · Slack · Zoom · MS Office (PowerPoint, Word) · GenAI Tools (ChatGPT, Gemini, Claude) · Data Analysis (Excel, SPSS) · HRIS (SAP) · ATS (Greenhouse)",
     "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
     "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
   ],
   "jd": {
-    "meta": "",
-    "sections": []
+    "meta": {
+      "company": "ConductorOne (C1)",
+      "role": "Talent & Workplace Coordinator",
+      "location": "Portland, OR — 4 days/week in office",
+      "salary": "$75K–$100K + equity"
+    },
+    "sections": [
+      {
+        "heading": "What You'll Do",
+        "items": [
+          {
+            "id": "jd1",
+            "text": "Partner with recruiters and hiring managers to create a strong, thoughtful {ex|candidate experience} from first touch through offer"
+          },
+          {
+            "id": "jd2",
+            "text": "{coord|Coordinate interviews} across multiple teams and time zones — scheduling, candidate {coord|communication}, interviewer prep, onsite coordination"
+          },
+          {
+            "id": "jd3",
+            "text": "Maintain {tools|recruiting systems} and processes, ensuring data stays organized and up to date"
+          },
+          {
+            "id": "jd4",
+            "text": "Work with the onboarding team to support new hire {prog|onboarding logistics} for Portland office"
+          },
+          {
+            "id": "jd5",
+            "text": "Help run day-to-day {coord|office operations}: vendor coordination, supplies, events, workplace support"
+          },
+          {
+            "id": "jd6",
+            "text": "Identify {prog|process improvements} and automation opportunities to help the team scale"
+          },
+          {
+            "id": "jd7",
+            "text": "Jump into startup problems as they arise — coordinating, troubleshooting, preparing for events"
+          }
+        ]
+      },
+      {
+        "heading": "Extra Credit",
+        "items": [
+          {
+            "id": "jd8",
+            "text": "Large-scale {coord|coordination} with multiple calendars and variables"
+          },
+          {
+            "id": "jd9",
+            "text": "Experience with {tools|Ashby, Google Workspace, Slack, Zoom}"
+          },
+          {
+            "id": "jd10",
+            "text": "{prog|Process improvement} and operational problem-solving"
+          }
+        ]
+      }
+    ]
   },
-  "changeLog": []
+  "changeLog": [
+    "Summary rewritten: emphasizes coordinating multi-stakeholder programs, feedback→process improvement, candidate/employee experience (matches C1's 'partner with recruiters and hiring managers to create candidate experience' + 'identify process improvements')",
+    "Keyword groups relabeled for coordinator/ops emphasis (Coordination/Logistics, Candidate/Employee Experience, Programs/Operations)",
+    "ODN Oregon: swapped to Pair B (Facilitate/Redesign) — stakeholder interviews + engagement/comms plan map to 'consolidate feedback' and 'school communications' framing",
+    "ODN Oregon: corrected company name to 'Organization Development Network (ODN) Oregon' per memory rule",
+    "InGenius: title set to 'Program Manager, Enablement' (PM/Engagement role type)",
+    "InGenius: Set B bullets — end-to-end lifecycles, cross-functional processes, listening sessions, coordination + multi-calendar scheduling",
+    "Vestas: reordered to lead with onboarding (C1 calls out onboarding logistics)",
+    "Kronos: reframed 'personalized communication' as 'candidate communication' (C1's candidate experience framing)",
+    "Skills: rewrote tech line to feature Asana/Google Workspace/Slack/Zoom — direct match to C1's tooling. Dropped LMS/Canvas/InDesign (not relevant to recruiting coordinator role)",
+    "Location: Portland, OR header preserved — Portland local is a real advantage for this 4-day in-office role"
+  ]
 }
