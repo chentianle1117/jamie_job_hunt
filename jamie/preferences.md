@@ -1,10 +1,37 @@
-# Job Search Logic v2.0 — "Quality Over Quantity" (Revised Mar 4, 2026)
+# Job Search Logic v2.1 — "H1B Timeline Window" (Revised May 12, 2026)
+
+## ⏰ Active Context — H1B Runway
+
+> **Current role ends ~June 2, 2026.** H1B 60-day grace period after. Total runway ~11 weeks
+> (until ~August 1, 2026) to land a new H1B sponsor.
+> Search criteria are **broadened during this window** — see "Timeline-Adjusted Overlay" below.
+> Revert to v2.0 strict mode after Jamie lands.
 
 ## 🎯 Core Strategy
 
 > Jamie has time to carefully apply to **1-2 jobs per day**. Each application takes 30-60 minutes.
 > The pipeline should surface **maximum 3 high-quality jobs** where every single one is worth that time.
 > Zero is an acceptable output if nothing meets the bar.
+
+## 🟠 Timeline-Adjusted Overlay (active May–Aug 2026)
+
+While the H1B clock is running, these adjustments OVERRIDE the v2.0 defaults below:
+
+### What loosens
+- **Remote roles**: now in scope IF at a CONFIRMED H1B sponsor for non-tech/People work. 70%+ match threshold (down from 80%+).
+- **Relocation**: explicitly open. Any US metro is acceptable for a 65%+ match at a confirmed sponsor.
+- **Match thresholds**: Portland 55-65% / Seattle 60-65% / Remote 70%+ at sponsor / Relocation 65%+ at sponsor.
+- **Role priority expanded**: Education Program Manager, Curriculum Program Manager, Learning Program Manager, EdTech Program Manager all join P1 as "P1b" (InGenius bridge — strong skill match into educational program ops).
+
+### What stays strict (do NOT loosen these)
+- **H1B sponsorship is binary**: applying to non-sponsors or sponsors-without-pattern wastes runway. ALWAYS verify h1bdata.info for non-tech filings before applying to a remote role.
+- **AVOID list still hard rejects**: pure recruiting/TA, payroll, leave, ER casework, HRIS admin, instructional design (80%+ content), senior titles. Bad-fit roles at desperation-volume hurt more than help.
+- **Pure-tactical coordinator/admin roles**: still reject — they don't sponsor and they don't move the career forward.
+
+### Discovery allocation (timeline-window)
+- ~50% Portland/Beaverton/Hillsboro/Vancouver WA + Seattle hybrid
+- ~30% remote at confirmed H1B sponsors (verified for non-tech sponsorship pattern)
+- ~20% relocation in any US metro at confirmed H1B sponsor
 
 ---
 
@@ -78,6 +105,17 @@ Jamie's ideal: data analysis + dashboard management + managing programs related 
 * L&D Program Manager (ops/data/vendor-focused, NOT content creation)
 * Employee Development Program Manager
 * Training Program Manager / Coordinator (scheduling, data, vendor mgmt)
+
+### Priority 1b — Education / Curriculum / Learning Program Management (Added May 12, 2026)
+Strong skill bridge from InGenius: educational program operations, student/teacher stakeholder
+management, vendor coordination, curriculum delivery. Treat as P1-equivalent during timeline window.
+* Education Program Manager / Coordinator
+* Curriculum Program Manager / Coordinator
+* Learning Program Manager (at EdTech, universities, training providers)
+* EdTech Program Manager (program ops, NOT product management)
+* Higher Ed / Academic Program Manager (cap-exempt = bonus)
+* Student Success Program Manager (program-focused, not advising-focused)
+* **AVOID even in this category:** roles that are 80%+ instructional design or curriculum *creation* (Jamie operates programs, doesn't author content)
 
 ### Priority 2 — People / HR Consulting (Associate Level)
 Jamie wants to break into consulting. Has OD consulting exp (ODN Oregon) but limited.

@@ -44,12 +44,13 @@
 - "LinkedIn signals: ✅ Fresh / 0 applicants visible / Hybrid Portland" — confirms low-competition
 - Or if borderline: "⚠️ 73 applicants, fresh repost — apply with referral only"
 
-## Role Priorities (Updated Apr 6, 2026)
+## Role Priorities (Updated May 12, 2026)
 1. **P1** Talent Dev / People Program Mgmt — SWEET SPOT (data + dashboards + people dev programs)
-2. **P2** People/HR Consulting at associate/analyst level only
-3. **P3** Employee Experience / OD (EX Specialist, OD Analyst, Engagement)
-4. **P4** Junior HRBP — ONLY assistant/associate level (10 mo direct exp)
-5. **P5** General HR — ONLY if strategic/program-focused, NOT operational
+2. **P1b** Education / Curriculum / Learning Program Manager — strong skill match (InGenius bridge: educational program ops, student/teacher stakeholder mgmt, vendor coord). Includes Education Program Manager, Curriculum Program Manager, Learning Program Manager, EdTech Program Manager at sponsors.
+3. **P2** People/HR Consulting at associate/analyst level only
+4. **P3** Employee Experience / OD (EX Specialist, OD Analyst, Engagement)
+5. **P4** Junior HRBP — ONLY assistant/associate level (10 mo direct exp)
+6. **P5** General HR — ONLY if strategic/program-focused, NOT operational
 
 **AVOID:** Admin HR, leave, ER, recruiting/TA, payroll, benefits, HRIS admin
 **CRITICAL:** Read actual JD responsibilities, not just titles
@@ -63,23 +64,25 @@
 
 **Auto-PASS if JD requires ★☆☆ skills as primary** (payroll, HRIS admin, benefits, ER casework, recruiting as main function). Override only if cap-exempt + perfect title + Portland + personal connection.
 
-## Location & Remote Bar (Updated Apr 30, 2026 — Portland-Heavy Allocation)
+## Location & Remote Bar (Updated May 12, 2026 — H1B Timeline Window)
 
-**Discovery time budget — 70-80% Portland local/hybrid, 20-30% remote/relocation.**
+> ⏰ **Timeline context:** Current role ends ~June 2, 2026. H1B 60-day grace period
+> after that. Total runway ~11 weeks. Search strategy is broadened accordingly until
+> Jamie lands a new H1B sponsor. Revert to Apr 30 strict rules after she lands.
 
-- **Portland/Beaverton/Hillsboro hybrid** (priority): 60-70% JD match OK. Always favor over equivalent remote role.
-- **Seattle hybrid** (acceptable): 65-70% JD match OK. Jamie commutes/relocates if right role.
-- **Remote (lower priority — only with edge):** 85%+ match PLUS at least one additional advantage:
-  - Cap-exempt (university, hospital, nonprofit)
-  - Green-light company explicitly known for remote H1B sponsorship
-  - P1/P2 with strong personal network/referral
-  - Posted within 7 days AND <50 applicants AND not reposted (LinkedIn)
-- **Remote without an edge:** PASS even at 90%+ match. Jamie cannot win those competitive remote pools as an H1B applicant.
+**Discovery time budget — 50% Portland local, 30% remote at confirmed sponsors, 20% relocation.**
+
+- **Portland/Beaverton/Hillsboro hybrid** (priority): 55-65% JD match OK. Always favor over equivalent remote role.
+- **Seattle hybrid** (acceptable): 60-65% JD match OK. Jamie commutes/relocates if right role.
+- **Remote at confirmed-sponsor companies** (NOW OPEN — was restricted): 70%+ JD match required, AND company must have H1B history for non-tech/People roles (not just senior SWE). Examples: Mercer, Aon, Korn Ferry, WTW, Accenture, big tech HR/People orgs, large EdTech with sponsorship pattern. Education Program Manager / Curriculum Program Manager / Learning Program Manager remote roles are explicitly in scope.
+- **Relocation roles** (NOW OPEN — was preference-only): 65%+ JD match at confirmed H1B sponsor. Jamie is willing to relocate for genuinely strong skill fits. Cost/desirability of city is a flag, not a blocker.
+- **Remote at unknown/no-sponsor companies:** Still PASS. H1B sponsorship is binary — applying to non-sponsors wastes the runway.
 
 **Discovery agents must allocate effort accordingly:**
-- 70-80% of search queries should target Portland/Beaverton/Hillsboro/Vancouver WA + Seattle hybrid
-- 20-30% can sweep remote roles, but apply LinkedIn Competition Filter strictly
-- Do NOT fill the email with remote roles just because they exist — quality over quantity
+- ~50% Portland/Beaverton/Hillsboro/Vancouver WA + Seattle hybrid
+- ~30% remote roles at CONFIRMED H1B sponsors (verified via h1bdata.info for non-tech filings)
+- ~20% relocation roles at confirmed H1B sponsors in any US metro
+- LinkedIn Competition Filter still applies, but threshold loosened: 1 signal is OK if H1B-confirmed AND skill match ≥70%
 
 ## Fit Score Formula (v3.4.1)
 Base: ⭐⭐⭐ Excellent = 82 | ⭐⭐ Good = 70 | ⭐ Near-miss = 58

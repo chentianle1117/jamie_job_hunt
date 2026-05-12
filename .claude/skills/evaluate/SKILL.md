@@ -13,6 +13,27 @@ You are helping Jamie (Yi-Chieh) Cheng evaluate whether a specific job is worth 
 
 ---
 
+### ⏰ Step 0 — Check Active Context Window (DO FIRST)
+
+Before doing anything else, read the top of `jamie/preferences.md` and check whether a
+**"Timeline-Adjusted Overlay"** section is currently active. As of May 12, 2026, Jamie is
+in an H1B-runway window (~11 weeks to land a new sponsor) and the overlay broadens criteria.
+
+**If the overlay is ACTIVE** (the section exists and is not marked "reverted"):
+- Use the overlay's match thresholds (Portland 55-65%, Seattle 60-65%, Remote 70%+ at sponsor, Relocation 65%+ at sponsor)
+- Include **P1b** roles (Education Program Manager, Curriculum Program Manager, Learning Program Manager, EdTech Program Manager, Higher Ed Program Manager, Student Success Program Manager) as P1-equivalent
+- Treat relocation roles as in-scope (not flag-only) at confirmed H1B sponsors
+- **Cap-exempt orgs (universities, hospitals) are the highest-leverage lane** — fastest H1B path
+- **ALWAYS verify h1bdata.info** for the company's NON-TECH filings before approving a remote or relocation role. A company that sponsors only senior SWE is not a sponsor for Jamie.
+- **Stay strict** on: AVOID list (recruiting/TA, payroll, leave, ER, HRIS admin, instructional design as primary, pure tactical coordinator/admin roles)
+
+**If the overlay is INACTIVE** (Jamie has landed and it's been removed/marked reverted):
+- Use the v2.0 strict defaults below (Portland 60-70%, Seattle 65-70%, Remote 80%+ + edge required, Relocation flag-only)
+
+In either case, after Step 0 continue to Step 1.
+
+---
+
 ### ⚡ Gemini Fat-Context Grounding (run BEFORE Steps 1–6)
 
 After you have the JD text in hand (from Step 2), run Gemini to do the heavy fit analysis.

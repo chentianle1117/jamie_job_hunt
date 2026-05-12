@@ -16,6 +16,28 @@ you will give feedback at every stage. Listen carefully and adapt.
 
 ---
 
+### ⏰ Active Context Window Check (DO FIRST)
+
+Before starting Stage 1, check the top of `jamie/preferences.md` for an active
+**"Timeline-Adjusted Overlay"** section. As of May 12, 2026, Jamie is in an H1B-runway
+window (~11 weeks to land a new sponsor).
+
+**If overlay is ACTIVE:**
+- Apply broadened match thresholds (Portland 55-65%, Seattle 60-65%, Remote 70%+ at sponsor, Relocation 65%+ at sponsor)
+- Include P1b (Education/Curriculum/Learning Program Manager) as P1-equivalent
+- Relocation is in-scope at confirmed sponsors
+- Cap-exempt orgs (universities, hospitals) are the highest-priority lane
+- ALWAYS verify h1bdata.info for the company's NON-TECH filings before approving remote/relocation
+- AVOID list still hard-rejects (recruiting/TA, payroll, leave, ER, HRIS admin, ID-primary, tactical coordinator/admin)
+
+**If overlay is INACTIVE** (Jamie has landed and overlay was removed):
+- Use v2.0 strict defaults
+
+This check governs Stage 1's go/pass decision and Stage 3's outreach prioritization (cap-exempt
+and confirmed-sponsor contacts first).
+
+---
+
 ### PIPELINE OVERVIEW (show this first)
 
 When you trigger this pipeline, immediately show this roadmap:
