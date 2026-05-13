@@ -84,10 +84,28 @@
 - ~20% relocation roles at confirmed H1B sponsors in any US metro
 - LinkedIn Competition Filter still applies, but threshold loosened: 1 signal is OK if H1B-confirmed AND skill match ≥70%
 
-## Fit Score Formula (v3.4.1)
+## Fit Score Formula (v3.5 — May 13, 2026 calibration)
 Base: ⭐⭐⭐ Excellent = 82 | ⭐⭐ Good = 70 | ⭐ Near-miss = 58
-Modifiers: Cap-exempt +10 | H1B confirmed +5 | Portland/Seattle +5 | P1/P2 +3 | Remote-only -10 | 3-4yr req -5
+Modifiers: Cap-exempt +10 (conditional) | H1B confirmed +5 | Portland/Seattle +5 | P1/P2 +3 | Remote-only -10 | 3-4yr req -5
 Cap 100, floor 0.
+
+### v3.5 Truthful Scoring Guardrails (added after May 11-13 over-scoring audit)
+
+The full guardrails are in `/evaluate` skill Step 5b. Quick reference:
+
+1. **Cap-exempt +10 is CONDITIONAL.** Apply full +10 only if JD/careers page or h1bdata.info confirms sponsorship at this grade. Apply +5 with flag-pending if cap-exempt by classification but uncertain at grade. Apply +0 if JD explicitly excludes sponsorship.
+
+2. **Consulting exception +3 requires SCOPE match.** Big4/MBB Senior tier only counts if scope is People Advisory / Talent / Org / Change. Does NOT apply when scope is HR M&A, HRIS implementation, Tax/Risk/Audit.
+
+3. **YOE gap of 2+ years caps score at 60.** Warm intros help when within 1 year of stated minimum, do NOT override 2+ year gaps at established companies/utilities/hospitals.
+
+4. **★☆☆ skill required as primary function = auto-cap.** 1 ★☆☆ required = cap 65. 2 ★☆☆ required = cap 60. 3+ ★☆☆ required = auto-PASS (max 55). No soft-pedaling as "learnable."
+
+5. **Reposted/100+ apps = HARD SKIP** unless H1B-confirmed AND honest match ≥70% (honest, not inflated).
+
+6. **Verdict mapping:** 85+ GO · 70-84 STRETCH · 60-69 STRETCH-borderline (needs referral+cap-exempt+scope match all true) · <60 PASS.
+
+7. **Pre-report sanity check:** Is the score driven by ROLE fit or by score-modifiers? If by modifiers, subtract 10. Modifiers should support a real fit, not manufacture one.
 
 ## H1B Quick Reference
 **Confirmed sponsors:** Google, Meta, Amazon, Microsoft, Apple, Stripe, Spotify, Netflix, Disney, EA, Epic, Riot, HubSpot, T-Mobile, Salesforce, Adobe, Intel, Nike, Mercer, Aon, Korn Ferry, WTW (senior only), Accenture, McKinsey, Axon, dbt Labs, Plaid, BCG

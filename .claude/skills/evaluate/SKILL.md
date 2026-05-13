@@ -142,6 +142,123 @@ Using the self-assessment table in `jamie/preferences.md`:
 2. Calculate approximate match percentage
 3. Apply the **remote vs. local bar**:
    - Remote roles need 80%+ match PLUS an additional advantage
+
+---
+
+### Step 5b — Truthful Scoring Guardrails (Added May 13, 2026)
+
+> **Calibration learning:** The May 11-13 sweeps systematically over-scored leads. Below are the
+> guardrails to prevent that. Apply these BEFORE finalizing any score above 70.
+
+#### Guardrail 1 — Cap-Exempt Modifier Is CONDITIONAL
+
+`+10` cap-exempt bonus applies ONLY when the role's hiring department actually sponsors at this grade.
+Many universities and hospitals have explicit "no sponsorship at admin/specialist staff levels" policies.
+
+**Apply the full +10 ONLY if:**
+- The JD or careers page explicitly mentions sponsorship-eligibility, OR
+- h1bdata.info confirms LCA filings at this specific job title / grade level in past 2 years, OR
+- The institution is on the verified short-list of sponsor-friendly cap-exempt employers
+  (UCLA Health, Columbia at L14+, Johns Hopkins at L4+, Kaiser NW, Providence — confirmed historically)
+
+**Apply +5 cap-exempt with sponsorship-flag-pending if:**
+- The institution is cap-exempt by classification but sponsorship pattern at this grade is uncertain.
+- Examples that often DON'T sponsor at IC/Specialist grade: Harvard FCU, MIT admin staff, Stanford GSE staff,
+  smaller universities and community colleges.
+
+**Apply +0 if:**
+- The JD explicitly states "no sponsorship" or "must be authorized without sponsorship."
+
+#### Guardrail 2 — Consulting Exception Is CONDITIONAL ON SCOPE
+
+`+3` consulting exception (for Senior/Manager titles at Big4/MBB) applies ONLY when the role's
+actual scope is in Jamie's experience domain.
+
+**Apply the +3 ONLY if:**
+- Big4/MBB Senior Associate OR Senior Consultant OR Manager, AND
+- Scope is People Advisory / Talent Strategy / Org Design / Change Management / People Programs, AND
+- Jamie's actual experience covers the core scope (not just title fit)
+
+**DO NOT apply the +3 if:**
+- Scope is HR M&A Transactions / Due Diligence (Jamie has none)
+- Scope is HRIS Implementation (Workday/SAP/Oracle — Jamie has no platform exp)
+- Scope is Sales/Revenue Operations consulting (off-profile)
+- Scope is Tax Advisory / Risk / Audit (off-profile)
+
+**Reason:** Big4 hiring managers screen for relevant project experience FIRST. The title-exception
+gets the resume past the bot filter but doesn't help at the human-screen stage if the core scope
+doesn't match.
+
+#### Guardrail 3 — Hard YOE Gaps Cannot Be "Offset" By Warm Intros
+
+If JD states minimum YOE (e.g., "5 years required") and Jamie's actual YOE is 2+ years below that minimum,
+**do not score above 60** regardless of:
+- USC alumni warm intro availability
+- Cap-exempt status
+- Perfect title fit
+- Personal connection at the company
+
+**Warm intros help get a resume read** when YOE is within 1 year of stated minimum.
+**Warm intros do NOT override** a 2+ year YOE gap at most companies (utilities, hospitals, regulated
+industries, government, established corporates). At small startups and rapidly-growing scale-ups
+YOE flexibility is higher, but those rarely sponsor H1B for non-tech roles.
+
+#### Guardrail 4 — ★☆☆ Required Skills As Primary Function = Auto-PASS Signal
+
+Per `preferences.md`: when a JD lists any of these as a **REQUIRED** (not preferred) qualification,
+it's a strong PASS signal — even if other parts of the JD seem like a fit:
+
+- Multi-state employment compliance
+- Payroll administration
+- Benefits administration as primary function
+- HRIS platform management (Workday/SAP/Oracle HCM admin/implementation)
+- Employee relations casework as primary function
+- Investigation skills as primary function
+- Compensation/total rewards as primary function
+- Recruiting/TA as primary function
+- Change management requiring Prosci/ADKAR cert
+
+**Auto-cap score at 65 if any ★☆☆ skill appears as required primary function.**
+**Auto-cap score at 60 if 2+ ★☆☆ skills appear as required.**
+**Auto-PASS (max score 55) if 3+ ★☆☆ skills appear as required.**
+
+Do NOT soft-pedal these as "learnable" or "stretch." Competing candidates WILL have these skills,
+and Jamie's H1B-runway window cannot afford applications where she's screened out at the
+resume-review stage.
+
+#### Guardrail 5 — Reposted/100+ Applicants Rule (Apr 30) Still Applies
+
+Per `preferences.md` LinkedIn Competition Filter:
+- Reposted (any version) = HARD SKIP unless H1B-confirmed AND honest skill match ≥70%
+- 100+ applicants (single signal) = HARD SKIP
+- Remote + 1 other signal = HARD SKIP
+- 2+ of 3 signals = HARD SKIP
+
+The May 12 timeline overlay allows "1 signal OK if H1B-confirmed AND skill match ≥70%" — but the
+≥70% threshold must be the HONEST match per the guardrails above, not the inflated match.
+
+#### Guardrail 6 — Verdict Mapping
+
+Final score after all modifiers (cap 100, floor 0):
+
+| Score | Verdict | Action |
+|-------|---------|--------|
+| 85+ | GO | Apply this week; tailor resume + outreach |
+| 70-84 | STRETCH | Apply only with referral OR if H1B-confirmed AND strong scope match |
+| 60-69 | STRETCH-borderline | Apply only if cap-exempt + warm intro + scope match all true |
+| <60 | PASS | Do not apply; would waste runway. Note as monitor-weekly if title is otherwise good. |
+
+#### Guardrail 7 — Sanity Check Before Reporting
+
+Before delivering the verdict, ask yourself:
+1. If I read this JD without knowing the score, would I genuinely tell Jamie "you're a strong fit"?
+2. Would the hiring manager's first-pass resume screen actually advance Jamie to phone screen?
+3. Is the score driven by the ROLE/SCOPE fit, or by score-modifiers (cap-exempt, H1B-confirmed, alumni)?
+
+If #3 is "by score-modifiers," subtract 10 from the final score. Score-modifiers should support a
+real scope fit, not manufacture one.
+
+---
    - Portland/Seattle roles need 60-70% match
 4. Identify which of the 5 role priority categories this falls into (P1-P5)
 
