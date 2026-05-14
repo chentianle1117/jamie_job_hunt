@@ -266,8 +266,160 @@ The enrichment agent should:
 
 ---
 
+## 🎯 Distilled Voice Spec v1 (Added 2026-05-14)
+
+> **Source:** Audit of Jamie's actual successful cold reaches (C1/Blake Haggerty, Nike/Alison Daugherty, EY/Riddhi Mandavia, Flatiron/Jiun Kimm, Morgan Stanley/Helen Yang) vs. cold reaches that got NO reply (Kell Ording, Christina Spoor, Danielle May, Brandon Beamon, Teslin Ishee). All successful reaches left an email trail (the recipient responded and moved to email); all failed reaches stayed dormant on LinkedIn. The contrast is the data.
+
+### Length budgets (hard caps)
+
+| Channel | Length |
+|---|---|
+| LinkedIn connection request | ≤ 300 characters |
+| LinkedIn InMail or email cold reach | 150–250 words |
+| Post-application "I just applied" email (Jamie's strongest format) | 200–300 words |
+| Follow-up in existing thread | < 100 words |
+
+### Structure (in order)
+
+1. **Opening: seasonal/situational hook OR warm intro acknowledgment**
+   - Warm intro: *"I believe [Referrer name] reached out to you on my behalf earlier this week..."*
+   - Cold: *"I hope you're doing well as the roses start to bloom in Portland!"*
+   - Alumni: *"This is Jamie—a fellow Wes alum!"* or *"This is Jamie, a fellow USC alum ✌️"*
+
+2. **Transparency about how she found them / why she's reaching out**
+   - *"I came across your email online and wanted to reach out personally"*
+   - *"I came across the [Role] opportunity at [Company] and noticed that you work there"*
+   - Name the awkwardness: *"Apologies if this is a bit out of the blue"*
+
+3. **Compact self-intro: WHAT she does + ONE credential marker**
+   - 1-2 sentences max
+   - Use job-level texture, not title inflation: *"a program enablement manager where I wear a lot of hats — running cross-functional programs, coordinating vendors, supporting onboarding, and building feedback loops end-to-end"*
+   - Credential: USC MS Org Psych or Wesleyan BA — pick the more relevant one
+
+4. **Specific connection to THEM or their context (email-length reaches only)**
+   - Reference their function / company's domain / career path
+   - Avoid abstract flattery ("your impressive career")
+
+5. **Personal note — the differentiator**
+   - **The Portland move is the single most powerful hook** — appears in every recent successful email
+   - Makes the reach feel timely, not transactional
+   - Example: *"On a personal note: my husband and I are actually moving to Portland at the end of this month and will be settling there for the foreseeable future, so I was really excited to find out that this role is based in Portland!"*
+
+6. **Soft ask: coffee chat or just "connect"**
+   - *"I would truly appreciate the opportunity to connect for a virtual coffee chat"*
+   - *"I hope to connect soon!"* — never *"I'd love to pick your brain"*
+   - For email: offer specific time windows: *"Would you happen to be available at 5pm PST on any day between Monday and Thursday?"*
+
+7. **Sign-off: warm + professional**
+   - First email: *"Warmly,"* or *"Sincerely,"* + full name
+   - Thread reply: *"Best, Jamie"*
+   - Chinese-speaking contact: add *"可愛鳥鳥 🐣"* as bilingual sign-off
+   - Emoji rare — occasional ✌️ or 😊 in sign-off only, never in opening
+
+### Tone rules
+
+**DO:**
+- Name the awkwardness of cold outreach
+- Include a time-stamped personal detail (Portland move, the specific role applied to)
+- Use em-dash (—) naturally — Jamie uses it constantly
+- Match channel formality (LinkedIn shorter/warmer, email can go longer)
+- Acknowledge their time at the end: *"Thanks so much for your time, [Name]"*
+
+**DON'T:**
+- *"I'd love to pick your brain"* (cliché)
+- *"I'd love to learn more"* as a standalone sentence (too vague)
+- *"I came across your profile"* without something specific to follow
+- Front-load asks before context
+- Lead with resume or credentials before human context
+
+### Opening hooks (verbatim successful examples)
+
+```
+"Hi [Name], this is Jamie—I hope you're doing well as the roses start to bloom in Portland!"
+
+"I hope you've had a great week so far! I believe [Referrer name] reached out to you on my behalf earlier this week..."
+
+"Hi [Name], this is Jamie! I came across a [Role] opportunity at [Company] and noticed that you work there."
+
+"Hi [Name], this is Jamie—a fellow Wes alum! I noticed you're at [Company] working in [function]."
+
+"Hi [Name], this is Jamie, a fellow USC alum ✌️. I came across the [Role] opportunity at [Company]..."
+
+"Apologies if this is a bit out of the blue, but I came across your email online and wanted to reach out personally."
+```
+
+### Sign-off patterns
+
+```
+"Thank you so much in advance, and I look forward to connecting! / Sincerely, Jamie Cheng"
+
+"Thanks so much for your time, [Name]—I hope to connect soon! / Warmly, Jamie Cheng"
+
+"Thank you so much! / Best, Jamie"  (shorter replies, follow-ups)
+
+"Looking forward to connecting soon! / Sincerely, Jamie Cheng"  (scheduling)
+```
+
+### Cultural / contextual variants
+
+| Variant | Adjustment |
+|---|---|
+| USC MAPP alumni | Mention USC + Org Psych program; ✌️ emoji; emphasize people-science shared interest |
+| Wesleyan alumni | "Fellow Wes alum" opener; reference their career arc if known |
+| Portland-area company | **ALWAYS** include Portland move anchor |
+| Warm intro provided | Open with "I believe [Name] reached out to you on my behalf" — social proof first |
+| Pure cold (no intro, no alumni tie) | Name the awkwardness + extra context on WHY this specific person + time-stamped personal detail |
+| Chinese-speaking contact | Close with "可愛鳥鳥 🐣"; tone slightly warmer/more casual |
+| Post-application | *"I recently applied for the [Role] role at [Company]"* opener |
+
+### Best example: C1 / Blake Haggerty (May 13, 2026 — pure cold, landed same-day meeting)
+
+```
+Hi Blake,
+
+This is Jamie—I hope you're doing well as the roses start to bloom in Portland!
+
+Apologies if this is a bit out of the blue, but I came across your email online and wanted
+to reach out personally. I recently applied for the Talent & Workplace Coordinator role
+at C1, and I wanted to share a bit more about myself in case the application alone doesn't
+quite capture the full picture—and hopefully get a chance to connect with someone on the
+team along the way.
+
+I'm currently working as a program enablement manager where I wear a lot of hats—running
+cross-functional programs, coordinating vendors, supporting onboarding, and building
+feedback loops end-to-end. Earlier in my career I worked at a fintech startup, where I
+got to turn ambiguity into concrete solutions and collaborate closely with other teams as
+a proactive problem solver in a move-fast, figure-it-out environment. As someone with a
+background in organizational psychology and work experience in HR and the people experience
+space, I'm also genuinely curious to learn more about what the current talent experience
+looks like at C1 and where I might jump in to help create data-driven, systematic solutions.
+
+On a personal note: my husband and I are actually moving to Portland at the end of this
+month and will be settling there for the foreseeable future, so I was really excited to
+find out that this role is based in Portland!
+
+I've attached my resume. Thanks so much for your time, Blake—I hope to connect soon!
+
+Warmly,
+Jamie Cheng
+```
+
+**Why it worked:** Seasonal opener, transparent about finding the email online, wears-many-hats self-description (job-level texture not title inflation), startup-fluency signal that matches C1's culture, Portland move as personal anchor, resume attached. Blake replied within 6.5 hours offering a chat.
+
+### What separates successful reaches from non-responses
+
+The failed reaches (Kell Ording, Christina Spoor, Danielle May, Brandon Beamon, Teslin Ishee) all share these traits — avoid them:
+
+- Generic LinkedIn-template feeling openers
+- No contextual anchor (no warm intro name, no shared school, no Portland connection, no specific life event)
+- No detail extracted from the contact's profile (reads as mass-blast)
+- No specificity on Jamie's side about WHY this person specifically
+
+---
+
 ## 📋 Update Log
 
 | Date | Action |
 |------|--------|
 | 2026-03-24 | Created with 5 templates + Jamie's real samples + contact finding protocol. |
+| 2026-05-14 | Added Distilled Voice Spec v1 — extracted from audit of Jamie's actual successful reaches (C1 Blake, Nike Alison, EY Riddhi, Flatiron Jiun, Morgan Stanley Helen) vs. failed reaches that got no reply. The Portland-move anchor + transparency-about-cold-reach + job-level-texture self-intro identified as the three highest-leverage elements. C1/Blake email captured as the canonical best example. |

@@ -275,13 +275,49 @@ Final score after all modifiers (cap 100, floor 0):
 | 60-69 | STRETCH-borderline | Tier 1: apply if no ★☆☆ flags and warm intro available. Tier 2: PASS unless cap-exempt + Priority 1 scope match + warm intro all true. |
 | <60 | PASS | Do not apply; would waste runway. Note as monitor-weekly if title is otherwise good. |
 
-#### Guardrail 8 — Sanity Check Before Reporting
+#### Guardrail 8 — Pursuit-Worthiness Pattern Match (v3.6 — Added May 14, 2026)
+
+> **Calibration source:** Audit of Jamie's 36 actual applications + 19 tailored resumes (May 14, 2026) against what Oracle has surfaced. Identified 5 systematic mismatches where Oracle's score didn't predict Jamie's actual decision.
+
+Apply these BEFORE finalizing any score above 70. These extend (don't replace) Guardrails 1-7.
+
+**Pursuit Elevator signals (Jamie reliably applies — score may be UNDER-stated):**
+
+1. **Brand-name + "Program Manager" or "Talent Development" title** — Jamie applies even to relocation roles (Pittsburgh, Salt Lake City, SF) if title is clearly P1/P1b AND company is recognizable. If `+5 Brand-Familiarity` is not already in the score, add it.
+
+2. **Consulting at "Analyst" or "Associate" level (NOT Senior+)** at Big4/MBB/Mercer/Aon/Korn Ferry/Slalom/West Monroe — these are her highest-tailored-resume category. Confirm `+3 Consulting Exception` is applied.
+
+3. **L&D Coordinator/Associate/Enablement Specialist at tech-brand companies** — even remote (Jamf Austin/Remote, Haley & Aldrich Seattle both applied at 5★). The "ops/enablement" framing matters; NOT "Instructional Designer."
+
+4. **Cap-exempt + Program/Development/L&D title (NOT HRBP)** — PCC Talent Mgmt Dev PM, Cascadia Training Dev Specialist, Axon EX PM Boston all applied. The combo elevates her willingness even for borderline locations.
+
+5. **"Engagement / Experience / Culture" title at named company** — Instacart People Experience PM, Autodesk Culture & Belonging Specialist all applied. OD/EX program titles convert reliably.
+
+**Pursuit Depressor signals (Jamie skips even when surfaced — score may be OVER-stated):**
+
+1. **"Rewards / Compensation / Benefits" in title or primary JD scope** — Marsh McLennan T&R Analyst (4★ skipped), EY HR Transactions skipped. This is hard-block territory. If Guardrail 4 hasn't already triggered on the JD body, FORCE a JD body read before finalizing.
+
+2. **"Senior" at non-consulting firm; "Senior Consultant" or higher at consulting firms** — EY People Consulting Change Mgmt Senior was 4★ rated and Jamie reached out, but did NOT apply. Even with Big4 consulting exception, "Senior" at consulting firms = 5+ years required and is a categorical skip. Tighten this from Guardrail 2 — when title contains "Senior" + consulting firm, default to PASS unless YOE matches exactly.
+
+3. **🔴 Cap-exempt HEALTHCARE-system HRBP roles** — PeaceHealth HRBP, OHSU HRBP all skipped. The cap-exempt advantage is real BUT healthcare HRBP scope = ER casework + leave admin + compliance + investigation, which is heavy ★☆☆ territory for Jamie. **The +10 cap-exempt bonus is being mis-applied to these roles.** Cap the cap-exempt bonus at +5 for healthcare-system HRBP titles UNLESS the JD explicitly excludes ER/leave/compliance scope.
+
+4. **Staffing / PEO / Recruiting Agency employers (BBSI, Kforce, Robert Half, Aerotek, etc.)** — These are rarely H1B sponsors AND the scope is often ambiguous (contract-to-hire, multi-client, transactional). Apply a `-10 Staffing Employer` modifier. Flag in output: "⚠️ Staffing/PEO employer — rare H1B sponsor, scope likely ambiguous."
+
+5. **"Program Manager" or "Operations Specialist" titles WITHOUT a people-domain qualifier** — Nike Store Ops, Ampere Talent Dev PM (chip company), Anthropic Support Ops Learning all 4★ skipped. The title alone isn't enough; the JD body must confirm people/HR/L&D/Talent/Employee/Learning scope. **If the title contains "Program Manager" or "Operations" with NO people-domain modifier, mandate a JD body read before finalizing score.**
+
+**The over-arching rule (v3.6 most important addition):**
+
+**For any role scoring 75+ after modifiers, MANDATE a JD body read before reporting the verdict.** Title-keyword scoring misses ★☆☆ scope buried in JD body — this is the single biggest failure mode. The existing Guardrail 4 (auto-cap on ★☆☆) only triggers if those signals appear in the TITLE; v3.6 extends it to mandate a JD body scan for any high-score role to catch scope mismatches buried deeper.
+
+#### Guardrail 9 — Sanity Check Before Reporting
 
 Before delivering the verdict, ask yourself:
 1. If I read this JD without knowing the score, would I genuinely tell Jamie "you're a strong fit"?
 2. Would the hiring manager's first-pass resume screen actually advance Jamie to phone screen?
 3. Is the score driven by the ROLE/SCOPE fit, or by score-modifiers (cap-exempt, H1B-confirmed, alumni)?
 4. **Tier 2 check:** If the role is non-Portland, does it pass BOTH "exactly Jamie's ideal scope" AND "she clearly qualifies on paper"? If either half fails → downgrade to PASS regardless of score.
+5. **Pursuit-pattern check (v3.6):** Does this role match a documented Jamie-applies pattern (Brand × P1/P1b title, Cap-exempt program-not-HRBP, Engagement/Experience/Culture at named company)? Or does it trigger a documented Jamie-skips pattern (healthcare HRBP, staffing employer, ★☆☆ scope buried in JD body, "Operations" without people qualifier)? If it triggers a skip pattern with no offsetting elevator, downgrade.
+6. **JD body read requirement (v3.6):** For any score 75+, the JD body has been read for ★☆☆ scope (Rewards/Comp/ER/Compliance/HRIS admin/Recruiting/ID-80%+) — not just the title and JD summary.
 
 If #3 is "by score-modifiers," subtract 10 from the final score. Score-modifiers should support a
 real scope fit, not manufacture one.
