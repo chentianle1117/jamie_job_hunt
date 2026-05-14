@@ -92,6 +92,7 @@
 | Customer.io | JD explicit: "we're not able to offer visa sponsorship or relocation support at this time" | 2026-03-26 | Run 4 — Talent Dev PM role confirmed no sponsorship |
 | DriveWealth | JD explicit: "DriveWealth is unable to sponsor or take over sponsorship of an employment Visa at this time" | 2026-03-26 | Run 4 — EX & People Programs Specialist confirmed no sponsorship |
 | Boeing | JD explicit: "Employer will not sponsor applicants for employment visa status" | 2026-03-31 | Run 5 — Employee Development Specialist (Everett WA). Hard reject. |
+| Flatiron Health | Mar 26 2026 phone call with Chaim Singer (Sr. Manager, TA) | 2026-05-14 | Tech-only sponsor — confirmed via Mar 26 disqualifier call after Greenhouse sponsorship questionnaire. Flatiron sponsors engineering/technical roles but NOT non-tech People/HR/Talent roles. SKIP for HR roles permanently. Jamie's prior application (Talent and Employee Engagement Associate, 3/18/2026) closed out as "Connected, NGP" for this reason. |
 
 ---
 
@@ -130,3 +131,4 @@
 | 2026-03-26 | Added DriveWealth as ❌ — JD explicit unable to sponsor (EX & People Programs Specialist, Run 4). |
 | 2026-03-27 | Updated WTW entry — Early Career programs (2026 intake) explicitly require no-sponsorship candidates. Senior roles may still sponsor. Caveat added to ✅ row. (Run 4 completion) |
 | 2026-03-31 | Added Boeing as ❌ — JD explicit no sponsorship (Employee Development Specialist, Everett WA). Run 5. |
+| 2026-05-14 | Added Flatiron Health as ❌ for non-tech roles — confirmed via Mar 26 phone disqualifier with Chaim Singer (Sr Manager TA) after Greenhouse sponsorship questionnaire. Flatiron sponsors engineering only, not People/HR. Closes out the "Connected, NGP" status on Jamie's 3/18 Talent and Employee Engagement Associate application. Source: post-hoc cross-reference of Sheet status with email thread analysis (5/14 pipeline review). |
