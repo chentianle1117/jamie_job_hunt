@@ -1,99 +1,77 @@
 # Jamie's Job Application Tracker
 
+> **🔴 SINGLE SOURCE OF TRUTH: The Google Sheet, always.**
+> No static snapshot is maintained in this file. Static snapshots become stale
+> within days and have repeatedly caused incorrect dedup decisions
+> (e.g. recommending companies Jamie has already applied to, or assuming an
+> "Applied" status that's actually been updated to "Rejected" / "Interview" /
+> "Not God's Plan" in the live sheet).
+
 ## Live Data Source
 
-The ground truth for Jamie's applications is her Google Sheet:
 - **Sheet ID:** `1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E`
-- **2025 tab (gid=0):** `https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E/export?format=csv&gid=0`
-- **2026 tab (gid=1018026840):** `https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E/export?format=csv&gid=1018026840`
+- **Sheet URL (browser):** https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E
+- **2025 tab CSV export (gid=0):** https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E/export?format=csv&gid=0
+- **2026 tab CSV export (gid=1018026840):** https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E/export?format=csv&gid=1018026840
 
-### How to read live data
+## How to read live data
 
-Use WebFetch with the export URL above. The redirect will return raw CSV data.
-Always fetch live data at the start of `/evaluate` or `/apply-pipeline` to check
-if Jamie already applied to a company.
+### Preferred: workspace-mcp Drive tools (authenticated)
+- If the file is accessible through the workspace-mcp Drive resources, use
+  those tools — they handle Google authentication cleanly.
 
-### When WebFetch isn't available
+### Fallback: WebFetch on the CSV export URL
+1. `WebFetch` the 2026 CSV export URL above.
+2. Google returns a 307 redirect to a googleusercontent.com URL — follow it
+   with a second `WebFetch` to retrieve the raw CSV.
+3. Parse CSV columns: `App. date, Job Title, Company, Job Category,
+   Location, Interest, Notes, Fun Fact, Hiring Managers/Team, Alumni,
+   Referral, Sponsorship?`
 
-Fall back to the static snapshot below, but warn Jamie it may be stale.
+### When the live Sheet is unreachable
+- **DO NOT fabricate a snapshot.** Tell Jamie the Sheet is unreachable and
+  pause the pipeline until it can be re-fetched. Skipping the dedup check is
+  worse than waiting — duplicate applications waste runway and create a poor
+  signal to recruiters.
 
----
+## When to consult the Sheet
 
-## Static Snapshot (last synced: 2026-03-26)
+| Skill / pipeline step | Why fetch the Sheet |
+|---|---|
+| `/evaluate` (Stage 1 hard-constraint check) | Confirm Jamie hasn't already applied to this company + title pair |
+| `/apply-pipeline` (any stage) | Same as above |
+| `/jamie-job-search` Oracle daily run | Dedup against in-flight applications before adding new leads to Notion |
+| Funnel analysis / pipeline reporting | The Sheet IS the funnel — Status + Date + Outreach columns drive metrics |
 
-### 2026 Applications
+## Sheet schema (as of 2026-05-14)
 
-| Status | Date | Job Title | Company | Category | Location | Interest | Outreach |
-|--------|------|-----------|---------|----------|----------|----------|----------|
-| Unavailable | 1/31 | Associate L&D Partner, Servicing Ops | Upstart | L&D | Remote | 4 | — |
-| Not God's Plan | 2/2 | Ethics & Compliance Specialist II | Nike | — | Portland | 3 | — |
-| Applied | 2/4 | Learning & Development Coordinator | Haley & Aldrich | L&D | Seattle | 5 | Reached out |
-| Connected, NGP | 2/4 | Talent Development Program Manager | Ampere | OD/EX | Portland | 4 | Reached out |
-| Not God's Plan | 2/4 | Talent Dev Specialist / Trainer | Dungarvin | OD/EX | Vancouver, WA | 3 | — |
-| Not God's Plan | 2/4 | L&D Coordinator | JW Fowler | L&D | Portland | 2 | — |
-| Not God's Plan | 2/4 | Learning Consultant Specialist | NAVEX | L&D | Lake Oswego, OR | 2 | — |
-| Not God's Plan | 2/4 | Associate Project Manager | Stryker | Others | Remote (PNW) | 3 | — |
-| Applied | 2/5 | L&D Business Partner | RealREPP | L&D | — | 3 | — |
-| Not God's Plan | 2/5 | Talent & Rewards Consulting Analyst | Marsh McLennan | Consulting | Seattle | 4 | — |
-| Not God's Plan | 2/9 | TikTok Shop - VoC/Service Insights PM | TikTok | PM | Seattle | 4 | Not yet |
-| Applied | 2/10 | Senior Associate, Learning Programs | DoorDash | PM | Seattle | — | Not yet |
-| Applied | 2/13 | Training Promotion Specialist | TSMC Arizona | PM | — | — | Not yet |
-| Interview | — | Program Manager | Empowerly | PM | Remote | — | — |
-| Not God's Plan | 2/25 | Training Program Manager | Articulate | PM | Remote | — | — |
-| Not God's Plan | 2/25 | People Consulting - Change Mgmt - Sr | EY | Consulting | Portland | 4 | Reached out |
-| Applied | 2/25 | Talent Coordinator | Adobe | OD/EX | Remote | — | — |
-| Applied | 3/2 | Talent Mgmt & Dev PM - Learning Programs Mgr | Portland Community College | PM | Portland | — | Reached out |
-| Applied | 3/3 | Global Culture and Belonging Specialist | Autodesk | OD/EX | — | — | — |
-| Applied | 3/4 | Specialist, Store Ops Nike Direct NA | Nike | PM | Portland | 4 | Reached out |
-| Applied | 3/5 | People Experience PM, Employee Listening & ERGs | Instacart | PM | Remote | 3 | — |
-| Not God's Plan | 3/5 | Support Ops Specialist, Learning & Education | Anthropic | PM | Seattle | — | — |
-| Applied | 3/6 | Associate HRBP | Walt Disney Company | HRBP | New York | 4 | — |
-| Applied | 3/6 | L&D Program Associate | Jamf | L&D | Austin/Remote | 5 | — |
-| Applied | 3/10 | Talent & Rewards Consulting Analyst | Mercer | Consulting | Seattle | 4 | — |
-| Applied | 3/10 | Digital Support Program Manager | Smarsh | PM | Portland | 3 | — |
-| Connected, NGP | 3/18 | Talent and Employee Engagement Associate | Flatiron Health | — | New York | 4 | Connected |
-| Applied | 3/17 | PM - Workforce Development | RISE Partnership | PM | Portland | 3 | — |
-| Applied | 3/18 | Early Talent Development Manager | Swinerton | HRBP | Portland | 3 | Reached out |
-| Applied | 3/18 | Employee Engagement Project Manager | Kforce Inc | PM | S. San Francisco | — | — |
-| Applied | 3/20 | Early Career Program Manager | Roblox | PM | San Mateo, CA | 4 | — |
-| Applied | 3/20 | People & Culture (HR) Generalist | OneApp | HRBP | Portland | 2 | — |
-| Applied | 3/20 | PM - HR Product Ops & Business Ops | IntePros | HRBP | Seattle | — | — |
-| Applied | 3/23 | Senior Talent Management Specialist | Nike | Consulting | Portland | 4 | — |
-| Applied | 3/24 | Program Manager (Portland) | Autodesk | PM | Portland | 4 | — |
-| Applied | 3/25 | Early Career People Projects | Notion | PM | San Francisco | 4 | Reached out |
+Each row represents one application. Columns:
 
-### 2025 Applications (Sept–Dec)
+| Column | Meaning |
+|---|---|
+| `App. date` | Date of application submission (M/D/YYYY) |
+| `Job Title` | Exact JD title at the time of application |
+| `Company` | Employer |
+| `Job Category` | One of: L&D · OD/OCM/EX · HR/HRBP · HR/Consulting · Program Management · Others |
+| `Location` | Stated location on JD |
+| `Interest` | Jamie's interest rating (1-5 stars) |
+| `Notes` | Hiring manager contacts, role notes, internal status updates |
+| `Fun Fact` | Optional flavor |
+| `Hiring Managers/Team` | Names and contact info gathered from outreach |
+| `Alumni` | USC / Wesleyan alumni at the company |
+| `Referral` | Referral status / contact |
+| `Sponsorship?` | H-1B sponsorship verified / unknown / "YES" flag |
 
-Data available via live fetch from gid=0. Includes REI, Skanska, EPAM, Block, Stripe,
-Genentech, Axon, Pinterest, Genesys, DoorDash EX, and ~30 more.
+Status is tracked implicitly through the **Job Category** and **Notes** columns
+plus the legend Jamie maintains in the Sheet (Applied / Interview / Not
+God's Plan / Connected NGP / Unavailable / Not Yet). The Sheet is the
+single source of truth — do not infer status from this markdown file.
 
-### 2025 Applications (Feb–May, historical)
+## Status key (used by Jamie in the Sheet)
 
-| Status | Date | Job Title | Company | Category | Location |
-|--------|------|-----------|---------|----------|----------|
-| Applied | 2/26 | EX Program Manager I | Axon | OD/EX | Boston |
-| Applied | 3/3 | People Program Specialist | Gecko Robotics | HR | Pittsburgh |
-| Applied | 3/8 | HR Coordinator - L&D | HICO America | L&D | Pittsburgh |
-| Applied | 3/18 | EX & Employee Listening Consultant | Red Cross | OD/EX | PA (Remote) |
-| Applied | 3/25 | Training and Dev Specialist | Hitachi | L&D | — |
-| Rejection | 3/26 | Improvement Specialist OB Units | UPMC | — | — |
-| Applied | 3/28 | EX Specialist (Remote) | AuditBoard | OD/EX | Remote |
-| Applied | 3/31 | People and Culture Analyst & Coordinator | Volve | HR | PA |
-| Applied | 4/1 | People Ops Specialist | Fairmarkit | HR | Remote |
-| Applied | 4/1 | HR Associate | IDB Group | — | — |
-| Applied | 4/2 | Manager, Talent Mgmt Ops | GAP | HR | — |
-| Applied | 4/3 | HR Admin Coordinator | Under Armour | HR | — |
-| Applied | 4/3 | HRBP, Corporate Functions (NCG) | GlobalFoundries | HRBP | — |
-| Applied | 4/9 | HRBP Associate | ServiceNow | HRBP | — |
-| Applied | 4/17 | HR Generalist | CRB | — | — |
-| Applied | 5/29 | Employee Experience | Forrester | — | — |
-
----
-
-## Status Key
-- **Applied** — application submitted, waiting
-- **Interview** — got an interview
-- **Not God's Plan** (NGP) — rejected or decided not to pursue
-- **Connected, NGP** — made a connection but role didn't work out
-- **Unavailable** — role was taken/closed before applying
+- **Applied** — application submitted, awaiting response
+- **Interview** — phone screen or onsite interview scheduled or completed
+- **Not God's Plan** (NGP) — rejected by employer OR Jamie decided not to pursue
+- **Connected, NGP** — warm conversation reached but role didn't progress
+- **Unavailable** — role closed before Jamie could apply
 - **Not Yet** — identified but not yet applied

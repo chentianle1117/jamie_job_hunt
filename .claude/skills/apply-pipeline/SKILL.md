@@ -62,7 +62,7 @@ Update this dashboard as you complete each stage (replace `[ ]` with `[DONE]`).
 ### STAGE 1: EVALUATE
 
 Execute the full `/evaluate` skill logic:
-1. Read `jamie/preferences.md`, `jamie/h1b_verified.md`, `jamie/application_tracker.md`
+1. Read `jamie/preferences.md` and `jamie/h1b_verified.md` for constraints. **Fetch the live Google Sheet** (URL/IDs in `jamie/application_tracker.md`) for dedup — the .md file is a pointer only and holds no application data.
 2. Run hard constraint check
 3. Check H1B status
 4. Assess fit with match percentage

@@ -16,8 +16,9 @@ You are helping Jamie identify the right people to contact and draft genuine out
 
 Read these files:
 1. `jamie/outreach_templates.md` — your voice, style guide, message templates by type, quality checklist
-2. `jamie/application_tracker.md` — check if you already have contacts at this company
-3. `jamie/content_library.md` — self-intro versions and "why this company" building blocks
+2. `jamie/content_library.md` — self-intro versions and "why this company" building blocks
+
+Then fetch the live Google Sheet (Sheet ID + URL in `jamie/application_tracker.md`) to check if Jamie already has contacts at this company — see the `Hiring Managers/Team`, `Alumni`, `Referral`, and `Notes` columns. Do NOT use the .md file as a data source — it is a pointer only.
 
 ### Step 2 — Identify the Target
 
@@ -107,7 +108,7 @@ Goal: Find people Jamie is already connected to who know someone at the company.
 3. For each 2nd-degree connection, note:
    - Their name and title
    - The mutual connection(s) shown (this is who Jamie knows that knows them)
-4. Flag any mutual connections you have actually interacted with (check application_tracker.md)
+4. Flag any mutual connections you have actually interacted with (check the live Google Sheet's `Hiring Managers/Team`, `Alumni`, and `Referral` columns)
 
 This is valuable because you can ask the mutual connection for an introduction —
 much warmer than a cold connection request.
@@ -238,10 +239,10 @@ For each contact found (either mode), note:
 
 ### Step 4 — Check for Existing Connections
 
-Cross-reference contacts against `jamie/application_tracker.md`:
-- Have you already reached out to anyone at this company?
+Cross-reference contacts against the live Google Sheet (Sheet ID in `jamie/application_tracker.md`):
+- Have you already reached out to anyone at this company? (Check `Hiring Managers/Team`, `Alumni`, and `Referral` columns)
 - Do you have any existing LinkedIn connections there?
-- Flag any "Connected" or "Reached out" entries for this company
+- Flag any "Connected" or "Reached out" entries for this company in the `Outreach` / `Referral` columns
 
 ### Step 5 — Draft Messages
 

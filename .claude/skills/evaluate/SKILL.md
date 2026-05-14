@@ -89,10 +89,12 @@ It is sufficient for Steps 3-5 (hard constraint check, H1B check, fit assessment
   self-assessment table, networking templates, or search query context
 - Read `jamie/h1b_verified.md` (132 lines) — only if the company is NOT in profile_compact.md's
   quick reference (i.e., not in confirmed/cap-exempt/no-sponsor lists)
-- **Live application data** — Use WebFetch to pull your live Google Sheet:
+- **Live application data** — The Google Sheet is the **single source of truth**. Always fetch live:
   - 2026 tab: `https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E/export?format=csv&gid=1018026840`
   - 2025 tab: `https://docs.google.com/spreadsheets/d/1tRN3KMGHOSyRMf14TRUj3wPldbM9fwDxVu9XsEH6s2E/export?format=csv&gid=0`
-  - If WebFetch fails, fall back to `jamie/application_tracker.md` (static snapshot)
+  - The URL returns a 307 redirect — follow it with a second WebFetch on the googleusercontent.com URL
+  - If the live Sheet is unreachable, **pause and tell Jamie** — do NOT fall back to a stale snapshot.
+    `jamie/application_tracker.md` is pointer-only and holds no application data.
 
 > **Why:** Each file read costs tokens. profile_compact.md has everything for a quick
 > go/pass decision at ~1/6 the token cost. Only load full files for GO/STRETCH roles
@@ -119,7 +121,7 @@ If neither:
 
 Run through these in order. If ANY fails, it's an instant **PASS**:
 
-1. **Already applied?** Check `jamie/application_tracker.md` for this company + similar title
+1. **Already applied?** Fetch the live Google Sheet (see "Live application data" in Step 1 — Read Strategy) and search the 2026 tab for this company + similar title. Do NOT use `jamie/application_tracker.md` as a data source — it is a pointer file only.
 2. **Visa:** Does the JD say "no sponsorship" or "must be authorized without sponsorship"? → PASS
 3. **Seniority:** Is the title Senior/Director/VP/Principal/C-level? (Exception: "Senior Associate" at consulting firms is OK) → PASS
 4. **Location:** Portland/Remote/Seattle is your preference but you are open to relocation if the role content and fit are genuinely strong. Flag out-of-area roles and note the location, but do NOT auto-reject on location alone. Evaluate on role fit first — if GO on content, note the location as a consideration, not a blocker.

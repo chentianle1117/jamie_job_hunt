@@ -28,7 +28,7 @@ Only load full files when the task specifically requires them (see table).
 | `jamie/h1b_verified.md` | Cache of companies verified for H1B sponsorship | Only if company not in profile_compact.md |
 | `jamie/watchlist.md` | Target companies across 7 tiers | Only during Oracle pipeline runs |
 | `jamie/search_strategy.md` | Search queries and strategy by role priority | Only during Oracle pipeline runs |
-| `jamie/application_tracker.md` | All applications with status, dates, contacts, outreach status | Dedup checks (prefer Google Sheet via WebFetch) |
+| `jamie/application_tracker.md` | **Pointer-only.** Holds the Google Sheet ID + canonical schema. NO static snapshot. | Read once to get the Sheet ID, then always fetch live data from the Sheet for dedup checks |
 | `resume_bank/` | 20 tailored resume PDFs + 5 cover letters for past applications | Reference during `/tailor` for similar roles |
 
 ## How to Help Jamie

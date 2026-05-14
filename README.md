@@ -193,7 +193,7 @@ jamie_job_hunt/
 │   ├── h1b_verified.md              ← H1B sponsorship cache (50+ companies)
 │   ├── watchlist.md                 ← 100+ target companies across 8 tiers (incl. Netherlands)
 │   ├── search_strategy.md           ← Search queries by role priority
-│   ├── application_tracker.md       ← Live Google Sheets URLs + static fallback
+│   ├── application_tracker.md       ← Pointer-only: Google Sheet IDs/URLs (no static data)
 │   └── bible_verses.md              ← Daily encouragement verses
 │
 ├── resume_bank/                     ← Past tailored resumes (20) + cover letters (5)
@@ -246,7 +246,7 @@ Uses live data for duplicate detection and context
 
 - **2026 tab** (gid=1018026840): Current year applications
 - **2025 tab** (gid=0): Historical applications
-- **Fallback**: Static snapshot in `jamie/application_tracker.md` if offline
+- **If Sheet unreachable**: Pause and tell Jamie. Do NOT fall back to a stale snapshot — `jamie/application_tracker.md` holds no application data, only the Sheet ID and schema.
 
 ### Resume Bank
 
