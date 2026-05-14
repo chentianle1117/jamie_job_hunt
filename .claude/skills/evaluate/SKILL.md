@@ -237,23 +237,49 @@ Per `preferences.md` LinkedIn Competition Filter:
 The May 12 timeline overlay allows "1 signal OK if H1B-confirmed AND skill match ≥70%" — but the
 ≥70% threshold must be the HONEST match per the guardrails above, not the inflated match.
 
-#### Guardrail 6 — Verdict Mapping
+#### Guardrail 6 — Two-Tier Bar (Portland vs Non-Portland)
+
+**Apply this BEFORE the verdict mapping.** Identify which tier the role falls into and use the correct bar.
+
+**Tier 1 — Portland / Beaverton / Hillsboro / Vancouver WA (Local advantage):**
+- Wider scope accepted: P1, P1b, P2, P3, P4 (Junior HRBP Associate), P5 (General HR if strategic)
+- Match threshold: **60-70%+ of JD requirements** to Jamie's actual experience
+- Still required: within 1 yr of stated YOE min · no ★☆☆ primary · no hard-reject titles
+- "Wider" means more role categories accepted — it does NOT lower the qualification floor
+
+**Tier 2 — Non-Portland (Remote US / Seattle / Relocation):**
+- Narrower scope accepted: **ONLY P1, P1b, P2 (Big4 Assoc/Analyst tier), P3 (program-focused EX/OD)**
+- **SKIP P4 Junior HRBP and P5 General HR in Tier 2** — they're acceptable in Portland because of local advantage, but not at remote/relocation distance
+- Match threshold: **80%+ of JD requirements** to Jamie's actual experience (not creatively reframed)
+- YOE must be within stated range (lower bound OK)
+- NO ★☆☆ required skills as primary function
+- **PLUS at least ONE additional advantage:**
+  - USC or Wesleyan alumni at the company (verified count)
+  - Company on confirmed H1B sponsor list with VERIFIED non-tech sponsorship pattern (h1bdata.info filings for People/HR/Talent job-family, not just SWE)
+  - Cap-exempt employer with grade-level sponsorship confirmed
+  - Role is Priority 1 (Talent Dev / People Program Mgmt) or Priority 1b (Education/Curriculum)
+- **If "exact scope" OR "clearly qualifies" fails → PASS** even if H1B is confirmed
+
+**The principle:** Portland = wider net, same qualification floor. Non-Portland = narrower scope (exactly Jamie's lane) AND clearly qualifies AND has an advantage. Both halves of the Tier 2 test required.
+
+#### Guardrail 7 — Verdict Mapping
 
 Final score after all modifiers (cap 100, floor 0):
 
 | Score | Verdict | Action |
 |-------|---------|--------|
 | 85+ | GO | Apply this week; tailor resume + outreach |
-| 70-84 | STRETCH | Apply only with referral OR if H1B-confirmed AND strong scope match |
-| 60-69 | STRETCH-borderline | Apply only if cap-exempt + warm intro + scope match all true |
+| 70-84 | STRETCH | Tier 1: apply. Tier 2: apply only if BOTH exact scope AND clear qualification AND advantage. |
+| 60-69 | STRETCH-borderline | Tier 1: apply if no ★☆☆ flags and warm intro available. Tier 2: PASS unless cap-exempt + Priority 1 scope match + warm intro all true. |
 | <60 | PASS | Do not apply; would waste runway. Note as monitor-weekly if title is otherwise good. |
 
-#### Guardrail 7 — Sanity Check Before Reporting
+#### Guardrail 8 — Sanity Check Before Reporting
 
 Before delivering the verdict, ask yourself:
 1. If I read this JD without knowing the score, would I genuinely tell Jamie "you're a strong fit"?
 2. Would the hiring manager's first-pass resume screen actually advance Jamie to phone screen?
 3. Is the score driven by the ROLE/SCOPE fit, or by score-modifiers (cap-exempt, H1B-confirmed, alumni)?
+4. **Tier 2 check:** If the role is non-Portland, does it pass BOTH "exactly Jamie's ideal scope" AND "she clearly qualifies on paper"? If either half fails → downgrade to PASS regardless of score.
 
 If #3 is "by score-modifiers," subtract 10 from the final score. Score-modifiers should support a
 real scope fit, not manufacture one.

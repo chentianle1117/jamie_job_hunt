@@ -84,6 +84,33 @@
 - ~20% relocation roles at confirmed H1B sponsors in any US metro
 - LinkedIn Competition Filter still applies, but threshold loosened: 1 signal is OK if H1B-confirmed AND skill match ≥70%
 
+## Two-Tier Bar — Portland Breadth vs Non-Portland Precision (Revised May 13, 2026 PM)
+
+> **Critical distinction:** Portland bar is WIDER (more role types accepted) but NOT LOWER. Non-Portland requires PRECISION — must be exactly Jamie's ideal scope AND she must clearly qualify.
+
+### Tier 1: Portland / Beaverton / Hillsboro / Vancouver WA — WIDER scope, STILL must qualify
+- Accept: P1 Talent Dev/People Program Mgmt, P1b Edu/Curriculum PM, P2 Consulting Assoc/Analyst, P3 EX/OD, **P4 Junior HRBP (Associate only)**, **P5 General HR if strategic** — wider net
+- Still required: 60-70%+ honest JD match, within 1yr of stated YOE min, no ★☆☆ primary, no hard-reject titles
+- "Wider" ≠ "lower qualification standard" — Jamie still has to credibly interview today
+
+### Tier 2: Non-Portland (Remote / Seattle / Relocation) — HIGH bar, EXACT FIT
+- Accept ONLY: P1, P1b, P2 Big4 Assoc/Analyst, P3 program-focused EX/OD specialist
+- **SKIP P4 Junior HRBP** in Tier 2 (too generalist for non-local context)
+- **SKIP P5 General HR** in Tier 2
+- Required: **80%+ honest JD match** + YOE within range + NO ★☆☆ primary
+- **PLUS one advantage:** USC/Wesleyan alumni at co · confirmed non-tech H1B sponsor pattern (h1bdata-verified) · cap-exempt with grade-eligibility · Priority 1/1b
+- Both halves required (exact scope AND clearly qualifies). Skip otherwise.
+
+### Quick Decision Matrix
+| Scenario | Tier 1 | Tier 2 |
+|---|---|---|
+| Perfect title + 65% match | ✅ | ❌ (need 80%+) |
+| Wider-but-relevant (e.g. jr HRBP) + 70% | ✅ | ❌ (P4/P5 not eligible) |
+| Target title + 80%+ match + warm intro | ✅ | ✅ (Tier 2 sweet spot) |
+| Senior/Lead/Director | ❌ | ❌ |
+
+---
+
 ## Fit Score Formula (v3.5 — May 13, 2026 calibration)
 Base: ⭐⭐⭐ Excellent = 82 | ⭐⭐ Good = 70 | ⭐ Near-miss = 58
 Modifiers: Cap-exempt +10 (conditional) | H1B confirmed +5 | Portland/Seattle +5 | P1/P2 +3 | Remote-only -10 | 3-4yr req -5

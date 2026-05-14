@@ -66,27 +66,69 @@ While the H1B clock is running, these adjustments OVERRIDE the v2.0 defaults bel
 
 ---
 
-## 📊 Remote vs. Local Bar — The Key Difference
+## 📊 Two-Tier Bar — Portland Breadth vs. Non-Portland Precision (Revised May 13, 2026)
 
-### Remote Jobs — HIGH bar (80%+ actual JD match required)
+> **The critical distinction:** The Portland bar is WIDER but NOT LOWER. Non-Portland (Remote / Relocation) requires a precise fit — must be exactly what Jamie wants AND she must clearly qualify.
 
-Remote roles get hundreds of applicants. Jamie needs to be a near-perfect match on paper to have a realistic shot. Rules:
+### Tier 1: Portland / Beaverton / Hillsboro / Vancouver WA (Local) — WIDER scope, MUST qualify
 
-1. **80%+ of JD requirements** must match Jamie's ACTUAL experience (from resume.md) — not inflated or creatively reframed
-2. **At least ONE additional advantage** must exist:
-   - Networking connection at the company (alumni, mutual, referral)
-   - Company is on the green-light list
-   - Role is Priority 1 (consulting) — Jamie's strategic career goal
-   - Company is nonprofit/cap-exempt (visa advantage offsets competition)
-3. If neither condition is met → **SKIP the remote role** even if the title sounds perfect.
+**Philosophy:** Local presence is a real competitive advantage that justifies casting a wider net across role types. **But "wider" means more categories accepted, not lower qualification standards.** Jamie still has to genuinely qualify for the role she's applying to.
 
-### Portland / Seattle / West Coast — MODERATE bar (60-70% match OK)
+**Wider scope means accept:**
+- P1 Talent Development / People Program Mgmt — primary target
+- P1b Education / Curriculum / Learning Program Mgmt — primary target (timeline overlay)
+- P2 Consulting Associate / Analyst — primary target
+- P3 EX / OD Specialist — primary target
+- **P4 Junior HRBP (Associate only)** — acceptable in Portland (not at non-local)
+- **P5 General HR if strategic/program-focused** — acceptable in Portland (not at non-local)
+- Adjacent program management roles (training program coordination, engagement programs, change management) where Jamie's program-mgmt strengths transfer
 
-Local presence is a real competitive advantage. More lenient, but:
-- Role should not be clearly senior (5+ years required when she has ~3)
-- JD should not lean heavily on her ★☆☆ skills (instructional design, payroll, ER)
-- She should be able to credibly interview without major experience gaps
-- If she'd be in over her head → still skip
+**Qualification floor still applies:**
+- ✅ Match percentage: **60-70%+ of JD requirements** must match Jamie's ACTUAL experience (resume.md)
+- ✅ YOE gap: must be within 1 year of stated minimum (no 2+ yr gaps even in Portland)
+- ✅ ★☆☆ skills as required primary function still triggers auto-cap per Step 5b guardrails
+- ✅ Hard rejects still apply (Senior/Director/Lead, HRIS implementation, pure recruiting/payroll/ER)
+- ✅ No "she could grow into it" — she has to be credibly interviewable today
+
+**What changes (vs Tier 2):** Slightly more lenient on "is this exactly her ideal next role?" — Portland HRBP Associate at a non-strategic firm is acceptable in Tier 1, not acceptable in Tier 2.
+
+### Tier 2: Non-Portland (Remote US / Seattle / Relocation) — HIGH bar, EXACT FIT required
+
+**Philosophy:** Without local advantage, Jamie is competing in a crowded pool against candidates with deeper match. The role must be precise: exactly what she wants to do **AND** she must clearly qualify on paper. Both halves of that test are required.
+
+**"Exactly what she wants" means:**
+- P1 Talent Development / People Program Mgmt at Specialist/Coordinator/Associate/Program Manager tier — yes
+- P1b Education/Curriculum/Learning Program Mgmt at IC tier — yes (timeline overlay)
+- P2 Consulting Associate/Analyst at Big4 People Advisory / Mercer Career Consulting / similar — yes
+- P3 Employee Experience Specialist (program-focused, data-informed, engagement work) — yes
+- **Skip P4 Junior HRBP in Tier 2** — too generalist, doesn't move career forward outside Portland local context
+- **Skip P5 General HR in Tier 2** — same reasoning
+- Skip adjacent roles that "could work" — Tier 2 must be on her ideal trajectory, not a sideways move
+
+**"She clearly qualifies" means:**
+- ✅ **80%+ JD requirements** match Jamie's actual experience (not creatively reframed)
+- ✅ YOE within stated range (lower bound OK, but not 1+ yr below minimum)
+- ✅ NO ★☆☆ required skill mismatches as primary function
+- ✅ Scope match is verified by reading the actual JD bullets, not just title
+
+**Plus at least ONE additional advantage:**
+- Networking connection at the company (USC/Wesleyan alumni, mutual, referral)
+- Company is on confirmed H1B sponsor green-light list with VERIFIED non-tech sponsorship pattern (h1bdata.info)
+- Cap-exempt employer with grade-level sponsorship confirmed
+- Role is Priority 1 (Talent Dev/People Program Mgmt) or Priority 1b (Edu/Curriculum) — her strategic career goal
+
+**If both halves fail (not ideal scope OR doesn't clearly qualify) → SKIP** even if H1B is confirmed. Don't burn runway on Tier 2 applications where she's filtered at first screen.
+
+### Quick Decision Matrix
+
+| Scenario | Tier 1 (Portland) | Tier 2 (Remote/Relo) |
+|---|---|---|
+| Perfect title + 65% scope match | ✅ Apply | ❌ Skip (need 80%+ match) |
+| Perfect title + 85% scope match + no warm intro | ✅ Apply | ⚠️ Apply only if H1B-confirmed + cap-exempt or Priority 1 |
+| Wide-but-relevant title (e.g. junior HRBP) + 70% match | ✅ Apply | ❌ Skip (P4/P5 not eligible in Tier 2) |
+| Title is exactly her target + only 60% scope match | ⚠️ Borderline (check ★☆☆ flags) | ❌ Skip |
+| Title is her target + 80%+ match + USC alumni at company | ✅ Apply | ✅ Apply (this is the Tier 2 sweet spot) |
+| Senior/Lead/Director title | ❌ Skip | ❌ Skip |
 
 ---
 
