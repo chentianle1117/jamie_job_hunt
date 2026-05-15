@@ -177,39 +177,76 @@
 
 ---
 
-## Tier 7b — NICHE PEOPLE/L&D BOARDS (NEW v4.0 — May 15, added after May 15 audit)
+## Tier 7b — NICHE PEOPLE/L&D BOARDS (v4.1 — May 15 audit-revised)
 
-> These were structurally missing from Oracle. They are the highest signal-to-noise for Jamie's
-> exact functional category — People/L&D/OD roles often appear here BEFORE syndication to LinkedIn.
+> These were structurally missing from Oracle pre-May-15. v4.0 listed 12 boards; v4.1 prunes after
+> empirical test (R2 sweep May 15): **9 of 12 were inaccessible to agent WebFetch** (auth-walled,
+> 403, 404, bot-blocked). Tier 7b is split into TWO subtypes:
 
-| Platform | URL | What to Search | Notes |
-|----------|-----|----------------|-------|
-| ATD Job Bank | jobs.td.org | "program manager" "coordinator" "specialist" "OD" "learning" | Canonical L&D board. Auth-walled but cheap to join. Cap-exempt employers post here. |
-| OD Network Job Exchange | jobs.odnetwork.org | "OD specialist" "engagement" "change" | **Only dedicated OD board globally.** Direct title-match for Jamie's P3. Requires ~$150/yr membership. |
-| Resources for Humans (Lattice) | hrjobs.lattice.com | "people programs" "people ops" "L&D" | Private community board — tech People roles often never hit LinkedIn. Anthropic, Twilio, Pinterest, Brex post here. |
-| The People Ops Job Board | thepeopleopsjobboard.com | "people ops" "people programs" "talent dev" | ~150 active roles. Anthropic, Sephora, Pinterest, Checkr regular posters. |
-| People Geeks Slack | thehiveindex.com/communities/people-geek (Slack invite) | `#talent_jobs-random` channel | 44k+ HR community members. Real-time, often 2-3 days ahead of LinkedIn. Free invite. |
-| PeopleOps Society | peopleopssociety.com/hr-and-people-ops-jobs | weekly digest subscribe | Pulls from career pages that don't syndicate to mainstream boards. |
-| SHRM Jobs OR/WA filter | jobs.shrm.org/jobs/state/oregon/ | "OD" "HRBP" "people programs" "talent" | Skews established mid-size employers — real HR budgets, real sponsorship infrastructure. |
-| HigherEdJobs PNW | higheredjobs.com (filter Oregon + Washington) | "HR" "talent" "OD" "learning" "professional development" | Cap-exempt universities — Jamie's zero-lottery edge. |
-| Mac's List | macslist.org | PDX-native, salary-transparent | 80k+ PNW professional community. Local credibility. Run by Mac Prichard (networking podcast). |
-| HR Brew Jobs | hrbrew.com/jobs | "people programs" "OD" "talent" | HR-industry publication, jobs surface here from boutique consulting firms. |
-| Welcome to the Jungle (fka Otta) | welcometothejungle.com | "people operations" "talent" | Tech/startup, employer-branding-rich, lower applicant volume than LinkedIn. |
-| YC Work at a Startup | workatastartup.com | "people operations" "HR" "talent" | Y Combinator startup jobs — early-stage People roles, direct-to-founder. |
+### Tier 7b.1 — Agent-accessible (use in subagent WebFetch sweeps)
+
+| Platform | URL | What to Search | Test Result |
+|----------|-----|----------------|------------|
+| The People Ops Job Board | thepeopleopsjobboard.com/new-jobs | "people ops" "people programs" "talent dev" | ✅ Returned 12+ roles in R2 — works in subagent |
+| Built In PDX HR filter | builtin.com/jobs/portland/hr | "people" "HR" "talent" "program" | ✅ Returned actionable Portland HR roles in R2 |
+| Built In Seattle HR filter | builtinseattle.com/jobs/hr | "people" "HR" "talent" "program" | ✅ Returned actionable Seattle HR roles in R2 |
+| HigherEdJobs PNW | higheredjobs.com (filter Oregon + Washington) | "HR" "talent" "OD" "learning" "professional development" | ✅ Cap-exempt universities, partially accessible |
+
+### Tier 7b.2 — Manual-access only (Jamie or David checks via authenticated browser; NOT for agent sweeps)
+
+> ⚠️ Agent WebFetch returns auth-wall / 403 / 404 / bot-block on these. Adding them to subagent
+> prompts produces false-negative reports ("0 results") that misrepresent the market. Use only
+> via authenticated browser session.
+
+| Platform | URL | Access Method | Why Worth It |
+|----------|-----|--------------|-------------|
+| ATD Job Bank | jobs.td.org | ATD membership (~$229/yr) + browser login | Canonical L&D board. Cap-exempt employers post here. |
+| OD Network Job Exchange | jobs.odnetwork.org | OD Network membership (~$150/yr) + browser login | **Only dedicated OD board globally.** Direct title-match for Jamie's P3. |
+| Resources for Humans (Lattice) | hrjobs.lattice.com | Free RFH community sign-up + browser | Anthropic, Twilio, Pinterest, Brex tech People roles never on LinkedIn. |
+| People Geeks Slack | thehiveindex.com/communities/people-geek | Free Slack invite; check `#talent_jobs-random` | 44k+ HR community. Real-time, often 2-3 days ahead of LinkedIn. |
+| SHRM Jobs OR/WA filter | jobs.shrm.org/jobs/state/oregon/ | SHRM browser-session (Cloudflare blocks agents) | Mid-size employers with real HR budgets. |
+| Mac's List | macslist.org | Browser (anti-bot redirects agents to GIF image) | 80k+ PNW community, Portland-native. Run by Mac Prichard. |
+| Welcome to the Jungle | welcometothejungle.com | Free account + browser | Tech/startup, lower volume than LinkedIn. |
+| YC Work at a Startup | workatastartup.com | YC account + browser | Y Combinator early-stage roles, direct-to-founder. |
+
+### Boards retired in v4.1 (test-failed, no recovery path)
+
+| Platform | Why Dropped |
+|----------|-------------|
+| PeopleOps Society | ECONNREFUSED on direct fetch — appears server-down |
+| HR Brew Jobs | 404 — board appears inactive |
 
 ---
 
-## Tier 7c — REVERSE-DISCOVERY SIGNALS (NEW v4.0 — May 15)
+## Tier 7c — REVERSE-DISCOVERY SIGNALS (v4.1 — methodology refined May 15)
 
-> These don't return job listings directly — they return *companies that are about to hire*.
-> Run weekly. Cross-reference results with the ✅ confirmed-sponsor list before adding to discovery.
+> These don't return job listings — they return *companies about to hire*. R3 test May 15 proved
+> highest-yield NEW signal class (2 immediate apply leads from one run). v4.1 reorders methodology
+> by what actually worked: PR-wire and funding feeds outperformed LinkedIn `site:` queries.
 
-| Signal | Query | Cadence | Why |
+### Tier 7c.1 — Primary signals (proven high-yield in R3 test)
+
+| Signal | Source | Query | Cadence |
 |---|---|---|---|
-| New CPO/Head of People joins | LinkedIn: `"joined as" ("Head of People" OR "VP People" OR "Chief People Officer") Portland OR Seattle OR Remote` last 60 days | Weekly | New People exec = team-building mode for 60-90 days. Zero competition, direct decision-maker. |
-| Series A/B at PNW co with 50-200 employees | Crunchbase: filter location=Portland/Seattle, stage=Series A/B, last 90 days | Weekly | Companies at this stage formalize People function. Cap A/B → first People hire. |
-| HR-tech / EdTech funding announcements | news.crunchbase.com filter "people analytics" or "HR-tech" or "learning platform" + funding | Bi-weekly | New funding → People team build-out within 60 days. |
-| LinkedIn "we're hiring" posts | LinkedIn search: `#hiring ("people programs" OR "talent development" OR "employee experience") Portland OR Seattle OR remote` last 30 days | Weekly | Grassroots posts, often by hiring manager directly. No ATS, no recruiter screen. |
+| New CPO/Head of People joins (PR wire) | prnewswire.com + businesswire.com | `"new Chief People Officer" OR "Head of People" appointed 2026` + month filter | Weekly. Found Ironclad Mike Jordan May 14 → immediate apply lead. |
+| PNW Series A/B (Portland) | siliconflorist.com | site:siliconflorist.com "Series A" OR "Series B" 2026 | Weekly. Found Panthalassa $140M → immediate cold-outreach lead. |
+| PNW Series A/B (Seattle) | geekwire.com | site:geekwire.com Seattle "Series A" OR "Series B" 2026 | Weekly. Found Union.ai $38M (explicit H1B), Yoodli $40M, Avante. |
+| HR-tech / EdTech funding | worktech-advisory.com + news.crunchbase.com | "HR tech" OR "people analytics" OR "EdTech" funding 2026 Series A OR B | Bi-weekly. Found Kombo, ConverzAI. |
+
+### Tier 7c.2 — Secondary signals (lower-yield, supplementary)
+
+| Signal | Source | Notes |
+|---|---|---|
+| Targeted company-name CPO search | Direct company press + "Kimberly Smith VP Talent" style | Useful once a target company is identified — confirms exec status. |
+| LinkedIn `site:` "joined as" | LinkedIn (via google site: queries) | ⚠️ R3 test: returned stale cached pages. Skip as primary; only use for spot-check of a known target. |
+| LinkedIn `#hiring` direct posts | LinkedIn — Chrome-MCP authenticated browse | ⚠️ R3 test: `site:linkedin.com/posts` returns stale cache. Use authenticated Chrome session only. |
+
+### Cross-filter (mandatory before adding to watchlist)
+
+For every company surfaced by Tier 7c signals:
+1. h1bdata.info SOC-13-1151 / 13-1071 / 11-3121 LCA check → tag ✅ SOC-confirmed / ⚠️ tech-only / ❌ no-history / ❓ too-early
+2. LinkedIn About page employee count
+3. Add to Notion watchlist with status: "Reverse-discovery — watch for People role posting" + date
 
 ---
 
