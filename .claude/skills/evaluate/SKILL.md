@@ -127,14 +127,36 @@ Run through these in order. If ANY fails, it's an instant **PASS**:
 4. **Location:** Portland/Remote/Seattle is your preference but you are open to relocation if the role content and fit are genuinely strong. Flag out-of-area roles and note the location, but do NOT auto-reject on location alone. Evaluate on role fit first — if GO on content, note the location as a consideration, not a blocker.
 5. **Hard reject roles:** Pure Sales, Pure SWE, Senior HRBP, Instructional Designer (80%+ content creation), Technical PM requiring PMP
 
-### Step 4 — H1B Sponsorship Check
+### Step 4 — H1B Sponsorship Check (ALWAYS RUN — never skip)
 
-1. Check `jamie/h1b_verified.md` for the company
-2. If not found, determine:
-   - Is it a **cap-exempt** employer? (university, nonprofit hospital, FQHC, nonprofit research org) → GOOD
-   - Is it a **Big 4 / major consulting firm**? → CONFIRMED
-   - Otherwise: use WebSearch to check `site:h1bdata.info "{company name}"` for LCA filing history
-3. Report: **Confirmed** / **Cap-Exempt** / **Unknown (needs verification)** / **No Sponsorship**
+> **Hard rule** (added May 13, 2026 after Coherent Corp incident): Always WebFetch h1bdata.info
+> directly and verify the company has **non-tech / People-side filings**, not just any filings.
+> A company with 100 SWE LCAs and zero HR/People filings is NOT a sponsor for Jamie. This step
+> runs on EVERY evaluation — including for "Confirmed" companies in the cache, because the cache
+> may be confirmed for tech only.
+
+1. **Cap-exempt check first** — if the employer is a university, nonprofit hospital, FQHC, or
+   nonprofit research org, mark **Cap-Exempt** and skip h1bdata.info (cap-exempt doesn't need pattern).
+2. **Direct h1bdata.info lookup (always)** — WebFetch:
+   ```
+   https://h1bdata.info/index.php?em=<company+url+encoded>&job=&city=&year=All+Years
+   ```
+   Prompt the fetcher to list ALL filings and explicitly flag any non-tech titles:
+   HR, People, Talent, Employee Experience, Specialist, Coordinator, Communications, OD,
+   Program Manager, Analyst (non-engineering), Project Manager.
+3. **For multi-entity companies** (e.g., "Coherent Corp" vs "Coherent Inc" vs subsidiaries), also
+   run a broader search with just the root name to catch all entities.
+4. **Decision rule:**
+   - **Non-tech filings > 0** → ✅ Confirmed Sponsor (for People work) — proceed
+   - **Total filings > 0 but non-tech = 0** → ❌ Tech-Only Sponsor — treat as **PASS** unless
+     cap-exempt or a personal connection exists. Tell Jamie explicitly: "Coherent has 55 LCAs
+     but zero are People-side — applying wastes runway."
+   - **Zero filings total** → ❌ No Sponsorship History — PASS
+   - **Cap-exempt** → 🏛️ Cap-Exempt — proceed regardless
+5. Report counts in the verdict (e.g., "55 total LCAs / 0 non-tech → PASS").
+
+> **Why mandatory:** During the H1B runway window, applying to a sponsor-without-People-pattern
+> burns a 30-60 min app slot. Coherent (May 13, 2026) was the canonical miss caught by this rule.
 
 ### Step 5 — Fit Assessment
 
