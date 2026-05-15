@@ -56,8 +56,10 @@ python pipeline/scripts/fetch_ats_jobs.py
 - Greenhouse: `GET https://api.greenhouse.io/v1/boards/{slug}/jobs?content=true`
 - Lever: `GET https://api.lever.co/v0/postings/{slug}?mode=json`
 - Filters for People/HR/OD/L&D keywords, excludes Senior/Director/VP
-- **Output:** `C:\Windows\Temp\ats_jobs.json` — read this in Step 2 as a pre-verified source
-- These jobs are **already live** (API returns only active postings) — skip Chrome verification for them
+- **Output:** `C:\Windows\Temp\ats_jobs.json` — read this in Step 2 as a discovery source
+- ⚠️ **v4.0 — DO NOT skip verification.** ATS API caches can be 24h stale; live-at-fetch can be
+  404-by-delivery. WebFetch every URL at Notion-write time and confirm title-match before adding.
+  (Removes the April-audit RC1 silent-stale-link failure.)
 - Also queries **Ashby boards** (SSR JSON API): `GET https://api.ashbyhq.com/posting-api/job-board/{slug}`
 - **ATS coverage (v4.0):** 60+ Greenhouse slugs, 18 Lever slugs, 14 Ashby slugs (see `ats_mapping.json`)
 - **Includes education/professional dev orgs** — ATD-affiliated companies, edtech, workforce dev
@@ -163,16 +165,26 @@ These URLs still need Chrome/WebFetch verification (alerts often contain expired
 > LinkedIn's algorithm already filters 500M+ listings to ~381 tailored recommendations.
 > These are high-signal, pre-vetted candidates that cost zero WebSearch tokens.
 >
-> **Early-exit rule (v3.6 — Token Budget Optimization):**
-> If LinkedIn Top Job Picks yields **5+ viable candidates** (pass hard constraints,
-> worth evaluating), **skip Agents A-F WebSearch entirely.** LinkedIn already did
-> the discovery work — running 6 parallel WebSearch agents on top is redundant
-> and burns ~10K+ tokens for marginal yield.
+> **Early-exit rule (v4.0 — REVISED after May 15 forensic audit):**
+> If LinkedIn Top Job Picks yields **5+ viable candidates**, you may skip the
+> **LinkedIn keyword WebSearch batches (Agents A + B only)** to save tokens.
 >
-> **Apr 3 data point:** Full secondary discovery (PSU/OHSU/Providence/Idealist/Greenhouse/Lever/
-> watchlist — 3 parallel agents, 40+ searches) yielded 0 new verified picks on top of what LinkedIn
-> already found. Idealist leads were all expired; Greenhouse IDs were stale; watchlist companies had
-> no new openings. This validates the early-exit rule strongly.
+> **ALWAYS RUN regardless of LinkedIn yield — these have zero overlap with LinkedIn's algorithm:**
+> - Cap-exempt employer agent (universities, hospitals, large nonprofits)
+> - Watchlist direct careers-site agent (Tiers 1–8 in `jamie/watchlist.md`)
+> - Workday direct searches (Nike, Microsoft, Amazon, Intel, Disney, etc.)
+> - Niche People/L&D boards (ATD, OD Network, RFH/Lattice, People Ops Job Board) — see Step 2d
+> - DOL LCA SOC-code sponsor sweep — see Step 0.5d
+>
+> **Why this changed (May 15 audit):** The old rule that skipped "Agents A-F entirely" was the
+> #1 cause of "thin runs, then strategy switch unlocks more jobs." LinkedIn's personalized feed
+> only sees roles Jamie has signaled interest in — it cannot surface cap-exempt or watchlist roles
+> she hasn't engaged with. Always run those three. They cost few tokens (mostly direct fetches,
+> not LLM-judged scans).
+>
+> **Apr 3 data point retained:** Idealist leads were expired and Greenhouse IDs were stale that day —
+> which is a verification problem (now fixed in Step 0.5a by removing the ATS-API verification
+> carve-out), not a discovery problem. Don't skip the discovery step to avoid the verification step.
 >
 > **When to run full discovery (Agents A-F):**
 > - LinkedIn yields < 5 viable candidates
@@ -184,6 +196,44 @@ These URLs still need Chrome/WebFetch verification (alerts often contain expired
 >
 > **ATS pre-fetch** is still a supplement — run it if the Python scripts are available,
 > but it's lower priority than LinkedIn.
+
+---
+
+### 0.5e. SOC-Code H1B Pre-Filter (NEW v4.0 — May 15, 2026)
+
+> **Why:** A company that sponsored 50 software engineers is NOT evidence they'll sponsor a
+> non-tech People role. Company-level "✅ H1B confirmed" produced multiple ghosting incidents
+> (Stripe, HubSpot, Plaid, Cloudflare all tech-only LCAs; Hasbro 0 LCAs for HR ever).
+> v4 pre-qualifies every employer at the **SOC-code** level using DOL public LCA data.
+
+**Target SOC codes for Jamie:**
+- `13-1151` Training and Development Specialists
+- `13-1121` Meeting, Convention, and Event Planners (P1b cross-listing)
+- `13-1141` Compensation, Benefits, and Job Analysis Specialists (P2/P3 cross-listing)
+- `11-3121` Human Resources Managers (HR mgmt context only — most are senior, but used for company-level signal)
+- `13-1071` Human Resources Specialists
+- `19-3032` Industrial-Organizational Psychologists (Jamie's degree-coded SOC)
+
+**Sources to query:**
+- `https://h1bdata.info/index.php?em={company}&job={title}&year=All`
+- `https://www.myvisajobs.com/employer/{company}/` (LCA breakdown by job title)
+- `https://h1bgrader.com/h1b-sponsors/{company-slug}` (FY2025 filings + approval rate)
+
+**Procedure for every NEW or UNKNOWN-status company surfaced in Step 2 discovery:**
+1. Query the company on h1bdata.info OR h1bgrader.com.
+2. Filter results to the SOC codes above (or any title containing "training", "talent", "people",
+   "HR", "OD", "organization", "learning", "employee experience", "engagement").
+3. Classify:
+   - **✅ SOC-confirmed sponsor** — has ≥1 certified LCA in past 24 months for one of the target SOC codes. Apply full H1B +5 modifier. Add to `h1b_verified.md` ✅ section with SOC evidence note.
+   - **⚠️ Tech-only sponsor** — has LCAs but all in 15-1XXX (SWE/data) or 17-XXXX (engineer) categories. Apply NO modifier. Add to `h1b_verified.md` ⚠️ section with note "tech-only — non-tech sponsorship not demonstrated."
+   - **❌ No LCA history** — zero certified LCAs for any SOC in past 24 months. PASS the role unless JD explicitly states "will sponsor" or company is cap-exempt.
+4. Re-check companies in the existing ✅ list quarterly — sponsorship policy can change (Amazon halted non-tech sponsorship late 2024; the cache lagged this for months).
+
+**Reference list (May 15 audit results — propagated to `h1b_verified.md`):**
+- ⚠️ Tech-only: Stripe, HubSpot, Cloudflare, Datadog, Shopify, T-Mobile, Zillow, Amazon (post-2024)
+- ❌ Confirmed no for non-tech: Veeva, WBD, NBCU, Jama Software, Accenture US, DocuSign, Hasbro (HR specifically)
+
+---
 
 In Step 2 discovery, BEFORE launching WebSearch agents:
 1. Read `C:\Windows\Temp\ats_jobs.json` (if exists, < 24 hours old)
@@ -760,6 +810,23 @@ Include this in the email digest so Jamie can see her Notion is clean.
 > The pipeline must complete all batches before moving to Step 3 verification.
 > If token/time limits are a concern: launch more background agents, not fewer batches.
 > **Minimum required: all P1 LinkedIn batches (A–H10) + all direct career sites (2b) + all watchlist checks (2c) + at least one alternative board (2d).**
+
+> ✅ **MANDATORY agent output contract (v4.0 — added May 15 after Haiku silent-failure audit):**
+> Every sub-agent dispatched in Steps 2a/2b/2c/2d MUST return, at minimum:
+> ```
+> sources_tried:
+>   - source: <board/company/url>
+>     query: <exact query/URL used>
+>     results_count: <int>
+>     error_or_block: <"none" | "403 auth" | "404" | "CAPTCHA" | "timeout" | "empty page" | ...>
+> roles_returned: <int>
+> ```
+> If an agent returns `roles_returned: 0` AND fewer than 3 distinct `sources_tried` entries
+> with `error_or_block: "none"`, treat the agent as **search-failed** in the orchestrator
+> summary — do NOT interpret it as "the market has no roles." This rule was added because
+> the May 15 audit caught Haiku agents reporting "0 viable roles" when their tools had
+> actually 403'd or timed out. False-negative bias was a primary cause of the "thin runs"
+> pattern.
 
 #### 2a. LinkedIn (Chrome — primary platform)
 

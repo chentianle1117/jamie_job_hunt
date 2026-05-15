@@ -28,17 +28,19 @@
 2. 👥 **Applicant volume** — "100+ applicants" / "Over 100 people clicked apply" / similar
 3. 🌍 **Remote** — fully remote (no Portland/Seattle local advantage)
 
-**Rules — apply BEFORE adding to Notion:**
+**Rules — apply BEFORE adding to Notion (v4.0 — REVISED May 15 after forensic audit):**
 | Signal Combo | Action |
 |--------------|--------|
-| 🔁 Reposted (any version) | **HARD SKIP** — do not add to Notion |
-| 👥 100+ applicants (single signal) | **HARD SKIP** — do not add to Notion |
-| 🌍 Remote + 1 other signal (reposted OR 100+) | **HARD SKIP** |
-| 2+ of 3 signals | **HARD SKIP** — do not add to Notion |
-| 1 signal only AND not reposted/not 100+ | Borderline — only add if score ≥80 AND P1/P2 AND H1B confirmed |
+| 🔁 Reposted + 🌍 Remote | **HARD SKIP** |
+| 👥 100+ applicants + 🌍 Remote | **HARD SKIP** |
+| 👥 100+ applicants + 🔁 Reposted | **HARD SKIP** |
+| 🌍 Remote + 2+ other signals | **HARD SKIP** |
+| 👥 100+ applicants ALONE at Portland/Beaverton/Hillsboro/Vancouver WA hybrid/onsite | **KEEP — score normal, note ⚠️ high-volume** (local applicant pool ≠ national pool) |
+| 🔁 Reposted ALONE at Portland/Seattle local hybrid | **KEEP** — repost on local roles often means hard-to-fill, lower ATS competition for qualified locals |
+| 1 signal only at Tier 2 (Remote/Seattle non-local/relocation) | Borderline — only add if score ≥80 AND P1/P2 AND H1B confirmed |
 | 0 signals | Standard scoring applies |
 
-**Why:** Reposted = HM dissatisfied with prior pool, replaying. 100+ applicants = ATS noise floor too high to break through without a referral. Remote + competitive = Jamie's H1B status puts her behind US-citizen applicants in a crowded pool. Combination of any 2 = "drinking from a firehose with no advantage."
+**Why v4.0 narrowed this (May 15 audit):** The original rule applied "100+ applicants = HARD SKIP" everywhere, killing legitimate Portland Tier 1 roles where the local applicant pool is small and Jamie has geographic advantage. Reposted alone on a local hybrid often signals hard-to-fill, not high-competition. Only the *combinations* (remote + high-volume, or remote + repost) reliably mean "drinking from a firehose."
 
 **During Notion enrichment**, if the role passes filters above, capture in Notes:
 - "LinkedIn signals: ✅ Fresh / 0 applicants visible / Hybrid Portland" — confirms low-competition
@@ -93,13 +95,15 @@
 - Still required: 60-70%+ honest JD match, within 1yr of stated YOE min, no ★☆☆ primary, no hard-reject titles
 - "Wider" ≠ "lower qualification standard" — Jamie still has to credibly interview today
 
-### Tier 2: Non-Portland (Remote / Seattle / Relocation) — HIGH bar, EXACT FIT
+### Tier 2: Non-Portland (Remote / Seattle / Relocation) — HIGH bar, EXACT FIT (v4.0 softened May 15)
 - Accept ONLY: P1, P1b, P2 Big4 Assoc/Analyst, P3 program-focused EX/OD specialist
 - **SKIP P4 Junior HRBP** in Tier 2 (too generalist for non-local context)
 - **SKIP P5 General HR** in Tier 2
 - Required: **80%+ honest JD match** + YOE within range + NO ★☆☆ primary
-- **PLUS one advantage:** USC/Wesleyan alumni at co · confirmed non-tech H1B sponsor pattern (h1bdata-verified) · cap-exempt with grade-eligibility · Priority 1/1b
-- Both halves required (exact scope AND clearly qualifies). Skip otherwise.
+- **Advantage clause (v4.0):** Either A or B passes — both not required.
+  - A. **One advantage present:** USC/Wesleyan alumni at co · confirmed non-tech H1B sponsor pattern (h1bdata + SOC 13-1151/11-3121 verified) · cap-exempt with grade-eligibility · USC alumni hiring manager
+  - B. **Triple-exact:** scope is P1 or P1b (sweet spot) AND honest match ≥85% AND confirmed non-tech H1B sponsor pattern via SOC-specific LCA — no other advantage needed.
+- (Old rule required scope + qualification + advantage all three — was eliminating valid candidates per May 15 audit. New rule keeps the precision bar while not double-counting.)
 
 ### Quick Decision Matrix
 | Scenario | Tier 1 | Tier 2 |

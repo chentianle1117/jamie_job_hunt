@@ -177,6 +177,57 @@
 
 ---
 
+## Tier 7b — NICHE PEOPLE/L&D BOARDS (NEW v4.0 — May 15, added after May 15 audit)
+
+> These were structurally missing from Oracle. They are the highest signal-to-noise for Jamie's
+> exact functional category — People/L&D/OD roles often appear here BEFORE syndication to LinkedIn.
+
+| Platform | URL | What to Search | Notes |
+|----------|-----|----------------|-------|
+| ATD Job Bank | jobs.td.org | "program manager" "coordinator" "specialist" "OD" "learning" | Canonical L&D board. Auth-walled but cheap to join. Cap-exempt employers post here. |
+| OD Network Job Exchange | jobs.odnetwork.org | "OD specialist" "engagement" "change" | **Only dedicated OD board globally.** Direct title-match for Jamie's P3. Requires ~$150/yr membership. |
+| Resources for Humans (Lattice) | hrjobs.lattice.com | "people programs" "people ops" "L&D" | Private community board — tech People roles often never hit LinkedIn. Anthropic, Twilio, Pinterest, Brex post here. |
+| The People Ops Job Board | thepeopleopsjobboard.com | "people ops" "people programs" "talent dev" | ~150 active roles. Anthropic, Sephora, Pinterest, Checkr regular posters. |
+| People Geeks Slack | thehiveindex.com/communities/people-geek (Slack invite) | `#talent_jobs-random` channel | 44k+ HR community members. Real-time, often 2-3 days ahead of LinkedIn. Free invite. |
+| PeopleOps Society | peopleopssociety.com/hr-and-people-ops-jobs | weekly digest subscribe | Pulls from career pages that don't syndicate to mainstream boards. |
+| SHRM Jobs OR/WA filter | jobs.shrm.org/jobs/state/oregon/ | "OD" "HRBP" "people programs" "talent" | Skews established mid-size employers — real HR budgets, real sponsorship infrastructure. |
+| HigherEdJobs PNW | higheredjobs.com (filter Oregon + Washington) | "HR" "talent" "OD" "learning" "professional development" | Cap-exempt universities — Jamie's zero-lottery edge. |
+| Mac's List | macslist.org | PDX-native, salary-transparent | 80k+ PNW professional community. Local credibility. Run by Mac Prichard (networking podcast). |
+| HR Brew Jobs | hrbrew.com/jobs | "people programs" "OD" "talent" | HR-industry publication, jobs surface here from boutique consulting firms. |
+| Welcome to the Jungle (fka Otta) | welcometothejungle.com | "people operations" "talent" | Tech/startup, employer-branding-rich, lower applicant volume than LinkedIn. |
+| YC Work at a Startup | workatastartup.com | "people operations" "HR" "talent" | Y Combinator startup jobs — early-stage People roles, direct-to-founder. |
+
+---
+
+## Tier 7c — REVERSE-DISCOVERY SIGNALS (NEW v4.0 — May 15)
+
+> These don't return job listings directly — they return *companies that are about to hire*.
+> Run weekly. Cross-reference results with the ✅ confirmed-sponsor list before adding to discovery.
+
+| Signal | Query | Cadence | Why |
+|---|---|---|---|
+| New CPO/Head of People joins | LinkedIn: `"joined as" ("Head of People" OR "VP People" OR "Chief People Officer") Portland OR Seattle OR Remote` last 60 days | Weekly | New People exec = team-building mode for 60-90 days. Zero competition, direct decision-maker. |
+| Series A/B at PNW co with 50-200 employees | Crunchbase: filter location=Portland/Seattle, stage=Series A/B, last 90 days | Weekly | Companies at this stage formalize People function. Cap A/B → first People hire. |
+| HR-tech / EdTech funding announcements | news.crunchbase.com filter "people analytics" or "HR-tech" or "learning platform" + funding | Bi-weekly | New funding → People team build-out within 60 days. |
+| LinkedIn "we're hiring" posts | LinkedIn search: `#hiring ("people programs" OR "talent development" OR "employee experience") Portland OR Seattle OR remote` last 30 days | Weekly | Grassroots posts, often by hiring manager directly. No ATS, no recruiter screen. |
+
+---
+
+## ❌ DROPPED FROM WATCHLIST (May 15 v4.0)
+
+| Source | Why Dropped |
+|---|---|
+| Monster | Recycled aggregator. Legacy board. Drowning in unrelated content. |
+| Lensa | Pure recycle of Indeed/LinkedIn. No unique inventory. 20M users dilute signal. |
+| CareerBuilder | Generic; weak HR specificity; salary noise. Demoted to secondary fallback only. |
+| PeopleOpsJobs.com | Site dead (404). Confirmed defunct May 15. |
+| VisaFriendlyJobs.com | Not found / defunct May 15. |
+| Right Management | Wrong firm type — outplacement coaching, not consulting practice. Dropped from Tier 8. |
+| DDI | Product/tool company (assessment platform), not a consulting practice. Dropped from Tier 8. |
+| ZS Associates | Wrong practice — pharma commercial analytics, not People/Change. Dropped from Tier 4. |
+
+---
+
 ## Tier 8 — EDUCATION / TALENT DEVELOPMENT SECTOR (Jamie's preference — check every run)
 
 > Companies in the talent development, CPT/CPTD certification, workforce training, and corporate
