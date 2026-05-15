@@ -106,6 +106,9 @@
 | Hasbro (HR/L&D specifically) | h1bdata + myvisajobs review: 0 LCAs FY2025, only 9 historical I-129 approvals (Ecommerce Analyst, Project Engineer, QA, VP Procurement) — **zero HR/L&D/people roles ever sponsored**. | 2026-05-15 | Tech/ops-only historical sponsor. Skip L&E Specialist and similar People roles despite no explicit JD anti-language. |
 | Propeller | JD: 7+ years experience required for Consultant IV — People & Change (Portland) | 2026-05-15 | Not a sponsorship-policy reject; YOE-only reject. Verify per posting if other roles open. |
 | WBD / NBCU / Veeva / Jama / Accenture-US already on ❌ list above | (consolidation row — no duplicate) | 2026-05-15 | See individual entries. |
+| NW Natural (Northwest Natural Gas) | h1bdata.info: 0 records returned for any role. Pre-2012 subsidiary filing (NW Natural Gas Storage LLC) only. No H1B history for main company in any function. E-Verify employer but has never filed LCAs. | 2026-05-15 | Do NOT add NW Natural HR/OD roles without explicit "will sponsor H1B" in JD text. OE Consultant role (May 2026) closed early + no LCA history = double fail. |
+| Portland General Electric (PGE) | h1bdata.info: 4 LCAs total, all tech/engineering/analyst. Zero HR/People/Talent filings in any year. | 2026-05-15 | Tech-only sponsorship pattern. HR Coordinator and similar People roles at PGE fail H1B. Skip unless JD explicitly states sponsorship. |
+| Vacasa | myvisajobs.com: 3 LCAs FY22-24, all Finance/Marketing. Zero HR/People/Talent filings. | 2026-05-15 | Finance/mktg-only H1B pattern. Skip all HR/People roles. |
 
 ---
 
@@ -115,11 +118,11 @@
 
 | Company | Notes |
 |---------|-------|
-| Columbia Sportswear | Portland HQ. Check myvisajobs.com when relevant role appears. |
-| Daimler Trucks NA | Portland HQ. Check when relevant. |
+| Columbia Sportswear | Portland HQ. 39 LCAs FY22-24 per myvisajobs but breakdown unclear — insufficient evidence for non-tech confirm. Verify per posting. |
+| Daimler Trucks NA | Portland HQ. HR Ops Specialist I (May 2026) had explicit "not open for Visa sponsorship" in JD — per-role verify required even though company has some H1B history for other functions. |
 | Nintendo of America | Redmond WA. Check when relevant. |
 | Valve | Bellevue WA. Rare openings. |
-| Cambia Health Solutions | Portland. Health insurance. |
+| Cambia Health Solutions | Portland. Health insurance. 10 LCAs FY2025 but all appear clinical/tech — no HR/People filings confirmed. Verify per posting. |
 
 ---
 
@@ -137,6 +140,7 @@
 
 | Date | Action |
 |------|--------|
+| 2026-05-15 | R5 Portland for-profit sweep: NW Natural → 0 LCA history any role (❌ for all HR); PGE → tech-only (❌ for HR); Vacasa → finance/mktg only (❌ for HR); DTNA HR Ops Spec I confirmed "not open for Visa sponsorship" per JD text; Columbia Sportswear remains ❓ Unknown; Cambia ❓ Unknown (no HR LCAs confirmed). |
 | 2026-03-24 | Initial cache created with 27 confirmed, 14 cap-exempt, 2 no-H1B, 5 unknown. |
 | 2026-03-25 | Added dbt Labs as ✅ Confirmed — explicit JD language in People Ops Generalist posting (job 4671312005). |
 | 2026-03-26 | Added Plaid as ✅ Confirmed — 40 LCAs FY2025 all approved via h1bgrader.com (Run 4). |
