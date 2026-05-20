@@ -106,6 +106,7 @@
 | Hasbro (HR/L&D specifically) | h1bdata + myvisajobs review: 0 LCAs FY2025, only 9 historical I-129 approvals (Ecommerce Analyst, Project Engineer, QA, VP Procurement) — **zero HR/L&D/people roles ever sponsored**. | 2026-05-15 | Tech/ops-only historical sponsor. Skip L&E Specialist and similar People roles despite no explicit JD anti-language. |
 | Propeller | JD: 7+ years experience required for Consultant IV — People & Change (Portland) | 2026-05-15 | Not a sponsorship-policy reject; YOE-only reject. Verify per posting if other roles open. |
 | WBD / NBCU / Veeva / Jama / Accenture-US already on ❌ list above | (consolidation row — no duplicate) | 2026-05-15 | See individual entries. |
+| Embark (embarkwithus.com) | myvisajobs.com: 0 LCA filings across all years (2022–2025). Financial consulting firm, Dallas TX. Never filed for any role type. | 2026-05-20 | Zero H1B history. SKIP permanently for all roles. |
 | NW Natural (Northwest Natural Gas) | h1bdata.info: 0 records returned for any role. Pre-2012 subsidiary filing (NW Natural Gas Storage LLC) only. No H1B history for main company in any function. E-Verify employer but has never filed LCAs. | 2026-05-15 | Do NOT add NW Natural HR/OD roles without explicit "will sponsor H1B" in JD text. OE Consultant role (May 2026) closed early + no LCA history = double fail. |
 | Portland General Electric (PGE) | h1bdata.info: 4 LCAs total, all tech/engineering/analyst. Zero HR/People/Talent filings in any year. | 2026-05-15 | Tech-only sponsorship pattern. HR Coordinator and similar People roles at PGE fail H1B. Skip unless JD explicitly states sponsorship. |
 | Vacasa | myvisajobs.com: 3 LCAs FY22-24, all Finance/Marketing. Zero HR/People/Talent filings. | 2026-05-15 | Finance/mktg-only H1B pattern. Skip all HR/People roles. |
@@ -140,6 +141,7 @@
 
 | Date | Action |
 |------|--------|
+| 2026-05-20 | D2 Cap-Exempt + Tier 7c run: Embark (embarkwithus.com) added as ❌ — 0 LCA filings ever confirmed via myvisajobs.com. Tanium confirmed H1B sponsor (8 LCAs FY2025) but tech-only pattern — no HR/People role filings. Cap-exempt PNW sweep (17 orgs): PeaceHealth "Talent & Culture Development Advisor" found but stale (30+ days) + 5yr min YOE → PASS. All other 16 orgs: no qualifying HR/LOD roles posted since May 15. |
 | 2026-05-15 | R5 Portland for-profit sweep: NW Natural → 0 LCA history any role (❌ for all HR); PGE → tech-only (❌ for HR); Vacasa → finance/mktg only (❌ for HR); DTNA HR Ops Spec I confirmed "not open for Visa sponsorship" per JD text; Columbia Sportswear remains ❓ Unknown; Cambia ❓ Unknown (no HR LCAs confirmed). |
 | 2026-03-24 | Initial cache created with 27 confirmed, 14 cap-exempt, 2 no-H1B, 5 unknown. |
 | 2026-03-25 | Added dbt Labs as ✅ Confirmed — explicit JD language in People Ops Generalist posting (job 4671312005). |
