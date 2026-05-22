@@ -22,36 +22,36 @@
 
 | Company | Verification Source | Date Verified | Notes |
 |---------|-------------------|---------------|-------|
-| Roblox | JD + LCA filings | 2026-03-28 | 206 H1B petitions FY2025, mostly engineering. People Science Assoc (7079505) = EXPLICIT no H1B. Early Career PM (7566178) = no sponsorship language found either way. Treat as uncertain for non-engineering roles. |
-| Axon | JD language + LCA filings | 2026-03-24 | Boston hybrid role confirms |
+| Roblox | JD + LCA filings → S4 sweep 2026-05-21 | 2026-05-21 | ❌ FOR PEOPLE ROLES: 235 FY2025 LCAs, 100% tech. People Science Assoc (7079505) confirmed EXPLICIT no H1B. Zero People/HR/OD LCA in any year. SKIP permanently for Jamie's target People roles. |
+| Axon | JD language + LCA filings → S4 sweep 2026-05-21 | 2026-05-21 | ⚠️ TECH-ONLY: 122 FY2025 LCAs, pattern = SWE/Manufacturing/Design. One historical HR Specialist LCA (undated) — insufficient. "Leadership Dev Program" LCAs are corporate rotational, not People function. Verify per JD before any People role application. |
+| Plaid | h1bgrader.com → S4 sweep 2026-05-21 | 2026-05-21 | ⚠️ TECH-ONLY: All accessible LCAs = Software Engineer. Zero People/HR/OD titles confirmed. Company-level volume (40 FY2025 LCAs) does not imply non-tech sponsorship. Verify per JD for any People role. |
 | Google | myvisajobs.com top sponsor | 2026-03-24 | Massive H1B sponsor |
 | Meta | myvisajobs.com top sponsor | 2026-03-24 | Major sponsor |
 | Amazon | myvisajobs.com top sponsor | 2026-03-24 | PXT org sponsors regularly |
 | Microsoft | myvisajobs.com top sponsor | 2026-03-24 | Major sponsor |
 | Apple | myvisajobs.com top sponsor | 2026-03-24 | Major sponsor |
-| Salesforce | myvisajobs.com | 2026-03-24 | |
-| Adobe | myvisajobs.com | 2026-03-24 | |
-| Intel | myvisajobs.com | 2026-03-24 | Hillsboro OR |
-| Nike | myvisajobs.com | 2026-03-24 | Beaverton OR |
-| Stripe | myvisajobs.com | 2026-03-24 | |
-| Spotify | myvisajobs.com | 2026-03-24 | |
-| Netflix | myvisajobs.com | 2026-03-24 | |
-| Disney | myvisajobs.com | 2026-03-24 | |
-| EA | myvisajobs.com | 2026-03-24 | |
-| Epic Games | myvisajobs.com | 2026-03-24 | |
-| Riot Games | myvisajobs.com | 2026-03-24 | |
-| Mercer | myvisajobs.com | 2026-03-24 | Consulting |
-| Aon | myvisajobs.com | 2026-03-24 | Consulting |
-| Korn Ferry | myvisajobs.com | 2026-03-24 | Consulting |
-| WTW | myvisajobs.com (company-level LCAs) | 2026-03-24 | ⚠️ CAVEAT: Early Career programs (EX Analyst, Comp Analyst 2026) explicitly require "authorized to work WITHOUT sponsorship now or in future." Senior/experienced roles may still sponsor — verify per posting. |
-| Accenture | myvisajobs.com | 2026-03-24 | Consulting |
-| McKinsey | myvisajobs.com | 2026-03-24 | Consulting |
-| HubSpot | myvisajobs.com | 2026-03-24 | |
-| T-Mobile | myvisajobs.com | 2026-03-24 | Bellevue WA |
-| Adidas | myvisajobs.com | 2026-03-24 | Portland HQ |
+| Salesforce | myvisajobs.com → S4 sweep 2026-05-21 | 2026-05-21 | ⚠️ TECH-ONLY: 1,868 FY2025 LCAs, ZERO HR/People/OD/L&D titles. No SOC 13-1151/13-1071/11-3121/19-3032 LCA in accessible history. Do NOT use for People roles without explicit JD sponsorship language. |
+| Adobe | myvisajobs.com → S4 sweep 2026-05-21 | 2026-05-21 | ✅ NARROW: 1,089 FY2025 LCAs, 1 confirmed HR Business Partner LCA (San Jose, $254K, 02/2025). SOC likely 13-1071. Thin non-tech evidence — always verify JD sponsorship language before applying. |
+| Intel | myvisajobs.com | 2026-03-24 | Hillsboro OR — ⚠️ Verified May 20: HRBP and OD Partner roles BOTH explicitly state "Not eligible for Intel immigration sponsorship." Tech-only sponsorship pattern. |
+| Nike | myvisajobs.com → S3 sweep 2026-05-21 | 2026-05-21 | Beaverton OR — ⚠️ TECH-ONLY: 343 FY2025 H1B petitions but h1bdata.info shows 0 LCA records for HR/Facilitator/L&D/Training roles 2024-2025. Sponsorship pattern is SWE/data/finance/design. Do not apply to People roles without explicit JD sponsorship language. |
+| Stripe | myvisajobs.com | 2026-03-24 | ⚠️ TECH-ONLY per May 15 audit (15-1252 SWE only, no HR LCAs found) |
+| Spotify | myvisajobs.com → S4 sweep 2026-05-21 | 2026-05-21 | ⚠️ TECH-ONLY: 139 FY2025 LCAs, ZERO HR/People/OD titles. Non-tech sponsors = Accountants + Lawyers only. Skip People roles without explicit JD language. |
+| Netflix | myvisajobs.com → S4 sweep 2026-05-21 | 2026-05-21 | ⚠️ TECH-ONLY: 330 FY2025 LCAs, ZERO People/HR/OD titles. Pattern matches T-Mobile/Zillow tech-only profile. Skip People roles without explicit JD language. |
+| Disney | myvisajobs.com → S4 sweep 2026-05-21 | 2026-05-21 | ⚠️ HR SUBSIDIARY INACTIVE: Disney HR Services LLC filed 0 H1B petitions FY2025. Prior LCAs under HR subsidiary = HRIS/analytics (tech roles), not OD/L&D/HRBP. Verify per JD before any People role application. |
+| EA | myvisajobs.com → S4 sweep 2026-05-21 | 2026-05-21 | ⚠️ TECH-ONLY: 139 FY2025 LCAs, ZERO HR/People/OD/L&D titles. Skip People roles without explicit JD language. |
+| Epic Games | myvisajobs.com → S4 sweep 2026-05-21 | 2026-05-21 | ⚠️ TECH-ONLY: 31 FY2025 LCAs, ZERO HR/People/OD titles. Has immigration team — case-by-case review possible. Revert to ✅ if JD explicitly states sponsorship for a People role. |
+| Riot Games | myvisajobs.com → S4 sweep 2026-05-21 | 2026-05-21 | ⚠️ TECH-ONLY: 104 FY2025 LCAs, ZERO People/HR/OD titles. H1B peak was 2021 (79 workers), now declining (8 in 2025 per Blind data). Skip People roles without explicit JD language. |
+| Mercer | myvisajobs.com | 2026-03-24 | ✅ Consulting — SOC-confirmed via Career Consulting Analyst/Senior Analyst LCAs (Seattle $96,500 + Louisville $80,000 FY2025). Strong non-tech sponsor for People/Talent roles. |
+| Aon | myvisajobs.com → S4 sweep 2026-05-21 | 2026-05-21 | ⚠️ ACTUARIAL-ONLY: 183 LCAs (Aon Consulting Inc), pattern = Retirement/H&B actuarial analysts + tech. ZERO internal HR/OD/L&D specialist filings. Verify per JD for any People-team role. |
+| Korn Ferry | myvisajobs.com → S4 sweep 2026-05-21 | 2026-05-21 | ✅ SOC-CONFIRMED: Parent entity 95 FY2025 LCAs (Organizational Strategy, Consultant, Senior Principal). MyVisaJobs shows HR Specialists + Management Analysts as sponsored occupations. Korn Ferry Hay Group subsidiary had Training/Dev + HR Specialist LCAs historically (now dormant). Verify each JD. |
+| WTW | myvisajobs.com → S4 sweep 2026-05-21 | 2026-05-21 | ⚠️ SOC UNCONFIRMED: 316 LCAs FY2019-2025 but ALL generic "Analyst"/"Associate" titles — no Work & Rewards or HR-specific SOC visible. Early Career programs (EX Analyst, Comp Analyst 2026 Dallas) confirmed no-sponsorship. Senior roles may sponsor but SOC-level proof unavailable (h1bgrader blocked). Verify per JD. |
+| Accenture | myvisajobs.com → corrected May 20 | 2026-05-20 | ❌ US T&O CONFIRMED NO-SPONSOR: Multiple US T&O Manager JDs explicit "must have work authorization that does not now or in the future require sponsorship." Reconfirmed across board May 20. Use Accenture global only if global mobility relevant. |
+| McKinsey | myvisajobs.com → S4 sweep 2026-05-21 | 2026-05-21 | ✅ SOC-CONFIRMED: "Professional Development Specialist" LCA FY2025 (Miami, $170.8K); "Manager of Professional Development" LCAs FY2024 (SF, $227K) + FY2025 (Houston, $229K). Learning Specialist, Recruiter, People Digital Products also confirmed. ~29 non-tech People LCAs in accessible history. Strong non-tech sponsor. ⚠️ 18-mo tenure policy before H1B filing — runway concern. |
+| HubSpot | myvisajobs.com | 2026-03-24 | ⚠️ TECH-ONLY per May 15 audit |
+| T-Mobile | myvisajobs.com | 2026-03-24 | Bellevue WA — ⚠️ TECH-ONLY per May 15 audit (482 LCAs FY2024, zero HR/coordinator/engagement) |
+| Adidas | myvisajobs.com | 2026-03-24 | Portland HQ — ⚠️ HR Ops Specialist verified May 15 = admin-primary + 3yr req + 0 HR H1B history. Verify per JD. |
 | US Mobile | h1bgrader.com — 11 LCAs FY2022-2025, 4 in FY2025 YTD | 2026-03-24 | NYC HQ, telecom startup |
 | dbt Labs | JD explicit language: "Assist with immigration cases, including visa sponsorship, renewals, and compliance, in partnership with external immigration counsel" | 2026-03-25 | Run 2 Pick #1 (POG role). One of strongest H1B signals possible in any JD. |
-| Plaid | h1bgrader.com — 40 LCAs FY2025 all approved, 31 H1B petitions FY2025 approved | 2026-03-26 | Strong fintech H1B sponsor. Run 4 — People PM roles expired but H1B confirmed for future. |
 | The Boston Consulting Group (BCG) | h1bdata.info + myvisajobs.com — 1,674 LCA filings FY2022–2024, ~100% approval rate, ranked #74 US sponsor | 2026-03-30 | Major consulting firm. For-profit (not cap-exempt). Career Development Specialist role evaluated. |
 
 ---
