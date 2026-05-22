@@ -265,6 +265,78 @@ For every company surfaced by Tier 7c signals:
 
 ---
 
+## Tier 9 — NGO / NONPROFIT + STUDENT ADVISING (NEW v4.2 — May 20, 2026)
+
+> Added per Jamie's May 20 directive expanding scope to NGO program management + community
+> outreach + student advising. Strong InGenius adjacency (educational program ops). All entries
+> are cap-exempt or 501(c)(3) — H1B sponsorship is willingness-dependent, not infrastructure-dependent.
+> ⚠️ Cap-exempt does NOT guarantee willingness — verify per JD.
+
+### 9a. PNW NGOs / Nonprofits (Portland + Seattle metro priority)
+
+| Organization | Type | Careers URL | Target Titles | Notes |
+|---|---|---|---|---|
+| Mercy Corps | Global development NGO (Portland HQ) | mercycorps.org/careers | Program Officer, Program Coordinator, Community Engagement Mgr | Major Portland NGO. Has international sponsorship infrastructure. |
+| Worksystems | Workforce development nonprofit (Portland) | worksystems.org/about/careers | Program Manager, Workforce Coordinator, Career Coach | Direct workforce/training fit. |
+| College Possible | College access nonprofit (multi-city incl Portland) | collegepossible.org/careers | Program Manager, Coach, Site Director (Junior) | Direct InGenius adjacency. |
+| Friends of the Children | Mentoring nonprofit (Portland-founded, national) | friendsofthechildren.org/careers | Program Manager, Friend Manager, Cohort Coordinator | Mentor program model. |
+| Self Enhancement Inc (SEI) | Portland youth services | selfenhancement.org/careers | Program Coordinator, Outreach Specialist, Academic Coach | Mission-driven Portland anchor. |
+| Portland Opportunities Industrialization Center (POIC) | Workforce + youth services | portlandoic.org/careers | Program Manager, Case Manager, Outreach Coordinator | |
+| Immigrant & Refugee Community Organization (IRCO) | Immigrant services (Portland) | irco.org/about/careers | Program Coordinator, Case Manager, Community Outreach | |
+| Native American Youth & Family Center (NAYA) | Indigenous youth services (Portland) | nayapdx.org/careers | Program Coordinator, Outreach Specialist | |
+| Latino Network | Latino community services (Portland) | latnet.org/careers | Program Manager, Family Engagement Coordinator | |
+| Albina Vision Trust | Black community redevelopment (Portland) | albinavision.org/careers | Program Manager, Community Engagement | |
+| United Way Columbia-Willamette | Funder + program ops (Portland) | unitedway-pdx.org/careers | Program Officer, Community Impact Manager (Junior) | |
+| Cascade AIDS Project | Health services nonprofit (Portland) | capnw.org/careers | Program Coordinator, Outreach Specialist | |
+| Path Home | Homelessness services (Portland) | pathhomeoregon.org/careers | Program Manager, Case Manager | |
+| Climate Solutions | Climate advocacy (PNW) | climatesolutions.org/jobs | Program Manager, Outreach Coordinator | |
+| Oregon Public Broadcasting (OPB) | Public media (Portland) | opb.org/about/jobs | Education Programs Manager, Community Engagement | |
+| OMSI (Oregon Museum of Science & Industry) | Museum/Education (Portland) | omsi.edu/careers | Education Program Manager, Engagement Coordinator | Direct edu program fit. |
+| Children's Institute | Early childhood policy (Portland) | childrensinstitute.org/careers | Program Manager, Policy Coordinator | |
+| Outside In | Homeless youth services (Portland) | outsidein.org/careers | Program Coordinator, Outreach Specialist | |
+| Wallace Medical Concern | Healthcare access nonprofit (Portland) | wallacemedical.org/careers | Program Coordinator | |
+| Meyer Memorial Trust | Foundation (Portland) | mmt.org/about/jobs | Program Officer (Associate level only — most are senior) | |
+| Oregon Community Foundation | Foundation (Portland statewide) | oregoncf.org/careers | Program Officer (Associate), Community Engagement Mgr | |
+| NW Health Foundation | Foundation (Seattle/Portland) | nwhf.org/about/jobs | Program Officer, Community Engagement | |
+| Group Health Foundation | Foundation (Tumwater WA) | grouphealthfoundation.org/careers | Program Officer, Community Engagement | Seattle-area. |
+| Casey Family Programs | Foster care / child welfare nonprofit (Seattle HQ) | casey.org/about/careers | Program Manager, Project Manager (entry/mid) | Cap-exempt nonprofit, Seattle. |
+| Bill & Melinda Gates Foundation | Global health/education foundation (Seattle) | gatesfoundation.org/about/careers | Program Coordinator, Program Officer (Associate) | Cap-exempt + sponsors internationally. |
+| Vulcan Inc / Vulcan Foundation | Mixed (Seattle, Paul Allen estate) | vulcan.com/careers | Program Coordinator | Seattle-based. |
+| Ballmer Group | Philanthropy (Bellevue + multi-city) | ballmergroup.org/careers | Program Officer (Junior) | Steve Ballmer foundation. |
+| Allen Institute for Brain Science | Research nonprofit (Seattle) | alleninstitute.org/careers | Program Coordinator, Education Program Manager | Cap-exempt. |
+| YMCA Columbia-Willamette | Community services (Portland) | ymcacw.org/careers | Program Coordinator, Director (junior tier) | |
+| Greater Seattle Partners | Economic dev | greaterseattlepartners.com/careers | Program Manager (entry) | |
+
+### 9b. Student Advising / Student Success / Academic Advising (PNW universities — cap-exempt)
+
+> v4.2 expanded role types — Jamie's InGenius experience (educational program ops + student/teacher stakeholder mgmt) is the direct bridge. Both academic-advising (faculty-adjacent, 1:1) AND student-success-program-management (cohort/program-level retention) are in scope.
+
+| Institution | Careers URL | Target Titles | Notes |
+|---|---|---|---|
+| Portland State University | jobs.hrc.pdx.edu | Academic Advisor, Student Success Coordinator, Student Engagement Specialist, Student Outreach Coordinator | Cap-exempt. |
+| University of Oregon | careers.uoregon.edu | Academic Advisor, Student Success Manager, Student Programs Coordinator | Cap-exempt (Eugene). |
+| Oregon State University | jobs.oregonstate.edu | Academic Advisor, Student Success Coordinator, Outreach Coordinator | Cap-exempt (Corvallis). |
+| University of Washington | careers.washington.edu | Academic Advisor, Student Success Mgr, Student Engagement Specialist | Cap-exempt (Seattle). |
+| University of Portland | up.edu/hr | Academic Advisor, Student Outreach Coordinator | Cap-exempt (Portland). |
+| Lewis & Clark | lclark.edu/about/careers | Academic Advisor, Student Success Coordinator | Cap-exempt (Portland). |
+| Reed College | reed.edu/human_resources/jobs | Student Programs Coordinator, Academic Support Specialist | Cap-exempt (Portland). |
+| Western Washington University | wwu.edu/hr/jobs | Academic Advisor, Student Success | Cap-exempt (Bellingham). |
+| Seattle University | seattleu.edu/hr/jobs | Academic Advisor, Student Engagement | Cap-exempt. |
+| Seattle Pacific University | spu.edu/hr/employment | Academic Advisor, Student Programs | Cap-exempt. |
+| Pacific University (Forest Grove OR) | pacificu.edu/about/careers | Academic Advisor, Student Success | Cap-exempt BUT explicit no-sponsorship per May 15 Training & Dev Coord posting. Verify per role. |
+
+### 9c. NGO/Nonprofit boards (add to Tier 7b.1 agent-accessible)
+
+| Board | URL | Notes |
+|---|---|---|
+| Idealist | idealist.org/jobs | Largest nonprofit job board. Public, searchable. Filter "Portland OR" + "Seattle WA". |
+| Nonprofit Oregon Job Board | nonprofitoregon.org/job-board | Portland-specific nonprofit roles. |
+| 501 Commons (Seattle) | 501commons.org/jobs | Seattle nonprofit roles. |
+| Washington Nonprofits Job Board | washingtonnonprofits.org/jobs | Statewide WA nonprofit jobs. |
+| Foundation Center / Candid | jobs.philanthropy.com | Foundation + funder roles. |
+
+---
+
 ## Tier 8 — EDUCATION / TALENT DEVELOPMENT SECTOR (Jamie's preference — check every run)
 
 > Companies in the talent development, CPT/CPTD certification, workforce training, and corporate

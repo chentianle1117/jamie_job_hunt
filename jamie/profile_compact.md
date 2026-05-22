@@ -46,13 +46,18 @@
 - "LinkedIn signals: ✅ Fresh / 0 applicants visible / Hybrid Portland" — confirms low-competition
 - Or if borderline: "⚠️ 73 applicants, fresh repost — apply with referral only"
 
-## Role Priorities (Updated May 12, 2026)
+## Role Priorities (Updated May 20, 2026 — v4.2 added NGO + Student Advising)
 1. **P1** Talent Dev / People Program Mgmt — SWEET SPOT (data + dashboards + people dev programs)
 2. **P1b** Education / Curriculum / Learning Program Manager — strong skill match (InGenius bridge: educational program ops, student/teacher stakeholder mgmt, vendor coord). Includes Education Program Manager, Curriculum Program Manager, Learning Program Manager, EdTech Program Manager at sponsors.
-3. **P2** People/HR Consulting at associate/analyst level only
-4. **P3** Employee Experience / OD (EX Specialist, OD Analyst, Engagement)
-5. **P4** Junior HRBP — ONLY assistant/associate level (10 mo direct exp)
-6. **P5** General HR — ONLY if strategic/program-focused, NOT operational
+3. **P1c** ⭐ NEW (v4.2): NGO Program Mgr / Community Outreach / Student Advising — direct InGenius adjacency. Includes:
+   - **Community Outreach Program Manager / Coordinator** at PNW NGOs (Mercy Corps, Worksystems, College Possible, Friends of the Children, SEI, POIC, IRCO, NAYA, Latino Network, Native American Youth & Family Center, Albina Vision Trust, Climate Solutions, United Way Columbia-Willamette, Cascade AIDS Project, Path Home)
+   - **Program Manager** at PNW nonprofits/foundations (Meyer Memorial Trust, Oregon Community Foundation, NW Health Foundation, Children's Institute)
+   - **Academic Advising / Student Advisor / Student Success Coordinator / Student Engagement Specialist** at PNW universities (PSU, UO, OSU, UW, U of Portland, Lewis & Clark, Reed — all cap-exempt)
+   - **Student Success Program Manager** (cohort-level retention, not 1:1 advising-only)
+4. **P2** People/HR Consulting at associate/analyst level only
+5. **P3** Employee Experience / OD (EX Specialist, OD Analyst, Engagement)
+6. **P4** Junior HRBP — ONLY assistant/associate level (10 mo direct exp)
+7. **P5** General HR — ONLY if strategic/program-focused, NOT operational
 
 **AVOID:** Admin HR, leave, ER, recruiting/TA, payroll, benefits, HRIS admin
 **CRITICAL:** Read actual JD responsibilities, not just titles
@@ -86,32 +91,74 @@
 - ~20% relocation roles at confirmed H1B sponsors in any US metro
 - LinkedIn Competition Filter still applies, but threshold loosened: 1 signal is OK if H1B-confirmed AND skill match ≥70%
 
-## Two-Tier Bar — Portland Breadth vs Non-Portland Precision (Revised May 13, 2026 PM)
+## Three-Tier Bar — Portland Breadth · Seattle/Remote Precision · Relocation Exact-Fit (v4.2 — May 20, 2026)
 
-> **Critical distinction:** Portland bar is WIDER (more role types accepted) but NOT LOWER. Non-Portland requires PRECISION — must be exactly Jamie's ideal scope AND she must clearly qualify.
+> v4.2 splits the old "Non-Portland" tier into two: Seattle/Remote-at-sponsor (Tier 2, high precision) and ANYWHERE-in-US-relocation (Tier 3, even higher precision but no geographic constraint). Per David's May 20 directive: if a role is a 4/4 exact fit and SOC-confirmed sponsor, Jamie is willing to relocate anywhere in the US.
 
 ### Tier 1: Portland / Beaverton / Hillsboro / Vancouver WA — WIDER scope, STILL must qualify
-- Accept: P1 Talent Dev/People Program Mgmt, P1b Edu/Curriculum PM, P2 Consulting Assoc/Analyst, P3 EX/OD, **P4 Junior HRBP (Associate only)**, **P5 General HR if strategic** — wider net
+- Accept: **P1**, **P1b**, **P1c (NGO/Community Outreach/Student Advising)**, P2 Consulting Assoc/Analyst, P3 EX/OD, **P4 Junior HRBP (Associate only)**, **P5 General HR if strategic** — wider net
 - Still required: 60-70%+ honest JD match, within 1yr of stated YOE min, no ★☆☆ primary, no hard-reject titles
 - "Wider" ≠ "lower qualification standard" — Jamie still has to credibly interview today
 
-### Tier 2: Non-Portland (Remote / Seattle / Relocation) — HIGH bar, EXACT FIT (v4.0 softened May 15)
-- Accept ONLY: P1, P1b, P2 Big4 Assoc/Analyst, P3 program-focused EX/OD specialist
+### Tier 2: Seattle / Remote at confirmed sponsor — HIGH bar, EXACT FIT
+- Accept ONLY: P1, P1b, P1c, P2 Big4 Assoc/Analyst, P3 program-focused EX/OD specialist
 - **SKIP P4 Junior HRBP** in Tier 2 (too generalist for non-local context)
 - **SKIP P5 General HR** in Tier 2
 - Required: **80%+ honest JD match** + YOE within range + NO ★☆☆ primary
-- **Advantage clause (v4.0):** Either A or B passes — both not required.
+- **Advantage clause:** Either A or B passes — both not required.
   - A. **One advantage present:** USC/Wesleyan alumni at co · confirmed non-tech H1B sponsor pattern (h1bdata + SOC 13-1151/11-3121 verified) · cap-exempt with grade-eligibility · USC alumni hiring manager
-  - B. **Triple-exact:** scope is P1 or P1b (sweet spot) AND honest match ≥85% AND confirmed non-tech H1B sponsor pattern via SOC-specific LCA — no other advantage needed.
-- (Old rule required scope + qualification + advantage all three — was eliminating valid candidates per May 15 audit. New rule keeps the precision bar while not double-counting.)
+  - B. **Triple-exact:** scope is P1 / P1b / P1c (sweet spot) AND honest match ≥85% AND confirmed non-tech H1B sponsor pattern via SOC-specific LCA — no other advantage needed.
+
+### Tier 3: ⭐ NEW (v4.2): Relocation — anywhere in US, EXACT-FIT ONLY
+> Jamie is willing to relocate ANYWHERE in the US if the role is genuinely her sweet spot AND the sponsor is verified. Geographic preference is irrelevant if all 4 criteria below are met.
+
+**Required (all 4, no half-credit):**
+1. **Honest match ≥85%** (higher than Tier 2's 80%)
+2. **Scope is P1, P1b, or P1c** (direct hit only — no P2/P3/P4/P5 in Tier 3)
+3. **SOC-confirmed non-tech sponsor** (verified LCA filing in SOC 13-1151 / 13-1071 / 11-3121 / 19-3032 in past 24 months — NOT generic "company sponsors")
+4. **Stable role** — not 12-month FTC, not contract, not temp
+
+If all 4 met → role surfaces with **🚚 "Worth relocating for"** flag and gets `+5 exact-fit relocation` modifier (replaces the normal Portland/Seattle +5).
+
+If any criterion misses → role does NOT appear in Tier 3 (does not become a "weaker" Tier 3 — it just isn't surfaced at all).
 
 ### Quick Decision Matrix
-| Scenario | Tier 1 | Tier 2 |
+| Scenario | Tier 1 (PDX) | Tier 2 (Sea/Remote) | Tier 3 (Anywhere) |
+|---|---|---|---|
+| Perfect title + 65% match (Portland) | ✅ | n/a | n/a |
+| Wider-but-relevant (jr HRBP, P5) + 70% (Portland) | ✅ | ❌ | ❌ |
+| P1c NGO/Student Advising + 70% (Portland) | ✅ | ❌ if 65% | ❌ |
+| Target title + 80%+ match + warm intro (Seattle) | n/a | ✅ | ✅ if 85%+ |
+| P1/P1b/P1c sweet spot + 85%+ match + SOC sponsor (anywhere) | n/a | ✅ | 🚚 |
+| Senior/Lead/Director (anywhere) | ❌ | ❌ | ❌ |
+
+---
+
+## "Fresh" Definition for Remote 100+ Applicant Rule (v4.2 — May 20, 2026)
+
+> Jamie's clarification May 20: "For remote jobs that just came out, even if it has 100 people applying, that's fine. When I say fresh, I mean past 48 hours."
+
+Modifying the LinkedIn Competition Filter for **remote roles with 100+ applicants** specifically:
+
+| Posting age | 100+ applicants + Remote | Reason |
 |---|---|---|
-| Perfect title + 65% match | ✅ | ❌ (need 80%+) |
-| Wider-but-relevant (e.g. jr HRBP) + 70% | ✅ | ❌ (P4/P5 not eligible) |
-| Target title + 80%+ match + warm intro | ✅ | ✅ (Tier 2 sweet spot) |
-| Senior/Lead/Director | ❌ | ❌ |
+| **≤ 48 hours** (🆕 Same-Week Fresh) | **KEEP** — surface with "early-applicant advantage" flag | You're competing with first-day applicants, not weeks of accumulated 100+ |
+| 3-14 days | HARD SKIP (old rule) | Too many cumulative applicants at this point |
+| 15+ days | HARD SKIP (old rule) | Stale + saturated |
+
+**Conditions for the 48-hour exception:**
+1. Honest match ≥75% (not just 70%)
+2. SOC-confirmed non-tech sponsor (no exceptions, must be verified)
+3. P1/P1b/P1c scope (no P2/P3/P4/P5 — too broad to compete on day-of)
+
+Below those thresholds, the 48-hour exception doesn't apply — HARD SKIP still rules.
+
+**New urgency tier:** 🆕 "Same-Week Fresh" sits ABOVE 🚨 Urgent. Urgency labels are now:
+- 🆕 Same-Week Fresh (≤48 hours)
+- 🚨 Urgent (3 days OR deadline within 7 days)
+- 🔶 Fresh (≤14 days)
+- ⏳ Aging (15-30 days)
+- 💤 Stale (30+ days)
 
 ---
 

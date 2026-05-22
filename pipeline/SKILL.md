@@ -232,6 +232,74 @@ These URLs still need Chrome/WebFetch verification (alerts often contain expired
 **Reference list (May 15 audit results — propagated to `h1b_verified.md`):**
 - ⚠️ Tech-only: Stripe, HubSpot, Cloudflare, Datadog, Shopify, T-Mobile, Zillow, Amazon (post-2024)
 - ❌ Confirmed no for non-tech: Veeva, WBD, NBCU, Jama Software, Accenture US, DocuSign, Hasbro (HR specifically)
+- ❌ Reconfirmed May 20: Deloitte (OWC Consultant JD now explicit no-sponsor — corrects earlier ✅), PwC (lottery-exempt only), Embark (0 LCAs ever — Apr 30 CPO Russell Weaver)
+- ❌ Structural class: Cannabis industry employers (Schedule I federal conflict — H1B legally impossible regardless of LCA pattern; e.g., Groundworks Industries Portland)
+
+---
+
+## 0.5f. NGO / Nonprofit / Student Advising Sweep (NEW v4.2 — May 20, 2026)
+
+> Per David's May 20 directive, Jamie's scope now explicitly includes:
+> - **P1c NGO Program Mgr / Community Outreach Coordinator** at PNW nonprofits
+> - **Academic Advising / Student Success / Student Engagement** at PNW universities (cap-exempt)
+> InGenius Prep experience (educational program ops + student/teacher stakeholder mgmt) is the direct bridge.
+
+**Always-run this sweep** alongside the cap-exempt employer agent in Step 2. Tier 9 in `watchlist.md` lists the 30+ PNW NGO targets and the cap-exempt universities with student-advising filters.
+
+**Discovery method:**
+1. Direct careers-page sweep for every Tier 9a NGO + Tier 9b university
+2. WebFetch each plausible JD; quote YOE + key reqs + sponsorship language
+3. Idealist.org + Nonprofit Oregon job board + 501 Commons + Washington Nonprofits as Tier 7b.1 backups (agent-accessible)
+4. SOC pre-filter still applies — but cap-exempt orgs may have ❓ status without disqualifying (cap-exempt = no lottery required, sponsorship is willingness-based not infrastructure-based)
+
+**Score modifier:** P1c roles get **+3** (same as P1/P1b) — Jamie's strongest InGenius adjacency.
+
+---
+
+## 0.5g. Tier 3 Relocation — Anywhere-in-US Exact-Fit (NEW v4.2 — May 20, 2026)
+
+> Per David's May 20 directive: "If there are any good jobs that are very suitable for me and will be right in my alley, but they are not in Portland-Seattle but somewhere else in the country, I would be open to relocation. Just make sure to filter for the really good ones."
+
+**Tier 3 — Anywhere in US — surfaces ONLY when ALL 4 criteria met (no half-credit):**
+1. **Honest match ≥ 85%** (higher than Tier 2's 80%)
+2. **Scope is P1, P1b, or P1c** (direct hit — no P2/P3/P4/P5 in Tier 3)
+3. **SOC-confirmed non-tech sponsor** (verified LCA in SOC 13-1151 / 13-1071 / 11-3121 / 19-3032 in past 24 months — NOT generic "company sponsors")
+4. **Stable role** — not 12-month FTC, not contract, not temp, not student-only
+
+When all 4 met:
+- Surfaces with **🚚 "Worth relocating for"** flag
+- Gets `+5 exact-fit relocation` modifier (replaces normal Portland/Seattle +5)
+- Email digest lists in dedicated "🚚 Relocation-worthy" section (distinct from Tier 1 Portland + Tier 2 Seattle/Remote)
+
+If even one criterion misses → role does NOT appear in Tier 3 (doesn't degrade to a "weaker" Tier 3 — it just isn't surfaced).
+
+---
+
+## 0.5h. "Same-Week Fresh" Remote 100+ Applicant Exception (NEW v4.2 — May 20, 2026)
+
+> Per David's May 20 directive: "For remote jobs that just came out, even if it has 100 people applying, that's fine. When I say fresh, I mean past 48 hours."
+
+LinkedIn Competition Filter is modified for REMOTE roles with 100+ applicants ONLY:
+
+| Posting age | 100+ apps + Remote | Action |
+|---|---|---|
+| **≤ 48 hours** | KEEP if conditions met | Surface with 🆕 "Same-Week Fresh" flag |
+| 3-14 days | HARD SKIP | Old rule holds |
+| 15+ days | HARD SKIP | Old rule holds |
+
+**Conditions for 48-hour exception (all 3 required):**
+1. Honest match ≥ 75% (higher than baseline 70%)
+2. SOC-confirmed non-tech sponsor (verified, not assumed)
+3. P1 / P1b / P1c scope (no P2/P3/P4/P5)
+
+Below thresholds → 48-hour exception does NOT apply; HARD SKIP still rules.
+
+**New urgency tier added:** 🆕 Same-Week Fresh sits ABOVE 🚨 Urgent. Updated urgency labels:
+- 🆕 Same-Week Fresh (≤ 48 hours)
+- 🚨 Urgent (≤ 3 days OR deadline within 7 days)
+- 🔶 Fresh (≤ 14 days)
+- ⏳ Aging (15-30 days)
+- 💤 Stale (30+ days)
 
 ---
 
