@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-05-27",
+  "purpose": "Single source of truth for every job Jamie has applied to (auto-submit or manual). Use this for dedup checks BEFORE adding any new candidate.",
+  "lane_definitions": {
+    "AUTO_SUBMITTED": "Pipeline submitted via Patchright. Confirmation page captured.",
+    "MANUAL_SUBMITTED": "Jamie submitted herself (LinkedIn / form).",
+    "PACKAGE_READY": "Resume + cover prepared but not yet submitted. Jamie review queue.",
+    "OUTREACH_FIRST": "Awaiting warm-intro response before submitting.",
+    "BLOCKED": "Couldn't auto-submit (Workday/PeopleAdmin/iCIMS gate).",
+    "REJECTED": "Confirmed rejected (silent or explicit).",
+    "ROLE_DELISTED": "Posting taken down before we could apply."
+  },
+  "applications": [
+    {
+      "id": "aurora_pmpplteam_2026-05-25",
+      "date_applied": "2026-05-25",
+      "company": "Aurora Innovation",
+      "title": "People PM",
+      "location": "Pittsburgh PA / Seattle WA",
+      "ats": "Greenhouse",
+      "lane": "AUTO_SUBMITTED",
+      "status": "confirmed",
+      "sponsorship_status": "confirmed_sponsor",
+      "salary": null,
+      "url": "https://job-boards.greenhouse.io/embed/job_app?for=aurorainnovation&token=8359484002",
+      "confirmation_url": "https://job-boards.greenhouse.io/embed/job_app/confirmation?for=aurorainnovation&token=8359484002",
+      "jamie_action_needed": false,
+      "notes": "Thank you for applying confirmation received. Awaiting recruiter response."
+    },
+    {
+      "id": "pacificseafood_tds_2026-05-25",
+      "date_applied": "2026-05-25",
+      "company": "Pacific Seafood",
+      "title": "Training & Development Specialist - Distribution",
+      "location": "Clackamas OR",
+      "ats": "PinpointHQ",
+      "lane": "AUTO_SUBMITTED",
+      "status": "confirmed",
+      "sponsorship_status": "unknown",
+      "salary": null,
+      "url": "https://careers.pacificseafood.com/postings/fdbbfc87-dc45-440b-8288-e98358551550/applications/new",
+      "confirmation_url": "https://careers.pacificseafood.com/postings/fdbbfc87-dc45-440b-8288-e98358551550/thanks",
+      "jamie_action_needed": false,
+      "notes": "Your application was received successfully. Local Portland metro."
+    },
+    {
+      "id": "builtin_peopleopsworkplaceexp_2026-05-27",
+      "date_applied": "2026-05-27",
+      "company": "Built In",
+      "title": "People Operations & Workplace Experience Specialist",
+      "location": "Chicago IL (relocation stated)",
+      "ats": "Greenhouse",
+      "lane": "AUTO_SUBMITTED",
+      "status": "confirmed",
+      "sponsorship_status": "unknown",
+      "salary": "$70-85K",
+      "url": "https://job-boards.greenhouse.io/builtin/jobs/7834159",
+      "confirmation_url": "https://job-boards.greenhouse.io/builtin/jobs/7834159/confirmation",
+      "jamie_action_needed": false,
+      "notes": "Thank you for applying. 2-4 YOE bracket = great fit. Stated open to relocation. 5 essay questions tailored to Jamie's actual experiences."
+    },
+    {
+      "id": "roivant_peopleopsassoc_2026-05-27",
+      "date_applied": "2026-05-27",
+      "company": "Roivant Sciences",
+      "title": "People Operations Associate",
+      "location": "New York NY (relocation stated)",
+      "ats": "Greenhouse",
+      "lane": "AUTO_SUBMITTED",
+      "status": "confirmed",
+      "sponsorship_status": "asked_on_form_jamie_said_yes",
+      "salary": "$90-110K",
+      "url": "https://job-boards.greenhouse.io/roivantsciences/jobs/7922791",
+      "confirmation_url": "https://job-boards.greenhouse.io/roivantsciences/jobs/7922791/confirmation",
+      "jamie_action_needed": false,
+      "notes": "Thank you for applying. Biotech holding co; M&A integration angle from Vestas was the hook. 2+ YOE met. 3 days NYC office, relocation stated. Sponsorship disclosed honestly."
+    }
+  ],
+  "dedup_companies": [
+    "aurora innovation",
+    "pacific seafood",
+    "built in",
+    "roivant sciences"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "company": "Roivant Sciences",
+    "role": "People Operations Associate",
+    "ats": "Greenhouse",
+    "job_id": "7922791",
+    "url": "https://job-boards.greenhouse.io/roivantsciences/jobs/7922791",
+    "date": "2026-05-27"
+  },
+  "personal": {
+    "first_name": "Yi-Chieh",
+    "last_name": "Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "+1-213-700-3831",
+    "country": "United States",
+    "location": "Portland, OR (open to relocate to NYC)"
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/yi-chieh-cheng/"
+  },
+  "work_authorization": {
+    "currently_authorized_to_work_in_us": "Yes",
+    "sponsorship_required": "Yes",
+    "sponsorship_notes": "Will require H-1B sponsorship. Currently on valid work authorization status."
+  },
+  "role_specific": {
+    "nyc_3day_hybrid_office": "Yes — committed to relocating to NYC",
+    "years_of_experience_people_ops_hr_generalist": "3 years",
+    "direct_management_of_employee_lifecycle_processes": "Yes",
+    "hands_on_hris_experience_data_management_reporting": "Yes",
+    "currently_us_based": "Yes"
+  },
+  "salary": {
+    "expected_range": "$90,000–$110,000",
+    "notes": "Within posted band; open to discussion"
+  },
+  "documents": {
+    "resume": "resume.json (render to PDF before upload)",
+    "cover_letter": "cover_letter.md (paste as text or attach as PDF)"
+  }
+}
