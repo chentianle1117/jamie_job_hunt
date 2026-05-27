@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "company": "Anthropic",
+    "role": "Program Operations Manager, Human Data",
+    "date": "2026-05-27",
+    "pageMargins": { "top": "0.35in", "right": "0.45in", "bottom": "0.35in", "left": "0.45in" },
+    "autoFit": true,
+    "fontRange": [8.5, 10.0]
+  },
+  "header": {
+    "location": "Portland, OR (Open to Relocation — SF or NYC)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Program Operations Manager</b> who thrives on <b>building systems that keep distributed programs running</b>, <b>tracking data for reliable decision-making</b>, and <b>coordinating across functions to scale with precision</b>. Expect me to always be seeking ways we can improve operational experience—through human-centered, data-driven approaches.",
+  "keywordGroups": {
+    "data": "Data/Tracking",
+    "coord": "Process/Ops",
+    "cross": "Stakeholders/Cross-Functional",
+    "ex": "Onboarding/Access",
+    "tools": "Systems/Tools",
+    "prog": "Programs/Vendor Mgmt"
+  },
+  "experience": [
+    {
+      "id": "odn",
+      "title": "Consultant, Organizational Development & Employee Engagement",
+      "company": "Transition Projects Inc. (via ODN Oregon)",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Upskill HR team in {data|data analytics} to audit 300+ leave cases, successfully refuting cost assumptions via {data|evidence-based insights}",
+          "change": null,
+          "jd": ["jd4"]
+        },
+        {
+          "text": "Empower HR to present {data|executive-ready insights} on $362K in leave costs, leading to policy redesigns and first aid training",
+          "change": null,
+          "jd": ["jd4", "jd5"]
+        }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Manager, Enablement",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Manage {prog|20+ programs} and {prog|10+ vendors}, maintaining {data|data accuracy} across tracking systems and refining {coord|operations} via feedback analysis",
+          "change": "swap",
+          "original": "Manage 20+ programs and 10+ vendors, refining program positioning, delivery strategy, and operations via feedback analysis",
+          "jd": ["jd1", "jd3", "jd4"],
+          "reason": "JD: 'data integrity — keep tracking systems accurate and current' + 'vendor management' — leads with data accuracy and vendor ops, the two JD anchors"
+        },
+        {
+          "text": "Build {coord|onboarding documentation} and workflows for 70+ {cross|cross-functional} staff, reducing ramp-up time by 75%",
+          "change": "word",
+          "original": "Develop guides and workflows for 70+ cross-functional staff, improving program knowledge and reducing onboarding time by 75%",
+          "jd": ["jd2"],
+          "reason": "JD: 'own the workflow that takes external experts from offer-accepted to productive' — 'onboarding documentation' directly mirrors that language"
+        },
+        {
+          "text": "Facilitate {ex|onboarding webinars} and live training for 600+ participants, maintaining {ex|high-volume} program access and a 78% engagement rate",
+          "change": "swap",
+          "original": "Facilitate training webinars for 600+ participants, enhancing program understanding and driving a 78% client conversion rate",
+          "jd": ["jd1", "jd2"],
+          "reason": "JD: 'comfortable being primary point of contact for a large, distributed population' — reframed as onboarding access + high-volume management"
+        },
+        {
+          "text": "Conduct needs assessments with 25+ global {cross|stakeholders} to identify gaps and design 3 new programs aligned with {coord|operational objectives}",
+          "change": "word",
+          "original": "Conduct needs assessments with 25+ global stakeholders to identify learning gaps and design 3 new educational programs",
+          "jd": ["jd6"],
+          "reason": "JD: 'cross-functional collaboration with research teams, IT, vendor partners' — reframed as ops-objective alignment"
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed engagement strategies",
+          "change": null,
+          "jd": ["jd4"]
+        },
+        {
+          "text": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on satisfaction drivers",
+          "change": null,
+          "jd": ["jd5"]
+        },
+        {
+          "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review",
+          "change": null
+        },
+        {
+          "text": "Elevated {ex|employee experience} via 5 {cross|cross-functional} projects focusing on survey development, rewards & recognition, and L&D",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, migrating and merging {data|employee records} across systems",
+          "change": "swap",
+          "original": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, overseeing cross-functional stakeholders",
+          "jd": ["jd3", "jd4"],
+          "reason": "JD: 'access management — grant, audit, and maintain access across collaboration tools and internal systems' + 'data integrity' — data migration in M&A maps directly"
+        },
+        {
+          "text": "Streamlined {coord|onboarding processes} across 3 global locations by conducting {data|process analysis} and clarifying job responsibilities",
+          "change": "word",
+          "original": "Optimized onboarding processes across 3 global locations by conducting process analysis and clarifying job responsibilities",
+          "jd": ["jd2"],
+          "reason": "JD: onboarding workflow ownership — second direct onboarding proof point, cross-location scale"
+        },
+        {
+          "text": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations",
+          "change": null
+        },
+        {
+          "text": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management",
+          "change": null
+        },
+        {
+          "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details",
+          "change": null
+        },
+        {
+          "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months",
+          "change": null
+        },
+        {
+          "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants",
+          "change": null
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": ["Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": []
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Technical Skills:</b> ATS ({tools|Greenhouse}) · HRIS (Rippling, ADP, SAP) · Project Management ({tools|Asana}, Airtable) · Data Analysis (Excel, SPSS, Google Sheets) · Knowledge Management (Notion, SharePoint) · {tools|AI Tools} (ChatGPT, Gemini, Notion AI) · Google Workspace · Microsoft Office",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "Anthropic — Program Operations Manager, Human Data · SF or NYC · $270–290K · Posted May 2026",
+    "sections": [
+      {
+        "title": "What You'll Do",
+        "type": "requirements",
+        "items": [
+          {
+            "id": "jd1",
+            "changeType": "swap",
+            "text": "{coord|Onboarding Workflow:} Own the workflow that takes external experts from offer-accepted to productive — access, orientation, and first-week support.",
+            "reason": "InGenius #2: 'Build onboarding documentation and workflows for 70+ staff, reducing ramp-up time by 75%'"
+          },
+          {
+            "id": "jd2",
+            "changeType": "swap",
+            "text": "{ex|Access Management:} Grant, audit, and maintain access across {tools|collaboration tools} and internal systems for a large, distributed population.",
+            "reason": "InGenius #3 (600+ participants) · Vestas M&A: 'migrating and merging employee records across systems'"
+          },
+          {
+            "id": "jd3",
+            "changeType": "swap",
+            "text": "{prog|Vendor Operations:} Work with vendor partners on access and support issues; manage external workforce operations end-to-end.",
+            "reason": "InGenius #1: 'Manage 20+ programs and 10+ vendors' — primary vendor mgmt proof point"
+          },
+          {
+            "id": "jd4",
+            "changeType": "swap",
+            "text": "{data|Data Integrity:} Keep tracking systems accurate and current; research teams rely on this data for daily decisions.",
+            "reason": "InGenius #1: 'maintaining data accuracy across tracking systems' · ODN: '300+ leave cases audited' · Vestas M&A: employee record migration"
+          },
+          {
+            "id": "jd5",
+            "changeType": "word",
+            "text": "{data|Weekly Metrics Reporting:} Build and maintain reporting on headcount, productivity time, support volume, and domain coverage.",
+            "reason": "ODN #2: '$362K in leave costs — executive-ready insights' · NextGen: 'analyzed 2,000+ employee responses, reporting insights to C-suite'"
+          },
+          {
+            "id": "jd6",
+            "changeType": "word",
+            "text": "{cross|Cross-Functional Collaboration:} Work with research teams, IT, and vendor partners; comfortable executing at high volume in a still-evolving program.",
+            "reason": "InGenius #4: '25+ global stakeholders'; comfortable in ambiguous, high-volume operational contexts"
+          }
+        ]
+      },
+      {
+        "title": "Requirements",
+        "type": "requirements",
+        "items": [
+          {
+            "text": "4+ years in program operations, research operations, recruiting coordination, or vendor management (Jamie: ~3 years, stretch)"
+          },
+          {
+            "text": "Owned an operational process end-to-end with accountability for outcomes"
+          },
+          {
+            "text": "Comfortable as primary point of contact for large, distributed population"
+          },
+          {
+            "text": "Strong detail orientation and data accuracy focus"
+          },
+          {
+            "text": "Experience using AI tools for drafting, data work, and automation"
+          },
+          {
+            "text": "Preferred: program scaling experience, external workforce/vendor ops, light scripting"
+          }
+        ]
+      }
+    ]
+  },
+  "changeLog": [
+    {
+      "location": "Summary",
+      "type": "swap",
+      "before": "Organizational Development professional who thrives on solving problems through data analysis, developing programs grounded in insights...",
+      "after": "Program Operations Manager who thrives on building systems that keep distributed programs running, tracking data for reliable decision-making, and coordinating across functions to scale with precision",
+      "why": "JD title is 'Program Operations Manager' — leads with ops identity; 'systems', 'distributed', 'data', 'scale' map to JD's onboarding/access/integrity/metrics themes"
+    },
+    {
+      "location": "Header location",
+      "type": "word",
+      "before": "Portland, OR (Open to Remote or Relocation)",
+      "after": "Portland, OR (Open to Relocation — SF or NYC)",
+      "why": "JD requires SF or NYC in-office; honest signal of willingness to relocate to either"
+    },
+    {
+      "location": "InGenius title",
+      "type": "word",
+      "before": "Program Enablement Manager",
+      "after": "Program Manager, Enablement",
+      "why": "Ops/PM signal — closer to JD title framing"
+    },
+    {
+      "location": "InGenius #1",
+      "type": "swap",
+      "before": "Manage 20+ programs and 10+ vendors, refining program positioning, delivery strategy, and operations via feedback analysis",
+      "after": "Manage 20+ programs and 10+ vendors, maintaining data accuracy across tracking systems and refining operations via feedback analysis",
+      "why": "JD: 'data integrity — keep tracking systems accurate and current' is a core requirement — surfaces data accuracy as the anchor alongside vendor scale"
+    },
+    {
+      "location": "InGenius #2",
+      "type": "word",
+      "before": "Develop guides and workflows for 70+ cross-functional staff, improving program knowledge and reducing onboarding time by 75%",
+      "after": "Build onboarding documentation and workflows for 70+ cross-functional staff, reducing ramp-up time by 75%",
+      "why": "JD: 'own the workflow that takes external experts from offer-accepted to productive' — 'onboarding documentation' is a literal mirror"
+    },
+    {
+      "location": "InGenius #3",
+      "type": "swap",
+      "before": "Facilitate training webinars for 600+ participants, enhancing program understanding and driving a 78% client conversion rate",
+      "after": "Facilitate onboarding webinars and live training for 600+ participants, maintaining high-volume program access and a 78% engagement rate",
+      "why": "JD: 'comfortable being primary point of contact for a large, distributed population' — reframed as high-volume access/onboarding context"
+    },
+    {
+      "location": "InGenius #4",
+      "type": "word",
+      "before": "Conduct needs assessments with 25+ global stakeholders to identify learning gaps and design 3 new educational programs",
+      "after": "Conduct needs assessments with 25+ global stakeholders to identify gaps and design 3 new programs aligned with operational objectives",
+      "why": "Shifted from 'learning gaps' to 'gaps' + 'operational objectives' — matches JD's ops framing, not L&D"
+    },
+    {
+      "location": "Vestas #1 (reordered to lead)",
+      "type": "swap",
+      "before": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders...",
+      "after": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, migrating and merging employee records across systems",
+      "why": "JD: 'access management — grant, audit, and maintain access across internal systems' + 'data integrity' — M&A record migration is the most direct analog"
+    },
+    {
+      "location": "Vestas #2",
+      "type": "word",
+      "before": "Optimized onboarding processes across 3 global locations by conducting process analysis and clarifying job responsibilities",
+      "after": "Streamlined onboarding processes across 3 global locations by conducting process analysis and clarifying job responsibilities",
+      "why": "Slight word swap to 'streamlined'; pairs with InGenius 75% onboarding bullet for double proof on JD's onboarding workflow requirement"
+    },
+    {
+      "location": "Skills",
+      "type": "swap",
+      "before": "HRIS · ATS (Greenhouse) · LMS (Canvas, Moodle-user) · MS Office · Data Analysis (SPSS, Excel)",
+      "after": "ATS (Greenhouse) · HRIS (Rippling, ADP, SAP) · Project Management (Asana, Airtable) · Data Analysis (Excel, SPSS, Google Sheets) · Knowledge Management (Notion, SharePoint) · AI Tools (ChatGPT, Gemini, Notion AI) · Google Workspace · Microsoft Office",
+      "why": "JD: 'experience using AI tools for drafting, data work, and automation' — AI tools surfaced explicitly; Greenhouse first (they use it); ops tools (Asana, Notion) over LMS; HRCI cert dropped (ops role, not HR cert-sensitive)"
+    }
+  ]
+}

@@ -81,6 +81,21 @@
     "aurora innovation",
     "pacific seafood",
     "built in",
-    "roivant sciences"
+    "roivant sciences",
+    "anthropic"
+  ],
+  "blocked_or_decision_needed": [
+    {
+      "id": "anthropic_progopshumandata_2026-05-27",
+      "date": "2026-05-27",
+      "company": "Anthropic",
+      "title": "Program Operations Manager, Human Data",
+      "location": "SF or NYC",
+      "ats": "Greenhouse",
+      "lane": "DECISION",
+      "blocker": "Hard YOE gate: form asks 'Do you have at least 4 years industry experience?' Jamie has 3.",
+      "package_ready": true,
+      "recommendation": "Skip cold apply; pursue via direct LinkedIn outreach to Anthropic talent team (confirmed H1B sponsor + great scope match)."
+    }
   ]
 }

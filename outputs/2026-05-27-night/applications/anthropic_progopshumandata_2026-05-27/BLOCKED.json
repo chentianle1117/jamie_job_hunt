@@ -1,0 +1,15 @@
+{
+  "status": "BLOCKED_HONESTY_GATE",
+  "company": "Anthropic",
+  "role": "Program Operations Manager, Human Data",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5194302008",
+  "blocker": "Form requires honest answer to: 'Do you have at least 4 years of industry work experience (not counting internships)?' Jamie has 3 years. Truthful answer = No, which likely auto-rejects.",
+  "decision_for_jamie": [
+    "OPTION A: Apply anyway, answer No honestly. Risk: auto-screened out by the 4yr filter.",
+    "OPTION B: Skip this one. Anthropic is high-value but 4yr gate is hard.",
+    "OPTION C: Find a referral / connect with Anthropic recruiter directly before applying (warm intro path)."
+  ],
+  "recommended": "C. Anthropic is a confirmed H1B sponsor and the role is a great scope match. A direct LinkedIn outreach to Anthropic Talent or People team naming the gap upfront has better odds than a cold app at 75% YOE.",
+  "package_ready": true,
+  "files": ["resume.pdf (1 page)", "cover_letter.pdf (1 page, candidly addresses YOE gap)", "tailor_notes.md"]
+}
