@@ -1,0 +1,46 @@
+{
+  "platform": "Greenhouse",
+  "job_url": "https://job-boards.greenhouse.io/anthropic/jobs/5194302008",
+  "application_date": "2026-05-27",
+
+  "personal_info": {
+    "first_name": "Yi-Chieh (Jamie)",
+    "last_name": "Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "",
+    "location": "Portland, OR",
+    "linkedin": ""
+  },
+
+  "role": {
+    "title": "Program Operations Manager, Human Data",
+    "company": "Anthropic",
+    "location_preference": "Either — San Francisco, CA or New York City, NY (open to relocation to both)"
+  },
+
+  "work_authorization": {
+    "authorized_to_work_in_us": false,
+    "visa_sponsorship_required": true,
+    "visa_type": "H-1B",
+    "sponsorship_note": "Currently on OPT/STEM OPT; will require H-1B sponsorship. Anthropic explicitly lists visa sponsorship on this posting."
+  },
+
+  "standard_greenhouse_questions": {
+    "how_did_you_hear": "Job board / online listing",
+    "salary_expectations": "In line with posted range ($270,000–$290,000)",
+    "earliest_start_date": "4–6 weeks after offer (relocation to SF or NYC)",
+    "willing_to_relocate": true,
+    "open_to_remote": false,
+    "years_of_experience": "3",
+    "note_on_yoe": "3 years of direct program operations experience (InGenius: 20+ programs, 10+ vendors, 600+ participants; Vestas: M&A data migration, global onboarding; ODN: leave case audit and executive reporting). JD requires 4+; applicant is within 1 year of stated minimum."
+  },
+
+  "attachments": {
+    "resume": "Anthropic_Jamie (Yi-Chieh) Cheng_Program-Ops-Manager-Human-Data_2026-05-27.pdf",
+    "cover_letter": "cover_letter.md (converted to PDF for upload)"
+  },
+
+  "diversity_questions": {
+    "note": "Fill per personal preference — Anthropic Greenhouse forms typically include voluntary EEOC fields (gender, race/ethnicity, veteran status, disability). These are optional and confidential."
+  }
+}
