@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Jamie's Road Trip Job Search Dashboard</title>
+<style>
+  :root {
+    --bg: #fafaf9;
+    --card: #fff;
+    --border: #e7e5e4;
+    --text: #1c1917;
+    --muted: #78716c;
+    --green: #16a34a;
+    --amber: #d97706;
+    --red: #dc2626;
+    --blue: #2563eb;
+    --purple: #7c3aed;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 24px;
+    line-height: 1.5;
+  }
+  .header {
+    max-width: 1200px;
+    margin: 0 auto 24px;
+  }
+  h1 { margin: 0 0 4px; font-size: 26px; }
+  .subtitle { color: var(--muted); font-size: 14px; margin-bottom: 16px; }
+  .stats { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 20px; }
+  .stat {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 16px;
+    min-width: 140px;
+  }
+  .stat-value { font-size: 24px; font-weight: 700; }
+  .stat-label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
+  .container { max-width: 1200px; margin: 0 auto; }
+  .lanes { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+  .lane {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+  }
+  .lane-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  .lane-title { font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .lane-count { background: var(--bg); padding: 2px 8px; border-radius: 12px; font-size: 12px; font-weight: 600; }
+  .applied .lane-title { color: var(--green); }
+  .needs-jamie .lane-title { color: var(--amber); }
+  .outreach .lane-title { color: var(--purple); }
+  .card {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+  .card-title { font-weight: 600; margin-bottom: 4px; }
+  .card-meta { color: var(--muted); font-size: 11px; margin-bottom: 6px; }
+  .card-note { color: var(--text); font-size: 12px; line-height: 1.4; }
+  .badge {
+    display: inline-block;
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-right: 4px;
+  }
+  .badge-green { background: #dcfce7; color: var(--green); }
+  .badge-amber { background: #fef3c7; color: var(--amber); }
+  .badge-red { background: #fee2e2; color: var(--red); }
+  .badge-blue { background: #dbeafe; color: var(--blue); }
+  .badge-purple { background: #f3e8ff; color: var(--purple); }
+  a { color: var(--blue); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .action-cta {
+    background: var(--amber);
+    color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 4px;
+  }
+  .updated { font-size: 11px; color: var(--muted); margin-top: 16px; text-align: center; }
+  @media (max-width: 900px) {
+    .lanes { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🐦 Jamie's Job Search — Road Trip Dashboard</h1>
+  <div class="subtitle">10-minute daily check. Auto-updated. Green = done. Amber = your action needed.</div>
+
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-value" id="stat-applied">4</div>
+      <div class="stat-label">Auto-Submitted</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value" id="stat-needs-jamie">0</div>
+      <div class="stat-label">Needs Decision</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value" id="stat-outreach">3</div>
+      <div class="stat-label">Outreach Ready</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value" id="stat-days">2</div>
+      <div class="stat-label">Days Active</div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="lanes">
+    <!-- LANE 1: APPLIED (just FYI) -->
+    <div class="lane applied">
+      <div class="lane-header">
+        <div class="lane-title">✅ Applied (FYI)</div>
+        <div class="lane-count">4</div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Roivant Sciences <span class="badge badge-green">Confirmed</span></div>
+        <div class="card-meta">People Operations Associate · NYC biotech · $90-110K · 2026-05-27</div>
+        <div class="card-note">Honest sponsorship = Yes. NYC relocation stated. M&amp;A hook in cover. <a href="https://job-boards.greenhouse.io/roivantsciences/jobs/7922791/confirmation" target="_blank">Confirmation</a></div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Built In <span class="badge badge-green">Confirmed</span></div>
+        <div class="card-meta">People Ops &amp; Workplace Spec · Chicago hybrid · $70-85K · 2026-05-27</div>
+        <div class="card-note">5 essay questions answered with real Jamie experiences. Chicago relocation Yes. <a href="https://job-boards.greenhouse.io/builtin/jobs/7834159/confirmation" target="_blank">Confirmation</a></div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Pacific Seafood <span class="badge badge-green">Confirmed</span></div>
+        <div class="card-meta">Training &amp; Development Specialist · Clackamas OR · 2026-05-25</div>
+        <div class="card-note">Portland-local; PinpointHQ React-event submit pattern cracked. <a href="https://careers.pacificseafood.com/postings/fdbbfc87-dc45-440b-8288-e98358551550/thanks" target="_blank">Confirmation</a></div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Aurora Innovation <span class="badge badge-green">Confirmed</span></div>
+        <div class="card-meta">People PM · Pittsburgh/Seattle · 2026-05-25</div>
+        <div class="card-note">First live submit; Greenhouse embed pattern. <a href="https://job-boards.greenhouse.io/embed/job_app/confirmation?for=aurorainnovation&token=8359484002" target="_blank">Confirmation</a></div>
+      </div>
+    </div>
+
+    <!-- LANE 2: NEEDS JAMIE (action required) -->
+    <div class="lane needs-jamie">
+      <div class="lane-header">
+        <div class="lane-title">⚠️ Needs Decision</div>
+        <div class="lane-count">0</div>
+      </div>
+      <div class="card" style="background: #f0fdf4; border-color: #bbf7d0;">
+        <div class="card-title" style="color: var(--green);">All clear right now! 🎉</div>
+        <div class="card-note">No pending decisions. Pipeline is working autonomously. Next discovery run will surface new candidates.</div>
+      </div>
+    </div>
+
+    <!-- LANE 3: OUTREACH READY -->
+    <div class="lane outreach">
+      <div class="lane-header">
+        <div class="lane-title">📧 Outreach Ready</div>
+        <div class="lane-count">3</div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Roivant direct outreach <span class="badge badge-purple">High-yield</span></div>
+        <div class="card-meta">M&amp;A integration hook · NYC People Ops team</div>
+        <div class="card-note">Direct email to Roivant People team lead. Needs: LinkedIn search for name. Template ready.</div>
+        <div class="action-cta">Find recipient → Send</div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">USC alum referral request <span class="badge badge-purple">Network</span></div>
+        <div class="card-meta">USC MSAOP cohort · Portland-region sponsor</div>
+        <div class="card-note">Find USC Applied Org Psych alum at Mercer/Aon/Nike/Intel/Korn Ferry. Email template ready.</div>
+        <div class="action-cta">LinkedIn search → Send</div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Wesleyan alum @ Built In <span class="badge badge-purple">Network</span></div>
+        <div class="card-meta">Small-school warm in · Chicago tech</div>
+        <div class="card-note">Find Wesleyan grad at Built In's People team. Email leverages Wes '20 connection.</div>
+        <div class="action-cta">LinkedIn search → Send</div>
+      </div>
+
+      <div style="font-size: 11px; color: var(--muted); margin-top: 8px;">
+        Full templates: <a href="../outputs/2026-05-27-night/outreach/daily_kit_2026-05-27.md">daily_kit_2026-05-27.md</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="updated">
+    Data source: <code>jamie/master_tracker.json</code> · Last run: 2026-05-27 · Next: tomorrow night
+  </div>
+</div>
+
+</body>
+</html>
