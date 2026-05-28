@@ -101,10 +101,12 @@ All have subject prefix `[OUTREACH]` for easy Gmail filtering. **Each needs you 
 ## 🚀 Your 10-minute action checklist
 
 1. **Open dashboard** — `jamie/dashboard.html` (this is the visual version of everything above)
-2. **Submit Aurora HR Generalist manually (2 min)** — Open https://job-boards.greenhouse.io/embed/job_app?for=aurorainnovation&token=8520165002 → autofill via Simplify Copilot OR upload these PDFs:
-   - Resume: `outputs/2026-05-27-night-2/applications/aurora_hr_generalist_2026-05-28/resume.pdf`
-   - Cover: `outputs/2026-05-27-night-2/applications/aurora_hr_generalist_2026-05-28/cover_letter.pdf`
-   - Sponsorship = Yes (HONEST), Office = Mountain View, CA, Former Aurora employee = No
+2. **Submit Aurora HR Generalist — 30 seconds of clicking (the script already filled 90% of the form last night)** —
+   - Open https://job-boards.greenhouse.io/embed/job_app?for=aurorainnovation&token=8520165002
+   - **You'll see everything pre-filled** if the form session persisted: name, email, phone, country, resume, cover letter, all the Yes/No questions, Mountain View office, LinkedIn URL
+   - **ONLY THING UNFILLED:** 2 demographic dropdowns at bottom (Gender + Race) — auto-handler couldn't crack Aurora's react-select. **Select "Decline to self-identify" on both** OR your real answers
+   - Click **Submit application** at the bottom right
+   - If session didn't persist: PDFs are pre-rendered at `outputs/2026-05-27-night-2/applications/aurora_hr_generalist_2026-05-28/` (resume.pdf + cover_letter.pdf, both 1-page). Use Simplify Copilot to autofill the rest. ~2 min total.
 3. **Outreach Gmail review (5 min)** — Open Gmail, filter `[OUTREACH]`, decide which 2-3 you want to send today. Find email addresses via LinkedIn → update To field → Send.
 4. **Anthropic decision (2 min)** — Skip / warm intro / apply anyway. My rec: warm intro path.
 5. **Reply to me with what tone landed best** — your feedback on the 5 outreach samples will calibrate every future outreach draft
