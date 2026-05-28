@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Jamie's Road Trip Job Search Dashboard</title>
+<title>Jamie's Job Search — Road Trip Dashboard</title>
 <style>
   :root {
     --bg: #fafaf9;
@@ -15,6 +15,7 @@
     --red: #dc2626;
     --blue: #2563eb;
     --purple: #7c3aed;
+    --teal: #0d9488;
   }
   * { box-sizing: border-box; }
   body {
@@ -25,24 +26,22 @@
     padding: 24px;
     line-height: 1.5;
   }
-  .header {
-    max-width: 1200px;
-    margin: 0 auto 24px;
-  }
+  .header { max-width: 1400px; margin: 0 auto 24px; }
   h1 { margin: 0 0 4px; font-size: 26px; }
   .subtitle { color: var(--muted); font-size: 14px; margin-bottom: 16px; }
-  .stats { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 20px; }
+  .stats { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 20px; }
   .stat {
     background: var(--card);
     border: 1px solid var(--border);
     border-radius: 8px;
     padding: 12px 16px;
-    min-width: 140px;
+    min-width: 130px;
   }
   .stat-value { font-size: 24px; font-weight: 700; }
-  .stat-label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
-  .container { max-width: 1200px; margin: 0 auto; }
-  .lanes { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+  .stat-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
+  .container { max-width: 1400px; margin: 0 auto; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+  .row-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 16px; }
   .lane {
     background: var(--card);
     border: 1px solid var(--border);
@@ -55,6 +54,9 @@
   .applied .lane-title { color: var(--green); }
   .needs-jamie .lane-title { color: var(--amber); }
   .outreach .lane-title { color: var(--purple); }
+  .mechanism .lane-title { color: var(--teal); }
+  .autofill .lane-title { color: var(--blue); }
+  .samples .lane-title { color: var(--purple); }
   .card {
     background: var(--bg);
     border: 1px solid var(--border);
@@ -65,7 +67,7 @@
   }
   .card-title { font-weight: 600; margin-bottom: 4px; }
   .card-meta { color: var(--muted); font-size: 11px; margin-bottom: 6px; }
-  .card-note { color: var(--text); font-size: 12px; line-height: 1.4; }
+  .card-note { color: var(--text); font-size: 12px; line-height: 1.45; }
   .badge {
     display: inline-block;
     padding: 1px 6px;
@@ -81,6 +83,7 @@
   .badge-red { background: #fee2e2; color: var(--red); }
   .badge-blue { background: #dbeafe; color: var(--blue); }
   .badge-purple { background: #f3e8ff; color: var(--purple); }
+  .badge-teal { background: #ccfbf1; color: var(--teal); }
   a { color: var(--blue); text-decoration: none; }
   a:hover { text-decoration: underline; }
   .action-cta {
@@ -93,9 +96,24 @@
     display: inline-block;
     margin-top: 4px;
   }
+  .action-cta-send {
+    background: var(--purple);
+    color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 4px;
+  }
   .updated { font-size: 11px; color: var(--muted); margin-top: 16px; text-align: center; }
-  @media (max-width: 900px) {
-    .lanes { grid-template-columns: 1fr; }
+  table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  table td { padding: 4px 6px; border-bottom: 1px solid var(--border); }
+  table td:first-child { font-weight: 600; color: var(--muted); width: 40%; }
+  .data-status-ok { color: var(--green); font-weight: 600; }
+  .data-status-warn { color: var(--amber); font-weight: 600; }
+  @media (max-width: 1100px) {
+    .row, .row-3 { grid-template-columns: 1fr; }
   }
 </style>
 </head>
@@ -103,66 +121,71 @@
 
 <div class="header">
   <h1>🐦 Jamie's Job Search — Road Trip Dashboard</h1>
-  <div class="subtitle">10-minute daily check. Auto-updated. Green = done. Amber = your action needed.</div>
+  <div class="subtitle">10-minute daily check. Updated 2026-05-28. Green = done. Amber = your action needed. Purple = click-to-send.</div>
 
   <div class="stats">
     <div class="stat">
-      <div class="stat-value" id="stat-applied">4</div>
-      <div class="stat-label">Auto-Submitted</div>
+      <div class="stat-value" style="color: var(--green);">4</div>
+      <div class="stat-label">Live Submitted</div>
     </div>
     <div class="stat">
-      <div class="stat-value" id="stat-needs-jamie">1</div>
-      <div class="stat-label">Needs Decision</div>
+      <div class="stat-value" style="color: var(--amber);">1</div>
+      <div class="stat-label">Decision Needed</div>
     </div>
     <div class="stat">
-      <div class="stat-value" id="stat-outreach">3</div>
-      <div class="stat-label">Outreach Ready</div>
+      <div class="stat-value" style="color: var(--purple);">5</div>
+      <div class="stat-label">Gmail Drafts Ready</div>
     </div>
     <div class="stat">
-      <div class="stat-value" id="stat-days">2</div>
+      <div class="stat-value" style="color: var(--teal);">6/8</div>
+      <div class="stat-label">Mechanisms ✅</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value" style="color: var(--blue);">3</div>
       <div class="stat-label">Days Active</div>
     </div>
   </div>
 </div>
 
 <div class="container">
-  <div class="lanes">
-    <!-- LANE 1: APPLIED (just FYI) -->
+  <!-- ROW 1: Applied (FYI) | Needs Decision -->
+  <div class="row">
+    <!-- LANE: APPLIED -->
     <div class="lane applied">
       <div class="lane-header">
-        <div class="lane-title">✅ Applied (FYI)</div>
-        <div class="lane-count">4</div>
+        <div class="lane-title">✅ Applied (FYI — no action needed)</div>
+        <div class="lane-count">4 confirmed</div>
       </div>
 
       <div class="card">
         <div class="card-title">Roivant Sciences <span class="badge badge-green">Confirmed</span></div>
         <div class="card-meta">People Operations Associate · NYC biotech · $90-110K · 2026-05-27</div>
-        <div class="card-note">Honest sponsorship = Yes. NYC relocation stated. M&amp;A hook in cover. <a href="https://job-boards.greenhouse.io/roivantsciences/jobs/7922791/confirmation" target="_blank">Confirmation</a></div>
+        <div class="card-note">Honest sponsorship = Yes. NYC relocation stated. M&amp;A hook in cover. Outreach drafts ready for Jessica Redeman + Kelly Graff (see Outreach lane). <a href="https://job-boards.greenhouse.io/roivantsciences/jobs/7922791/confirmation" target="_blank">View confirmation</a></div>
       </div>
 
       <div class="card">
         <div class="card-title">Built In <span class="badge badge-green">Confirmed</span></div>
         <div class="card-meta">People Ops &amp; Workplace Spec · Chicago hybrid · $70-85K · 2026-05-27</div>
-        <div class="card-note">5 essay questions answered with real Jamie experiences. Chicago relocation Yes. <a href="https://job-boards.greenhouse.io/builtin/jobs/7834159/confirmation" target="_blank">Confirmation</a></div>
+        <div class="card-note">5 essay questions answered with real Jamie experiences. Chicago relocation Yes. Outreach draft ready for Kaitlyn Major-Hale (Google Chicago, Wes alum). <a href="https://job-boards.greenhouse.io/builtin/jobs/7834159/confirmation" target="_blank">View confirmation</a></div>
       </div>
 
       <div class="card">
         <div class="card-title">Pacific Seafood <span class="badge badge-green">Confirmed</span></div>
         <div class="card-meta">Training &amp; Development Specialist · Clackamas OR · 2026-05-25</div>
-        <div class="card-note">Portland-local; PinpointHQ React-event submit pattern cracked. <a href="https://careers.pacificseafood.com/postings/fdbbfc87-dc45-440b-8288-e98358551550/thanks" target="_blank">Confirmation</a></div>
+        <div class="card-note">Portland-local; PinpointHQ React-event submit pattern cracked. <a href="https://careers.pacificseafood.com/postings/fdbbfc87-dc45-440b-8288-e98358551550/thanks" target="_blank">View confirmation</a></div>
       </div>
 
       <div class="card">
         <div class="card-title">Aurora Innovation <span class="badge badge-green">Confirmed</span></div>
         <div class="card-meta">People PM · Pittsburgh/Seattle · 2026-05-25</div>
-        <div class="card-note">First live submit; Greenhouse embed pattern. <a href="https://job-boards.greenhouse.io/embed/job_app/confirmation?for=aurorainnovation&token=8359484002" target="_blank">Confirmation</a></div>
+        <div class="card-note">First live submit; Greenhouse embed pattern. <a href="https://job-boards.greenhouse.io/embed/job_app/confirmation?for=aurorainnovation&token=8359484002" target="_blank">View confirmation</a></div>
       </div>
     </div>
 
-    <!-- LANE 2: NEEDS JAMIE (action required) -->
+    <!-- LANE: NEEDS DECISION -->
     <div class="lane needs-jamie">
       <div class="lane-header">
-        <div class="lane-title">⚠️ Needs Decision</div>
+        <div class="lane-title">⚠️ Needs Your Decision</div>
         <div class="lane-count">1</div>
       </div>
 
@@ -170,52 +193,142 @@
         <div class="card-title">Anthropic <span class="badge badge-amber">YOE Gate</span></div>
         <div class="card-meta">Program Operations Manager · SF/NYC · $270-290K · 2026-05-27</div>
         <div class="card-note">
-          <b>Blocker:</b> Form asks "Do you have 4+ years experience?" — Jamie has 3. Truthful = No (auto-screen). Pipeline did NOT submit.
+          <b>Blocker:</b> Form asks "Do you have 4+ years experience?" Jamie has 3. Truthful = No (likely auto-screen). Pipeline did NOT submit.
           <br><br>
-          <b>Recommended path:</b> Direct LinkedIn outreach to Anthropic Talent team. Confirmed H1B sponsor + great scope match — warm intro odds are far better than cold app at 75% YOE.
+          <b>Recommended:</b> Direct LinkedIn outreach to Anthropic Talent team. Confirmed H1B sponsor + great scope match. Warm intro path is far better odds than cold app at 75% YOE.
           <br><br>
-          Package is ready: resume + cover_letter both 1-page, candidly addresses YOE gap.
+          Package ready: resume + cover_letter both 1-page, candidly addresses YOE gap.
         </div>
-        <div class="action-cta">Jamie: decide — skip / warm intro / apply anyway</div>
+        <div class="action-cta">Skip / warm intro / apply anyway?</div>
+      </div>
+
+      <div style="font-size: 11px; color: var(--muted); margin-top: 12px;">
+        Pipeline blockers logged at <code>outputs/2026-05-27-night/applications/anthropic_progopshumandata_2026-05-27/BLOCKED.json</code>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROW 2: Outreach Drafts (full width) -->
+  <div class="lane outreach" style="margin-bottom: 16px;">
+    <div class="lane-header">
+      <div class="lane-title">📧 Outreach Drafts in Your Gmail (jamiecheng0103@gmail.com)</div>
+      <div class="lane-count">5 ready · click-to-send</div>
+    </div>
+
+    <div style="font-size: 12px; color: var(--muted); margin-bottom: 12px;">
+      All 5 drafts are in your Gmail Drafts folder. Subject lines start with <code>[OUTREACH]</code> for easy filtering.
+      Each draft has placeholder recipient — find email via LinkedIn before sending.
+      Tone spectrum runs from <b>formal-warm</b> (SVP-level) → <b>casual peer</b> (Wesleyan alum).
+    </div>
+
+    <div class="row-3">
+      <div class="card">
+        <div class="card-title">#1 Jessica Redeman <span class="badge badge-purple">Roivant Direct</span></div>
+        <div class="card-meta">People Ops team · M&amp;A integration hook · Professional warm</div>
+        <div class="card-note">Subject: "Applied to People Ops Associate — wanted to connect"<br><br>Post-application reference. Real Vestas M&amp;A experience as the genuine credential.<br><br><b>Find email:</b> <a href="https://www.linkedin.com/in/jessica-redeman-92279982/" target="_blank">LinkedIn</a></div>
+        <div class="action-cta-send">Open Gmail → Drafts → Send</div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">#2 Kelly Graff <span class="badge badge-purple">Roivant SVP</span></div>
+        <div class="card-meta">SVP Head of People · Organizational admiration · Formal-warm</div>
+        <div class="card-note">Subject: "Roivant's People function — a note from an admirer"<br><br>Highest stakes. Does NOT mention application. Soft "connect" ask (not coffee chat).<br><br><b>Find email:</b> <a href="https://www.linkedin.com/in/kelly-graff-39245845/" target="_blank">LinkedIn</a></div>
+        <div class="action-cta-send">Open Gmail → Drafts → Final review → Send</div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">#3 Valerie Duca <span class="badge badge-purple">Adjacent Biotech</span></div>
+        <div class="card-meta">Centessa Pharma · Holding-co People Ops interest · Curiosity-driven</div>
+        <div class="card-note">Subject: "Quick question about People Ops in biotech holding cos"<br><br>Lowest pressure. Explicit "no agenda" framing. 15-min coffee ask.<br><br><b>Find email:</b> <a href="https://www.linkedin.com/in/valerie-duca-256bb089/" target="_blank">LinkedIn</a></div>
+        <div class="action-cta-send">Open Gmail → Drafts → Send</div>
       </div>
     </div>
 
-    <!-- LANE 3: OUTREACH READY -->
-    <div class="lane outreach">
+    <div class="row" style="grid-template-columns: 1fr 1fr;">
+      <div class="card">
+        <div class="card-title">#4 Amber O'Reilly, CPTD <span class="badge badge-purple">L&amp;D Peer</span></div>
+        <div class="card-meta">Higginbotham L&amp;D Director · CPTD credential respect · L&amp;D peer warmth</div>
+        <div class="card-note">Subject: "Fellow L&amp;D practitioner — would love to connect"<br><br>Specific operational question (program measurement) instead of "pick your brain."<br><br><b>Find email:</b> <a href="https://www.linkedin.com/in/ambereoreilly/" target="_blank">LinkedIn</a></div>
+        <div class="action-cta-send">Open Gmail → Drafts → Send</div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">#5 Kaitlyn Major-Hale <span class="badge badge-purple">Wes Alum</span></div>
+        <div class="card-meta">Google Chicago People Ops · Built In Chicago connection · Casual warm</div>
+        <div class="card-note">Subject: "Fellow Wes alum — quick question about Chicago People Ops scene"<br><br>Most casual tone. Wes alum opener earns the reach. Chicago tech scene curiosity ask.<br><br><b>Find email:</b> <a href="https://www.linkedin.com/in/kaitlyn-major-hale-5b48471ba/" target="_blank">LinkedIn</a></div>
+        <div class="action-cta-send">Open Gmail → Drafts → Send</div>
+      </div>
+    </div>
+
+    <div style="font-size: 11px; color: var(--muted); margin-top: 12px;">
+      Tone spectrum guide: <a href="../outputs/2026-05-27-night-2/outreach/samples/INDEX.md">samples/INDEX.md</a> ·
+      Full draft texts: <a href="../outputs/2026-05-27-night-2/outreach/samples/">samples/</a>
+    </div>
+  </div>
+
+  <!-- ROW 3: Mechanism Health | Autofill Audit -->
+  <div class="row">
+    <!-- LANE: MECHANISM HEALTH -->
+    <div class="lane mechanism">
       <div class="lane-header">
-        <div class="lane-title">📧 Outreach Ready</div>
-        <div class="lane-count">3</div>
+        <div class="lane-title">⚙️ Mechanism Health</div>
+        <div class="lane-count">6/8 working</div>
       </div>
 
-      <div class="card">
-        <div class="card-title">Roivant direct outreach <span class="badge badge-purple">High-yield</span></div>
-        <div class="card-meta">M&amp;A integration hook · NYC People Ops team</div>
-        <div class="card-note">Direct email to Roivant People team lead. Needs: LinkedIn search for name. Template ready.</div>
-        <div class="action-cta">Find recipient → Send</div>
+      <table>
+        <tr><td>Patchright (clone profile)</td><td><span class="data-status-ok">✅ Working</span></td></tr>
+        <tr><td>Greenhouse embed submit</td><td><span class="data-status-ok">✅ Aurora live-submitted</span></td></tr>
+        <tr><td>Greenhouse direct submit</td><td><span class="data-status-ok">✅ Built In + Roivant live-submitted</span></td></tr>
+        <tr><td>PinpointHQ submit (React eval)</td><td><span class="data-status-ok">✅ Pacific Seafood live-submitted</span></td></tr>
+        <tr><td>Lever submit</td><td><span class="data-status-warn">🟡 Built (untested live)</span></td></tr>
+        <tr><td>Ashby submit</td><td><span class="data-status-warn">🟡 Built (untested live)</span></td></tr>
+        <tr><td>Workday submit</td><td><span style="color: var(--red); font-weight: 600;">❌ Akamai-blocked</span></td></tr>
+        <tr><td>PeopleAdmin submit</td><td><span style="color: var(--red); font-weight: 600;">❌ Account-gate blocked</span></td></tr>
+        <tr><td><b>LinkedIn Easy Apply (CDP)</b></td><td><span class="data-status-ok">✅ Modal opens autofilled (NEW)</span></td></tr>
+        <tr><td>Gmail draft creation</td><td><span class="data-status-ok">✅ 5 drafts created tonight</span></td></tr>
+      </table>
+
+      <div style="margin-top: 12px; padding: 10px; background: #ecfeff; border-radius: 6px; font-size: 12px;">
+        <b>🎉 Tonight's breakthrough:</b> CDP-attached LinkedIn via Chrome on port 9222 fully unblocks Easy Apply. Modal opens with Jamie's name/phone/email/saved-resume autofilled by LinkedIn. Profile enrichment works. 40 real outreach contacts found.
+      </div>
+    </div>
+
+    <!-- LANE: AUTOFILL AUDIT -->
+    <div class="lane autofill">
+      <div class="lane-header">
+        <div class="lane-title">📋 Autofill Data Audit</div>
+        <div class="lane-count">verified 2026-05-28</div>
       </div>
 
-      <div class="card">
-        <div class="card-title">USC alum referral request <span class="badge badge-purple">Network</span></div>
-        <div class="card-meta">USC MSAOP cohort · Portland-region sponsor</div>
-        <div class="card-note">Find USC Applied Org Psych alum at Mercer/Aon/Nike/Intel/Korn Ferry. Email template ready.</div>
-        <div class="action-cta">LinkedIn search → Send</div>
-      </div>
+      <table>
+        <tr><td>Name</td><td>Yi-Chieh Cheng (Jamie)</td></tr>
+        <tr><td>Email</td><td><span class="data-status-ok">jamiecheng0103@gmail.com</span></td></tr>
+        <tr><td>Phone</td><td><span class="data-status-ok">+1-213-700-3831</span></td></tr>
+        <tr><td>Address</td><td>1784 NW Northrup St Apt 635, Portland OR 97209</td></tr>
+        <tr><td>LinkedIn</td><td>linkedin.com/in/yi-chieh-cheng/</td></tr>
+        <tr><td>Saved LinkedIn resume</td><td><span class="data-status-ok">"Jamie Cheng's Resume_2026.pdf" (used 5/22/2026)</span></td></tr>
+        <tr><td>Save resumes & answers</td><td><span class="data-status-ok">ON (LinkedIn auto-saves Easy Apply data)</span></td></tr>
+        <tr><td>Share data with hirers</td><td><span class="data-status-ok">ON</span></td></tr>
+        <tr><td>Self-ID saved</td><td><span class="data-status-ok">ON</span></td></tr>
+        <tr><td>LinkedIn headline</td><td>"OD &amp; Program Mgmt | Data- &amp; Improvement-driven | MS Applied Org Psych"</td></tr>
+        <tr><td>Work auth answer</td><td><span class="data-status-ok">Yes (US-authorized)</span></td></tr>
+        <tr><td>Sponsorship answer</td><td><span class="data-status-ok">Yes (HONEST — H1B-dependent)</span></td></tr>
+      </table>
 
-      <div class="card">
-        <div class="card-title">Wesleyan alum @ Built In <span class="badge badge-purple">Network</span></div>
-        <div class="card-meta">Small-school warm in · Chicago tech</div>
-        <div class="card-note">Find Wesleyan grad at Built In's People team. Email leverages Wes '20 connection.</div>
-        <div class="action-cta">LinkedIn search → Send</div>
-      </div>
-
-      <div style="font-size: 11px; color: var(--muted); margin-top: 8px;">
-        Full templates: <a href="../outputs/2026-05-27-night/outreach/daily_kit_2026-05-27.md">daily_kit_2026-05-27.md</a>
+      <div style="margin-top: 12px; padding: 10px; background: #fef9c3; border-radius: 6px; font-size: 12px;">
+        <b>⚠️ Open audit items for next session:</b>
+        <ul style="margin: 6px 0 0 16px; padding: 0;">
+          <li>Verify the LinkedIn saved resume IS the latest 1-page version (last used 5/22 — likely yes, but eyeball it)</li>
+          <li>Simplify Chrome plugin profile — investigate if it can also save these autofill answers for Greenhouse/Lever/Ashby</li>
+          <li>+21 other older resumes saved on LinkedIn — consider cleanup to avoid confusion</li>
+        </ul>
       </div>
     </div>
   </div>
 
   <div class="updated">
-    Data source: <code>jamie/master_tracker.json</code> · Last run: 2026-05-27 · Next: tomorrow night
+    Data sources: <code>jamie/master_tracker.json</code> · <code>outputs/2026-05-27-night-2/preflight/</code><br>
+    Last updated 2026-05-28 · Working scripts in <code>jamie-autopilot/lib/</code> · Push to GitHub queued
   </div>
 </div>
 
