@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Jamie's Job Search — Road Trip Dashboard</title>
+<title>Jamie's Job Search — Interactive Dashboard</title>
 <style>
   :root {
     --bg: #fafaf9;
@@ -26,8 +26,10 @@
     padding: 24px;
     line-height: 1.5;
   }
-  .header { max-width: 1400px; margin: 0 auto 24px; }
+  .header { max-width: 1500px; margin: 0 auto 24px; }
   h1 { margin: 0 0 4px; font-size: 26px; }
+  h2 { font-size: 18px; margin: 16px 0 8px; }
+  h3 { font-size: 14px; margin: 12px 0 6px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.4px; }
   .subtitle { color: var(--muted); font-size: 14px; margin-bottom: 16px; }
   .banner {
     background: linear-gradient(135deg, #dcfce7, #ecfeff);
@@ -47,14 +49,13 @@
   }
   .stat-value { font-size: 24px; font-weight: 700; }
   .stat-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
-  .container { max-width: 1400px; margin: 0 auto; }
-  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
-  .row-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+  .container { max-width: 1500px; margin: 0 auto; }
   .lane {
     background: var(--card);
     border: 1px solid var(--border);
     border-radius: 8px;
     padding: 16px;
+    margin-bottom: 16px;
   }
   .lane-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
   .lane-title { font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; }
@@ -64,17 +65,52 @@
   .outreach .lane-title { color: var(--purple); }
   .mechanism .lane-title { color: var(--teal); }
   .autofill .lane-title { color: var(--blue); }
-  .card {
+  .day-header {
+    font-weight: 700; font-size: 13px; color: var(--green);
+    margin: 10px 0 8px; padding: 6px 0;
+    border-top: 2px solid var(--green);
+    display: flex; justify-content: space-between;
+  }
+  .application {
     background: var(--bg);
     border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 12px;
-    margin-bottom: 10px;
-    font-size: 13px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    overflow: hidden;
   }
-  .card-title { font-weight: 600; margin-bottom: 4px; }
-  .card-meta { color: var(--muted); font-size: 11px; margin-bottom: 6px; }
-  .card-note { color: var(--text); font-size: 12px; line-height: 1.45; }
+  .application > summary {
+    cursor: pointer;
+    padding: 14px 16px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    list-style: none;
+    user-select: none;
+  }
+  .application > summary::-webkit-details-marker { display: none; }
+  .application > summary::before {
+    content: '▶';
+    color: var(--muted);
+    font-size: 11px;
+    margin-right: 6px;
+    transition: transform 0.15s;
+    flex-shrink: 0;
+  }
+  .application[open] > summary::before { transform: rotate(90deg); }
+  .application > summary:hover { background: #f5f5f4; }
+  .app-title { font-weight: 600; font-size: 14px; flex-grow: 1; }
+  .app-meta { color: var(--muted); font-size: 12px; flex-shrink: 0; text-align: right; }
+  .app-body { padding: 16px; background: var(--bg); border-top: 1px solid var(--border); }
+  .app-body details { margin: 8px 0; background: #fff; border: 1px solid var(--border); border-radius: 6px; }
+  .app-body details > summary { cursor: pointer; padding: 8px 12px; font-weight: 600; font-size: 13px; }
+  .app-body details > summary:hover { background: #f5f5f4; }
+  .app-body details[open] > summary { border-bottom: 1px solid var(--border); }
+  .app-body details > div, .app-body details > .detail-body { padding: 10px 12px; font-size: 12px; }
+  iframe.pdf-embed { width: 100%; height: 600px; border: 1px solid var(--border); border-radius: 4px; background: white; }
+  img.screenshot { max-width: 100%; border: 1px solid var(--border); border-radius: 4px; }
+  pre.json { background: #f5f5f4; padding: 10px; border-radius: 4px; font-size: 11px; overflow-x: auto; line-height: 1.4; }
   .badge {
     display: inline-block;
     padding: 1px 6px;
@@ -87,290 +123,737 @@
   }
   .badge-green { background: #dcfce7; color: var(--green); }
   .badge-amber { background: #fef3c7; color: var(--amber); }
-  .badge-red { background: #fee2e2; color: var(--red); }
-  .badge-blue { background: #dbeafe; color: var(--blue); }
   .badge-purple { background: #f3e8ff; color: var(--purple); }
   .badge-teal { background: #ccfbf1; color: var(--teal); }
+  .badge-blue { background: #dbeafe; color: var(--blue); }
   a { color: var(--blue); text-decoration: none; }
   a:hover { text-decoration: underline; }
-  .action-cta {
-    background: var(--amber);
-    color: white;
-    padding: 6px 10px;
-    border-radius: 4px;
-    font-size: 12px;
-    font-weight: 600;
-    display: inline-block;
-    margin-top: 4px;
+  .email-body {
+    background: #f8fafc; padding: 12px; border-radius: 4px;
+    border-left: 3px solid var(--purple);
+    white-space: pre-wrap;
+    font-size: 13px;
+    line-height: 1.55;
   }
-  .action-cta-send {
-    background: var(--purple);
-    color: white;
-    padding: 6px 10px;
-    border-radius: 4px;
-    font-size: 12px;
-    font-weight: 600;
-    display: inline-block;
-    margin-top: 4px;
+  .field-table { width: 100%; border-collapse: collapse; font-size: 12px; margin: 4px 0; }
+  .field-table td { padding: 4px 8px; border-bottom: 1px solid #e7e5e4; }
+  .field-table td:first-child { font-weight: 600; color: var(--muted); width: 38%; }
+  .field-value { font-family: 'Menlo', 'Consolas', monospace; font-size: 11px; }
+  .outreach-card { background: #fff; border: 1px solid var(--border); border-radius: 6px; margin-bottom: 10px; overflow: hidden; }
+  .outreach-card > summary {
+    cursor: pointer;
+    padding: 10px 14px;
+    list-style: none;
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 8px;
   }
-  .updated { font-size: 11px; color: var(--muted); margin-top: 16px; text-align: center; }
-  table { width: 100%; border-collapse: collapse; font-size: 12px; }
-  table td { padding: 4px 6px; border-bottom: 1px solid var(--border); }
-  table td:first-child { font-weight: 600; color: var(--muted); width: 40%; }
+  .outreach-card > summary::-webkit-details-marker { display: none; }
+  .outreach-card > summary::before { content: '▶'; color: var(--muted); font-size: 11px; margin-right: 8px; transition: transform 0.15s; flex-shrink: 0; }
+  .outreach-card[open] > summary::before { transform: rotate(90deg); }
+  .outreach-card > summary:hover { background: #f5f5f4; }
+  .outreach-body { padding: 14px; background: #fafaf9; border-top: 1px solid var(--border); }
+  table.outreach-meta { width: 100%; font-size: 12px; margin-bottom: 10px; border-collapse: collapse; }
+  table.outreach-meta td { padding: 3px 6px; }
+  table.outreach-meta td:first-child { font-weight: 600; color: var(--muted); width: 22%; }
+  .tone-note { background: #fef9c3; padding: 8px 10px; border-radius: 4px; font-size: 12px; margin-top: 10px; color: #78350f; }
   .data-status-ok { color: var(--green); font-weight: 600; }
   .data-status-warn { color: var(--amber); font-weight: 600; }
   code { background: #f5f5f4; padding: 1px 4px; border-radius: 3px; font-size: 11px; }
-  @media (max-width: 1100px) {
-    .row, .row-3 { grid-template-columns: 1fr; }
-  }
 </style>
 </head>
 <body>
 
 <div class="header">
-  <h1>🐦 Jamie's Job Search — Road Trip Dashboard</h1>
-  <div class="subtitle">10-minute daily check. Updated 2026-05-28 (Night 2 final). Green = done. Amber = your action needed. Purple = click-to-send.</div>
+  <h1>🐦 Jamie's Job Search — Interactive Dashboard</h1>
+  <div class="subtitle">Click any application or outreach card to expand. Updated 2026-05-28 (Night 2 final).</div>
 
   <div class="banner">
-    <strong>🎉 Tonight's highlights:</strong> 5th live submission (Aurora HR Generalist) cracked Aurora's React-select + auto-fetched Greenhouse email-verification code from Gmail · LinkedIn CDP attach proven (Easy Apply autofill works through Review) · 5 outreach drafts now have <strong>real recipient emails</strong> populated (was placeholders earlier) · Jessica Redeman replaced with Emily Formea (Jessica left Roivant for Alera Group in March)
+    <strong>🎉 Tonight:</strong> 5th live submission (Aurora HR Generalist) — cracked Aurora's React-select + auto-fetched Greenhouse email-verification code from Gmail. All 5 outreach drafts now have real recipient emails. Click cards below to expand and see everything inline.
   </div>
 
   <div class="stats">
-    <div class="stat">
-      <div class="stat-value" style="color: var(--green);">5</div>
-      <div class="stat-label">Live Submitted</div>
-    </div>
-    <div class="stat">
-      <div class="stat-value" style="color: var(--amber);">1</div>
-      <div class="stat-label">Decision Needed</div>
-    </div>
-    <div class="stat">
-      <div class="stat-value" style="color: var(--purple);">5</div>
-      <div class="stat-label">Gmail Drafts (with TO)</div>
-    </div>
-    <div class="stat">
-      <div class="stat-value" style="color: var(--teal);">7/8</div>
-      <div class="stat-label">Mechanisms ✅</div>
-    </div>
-    <div class="stat">
-      <div class="stat-value" style="color: var(--blue);">3</div>
-      <div class="stat-label">Days Active</div>
-    </div>
+    <div class="stat"><div class="stat-value" style="color: var(--green);">5</div><div class="stat-label">Live Submitted</div></div>
+    <div class="stat"><div class="stat-value" style="color: var(--amber);">1</div><div class="stat-label">Decision Needed</div></div>
+    <div class="stat"><div class="stat-value" style="color: var(--purple);">5</div><div class="stat-label">Outreach Drafts</div></div>
+    <div class="stat"><div class="stat-value" style="color: var(--teal);">7/8</div><div class="stat-label">Mechanisms ✅</div></div>
+    <div class="stat"><div class="stat-value" style="color: var(--blue);">3</div><div class="stat-label">Days Active</div></div>
   </div>
 </div>
 
 <div class="container">
-  <!-- ROW 1: Applied | Needs Decision -->
-  <div class="row">
-    <div class="lane applied">
-      <div class="lane-header">
-        <div class="lane-title">✅ Auto-Submitted Applications — 3-Day History</div>
-        <div class="lane-count">5 confirmed</div>
-      </div>
 
-      <!-- DAY 3: 2026-05-28 (Tonight) -->
-      <div style="font-weight: 700; font-size: 13px; color: var(--green); margin: 4px 0 6px; padding: 4px 0; border-top: 2px solid var(--green); display: flex; justify-content: space-between;">
-        <span>📅 Thursday, May 28 (Night 2 — Tonight)</span>
-        <span style="font-size: 11px; color: var(--muted); font-weight: 400;">1 new</span>
-      </div>
-      <div class="card">
-        <div class="card-title">Aurora Innovation <span class="badge badge-green">NEW</span> <span class="badge badge-teal">Greenhouse</span></div>
-        <div class="card-meta">HR Generalist · Mountain View hybrid · $92-133K + bonus + equity</div>
-        <div class="card-note">5th submission. <b>2nd Aurora role</b> — cover acknowledges prior Program Manager application (5/25). Aurora React-select cracked via click-option pattern. Greenhouse email-verification CAPTCHA (8-char code) auto-fetched from Gmail via MCP and entered. Fully autonomous end-to-end.<br><br><a href="https://job-boards.greenhouse.io/embed/job_app?for=aurorainnovation&token=8520165002" target="_blank">View posting</a></div>
-      </div>
-
-      <!-- DAY 2: 2026-05-27 -->
-      <div style="font-weight: 700; font-size: 13px; color: var(--green); margin: 10px 0 6px; padding: 4px 0; border-top: 2px solid var(--green); display: flex; justify-content: space-between;">
-        <span>📅 Wednesday, May 27 (Night 1)</span>
-        <span style="font-size: 11px; color: var(--muted); font-weight: 400;">2 submitted</span>
-      </div>
-      <div class="card">
-        <div class="card-title">Roivant Sciences <span class="badge badge-green">Confirmed</span> <span class="badge badge-teal">Greenhouse</span></div>
-        <div class="card-meta">People Operations Associate · NYC biotech holding co · $90-110K · 3 days/week office</div>
-        <div class="card-note">Honest sponsorship = Yes. NYC relocation stated. M&amp;A integration hook from Vestas tied to Roivant's multi-subsidiary structure. Outreach drafts ready in your Gmail: Emily Formea (current Sr People Ops Assoc) + Kelly Graff (SVP People). <a href="https://job-boards.greenhouse.io/roivantsciences/jobs/7922791/confirmation" target="_blank">Confirmation</a></div>
-      </div>
-      <div class="card">
-        <div class="card-title">Built In <span class="badge badge-green">Confirmed</span> <span class="badge badge-teal">Greenhouse</span></div>
-        <div class="card-meta">People Ops &amp; Workplace Spec · Chicago hybrid (3 days/week) · $70-85K</div>
-        <div class="card-note">5 essay questions answered with real Jamie experiences (Vestas ER, InGenius onboarding, M&amp;A integration, Notion tracking, prioritization). Chicago relocation stated Yes. Outreach draft ready for Kaitlyn Major-Hale (Google Chicago, Wesleyan alum). <a href="https://job-boards.greenhouse.io/builtin/jobs/7834159/confirmation" target="_blank">Confirmation</a></div>
-      </div>
-
-      <!-- DAY 1: 2026-05-25 -->
-      <div style="font-weight: 700; font-size: 13px; color: var(--green); margin: 10px 0 6px; padding: 4px 0; border-top: 2px solid var(--green); display: flex; justify-content: space-between;">
-        <span>📅 Sunday, May 25 (First night)</span>
-        <span style="font-size: 11px; color: var(--muted); font-weight: 400;">2 submitted</span>
-      </div>
-      <div class="card">
-        <div class="card-title">Aurora Innovation <span class="badge badge-green">Confirmed</span> <span class="badge badge-teal">Greenhouse Embed</span></div>
-        <div class="card-meta">Program Manager, People Team · Pittsburgh/Seattle · Not disclosed</div>
-        <div class="card-note">First-ever live auto-submission. Cracked Greenhouse embed pattern (job-boards.greenhouse.io/embed/job_app). Pittsburgh/Seattle hybrid; relocation stated. <a href="https://job-boards.greenhouse.io/embed/job_app/confirmation?for=aurorainnovation&token=8359484002" target="_blank">Confirmation</a></div>
-      </div>
-      <div class="card">
-        <div class="card-title">Pacific Seafood <span class="badge badge-green">Confirmed</span> <span class="badge badge-teal">PinpointHQ</span></div>
-        <div class="card-meta">Training &amp; Development Specialist · Clackamas OR · Not disclosed</div>
-        <div class="card-note">Portland-local (only Portland-region submission in the pipeline). Cracked PinpointHQ React-event submission pattern via page.evaluate() + native input setter + dispatch events. <a href="https://careers.pacificseafood.com/postings/fdbbfc87-dc45-440b-8288-e98358551550/thanks" target="_blank">Confirmation</a></div>
-      </div>
-
-      <!-- Summary stats -->
-      <div style="margin-top: 14px; padding: 10px; background: #f0fdf4; border-radius: 6px; font-size: 12px;">
-        <b>📊 Pipeline summary (3 days):</b><br>
-        <table style="margin-top: 6px; font-size: 11px;">
-          <tr><td><b>Total submissions</b></td><td>5 confirmed</td></tr>
-          <tr><td><b>Companies</b></td><td>4 unique (Aurora x2, Built In, Roivant, Pacific Seafood)</td></tr>
-          <tr><td><b>Geographic spread</b></td><td>1 Portland · 1 Chicago · 1 NYC · 2 Pittsburgh+Seattle+Mountain View</td></tr>
-          <tr><td><b>ATSes cracked</b></td><td>Greenhouse embed · Greenhouse direct · Greenhouse multi-select · PinpointHQ · Greenhouse email-CAPTCHA</td></tr>
-          <tr><td><b>Salary range</b></td><td>$70-160K across roles</td></tr>
-          <tr><td><b>H1B sponsorship</b></td><td>4 explicitly asked + answered Yes honestly; 1 (Pacific Seafood) not asked</td></tr>
-          <tr><td><b>Resume invention</b></td><td>0 hallucinated numbers (content_library only)</td></tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="lane needs-jamie">
-      <div class="lane-header">
-        <div class="lane-title">⚠️ Needs Your Decision</div>
-        <div class="lane-count">1</div>
-      </div>
-
-      <div class="card">
-        <div class="card-title">Anthropic <span class="badge badge-amber">YOE Gate</span></div>
-        <div class="card-meta">Program Operations Manager · SF/NYC · $270-290K · 2026-05-27</div>
-        <div class="card-note">
-          <b>Blocker:</b> Form asks "Do you have 4+ years experience?" Jamie has 3. Truthful = No (likely auto-screen).
-          <br><br>
-          <b>Recommended:</b> Direct LinkedIn outreach to Anthropic Talent team. Confirmed H1B sponsor + great scope match. Warm intro path is far better odds than cold app at 75% YOE.
-          <br><br>
-          Package ready at <code>outputs/2026-05-27-night/applications/anthropic_progopshumandata_2026-05-27/</code>
-        </div>
-        <div class="action-cta">Skip / warm intro / apply anyway?</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ROW 2: Outreach Drafts (full width) -->
-  <div class="lane outreach" style="margin-bottom: 16px;">
+  <!-- ============================================================ -->
+  <!-- APPLIED APPLICATIONS (5) - each is expandable                 -->
+  <!-- ============================================================ -->
+  <div class="lane applied">
     <div class="lane-header">
-      <div class="lane-title">📧 Outreach Drafts in Your Gmail — Real Recipients + Likely Emails Populated</div>
-      <div class="lane-count">5 ready · click-to-send</div>
+      <div class="lane-title">✅ Auto-Submitted Applications — Click to Expand</div>
+      <div class="lane-count">5 confirmed across 3 days</div>
+    </div>
+    <p style="font-size: 12px; color: var(--muted); margin: 0 0 12px;">Each card shows what the script submitted: tailored resume (PDF embedded), cover letter (PDF embedded), exact form-field values, submission confirmation screenshot, and outreach drafts tied to that company.</p>
+
+    <!-- DAY 3: 2026-05-28 -->
+    <div class="day-header">
+      <span>📅 Thursday, May 28 (Tonight)</span>
+      <span style="font-size: 11px; color: var(--muted); font-weight: 400;">1 new</span>
     </div>
 
-    <div style="font-size: 12px; color: var(--muted); margin-bottom: 12px;">
-      All 5 drafts have subject prefix <code>[OUTREACH]</code> for easy Gmail filtering.
-      <b>4 of 5 now have likely email addresses populated</b> (verified via RocketReach/ZoomInfo format detection).
-      <b>Kaitlyn at Google = LinkedIn message only</b> (Google internal emails not externally addressable).
-      Each draft's TONE NOTES block at the bottom explains the calibration choice + recipient verification.
+    <!-- APP: Aurora HR Generalist -->
+    <details class="application" open>
+      <summary>
+        <div class="app-title">Aurora Innovation — HR Generalist <span class="badge badge-green">NEW</span> <span class="badge badge-teal">Greenhouse</span></div>
+        <div class="app-meta">Mountain View · $92-133K · 2026-05-28</div>
+      </summary>
+      <div class="app-body">
+        <table class="field-table">
+          <tr><td>Posting URL</td><td><a href="https://job-boards.greenhouse.io/embed/job_app?for=aurorainnovation&token=8520165002" target="_blank">job-boards.greenhouse.io/embed/aurorainnovation/8520165002</a></td></tr>
+          <tr><td>Location / hybrid</td><td>Mountain View, CA · 3 days/week in office</td></tr>
+          <tr><td>YOE / Salary</td><td>Bachelor's + experience · $92,000–$133,500 + bonus + equity</td></tr>
+          <tr><td>Sponsorship</td><td><span class="data-status-ok">Asked on form — Jamie answered Yes (honest)</span></td></tr>
+          <tr><td>Submission tactic</td><td>Aurora React-select cracked via click-option pattern. Email-verify CAPTCHA (8-char <code>pHjRiIdE</code>) auto-fetched from Gmail.</td></tr>
+        </table>
+
+        <details>
+          <summary>📄 Tailored Resume (PDF — view inline)</summary>
+          <div class="detail-body">
+            <iframe class="pdf-embed" src="../outputs/2026-05-27-night-2/applications/aurora_hr_generalist_2026-05-28/resume.pdf#zoom=85"></iframe>
+            <p style="font-size: 11px; margin-top: 6px;">📂 File: <code>outputs/2026-05-27-night-2/applications/aurora_hr_generalist_2026-05-28/resume.pdf</code></p>
+          </div>
+        </details>
+
+        <details>
+          <summary>📝 Tailored Cover Letter (PDF — view inline)</summary>
+          <div class="detail-body">
+            <iframe class="pdf-embed" src="../outputs/2026-05-27-night-2/applications/aurora_hr_generalist_2026-05-28/cover_letter.pdf#zoom=85"></iframe>
+            <p style="font-size: 11px; margin-top: 6px;">📂 File: <code>outputs/2026-05-27-night-2/applications/aurora_hr_generalist_2026-05-28/cover_letter.pdf</code></p>
+          </div>
+        </details>
+
+        <details>
+          <summary>📋 Exact Form Fields Submitted</summary>
+          <div class="detail-body">
+            <table class="field-table">
+              <tr><td>First Name</td><td class="field-value">Yi-Chieh</td></tr>
+              <tr><td>Last Name</td><td class="field-value">Cheng</td></tr>
+              <tr><td>Email</td><td class="field-value">jamiecheng0103@gmail.com</td></tr>
+              <tr><td>Phone</td><td class="field-value">+1-213-700-3831</td></tr>
+              <tr><td>Country</td><td class="field-value">United States</td></tr>
+              <tr><td>Location</td><td class="field-value">Portland, OR</td></tr>
+              <tr><td>LinkedIn</td><td class="field-value"><a href="https://www.linkedin.com/in/yi-chieh-cheng/" target="_blank">https://www.linkedin.com/in/yi-chieh-cheng/</a></td></tr>
+              <tr><td>Former Aurora employee?</td><td class="field-value">No</td></tr>
+              <tr><td>How heard about role?</td><td class="field-value">Job Board: Linkedin</td></tr>
+              <tr><td>Authorized to work in US?</td><td class="field-value">Yes</td></tr>
+              <tr><td>Require sponsorship?</td><td class="field-value"><b>Yes</b> (HONEST — H1B)</td></tr>
+              <tr><td>Office preference</td><td class="field-value">Mountain View, CA</td></tr>
+              <tr><td>Gender identity</td><td class="field-value">I don't wish to answer</td></tr>
+              <tr><td>Racial/ethnic background</td><td class="field-value">I don't wish to answer</td></tr>
+              <tr><td>Security verification code</td><td class="field-value">pHjRiIdE (auto-fetched from Gmail)</td></tr>
+            </table>
+          </div>
+        </details>
+
+        <details>
+          <summary>📸 Submission Screenshot (after CAPTCHA + final submit)</summary>
+          <div class="detail-body">
+            <img class="screenshot" src="../outputs/2026-05-27-night-2/applications/aurora_hr_generalist_2026-05-28/screenshots/v7_after_submit.png" alt="Aurora HR Gen submitted">
+            <p style="font-size: 11px; margin-top: 6px;">📂 File: <code>outputs/2026-05-27-night-2/applications/aurora_hr_generalist_2026-05-28/screenshots/v7_after_submit.png</code></p>
+          </div>
+        </details>
+
+        <details>
+          <summary>📁 All Files for this Application</summary>
+          <div class="detail-body">
+            <ul style="font-size: 12px; margin: 0; padding-left: 16px;">
+              <li><a href="../outputs/2026-05-27-night-2/applications/aurora_hr_generalist_2026-05-28/resume.pdf" target="_blank">resume.pdf</a></li>
+              <li><a href="../outputs/2026-05-27-night-2/applications/aurora_hr_generalist_2026-05-28/resume.json" target="_blank">resume.json (source)</a></li>
+              <li><a href="../outputs/2026-05-27-night-2/applications/aurora_hr_generalist_2026-05-28/cover_letter.pdf" target="_blank">cover_letter.pdf</a></li>
+              <li><a href="../outputs/2026-05-27-night-2/applications/aurora_hr_generalist_2026-05-28/cover_letter.md" target="_blank">cover_letter.md (source)</a></li>
+              <li><a href="../outputs/2026-05-27-night-2/applications/aurora_hr_generalist_2026-05-28/form_fields.json" target="_blank">form_fields.json</a></li>
+              <li><a href="../outputs/2026-05-27-night-2/applications/aurora_hr_generalist_2026-05-28/SUBMITTED.json" target="_blank">SUBMITTED.json (audit log)</a></li>
+              <li><a href="../outputs/2026-05-27-night-2/applications/aurora_hr_generalist_2026-05-28/tailor_notes.md" target="_blank">tailor_notes.md</a></li>
+              <li><a href="../outputs/2026-05-27-night-2/applications/aurora_hr_generalist_2026-05-28/screenshots/" target="_blank">All 17 screenshots (v1-v7 progression)</a></li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <!-- DAY 2: 2026-05-27 -->
+    <div class="day-header">
+      <span>📅 Wednesday, May 27 (Night 1)</span>
+      <span style="font-size: 11px; color: var(--muted); font-weight: 400;">2 submitted</span>
     </div>
 
-    <div class="row-3">
-      <div class="card">
-        <div class="card-title">#1 Emily Formea, PHR <span class="badge badge-purple">Roivant Peer</span></div>
-        <div class="card-meta">Sr People Ops Associate @ Roivant · M&A hook · Professional warm</div>
-        <div class="card-note"><b>TO:</b> emily.formea@roivant.com (likely)<br><b>Subject:</b> Applied to People Ops Associate — wanted to connect<br><br>Replaced Jessica Redeman (left Roivant for Alera Group in March). Post-application reference. Real Vestas M&A experience as the genuine credential.</div>
-        <div class="action-cta-send">Open Gmail → Drafts → Verify email → Send</div>
-      </div>
+    <!-- APP: Roivant -->
+    <details class="application">
+      <summary>
+        <div class="app-title">Roivant Sciences — People Operations Associate <span class="badge badge-green">Confirmed</span> <span class="badge badge-teal">Greenhouse</span></div>
+        <div class="app-meta">NYC biotech · $90-110K · 2026-05-27</div>
+      </summary>
+      <div class="app-body">
+        <table class="field-table">
+          <tr><td>Posting URL</td><td><a href="https://job-boards.greenhouse.io/roivantsciences/jobs/7922791" target="_blank">job-boards.greenhouse.io/roivantsciences/jobs/7922791</a></td></tr>
+          <tr><td>Confirmation</td><td><a href="https://job-boards.greenhouse.io/roivantsciences/jobs/7922791/confirmation" target="_blank">View Roivant confirmation page</a></td></tr>
+          <tr><td>Location / hybrid</td><td>1 Pennsylvania Plaza, NYC · 3 days/week office</td></tr>
+          <tr><td>YOE / Salary</td><td>2+ years (Jamie has 3) · $90,000–$110,000</td></tr>
+          <tr><td>Sponsorship</td><td><span class="data-status-ok">Asked on form — Jamie answered Yes (honest)</span></td></tr>
+          <tr><td>Cover hook</td><td>M&A integration at Vestas → Roivant multi-subsidiary structure parallel</td></tr>
+        </table>
 
-      <div class="card">
-        <div class="card-title">#2 Kelly Graff <span class="badge badge-purple">Roivant SVP</span></div>
-        <div class="card-meta">SVP Head of People @ Roivant · Organizational admiration · Formal-warm</div>
-        <div class="card-note"><b>TO:</b> kelly.graff@roivant.com (likely, RocketReach confirmed format)<br><b>Subject:</b> Roivant's People function — a note from an admirer<br><br>Highest stakes. Does NOT mention application. Soft "connect" ask.</div>
-        <div class="action-cta-send">Open Gmail → Drafts → Final review → Send</div>
-      </div>
+        <details>
+          <summary>📄 Tailored Resume (PDF)</summary>
+          <div class="detail-body">
+            <iframe class="pdf-embed" src="../outputs/2026-05-27-night/applications/roivant_peopleopsassoc_2026-05-27/resume.pdf#zoom=85"></iframe>
+          </div>
+        </details>
 
-      <div class="card">
-        <div class="card-title">#3 Valerie Duca <span class="badge badge-purple">Adjacent Biotech</span></div>
-        <div class="card-meta">Assoc Director People Ops @ Centessa · Curiosity-driven</div>
-        <div class="card-note"><b>TO:</b> valerie.duca@centessa.com (likely, 89% adoption)<br><b>Subject:</b> Quick question about People Ops in biotech holding cos<br><br>Lowest pressure. Explicit "no agenda" framing. 15-min coffee ask.</div>
-        <div class="action-cta-send">Open Gmail → Drafts → Send</div>
+        <details>
+          <summary>📝 Tailored Cover Letter (PDF)</summary>
+          <div class="detail-body">
+            <iframe class="pdf-embed" src="../outputs/2026-05-27-night/applications/roivant_peopleopsassoc_2026-05-27/cover_letter.pdf#zoom=85"></iframe>
+          </div>
+        </details>
+
+        <details>
+          <summary>📋 Exact Form Fields Submitted</summary>
+          <div class="detail-body">
+            <table class="field-table">
+              <tr><td>First Name</td><td class="field-value">Yi-Chieh</td></tr>
+              <tr><td>Last Name</td><td class="field-value">Cheng</td></tr>
+              <tr><td>Email</td><td class="field-value">jamiecheng0103@gmail.com</td></tr>
+              <tr><td>Phone</td><td class="field-value">+1-213-700-3831</td></tr>
+              <tr><td>Country</td><td class="field-value">United States</td></tr>
+              <tr><td>Location</td><td class="field-value">Portland, OR (open to relocate to NYC)</td></tr>
+              <tr><td>LinkedIn</td><td class="field-value"><a href="https://www.linkedin.com/in/yi-chieh-cheng/" target="_blank">linkedin.com/in/yi-chieh-cheng</a></td></tr>
+              <tr><td>Authorized to work in US?</td><td class="field-value">Yes</td></tr>
+              <tr><td>Require sponsorship?</td><td class="field-value"><b>Yes</b> (HONEST — H1B)</td></tr>
+              <tr><td>NYC 3-day hybrid office</td><td class="field-value">Yes — committed to relocating to NYC</td></tr>
+              <tr><td>YOE People Ops/HR Generalist</td><td class="field-value">3 years</td></tr>
+              <tr><td>Direct mgmt of employee lifecycle</td><td class="field-value">Yes</td></tr>
+              <tr><td>Hands-on HRIS experience</td><td class="field-value">Yes</td></tr>
+              <tr><td>Currently US-based</td><td class="field-value">Yes</td></tr>
+              <tr><td>Salary expectation</td><td class="field-value">$90,000–$110,000 (within posted band)</td></tr>
+            </table>
+          </div>
+        </details>
+
+        <details>
+          <summary>📸 Confirmation Screenshot</summary>
+          <div class="detail-body">
+            <img class="screenshot" src="../outputs/2026-05-27-night/applications/roivant_peopleopsassoc_2026-05-27/screenshots/v2_after_submit.png" alt="Roivant submitted confirmation">
+          </div>
+        </details>
+
+        <details>
+          <summary>📁 All Files</summary>
+          <div class="detail-body">
+            <ul style="font-size: 12px; margin: 0; padding-left: 16px;">
+              <li><a href="../outputs/2026-05-27-night/applications/roivant_peopleopsassoc_2026-05-27/resume.pdf" target="_blank">resume.pdf</a></li>
+              <li><a href="../outputs/2026-05-27-night/applications/roivant_peopleopsassoc_2026-05-27/cover_letter.pdf" target="_blank">cover_letter.pdf</a></li>
+              <li><a href="../outputs/2026-05-27-night/applications/roivant_peopleopsassoc_2026-05-27/form_fields.json" target="_blank">form_fields.json</a></li>
+              <li><a href="../outputs/2026-05-27-night/applications/roivant_peopleopsassoc_2026-05-27/SUBMITTED.json" target="_blank">SUBMITTED.json</a></li>
+              <li><a href="../outputs/2026-05-27-night/applications/roivant_peopleopsassoc_2026-05-27/tailor_notes.md" target="_blank">tailor_notes.md</a></li>
+            </ul>
+          </div>
+        </details>
+
+        <details>
+          <summary>📧 Outreach Contacts for Roivant (2 drafts ready)</summary>
+          <div class="detail-body">
+            <p style="font-size: 12px; margin: 0 0 10px;"><b>Two outreach contacts identified for this application.</b> See the dedicated Outreach lane below for full content. Quick links:</p>
+            <ul style="font-size: 12px;">
+              <li><a href="#outreach-emily" >Emily Formea, PHR — Sr People Ops Associate</a> (peer level)</li>
+              <li><a href="#outreach-kelly">Kelly Graff — SVP, Head of People</a> (senior level)</li>
+            </ul>
+          </div>
+        </details>
       </div>
+    </details>
+
+    <!-- APP: Built In -->
+    <details class="application">
+      <summary>
+        <div class="app-title">Built In — People Ops & Workplace Experience Specialist <span class="badge badge-green">Confirmed</span> <span class="badge badge-teal">Greenhouse</span></div>
+        <div class="app-meta">Chicago hybrid · $70-85K · 2026-05-27</div>
+      </summary>
+      <div class="app-body">
+        <table class="field-table">
+          <tr><td>Posting URL</td><td><a href="https://job-boards.greenhouse.io/builtin/jobs/7834159" target="_blank">job-boards.greenhouse.io/builtin/jobs/7834159</a></td></tr>
+          <tr><td>Confirmation</td><td><a href="https://job-boards.greenhouse.io/builtin/jobs/7834159/confirmation" target="_blank">View Built In confirmation page</a></td></tr>
+          <tr><td>Location / hybrid</td><td>Chicago · 3 days/week in office</td></tr>
+          <tr><td>YOE / Salary</td><td>2-4 years (Jamie has 3) · $70-85K</td></tr>
+          <tr><td>Sponsorship</td><td><span class="data-status-warn">NOT explicitly asked on form — Jamie's authorization answer = Yes</span></td></tr>
+          <tr><td>Cover hook</td><td>"People operations isn't just about systems—it's about building infrastructure employees trust"</td></tr>
+          <tr><td>Special: 5 essay questions</td><td>All answered with real Jamie experiences (Vestas ER, InGenius onboarding, M&A integration, Notion tracking, prioritization)</td></tr>
+        </table>
+
+        <details>
+          <summary>📄 Tailored Resume (PDF)</summary>
+          <div class="detail-body">
+            <iframe class="pdf-embed" src="../outputs/2026-05-27-night/applications/builtin_peopleopsworkplaceexp_2026-05-27/resume.pdf#zoom=85"></iframe>
+          </div>
+        </details>
+
+        <details>
+          <summary>📝 Tailored Cover Letter (PDF)</summary>
+          <div class="detail-body">
+            <iframe class="pdf-embed" src="../outputs/2026-05-27-night/applications/builtin_peopleopsworkplaceexp_2026-05-27/cover_letter.pdf#zoom=85"></iframe>
+          </div>
+        </details>
+
+        <details>
+          <summary>📋 5 Essay Answers Submitted (each ~150-200 words)</summary>
+          <div class="detail-body">
+            <p style="font-size: 12px;">View full essay answers: <a href="../outputs/2026-05-27-night/applications/builtin_peopleopsworkplaceexp_2026-05-27/essay_answers.md" target="_blank">essay_answers.md</a></p>
+            <ul style="font-size: 12px;">
+              <li><b>Q1 Frustrated employee about benefits:</b> Acknowledge → commit to timeline → loop in vendor → follow up before they chase</li>
+              <li><b>Q2 Small process improvement:</b> InGenius onboarding consolidation → 75% ramp-up reduction</li>
+              <li><b>Q3 Something almost fell through cracks:</b> Vestas M&A employee records cross-check caught missing fields before cutover</li>
+              <li><b>Q4 Data accuracy:</b> Notion tracker + weekly audits at InGenius for 600+ participants + 20+ programs</li>
+              <li><b>Q5 Prioritization (onboarding + interviews + employee Qs):</b> Sort by deadline + consequence; front-load irreversible</li>
+            </ul>
+          </div>
+        </details>
+
+        <details>
+          <summary>📋 Exact Form Fields Submitted</summary>
+          <div class="detail-body">
+            <table class="field-table">
+              <tr><td>First Name</td><td class="field-value">Yi-Chieh</td></tr>
+              <tr><td>Last Name</td><td class="field-value">Cheng</td></tr>
+              <tr><td>Email</td><td class="field-value">jamiecheng0103@gmail.com</td></tr>
+              <tr><td>Phone</td><td class="field-value">+1-213-700-3831</td></tr>
+              <tr><td>Country</td><td class="field-value">United States</td></tr>
+              <tr><td>Location</td><td class="field-value">Portland, OR (open to relocate to Chicago)</td></tr>
+              <tr><td>LinkedIn</td><td class="field-value">linkedin.com/in/yi-chieh-cheng</td></tr>
+              <tr><td>Authorized to work in US?</td><td class="field-value">Yes</td></tr>
+              <tr><td>Chicago 3-day office?</td><td class="field-value">Yes</td></tr>
+              <tr><td>Gender / Hispanic / Veteran / Disability</td><td class="field-value">Declined to self-identify</td></tr>
+            </table>
+          </div>
+        </details>
+
+        <details>
+          <summary>📸 Confirmation Screenshot</summary>
+          <div class="detail-body">
+            <img class="screenshot" src="../outputs/2026-05-27-night/applications/builtin_peopleopsworkplaceexp_2026-05-27/screenshots/v2_03_after_submit.png" alt="Built In confirmation">
+          </div>
+        </details>
+
+        <details>
+          <summary>📁 All Files</summary>
+          <div class="detail-body">
+            <ul style="font-size: 12px;">
+              <li><a href="../outputs/2026-05-27-night/applications/builtin_peopleopsworkplaceexp_2026-05-27/resume.pdf" target="_blank">resume.pdf</a></li>
+              <li><a href="../outputs/2026-05-27-night/applications/builtin_peopleopsworkplaceexp_2026-05-27/cover_letter.pdf" target="_blank">cover_letter.pdf</a></li>
+              <li><a href="../outputs/2026-05-27-night/applications/builtin_peopleopsworkplaceexp_2026-05-27/essay_answers.md" target="_blank">essay_answers.md (5 essays)</a></li>
+              <li><a href="../outputs/2026-05-27-night/applications/builtin_peopleopsworkplaceexp_2026-05-27/form_fields.json" target="_blank">form_fields.json</a></li>
+              <li><a href="../outputs/2026-05-27-night/applications/builtin_peopleopsworkplaceexp_2026-05-27/SUBMITTED.json" target="_blank">SUBMITTED.json</a></li>
+              <li><a href="../outputs/2026-05-27-night/applications/builtin_peopleopsworkplaceexp_2026-05-27/tailor_notes.md" target="_blank">tailor_notes.md</a></li>
+            </ul>
+          </div>
+        </details>
+
+        <details>
+          <summary>📧 Outreach Contact for Built In</summary>
+          <div class="detail-body">
+            <p style="font-size: 12px;">1 outreach draft ready: <a href="#outreach-kaitlyn">Kaitlyn Major-Hale — People Ops @ Google Chicago (Wesleyan alum)</a></p>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <!-- DAY 1: 2026-05-25 -->
+    <div class="day-header">
+      <span>📅 Sunday, May 25 (First night)</span>
+      <span style="font-size: 11px; color: var(--muted); font-weight: 400;">2 submitted</span>
     </div>
 
-    <div class="row" style="grid-template-columns: 1fr 1fr;">
-      <div class="card">
-        <div class="card-title">#4 Amber O'Reilly, CPTD <span class="badge badge-purple">L&amp;D Peer</span></div>
-        <div class="card-meta">L&amp;D Director @ Higginbotham · CPTD respect · L&amp;D peer warmth</div>
-        <div class="card-note"><b>TO:</b> aoreilly@higginbotham.net (likely, 88.5% adoption; fallback aoreilly@higginbotham.com)<br><b>Subject:</b> Fellow L&amp;D practitioner — would love to connect<br><br>Specific operational question (program measurement) instead of "pick your brain." Strongest intellectual depth signal.</div>
-        <div class="action-cta-send">Open Gmail → Drafts → Send</div>
-      </div>
+    <!-- APP: Aurora People PM -->
+    <details class="application">
+      <summary>
+        <div class="app-title">Aurora Innovation — Program Manager, People Team <span class="badge badge-green">Confirmed</span> <span class="badge badge-teal">Greenhouse Embed</span></div>
+        <div class="app-meta">Pittsburgh/Seattle · Not disclosed · 2026-05-25</div>
+      </summary>
+      <div class="app-body">
+        <table class="field-table">
+          <tr><td>Confirmation</td><td><a href="https://job-boards.greenhouse.io/embed/job_app/confirmation?for=aurorainnovation&token=8359484002" target="_blank">View Aurora confirmation page</a></td></tr>
+          <tr><td>Location / hybrid</td><td>Pittsburgh PA / Seattle WA hybrid</td></tr>
+          <tr><td>Sponsorship</td><td><span class="data-status-ok">Asked on form — answered Yes (honest)</span></td></tr>
+          <tr><td>Submission tactic</td><td>FIRST live submission of pipeline. Cracked Greenhouse embed pattern.</td></tr>
+        </table>
 
-      <div class="card">
-        <div class="card-title">#5 Kaitlyn Major-Hale <span class="badge badge-purple">Wes Alum, Google</span></div>
-        <div class="card-meta">Googler Experience Ops Associate @ Google Chicago · Wes alum · Casual</div>
-        <div class="card-note"><b>TO:</b> NOT FILLED (Google work emails not externally addressable)<br><b>Recommended:</b> LinkedIn DM instead, or check Wesleyan alumni directory.<br><b>Subject:</b> Fellow Wes alum — quick question about Chicago People Ops scene<br><br>Wes alum opener earns the reach.</div>
-        <div class="action-cta-send">LinkedIn DM (not Gmail)</div>
-      </div>
-    </div>
+        <details>
+          <summary>📄 Tailored Resume (PDF)</summary>
+          <div class="detail-body">
+            <iframe class="pdf-embed" src="../outputs/2026-05-25-night/applications/aurora_pmpplteam_2026-05-25/resume.pdf#zoom=85"></iframe>
+          </div>
+        </details>
 
-    <div style="font-size: 11px; color: var(--muted); margin-top: 12px;">
-      Tone spectrum guide: <a href="../outputs/2026-05-27-night-2/outreach/samples/INDEX.md">samples/INDEX.md</a> ·
-      Full draft texts: <a href="../outputs/2026-05-27-night-2/outreach/samples/">samples/</a>
+        <details>
+          <summary>📝 Tailored Cover Letter (PDF)</summary>
+          <div class="detail-body">
+            <iframe class="pdf-embed" src="../outputs/2026-05-25-night/applications/aurora_pmpplteam_2026-05-25/cover_letter.pdf#zoom=85"></iframe>
+          </div>
+        </details>
+
+        <details>
+          <summary>📸 Final Submission Screenshot</summary>
+          <div class="detail-body">
+            <img class="screenshot" src="../outputs/2026-05-25-night/applications/aurora_pmpplteam_2026-05-25/screenshots/patchright_final_state.png" alt="Aurora confirmation">
+          </div>
+        </details>
+
+        <details>
+          <summary>📁 All Files</summary>
+          <div class="detail-body">
+            <ul style="font-size: 12px;">
+              <li><a href="../outputs/2026-05-25-night/applications/aurora_pmpplteam_2026-05-25/resume.pdf" target="_blank">resume.pdf</a></li>
+              <li><a href="../outputs/2026-05-25-night/applications/aurora_pmpplteam_2026-05-25/cover_letter.pdf" target="_blank">cover_letter.pdf</a></li>
+              <li><a href="../outputs/2026-05-25-night/applications/aurora_pmpplteam_2026-05-25/SUBMITTED.json" target="_blank">SUBMITTED.json</a></li>
+              <li><a href="../outputs/2026-05-25-night/applications/aurora_pmpplteam_2026-05-25/submission_guide.md" target="_blank">submission_guide.md</a></li>
+              <li><a href="../outputs/2026-05-25-night/applications/aurora_pmpplteam_2026-05-25/audit_report.json" target="_blank">audit_report.json</a></li>
+              <li><a href="../outputs/2026-05-25-night/applications/aurora_pmpplteam_2026-05-25/outreach/" target="_blank">outreach/ folder (from this run)</a></li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <!-- APP: Pacific Seafood -->
+    <details class="application">
+      <summary>
+        <div class="app-title">Pacific Seafood — Training & Development Specialist (Distribution) <span class="badge badge-green">Confirmed</span> <span class="badge badge-teal">PinpointHQ</span></div>
+        <div class="app-meta">Clackamas OR (Portland metro) · 2026-05-25</div>
+      </summary>
+      <div class="app-body">
+        <table class="field-table">
+          <tr><td>Confirmation</td><td><a href="https://careers.pacificseafood.com/postings/fdbbfc87-dc45-440b-8288-e98358551550/thanks" target="_blank">View Pacific Seafood confirmation</a></td></tr>
+          <tr><td>Location</td><td>Clackamas, Oregon (Portland metro — Jamie's local market)</td></tr>
+          <tr><td>Sponsorship</td><td><span class="data-status-warn">NOT asked on form</span></td></tr>
+          <tr><td>Submission tactic</td><td>Cracked PinpointHQ React-event submission pattern via page.evaluate() + native input setter + dispatch events</td></tr>
+        </table>
+
+        <details>
+          <summary>📄 Tailored Resume (PDF)</summary>
+          <div class="detail-body">
+            <iframe class="pdf-embed" src="../outputs/2026-05-25-night/applications/pacificseafood_tds_2026-05-25/resume.pdf#zoom=85"></iframe>
+          </div>
+        </details>
+
+        <details>
+          <summary>📝 Tailored Cover Letter (PDF)</summary>
+          <div class="detail-body">
+            <iframe class="pdf-embed" src="../outputs/2026-05-25-night/applications/pacificseafood_tds_2026-05-25/cover_letter.pdf#zoom=85"></iframe>
+          </div>
+        </details>
+
+        <details>
+          <summary>📁 All Files</summary>
+          <div class="detail-body">
+            <ul style="font-size: 12px;">
+              <li><a href="../outputs/2026-05-25-night/applications/pacificseafood_tds_2026-05-25/resume.pdf" target="_blank">resume.pdf</a></li>
+              <li><a href="../outputs/2026-05-25-night/applications/pacificseafood_tds_2026-05-25/cover_letter.pdf" target="_blank">cover_letter.pdf</a></li>
+              <li><a href="../outputs/2026-05-25-night/applications/pacificseafood_tds_2026-05-25/SUBMITTED.json" target="_blank">SUBMITTED.json</a></li>
+              <li><a href="../outputs/2026-05-25-night/applications/pacificseafood_tds_2026-05-25/SUBMIT_RESULT.json" target="_blank">SUBMIT_RESULT.json</a></li>
+              <li><a href="../outputs/2026-05-25-night/applications/pacificseafood_tds_2026-05-25/audit_report.json" target="_blank">audit_report.json</a></li>
+              <li><a href="../outputs/2026-05-25-night/applications/pacificseafood_tds_2026-05-25/outreach/" target="_blank">outreach/ folder</a></li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <!-- Summary stats -->
+    <div style="margin-top: 14px; padding: 12px; background: #f0fdf4; border-radius: 6px; font-size: 12px;">
+      <b>📊 Pipeline summary (3 days, 5 submissions):</b>
+      <table style="margin-top: 6px; font-size: 11px; width: 100%;">
+        <tr><td><b>Companies</b></td><td>4 unique (Aurora x2, Built In, Roivant, Pacific Seafood)</td></tr>
+        <tr><td><b>Geographic spread</b></td><td>1 Portland · 1 Chicago · 1 NYC · 1 Mountain View · 1 Pittsburgh/Seattle</td></tr>
+        <tr><td><b>ATSes cracked</b></td><td>Greenhouse embed · Greenhouse direct · Greenhouse multi-select · PinpointHQ · Greenhouse email-CAPTCHA</td></tr>
+        <tr><td><b>Salary range</b></td><td>$70-160K across roles</td></tr>
+        <tr><td><b>H1B sponsorship</b></td><td>4 explicitly asked + answered Yes honestly; 1 (Pacific Seafood) not asked</td></tr>
+        <tr><td><b>Resume hallucinations</b></td><td>0 (content_library.md only)</td></tr>
+      </table>
     </div>
   </div>
 
-  <!-- ROW 3: Mechanism Health | Autofill Audit -->
-  <div class="row">
-    <div class="lane mechanism">
-      <div class="lane-header">
-        <div class="lane-title">⚙️ Mechanism Health</div>
-        <div class="lane-count">7/8 working</div>
-      </div>
-
-      <table>
-        <tr><td>Patchright (clone profile)</td><td><span class="data-status-ok">✅ Working</span></td></tr>
-        <tr><td>Greenhouse embed submit</td><td><span class="data-status-ok">✅ Aurora People PM live-submitted</span></td></tr>
-        <tr><td>Greenhouse direct (modal-fill)</td><td><span class="data-status-ok">✅ Built In + Roivant + Aurora HR Gen submitted</span></td></tr>
-        <tr><td>Greenhouse React-select (multi)</td><td><span class="data-status-ok">✅ Aurora demographic cracked via click-option pattern (NEW)</span></td></tr>
-        <tr><td>PinpointHQ submit</td><td><span class="data-status-ok">✅ Pacific Seafood live-submitted</span></td></tr>
-        <tr><td>Greenhouse email-verify CAPTCHA</td><td><span class="data-status-ok">✅ Auto-fetched from Gmail via MCP (NEW)</span></td></tr>
-        <tr><td>LinkedIn Easy Apply (CDP)</td><td><span class="data-status-ok">✅ Reaches Review autofilled (LHH proof)</span></td></tr>
-        <tr><td>Gmail draft creation + cleanup</td><td><span class="data-status-ok">✅ Real TO addresses populated</span></td></tr>
-        <tr><td>Workday submit</td><td><span style="color: var(--red); font-weight: 600;">❌ Akamai-blocked</span></td></tr>
-        <tr><td>PeopleAdmin submit</td><td><span style="color: var(--red); font-weight: 600;">❌ Account-gate blocked</span></td></tr>
-        <tr><td>Greenhouse API direct discovery</td><td><span class="data-status-ok">✅ 91 boards scannable (NEW)</span></td></tr>
-      </table>
-
-      <div style="margin-top: 12px; padding: 10px; background: #ecfeff; border-radius: 6px; font-size: 12px;">
-        <b>🎉 Tonight's breakthroughs:</b><br>
-        1. Aurora's React-select cracked — click <code>[role="option"]</code> instead of pressing Enter<br>
-        2. Greenhouse email-verification CAPTCHA auto-fetched from Gmail<br>
-        3. CDP-attached LinkedIn fully unblocks Easy Apply<br>
-        4. Greenhouse API direct (91 boards) replaces flaky WebFetch
-      </div>
+  <!-- ============================================================ -->
+  <!-- NEEDS DECISION                                                 -->
+  <!-- ============================================================ -->
+  <div class="lane needs-jamie">
+    <div class="lane-header">
+      <div class="lane-title">⚠️ Needs Your Decision</div>
+      <div class="lane-count">1</div>
     </div>
 
-    <div class="lane autofill">
-      <div class="lane-header">
-        <div class="lane-title">📋 Autofill Data Audit</div>
-        <div class="lane-count">verified 2026-05-28</div>
-      </div>
+    <details class="application" open>
+      <summary>
+        <div class="app-title">Anthropic — Program Operations Manager, Human Data <span class="badge badge-amber">YOE Gate</span></div>
+        <div class="app-meta">SF/NYC · $270-290K · 2026-05-27</div>
+      </summary>
+      <div class="app-body">
+        <p style="font-size: 13px; margin: 0 0 12px;"><b>Blocker:</b> Form asks "Do you have 4+ years experience?" Jamie has 3. Truthful answer = No → likely auto-screen out.</p>
+        <p style="font-size: 13px;"><b>My recommendation:</b> Skip cold app. Try warm intro via LinkedIn to Anthropic Talent team or someone on the Human Data team. Confirmed H1B sponsor + great scope match — warm intro odds are 5-10x better than cold app at 75% YOE.</p>
 
-      <table>
-        <tr><td>Name</td><td>Yi-Chieh Cheng (Jamie)</td></tr>
-        <tr><td>Email</td><td><span class="data-status-ok">jamiecheng0103@gmail.com</span></td></tr>
-        <tr><td>Phone</td><td><span class="data-status-ok">+1-213-700-3831</span></td></tr>
-        <tr><td>Address</td><td>1784 NW Northrup St Apt 635, Portland OR 97209</td></tr>
-        <tr><td>LinkedIn URL</td><td>linkedin.com/in/yi-chieh-cheng/</td></tr>
-        <tr><td>Saved LinkedIn resume</td><td><span class="data-status-ok">"Jamie's Resume_2026.pdf" — last used 5/22/2026</span></td></tr>
-        <tr><td>Save resumes &amp; answers</td><td><span class="data-status-ok">ON</span></td></tr>
-        <tr><td>Share data with hirers</td><td><span class="data-status-ok">ON</span></td></tr>
-        <tr><td>Self-ID saved</td><td><span class="data-status-ok">ON</span></td></tr>
-        <tr><td>Work authorization</td><td><span class="data-status-ok">Yes</span></td></tr>
-        <tr><td>Sponsorship answer</td><td><span class="data-status-ok">Yes (HONEST — H1B-dependent)</span></td></tr>
-        <tr><td>Aurora demographic answer</td><td><span class="data-status-ok">"I don't wish to answer" (auto)</span></td></tr>
-      </table>
-
-      <div style="margin-top: 12px; padding: 10px; background: #fef9c3; border-radius: 6px; font-size: 12px;">
-        <b>⚠️ Open audit items:</b>
-        <ul style="margin: 6px 0 0 16px; padding: 0;">
-          <li>Eyeball the "Jamie's Resume_2026.pdf" on LinkedIn — confirm it's the latest 1-page version</li>
-          <li>21 other older saved resumes on LinkedIn — consider cleanup (not urgent)</li>
-          <li>Simplify Copilot — works in your normal Chrome, complements pipeline</li>
-        </ul>
+        <details>
+          <summary>📄 Tailored Resume (already built, ready if Jamie chooses to apply)</summary>
+          <div class="detail-body">
+            <iframe class="pdf-embed" src="../outputs/2026-05-27-night/applications/anthropic_progopshumandata_2026-05-27/resume.pdf#zoom=85"></iframe>
+          </div>
+        </details>
+        <details>
+          <summary>📝 Tailored Cover Letter (candidly addresses YOE gap)</summary>
+          <div class="detail-body">
+            <iframe class="pdf-embed" src="../outputs/2026-05-27-night/applications/anthropic_progopshumandata_2026-05-27/cover_letter.pdf#zoom=85"></iframe>
+          </div>
+        </details>
+        <details>
+          <summary>📁 BLOCKED.json (full decision log)</summary>
+          <div class="detail-body">
+            <p style="font-size: 12px;"><a href="../outputs/2026-05-27-night/applications/anthropic_progopshumandata_2026-05-27/BLOCKED.json" target="_blank">View BLOCKED.json</a></p>
+          </div>
+        </details>
       </div>
-    </div>
+    </details>
   </div>
 
-  <div class="updated">
-    Data sources: <code>jamie/master_tracker.json</code> · <code>outputs/2026-05-27-night-2/</code><br>
+  <!-- ============================================================ -->
+  <!-- OUTREACH DRAFTS (5) — each is expandable with full content    -->
+  <!-- ============================================================ -->
+  <div class="lane outreach">
+    <div class="lane-header">
+      <div class="lane-title">📧 Outreach Drafts — Click to Expand & Review</div>
+      <div class="lane-count">5 ready (4 with real emails)</div>
+    </div>
+    <p style="font-size: 12px; color: var(--muted); margin: 0 0 12px;">Each card below shows the full email content + LinkedIn profile link + the verified current employer + tone calibration notes. Drafts also exist in Jamie's Gmail (subject prefix <code>[OUTREACH]</code>) so she can send with one click.</p>
+
+    <!-- OUTREACH 1: Emily Formea (replaced Jessica) -->
+    <details class="outreach-card" id="outreach-emily" open>
+      <summary>
+        <div><b>#1 Emily Formea, PHR</b> — Roivant Sciences · <span class="badge badge-purple">Roivant Peer · M&A Hook</span></div>
+        <div style="color: var(--muted); font-size: 11px;">Replaces Jessica Redeman (left Roivant March 2026)</div>
+      </summary>
+      <div class="outreach-body">
+        <table class="outreach-meta">
+          <tr><td>LinkedIn</td><td><a href="https://www.linkedin.com/in/emily-formea-phr-199840106/" target="_blank">linkedin.com/in/emily-formea-phr-199840106</a></td></tr>
+          <tr><td>Current role</td><td><span class="data-status-ok">Senior People Operations Associate @ Roivant Sciences</span> (verified via LinkedIn 2026-05-28)</td></tr>
+          <tr><td>Email (likely)</td><td><code>emily.formea@roivant.com</code> — Roivant standard format first.last@roivant.com (confirmed via RocketReach)</td></tr>
+          <tr><td>Subject</td><td>Applied to People Ops Associate — wanted to connect</td></tr>
+          <tr><td>Tone</td><td>Professional warm; M&A integration hook; post-application reference</td></tr>
+          <tr><td>Tied to application</td><td>Roivant People Operations Associate (submitted 2026-05-27)</td></tr>
+        </table>
+
+        <h3>📧 Full Email Body</h3>
+        <div class="email-body">Hi Emily,
+
+This is Jamie — I hope you're having a good week!
+
+I recently applied for the People Operations Associate role at Roivant and wanted to reach out personally alongside my application. Reading about the role, I was particularly drawn to the operational complexity that comes with Roivant's multi-company structure — it reminds me of work I did at Vestas, where I supported a Mergers & Acquisitions project migrating and consolidating employee records across a global entity integration.
+
+People Ops at a holding company that actively spins up new subsidiaries feels like a genuinely interesting challenge, and as a fellow People Ops practitioner, I'd love to hear more about what that looks like day-to-day on your team.
+
+If you're open to a brief chat, I'd really appreciate it — thank you so much!
+
+Warmly,
+Jamie Cheng</div>
+
+        <div class="tone-note">
+          <b>Tone calibration:</b> Emily is a peer-level People Ops practitioner — direct, warm, collegial tone. M&A hook is specific and earned (real Vestas experience). Replaces Jessica Redeman (who left Roivant for Alera Group in March 2026 — caught by LinkedIn re-verification tonight). Post-application reference works only if sent within 1 week of 2026-05-27 application.
+        </div>
+      </div>
+    </details>
+
+    <!-- OUTREACH 2: Kelly Graff -->
+    <details class="outreach-card" id="outreach-kelly">
+      <summary>
+        <div><b>#2 Kelly Graff</b> — Roivant Sciences · <span class="badge badge-purple">Roivant SVP · Formal-warm</span></div>
+        <div style="color: var(--muted); font-size: 11px;">Highest-stakes send · Worth final review</div>
+      </summary>
+      <div class="outreach-body">
+        <table class="outreach-meta">
+          <tr><td>LinkedIn</td><td><a href="https://www.linkedin.com/in/kelly-graff-39245845/" target="_blank">linkedin.com/in/kelly-graff-39245845</a></td></tr>
+          <tr><td>Current role</td><td><span class="data-status-ok">SVP, Head of People @ Roivant Sciences</span> (verified 2026-05-28 · 6 yrs 3 mos at Roivant)</td></tr>
+          <tr><td>Email (likely)</td><td><code>kelly.graff@roivant.com</code> — ZoomInfo confirmed pattern as k***@roivant.com</td></tr>
+          <tr><td>Subject</td><td>Roivant's People function — a note from an admirer</td></tr>
+          <tr><td>Tone</td><td>Formal-warm; senior-leader respect; admiration-led (no application chasing)</td></tr>
+          <tr><td>Tied to application</td><td>Roivant People Operations Associate (intentionally does NOT mention)</td></tr>
+        </table>
+
+        <h3>📧 Full Email Body</h3>
+        <div class="email-body">Hi Kelly,
+
+I hope you're doing well — I wanted to reach out to share a bit of genuine admiration before anything else.
+
+The way Roivant has structured its People function across a multi-subsidiary model — building a coherent people strategy while supporting companies at completely different stages of maturity — strikes me as one of the more intellectually interesting challenges in People leadership right now. I've followed how the organization has scaled its Founders' Initiative portfolio from the outside with a lot of respect.
+
+I'm a People & OD professional with a background in organizational psychology (USC, MS) and experience spanning OD consulting, L&D program management, and HRBP work. I'm genuinely drawn to organizations where the People function is a strategic lever, not just an operational one.
+
+I'd be honored to connect — no agenda beyond learning from how you've approached building this.
+
+Sincerely,
+Jamie Cheng</div>
+
+        <div class="tone-note">
+          <b>Tone calibration:</b> Kelly is an SVP — leading with the application reads as transactional/gauche at this level. This email positions Jamie as someone who has been paying attention to what Roivant has actually built, not chasing a job posting. Soft ask (connect, not coffee chat). Stays respectful without being sycophantic.
+        </div>
+      </div>
+    </details>
+
+    <!-- OUTREACH 3: Valerie Duca -->
+    <details class="outreach-card">
+      <summary>
+        <div><b>#3 Valerie Duca</b> — Centessa Pharmaceuticals · <span class="badge badge-purple">Adjacent Biotech · Curiosity-driven</span></div>
+        <div style="color: var(--muted); font-size: 11px;">Lowest pressure · 15-min coffee chat ask</div>
+      </summary>
+      <div class="outreach-body">
+        <table class="outreach-meta">
+          <tr><td>LinkedIn</td><td><a href="https://www.linkedin.com/in/valerie-duca-256bb089/" target="_blank">linkedin.com/in/valerie-duca-256bb089</a></td></tr>
+          <tr><td>Current role</td><td><span class="data-status-ok">Associate Director, People Operations @ Centessa Pharmaceuticals</span> (verified 2026-05-28 · 5 yrs 2 mos)</td></tr>
+          <tr><td>Email (likely)</td><td><code>valerie.duca@centessa.com</code> — Centessa standard first.last@centessa.com (89% adoption confirmed)</td></tr>
+          <tr><td>Subject</td><td>Quick question about People Ops in biotech holding cos</td></tr>
+          <tr><td>Tone</td><td>Curiosity-driven peer note · No agenda · Lowest pressure</td></tr>
+          <tr><td>Tied to application</td><td>Adjacent (biotech holding-co exploration) — not directly tied to Roivant app</td></tr>
+        </table>
+
+        <h3>📧 Full Email Body</h3>
+        <div class="email-body">Hi Valerie,
+
+Apologies if this is a bit out of the blue — I came across your profile while exploring People Ops roles in the biotech and life sciences space, and I wanted to reach out.
+
+I've been particularly curious about how People functions operate inside holding company structures like Centessa's — where the parent is essentially coordinating people strategy across multiple portfolio companies at once. It's a dynamic that I find genuinely interesting, partly because I'm drawn to that kind of systems-level thinking in HR.
+
+I have a background in OD consulting and program management (MS in Applied Org Psych from USC), and I'm exploring where that kind of experience translates well in the biotech world.
+
+If you'd be open to a 15-minute coffee chat sometime, I would really value hearing your perspective — no agenda beyond genuine curiosity!
+
+Thanks so much,
+Jamie Cheng</div>
+
+        <div class="tone-note">
+          <b>Tone calibration:</b> Valerie is a 3rd-degree connection at adjacent company — no application, no warm intro, no alumni tie. Lowest-pressure ask (15-min coffee, explicit "no agenda") is the right calibration. Leads with intellectual curiosity about her specific context (holding-co People Ops).
+        </div>
+      </div>
+    </details>
+
+    <!-- OUTREACH 4: Amber O'Reilly -->
+    <details class="outreach-card">
+      <summary>
+        <div><b>#4 Amber O'Reilly, CPTD</b> — Higginbotham · <span class="badge badge-purple">L&D Peer · Credential respect</span></div>
+        <div style="color: var(--muted); font-size: 11px;">Strongest intellectual-depth signal</div>
+      </summary>
+      <div class="outreach-body">
+        <table class="outreach-meta">
+          <tr><td>LinkedIn</td><td><a href="https://www.linkedin.com/in/ambereoreilly/" target="_blank">linkedin.com/in/ambereoreilly</a></td></tr>
+          <tr><td>Current role</td><td><span class="data-status-ok">Director of Learning and Development @ Higginbotham</span> (verified 2026-05-28 · 3 yrs 5 mos)</td></tr>
+          <tr><td>Email (likely)</td><td><code>aoreilly@higginbotham.net</code> — Higginbotham first-initial+last format (88.5% adoption). Fallback: aoreilly@higginbotham.com</td></tr>
+          <tr><td>Subject</td><td>Fellow L&D practitioner — would love to connect</td></tr>
+          <tr><td>Tone</td><td>L&D-to-L&D professional warmth · CPTD credential respect · Specific operational ask</td></tr>
+          <tr><td>Tied to application</td><td>Not directly — peer learning conversation for Jamie's broader L&D exploration</td></tr>
+        </table>
+
+        <h3>📧 Full Email Body</h3>
+        <div class="email-body">Hi Amber,
+
+I came across your profile and immediately noticed your CPTD — a credential I have a lot of respect for, since it signals a commitment to the whole architecture of learning practice, not just delivery.
+
+I'm an L&D and people program practitioner myself — I've spent the past few years managing vendor relationships, designing and facilitating training programs for 600+ participants, and running needs assessments with global stakeholders to build programs that actually stick. My academic background is in organizational psychology (USC, MS), which is where my interest in learning science started.
+
+I'd love to connect and hear a bit about your L&D approach at Higginbotham — especially how you think about program measurement and what's working well in your team's design process right now.
+
+Thanks so much for your time!
+
+Warmly,
+Jamie Cheng</div>
+
+        <div class="tone-note">
+          <b>Tone calibration:</b> The CPTD credential is a natural peer-recognition anchor — mentioning it specifically (and explaining why it matters) reads as genuine, not flattery. Jamie leads with Amber's credential, then briefly establishes her own L&D credibility, then asks a specific operational question (program measurement) rather than a vague "pick your brain."
+        </div>
+      </div>
+    </details>
+
+    <!-- OUTREACH 5: Kaitlyn Major-Hale -->
+    <details class="outreach-card" id="outreach-kaitlyn">
+      <summary>
+        <div><b>#5 Kaitlyn Major-Hale</b> — Google Chicago · <span class="badge badge-purple">Wesleyan Alum · Casual</span></div>
+        <div style="color: var(--muted); font-size: 11px;">LinkedIn DM (Google emails not externally addressable)</div>
+      </summary>
+      <div class="outreach-body">
+        <table class="outreach-meta">
+          <tr><td>LinkedIn</td><td><a href="https://www.linkedin.com/in/kaitlyn-major-hale-5b48471ba/" target="_blank">linkedin.com/in/kaitlyn-major-hale-5b48471ba</a></td></tr>
+          <tr><td>Current role</td><td><span class="data-status-ok">Googler Experience Operations Associate, Onboarding @ Google Chicago</span> (verified · 2 yrs 9 mos)</td></tr>
+          <tr><td>Email</td><td><span class="data-status-warn">NOT externally addressable</span> — Google work emails not findable. Use <b>LinkedIn DM</b> instead.</td></tr>
+          <tr><td>Subject</td><td>Fellow Wes alum — quick question about Chicago People Ops scene</td></tr>
+          <tr><td>Tone</td><td>Casual warm · Wesleyan alum opener · Early-career peer</td></tr>
+          <tr><td>Tied to application</td><td>Built In Chicago (entry point: "I recently applied to Built In Chicago")</td></tr>
+        </table>
+
+        <h3>📧 Full Message Body (for LinkedIn DM or email if found)</h3>
+        <div class="email-body">Hi Kaitlyn,
+
+This is Jamie — a fellow Wes alum! I came across your profile and noticed we're both working in People Operations, which made me want to reach out.
+
+I recently applied to the People Operations role at Built In Chicago and have been doing a bit of research into the Chicago tech scene from afar. You're at Google Chicago, which feels about as well-positioned as it gets to have a read on what People Ops actually looks like in that ecosystem.
+
+I'm based in Portland right now but genuinely open to where the right opportunity takes me — Chicago has been on my radar. I'd love to hear your honest take on the scene there and what's made it interesting for you so far, if you're ever up for a quick chat!
+
+Hope to connect,
+Jamie Cheng</div>
+
+        <div class="tone-note">
+          <b>Tone calibration:</b> Kaitlyn is a 2nd-degree Wesleyan connection and an early-career peer — the Wes alum opener earns the reach without being transactional. Most casual tone of the set. Frames the ask as curiosity about a city/scene, not a job ask, which keeps the pressure low.<br><br>
+          <b>Delivery channel:</b> Google work emails aren't externally addressable for most employees. <b>Send via LinkedIn DM</b> instead — Jamie can copy-paste this email body into a LinkedIn message.
+        </div>
+      </div>
+    </details>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- MECHANISM HEALTH + AUTOFILL AUDIT                              -->
+  <!-- ============================================================ -->
+  <div class="lane mechanism">
+    <div class="lane-header">
+      <div class="lane-title">⚙️ Mechanism Health</div>
+      <div class="lane-count">7/8 working</div>
+    </div>
+
+    <table class="field-table">
+      <tr><td>Patchright (clone profile)</td><td><span class="data-status-ok">✅ Working</span></td></tr>
+      <tr><td>Greenhouse embed submit</td><td><span class="data-status-ok">✅ Aurora People PM live-submitted</span></td></tr>
+      <tr><td>Greenhouse direct (modal-fill)</td><td><span class="data-status-ok">✅ Built In + Roivant + Aurora HR Gen submitted</span></td></tr>
+      <tr><td>Greenhouse React-select (multi)</td><td><span class="data-status-ok">✅ Aurora demographics cracked via click-option pattern (NEW)</span></td></tr>
+      <tr><td>PinpointHQ submit</td><td><span class="data-status-ok">✅ Pacific Seafood live-submitted</span></td></tr>
+      <tr><td>Greenhouse email-verify CAPTCHA</td><td><span class="data-status-ok">✅ Auto-fetched from Gmail via MCP (NEW)</span></td></tr>
+      <tr><td>LinkedIn Easy Apply (CDP)</td><td><span class="data-status-ok">✅ Reaches Review autofilled (LHH proof)</span></td></tr>
+      <tr><td>Gmail draft creation + cleanup</td><td><span class="data-status-ok">✅ Real TO addresses populated</span></td></tr>
+      <tr><td>Workday submit</td><td><span style="color: var(--red); font-weight: 600;">❌ Akamai-blocked</span></td></tr>
+      <tr><td>PeopleAdmin submit</td><td><span style="color: var(--red); font-weight: 600;">❌ Account-gate blocked</span></td></tr>
+      <tr><td>Greenhouse API direct discovery</td><td><span class="data-status-ok">✅ 91 boards scannable (NEW)</span></td></tr>
+    </table>
+  </div>
+
+  <!-- AUTOFILL AUDIT -->
+  <div class="lane autofill">
+    <div class="lane-header">
+      <div class="lane-title">📋 Autofill Data Audit (used in all 5 submissions)</div>
+      <div class="lane-count">verified 2026-05-28</div>
+    </div>
+
+    <table class="field-table">
+      <tr><td>Name</td><td>Yi-Chieh Cheng (Jamie)</td></tr>
+      <tr><td>Email</td><td><span class="data-status-ok">jamiecheng0103@gmail.com</span></td></tr>
+      <tr><td>Phone</td><td><span class="data-status-ok">+1-213-700-3831</span></td></tr>
+      <tr><td>Address</td><td>1784 NW Northrup St Apt 635, Portland OR 97209</td></tr>
+      <tr><td>LinkedIn URL</td><td><a href="https://www.linkedin.com/in/yi-chieh-cheng/" target="_blank">linkedin.com/in/yi-chieh-cheng/</a></td></tr>
+      <tr><td>Saved LinkedIn resume</td><td><span class="data-status-ok">"Jamie's Resume_2026.pdf" — last used 5/22/2026</span></td></tr>
+      <tr><td>Work authorization</td><td><span class="data-status-ok">Yes</span></td></tr>
+      <tr><td>Sponsorship answer</td><td><span class="data-status-ok">Yes (HONEST — H1B-dependent)</span></td></tr>
+      <tr><td>Demographic answer</td><td><span class="data-status-ok">"I don't wish to answer" (Aurora form)</span></td></tr>
+    </table>
+  </div>
+
+  <div style="font-size: 11px; color: var(--muted); margin-top: 16px; text-align: center;">
+    Data sources: <code>jamie/master_tracker.json</code> · Application folders under <code>outputs/{YYYY-MM-DD}-night*/applications/</code><br>
     Last updated 2026-05-28 night 2 final · Working scripts in <code>jamie-autopilot/lib/</code> · Both repos pushed to GitHub
   </div>
 </div>
