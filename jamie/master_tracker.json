@@ -75,6 +75,21 @@
       "confirmation_url": "https://job-boards.greenhouse.io/roivantsciences/jobs/7922791/confirmation",
       "jamie_action_needed": false,
       "notes": "Thank you for applying. Biotech holding co; M&A integration angle from Vestas was the hook. 2+ YOE met. 3 days NYC office, relocation stated. Sponsorship disclosed honestly."
+    },
+    {
+      "id": "aurora_hr_generalist_2026-05-28",
+      "date_applied": "2026-05-28",
+      "company": "Aurora Innovation",
+      "title": "HR Generalist",
+      "location": "Mountain View CA (relocation stated)",
+      "ats": "Greenhouse",
+      "lane": "AUTO_SUBMITTED",
+      "status": "confirmed",
+      "sponsorship_status": "asked_on_form_jamie_said_yes",
+      "salary": "$92-133K + bonus + equity",
+      "url": "https://job-boards.greenhouse.io/embed/job_app?for=aurorainnovation&token=8520165002",
+      "jamie_action_needed": false,
+      "notes": "5th tonight. Aurora's react-select cracked via click-option pattern (v5/v6). Greenhouse email-verification CAPTCHA (8-char code pHjRiIdE) auto-fetched from Gmail and entered. Cover acknowledges prior Aurora Program Manager application (5/25). 2nd Aurora role = different team, different scope (HR Generalist vs Program Mgr)."
     }
   ],
   "dedup_companies": [
