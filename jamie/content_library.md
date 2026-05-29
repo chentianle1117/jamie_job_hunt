@@ -11,26 +11,120 @@
 
 ---
 
+## 2026-05-28 Corrections
+
+Changes applied from Jamie's review of first 5 applications:
+
+1. **Company name fix:** All references to "Transition Projects" in the Tailoring Playbook tables replaced with "Organization Development Network (ODN) Oregon" (abbreviated "ODN Oregon" in table cells for space). The correct role title is "Consultant, Organization & Talent Development."
+2. **ODN bullet count enforced:** ODN section now caps at 3 canonical bullets (master resume fact). A 4th bullet existed — it is retained as an "(optional/stretch)" variant but the canonical set is 3.
+3. **Summary Variants section added:** Broad 3-pillar summaries with swappable role-title nouns, per §1 of JAMIE_FEEDBACK_RULES.md.
+4. **Canonical Skills section added:** 5-line grouped format matching master resume; "always list" vs "JD-gated" items flagged.
+5. **BANNED number flagged:** `$340K+ revenue across 17 launches` is hallucinated/composite — NEVER use. Canonical metric = "78% enrollment rate."
+6. **InGenius engagement research** marked as a small side project — mention lightly, do not over-emphasize.
+
+---
+
 ## Contact Info
 
 515 NW 28th Ave, Apt 9, Portland Oregon, 97210
 
 ---
 
+## Summary Variants (Top Resume Intro — KEEP BROAD)
+
+> **Rule (§1 JAMIE_FEEDBACK_RULES.md):** Never niche the summary around a single task. Always use the
+> three pillars: (1) solving problems through **data analysis**, (2) developing programs **grounded in
+> evidence**, (3) **collaborating with stakeholders** for sustainable impact. Only the role-title noun
+> changes to match the JD function.
+
+### Canonical base (from master resume):
+
+> "I'm Jamie—a curious, people-loving (97% extrovert!) **[ROLE IDENTITY]** professional who thrives on
+> **solving problems through data analysis**, **developing programs grounded in evidence**, and
+> **collaborating with stakeholders for sustainable impact**. Expect me to always be seeking ways we can
+> improve people experience—through human-centered, data-driven approaches."
+
+### Swappable role-title nouns (replace `[ROLE IDENTITY]` above):
+
+| JD Function | Role-title noun to use |
+|---|---|
+| OD / general HR | Organization & Talent Development |
+| People Ops / HR generalist | People Operations |
+| Program Management | Program Management |
+| L&D / Training | Learning & Development |
+
+**Keep the three pillars identical across all variants. Only swap the role-title noun.**
+
+Drop "97% extrovert!" only for traditional consulting firms (Mercer, Deloitte, etc.) per §1 rules.
+
+---
+
+## Canonical Skills Block (5-Line Grouped Format)
+
+> **Rule (§4 JAMIE_FEEDBACK_RULES.md):** Always list foundational items regardless of JD.
+> Only add JD-gated tools when the JD names them.
+
+```
+HR Systems: HRIS (SAP, Rippling, ADP) · ATS (Greenhouse) · LMS (Canvas, Moodle)
+Data & PM Tools: Data Analysis (Excel, Google Sheets, SPSS) · Project Management (Asana, Airtable) · CRM (HubSpot)
+Productivity: Knowledge Management (SharePoint, Notion) · AI Tools (ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint)
+Languages: English (fluent) · Mandarin Chinese (native) · Spanish (basic)
+Certifications: HRCI Human Resource Associate Certificate (in progress)
+```
+
+### Always list (foundational — regardless of JD):
+- Microsoft Office (Word, PowerPoint, Excel)
+- Data Analysis (Excel, Google Sheets, SPSS)
+- Project Management tools (Asana, Airtable)
+
+### JD-gated (only include if the JD names them):
+- Notion, SharePoint — only if JD explicitly mentions knowledge management tools
+- HRIS specifics: SAP, Rippling, ADP — match to JD
+- ATS: Greenhouse — match to JD
+- LMS: Canvas, Moodle — match to JD (L&D roles)
+- HubSpot CRM — match to JD (BD/partnerships roles)
+
+---
+
+## BANNED / HALLUCINATED CONTENT — DO NOT USE
+
+> ⛔ **"$340K+ revenue across 17 launches"** — This is a composite/hallucinated number. NEVER USE.
+> Canonical metric for InGenius revenue performance is **"78% enrollment rate"** (or "78% client
+> conversion rate" for L&D/consulting-framing roles). Do not invent combined revenue figures.
+>
+> If any draft contains "$340K" or "17 launches" as a combined stat, flag and remove immediately.
+
+---
+
 ## Expanded Resume Bullets (Multiple Variants Per Role)
 
-### Consultant, Organizational Development & Employee Engagement (Remote, USA)
+### Consultant, Organization & Talent Development (Remote, USA)
 
 **Organization Development Network (ODN) Oregon — August 2025 to Present**
 
-- Facilitate CEO/HR discovery and stakeholder interviews to diagnose absenteeism drivers; analyze leave data to quantify costs
-- Design a year-round engagement & communications plan and recommend programs, targeting 5%+ absenteeism reduction
-- Upskill HR team in data analytics to audit 300+ leave cases, successfully refuting cost assumptions via evidence-based insights
-- Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training
+> **Bullet count rule (§2 JAMIE_FEEDBACK_RULES.md):** ODN caps at **2-3 bullets** — NOT 4.
+> Use bullets 1-3 below (canonical). Bullet 4 is an optional stretch variant only.
 
-### Strategic Partnership & Business Development Specialist / Program Management Specialist (Learning Enablement Focus) (Remote, USA)
+**Canonical 3 bullets (use these; pick 2 or all 3 depending on space):**
+
+- Upskill HR team in data analytics to audit 300+ leave cases, refuting cost assumptions via evidence-based insights
+- Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training
+- Design a year-round accountability structure to redesign engagement communications, targeting 5%+ absenteeism reduction
+
+**Optional 4th bullet (stretch — only if a variant is needed; never use as default):**
+
+- Facilitate CEO/HR discovery and stakeholder interviews to diagnose absenteeism drivers; analyze leave data to quantify costs
+
+### Program Enablement Manager (Remote, USA)
 
 **InGenius Prep, LLC — September 2023 to Present**
+
+> **Note (§2 JAMIE_FEEDBACK_RULES.md):** The engagement research item below is a **small side project** —
+> mention it lightly if at all (e.g., in the Engagement/HR set). Do NOT over-emphasize or frame it as a
+> full employee-engagement research initiative.
+>
+> **BANNED number:** Do NOT use "$340K+ revenue across 17 launches" — it is hallucinated/composite.
+> Canonical metric = **"78% enrollment rate"** (or "78% client conversion rate" for L&D/consulting framing).
 
 **Core variants (use most relevant combination for each JD):**
 
@@ -372,7 +466,7 @@ I'm drawn to this {ROLE} role because it sits at the intersection of {JAMIE'S PA
 | Summary line             | Identity label + keywords + approach    | Frames Jamie's professional identity for the role type  |
 | InGenius job title       | 4 variations                            | Signals PM vs L&D vs consulting vs product emphasis     |
 | Bullet emphasis sets     | 8 distinct sets (A–H)                   | Selects the most relevant accomplishments per role type |
-| Transition Projects pair | Pair A (results) or Pair B (diagnostic) | Completed impact vs forward-looking initiative          |
+| ODN Oregon pair          | Pair A (results) or Pair B (diagnostic) | Completed impact vs forward-looking initiative          |
 | Technical skills         | 5 clusters                              | Shows the tools relevant to the role type               |
 
 
@@ -390,7 +484,7 @@ I'm drawn to this {ROLE} role because it sits at the intersection of {JAMIE'S PA
 | Summary approach    | "human-centered, **systematic** approaches"                                                                          |
 | InGenius title      | **Program Enablement Manager**                                                                                       |
 | InGenius bullets    | **Set A** — needs assessments for learning gaps, guides and workflows, **client conversion rate**, delivery strategy |
-| Transition Projects | **Pair A** (Upskill/Empower — completed results)                                                                     |
+| ODN Oregon          | **Pair A** (Upskill/Empower — completed results)                                                                     |
 | Vestas              | Standard set                                                                                                         |
 | NextGen             | Standard (engagement strategies)                                                                                     |
 | Kronos              | Standard                                                                                                             |
@@ -409,7 +503,7 @@ I'm drawn to this {ROLE} role because it sits at the intersection of {JAMIE'S PA
 | Summary approach    | "human-centered, **data-driven** approaches"                                                                               |
 | InGenius title      | **Program Manager, Enablement**                                                                                            |
 | InGenius bullets    | **Set B** — establish cross-functional processes, listening sessions, communications strategy, **program enrollment rate** |
-| Transition Projects | **Pair B** (Facilitate/Redesign — forward-looking)                                                                         |
+| ODN Oregon          | **Pair B** (Facilitate/Redesign — forward-looking)                                                                         |
 | Vestas              | Standard or streamlined onboarding variant                                                                                 |
 | NextGen             | Standard                                                                                                                   |
 | Kronos              | Standard                                                                                                                   |
@@ -428,7 +522,7 @@ I'm drawn to this {ROLE} role because it sits at the intersection of {JAMIE'S PA
 | Summary approach    | "human-centered, **systematic** approaches"                                                                                                                                             |
 | InGenius title      | **Program Enablement Manager**                                                                                                                                                          |
 | InGenius bullets    | **Set H** — establish processes, listening sessions, communications strategy, program enrollment rate                                                                                   |
-| Transition Projects | **Pair A** (Upskill/Empower)                                                                                                                                                            |
+| ODN Oregon          | **Pair A** (Upskill/Empower)                                                                                                                                                            |
 | Vestas              | HR variant — "Supported HRBP team by piloting...", "Delivered strategic HR solutions for business priorities across projects in employee relations, headcount, and succession planning" |
 | NextGen             | HR variant — "synthesizing engagement data", "provide reporting & insights", "leadership training and performance evaluations"                                                          |
 | Kronos              | HR variant — "employee relations", "hard-to-fill", "Built global talent pipelines via targeted sourcing and workforce planning support"                                                 |
@@ -448,7 +542,7 @@ I'm drawn to this {ROLE} role because it sits at the intersection of {JAMIE'S PA
 | Summary approach    | "human-centered, **data-driven** approaches"                                                                                                                                              |
 | InGenius title      | **Strategic Partnership & Program Enablement Manager**                                                                                                                                    |
 | InGenius bullets    | **Set G** — **30+** stakeholders, "via **data analysis**" (not "feedback analysis")                                                                                                       |
-| Transition Projects | **Pair A** (Upskill/Empower)                                                                                                                                                              |
+| ODN Oregon          | **Pair A** (Upskill/Empower)                                                                                                                                                              |
 | Vestas              | Consulting variant — "**Launched**" DEI pilot, "**Directed** M&A integration", "clarifying **role** responsibilities", "**internal communications** and award-winning **HR initiatives**" |
 | NextGen             | "Delivered projects in engagement, rewards & recognition, survey design & execution, and L&D to **elevate employee experience**"                                                          |
 | Kronos              | Consulting variant — "**Standardized interview workflows and job description templates**", "hard-to-fill", "**personalized outreach and service**"                                        |
@@ -468,7 +562,7 @@ I'm drawn to this {ROLE} role because it sits at the intersection of {JAMIE'S PA
 | Summary approach    | "human-centered, **data-driven** approaches"                                                                                           |
 | InGenius title      | **Program Enablement Manager**                                                                                                         |
 | InGenius bullets    | **Set E** — standardized processes, listening sessions, resource allocation/vendor logistics, program enrollment rate                  |
-| Transition Projects | **Pair A** + title changes to "Consultant, OD & **Talent Management**"                                                                 |
+| ODN Oregon          | **Pair A** + title changes to "Consultant, Organization & **Talent Management**"                                                       |
 | Vestas              | TM variant — M&A first, ER cases with legal counsel, "Partnered with DEI team", "Spearheaded HR Award-winning communications strategy" |
 | NextGen             | HR/TM variant — "synthesizing engagement data", "leadership training", "performance assessment", "survey design"                       |
 | Kronos              | TM variant — "recruiting and talent management to performance evaluation", "Built global talent pipelines"                             |
@@ -487,7 +581,7 @@ I'm drawn to this {ROLE} role because it sits at the intersection of {JAMIE'S PA
 | Summary approach    | "human-centered, **data-driven** approaches"                                                                                                                                                                           |
 | InGenius title      | **Program Manager, Enablement**                                                                                                                                                                                        |
 | InGenius bullets    | **Set F** — content creation, digital resource libraries, SOPs, webinar platforms, end-to-end project lifecycles                                                                                                       |
-| Transition Projects | **Pair B** (Facilitate/Redesign)                                                                                                                                                                                       |
+| ODN Oregon          | **Pair B** (Facilitate/Redesign)                                                                                                                                                                                       |
 | Vestas              | Ops variant — streamlined onboarding via interviewing stakeholders, standardized workflows, "Supported HR operational workflows including purchase order and invoice processing and data-driven headcount forecasting" |
 | NextGen             | Standard                                                                                                                                                                                                               |
 | Kronos              | Standard                                                                                                                                                                                                               |
@@ -506,7 +600,7 @@ I'm drawn to this {ROLE} role because it sits at the intersection of {JAMIE'S PA
 | Summary approach    | "human-centered, **data-driven** approaches"                                                              |
 | InGenius title      | **Program Manager, Enablement** or **Product Enablement Manager** (for product companies)                 |
 | InGenius bullets    | **Set D** — AI tools mention, "projects" not "programs", feedback loops, strategic objectives             |
-| Transition Projects | Pair A or B (context-dependent)                                                                           |
+| ODN Oregon          | Pair A or B (context-dependent)                                                                           |
 | Vestas              | Standard or gap analysis variant                                                                          |
 | NextGen             | Standard or "L&D strategies" variant                                                                      |
 | Kronos              | "**employer branding**" variant, "**genuine care and personalized outreach**"                             |
@@ -533,13 +627,13 @@ I'm drawn to this {ROLE} role because it sits at the intersection of {JAMIE'S PA
 | **H** | Same as Set B but paired with HR-variant Vestas/NextGen/Kronos                                                                     | HR/HRBP           |
 
 
-### Transition Projects Pair Selection
+### ODN Oregon Pair Selection (Organization Development Network (ODN) Oregon)
 
 
-| Pair                        | Bullets                                                                                                                                  | Best For                                                                                 |
-| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| **A** "Upskill/Empower"     | "Upskill HR team in data analytics to audit 300+ leave cases..." / "Empower HR to present executive-ready insights on $362K..."          | L&D, HR, Consulting, OD — roles where **demonstrated quantified results** matter         |
-| **B** "Facilitate/Redesign" | "Facilitate CEO/HR discovery and 10+ stay interviews to diagnose absenteeism..." / "Redesign engagement plan to clarify leave policy..." | PM, Ops, Engagement — roles where **diagnostic process and strategic initiative** matter |
+| Pair                        | Bullets                                                                                                                                                        | Best For                                                                                 |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| **A** "Upskill/Empower"     | "Upskill HR team in data analytics to audit 300+ leave cases..." / "Empower HR to present executive-ready insights on $362K..."                                | L&D, HR, Consulting, OD — roles where **demonstrated quantified results** matter         |
+| **B** "Facilitate/Redesign" | "Facilitate CEO/HR discovery and stakeholder interviews to diagnose absenteeism drivers..." / "Design accountability structure to redesign engagement plan..." | PM, Ops, Engagement — roles where **diagnostic process and strategic initiative** matter |
 
 
 ### Subtle Signals
@@ -588,5 +682,6 @@ I'm drawn to this {ROLE} role because it sits at the intersection of {JAMIE'S PA
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 2026-03-24 | Created from David's comprehensive content dump. All resume variants, self-intros, email templates, and building blocks organized.                                       |
 | 2026-03-26 | Added Tailoring Playbook distilled from all 20 resume variants. Codified 7 role-type recipes, 8 bullet sets, 2 transition pairs, 5 skills clusters, and resume manifest. |
+| 2026-05-28 | Corrections from Jamie's review: (1) All "Transition Projects" references replaced with "Organization Development Network (ODN) Oregon"; (2) ODN bullet count capped at 3 canonical + 1 optional stretch; (3) Summary Variants section added with 3-pillar broad format + 4 swappable role-title nouns; (4) Canonical Skills section added (5-line grouped format, always-list vs JD-gated); (5) BANNED number "$340K/17 launches" flagged; (6) InGenius engagement research item marked as small side project; (7) ODN Pair Selection table header and bullet descriptions updated. |
 
 

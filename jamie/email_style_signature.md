@@ -71,11 +71,12 @@ Jamie uses an almost word-for-word identical Vestas paragraph in every letter. K
 - "enabled the C-suite to prioritize essential organizational needs and develop targeted L&D strategies"
 
 ### Paragraph 4 — Current Role (lightly varied)
-Core claim: $340K+ revenue across 17 launches, 78% enrollment/conversion/adoption rate, feedback loops.
-Variation points:
-- "78% program enrollment rate" (Jamf, Roblox) / "78% client conversion rate" (PCC, Flatiron) / "78% program adoption rate" (Instacart)
-- Jamf/PCC use "observant, facilitative style to surface questions, guide discussion, and adapt in real time" — dropped in Roblox/Instacart/Flatiron
-- Roblox adds "As the top performer on the team" — appears in Instacart and Flatiron too, not in Jamf/PCC
+Core claim: 78% enrollment rate, feedback loops, cross-functional program launches.
+- "78% program enrollment rate" is the canonical, verified metric (matches master resume).
+- ⛔ **BANNED:** "$340K+ in revenue across 17 launches" — this is a composite/hallucinated figure Jamie
+  flagged on 2026-05-28. It appears in the OLD Roblox/Instacart letters but must NOT be reused.
+  The master resume does NOT contain it. Use "78% enrollment rate" + program/vendor scope instead.
+- Jamf/PCC use "observant, facilitative style to surface questions, guide discussion, and adapt in real time"
 
 ---
 
@@ -185,9 +186,43 @@ No LinkedIn messages available in source data. Inferred from cover letter patter
 
 ---
 
-## Key Numbers / Social Proof (Always Cite These)
-- **$340K+** in revenue across **17 launches**
-- **78%** enrollment / conversion / adoption rate (exact metric varies by role framing)
-- "top performer on the team" (self-claim, appears in 3/5 letters)
-- M&A integration experience (Vestas)
-- C-suite advisory experience (NextGen Healthcare)
+## Key Numbers / Social Proof (VERIFIED — only cite these)
+- **78%** enrollment rate (canonical; matches master resume)
+- **70+** cross-functional staff onboarded; **onboarding time cut 75%** (InGenius)
+- **600+** webinar participants (InGenius)
+- **20+** projects / **10+** vendors managed (InGenius)
+- **2,000+** employee survey data analyzed (NextGen)
+- **300+** confidential leave cases audited; **$362K** in leave costs surfaced (ODN Oregon)
+- M&A integration experience (Vestas) · 3 global sites onboarding · DEI pilot 12→23 leaders
+- **566%** application increase in 2 months (Kronos)
+- ⛔ **BANNED (hallucinated):** "$340K+ in revenue across 17 launches" — do NOT use. Flagged 2026-05-28.
+
+---
+
+## ⭐ 2026-05-28 UPDATES (from Jamie's review of first 5 applications)
+
+> Canonical format reference: `resume_bank/Cover Letter_Jamie (Yi-Chieh) Cheng_Roblox.pdf`. Full rules:
+> `jamie/JAMIE_FEEDBACK_RULES.md` §6 (cover letters) + §7 (outreach).
+
+### Cover letter — confirmed structure (use the Roblox template, light edits only):
+1. **Header:** "Jamie Cheng" + tagline. **Date → "Dear Hiring Team,"** — NO company name/city address block.
+2. **Para 1:** ONE belief sentence (the reframe hook) + ONE quick role sentence. NOT a theory paragraph about
+   the role. Jamie's real belief to weave in: *most problems are solved through a closer look at data + more
+   cross-functional collaboration* — tie that to what the role is actually about.
+3. **Paras 2-4:** ONE paragraph per past experience (Vestas → NextGen → current InGenius). Each tells the job's
+   story + the skill it showcased, with bold keywords.
+4. **Final para — the org-psych "how I work" close (Jamie's signature):** Frame her MS in Applied Org Psych as
+   the lens for HOW she works: (1) data collection + analysis to diagnose problems → (2) people + stakeholder
+   collaboration to propose cross-functional solutions → (3) data to track key metrics for progress/success.
+   "This is how I approach work — uniquely grounded in my background in organizational psychology." Optionally
+   end with the approved Aurora-style closer: "As an analytical organizer with a growth mindset, [company]'s
+   mission to [X] and the [role challenge] are both draws..." (broad, ties to mission, not cliché).
+5. **Relocation:** Do NOT over-commit ("fully committed to relocating"). Light touch or rely on the form's
+   "open to relocation" checkbox. Never say "I applied to N roles N days ago."
+6. **Tool over-claims:** Don't headline a user-level tool ("managing LMS systems"). Use broader framing
+   ("managing learning systems to support employee growth").
+
+### Outreach — confirmed (see JAMIE_FEEDBACK_RULES.md §7):
+- VERIFY recipient currently works at the company (live LinkedIn) before drafting.
+- Focus on the ROLE + how it aligns with her background; NOT company subsidiary/structure.
+- Peer-curiosity tone + concrete 2-week timeframe. Never fabricate "I followed your org."

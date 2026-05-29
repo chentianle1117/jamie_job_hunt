@@ -48,6 +48,22 @@ Only load full files when the task specifically requires them (see table).
 5. Call out gaps honestly: "JD requires X — Jamie has limited experience here"
 6. The resume must stay on ONE page
 
+> ⭐ **READ `jamie/JAMIE_FEEDBACK_RULES.md` FIRST** — canonical rules from Jamie's 2026-05-28 review.
+> The rules below are a summary; that file is authoritative.
+
+### Jamie's resume rules (from 2026-05-28 review — NON-NEGOTIABLE):
+- **Summary = BROAD, not niche.** Never frame her around one narrow task ("keeping HRIS data accurate,"
+  "managing LMS systems"). Use the 3 pillars: solving problems through **data analysis**, developing programs
+  **grounded in evidence**, **collaborating with stakeholders**. Swap only the role-title noun to match the JD.
+- **Bullet counts are FIXED:** ODN Oregon = 2-3 bullets; every other experience = exactly 4. NEVER delete a
+  bullet to save space — tighten wording instead. Only SWAP bullets for more JD-relevant variants.
+- **Company name is "Organization Development Network (ODN) Oregon"** — NOT "Transition Projects" (old bug).
+- **Wesleyan ALWAYS includes the Relevant Coursework line.** Never drop it.
+- **Skills = comprehensive.** Always list Microsoft Office + Data Analysis + PM tools regardless of JD.
+  List every JD-named tool Jamie has. Only include niche tools (Notion, SharePoint) if the JD names them.
+- **Engagement research at InGenius** = small side project. Mention lightly, don't over-emphasize.
+- **No invented numbers.** The "$340K / 17 launches" composite is BANNED. Use "78% enrollment rate."
+
 ### When drafting outreach messages:
 1. Read `jamie/outreach_templates.md` for her voice, style, and templates
 2. Messages must be warm, genuine, short (under 300 chars for LinkedIn connection requests)
@@ -55,6 +71,18 @@ Only load full files when the task specifically requires them (see table).
 4. Do NOT ask for referrals in the first message
 5. If alumni connection (USC or Wesleyan) exists, mention it
 6. Match the contact's tone (formal vs casual)
+
+### Jamie's outreach rules (from 2026-05-28 review — NON-NEGOTIABLE):
+- **VERIFY the recipient CURRENTLY works at the company** via live LinkedIn before drafting. (We got this
+  wrong twice — Jessica left Roivant; Kaitlyn is at Google not Built In.) No verification → no draft.
+- **Focus on the ROLE and how it aligns with Jamie's background** — grounded in what the JD actually says.
+  NOT on the company's subsidiary/holding-company structure (feels impersonal + researched-but-fake).
+- **Peer-curiosity tone:** "As a fellow People Ops practitioner, I'd love to hear what it looks like
+  day-to-day — what are some exciting opportunities and challenges?"
+- **Offer a concrete timeframe:** "I have some time in the next two weeks if you're free."
+- **NEVER fabricate** that Jamie "followed how the organization has..." — she didn't.
+- Head-of-People version: lead with her background + "drawn to orgs where People is a strategic lever, not just
+  operational — and it sounds like that's the case at [company]." "I'd be honored to connect."
 
 ### Resume wording guidelines (critical):
 - DO reword existing bullets using JD keywords (same experience, different language)
@@ -72,11 +100,15 @@ Example: `BCG_Jamie (Yi-Chieh) Cheng_Career-Dev-Specialist_2026-03-30.json`
 The resume system uses a single shared viewer (`resume_viewer.html`) that renders any `.json` file.
 Never create per-resume `.html` files — edit the `.json` only.
 
-### Job location rules (permanent — apply to ALL resumes):
-- **Header location:** Always use `Portland, OR (Open to Remote or Relocation)` as Jamie's personal location in the resume header
-- **ODN Oregon location:** Always `Remote, USA` — do NOT change to a company city (e.g. Salt Lake City)
-- **InGenius Prep location:** Always `Remote, USA` — do NOT change to a company city
-- **Never infer job location from the employer's HQ** — only use the location Jamie actually worked from
+### Job location rules (permanent — UPDATED 2026-05-28):
+- **Header location (NEW RULE):** Match the ROLE's office city so recruiters see Jamie as in-area:
+  - Role is Portland/remote → `Portland, OR (Open to Remote or Relocation)`
+  - Role is tied to a specific city (e.g., Aurora PM in Pittsburgh) → use that city, e.g. `Pittsburgh, PA`
+  - Pick whichever of {Portland, OR | role's city} makes the recruiter believe she'll be in the area
+  - (This supersedes the old "always Portland, OR" rule.)
+- **ODN Oregon work-location (in experience entry):** Always `Remote, USA` — unchanged
+- **InGenius Prep work-location (in experience entry):** Always `Remote, USA` — unchanged
+- **Never infer the EXPERIENCE location from the employer's HQ** — only the header location follows the target role's city
 
 ### Resume spacing & formatting rules (permanent — apply to ALL resumes):
 - **Word spacing:** In the print CSS, always include `padding: 0 !important` on `.kw, .jd-kw` so keyword highlight spans don't create uneven word gaps in the PDF

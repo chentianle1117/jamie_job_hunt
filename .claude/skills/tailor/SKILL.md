@@ -8,6 +8,62 @@ description: >
 argument-hint: "<paste job description or reference the job just evaluated>"
 ---
 
+## Jamie's hard rules (2026-05-28 — read JAMIE_FEEDBACK_RULES.md)
+
+> **Canonical source:** `jamie/JAMIE_FEEDBACK_RULES.md` — this section is a summary. When in doubt, that file wins.
+
+### Summary — BROAD, not niche
+The summary must capture Jamie's **full skill set**, not a single narrow task. Never write "ensuring HRIS data accurate" or "managing LMS systems" as the framing.
+
+**Three pillars (always preserve all three):**
+1. solving problems through **data analysis**
+2. developing programs **grounded in evidence**
+3. **collaborating with stakeholders** for sustainable impact
+
+**Tailoring rule:** Swap only the role-title noun ("Organization & Talent Development" → "People Operations," "Learning & Development," etc.). Keep the three pillars verbatim.
+
+### Bullet counts — FIXED, never delete
+| Experience | Count | Notes |
+|---|---|---|
+| Organization Development Network (ODN) Oregon | **2-3** | NOT 4. Master resume has 3. |
+| InGenius Prep | **exactly 4** | |
+| NextGen Healthcare | **exactly 4** | |
+| Vestas Wind Systems | **exactly 4** | |
+| Kronos Research | **exactly 4** | |
+
+**If space is tight: tighten wording, never delete a bullet.** Only SWAP bullets for more JD-relevant variants from `content_library.md`.
+
+### Company name
+Always **"Organization Development Network (ODN) Oregon"** — NOT "Transition Projects," NOT "ODN Oregon" alone.
+
+### Wesleyan education
+**ALWAYS include the Relevant Coursework line** (Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation). Never drop it.
+
+### Skills — comprehensive and JD-aware
+**Always include regardless of JD:**
+- Microsoft Office (Word, PowerPoint, Excel)
+- Data Analysis (Excel, Google Sheets, SPSS)
+- Project Management tools (Asana, Airtable)
+
+**Include only if the JD names them:**
+- Notion, SharePoint (do NOT pad with these if JD is silent)
+
+**Rule:** Cross-reference every JD-required tool Jamie has — list all of them. Don't under-list.
+
+### Header location follows the ROLE's city
+- Role is Portland/remote → `Portland, OR (Open to Remote or Relocation)`
+- Role tied to a specific city (e.g., Pittsburgh PA) → use that city: `Pittsburgh, PA`
+- Pick whichever makes the recruiter believe she'll be in the area.
+- (ODN/InGenius experience entries stay `Remote, USA` — unchanged.)
+
+### No invented numbers
+**"$340K / 17 launches" composite is BANNED.** Use only figures from `content_library.md`. Approved example: "78% enrollment rate."
+
+### No user-level tool over-claims
+Do NOT headline tools Jamie used at user level. Example: "managing LMS systems" → "managing learning systems to support employee growth."
+
+---
+
 ## CRITICAL — Git + Working Directory Rules
 
 **Before doing anything else:**

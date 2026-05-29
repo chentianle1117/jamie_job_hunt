@@ -8,6 +8,37 @@ description: >
 argument-hint: "<company name and job title, or reference the job being discussed>"
 ---
 
+## Jamie's outreach rules (2026-05-28 — read JAMIE_FEEDBACK_RULES.md)
+
+> **Canonical source:** `jamie/JAMIE_FEEDBACK_RULES.md` §7 — this section is a summary. When in doubt, that file wins.
+
+### Step 0 — Recipient verification (HARD RULE — run before every draft)
+**ALWAYS verify the person CURRENTLY works at the company via their live LinkedIn profile before drafting any outreach.**
+- Check current position + employer on their profile. Do not rely on search results alone.
+- If you cannot confirm current employment, do NOT draft outreach for that person — tell Jamie the verification failed.
+- We got this wrong twice: Jessica Redeman had left Roivant; Kaitlyn Major-Hale is at Google, not Built In.
+
+### Content focus — role and JD, not company structure
+- Do NOT discuss the company's subsidiary or holding-company structure. Jamie doesn't know it well and it reads as impersonal/researched-but-fake.
+- Focus on **what the role does and how it aligns with Jamie's background**, grounded in what the JD actually says.
+  - Example: "I was particularly drawn to the employee-relations complexity that requires careful handling and cross-functional collaboration — it reminds me of the work I did at Vestas."
+
+### Tone
+- **Peer-curiosity framing (for team member / peer contacts):**
+  > "As a fellow People Operations practitioner, I'd love to hear what it looks like day-to-day on your team — what are some exciting opportunities and some of the challenges?"
+- **Concrete timeframe offer (always include):**
+  > "If you're open to a brief chat, I'd really appreciate it — I have some time in the next two weeks if you're free."
+- **NEVER fabricate** "I followed how the organization has..." or any claim of research Jamie didn't do.
+
+### Senior-leader version (Head of People or equivalent)
+Lead with:
+1. She's a People/OD professional with a background in [X]
+2. "I'm drawn to organizations where People is a strategic lever, not just operational — and it sounds like that's the case at [company]."
+3. "I would be honored to connect — no agenda beyond learning about the team's challenges and exciting opportunities."
+4. Offer the 2-week timeframe. Keep shorter and more deferential than peer outreach. Still NOT about org structure.
+
+---
+
 ## Stage 3: Networking Outreach
 
 You are helping Jamie identify the right people to contact and draft genuine outreach messages.

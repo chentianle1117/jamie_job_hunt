@@ -57,6 +57,20 @@ the company (broader), warm closing.
 
 ---
 
+## Step 0 — Recipient Verification (HARD RULE — 2026-05-28)
+
+**ALWAYS verify the person CURRENTLY works at the target company before drafting any message.**
+
+1. Open their live LinkedIn profile (not just search results).
+2. Confirm their current position and employer match the company you're drafting for.
+3. If you cannot confirm → **do NOT draft outreach** → tell Jamie the verification failed and why.
+
+**Why this rule exists:** We drafted outreach for Jessica Redeman (had left Roivant) and Kaitlyn Major-Hale (is at Google, not Built In). Both would have been sent to the wrong person at the wrong company.
+
+No exceptions. Verification = required pre-condition.
+
+---
+
 ## Contact Finding Protocol (Step-by-Step for Each Job Pick)
 
 ### Who to Find (priority order)
@@ -417,9 +431,83 @@ The failed reaches (Kell Ording, Christina Spoor, Danielle May, Brandon Beamon, 
 
 ---
 
+---
+
+## Peer Outreach — Fellow Practitioner (2026-05-28)
+
+> **Use when:** Contact is a People Ops / HR / OD practitioner at the same level (IC or manager). Not a head-of-function.
+> **Prerequisite:** Verify via live LinkedIn that the person CURRENTLY works at this company (Step 0 above).
+
+```
+Subject: {JobTitle} at {Company} — fellow People Ops practitioner
+
+Hi {FirstName},
+
+I hope you're doing well! I recently applied for the {JobTitle} role at {Company}
+and wanted to reach out personally.
+
+I was particularly drawn to {ONE specific aspect of the role from the JD — e.g.,
+"the employee-relations complexity that requires careful handling and cross-functional
+collaboration — it reminds me of the work I did at Vestas"}. As a fellow People
+Operations practitioner, I'd love to hear what it looks like day-to-day on your team —
+what are some exciting opportunities and some of the challenges?
+
+I have some time in the next two weeks if you're free for a quick chat. Thank you
+so much — I hope to connect soon!
+
+Warmly,
+Jamie Cheng
+```
+
+**What to customize:**
+- The JD-specific detail (use one concrete thing from the role description — not company structure).
+- Do NOT mention subsidiary/holding-company structure.
+- Do NOT fabricate "I followed how the organization has..."
+
+---
+
+## Senior Leader (Head of People / VP People) (2026-05-28)
+
+> **Use when:** Contact is Head of People, VP People, Chief People Officer, or equivalent.
+> **Prerequisite:** Verify via live LinkedIn that the person CURRENTLY works at this company (Step 0 above).
+
+```
+Subject: {JobTitle} at {Company} — connection request
+
+Hi {FirstName},
+
+I hope you're doing well! I recently applied for the {JobTitle} role at {Company}
+and wanted to reach out personally.
+
+I'm a People and OD professional with a background in organizational psychology
+and hands-on experience across program management, employee experience, and
+cross-functional HR initiatives. I'm drawn to organizations where People is a
+strategic lever, not just operational — and from everything I've read about {Company},
+it sounds like that's the case there.
+
+I would be honored to connect — no agenda beyond learning about the team's
+challenges and exciting opportunities. I have some time in the next two weeks
+if you're open to a brief chat.
+
+Thank you so much for your time!
+
+Warmly,
+Jamie Cheng
+```
+
+**Tone notes:**
+- Shorter and more deferential than peer outreach.
+- Lead with her background, then the "strategic lever" line.
+- End with "I would be honored to connect."
+- Still NOT about org/subsidiary structure.
+- Offer the 2-week concrete timeframe.
+
+---
+
 ## 📋 Update Log
 
 | Date | Action |
 |------|--------|
 | 2026-03-24 | Created with 5 templates + Jamie's real samples + contact finding protocol. |
 | 2026-05-14 | Added Distilled Voice Spec v1 — extracted from audit of Jamie's actual successful reaches (C1 Blake, Nike Alison, EY Riddhi, Flatiron Jiun, Morgan Stanley Helen) vs. failed reaches that got no reply. The Portland-move anchor + transparency-about-cold-reach + job-level-texture self-intro identified as the three highest-leverage elements. C1/Blake email captured as the canonical best example. |
+| 2026-05-28 | Added Step 0 recipient-verification protocol (hard rule — got it wrong twice: Jessica/Roivant, Kaitlyn/Built In). Added "Peer Outreach — Fellow Practitioner" template and "Senior Leader (Head of People)" template encoding Jamie's edited examples. Rules: role+JD focus not company structure; peer-curiosity tone; concrete 2-week timeframe; no fabricated "I followed how the org..."; head-of-people version leads with background + strategic lever line + "honored to connect." |

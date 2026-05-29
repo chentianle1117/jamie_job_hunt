@@ -1982,6 +1982,33 @@ For each pick (max 3), create a Notion page in DB `442438a9-e372-48b7-b5f5-5f6ed
 - **Fit table:** MUST include ⚠️ Gaps section. Never skip it.
 - **Networking:** Use Chrome to find REAL LinkedIn profiles with actual URLs.
 
+> ⭐ **AUDIT GATE — 2026-05-28 Jamie Rules (canonical: `jamie/JAMIE_FEEDBACK_RULES.md` §9)**
+> Before finalizing any Notion page, cover letter, or outreach draft, the enrichment agent
+> MUST verify all items below. Any failure blocks the pick from moving to AUTO-SUBMIT or
+> OUTREACH-FIRST; route to 🔴 DECISION lane instead.
+>
+> **RESUME checks:**
+> - [ ] Summary is BROAD (3 pillars: data analysis / evidence-based programs / stakeholder collaboration) — no niche single-task framing
+> - [ ] Company name "Organization Development Network (ODN) Oregon" is correct (NOT "Transition Projects")
+> - [ ] ODN has 2-3 bullets; every other experience has EXACTLY 4 bullets (none deleted)
+> - [ ] Wesleyan includes the Relevant Coursework line
+> - [ ] Skills comprehensive: MS Office + Data Analysis + PM tools always present; JD-named tools all listed; Notion/SharePoint only if JD-named
+> - [ ] Header location = role's city if city-based, else Portland OR
+> - [ ] No invented numbers ("$340K/17 launches" BANNED; use "78% enrollment rate")
+> - [ ] One page
+>
+> **COVER LETTER checks:**
+> - [ ] Header = "Jamie Cheng" + tagline; "Dear Hiring Team," (NO company address/city block)
+> - [ ] Para 1 = ONE belief sentence (data + cross-functional) + ONE role sentence (not a theory paragraph)
+> - [ ] Paras 2-4 = one paragraph per past experience
+> - [ ] Final para = org-psych scientific-method close (diagnose w/ data → collaborate → track metrics)
+> - [ ] Bold keywords throughout; no relocation over-commitment; no "applied N days ago"; no user-level tool over-claims
+>
+> **OUTREACH checks:**
+> - [ ] Recipient CURRENTLY works at the company (LinkedIn-verified, not cached)
+> - [ ] Role-focused, NOT company-structure; peer-curiosity tone + 2-week timeframe offer
+> - [ ] No fabricated "I followed your org" claims
+
 ---
 
 ### 📄 EXACT PAGE FORMAT — OPERATIONAL STANDARD (v3.1)

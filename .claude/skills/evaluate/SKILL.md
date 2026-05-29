@@ -348,6 +348,21 @@ real scope fit, not manufacture one.
    - Portland/Seattle roles need 60-70% match
 4. Identify which of the 5 role priority categories this falls into (P1-P5)
 
+### Step 5c — Location & Role-Function Notes for Downstream (2026-05-28 rule)
+
+Before delivering the verdict, record two fields that the tailor and verifier agents rely on:
+
+1. **Header city for resume** — determine which city the resume header should show:
+   - Role's office is city-specific (e.g., Pittsburgh, Austin, NYC) → header = that city (e.g., "Pittsburgh, PA")
+   - Role is Portland-based or remote → header = "Portland, OR (Open to Remote or Relocation)"
+   - This is required by `JAMIE_FEEDBACK_RULES.md` §5 — include it in your verdict so `/tailor` can set the header correctly without re-evaluating.
+
+2. **Role function label** — identify the resume summary's role-title noun to swap (e.g., "People Operations," "Learning & Development," "Program Management," "Organization & Talent Development") so the tailor keeps the 3 broad pillars intact while matching the JD's function language.
+
+Include both in the **Quick Facts** block of the verdict.
+
+---
+
 ### Step 6 — Deliver the Verdict
 
 Format your response as:
@@ -359,6 +374,8 @@ Format your response as:
 
 ### Quick Facts
 - Location: [location + arrangement]
+- Resume header city: [role's city, e.g., "Pittsburgh, PA" OR "Portland, OR (Open to Remote or Relocation)"]
+- Role function label: [e.g., "People Operations" / "Learning & Development" / "Program Management"]
 - H1B: [Confirmed ✅ / Cap-Exempt 🏛️ / Unknown ⚠️ / No ❌]
 - Priority: P[1-5] — [category name]
 - Match: ~[X]% of JD requirements

@@ -182,6 +182,35 @@ Execute the full `/outreach` skill logic:
 
 ---
 
+### AUDIT GATE — 2026-05-28 Jamie Rules (run BEFORE Stage 4)
+
+> **Canonical source:** `jamie/JAMIE_FEEDBACK_RULES.md` §9 — every application must pass ALL items.
+> If any item fails, fix it before proceeding to Stage 4. Do NOT send bad artifacts.
+
+**RESUME audit (all must pass):**
+- [ ] Summary is BROAD (3 pillars: data analysis / evidence-based programs / stakeholder collaboration) — no niche single-task framing
+- [ ] Company name "Organization Development Network (ODN) Oregon" correct (NOT "Transition Projects")
+- [ ] ODN has 2-3 bullets; every other experience has EXACTLY 4 bullets (none deleted)
+- [ ] Wesleyan includes the Relevant Coursework line
+- [ ] Skills comprehensive: MS Office + Data Analysis + PM tools always present; JD-named tools listed; Notion/SharePoint only if JD-named
+- [ ] Header location = role's city if city-based, else Portland OR
+- [ ] No invented numbers ("$340K/17 launches" BANNED; use "78% enrollment rate")
+- [ ] One page
+
+**COVER LETTER audit (all must pass):**
+- [ ] Header = "Jamie Cheng" + tagline; "Dear Hiring Team," (NO company address/city block)
+- [ ] Para 1 = ONE belief sentence (data + cross-functional) + ONE role sentence (not a theory paragraph)
+- [ ] Paras 2-4 = one paragraph per past experience
+- [ ] Final para = org-psych scientific-method close (diagnose w/ data → collaborate → track metrics)
+- [ ] Bold keywords throughout; no relocation over-commitment; no "applied N days ago"; no user-level tool over-claims
+
+**OUTREACH audit (all must pass):**
+- [ ] Recipient CURRENTLY works at the company (LinkedIn-verified — not cached or assumed)
+- [ ] Role-focused, NOT company-structure; peer-curiosity tone + concrete 2-week timeframe offer
+- [ ] No fabricated "I followed your org" claims
+
+---
+
 ### STAGE 4: APPLICATION PREP
 
 This is the pre-flight checklist before Jamie hits "Apply."
