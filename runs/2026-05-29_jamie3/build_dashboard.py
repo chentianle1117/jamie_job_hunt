@@ -50,6 +50,41 @@ def card(e, lane):
       </div>
     </div>"""
 
+def outreach_card(o):
+    badge = "#7c3aed" if o.get("contact_type")=="senior_leader" else "#0891b2"
+    alum = o.get("alumni_connection","none")
+    alum_html = f' · <span style="color:#16a34a">{escape(alum)} alum</span>' if alum and alum.lower()!="none" else ""
+    return f"""
+    <div class="card">
+      <div class="card-head" onclick="this.parentNode.classList.toggle('open')">
+        <div class="ch-left">
+          <span class="chev">▶</span>
+          <div>
+            <div class="ctitle">{escape(o['contact_name'])} — <span style="font-weight:500">{escape(o['company'])}</span></div>
+            <div class="cmeta">{escape(o['contact_title_current'])} · re: {escape(o['role_applied'])}{alum_html}</div>
+          </div>
+        </div>
+        <span class="fit" style="background:{badge}">{escape(o.get('contact_type','peer'))} · {escape(o.get('confidence','—'))}</span>
+      </div>
+      <div class="card-body">
+        <p class="note">✓ Verified: {escape(o.get('verification_evidence',''))}</p>
+        <div class="links">
+          <a href="{escape(o['linkedin_url'])}" target="_blank">↗ LinkedIn profile</a>
+        </div>
+        <div class="email">
+          <div class="esubj"><b>Subject:</b> {escape(o['subject'])}</div>
+          <pre class="ebody">{escape(o['body'])}</pre>
+        </div>
+      </div>
+    </div>"""
+
+# load outreach drafts if present
+outreach = []
+op = RUN/"outreach_drafts.json"
+if op.exists():
+    outreach = json.load(open(op, encoding="utf-8"))
+outreach_cards = "".join(outreach_card(o) for o in outreach)
+
 review_cards = "".join(card(e,"REVIEW") for e in state["lanes"]["REVIEW"])
 # sort discovered: GO first, then by company
 disc = sorted(state["lanes"]["DISCOVERED"], key=lambda e:(0 if e["fit"].lower().startswith("go") else 1, e["company"]))
@@ -87,9 +122,12 @@ html = f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
  .prev{{border:1px solid var(--border);border-radius:8px;overflow:hidden;background:#fff}}
  .plabel{{font-size:11px;font-weight:600;color:var(--muted);padding:6px 10px;background:#f9fafb;border-bottom:1px solid var(--border)}}
  .prev img{{width:100%;display:block}}
+ .email{{border:1px solid var(--border);border-radius:8px;overflow:hidden}}
+ .esubj{{font-size:13px;padding:8px 12px;background:#f9fafb;border-bottom:1px solid var(--border)}}
+ .ebody{{font-family:-apple-system,Segoe UI,Roboto,sans-serif;font-size:13px;white-space:pre-wrap;word-wrap:break-word;margin:0;padding:12px;line-height:1.55}}
 </style></head><body><div class="wrap">
  <h1>Jamie — Application Review Dashboard</h1>
- <p class="sub">Run 2026-05-29 · {c['total']} tailored packages · <b style="color:var(--green)">0 submitted</b> · every résumé + cover built to the 2026-05-28 feedback rules</p>
+ <p class="sub">Run 2026-05-29 · {c['total']} tailored packages · {len(outreach)} verified outreach drafts · every résumé + cover built to Jamie's latest feedback rules</p>
  <div class="banner">
    <b>⏸ Nothing has been submitted.</b> These are tailored drafts for your review. The first three (👁️ <b>your picks</b> — Axon, Accuris, Chartis) are here so you can confirm today's feedback was correctly baked into the pipeline. The other {c['discovered']} were auto-discovered as fitting roles (People + Product/Program PM). Click any card to expand the résumé + cover preview. Once you confirm the quality looks right, tell David and the pipeline will submit the ones you approve.
  </div>
@@ -99,6 +137,10 @@ html = f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
 
  <div class="lane-title">🔎 Auto-Discovered Fitting Roles <span class="cnt">{c['discovered']}</span></div>
  {disc_cards}
+
+ <div class="lane-title">📧 Outreach Drafts — Review Before Sending <span class="cnt">{len(outreach)}</span></div>
+ <div class="banner" style="background:#ede9fe;border-color:#c4b5fd">Every contact below was <b>verified currently employed</b> via live LinkedIn (one who'd left was dropped). Click to read the full draft email. <b>Nothing has been sent</b> — these are for Jamie to review, edit, and send herself. Axon is prioritized per Jamie's request.</div>
+ {outreach_cards}
 </div></body></html>"""
 
 out = RUN/"dashboard_review.html"
