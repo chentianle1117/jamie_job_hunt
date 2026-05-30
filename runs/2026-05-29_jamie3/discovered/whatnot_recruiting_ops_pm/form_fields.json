@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "company": "Whatnot",
+    "role": "Program Manager, Recruiting Operations",
+    "ats": "Ashby",
+    "url": "https://jobs.ashbyhq.com/whatnot/19f58d25-a67c-40bf-aa7d-90c9ca30dde1",
+    "date": "2026-05-29",
+    "id": "whatnot_recruiting_ops_pm"
+  },
+  "personal": {
+    "first_name": "Yi-Chieh",
+    "last_name": "Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "+1-213-700-3831",
+    "country": "United States",
+    "location": "Portland, OR"
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/yi-chieh-cheng/"
+  },
+  "work_authorization": {
+    "currently_authorized_to_work_in_us": "Yes",
+    "sponsorship_required": "Yes",
+    "sponsorship_notes": "Will require H-1B sponsorship. Currently on valid work authorization."
+  },
+  "demographics": {
+    "gender": "Woman",
+    "race_ethnicity": "Asian",
+    "hispanic_latino": "No",
+    "veteran": "I am not a protected veteran",
+    "disability": "No, I do not have a disability"
+  },
+  "role_specific": {
+    "years_experience": "3 years",
+    "currently_us_based": "Yes",
+    "open_to_relocation": "Yes"
+  },
+  "salary": {
+    "expected_range": "Open / within posted band",
+    "notes": "Flexible, open to discussion"
+  },
+  "documents": {
+    "resume": "resume.pdf",
+    "cover_letter": "cover_letter.pdf"
+  }
+}
