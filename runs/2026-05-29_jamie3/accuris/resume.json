@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "company": "Accuris",
+    "role": "Program Manager, NPI",
+    "date": "2026-05-29",
+    "pageMargins": { "top": "0.35in", "right": "0.45in", "bottom": "0.35in", "left": "0.45in" },
+    "autoFit": true,
+    "fontRange": [8.2, 10.0]
+  },
+  "header": {
+    "location": "Portland, OR (Open to Remote or Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving <b>Strategic Program Manager</b> who thrives on <b>solving problems through data analysis</b>, <b>developing processes grounded in evidence</b>, and <b>collaborating with stakeholders to drive operational excellence</b>. Expect me to always be seeking ways we can improve how work gets done—through human-centered, data-driven approaches.",
+  "keywordGroups": {
+    "data": "Data/Analytics",
+    "coord": "Coordination/Ops",
+    "cross": "Stakeholders/Collab",
+    "ex": "Employee Experience",
+    "tools": "Tools/Systems",
+    "prog": "Programs/L&D"
+  },
+  "experience": [
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Facilitate CEO/HR discovery and {cross|stakeholder interviews} to diagnose absenteeism drivers; analyze {data|leave data} to quantify costs" },
+        { "text": "Design a year-round accountability structure to redesign engagement communications, targeting 5%+ absenteeism reduction" }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Manager, Enablement",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Manage end-to-end lifecycles for 20+ {prog|programs} and 10+ vendors, using {data|feedback loops} to optimize operations and vendor performance" },
+        { "text": "Optimize {cross|cross-functional} processes and develop SOPs for 70+ staff, with documentation that reduced onboarding time by 75%" },
+        { "text": "Collaborate with teams (Sales, Ops) and 8 vendors to launch 15+ educational programs, driving a 78% client conversion rate" },
+        { "text": "Conduct needs assessments with 25+ global {cross|stakeholders}, resulting in 3 new programs best aligned with client needs" }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        { "text": "Led a manager effectiveness initiative, translating {data|feedback data} into actionable reports demonstrating impact on employee engagement" },
+        { "text": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on satisfaction drivers" },
+        { "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review" },
+        { "text": "Improved {ex|employee experience} via 5 {cross|cross-functional} projects focusing on survey development, rewards & recognition, and L&D" }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        { "text": "Directed a Mergers & Acquisitions project, overseeing {cross|cross-functional stakeholders} and coordinating data migration" },
+        { "text": "Streamlined onboarding processes across 3 global locations by conducting gap analyses and clarifying job responsibilities" },
+        { "text": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations" },
+        { "text": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors" }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management" },
+        { "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details" },
+        { "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months" },
+        { "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": ["Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": ["Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Enhanced <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>PM & Data Tools:</b> Project Management (Asana, Airtable) · Data Analysis (Excel, Google Sheets, SPSS) · CRM (HubSpot) · Systems (SAP, Rippling, Greenhouse)",
+    "<b>Productivity:</b> Knowledge Management (SharePoint, Notion, Google Workspace) · AI Tools (ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint, Excel)",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)"
+  ],
+  "jd": {
+    "meta": "Accuris — Program Manager, NPI (Product Operations, Remote USA)",
+    "sections": []
+  },
+  "changeLog": [
+    { "date": "2026-05-29", "note": "Tailored for Accuris Program Manager NPI. Operations/PM + Tech Company recipes. Summary = Strategic Program Manager (drop extrovert). ODN Pair B (Facilitate/Redesign). InGenius = Set F blend with PM emphasis (end-to-end lifecycles, SOPs, cross-functional processes, 15+ launches). Vestas = M&A + gap analysis + onboarding streamlining. Skills = PM tools + Knowledge Mgmt + AI tools; HRCI dropped." }
+  ]
+}
