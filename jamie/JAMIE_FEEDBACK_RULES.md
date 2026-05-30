@@ -104,9 +104,24 @@ experience entries themselves — that rule is unchanged.)
 
 ---
 
-## 6. COVER LETTER — use the CANONICAL TEMPLATE (Roblox sample format)
+## 6. COVER LETTER — use the CANONICAL TEMPLATE (confirmed 2026-05-29)
 
-**Reference:** `resume_bank/Cover Letter_Jamie (Yi-Chieh) Cheng_Roblox.pdf` is the gold-standard format.
+**CANONICAL FORMAT FILE:** `jamie/cover_letter_template.html` (saved from the newest real letter,
+`tailored_resumes/RRD_..._Cover-Letter_2026-05-12.html`). The pipeline renderer `render_pdfs.py →
+build_cover_html()` now reproduces this exact layout. Older `resume_bank/*Roblox.pdf` etc. confirm the
+same structure but the RRD HTML is the authoritative current format.
+
+**VISUAL LAYOUT (the renderer produces this automatically):**
+- Cream header band (#f5ede0), centered "Jamie Cheng" + 2-line tagline
+- Two-column body: left sidebar (phone / Portland, OR / Open to Relocation / email / LinkedIn) + right justified letter
+- "Dear [Company] Hiring Team," salutation (company name in salutation OK; NO full address block)
+- Cursive signature ("Jamie Cheng") + printed name ("Jamie (Yi-Chieh) Cheng")
+- Tagline line 2 varies by role: "Dedicated to Driving Individual and Organizational Development" (OD/L&D)
+  vs "Dedicated to Improving People/Employee Experience" (EX/People Ops)
+
+**CLOSING PARAGRAPH (confirmed 2026-05-29 — Jamie's verbal feedback wins over the older generic close):**
+The final paragraph is the **org-psych "how I work" methodology** (see below in this section), NOT the
+older generic "I would welcome the chance to bring my skills..." close. This is Jamie's differentiator.
 
 ### Structure (follow exactly):
 **Header block (centered):**

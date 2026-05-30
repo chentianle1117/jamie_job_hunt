@@ -244,68 +244,175 @@ def build_resume_html(data):
 
 
 def build_cover_html(md_content):
-    """Convert cover letter markdown to clean, print-ready HTML."""
+    """Convert cover letter markdown to Jamie's CANONICAL 2-column cover format.
+
+    Canonical reference: jamie/cover_letter_template.html (from RRD_..._2026-05-12.html).
+    Layout: cream header band (name + 2-line tagline) → 2-column body (left sidebar
+    with contact, right justified letter). "Dear [Company] Hiring Team," salutation.
+    Bold keywords preserved. Cursive signature + printed name.
+
+    Expected md structure (flexible parser):
+        # Cover Letter — Company
+        ## Role Title
+        **Jamie (Yi-Chieh) Cheng** | jamiecheng0103@gmail.com | Portland, OR   (header line — skipped)
+        A Solution-focused, Data-driven, and People-oriented Professional       (tagline line 1)
+        Dedicated to Improving People Experience                                (tagline line 2)
+        ---
+        May 27, 2026                                                            (date)
+        Dear [Company] Hiring Team,    (or "Hiring Manager / Company / City" block — we take the Dear line)
+        ---
+        <body paragraphs>
+        Sincerely,
+        Jamie (Yi-Chieh) Cheng
+    """
+    DEFAULT_TAGLINE_1 = "A Solution-focused, Data-driven, and People-oriented Professional"
+    DEFAULT_TAGLINE_2 = "Dedicated to Improving People Experience"
+
     lines = md_content.strip().split("\n")
-    body_lines = []
-    in_header = True
-    after_rule = 0
 
-    for line in lines:
-        stripped = line.strip()
+    tagline1 = DEFAULT_TAGLINE_1
+    tagline2 = DEFAULT_TAGLINE_2
+    date_str = ""
+    salutation = "Dear Hiring Team,"
+    body_paras = []
+    closing = "Sincerely,"
+    sig_name = "Jamie (Yi-Chieh) Cheng"
 
-        # Skip markdown headers (# ##)
-        if stripped.startswith("#"):
-            continue
-        # Skip bold lines like **Jamie...**
-        if stripped.startswith("**") and stripped.endswith("**"):
-            continue
-        # Count horizontal rules
-        if stripped == "---":
-            after_rule += 1
-            if after_rule == 1:
-                # After first rule = date block starts
-                body_lines.append('<hr style="border:none;border-top:1px solid #ccc;margin:8pt 0;">')
-            elif after_rule == 2:
-                # After second rule = letter body starts
-                body_lines.append('<hr style="border:none;border-top:1px solid #ccc;margin:8pt 0;">')
+    rule_count = 0
+    seen_tagline1 = False
+    collecting_body = False
+
+    for raw in lines:
+        s = raw.strip()
+        if not s:
             continue
 
-        if not stripped:
-            body_lines.append('<br>')
+        # H1/H2 markdown headers — skip (company/role meta)
+        if s.startswith("#"):
             continue
 
-        # Convert **bold** markers
-        formatted = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', stripped)
-        body_lines.append(f"<p>{formatted}</p>")
+        # Horizontal rule = section divider
+        if s == "---":
+            rule_count += 1
+            if rule_count >= 2:
+                collecting_body = True
+            continue
 
-    body_html = "\n".join(body_lines)
+        # Header identity line: "**Jamie...** | email | loc" — skip
+        if s.startswith("**") and ("|" in s or "Cheng" in s) and not collecting_body:
+            continue
+
+        # Before first rule: capture taglines
+        if rule_count == 0:
+            # Tagline lines (the two descriptor lines under the name)
+            if "Solution-focused" in s or "Data-driven" in s:
+                tagline1 = s
+                seen_tagline1 = True
+                continue
+            if seen_tagline1 and ("Dedicated to" in s or "Improving" in s or "Driving" in s):
+                tagline2 = s
+                continue
+            # Any other tagline-ish line right after name
+            if "Dedicated to" in s:
+                tagline2 = s
+                continue
+            continue
+
+        # Between rule 1 and rule 2: date + salutation block
+        if rule_count == 1 and not collecting_body:
+            low = s.lower()
+            if s.startswith("Dear") or low.startswith("dear"):
+                salutation = s
+                continue
+            # Date line (contains a year or month)
+            if re.search(r'(19|20)\d{2}', s) and not s.startswith("Dear"):
+                # Skip company-name / city address lines; only take the date
+                if re.search(r'(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|\d{1,2}[/-]\d)', s):
+                    date_str = s
+                continue
+            # Hiring Manager / company / city address block — skip (we use Dear line)
+            continue
+
+        # Body region
+        if collecting_body:
+            low = s.lower()
+            if low.startswith("sincerely") or low.startswith("warm") or low.startswith("best") or low.startswith("regards"):
+                closing = s.rstrip(",") + ","
+                continue
+            # Name after closing
+            if "Cheng" in s and len(s) < 40:
+                sig_name = s
+                continue
+            # Skip any leftover tone-note / bracket lines
+            if s.startswith("[") or s.startswith("TONE") or s.startswith("Why this"):
+                continue
+            # Body paragraph — convert **bold**
+            formatted = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', s)
+            body_paras.append(f"<p>{formatted}</p>")
+
+    body_html = "\n    ".join(body_paras)
 
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <style>
-  @page {{
-    size: letter;
-    margin: 0;
-  }}
+  @page {{ size: letter; margin: 0.3in 0 0.3in 0; }}
   * {{ margin: 0; padding: 0; box-sizing: border-box; }}
-  body {{
-    font-family: 'Calibri','Helvetica Neue','Arial',sans-serif;
-    font-size: 10.5pt;
-    line-height: 1.45;
-    color: #1a1a1a;
-    padding: 0.7in 0.75in 0.7in 0.75in;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-  }}
-  p {{ margin-bottom: 6pt; }}
+  body {{ font-family: 'Calibri','Arial',sans-serif; font-size: 11pt; color: #1a1a1a;
+          -webkit-print-color-adjust: exact; print-color-adjust: exact; }}
+
+  .header {{ background: #f5ede0; text-align: center; padding: 12pt 40pt 10pt 40pt; }}
+  .header h1 {{ font-size: 26pt; font-weight: bold; letter-spacing: 0.5pt; margin-bottom: 4pt; }}
+  .header .subtitle {{ font-size: 10.5pt; font-weight: bold; line-height: 1.4; }}
+
+  .body-wrap {{ display: flex; min-height: calc(100vh - 120pt); }}
+  .sidebar {{ width: 145pt; flex-shrink: 0; padding: 16pt 10pt 16pt 14pt;
+              font-size: 9pt; line-height: 1.55; border-right: 1px solid #ccc; color: #333; }}
+  .sidebar a {{ color: #2a6496; text-decoration: underline; }}
+
+  .letter {{ flex: 1; padding: 16pt 22pt 16pt 16pt; font-size: 10pt; line-height: 1.44; }}
+  .letter .date {{ margin-bottom: 8pt; }}
+  .letter .salutation {{ margin-bottom: 8pt; }}
+  .letter p {{ margin-bottom: 7pt; text-align: justify; }}
+  .letter .closing {{ margin-top: 8pt; margin-bottom: 3pt; }}
+  .letter .sig-script {{ font-family: 'Brush Script MT','Segoe Script',cursive; font-size: 18pt; margin: 4pt 0 2pt 0; color: #1a1a1a; }}
+  .letter .sig-name {{ font-size: 10.8pt; }}
   strong {{ font-weight: bold; }}
-  hr {{ border: none; border-top: 1px solid #ccc; margin: 8pt 0; }}
+
+  @media print {{ body {{ background: white; }} .body-wrap {{ min-height: auto; }} }}
 </style>
 </head>
 <body>
-{body_html}
+
+<div class="header">
+  <h1>Jamie Cheng</h1>
+  <div class="subtitle">
+    {tagline1}<br>
+    {tagline2}
+  </div>
+</div>
+
+<div class="body-wrap">
+  <div class="sidebar">
+    213-700-3831<br>
+    Portland, OR<br>
+    (Open to Remote or Relocation)<br>
+    <a href="mailto:jamiecheng0103@gmail.com">jamiecheng0103@gmail.com</a><br>
+    <a href="http://www.linkedin.com/in/jamieyccheng">LinkedIn</a>
+  </div>
+
+  <div class="letter">
+    <div class="date">{date_str}</div>
+    <div class="salutation">{salutation}</div>
+
+    {body_html}
+
+    <div class="closing">{closing}</div>
+    <div class="sig-script">Jamie Cheng</div>
+    <div class="sig-name">{sig_name}</div>
+  </div>
+</div>
 </body>
 </html>"""
 
