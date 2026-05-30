@@ -10,7 +10,7 @@
   "header": {
     "location": "Seattle, WA"
   },
-  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Employee Experience</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve people experience—through human-centered, data-driven approaches.",
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>People &amp; Organizational Development</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve employee experience—through human-centered, data-driven approaches.",
   "keywordGroups": {
     "data": "Data/Analytics",
     "coord": "Coordination/Ops",
@@ -40,10 +40,10 @@
       "dates": "September 2023–Present",
       "workSampleUrl": null,
       "bullets": [
-        { "text": "Manage 20+ programs and 10+ vendors, refining program positioning, delivery strategy, and operations via {data|feedback analysis}" },
-        { "text": "Conduct needs assessments with 25+ global {cross|stakeholders}, resulting in 3+ new learning programs best aligned with students' needs" },
-        { "text": "Optimize {cross|cross-functional} processes for 70+ staff, creating comprehensive documentation that reduced onboarding time by 75%" },
-        { "text": "Facilitate training webinars for 600+ participants, boosting {prog|program} understanding and achieving a 78% client conversion rate" }
+        { "text": "Manage 20+ programs and 10+ vendors, refining {coord|communication strategies, program logistics, and operations} via {data|feedback analysis}" },
+        { "text": "Conduct needs assessments with 25+ global {cross|stakeholders}, resulting in 3+ new learning programs best aligned with participants' needs" },
+        { "text": "Optimize {cross|cross-functional} processes for 70+ staff, creating and hosting comprehensive documentation that reduced onboarding time by 75%" },
+        { "text": "Facilitate training webinars for 600+ participants, boosting {prog|program} understanding and achieving a 78% program enrollment rate" }
       ]
     },
     {
@@ -54,9 +54,9 @@
       "dates": "January 2023–May 2023",
       "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
       "bullets": [
-        { "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed engagement strategies" },
         { "text": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on satisfaction drivers" },
         { "text": "Elevated {ex|employee experience} through 5 {cross|cross-functional} projects focusing on survey development, rewards & recognition, and L&D" },
+        { "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed engagement strategies" },
         { "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review" }
       ]
     },
@@ -68,7 +68,7 @@
       "dates": "February 2022–October 2022",
       "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
       "bullets": [
-        { "text": "Optimized onboarding processes across 3 global locations by conducting process analysis and clarifying job responsibilities" },
+        { "text": "Optimized onboarding processes for new hires across 3 global locations by conducting process analysis and clarifying job responsibilities" },
         { "text": "Strengthened {ex|engagement} via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors" },
         { "text": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations" },
         { "text": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, overseeing {cross|cross-functional stakeholders}" }

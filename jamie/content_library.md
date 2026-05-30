@@ -89,10 +89,11 @@ Certifications: HRCI Human Resource Associate Certificate (in progress)
 ## BANNED / HALLUCINATED CONTENT — DO NOT USE
 
 > ⛔ **"$340K+ revenue across 17 launches"** — This is a composite/hallucinated number. NEVER USE.
-> Canonical metric for InGenius revenue performance is **"78% enrollment rate"** (or "78% client
-> conversion rate" for L&D/consulting-framing roles). Do not invent combined revenue figures.
->
 > If any draft contains "$340K" or "17 launches" as a combined stat, flag and remove immediately.
+>
+> ✅ **DEFAULT metric = "78% program enrollment rate"** (Jamie feedback 2026-05-29). Use this everywhere
+> by default. Use **"78% client conversion rate"** ONLY when the role is **product- or sales-focused**.
+> Do not invent combined revenue figures.
 
 ---
 
@@ -102,18 +103,21 @@ Certifications: HRCI Human Resource Associate Certificate (in progress)
 
 **Organization Development Network (ODN) Oregon — August 2025 to Present**
 
-> **Bullet count rule (§2 JAMIE_FEEDBACK_RULES.md):** ODN caps at **2-3 bullets** — NOT 4.
-> Use bullets 1-3 below (canonical). Bullet 4 is an optional stretch variant only.
+> **Bullet rule (§2 JAMIE_FEEDBACK_RULES.md):** ODN = **2-4 bullets across TWO SEPARATE projects.**
+> NEVER mix the two projects in one bullet. Cover both projects; 3-4 bullets OK (e.g. 2 per project).
 
-**Canonical 3 bullets (use these; pick 2 or all 3 depending on space):**
-
+**PROJECT 1 — Absenteeism / leave-cost diagnosis (HR client). Bullet variants:**
+- Facilitate CEO/HR discovery and stakeholder interviews to diagnose absenteeism drivers; analyze leave data to quantify costs
 - Upskill HR team in data analytics to audit 300+ leave cases, refuting cost assumptions via evidence-based insights
 - Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training
-- Design a year-round accountability structure to redesign engagement communications, targeting 5%+ absenteeism reduction
 
-**Optional 4th bullet (stretch — only if a variant is needed; never use as default):**
+**PROJECT 2 — NGO leadership decision-making & accountability (separate client). Bullet variants:**
+- Conduct focus groups and 1:1 semi-structured interviews with an NGO leadership team to surface decision-making and accountability gaps
+- Analyze qualitative interview data to identify themes around decision-making ambiguity and cross-functional process glitches
+- Diagnose root causes of process inefficiency and challenge the leadership team to redesign decision-making and accountability structures
 
-- Facilitate CEO/HR discovery and stakeholder interviews to diagnose absenteeism drivers; analyze leave data to quantify costs
+**Usage:** Pick the variant(s) per project that best match the JD. People/HR-diagnostic roles → lead with Project 1.
+Strategy/leadership/process-improvement/OD roles → Project 2's interview-and-diagnosis story is strong. Keep each bullet to ONE project.
 
 ### Program Enablement Manager (Remote, USA)
 

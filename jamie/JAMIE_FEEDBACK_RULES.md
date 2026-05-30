@@ -21,15 +21,35 @@ Niche framing makes Jamie look like she can do ONE thing, not her full skill set
 
 > "I'm Jamie—a curious, people-loving (97% extrovert!) **Organization & Talent Development** professional who thrives on **solving problems through data analysis**, **developing programs grounded in evidence**, and **collaborating with stakeholders for sustainable impact**. Expect me to always be seeking ways we can improve people experience—through human-centered, data-driven approaches."
 
-**Tailoring rule:** Swap the role-title noun ("Organization & Talent Development") to match the JD's function
-(e.g., "People Operations," "Program Management," "Learning & Development") — but keep the THREE broad pillars:
+**Tailoring rule:** Swap the role-title noun to match the JD's function — but keep the THREE broad pillars:
 1. solving problems through **data analysis**
 2. developing programs **grounded in evidence**
 3. **collaborating with stakeholders** for sustainable impact
 
+### ⭐ TITLE NOUN MUST STAY A BROAD UMBRELLA (Jamie feedback 2026-05-29 — applies to ALL future resumes)
+The self-title Jamie gives herself must be a **big-umbrella term**, never a niche single-function label.
+- ❌ TOO NICHE: "Employee Experience professional," "HRIS Analyst," "LMS Administrator," "Learning Coordinator"
+- ✅ BROAD UMBRELLA — pick the ONE that best fits the JD (the *title itself* stays broad; just choose the most JD-relevant broad term):
+  - **People & Organizational Development professional** (broadest — People/HR/OD/L&D roles)
+  - **Strategic Program Manager** (product/program-PM-framed roles)
+  - **People Program Manager** (bridges her real title + People target; strong all-rounder)
+  - Or a new broad umbrella if it fits better — but it must read as an umbrella, not a single task.
+- **Rule of thumb:** if the noun describes ONE function or ONE task, it's too niche — widen it.
+
 Built In's summary ("building the infrastructure that lets employees trust the company") is the model
 of good breadth — Jamie explicitly approved it. Aurora's "analytical organizer with a growth mindset"
 opener is also the gold standard for the cover letter closer (see §6).
+
+### ⭐ AGGRESSIVE KEYWORD SWAPPING (Jamie feedback 2026-05-29 — applies to ALL future resumes)
+Scan the JD for its operative keywords and work them into bullets where TRUTHFUL and relevant. Common ones
+to watch for and Jamie's truthful hooks for each:
+- **operations / logistics** → InGenius "program logistics … and operations"
+- **communication / communication strategy** → InGenius "refining communication strategies"; Vestas HR newsletter
+- **new hires / onboarding** → Vestas "Optimize onboarding processes for new hires" (KEEP the phrase "new hires")
+- **delivery / program positioning / value proposition** → InGenius "delivery strategy," "program positioning/value proposition"
+- **cross-functional teams** → InGenius: she works with **Marketing, Tech, and Sales** teams — name them when the JD values cross-functional work
+- **documentation / SOPs** → InGenius "creating documentation," "hosting" materials
+Use the exact JD phrasing when Jamie genuinely did the thing. Never invent; these are all real to her work.
 
 ---
 
@@ -37,21 +57,44 @@ opener is also the gold standard for the cover letter closer (see §6).
 
 | Experience | Bullet count | Notes |
 |---|---|---|
-| ODN Oregon (Organization Development Network) | **2-3 bullets** | NOT 4. Master resume has 3. |
+| ODN Oregon (Organization Development Network) | **2-4 bullets** | TWO separate projects (see below) — may use 3-4 if both projects need coverage. |
 | InGenius Prep (Program Enablement Manager) | **exactly 4** | |
 | NextGen Healthcare | **exactly 4** | NEVER delete bullets to save space |
 | Vestas Wind Systems | **exactly 4** | |
 | Kronos Research | **exactly 4** | |
 
-**HARD RULE:** Never drop a bullet point to fit the page. Always 4 for every experience except ODN (2-3).
+**HARD RULE:** Never drop a bullet point to fit the page. Always 4 for every experience except ODN.
 If space is tight, tighten wording — do NOT delete bullets.
 **Only SWAP a bullet** when you have a more JD-relevant variant from `content_library.md`. Swapping ≠ deleting.
 
+### ⭐ BULLET REORDERING BY RELEVANCE (Jamie feedback 2026-05-29 — all future resumes)
+Within each experience, **lead with the most JD-relevant bullet.** E.g. for People/EX roles, put
+"Analyze 2,000+ employee experiences…" FIRST at NextGen because it reads most relevant. Reorder freely;
+the bullet set is fixed but the ORDER should surface the strongest-matching accomplishment first.
+
+### ⭐ ODN = TWO SEPARATE PROJECTS — NEVER MIX THEM IN ONE BULLET (Jamie feedback 2026-05-29)
+ODN Oregon work spans **two distinct, unrelated projects.** Each bullet must stay within ONE project —
+do NOT blend sentences/metrics across the two.
+- **Project 1 — Absenteeism / leave-cost diagnosis (HR client):** Facilitated CEO/HR discovery + stakeholder
+  interviews to diagnose absenteeism drivers; **upskilled/empowered the HR team to analyze and quantify
+  leave data** (audited 300+ leave cases, ~$362K in leave costs) to refute cost assumptions and drive
+  policy redesigns + first-aid training.
+- **Project 2 — NGO leadership decision-making & accountability (completely different client):** Working with
+  a leadership/direction team at NGOs facing confusion + glitches in cross-functional processes. Ran **focus
+  groups + 1:1 semi-structured interviews** to understand the problems; **analyzed qualitative data to surface
+  themes around decision-making and accountability**; used deep-dive diagnosis to address process ambiguity
+  and inefficiency and challenge the team to change.
+- You MAY use 3-4 ODN bullets total to cover both projects (e.g. 2 per project), or add a focus-group bullet
+  if relevant to the JD. Just keep each bullet about ONE project only.
+
 ### Specific bullet feedback:
-- **InGenius engagement research:** Fine to mention, but do NOT over-emphasize — it was a small side project,
-  not a full employee-engagement research initiative. Keep it low-key if used at all.
+- **InGenius engagement research:** Fine to mention, but do NOT over-emphasize — it was a small side project.
+- **InGenius real scope (use these keywords when JD-relevant):** the programs she runs involve **communication
+  strategies, working with Marketing / Tech / Sales teams, program logistics, delivery, operations, program
+  positioning / value proposition,** and creating + hosting documentation. Name the specific teams when the JD
+  values cross-functional collaboration. All truthful — use freely.
 - **Company name:** It is **"Organization Development Network (ODN) Oregon"** — NOT "Transition Projects"
-  and NOT "ODN Oregon" alone in a way that loses the full name. (Earlier pipeline runs used the wrong name — bug.)
+  and NOT "ODN Oregon" alone in a way that loses the full name.
 
 ---
 
@@ -231,7 +274,11 @@ Audit agents MUST verify ALL of these and flag any failure:
 - [ ] Wesleyan includes the Relevant Coursework line
 - [ ] Skills are comprehensive: Microsoft Office + Data Analysis + PM tools always present; JD-named tools all listed; no irrelevant padding (Notion/SharePoint only if JD-named)
 - [ ] Header location = role's city if role is city-based, else Portland OR
-- [ ] No invented numbers (only content_library.md figures; the "$340K / 17 launches" composite is BANNED — use "78% enrollment rate")
+- [ ] No invented numbers (only content_library.md figures; the "$340K / 17 launches" composite is BANNED)
+- [ ] The 78% metric reads **"78% program enrollment rate"** by DEFAULT. Use "78% client conversion rate" ONLY when the role is product/sales-focused (Jamie feedback 2026-05-29).
+- [ ] Self-title is a BROAD umbrella (People & Organizational Development professional / Strategic Program Manager / People Program Manager), never a niche single-function label.
+- [ ] ODN bullets keep the two projects separate (absenteeism-diagnosis vs NGO-leadership-accountability) — never blended.
+- [ ] JD keywords (operations, logistics, communication, new hires, delivery, etc.) swapped in where truthful.
 - [ ] One page
 
 **Cover letter:**
