@@ -1,0 +1,49 @@
+{
+  "run": "2026-05-29_jamie3",
+  "confirmed_submitted": [
+    {
+      "id": "asana_cust_enablement",
+      "company": "Asana",
+      "role": "Customer Enablement Manager",
+      "success": true,
+      "url": "https://job-boards.greenhouse.io/embed/job_app/confirmation?for=asana&token=7714290"
+    },
+    {
+      "id": "asana_implementation_mgr",
+      "company": "Asana",
+      "role": "Implementation Manager",
+      "success": true,
+      "url": "https://job-boards.greenhouse.io/embed/job_app/confirmation?for=asana&token=7918056"
+    },
+    {
+      "id": "faire_hrbp",
+      "company": "Faire",
+      "role": "HRBP, Operations and Revenue",
+      "success": true,
+      "url": "https://job-boards.greenhouse.io/faire/jobs/8469967002/confirmation"
+    },
+    {
+      "id": "flexport_peopleops_coord",
+      "company": "Flexport",
+      "role": "People Operations Coordinator",
+      "success": true,
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/7961522/confirmation"
+    },
+    {
+      "id": "stripe_peopleops_pm",
+      "company": "Stripe",
+      "role": "Program Manager, People Operations Strategy",
+      "success": true,
+      "url": "https://job-boards.greenhouse.io/embed/job_app/confirmation?for=stripe&token=7089901"
+    }
+  ],
+  "not_confirmed": [
+    {
+      "id": "humaninterest_recruiting_peopleops_assoc",
+      "company": "Human Interest",
+      "role": "Recruiting & People Operations Associate",
+      "success": false,
+      "url": ""
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-05-27",
+  "last_updated": "2026-05-30",
   "purpose": "Single source of truth for every job Jamie has applied to (auto-submit or manual). Use this for dedup checks BEFORE adding any new candidate.",
   "lane_definitions": {
     "AUTO_SUBMITTED": "Pipeline submitted via Patchright. Confirmation page captured.",
@@ -90,6 +90,76 @@
       "url": "https://job-boards.greenhouse.io/embed/job_app?for=aurorainnovation&token=8520165002",
       "jamie_action_needed": false,
       "notes": "5th tonight. Aurora's react-select cracked via click-option pattern (v5/v6). Greenhouse email-verification CAPTCHA (8-char code pHjRiIdE) auto-fetched from Gmail and entered. Cover acknowledges prior Aurora Program Manager application (5/25). 2nd Aurora role = different team, different scope (HR Generalist vs Program Mgr)."
+    },
+    {
+      "id": "flexport_peopleops_2026-05-30",
+      "date_applied": "2026-05-30",
+      "company": "Flexport",
+      "title": "People Operations Coordinator (Front Half)",
+      "location": "Dallas Warehouse",
+      "ats": "Greenhouse",
+      "lane": "AUTO_SUBMITTED",
+      "status": "confirmed",
+      "sponsorship_status": "asked_on_form_jamie_said_yes",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/7961522",
+      "jamie_action_needed": false,
+      "notes": "Auto-submitted via LLM-assisted submitter (Gemini brain + CDP). Confirmation page captured."
+    },
+    {
+      "id": "stripe_peopleops_pm_2026-05-30",
+      "date_applied": "2026-05-30",
+      "company": "Stripe",
+      "title": "Program Manager, People Operations Strategy",
+      "location": "Remote US",
+      "ats": "Greenhouse",
+      "lane": "AUTO_SUBMITTED",
+      "status": "confirmed",
+      "sponsorship_status": "asked_on_form_jamie_said_yes",
+      "url": "https://job-boards.greenhouse.io/embed/job_app?for=stripe&token=7089901",
+      "jamie_action_needed": false,
+      "notes": "Auto-submitted via LLM-assisted submitter (Gemini brain + CDP). Confirmation page captured."
+    },
+    {
+      "id": "faire_hrbp_2026-05-30",
+      "date_applied": "2026-05-30",
+      "company": "Faire",
+      "title": "HRBP, Operations and Revenue",
+      "location": "San Francisco CA",
+      "ats": "Greenhouse",
+      "lane": "AUTO_SUBMITTED",
+      "status": "confirmed",
+      "sponsorship_status": "asked_on_form_jamie_said_yes",
+      "url": "https://job-boards.greenhouse.io/faire/jobs/8469967002",
+      "jamie_action_needed": false,
+      "notes": "Auto-submitted via LLM-assisted submitter (Gemini brain + CDP). Confirmation page captured."
+    },
+    {
+      "id": "asana_implmgr_2026-05-30",
+      "date_applied": "2026-05-30",
+      "company": "Asana",
+      "title": "Implementation Manager",
+      "location": "Chicago",
+      "ats": "Greenhouse",
+      "lane": "AUTO_SUBMITTED",
+      "status": "confirmed",
+      "sponsorship_status": "asked_on_form_jamie_said_yes",
+      "url": "https://job-boards.greenhouse.io/embed/job_app?for=asana&token=7918056",
+      "jamie_action_needed": false,
+      "notes": "Auto-submitted via LLM-assisted submitter (Gemini brain + CDP). Confirmation page captured."
+    },
+    {
+      "id": "asana_custenable_2026-05-30",
+      "date_applied": "2026-05-30",
+      "company": "Asana",
+      "title": "Customer Enablement Manager",
+      "location": "Chicago",
+      "ats": "Greenhouse",
+      "lane": "AUTO_SUBMITTED",
+      "status": "confirmed",
+      "sponsorship_status": "asked_on_form_jamie_said_yes",
+      "url": "https://job-boards.greenhouse.io/embed/job_app?for=asana&token=7714290",
+      "jamie_action_needed": false,
+      "notes": "Auto-submitted via LLM-assisted submitter (Gemini brain + CDP). Confirmation page captured."
     }
   ],
   "dedup_companies": [
@@ -97,7 +167,11 @@
     "pacific seafood",
     "built in",
     "roivant sciences",
-    "anthropic"
+    "anthropic",
+    "flexport",
+    "stripe",
+    "faire",
+    "asana"
   ],
   "blocked_or_decision_needed": [
     {
