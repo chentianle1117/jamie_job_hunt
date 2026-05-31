@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "company": "ElevenLabs",
+    "role": "Talent Operations",
+    "date": "2026-05-30",
+    "pageMargins": { "top": "0.35in", "right": "0.45in", "bottom": "0.35in", "left": "0.45in" },
+    "autoFit": true,
+    "fontRange": [8.5, 10.0]
+  },
+  "header": {
+    "location": "Portland, OR (Open to Remote or Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Talent &amp; People Program Manager</b> who thrives on <b>solving problems through data analysis</b>, <b>developing processes grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can make talent operations run like a well-oiled machine—through human-centered, data-driven approaches.",
+  "keywordGroups": {
+    "data": "Data/Metrics",
+    "coord": "Process/Automation",
+    "cross": "Stakeholders/Collab",
+    "ex": "Candidate/Talent",
+    "tools": "Tools/Systems",
+    "prog": "Programs/Recruiting"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Program Manager, Enablement",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Design best-in-class {coord|processes and SOPs}, creating workflow {coord|automations} via {tools|AI tools} that reduced onboarding time by 75%" },
+        { "text": "Manage end-to-end lifecycles for 20+ programs and 10+ vendors, managing multiple moving parts across teams with ease" },
+        { "text": "Build {data|reports and metrics} from stakeholder feedback to surface bottlenecks and highlight opportunities to optimize workflows" },
+        { "text": "Manage {cross|cross-functional stakeholders} across Marketing, Tech, and Sales, building trust to unblock teams day-to-day" }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Became fluent in {prog|recruiting} workflows—scheduling, coordination, and stakeholder management—across the full hiring funnel" },
+        { "text": "Engaged global talent via personalized {ex|outreach}, increasing applications by 566% in 2 months" },
+        { "text": "Coordinated {prog|recruiting} events and moderated C-suite panels at top 3 universities, reaching 230+ students and 80+ applicants" },
+        { "text": "Drafted job descriptions, posted openings, and researched global compensation to support hiring managers" }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        { "text": "Implemented a {data|data strategy} by analyzing 2,000+ employee experiences and tracking metrics to drive evidence-based decisions" },
+        { "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed engagement strategies" },
+        { "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review" },
+        { "text": "Improved {ex|talent experience} via 5 {cross|cross-functional} projects focusing on survey development, rewards &amp; recognition, and L&amp;D" }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        { "text": "Optimized onboarding processes across 3 global locations by conducting process analysis and clarifying job responsibilities" },
+        { "text": "Coached hiring managers and senior leaders via an Inclusive Leadership workshop, later scaled to 23 global locations" },
+        { "text": "Delivered strategic HR solutions for business priorities across projects in employee relations, headcount, and succession planning" },
+        { "text": "Strengthened {ex|engagement} via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors" }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Facilitate CEO/HR discovery and stakeholder interviews to diagnose {coord|process inefficiencies} and bottlenecks" },
+        { "text": "Upskill HR to audit 300+ leave cases against large data sets, refuting cost assumptions via {data|evidence-based analysis}" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": ["Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": ["Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Talent Systems:</b> ATS (Ashby, Greenhouse) · Workflow Automation &amp; SOPs · LinkedIn Recruiter · HRIS (Workday, SAP, Rippling)",
+    "<b>Data & PM Tools:</b> Data Analysis &amp; Dashboards (Excel, Google Sheets, SPSS) · Project Management (Asana, Airtable) · CRM (HubSpot)",
+    "<b>Productivity:</b> AI Tools (ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint, Excel) · Google Workspace · Slack",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "ElevenLabs — Talent Operations",
+    "sections": []
+  },
+  "changeLog": [
+    "2026-05-30: Tailored for ElevenLabs — Talent Operations (remote-global; recruiting workflows, SOPs, workflow automation, metrics/dashboards, Ashby, AI, stakeholder mgmt). Header → Portland, OR (Open to Remote or Relocation) — role is remote. Title noun → Talent & People Program Manager. Lead InGenius (Set F: design SOPs + workflow automation via AI, manage 20+ programs/10+ vendors moving parts, build reports/metrics to surface bottlenecks, stakeholder mgmt) then Kronos (recruiting workflows: scheduling/coordination/stakeholder mgmt across funnel). NextGen → data strategy + metrics. ODN Pair B. Skills → ATS Ashby-led + Workflow Automation & SOPs + Dashboards + LinkedIn Recruiter. JD keywords: recruiting workflows, SOPs, workflow automation, metrics/dashboards, bottlenecks, stakeholder management, Ashby, AI."
+  ]
+}

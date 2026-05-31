@@ -1,0 +1,49 @@
+{
+  "role_id": "pacificseafood_tds_2026-05-25",
+  "verified_at": "2026-05-26T00:00:00Z",
+  "primary_target": {
+    "name": "Michael D.",
+    "claimed_title": "Director of Talent Development at Pacific Seafood",
+    "linkedin_url": "https://www.linkedin.com/in/michael-d-32945a6/",
+    "profile_verified": false,
+    "actual_title_on_profile": "UNVERIFIABLE — LinkedIn URL returns 404 (profile private or URL changed)",
+    "actual_company_on_profile": "Unknown — profile inaccessible",
+    "tenure_at_company": "Unknown",
+    "recent_activity_summary": "Profile not accessible. Third-party aggregators (RocketReach, LinkedIn search snippets) confirm: Michael D., Director of Talent Development at Pacific Seafood, Portland OR, BA in Japanese from University of Oregon. Identity is consistent across sources but current status cannot be confirmed.",
+    "department_or_team": "Talent Development / L&D (Director level)",
+    "any_red_flags": [
+      "LinkedIn profile returns 404 — may have changed URL, set to private, or left the company.",
+      "Cannot verify current employment status. If he has left, outreach will bounce or go to wrong person.",
+      "ALTERNATIVE FOUND: William Hueffner, VP of Talent and Culture at Pacific Seafood — confirmed senior leader in same department, higher credibility contact."
+    ],
+    "verdict": "USE_ALTERNATIVE"
+  },
+  "outreach_message_coherence": {
+    "linkedin_msg_refs_verified": false,
+    "email_refs_verified": false,
+    "hallucinated_references": [],
+    "notes": "The outreach messages are factually generic — they don't claim specific things about Michael's work that could be fabricated. References to 'you lead Talent Development there' (LinkedIn) and 'I came across the Training and Development Specialist role and wanted to reach out directly' (email) are safe. However, since Michael's current status is unconfirmed, Jamie should either: (a) use William Hueffner as primary target, or (b) attempt to find Michael's current LinkedIn URL before sending."
+  },
+  "warm_intros_found": [],
+  "alternative_targets_if_needed": [
+    {
+      "name": "William Hueffner",
+      "linkedin_url": "Search: 'William Hueffner Pacific Seafood VP Talent Culture' on LinkedIn",
+      "title": "VP of Talent and Culture, Pacific Seafood",
+      "rationale": "Senior leader in the same Talent & Culture org. Higher leverage contact than Michael D. Confirmed via search snippets as current VP. Likely oversees the T&D function and would know about this hire. Message should acknowledge his VP role and ask for 2 minutes rather than 15."
+    },
+    {
+      "name": "Windy Cox",
+      "linkedin_url": "https://www.linkedin.com/in/windycox/",
+      "title": "HR Professional (SPHR, PHRca) at Pacific Seafood",
+      "rationale": "Already listed in targets.json as outreach_priority 2. Good backup if Hueffner contact fails."
+    }
+  ],
+  "final_recommendation": {
+    "should_use_primary_target": false,
+    "should_use_warm_intro_first": false,
+    "should_send_outreach_as_drafted": false,
+    "messages_need_rewrite": true,
+    "notes": "RECOMMENDED: Rewrite outreach to target William Hueffner (VP Talent and Culture) as primary contact instead of Michael D. whose profile is inaccessible and current status is unknown. If Jamie can find Michael D.'s current LinkedIn URL via a fresh LinkedIn search, she can verify and use him. Draft message structure (tone, length, content) is good — just change the name/title reference."
+  }
+}

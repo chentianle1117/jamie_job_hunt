@@ -1,0 +1,44 @@
+{
+  "role_id": "carlosrosario_ld_2026-05-25",
+  "company": "Carlos Rosario International Public Charter School",
+  "role": "Learning and Development Specialist",
+  "location": "Washington DC",
+  "contacts_found": [
+    {
+      "name": "Erin Rowsey Hart",
+      "title": "Senior HR Leader (SPHR, SHRM-SCP)",
+      "company": "Carlos Rosario International Public Charter School",
+      "linkedin_url": "https://www.linkedin.com/in/erinrowseyhart/",
+      "connection_type": "HR Leadership / likely hiring team",
+      "alumni_tie": null,
+      "rationale": "SPHR + SHRM-SCP credentials signal senior HR leadership — highly likely connected to or managing the L&D Specialist hire. Best first contact for the People team.",
+      "outreach_priority": 1
+    },
+    {
+      "name": "Nicole Theus",
+      "title": "HR Professional (SHRM-SCP)",
+      "company": "Carlos Rosario International Public Charter School",
+      "linkedin_url": "https://www.linkedin.com/in/nicole-theus/",
+      "connection_type": "HR team member",
+      "alumni_tie": null,
+      "rationale": "SHRM-SCP credential indicates HR team member who may be adjacent to the L&D Specialist search. Good secondary contact.",
+      "outreach_priority": 2
+    }
+  ],
+  "do_not_cold_outreach": [
+    {
+      "name": "Allison Rohrer Kokkoros",
+      "title": "CEO — Carlos Rosario International Public Charter School",
+      "company": "Carlos Rosario International Public Charter School",
+      "linkedin_url": "https://www.linkedin.com/in/allisonkokkoros/",
+      "reason": "CEO — do not cold-email executive leadership."
+    }
+  ],
+  "alumni_found": 0,
+  "alumni_note": "No USC or Wesleyan alumni confirmed at Carlos Rosario from search results. Cold professional outreach approach recommended.",
+  "search_queries_used": [
+    "site:linkedin.com/in \"Carlos Rosario\" \"learning and development\" OR \"L&D\" OR \"people\" Washington DC",
+    "\"Carlos Rosario International Public Charter School\" \"director of people\" OR \"HR director\" OR \"learning and development\" site:linkedin.com",
+    "site:linkedin.com/in \"Carlos Rosario International\" USC OR \"University of Southern California\" OR Wesleyan HR OR \"people\" OR \"L&D\""
+  ]
+}

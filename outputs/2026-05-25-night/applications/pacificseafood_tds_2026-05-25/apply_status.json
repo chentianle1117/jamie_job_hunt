@@ -1,0 +1,11 @@
+{
+  "role_id": "pacificseafood_tds_2026-05-25",
+  "apply_url_final": "https://careers.pacificseafood.com/postings/fdbbfc87-dc45-440b-8288-e98358551550/applications/new",
+  "status": "blocked_domain",
+  "blocker": "Chrome MCP can navigate to careers.pacificseafood.com but cannot perform actions (screenshot/click/type) — per-domain permission required",
+  "linkedin_jd_url": "https://www.linkedin.com/jobs/view/4385702582",
+  "next_step": "Jamie either: (1) grant careers.pacificseafood.com in Chrome MCP extension, then re-run apply, OR (2) follow submission_guide.md and apply manually (~4 min)",
+  "package_complete": true,
+  "resume_pdf": "applications/pacificseafood_tds_2026-05-25/resume.pdf",
+  "cover_pdf": "applications/pacificseafood_tds_2026-05-25/cover_letter.pdf"
+}

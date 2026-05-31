@@ -1,0 +1,111 @@
+{
+  "agent": "adversarial-auditor",
+  "audited_at": "2026-05-26T00:00:00",
+  "roles_audited": 6,
+
+  "summary": {
+    "all_clear": [
+      "uportland_progmgrcommunity_2026-05-25",
+      "uportland_progmgrsocialjustice_2026-05-25"
+    ],
+    "needs_review": [
+      "carlosrosario_ld_2026-05-25",
+      "pacificseafood_tds_2026-05-25",
+      "aurora_pmpplteam_2026-05-25",
+      "sandvik_hr_2026-05-25"
+    ],
+    "do_not_apply": []
+  },
+
+  "total_hallucinations_found": 5,
+  "total_unverified_recipients": 0,
+  "total_recipients_with_issues": 3,
+
+  "hallucination_log": [
+    {
+      "role_id": "carlosrosario_ld_2026-05-25",
+      "location": "cover_letter.md paragraph 2",
+      "claim": "78% program enrollment rate across 17 program launches",
+      "issue": "'17 program launches' not in content_library.md — only '15+' appears there. Source file is outreach_patterns.md, not canonical accomplishment library.",
+      "fix": "Change '17 program launches' to '15+ program launches'"
+    },
+    {
+      "role_id": "pacificseafood_tds_2026-05-25",
+      "location": "cover_letter.md paragraph 1",
+      "claim": "78% enrollment rate across 17 program launches",
+      "issue": "Same '17 program launches' — not in content_library.md",
+      "fix": "Change '17 program launches' to '15+ program launches'"
+    },
+    {
+      "role_id": "aurora_pmpplteam_2026-05-25",
+      "location": "cover_letter.md paragraph 1",
+      "claim": "$340K+ in revenue impact across 17 program launches",
+      "issue": "CRITICAL. '$340K+' not in content_library.md — library says '$316K' (team's highest revenue). '$340K+' is an uninvestigated aggregate from outreach_patterns.md. '17 program launches' also not in content_library.md. Combined, this is an invented composite statistic.",
+      "severity": "CRITICAL",
+      "fix": "Replace with '$316K in team revenue across 15+ program launches' OR drop revenue claim entirely. This is the highest-severity finding — must be fixed before sending."
+    },
+    {
+      "role_id": "sandvik_hr_2026-05-25",
+      "location": "cover_letter.md paragraph 1",
+      "claim": "78% program adoption rate across 17 launches",
+      "issue": "'Adoption rate' is not a term used in content_library.md (library uses 'client conversion rate' or 'program enrollment rate'). '17 launches' not in content_library.md.",
+      "fix": "Replace with '78% client conversion rate across 15+ program launches'"
+    },
+    {
+      "role_id": "sandvik_hr_2026-05-25",
+      "location": "cover_letter.md paragraph 3",
+      "claim": "hands-on experience with SAP",
+      "issue": "content_library.md HRIS statement explicitly describes SAP as 'user level for standard HRIS tasks' — not hands-on. Overstates the depth of experience.",
+      "fix": "Change to 'user-level familiarity with SAP' or 'I've worked with SAP at the user level in previous roles'"
+    }
+  ],
+
+  "recipient_issues_log": [
+    {
+      "role_id": "carlosrosario_ld_2026-05-25",
+      "contact": "Allison Rohrer Kokkoros",
+      "issue": "Described in targets.json as 'Internal staff / team member' — she is actually the CEO of Carlos Rosario International Public Charter School. Reaching out to the CEO as though she's a peer/staff contact could be awkward. Either remove from list or completely reframe as a CEO-level outreach (very different tone).",
+      "severity": "MEDIUM"
+    },
+    {
+      "role_id": "aurora_pmpplteam_2026-05-25",
+      "contact": "Brian Shultz",
+      "issue": "targets.json says 'Senior Manager, Talent Acquisition' — search confirms title is 'Recruiting Manager'. Minor title discrepancy, person is real at Aurora.",
+      "severity": "LOW"
+    },
+    {
+      "role_id": "sandvik_hr_2026-05-25",
+      "contact": "Anthony Bowman",
+      "issue": "targets.json describes as 'Former Sandvik — now at The Arc' but web search shows him currently connected to Sandvik in Gainesville. May be a current employee, not former. Outreach framing as 'former employee who will speak candidly' may be inaccurate.",
+      "severity": "LOW"
+    }
+  ],
+
+  "priority_fixes_before_sending": [
+    {
+      "priority": 1,
+      "role_id": "aurora_pmpplteam_2026-05-25",
+      "action": "CRITICAL FIX — Cover letter: Remove '$340K+ in revenue impact across 17 program launches'. Replace with '$316K in team revenue across 15+ program launches'. This is the only fabricated dollar figure in the batch."
+    },
+    {
+      "priority": 2,
+      "role_id": "carlosrosario_ld_2026-05-25",
+      "action": "Remove Allison Rohrer Kokkoros from outreach list or completely reframe (she is the CEO, not staff). Also fix '17 program launches' → '15+ program launches' in cover letter."
+    },
+    {
+      "priority": 3,
+      "role_id": "sandvik_hr_2026-05-25",
+      "action": "Fix '78% program adoption rate across 17 launches' → '78% client conversion rate across 15+ program launches'. Soften SAP claim from 'hands-on' to 'user-level'."
+    },
+    {
+      "priority": 4,
+      "role_id": "pacificseafood_tds_2026-05-25",
+      "action": "Fix '17 program launches' → '15+ program launches' in cover letter paragraph 1."
+    }
+  ],
+
+  "clean_packages": {
+    "uportland_progmgrcommunity_2026-05-25": "All resume and cover letter claims verified. Both contacts confirmed. Yongxin Lin may be in Honolulu but low concern.",
+    "uportland_progmgrsocialjustice_2026-05-25": "All claims verified. Cover letter includes honest gap disclosure. Irene Routté is former staff, confirmed — useful for intel not warm intro. Ell Pat confirmed for both UP roles — Jamie must send different messages."
+  }
+}

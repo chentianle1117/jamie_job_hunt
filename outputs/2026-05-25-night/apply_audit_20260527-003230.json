@@ -1,0 +1,232 @@
+{
+  "generated_at": "2026-05-27T00:32:30.992022",
+  "dry_run": true,
+  "run_id": "2026-05-25-night",
+  "roles_processed": 6,
+  "logs": [
+    {
+      "role_id": "pacificseafood_tds_2026-05-25",
+      "company": "Pacific Seafood",
+      "title": "Training and Development Specialist Distribution",
+      "lane": "DECISION",
+      "score": 78,
+      "verdict": "STRETCH",
+      "h1b_status": "⚠️ uncertain",
+      "started_at": "2026-05-27T00:32:30.968896",
+      "ats": "pinpointhq",
+      "handler_used": "manual",
+      "screenshots": [
+        "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\pacificseafood_tds_2026-05-25\\screenshots\\003230_01_start_dry_run.json",
+        "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\pacificseafood_tds_2026-05-25\\screenshots\\003230_02_manual_route.json"
+      ],
+      "submit_decision": "requires_manual",
+      "reason": "ATS 'pinpointhq' has no automated handler — package is ready for Jamie manual submission. See submission_guide.md for step-by-step instructions.",
+      "errors": [],
+      "auto_submit_eligible": false,
+      "handler_result": null,
+      "apply_url": "(see eval file)",
+      "auto_submit_reason": "verdict=STRETCH (need GO)",
+      "ended_at": "2026-05-27T00:32:30.970323"
+    },
+    {
+      "role_id": "aurora_pmpplteam_2026-05-25",
+      "company": "Aurora",
+      "title": "Program Manager, People Team",
+      "lane": "DECISION",
+      "score": 78,
+      "verdict": "STRETCH",
+      "h1b_status": "⚠️ uncertain",
+      "started_at": "2026-05-27T00:32:30.971536",
+      "ats": "workday",
+      "handler_used": "browser_workday",
+      "screenshots": [
+        "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\aurora_pmpplteam_2026-05-25\\screenshots\\003230_01_start_dry_run.json",
+        "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\aurora_pmpplteam_2026-05-25\\screenshots\\003230_02_navigate_simulated.json",
+        "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\aurora_pmpplteam_2026-05-25\\screenshots\\003230_03_form_filled_simulated.json",
+        "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\aurora_pmpplteam_2026-05-25\\screenshots\\003230_04_at_submit_button_simulated.json"
+      ],
+      "submit_decision": "dry_run_completed",
+      "reason": "Dry run — would have dispatched to workday browser handler. Re-run with --live to execute.",
+      "errors": [],
+      "auto_submit_eligible": false,
+      "handler_result": {
+        "role_id": "aurora_pmpplteam_2026-05-25",
+        "ats": "workday",
+        "handler_status": "dry_run_simulated",
+        "screenshots": [
+          "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\aurora_pmpplteam_2026-05-25\\screenshots\\003230_01_start_dry_run.json",
+          "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\aurora_pmpplteam_2026-05-25\\screenshots\\003230_02_navigate_simulated.json",
+          "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\aurora_pmpplteam_2026-05-25\\screenshots\\003230_03_form_filled_simulated.json",
+          "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\aurora_pmpplteam_2026-05-25\\screenshots\\003230_04_at_submit_button_simulated.json"
+        ],
+        "fields_filled": {},
+        "submit_button_selector": "[data-testid='submit-button']",
+        "jamie_action_required": "Review and submit manually — dry run only.",
+        "notes": "Dry run: no real browser session opened."
+      },
+      "apply_url": "(see eval file)",
+      "auto_submit_reason": "verdict=STRETCH (need GO)",
+      "ended_at": "2026-05-27T00:32:30.974543"
+    },
+    {
+      "role_id": "uportland_progmgrcommunity_2026-05-25",
+      "company": "University of Portland",
+      "title": "Program Manager, Community Engagement",
+      "lane": "PACKAGE",
+      "score": 88,
+      "verdict": "GO",
+      "h1b_status": "✅ confirmed",
+      "started_at": "2026-05-27T00:32:30.974543",
+      "ats": "peopleadmin",
+      "handler_used": "browser_peopleadmin",
+      "screenshots": [
+        "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\uportland_progmgrcommunity_2026-05-25\\screenshots\\003230_01_start_dry_run.json",
+        "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\uportland_progmgrcommunity_2026-05-25\\screenshots\\003230_02_navigate_simulated.json",
+        "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\uportland_progmgrcommunity_2026-05-25\\screenshots\\003230_03_form_filled_simulated.json",
+        "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\uportland_progmgrcommunity_2026-05-25\\screenshots\\003230_04_at_submit_button_simulated.json"
+      ],
+      "submit_decision": "dry_run_completed",
+      "reason": "Dry run — would have dispatched to peopleadmin browser handler. Re-run with --live to execute.",
+      "errors": [],
+      "auto_submit_eligible": true,
+      "handler_result": {
+        "role_id": "uportland_progmgrcommunity_2026-05-25",
+        "ats": "peopleadmin",
+        "handler_status": "dry_run_simulated",
+        "screenshots": [
+          "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\uportland_progmgrcommunity_2026-05-25\\screenshots\\003230_01_start_dry_run.json",
+          "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\uportland_progmgrcommunity_2026-05-25\\screenshots\\003230_02_navigate_simulated.json",
+          "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\uportland_progmgrcommunity_2026-05-25\\screenshots\\003230_03_form_filled_simulated.json",
+          "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\uportland_progmgrcommunity_2026-05-25\\screenshots\\003230_04_at_submit_button_simulated.json"
+        ],
+        "fields_filled": {},
+        "submit_button_selector": "[data-testid='submit-button']",
+        "jamie_action_required": "Review and submit manually — dry run only.",
+        "notes": "Dry run: no real browser session opened."
+      },
+      "apply_url": "(see eval file)",
+      "auto_submit_reason": "all criteria met (GO, score≥88, PACKAGE, audit CLEAR, PDF ready)",
+      "ended_at": "2026-05-27T00:32:30.979556"
+    },
+    {
+      "role_id": "uportland_progmgrsocialjustice_2026-05-25",
+      "company": "University of Portland",
+      "title": "Program Manager, Social Justice Education",
+      "lane": "PACKAGE",
+      "score": 76,
+      "verdict": "STRETCH",
+      "h1b_status": "✅ confirmed",
+      "started_at": "2026-05-27T00:32:30.979556",
+      "ats": "peopleadmin",
+      "handler_used": "browser_peopleadmin",
+      "screenshots": [
+        "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\uportland_progmgrsocialjustice_2026-05-25\\screenshots\\003230_01_start_dry_run.json",
+        "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\uportland_progmgrsocialjustice_2026-05-25\\screenshots\\003230_02_navigate_simulated.json",
+        "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\uportland_progmgrsocialjustice_2026-05-25\\screenshots\\003230_03_form_filled_simulated.json",
+        "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\uportland_progmgrsocialjustice_2026-05-25\\screenshots\\003230_04_at_submit_button_simulated.json"
+      ],
+      "submit_decision": "dry_run_completed",
+      "reason": "Dry run — would have dispatched to peopleadmin browser handler. Re-run with --live to execute.",
+      "errors": [],
+      "auto_submit_eligible": false,
+      "handler_result": {
+        "role_id": "uportland_progmgrsocialjustice_2026-05-25",
+        "ats": "peopleadmin",
+        "handler_status": "dry_run_simulated",
+        "screenshots": [
+          "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\uportland_progmgrsocialjustice_2026-05-25\\screenshots\\003230_01_start_dry_run.json",
+          "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\uportland_progmgrsocialjustice_2026-05-25\\screenshots\\003230_02_navigate_simulated.json",
+          "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\uportland_progmgrsocialjustice_2026-05-25\\screenshots\\003230_03_form_filled_simulated.json",
+          "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\uportland_progmgrsocialjustice_2026-05-25\\screenshots\\003230_04_at_submit_button_simulated.json"
+        ],
+        "fields_filled": {},
+        "submit_button_selector": "[data-testid='submit-button']",
+        "jamie_action_required": "Review and submit manually — dry run only.",
+        "notes": "Dry run: no real browser session opened."
+      },
+      "apply_url": "(see eval file)",
+      "auto_submit_reason": "verdict=STRETCH (need GO)",
+      "ended_at": "2026-05-27T00:32:30.983549"
+    },
+    {
+      "role_id": "sandvik_hr_2026-05-25",
+      "company": "Sandvik Inc",
+      "title": "HR Specialist / Training & Development",
+      "lane": "DECISION",
+      "score": 78,
+      "verdict": "STRETCH",
+      "h1b_status": "✅ confirmed",
+      "started_at": "2026-05-27T00:32:30.983549",
+      "ats": "workday",
+      "handler_used": "browser_workday",
+      "screenshots": [
+        "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\sandvik_hr_2026-05-25\\screenshots\\003230_01_start_dry_run.json",
+        "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\sandvik_hr_2026-05-25\\screenshots\\003230_02_navigate_simulated.json",
+        "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\sandvik_hr_2026-05-25\\screenshots\\003230_03_form_filled_simulated.json",
+        "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\sandvik_hr_2026-05-25\\screenshots\\003230_04_at_submit_button_simulated.json"
+      ],
+      "submit_decision": "dry_run_completed",
+      "reason": "Dry run — would have dispatched to workday browser handler. Re-run with --live to execute.",
+      "errors": [],
+      "auto_submit_eligible": false,
+      "handler_result": {
+        "role_id": "sandvik_hr_2026-05-25",
+        "ats": "workday",
+        "handler_status": "dry_run_simulated",
+        "screenshots": [
+          "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\sandvik_hr_2026-05-25\\screenshots\\003230_01_start_dry_run.json",
+          "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\sandvik_hr_2026-05-25\\screenshots\\003230_02_navigate_simulated.json",
+          "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\sandvik_hr_2026-05-25\\screenshots\\003230_03_form_filled_simulated.json",
+          "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\sandvik_hr_2026-05-25\\screenshots\\003230_04_at_submit_button_simulated.json"
+        ],
+        "fields_filled": {},
+        "submit_button_selector": "[data-testid='submit-button']",
+        "jamie_action_required": "Review and submit manually — dry run only.",
+        "notes": "Dry run: no real browser session opened."
+      },
+      "apply_url": "(see eval file)",
+      "auto_submit_reason": "verdict=STRETCH (need GO)",
+      "ended_at": "2026-05-27T00:32:30.986945"
+    },
+    {
+      "role_id": "carlosrosario_ld_2026-05-25",
+      "company": "Carlos Rosario International Public Charter School",
+      "title": "Learning and Development Specialist",
+      "lane": "PACKAGE",
+      "score": 90,
+      "verdict": "GO",
+      "h1b_status": "✅ confirmed",
+      "started_at": "2026-05-27T00:32:30.986945",
+      "ats": "adp",
+      "handler_used": "browser_adp",
+      "screenshots": [
+        "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\carlosrosario_ld_2026-05-25\\screenshots\\003230_01_start_dry_run.json",
+        "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\carlosrosario_ld_2026-05-25\\screenshots\\003230_02_navigate_simulated.json",
+        "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\carlosrosario_ld_2026-05-25\\screenshots\\003230_03_form_filled_simulated.json",
+        "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\carlosrosario_ld_2026-05-25\\screenshots\\003230_04_at_submit_button_simulated.json"
+      ],
+      "submit_decision": "dry_run_completed",
+      "reason": "Dry run — would have dispatched to adp browser handler. Re-run with --live to execute.",
+      "errors": [],
+      "auto_submit_eligible": false,
+      "handler_result": {
+        "role_id": "carlosrosario_ld_2026-05-25",
+        "ats": "adp",
+        "handler_status": "dry_run_simulated",
+        "screenshots": [
+          "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\carlosrosario_ld_2026-05-25\\screenshots\\003230_01_start_dry_run.json",
+          "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\carlosrosario_ld_2026-05-25\\screenshots\\003230_02_navigate_simulated.json",
+          "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\carlosrosario_ld_2026-05-25\\screenshots\\003230_03_form_filled_simulated.json",
+          "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-05-25-night\\applications\\carlosrosario_ld_2026-05-25\\screenshots\\003230_04_at_submit_button_simulated.json"
+        ],
+        "fields_filled": {},
+        "submit_button_selector": "[data-testid='submit-button']",
+        "jamie_action_required": "Review and submit manually — dry run only.",
+        "notes": "Dry run: no real browser session opened."
+      },
+      "apply_url": "(see eval file)",
+      "auto_submit_reason": "audit_verdict=NEEDS_REVIEW_BEFORE_APPLY (need CLEAR_TO_APPLY)",
+      "ended_at": "2026-05-27T00:32:30.992022"
+    }
+  ]
+}

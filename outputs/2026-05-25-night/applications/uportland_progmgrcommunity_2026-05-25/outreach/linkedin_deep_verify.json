@@ -1,0 +1,42 @@
+{
+  "role_id": "uportland_progmgrcommunity_2026-05-25",
+  "verified_at": "2026-05-26T00:00:00Z",
+  "primary_target": {
+    "name": "Ell Pat",
+    "claimed_title": "Assistant Director, Moreau Center for Service and Leadership, University of Portland",
+    "linkedin_url": "https://www.linkedin.com/in/ell-pat-a4b96016/",
+    "profile_verified": true,
+    "actual_title_on_profile": "Assistant Director, Moreau Center for Service and Leadership",
+    "actual_company_on_profile": "University of Portland",
+    "tenure_at_company": "16 years 8 months (Oct 2009 – present)",
+    "recent_activity_summary": "No posts visible publicly. 80 connections. Low LinkedIn activity — profile appears minimally maintained. May be more responsive to email than LinkedIn message.",
+    "department_or_team": "Moreau Center for Service and Leadership — same center as the PM Community Engagement role",
+    "any_red_flags": [
+      "Very low LinkedIn presence (80 connections, no posts) — may not check LinkedIn messages regularly. Email via UP staff directory is likely more reliable.",
+      "16+ years at same role suggests long-tenured, potentially resistant to turnover — but also knows the team deeply."
+    ],
+    "verdict": "GO_AHEAD"
+  },
+  "outreach_message_coherence": {
+    "linkedin_msg_refs_verified": true,
+    "email_refs_verified": true,
+    "hallucinated_references": [],
+    "notes": "LinkedIn message references 'Assistant Director there' — confirmed accurate. Email references 'experiential learning and community engagement' as Ell's work — this is a reasonable characterization of an Asst Director at the Moreau Center but is not directly confirmed in his profile (which is sparse). Not a fabricated claim — it's a logical inference from his role. No hallucinated claims found. Both messages read as genuine and appropriate."
+  },
+  "warm_intros_found": [],
+  "alternative_targets_if_needed": [
+    {
+      "name": "Yongxin Lin",
+      "linkedin_url": "https://www.linkedin.com/in/yongxinlin/",
+      "title": "Moreau Center for Service and Justice staff, University of Portland",
+      "rationale": "Already listed in targets.json as outreach_priority 2. Chinese name — potential cultural connection for Jamie. Good backup."
+    }
+  ],
+  "final_recommendation": {
+    "should_use_primary_target": true,
+    "should_use_warm_intro_first": false,
+    "should_send_outreach_as_drafted": true,
+    "messages_need_rewrite": false,
+    "notes": "Prioritize email over LinkedIn InMail given Ell's very low LinkedIn engagement (80 connections, no posts). Find his email via up.edu staff directory. Messages are factually clean."
+  }
+}

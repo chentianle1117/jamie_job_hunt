@@ -1,0 +1,52 @@
+{
+  "role_id": "aurora_pmpplteam_2026-05-25",
+  "verified_at": "2026-05-26T00:00:00Z",
+  "primary_target": {
+    "name": "Brian Shultz",
+    "claimed_title": "Senior Manager, Talent Acquisition at Aurora",
+    "linkedin_url": "https://www.linkedin.com/in/shultz1/",
+    "profile_verified": true,
+    "actual_title_on_profile": "Executive Talent Partner at Counsulting (consulting firm)",
+    "actual_company_on_profile": "Counsulting (independent consulting — NOT Aurora)",
+    "tenure_at_company": "LEFT Aurora: Jun 2024 – Jun 2025 as Senior Manager TA. Now at Counsulting Aug 2025 – present.",
+    "recent_activity_summary": "Low activity — 2 comments visible (4 months ago, 7 months ago). 6,251 followers. Profile still shows Aurora hiring link in About section but current company is now Counsulting.",
+    "department_or_team": "FORMER Aurora TA team — now independent consultant",
+    "any_red_flags": [
+      "CRITICAL: Brian Shultz LEFT Aurora in Jun 2025 — he is no longer at Aurora. He has been at an independent consulting firm since Aug 2025.",
+      "Outreach message targets him as 'you work in People there' — this is INCORRECT. Sending this message would be factually wrong and embarrassing.",
+      "The About section of his profile still has 'Aurora is hiring' link — may cause confusion but his current employer is clearly not Aurora."
+    ],
+    "verdict": "DO_NOT_CONTACT"
+  },
+  "outreach_message_coherence": {
+    "linkedin_msg_refs_verified": false,
+    "email_refs_verified": false,
+    "hallucinated_references": [
+      "LinkedIn message: 'I noticed you work in People there' — INCORRECT. Brian has not worked at Aurora since June 2025.",
+      "Email draft: 'I came across the Program Manager, People Team role at Aurora and wanted to reach out personally' addressed to Brian — sending this to him now would imply he's at Aurora, which he is not."
+    ],
+    "notes": "Both outreach drafts are addressed to Brian Shultz as a current Aurora employee. This is factually wrong as of Aug 2025. DO NOT send either message to Brian as written."
+  },
+  "warm_intros_found": [],
+  "alternative_targets_if_needed": [
+    {
+      "name": "Joshua Brooks, MBA",
+      "linkedin_url": "https://www.linkedin.com/in/brooks-joshua/",
+      "title": "Payroll Manager at Aurora (Coraopolis, PA — near Pittsburgh)",
+      "rationale": "Currently at Aurora as of May 2026 (reposted Aurora hiring post 6 days ago). Based in Pittsburgh area. HR/payroll background means he's adjacent to the People team. Not a perfect match (payroll vs. programs) but he can point Jamie to the right person or speak to culture. His activity shows he is an engaged Aurora employee."
+    },
+    {
+      "name": "Cori Davis",
+      "linkedin_url": "https://www.linkedin.com/in/coridavis/",
+      "title": "Chief People Officer at Aurora (joined Aug 2025)",
+      "rationale": "CPO at Aurora — too senior for cold outreach typically, but if Jamie has a strong angle (she does — org psych background, program management, change management experience) a brief LinkedIn connection request with a polished 1-sentence note could be worthwhile. She is new in role (joined same month Brian left) and may be building her team."
+    }
+  ],
+  "final_recommendation": {
+    "should_use_primary_target": false,
+    "should_use_warm_intro_first": false,
+    "should_send_outreach_as_drafted": false,
+    "messages_need_rewrite": true,
+    "notes": "URGENT REWRITE NEEDED. Primary target Brian Shultz has left Aurora. Outreach as drafted would reach a non-Aurora person and reference him incorrectly as 'working in People there.' Recommend: (1) retarget to Joshua Brooks with a rewritten message acknowledging he's on the payroll/finance side but asking if he can point Jamie to the right person on the People Programs team; OR (2) search LinkedIn for current Aurora 'People Programs' or 'HRBP' contacts directly. The role itself (PM, People Team) is confirmed active as of Jan 2026 on TealHQ and ZipRecruiter."
+  }
+}

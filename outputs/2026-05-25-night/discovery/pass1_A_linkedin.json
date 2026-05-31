@@ -1,0 +1,109 @@
+{
+  "agent": "discovery_A_linkedin",
+  "candidates": [
+    {
+      "id": "pacificseafood_tds_2026-05-25",
+      "title": "Training and Development Specialist Distribution",
+      "company": "Pacific Seafood",
+      "location": "Clackamas, OR (Portland Metro)",
+      "work_type": "onsite",
+      "url": "https://www.linkedin.com/jobs/view/4385702582",
+      "posted_date": "14 hours ago",
+      "snippet": "The Training & Development Specialist supports the Distribution operating company by coordinating and delivering training activities that align with operational priorities, compliance requirements, and the approved training roadmap.",
+      "yoe_signal": "3+ years",
+      "discovery_source": "linkedin_pdx_talent_dev"
+    },
+    {
+      "id": "thestandard_lds3_2026-05-25",
+      "title": "Learning and Development Specialist III",
+      "company": "The Standard",
+      "location": "Portland, OR",
+      "work_type": "onsite",
+      "url": "https://www.linkedin.com/jobs/view/4417530694",
+      "posted_date": "2 days ago",
+      "snippet": "The Learning and Development Specialist III is responsible for ongoing design, deployment, delivery and evaluation of learning programs to enhance the performance and growth of teams to meet departmental goals.",
+      "yoe_signal": "not specified",
+      "discovery_source": "linkedin_pdx_talent_dev"
+    },
+    {
+      "id": "psu_ers_2026-05-25",
+      "title": "Employee Relations Specialist",
+      "company": "Portland State University",
+      "location": "Portland, OR",
+      "work_type": "onsite",
+      "url": "https://www.linkedin.com/jobs/view/4413908169",
+      "posted_date": "1 week ago",
+      "snippet": "As a member of the Employee and Labor Relations Team in the Office of Human Resources, the Employee Relations Specialist uses professional methodologies and best practices to provide direct support to campus in handling employee relations matters.",
+      "yoe_signal": "2+ years",
+      "discovery_source": "linkedin_pdx_hr_td"
+    },
+    {
+      "id": "ohsu_edupgmgr_2026-05-25",
+      "title": "Education Program Manager",
+      "company": "Oregon Health & Science University (Cascade Life Alliance)",
+      "location": "Portland, OR",
+      "work_type": "onsite",
+      "url": "https://www.linkedin.com/jobs/view/4405479865",
+      "posted_date": "1 week ago",
+      "snippet": "Comprehensive supervision and leadership of the Education Program, to include oversight of the design, implementation, standardization, and evaluation of education initiatives across all CLA departments.",
+      "yoe_signal": "3+ years (OPO experience preferred)",
+      "discovery_source": "linkedin_pdx_hr_td"
+    },
+    {
+      "id": "peacehealth_hrconsult_2026-05-25",
+      "title": "HR Consultant",
+      "company": "PeaceHealth",
+      "location": "Vancouver, WA",
+      "work_type": "onsite",
+      "url": "https://www.linkedin.com/jobs/view/4415962503",
+      "posted_date": "5 days ago",
+      "snippet": "The HR Consultant serves as a consultant and advisor to leaders and caregivers on HR strategies and other related caregiver impacting initiatives. This includes identifying issues and consulting with appropriate internal resources.",
+      "yoe_signal": "3+ years",
+      "discovery_source": "linkedin_pdx_hr_td"
+    },
+    {
+      "id": "laika_tdanalyst_2026-05-25",
+      "title": "Training & Development Analyst",
+      "company": "LAIKA Studios",
+      "location": "Hillsboro, OR",
+      "work_type": "hybrid",
+      "url": "https://www.linkedin.com/jobs/view/4406932424",
+      "posted_date": "4 days ago",
+      "snippet": "The Training & Development Analyst is responsible for supporting end users of LAIKA's technical systems and tools, ensuring adoption and consistent use across the studio. Works with Technology Engagement & Development Supervisor to develop and deliver training.",
+      "yoe_signal": "3+ years",
+      "discovery_source": "linkedin_pdx_hr_td"
+    },
+    {
+      "id": "aurora_pmpplteam_2026-05-25",
+      "title": "Program Manager, People Team",
+      "company": "Aurora",
+      "location": "Pittsburgh, PA (also Mountain View, CA)",
+      "work_type": "onsite",
+      "url": "https://www.linkedin.com/jobs/view/4398140153",
+      "posted_date": "15 hours ago",
+      "snippet": "Drive Program Strategy & Execution: You will take loose concepts or business problems and translate them into rigorous project charters. You define the 'what, why, and how,' manage the timeline, and ensure the team crosses the finish line.",
+      "yoe_signal": "4+ years",
+      "discovery_source": "linkedin_remote_ppl_pm"
+    },
+    {
+      "id": "airbnb_pgmcommunitysupport_2026-05-25",
+      "title": "Program Manager, Community Support",
+      "company": "Airbnb",
+      "location": "United States",
+      "work_type": "remote",
+      "url": "https://www.linkedin.com/jobs/view/4417017304",
+      "posted_date": "5 days ago",
+      "snippet": "As a Program Manager in Community Support, you are responsible for implementing large-scale, cross-functional and cross-platform programs that drive the strategic goals of the Community Support organization and Airbnb.",
+      "yoe_signal": "8+ years",
+      "discovery_source": "linkedin_remote_ppl_pm"
+    }
+  ],
+  "duration_total_s": 390,
+  "notes": [
+    "Oregon DHS L&D Specialist 2 EXCLUDED: explicit no-sponsorship",
+    "Vanta People Operations Specialist EXCLUDED: explicit no-sponsorship",
+    "KPMG Associate Instructional Design EXCLUDED: explicit no H1B",
+    "Stripe Program Manager, People Operations Strategy EXCLUDED: 8+ years",
+    "Aurora and Airbnb included for downstream scoring (geography/seniority)"
+  ]
+}

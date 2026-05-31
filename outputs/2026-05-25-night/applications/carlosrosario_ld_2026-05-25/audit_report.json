@@ -1,0 +1,113 @@
+{
+  "role_id": "carlosrosario_ld_2026-05-25",
+  "audited_at": "2026-05-26T00:00:00",
+  "audited_by": "adversarial-audit-agent",
+
+  "resume_audit": {
+    "claims_verified": 12,
+    "claims_unverified": 0,
+    "potential_hallucinations": [],
+    "notes": [
+      "300+ leave cases (ODN) — VERIFIED against content_library.md",
+      "$362K leave costs (ODN) — VERIFIED against content_library.md",
+      "25+ global stakeholders (InGenius) — VERIFIED",
+      "75% onboarding time reduction (InGenius) — VERIFIED",
+      "600+ training webinar participants (InGenius) — VERIFIED",
+      "78% client conversion rate (InGenius) — VERIFIED (L&D variant, correct for this role type)",
+      "3 new educational programs (InGenius) — VERIFIED",
+      "4 teams and 8 vendors (InGenius) — VERIFIED",
+      "15+ educational programs (InGenius) — VERIFIED",
+      "2,000+ employee responses (NextGen) — VERIFIED",
+      "DEI pilot for 12 senior leaders scaled to 23 global locations (Vestas) — VERIFIED (partnered/piloted variant)",
+      "566% applications increase (Kronos) — VERIFIED"
+    ],
+    "verdict": "CLEAN"
+  },
+
+  "cover_audit": {
+    "claims_verified": 7,
+    "claims_unverified": 1,
+    "potential_hallucinations": [
+      {
+        "claim": "78% program enrollment rate across 17 program launches",
+        "location": "Paragraph 2: 'drove a 78% program enrollment rate across 17 program launches'",
+        "source_found": false,
+        "detail": "content_library.md says '600+ participants' and '78% client conversion rate' (L&D variant). The '17 program launches' number does NOT appear in content_library.md — only in outreach_patterns.md/email_style_signature.md. content_library.md consistently uses '15+ programs'. '17' appears to be a computed aggregate from a different file.",
+        "recommendation": "Replace '17 program launches' with '15+ program launches' to match content_library.md source"
+      }
+    ],
+    "notes": [
+      "onboarding materials cut ramp-up time by 75% — VERIFIED",
+      "300+ leave cases audited (ODN consulting) — VERIFIED",
+      "$362K leave costs context — VERIFIED",
+      "needs assessments with 25+ global stakeholders — VERIFIED",
+      "training webinars for 600+ participants — VERIFIED",
+      "78% rate — VERIFIED (client conversion per content_library.md L&D variant)",
+      "Mandarin Chinese native speaker — VERIFIED (profile_compact.md: 'Mandarin Chinese (native)')",
+      "H1B sponsorship claim re Carlos Rosario — noted as 'confirmed' in cover letter. Carlos Rosario is an adult education charter school (cap-exempt category per profile_compact.md). Claim is accurate."
+    ],
+    "verdict": "NEEDS_FIX"
+  },
+
+  "recipient_audit": {
+    "contacts_verified": 2,
+    "contacts_unverified": 0,
+    "contacts_with_issues": 1,
+    "per_contact": [
+      {
+        "name": "Erin Rowsey Hart",
+        "claimed_title": "Senior HR Leader (SPHR, SHRM-SCP) at Carlos Rosario International Public Charter School",
+        "linkedin_url_in_targets": "https://www.linkedin.com/in/erinrowseyhart/",
+        "linkedin_verified": true,
+        "title_matches": true,
+        "search_query_used": "Erin Rowsey Hart 'Carlos Rosario' linkedin HR SPHR SHRM-SCP",
+        "notes": "LinkedIn profile confirmed in search result title: 'Erin Rowsey Hart, SPHR, SHRM-SCP - Carlos Rosario International Public Charter School'. Name, credentials, and company all match.",
+        "verdict": "VERIFIED"
+      },
+      {
+        "name": "Allison Rohrer Kokkoros",
+        "claimed_title": "Staff — Carlos Rosario International Public Charter School",
+        "linkedin_url_in_targets": "https://www.linkedin.com/in/allisonkokkoros/",
+        "linkedin_verified": true,
+        "title_matches": false,
+        "search_query_used": "Allison Rohrer Kokkoros 'Carlos Rosario' linkedin staff",
+        "notes": "MISDESCRIPTION: Web search reveals Allison Kokkoros is the CEO of Carlos Rosario International Public Charter School, not generic 'staff'. LinkedIn profile exists and she IS at the org, but describing her as 'Internal staff / team member' is incorrect. As CEO, she is likely NOT an appropriate cold outreach target for a specialist hire — this could be awkward. The outreach draft should be reviewed before sending.",
+        "verdict": "VERIFIED_BUT_MISDESCRIBED — she is CEO, not staff. Review outreach target appropriateness."
+      },
+      {
+        "name": "Nicole Theus",
+        "claimed_title": "HR Professional (SHRM-SCP) at Carlos Rosario International Public Charter School",
+        "linkedin_url_in_targets": "https://www.linkedin.com/in/nicole-theus/",
+        "linkedin_verified": true,
+        "title_matches": true,
+        "search_query_used": "Nicole Theus 'Carlos Rosario' linkedin HR SHRM-SCP",
+        "notes": "LinkedIn profile confirmed: 'Nicole Theus, SHRM-SCP - Carlos Rosario International Public Charter School'. Name, credentials, and company match.",
+        "verdict": "VERIFIED"
+      }
+    ]
+  },
+
+  "jd_coherence_audit": {
+    "verdict": "CLEAN",
+    "notes": [
+      "Cover letter correctly centers adult learning facilitation, needs assessment, multilingual facilitation, and data-driven program design — all core L&D Specialist functions.",
+      "Multilingual angle (Mandarin native) is genuine and directly relevant to Carlos Rosario's adult immigrant learner population.",
+      "No fabricated references to the company's specific programs or recent initiatives that could be guessed/hallucinated.",
+      "Relocation to DC explicitly stated — appropriate given cover letter claims this is a Tier 3 'worth relocating for' role."
+    ]
+  },
+
+  "overall_verdict": "CLEAR_TO_APPLY",
+  "required_fixes": [],
+  "re_audit_2026_05_27": {
+    "rechecked": [
+      "Unverified '17 program launches' — NOT FOUND in current cover_letter.md",
+      "Canonical '15+ program launches' verified (content_library.md L&D variant)",
+      "All 7 cover letter claims verified against content_library.md",
+      "Signature opening intact: 'Learning and development isn't just about delivering curriculum'",
+      "Closing preserved: 'As an analytical organizer with a growth mindset'",
+      "Note: Allison Kokkoros is CEO — outreach target flagged for Jamie review before sending"
+    ],
+    "verdict": "CLEAR_TO_APPLY"
+  }
+}

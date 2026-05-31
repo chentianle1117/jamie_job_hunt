@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "company": "Robinhood",
+    "role": "Manager of Learning & Development",
+    "date": "2026-05-30",
+    "pageMargins": { "top": "0.3in", "right": "0.45in", "bottom": "0.3in", "left": "0.45in" },
+    "autoFit": true,
+    "fontRange": [8.5, 10.0]
+  },
+  "header": {
+    "location": "Chicago, IL (Open to Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Learning & Development</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve people development—through human-centered, systematic approaches.",
+  "keywordGroups": {
+    "data": "Data/Evaluation",
+    "coord": "Program Management",
+    "cross": "Stakeholders/Collab",
+    "ex": "Learner Experience",
+    "tools": "Tools/Systems",
+    "prog": "Instructional Design/L&D"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Design {coord|end-to-end} {prog|learning programs} across onboarding and skill-building for 20+ initiatives, with scalable standards and templates" },
+        { "text": "Develop guides and {prog|learning materials} using {data|AI tools}, running content audits that cut onboarding time by 75% for 70+ staff" },
+        { "text": "Manage intake and scope alignment with {cross|Marketing, Tech, and Sales} business partners across 20+ concurrent programs" },
+        { "text": "Conduct needs assessments with 25 global {cross|stakeholders} and {data|evaluation frameworks} to design 3 programs and reach a 78% enrollment rate" }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Upskill the client team in {data|data analytics} to audit 300+ cases, successfully refuting cost assumptions via evidence-based insights" },
+        { "text": "Empower stakeholders to present executive-ready insights on $362K in costs, leading to policy redesigns and first aid training" }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        { "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed L&D strategies" },
+        { "text": "Built {data|training evaluation} by analyzing 2,000+ responses and recommending actions to the C-suite on engagement" },
+        { "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review" },
+        { "text": "Improved {ex|learner experience} via 5 {cross|cross-functional} projects focusing on survey development, rewards & recognition, and L&D" }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        { "text": "Piloted an Inclusive Leadership workshop for 12 senior leaders, later scaled to 23 global locations" },
+        { "text": "Optimized onboarding processes across 3 global locations by conducting process analysis and clarifying job responsibilities" },
+        { "text": "Directed a Merger & Acquisition project, supporting change and learning across migrated employee records" },
+        { "text": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors" }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management" },
+        { "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details" },
+        { "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months" },
+        { "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": ["Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": ["Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping engagement for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>L&D & Program Tools:</b> LMS (Canvas, Moodle) · Instructional Design · Project Management (Asana, Airtable) · Knowledge Management (SharePoint, Notion)",
+    "<b>Data & Systems:</b> Data Analysis (Excel, Google Sheets, SPSS) · HRIS/SaaS Admin (SAP, Rippling, ADP)",
+    "<b>Productivity:</b> AI Tools (ChatGPT, Gemini, prompt engineering) · Microsoft Office (Word, PowerPoint, Excel) · Google Workspace",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "Robinhood — Manager of Learning & Development",
+    "sections": []
+  },
+  "changeLog": [
+    "2026-05-30: Tailored for Robinhood — Manager of Learning & Development (Chicago/Menlo/NY, 5 days in-office → Chicago header). Summary → Learning & Development, systematic approaches. InGenius → Set A: end-to-end program design + scalable standards/templates, learning materials via AI + content audits, intake/scope alignment with business partners, needs assessments + evaluation frameworks. Reordered to lead with design/standards. ODN → Pair A. NextGen → 'training evaluation' framing (direct JD match). Vestas → Inclusive Leadership workshop lead + M&A learning support (JD preferred). Skills → led with LMS + Instructional Design + prompt engineering, kept HRCI. NOTE: JD wants 8+ yrs instructional design + 2+ yrs management; Jamie is ~3 yrs and not yet a people-manager — genuine seniority stretch; tailored truthfully to design/standards/evaluation/AI strengths."
+  ]
+}

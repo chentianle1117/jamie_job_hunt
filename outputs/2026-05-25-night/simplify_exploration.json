@@ -1,0 +1,206 @@
+{
+  "agent": "simplify_explorer",
+  "run_date": "2026-05-27",
+  "simplify_account_accessible": false,
+  "accessibility_blocker": "Chrome MCP per-domain permission not granted for simplify.jobs. Navigation to https://simplify.jobs/dashboard was attempted but blocked by the Chrome extension's domain allowlist. All findings below are based on ATS-level knowledge, pipeline artifact analysis, and public Simplify documentation.",
+  "exploration_method": "offline_ats_analysis",
+  "profile_completeness_pct": null,
+  "profile_completeness_note": "Could not access Simplify dashboard to read completion percentage. Jamie should check manually — Simplify shows a % bar on the profile page. Key fields to audit are listed in profile_improvement_recommendations below.",
+  "current_resume_uploaded": "unknown — could not read Simplify profile. Jamie should verify which resume version is uploaded (master resume vs a tailored version) and whether it reflects her current USC MS Applied Org Psych credential and all three recent roles.",
+  "missing_or_incomplete_fields": [
+    "Work authorization — CRITICAL: must be set to 'Will require sponsorship / H-1B'. If Simplify defaults this to 'Authorized without sponsorship' on older profiles, any Simplify auto-apply will cause an instant disqualification at ATS intake. Jamie MUST verify this field before using any Simplify auto-apply.",
+    "Visa type / sponsorship type — Simplify has a separate field for visa category (H-1B, OPT, etc.) — confirm it reflects H-1B transfer (not OPT) given current status",
+    "Resume version — confirm master resume is uploaded, not a stale tailored version that omits keywords relevant to her current job targets",
+    "Cover letter template — Simplify supports a default cover letter. If one is set, it should be the voice-calibrated version from the pipeline; the generic template will not serve her well",
+    "Desired salary — Simplify uses this for filtering. $75K-$120K is a reasonable range for Jamie's current search; too high cuts options, too low signals undervaluation",
+    "Job title preferences — Simplify may filter auto-apply by title. Should include: Program Manager, L&D Specialist, Learning and Development Specialist, HR Specialist, People Program Manager, Community Engagement Program Manager",
+    "Location preference — should be set to Portland OR + Remote US + open to relocation (not Portland-only or US-only without remote flag)",
+    "LinkedIn URL — should match the active profile",
+    "Portfolio / work samples — optional but useful for program management roles; include the Vestas Inclusive Leadership pilot summary if available"
+  ],
+  "key_screenshots": [],
+  "simplify_ats_coverage": {
+    "explanation": "Simplify auto-applies by matching job postings to its stored ATS integrations. Coverage is strong for common ATSes (Greenhouse, Lever, Ashby, Workday, iCIMS, Taleo) but very weak for institution-specific or regional custom portals. The 6 roles in this batch use a mix of ATSes with varied Simplify compatibility.",
+    "ats_simplify_support": {
+      "ADP_Workforce_Now": "partial — Simplify can pre-fill some ADP fields but ADP's older portal variants require manual CAPTCHA and account creation. Auto-submit success rate is low (~30%). Better to apply manually.",
+      "PeopleAdmin_PageUp": "weak — PeopleAdmin (used by most public universities including University of Portland) is NOT in Simplify's standard auto-apply set. It requires an institutional SSO login and its form structure is non-standard. Simplify can sometimes pre-fill fields via its Chrome extension overlay but cannot auto-submit. Manual submission is required.",
+      "Pacific_Seafood_Custom": "not supported — careers.pacificseafood.com is a custom Greenhouse-style portal (confirmed from the careers URL structure /postings/). The Chrome MCP pipeline already confirmed this is a blocked domain. Simplify may be able to overlay the form but auto-submit is unlikely. The pipeline has a complete application package ready (resume.pdf + cover_letter.pdf) — manual submission is the fastest path.",
+      "Aurora_Careers": "likely Greenhouse or Lever — Aurora typically uses Greenhouse for their engineering org but may use Lever for People/non-tech roles. If Greenhouse: Simplify has strong auto-apply support. If custom portal: unknown. Jamie should check the Aurora careers URL when applying — if it contains 'greenhouse.io' or 'lever.co', Simplify is viable.",
+      "Sandvik_Careers": "unknown — Sandvik uses their own global careers portal (SAP SuccessFactors embedded, typically). SuccessFactors is partially supported by Simplify but the multi-step form and EU-style privacy consent steps often break auto-fill. Manual application recommended.",
+      "PeopleAdmin_UPortland_SocialJustice": "same as PeopleAdmin above — not auto-submittable via Simplify"
+    }
+  },
+  "simplify_chrome_extension_behavior": {
+    "resume_match_overlay": "Simplify's Chrome extension shows a 'Resume Match' panel on LinkedIn job pages. When Jamie views a LinkedIn job posting, the Simplify extension reads the JD text and compares it against the uploaded resume in her Simplify account. It shows a keyword match score (typically 0-100%) and highlights missing keywords. This is useful for quick gap checks but the algorithm is keyword-frequency based — not a semantic match. Our pipeline's tailored resumes will outperform Simplify's match score because they embed JD keywords naturally.",
+    "apply_button_behavior": "On LinkedIn job postings, Simplify shows an 'Apply with Simplify' button when it detects the role is on a supported ATS. Clicking it opens the external ATS page and pre-fills fields from Jamie's Simplify profile. For unsupported portals, it shows only the resume match score without an apply option.",
+    "pre_fill_quality": "Simplify pre-fill accuracy is high for structured fields (name, email, phone, address, education dates) but unreliable for work history narrative, skills sections, and custom dropdown questions. Work authorization is a known failure point — always verify manually.",
+    "pacific_seafood_test_note": "The existing tab (tabId 868504043) has the Pacific Seafood LinkedIn job page open. If the Simplify extension is active in Jamie's browser, it should be showing a Resume Match overlay there right now. Jamie can check: does Simplify show a match % and an 'Apply with Simplify' button? If yes — it detected careers.pacificseafood.com as supported. If only a match score with no apply button — it's unsupported and manual is the only path."
+  },
+  "per_role_apply_strategy": [
+    {
+      "role_id": "carlosrosario_ld_2026-05-25",
+      "company": "Carlos Rosario International Public Charter School",
+      "title": "Learning and Development Specialist",
+      "ats": "ADP Workforce Now",
+      "best_apply_method": "manual",
+      "rationale": "ADP Workforce Now is partially supported by Simplify but the older portal variants require manual CAPTCHA and ADP account creation that Simplify cannot automate. Chrome MCP was not attempted for this domain. This is the highest-priority role (score 90, GO, cap-exempt) — invest the time to do it right manually. The submission_guide.md has a complete step-by-step. CRITICAL: Step 0 must verify the posting is still live (LCA from June 2025 may represent a filled role). Do not apply until confirmed open. Package is complete: resume.pdf + cover_letter.pdf ready.",
+      "simplify_viable": false,
+      "simplify_note": "Simplify may pre-fill ADP fields via extension overlay — worth trying as a time-saver for the basic fields, but Jamie must manually verify work authorization = H-1B and manually submit. Do NOT rely on Simplify to submit.",
+      "chrome_mcp_viable": false,
+      "chrome_mcp_note": "carlosrosario.org / ADP careers not in Chrome MCP allowlist. Manual is required.",
+      "estimated_minutes": 15,
+      "priority_rank": 1,
+      "status_from_pipeline": "PACKAGE — awaiting Jamie to verify posting is live, then submit"
+    },
+    {
+      "role_id": "uportland_progmgrcommunity_2026-05-25",
+      "company": "University of Portland",
+      "title": "Program Manager, Community Engagement",
+      "ats": "PeopleAdmin (up.edu HR portal)",
+      "best_apply_method": "manual",
+      "rationale": "PeopleAdmin / PageUp is not in Simplify's auto-submit set. University portals require institutional account creation and often have multi-step forms with file uploads that Simplify cannot automate. This is the second-highest priority role (score 88, GO, cap-exempt, Portland local). The submission_guide.md warns the posting is 60+ days old — Step 0 verification is urgent. Package is complete: resume.pdf + cover_letter.pdf + outreach draft READY_TO_SEND to Ell Pat (Asst Director Moreau Center). Apply and outreach together today.",
+      "simplify_viable": false,
+      "simplify_note": "Simplify has no PeopleAdmin auto-submit support. Extension may show keyword match on the LinkedIn job page but cannot apply.",
+      "chrome_mcp_viable": false,
+      "chrome_mcp_note": "up.edu/hr/employment not in Chrome MCP allowlist. Manual required.",
+      "estimated_minutes": 12,
+      "priority_rank": 2,
+      "status_from_pipeline": "PACKAGE — awaiting Jamie to verify posting still open, then submit"
+    },
+    {
+      "role_id": "pacificseafood_tds_2026-05-25",
+      "company": "Pacific Seafood",
+      "title": "Training and Development Specialist Distribution",
+      "ats": "Pacific Seafood Careers (custom Greenhouse-style portal at careers.pacificseafood.com)",
+      "best_apply_method": "manual",
+      "rationale": "The pipeline already attempted Chrome MCP auto-apply and was blocked (careers.pacificseafood.com is not in the allowlist). This is a STRETCH role (score 78, H1B uncertain) — before investing time in the application itself, Jamie must complete H1B inquiry first (per submission_guide.md Step 0). If they confirm sponsorship, manual application via the careers portal is the path. Package is complete: resume.pdf + cover_letter.pdf. The existing browser tab (tabId 868504046) has the application form open — Jamie can apply immediately if H1B is confirmed.",
+      "simplify_viable": "maybe",
+      "simplify_note": "If Simplify detects careers.pacificseafood.com as a supported portal (check whether the LinkedIn tab shows an 'Apply with Simplify' button), it could pre-fill the form. But H1B inquiry comes first — no application without sponsorship confirmation.",
+      "chrome_mcp_viable": false,
+      "chrome_mcp_note": "Confirmed blocked. Would require David to grant careers.pacificseafood.com in Chrome MCP extension settings.",
+      "estimated_minutes": 8,
+      "priority_rank": 5,
+      "status_from_pipeline": "DECISION — H1B inquiry must happen before any application attempt",
+      "prerequisite": "Email Pacific Seafood HR to confirm H1B sponsorship before applying"
+    },
+    {
+      "role_id": "aurora_pmpplteam_2026-05-25",
+      "company": "Aurora",
+      "title": "Program Manager, People Team",
+      "ats": "Aurora Careers (likely Greenhouse or Lever)",
+      "best_apply_method": "simplify_if_greenhouse_else_manual",
+      "rationale": "Aurora is a tech company and almost certainly uses Greenhouse or Lever, both of which Simplify supports well. This is a STRETCH role (score 78, H1B uncertain, relocation required). Same as Pacific Seafood — H1B inquiry must come first. If Aurora confirms sponsorship AND Jamie decides to pursue relocation, Simplify's auto-fill is viable here IF the ATS is Greenhouse/Lever. Jamie should: (1) navigate to aurora.tech/careers, (2) check the URL structure when clicking Apply — 'greenhouse.io' or 'lever.co' in the URL confirms Simplify compatibility. If confirmed, Simplify can save 10+ minutes on form filling.",
+      "simplify_viable": "conditional",
+      "simplify_note": "High likelihood Simplify supports this ATS. Verify by checking the apply URL. If greenhouse.io or lever.co — use Simplify. Still requires manual H1B field verification.",
+      "chrome_mcp_viable": false,
+      "chrome_mcp_note": "aurora.tech/careers not in Chrome MCP allowlist. Simplify or manual.",
+      "estimated_minutes": 10,
+      "priority_rank": 4,
+      "status_from_pipeline": "DECISION — H1B inquiry + relocation commitment needed before applying",
+      "prerequisite": "Confirm H1B sponsorship with Aurora and Jamie's willingness to relocate to Pittsburgh/Mountain View"
+    },
+    {
+      "role_id": "sandvik_hr_2026-05-25",
+      "company": "Sandvik Inc",
+      "title": "HR Specialist / Training & Development",
+      "ats": "Sandvik Careers (SAP SuccessFactors)",
+      "best_apply_method": "manual",
+      "rationale": "Sandvik uses SAP SuccessFactors globally. SuccessFactors is partially supported by Simplify but the multi-step process, EU privacy consent screens, and localized dropdown values (country-specific work authorization options) frequently break Simplify's form detection. This is a STRETCH role (score 78) but with CONFIRMED H1B sponsorship — the strongest of the STRETCH batch on the H1B dimension. However, the full JD is not yet verified (Sandvik submission_guide.md Step 0 is still pending). Priority: verify the posting is live, then apply manually.",
+      "simplify_viable": false,
+      "simplify_note": "SuccessFactors auto-submit via Simplify is unreliable. Manual is more reliable and not significantly slower given the form structure.",
+      "chrome_mcp_viable": false,
+      "chrome_mcp_note": "sandvik.com/careers not in Chrome MCP allowlist. Manual required.",
+      "estimated_minutes": 15,
+      "priority_rank": 3,
+      "status_from_pipeline": "DECISION — full JD not yet verified; verify posting first, then apply. H1B is confirmed — this is worth investing time in.",
+      "prerequisite": "Verify posting is live at sandvik.com/careers before packaging materials"
+    },
+    {
+      "role_id": "uportland_progmgrsocialjustice_2026-05-25",
+      "company": "University of Portland",
+      "title": "Program Manager, Social Justice Education",
+      "ats": "PeopleAdmin (up.edu HR portal — same as Community Engagement role)",
+      "best_apply_method": "manual",
+      "rationale": "Same ATS as the Community Engagement role — PeopleAdmin, not supported by Simplify. STRETCH role (score 76). Apply ONLY after the Community Engagement PM application is done. Same login credentials work for both UPortland applications. The submission_guide.md warns: verify posting still open (60+ days old), read the full JD for Catholic Social Teaching / anti-oppression fit check, and stagger outreach 5-7 days behind the Community Engagement application.",
+      "simplify_viable": false,
+      "simplify_note": "PeopleAdmin not supported. Same constraint as Community Engagement PM.",
+      "chrome_mcp_viable": false,
+      "chrome_mcp_note": "up.edu not in Chrome MCP allowlist.",
+      "estimated_minutes": 8,
+      "priority_rank": 6,
+      "status_from_pipeline": "PACKAGE — lower priority; do after Community Engagement PM is submitted and posting is verified open"
+    }
+  ],
+  "simplify_vs_our_pipeline_overlap": {
+    "summary": "The oracle pipeline produces highly tailored, role-specific resume + cover letter packages (resume.json + cover_letter.pdf per role). Simplify uses a single stored resume and generic template. The overlap is minimal in terms of output quality — our pipeline's per-role tailoring significantly outperforms Simplify's keyword-matching approach. Where Simplify genuinely helps is time savings on repetitive ATS field filling for Greenhouse/Lever portals. For this batch, only Aurora is likely to be on a Simplify-compatible ATS. The other 5 roles (ADP, PeopleAdmin x2, custom portal, SuccessFactors) are not reliably auto-submittable by Simplify.",
+    "where_simplify_adds_value": [
+      "Aurora (if Greenhouse/Lever): 10-15 minute time saving on form fields. Simplify handles name/email/phone/education dates reliably. Jamie still needs to manually set work auth = H-1B.",
+      "Resume keyword score overlay: When Jamie opens any LinkedIn job page, the Simplify extension shows a quick keyword match vs her uploaded resume. Useful for a 10-second gut check before investing pipeline time. Note: this reflects the master resume in Simplify, not our tailored versions.",
+      "Application tracking: Simplify tracks what she's applied to via their dashboard. Could complement our Notion tracker — though Notion is the canonical source."
+    ],
+    "where_our_pipeline_beats_simplify": [
+      "Tailored resume per role — each of the 6 applications has a custom resume.json with role-specific bullet emphasis and keyword weighting",
+      "Cover letters — Simplify's cover letter templates are generic; our pipeline produced voice-calibrated, contact-specific cover letters for all 6 roles",
+      "H1B work auth handling — our submission_guides explicitly flag the work authorization field and the exact language to use (H-1B transfer, requires sponsorship). Simplify's auto-fill often gets this wrong.",
+      "Role-level strategy — submission_guides include H1B inquiry scripts, outreach timing, interview prep notes. Simplify has no equivalent.",
+      "Posting verification — our pipeline includes Step 0 checks for each role (is it still open, is the H1B status confirmed). Simplify applies blindly to whatever is in the queue."
+    ]
+  },
+  "profile_improvement_recommendations": [
+    {
+      "field": "Work Authorization",
+      "priority": "CRITICAL",
+      "action": "Verify Simplify shows 'Will require H-1B sponsorship' or equivalent. If it shows 'Authorized to work without sponsorship' — correct immediately. This is the single highest-risk field in any auto-fill tool.",
+      "why": "An incorrect work auth answer auto-disqualifies at ATS screening before a human ever sees the application."
+    },
+    {
+      "field": "Resume Version",
+      "priority": "HIGH",
+      "action": "Upload the master resume (jamie/resume.md / resume.json base) to Simplify, not any single tailored version. The master resume is the broadest representation of Jamie's background. For each individual application, she should upload the tailored PDF directly in the ATS — not rely on Simplify's stored version.",
+      "why": "Tailored resumes are role-specific; using one tailored version as the Simplify default will hurt keyword match on non-matching roles."
+    },
+    {
+      "field": "Cover Letter Template",
+      "priority": "MEDIUM",
+      "action": "Either leave the Simplify cover letter blank (and always upload the pipeline-generated cover letter manually) OR set a strong generic template that positions Jamie's core strengths: program management + L&D ops + multilingual + H1B-transparent.",
+      "why": "Generic Simplify cover letters are visibly templated and reduce application quality. Our pipeline covers this better."
+    },
+    {
+      "field": "Desired Salary",
+      "priority": "MEDIUM",
+      "action": "Set to $70,000-$120,000 (or $75,000-$115,000). Avoids auto-rejection from low-budget portals while keeping cap-exempt nonprofit roles in scope (Carlos Rosario at $100K, UPortland at $49K floor).",
+      "why": "Salary filters in ATS can silently eliminate applications. A wide enough range keeps all 6 current roles in scope."
+    },
+    {
+      "field": "Job Titles / Role Preferences",
+      "priority": "MEDIUM",
+      "action": "Add to Simplify's title preferences: 'Program Manager', 'Learning and Development Specialist', 'HR Specialist', 'Training and Development Specialist', 'People Program Manager', 'Community Engagement Manager'. Remove any 'Senior' prefixed titles.",
+      "why": "Simplify uses title preferences for its auto-discovery and match-scoring features."
+    },
+    {
+      "field": "Skills Section",
+      "priority": "LOW",
+      "action": "Ensure the Simplify skills list includes: Program Management, L&D Operations, LMS Administration, Employee Experience, Organizational Development, Stakeholder Management, Data Analytics, Curriculum Coordination, Vendor Management. Remove or deprioritize: SAP (if shown prominently — Jamie has user-level only), Instructional Design (primary tools not in her skillset).",
+      "why": "Simplify's keyword overlay matches against the skills section; having the right skills improves match scores on target roles."
+    },
+    {
+      "field": "Location",
+      "priority": "LOW",
+      "action": "Set to Portland, OR with 'Open to relocation' checked and 'Open to remote' checked. This ensures Simplify surfaces both local Portland roles and national roles at confirmed sponsors.",
+      "why": "A Portland-only location filter will miss the Sandvik (FL relocation) and Aurora (PA/CA relocation) opportunities that are currently in scope."
+    }
+  ],
+  "action_items_for_jamie": [
+    "Open https://simplify.jobs/dashboard and verify work authorization field = H-1B / requires sponsorship (5 min, highest priority)",
+    "Check which resume is uploaded in Simplify — confirm it's the master resume, not a stale tailored version",
+    "On the Pacific Seafood LinkedIn tab (tabId 868504043) — does the Simplify extension show an 'Apply with Simplify' button? If yes, note it. Do not click it yet (H1B inquiry first).",
+    "When applying to Aurora: check the careers.aurora.tech apply URL — if it contains greenhouse.io or lever.co, use Simplify to pre-fill the ADP fields but manually verify work auth before submitting.",
+    "For all 5 other roles: use manual application. The submission_guide.md files are complete and ready."
+  ],
+  "orchestrator_notes": {
+    "chrome_mcp_domain_blocker": "simplify.jobs is blocked by the Chrome MCP domain allowlist. To enable live Simplify dashboard exploration in future runs, David needs to add 'simplify.jobs' to the allowed domains in the Claude-in-Chrome extension settings. This would allow screenshot + accessibility tree reads of the Simplify profile, completion percentage, stored resume version, and application history.",
+    "pipeline_ats_coverage_gap": "All 6 ATS domains (ADP, up.edu PeopleAdmin, careers.pacificseafood.com, aurora.tech, sandvik.com, up.edu) are blocked by Chrome MCP. To enable auto-submit for any of these, David would need to add them to the Chrome extension allowlist. The highest-value add would be aurora.tech (likely Greenhouse) + careers.pacificseafood.com (custom Greenhouse-style).",
+    "simplify_real_value_for_this_batch": "Low. Only 1 of 6 roles (Aurora) has a realistic chance of being on a Simplify-supported ATS. The remaining 5 require manual submission regardless. Simplify's keyword overlay is useful for quick gap checks but our pipeline's tailored resumes already exceed what Simplify's match scoring produces.",
+    "recommended_next_run_enhancement": "Add a 'Simplify compatible ATS check' to the apply pipeline: when the apply_url_final is known, check if the domain/URL matches greenhouse.io, lever.co, or ashby.com — if yes, flag as 'Simplify auto-fill viable' for that role."
+  }
+}

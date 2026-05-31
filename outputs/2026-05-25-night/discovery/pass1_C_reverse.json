@@ -1,0 +1,39 @@
+{
+  "agent": "discovery_C_reverse",
+  "new_sponsors_discovered": [
+    {"company": "Pacific Seafood", "lca": "Production Planner $80K Clackamas OR 2025", "industry": "Food production/distribution", "verified": true},
+    {"company": "Sandvik Inc", "lca": "T&D Specialist $95K Alachua FL 2025 (2 LCAs)", "industry": "Mining/industrial mfg (Swedish)", "verified": true},
+    {"company": "Carlos Rosario Charter School", "lca": "L&D Specialist $100K DC 2025", "industry": "Adult education nonprofit", "verified": true},
+    {"company": "RR Donnelley (RRD)", "lca": "L&D Specialist $67K Phoenix AZ 2025", "industry": "Print/marketing", "verified": true},
+    {"company": "Topco Scientific USA", "lca": "T&D Specialist $84.5K Phoenix AZ 2025", "industry": "Semiconductor (Taiwan parent)", "verified": true}
+  ],
+  "candidates": [
+    {
+      "id": "sandvik_hr_2026-05-25",
+      "title": "HR Specialist / Training & Development",
+      "company": "Sandvik Inc",
+      "location": "Alachua, FL",
+      "work_type": "onsite",
+      "url": "https://www.home.sandvik/en/careers/job-search/?jobarea=Human+Resources",
+      "snippet": "Sandvik filed T&D Specialist $95K 2025. 11 open HR roles. Swedish industrial multinational, US ops Alachua FL.",
+      "yoe_signal": "not extracted",
+      "discovery_source": "reverse_h1bdata"
+    },
+    {
+      "id": "carlosrosario_ld_2026-05-25",
+      "title": "Learning and Development Specialist",
+      "company": "Carlos Rosario International Public Charter School",
+      "location": "Washington, DC",
+      "work_type": "onsite",
+      "url": "https://www.carlosrosario.org/get-involved/employment/",
+      "snippet": "Cap-exempt charter school for adult immigrant education. $100K L&D Specialist LCA filed June 2025 for Oct start. Multilingual professionals targeted - Jamie's Chinese fluency is a plus.",
+      "yoe_signal": "not extracted",
+      "discovery_source": "reverse_h1bdata"
+    }
+  ],
+  "promotion_signal_pacific_seafood": {
+    "note": "Pacific Seafood already in Discovery A. C confirms they are an H1B sponsor via h1bdata.info — should promote this candidate's confidence in /evaluate scoring.",
+    "lca_evidence": "Production Planner $80K Clackamas OR 2025"
+  },
+  "duration_total_s": 420
+}

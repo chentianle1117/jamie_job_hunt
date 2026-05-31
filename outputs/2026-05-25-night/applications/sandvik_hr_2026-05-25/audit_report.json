@@ -1,0 +1,113 @@
+{
+  "role_id": "sandvik_hr_2026-05-25",
+  "audited_at": "2026-05-26T00:00:00",
+  "audited_by": "adversarial-audit-agent",
+
+  "resume_audit": {
+    "claims_verified": 11,
+    "claims_unverified": 0,
+    "potential_hallucinations": [],
+    "notes": [
+      "300+ leave cases (ODN) — VERIFIED",
+      "$362K leave costs (ODN) — VERIFIED",
+      "25+ stakeholders, 3 programs (InGenius Set A) — VERIFIED",
+      "75% onboarding reduction (InGenius) — VERIFIED",
+      "600+ participants, 78% client conversion rate (InGenius L&D variant) — VERIFIED",
+      "4 teams and 8 vendors, 15+ programs (InGenius) — VERIFIED",
+      "Partnered with HRBP team to pilot Inclusive Leadership for senior leaders, scaled to 23 global locations (Vestas) — VERIFIED",
+      "M&A project (Vestas) — VERIFIED",
+      "3 global locations onboarding (Vestas) — VERIFIED",
+      "Delivered strategic HR solutions across ER, headcount, succession planning (Vestas HR variant) — VERIFIED",
+      "566% applications increase (Kronos) — VERIFIED"
+    ],
+    "verdict": "CLEAN"
+  },
+
+  "cover_audit": {
+    "claims_verified": 5,
+    "claims_unverified": 3,
+    "potential_hallucinations": [
+      {
+        "claim": "78% program adoption rate across 17 launches",
+        "location": "Paragraph 1: 'driving a 78% program adoption rate across 17 launches'",
+        "source_found": false,
+        "detail": "TWO ISSUES: (1) '17 launches' does NOT appear in content_library.md — only '15+' or '20+' programs. (2) '78% program adoption rate' is a third wording variant not in content_library.md. The library has 'client conversion rate' (L&D) and 'program enrollment rate' (PM/Engagement). 'Adoption rate' is neither. While all three are likely describing the same underlying metric, the specific term 'adoption rate' is not sourced.",
+        "recommendation": "Replace '78% program adoption rate across 17 launches' with '78% client conversion rate across 15+ program launches' (L&D variant, verified in content_library.md)."
+      },
+      {
+        "claim": "I also have hands-on experience with SAP, which I understand is Sandvik's system environment",
+        "location": "Paragraph 3",
+        "source_found": "partial",
+        "detail": "content_library.md HRIS/Tools Statement says: 'I'm proficient in Greenhouse, Rippling, ADP, and SAP. I have extensive administrative experience in Greenhouse... and have used Rippling, ADP, and SAP at the user level for standard HRIS tasks.' So SAP experience EXISTS but is explicitly described as 'user level for standard HRIS tasks' — not hands-on implementation or admin-level. The cover letter says 'hands-on experience with SAP' which overstates the level relative to content_library.md.",
+        "recommendation": "Soften to: 'I have user-level experience with SAP from previous roles' or 'I'm familiar with SAP at the user level and would be comfortable in a Sandvik SAP environment.' Do not claim 'hands-on experience' when source material says 'user level for standard HRIS tasks'."
+      },
+      {
+        "claim": "Sandvik is a Swedish multinational... mentioning international background could be a relevant hook",
+        "location": "targets.json note (not in cover letter itself)",
+        "source_found": true,
+        "detail": "Sandvik is indeed Swedish — factual. Not a cover letter claim, just a targets.json note. No issue.",
+        "recommendation": "No change needed."
+      }
+    ],
+    "notes": [
+      "needs assessments with 25+ stakeholders — VERIFIED",
+      "guides and workflows for 70+ staff, 75% onboarding reduction — VERIFIED",
+      "webinars for 600+ participants — VERIFIED",
+      "Inclusive Leadership workshop piloted scaled to 23 global locations (Vestas) — VERIFIED",
+      "HRBP team partnering, onboarding across 3 countries — VERIFIED"
+    ],
+    "verdict": "NEEDS_FIX"
+  },
+
+  "recipient_audit": {
+    "contacts_verified": 1,
+    "contacts_unverified": 0,
+    "contacts_with_issues": 1,
+    "per_contact": [
+      {
+        "name": "Petri Liljaranta",
+        "claimed_title": "HR — Sandvik Mining and Rock Solutions, Alachua",
+        "linkedin_url_in_targets": "https://www.linkedin.com/in/petri-liljaranta-9b9b696a/",
+        "linkedin_verified": true,
+        "title_matches": true,
+        "search_query_used": "Petri Liljaranta Sandvik Alachua linkedin HR",
+        "notes": "LinkedIn profile confirmed: 'Petri Liljaranta - Sandvik | LinkedIn'. ZoomInfo and search snippets confirm HR function at Sandvik, and Alachua FL context confirmed by Sandvik job postings at that location. Specific title not fully visible without login, but HR function and company confirmed.",
+        "verdict": "VERIFIED"
+      },
+      {
+        "name": "Anthony Bowman",
+        "claimed_title": "Former Sandvik — Gainesville area",
+        "linkedin_url_in_targets": "https://www.linkedin.com/in/adb89/",
+        "linkedin_verified": true,
+        "title_matches": false,
+        "search_query_used": "Anthony Bowman Sandvik Gainesville Alachua HR linkedin",
+        "notes": "MISDESCRIPTION: targets.json describes Anthony Bowman as 'Former Sandvik — Gainesville area' but web search shows 'Anthony Bowman is... located in Gainesville... works at Sandvik' (present tense, active profile). The rationale in targets.json says he's 'now at The Arc' — however search results don't confirm that transition and show him still connected to Sandvik. Person is real and their Sandvik/Gainesville connection is confirmed. But describing as 'former' may be inaccurate — he may still be at Sandvik and could be contacted as a current employee. Either way the LinkedIn profile is real and the person is confirmed at or formerly at Sandvik Alachua. Treat as contactable.",
+        "verdict": "VERIFIED_BUT_MISDESCRIBED — may still be current Sandvik employee, not former"
+      }
+    ]
+  },
+
+  "jd_coherence_audit": {
+    "verdict": "CLEAN",
+    "notes": [
+      "Cover letter correctly frames HR operational foundation combined with needs-based training design — consistent with 'HR Specialist / Training & Development' combined role.",
+      "SAP skills reference is contextually relevant for Sandvik (large industrial company, likely SAP environment). Just needs to be accurately characterized (user-level vs hands-on).",
+      "No fabricated references to Sandvik's specific training programs or systems.",
+      "Alachua FL relocation mentioned — appropriate given Tier 3 relocation criteria."
+    ]
+  },
+
+  "overall_verdict": "CLEAR_TO_APPLY",
+  "required_fixes": [],
+  "re_audit_2026_05_27": {
+    "rechecked": [
+      "Fixed '78% program adoption rate across 17 launches' — NOT in current cover_letter.md",
+      "Current cover shows canonical '78% program enrollment rate across 15+ launches' (verified L&D variant)",
+      "Fixed 'hands-on SAP' overstatement — NOT in current cover_letter.md",
+      "Current cover shows accurate 'user-level SAP experience for standard HRIS tasks' (matches content_library.md exactly)",
+      "All signature elements intact: opening, closing, sign-off preserved",
+      "All 5 cover letter claims now verified against content_library.md"
+    ],
+    "verdict": "CLEAR_TO_APPLY"
+  }
+}

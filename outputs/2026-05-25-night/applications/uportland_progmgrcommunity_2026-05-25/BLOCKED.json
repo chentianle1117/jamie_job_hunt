@@ -1,0 +1,7 @@
+{
+  "status": "BLOCKED_ACCOUNT_REQUIRED",
+  "url": "https://uportland.peopleadmin.com/login",
+  "checked_at": "2026-05-27T01:17:22.260681",
+  "blocker": "PeopleAdmin requires creating an account before applying. Cannot autonomously create accounts on behalf of Jamie.",
+  "recommended": "Jamie creates account once at https://uportland.peopleadmin.com/users/sign_up, then this script can auto-apply with credentials."
+}

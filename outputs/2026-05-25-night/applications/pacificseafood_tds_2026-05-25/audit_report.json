@@ -1,0 +1,116 @@
+{
+  "role_id": "pacificseafood_tds_2026-05-25",
+  "audited_at": "2026-05-26T00:00:00",
+  "audited_by": "adversarial-audit-agent",
+
+  "resume_audit": {
+    "claims_verified": 11,
+    "claims_unverified": 0,
+    "potential_hallucinations": [],
+    "notes": [
+      "300+ leave cases (ODN) — VERIFIED",
+      "$362K leave costs (ODN) — VERIFIED",
+      "25+ stakeholders, 3 programs (InGenius Set A) — VERIFIED",
+      "75% onboarding reduction (InGenius) — VERIFIED",
+      "600+ participants, 78% client conversion rate (InGenius L&D variant) — VERIFIED",
+      "4 teams and 8 vendors, 15+ programs (InGenius) — VERIFIED",
+      "DEI pilot 12 leaders expanded to 23 global locations (Vestas) — VERIFIED",
+      "3 global locations onboarding (Vestas) — VERIFIED",
+      "Strengthened engagement HR newsletter award-winning 1,000+ competitors — VERIFIED",
+      "566% applications increase (Kronos) — VERIFIED",
+      "2,000+ employee responses (NextGen) — VERIFIED"
+    ],
+    "verdict": "CLEAN"
+  },
+
+  "cover_audit": {
+    "claims_verified": 5,
+    "claims_unverified": 2,
+    "potential_hallucinations": [
+      {
+        "claim": "78% enrollment rate across 17 program launches",
+        "location": "Paragraph 1: 'driving a 78% enrollment rate across 17 program launches'",
+        "source_found": false,
+        "detail": "'17 program launches' does NOT appear in content_library.md. content_library.md consistently says '15+ programs' or '20+ programs'. The '17' figure only appears in outreach_patterns.md and email_style_signature.md — supporting files, not the canonical accomplishment source. '78% enrollment rate' is verified (PM/Engagement variant). Only the '17 launches' number is unverified.",
+        "recommendation": "Replace '17 program launches' with '15+ program launches' to match content_library.md"
+      },
+      {
+        "claim": "Managing 15+ programs and 10+ vendors simultaneously",
+        "location": "Paragraph 2",
+        "source_found": true,
+        "detail": "VERIFIED — content_library.md has '20+ programs and 10+ vendors' (Engagement variant) and '15+ educational programs' (core variant). The '15+/10+' phrasing is a blend of two verified variants. No issue.",
+        "recommendation": "No change needed."
+      }
+    ],
+    "notes": [
+      "needs assessments with 25+ global stakeholders — VERIFIED",
+      "guides and workflows reduced onboarding time by 75% — VERIFIED",
+      "webinars for 600+ participants — VERIFIED",
+      "300+ leave cases, data into policy recommendations including first aid training — VERIFIED (content_library.md: 'leading to policy redesigns and first aid training')",
+      "No invented accomplishments about Pacific Seafood specifically.",
+      "Clackamas OR location claim — appropriate (Pacific Seafood HQ is in Clackamas OR, matches JD meta)."
+    ],
+    "verdict": "NEEDS_FIX"
+  },
+
+  "recipient_audit": {
+    "contacts_verified": 3,
+    "contacts_unverified": 0,
+    "per_contact": [
+      {
+        "name": "Michael D.",
+        "claimed_title": "Director of Talent Development at Pacific Seafood",
+        "linkedin_url_in_targets": "https://www.linkedin.com/in/michael-d-32945a6/",
+        "linkedin_verified": true,
+        "title_matches": true,
+        "search_query_used": "Michael D Pacific Seafood Director of Talent Development linkedin",
+        "notes": "Search result title: 'Michael D. - Director of Talent Development - Pacific Seafood'. ZoomInfo confirms 'Michael Dunning - Director, Talent Development at Pacific Seafood'. Name (partial — 'Michael D.') and title confirmed. LinkedIn URL matches.",
+        "verdict": "VERIFIED"
+      },
+      {
+        "name": "Windy Cox",
+        "claimed_title": "HR Professional (SPHR, PHRca) at Pacific Seafood",
+        "linkedin_url_in_targets": "https://www.linkedin.com/in/windycox/",
+        "linkedin_verified": true,
+        "title_matches": true,
+        "search_query_used": "Windy Cox Pacific Seafood linkedin HR SPHR PHRca",
+        "notes": "Search result: 'Windy Cox SPHR, PHRca - Pacific Seafood | LinkedIn'. Current title appears to be HR Manager (not generic 'HR Professional') but credentials and company match. Minor title generalization in targets.json — not a problem.",
+        "verdict": "VERIFIED"
+      },
+      {
+        "name": "Eric Peterson",
+        "claimed_title": "HR Professional (SHRM-CP) at Pacific Seafood",
+        "linkedin_url_in_targets": "https://www.linkedin.com/in/eric-peterson-shrm-cp-7894b6144/",
+        "linkedin_verified": true,
+        "title_matches": true,
+        "search_query_used": "Eric Peterson Pacific Seafood linkedin HR SHRM-CP",
+        "notes": "Search result: 'Eric Peterson SHRM-CP - Pacific Seafood | LinkedIn'. Current role appears to be HR Manager per search summary. Company, credentials, and URL all match.",
+        "verdict": "VERIFIED"
+      }
+    ]
+  },
+
+  "jd_coherence_audit": {
+    "verdict": "CLEAN",
+    "notes": [
+      "Cover letter appropriately focuses on training delivery, LMS administration, operational discipline, and evidence-based program design — all consistent with a T&D Specialist at a distribution company.",
+      "No fabricated references to Pacific Seafood's specific training systems or programs.",
+      "Portland-area local context correctly invoked (Clackamas is 20 min from Portland).",
+      "First aid training reference in ODN consulting bullet is factual per content_library.md and relevant to a food distribution safety context."
+    ]
+  },
+
+  "overall_verdict": "CLEAR_TO_APPLY",
+  "required_fixes": [],
+  "re_audit_2026_05_27": {
+    "rechecked": [
+      "Unverified '17 program launches' — NOT FOUND in current cover_letter.md",
+      "Canonical '15+ program launches' verified (content_library.md PM/Engagement variant)",
+      "All cover letter claims verified: needs assessments, 75% reduction, 600+ participants, 15+ programs",
+      "Signature opening preserved: 'Training and development isn't just about delivering content'",
+      "Closing paragraph intact: 'As an analytical organizer with a growth mindset'",
+      "Sign-off correct: 'Sincerely, Jamie (Yi-Chieh) Cheng'"
+    ],
+    "verdict": "CLEAR_TO_APPLY"
+  }
+}

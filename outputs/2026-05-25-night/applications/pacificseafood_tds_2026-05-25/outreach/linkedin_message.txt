@@ -1,0 +1,17 @@
+TARGET: William Hueffner — VP of Talent and Culture, Pacific Seafood
+CHAR COUNT: 287
+
+---
+
+Hi William, this is Jamie! I came across the Training and Development Specialist role at Pacific Seafood and noticed you lead Talent and Culture there. I'm based in Portland and have a background in L&D ops and program management. I'd love to briefly introduce myself and learn about the team's work. Thank you!
+
+---
+
+NOTE: William Hueffner is VP of Talent and Culture — senior leader. Keep tone respectful and concise. Do not ask for referral in first message. One follow-up maximum if no response.
+
+FALLBACK: If no response from William within 1 week, reach out to Windy Cox (HR Professional, SPHR — Pacific Seafood):
+
+TARGET: Windy Cox — HR Professional, Pacific Seafood
+CHAR COUNT: 258
+
+Hi Windy, this is Jamie! I came across the T&D Specialist role at Pacific Seafood and noticed you work in HR there. I'm based in the Portland area and have a background in L&D ops and program management. I'd love to connect and learn about your experience and any insights on the role. Thank you!

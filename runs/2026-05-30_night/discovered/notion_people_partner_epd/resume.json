@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "company": "Notion",
+    "role": "People Partner, EPD",
+    "date": "2026-05-30",
+    "pageMargins": { "top": "0.35in", "right": "0.45in", "bottom": "0.35in", "left": "0.45in" },
+    "autoFit": true,
+    "fontRange": [8.5, 10.0]
+  },
+  "header": {
+    "location": "San Francisco, CA (Open to Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Human Resources</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing people programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be applying systems thinking to improve people experience—through human-centered approaches.",
+  "keywordGroups": {
+    "data": "People Data",
+    "coord": "Systems/Org Design",
+    "cross": "Leaders/Stakeholders",
+    "ex": "Employee Relations",
+    "tools": "Tools/Systems",
+    "prog": "Performance/Talent"
+  },
+  "experience": [
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        { "text": "Shared proactive insights from {data|people data}, analyzing 2,000+ employee experiences to uncover hot spots and guide C-suite retention decisions" },
+        { "text": "Led a {prog|manager effectiveness} initiative, coaching leaders with reports that improved team performance and engagement" },
+        { "text": "Supported {prog|performance review} and calibration through consultations on DEI, Inclusive Leadership, and evaluation processes" },
+        { "text": "Improved {ex|employee experience} via 5 {cross|cross-functional} projects focusing on survey development, rewards &amp; recognition, and L&amp;D" }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        { "text": "Delivered strategic HR solutions for business priorities across {ex|employee relations}, headcount, and succession planning" },
+        { "text": "Directed a Mergers &amp; Acquisitions project supporting {coord|org design} and change management across global stakeholders" },
+        { "text": "Coached senior leaders via an Inclusive Leadership workshop, later scaled to 23 global locations" },
+        { "text": "Optimized onboarding processes across 3 global locations by conducting process analysis and clarifying responsibilities" }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Build deep partnerships with {cross|leaders} across Product, Tech, and Sales, serving as a conduit between stakeholders and the broader team" },
+        { "text": "Apply {coord|systems thinking} to translate patterns and friction into improvements across people programs and operating rhythms" },
+        { "text": "Coach managers through change, refining programs for 70+ staff and reducing onboarding time by 75% via {tools|AI tools} and feedback loops" },
+        { "text": "Facilitate listening sessions with 25 global {cross|stakeholders} to surface themes, resulting in 3 new programs best aligned with needs" }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Developed proficiency across HR functions, ranging from recruitment and compensation to {prog|performance management}" },
+        { "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details" },
+        { "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months" },
+        { "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants" }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Upskill HR team in {data|data analytics} to audit 300+ leave cases, successfully refuting cost assumptions via {data|evidence-based insights}" },
+        { "text": "Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": ["Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": ["Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>HR Systems:</b> HRIS (Workday, SAP, Rippling, ADP) · ATS (Greenhouse) · Employee Relations · Org Design &amp; Talent Planning",
+    "<b>Data & PM Tools:</b> Data Analysis (Excel, Google Sheets, SPSS) · Project Management (Asana, Airtable) · CRM (HubSpot)",
+    "<b>Productivity:</b> Knowledge Management (Notion, SharePoint) · AI Tools (ChatGPT, Gemini, Notion AI) · Microsoft Office",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "Notion — People Partner, EPD",
+    "sections": []
+  },
+  "changeLog": [
+    "2026-05-30: Tailored for Notion — People Partner, EPD (SF; partner Eng/Product/Design leaders, systems thinking, org design, talent planning, 360 performance, coaching, people data). Header → SF (Open to Relocation). Title noun → Human Resources. Lead NextGen (people-data insights/hot spots/manager coaching/performance review FIRST) then Vestas (strategic HR across ER/headcount/succession + M&A org design + coaching leaders) then InGenius (deep partnerships with Product/Tech/Sales leaders + systems thinking + coach managers). ODN Pair A. Skills → added Org Design & Talent Planning + Notion product + Notion AI (JD names Notion + knowledge mgmt). JD keywords: systems thinking, org design, talent planning, proactive people-data insights, coach managers, 360 performance."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "role_id": "pacificseafood_tds_2026-05-25",
+  "company": "Pacific Seafood",
+  "role": "Training and Development Specialist — Distribution (Clackamas, OR)",
+  "location": "Clackamas, OR",
+  "contacts_found": [
+    {
+      "name": "William Hueffner",
+      "title": "VP of Talent and Culture",
+      "company": "Pacific Seafood",
+      "linkedin_url": "https://www.linkedin.com/in/williamhueffner/",
+      "connection_type": "VP-level People leader — oversees talent and culture at Pacific Seafood",
+      "alumni_tie": null,
+      "rationale": "VP of Talent and Culture is the senior leader most likely to own or be aware of the T&D Specialist hire. Stretch cold intro to a VP — keep message professional, short, and respectful. Do not ask for referral.",
+      "outreach_priority": 1,
+      "verified": "2026-05-26",
+      "note": "Replacing Michael D. whose LinkedIn URL returned 404 — profile unverifiable/non-existent"
+    },
+    {
+      "name": "Windy Cox",
+      "title": "HR Professional (SPHR, PHRca)",
+      "company": "Pacific Seafood",
+      "linkedin_url": "https://www.linkedin.com/in/windycox/",
+      "connection_type": "HR team — likely regional HR with T&D involvement",
+      "alumni_tie": null,
+      "rationale": "SPHR + PHRca credential, HR regional scope. Good fallback contact if William Hueffner does not respond — peer-level conversation on team culture.",
+      "outreach_priority": 2
+    },
+    {
+      "name": "Eric Peterson",
+      "title": "HR Professional (SHRM-CP)",
+      "company": "Pacific Seafood",
+      "linkedin_url": "https://www.linkedin.com/in/eric-peterson-shrm-cp-7894b6144/",
+      "connection_type": "HR team member",
+      "alumni_tie": null,
+      "rationale": "SHRM-CP HR professional at Pacific Seafood — team peer who may have insight into the T&D Specialist opening.",
+      "outreach_priority": 3
+    }
+  ],
+  "unverifiable_dropped": [
+    {
+      "name": "Michael D.",
+      "title": "Director of Talent Development (unverified)",
+      "company": "Pacific Seafood",
+      "linkedin_url": "https://www.linkedin.com/in/michael-d-32945a6/",
+      "reason": "LinkedIn URL returns 404 — profile does not exist or has been removed. Cannot verify identity, title, or current employment. Dropped as outreach target.",
+      "flagged_date": "2026-05-26"
+    }
+  ],
+  "alumni_found": 0,
+  "alumni_note": "No USC or Wesleyan alumni confirmed at Pacific Seafood. Portland/Oregon-area anchor (Clackamas is 20 min from Portland) is relevant hook.",
+  "search_queries_used": [
+    "site:linkedin.com/in \"Pacific Seafood\" \"training\" OR \"talent development\" OR \"HR\" OR \"people\"",
+    "site:linkedin.com/in \"Pacific Seafood\" Alachua OR Florida \"HR\" OR \"human resources\" OR \"training\" manager OR specialist"
+  ]
+}

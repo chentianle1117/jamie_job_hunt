@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "company": "Chime",
+    "role": "Program Manager, Dispute Experience",
+    "date": "2026-05-30",
+    "pageMargins": { "top": "0.35in", "right": "0.45in", "bottom": "0.35in", "left": "0.45in" },
+    "autoFit": true,
+    "fontRange": [8.5, 10.0]
+  },
+  "header": {
+    "location": "Portland, OR (Open to Remote or Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Strategic Program Manager</b> who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can drive operational excellence—through human-centered, data-driven approaches.",
+  "keywordGroups": {
+    "data": "Data/Analytics",
+    "coord": "Process/Ops",
+    "cross": "Cross-functional",
+    "ex": "Member/Agent Experience",
+    "tools": "Tools/Systems",
+    "prog": "Programs/Continuous Improvement"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Program Manager, Enablement",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Own {coord|process documentation}, SOPs, and knowledge bases across 20+ programs, driving {prog|continuous improvement} via feedback analysis" },
+        { "text": "Establish {cross|cross-functional} processes for 70+ staff across Marketing, Tech, and Sales, cutting onboarding time by 75%" },
+        { "text": "Analyze program {data|metrics} and stakeholder feedback to surface improvement opportunities and inform operational roadmaps" },
+        { "text": "Facilitate listening sessions with 25 global {cross|stakeholders}, translating feedback into 3 new programs and a 78% enrollment rate" }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Facilitate CEO/HR discovery and stakeholder interviews to diagnose operational drivers and inform evidence-based process redesigns" },
+        { "text": "Upskill the team to audit 300+ cases and quantify costs, refuting assumptions via {data|data analysis} to drive policy and process change" }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        { "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed operational strategies" },
+        { "text": "Analyzed 2,000+ employee responses, reporting {data|data-driven insights} and recommendations to the C-suite" },
+        { "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review" },
+        { "text": "Improved {ex|experience} via 5 {cross|cross-functional} projects focusing on survey development, rewards & recognition, and L&D" }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        { "text": "Optimized onboarding processes across 3 global locations by conducting process analysis and clarifying job responsibilities" },
+        { "text": "Assisted in employee relations cases, ensuring {coord|compliance} with local labor laws and confidentiality" },
+        { "text": "Directed a Merger & Acquisition project, migrating and merging employee records across systems" },
+        { "text": "Piloted an Inclusive Leadership workshop for 12 senior leaders, later scaled to 23 global locations" }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management" },
+        { "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details" },
+        { "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months" },
+        { "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": ["Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": ["Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping engagement for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Program & PM Tools:</b> Project Management (Asana, Airtable) · Knowledge Management (SharePoint, Notion) · CRM (HubSpot)",
+    "<b>Data & Systems:</b> Data Analysis (Excel, Google Sheets, SPSS) · HRIS/SaaS Admin (SAP, Rippling, ADP) · ATS (Greenhouse)",
+    "<b>Productivity:</b> AI Tools (ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint, Excel) · Google Workspace",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)"
+  ],
+  "jd": {
+    "meta": "Chime — Program Manager, Dispute Experience",
+    "sections": []
+  },
+  "changeLog": [
+    "2026-05-30: Tailored for Chime — Program Manager, Dispute Experience (Remote, USA → Portland header). Summary → Strategic Program Manager, operational-excellence flavor. InGenius → Set F: process documentation/SOPs/knowledge bases, cross-functional processes, metrics analysis for improvement opportunities, listening sessions + 78% enrollment. Reordered to lead. ODN → Pair B + audit/cost-quantification bullet (process+compliance resonance). NextGen → data-driven insights framing. Vestas → added employee-relations/compliance bullet. Skills → dropped HRCI/LMS, led with PM/KM tools. NOTE: JD requires 3+ yrs card-issuer dispute ops + Reg E/Z/UDAAP + SQL — genuine domain gap; tailored to the truthful process-documentation/continuous-improvement/cross-functional/data overlap."
+  ]
+}

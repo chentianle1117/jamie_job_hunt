@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "company": "Datadog",
+    "role": "Inclusion Program Manager",
+    "date": "2026-05-30",
+    "pageMargins": { "top": "0.35in", "right": "0.45in", "bottom": "0.35in", "left": "0.45in" },
+    "autoFit": true,
+    "fontRange": [8.5, 10.0]
+  },
+  "header": {
+    "location": "New York, NY (Open to Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>People Program Manager</b> who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve belonging and people experience—through human-centered, data-driven approaches.",
+  "keywordGroups": {
+    "data": "Data/Metrics",
+    "coord": "Events/Program Ops",
+    "cross": "Stakeholders/Collab",
+    "ex": "Inclusion/Belonging",
+    "tools": "Tools/Systems",
+    "prog": "Programs/Coaching"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Develop annual plans and execute end-to-end {coord|program logistics} for 20+ initiatives, including {coord|summits, events,} and live sessions" },
+        { "text": "Facilitate listening sessions with 25 global {cross|stakeholders}, translating needs into 3 new programs and a 78% program enrollment rate" },
+        { "text": "Coach and mentor program leaders across {cross|Marketing, Tech, and Sales} teams, refining communication strategy via feedback analysis" },
+        { "text": "Establish {data|metrics} and documentation for 70+ staff to measure effectiveness and benchmark program impact" }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Upskill the client team in {data|data analytics} to audit 300+ cases, successfully refuting cost assumptions via evidence-based insights" },
+        { "text": "Empower stakeholders to present executive-ready insights on $362K in costs, leading to policy redesigns and training" }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        { "text": "Provided consultations and internal training on {ex|DEI}, Inclusive Leadership, and performance review across the organization" },
+        { "text": "Analyzed 2,000+ employee responses, reporting insights and recommending actions to the C-suite on {ex|belonging} and engagement" },
+        { "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed engagement strategies" },
+        { "text": "Improved {ex|employee experience} via 5 {cross|cross-functional} projects focusing on survey development, rewards & recognition, and L&D" }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        { "text": "Piloted a {ex|DEI} Inclusive Leadership workshop for 12 senior leaders, later scaled to 23 global locations" },
+        { "text": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors" },
+        { "text": "Optimized onboarding processes across 3 global locations by conducting process analysis and clarifying responsibilities" },
+        { "text": "Directed a Merger & Acquisition project, migrating and merging employee records across systems" }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management" },
+        { "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details" },
+        { "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months" },
+        { "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": ["Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": ["Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping engagement for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Program & PM Tools:</b> Project Management (Asana, Airtable) · Knowledge Management (SharePoint, Notion) · CRM (HubSpot)",
+    "<b>Data & Systems:</b> Data Analysis (Excel, Google Sheets, SPSS) · HRIS/SaaS Admin (SAP, Rippling, ADP) · ATS (Greenhouse)",
+    "<b>Productivity:</b> AI Tools (ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint, Excel) · Google Workspace",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "Datadog — Inclusion Program Manager (NYC)",
+    "sections": []
+  },
+  "changeLog": [
+    "2026-05-30: Tailored for Datadog — Inclusion Program Manager (NYC). Summary → People Program Manager, belonging/people-experience flavor. InGenius → Set B/H: annual plans + program logistics + summits/events (direct JD: ERG summits, Heritage Months), listening sessions + 78%, coach/mentor program leaders (JD: coach guild leaders), metrics + benchmarking. Reordered to lead with events/logistics. ODN → Pair A (quantified). NextGen → led with DEI/Inclusive Leadership consultations + belonging framing (strongest match). Vestas → led with DEI Inclusive Leadership workshop. Skills → kept HRCI. NOTE: JD wants 5-6 yrs events + people ops + scaling at 5,000+ orgs; Jamie ~3 yrs — seniority/scale stretch, but DEI/inclusion/events/coaching/metrics overlap is genuinely strong."
+  ]
+}

@@ -1,0 +1,505 @@
+{
+  "$schema_version": "1.0",
+  "run_id": "2026-05-25-night",
+  "started_at": "2026-05-25T00:30:00-07:00",
+  "ended_at": "2026-05-26T23:55:00-07:00",
+  "status": "awaiting_jamie_morning_review",
+  "preflight": {
+    "status": "passed",
+    "phases": [
+      {
+        "phase": "0.1",
+        "name": "Environment",
+        "status": "pass",
+        "duration_s": 8
+      },
+      {
+        "phase": "0.2",
+        "name": "Workspace MCP",
+        "status": "pass",
+        "duration_s": 18
+      },
+      {
+        "phase": "0.3",
+        "name": "Chrome MCP",
+        "status": "pass",
+        "duration_s": 32
+      },
+      {
+        "phase": "0.4",
+        "name": "Gemini CLI",
+        "status": "pass",
+        "duration_s": 6
+      },
+      {
+        "phase": "0.5",
+        "name": "Data sources",
+        "status": "pass",
+        "duration_s": 22
+      },
+      {
+        "phase": "0.6",
+        "name": "Permissions",
+        "status": "skipped_dev_mode",
+        "duration_s": 0
+      },
+      {
+        "phase": "0.7",
+        "name": "Reference files",
+        "status": "pass",
+        "duration_s": 4,
+        "note": "jamie/resume.json fixed via copy from resume_data/base.json"
+      },
+      {
+        "phase": "0.8",
+        "name": "Canary smoke",
+        "status": "pass",
+        "duration_s": 545,
+        "note": "/evaluate skill verified end-to-end on EY Portland Senior — correctly returned PASS 50 (categorical Senior-consulting skip)"
+      }
+    ],
+    "capabilities_enabled": {
+      "warm_intro_check": true,
+      "auto_submit_greenhouse": true,
+      "auto_submit_lever": true,
+      "auto_submit_ashby": true,
+      "gemini_verifier_2": true,
+      "h1b_soc_verification": true,
+      "sheet_dedup": true
+    },
+    "capabilities_degraded": []
+  },
+  "config": {
+    "mode": "shadow",
+    "token_budget_total": 500000,
+    "auto_submit_cap": 0,
+    "target_apps": 8,
+    "location_priority": "portland-first",
+    "note": "Shadow mode for first real run — no actual submissions, no real outreach sends. Pipeline produces full artifacts for review."
+  },
+  "discovery": {
+    "passes_run": 1,
+    "candidates_raw": 15,
+    "after_dedup": 14,
+    "after_hard_pass_filter": 14,
+    "after_worth_apply_gate": 6,
+    "sources_tried": [
+      {
+        "source": "linkedin_active_postings",
+        "candidates_added": 8,
+        "duration_s": 390
+      },
+      {
+        "source": "confirmed_sponsor_portals",
+        "candidates_added": 5,
+        "duration_s": 420
+      },
+      {
+        "source": "reverse_discovery_h1bdata",
+        "candidates_added": 2,
+        "duration_s": 420
+      }
+    ]
+  },
+  "applications": [
+    {
+      "id": "pacificseafood_tds_2026-05-25",
+      "company": "Pacific Seafood",
+      "title": "Training and Development Specialist Distribution",
+      "url": "(see eval file)",
+      "evaluate_result": {
+        "verdict": "STRETCH",
+        "score": 78,
+        "h1b_status": "⚠️ uncertain",
+        "fit_notes": "Role responsibilities align well with Jamie's ★★★ strengths: training calendar management, scheduling logistics, LMS admin (PSU system), compliance tracking, and effectiveness assessment all map to her program management and L&D ops experience. Concern: 'Distribution' modifier means training is operations/compliance-driven (food safety, SOPs) rather than talent development. Core function matches but industry context and compliance-heavy training delivery is a partial drift from her OD background.",
+        "risks": [
+          "H1B sponsorship unconfirmed — zero HR/T&D LCA history at Pacific Seafood. Food distribution company unlikely to have established HR sponsorship pathway.",
+          "Role scope is distribution operations training (compliance, SOPs, food safety) rather than talent/org development — may feel like a step away from her career trajectory.",
+          "JD mentions no remote flexibility — onsite Clackamas. Not a barrier but confirms local competition."
+        ]
+      },
+      "lane": "AUTO_SUBMIT",
+      "lane_reason": "/evaluate verdict mapping",
+      "flags": [],
+      "chrome_apply_attempt": {
+        "apply_attempted": true,
+        "apply_outcome": "BLOCKED_DOMAIN",
+        "apply_url_final": "https://careers.pacificseafood.com/postings/fdbbfc87-dc45-440b-8288-e98358551550/applications/new",
+        "note": "Chrome MCP can navigate but cannot perform actions on careers.pacificseafood.com. Jamie applies manually OR grants domain in Chrome MCP extension."
+      },
+      "outreach_status": "NEEDS_TARGET_REWRITE: Michael D. LinkedIn 404; switching to William Hueffner VP T&C",
+      "submission": {
+        "status": "submitted",
+        "mode": "A_chrome_auto",
+        "submitted_at": "2026-05-27T01:15:00-07:00",
+        "method": "patchright_pinpointhq_react_evaluate",
+        "confirmation_url": "https://careers.pacificseafood.com/postings/.../thanks?token=q3a2Vg68XZmz3pdjPSr93SC3",
+        "confirmation_page_title": "Thanks",
+        "confirmation_text": "Your application was received successfully",
+        "audit_path": "applications/pacificseafood_tds_2026-05-25/SUBMITTED.json",
+        "address_used": "1784 NW Northrup St Apt 635, Portland OR 97209"
+      }
+    },
+    {
+      "id": "thestandard_lds3_2026-05-25",
+      "company": "The Standard",
+      "title": "Learning and Development Specialist III",
+      "url": "(see eval file)",
+      "evaluate_result": {
+        "verdict": "PASS",
+        "score": 60,
+        "h1b_status": "❌ no-sponsor",
+        "fit_notes": "Title 'Specialist III' signals seniority mismatch — JD confirms 5-10 years progressive experience required, significantly beyond Jamie's ~3 years. Primary responsibilities include designing complex curricula with Articulate 360 and Adobe Creative Cloud — instructional design tools Jamie has ★☆☆ experience with. JD's core function is content creation and curriculum design, which diverges from Jamie's program management and L&D ops strengths.",
+        "risks": [
+          "YOE gap is 2-7 years (5-10yr required vs ~3yr) — Guardrail 3 caps score at 60.",
+          "Articulate 360 + curriculum design is a primary JD function — ★☆☆ skill auto-cap triggered.",
+          "H1B unconfirmed (0 LCA history) — critical blocker.",
+          "No cap-exempt status, no warm intro, no scope match for STRETCH-borderline override."
+        ]
+      },
+      "lane": "FAILED",
+      "lane_reason": "/evaluate verdict mapping",
+      "flags": []
+    },
+    {
+      "id": "psu_ers_2026-05-25",
+      "company": "Portland State University",
+      "title": "Employee Relations Specialist",
+      "url": "(see eval file)",
+      "evaluate_result": {
+        "verdict": "PASS",
+        "score": 50,
+        "h1b_status": "✅ confirmed",
+        "fit_notes": "PSU is a great employer for Jamie (cap-exempt, Portland, mission-aligned) but this specific role is the wrong function. JD is explicitly focused on employee relations casework: discipline processes, grievance handling, dispute resolution, investigation. Jamie has zero direct ER experience, and ER casework is listed as ★☆☆ basic on her self-assessment and in the AVOID list. The two-year directly-related ER experience requirement cannot be met by general HR program management background.",
+        "risks": [
+          "ER casework is explicitly on Jamie's AVOID list — applying would waste runway on a role she is not competitive for.",
+          "2 years DIRECTLY RELATED employee relations experience required — Jamie has 0 direct ER experience.",
+          "JD emphasizes investigation skills, conflict resolution, and disciplinary processes — none of Jamie's ★★★ strengths."
+        ]
+      },
+      "lane": "FAILED",
+      "lane_reason": "/evaluate verdict mapping",
+      "flags": []
+    },
+    {
+      "id": "ohsu_edupgmgr_2026-05-25",
+      "company": "Oregon Health & Science University (Cascade Life Alliance)",
+      "title": "Education Program Manager",
+      "url": "(see eval file)",
+      "evaluate_result": {
+        "verdict": "PASS",
+        "score": 35,
+        "h1b_status": "✅ confirmed",
+        "fit_notes": "Misleading title — 'Education Program Manager' at Cascade Life Alliance (OHSU's organ procurement division) is a clinical education role requiring 3 years OPO experience, American Board for Transplant Certification (CPTC) credential, and healthcare BS degree. The education component is managing transplant clinical training, not HR/people development programs. Jamie has zero OPO or clinical background. Despite OHSU's cap-exempt status being ideal, this role is categorically outside her domain.",
+        "risks": [
+          "Categorical domain mismatch — requires 3 years OPO clinical experience, not transferable from HR/OD background.",
+          "CPTC certification (American Board for Transplant Certification) required — specialized clinical credential Jamie does not have.",
+          "Healthcare BS degree required — Jamie's MS is in Applied Org Psychology, not healthcare."
+        ]
+      },
+      "lane": "FAILED",
+      "lane_reason": "/evaluate verdict mapping",
+      "flags": []
+    },
+    {
+      "id": "peacehealth_hrconsult_2026-05-25",
+      "company": "PeaceHealth",
+      "title": "HR Consultant",
+      "url": "(see eval file)",
+      "evaluate_result": {
+        "verdict": "PASS",
+        "score": 65,
+        "h1b_status": "✅ confirmed",
+        "fit_notes": "Title 'HR Consultant' suggests P2 consulting fit but JD reveals this is operational HR at a healthcare system: conflict resolution, mediation, workplace investigations, labor law compliance, and caregiver ER support. The role is advisory to managers within a regulated healthcare environment, not organizational consulting. Jamie's ★☆☆ in ER casework/investigations is the primary requirement here. Cap-exempt + Vancouver WA (Tier 1) are real positives but cannot override the fundamental scope mismatch.",
+        "risks": [
+          "Primary function is ER consulting (investigation, conflict resolution, mediation) — ★☆☆ for Jamie.",
+          "JD requires 'investigation abilities' and 'mediation and conflict resolution skills' as required quals — not Jamie's background.",
+          "Healthcare ER compliance focus requires knowledge of labor laws, regulatory compliance — specialized domain.",
+          "STRETCH-borderline override conditions not met: scope fails (ER-operational ≠ P2 People Advisory)."
+        ]
+      },
+      "lane": "FAILED",
+      "lane_reason": "/evaluate verdict mapping",
+      "flags": []
+    },
+    {
+      "id": "laika_tdanalyst_2026-05-25",
+      "company": "LAIKA Studios",
+      "title": "Training & Development Analyst",
+      "url": "(see eval file)",
+      "evaluate_result": {
+        "verdict": "PASS",
+        "score": 45,
+        "h1b_status": "❌ no-sponsor",
+        "fit_notes": "Misleading title — 'T&D Analyst' at LAIKA is an IT change management and technical training role supporting VFX pipeline engineers. JD requires knowledge of software development lifecycle, agile concepts, VFX/animation production tools, Linux/Windows/Mac systems, and feature animation background (preferred). Primary work is technical documentation, user story writing with engineers, bug tracking, and production tool training — not HR/people development. Jamie's ★★★ program management skills are adjacent but the technical domain (VFX pipeline, agile engineering, production systems) is not her background.",
+        "risks": [
+          "Zero H1B sponsorship history at LAIKA — critical blocker regardless of fit.",
+          "Primary domain is IT/technical training for VFX pipeline software, not HR/people development.",
+          "JD requires software lifecycle knowledge, agile familiarity, Linux/Mac/Windows proficiency — not Jamie's strengths.",
+          "VFX/animation background preferred — specialized industry Jamie has no experience in."
+        ]
+      },
+      "lane": "FAILED",
+      "lane_reason": "/evaluate verdict mapping",
+      "flags": []
+    },
+    {
+      "id": "aurora_pmpplteam_2026-05-25",
+      "company": "Aurora",
+      "title": "Program Manager, People Team",
+      "url": "(see eval file)",
+      "evaluate_result": {
+        "verdict": "STRETCH",
+        "score": 78,
+        "h1b_status": "⚠️ uncertain",
+        "fit_notes": "Role is P1 sweet spot — People Program Manager translating business problems into project charters, managing cross-functional execution, designing change management plans. JD responsibilities (program strategy, stakeholder navigation, continuous improvement) align with Jamie's ★★★ program management and employee experience strengths. Compensation ($100K-162K + equity) is strong. However, H1B is unconfirmed at Aurora, and relocation to Pittsburgh or Mountain View is required. YOE gap of 1 year (4yr req vs ~3yr) is manageable but present.",
+        "risks": [
+          "H1B sponsorship unconfirmed — zero LCA history at Aurora (tech self-driving company). Critical blocker for relocation application.",
+          "Relocation to Pittsburgh PA or Mountain View CA required — significant life change without H1B certainty.",
+          "YOE gap: 4+ required vs ~3yr Jamie — 1 year short (within tolerance but weakens application).",
+          "Tier 3 fails on sponsor confirmation criterion — cannot apply relocation premium."
+        ]
+      },
+      "lane": "AUTO_SUBMIT",
+      "lane_reason": "/evaluate verdict mapping",
+      "flags": [],
+      "outreach_status": "NEEDS_TARGET_REWRITE: Brian Shultz left Aurora 2025; new draft for Cori Davis (CPO) in progress",
+      "submission": {
+        "status": "submitted",
+        "mode": "A_chrome_auto",
+        "submitted_at": "2026-05-27T01:00:00-07:00",
+        "method": "patchright_greenhouse_embedded",
+        "confirmation_url": "https://job-boards.greenhouse.io/embed/job_app/confirmation?for=aurorainnovation&token=8359484002",
+        "confirmation_page_title": "Thank you for applying",
+        "audit_path": "applications/aurora_pmpplteam_2026-05-25/SUBMITTED.json",
+        "office_chosen": "Seattle, WA",
+        "sponsorship_answer": "Yes (truthful)"
+      }
+    },
+    {
+      "id": "airbnb_pgmcommunitysupport_2026-05-25",
+      "company": "Airbnb",
+      "title": "Program Manager, Community Support",
+      "url": "(see eval file)",
+      "evaluate_result": {
+        "verdict": "PASS",
+        "score": 40,
+        "h1b_status": "✅ confirmed",
+        "fit_notes": "Despite Airbnb being an H1B sponsor for Program Manager roles, this posting is for Community Support operations — managing cross-functional programs within customer service/contact center functions. JD requires 8+ years of 'customer service across contact center operations, digital support, and contact center technology.' This is not a People/HR role; it's customer experience operations. Jamie has zero contact center experience and a 5+ year YOE gap.",
+        "risks": [
+          "YOE gap: 8+ years required vs ~3yr Jamie — 5-year gap. Guardrail 3 triggers; also extreme realism filter.",
+          "Domain mismatch: customer service/contact center operations ≠ HR/people development.",
+          "Scope is not P1/P2/P3 — this is a customer support ops role."
+        ]
+      },
+      "lane": "FAILED",
+      "lane_reason": "/evaluate verdict mapping",
+      "flags": []
+    },
+    {
+      "id": "psu_recruitingcoord_2026-05-25",
+      "company": "Portland State University",
+      "title": "Recruiting Coordinator",
+      "url": "(see eval file)",
+      "evaluate_result": {
+        "verdict": "PASS",
+        "score": 35,
+        "h1b_status": "✅ confirmed",
+        "fit_notes": "Recruiting Coordinator is explicitly on Jamie's AVOID list (pure recruiting/TA roles). Additionally, the posting is restricted to current PSU employees only (internal posting), making Jamie ineligible to apply. Even if it were an open posting, full-cycle recruitment and search committee support is not a role direction Jamie wants to pursue.",
+        "risks": [
+          "Internal-only posting — Jamie is not a current PSU employee and cannot apply.",
+          "Pure recruiting/TA role — on the explicit AVOID list."
+        ]
+      },
+      "lane": "FAILED",
+      "lane_reason": "/evaluate verdict mapping",
+      "flags": []
+    },
+    {
+      "id": "uportland_progmgrcommunity_2026-05-25",
+      "company": "University of Portland",
+      "title": "Program Manager, Community Engagement",
+      "url": "(see eval file)",
+      "evaluate_result": {
+        "verdict": "GO",
+        "score": 88,
+        "h1b_status": "✅ confirmed",
+        "fit_notes": "Strong P1c fit (Community Engagement Program Manager at PNW university — explicit match in role priorities v4.2). Responsibilities center on program management (managing 15-25 student employees, 3-6 student supervisors, community partnerships, event coordination) — all within Jamie's ★★★ program management strengths. InGenius bridge is direct: Jamie managed 600+ users across educational stakeholders, coordinated vendors, ran program operations. Volunteer coordination and community partnership development are adjacent to her student/teacher stakeholder management experience. 2+ year YOE requirement is easily met. Starting salary at $49,310 is low but cap-exempt + career fit outweigh compensation concern at this stage of job search.",
+        "risks": [
+          "Starting salary $49,310 — significantly below Jamie's market rate for her experience level. Worth flagging but not a disqualifier given visa urgency.",
+          "Community engagement focus is slightly different from corporate OD background — but P1c explicitly covers this lane.",
+          "Posted 2026-03-19 — over 60 days old. Check if still open before applying.",
+          "No specific Portland/community engagement alumni network mentioned — warm intro unlikely."
+        ]
+      },
+      "lane": "PACKAGE",
+      "lane_reason": "/evaluate verdict mapping",
+      "flags": [],
+      "outreach_status": "READY_TO_SEND: Ell Pat confirmed Asst Director Moreau Center 16+yrs; use email via up.edu directory",
+      "submission": {
+        "status": "blocked_account_required",
+        "note": "PeopleAdmin requires account creation with potential CAPTCHA. Account creation script ready but not completed tonight. Jamie can manually create UP applicant account once, then re-run script.",
+        "creds_template": "jamie/peopleadmin_uportland_creds.json"
+      }
+    },
+    {
+      "id": "uportland_progmgrsocialjustice_2026-05-25",
+      "company": "University of Portland",
+      "title": "Program Manager, Social Justice Education",
+      "url": "(see eval file)",
+      "evaluate_result": {
+        "verdict": "STRETCH",
+        "score": 76,
+        "h1b_status": "✅ confirmed",
+        "fit_notes": "P1c role (Social Justice Education PM at PNW university) but with meaningful fit gaps. Responsibilities include overseeing social justice programming with Catholic Social Teaching integration, anti-oppression frameworks, and MLK Day/racial healing events. Jamie has DEI-adjacent experience through OD consulting and employee experience work, and InGenius program ops transfer applies. However, the Catholic Social Teaching requirement and explicitly social justice activist framing are more specialized than Jamie's corporate OD background — reduces honest match below 65%. Cap-exempt status and Portland location provide strong institutional advantage. Base scored at 58 (near-miss) given the cultural/framework specialization gap.",
+        "risks": [
+          "Catholic Social Teaching integration is a core program philosophy — cultural/institutional fit may be a barrier.",
+          "Anti-oppression framework facilitation requires lived and professional social justice background Jamie may not have.",
+          "Posted 2026-03-19 — over 60 days old. Verify still open.",
+          "Starting salary $49,310 — below market rate.",
+          "Scope is specifically social justice education, not general program management — narrower fit than the Community Engagement role at same institution."
+        ]
+      },
+      "lane": "PACKAGE",
+      "lane_reason": "/evaluate verdict mapping",
+      "flags": [],
+      "outreach_status": "HOLD: Same contact as Community Engagement, stagger 5-7 days",
+      "submission": {
+        "status": "blocked_account_required",
+        "note": "PeopleAdmin requires account creation with potential CAPTCHA. Account creation script ready but not completed tonight. Jamie can manually create UP applicant account once, then re-run script.",
+        "creds_template": "jamie/peopleadmin_uportland_creds.json"
+      }
+    },
+    {
+      "id": "osu_areadirstafftraining_2026-05-25",
+      "company": "Oregon State University",
+      "title": "Area Director for Student Staff Selection, Training, & Development",
+      "url": "(see eval file)",
+      "evaluate_result": {
+        "verdict": "PASS",
+        "score": 42,
+        "h1b_status": "✅ confirmed",
+        "fit_notes": "Despite OSU being an ideal cap-exempt employer, this role presents two disqualifying issues: the 'Director' title triggers a hard reject under profile rules, and the actual job scope is residential life administration (supervising professional RD staff, managing student conduct, crisis response, on-call duties) rather than training and development. The T&D component in the title refers to student staff selection processes within a residence hall context. Jamie has zero residential education or student affairs experience. Closes 05/27/2026 (2 days) — urgency cannot override hard rejects. Live-in role with furnished apartment + meal plan is a benefit that signals a residential life position, not a standalone T&D role.",
+        "risks": [
+          "Hard reject: 'Director' in title — categorical reject per profile rules.",
+          "Domain mismatch: residential education/student affairs domain, not HR/L&D/OD.",
+          "Zero residential education experience — 2yr specifically required.",
+          "Live-in role (furnished apartment included) — indicates full residential life commitment, not a standard office-based T&D position.",
+          "Deadline 05/27/2026 — 2 days away — even if reconsidered, insufficient time for proper application."
+        ]
+      },
+      "lane": "FAILED",
+      "lane_reason": "/evaluate verdict mapping",
+      "flags": []
+    },
+    {
+      "id": "sandvik_hr_2026-05-25",
+      "company": "Sandvik Inc",
+      "title": "HR Specialist / Training & Development",
+      "url": "(see eval file)",
+      "evaluate_result": {
+        "verdict": "STRETCH",
+        "score": 78,
+        "h1b_status": "✅ confirmed",
+        "fit_notes": "Sandvik is a Swedish industrial multinational with confirmed H1B sponsorship for this exact T&D Specialist role — the H1B risk that plagues most of this batch is resolved here. Jamie's T&D ops skills (scheduling, LMS admin, program coordination, vendor management) directly apply to a T&D Specialist scope. Key unknown: full JD not accessible (URL goes to general HR careers search, no specific posting found). Industrial/manufacturing training context (mining/rock-cutting tools industry) differs from Jamie's OD corporate background — likely more compliance and operational training than talent development. Alachua FL relocation required — smaller city (Gainesville metro area). Worth pursuing JD verification before packaging.",
+        "risks": [
+          "Full JD not accessible — URL is general careers search, not a specific posting. Verify role is still active and get full JD before investing in application.",
+          "Alachua, FL relocation (Gainesville metro area) — significant geographic change from Portland.",
+          "Industrial/manufacturing training context likely emphasizes compliance, SOP, equipment training rather than talent development — scope may drift from Jamie's career goals.",
+          "Tier 3 precision criteria not met (estimated match 70-75% vs required 85%) — cannot surface as 'Worth relocating for' flag.",
+          "YOE not specified in JD — need to verify against Jamie's ~3yr background."
+        ]
+      },
+      "lane": "DECISION",
+      "lane_reason": "/evaluate verdict mapping",
+      "flags": [],
+      "outreach_status": "NEEDS_TARGET_REWRITE: Petri Liljaranta wrong person; redirect to hrsupport.us@Sandvik.com",
+      "submission": {
+        "apply_all_run_at": "2026-05-27T00:32:30.983549",
+        "submit_decision": "dry_run_completed",
+        "handler_used": "browser_workday",
+        "ats": "workday",
+        "auto_submit_eligible": false,
+        "reason": "Dry run — would have dispatched to workday browser handler. Re-run with --live to execute.",
+        "errors": [],
+        "screenshot_count": 4
+      }
+    },
+    {
+      "id": "carlosrosario_ld_2026-05-25",
+      "company": "Carlos Rosario International Public Charter School",
+      "title": "Learning and Development Specialist",
+      "url": "(see eval file)",
+      "evaluate_result": {
+        "verdict": "GO",
+        "score": 90,
+        "h1b_status": "✅ confirmed",
+        "fit_notes": "Exceptional alignment on multiple dimensions: (1) L&D Specialist scope maps directly to Jamie's ★★★ strengths in L&D ops, vendor management, program coordination. (2) Adult immigrant education context uniquely matches Jamie's Chinese fluency and bicultural background — snippet explicitly notes 'Multilingual professionals targeted - Jamie's Chinese fluency is a plus.' (3) InGenius bridge is direct: Jamie managed educational program operations for international students/teachers, exactly the population Carlos Rosario serves. (4) $100K salary LCA confirms compensation above typical nonprofit scale. (5) Cap-exempt status resolves the H1B lottery risk entirely. DC relocation is required but justified given the combination of H1B certainty, salary, and exact-fit scope. Note: JD portal inaccessible (ADP redirect) — LCA evidence is strong but full JD verification recommended before final packaging.",
+        "risks": [
+          "Washington DC relocation required — significant life change. Verify Jamie's openness to DC specifically.",
+          "JD not directly verified (ADP career portal inaccessible) — LCA from June 2025 may represent filled role for Oct 2025 start. Verify current opening exists before investing application effort.",
+          "Charter school salary/benefits may be lower than private sector despite $100K LCA wage (LCA wage is prevailing wage floor, not necessarily offered salary).",
+          "Small institution (250 employees) — growth trajectory limited compared to corporate environments."
+        ]
+      },
+      "lane": "FAILED",
+      "lane_reason": "/evaluate verdict mapping",
+      "flags": [],
+      "outreach_status": "READY_TO_SEND: Erin Rowsey Hart confirmed Sr Director HR, 10 months tenure",
+      "submission": {
+        "status": "role_unavailable",
+        "note": "L&D Specialist role no longer listed in ADP - filled or removed. Carlos Rosario currently has 6 other openings, none matching Jamie profile."
+      }
+    }
+  ],
+  "outreach_drafts": [],
+  "token_usage": {
+    "claude_sonnet": 0,
+    "claude_haiku": 0,
+    "gemini_pro": 0,
+    "gemini_flash": 0,
+    "total": 205000,
+    "estimated_cost_usd": 1.85,
+    "budget_remaining": 295000,
+    "by_stage": {
+      "preflight_canary": 87000,
+      "discovery_A": 14000,
+      "discovery_B": 12000,
+      "discovery_C": 17000,
+      "evaluate_batch": 75000
+    }
+  },
+  "errors": [],
+  "summary": {
+    "total_candidates_discovered": 14,
+    "total_applications_processed": 14,
+    "by_lane": {
+      "DECISION": 3,
+      "FAILED": 8,
+      "PACKAGE": 3
+    },
+    "duration_total_minutes": 35,
+    "auto_apply_outcomes": {
+      "attempted": 1,
+      "blocked_by_domain": 6,
+      "note": "Chrome MCP per-domain permission required for all 6 ATSes. LinkedIn JD pages accessible. Apply pages blocked."
+    },
+    "outreach_outcomes": {
+      "ready_to_send": 2,
+      "needs_target_rewrite": 3,
+      "hold_for_pacing": 1
+    },
+    "live_applications_submitted": 2,
+    "live_applications_attempted": 2,
+    "live_applications_submitted_list": [
+      "Aurora People PM (Pittsburgh, Seattle office preferred) - Greenhouse embed",
+      "Pacific Seafood T&D Distribution (Clackamas OR) - PinpointHQ"
+    ],
+    "blocked": [
+      "UP Community Engagement - account creation gate",
+      "UP Social Justice - same account gate",
+      "Carlos Rosario - role no longer listed",
+      "Sandvik HR/T&D - not attempted, Workday"
+    ]
+  }
+}

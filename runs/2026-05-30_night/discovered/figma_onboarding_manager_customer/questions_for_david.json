@@ -1,0 +1,10 @@
+{
+  "could_not_answer": [
+    "Are you authorized to work in the country for which you applied? *",
+    "Country*",
+    "Have you ever worked for Figma before, as an employee or a contractor/consultant? *",
+    "Location (City)*",
+    "Why do you want to join Figma?",
+    "Why do you want to join Figma?*"
+  ]
+}

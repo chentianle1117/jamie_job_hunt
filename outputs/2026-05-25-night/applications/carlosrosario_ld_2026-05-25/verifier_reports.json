@@ -1,0 +1,39 @@
+{
+  "role_id": "carlosrosario_ld_2026-05-25",
+  "verified_at": "2026-05-25",
+  "verifier_1_sonnet_resume": {
+    "model": "claude-sonnet-4-6",
+    "checks": {
+      "header_location": { "expected": "Portland, OR (Open to Remote or Relocation)", "found": "Portland, OR (Open to Remote or Relocation)", "pass": true },
+      "odn_location": { "expected": "Remote, USA", "found": "Remote, USA", "pass": true },
+      "ingenius_location": { "expected": "Remote, USA", "found": "Remote, USA", "pass": true },
+      "invented_achievements": { "pass": true, "notes": "All bullets traceable to standard content_library variants (Set A ODN Pair A, InGenius Bullet Set A)" },
+      "cliche_phrases": { "pass": true, "phrases_checked": ["drove strategic transformation", "leverage", "synergy"], "found": [] }
+    },
+    "result": "PASS",
+    "notes": "All location fields correct. No invented content. No cliché phrases in resume body. Note: 'moves the needle' appears in cover_letter.md para 1 ('refining based on what actually moves the needle') — not in resume, does not affect resume verdict."
+  },
+  "verifier_2_gemini_cover_letter": {
+    "model": "gemini-2.5-pro",
+    "raw_output": {
+      "result": "PASS",
+      "voice_match": "pass",
+      "authenticity_score": 9,
+      "banned_words_found": [],
+      "signature_phrases_found": [
+        "A Solution-focused, Data-driven, and People-oriented Professional",
+        "Dedicated to Driving Individual and Organizational Development",
+        "Opening hook: [X] isn't just about...from my experience, it's about...",
+        "With a background in HR, Organizational Development, and Program Management",
+        "analytical organizer with a growth mindset",
+        "Sincerely,"
+      ],
+      "opening_uses_formula": true
+    },
+    "result": "PASS",
+    "adjudicator_note": "Gemini returned PASS but missed 'moves the needle' in para 1 ('refining based on what actually moves the needle'). This phrase IS in email_style_signature.md NEVER list. Flagging for human review — low severity since it's embedded in a relative clause and reads naturally, not as a standalone cliche. Recommend Jamie replace with 'refining based on what actually works' before sending."
+  },
+  "final_verdict": "PASS",
+  "flags": ["cover_letter_contains_banned_phrase: 'moves the needle' — minor, recommend word swap before send"],
+  "ready_to_send": true
+}

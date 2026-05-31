@@ -1,0 +1,44 @@
+To: jamiecheng0103@gmail.com
+Subject: [DRY RUN] 🤖 Autopilot Run Complete — 2026-05-27
+
+🤖 Jamie Autopilot — Apply Orchestrator Run Complete
+Date: 2026-05-27 00:32  |  Mode: DRY RUN (no real submissions)
+Audit log: C:\Users\chent\Agentic_Workflows_2026\oracle-job-search\outputs\2026-05-25-night\apply_audit_20260527-003230.json
+
+── SUMMARY ──────────────────────────────────
+  🔵 Dry-run completed (no submissions): 5
+  👀 Stopped for your review: 0
+  🤚 Requires manual apply:   1
+  ❌ Failed / error:           0
+
+── PER-ROLE STATUS ──────────────────────────
+  🤚 [DECISION] Pacific Seafood — Training and Development Specialist Distribution  score=78
+     ATS: PinpointHQ (browser)  |  decision: requires_manual
+     reason: ATS 'pinpointhq' has no automated handler — package is ready for Jamie manual submission. See submission_guide.md for step-by-step instructions.
+
+  🔵 [DECISION] Aurora — Program Manager, People Team  score=78
+     ATS: Workday (browser)  |  decision: dry_run_completed
+     reason: Dry run — would have dispatched to workday browser handler. Re-run with --live to execute.
+
+  🔵 [PACKAGE] University of Portland — Program Manager, Community Engagement  score=88
+     ATS: PeopleAdmin (browser)  |  decision: dry_run_completed
+     reason: Dry run — would have dispatched to peopleadmin browser handler. Re-run with --live to execute.
+
+  🔵 [PACKAGE] University of Portland — Program Manager, Social Justice Education  score=76
+     ATS: PeopleAdmin (browser)  |  decision: dry_run_completed
+     reason: Dry run — would have dispatched to peopleadmin browser handler. Re-run with --live to execute.
+
+  🔵 [DECISION] Sandvik Inc — HR Specialist / Training & Development  score=78
+     ATS: Workday (browser)  |  decision: dry_run_completed
+     reason: Dry run — would have dispatched to workday browser handler. Re-run with --live to execute.
+
+  🔵 [PACKAGE] Carlos Rosario International Public Charter School — Learning and Development Specialist  score=90
+     ATS: ADP Workforce Now (browser)  |  decision: dry_run_completed
+     reason: Dry run — would have dispatched to adp browser handler. Re-run with --live to execute.
+
+── YOUR ACTION ITEMS ────────────────────────
+  → Pacific Seafood (Training and Development Specialist Distribution): ATS 'pinpointhq' has no automated handler — package is ready for Jamie manual submission. See submission_guide.md for step-by-step instructions.
+     guide: applications/pacificseafood_tds_2026-05-25/submission_guide.md
+
+Dashboard: https://notion.so (see Jamie Job Search Tracker > Applications)
+─────────────────────────────────────────────

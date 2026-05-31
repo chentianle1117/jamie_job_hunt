@@ -1,0 +1,34 @@
+{
+  "role_id": "uportland_progmgrsocialjustice_2026-05-25",
+  "company": "University of Portland",
+  "role": "Program Manager, Social Justice Education",
+  "location": "Portland, OR",
+  "contacts_found": [
+    {
+      "name": "Ell Pat",
+      "title": "Assistant Director, Moreau Center for Service and Leadership",
+      "company": "University of Portland",
+      "linkedin_url": "https://www.linkedin.com/in/ell-pat-a4b96016/",
+      "connection_type": "Adjacent team at Moreau Center — Social Justice Education PM sits in same center",
+      "alumni_tie": null,
+      "rationale": "Same Moreau Center as both U of Portland roles — Ell Pat is the most senior accessible staff member who can speak to culture and team. Note: Jamie should send DIFFERENT messages for each UP role if reaching out to same person.",
+      "outreach_priority": 1
+    },
+    {
+      "name": "Irene Routté",
+      "title": "Doctoral Candidate / Community Organizer; former Service and Justice Coordinator at L'Arche @ UP",
+      "company": "Former University of Portland adjacent",
+      "linkedin_url": "https://www.linkedin.com/in/irene-routt%C3%A9-57819714/",
+      "connection_type": "Former social justice program lead at UP-affiliated org",
+      "alumni_tie": null,
+      "rationale": "Irene managed the Service and Justice Coordinator program and created social justice curriculum at L'Arche @ University of Portland — very close domain match. May have contacts or context for the current role.",
+      "outreach_priority": 2
+    }
+  ],
+  "alumni_found": 0,
+  "alumni_note": "No USC or Wesleyan alumni confirmed at University of Portland Social Justice program. Portland-move anchor is the primary hook. Note: same contact (Ell Pat) appears for both UP roles — Jamie should be careful not to send near-identical messages.",
+  "search_queries_used": [
+    "site:linkedin.com/in \"University of Portland\" \"social justice\" OR \"student affairs\" OR \"mission\" education program",
+    "site:linkedin.com/in \"University of Portland\" \"Wesleyan\" OR \"USC\" student affairs OR \"community engagement\" OR \"social justice\""
+  ]
+}

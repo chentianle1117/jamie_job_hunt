@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "company": "Writer",
+    "role": "Workplace Experience Manager, New York",
+    "date": "2026-05-30",
+    "pageMargins": { "top": "0.3in", "right": "0.45in", "bottom": "0.3in", "left": "0.45in" },
+    "autoFit": true,
+    "fontRange": [8.5, 10.0]
+  },
+  "header": {
+    "location": "New York, NY (Onsite)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>People &amp; Workplace Experience</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to keep improving the daily employee experience—through human-centered, hospitality-driven approaches.",
+  "keywordGroups": {
+    "data": "Data/Feedback",
+    "coord": "Logistics/Ops",
+    "cross": "Stakeholders/Vendors",
+    "ex": "Employee Experience",
+    "tools": "Tools/Systems",
+    "prog": "Events/Programs"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Organize and support internal and external {prog|events and meetings} for 600+ participants, owning end-to-end {coord|logistics} and run-of-show" },
+        { "text": "Create {coord|office policies and processes}, SOPs, and documentation for 70+ staff to drive efficiency and better employee experiences" },
+        { "text": "Work with {cross|vendors} and 8 partners across 20+ programs, coordinating services and managing the moving parts proactively" },
+        { "text": "Partner {cross|cross-functionally} with Marketing, Tech, and Sales to support onboarding programs and a positive daily experience" }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        { "text": "Optimized {ex|onboarding} processes across 3 global locations by conducting process analysis and clarifying job responsibilities" },
+        { "text": "Strengthened {ex|employee experience} via an HR newsletter and award-winning well-being initiatives, among 1,000+ competitors" },
+        { "text": "Improved {ex|workplace experience} by streamlining immigration and relocation logistics with {cross|cross-functional} teams" },
+        { "text": "Delivered strategic HR solutions across employee relations, headcount, and succession planning" }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Organized {prog|recruiting events} and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants" },
+        { "text": "Engaged talent via personalized communication and customer service, increasing applications by 566% in 2 months" },
+        { "text": "Developed proficiency across HR functions, ranging from recruitment and compensation to performance management" },
+        { "text": "Drafted job descriptions, posted openings, and researched global compensation details for hard-to-fill roles" }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        { "text": "Improved {ex|employee experience} via 5 {cross|cross-functional} projects across survey development, rewards &amp; recognition, and L&amp;D" },
+        { "text": "Analyzed 2,000+ employee experiences and gathered {data|feedback} to continuously improve daily experience" },
+        { "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into reports that informed engagement strategies" },
+        { "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review" }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Facilitate CEO/HR discovery and stakeholder interviews to diagnose drivers of employee experience and process friction" },
+        { "text": "Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": ["Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": ["Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Workplace & Ops Tools:</b> Vendor &amp; Budget Management · Event &amp; Logistics Coordination · Project Management (Asana, Airtable) · HRIS (SAP, Rippling)",
+    "<b>Data & Productivity:</b> Data Analysis (Excel, Google Sheets) · AI Tools (ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint, Excel)",
+    "<b>Communication:</b> Internal Communications &amp; Newsletters · Hospitality &amp; Customer Service · Google Workspace · Slack",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "Writer — Workplace Experience Manager, New York",
+    "sections": []
+  },
+  "changeLog": [
+    "2026-05-30: Tailored for Writer — Workplace Experience Manager (NYC onsite; daily office experience, events incl onboarding & All Hands, budget, vendors, space planning, office policies, hospitality). Header → New York, NY (Onsite — role is 5 days in-office). Title noun → People & Workplace Experience. Lead InGenius (Set F ops emphasis: organize internal/external events + run-of-show, create office policies/SOPs, vendor coordination, support onboarding programs) then Vestas (onboarding + employee experience + relocation logistics) then Kronos (events). ODN Pair B. Skills → Vendor & Budget Management, Event & Logistics, Hospitality & Customer Service, Internal Comms. JD keywords: daily experience, events, onboarding program, vendors, office policies, hospitality, logistics."
+  ]
+}

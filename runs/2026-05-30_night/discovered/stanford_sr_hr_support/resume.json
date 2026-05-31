@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "company": "Stanford University",
+    "role": "Sr. HR Support Specialist",
+    "date": "2026-05-30",
+    "pageMargins": { "top": "0.35in", "right": "0.45in", "bottom": "0.35in", "left": "0.45in" },
+    "autoFit": true,
+    "fontRange": [8.5, 10.0]
+  },
+  "header": {
+    "location": "Portland, OR (Open to Remote or Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>People Operations</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing people programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve people experience—through accurate, detail-oriented, human-centered approaches.",
+  "keywordGroups": {
+    "data": "Data/Analytics",
+    "coord": "Coordination/Ops",
+    "cross": "Stakeholders/Collab",
+    "ex": "Employee Experience",
+    "tools": "Tools/Systems",
+    "prog": "Programs/L&D"
+  },
+  "experience": [
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        { "text": "Optimized onboarding processes across 3 global locations by conducting process analysis and clarifying job responsibilities" },
+        { "text": "Facilitated smooth organizational change by directing a Merger &amp; Acquisition project, migrating and merging employee records" },
+        { "text": "Assisted in employee relations cases, ensuring compliance with local labor laws and confidentiality of sensitive information" },
+        { "text": "Delivered strategic HR solutions for business priorities across projects in employee relations, headcount, and succession planning" }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Manage end-to-end lifecycles for 20+ projects, processing high-volume {coord|transactions} and {data|feedback loops} to optimize operations" },
+        { "text": "Establish {cross|cross-functional} processes and {coord|documentation} for 70+ staff, streamlining operations and reducing onboarding time by 75%" },
+        { "text": "Facilitate listening sessions to analyze needs of 25 global {cross|stakeholders}, resulting in 3 new learning programs best aligned with needs" },
+        { "text": "Facilitate {prog|training} webinars for 600+ participants, boosting program engagement and achieving a 78% program enrollment rate" }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management" },
+        { "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details" },
+        { "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months" },
+        { "text": "Organized campus recruiting events and moderated panels with C-suite executives at top universities to attract talent" }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        { "text": "Analyzed 2,000+ employee responses, reporting insights and recommending actions to the C-suite for employee engagement" },
+        { "text": "Led a manager effectiveness initiative, translating {data|data} into actionable reports demonstrating impact on employee engagement" },
+        { "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review" },
+        { "text": "Elevated employee experience through projects focused on engagement, rewards &amp; recognition, survey development, and {prog|L&amp;D}" }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Upskill HR team in {data|data analytics} to audit 300+ leave cases, successfully refuting cost assumptions via {data|evidence-based insights}" },
+        { "text": "Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": ["Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": ["Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>HR Systems:</b> HRIS (SAP, Rippling, ADP) · ATS (Greenhouse) · Compensation, Benefits & Leave Administration",
+    "<b>Data & PM Tools:</b> Data Analysis (Excel, Google Sheets, SPSS) · Project Management (Asana, Airtable) · HR Metrics & Reporting",
+    "<b>Productivity:</b> Microsoft Office (Word, PowerPoint, Excel) · Google Workspace · AI Tools (ChatGPT, Gemini)",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "Stanford University — Sr. HR Support Specialist",
+    "sections": []
+  },
+  "changeLog": [
+    "2026-05-30: Tailored for Stanford University — Sr. HR Support Specialist (90% operational/transactional, remote-eligible, 2 yrs req — cleanest fit). Cap-exempt H-1B sponsor. Location → Portland, OR (Open to Remote or Relocation) since role is remote-eligible. Summary → People Operations umbrella, 'accurate, detail-oriented' approach to mirror JD's 'strong accuracy and attention to detail.' Vestas FIRST + ops-leaning: led with onboarding-process optimization, M&A employee-record migration (maps to JD's high-volume transactions/personnel changes), ER-with-confidentiality (JD's 'highly sensitive/personal information'). InGenius worded toward 'high-volume transactions' + documentation. Kronos elevated (talent acquisition / job postings / screening = JD's TA support). Skills → HR Systems adds Comp/Benefits/Leave Administration + HR Metrics & Reporting (JD: comp/benefits transactions, disability/leave, HRIS data entry, HR metrics). Clean fit: only 2 yrs req, Jamie has ~3."
+  ]
+}

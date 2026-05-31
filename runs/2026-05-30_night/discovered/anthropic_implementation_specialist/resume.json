@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "company": "Anthropic",
+    "role": "Implementation Specialist",
+    "date": "2026-05-30",
+    "pageMargins": { "top": "0.35in", "right": "0.45in", "bottom": "0.35in", "left": "0.45in" },
+    "autoFit": true,
+    "fontRange": [8.5, 10.0]
+  },
+  "header": {
+    "location": "San Francisco, CA (Open to Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Strategic Program Manager</b> who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve how teams adopt and deliver—through human-centered, data-driven approaches.",
+  "keywordGroups": {
+    "data": "Data/Analytics",
+    "coord": "Coordination/Ops",
+    "cross": "Stakeholders/Collab",
+    "ex": "Adoption/Enablement",
+    "tools": "Tools/Systems",
+    "prog": "Programs/Delivery"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Program Manager, Enablement",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Manage end-to-end {prog|lifecycles} for 20+ concurrent projects, authoring SOPs and {coord|handoff documentation} to keep cross-functional delivery on track" },
+        { "text": "Run technical working sessions and {prog|live onboarding} for 600+ participants, building resource libraries that cut onboarding time by 75%" },
+        { "text": "Serve as primary liaison across {cross|Marketing, Tech, and Sales} and 10+ vendors, refining program positioning and delivery strategy" },
+        { "text": "Facilitate listening sessions with 25 global {cross|stakeholders}, translating feedback into 3 new programs and a 78% enrollment rate" }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Facilitate CEO/HR discovery and stakeholder interviews to diagnose operational drivers and configure evidence-based process solutions" },
+        { "text": "Conduct focus groups and 1:1 interviews with an NGO leadership team to resolve cross-functional process and accountability gaps" }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        { "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed engagement strategies" },
+        { "text": "Analyzed 2,000+ employee responses, reporting insights and recommending actions to the C-suite for {ex|adoption} of new programs" },
+        { "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review" },
+        { "text": "Improved {ex|stakeholder experience} via 5 {cross|cross-functional} projects focusing on survey development, rewards & recognition, and L&D" }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        { "text": "Optimized onboarding processes across 3 global locations by conducting process analysis and clarifying job responsibilities" },
+        { "text": "Facilitated organizational change by directing a Merger & Acquisition project, migrating and merging employee records across systems" },
+        { "text": "Streamlined immigration and relocation processes through close coordination with attorneys and {cross|cross-functional} teams" },
+        { "text": "Piloted an Inclusive Leadership workshop for 12 senior leaders, later scaled to 23 global locations" }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management" },
+        { "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details" },
+        { "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months" },
+        { "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": ["Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": ["Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping engagement for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Program & PM Tools:</b> Project Management (Asana, Airtable) · Knowledge Management (SharePoint, Notion) · CRM (HubSpot)",
+    "<b>Data & Systems:</b> Data Analysis (Excel, Google Sheets, SPSS) · HRIS/SaaS Admin (SAP, Rippling, ADP) · ATS (Greenhouse)",
+    "<b>Productivity:</b> AI Tools (Claude, ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint, Excel) · Google Workspace",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)"
+  ],
+  "jd": {
+    "meta": "Anthropic — Implementation Specialist",
+    "sections": []
+  },
+  "changeLog": [
+    "2026-05-30: Tailored for Anthropic — Implementation Specialist. Location → San Francisco, CA (role base). Summary → Strategic Program Manager, adoption/delivery flavor. InGenius → Set F (Ops/PM): end-to-end lifecycles, SOPs + handoff documentation, technical working sessions + onboarding, cross-functional liaison (Marketing/Tech/Sales) + vendors, 78% enrollment. Reordered InGenius to lead (most relevant). ODN → Pair B (diagnostic/process). Vestas → onboarding/process + M&A systems migration. Skills → dropped HRCI, led with PM + KM tools, added Claude to AI tools; trimmed LMS as not JD-relevant. NOTE: role is a deeply technical IdP/SSO/SCIM implementation role — genuine stretch; tailored to the truthful implementation/onboarding/runbook/enablement overlap only."
+  ]
+}

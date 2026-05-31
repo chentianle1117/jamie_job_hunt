@@ -1,0 +1,101 @@
+{
+  "role_id": "uportland_progmgrcommunity_2026-05-25",
+  "audited_at": "2026-05-26T00:00:00",
+  "audited_by": "adversarial-audit-agent",
+
+  "resume_audit": {
+    "claims_verified": 13,
+    "claims_unverified": 1,
+    "potential_hallucinations": [
+      {
+        "claim": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants",
+        "location": "Kronos Research bullet",
+        "source_found": "partial",
+        "detail": "The '230+ students and 80+ applicants' numbers appear in jamie/resume.json (base resume) but NOT in content_library.md. content_library.md Kronos bullet says 'Organized campus recruiting events and moderated panels with C-suite executives at top universities to attract talent' — no specific numbers. Numbers exist in the official base resume.json so likely real, but cannot be verified against content_library.md alone.",
+        "recommendation": "Treat as low-risk — numbers appear in official resume.json. No action needed unless Jamie cannot recall the specific figures."
+      }
+    ],
+    "notes": [
+      "75% onboarding time reduction (InGenius) — VERIFIED",
+      "25+ global stakeholders, 3 new programs (InGenius) — VERIFIED",
+      "20+ programs, 10+ vendors (InGenius Engagement/PM variant) — VERIFIED against content_library.md 'Manage 20+ programs and 10+ vendors'",
+      "600+ participants, 78% program enrollment rate (InGenius PM/Engagement variant) — VERIFIED",
+      "Targeting 5%+ absenteeism reduction (ODN Pair B) — VERIFIED against content_library.md",
+      "DEI pilot for 12 senior leaders expanded to 23 other global locations (Vestas) — VERIFIED",
+      "M&A project (Vestas) — VERIFIED",
+      "3 global locations onboarding (Vestas) — VERIFIED",
+      "Strengthened engagement via HR newsletter and award-winning well-being initiatives recognized among 1,000+ competitors — VERIFIED (matches content_library.md 'HR Award-winning communications strategy, outperforming 1,000+ competitors')",
+      "566% applications increase (Kronos) — VERIFIED",
+      "2,000+ employee responses (NextGen) — VERIFIED",
+      "USC GPA 3.95, Wesleyan 4.00 — VERIFIED",
+      "Elanco, YouTube consulting projects — VERIFIED against content_library.md"
+    ],
+    "verdict": "CLEAN"
+  },
+
+  "cover_audit": {
+    "claims_verified": 6,
+    "claims_unverified": 1,
+    "potential_hallucinations": [
+      {
+        "claim": "facilitating training webinars for 600+ participants across different countries",
+        "location": "Paragraph 3",
+        "source_found": true,
+        "detail": "600+ participants VERIFIED. 'Different countries' — content_library.md says '25+ global stakeholders' which implies international scope. The cover letter extrapolates that participants were 'across different countries' which is a reasonable inference but not stated explicitly in content_library.md. Low risk — treat as narrative license.",
+        "recommendation": "Low risk — acceptable narrative framing."
+      }
+    ],
+    "notes": [
+      "20+ programs and 10+ vendors — VERIFIED",
+      "onboarding materials cut ramp-up time by 75% — VERIFIED",
+      "needs assessments with 25+ global stakeholders, 3 new programs — VERIFIED",
+      "University of Portland Jesuit mission reference — factual (UP is a Catholic/Jesuit university). Not fabricated.",
+      "No invented company-specific accomplishments or hallucinated recent initiatives referenced.",
+      "Master's Capstone description re YouTube — correctly described as 'non-monetary factors shaping survey engagement' per content_library.md"
+    ],
+    "verdict": "CLEAN"
+  },
+
+  "recipient_audit": {
+    "contacts_verified": 2,
+    "contacts_unverified": 0,
+    "per_contact": [
+      {
+        "name": "Ell Pat",
+        "claimed_title": "Assistant Director, Moreau Center for Service and Leadership at University of Portland",
+        "linkedin_url_in_targets": "https://www.linkedin.com/in/ell-pat-a4b96016/",
+        "linkedin_verified": true,
+        "title_matches": true,
+        "search_query_used": "Ell Pat University of Portland Moreau Center linkedin assistant director",
+        "notes": "LinkedIn profile confirmed in search result: 'Ell Pat - Assistant Director, Moreau Center for Service and Leadership at University of Portland'. Also confirmed by ZoomInfo. Name, title, and institution all match.",
+        "verdict": "VERIFIED"
+      },
+      {
+        "name": "Yongxin Lin",
+        "claimed_title": "University of Portland Moreau Center For Service & Justice staff",
+        "linkedin_url_in_targets": "https://www.linkedin.com/in/yongxinlin/",
+        "linkedin_verified": true,
+        "title_matches": true,
+        "search_query_used": "Yongxin Lin University of Portland Moreau Center linkedin",
+        "notes": "LinkedIn profile confirmed: 'Yongxin Lin - University of Portland Moreau Center For Service & Justice'. Profile shows location as Honolulu — may indicate they are no longer at UP in person or role has changed. University is still listed on profile per search result. Low concern.",
+        "verdict": "VERIFIED"
+      }
+    ]
+  },
+
+  "jd_coherence_audit": {
+    "verdict": "CLEAN",
+    "notes": [
+      "Cover letter centers program operations, stakeholder listening, documentation, and community-centered design — all appropriate for a Community Engagement PM role.",
+      "Jesuit mission reference is accurate for University of Portland — not guessed/fabricated.",
+      "No JD-specific claims made about programs that don't exist or initiatives Jamie couldn't know about.",
+      "University of Portland is cap-exempt (listed in profile_compact.md) — H1B angle correctly handled (not mentioned explicitly, no need to)."
+    ]
+  },
+
+  "overall_verdict": "CLEAR_TO_APPLY",
+  "required_fixes": [],
+  "minor_notes": [
+    "Yongxin Lin shows Honolulu location — outreach may not reach a current UP staff member. Low priority contact — Ell Pat is primary."
+  ]
+}

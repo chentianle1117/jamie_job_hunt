@@ -1,0 +1,34 @@
+{
+  "role_id": "uportland_progmgrcommunity_2026-05-25",
+  "company": "University of Portland",
+  "role": "Program Manager, Community Engagement (Moreau Center for Service and Leadership)",
+  "location": "Portland, OR",
+  "contacts_found": [
+    {
+      "name": "Ell Pat",
+      "title": "Assistant Director, Moreau Center for Service and Leadership",
+      "company": "University of Portland",
+      "linkedin_url": "https://www.linkedin.com/in/ell-pat-a4b96016/",
+      "connection_type": "Direct team member — reports to same center this role sits in",
+      "alumni_tie": null,
+      "rationale": "Most direct contact: Assistant Director at the Moreau Center is likely a peer or immediate colleague of the Program Manager role. Has community engagement specialization and experiential learning background. Highest value warm intro.",
+      "outreach_priority": 1
+    },
+    {
+      "name": "Yongxin Lin",
+      "title": "University of Portland Moreau Center For Service & Justice staff",
+      "company": "University of Portland",
+      "linkedin_url": "https://www.linkedin.com/in/yongxinlin/",
+      "connection_type": "Direct team member — same center",
+      "alumni_tie": null,
+      "rationale": "Another Moreau Center staff member — Chinese name, potentially interesting cultural connection for Jamie. Good secondary contact.",
+      "outreach_priority": 2
+    }
+  ],
+  "alumni_found": 0,
+  "alumni_note": "No USC or Wesleyan alumni confirmed at University of Portland Moreau Center from search results. Portland-move personal anchor is the strongest hook for all Portland-area contacts.",
+  "search_queries_used": [
+    "site:linkedin.com/in \"University of Portland\" \"Moreau Center\" OR \"community engagement\" director OR manager",
+    "site:linkedin.com/in \"University of Portland\" \"Wesleyan\" OR \"USC\" student affairs OR \"community engagement\" OR \"social justice\""
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "role_id": "sandvik_hr_2026-05-25",
+  "company": "Sandvik Inc (Sandvik Mining and Rock Solutions USA)",
+  "role": "HR Specialist / Training & Development (Alachua, FL)",
+  "location": "Alachua, FL",
+  "contacts_found": [
+    {
+      "name": "Sandvik US HR Team (generic inbox)",
+      "title": "N/A",
+      "company": "Sandvik Inc",
+      "email": "hrsupport.us@Sandvik.com",
+      "linkedin_url": null,
+      "connection_type": "Generic US HR inbox — use when no individual contact is verified",
+      "alumni_tie": null,
+      "rationale": "No individual HR contact confirmed at Alachua facility. Generic US HR inbox is the safest fallback for cold email outreach.",
+      "outreach_priority": 1,
+      "note": "LinkedIn outreach N/A — no verified individual to contact"
+    },
+    {
+      "name": "Anthony Bowman",
+      "title": "HR Generalist (former Sandvik, now The Arc)",
+      "company": "Former Sandvik — Gainesville area",
+      "linkedin_url": "https://www.linkedin.com/in/adb89/",
+      "connection_type": "Former HR Generalist at Sandvik — Gainesville area",
+      "alumni_tie": null,
+      "rationale": "Former Sandvik HR team member in the Gainesville/Alachua area — may speak candidly about culture and team structure. Secondary intel source only, not a primary outreach target.",
+      "outreach_priority": 2
+    }
+  ],
+  "wrong_target_do_not_use": [
+    {
+      "name": "Petri Liljaranta",
+      "title": "Supply Chain / Procurement VP (Finland)",
+      "company": "Sandvik — Finland, not Alachua",
+      "linkedin_url": "https://www.linkedin.com/in/petri-liljaranta-9b9b696a/",
+      "reason": "Wrong person entirely — Finland-based Supply Chain VP, not HR at Alachua facility. Do not contact for this role.",
+      "flagged_date": "2026-05-26"
+    }
+  ],
+  "alumni_found": 0,
+  "alumni_note": "No USC or Wesleyan alumni confirmed at Sandvik Alachua. Sandvik is a Swedish multinational — mentioning international background / multicultural awareness could be a relevant hook. Note: full JD not confirmed — Jamie should verify posting is live before sending outreach.",
+  "search_queries_used": [
+    "site:linkedin.com/in \"Sandvik\" \"HR\" OR \"training development\" OR \"talent\" Alachua OR Florida OR \"North America\"",
+    "site:linkedin.com/in \"Sandvik\" Alachua OR Florida \"HR\" OR \"human resources\" OR \"training\" manager OR specialist"
+  ]
+}

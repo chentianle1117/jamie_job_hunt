@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "company": "OpenAI",
+    "role": "Onboarding & Enablement Program Manager, FDE",
+    "date": "2026-05-30",
+    "pageMargins": { "top": "0.3in", "right": "0.45in", "bottom": "0.3in", "left": "0.45in" },
+    "autoFit": true,
+    "fontRange": [8.5, 10.0]
+  },
+  "header": {
+    "location": "San Francisco, CA (Open to Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Strategic Program Manager</b> who thrives on <b>solving problems through data analysis</b>, <b>building enablement systems grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve how teams ramp and execute—through human-centered, data-driven approaches.",
+  "keywordGroups": {
+    "data": "Data/Outcomes",
+    "coord": "Systems/Ops",
+    "cross": "Stakeholders/Collab",
+    "ex": "Onboarding/Ramp",
+    "tools": "AI/Tools",
+    "prog": "Enablement/Programs"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Program Manager, Enablement",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Build {prog|onboarding and enablement} systems—pathways, playbooks, and knowledge assets—that {ex|ramp} new team members and reduced ramp time by 75%" },
+        { "text": "Codify patterns and lessons into reusable {prog|resources}, leveraging {tools|AI tools} and automation for compounding leverage over one-off solutions" },
+        { "text": "Operate the core cadence behind 20+ programs: planning, {cross|stakeholder} coordination, content refresh, and scheduling across teams" },
+        { "text": "Measure ramp and enablement effectiveness via {data|adoption signals and feedback loops}, using data to improve the system over time" }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        { "text": "Analyzed 2,000+ employee experiences, turning {data|adoption and feedback signals} into actionable reports that guided C-suite decisions" },
+        { "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into structured guidance that strengthened execution consistency" },
+        { "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review" },
+        { "text": "Improved {ex|team experience} via 5 {cross|cross-functional} projects focusing on survey development, rewards &amp; recognition, and L&amp;D" }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        { "text": "Optimized {ex|onboarding} processes across 3 global locations by conducting process analysis and clarifying job responsibilities" },
+        { "text": "Piloted an Inclusive Leadership workshop for 12 senior leaders, later scaled to 23 global locations" },
+        { "text": "Directed a Mergers &amp; Acquisitions project, aligning {cross|cross-functional} stakeholders through structured change management" },
+        { "text": "Strengthened {ex|engagement} via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors" }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Developed proficiency across HR functions, ranging from recruitment and compensation to performance management" },
+        { "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details" },
+        { "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months" },
+        { "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants" }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Facilitate CEO/HR discovery and stakeholder interviews to diagnose drivers and bring structure to ambiguous, fast-changing knowledge" },
+        { "text": "Upskill HR to audit 300+ leave cases, turning informal knowledge into clear, repeatable systems others can rely on" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": ["Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": ["Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Program & Knowledge Systems:</b> Project Management (Asana, Airtable) · Knowledge Management (Notion, SharePoint) · Playbooks &amp; SOPs",
+    "<b>Data & Tools:</b> Data Analysis (Excel, Google Sheets, SPSS) · AI Tools (ChatGPT, Gemini) · Workflow Automation · CRM (HubSpot)",
+    "<b>Productivity:</b> Microsoft Office (Word, PowerPoint, Excel) · Google Workspace · Slack · HRIS (SAP, Rippling, ADP) · ATS (Greenhouse)",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "OpenAI — Onboarding & Enablement Program Manager, FDE",
+    "sections": []
+  },
+  "changeLog": [
+    "2026-05-30: Tailored for OpenAI — Onboarding & Enablement PM, FDE (SF; AI-native enablement systems for technical teams, compounding leverage, playbooks, knowledge systems, ramp metrics). Header → SF (Open to Relocation). Title noun → Strategic Program Manager. Lead InGenius (Set D tech/AI emphasis: build enablement systems/playbooks/knowledge assets, codify reusable resources via AI for compounding leverage, operate cadence, measure ramp via adoption signals). NextGen → adoption/feedback signals + execution consistency. Vestas → onboarding + scaled across >1 team. ODN Pair B (bring structure to ambiguity, turn informal knowledge into repeatable systems). Skills → Program & Knowledge Systems led (Notion/SharePoint OK — JD names knowledge systems); AI Tools + Workflow Automation. HRCI kept (still People-adjacent)."
+  ]
+}

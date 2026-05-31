@@ -1,0 +1,43 @@
+{
+  "role_id": "uportland_progmgrsocialjustice_2026-05-25",
+  "verified_at": "2026-05-26T00:00:00Z",
+  "primary_target": {
+    "name": "Ell Pat",
+    "claimed_title": "Assistant Director, Moreau Center for Service and Leadership, University of Portland",
+    "linkedin_url": "https://www.linkedin.com/in/ell-pat-a4b96016/",
+    "profile_verified": true,
+    "actual_title_on_profile": "Assistant Director, Moreau Center for Service and Leadership",
+    "actual_company_on_profile": "University of Portland",
+    "tenure_at_company": "16 years 8 months (Oct 2009 – present)",
+    "recent_activity_summary": "No posts. 80 connections. Minimal LinkedIn presence — same assessment as Community Engagement role. NOTE: This is the same person as the primary target for uportland_progmgrcommunity_2026-05-25.",
+    "department_or_team": "Moreau Center for Service and Leadership — same center as this Social Justice Education PM role",
+    "any_red_flags": [
+      "Same contact as Community Engagement role — DO NOT send near-identical messages or send both simultaneously.",
+      "Targets.json already flags: Jamie should send DIFFERENT messages for each UP role, stagger by 5–7 days, send Community Engagement first.",
+      "Very low LinkedIn engagement — email via UP staff directory is more reliable than LinkedIn message."
+    ],
+    "verdict": "GO_AHEAD"
+  },
+  "outreach_message_coherence": {
+    "linkedin_msg_refs_verified": true,
+    "email_refs_verified": true,
+    "hallucinated_references": [],
+    "notes": "LinkedIn message references 'you work at the Moreau Center at U of Portland' — confirmed accurate. Email references 'your work as Assistant Director there, leading experiential learning and community engagement' — accurate characterization. Email also references 'Catholic Social Teaching framework' — this is a reasonable inference about the Moreau Center's identity (University of Portland is a Catholic institution) and signals genuine cultural awareness. Not a fabricated claim. Both messages are factually clean and well-differentiated from the Community Engagement versions."
+  },
+  "warm_intros_found": [],
+  "alternative_targets_if_needed": [
+    {
+      "name": "Irene Routté",
+      "linkedin_url": "https://www.linkedin.com/in/irene-routte-57819714/ (URL 404s — profile may be deactivated or URL changed)",
+      "title": "Doctoral Candidate at University of Michigan (former Service and Justice Coordinator at L'Arche @ University of Portland)",
+      "rationale": "Already listed in targets.json as outreach_priority 2 and as the recommended alternative if Jamie has already messaged Ell Pat for the Community Engagement role. Web search confirms she is now a doctoral candidate at U of Michigan, no longer at UP. Her LinkedIn URL returns 404. She may still have relevant contacts at UP — but she is not a current UP employee. Use only as last resort if Ell Pat has already been messaged for the other UP role and a second message would seem redundant."
+    }
+  ],
+  "final_recommendation": {
+    "should_use_primary_target": true,
+    "should_use_warm_intro_first": false,
+    "should_send_outreach_as_drafted": true,
+    "messages_need_rewrite": false,
+    "notes": "Messages are clean. Key operational constraint: (1) send Community Engagement message to Ell Pat FIRST, (2) wait 5–7 days, (3) send this Social Justice message as a follow-up reference to the first (or as a separate outreach if the first generated no response). Prioritize email via UP staff directory over LinkedIn given Ell's minimal LinkedIn activity. Irene Routté's LinkedIn URL is dead — do not use that URL."
+  }
+}

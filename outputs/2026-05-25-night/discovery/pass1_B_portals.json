@@ -1,0 +1,72 @@
+{
+  "agent": "discovery_B_portals",
+  "candidates": [
+    {
+      "id": "psu_employeerelationsspec_2026-05-25",
+      "title": "Employee Relations Specialist",
+      "company": "Portland State University",
+      "location": "Portland, OR",
+      "work_type": "onsite",
+      "url": "https://jobs.hrc.pdx.edu/postings/49783",
+      "posted_date": "2026-05-12",
+      "snippet": "Provides direct support to campus in handling employee relations matters including coaching, performance management, progressive discipline, dispute resolution, and grievance processing. Bachelor's degree plus 2 years directly related experience required. Salary $61,200-$69,326.",
+      "yoe_signal": "2 years directly related experience or equivalent",
+      "discovery_source": "psu_portal"
+    },
+    {
+      "id": "psu_recruitingcoord_2026-05-25",
+      "title": "Recruiting Coordinator",
+      "company": "Portland State University",
+      "location": "Portland, OR",
+      "work_type": "onsite",
+      "url": "https://jobs.hrc.pdx.edu/postings/49854",
+      "posted_date": "2026-05-21",
+      "snippet": "Responsible for assisting with full-cycle recruitments and providing search committee support. Salary $55,020-$61,898. NOTE: Initial posting restricted to current PSU employees. Close date 06/05/2026.",
+      "yoe_signal": "no explicit minimum",
+      "discovery_source": "psu_portal"
+    },
+    {
+      "id": "uportland_progmgrcommunity_2026-05-25",
+      "title": "Program Manager, Community Engagement",
+      "company": "University of Portland",
+      "location": "Portland, OR",
+      "work_type": "onsite",
+      "url": "https://uportland.peopleadmin.com/postings/5095",
+      "posted_date": "2026-03-19",
+      "snippet": "Develops and facilitates student engagement opportunities through active learning and service. Supervises Campus Volunteer Coordinator program (3-6 student leaders), manages Community Service Work Study (15-25 students). Moreau Center. Starting $49,310.",
+      "yoe_signal": "Minimum 2 years in social justice, community engagement, volunteer coordination",
+      "discovery_source": "uportland_portal"
+    },
+    {
+      "id": "uportland_progmgrsocialjustice_2026-05-25",
+      "title": "Program Manager, Social Justice Education",
+      "company": "University of Portland",
+      "location": "Portland, OR",
+      "work_type": "onsite",
+      "url": "https://uportland.peopleadmin.com/postings/5027",
+      "posted_date": "2026-03-19",
+      "snippet": "Advances Moreau Center Social Justice programming focused on increasing student involvement in social justice initiatives. Full-time exempt staff role.",
+      "yoe_signal": "Not extracted",
+      "discovery_source": "uportland_portal"
+    },
+    {
+      "id": "osu_areadirstafftraining_2026-05-25",
+      "title": "Area Director for Student Staff Selection, Training, & Development",
+      "company": "Oregon State University",
+      "location": "Corvallis, OR",
+      "work_type": "onsite",
+      "url": "https://jobs.oregonstate.edu/postings/180087",
+      "posted_date": "2026-05-14",
+      "snippet": "Leads recruitment, selection, and training of student and professional staff in University Housing & Dining. Master's degree required (College Student Services or related). 2 years professional experience in residential education. Salary $61,000-$67,000. Includes furnished apartment + meal plan. Closes 05/27/2026.",
+      "yoe_signal": "2 years professional experience in residential education",
+      "discovery_source": "osu_portal"
+    }
+  ],
+  "duration_total_s": 420,
+  "notes": [
+    "OHSU and Fred Hutch iCIMS portals failed to render via WebFetch (JS-heavy)",
+    "EY: 0 People Consulting US openings at Staff/Senior Consultant level — confirms canary insight",
+    "OSU Area Director closes 2026-05-27 — URGENT 2-day deadline",
+    "PSU Recruiting Coordinator initially internal-only — may still progress"
+  ]
+}

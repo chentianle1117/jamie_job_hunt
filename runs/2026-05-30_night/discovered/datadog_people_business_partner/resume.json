@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "company": "Datadog",
+    "role": "People Business Partner",
+    "date": "2026-05-30",
+    "pageMargins": { "top": "0.35in", "right": "0.45in", "bottom": "0.35in", "left": "0.45in" },
+    "autoFit": true,
+    "fontRange": [8.5, 10.0]
+  },
+  "header": {
+    "location": "New York, NY (Open to Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Human Resources</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing people programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve people experience—through human-centered, data-driven approaches.",
+  "keywordGroups": {
+    "data": "Data/Analytics",
+    "coord": "Coordination/Ops",
+    "cross": "Stakeholders/Collab",
+    "ex": "Employee Experience",
+    "tools": "Tools/Systems",
+    "prog": "Programs/People"
+  },
+  "experience": [
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        { "text": "Delivered strategic HR solutions for business priorities across projects in employee relations, headcount, and succession planning" },
+        { "text": "Assisted in employee relations cases, ensuring compliance with local labor laws and fostering a positive work environment" },
+        { "text": "Supported HRBP team by piloting an Inclusive Leadership workshop for senior leaders, later scaled to 23 global locations" },
+        { "text": "Optimized onboarding processes across 3 global locations by conducting process analysis and clarifying job responsibilities" }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        { "text": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on satisfaction drivers" },
+        { "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed engagement strategies" },
+        { "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review" },
+        { "text": "Improved {ex|employee experience} via 5 {cross|cross-functional} projects focusing on survey development, rewards & recognition, and L&D" }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Upskill HR team in {data|data analytics} to audit 300+ leave cases, successfully refuting cost assumptions via {data|evidence-based insights}" },
+        { "text": "Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training" }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Establish {cross|cross-functional} processes and documentation for 70+ staff, streamlining operations and reducing onboarding time by 75%" },
+        { "text": "Manage end-to-end lifecycles for 20+ projects, utilizing {data|feedback loops} to optimize operational strategies and vendor performance" },
+        { "text": "Facilitate listening sessions to analyze needs of 25 global {cross|stakeholders}, resulting in 3 new {prog|programs} best aligned with needs" },
+        { "text": "Facilitate training webinars for 600+ participants, boosting {ex|program} engagement and achieving a 78% program enrollment rate" }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management" },
+        { "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details" },
+        { "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months" },
+        { "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": ["Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": ["Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>HR Systems:</b> HRIS (Workday, SAP, Rippling, ADP) · ATS (Greenhouse) · LMS (Canvas, Moodle)",
+    "<b>Data & PM Tools:</b> Data Analysis (Excel, Google Sheets, SPSS) · Project Management (Asana, Airtable) · CRM (HubSpot)",
+    "<b>Productivity:</b> AI Tools (ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint, Excel) · Google Workspace",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "Datadog — People Business Partner (NYC)",
+    "sections": []
+  },
+  "changeLog": [
+    "2026-05-30: Tailored for Datadog — People Business Partner, NYC (HRBP: performance mgmt, career dev, comp, employee relations, data-driven consulting, global ER; Workday HRIS). Location → New York, NY (Open to Relocation). Summary → Human Resources umbrella, people programs. LED with Vestas HR variant (strategic HR solutions across ER/headcount/succession + ER cases + compliance) — most HRBP-relevant. NextGen 2nd (2,000+ analysis + data-driven engagement). ODN 3rd (data-driven diagnosis). InGenius → Set H. Skills: added Workday to HRIS (JD prefers Workday). HRCI included."
+  ]
+}

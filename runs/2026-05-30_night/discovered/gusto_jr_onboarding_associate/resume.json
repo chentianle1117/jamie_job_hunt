@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "company": "Gusto",
+    "role": "Jr. Onboarding Associate",
+    "date": "2026-05-30",
+    "pageMargins": { "top": "0.35in", "right": "0.45in", "bottom": "0.35in", "left": "0.45in" },
+    "autoFit": true,
+    "fontRange": [8.5, 10.0]
+  },
+  "header": {
+    "location": "Portland, OR (Open to Remote or Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>People Program Manager</b> who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve onboarding and customer experience—through human-centered, data-driven approaches.",
+  "keywordGroups": {
+    "data": "Data/AI",
+    "coord": "Onboarding/Service",
+    "cross": "Stakeholders/Collab",
+    "ex": "Customer Experience",
+    "tools": "Tools/Systems",
+    "prog": "Programs/Training"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Guide customers and stakeholders through {coord|onboarding} milestones across 20+ programs, reducing onboarding time by 75% via clear documentation" },
+        { "text": "Identify customer needs and execute outreach that yields an average of 40+ new leads monthly, building consultative product expertise" },
+        { "text": "Deliver live {prog|training} and webinars for 600+ participants, driving product understanding and a 78% program enrollment rate" },
+        { "text": "Use {data|AI tools} for communications and feedback analysis, collaborating across {cross|Marketing, Tech, and Sales} teams to improve workflows" }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Facilitate CEO/HR discovery and stakeholder interviews to diagnose drivers and recommend evidence-based solutions" },
+        { "text": "Upskill the client team in {data|data analytics} to audit 300+ cases, refuting cost assumptions via evidence-based insights" }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        { "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed engagement strategies" },
+        { "text": "Analyzed 2,000+ {ex|customer/employee experiences} to amplify voice and guide C-suite decisions on satisfaction drivers" },
+        { "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review" },
+        { "text": "Improved {ex|experience} via 5 {cross|cross-functional} projects focusing on survey development, rewards & recognition, and L&D" }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        { "text": "Optimized {coord|onboarding processes} across 3 global locations by conducting process analysis and clarifying responsibilities" },
+        { "text": "Piloted an Inclusive Leadership workshop for 12 senior leaders, later scaled to 23 global locations" },
+        { "text": "Directed a Merger & Acquisition project, migrating and merging employee records across systems" },
+        { "text": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors" }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management" },
+        { "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details" },
+        { "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months" },
+        { "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": ["Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": ["Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping engagement for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Program & PM Tools:</b> Project Management (Asana, Airtable) · CRM (HubSpot) · Knowledge Management (SharePoint, Notion)",
+    "<b>Data & Systems:</b> Data Analysis (Excel, Google Sheets, SPSS) · HRIS/SaaS Admin (SAP, Rippling, ADP)",
+    "<b>Productivity:</b> AI Tools (ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint, Excel) · Google Workspace",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)"
+  ],
+  "jd": {
+    "meta": "Gusto — Jr. Onboarding Associate",
+    "sections": []
+  },
+  "changeLog": [
+    "2026-05-30: Tailored for Gusto — Jr. Onboarding Associate (Denver/Chicago/LV/Phoenix remote → Portland header, remote-eligible). Summary → People Program Manager, onboarding/customer-experience flavor. InGenius → onboarding-milestone guidance + customer needs/40+ leads monthly (consultative-selling resonance) + live training + AI tools for comms (JD requires day-to-day AI integration). Reordered to lead with onboarding. ODN → Pair A/diagnostic mix. NextGen → 'customer/employee experiences'. Vestas → onboarding lead. Skills → CRM (HubSpot) surfaced for sales-onboarding fit, AI tools kept, dropped HRCI/LMS. NOTE: entry-level sales/CS onboarding role with quota/cross-sell focus — Jamie is over-qualified on program side but lighter on quota sales; truthful overlap on onboarding, consultative service, AI fluency, customer empathy."
+  ]
+}

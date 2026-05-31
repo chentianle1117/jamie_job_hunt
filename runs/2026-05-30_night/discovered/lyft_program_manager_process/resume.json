@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "company": "Lyft",
+    "role": "Program Manager, Process Excellence & Standards",
+    "date": "2026-05-30",
+    "pageMargins": { "top": "0.35in", "right": "0.45in", "bottom": "0.35in", "left": "0.45in" },
+    "autoFit": true,
+    "fontRange": [8.5, 10.0]
+  },
+  "header": {
+    "location": "Nashville, TN (Open to Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Strategic Program Manager</b> who thrives on <b>solving problems through data analysis</b>, <b>developing processes grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can drive operational excellence—through human-centered, data-driven approaches.",
+  "keywordGroups": {
+    "data": "Data/Metrics",
+    "coord": "Process/Standards",
+    "cross": "Cross-functional",
+    "ex": "Compliance/Adherence",
+    "tools": "Tools/Systems",
+    "prog": "Programs/Continuous Improvement"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Program Manager, Enablement",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Manage the {coord|document library, SOPs,} and version control across 20+ programs and 100+ operational standards" },
+        { "text": "Oversee the end-to-end {prog|lifecycle} of process updates from intake through implementation, driving continuous improvement via feedback" },
+        { "text": "Partner across {cross|Marketing, Tech, and Sales} teams and 10+ vendors to assess {ex|adherence} and align stakeholders on standards" },
+        { "text": "Establish {data|metrics} and documentation for 70+ staff, streamlining operations and reducing onboarding time by 75%" }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Facilitate CEO/HR discovery and stakeholder interviews to diagnose operational drivers and design audit cycles that validate standards" },
+        { "text": "Upskill the client team to audit 300+ cases and quantify costs, refuting assumptions via {data|data analysis} to drive process change" }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        { "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed operational strategies" },
+        { "text": "Analyzed 2,000+ responses, reporting {data|data-driven insights} and recommendations to the C-suite" },
+        { "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review" },
+        { "text": "Delivered 5 {cross|cross-functional} projects focusing on survey development, rewards & recognition, and L&D" }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        { "text": "Optimized {coord|onboarding processes} across 3 global locations by conducting process analysis and clarifying responsibilities" },
+        { "text": "Assisted in employee relations cases, ensuring {ex|compliance} with local labor laws and confidentiality" },
+        { "text": "Directed a Merger & Acquisition project, migrating and merging employee records across systems with version control" },
+        { "text": "Piloted an Inclusive Leadership workshop for 12 senior leaders, later scaled to 23 global locations" }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management" },
+        { "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details" },
+        { "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months" },
+        { "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": ["Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": ["Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping engagement for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Program & PM Tools:</b> Project Management (Asana, Airtable) · Knowledge Management (SharePoint, Notion) · CRM (HubSpot)",
+    "<b>Data & Systems:</b> Data Analysis (Excel, Google Sheets, SPSS) · HRIS/SaaS Admin (SAP, Rippling, ADP) · ATS (Greenhouse)",
+    "<b>Productivity:</b> AI Tools (ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint, Excel) · Google Workspace",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)"
+  ],
+  "jd": {
+    "meta": "Lyft — Program Manager, Process Excellence & Standards",
+    "sections": []
+  },
+  "changeLog": [
+    "2026-05-30: Tailored for Lyft (Flexdrive) — Program Manager, Process Excellence & Standards (Nashville, TN AV Depot → Nashville header). Summary → Strategic Program Manager, 'developing processes', operational-excellence flavor. InGenius → Set F: document library/SOPs/version control + 100+ standards, end-to-end lifecycle of process updates intake→implementation, partner cross-functionally + vendors to assess adherence, metrics + documentation (direct JD language). Reordered to lead with SOP/version control. ODN → Pair B + audit-cycle framing (validate standards) + audit/quantification. Vestas → added ER/compliance + version-control on M&A migration. Skills → dropped HRCI/LMS, led with PM + KM tools. NOTE: JD wants 5+ yrs process-standardization + fleet/transportation/regulated-ops background; Jamie's is program/people — domain gap on fleet, but truthful overlap on SOP governance, version control, audit cycles, CAPA-style continuous improvement, cross-functional standards is strong."
+  ]
+}

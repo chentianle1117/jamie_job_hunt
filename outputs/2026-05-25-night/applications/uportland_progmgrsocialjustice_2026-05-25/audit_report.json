@@ -1,0 +1,95 @@
+{
+  "role_id": "uportland_progmgrsocialjustice_2026-05-25",
+  "audited_at": "2026-05-26T00:00:00",
+  "audited_by": "adversarial-audit-agent",
+
+  "resume_audit": {
+    "claims_verified": 13,
+    "claims_unverified": 1,
+    "potential_hallucinations": [
+      {
+        "claim": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants (Kronos bullet)",
+        "location": "Kronos Research experience",
+        "source_found": "partial",
+        "detail": "'230+ students and 80+ applicants' appears in jamie/resume.json (official base resume) but NOT in content_library.md. Low risk — numbers exist in official resume file.",
+        "recommendation": "No action required — numbers appear in Jamie's official base resume.json."
+      }
+    ],
+    "notes": [
+      "75% onboarding reduction (InGenius) — VERIFIED",
+      "25+ global stakeholders, 3 new programs, listening sessions (InGenius Set B) — VERIFIED",
+      "20+ programs, 10+ vendors, communications strategy (InGenius Engagement/PM variant) — VERIFIED",
+      "600+ participants, 78% program enrollment rate (InGenius PM/Engagement variant) — VERIFIED",
+      "ODN CEO/HR discovery interviews, year-round engagement & communications plan (Pair B) — VERIFIED",
+      "DEI pilot 12 senior leaders expanded to 23 other global locations (Vestas) — VERIFIED",
+      "M&A project (Vestas) — VERIFIED",
+      "3 global locations onboarding (Vestas) — VERIFIED",
+      "Strengthened engagement HR newsletter award-winning 1,000+ competitors — VERIFIED",
+      "566% applications increase (Kronos) — VERIFIED",
+      "2,000+ employee responses (NextGen) — VERIFIED",
+      "USC GPA 3.95, Wesleyan 4.00 — VERIFIED",
+      "Elanco, YouTube consulting projects — VERIFIED"
+    ],
+    "verdict": "CLEAN"
+  },
+
+  "cover_audit": {
+    "claims_verified": 6,
+    "claims_unverified": 0,
+    "potential_hallucinations": [],
+    "notes": [
+      "25+ stakeholders, listening sessions, 3 programs — VERIFIED",
+      "20+ programs operational management — VERIFIED",
+      "Inclusive Leadership pilot for senior leaders expanded to 23 global locations — VERIFIED",
+      "Catholic Social Teaching reference for University of Portland — factual (UP is Jesuit/Catholic). Not fabricated.",
+      "Cover letter includes explicit self-disclosure: 'my primary background is in organizational development and HR, not academic social justice facilitation' — this is honest and does not overclaim.",
+      "No fabricated UP-specific program references.",
+      "Irene Routté (outreach contact) confirmed real — managed Service and Justice Coordinator program at L'Arche@UP, now doctoral student at U-Michigan. targets.json accurately describes as 'former' — VERIFIED."
+    ],
+    "verdict": "CLEAN"
+  },
+
+  "recipient_audit": {
+    "contacts_verified": 2,
+    "contacts_unverified": 0,
+    "per_contact": [
+      {
+        "name": "Ell Pat",
+        "claimed_title": "Assistant Director, Moreau Center for Service and Leadership at University of Portland",
+        "linkedin_url_in_targets": "https://www.linkedin.com/in/ell-pat-a4b96016/",
+        "linkedin_verified": true,
+        "title_matches": true,
+        "search_query_used": "Ell Pat University of Portland Moreau Center linkedin assistant director",
+        "notes": "Confirmed via LinkedIn and ZoomInfo. Same contact as uportland_progmgrcommunity package — targets.json correctly notes Jamie should send DIFFERENT messages to this same person for each UP role.",
+        "verdict": "VERIFIED"
+      },
+      {
+        "name": "Irene Routté",
+        "claimed_title": "Doctoral Candidate / Community Organizer; former Service and Justice Coordinator at L'Arche @ UP",
+        "linkedin_url_in_targets": "https://www.linkedin.com/in/irene-routt%C3%A9-57819714/",
+        "linkedin_verified": true,
+        "title_matches": true,
+        "search_query_used": "Irene Routté University of Portland L'Arche linkedin social justice coordinator",
+        "notes": "Confirmed: LinkedIn profile exists. Search confirms she managed the Service and Justice Coordinator program at L'Arche@UP and developed social justice curriculum. Currently doctoral student at University of Michigan. targets.json accurately calls her 'former' — consistent with search results. She also taught at UP (Coursicle confirms faculty listing). Strong domain match for this role.",
+        "verdict": "VERIFIED"
+      }
+    ]
+  },
+
+  "jd_coherence_audit": {
+    "verdict": "CLEAN",
+    "notes": [
+      "Cover letter honestly acknowledges gap: 'my primary background is in organizational development and HR, not academic social justice facilitation.' This is appropriate and avoids overclaiming.",
+      "Catholic Social Teaching reference for UP is accurate.",
+      "Inclusive Leadership DEI pilot at Vestas is genuinely relevant to social justice education facilitation context.",
+      "No invented references to UP's specific social justice curriculum or programs."
+    ]
+  },
+
+  "overall_verdict": "CLEAR_TO_APPLY",
+  "required_fixes": [],
+  "minor_notes": [
+    "Same person (Ell Pat) targeted for both UP roles — Jamie should send distinctly different messages as flagged in targets.json.",
+    "Irene Routté is no longer at UP — outreach value is for background intel, not warm intro to hiring team."
+  ]
+}

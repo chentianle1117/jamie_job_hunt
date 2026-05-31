@@ -1,0 +1,114 @@
+{
+  "role_id": "aurora_pmpplteam_2026-05-25",
+  "audited_at": "2026-05-26T00:00:00",
+  "audited_by": "adversarial-audit-agent",
+
+  "resume_audit": {
+    "claims_verified": 12,
+    "claims_unverified": 1,
+    "potential_hallucinations": [
+      {
+        "claim": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants (Kronos bullet)",
+        "location": "Kronos Research experience",
+        "source_found": "partial",
+        "detail": "'230+ students and 80+ applicants' appears in jamie/resume.json (official base resume) but NOT in content_library.md. content_library.md Kronos section uses 'Organized campus recruiting events and moderated panels with C-suite executives at top universities' with no specific numbers. Numbers exist in official resume file — likely accurate but unverifiable from content_library.md alone.",
+        "recommendation": "Low risk. No action required — numbers appear in Jamie's official base resume.json."
+      }
+    ],
+    "notes": [
+      "20+ programs, end-to-end lifecycles (InGenius) — VERIFIED against 'Manage end-to-end lifecycles for 20+ projects' in content_library.md",
+      "75% onboarding reduction, 70+ staff (InGenius) — VERIFIED",
+      "25+ global stakeholders, 3 new programs (InGenius) — VERIFIED",
+      "600+ participants, 78% program enrollment rate (InGenius PM variant) — VERIFIED",
+      "Facilitated CEO/HR discovery and stakeholder interviews (ODN Pair B) — VERIFIED",
+      "5%+ absenteeism reduction target (ODN) — VERIFIED",
+      "Inclusive Leadership workshop 12 leaders (Vestas) — VERIFIED",
+      "23 global locations (Vestas) — VERIFIED",
+      "M&A project (Vestas) — VERIFIED",
+      "3 global locations onboarding (Vestas) — VERIFIED",
+      "Delivered strategic HR solutions across ER, headcount, succession planning (Vestas HR variant) — VERIFIED",
+      "566% applications increase (Kronos) — VERIFIED"
+    ],
+    "verdict": "CLEAN"
+  },
+
+  "cover_audit": {
+    "claims_verified": 5,
+    "claims_unverified": 2,
+    "potential_hallucinations": [
+      {
+        "claim": "$340K+ in revenue impact across 17 program launches",
+        "location": "Paragraph 1: 'including $340K+ in revenue impact across 17 program launches'",
+        "source_found": false,
+        "detail": "CRITICAL HALLUCINATION. '$340K+' does NOT appear in content_library.md. content_library.md cites '$316K' (team's highest revenue — InGenius) and '$115K in revenue' (PM variant). The '$340K+' figure only appears in outreach_patterns.md and email_style_signature.md — it appears to be an invented aggregate not traceable to a single verified accomplishment. Additionally, '17 program launches' does NOT appear in content_library.md (only '15+' or '20+' programs). This claim combines two unverified numbers into a single impressive-sounding statistic that cannot be defended in an interview.",
+        "recommendation": "REMOVE or REPLACE. Options: (A) Replace with '$316K in team revenue across 15+ program launches' — both numbers verified. (B) Drop the revenue claim entirely and cite the 78% enrollment rate and 600+ participants instead. Do NOT send this cover letter as-is."
+      },
+      {
+        "claim": "feedback systems that enabled C-suite to prioritize essential organizational needs",
+        "location": "Paragraph 1",
+        "source_found": true,
+        "detail": "Verified — content_library.md NextGen: 'Analyzed 2,000+ employee responses, reporting insights and recommending actions to the C-suite'. The phrasing is generalized but backed by real experience. No issue.",
+        "recommendation": "No change needed."
+      }
+    ],
+    "notes": [
+      "20+ programs, end-to-end lifecycle management — VERIFIED",
+      "25+ global stakeholders, feedback-driven iteration — VERIFIED",
+      "75% onboarding reduction — VERIFIED",
+      "ODN CEO/HR discovery interviews, engagement plan — VERIFIED (Pair B bullets)",
+      "Aurora is a real tech company (autonomous vehicle), Pittsburgh/Mountain View locations confirmed — no fabricated company details.",
+      "Aurora H1B sponsorship: profile_compact.md does not list Aurora as confirmed sponsor. cover letter does not claim H1B sponsorship explicitly — no issue, but Jamie should verify before applying."
+    ],
+    "verdict": "NEEDS_FIX"
+  },
+
+  "recipient_audit": {
+    "contacts_verified": 2,
+    "contacts_unverified": 0,
+    "per_contact": [
+      {
+        "name": "Brian Shultz",
+        "claimed_title": "Senior Manager, Talent Acquisition at Aurora",
+        "linkedin_url_in_targets": "https://www.linkedin.com/in/shultz1/",
+        "linkedin_verified": true,
+        "title_matches": false,
+        "search_query_used": "Brian Shultz Aurora Talent Acquisition linkedin Pittsburgh",
+        "notes": "TITLE DISCREPANCY: targets.json claims 'Senior Manager, Talent Acquisition' but search result shows 'Recruiting Manager' (RocketReach and Apollo.io both confirm 'Recruiting Manager at Aurora'). The LinkedIn profile URL matches and person is confirmed at Aurora. Title is similar but not identical — could be a display name vs formal title difference. Low concern but targets.json has the title wrong.",
+        "verdict": "VERIFIED_TITLE_MISMATCH"
+      },
+      {
+        "name": "Joshua Brooks",
+        "claimed_title": "HR Leader / Payroll Professional at Aurora",
+        "linkedin_url_in_targets": "https://www.linkedin.com/in/brooks-joshua/",
+        "linkedin_verified": true,
+        "title_matches": true,
+        "search_query_used": "Joshua Brooks Aurora linkedin HR payroll Pittsburgh",
+        "notes": "Search confirms Joshua Brooks MBA is Payroll Manager at Aurora, located in Coraopolis PA (Pittsburgh area). LinkedIn URL matches. Company, location, and function all confirmed.",
+        "verdict": "VERIFIED"
+      }
+    ]
+  },
+
+  "jd_coherence_audit": {
+    "verdict": "CLEAN",
+    "notes": [
+      "Cover letter correctly frames the role as translating messy people problems into structured programs with measurable outcomes — matches Aurora's actual PM People Team JD language per web search confirmation.",
+      "Aurora's mission (self-driving technology) referenced accurately — not guessed.",
+      "Pittsburgh/Mountain View locations accurately cited (confirmed via job posting search).",
+      "No invented references to Aurora-specific programs or initiatives."
+    ]
+  },
+
+  "overall_verdict": "CLEAR_TO_APPLY",
+  "required_fixes": [],
+  "re_audit_2026_05_27": {
+    "rechecked": [
+      "Cover letter hallucination '$340K+ in revenue impact across 17 program launches' — NOT FOUND in current cover_letter.md",
+      "Verified '15+ programs' appears instead (canonical source: content_library.md)",
+      "Signature opening preserved: 'People program management isn't just about running programs'",
+      "Closing paragraph intact: 'As an analytical organizer with a growth mindset'",
+      "Sign-off correct: 'Sincerely, Jamie (Yi-Chieh) Cheng'"
+    ],
+    "verdict": "CLEAR_TO_APPLY"
+  }
+}

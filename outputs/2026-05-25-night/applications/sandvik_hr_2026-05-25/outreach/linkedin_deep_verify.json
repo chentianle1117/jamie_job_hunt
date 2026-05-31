@@ -1,0 +1,53 @@
+{
+  "role_id": "sandvik_hr_2026-05-25",
+  "verified_at": "2026-05-26T00:00:00Z",
+  "primary_target": {
+    "name": "Petri Liljaranta",
+    "claimed_title": "HR — Sandvik Mining and Rock Solutions, Alachua",
+    "linkedin_url": "https://www.linkedin.com/in/petri-liljaranta-9b9b696a/",
+    "profile_verified": true,
+    "actual_title_on_profile": "VP Supply (Supply Director) at Sandvik",
+    "actual_company_on_profile": "Sandvik",
+    "tenure_at_company": "30 years 5 months total at Sandvik. Current role: Supply Director, Turku sub-region, Finland (Aug 2021 – present). Previous Florida-based role: VP Supply Chain, Gainesville FL (Aug 2017 – Jul 2021). He left Florida in 2021.",
+    "recent_activity_summary": "No posts visible. 500+ connections. Finnish LinkedIn ecosystem. His interests are supply chain companies (Metso, Sandvik). Last certification: Dec 2025 (Finnish Chamber of Commerce program in data/AI leadership).",
+    "department_or_team": "Supply Chain / Operations (NOT HR). He has never been in HR at Sandvik — he was VP Supply Chain, not HR.",
+    "any_red_flags": [
+      "CRITICAL MISMATCH: Petri Liljaranta is NOT an HR professional — he is a Supply Chain executive (VP Supply) based in FINLAND.",
+      "He left the Gainesville/Alachua area in 2021 — 4+ years ago. He has no connection to current Alachua HR operations.",
+      "Outreach message says 'I noticed you work in HR there' — completely INCORRECT. He is not in HR and has not been in Alachua for 4 years.",
+      "Sending this message would be factually wrong and would likely confuse or annoy the recipient."
+    ],
+    "verdict": "DO_NOT_CONTACT"
+  },
+  "outreach_message_coherence": {
+    "linkedin_msg_refs_verified": false,
+    "email_refs_verified": false,
+    "hallucinated_references": [
+      "LinkedIn message: 'I noticed you work in HR there' — INCORRECT. Petri is VP Supply Chain, not HR, and is based in Finland, not Alachua.",
+      "Email draft: 'I came across an HR Specialist / Training and Development opening at Sandvik's Alachua facility and wanted to reach out directly to someone on the HR team there' — Petri is not on the HR team and is not in Alachua."
+    ],
+    "notes": "The target identification was incorrect at the Oracle pipeline stage. The LinkedIn URL 'petri-liljaranta-9b9b696a' resolves to a supply chain VP in Finland with no HR role. The original search query may have matched on 'Sandvik' + 'Alachua' proximity without verifying his actual function. Both messages as written must NOT be sent to this person."
+  },
+  "warm_intros_found": [],
+  "alternative_targets_if_needed": [
+    {
+      "name": "Anthony Bowman (former)",
+      "linkedin_url": "Profile 404s — find via LinkedIn search 'Anthony Bowman Sandvik Gainesville'",
+      "title": "Former HR Generalist at Sandvik Gainesville area (now at The Arc of Alachua County)",
+      "rationale": "Already listed in targets.json as outreach_priority 2. He was a Sandvik HR Generalist in the Gainesville/Alachua area. Though he's no longer at Sandvik, he can provide cultural intel. His email is a***@arcalachua.org per ZoomInfo. Lower priority given he's an ex-employee."
+    },
+    {
+      "name": "Sandvik HR Alachua — NEW SEARCH NEEDED",
+      "linkedin_url": "Search: site:linkedin.com 'Sandvik' 'Alachua' OR 'Gainesville' 'HR' OR 'human resources' OR 'talent' current",
+      "title": "Current HR contact at Sandvik Alachua facility",
+      "rationale": "Sandvik posted an 'HR Professional (R0077569)' role with hrsupport.us@Sandvik.com as contact. This email can be used directly. The job posting has since expired (URL 404s on Sandvik careers site) which may mean the role was filled — Jamie should verify the T&D posting is still live before pursuing this at all. The original targets.json note already flagged: 'full JD not confirmed — Jamie should verify posting is live before sending outreach.'"
+    }
+  ],
+  "final_recommendation": {
+    "should_use_primary_target": false,
+    "should_use_warm_intro_first": false,
+    "should_send_outreach_as_drafted": false,
+    "messages_need_rewrite": true,
+    "notes": "URGENT: Do NOT send any outreach to Petri Liljaranta. He is wrong department, wrong country. Jamie must (1) verify the Sandvik Alachua T&D role is still live (the targets.json already flagged this), and (2) find the actual current HR contact at the Alachua facility via LinkedIn search or use hrsupport.us@Sandvik.com as a general HR inbox. If the role is no longer active, skip this application entirely."
+  }
+}

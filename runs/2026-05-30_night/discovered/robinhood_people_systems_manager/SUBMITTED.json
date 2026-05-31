@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-05-31T00:18:54.588562",
+  "url_after": "https://job-boards.greenhouse.io/robinhood/jobs/7551178",
+  "company": "Robinhood",
+  "role": "People Systems Manager",
+  "success": false,
+  "unanswered_required": [
+    "Are you legally work authorized to work in the US?*",
+    "Are you willing to work from the office(s) listed on the job description?*",
+    "By checking this box, I consent to Robinhood collecting, storing, and processing my responses to the demographic data surveys above.",
+    "Country*",
+    "Do you have: a) any Personal/Familial Relationships (current Robinhood employees or employees of Robinhood\u2019s vendors); b",
+    "Do you have: a) any Personal/Familial Relationships (current Robinhood employees or employees of Robinhood\u2019s vendors); b) any Outside Business Activities that you wish to continue; c) any investment t",
+    "Have you ever worked for Robinhood as an employee, intern or contractor? Note that providing false or misleading informa",
+    "Location (City)*",
+    "Robinhood adheres to applicable laws and regulations in relation to government officials given inherent bribery and/or c",
+    "Robinhood adheres to applicable laws and regulations in relation to government officials given inherent bribery and/or corruption risk. A government official is any person that performs a public funct",
+    "What is your disability status?*",
+    "What is your gender identity?*",
+    "What is your military status?*",
+    "What is your preferred office location?",
+    "What is your preferred office location?*",
+    "What is your race or ethnicity?*",
+    "Will you now (or in the future) require visa sponsorship in order to work in the US?*"
+  ],
+  "body_preview": "Back to jobs\nPeople Systems Manager\nMenlo Park, CA\nApply\nJoin us in building the future of finance.\n\nOur mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you\u2019re ready to be at the epicenter of this historic cultural and financial shift, keep reading.\n\nAbout the team + role\n\nWe are building an elite team, applying frontier technologies to the world\u2019s biggest financial problems. We\u2019re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn\u2019t a place for complacency, it\u2019s where ambitious people do the best work of their careers. We\u2019re a high-performing, fast-moving team with ethics at the center of everything we do. Expectations are high, and so are the rewards.\n\nThe People Systems team builds and operates the technology that supports Robinhood\u2019s employees across their entire lifecycle. The team focuses on Workday and connected systems, ensuring reliable operations, strong data quality, and scalable solutions for a growing global workforce. You will work closely with partners across HR, Engineering, Finance, and Legal to deliver systems that support hiring, onboarding, payroll, and compliance.\n\nAs a People Systems Manager, you will lead the design, development, and operation of Robinhood\u2019s People Systems ecosystem with Workday as the foundation. You will contribute directly to system configuration, integrations, and architecture while guiding a team of engineers and analysts. This role also focuses on applying AI tools and automation to reduce manual processes, improve data accuracy, and enhance employee support. You will help define how AI is applied within People Systems to improve efficiency and scalability!\n\nThis role is based in our Menlo Park, CA office, with in-person attendance expected 5 days per week.\n\nAt Robinhood, we believe in the power of in-person work to accelerate progress, spark innovation, and strengthen community. Our office experience is intentional, energizing, and designed to fully support high-performing teams.\n\nWhat you\u2019ll do\nOwn and evolve Robinhood's core People Systems with Workday as the foundation \u2014 driving configuration, integrations, Extend development, and architectural decisions.\nLead as a hands-on technical manager: you write, review, and ship alongside your team rather than delegating from a distance.\nActively use AI-assisted development tools (e.g. Cursor, Claude Code, GitHub Copilot) to accelerate delivery \u2014 and set the standard for AI-augmented workflows on your team.\nDesign and build AI-powered automations and agents that reduce manual HR operations, improve data quality, and enhance the employee experience.\nBuild and maintain integrations across the People tech stack \u2014 deep ownership of EIB-based integrations required, Workday Studio experience strongly preferred.\nPrototype and productionize AI capabilities embedd"
+}

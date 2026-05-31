@@ -1,0 +1,49 @@
+{
+  "role_id": "aurora_pmpplteam_2026-05-25",
+  "company": "Aurora (Aurora Innovation, Inc.)",
+  "role": "Program Manager, People Team (Pittsburgh PA / Mountain View CA)",
+  "location": "Pittsburgh, PA or Mountain View, CA",
+  "contacts_found": [
+    {
+      "name": "Cori Davis",
+      "title": "Chief People Officer",
+      "company": "Aurora",
+      "linkedin_url": "https://www.linkedin.com/in/coridavis/",
+      "connection_type": "CPO — top People leader at Aurora, joined August 2025",
+      "alumni_tie": null,
+      "rationale": "As CPO, Cori Davis oversees the People organization where this Program Manager role sits. Stretch cold intro to a senior leader — keep message professional and brief. Do not ask for referral.",
+      "outreach_priority": 1,
+      "verified": "2026-05-26",
+      "note": "Joined Aurora August 2025 — confirmed active at company"
+    },
+    {
+      "name": "Joshua Brooks",
+      "title": "Payroll Manager",
+      "company": "Aurora",
+      "linkedin_url": "https://www.linkedin.com/in/brooks-joshua/",
+      "connection_type": "People team member — Aurora Pittsburgh area",
+      "alumni_tie": null,
+      "rationale": "Active at Aurora Pittsburgh, confirmed 6 days ago. Good fallback contact if Cori Davis does not respond — more peer-level conversation on team culture.",
+      "outreach_priority": 2,
+      "verified": "2026-05-26",
+      "note": "Confirmed active at Aurora as of ~May 20, 2026"
+    }
+  ],
+  "departed_dont_contact": [
+    {
+      "name": "Brian Shultz",
+      "title": "Senior Manager, Talent Acquisition (former)",
+      "company": "Aurora — LEFT June 2025",
+      "linkedin_url": "https://www.linkedin.com/in/shultz1/",
+      "reason": "Departed Aurora June 2025 — now independent consultant. Do not contact for Aurora outreach.",
+      "flagged_date": "2026-05-26"
+    }
+  ],
+  "alumni_found": 0,
+  "alumni_note": "No USC or Wesleyan alumni confirmed at Aurora People team. Cold professional approach. Aurora is a tech company (self-driving) — tech company people team culture may be more receptive to concise, direct outreach.",
+  "search_queries_used": [
+    "site:linkedin.com/in \"Aurora\" \"people team\" OR \"people programs\" OR \"HR\" \"Pittsburgh\" OR \"Mountain View\" program manager",
+    "site:linkedin.com/in \"Aurora Innovation\" OR \"Aurora self-driving\" \"people\" OR \"HR\" \"program manager\" OR \"people partner\"",
+    "site:linkedin.com/in \"Aurora\" \"people programs\" OR \"people operations\" USC OR \"University of Southern California\" OR Wesleyan"
+  ]
+}

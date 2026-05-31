@@ -1,0 +1,64 @@
+{
+  "agent": "linkedin_deep_verify",
+  "run_date": "2026-05-26",
+  "roles_processed": 6,
+  "primary_targets_verified": 3,
+  "primary_targets_with_issues": 3,
+  "warm_intros_discovered_total": 0,
+  "alternative_targets_suggested": 7,
+  "roles_ready_to_send": [
+    "carlosrosario_ld_2026-05-25",
+    "uportland_progmgrcommunity_2026-05-25",
+    "uportland_progmgrsocialjustice_2026-05-25"
+  ],
+  "roles_need_target_change": [
+    "pacificseafood_tds_2026-05-25",
+    "aurora_pmpplteam_2026-05-25",
+    "sandvik_hr_2026-05-25"
+  ],
+  "roles_need_message_rewrite": [
+    "pacificseafood_tds_2026-05-25",
+    "aurora_pmpplteam_2026-05-25",
+    "sandvik_hr_2026-05-25"
+  ],
+  "critical_findings": [
+    {
+      "role": "aurora_pmpplteam_2026-05-25",
+      "severity": "CRITICAL",
+      "finding": "Brian Shultz LEFT Aurora in June 2025. He is now an Executive Talent Partner at an independent consulting firm. Outreach drafts say 'you work in People there' — factually wrong. DO NOT SEND AS DRAFTED.",
+      "action_required": "Retarget to Joshua Brooks (Payroll Manager, currently at Aurora, Pittsburgh) or Cori Davis (CPO, joined Aug 2025). Rewrite message."
+    },
+    {
+      "role": "sandvik_hr_2026-05-25",
+      "severity": "CRITICAL",
+      "finding": "Petri Liljaranta is NOT an HR person — he is VP Supply Chain at Sandvik, based in FINLAND. He left the Gainesville/Alachua area in 2021. Outreach says 'you work in HR there' — completely wrong. DO NOT SEND AS DRAFTED.",
+      "action_required": "Find actual HR contact at Sandvik Alachua. First verify Sandvik T&D posting is still live (targets.json already flagged this as unconfirmed). If live, search LinkedIn for current Sandvik Alachua HR. Fallback: use hrsupport.us@Sandvik.com general inbox."
+    },
+    {
+      "role": "pacificseafood_tds_2026-05-25",
+      "severity": "MEDIUM",
+      "finding": "Michael D.'s LinkedIn URL returns 404. Current employment status unconfirmed. Profile likely went private. Third-party sources still list him as Director T&D at Pacific Seafood, Portland. Better alternative found: William Hueffner, VP of Talent and Culture at Pacific Seafood.",
+      "action_required": "Search LinkedIn for William Hueffner (VP Talent and Culture, Pacific Seafood) and retarget, OR search for Michael D.'s current URL. Rewrite message with new target name."
+    }
+  ],
+  "ready_to_send_details": {
+    "carlosrosario_ld_2026-05-25": {
+      "target": "Erin Rowsey Hart, Senior Director of HR",
+      "note": "Profile confirmed. She is 10 months into role. Messages factually clean. Minor optional improvement: reference 'Senior Director' not just 'HR team' to signal research depth."
+    },
+    "uportland_progmgrcommunity_2026-05-25": {
+      "target": "Ell Pat, Assistant Director Moreau Center",
+      "note": "Profile confirmed. 16+ years in role. Messages clean. PRIORITIZE EMAIL over LinkedIn (only 80 connections, no posts). Find email via up.edu staff directory."
+    },
+    "uportland_progmgrsocialjustice_2026-05-25": {
+      "target": "Ell Pat — same contact, different role",
+      "note": "Same person as Community Engagement target. Send Community Engagement outreach FIRST, wait 5-7 days, then send this. Irene Routte's LinkedIn URL is dead — do not use that URL."
+    }
+  },
+  "warm_intros_note": "No mutual connections identified between Jamie's LinkedIn network and any of the 6 targets. All outreach is cold professional. Jamie's 'moving to Portland' personal anchor is the strongest differentiation hook for the 3 Portland-area roles.",
+  "linkedin_url_issues": [
+    "https://www.linkedin.com/in/michael-d-32945a6/ — returns 404 (profile private or URL changed)",
+    "https://www.linkedin.com/in/irene-routt%C3%A9-57819714/ — returns 404 (URL encoding issue or profile deactivated)",
+    "https://www.linkedin.com/in/adb89/ — returns 404 (Anthony Bowman, former Sandvik — profile deactivated)"
+  ]
+}

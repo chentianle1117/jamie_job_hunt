@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-05-27T00:41:45.237503",
+  "url": "https://api.greenhouse.io/v1/boards/aurorainnovation/jobs/8359484002",
+  "fields_sent": {
+    "first_name": "Yi-Chieh",
+    "last_name": "Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "+1-213-700-3831",
+    "question_34771744002": "https://www.linkedin.com/in/yi-chieh-cheng/",
+    "question_34771746002": "218869126002",
+    "question_34771747002": "1",
+    "question_34771749002": "218869152002",
+    "question_35642333002": "0",
+    "question_35642350002": "1",
+    "question_36282602002": "Yes \u2014 3+ years of programmatic HR experience including talent management (Vestas Inclusive Leadership pilot scaled to 23 global locations), onboarding (InGenius Prep, 75% reduction in ramp-up time), and L&D program design (HILOS/ODN consulting on engagement and learning programs)."
+  },
+  "files_sent": [
+    "resume",
+    "cover_letter"
+  ],
+  "status_code": 401,
+  "response_text": "HTTP Basic: Access denied.\n",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Length": "27",
+    "Connection": "keep-alive",
+    "Date": "Wed, 27 May 2026 04:41:43 GMT",
+    "x-download-options": "noopen",
+    "x-farm-id": "us",
+    "www-authenticate": "Basic realm=\"Application\"",
+    "vary": "Origin",
+    "cache-control": "no-cache",
+    "set-cookie": "_jbs=e982a2f6280a3804a0d8b754bea49da1; path=/; expires=Wed, 27 May 2026 06:41:43 GMT; secure; HttpOnly; SameSite=Lax",
+    "x-request-id": "2172b76e710bb1b0415311497037d4a0a23e133cd9fc0de95610f1bbec42a620",
+    "x-runtime": "0.011973",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-xss-protection": "1; mode=block",
+    "X-Cache": "Error from cloudfront",
+    "Via": "1.1 998c8f8dd9f34524398aa703daa84514.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "CMH68-P5",
+    "X-Amz-Cf-Id": "m7s5NTLjw1la_oz6UILneLkBYqLnPGQRgx6rUpUrbrlsOaHp0cqcZw=="
+  }
+}

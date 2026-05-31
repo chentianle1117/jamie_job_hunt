@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "company": "OHSU",
+    "role": "Learning & Organizational Development (multiple)",
+    "ats": "iCIMS",
+    "url": "https://externalcareers-ohsu.icims.com/jobs/intro",
+    "date": "2026-05-30",
+    "id": "ohsu_learning_organizational_development",
+    "bucket": "cap_exempt_blocked",
+    "h1b_signal": "cap-exempt",
+    "cap_exempt": true,
+    "why_fit": "Portland-local cap-exempt; dedicated L&OD function",
+    "level": "mid",
+    "salary": null
+  },
+  "personal": {
+    "first_name": "Yi-Chieh",
+    "last_name": "Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "+1-213-700-3831",
+    "country": "United States",
+    "location": "Portland, OR"
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/jamieyccheng/"
+  },
+  "work_authorization": {
+    "currently_authorized_to_work_in_us": "Yes",
+    "sponsorship_required": "Yes",
+    "sponsorship_notes": "Will require H-1B sponsorship. Currently on valid work authorization."
+  },
+  "demographics": {
+    "gender": "Woman",
+    "race_ethnicity": "Asian",
+    "hispanic_latino": "No",
+    "veteran": "I am not a protected veteran",
+    "disability": "No, I do not have a disability"
+  },
+  "role_specific": {
+    "years_experience": "3 years",
+    "currently_us_based": "Yes",
+    "open_to_relocation": "Yes"
+  },
+  "salary": {
+    "expected_range": "Open / within posted band",
+    "notes": "Flexible, open to discussion"
+  },
+  "documents": {
+    "resume": "resume.pdf",
+    "cover_letter": "cover_letter.pdf"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "agent": "outreach_fix",
+  "run_date": "2026-05-26",
+  "fixes_applied": [
+    {
+      "role": "aurora",
+      "old_target": "Brian Shultz (departed Aurora June 2025 — now independent consultant)",
+      "new_target": "Cori Davis (CPO, joined Aurora August 2025)",
+      "fallback_contact": "Joshua Brooks (Payroll Manager, Aurora Pittsburgh — confirmed active ~May 20, 2026)",
+      "files_updated": [
+        "aurora_pmpplteam_2026-05-25/outreach/linkedin_message.txt",
+        "aurora_pmpplteam_2026-05-25/outreach/email_draft.md",
+        "aurora_pmpplteam_2026-05-25/outreach/targets.json"
+      ],
+      "old_draft_message_id": "19e5f0aa1f84f97c",
+      "old_draft_trashed": true,
+      "new_draft_id": "r1508767860323395934",
+      "new_draft_to": "cdavis@aurora.tech",
+      "new_draft_subject": "Program Manager, People Team — Jamie Cheng",
+      "tone_note": "Stretch cold intro to CPO — professional, concise, no referral ask"
+    },
+    {
+      "role": "sandvik",
+      "old_target": "Petri Liljaranta (wrong person — Finland Supply Chain VP, not Alachua HR)",
+      "new_target": "hrsupport.us@Sandvik.com (generic US HR inbox)",
+      "linkedin_outreach": "N/A — no verified individual contact",
+      "files_updated": [
+        "sandvik_hr_2026-05-25/outreach/linkedin_message.txt",
+        "sandvik_hr_2026-05-25/outreach/email_draft.md",
+        "sandvik_hr_2026-05-25/outreach/targets.json"
+      ],
+      "old_draft_message_id": "19e5f0ab09024959",
+      "old_draft_trashed": true,
+      "new_draft_id": "r3041299170179204074",
+      "new_draft_to": "hrsupport.us@Sandvik.com",
+      "new_draft_subject": "HR Specialist / T&D Role at Sandvik Alachua — Jamie Cheng",
+      "tone_note": "Addressed to generic HR team — formal salutation, no personal references"
+    },
+    {
+      "role": "pacificseafood",
+      "old_target": "Michael D. (LinkedIn URL returns 404 — profile unverifiable)",
+      "new_target": "William Hueffner (VP of Talent and Culture, Pacific Seafood)",
+      "files_updated": [
+        "pacificseafood_tds_2026-05-25/outreach/linkedin_message.txt",
+        "pacificseafood_tds_2026-05-25/outreach/email_draft.md",
+        "pacificseafood_tds_2026-05-25/outreach/targets.json"
+      ],
+      "old_draft_message_id": null,
+      "old_draft_trashed": false,
+      "old_draft_note": "No existing Gmail draft found for Pacific Seafood — nothing to trash",
+      "new_draft_id": "r-5669490030325375598",
+      "new_draft_to": "[find William Hueffner email via Pacific Seafood directory]",
+      "new_draft_subject": "Training & Development Specialist Role — Jamie Cheng (Portland-based)",
+      "tone_note": "Respectful VP-level cold intro — Portland local anchor included"
+    }
+  ],
+  "constraints_verified": {
+    "signature_opening_formula": true,
+    "analytical_organizer_phrase": true,
+    "sincerely_signoff_for_all_three": true,
+    "no_h1b_mention": true,
+    "no_referral_ask": true,
+    "word_count_150_200": true,
+    "linkedin_under_300_chars": true,
+    "drafts_in_jamie_account": true,
+    "no_emails_sent": true
+  },
+  "duration_total_s": 187
+}

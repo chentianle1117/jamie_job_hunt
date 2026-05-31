@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "company": "Decagon",
+    "role": "Talent Associate",
+    "ats": "Ashby",
+    "url": "https://jobs.ashbyhq.com/decagon/198235e4-6729-452e-a248-7a4b8897f6b2",
+    "date": "2026-05-30",
+    "id": "decagon_talent_associate",
+    "bucket": "ashby",
+    "h1b_signal": "sponsors",
+    "cap_exempt": false,
+    "why_fit": "Entry talent/recruiting at funded AI startup",
+    "level": "entry",
+    "salary": "$100K-$130K + equity"
+  },
+  "personal": {
+    "first_name": "Yi-Chieh",
+    "last_name": "Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "+1-213-700-3831",
+    "country": "United States",
+    "location": "Portland, OR"
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/jamieyccheng/"
+  },
+  "work_authorization": {
+    "currently_authorized_to_work_in_us": "Yes",
+    "sponsorship_required": "Yes",
+    "sponsorship_notes": "Will require H-1B sponsorship. Currently on valid work authorization."
+  },
+  "demographics": {
+    "gender": "Woman",
+    "race_ethnicity": "Asian",
+    "hispanic_latino": "No",
+    "veteran": "I am not a protected veteran",
+    "disability": "No, I do not have a disability"
+  },
+  "role_specific": {
+    "years_experience": "3 years",
+    "currently_us_based": "Yes",
+    "open_to_relocation": "Yes"
+  },
+  "salary": {
+    "expected_range": "Open / within posted band",
+    "notes": "Flexible, open to discussion"
+  },
+  "documents": {
+    "resume": "resume.pdf",
+    "cover_letter": "cover_letter.pdf"
+  }
+}
