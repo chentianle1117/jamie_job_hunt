@@ -19,9 +19,23 @@ def fit_color(fit):
     if "stretch" in f: return "#d97706"
     return "#6b7280"
 
+def sub_status(e):
+    """Read this role's SUBMITTED.json / NEEDS_REVIEW.json to show a live status badge."""
+    base = Path(e["resume_pdf"]).parent
+    sj, nr = base/"SUBMITTED.json", base/"NEEDS_REVIEW.json"
+    if sj.exists():
+        try:
+            j = json.load(open(sj, encoding="utf-8"))
+            if j.get("success"): return ("✅ SUBMITTED", "#16a34a")
+        except: pass
+    if nr.exists(): return ("⚠ NEEDS MANUAL", "#d97706")
+    return ("", "")
+
 def card(e, lane):
     rpng, cpng = b64(e["resume_png"]), b64(e["cover_png"])
     picked = " 👁️ Jamie picked" if e.get("jamie_picked") else ""
+    sub_txt, sub_col = sub_status(e)
+    sub_badge = f'<span class="fit" style="background:{sub_col};margin-left:6px">{sub_txt}</span>' if sub_txt else ""
     rpdf = "file:///" + e["resume_pdf"].replace("\\","/")
     cpdf = "file:///" + e["cover_pdf"].replace("\\","/")
     return f"""
