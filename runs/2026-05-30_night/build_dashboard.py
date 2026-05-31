@@ -31,14 +31,18 @@ DEFERRED = {
     "datadog_inclusion_program_manager": "per-company cap — kept Datadog PBP + Solutions Coord",
 }
 
+# YOE verdicts (David 2026-05-31): apply only if min required <=4 yrs; 5+ = DROP.
+_yoe = jload(RUN/"yoe_verdicts.json") or {}
+YOE_DROP = _yoe.get("drop", {})
+
 def role_status(d):
-    """Return (lane, badge_text, color). Classifies by: SUBMITTED.json success -> SUBMITTED;
-    deferred set -> DEFERRED; essay draft present (or essays_for_review) -> ESSAY; blocked ATS ->
-    BLOCKED; else NEEDS (manual finish)."""
+    """Return (lane, badge_text, color). SUBMITTED wins (can't unsend). Then YOE-DROP (>=5yr req).
+    Then deferred (cap/no-sponsor). Then essay / blocked / needs."""
     rid = d.name
     sj, nr, ev = d/"SUBMITTED.json", d/"NEEDS_REVIEW.json", d/"essays_for_review.json"
     j = jload(sj)
     if j and j.get("success"): return ("SUBMITTED", "✅ SUBMITTED", "#16a34a")
+    if rid in YOE_DROP: return ("YOE", "🚫 TOO SENIOR (5+ yrs)", "#dc2626")
     if rid in DEFERRED: return ("DEFERRED", "⏸ DEFERRED", "#94a3b8")
     ff = jload(d/"form_fields.json") or {}
     ats = (ff.get("meta", {}).get("ats") or "").lower()
@@ -148,7 +152,7 @@ def outreach_card(o):
 
 # gather roles, sort by lane priority
 dirs = sorted([Path(p) for p in glob.glob(str(DISC/"*")) if (Path(p)/"form_fields.json").exists()])
-LANE_ORDER = {"SUBMITTED":0, "ESSAY":1, "NEEDS":2, "BLOCKED":3, "DEFERRED":4}
+LANE_ORDER = {"SUBMITTED":0, "ESSAY":1, "NEEDS":2, "BLOCKED":3, "DEFERRED":4, "YOE":5}
 roles = []
 for d in dirs:
     lane,_,_ = role_status(d)
@@ -158,7 +162,7 @@ roles.sort(key=lambda x:(x[0], x[1]))
 counts = {}
 for _,_,_,lane in roles: counts[lane]=counts.get(lane,0)+1
 
-cards_by_lane = {"SUBMITTED":[], "ESSAY":[], "NEEDS":[], "BLOCKED":[], "DEFERRED":[]}
+cards_by_lane = {"SUBMITTED":[], "ESSAY":[], "NEEDS":[], "BLOCKED":[], "DEFERRED":[], "YOE":[]}
 for _, name, d, lane in roles:
     cards_by_lane.setdefault(lane,[]).append(card(d))
 
@@ -223,6 +227,7 @@ html = f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
  {section("⚠ Finish Manually (branded forms)", "NEEDS", "Résumé + cover tailored & ready. The company's branded careers form had a couple of widgets the bot couldn't finish — quick manual completion.")}
  {section("🔒 Blocked ATS — Manual Apply", "BLOCKED", "Workday / iCIMS / university portals (can't be automated). Cap-exempt employers here are high-value — no H-1B lottery. Packages are ready.")}
  {section("⏸ Deferred (per-company cap / no-sponsor)", "DEFERRED", "Intentionally NOT applied: either the JD bars visa sponsorship, or it's a 2nd/3rd role at a company where I kept the best-fit 1-2 to avoid looking spammy. Packages exist if you want any of them.")}
+ {section("🚫 Dropped — Requires 5+ Years", "YOE", "Per your strict rule (apply only if ≤4 yrs required), these JDs ask for 5+ years so I did NOT apply. Packages exist if you ever want to reconsider, but they read as too senior for ~3 yrs.")}
  <div class="lane-title">📧 Outreach Drafts — Review Before Sending <span class="cnt">{len(outreach)}</span></div>
  <div class="blurb">Every contact verified currently-employed via live LinkedIn. Nothing sent — yours to review, edit, and send.</div>
  {outreach_cards}

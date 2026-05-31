@@ -1,0 +1,35 @@
+{
+  "_rule": "Apply only if minimum required experience <=4 years. 5+ years = DROP. (David 2026-05-31)",
+  "_audited": "2026-05-31 via JD fetch (Greenhouse boards-api + Ashby/Lever posting-api)",
+  "drop": {
+    "baseten_onboarding_program_manager": "7+ years onboarding/L&D/enablement",
+    "gusto_cx_learning_development": "5+ years L&D experience",
+    "harvey_people_business_partner": "6-10+ years People Business Partner",
+    "lyft_program_manager_process": "5+ years program/project management",
+    "notion_customer_success_enablement": "7+ years Enablement/GTM",
+    "openai_onboarding_enablement_program": "5+ years onboarding/enablement/L&D",
+    "openai_people_hr_operations": "5+ years HR/People Ops",
+    "robinhood_manager_of_learning": "8+ years learning design + 2+ leadership",
+    "sofi_associate_manager_workplace": "5+ years workplace ops/office mgmt",
+    "elevenlabs_talent_operations": "Talent Operations LEAD — manages a team of operators/coordinators; senior/lead scope (5+)"
+  },
+  "apply": {
+    "affirm_people_knowledge_experience": "no explicit minimum (submitted)",
+    "anthropic_program_operations_manager": "4+ years program/research ops",
+    "chime_program_manager_performance": "3+ years performance/quality/ops",
+    "datadog_people_business_partner": "no explicit minimum (submitted)",
+    "datadog_people_solutions_coordinator": "no explicit minimum (submitted)",
+    "decagon_implementation_manager": "4+ years implementations/PM (submitted)",
+    "decagon_talent_associate": "2+ years recruiting (submitted)",
+    "faire_people_analytics_ai": "no explicit minimum",
+    "faire_people_systems_coordinator": "1-2 years HRIS/People Ops",
+    "figma_customer_enablement_manager": "4+ years CS/enablement",
+    "gusto_jr_onboarding_associate": "1+ years sales/CS",
+    "instacart_associate_hr_business": "associate-level, no minimum (submitted)",
+    "palantir_people_operations_specialist": "2+ years HR/People",
+    "ramp_senior_people_events": "3+ years events/people ops",
+    "replit_emerging_talent_": "4-5 years (floor 4) recruiting ops/PM",
+    "scale_engagement_manager": "3-5 years (floor 3) consulting/TPM",
+    "writer_workplace_experience_manager": "office manager/admin experience, no high YOE bar"
+  }
+}
