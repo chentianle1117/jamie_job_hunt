@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "company": "Brex",
+    "role": "Screening and TM Associate",
+    "date": "2026-05-31",
+    "pageMargins": {
+      "top": "0.3in",
+      "right": "0.45in",
+      "bottom": "0.3in",
+      "left": "0.45in"
+    },
+    "autoFit": true,
+    "fontRange": [
+      8.5,
+      10.0
+    ]
+  },
+  "header": {
+    "location": "Salt Lake City, UT (Open to Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, detail-driven (97% extrovert!) <b>Operations & Analytics</b> professional who thrives on <b>solving problems through data analysis</b>, <b>building processes grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to dig into the data, surface what others miss, and improve the controls and workflows around it.",
+  "keywordGroups": {
+    "data": "Data/Analytics",
+    "coord": "Operations/Controls",
+    "cross": "Stakeholders/Collab",
+    "doc": "Documentation/SOPs",
+    "tools": "Tools/Systems"
+  },
+  "experience": [
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "As a team of consultants, {data|audited 300+ cases} for an HR client, quantifying $362K in costs to refute assumptions with evidence"
+        },
+        {
+          "text": "Empowered the client team to present executive-ready {data|data analysis}, driving policy redesigns and process changes"
+        }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Manage end-to-end {coord|operations} for 20+ programs, using {data|enrollment and feedback data} to monitor performance and flag issues early"
+        },
+        {
+          "text": "Create {doc|documentation and SOPs} for 70+ staff, standardizing {coord|controls} and reducing onboarding time by 75%"
+        },
+        {
+          "text": "Collaborate {cross|cross-functionally} with Marketing, Tech, and Sales teams to investigate root causes and improve operational workflows"
+        },
+        {
+          "text": "Facilitate listening sessions with 25 global {cross|stakeholders} to refine processes and align on requirements"
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "{data|Analyzed 2,000+ records} of employee experience data to surface patterns and guide C-suite decisions"
+        },
+        {
+          "text": "Transformed {data|survey data} into actionable reports, applying mixed-methods analysis to identify key drivers"
+        },
+        {
+          "text": "Provided consultations to improve strategic plans and internal training across multiple functions"
+        },
+        {
+          "text": "Delivered 5 {cross|cross-functional} projects spanning survey development, analysis, and process improvement"
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Optimized {coord|operational processes} across 3 global locations through detailed process analysis and clearer responsibilities"
+        },
+        {
+          "text": "Delivered solutions for business priorities across employee relations, headcount, and succession planning"
+        },
+        {
+          "text": "Supported the team by piloting an initiative for senior leaders, later scaled to 23 global locations"
+        },
+        {
+          "text": "Collaborated {cross|cross-functionally} with regional teams to standardize {doc|documentation} and reduce errors"
+        }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Operations & HR Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Worked at a quantitative trading firm, developing proficiency across operational and HR functions in a fast-paced finance environment"
+        },
+        {
+          "text": "Researched global compensation and {data|market data} to support a challenging international hiring effort"
+        },
+        {
+          "text": "Engaged global candidates via personalized communication, increasing applications by 566% in 2 months"
+        },
+        {
+          "text": "Organized events and moderated panels with C-suite, reaching 230+ students and 80+ applicants"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": [
+        "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
+      ]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> strategy via survey design, data collection, and analysis",
+    "<b>Master's Capstone:</b> Examined non-monetary factors for <b>YouTube</b> via mixed-method quantitative and qualitative research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Data & Analytics:</b> Data Analysis (Excel, Google Sheets, SPSS) · Mixed-methods research · Reporting",
+    "<b>Tools & Systems:</b> Microsoft Office (Word, PowerPoint, Excel) · Project Management (Asana, Airtable) · CRM (HubSpot) · HRIS (SAP, Rippling, ADP)",
+    "<b>Productivity:</b> AI Tools (ChatGPT, Gemini) · Google Workspace · Slack · Zoom",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "Brex — Screening and TM Associate",
+    "sections": []
+  },
+  "changeLog": [
+    "2026-05-31: Tailored for Brex — Screening and TM Associate (financial-crimes / transaction-monitoring ops, SLC). STRETCH role — leaned honestly into Jamie's real strengths: data analysis, detail-orientation, operational controls, documentation/SOPs, cross-functional collaboration, and AI-tool familiarity. Broad umbrella 'Operations & Analytics.' Location → Salt Lake City, UT (role's office). Led with ODN (case audit / data analysis) then InGenius (operations + SOPs + root-cause investigation framing). Kronos reframed to note the quantitative-finance environment (truthful — Kronos Research is a quant trading firm). NO AML/SAR/SQL/Looker claims invented; skills list only tools Jamie actually has. Counts fixed (ODN=2, others=4)."
+  ]
+}

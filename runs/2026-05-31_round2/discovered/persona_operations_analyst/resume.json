@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "company": "Persona",
+    "role": "Operations Analyst",
+    "date": "2026-05-31",
+    "pageMargins": {
+      "top": "0.3in",
+      "right": "0.45in",
+      "bottom": "0.3in",
+      "left": "0.45in"
+    },
+    "autoFit": true,
+    "fontRange": [
+      8.5,
+      10.0
+    ]
+  },
+  "header": {
+    "location": "Portland, OR (Open to Remote or Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Strategic Program Manager</b> who thrives on <b>solving problems through data analysis</b>, <b>building programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to bring accurate, detail-obsessed data management and a systematic, human-centered approach to every operational problem.",
+  "keywordGroups": {
+    "data": "Data/Analytics",
+    "coord": "Operations/PM",
+    "cross": "Stakeholders/Collab",
+    "ex": "Process/Quality",
+    "tools": "Tools/Systems",
+    "prog": "Programs"
+  },
+  "experience": [
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Audit 300+ leave cases through rigorous {data|data analysis}, successfully refuting cost assumptions via {data|evidence-based insights}"
+        },
+        {
+          "text": "Build executive-ready {data|analyses} on $362K in leave costs, with clean documentation that drove policy redesigns and first aid training"
+        }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Own recurring {coord|review cycles and operations} for 20+ programs, validating {data|data accuracy} and ensuring deliverables go out on time"
+        },
+        {
+          "text": "Build and maintain {tools|spreadsheet models and tracking systems} in Excel/Google Sheets to monitor performance against plans"
+        },
+        {
+          "text": "Serve as the go-to for inbound questions, triaging promptly and {cross|coordinating with stakeholders} across Marketing, Tech, and Sales"
+        },
+        {
+          "text": "Establish {ex|documentation and SOPs} for 70+ staff, creating scalable, auditable processes and reducing onboarding time by 75%"
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Analyzed 2,000+ employee experiences with {data|mixed-methods data}, surfacing insights that guided C-suite decisions"
+        },
+        {
+          "text": "Led a manager effectiveness initiative, transforming {data|messy feedback data} into clean, actionable reports"
+        },
+        {
+          "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review"
+        },
+        {
+          "text": "Improved process and {ex|experience} via 5 {cross|cross-functional} projects spanning survey development, rewards & recognition, and L&D"
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Managed sensitive compensation and headcount data with discretion across employee relations and succession-planning projects"
+        },
+        {
+          "text": "Optimized onboarding processes for new hires across 3 global locations by conducting process analysis and clarifying responsibilities"
+        },
+        {
+          "text": "Supported HRBP team by piloting an Inclusive Leadership workshop for senior leaders, later scaled to 23 global locations"
+        },
+        {
+          "text": "Strengthened {ex|engagement} via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors"
+        }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Researched and modeled global compensation details to inform offers for a challenging international role"
+        },
+        {
+          "text": "Drafted job descriptions, posted openings, and managed recruiting data across HR functions"
+        },
+        {
+          "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months"
+        },
+        {
+          "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": [
+        "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
+      ]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Data & Analytics:</b> Excel (advanced) · Google Sheets · SPSS · Data modeling & auditing · Mixed-methods analysis",
+    "<b>PM & Systems:</b> Project Management (Asana, Airtable) · HRIS (SAP, Rippling, ADP) · CRM (HubSpot)",
+    "<b>Productivity:</b> AI Tools (ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint, Excel) · Google Workspace · Notion",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "Persona — Operations Analyst",
+    "sections": []
+  },
+  "changeLog": [
+    "2026-05-31: Tailored for Persona — Operations Analyst (Finance/GTM, remote US). Umbrella title → Strategic Program Manager. Location → Portland, OR (Open to Remote or Relocation) (role remote US). JD: build/maintain comp models, own recurring comp review cycles, validate data integrity, high Excel/Sheets proficiency, detail-oriented/accurate, manage external consultant + timelines, handle sensitive comp data with discretion. Surfaced data-analysis + review-cycle ownership + spreadsheet models + sensitive-comp-data discretion (Vestas) + comp research (Kronos). Skills → led with Data & Analytics line (Excel/Sheets/SPSS/modeling). HONEST GAP: not finance/comp-plan-design background; led with transferable analytical/ops rigor. No invented numbers."
+  ]
+}

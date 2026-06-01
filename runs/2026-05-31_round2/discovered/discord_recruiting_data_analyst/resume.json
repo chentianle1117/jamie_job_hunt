@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "company": "Discord",
+    "role": "Recruiting Data Analyst",
+    "date": "2026-05-31",
+    "pageMargins": {
+      "top": "0.3in",
+      "right": "0.45in",
+      "bottom": "0.3in",
+      "left": "0.45in"
+    },
+    "autoFit": true,
+    "fontRange": [
+      8.5,
+      10.0
+    ]
+  },
+  "header": {
+    "location": "San Francisco, CA (Open to Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>People & Talent Analytics</b> professional who thrives on <b>solving problems through data analysis</b>, <b>building insights grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to turn messy people data into clear stories that drive better decisions.",
+  "keywordGroups": {
+    "data": "Data/Analytics",
+    "story": "Data Storytelling",
+    "cross": "Stakeholders/Collab",
+    "rec": "Recruiting/ATS",
+    "proc": "Process/Governance",
+    "viz": "Reporting/Viz"
+  },
+  "experience": [
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Analyzed {data|2,000+ data points} of employee experience using mixed methods to identify the top driver of engagement"
+        },
+        {
+          "text": "Transformed analysis into {story|data storytelling} that influenced C-suite decisions and continued to be referenced after I left"
+        },
+        {
+          "text": "Built {viz|reports and visualizations} in Excel to surface satisfaction drivers and guide resource allocation"
+        },
+        {
+          "text": "Delivered 5 {cross|cross-functional} projects partnering with People stakeholders on survey design and analysis"
+        }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "As a team of consultants, {data|audited 300+ leave cases} and quantified $362K to refute assumptions with evidence"
+        },
+        {
+          "text": "Influenced policy decisions through {story|data storytelling}, empowering the client team to present executive-ready insights"
+        },
+        {
+          "text": "For a separate NGO client, analyzed {data|qualitative data} from focus groups and interviews to surface decision-making themes"
+        }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Use {data|enrollment and pipeline data} to monitor program health, surface issues, and inform decisions across 20+ programs"
+        },
+        {
+          "text": "Partner {cross|cross-functionally} with Marketing, Tech, and Sales teams as a data-informed point of contact"
+        },
+        {
+          "text": "Establish {proc|documentation, SOPs, and governance} for 70+ staff, standardizing how information is tracked and shared"
+        },
+        {
+          "text": "Map and improve {proc|processes}, reducing onboarding time by 75% by diagnosing where workflows broke down"
+        }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Worked in a quantitative trading firm, supporting {rec|recruiting} operations in a fast-paced, data-driven environment"
+        },
+        {
+          "text": "Researched and analyzed global compensation {data|data} to inform a challenging international hiring decision"
+        },
+        {
+          "text": "Tracked {rec|recruiting} pipeline and candidate communication, increasing applications by 566% in 2 months"
+        },
+        {
+          "text": "Organized recruiting events and moderated panels with C-suite, reaching 230+ students and 80+ applicants"
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Delivered HR support across {rec|recruiting}, headcount, and succession planning, working from workforce data"
+        },
+        {
+          "text": "Optimized onboarding across 3 global locations by {proc|mapping the process} and clarifying responsibilities"
+        },
+        {
+          "text": "Built a checklist and reporting spreadsheet to track and standardize cross-regional workflows"
+        },
+        {
+          "text": "Strengthened {cross|engagement} via an HR newsletter, recognized among 1,000+ competitors"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Research Methods, Organizational Psychology, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": [
+        "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
+      ]
+    }
+  ],
+  "projects": [
+    "<b>Personal Project:</b> Built a <b>RAG-based</b> data system that reasons over a large body of documents to evaluate fit—hands-on with AI-assisted analysis",
+    "<b>Master's Capstone:</b> Examined non-monetary factors for <b>YouTube</b> via mixed-method quantitative and qualitative research",
+    "<b>Consulting Project:</b> Informed <b>Elanco Animal Health</b> strategy via survey design, data collection, and analysis"
+  ],
+  "skills": [
+    "<b>Data & Analytics:</b> Data Analysis (Advanced Excel, Google Sheets, SPSS) · Mixed-methods research · Reporting & visualization",
+    "<b>HR Systems:</b> ATS (Greenhouse) · HRIS (SAP, Rippling, ADP) · CRM (HubSpot)",
+    "<b>Productivity:</b> AI Tools (ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint, Excel) · Project Management (Asana, Airtable) · Google Workspace",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "Discord — Recruiting Data Analyst",
+    "sections": []
+  },
+  "changeLog": [
+    "2026-05-31: Tailored for Discord — Recruiting Data Analyst (SF Bay Area). Broad umbrella 'People & Talent Analytics.' Location → San Francisco, CA. STRETCH — JD requires 4+ yrs analytics + SQL/Snowflake/Tableau/One Model which Jamie does NOT have; tailored honestly around her genuine data-analysis strengths, data storytelling, recruiting/Greenhouse domain, and process/governance. Led with NextGen (2,000+ data points, storytelling that influenced C-suite) then ODN (audit/quant + qual analysis). Swapped Projects to surface her real RAG-based data-system personal project (true, from corpus). Skills: Advanced Excel + reporting/viz + Greenhouse — did NOT claim SQL/Tableau/Snowflake/Python (she lacks them). ODN=3 (both projects, collective), others=4. Cover is candid about the SQL gap."
+  ]
+}

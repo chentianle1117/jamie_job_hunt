@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "company": "Duolingo",
+    "role": "Recruiter II (Pittsburgh)",
+    "date": "2026-05-31",
+    "pageMargins": {
+      "top": "0.3in",
+      "right": "0.45in",
+      "bottom": "0.3in",
+      "left": "0.45in"
+    },
+    "autoFit": true,
+    "fontRange": [
+      8.5,
+      10.0
+    ]
+  },
+  "header": {
+    "location": "Pittsburgh, PA (Open to Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>People & Talent</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>—always seeking ways to improve the talent experience.",
+  "keywordGroups": {
+    "data": "Data/Analytics",
+    "coord": "Coordination/Ops",
+    "cross": "Stakeholders/Collab",
+    "rec": "Recruiting/Talent",
+    "ai": "AI/Tools",
+    "prog": "Programs"
+  },
+  "experience": [
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Managed {rec|full-cycle recruiting}—drafting JDs, posting openings, and researching global compensation for a challenging international role"
+        },
+        {
+          "text": "Engaged {rec|passive candidates} via personalized communication and candidate experience, lifting applications by 566% in 2 months"
+        },
+        {
+          "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants"
+        },
+        {
+          "text": "Developed proficiency across HR functions, from {rec|recruitment} and compensation to performance management"
+        }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Manage {coord|multiple concurrent} programs end-to-end in partnership with {cross|Marketing, Tech, and Sales hiring managers}, owning timelines and alignment"
+        },
+        {
+          "text": "Use {data|enrollment and feedback data} to monitor pipeline health, optimize strategies, and surface issues early"
+        },
+        {
+          "text": "Use {ai|AI tools (ChatGPT, Gemini)} daily to streamline workflows, drafting, and research across 20+ programs"
+        },
+        {
+          "text": "Establish {cross|cross-functional} processes and documentation for 70+ staff, reducing onboarding time by 75%"
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on satisfaction drivers"
+        },
+        {
+          "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed strategy"
+        },
+        {
+          "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review"
+        },
+        {
+          "text": "Improved employee experience via 5 {cross|cross-functional} projects across survey development, rewards & recognition, and L&D"
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Delivered strategic HR solutions for business priorities across {rec|recruiting}, headcount, and succession planning"
+        },
+        {
+          "text": "Supported the HRBP team by piloting an Inclusive Leadership workshop for senior leaders, later scaled to 23 global locations"
+        },
+        {
+          "text": "Optimized onboarding processes for new hires across 3 global locations through process analysis"
+        },
+        {
+          "text": "Strengthened {cross|engagement} via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors"
+        }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "As a team of consultants, partnered with an HR client to audit 300+ leave cases, quantifying $362K to refute cost assumptions"
+        },
+        {
+          "text": "Empowered the HR team to present executive-ready {data|data} insights, leading to policy redesigns and first aid training"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": [
+        "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
+      ]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>HR Systems:</b> ATS (Greenhouse, Gem) · HRIS (SAP, Rippling, ADP) · LMS (Canvas, Moodle)",
+    "<b>Data & PM Tools:</b> Data Analysis (Excel, Google Sheets, SPSS) · Project Management (Asana, Airtable) · CRM (HubSpot)",
+    "<b>Productivity:</b> AI Tools (ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint, Excel) · Google Workspace · LinkedIn Recruiter",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "Duolingo — Recruiter II (Pittsburgh)",
+    "sections": []
+  },
+  "changeLog": [
+    "2026-05-31: Tailored for Duolingo — Recruiter II (Pittsburgh). Broad umbrella 'People & Talent.' Location → Pittsburgh, PA (role's office). Led with Kronos (full-cycle recruiting / passive candidates / events) since role is full-cycle non-technical recruiting. InGenius reframed for multiple concurrent searches, pipeline-health data, and an AI-tools bullet (JD explicitly names ChatGPT). Skills → Gem (JD-named) + LinkedIn Recruiter. Vestas bullet 1 surfaces recruiting. ODN collective. Counts fixed (Kronos/InGenius/NextGen/Vestas=4, ODN=2). NOTE: JD asks 3+ yrs full-cycle recruiting — Jamie's dedicated recruiting is Kronos internship + HRBP recruiting work; this is a STRETCH on years, strong on substance."
+  ]
+}

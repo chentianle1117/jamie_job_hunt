@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "company": "Unit",
+    "role": "Support Operations Specialist",
+    "date": "2026-05-31",
+    "pageMargins": {
+      "top": "0.3in",
+      "right": "0.45in",
+      "bottom": "0.3in",
+      "left": "0.45in"
+    },
+    "autoFit": true,
+    "fontRange": [
+      8.5,
+      10.0
+    ]
+  },
+  "header": {
+    "location": "New York, NY (Open to Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Strategic Program Manager</b> who thrives on <b>solving problems through data analysis</b>, <b>building processes grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always ask 'why does this exist?' and 'how could this be automated?'—through human-centered, data-driven approaches.",
+  "keywordGroups": {
+    "data": "Data/Analytics",
+    "coord": "Operations/Process",
+    "cross": "Stakeholders/Collab",
+    "ex": "Customer/Quality",
+    "tools": "Tools/Automation",
+    "prog": "Programs"
+  },
+  "experience": [
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Audit 300+ leave cases through rigorous {data|data analysis} to surface trends and diagnose {coord|root causes}, refuting cost assumptions with evidence"
+        },
+        {
+          "text": "Translate findings on $362K in leave costs into {coord|actionable process improvements}—policy redesigns and first aid training"
+        }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Design and continuously improve {coord|workflows and processes} for 20+ programs, reducing manual effort and onboarding time by 75%"
+        },
+        {
+          "text": "Identify repetitive workflows and {tools|deploy AI tools} to handle work at scale, increasing capacity and quality"
+        },
+        {
+          "text": "Analyze program and engagement {data|data} to diagnose root causes and translate findings into {coord|process improvements}"
+        },
+        {
+          "text": "Triage inbound requests and {cross|coordinate across Marketing, Tech, and Sales teams} to reach resolution quickly"
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Analyzed 2,000+ {data|data points} to surface trends and amplify the voice of the customer for C-suite decisions"
+        },
+        {
+          "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that drove change"
+        },
+        {
+          "text": "Owned a {cross|feedback loop} between stakeholders and leadership, ensuring real input shaped strategic plans"
+        },
+        {
+          "text": "Improved process and {ex|experience} via 5 {cross|cross-functional} projects spanning survey development, recognition, and L&D"
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Optimized onboarding processes for new hires across 3 global locations by conducting process analysis and clarifying responsibilities"
+        },
+        {
+          "text": "Built a checklist-based workflow to standardize a fragmented process, reducing complaints and turnaround time"
+        },
+        {
+          "text": "Supported HRBP team by piloting an Inclusive Leadership workshop for senior leaders, later scaled to 23 global locations"
+        },
+        {
+          "text": "Strengthened {ex|engagement} via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors"
+        }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Provided responsive, high-quality {ex|customer service} support to candidates, increasing applications by 566% in 2 months"
+        },
+        {
+          "text": "Coordinated job postings, scheduling, and recruiting logistics for a challenging international role"
+        },
+        {
+          "text": "Researched global compensation details and managed recruiting data across HR functions"
+        },
+        {
+          "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": [
+        "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
+      ]
+    }
+  ],
+  "projects": [
+    "<b>Personal Build:</b> Building a <b>RAG-based AI system</b> that evaluates job fit from past resumes and experience—hands-on AI/workflow automation",
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Data & Automation:</b> Data Analysis (Excel, Google Sheets, SPSS) · AI Tools (ChatGPT, Gemini) · Workflow automation (learning)",
+    "<b>PM & Systems:</b> Project Management (Asana, Airtable) · CRM (HubSpot) · Knowledge Management (Notion)",
+    "<b>Productivity:</b> Microsoft Office (Word, PowerPoint, Excel) · Google Workspace · Slack · Zoom",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "Unit — Support Operations Specialist",
+    "sections": []
+  },
+  "changeLog": [
+    "2026-05-31: Tailored for Unit — Support Operations Specialist (NYC, fintech). Umbrella title → Strategic Program Manager (process/ops-improvement framing). Location → New York, NY. JD: design/build automated workflows; deploy AI tools; own support tech stack; analyze support data → root causes → process/product improvements; partner w/ Eng/Product; triage complex inquiries; own customer-Product feedback loop. 1-2 yrs support ops or building AI/automated workflows; Zapier/scripts/AI. Surfaced process-improvement + root-cause analysis + AI-tool deployment + feedback loop + customer service. Added RAG-build project (real, true) to evidence AI/automation. Skills → Data & Automation line. HONEST GAP: not a Zapier/scripting engineer; candid in essays. No invented numbers."
+  ]
+}

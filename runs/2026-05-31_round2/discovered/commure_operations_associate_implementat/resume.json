@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "company": "Commure",
+    "role": "Senior Operations Associate, Implementation",
+    "date": "2026-05-31",
+    "pageMargins": {
+      "top": "0.3in",
+      "right": "0.45in",
+      "bottom": "0.3in",
+      "left": "0.45in"
+    },
+    "autoFit": true,
+    "fontRange": [
+      8.5,
+      10.0
+    ]
+  },
+  "header": {
+    "location": "Portland, OR (Open to Remote or Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Strategic Program Manager</b> who thrives on <b>solving problems through data analysis</b>, <b>building programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to drive implementations to value through change management, training, and a systematic, human-centered approach.",
+  "keywordGroups": {
+    "data": "Data/Analytics",
+    "coord": "Implementation/PM",
+    "cross": "Stakeholders/Collab",
+    "ex": "Adoption/Change",
+    "tools": "Tools/Systems",
+    "prog": "Training/Programs"
+  },
+  "experience": [
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Drive client engagements through {cross|change management} and stakeholder discovery, diagnosing root causes via {data|data analysis}"
+        },
+        {
+          "text": "Audit 300+ leave cases and translate $362K in findings into adopted process change—policy redesigns and first aid training"
+        }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Drive {coord|end-to-end activation projects} for 20+ programs from kickoff to steady state, managing multiple implementations simultaneously"
+        },
+        {
+          "text": "Define and standardize {coord|implementation methodologies, SOPs, and best practices} for 70+ staff, reducing onboarding time by 75%"
+        },
+        {
+          "text": "Design and deliver {prog|training programs} for diverse user groups, achieving a 78% program enrollment rate among 600+ participants"
+        },
+        {
+          "text": "Track {data|KPIs and adoption metrics} and {cross|coordinate cross-functional teams} across Marketing, Tech, and Sales to drive results"
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Drove adoption and {ex|change} in a healthcare-technology environment via 5 {cross|cross-functional} projects with clinical and admin stakeholders"
+        },
+        {
+          "text": "Analyzed 2,000+ data points to track satisfaction drivers and guide C-suite decisions"
+        },
+        {
+          "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed strategy"
+        },
+        {
+          "text": "Delivered internal training and consultations on DEI, Inclusive Leadership, and performance review"
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Led an Inclusive Leadership change initiative across 22 nationalities, scaling adoption to 23 global locations via the ADKAR framework"
+        },
+        {
+          "text": "Optimized onboarding processes for new hires across 3 global locations by conducting process analysis and clarifying responsibilities"
+        },
+        {
+          "text": "Delivered strategic solutions for business priorities, partnering with senior leaders on implementation and timelines"
+        },
+        {
+          "text": "Strengthened {ex|engagement} via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors"
+        }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Coordinated project logistics and recruiting operations for a challenging international role across functions"
+        },
+        {
+          "text": "Engaged stakeholders via personalized communication and high-touch service, increasing applications by 566% in 2 months"
+        },
+        {
+          "text": "Researched global compensation details and managed data across HR functions"
+        },
+        {
+          "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": [
+        "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
+      ]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Data & Analytics:</b> Data Analysis (Excel, Google Sheets, SPSS) · KPI/metrics tracking · Mixed-methods analysis",
+    "<b>PM & Systems:</b> Project Management (Asana, Airtable) · CRM (HubSpot) · HRIS (SAP, Rippling, ADP) · Change Mgmt (ADKAR)",
+    "<b>Productivity:</b> AI Tools (ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint, Excel) · Google Workspace · Notion",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "Commure — Senior Operations Associate, Implementation",
+    "sections": []
+  },
+  "changeLog": [
+    "2026-05-31: Tailored for Commure — Senior Operations Associate, Implementation (remote US + 25-50% travel, healthcare AI). Umbrella title → Strategic Program Manager. Location → Portland, OR (Open to Remote or Relocation). JD: drive activation projects kickoff→go-live; standardize implementation methodologies; develop implementation plans; coordinate cross-functional (IT/clinical/admin); design/deliver training; track KPIs; own C-level relationships; change mgmt at enterprise scale; SQL/Retool/Looker nice-to-have. Surfaced activation/implementation + methodology-standardization + training + KPI tracking + ADKAR change mgmt (Vestas) + healthcare adoption (NextGen). Skills → added Change Mgmt (ADKAR). HONEST GAP: not SQL/Retool/Looker engineer; candid in essays. No invented numbers; 78% retained."
+  ]
+}

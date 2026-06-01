@@ -1,0 +1,12 @@
+
+###### abridge_program_manager_clinician [ashby] ######
+  Nav: https://jobs.ashbyhq.com/abridge/2f91886b-d8b5-4c1c-bbd5-41acad45d9c5
+    [OK] Preferred Name -> Jamie
+    [??] Are you currently based in the United States? -> Yes
+    [??] Which state do you currently reside in? -> OR
+    [OK] Are you authorized to work in the United State -> Yes
+    [OK] Will you require visa sponsorship now or in th -> Yes
+    [OK] Do you acknowledge and agree to comply with Ab -> Yes
+  Success=False | unanswered=2
+
+###### brex_business_recruiter_nyc [greenhouse] ######

@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "company": "Samsara",
+    "role": "Enablement Business Partner, Customer Success",
+    "date": "2026-05-31",
+    "pageMargins": {
+      "top": "0.3in",
+      "right": "0.45in",
+      "bottom": "0.3in",
+      "left": "0.45in"
+    },
+    "autoFit": true,
+    "fontRange": [
+      8.5,
+      10.0
+    ]
+  },
+  "header": {
+    "location": "Portland, OR (Open to Remote or Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Learning & Development</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing enablement programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can close performance gaps and ramp teams faster—through human-centered, data-driven approaches.",
+  "keywordGroups": {
+    "data": "Data/Metrics",
+    "id": "Curriculum/ID",
+    "cross": "Stakeholders/Collab",
+    "change": "Change Mgmt",
+    "prog": "Programs/Enablement",
+    "fac": "Facilitation/Delivery"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Manage {prog|enablement programs} end-to-end for 20+ initiatives, partnering with Marketing, Tech, and Sales teams to close {data|performance gaps}"
+        },
+        {
+          "text": "{fac|Deliver training} webinars to 600+ participants and build {id|curriculum} across live sessions, async materials, and SOPs"
+        },
+        {
+          "text": "Serve as {id|subject-matter} owner for documentation and knowledge systems for 70+ staff, reducing onboarding time by 75%"
+        },
+        {
+          "text": "Drive adoption of a new process by interviewing users to diagnose {data|gaps}, then designing targeted interventions that lifted usage"
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Led an Inclusive Leadership {change|change-management} initiative using ADKAR, scaled from a pilot to 23 global locations"
+        },
+        {
+          "text": "Built awareness, found internal champions, and ran reinforcement workshops to sustain {change|adoption} in a change-heavy environment"
+        },
+        {
+          "text": "Partnered with a Denmark DEI specialist as {id|SME} to build {id|curriculum}, practice exercises, and follow-up coaching"
+        },
+        {
+          "text": "Optimized onboarding for new hires across 3 global locations through process analysis and clearer responsibilities"
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into reports that informed training strategy"
+        },
+        {
+          "text": "Analyzed 2,000+ employee experiences to {data|measure} drivers and guide C-suite decisions"
+        },
+        {
+          "text": "Provided consultations and internal {prog|training} on DEI, Inclusive Leadership, and performance review"
+        },
+        {
+          "text": "Delivered 5 {cross|cross-functional} projects spanning survey development, rewards & recognition, and L&D"
+        }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Developed proficiency across HR functions, from recruitment and compensation to performance management"
+        },
+        {
+          "text": "Drafted job descriptions and supporting materials for a challenging international role"
+        },
+        {
+          "text": "Engaged global talent via personalized {cross|communication} and customer service, increasing applications by 566% in 2 months"
+        },
+        {
+          "text": "Organized events and {fac|moderated panels} with C-suite at top 3 universities, reaching 230+ students"
+        }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "As a team of consultants, partnered with an HR client to audit 300+ leave cases, quantifying $362K to refute assumptions"
+        },
+        {
+          "text": "Empowered the client team to present executive-ready {data|data} insights, driving policy redesigns and training"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": [
+        "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
+      ]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Learning Systems:</b> LMS (Canvas, Moodle) · Knowledge Management (SharePoint, Notion) · ATS (Greenhouse) · HRIS (SAP, Rippling, ADP)",
+    "<b>Data & PM Tools:</b> Data Analysis (Excel, Google Sheets, SPSS) · Project Management (Asana, Airtable) · CRM (HubSpot)",
+    "<b>Productivity:</b> AI Tools (ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint, Excel) · Google Workspace · Slack",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "Samsara — Enablement Business Partner, Customer Success",
+    "sections": []
+  },
+  "changeLog": [
+    "2026-05-31: Tailored for Samsara — Enablement Business Partner, Customer Success (Remote US). Broad umbrella 'Learning & Development.' Location → Portland, OR (Open to Remote — role excludes many metros but NOT Portland/OR). Led InGenius with enablement programs + performance-gap closing + training delivery + curriculum + SME ownership. Vestas surfaces the ADKAR change-management story heavily (JD wants change-mgmt + curriculum dev in change-heavy environments). Skills include Notion/SharePoint (knowledge mgmt) — JD names Articulate/Absorb/Showpad/Jira which Jamie lacks, so not claimed. ODN collective. Counts fixed (InGenius/Vestas/NextGen/Kronos=4, ODN=2). NOTE: JD requires post-sale CSM/AM experience — Jamie does NOT have this; cover is honest, leans on enablement + change-mgmt strengths."
+  ]
+}

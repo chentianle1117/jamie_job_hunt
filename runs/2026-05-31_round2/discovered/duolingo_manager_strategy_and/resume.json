@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "company": "Duolingo",
+    "role": "Manager, Strategy & Business Operations",
+    "date": "2026-05-31",
+    "pageMargins": {
+      "top": "0.3in",
+      "right": "0.45in",
+      "bottom": "0.3in",
+      "left": "0.45in"
+    },
+    "autoFit": true,
+    "fontRange": [
+      8.5,
+      10.0
+    ]
+  },
+  "header": {
+    "location": "Pittsburgh, PA (Open to Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Strategic Program Manager</b> who thrives on <b>solving problems through data analysis</b>, <b>developing strategies grounded in evidence</b>, and <b>collaborating with cross-functional stakeholders for sustainable impact</b>—diagnosing the real problem before designing the solution.",
+  "keywordGroups": {
+    "data": "Data/Analytics",
+    "strat": "Strategy/Frameworks",
+    "cross": "Cross-functional",
+    "amb": "Ambiguity/Decisions",
+    "ops": "Operations",
+    "prog": "Programs"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Manage end-to-end {ops|operations} for 20+ programs, partnering with {cross|Marketing, Tech, and Sales} leaders to align on priorities and trade-offs"
+        },
+        {
+          "text": "Use {data|enrollment and feedback data} to assess opportunities, define problems, and make decisions in rapid cycles"
+        },
+        {
+          "text": "Establish {ops|cross-functional processes} and documentation for 70+ staff, reducing onboarding time by 75%"
+        },
+        {
+          "text": "Refine program positioning and {strat|value proposition} through listening sessions with 25 global {cross|stakeholders}"
+        }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "As a team of consultants, ran discovery and {amb|hypothesis-driven} diagnosis to define the real problem for an HR client"
+        },
+        {
+          "text": "Audited 300+ leave cases to quantify $362K, refuting assumptions with {data|data analysis} and driving policy redesigns"
+        },
+        {
+          "text": "For a separate NGO client, ran focus groups and 1:1 interviews, analyzing {data|qualitative data} to surface decision-making themes"
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Defined and led a self-started {strat|strategic} initiative, analyzing 2,000+ data points to find the top engagement driver"
+        },
+        {
+          "text": "Transformed {data|mixed-methods data} into actionable reports that informed C-suite strategy and resource decisions"
+        },
+        {
+          "text": "Provided consultations to improve strategic plans across DEI, Inclusive Leadership, and performance review"
+        },
+        {
+          "text": "Delivered 5 {cross|cross-functional} projects spanning survey development, analysis, and process improvement"
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Delivered strategic solutions for business priorities across employee relations, headcount, and succession planning"
+        },
+        {
+          "text": "Optimized {ops|operational processes} across 3 global locations through process analysis and clearer ownership"
+        },
+        {
+          "text": "Piloted an Inclusive Leadership initiative for senior leaders, later scaled to 23 global locations"
+        },
+        {
+          "text": "Collaborated across an office of 22 nationalities, navigating {cross|global cross-functional} dynamics"
+        }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Operations & HR Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Supported operational and HR functions at a fast-paced quantitative trading firm under rapid cycles"
+        },
+        {
+          "text": "Researched global compensation and {data|market data} to inform a challenging international hiring decision"
+        },
+        {
+          "text": "Engaged global candidates via personalized communication, increasing applications by 566% in 2 months"
+        },
+        {
+          "text": "Organized events and moderated panels with C-suite, reaching 230+ students and 80+ applicants"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": [
+        "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
+      ]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> strategy via survey design, data collection, and analysis",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Data & Analytics:</b> Data Analysis (Excel, Google Sheets, SPSS) · Mixed-methods research · Metrics & frameworks",
+    "<b>PM & Tools:</b> Project Management (Asana, Airtable) · CRM (HubSpot) · HRIS (SAP, Rippling, ADP)",
+    "<b>Productivity:</b> AI Tools (ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint, Excel) · Google Workspace · Slack",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "Duolingo — Manager, Strategy & Business Operations",
+    "sections": []
+  },
+  "changeLog": [
+    "2026-05-31: Tailored for Duolingo — Manager, Strategy & Business Operations (Pittsburgh). Broad umbrella 'Strategic Program Manager.' Location → Pittsburgh, PA. Heavily reframed toward strategy/ops/analytics/ambiguity: InGenius leads with priority/trade-off alignment + rapid-cycle decisions; ODN uses ALL THREE bullets to show hypothesis-driven diagnosis + both projects (leave-cost + NGO focus groups) for analytical/consulting depth; NextGen reframed as a self-started strategic initiative; Kronos notes the quant-finance environment + market-data research. Skills lead with Data & Analytics + frameworks. ODN=3 bullets (both projects, kept separate + collective). Others=4. NOTE: JD wants 3+ yrs + strategy/consulting/PM background; Jamie's is OD-consulting + program mgmt, a reasonable STRETCH."
+  ]
+}

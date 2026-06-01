@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "company": "Twilio",
+    "role": "Product Manager, L2",
+    "date": "2026-05-31",
+    "pageMargins": {
+      "top": "0.3in",
+      "right": "0.45in",
+      "bottom": "0.3in",
+      "left": "0.45in"
+    },
+    "autoFit": true,
+    "fontRange": [
+      8.5,
+      10.0
+    ]
+  },
+  "header": {
+    "location": "Portland, OR (Open to Remote or Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Strategic Program Manager</b> who thrives on <b>solving problems through data analysis</b>, <b>shipping solutions grounded in evidence</b>, and <b>collaborating with cross-functional teams for sustainable impact</b>—diagnosing the real user problem before building.",
+  "keywordGroups": {
+    "data": "Data/Behavioral",
+    "user": "User/Discovery",
+    "cross": "Cross-functional",
+    "ai": "AI/Tools",
+    "exec": "Execution/Delivery",
+    "iter": "Iteration"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Drive end-to-end {exec|delivery} for 20+ programs, balancing reliability and speed across {cross|Tech, Marketing, and Sales teams}"
+        },
+        {
+          "text": "When adoption lagged, ran {user|user discovery} to find the real friction, then shipped a one-pager that lifted usage"
+        },
+        {
+          "text": "Use {data|enrollment and behavioral data} to identify friction points and prioritize what to improve next"
+        },
+        {
+          "text": "Use {ai|AI tools (ChatGPT, Gemini)} daily and build AI-assisted workflows to streamline delivery and research"
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Defined and led a self-started initiative, analyzing 2,000+ {data|data points} to find the highest-impact driver first"
+        },
+        {
+          "text": "Transformed analysis into a {data|data-driven} recommendation that informed C-suite decisions"
+        },
+        {
+          "text": "Provided consultations to improve strategic plans across multiple functions"
+        },
+        {
+          "text": "Delivered 5 {cross|cross-functional} projects partnering with stakeholders on design and {iter|iteration}"
+        }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "As a team of consultants, ran {user|discovery} and hypothesis-driven diagnosis to define the real problem before proposing fixes"
+        },
+        {
+          "text": "Audited 300+ cases to quantify $362K, using {data|data} to refute assumptions and drive decisions"
+        },
+        {
+          "text": "For a separate NGO client, ran focus groups and interviews, analyzing {data|qualitative data} for root-cause themes"
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Drove a change initiative from pilot to {exec|launch} across 23 global locations, building awareness and reinforcing adoption"
+        },
+        {
+          "text": "Mapped and optimized onboarding workflows across 3 global locations, clarifying ownership"
+        },
+        {
+          "text": "Partnered {cross|cross-functionally} with regional and specialist teams to build and ship new processes"
+        },
+        {
+          "text": "Strengthened {iter|engagement} through iterative initiatives, recognized among 1,000+ competitors"
+        }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Operations & HR Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Supported operations at a fast-paced quantitative trading firm under rapid execution cycles"
+        },
+        {
+          "text": "Researched and analyzed global market {data|data} to inform a challenging international call"
+        },
+        {
+          "text": "Engaged global candidates via personalized communication, increasing applications by 566% in 2 months"
+        },
+        {
+          "text": "Organized events and moderated panels with C-suite, reaching 230+ students and 80+ applicants"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Research Methods, Organizational Psychology, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": [
+        "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
+      ]
+    }
+  ],
+  "projects": [
+    "<b>Personal Project:</b> Building a <b>RAG-based</b> AI system that reasons over a large document corpus to evaluate fit—hands-on AI product work",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping product/employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Data & PM Tools:</b> Data Analysis (Excel, Google Sheets, SPSS) · Project Management (Asana, Airtable) · Behavioral/user research",
+    "<b>Productivity & AI:</b> AI Tools (ChatGPT, Gemini) · RAG system building · Microsoft Office · Google Workspace · Slack",
+    "<b>Systems:</b> CRM (HubSpot) · HRIS (SAP, Rippling, ADP) · ATS (Greenhouse)",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "Twilio — Product Manager, L2",
+    "sections": []
+  },
+  "changeLog": [
+    "2026-05-31: Tailored for Twilio — Product Manager, L2 (Remote US, excl. SF Bay). Broad umbrella 'Strategic Program Manager' (per rule: PM roles → Strategic Program Manager). Location → Portland, OR (Open to Remote; SF Bay excluded by JD). STRETCH — developer-platform/API/headless PM role; JD only needs 1-2 yrs PM/entrepreneurial/project experience and welcomes recent grads, so years bar is low, but the technical developer-platform context is a real gap. Tailored around PM-transferable strengths: user discovery ('build with the user' STAR), behavioral-data-driven prioritization, AI fluency (real RAG project surfaced in Projects + skills), cross-functional execution, ambiguity. Did NOT claim API/headless/developer-platform expertise. ODN=3, others=4. Cover honest about the dev-platform gap."
+  ]
+}

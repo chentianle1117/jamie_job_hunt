@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "company": "LangChain",
+    "role": "People Ops & Workplace Coordinator",
+    "date": "2026-05-31",
+    "pageMargins": {
+      "top": "0.3in",
+      "right": "0.45in",
+      "bottom": "0.3in",
+      "left": "0.45in"
+    },
+    "autoFit": true,
+    "fontRange": [
+      8.5,
+      10.0
+    ]
+  },
+  "header": {
+    "location": "San Francisco, CA (Open to Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>People Operations</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve the people and workplace experience—through human-centered, systematic approaches.",
+  "keywordGroups": {
+    "data": "Data/Analytics",
+    "coord": "Coordination/Ops",
+    "cross": "Stakeholders/Collab",
+    "ex": "Employee Experience",
+    "tools": "Tools/Systems",
+    "prog": "Programs/Events"
+  },
+  "experience": [
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Upskill HR team in {data|data analytics} to audit 300+ leave cases, successfully refuting cost assumptions via {data|evidence-based insights}"
+        },
+        {
+          "text": "Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training"
+        }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Run {coord|onboarding logistics, system setup, and Day-1 readiness}, establishing processes for 70+ staff and reducing onboarding time by 75%"
+        },
+        {
+          "text": "Maintain {tools|SOPs, process documentation, and internal wiki (Notion)}, keeping data clean and audit-ready across 20+ programs"
+        },
+        {
+          "text": "Identify repetitive workflows and {tools|apply AI tools} to automate them, partnering across {cross|Marketing, Tech, and Sales teams}"
+        },
+        {
+          "text": "Coordinate {prog|events and program logistics} including vendor management, scheduling, and follow-up for 600+ participants"
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Improved {ex|employee experience} via 5 {cross|cross-functional} projects focusing on rewards & recognition, engagement, and L&D"
+        },
+        {
+          "text": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on satisfaction drivers"
+        },
+        {
+          "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed engagement strategies"
+        },
+        {
+          "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review"
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Optimized onboarding processes for new hires across 3 global locations by conducting process analysis and clarifying job responsibilities"
+        },
+        {
+          "text": "Delivered HR operations support across employee relations, headcount, and benefits-related coordination for senior leaders"
+        },
+        {
+          "text": "Supported HRBP team by piloting an Inclusive Leadership workshop for senior leaders, later scaled to 23 global locations"
+        },
+        {
+          "text": "Strengthened {ex|engagement} via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors"
+        }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Developed proficiency across HR functions, ranging from recruitment and compensation to performance management"
+        },
+        {
+          "text": "Coordinated job postings, scheduling, and HR logistics for a challenging international role"
+        },
+        {
+          "text": "Provided responsive, customer-service-oriented support via personalized communication, increasing applications by 566% in 2 months"
+        },
+        {
+          "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": [
+        "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
+      ]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>HR Systems:</b> HRIS (Rippling, SAP, ADP) · ATS (Greenhouse, Ashby) · LMS (Canvas, Moodle)",
+    "<b>Data & PM Tools:</b> Data Analysis (Excel, Google Sheets, SPSS) · Project Management (Asana, Airtable) · CRM (HubSpot)",
+    "<b>Productivity:</b> Knowledge Management (Notion) · AI Tools (ChatGPT, Gemini) · Microsoft Office · Google Workspace · Slack",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "LangChain — People Ops & Workplace Coordinator",
+    "sections": []
+  },
+  "changeLog": [
+    "2026-05-31: Tailored for LangChain — People Ops & Workplace Coordinator (SF). Umbrella title → People Operations. Location → San Francisco, CA. JD: front-of-house office ops; onboarding/offboarding (Rippling HRIS setup, equipment, Day-1); benefits admin; immigration logistics (H-1B/OPT/PERM); payroll inputs; HRIS hygiene; events/culture; SOPs/Notion wiki; flag workflows for AI automation. Surfaced onboarding/Day-1 + Notion SOPs + AI automation + events. Skills → HRIS line leads Rippling (named), added Notion + Slack (JD names them). Vestas bullet 2 reframed to HR ops + benefits coordination. No invented numbers; 78% retained (implicit)."
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "company": "Brex",
+    "role": "Sales Enablement Specialist",
+    "date": "2026-05-31",
+    "pageMargins": {
+      "top": "0.3in",
+      "right": "0.45in",
+      "bottom": "0.3in",
+      "left": "0.45in"
+    },
+    "autoFit": true,
+    "fontRange": [
+      8.5,
+      10.0
+    ]
+  },
+  "header": {
+    "location": "New York, NY (Open to Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Learning & Development</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing enablement programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can ramp people faster—through human-centered, data-driven approaches.",
+  "keywordGroups": {
+    "data": "Data/Metrics",
+    "coord": "Coordination/Logistics",
+    "cross": "Stakeholders/Collab",
+    "onb": "Onboarding/Ramp",
+    "lms": "LMS/Enablement",
+    "prog": "Programs/Training"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Manage end-to-end {coord|coordination and logistics} for 20+ {prog|enablement programs} across Marketing, Tech, and Sales teams"
+        },
+        {
+          "text": "Establish {onb|onboarding} processes and documentation for 70+ staff, reducing {onb|ramp time} by 75% via clearer protocols"
+        },
+        {
+          "text": "Facilitate {prog|training webinars} for 600+ participants, boosting engagement and achieving a 78% program enrollment rate"
+        },
+        {
+          "text": "Drive adoption of a new sales process by interviewing reps to find friction, then building a one-page enablement asset that lifted usage"
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Optimized {onb|onboarding} processes for new hires across 3 global locations by conducting process analysis and clarifying responsibilities"
+        },
+        {
+          "text": "Piloted an Inclusive Leadership {prog|training} program for senior leaders, later scaled to 23 global locations"
+        },
+        {
+          "text": "Coordinated {coord|logistics and scheduling} for cross-regional initiatives and stakeholder sessions"
+        },
+        {
+          "text": "Strengthened {cross|engagement} via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors"
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed training strategy"
+        },
+        {
+          "text": "Analyzed 2,000+ employee experiences to {data|track} satisfaction drivers and guide C-suite decisions"
+        },
+        {
+          "text": "Provided consultations to improve strategic plans and internal {prog|training} on DEI, Inclusive Leadership, and performance review"
+        },
+        {
+          "text": "Delivered 5 {cross|cross-functional} projects spanning survey development, rewards & recognition, and L&D"
+        }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Developed proficiency across HR functions, from recruitment and compensation to performance management"
+        },
+        {
+          "text": "Drafted job descriptions and {coord|coordinated} a challenging international hiring effort end-to-end"
+        },
+        {
+          "text": "Engaged global talent via personalized communication and {cross|customer service}, increasing applications by 566% in 2 months"
+        },
+        {
+          "text": "Organized {coord|recruiting events} and moderated panels with C-suite at top 3 universities, reaching 230+ students"
+        }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "As a team of consultants, partnered with an HR client to audit 300+ leave cases, quantifying $362K in costs to refute assumptions"
+        },
+        {
+          "text": "Empowered the client team to present executive-ready {data|data} insights, driving policy redesigns and first aid training"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": [
+        "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
+      ]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Enablement Systems:</b> LMS (Canvas, Moodle) · CRM (HubSpot) · ATS (Greenhouse) · HRIS (SAP, Rippling, ADP)",
+    "<b>Data & PM Tools:</b> Data Analysis (Excel, Google Sheets, SPSS) · Project Management (Asana, Airtable)",
+    "<b>Productivity:</b> AI Tools (ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint, Excel) · Google Workspace · Slack · Zoom",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "Brex — Sales Enablement Specialist",
+    "sections": []
+  },
+  "changeLog": [
+    "2026-05-31: Tailored for Brex — Sales Enablement Specialist (GTM/SDR onboarding coordinator, NYC). Broad umbrella 'Learning & Development.' Location → New York, NY (role's office). Led InGenius with coordination/logistics + onboarding/ramp + 600-participant training + the sales-process adoption story (real STAR, reframed as enablement asset). Vestas surfaces onboarding + training program + logistics coordination. Skills lead with LMS + CRM (HubSpot/Salesforce-adjacent — Jamie has HubSpot not Salesforce, so listed HubSpot honestly). NOTE: JD wants 1-2 yrs frontline SDR/quota — Jamie does NOT have SDR experience; cover is honest about that, leans on enablement/onboarding/training strengths. Counts fixed (InGenius/Vestas/NextGen/Kronos=4, ODN=2). 78% program enrollment rate (L&D framing)."
+  ]
+}
