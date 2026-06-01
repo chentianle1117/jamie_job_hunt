@@ -1,0 +1,46 @@
+
+###### duolingo_manager_strategy_and [greenhouse] ######
+    [essay:approved] How has AI changed the way you approach your work? -> 768 chars
+  Success=False | unanswered=11
+
+###### duolingo_recruiter_ii_nyc [greenhouse] ######
+    [essay:approved] How has AI changed the way you approach your work? -> 768 chars
+  Success=False | unanswered=13
+
+###### duolingo_recruiter_ii_pittsburgh [greenhouse] ######
+    [essay:approved] How has AI changed the way you approach your work? -> 768 chars
+  Success=False | unanswered=13
+
+###### discord_recruiting_data_analyst [greenhouse] ######
+    [essay:approved] Why do you want to work at Discord? -> 538 chars
+  *** ESSAY REVIEW-GATE: 1 custom essay(s) — NOT submitting, routed to dashboard ***
+
+###### samsara_enablement_business_partner [greenhouse] ######
+  *** ESSAY REVIEW-GATE: 2 custom essay(s) — NOT submitting, routed to dashboard ***
+
+###### samsara_recruiting_coordinator [greenhouse] ######
+  *** ESSAY REVIEW-GATE: 2 custom essay(s) — NOT submitting, routed to dashboard ***
+
+###### cursor_recruiting_coordinator [ashby] ######
+
+###### cohere_recruitment_coordinator [ashby] ######
+  Success=False | unanswered=0
+
+###### crusoe_workplace_coordinator [ashby] ######
+  Success=False | unanswered=0
+
+###### sierra_recruiting_coordinator_contract [ashby] ######
+  Success=False | unanswered=0
+
+=== FINAL PASS SUMMARY ===
+  inc(11)      duolingo_manager_strategy_and
+  inc(13)      duolingo_recruiter_ii_nyc
+  inc(13)      duolingo_recruiter_ii_pittsburgh
+  ?            discord_recruiting_data_analyst
+  ?            samsara_enablement_business_partner
+  ?            samsara_recruiting_coordinator
+  ?            cursor_recruiting_coordinator
+  inc(0)       cohere_recruitment_coordinator
+  inc(0)       crusoe_workplace_coordinator
+  inc(0)       sierra_recruiting_coordinator_contract
+SUBMITTED 0 / 10

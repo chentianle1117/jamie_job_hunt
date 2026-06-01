@@ -335,6 +335,48 @@
       "url": "https://job-boards.greenhouse.io/embed/job_app?for=twilio&token=7963689",
       "jamie_action_needed": false,
       "notes": "Round-2 autopilot 2026-06-01."
+    },
+    {
+      "id": "flexport_peopleops_coord_2026-05-29_jamie3",
+      "date_applied": "2026-05-31",
+      "company": "Flexport",
+      "title": "People Operations Coordinator",
+      "location": "",
+      "ats": "Greenhouse",
+      "lane": "AUTO_SUBMITTED",
+      "status": "confirmed",
+      "sponsorship_status": "unknown",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/7961522",
+      "jamie_action_needed": false,
+      "notes": "autopilot 2026-05-29_jamie3"
+    },
+    {
+      "id": "persona_operations_analyst_2026-05-31_round2",
+      "date_applied": "2026-06-01",
+      "company": "Persona",
+      "title": "Operations Analyst",
+      "location": "",
+      "ats": "Ashby",
+      "lane": "AUTO_SUBMITTED",
+      "status": "confirmed",
+      "sponsorship_status": null,
+      "url": "https://jobs.ashbyhq.com/persona/92b99682-3fab-4b3f-8129-65f463108eaa",
+      "jamie_action_needed": false,
+      "notes": "autopilot 2026-05-31_round2"
+    },
+    {
+      "id": "unit_support_operations_specialist_2026-05-31_round2",
+      "date_applied": "2026-06-01",
+      "company": "Unit",
+      "title": "Support Operations Specialist",
+      "location": "",
+      "ats": "Ashby",
+      "lane": "AUTO_SUBMITTED",
+      "status": "confirmed",
+      "sponsorship_status": null,
+      "url": "https://jobs.ashbyhq.com/unit/6a531f33-31eb-495e-a037-1c806c629007",
+      "jamie_action_needed": false,
+      "notes": "autopilot 2026-05-31_round2"
     }
   ],
   "dedup_companies": [

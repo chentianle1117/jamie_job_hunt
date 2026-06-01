@@ -1,7 +1,7 @@
 {
  "counts": {
-  "ATTENTION": 35,
-  "SUBMITTED": 23,
+  "ATTENTION": 33,
+  "SUBMITTED": 25,
   "DEFERRED": 7,
   "DROPPED": 10,
   "BLOCKED": 6
@@ -1058,7 +1058,7 @@
    "resume_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\duolingo_manager_strategy_and\\resume.pdf",
    "cover_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\duolingo_manager_strategy_and\\cover_letter.pdf",
    "resume_png": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\duolingo_manager_strategy_and\\resume_preview.png",
-   "conf_url": "",
+   "conf_url": "https://job-boards.greenhouse.io/embed/job_app?for=duolingo&token=8489240002",
    "essays": true
   },
   {
@@ -1075,7 +1075,7 @@
    "resume_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\duolingo_recruiter_ii_nyc\\resume.pdf",
    "cover_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\duolingo_recruiter_ii_nyc\\cover_letter.pdf",
    "resume_png": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\duolingo_recruiter_ii_nyc\\resume_preview.png",
-   "conf_url": "",
+   "conf_url": "https://job-boards.greenhouse.io/embed/job_app?for=duolingo&token=8570910002",
    "essays": true
   },
   {
@@ -1092,7 +1092,7 @@
    "resume_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\duolingo_recruiter_ii_pittsburgh\\resume.pdf",
    "cover_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\duolingo_recruiter_ii_pittsburgh\\cover_letter.pdf",
    "resume_png": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\duolingo_recruiter_ii_pittsburgh\\resume_preview.png",
-   "conf_url": "",
+   "conf_url": "https://job-boards.greenhouse.io/embed/job_app?for=duolingo&token=8570880002",
    "essays": true
   },
   {
@@ -1172,8 +1172,8 @@
    "url": "https://jobs.ashbyhq.com/persona/92b99682-3fab-4b3f-8129-65f463108eaa",
    "min_years": "3+",
    "why": "Ops analyst; analytical + people-ops crossover",
-   "status": "ATTENTION",
-   "date": "",
+   "status": "SUBMITTED",
+   "date": "2026-06-01",
    "resume_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\persona_operations_analyst\\resume.pdf",
    "cover_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\persona_operations_analyst\\cover_letter.pdf",
    "resume_png": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\persona_operations_analyst\\resume_preview.png",
@@ -1274,8 +1274,8 @@
    "url": "https://jobs.ashbyhq.com/unit/6a531f33-31eb-495e-a037-1c806c629007",
    "min_years": "1-2",
    "why": "Support/ops specialist, entry-mid",
-   "status": "ATTENTION",
-   "date": "",
+   "status": "SUBMITTED",
+   "date": "2026-06-01",
    "resume_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\unit_support_operations_specialist\\resume.pdf",
    "cover_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\unit_support_operations_specialist\\cover_letter.pdf",
    "resume_png": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\unit_support_operations_specialist\\resume_preview.png",

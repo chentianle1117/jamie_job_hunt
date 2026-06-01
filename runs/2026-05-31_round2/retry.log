@@ -1,0 +1,83 @@
+
+###### cursor_recruiting_coordinator [ashby] ######
+  Nav: https://jobs.ashbyhq.com/cursor/57d24d12-ba83-460a-868b-362ffd653253
+
+###### discord_recruiting_data_analyst [greenhouse] ######
+  Nav: https://job-boards.greenhouse.io/embed/job_app?for=discord&token=8523903002
+    [essay:approved] Why do you want to work at Discord? -> 538 chars
+    [essay:NEEDS-REVIEW] Name the ATS you've used most extensively and describe in 2-
+  *** ESSAY REVIEW-GATE: 1 custom essay(s) — NOT submitting, routed to dashboard ***
+     essay? Name the ATS you've used most extensively and describe in 2-3 sentences how you 
+
+###### duolingo_manager_strategy_and [greenhouse] ######
+  Nav: https://job-boards.greenhouse.io/embed/job_app?for=duolingo&token=8489240002
+    [essay:NEEDS-REVIEW] How has AI changed the way you approach your work?
+  *** ESSAY REVIEW-GATE: 1 custom essay(s) — NOT submitting, routed to dashboard ***
+     essay? How has AI changed the way you approach your work?
+
+###### duolingo_recruiter_ii_nyc [greenhouse] ######
+  Nav: https://job-boards.greenhouse.io/embed/job_app?for=duolingo&token=8570910002
+    [essay:NEEDS-REVIEW] How has AI changed the way you approach your work?
+  *** ESSAY REVIEW-GATE: 1 custom essay(s) — NOT submitting, routed to dashboard ***
+     essay? How has AI changed the way you approach your work?
+
+###### duolingo_recruiter_ii_pittsburgh [greenhouse] ######
+  Nav: https://job-boards.greenhouse.io/embed/job_app?for=duolingo&token=8570880002
+    [essay:NEEDS-REVIEW] How has AI changed the way you approach your work?
+  *** ESSAY REVIEW-GATE: 1 custom essay(s) — NOT submitting, routed to dashboard ***
+     essay? How has AI changed the way you approach your work?
+
+###### samsara_enablement_business_partner [greenhouse] ######
+  Nav: https://job-boards.greenhouse.io/embed/job_app?for=samsara&token=7640343
+    [essay:NEEDS-REVIEW] At Samsara, we encourage employees to bring their whole selv
+    [essay:NEEDS-REVIEW] If you selected 'Other' for where you learned about Samsara,
+  *** ESSAY REVIEW-GATE: 2 custom essay(s) — NOT submitting, routed to dashboard ***
+     essay? At Samsara, we encourage employees to bring their whole selves to work (this inc
+     essay? If you selected 'Other' for where you learned about Samsara, please share additi
+
+###### samsara_recruiting_coordinator [greenhouse] ######
+  Nav: https://job-boards.greenhouse.io/embed/job_app?for=samsara&token=7732679
+    [essay:NEEDS-REVIEW] At Samsara, we encourage employees to bring their whole selv
+    [essay:NEEDS-REVIEW] If you selected 'Other' for where you learned about Samsara,
+  *** ESSAY REVIEW-GATE: 2 custom essay(s) — NOT submitting, routed to dashboard ***
+     essay? At Samsara, we encourage employees to bring their whole selves to work (this inc
+     essay? If you selected 'Other' for where you learned about Samsara, please share additi
+
+###### cohere_recruitment_coordinator [ashby] ######
+  Nav: https://jobs.ashbyhq.com/cohere/9d5397c6-27c1-41ec-b685-1db83ea941c3
+  Success=False | unanswered=1
+
+###### crusoe_workplace_coordinator [ashby] ######
+  Nav: https://jobs.ashbyhq.com/crusoe/93d41fd3-de50-4759-af2a-b99ce8bda2af
+    [essay:NEEDS-REVIEW] Additional information or a note you want to share
+  Success=False | unanswered=0
+
+###### persona_operations_analyst [ashby] ######
+  Nav: https://jobs.ashbyhq.com/persona/92b99682-3fab-4b3f-8129-65f463108eaa
+  Success=True | unanswered=0
+  *** APPLICATION SUBMITTED ***
+
+###### sierra_recruiting_coordinator_contract [ashby] ######
+  Nav: https://jobs.ashbyhq.com/sierra/7b187556-fda6-4b17-8df1-a93279573876
+    [essay:NEEDS-REVIEW] Anything else? (Optional)
+  Success=False | unanswered=0
+
+###### unit_support_operations_specialist [ashby] ######
+  Nav: https://jobs.ashbyhq.com/unit/6a531f33-31eb-495e-a037-1c806c629007
+  Success=True | unanswered=0
+  *** APPLICATION SUBMITTED ***
+
+=== RETRY SUMMARY ===
+  ?            cursor_recruiting_coordinator
+  ?            discord_recruiting_data_analyst
+  ?            duolingo_manager_strategy_and
+  ?            duolingo_recruiter_ii_nyc
+  ?            duolingo_recruiter_ii_pittsburgh
+  ?            samsara_enablement_business_partner
+  ?            samsara_recruiting_coordinator
+  inc(1)       cohere_recruitment_coordinator
+  inc(0)       crusoe_workplace_coordinator
+  SUBMITTED    persona_operations_analyst
+  inc(0)       sierra_recruiting_coordinator_contract
+  SUBMITTED    unit_support_operations_specialist
+SUBMITTED 2 / 12

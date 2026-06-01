@@ -1,0 +1,14 @@
+{
+  "could_not_answer": [
+    "Are you authorized to work in the stated location of this role? *",
+    "Do you consent to Brex processing your personal information for the purpose of assessing your candidacy for this positio",
+    "Do you currently live in, or plan to relocate to, the specified location to meet this in-office requirement?*",
+    "Do you currently, or have you previously, worked at Capital One or a company acquired by Capital One as an employee, con",
+    "How did you hear about us?*",
+    "If you currently work, or have previously worked, at Capital One or a company acquired by Capital One, please provide yo",
+    "If you currently work, or have previously worked, at Capital One or a company acquired by Capital One, please provide your Employee ID (EID). This information is required for former/current employees.",
+    "Location (City)*",
+    "This role requires in-office work three days per week (Mon, Wed, Thurs). Do you acknowledge and agree to this requiremen",
+    "What country are you based in?*"
+  ]
+}
