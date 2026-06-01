@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-05-31",
+  "last_updated": "2026-06-01",
   "purpose": "Single source of truth for every job Jamie has applied to (auto-submit or manual). Use this for dedup checks BEFORE adding any new candidate.",
   "lane_definitions": {
     "AUTO_SUBMITTED": "Pipeline submitted via Patchright. Confirmation page captured.",
@@ -279,6 +279,62 @@
       "url": "https://jobs.ashbyhq.com/Ramp/d6d0ad5d-184b-4500-8aea-8bd8c503a7b6",
       "jamie_action_needed": false,
       "notes": "Round-2 essay-approved submit 2026-05-31."
+    },
+    {
+      "id": "brex_sales_enablement_specialist_2026-06-01",
+      "date_applied": "2026-06-01",
+      "company": "Brex",
+      "title": "Sales Enablement Specialist",
+      "location": "",
+      "ats": "Greenhouse",
+      "lane": "AUTO_SUBMITTED",
+      "status": "confirmed",
+      "sponsorship_status": null,
+      "url": "https://job-boards.greenhouse.io/embed/job_app?for=brex&token=8550462002",
+      "jamie_action_needed": false,
+      "notes": "Round-2 autopilot 2026-06-01."
+    },
+    {
+      "id": "commure_operations_associate_implementat_2026-06-01",
+      "date_applied": "2026-06-01",
+      "company": "Commure",
+      "title": "Operations Associate, Implementation",
+      "location": "",
+      "ats": "Ashby",
+      "lane": "AUTO_SUBMITTED",
+      "status": "confirmed",
+      "sponsorship_status": null,
+      "url": "https://jobs.ashbyhq.com/commure/1a1cc29e-5c63-4741-838b-b6556c7a602e",
+      "jamie_action_needed": false,
+      "notes": "Round-2 autopilot 2026-06-01."
+    },
+    {
+      "id": "mercury_customer_support_learning_2026-06-01",
+      "date_applied": "2026-06-01",
+      "company": "Mercury",
+      "title": "Customer Support Learning & Enablement Specialist",
+      "location": "",
+      "ats": "Greenhouse",
+      "lane": "AUTO_SUBMITTED",
+      "status": "confirmed",
+      "sponsorship_status": null,
+      "url": "https://job-boards.greenhouse.io/embed/job_app?for=mercury&token=5969840004",
+      "jamie_action_needed": false,
+      "notes": "Round-2 autopilot 2026-06-01."
+    },
+    {
+      "id": "twilio_product_manager_l2_2026-06-01",
+      "date_applied": "2026-06-01",
+      "company": "Twilio",
+      "title": "Product Manager, L2",
+      "location": "",
+      "ats": "Greenhouse",
+      "lane": "AUTO_SUBMITTED",
+      "status": "confirmed",
+      "sponsorship_status": null,
+      "url": "https://job-boards.greenhouse.io/embed/job_app?for=twilio&token=7963689",
+      "jamie_action_needed": false,
+      "notes": "Round-2 autopilot 2026-06-01."
     }
   ],
   "dedup_companies": [

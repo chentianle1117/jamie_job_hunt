@@ -10,3 +10,366 @@
   Success=False | unanswered=2
 
 ###### brex_business_recruiter_nyc [greenhouse] ######
+  Nav: https://job-boards.greenhouse.io/embed/job_app?for=brex&token=8503147002
+    [OK] Country -> USA
+    [OK] LinkedIn Profile -> https://www.linkedin.com/in/jamieyccheng
+    [OK] What are your preferred gender pronouns? (She/He -> She/Her
+    [OK] How did you hear about us? -> LinkedIn
+    [OK] What country are you based in? -> USA
+    [OK] Are you authorized to work in the stated locatio -> Yes
+    [OK] Do you currently live in, or plan to relocate to -> Yes, I plan to relocate
+    [OK] Do you consent to Brex processing your personal  -> Consent
+    [OK] This role requires in-office work three days per -> Yes, I’d relocate prior to the start of 
+    [OK] Do you currently, or have you previously, worked -> No
+    [OK] Gender -> Female
+    [OK] Are you Hispanic/Latino? -> No
+    [OK] Veteran Status -> I am not a protected veteran
+    [OK] Disability Status -> No, I do not have a disability and have 
+  Success=False | unanswered=10
+
+###### brex_business_recruiter_sf [greenhouse] ######
+  Nav: https://job-boards.greenhouse.io/embed/job_app?for=brex&token=8503148002
+    [OK] Country -> Taiwan
+    [OK] LinkedIn Profile -> https://www.linkedin.com/in/jamieyccheng
+    [OK] What are your preferred gender pronouns? (She/He -> She/Her
+    [OK] How did you hear about us? -> LinkedIn
+    [OK] What country are you based in? -> USA
+    [OK] Are you authorized to work in the stated locatio -> Yes
+    [OK] If you're not authorized to work at the stated l -> H-1B
+    [OK] Do you currently live in, or plan to relocate to -> Yes, I plan to relocate
+    [OK] Do you consent to Brex processing your personal  -> Consent
+    [OK] This role requires in-office work three days per -> Yes, I’d relocate prior to the start of 
+    [OK] Do you currently, or have you previously, worked -> No
+    [OK] Gender -> Female
+    [OK] Are you Hispanic/Latino? -> No
+    [OK] Veteran Status -> I am not a protected veteran
+    [OK] Disability Status -> No, I do not have a disability and have 
+  Success=False | unanswered=10
+
+###### brex_enterprise_implementation_consultan [greenhouse] ######
+  Nav: https://job-boards.greenhouse.io/embed/job_app?for=brex&token=8152938002
+    [OK] Country -> USA
+    [OK] LinkedIn Profile -> https://www.linkedin.com/in/jamieyccheng
+    [OK] What are your preferred gender pronouns? (She/He -> She/Her
+    [OK] How did you hear about us? -> LinkedIn
+    [OK] Are you authorized to work in the stated locatio -> Yes
+    [OK] Do you consent to Brex processing your personal  -> Consent
+    [OK] What country are you based in? -> USA
+    [OK] Do you currently live in, or plan to relocate to -> Yes, I plan to relocate
+    [OK] If you're not authorized to work at the stated l -> H-1B transfer
+    [OK] This role requires in-office work three days per -> Yes, I’d relocate prior to the start of 
+    [OK] Do you currently, or have you previously, worked -> No
+    [OK] Gender -> Female
+    [OK] Are you Hispanic/Latino? -> No
+    [OK] Veteran Status -> I am not a protected veteran
+    [OK] Disability Status -> No, I do not have a disability and have 
+  Success=False | unanswered=11
+
+###### brex_sales_enablement_specialist [greenhouse] ######
+  Nav: https://job-boards.greenhouse.io/embed/job_app?for=brex&token=8550462002
+    [OK] Preferred First Name -> Jamie
+    [OK] Country -> USA
+    [OK] LinkedIn Profile -> https://www.linkedin.com/in/jamieyccheng
+    [OK] Do you currently, or have you previously, worked -> No
+    [OK] If you currently work, or have previously worked -> N/A
+    [OK] Gender -> Female
+    [OK] Are you Hispanic/Latino? -> No
+    [OK] Veteran Status -> I am not a protected veteran
+    [OK] Disability Status -> No, I do not have a disability and have 
+  Success=True | unanswered=0
+  *** APPLICATION SUBMITTED ***
+
+###### brex_screening_and_tm [greenhouse] ######
+  Nav: https://job-boards.greenhouse.io/embed/job_app?for=brex&token=8540399002
+    [OK] Country -> USA
+    [OK] LinkedIn Profile -> https://www.linkedin.com/in/jamieyccheng
+    [OK] What are your preferred gender pronouns? (She/He -> She/Her
+    [OK] How did you hear about us? -> LinkedIn
+    [OK] What country are you based in? -> USA
+    [OK] Are you authorized to work in the stated locatio -> Yes
+    [OK] If you're not authorized to work at the stated l -> H-1B sponsorship (transfer)
+    [OK] Do you currently live in, or plan to relocate to -> Yes, I plan to relocate
+    [OK] Do you consent to Brex processing your personal  -> Consent
+    [OK] This role requires in-office work three days per -> Yes, I’d relocate prior to the start of 
+    [OK] Do you currently, or have you previously, worked -> No
+    [OK] Gender -> Female
+    [OK] Are you Hispanic/Latino? -> No
+    [OK] Veteran Status -> I am not a protected veteran
+    [OK] Disability Status -> No, I do not have a disability and have 
+  Success=False | unanswered=10
+
+###### cohere_recruitment_coordinator [ashby] ######
+  Nav: https://jobs.ashbyhq.com/cohere/9d5397c6-27c1-41ec-b685-1db83ea941c3
+    [OK] Location -> Portland, OR, USA
+    [OK] Have you worked at a fast paced technology com -> Yes
+  Success=False | unanswered=0
+
+###### commure_operations_associate_implementat [ashby] ######
+  Nav: https://jobs.ashbyhq.com/commure/1a1cc29e-5c63-4741-838b-b6556c7a602e
+    [OK] Will you now or in the future require sponsors -> Yes
+    [OK] Are you comfortable travelling up to ~25-50% t -> Yes
+    [OK] How did you hear about Commure + Athelas? -> LinkedIn
+  Success=True | unanswered=0
+  *** APPLICATION SUBMITTED ***
+
+###### crusoe_workplace_coordinator [ashby] ######
+  Nav: https://jobs.ashbyhq.com/crusoe/93d41fd3-de50-4759-af2a-b99ce8bda2af
+    [essay:NEEDS-REVIEW] Additional information or a note you want to share
+    [OK] Current Location -> Portland, OR, USA
+    [OK] Do you or will you require sponsorship for wor -> Yes
+  Success=False | unanswered=0
+
+###### cursor_recruiting_coordinator [ashby] ######
+  Nav: https://jobs.ashbyhq.com/cursor/57d24d12-ba83-460a-868b-362ffd653253
+
+###### discord_recruiting_data_analyst [greenhouse] ######
+  Nav: https://job-boards.greenhouse.io/embed/job_app?for=discord&token=8523903002
+    [essay:approved] Why do you want to work at Discord? -> 538 chars
+    [essay:NEEDS-REVIEW] Name the ATS you've used most extensively and describe in 2-
+    [OK] Country -> USA
+    [OK] Why do you want to work at Discord? -> Honestly, I admire how Discord has built
+    [OK] LinkedIn Profile -> https://www.linkedin.com/in/jamieyccheng
+    [OK] Are you legally authorized to work in the United -> Yes
+    [OK] Are you currently located in the US? -> Yes
+    [OK] Are you currently based in or willing to relocat -> Yes
+    [OK] How did you hear about this job? -> LinkedIn
+    [OK] Gender -> Female
+    [OK] Race and Ethnicity -> Asian
+    [OK] Veteran Status -> I am not a protected veteran
+    [OK] Disability Status -> No, I do not have a disability and have 
+    [OK] Gender Identity -> Woman
+    [OK] Race or Ethnicity -> East Asian
+    [OK] I consider myself a member of the LGBTQ+ communi -> I don't wish to answer
+  *** ESSAY REVIEW-GATE: 1 custom essay(s) — NOT submitting, routed to dashboard ***
+     essay? Name the ATS you've used most extensively and describe in 2-3 sentences how you 
+
+###### duolingo_manager_strategy_and [greenhouse] ######
+  Nav: https://job-boards.greenhouse.io/embed/job_app?for=duolingo&token=8489240002
+    [essay:NEEDS-REVIEW] How has AI changed the way you approach your work?
+    [OK] Preferred First Name -> Jamie
+    [OK] Country -> USA
+    [OK] LinkedIn Profile -> https://www.linkedin.com/in/jamieyccheng
+    [OK] Are you willing to work from the office location -> Yes
+    [OK] Are you authorized to work lawfully in the Unite -> Yes
+    [OK] Will you now, or in the future, require sponsors -> Yes
+    [OK] If so, are you eligible or currently in a period -> NA
+    [OK] After the OPT, are you eligible for a 24-month O -> NA
+    [OK] Where did you hear about this job? -> LinkedIn
+    [OK] How would you describe your gender identity? (ma -> Woman
+    [OK] How would you describe your racial/ethnic backgr -> East Asian
+    [OK] How would you describe your sexual orientation?  -> I don't wish to answer
+    [OK] Do you identify as transgender? -> I don't wish to answer
+    [OK] Do you have a disability or chronic condition (p -> No
+    [OK] Are you a veteran or active member of the United -> No, I am not a veteran or active member
+  *** ESSAY REVIEW-GATE: 1 custom essay(s) — NOT submitting, routed to dashboard ***
+     essay? How has AI changed the way you approach your work?
+
+###### duolingo_recruiter_ii_nyc [greenhouse] ######
+  Nav: https://job-boards.greenhouse.io/embed/job_app?for=duolingo&token=8570910002
+    [essay:NEEDS-REVIEW] How has AI changed the way you approach your work?
+    [OK] Preferred First Name -> Jamie
+    [OK] Country -> USA
+    [OK] Are you willing to work from the office location -> Yes
+    [OK] LinkedIn Profile -> https://www.linkedin.com/in/jamieyccheng
+    [OK] Are you authorized to work lawfully in the Unite -> Yes
+    [OK] Will you now, or in the future, require sponsors -> Yes
+    [OK] If so, are you eligible or currently in a period -> NA
+    [OK] After the OPT, are you eligible for a 24-month O -> NA
+    [OK] If you're less than 3 years out of school, what  -> 4.00
+    [OK] Where did you hear about this job? -> LinkedIn
+    [OK] How would you describe your gender identity? (ma -> Woman
+    [OK] How would you describe your racial/ethnic backgr -> East Asian
+    [OK] How would you describe your sexual orientation?  -> I don't wish to answer
+    [OK] Do you identify as transgender? -> I don't wish to answer
+    [OK] Do you have a disability or chronic condition (p -> No
+    [OK] Are you a veteran or active member of the United -> No, I am not a veteran or active member
+  *** ESSAY REVIEW-GATE: 1 custom essay(s) — NOT submitting, routed to dashboard ***
+     essay? How has AI changed the way you approach your work?
+
+###### duolingo_recruiter_ii_pittsburgh [greenhouse] ######
+  Nav: https://job-boards.greenhouse.io/embed/job_app?for=duolingo&token=8570880002
+    [essay:NEEDS-REVIEW] How has AI changed the way you approach your work?
+    [OK] Preferred First Name -> Jamie
+    [OK] Country -> USA
+    [OK] Are you willing to work from the office location -> Yes
+    [OK] LinkedIn Profile -> https://www.linkedin.com/in/jamieyccheng
+    [OK] Are you authorized to work lawfully in the Unite -> Yes
+    [OK] Will you now, or in the future, require sponsors -> Yes
+    [OK] If so, are you eligible or currently in a period -> No
+    [OK] After the OPT, are you eligible for a 24-month O -> NA
+    [OK] Where did you hear about this job? -> LinkedIn
+    [OK] How would you describe your gender identity? (ma -> Woman
+    [OK] How would you describe your racial/ethnic backgr -> East Asian
+    [OK] How would you describe your sexual orientation?  -> I don't wish to answer
+    [OK] Do you identify as transgender? -> I don't wish to answer
+    [OK] Do you have a disability or chronic condition (p -> No
+    [OK] Are you a veteran or active member of the United -> No, I am not a veteran or active member
+  *** ESSAY REVIEW-GATE: 1 custom essay(s) — NOT submitting, routed to dashboard ***
+     essay? How has AI changed the way you approach your work?
+
+###### langchain_people_ops_workplace [ashby] ######
+  Nav: https://jobs.ashbyhq.com/langchain/c2a8aa14-6038-4276-9e80-de009a7a5df8
+  Success=False | unanswered=1
+
+###### lovable_recruitment_coordinator [ashby] ######
+  Nav: https://jobs.ashbyhq.com/lovable/b43ca587-46f4-4c78-89e7-1ff68dad99d2
+    [essay:NEEDS-REVIEW] Please share a summary of your experience in Coordination & 
+    [essay:NEEDS-REVIEW] Why do you want to join Lovable specifically and what makes 
+    [essay:NEEDS-REVIEW] What is the most impressive thing you’ve done in your career
+    [essay:NEEDS-REVIEW] Is there anything else you'd like us to know about you?
+    [essay:NEEDS-REVIEW] Have you built anything in Lovable you'd like to share? We'd
+    [OK] Email ID -> jamiecheng0103@gmail.com
+    [OK] Location -> Portland, OR, USA
+    [OK] LinkedIn Profile URL -> https://www.linkedin.com/in/jamieyccheng/
+    [OK] Do you currently have the legal right to work  -> Yes
+    [??] Will you now or in the future require the comp -> Yes
+    [OK] What is the earliest date you can join us? -> 2-4 weeks notice
+    [OK] What are your compensation expectations? -> Open / Flexible
+    [OK] How do you identify your sexual orientation? P -> I prefer not to answer
+    [??] Which ethnicity(ies) do you identify with? Ple -> Asian or Asian American
+    [OK] Which of the following communities do you belo -> Refugee or immigrant
+  Success=False | unanswered=6
+
+###### mercury_customer_support_learning [greenhouse] ######
+  Nav: https://job-boards.greenhouse.io/embed/job_app?for=mercury&token=5969840004
+    [OK] Country -> USA
+    [OK] LinkedIn Profile -> https://www.linkedin.com/in/jamieyccheng
+    [OK] Will you now or at any time in the future requir -> Yes
+    [OK] From where do you intend to work? -> Portland, OR, USA
+  Success=True | unanswered=0
+  *** APPLICATION SUBMITTED ***
+
+###### mintlify_recruiter [ashby] ######
+  Nav: https://jobs.ashbyhq.com/mintlify/fc6c0de3-a50f-4d85-b8bb-5ae5437eb02b
+    [essay:NEEDS-REVIEW] Why are you interested in Mintlify?
+    [OK] This is an in-person role. Are you willing to  -> Yes
+    [OK] How did you hear about us!? -> LinkedIn
+  Success=False | unanswered=1
+
+###### persona_operations_analyst [ashby] ######
+  Nav: https://jobs.ashbyhq.com/persona/92b99682-3fab-4b3f-8129-65f463108eaa
+    [OK] Current location -> Portland, OR, USA
+    [OK] Current company -> InGenius Prep
+    [OK] Please help us work effectively with our immig -> Yes
+  Success=False | unanswered=0
+
+###### samsara_enablement_business_partner [greenhouse] ######
+  Nav: https://job-boards.greenhouse.io/embed/job_app?for=samsara&token=7640343
+    [essay:NEEDS-REVIEW] At Samsara, we encourage employees to bring their whole selv
+    [essay:NEEDS-REVIEW] If you selected 'Other' for where you learned about Samsara,
+    [OK] Country -> USA
+    [OK] Preferred First Name -> Jamie
+    [OK] Preferred Last Name -> Cheng
+    [OK] LinkedIn Profile -> https://www.linkedin.com/in/jamieyccheng
+    [OK] Will you now or in the future require Samsara to -> Yes
+    [OK] Processing of Personal Data -> Acknowledge/Confirm
+    [OK] Are you currently legally authorized to work in  -> Yes
+    [OK] How did you hear about this opportunity? -> LinkedIn Jobs
+    [OK] Current Employer (if applicable) -> InGenius Prep
+    [OK] Where have you learned about Samsara? Select all -> LinkedIn
+    [OK] How do you identify? (gender identity) -> Woman
+    [OK] How do you identify? (race/ethnicity) -> East Asian (inclusive of Chinese, Japane
+    [OK] If you are based in the US, what is your veteran -> I am not a protected veteran
+    [OK] Do you have a physical or mental disability, imp -> No, I don’t have a disability
+  *** ESSAY REVIEW-GATE: 2 custom essay(s) — NOT submitting, routed to dashboard ***
+     essay? At Samsara, we encourage employees to bring their whole selves to work (this inc
+     essay? If you selected 'Other' for where you learned about Samsara, please share additi
+
+###### samsara_recruiting_coordinator [greenhouse] ######
+  Nav: https://job-boards.greenhouse.io/embed/job_app?for=samsara&token=7732679
+    [essay:NEEDS-REVIEW] At Samsara, we encourage employees to bring their whole selv
+    [essay:NEEDS-REVIEW] If you selected 'Other' for where you learned about Samsara,
+    [OK] Country -> United States
+    [OK] Preferred First Name -> Jamie
+    [OK] Preferred Last Name -> Cheng
+    [OK] LinkedIn Profile -> https://www.linkedin.com/in/jamieyccheng
+    [OK] Will you now or in the future require Samsara to -> Yes
+    [OK] Are you currently legally authorized to work in  -> Yes
+    [OK] Processing of Personal Data -> Acknowledge/Confirm
+    [OK] Have you previously worked at Samsara? -> No
+    [OK] How did you hear about this opportunity? -> LinkedIn Jobs
+    [OK] Current Employer (if applicable) -> InGenius Prep
+    [OK] I confirm that I reside in the US. -> Yes
+    [OK] Can you commute to work from our San Francisco o -> Yes
+    [OK] Where have you learned about Samsara? Select all -> LinkedIn
+    [OK] How do you identify? (gender identity) -> Woman
+    [OK] How do you identify? (race/ethnicity) -> East Asian (inclusive of Chinese, Japane
+    [OK] If you are based in the US, what is your veteran -> I am not a protected veteran
+    [OK] Do you have a physical or mental disability, imp -> No, I don’t have a disability
+  *** ESSAY REVIEW-GATE: 2 custom essay(s) — NOT submitting, routed to dashboard ***
+     essay? At Samsara, we encourage employees to bring their whole selves to work (this inc
+     essay? If you selected 'Other' for where you learned about Samsara, please share additi
+
+###### sierra_recruiting_coordinator_contract [ashby] ######
+  Nav: https://jobs.ashbyhq.com/sierra/7b187556-fda6-4b17-8df1-a93279573876
+    [essay:NEEDS-REVIEW] Anything else? (Optional)
+    [OK] How do you identify your sexual orientation? P -> ["I prefer not to answer"]
+    [??] Which ethnicity(ies) do you identify with? Ple -> ["Asian or Asian American"]
+    [OK] Which of the following communities do you belo -> ["Refugee or immigrant"]
+  Success=False | unanswered=0
+
+###### suno_talent_sourcer [ashby] ######
+  Nav: https://jobs.ashbyhq.com/suno/10c7bf14-b685-4520-b923-ede7204e5e2f
+    [essay:NEEDS-REVIEW] Why are you interested in working at Suno?
+    [OK] Location -> Portland, OR, USA
+    [OK] Are you legally authorized to work in the Unit -> Yes
+    [OK] Do you, now or in the future, require visa spo -> Yes
+    [??] Suno is an in person company and currently exp -> Yes
+  Success=False | unanswered=3
+
+###### twilio_product_manager_l2 [greenhouse] ######
+  Nav: https://job-boards.greenhouse.io/embed/job_app?for=twilio&token=7963689
+    [OK] How did you hear about Twilio? -> LinkedIn
+    [OK] By clicking the "Acknowledge" button, you acknow -> Acknowledge
+    [OK] By checking this box, I confirm I have read, rev -> Acknowledge
+    [OK] Preferred First Name -> Jamie
+    [OK] Country -> United States
+    [OK] LinkedIn Profile URL -> https://www.linkedin.com/in/jamieyccheng
+    [OK] Are you legally authorized to work in the United -> Yes
+    [OK] Will you now or in the future require sponsorshi -> Yes
+    [OK] Please indicate whether you are either a citizen -> No
+    [OK] Disability Status -> No, I do not have a disability and have 
+    [OK] Voluntary Self-Identification of Gender -> Female
+    [OK] Voluntary Self-Identification of Race/Ethnicity -> Asian
+    [OK] Protected Veteran Status -> I am not a protected veteran
+    [OK] Voluntary Self-Identification of Sexual Orientat -> I don't wish to answer
+    [??] By checking this box, I consent to Twilio collec -> Yes
+  Success=True | unanswered=1
+  *** APPLICATION SUBMITTED ***
+
+###### unit_support_operations_specialist [ashby] ######
+  Nav: https://jobs.ashbyhq.com/unit/6a531f33-31eb-495e-a037-1c806c629007
+    [OK] Location -> Portland, OR, USA
+    [OK] (Optional) LinkedIn URL -> https://www.linkedin.com/in/jamieyccheng/
+    [OK] We work on a hybrid schedule in our NYC office -> Yes
+    [OK] Are you authoized to work in the US? -> Yes
+    [OK] Will you now or in the future require visa spo -> Yes
+  Success=False | unanswered=0
+
+=== ESSAY SUBMIT SUMMARY ===
+  incomplete(2)      abridge_program_manager_clinician
+  incomplete(10)     brex_business_recruiter_nyc
+  incomplete(10)     brex_business_recruiter_sf
+  incomplete(11)     brex_enterprise_implementation_consultan
+  SUBMITTED          brex_sales_enablement_specialist
+  incomplete(10)     brex_screening_and_tm
+  incomplete(0)      cohere_recruitment_coordinator
+  SUBMITTED          commure_operations_associate_implementat
+  incomplete(0)      crusoe_workplace_coordinator
+  ?                  cursor_recruiting_coordinator
+  ?                  discord_recruiting_data_analyst
+  ?                  duolingo_manager_strategy_and
+  ?                  duolingo_recruiter_ii_nyc
+  ?                  duolingo_recruiter_ii_pittsburgh
+  incomplete(1)      langchain_people_ops_workplace
+  incomplete(6)      lovable_recruitment_coordinator
+  SUBMITTED          mercury_customer_support_learning
+  incomplete(1)      mintlify_recruiter
+  incomplete(0)      persona_operations_analyst
+  ?                  samsara_enablement_business_partner
+  ?                  samsara_recruiting_coordinator
+  incomplete(0)      sierra_recruiting_coordinator_contract
+  incomplete(3)      suno_talent_sourcer
+  SUBMITTED          twilio_product_manager_l2
+  incomplete(0)      unit_support_operations_specialist
+SUBMITTED 4 / 25

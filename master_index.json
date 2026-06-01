@@ -1,7 +1,7 @@
 {
  "counts": {
-  "ATTENTION": 39,
-  "SUBMITTED": 19,
+  "ATTENTION": 35,
+  "SUBMITTED": 23,
   "DEFERRED": 7,
   "DROPPED": 10,
   "BLOCKED": 6
@@ -888,7 +888,7 @@
    "resume_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\brex_business_recruiter_nyc\\resume.pdf",
    "cover_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\brex_business_recruiter_nyc\\cover_letter.pdf",
    "resume_png": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\brex_business_recruiter_nyc\\resume_preview.png",
-   "conf_url": "",
+   "conf_url": "https://job-boards.greenhouse.io/embed/job_app?for=brex&token=8503147002",
    "essays": true
   },
   {
@@ -905,7 +905,7 @@
    "resume_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\brex_business_recruiter_sf\\resume.pdf",
    "cover_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\brex_business_recruiter_sf\\cover_letter.pdf",
    "resume_png": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\brex_business_recruiter_sf\\resume_preview.png",
-   "conf_url": "",
+   "conf_url": "https://job-boards.greenhouse.io/embed/job_app?for=brex&token=8503148002",
    "essays": true
   },
   {
@@ -922,7 +922,7 @@
    "resume_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\brex_enterprise_implementation_consultan\\resume.pdf",
    "cover_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\brex_enterprise_implementation_consultan\\cover_letter.pdf",
    "resume_png": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\brex_enterprise_implementation_consultan\\resume_preview.png",
-   "conf_url": "",
+   "conf_url": "https://job-boards.greenhouse.io/embed/job_app?for=brex&token=8152938002",
    "essays": true
   },
   {
@@ -934,12 +934,12 @@
    "url": "https://job-boards.greenhouse.io/embed/job_app?for=brex&token=8550462002",
    "min_years": "1-2",
    "why": "Enablement + new-hire training; L&D",
-   "status": "ATTENTION",
-   "date": "",
+   "status": "SUBMITTED",
+   "date": "2026-06-01",
    "resume_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\brex_sales_enablement_specialist\\resume.pdf",
    "cover_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\brex_sales_enablement_specialist\\cover_letter.pdf",
    "resume_png": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\brex_sales_enablement_specialist\\resume_preview.png",
-   "conf_url": "",
+   "conf_url": "https://job-boards.greenhouse.io/embed/job_app/confirmation?for=brex&token=8550462002",
    "essays": true
   },
   {
@@ -956,7 +956,7 @@
    "resume_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\brex_screening_and_tm\\resume.pdf",
    "cover_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\brex_screening_and_tm\\cover_letter.pdf",
    "resume_png": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\brex_screening_and_tm\\resume_preview.png",
-   "conf_url": "",
+   "conf_url": "https://job-boards.greenhouse.io/embed/job_app?for=brex&token=8540399002",
    "essays": true
   },
   {
@@ -973,7 +973,7 @@
    "resume_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\cohere_recruitment_coordinator\\resume.pdf",
    "cover_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\cohere_recruitment_coordinator\\cover_letter.pdf",
    "resume_png": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\cohere_recruitment_coordinator\\resume_preview.png",
-   "conf_url": "",
+   "conf_url": "https://jobs.ashbyhq.com/cohere/9d5397c6-27c1-41ec-b685-1db83ea941c3/application",
    "essays": true
   },
   {
@@ -985,12 +985,12 @@
    "url": "https://jobs.ashbyhq.com/commure/1a1cc29e-5c63-4741-838b-b6556c7a602e",
    "min_years": "3+",
    "why": "Implementation/ops associate (associate-level)",
-   "status": "ATTENTION",
-   "date": "",
+   "status": "SUBMITTED",
+   "date": "2026-06-01",
    "resume_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\commure_operations_associate_implementat\\resume.pdf",
    "cover_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\commure_operations_associate_implementat\\cover_letter.pdf",
    "resume_png": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\commure_operations_associate_implementat\\resume_preview.png",
-   "conf_url": "",
+   "conf_url": "https://jobs.ashbyhq.com/commure/1a1cc29e-5c63-4741-838b-b6556c7a602e/application",
    "essays": true
   },
   {
@@ -1007,7 +1007,7 @@
    "resume_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\crusoe_workplace_coordinator\\resume.pdf",
    "cover_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\crusoe_workplace_coordinator\\cover_letter.pdf",
    "resume_png": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\crusoe_workplace_coordinator\\resume_preview.png",
-   "conf_url": "",
+   "conf_url": "https://jobs.ashbyhq.com/crusoe/93d41fd3-de50-4759-af2a-b99ce8bda2af/application",
    "essays": true
   },
   {
@@ -1109,7 +1109,7 @@
    "resume_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\langchain_people_ops_workplace\\resume.pdf",
    "cover_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\langchain_people_ops_workplace\\cover_letter.pdf",
    "resume_png": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\langchain_people_ops_workplace\\resume_preview.png",
-   "conf_url": "",
+   "conf_url": "https://jobs.ashbyhq.com/langchain/c2a8aa14-6038-4276-9e80-de009a7a5df8/application",
    "essays": true
   },
   {
@@ -1126,7 +1126,7 @@
    "resume_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\lovable_recruitment_coordinator\\resume.pdf",
    "cover_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\lovable_recruitment_coordinator\\cover_letter.pdf",
    "resume_png": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\lovable_recruitment_coordinator\\resume_preview.png",
-   "conf_url": "",
+   "conf_url": "https://jobs.ashbyhq.com/lovable/b43ca587-46f4-4c78-89e7-1ff68dad99d2/application",
    "essays": true
   },
   {
@@ -1138,12 +1138,12 @@
    "url": "https://job-boards.greenhouse.io/embed/job_app?for=mercury&token=5969840004",
    "min_years": "3+",
    "why": "L&D/instructional design/enablement; strong match",
-   "status": "ATTENTION",
-   "date": "",
+   "status": "SUBMITTED",
+   "date": "2026-06-01",
    "resume_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\mercury_customer_support_learning\\resume.pdf",
    "cover_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\mercury_customer_support_learning\\cover_letter.pdf",
    "resume_png": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\mercury_customer_support_learning\\resume_preview.png",
-   "conf_url": "",
+   "conf_url": "https://job-boards.greenhouse.io/embed/job_app/confirmation?for=mercury&token=5969840004",
    "essays": true
   },
   {
@@ -1160,7 +1160,7 @@
    "resume_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\mintlify_recruiter\\resume.pdf",
    "cover_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\mintlify_recruiter\\cover_letter.pdf",
    "resume_png": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\mintlify_recruiter\\resume_preview.png",
-   "conf_url": "",
+   "conf_url": "https://jobs.ashbyhq.com/mintlify/fc6c0de3-a50f-4d85-b8bb-5ae5437eb02b/application",
    "essays": true
   },
   {
@@ -1177,7 +1177,7 @@
    "resume_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\persona_operations_analyst\\resume.pdf",
    "cover_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\persona_operations_analyst\\cover_letter.pdf",
    "resume_png": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\persona_operations_analyst\\resume_preview.png",
-   "conf_url": "",
+   "conf_url": "https://jobs.ashbyhq.com/persona/92b99682-3fab-4b3f-8129-65f463108eaa/application",
    "essays": true
   },
   {
@@ -1228,7 +1228,7 @@
    "resume_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\sierra_recruiting_coordinator_contract\\resume.pdf",
    "cover_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\sierra_recruiting_coordinator_contract\\cover_letter.pdf",
    "resume_png": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\sierra_recruiting_coordinator_contract\\resume_preview.png",
-   "conf_url": "",
+   "conf_url": "https://jobs.ashbyhq.com/sierra/7b187556-fda6-4b17-8df1-a93279573876/application",
    "essays": true
   },
   {
@@ -1245,7 +1245,7 @@
    "resume_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\suno_talent_sourcer\\resume.pdf",
    "cover_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\suno_talent_sourcer\\cover_letter.pdf",
    "resume_png": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\suno_talent_sourcer\\resume_preview.png",
-   "conf_url": "",
+   "conf_url": "https://jobs.ashbyhq.com/suno/10c7bf14-b685-4520-b923-ede7204e5e2f/application",
    "essays": true
   },
   {
@@ -1257,12 +1257,12 @@
    "url": "https://job-boards.greenhouse.io/embed/job_app?for=twilio&token=7963689",
    "min_years": "1-2",
    "why": "Junior PM; secondary target",
-   "status": "ATTENTION",
-   "date": "",
+   "status": "SUBMITTED",
+   "date": "2026-06-01",
    "resume_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\twilio_product_manager_l2\\resume.pdf",
    "cover_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\twilio_product_manager_l2\\cover_letter.pdf",
    "resume_png": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\twilio_product_manager_l2\\resume_preview.png",
-   "conf_url": "",
+   "conf_url": "https://job-boards.greenhouse.io/embed/job_app/confirmation?for=twilio&token=7963689",
    "essays": true
   },
   {
@@ -1279,7 +1279,7 @@
    "resume_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\unit_support_operations_specialist\\resume.pdf",
    "cover_pdf": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\unit_support_operations_specialist\\cover_letter.pdf",
    "resume_png": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\runs\\2026-05-31_round2\\discovered\\unit_support_operations_specialist\\resume_preview.png",
-   "conf_url": "",
+   "conf_url": "https://jobs.ashbyhq.com/unit/6a531f33-31eb-495e-a037-1c806c629007/application",
    "essays": true
   },
   {
