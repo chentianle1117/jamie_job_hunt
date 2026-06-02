@@ -1,0 +1,33 @@
+{
+  "name": "Jamie (Yi-Chieh) Cheng",
+  "first_name": "Jamie",
+  "last_name": "Cheng",
+  "email": "jamiecheng0103@gmail.com",
+  "phone": "",
+  "location": "Washington, DC",
+  "authorized_to_work": true,
+  "requires_sponsorship": true,
+  "linkedin": "",
+  "url": "https://georgetown.wd1.myworkdayjobs.com/en-US/Georgetown_Admin_Careers/job/500-First-St-NW-1st-Floor/Program-Coordinator--Center-for-Public-and-Nonprofit-Leadership--McCourt-School-of-Public-Policy---Georgetown-University_JR26014-1",
+  "ats": "workday",
+  "company": "Georgetown University",
+  "role": "Program Coordinator, Center for Public and Nonprofit Leadership",
+  "req_id": "JR26014",
+  "current_employer_of_company": false,
+  "notes": "Workday cap-exempt (higher-ed). Create reusable Georgetown applicant account first; 1 other Georgetown role this round. Resume parsing available.",
+  "meta": {
+    "company": "Georgetown University",
+    "role": "Program Coordinator, Center for Public and Nonprofit Leadership",
+    "ats": "workday",
+    "url": "https://georgetown.wd1.myworkdayjobs.com/en-US/Georgetown_Admin_Careers/job/500-First-St-NW-1st-Floor/Program-Coordinator--Center-for-Public-and-Nonprofit-Leadership--McCourt-School-of-Public-Policy---Georgetown-University_JR26014-1",
+    "date": "2026-06-02",
+    "id": "georgetown_cpnl_coordinator",
+    "bucket": "workday",
+    "min_years": "0-2 yrs",
+    "why_fit": "Low YOE — easy clear; Genuine nonprofit hook (Global Shapers WEF NGO); On-campus DC — confirm relocation; Georgetown account reusable for 2 roles",
+    "lane": "PACKAGE_READY",
+    "fit_pct": 80,
+    "cap_exempt": true,
+    "h1b_signal": "cap-exempt"
+  }
+}

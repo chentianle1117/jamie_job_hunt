@@ -1,0 +1,30 @@
+{
+  "name": "Jamie (Yi-Chieh) Cheng",
+  "email": "jamiecheng0103@gmail.com",
+  "phone": "",
+  "location": "Portland, OR",
+  "authorized_to_work": true,
+  "requires_sponsorship": true,
+  "sponsorship_note": "PSU is a cap-exempt public university — sponsorship requirement should not disqualify.",
+  "linkedin": "",
+  "url": "https://jobs.hrc.pdx.edu/postings/49905",
+  "ats": "peopleadmin",
+  "company": "Portland State University",
+  "role": "Coordinator of Basic Needs Center",
+  "local_candidate": true,
+  "meta": {
+    "company": "Portland State University",
+    "role": "Coordinator of Basic Needs Center",
+    "ats": "peopleadmin",
+    "url": "https://jobs.hrc.pdx.edu/postings/49905",
+    "date": "2026-06-02",
+    "id": "psu_basic_needs",
+    "bucket": "peopleadmin",
+    "min_years": "2 yrs full-time OR 4 yrs part-time/grad/volunteer direct service",
+    "why_fit": "⭐ LOCAL Portland — geographic advantage; STRETCH/PIVOT — no direct-service advising in higher ed (disclosed honestly in cover); Equity-adjacent: Vestas DEI, Global Shapers, Education Studies BA",
+    "lane": "PACKAGE_READY",
+    "fit_pct": 58,
+    "cap_exempt": true,
+    "h1b_signal": "cap-exempt"
+  }
+}

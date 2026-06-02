@@ -1,0 +1,32 @@
+{
+  "name": "Jamie (Yi-Chieh) Cheng",
+  "email": "jamiecheng0103@gmail.com",
+  "phone": "",
+  "location": "Washington, DC",
+  "authorized_to_work": true,
+  "requires_sponsorship": true,
+  "sponsorship_note": "Will require future sponsorship; Georgetown is a cap-exempt H-1B employer.",
+  "linkedin": "",
+  "url": "https://georgetown.wd1.myworkdayjobs.com/en-US/Georgetown_Admin_Careers/job/Main-Campus/MBA-Student-Services-Program-Manager---McDonough-School-of-Business_JR25572",
+  "ats": "workday",
+  "req_id": "JR25572",
+  "demographics": {
+    "gender": "Woman",
+    "race_ethnicity": "Asian"
+  },
+  "meta": {
+    "company": "Georgetown University",
+    "role": "MBA Student Services Program Manager (McDonough)",
+    "ats": "workday",
+    "url": "https://georgetown.wd1.myworkdayjobs.com/en-US/Georgetown_Admin_Careers/job/Main-Campus/MBA-Student-Services-Program-Manager---McDonough-School-of-Business_JR25572",
+    "date": "2026-06-02",
+    "id": "georgetown_mba_student_services",
+    "bucket": "workday",
+    "min_years": "1-3 yrs",
+    "why_fit": "Cohort student-experience PM; Strong event/program-ops + tool match (Google Workspace, Excel); On-campus DC — confirm relocation; Georgetown account reusable for 2 roles",
+    "lane": "PACKAGE_READY",
+    "fit_pct": 80,
+    "cap_exempt": true,
+    "h1b_signal": "cap-exempt"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "company": "Georgetown University",
+    "role": "MBA Student Services Program Manager",
+    "date": "2026-06-02",
+    "note": "Draft answers in Jamie's voice, adapted from jamie_voice_corpus.md and content_library.md. Each 80-150 words. Edit freely before submitting."
+  },
+  "answers": [
+    {
+      "question": "Why are you interested in this role?",
+      "answer": "I'm drawn to this role because it sits right at the intersection of what I love—program operations and the people they serve. Day-to-day, I already coordinate events, manage vendors and logistics, and keep a distributed team aligned on timelines, so the work of running Orientation, Commencement, and Town Halls feels like my natural lane. What excites me most, though, is that the goal isn't just to execute events—it's to enhance the MBA student experience. With my background in Applied Organizational Psychology, I tend to treat that experience as a system to support and improve, not just a calendar to fill. I'd genuinely enjoy being the steady, organized person behind the scenes who makes a student's experience feel seamless and well cared for.",
+      "word_count": 124
+    },
+    {
+      "question": "Why Georgetown / McDonough?",
+      "answer": "What stood out to me is how clearly Georgetown ties this role back to its mission—educating reflective, generous people through cura personalis, caring for the whole student. I love that a Program Office job is framed not as administrative box-checking but as fostering each student's holistic development. That resonates with how I approach my own work: I believe the operational details—the logistics, the scheduling, the steady coordination—are exactly how you show people they're cared for. McDonough's MBA Program Office also sounds like the kind of close, collaborative team I do my best work in. I'm at a point in my career where I want to invest deeply in one community and grow with it, and a mission-driven, people-first environment like Georgetown's is exactly where I'd want to do that.",
+      "word_count": 128
+    },
+    {
+      "question": "Describe your experience managing programs that improve a participant or student experience.",
+      "answer": "In my current role as a Program Manager at InGenius Prep, I coordinate and deliver 20+ educational programs, handling logistics, vendors, and event coordination from planning through execution—including live sessions for 600+ participants. But I don't just run programs; I improve them. I conducted needs assessments with 25+ stakeholders to find where the experience was falling short, then designed three new programs to close those gaps, and I use feedback loops to keep refining delivery. Earlier, at NextGen Healthcare, I analyzed 2,000+ employee experiences to surface what actually drove satisfaction and turned that into recommendations leaders acted on. My approach is consistent: diagnose what participants really need, build the program around it, then measure and adjust. That blend of organized execution and human-centered improvement is what I'd bring to your students.",
+      "word_count": 133
+    }
+  ]
+}

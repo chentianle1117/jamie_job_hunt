@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "company": "Washington University in St. Louis",
+    "role": "Program Coordinator, Bauer Leaders Academy",
+    "date": "2026-06-02",
+    "note": "80-150 word answers in Jamie's voice, adapted from voice corpus. Use only if the Workday application asks supplemental questions."
+  },
+  "answers": [
+    {
+      "question": "Why are you interested in this role?",
+      "answer": "This role sits exactly where I love to work—at the intersection of program coordination and people development. In my current role I coordinate 20+ educational programs for cohorts of student participants, managing schedules, logistics, and the steady communication that keeps a program running. What draws me to the Bauer Leaders Academy is that it isn't just about logistics; it's about designing experiences that help students actually grow as leaders. I don't just want to keep a program running—I want to keep asking how we can make it better, using participant feedback and outcome data to deepen its impact. That blend of careful coordination and continuous improvement is the work I find most meaningful, and it's what I hope to bring to the Academy."
+    },
+    {
+      "question": "Why WashU / this program?",
+      "answer": "I'll be candid—I'm drawn to the Bauer Leaders Academy because it treats leadership development as something to be designed and continuously improved, not just administered. That resonates deeply with how I approach my work. With a master's in Applied Organizational Psychology, I treat programs as systems to be studied: I diagnose with feedback and data, design around best practices, then measure and refine. WashU's commitment to developing the next generation of leaders—and the Academy's focus on building genuine relationships with both faculty and students—matches the people-first, evidence-grounded way I've always worked. I'd be honored to support a program whose mission is helping students become the kind of leaders who carry that growth forward. That's the impact I hope to contribute to here."
+    },
+    {
+      "question": "Describe your experience coordinating cohort or leadership-development programs.",
+      "answer": "At InGenius Prep I coordinate and administer 20+ educational programs for cohorts of student participants—managing course logistics, maintaining schedules, and serving as their day-to-day point of contact. I also conduct needs assessments with 25+ stakeholders to identify learning gaps and design new curricular offerings. My most direct leadership-development experience was at Vestas: I built an Inclusive Leadership workshop for 12 senior leaders, then coordinated its logistics and proved its impact well enough that it scaled to 23 global locations. Across both, my approach is the same—diagnose the real gap before designing, partner closely with the people delivering the content, build in feedback loops so improvement is continuous, and measure whether participants actually grow, not just whether the program ran."
+    }
+  ]
+}
