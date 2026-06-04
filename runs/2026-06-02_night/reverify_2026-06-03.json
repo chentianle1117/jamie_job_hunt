@@ -1,0 +1,16 @@
+{
+  "reverified": "2026-06-03",
+  "result": "ALL 8 STILL LIVE",
+  "time_sensitive": {"uw_program_ops_jackson": "closes 2026-06-05 (~2 days)"},
+  "sponsorship_flag": {"cornell_leadership_programs": "JD says 'visa sponsorship not available' — verify with recruiter before applying"},
+  "statuses": {
+    "usc_academic_program_administrator": "LIVE (no end date)",
+    "uw_program_ops_jackson": "LIVE (close 2026-06-05)",
+    "wustl_bauer_leaders": "LIVE (no end date)",
+    "georgetown_cpnl_coordinator": "LIVE (close 2026-10-01)",
+    "georgetown_mba_student_services": "LIVE (close 2026-07-27)",
+    "northeastern_cohort_pm": "LIVE (open since 2025-09, still active)",
+    "psu_basic_needs": "LIVE (open until finalists identified)",
+    "cornell_leadership_programs": "LIVE (no end date; sponsorship flag)"
+  }
+}

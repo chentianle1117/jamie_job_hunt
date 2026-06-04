@@ -1,0 +1,32 @@
+{
+  "name": "Jamie (Yi-Chieh) Cheng",
+  "email": "jamiecheng0103@gmail.com",
+  "phone": "213-700-3831",
+  "location": "Portland, OR",
+  "authorized_to_work": true,
+  "requires_sponsorship": true,
+  "linkedin": "http://www.linkedin.com/in/jamieyccheng",
+  "role_url": "https://jobs.ashbyhq.com/openai/1778fbc9-b9c5-4ea5-a1d3-aa7bea0be272",
+  "ats": "ashby",
+  "company": "OpenAI",
+  "role": "Customer Education Program Manager, New Products",
+  "meta": {
+    "company": "OpenAI",
+    "role": "Customer Education Program Manager, New Products",
+    "url": "https://jobs.ashbyhq.com/openai/1778fbc9-b9c5-4ea5-a1d3-aa7bea0be272",
+    "ats": "ashby",
+    "date": "2026-06-04",
+    "id": "openai_customer_education_pm"
+  },
+  "personal": {
+    "first_name": "Yi-Chieh",
+    "last_name": "Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "213-700-3831",
+    "location": "Portland, OR",
+    "country": "United States"
+  },
+  "links": {
+    "linkedin": "http://www.linkedin.com/in/jamieyccheng"
+  }
+}

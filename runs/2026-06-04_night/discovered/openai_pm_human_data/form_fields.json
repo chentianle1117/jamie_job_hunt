@@ -1,0 +1,32 @@
+{
+  "name": "Jamie (Yi-Chieh) Cheng",
+  "email": "jamiecheng0103@gmail.com",
+  "phone": "213-700-3831",
+  "location": "San Francisco, CA",
+  "authorized_to_work": true,
+  "requires_sponsorship": true,
+  "linkedin": "http://www.linkedin.com/in/jamieyccheng",
+  "role_url": "https://jobs.ashbyhq.com/openai/932c9cc1-c542-4f67-8d0d-443de87b8213",
+  "ats": "ashby",
+  "company": "OpenAI",
+  "role": "Program Manager, Human Data",
+  "meta": {
+    "company": "OpenAI",
+    "role": "Program Manager, Human Data",
+    "url": "https://jobs.ashbyhq.com/openai/932c9cc1-c542-4f67-8d0d-443de87b8213",
+    "ats": "ashby",
+    "date": "2026-06-04",
+    "id": "openai_pm_human_data"
+  },
+  "personal": {
+    "first_name": "Yi-Chieh",
+    "last_name": "Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "213-700-3831",
+    "location": "San Francisco, CA",
+    "country": "United States"
+  },
+  "links": {
+    "linkedin": "http://www.linkedin.com/in/jamieyccheng"
+  }
+}

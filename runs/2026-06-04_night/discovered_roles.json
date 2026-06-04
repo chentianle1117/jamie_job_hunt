@@ -1,0 +1,183 @@
+{
+  "run": "2026-06-04_night",
+  "discovery_summary": "Breakthrough: 3 genuinely AUTO-SUBMITTABLE roles found (Greenhouse/Ashby, no Workday account wall, no essays) — first real submit candidates in weeks. Plus 4 fresh cap-exempt university roles (package-only).",
+  "auto_submittable": [
+    {
+      "company": "OpenAI",
+      "title": "Customer Education Program Manager, New Products",
+      "location": "Remote US",
+      "url": "https://jobs.ashbyhq.com/openai/1778fbc9-b9c5-4ea5-a1d3-aa7bea0be272",
+      "ats": "ashby",
+      "yoe": "none stated",
+      "priority": "P1",
+      "essay_likely": false,
+      "slug": "openai_customer_education_pm",
+      "sponsorship": "OpenAI sponsors H1B broadly"
+    },
+    {
+      "company": "OpenAI",
+      "title": "Program Manager, Human Data",
+      "location": "San Francisco CA",
+      "url": "https://jobs.ashbyhq.com/openai/932c9cc1-c542-4f67-8d0d-443de87b8213",
+      "ats": "ashby",
+      "yoe": "1-2",
+      "priority": "P1b",
+      "essay_likely": false,
+      "slug": "openai_pm_human_data",
+      "sponsorship": "OpenAI sponsors H1B"
+    },
+    {
+      "company": "Databricks",
+      "title": "Customer Enablement Specialist",
+      "location": "Bellevue WA (hybrid)",
+      "url": "https://boards.greenhouse.io/databricks/jobs/8431927002",
+      "ats": "greenhouse",
+      "yoe": "4",
+      "priority": "P2",
+      "essay_likely": false,
+      "slug": "databricks_customer_enablement",
+      "sponsorship": "heavy H1B sponsor; standard sponsorship question"
+    }
+  ],
+  "auto_submit_soft": [
+    {
+      "company": "OpenAI",
+      "title": "Product Enablement Manager (GTM)",
+      "url": "https://jobs.ashbyhq.com/openai/82b77bb5-a39d-4387-b253-defc9ebe77da",
+      "ats": "ashby",
+      "priority": "P2",
+      "note": "GTM-flavored IC 'Manager' title; softer fit"
+    },
+    {
+      "company": "Chime",
+      "title": "Program Manager, Performance Effectiveness",
+      "url": "https://boards.greenhouse.io/chime/jobs/8535236002",
+      "ats": "greenhouse",
+      "yoe": "3+",
+      "priority": "P3",
+      "note": "FULLY REMOTE — must LinkedIn-check repost/100+ applicants before submit (competition HARD SKIP risk); CX-ops not EX"
+    }
+  ],
+  "cap_exempt_package_only": [
+    {
+      "company": "University of Florida",
+      "title": "Instructional Designer Campaign (ID II, UF HR)",
+      "location": "Gainesville FL",
+      "url": "https://explore.jobs.ufl.edu/en-us/job/539583/instructional-designer-campaign",
+      "ats": "pageup",
+      "yoe": "BA+4 or MA+2",
+      "priority": "P1",
+      "slug": "uf_instructional_designer_campaign"
+    },
+    {
+      "company": "University of Florida",
+      "title": "Manager for Experiential Learning (IC)",
+      "location": "Gainesville FL",
+      "url": "https://explore.jobs.ufl.edu/en-us/job/538690/manager-for-experiential-learning",
+      "ats": "pageup",
+      "yoe": "BA+4 or MA+2",
+      "priority": "P1",
+      "close": "2026-06-16",
+      "slug": "uf_experiential_learning"
+    },
+    {
+      "company": "University of Florida",
+      "title": "Instructional Design Coordinator (Lastinger Center)",
+      "location": "Gainesville FL",
+      "url": "https://explore.jobs.ufl.edu/en-us/job/540056/instructional-design-coordinator",
+      "ats": "pageup",
+      "yoe": "BA+4 or MA+2",
+      "priority": "P1b",
+      "close": "2026-06-12",
+      "slug": "uf_instructional_design_coordinator"
+    },
+    {
+      "company": "University of Chicago",
+      "title": "Education Program Coordinator (Celiac Center, Pediatrics)",
+      "location": "Chicago IL",
+      "url": "https://uchicago.wd5.myworkdayjobs.com/External/job/Sylvain--Arma-Wyler-Childrens-Hospital/Education-Program-Coordinator_JR32620",
+      "ats": "workday",
+      "yoe": "<2",
+      "priority": "P1c",
+      "close": "2026-07-27",
+      "slug": "uchicago_education_program_coordinator",
+      "note": "narrow clinical/celiac subject — weaker thematic fit"
+    }
+  ],
+  "discovery_round2_asana": [
+    {
+      "company": "Asana",
+      "title": "CX Enablement Partner (AI) - Remote",
+      "url": "https://www.asana.com/jobs/apply/7976662?gh_jid=7976662",
+      "ats": "greenhouse",
+      "yoe": "4+",
+      "priority": "B-stretch",
+      "note": "fresh 6/2, remote, 4+ at ceiling"
+    },
+    {
+      "company": "Asana",
+      "title": "CX Enablement Partner (AI) - Chicago",
+      "url": "https://www.asana.com/jobs/apply/7962949?gh_jid=7962949",
+      "ats": "greenhouse",
+      "yoe": "4+",
+      "priority": "B-stretch",
+      "note": "Chicago relocation, smaller pool"
+    }
+  ],
+  "discovery_round3_capexempt": [
+    {
+      "company": "Arizona State University",
+      "title": "Program Coordinator, SCSO & Global Futures Impact Scholars",
+      "location": "Tempe AZ",
+      "url": "https://asu.wd1.myworkdayjobs.com/en-US/ASUStaffCareers/job/Campus-Tempe/Program-Coordinator--SCSO-and-Global-Futures-Impact-Scholars_JR119323",
+      "ats": "workday",
+      "yoe": "1",
+      "priority": "P1",
+      "cap_exempt": true,
+      "close": "2026-06-08"
+    },
+    {
+      "company": "Arizona State University",
+      "title": "Graduate Programs Student Services Support Coordinator (W.P. Carey)",
+      "location": "Tempe AZ",
+      "url": "https://asu.wd1.myworkdayjobs.com/en-US/ASUStaffCareers/job/Campus-Tempe/Graduate-Programs-Student-Services-Support-Coordinator_JR121920",
+      "ats": "workday",
+      "yoe": "3",
+      "priority": "P1",
+      "cap_exempt": true,
+      "close": "2026-06-12"
+    },
+    {
+      "company": "Carnegie Mellon University",
+      "title": "Academic Program Manager, Corporate Startup Lab (Tepper)",
+      "location": "Pittsburgh PA",
+      "url": "https://cmu.wd5.myworkdayjobs.com/en-US/CMU/job/Pittsburgh-PA/Academic-Program-Manager--Corporate-Startup-Lab--CSL----Tepper-School-of-Business_2024527",
+      "ats": "workday",
+      "yoe": "3+",
+      "priority": "P1",
+      "cap_exempt": true,
+      "note": "verify sponsorship at recruiter stage (CMU postings vary)"
+    },
+    {
+      "company": "Carnegie Mellon University",
+      "title": "Coordinator of Student Involvement and Traditions",
+      "location": "Pittsburgh PA",
+      "url": "https://cmu.wd5.myworkdayjobs.com/en-US/CMU/job/Pittsburgh-PA/Coordinator-of-Student-Involvement-and-Traditions---Division-of-Student-Affairs_2024598",
+      "ats": "workday",
+      "yoe": "1-3",
+      "priority": "P1b",
+      "cap_exempt": true,
+      "note": "verify sponsorship"
+    },
+    {
+      "company": "Newsela",
+      "title": "Learning Experience Designer, Supplemental ELA",
+      "location": "Remote US",
+      "url": "https://job-boards.greenhouse.io/newsela/jobs/7950900",
+      "ats": "greenhouse",
+      "yoe": "3+",
+      "priority": "P2",
+      "cap_exempt": false
+    }
+  ]
+}

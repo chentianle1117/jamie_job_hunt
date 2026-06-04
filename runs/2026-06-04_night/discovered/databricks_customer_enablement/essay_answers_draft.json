@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "company": "Databricks",
+    "role": "Customer Enablement Specialist",
+    "date": "2026-06-04",
+    "note": "80-150 word answers in Jamie's voice, adapted from voice corpus. Honest framing: no data-platform/SQL background — transferable enablement strength, no overclaiming technical depth."
+  },
+  "answers": [
+    {
+      "question": "Why are you interested in this role?",
+      "answer": "What draws me to this role is that it sits right at the intersection of two things I care about—turning participation into real adoption, and doing it with data. In my current role, I facilitate training for 600+ participants, but the part I find most rewarding isn't the session itself; it's the structured follow-up that converts a one-time attendee into a confident, active user. That's exactly what this role is about: connecting learners to the right training plan and tracking whether it's actually landing. I love that the work is both human and measurable—I get to build relationships and watch completion and conversion metrics tell me what to improve next. That combination of enablement and evidence is where I do my best work, and I'd be excited to bring it to your customers."
+    },
+    {
+      "question": "Why Databricks?",
+      "answer": "Databricks treats enablement as a system to be engineered, not just a series of one-off sessions—and that resonates deeply with how I approach work. With a master's in Applied Organizational Psychology, I rely on data, stakeholder partnership, and feedback loops to design learning that actually scales. I'll be candid: I'm newer to the data-platform space itself, but that's part of the appeal. I use AI and analytics tools daily, I'm a fast learner, and I'd happily pursue Databricks certification early. What excites me most is helping non-expert audiences understand what's possible—taking something powerful and technical and making it approachable. Databricks is building the platform behind so much of the AI and data work I find genuinely fascinating, and I'd love to help more people get hands-on with it confidently."
+    },
+    {
+      "question": "Describe your experience driving learning/enablement adoption.",
+      "answer": "My strength lies in turning learning programs into real adoption, not just attendance. At InGenius Prep, I facilitate webinars and live sessions for 600+ participants, then build the guides and training plans that move people from interest to committed use—contributing to a 78% enrollment rate and reducing onboarding time by 75% for 70+ cross-functional staff. One lesson stuck with me: I once launched a new process, put all the resources in a library, and assumed adoption would follow. It didn't. I went back, interviewed the users, and found the real barrier was friction, not resistance—so I rebuilt it as a simple one-pager. Adoption climbed. That taught me to diagnose before designing, measure behavior rather than completion, and build in feedback loops so course correction stays cheap. That's the approach I'd bring to enabling Databricks customers."
+    }
+  ]
+}

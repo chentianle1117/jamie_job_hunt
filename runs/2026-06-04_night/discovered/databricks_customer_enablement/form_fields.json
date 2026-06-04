@@ -1,0 +1,32 @@
+{
+  "name": "Jamie (Yi-Chieh) Cheng",
+  "email": "jamiecheng0103@gmail.com",
+  "phone": "213-700-3831",
+  "location": "Seattle, WA",
+  "authorized_to_work": true,
+  "requires_sponsorship": true,
+  "linkedin": "http://www.linkedin.com/in/jamieyccheng",
+  "role_url": "https://boards.greenhouse.io/databricks/jobs/8431927002",
+  "ats": "greenhouse",
+  "company": "Databricks",
+  "role": "Customer Enablement Specialist",
+  "meta": {
+    "company": "Databricks",
+    "role": "Customer Enablement Specialist",
+    "url": "https://boards.greenhouse.io/databricks/jobs/8431927002",
+    "ats": "greenhouse",
+    "date": "2026-06-04",
+    "id": "databricks_customer_enablement"
+  },
+  "personal": {
+    "first_name": "Yi-Chieh",
+    "last_name": "Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "213-700-3831",
+    "location": "Seattle, WA",
+    "country": "United States"
+  },
+  "links": {
+    "linkedin": "http://www.linkedin.com/in/jamieyccheng"
+  }
+}

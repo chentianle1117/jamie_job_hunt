@@ -1,0 +1,16 @@
+{
+  "run": "2026-06-04_night",
+  "generated": "2026-06-04",
+  "headline": "First auto-submittable roles in weeks (OpenAI x2 Ashby, Databricks Greenhouse). Submitter materially improved (fields now fill 100% via new React-commit fix) but final submit-through-validation still blocked on Chrome 148 headless/CDP — 0 live submits landed, failsafe held. 4 clean audited 1-page packages ready for one-click finish. +7 fresh roles discovered (Asana x2, ASU x2, CMU x2, Newsela).",
+  "lane_summary": {"AUTO_SUBMITTED": 0, "PACKAGE_READY": 4, "DISCOVERED_NOT_PACKAGED": 7, "FAILED": 0},
+  "submit_status": "Submitter fill improved 3-unanswered -> 0-unanswered (React native-event + fiber onChange fix, committed). Final Ashby/Greenhouse submit-click still fails validation headlessly (documented unresolved on this build). Jamie one-clicks Submit in a normal browser to finish — Ashby/Greenhouse need no account.",
+  "packages": [
+    {"slug": "openai_customer_education_pm", "company": "OpenAI", "title": "Customer Education Program Manager, New Products", "ats": "ashby", "fit_pct": 80, "lane": "PACKAGE_READY", "flags": ["strongest fit", "HYBRID 3 days/week in US office (SF/NYC) — not remote", "her AI-for-learning RAG story genuinely relevant"], "url": "https://jobs.ashbyhq.com/openai/1778fbc9-b9c5-4ea5-a1d3-aa7bea0be272"},
+    {"slug": "openai_pm_human_data", "company": "OpenAI", "title": "Program Manager, Human Data", "ats": "ashby", "fit_pct": 72, "lane": "PACKAGE_READY", "flags": ["1-2yr easy clear", "stretch: data-labeling/trainer-calibration domain she lacks", "SF on-site"], "url": "https://jobs.ashbyhq.com/openai/932c9cc1-c542-4f67-8d0d-443de87b8213"},
+    {"slug": "databricks_customer_enablement", "company": "Databricks", "title": "Customer Enablement Specialist", "ats": "greenhouse", "fit_pct": 55, "lane": "PACKAGE_READY", "flags": ["weakest: JD wants SQL/data-platform technical content delivery she lacks", "on-site Bellevue", "gap disclosed honestly"], "url": "https://boards.greenhouse.io/databricks/jobs/8431927002"},
+    {"slug": "uf_instructional_designer_campaign", "company": "University of Florida", "title": "Instructional Designer (UF HR)", "ats": "pageup", "fit_pct": 60, "lane": "PACKAGE_READY", "cap_exempt": true, "flags": ["cap-exempt (no lottery)", "needs UF account", "authoring-tool gap honestly framed"], "url": "https://explore.jobs.ufl.edu/en-us/job/539583/instructional-designer-campaign"}
+  ],
+  "discovered_not_yet_packaged": "7 fresh verified roles in discovered_roles.json (Asana CX Enablement x2 [B-stretch], ASU x2 [SCSO closes 6/8, Grad Programs 6/12], CMU x2 [verify sponsorship], Newsela LXD). Package next pass.",
+  "rejections_logged_this_session": ["Persona", "Mercury", "Flexport", "Datadog", "Affirm", "Stripe"],
+  "sheet_edit_status": "Mercury->Rejection edit PARKED (user prioritized autopilot). Mercury row 49 undamaged ('Applied'). Script ready: runs/2026-06-02_night/sheet_edit_mercury.py."
+}
