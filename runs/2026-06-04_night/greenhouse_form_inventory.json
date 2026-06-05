@@ -1,0 +1,86 @@
+{
+  "fields": [
+    {
+      "label": "Performance Cookies",
+      "type": "checkbox",
+      "id": "ot-group-id-C0002",
+      "required": false,
+      "value": "on",
+      "ariaInvalid": null
+    },
+    {
+      "label": "Functional Cookies",
+      "type": "checkbox",
+      "id": "ot-group-id-C0003",
+      "required": false,
+      "value": "on",
+      "ariaInvalid": null
+    },
+    {
+      "label": "Targeting Cookies",
+      "type": "checkbox",
+      "id": "ot-group-id-C0004",
+      "required": false,
+      "value": "on",
+      "ariaInvalid": null
+    },
+    {
+      "label": "TOTHR",
+      "type": "checkbox",
+      "id": "ot-group-id-TOTHR",
+      "required": false,
+      "value": "on",
+      "ariaInvalid": null
+    },
+    {
+      "label": "Cookie list search",
+      "type": "text",
+      "id": "vendor-search-handler",
+      "required": false,
+      "value": "",
+      "ariaInvalid": null
+    },
+    {
+      "label": "checkbox label",
+      "type": "checkbox",
+      "id": "select-all-hosts-groups-handler",
+      "required": false,
+      "value": "on",
+      "ariaInvalid": null
+    },
+    {
+      "label": "checkbox label",
+      "type": "checkbox",
+      "id": "select-all-vendor-groups-handler",
+      "required": false,
+      "value": "on",
+      "ariaInvalid": null
+    },
+    {
+      "label": "checkbox label",
+      "type": "checkbox",
+      "id": "select-all-vendor-leg-handler",
+      "required": false,
+      "value": "on",
+      "ariaInvalid": null
+    },
+    {
+      "label": "checkbox label",
+      "type": "checkbox",
+      "id": "chkbox-id",
+      "required": false,
+      "value": "on",
+      "ariaInvalid": null
+    }
+  ],
+  "submitBtns": [],
+  "captcha": false,
+  "iframes": [
+    "https://job-boards.greenhouse.io/embed/job_app?for=databricks&validityToken=CxFNr5H5wtmEV75fSF9hZXSzTqH5zDUDqqO7AWVVhIX1lE3ltMclNuyTqacT1FhUdz_nlrgNDI5XoxOR8389QVO0iDXd8dZKIc0jkVRtJ7iQlu9n2YsScm9Jr9fh556rmN5PT5NeYcJlKtTWfkJ6FNoV9B38w9gDQC7Hw9sC769X1M_I-t6RzHW3kzNeyLAahXfU-9MvBkE24vrf3wafp7BXQSDvpTIRWWxK0yTZrZXTbV5yBkJGfGgmT2pRPYcdIRd6ad3PDwDHT-5NVbt9xbcxvnL8w6DtwgjAsi1FToXHxnnUEo1Q0p46LR3CNxcHKR8Lhw9K3ehzEHEhwstu3A%3D%3D&token=8431927002",
+    "",
+    "https://insight.adsrvr.org/track/cei?advertiser_id=b44zbk4&cookie_sync=1&upv=3.0.0&upid=9vqxxqo&ref=https://www.databricks.com/company/careers/education--training/customer-enablement-specialist-8431927002?gh_jid=8431927002",
+    "https://15572922.fls.doubleclick.net/activityi;src=15572922;type=brows0;cat=datab0;rcb=1;ord=1843339191355;npa=0;u1=%2Fcompany%2Fcareers%2Feducation--training%2Fcustomer-enablement-specialist-8431927002;u2=www.databricks.com;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.217%7CGoogle%2520Chrome%3B148.0.7778.217%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;_tu=AFA;gcu=1;auiddc=25856015.1780588076;gtm=45fe6621v9226020372z871635168za20gzb71635168zd71635168xea;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=2;tag_exp=0~115616985~115938465~115938468~118228215~119027224;epver=2;dc_random=1780588650_GMum-F7vg81S5_3_k2bDCKkQGEAR4qC3Ww;_dc_test=1;~oref=https%3A%2F%2Fwww.databricks.com%2Fcompany%2Fcareers%2Feducation--training%2Fcustomer-enablement-specialist-8431927002%3Fgh_jid%3D8431927002?",
+    "https://15572922.fls.doubleclick.net/activityi;src=15572922;type=quali0;cat=quali0;rcb=1;ord=2836978446933;npa=0;u1=%2Fcompany%2Fcareers%2Feducation--training%2Fcustomer-enablement-specialist-8431927002;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.217%7CGoogle%2520Chrome%3B148.0.7778.217%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;_tu=AFA;gcu=1;auiddc=25856015.1780588076;gtm=45fe6621v9226020372z871635168za20gzb71635168zd71635168xea;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=2;tag_exp=0~115616985~115938465~115938468~118228215~119027224;epver=2;dc_random=1780588650_i0YuekRaT96cFqBuVF5zdqDHAO9nvz7F2Q;_dc_test=1;~oref=https%3A%2F%2Fwww.databricks.com%2Fcompany%2Fcareers%2Feducation--training%2Fcustomer-enablement-specialist-8431927002%3Fgh_jid%3D8431927002?",
+    "https://10510347.fls.doubleclick.net/activityi;src=10510347;type=datab001;cat=datab0;rcb=5;ord=9685539188659;npa=0;u1=%2Fcompany%2Fcareers%2Feducation--training%2Fcustomer-enablement-specialist-8431927002;u2=www.databricks.com;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.217%7CGoogle%2520Chrome%3B148.0.7778.217%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gcu=1;auiddc=25856015.1780588076;gtm=45fe6621v9190073502z871635168za20gzb71635168zd71635168xea;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=2;tag_exp=0~115938465~115938469~118228215~119027222;epver=2;dc_random=1780588650_0v36tbbAQgYI2R0yf9y61QsGlJA8CQJg0A;_dc_test=1;~oref=https%3A%2F%2Fwww.databricks.com%2Fcompany%2Fcareers%2Feducation--training%2Fcustomer-enablement-specialist-8431927002%3Fgh_jid%3D8431927002?"
+  ]
+}

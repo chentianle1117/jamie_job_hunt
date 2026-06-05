@@ -26,3 +26,13 @@ Thumbs.db
 
 # Playwright MCP artifacts (screenshots, logs, session data)
 .playwright-mcp/
+
+# ── Cross-platform runtime artifacts (Windows + macOS) — added for Mac/Codex port ──
+__pycache__/
+*.pyc
+.DS_Store
+autopilot_debug_profile/
+autopilot_profile_clone/
+.env
+# Codex local config should NOT be committed (per-machine secrets/paths)
+.codex/config.toml

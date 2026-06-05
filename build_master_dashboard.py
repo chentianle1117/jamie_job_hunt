@@ -19,6 +19,14 @@ def jload(p):
     try: return json.load(open(p, encoding="utf-8"))
     except Exception: return None
 
+def _rel(p):
+    """Repo-relative POSIX path so master_index.json is portable across Windows/Mac.
+    Falls back to the absolute path only if p is outside the repo root."""
+    try:
+        return Path(p).resolve().relative_to(ROOT.resolve()).as_posix()
+    except Exception:
+        return str(p)
+
 def b64(p):
     p = Path(p)
     if not p.exists(): return ""
@@ -68,8 +76,9 @@ for run in sorted(RUNS.iterdir()):
             "ats": meta.get("ats",""), "url": meta.get("url",""),
             "min_years": meta.get("min_years",""), "why": meta.get("why_fit",""),
             "status": status, "date": date_sub,
-            "resume_pdf": str(d/"resume.pdf"), "cover_pdf": str(d/"cover_letter.pdf"),
-            "resume_png": str(d/"resume_preview.png"),
+            # repo-relative paths (POSIX) so master_index.json is portable across Windows/Mac
+            "resume_pdf": _rel(d/"resume.pdf"), "cover_pdf": _rel(d/"cover_letter.pdf"),
+            "resume_png": _rel(d/"resume_preview.png"),
             "conf_url": (sj.get("url_after","") if sj else ""),
             "essays": bool((d/"essay_answers.json").exists() or (d/"essays_for_review.json").exists()),
         })
