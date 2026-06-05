@@ -29,11 +29,16 @@ sandbox_mode    = "workspace-write"   # edits in workspace + routine commands
 approval_policy = "on-request"        # asks before stepping outside workspace/network (recommended for dogfood)
 
 [sandbox_workspace_write]
-network_access = true                 # REQUIRED: ATS APIs, JobSpy, Gemini CLI, git push, Patchright
+network_access = true                 # REQUIRED: ATS APIs, JobSpy, Codex/Gemini CLI, git push, Patchright
 writable_roots = [
   "/Users/jamiecheng/Agentic_Workflows_2026",   # <-- set to Jamie's actual repo parent
   "/private/tmp",                                 # temp files (ats_jobs.json, jobspy_results.json)
 ]
+
+# Fat-context brain engine for the pipeline's gemini_run.py router.
+# On Jamie's Mac use her own ChatGPT Plus (codex exec) — no API key, no Gemini dependency.
+[shell_environment_policy.set]
+AI_BRAIN = "codex"
 
 # For fully-unattended overnight runs you CAN raise to approval_policy="never", but keep
 # "on-request" for the first dogfood nights (matches the pipeline's phased-rollout plan).

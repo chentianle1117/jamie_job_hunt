@@ -46,6 +46,10 @@ agent per the skill bodies. Key scripts:
   repo-relative or `Path.home()`-anchored and OS-branched.
 - **`model: "haiku"/"sonnet"` pins** anywhere in the docs are Claude-Code budget hints — **ignore
   on Codex** (one model per session). Push mechanical work into Python so the model only does judgment.
+- **Fat-context "brain" calls** go through `pipeline/gemini_run.py` (provider-agnostic router). Set the
+  **`AI_BRAIN`** env: `codex` on Jamie's Mac (uses `codex exec`, ChatGPT Plus, no API key), `native`
+  for David in Claude Code (Claude does the analysis inline), `gemini` only while the Google AI Pro
+  sub lasts (retires 2026-06-18), `auto` = try gemini→codex→native. Default `auto` is safe everywhere.
 - **CAPTCHA** → never solve/bypass (prohibited). The submitter detects captcha and routes the role
   to a human-submit package. Most large-employer ATS forms are captcha-gated.
 
