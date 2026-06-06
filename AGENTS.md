@@ -53,9 +53,11 @@ agent per the skill bodies. Key scripts:
 - **CAPTCHA** → never solve/bypass (prohibited). The submitter detects captcha and routes the role
   to a human-submit package. Most large-employer ATS forms are captcha-gated.
 
-## 4. Setup on a new machine
-See `SETUP.md` (cross-platform) for the full first-run checklist (Python deps, Gemini CLI,
-Patchright browsers, Chrome debug profile, MCP registration, git auth).
+## 4. Setup + running
+- **`RUN_GUIDE.md`** — Jamie's plain-English run guide (one-time setup + the every-run routine + what
+  to expect). Point her here first.
+- **`SETUP.md`** — the full cross-platform first-run checklist (Python deps, Gemini CLI, Patchright
+  browsers, Chrome debug profile, MCP registration, git auth).
 
 ## 5. Cross-platform invariants
 - Windows stays exactly as it is for David (Claude Code, `.claude/`).
