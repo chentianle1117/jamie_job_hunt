@@ -274,11 +274,12 @@
       "location": "New York, NY",
       "ats": "Ashby",
       "lane": "AUTO_SUBMITTED",
-      "status": "confirmed",
+      "status": "rejected",
       "sponsorship_status": "sponsors",
       "url": "https://jobs.ashbyhq.com/Ramp/d6d0ad5d-184b-4500-8aea-8bd8c503a7b6",
       "jamie_action_needed": false,
-      "notes": "Round-2 essay-approved submit 2026-05-31."
+      "notes": "Round-2 essay-approved submit 2026-05-31.",
+      "outcome": "Rejected 2026-06-05 (many qualified applicants). LESSON: Senior title slipped through."
     },
     {
       "id": "brex_sales_enablement_specialist_2026-06-01",
@@ -358,11 +359,12 @@
       "location": "",
       "ats": "Ashby",
       "lane": "AUTO_SUBMITTED",
-      "status": "confirmed",
+      "status": "rejected",
       "sponsorship_status": null,
       "url": "https://jobs.ashbyhq.com/persona/92b99682-3fab-4b3f-8129-65f463108eaa",
       "jamie_action_needed": false,
-      "notes": "autopilot 2026-05-31_round2"
+      "notes": "autopilot 2026-05-31_round2",
+      "outcome": "Rejected 2026-06-02 (Incentive Comp Analyst, no fit). LESSON: comp-analyst = off-sweet-spot."
     },
     {
       "id": "unit_support_operations_specialist_2026-05-31_round2",
