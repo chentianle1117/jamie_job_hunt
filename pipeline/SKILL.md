@@ -17,6 +17,24 @@ version: 4.0.0
 
 ---
 
+## ⭐ DISCOVERY DOCTRINE — BROAD BY DEFAULT (v5.0, 2026-06-05) — READ FIRST
+
+> **Never wait to be told "search broader / more titles."** Breadth is the default. Canonical detail:
+> `jamie/search_strategy.md` §"CANONICAL DISCOVERY DOCTRINE (v5.0)". Enforce every run:
+> - **Sweep all 7 résumé recipes + entry consulting + cap-exempt** (3 parallel lanes: tech/local sponsors ·
+>   consulting/change · cap-exempt universities/hospitals/nonprofits). NOT just "Program Manager".
+>   Title clusters: L&D · People Program Mgmt · People Ops/HR · Talent Dev/Mgmt · EX/OD/OCM/Change ·
+>   People Analytics · People Project Mgr · Business Transformation/People Advisory/Talent&Org/Human Capital (entry).
+> - **Weight LOCATION toward Portland (Jamie's 70-80% preference) but keep TITLES broad regardless** —
+>   location-narrow ≠ title-narrow.
+> - **Run the MCP learning loop first** (Step 0.5c already reads Gmail) — capture rejections, feed the
+>   lesson into the hard-pass filter (Ramp → no Senior/Mgr titles; Persona → no comp/total-rewards analyst).
+> - **Verify-before-trust** (postings die within hours); **route by apply-mechanism** (🟢 no-account vs
+>   🟡 account-required → account queue; never create accounts/passwords/solve CAPTCHA).
+> - **<15 fits across the full taxonomy = report "thin market" HONESTLY**, not a cue to narrow.
+
+---
+
 ## 🔄 STEP 0 — Sync Latest Updates
 
 > **ALWAYS do this first.** Jamie's feedback and preferences may have been updated from her
