@@ -36,3 +36,10 @@ autopilot_profile_clone/
 .env
 # Codex local config should NOT be committed (per-machine secrets/paths)
 .codex/config.toml
+
+# ── Volatile run artifacts (regenerated each pipeline/dry-run; should not be committed) ──
+# NOTE: outputs/ contains real submission records that ARE tracked — do NOT ignore the whole dir.
+# Ignore only the per-run audit logs + the mutable state file a dry-run rewrites.
+outputs/**/apply_audit_*.json
+runs/**/apply_audit_*.json
+apply_audit_*.json
