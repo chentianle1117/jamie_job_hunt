@@ -379,6 +379,19 @@
       "url": "https://jobs.ashbyhq.com/unit/6a531f33-31eb-495e-a037-1c806c629007",
       "jamie_action_needed": false,
       "notes": "autopilot 2026-05-31_round2"
+    },
+    {
+      "company": "Forth",
+      "title": "Program Associate",
+      "status": "packaged_manual_pending",
+      "lane": "PACKAGE",
+      "location": "Portland OR (hybrid)",
+      "ats": "BambooHR",
+      "url": "https://forth.bamboohr.com/careers/49",
+      "fit": "76% — Program Mgmt recipe; off-sweet-spot (EV nonprofit) but strong coordination fit; closes Jun 9",
+      "package": "outputs/2026-06-05-discovery/applications/forth_program_associate/",
+      "notes": "Verified live + dual-verifier PASS. Manual submit (no BambooHR handler + domain off allowlist). Confirm driver license + H1B willingness.",
+      "date": "2026-06-05"
     }
   ],
   "dedup_companies": [

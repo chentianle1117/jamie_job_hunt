@@ -1,0 +1,59 @@
+[
+  {
+    "slug": "forth_program_assoc",
+    "label": "Forth Program Associate",
+    "url": "https://forth.bamboohr.com/careers/49",
+    "title": "BambooHR",
+    "final_url": "https://forth.bamboohr.com/careers/49",
+    "len": 8613,
+    "flag_hits": [
+      "senior"
+    ],
+    "alive": true
+  },
+  {
+    "slug": "palantir_peopleops",
+    "label": "Palantir People Ops Specialist",
+    "url": "https://jobs.lever.co/palantir/49c32534-fa61-4331-a6e8-2d26bf9a4e64",
+    "title": "Not found \u2013\u00a0404 error",
+    "final_url": "https://jobs.lever.co/palantir/49c32534-fa61-4331-a6e8-2d26bf9a4e64",
+    "len": 146,
+    "flag_hits": [],
+    "alive": false
+  },
+  {
+    "slug": "ironclad_peopleops",
+    "label": "Ironclad People Ops Coordinator",
+    "url": "https://jobs.ashbyhq.com/ironcladhq/2ff533e8-cae8-468f-9890-94f1e2187448",
+    "title": "Jobs",
+    "final_url": "https://jobs.ashbyhq.com/ironcladhq/2ff533e8-cae8-468f-9890-94f1e2187448",
+    "len": 136,
+    "flag_hits": [],
+    "alive": false
+  },
+  {
+    "slug": "airbnb_learning_fac",
+    "label": "Airbnb Learning Facilitator",
+    "url": "https://careers.airbnb.com/positions/7782347/",
+    "title": "Page not found - Careers at Airbnb",
+    "final_url": "https://careers.airbnb.com/positions/7782347/",
+    "len": 1677,
+    "flag_hits": [],
+    "alive": true
+  },
+  {
+    "slug": "openai_peopleops",
+    "label": "OpenAI People Ops (board)",
+    "url": "https://jobs.ashbyhq.com/openai",
+    "title": "OpenAI Jobs",
+    "final_url": "https://jobs.ashbyhq.com/openai",
+    "len": 83093,
+    "flag_hits": [
+      "director",
+      "lead ",
+      "principal",
+      "senior"
+    ],
+    "alive": true
+  }
+]

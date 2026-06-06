@@ -1,0 +1,4084 @@
+OpenAI People Ops (board)
+https://jobs.ashbyhq.com/openai
+FINAL: https://jobs.ashbyhq.com/openai
+TITLE: OpenAI Jobs
+
+Open Positions (719)
+Filters:
+Reset filters
+Department
+All Departments
+Applied AI (82)
+Communications (2)
+Consumer Products (16)
+Core Product & Platform (2)
+Corporate Security (9)
+Data Science (21)
+Executive Operations (3)
+Finance (36)
+Global Affairs (6)
+Go To Market (155)
+Intelligence & Investigations (7)
+IT (11)
+Legal (17)
+Marketing (31)
+Model Deployment for Business (32)
+OpenAI for Gov (9)
+People (19)
+Product Design (4)
+Product Management (11)
+Product Operations (1)
+Product Partnerships (5)
+Product Policy (2)
+Research (51)
+Safety Systems (21)
+Scaling (93)
+Security (27)
+Strategic Finance (10)
+Technical Program Management (3)
+User Operations (27)
+Workplace (6)
+Employment Type
+All Employment Types
+Full time (719)
+Location
+All Locations
+Abu Dhabi, UAE (1)
+Delhi, India (3)
+Dublin, Ireland (14)
+India - Remote (7)
+London, UK (39)
+Munich, Germany (8)
+New York City (78)
+Paris, France (7)
+Remote - US (40)
+San Francisco (518)
+São Paulo (3)
+Seattle (76)
+Seoul, South Korea (12)
+Singapore (38)
+Sydney, Australia (10)
+Tokyo, Japan (20)
+Washington, DC (24)
+Zurich, Switzerland (2)
+Location Type
+All Location Types
+Hybrid (396)
+On-site (18)
+Remote (26)
+No filters applied
+Applied AI
+AI Systems Engineer, Codex Agents
+
+Applied AI • San Francisco • Full time
+
+$230K – $385K • Offers Equity
+
+Analytics Engineer, Safety Systems
+
+Applied AI • San Francisco • Full time • Hybrid
+
+$210K – $260K • Offers Equity
+
+Android Engineer, Ad Formats
+
+Applied AI • San Francisco; San Francisco • Full time • Hybrid
+
+$230K – $385K • Offers Equity
+
+Android Engineer, Applied Foundations
+
+Applied AI • San Francisco • Full time
+
+$230K – $385K • Offers Equity
+
+Android Engineer, ChatGPT Engineering
+
+Applied AI • San Francisco; New York City; Seattle • Full time • Hybrid
+
+$185K – $385K • Offers Equity
+
+Android Engineer, ChatGPT Mobile Infrastructure
+
+Applied AI • San Francisco; New York City; Seattle • Full time
+
+$185K – $385K • Offers Equity
+
+Applied AI Engineer, Codex Core Agent
+
+Applied AI • San Francisco; London, UK; New York City; Seattle • Full time
+
+$230K – $385K • Offers Equity
+
+Backend Software Engineer, Applied Foundations
+
+Applied AI • San Francisco • Full time
+
+$185K – $385K • Offers Equity
+
+Backend Software Engineer, Growth
+
+Applied AI • San Francisco • Full time
+
+$185K – $385K • Offers Equity
+
+ChatGPT Performance Engineer
+
+Applied AI • San Francisco; New York City; Remote - US; Seattle • Full time
+
+$325K – $405K • Offers Equity
+
+Data Engineer
+
+Applied AI • San Francisco • Full time
+
+$230K – $385K • Offers Equity
+
+Deployed Product Manager, Codex
+
+Applied AI • San Francisco • Full time • Hybrid
+
+$250K – $330K • Offers Equity
+
+Engineering Manager ChatGPT Infra
+
+Applied AI • London, UK • Full time
+
+Engineering Manager, Core Services
+
+Applied AI • San Francisco • Full time
+
+$293K – $385K • Offers Equity
+
+Engineering Manager, Distillation & Detection Platform
+
+Applied AI • San Francisco • Full time
+
+$293K – $385K • Offers Equity
+
+Engineering Manager, Financial Data Quality
+
+Applied AI • San Francisco • Full time
+
+$347K – $385K • Offers Equity
+
+Engineering Manager, Identity Infrastructure
+
+Applied AI • San Francisco • Full time
+
+$293K – $385K • Offers Equity
+
+Engineering Manager, Multimodal (API)
+
+Applied AI • San Francisco • Full time
+
+$293K – $385K • Offers Equity
+
+Engineering Manager, Online Data Systems
+
+Applied AI • San Francisco • Full time
+
+$325K – $405K • Offers Equity
+
+Engineering Manager, Order Systems
+
+Applied AI • San Francisco • Full time • Hybrid
+
+$293K – $385K • Offers Equity
+
+Frontend Engineer, ChatGPT Engineering
+
+Applied AI • San Francisco; New York City; Seattle • Full time
+
+$185K – $385K • Offers Equity
+
+Frontend Engineer, Financial Web Platform
+
+Applied AI • San Francisco • Full time • Hybrid
+
+$230K – $385K • Offers Equity
+
+Frontend Software Engineer, Codex App
+
+Applied AI • San Francisco; London, UK; Seattle • Full time
+
+$230K – $385K • Offers Equity
+
+Full Stack Engineer, Health AI
+
+Applied AI • San Francisco • Full time
+
+$293K – $325K • Offers Equity
+
+Full Stack Software Engineer, ChatGPT Partnerships
+
+Applied AI • San Francisco • Full time
+
+$185K – $385K • Offers Equity
+
+Full Stack Software Engineer, Growth
+
+Applied AI • San Francisco • Full time
+
+$153K – $385K • Offers Equity
+
+Full Stack Software Engineer, OpenAI Edu
+
+Applied AI • San Francisco • Full time • Hybrid
+
+$230K – $385K • Offers Equity
+
+Full-Stack Software Engineer, Applied Foundations
+
+Applied AI • San Francisco • Full time • Hybrid
+
+$185K – $385K • Offers Equity
+
+Full-Stack Software Engineer, Incubation
+
+Applied AI • San Francisco • Full time • Hybrid
+
+$210K – $325K • Offers Equity
+
+iOS Engineer, Ad Formats
+
+Applied AI • San Francisco • Full time • Hybrid
+
+$230K – $385K • Offers Equity
+
+iOS Engineer, Applied Foundations
+
+Applied AI • San Francisco • Full time
+
+$230K – $385K • Offers Equity
+
+iOS Engineer, ChatGPT Mobile Infrastructure
+
+Applied AI • San Francisco; New York City; Seattle • Full time
+
+$185K – $385K • Offers Equity
+
+Machine Learning Engineer, Integrity
+
+Applied AI • San Francisco • Full time
+
+$266K – $555K • Offers Equity
+
+Principal Software Engineer, B2B Engineering
+
+Applied AI • Remote - US • Full time • Remote
+
+$385K – $490K • Offers Equity
+
+Protection Scientist Engineer, Integrity
+
+Applied AI • London, UK • Full time
+
+Protection Scientist Engineer, Integrity
+
+Applied AI • San Francisco; New York City; Remote - US; Washington, DC • Full time
+
+$198K – $425K • Offers Equity
+
+Research Engineer - Speech & Realtime Models
+
+Applied AI • San Francisco • Full time • Hybrid
+
+$295K – $445K • Offers Equity
+
+Research Engineer, Applied AI Engineering
+
+Applied AI • San Francisco • Full time
+
+$250K – $555K • Offers Equity
+
+Research Engineer, Retrieval & Search, Applied Engineering
+
+Applied AI • San Francisco • Full time
+
+$293K – $585K • Offers Equity
+
+Senior Data Engineer, Core Experimentation
+
+Applied AI • Seattle • Full time • Hybrid
+
+$293K – $325K • Offers Equity
+
+Senior Software Engineer, Infrastructure
+
+Applied AI • Seattle • Full time
+
+Senior Software Engineer, Product
+
+Applied AI • Seattle • Full time
+
+$293K – $324K • Offers Equity
+
+Senior Staff Software Engineer, Gov
+
+Applied AI • Washington, DC; San Francisco; Seattle • Full time • Hybrid
+
+$207K – $385K • Offers Equity
+
+Software Engineer - Privacy & Compliance
+
+Applied AI • San Francisco; Seattle • Full time
+
+$230K – $385K • Offers Equity
+
+Software Engineer, Ad Formats
+
+Applied AI • San Francisco • Full time • Hybrid
+
+$230K – $385K • Offers Equity
+
+Software Engineer, Ads Manager
+
+Applied AI • Seattle • Full time • Hybrid
+
+$230K – $385K • Offers Equity
+
+Software Engineer, Ads Monetization, Revenue Platform
+
+Applied AI • San Francisco • Full time
+
+$230K – $385K • Offers Equity
+
+Software Engineer, Build Systems / CI
+
+Applied AI • San Francisco; New York City; Seattle • Full time
+
+$185K – $490K • Offers Equity
+
+Software Engineer, Caching Infrastructure
+
+Applied AI • San Francisco • Full time
+
+$230K – $385K • Offers Equity
+
+Software Engineer, ChatGPT Infrastructure
+
+Applied AI • San Francisco • Full time • Hybrid
+
+$255K – $405K • Offers Equity
+
+Software Engineer, Cloud Infrastructure
+
+Applied AI • San Francisco • Full time
+
+$230K – $490K • Offers Equity
+
+Software Engineer, Cloud Infrastructure
+
+Applied AI • London, UK • Full time
+
+Software Engineer, Codex App
+
+Applied AI • San Francisco; London, UK; Seattle • Full time • Hybrid
+
+$230K – $385K • Offers Equity
+
+Software Engineer, Codex Cloud Apps
+
+Applied AI • San Francisco; Seattle • Full time • On-site
+
+$230K – $325K • Offers Equity
+
+Software Engineer, Codex Core Agents
+
+Applied AI • San Francisco; London, UK; New York City; Seattle • Full time
+
+Software Engineer, Codex Ecosystem & Enterprise
+
+Applied AI • San Francisco • Full time
+
+$230K – $385K • Offers Equity
+
+Software Engineer, Codex Ecosystem & Enterprise
+
+Applied AI • London, UK • Full time
+
+Software Engineer, Core Science
+
+Applied AI • San Francisco • Full time • Hybrid
+
+$293K – $385K • Offers Equity
+
+Software Engineer, Core Services
+
+Applied AI • San Francisco • Full time
+
+$230K – $385K • Offers Equity
+
+Software Engineer, Cyber Frontier
+
+Applied AI • San Francisco • Full time • Hybrid
+
+Software Engineer, Data Infrastructure
+
+Applied AI • San Francisco • Full time
+
+$185K – $385K • Offers Equity
+
+Software Engineer, Database Systems
+
+Applied AI • San Francisco • Full time
+
+$230K – $385K • Offers Equity
+
+Software Engineer, Delivery / CD
+
+Applied AI • San Francisco; New York City; Seattle • Full time
+
+$210K – $490K • Offers Equity
+
+Software Engineer, Developer Productivity
+
+Applied AI • San Francisco; New York City; Seattle • Full time
+
+$210K – $490K • Offers Equity
+
+Software Engineer, Financial Engineering
+
+Applied AI • San Francisco • Full time • Hybrid
+
+$230K – $385K • Offers Equity
+
+Software Engineer, Full Stack - Cybersecurity Products
+
+Applied AI • San Francisco • Full time • Hybrid
+
+Software Engineer, Full Stack, Revenue Platform
+
+Applied AI • San Francisco • Full time • Hybrid
+
+$230K – $385K • Offers Equity
+
+Software Engineer, Habitat (Online Data)
+
+Applied AI • Seattle • Full time
+
+$230K – $385K • Offers Equity
+
+Software Engineer, Infrastructure Reliability
+
+Applied AI • London, UK • Full time
+
+$255K – $405K • Offers Equity
+
+Software Engineer, Integrity Foundations
+
+Applied AI • San Francisco • Full time
+
+$230K – $385K • Offers Equity
+
+Software Engineer, Integrity Foundations - London
+
+Applied AI • London, UK • Full time
+
+$221K – $370K • Offers Equity
+
+Software Engineer, Localization
+
+Applied AI • San Francisco • Full time
+
+$185K – $300K • Offers Equity
+
+Software Engineer, Monetization Delivery
+
+Applied AI • San Francisco • Full time
+
+$230K – $385K • Offers Equity
+
+Software Engineer, Monetization ML Infrastructure
+
+Applied AI • San Francisco • Full time • Hybrid
+
+$293K – $441K • Offers Equity
+
+Software Engineer, Monetization Product & Platform
+
+Applied AI • San Francisco; Seattle • Full time
+
+$230K – $385K • Offers Equity
+
+Software Engineer, Observability
+
+Applied AI • San Francisco • Full time
+
+$255K – $405K • Offers Equity
+
+Software Engineer, Payments
+
+Applied AI • San Francisco • Full time • Hybrid
+
+$255K – $440K • Offers Equity
+
+Software Engineer, Real Time
+
+Applied AI • Seattle • Full time
+
+$185K – $385K • Offers Equity
+
+Software Engineer, Reliability
+
+Applied AI • San Francisco • Full time
+
+$230K – $490K • Offers Equity
+
+Software Engineer, Youth Well-Being
+
+Applied AI • San Francisco • Full time
+
+$230K – $385K • Offers Equity
+
+Technical Lead Manager, Data Engineering, Trust & Safety
+
+Applied AI • San Francisco • Full time
+
+$385K – $490K • Offers Equity
+
+TLM, Machine Learning, Integrity
+
+Applied AI • San Francisco • Full time
+
+$347K – $490K • Offers Equity
+
+Communications
+Communications Manager, France & Southern Europe
+
+Communications • Paris, France • Full time • Hybrid
+
+Consumer & Product Communications Lead, APAC
+
+Communications • Singapore • Full time • Hybrid
+
+Consumer Products
+Backend Engineer, Consumer Devices
+
+Consumer Products • San Francisco • Full time
+
+$293K – $325K • Offers Equity
+
+Camera Software Engineer, Consumer Devices
+
+Consumer Products • San Francisco • Full time
+
+$293K – $325K • Offers Equity
+
+Connectivity Software Engineer, Consumer Devices
+
+Consumer Products • San Francisco • Full time • Hybrid
+
+$293K – $325K • Offers Equity
+
+Firmware Engineer, RTOS, Consumer Devices
+
+Consumer Products • San Francisco • Full time • Hybrid
+
+$293K – $325K • Offers Equity
+
+Hardware Exploratory - Singapore
+
+Consumer Products • Singapore • Full time • Hybrid
+
+Inference Technical Lead, On-Device Transformers
+
+Consumer Products • San Francisco • Full time • Hybrid
+
+$445K • Offers Equity
+
+Operations Exploratory
+
+Consumer Products • Singapore • Full time • Hybrid
+
+Product Lifecycle Manager
+
+Consumer Products • San Francisco • Full time
+
+$250K – $300K • Offers Equity
+
+Release Engineer | Consumer Devices
+
+Consumer Products • San Francisco • Full time
+
+$293K – $325K • Offers Equity
+
+Research Engineer/Scientist - Human Alignment, Consumer Devices
+
+Consumer Products • San Francisco • Full time • Hybrid
+
+$380K – $445K • Offers Equity
+
+Senior Research Engineer/Scientist - On-Device Transformer Models
+
+Consumer Products • San Francisco • Full time • Hybrid
+
+$380K – $445K • Offers Equity
+
+Software Engineer, Engineering Acceleration | Consumer Devices
+
+Consumer Products • San Francisco • Full time • Hybrid
+
+$230K – $342K • Offers Equity
+
+Software Engineer, Infrastructure, Consumer Devices
+
+Consumer Products • Singapore • Full time • On-site
+
+$325K – $440K • Offers Equity
+
+Software Engineer, Infrastructure, Consumer Devices
+
+Consumer Products • San Francisco • Full time • Hybrid
+
+$325K – $440K • Offers Equity
+
+Software Engineer, Quality & Developer Tools | Consumer Devices
+
+Consumer Products • San Francisco • Full time
+
+$293K – $325K • Offers Equity
+
+System Software Engineer, Consumer Devices
+
+Consumer Products • San Francisco • Full time
+
+$293K – $325K • Offers Equity
+
+Core Product & Platform
+Software Engineer, API SDK
+
+Core Product & Platform • Seattle; New York City; San Francisco • Full time • Hybrid
+
+$293K – $385K • Offers Equity
+
+Software Engineer, Cloud Agents
+
+Core Product & Platform • San Francisco • Full time • Hybrid
+
+$293K – $385K • Offers Equity
+
+Corporate Security
+Corporate Security Operations Manager, London
+
+Corporate Security • London, UK • Full time • Hybrid
+
+Data Center Physical Security Regional Lead
+
+Corporate Security • San Francisco; New York City; Remote - US; Seattle • Full time
+
+$162.4K – $225K • Offers Equity • Multiple Ranges
+
+Executive Protection Operator
+
+Corporate Security • San Francisco • Full time
+
+$203K – $275K • Offers Equity
+
+Industrial Security CSSO/CPSO - San Francisco
+
+Corporate Security • San Francisco • Full time
+
+$203K – $275K • Offers Equity
+
+Industrial Security CSSO/CPSO, Washington DC
+
+Corporate Security • Washington, DC • Full time • Hybrid
+
+$182.7K – $247.5K • Offers Equity
+
+Physical Security Systems Engineer
+
+Corporate Security • London, UK • Full time • Hybrid
+
+Physical Security Systems Engineer
+
+Corporate Security • San Francisco • Full time • On-site
+
+$158K – $175K • Offers Equity
+
+Physical Security Systems Engineer - APAC
+
+Corporate Security • Singapore • Full time • Hybrid
+
+Risk Analyst, Corporate Security
+
+Corporate Security • New York City; Seattle; Washington, DC • Full time • On-site
+
+$126.4K – $225K • Offers Equity • Multiple Ranges
+
+Data Science
+Analytics Engineer, SMB
+
+Data Science • San Francisco • Full time
+
+$220K – $335K • Offers Equity
+
+Applied Data Scientist, Unit Economics Understanding
+
+Data Science • San Francisco • Full time
+
+$290K – $441K • Offers Equity
+
+Data Science Manager, Integrity
+
+Data Science • San Francisco • Full time
+
+$255K – $490K • Offers Equity
+
+Data Scientist, Business
+
+Data Science • San Francisco; New York City • Full time • Hybrid
+
+$290K – $441K • Offers Equity
+
+Data Scientist, Codex
+
+Data Science • San Francisco • Full time
+
+$230K – $385K • Offers Equity
+
+Data Scientist, Core Experimentation
+
+Data Science • Seattle • Full time • Hybrid
+
+$293K – $325K • Offers Equity
+
+Data Scientist, Financial Engineering
+
+Data Science • San Francisco • Full time
+
+$230K – $385K • Offers Equity
+
+Data Scientist, FinEng
+
+Data Science • San Francisco • Full time • Hybrid
+
+Data Scientist, Infrastructure
+
+Data Science • San Francisco • Full time
+
+$230K – $385K • Offers Equity
+
+Data Scientist, Integrity
+
+Data Science • San Francisco • Full time • Hybrid
+
+$293K – $325K • Offers Equity
+
+Data Scientist, Integrity Measurement
+
+Data Science • London, UK • Full time • Hybrid
+
+Data Scientist, Integrity Measurement
+
+Data Science • San Francisco; New York City • Full time • Hybrid
+
+$293K – $385K • Offers Equity
+
+Data Scientist, Marketing Innovation
+
+Data Science • San Francisco • Full time • Hybrid
+
+$293K – $325K • Offers Equity
+
+Data Scientist, Platform and B2B Products
+
+Data Science • San Francisco • Full time
+
+$230K – $385K • Offers Equity
+
+Data Scientist, Preparedness
+
+Data Science • San Francisco • Full time
+
+$347K – $400K • Offers Equity
+
+Data Scientist, Product
+
+Data Science • San Francisco; Seattle • Full time
+
+$230K – $385K • Offers Equity
+
+Data Scientist, Safety Systems
+
+Data Science • San Francisco • Full time
+
+$255K – $405K • Offers Equity
+
+Data Scientist, Strategic Finance
+
+Data Science • San Francisco • Full time • Hybrid
+
+$290K – $441K • Offers Equity
+
+Data Scientist, Strategic Intelligence & Risk
+
+Data Science • San Francisco • Full time
+
+$230K – $325K • Offers Equity
+
+Quantitative UX Researcher
+
+Data Science • San Francisco • Full time • Hybrid
+
+$266K – $385K • Offers Equity
+
+Strategy & Operations Lead
+
+Data Science • San Francisco • Full time • Hybrid
+
+$293K – $325K • Offers Equity
+
+Executive Operations
+Administrative Business Partner, OpenAI for Government & Global Affairs
+
+Executive Operations • Washington, DC • Full time • Hybrid
+
+$62.98 – $69.71 per hour • Offers Equity
+
+Executive Business Partner, APAC
+
+Executive Operations • Singapore • Full time • Hybrid
+
+Executive Business Partner, People
+
+Executive Operations • San Francisco • Full time • Hybrid
+
+$86.54 – $110.58 per hour • Offers Equity
+
+Finance
+Accounting Manager
+
+Finance • San Francisco • Full time
+
+$162K – $180K • Offers Equity
+
+Application Engineer, Supply Chain Technology
+
+Finance • San Francisco • Full time • Hybrid
+
+$260K – $288K • Offers Equity
+
+Compute & Infrastructure Accounting Manager
+
+Finance • San Francisco • Full time • Hybrid
+
+$216K – $240K • Offers Equity
+
+Deal Desk Lead, Cloud Marketplaces & Partnerships — AWS Focus
+
+Finance • San Francisco • Full time • Hybrid
+
+$211K – $234K • Offers Equity
+
+Enterprise Product Manager - AI Solutions
+
+Finance • San Francisco • Full time • Hybrid
+
+$260K – $288K • Offers Equity
+
+Head of Compute Capital Markets
+
+Finance • San Francisco • Full time
+
+$293K – $342K • Offers Equity
+
+Head of Insurance and Risk Management
+
+Finance • San Francisco; New York City; Seattle • Full time • Hybrid
+
+$266K – $295K • Offers Equity
+
+Inventory and Cost Accounting Lead
+
+Finance • San Francisco • Full time • Hybrid
+
+$216K – $240K • Offers Equity
+
+Lead to Opportunity, Data Systems Engineer
+
+Finance • San Francisco • Full time
+
+$260K – $288K • Offers Equity
+
+M&A Integration
+
+Finance • San Francisco • Full time
+
+$333K – $370K • Offers Equity
+
+Manager, Revenue Risk & Compliance (FRM)
+
+Finance • San Francisco • Full time
+
+$162K – $180K • Offers Equity
+
+Manager, Technical Revenue Accounting
+
+Finance • San Francisco • Full time
+
+$162K – $180K • Offers Equity
+
+Manager, Third-Party Risk Management (GTM)
+
+Finance • San Francisco • Full time • Hybrid
+
+$162K – $180K • Offers Equity
+
+Manager, US Tax Operations
+
+Finance • San Francisco • Full time
+
+$162K – $180K • Offers Equity
+
+Order Management & Billing Lead, Cloud Marketplaces & Partnerships - AWS
+
+Finance • San Francisco • Full time • Hybrid
+
+$158K – $175K • Offers Equity
+
+Procurement Enablement Lead
+
+Finance • San Francisco • Full time • Hybrid
+
+$216K – $240K • Offers Equity
+
+Senior Manager of Technical Accounting, Strategic Transactions
+
+Finance • San Francisco • Full time
+
+$216K – $240K • Offers Equity
+
+Senior Manager, Customs and Trade
+
+Finance • San Francisco • Full time • Hybrid
+
+$297K – $330K • Offers Equity
+
+Senior Manager, Export Controls
+
+Finance • San Francisco • Full time • Hybrid
+
+$297K – $330K • Offers Equity
+
+Senior Manager, Financial Reporting
+
+Finance • San Francisco • Full time • Hybrid
+
+$216K – $240K • Offers Equity
+
+Senior Manager, Financial Risk Management
+
+Finance • San Francisco • Full time • Hybrid
+
+$216K – $240K • Offers Equity
+
+Senior Manager, Revenue Enablement
+
+Finance • San Francisco • Full time
+
+$216K – $240K
+
+Senior Manager, Strategic Tax Operations
+
+Finance • San Francisco • Full time • Hybrid
+
+$216K – $240K • Offers Equity
+
+Senior Manager, Technical Accounting (Compute Infrastructure)
+
+Finance • San Francisco • Full time • Hybrid
+
+$216K – $240K • Offers Equity
+
+Senior Manager, Transfer Pricing
+
+Finance • San Francisco • Full time • Hybrid
+
+$297K – $330K • Offers Equity
+
+Software Engineer, Enterprise AI Platform
+
+Finance • San Francisco • Full time • On-site
+
+$230K – $385K • Offers Equity
+
+Strategic Investments & Consolidation Accounting Director
+
+Finance • San Francisco • Full time • Hybrid
+
+$266K – $295K • Offers Equity
+
+Strategic Sourcing Lead, Technology (Ads and Consumer Verticals)
+
+Finance • San Francisco • Full time • Hybrid
+
+$185K – $260K • Offers Equity
+
+Strategic Sourcing Leader - Enterprise & Engineering Technology
+
+Finance • San Francisco • Full time • Hybrid
+
+$266K – $295K • Offers Equity
+
+Strategic Sourcing Leader, Go-to-Market
+
+Finance • San Francisco • Full time • Hybrid
+
+$266K – $295K • Offers Equity
+
+Supplier Master Data Lead (P2P Systems, Controls & Automation)
+
+Finance • San Francisco • Full time • Hybrid
+
+$216K – $240K • Offers Equity
+
+Technical Product Manager, GTM Systems
+
+Finance • San Francisco • Full time • Hybrid
+
+$216K – $240K • Offers Equity
+
+Third Party Risk Manager, APAC
+
+Finance • Singapore • Full time • Hybrid
+
+Travel Operations Lead
+
+Finance • San Francisco • Full time • Hybrid
+
+$216K – $240K • Offers Equity
+
+US Payroll Operations
+
+Finance • San Francisco • Full time • Hybrid
+
+$180K – $200K • Offers Equity
+
+Workday Engineer
+
+Finance • San Francisco • Full time • Hybrid
+
+$260K – $288K • Offers Equity
+
+Global Affairs
+APAC Strategic Initiatives Lead, Global Affairs
+
+Global Affairs • Singapore • Full time • Hybrid
+
+Head of APAC Growth Markets, Global Affairs
+
+Global Affairs • Singapore • Full time • Hybrid
+
+National Security Lead, State and Local Government, Global Affairs
+
+Global Affairs • Washington, DC; New York City; Remote - US; San Francisco; Seattle • Full time • Hybrid
+
+$201.6K – $325K • Offers Equity
+
+Public Policy Manager, Global Affairs
+
+Global Affairs • San Francisco; Washington, DC • Full time • Hybrid
+
+$171K – $280K • Offers Equity
+
+Senior Technical Advisor, National Security Policy, Global Affairs
+
+Global Affairs • Washington, DC; New York City; Remote - US; San Francisco; Seattle • Full time • Hybrid
+
+$136.8K – $325K • Offers Equity
+
+State Government Affairs Lead (Northeast Region)
+
+Global Affairs • New York City; Washington, DC • Full time • Hybrid
+
+$280K • Offers Equity
+
+Go To Market
+Account Director - Tokyo
+
+Go To Market • Tokyo, Japan • Full time
+
+Account Director EDU- Tokyo
+
+Go To Market • Tokyo, Japan • Full time
+
+Account Director, Digital Native
+
+Go To Market • Seoul, South Korea • Full time • Hybrid
+
+Account Director, Digital Native Enterprise
+
+Go To Market • San Francisco; New York City; Remote - US; Seattle • Full time
+
+$234.9K – $290K • Offers Equity • Multiple Ranges
+
+Account Director, Digital Native Large Enterprise
+
+Go To Market • San Francisco; New York City; Remote - US; Seattle • Full time
+
+$176K – $350K • Offers Equity • Multiple Ranges
+
+Account Director, Digital Natives & Startups - Japan
+
+Go To Market • Tokyo, Japan • Full time • Hybrid
+
+Account Director, Digital Natives Growth
+
+Go To Market • San Francisco • Full time • Hybrid
+
+$290K • Offers Equity
+
+Account Director, Education
+
+Go To Market • Sydney, Australia • Full time • Hybrid
+
+Account Director, Financial Services
+
+Go To Market • New York City • Full time • Hybrid
+
+$232K – $350K • Offers Equity • Multiple Ranges
+
+Account Director, Government
+
+Go To Market • Singapore • Full time • Hybrid
+
+Account Director, Healthcare & Life Sciences
+
+Go To Market • San Francisco; New York City; Seattle • Full time • Hybrid
+
+$232K – $350K • Offers Equity • Mult
+
+Account Director, Insurance
+
+Go To Market • New York City; San Francisco • Full time • Hybrid
+
+$232K – $350K • Offers Equity • Multiple Ranges
+
+Account Director, Large Enterprise
+
+Go To Market • Seoul, South Korea • Full time • Hybrid
+
+Account Director, Large Enterprise (FSI)
+
+Go To Market • Singapore • Full time • Hybrid
+
+Account Director, Quantitative Trading
+
+Go To Market • New York City • Full time • Hybrid
+
+$232K – $350K • Offers Equity • Multiple Ranges
+
+AI Deployment Engineer
+
+Go To Market • Seoul, South Korea • Full time • Hybrid
+
+AI Deployment Engineer - Startups
+
+Go To Market • Paris, France • Full time • Hybrid
+
+AI Deployment Engineer - Startups
+
+Go To Market • Munich, Germany • Full time • Hybrid
+
+AI Deployment Engineer - Startups
+
+Go To Market • London, UK • Full time
+
+AI Deployment Engineer - Tokyo
+
+Go To Market • Tokyo, Japan • Full time • Hybrid
+
+AI Deployment Engineer | Codex
+
+Go To Market • London, UK • Full time
+
+AI Deployment Engineer | Codex
+
+Go To Market • Paris, France • Full time • Hybrid
+
+AI Deployment Engineer | Codex
+
+Go To Market • London, UK • Full time
+
+AI Deployment Engineer- ChatGPT Ecosystem
+
+Go To Market • Remote - US; New York City • Full time • Remote
+
+$200.8K – $345K • Offers Equity • Multiple Ranges
+
+AI Deployment Engineer- ChatGPT Ecosystem
+
+Go To Market • San Francisco; New York City • Full time
+
+$252K – $335K • Offers Equity
+
+AI Deployment Engineer- Codex
+
+Go To Market • San Francisco • Full time
+
+$197K – $278K • Offers Equity
+
+AI Deployment Engineer- Codex
+
+Go To Market • New York City • Full time • Hybrid
+
+$197K – $278K • Offers Equity
+
+AI Deployment Engineer- Codex
+
+Go To Market • Remote - US • Full time • Remote
+
+$197K – $278K • Offers Equity
+
+AI Deployment Engineer, Codex | India
+
+Go To Market • Delhi, India; India - Remote • Full time • Hybrid
+
+AI Deployment Engineer, Codex | Korea
+
+Go To Market • Seoul, South Korea • Full time • Hybrid
+
+AI Deployment Engineer, Codex | Sydney
+
+Go To Market • Sydney, Australia • Full time • Hybrid
+
+AI Deployment Engineer, Codex | Tokyo
+
+Go To Market • Tokyo, Japan • Full time
+
+AI Deployment Engineer, Large Enterprise
+
+Go To Market • London, UK • Full time
+
+AI Deployment Engineer, Startups
+
+Go To Market • Sydney, Australia • Full time
+
+AI Deployment Engineer, Startups
+
+Go To Market • Singapore • Full time • Hybrid
+
+AI Deployment Engineer, Startups
+
+Go To Market • New York City • Full time • Hybrid
+
+$198K – $280K • Offers Equity
+
+AI Deployment Engineer, Startups
+
+Go To Market • India - Remote • Full time • Remote
+
+AI Deployment Engineer, Startups
+
+Go To Market • San Francisco • Full time
+
+$198K – $280K • Offers Equity
+
+AI Deployment Engineering Manager, Digital Natives
+
+Go To Market • New York City • Full time • Hybrid
+
+$251K – $335K • Offers Equity
+
+AI Deployment Engineering Manager, Digital Natives
+
+Go To Market • San Francisco • Full time • Hybrid
+
+$251K – $335K • Offers Equity
+
+AI Deployment Engineering Manager, Startups
+
+Go To Market • Singapore • Full time • Hybrid
+
+AI Deployment Engineering Manager, Startups
+
+Go To Market • San Francisco; New York City • Full time • Hybrid
+
+$251K – $335K • Offers Equity
+
+AI Deployment Manager
+
+Go To Market • Singapore • Full time • Hybrid
+
+AI Deployment Manager - Core Ecosystem, EDU
+
+Go To Market • San Francisco; New York City • Full time • Hybrid
+
+$162K – $230K • Offers Equity
+
+AI Deployment Manager - NYC
+
+Go To Market • New York City • Full time • Hybrid
+
+$162K – $230K • Offers Equity
+
+AI Deployment Manager - Pilots - NYC
+
+Go To Market • New York City • Full time • Hybrid
+
+$162K – $230K • Offers Equity
+
+AI Deployment Manager - Pilots - San Francisco
+
+Go To Market • San Francisco • Full time • Hybrid
+
+$162K – $230K • Offers Equity
+
+AI Deployment Manager - San Francisco
+
+Go To Market • San Francisco • Full time • Hybrid
+
+$162K – $230K • Offers Equity
+
+AI Deployment Manager, Core
+
+Go To Market • London, UK; Dublin, Ireland • Full time • Hybrid
+
+AI Success Engineer
+
+Go To Market • Abu Dhabi, UAE • Full time • Hybrid
+
+AI Success Engineer
+
+Go To Market • Sydney, Australia • Full time • Hybrid
+
+AI Success Engineer - NYC
+
+Go To Market • New York City • Full time • Hybrid
+
+$234K – $260K
+
+AI Success Engineer - San Francisco
+
+Go To Market • San Francisco • Full time
+
+$234K – $260K • Offers Equity
+
+AI Success Engineer - Seoul, South Korea
+
+Go To Market • Seoul, South Korea • Full time • Hybrid
+
+AI Success Engineer - Tokyo
+
+Go To Market • Tokyo, Japan • Full time
+
+AI Success Engineer - US Remote
+
+Go To Market • Remote - US • Full time • Remote
+
+$234K – $260K • Offers Equity
+
+APAC Sales Development Leader
+
+Go To Market • Singapore • Full time • Hybrid
+
+AWS Specialist Seller, Strategic Pursuits
+
+Go To Market • San Francisco; New York City; Seattle • Full time
+
+$302K – $335K • Offers Equity
+
+Backend Software Engineer, GTM Innovation
+
+Go To Market • San Francisco • Full time • Hybrid
+
+$230K – $385K • Offers Equity
+
+Business Development Representative
+
+Go To Market • Tokyo, Japan • Full time • Hybrid
+
+Business Development Representative - APAC
+
+Go To Market • Singapore • Full time • Hybrid
+
+Business Development Representative - EMEA
+
+Go To Market • Dublin, Ireland • Full time • Hybrid
+
+Business Development Representative - EMEA (French Speaking)
+
+Go To Market • Dublin, Ireland • Full time • Hybrid
+
+Business Development Representative - EMEA (German Speaking)
+
+Go To Market • Dublin, Ireland • Full time • Hybrid
+
+ChatGPT For Work - Early Access Program
+
+Go To Market • San Francisco • Full time
+
+$216K – $310K • Offers Equity
+
+Compensation Operations Lead
+
+Go To Market • San Francisco • Full time • Hybrid
+
+$293K – $325K • Offers Equity
+
+Customer Education Program Manager, New Products
+
+Go To Market • San Francisco; Remote - US • Full time • Hybrid
+
+$165.6K – $184K • Offers Equity
+
+Customer Success Manager, Ads Solutions
+
+Go To Market • Tokyo, Japan • Full time • Hybrid
+
+Customer Success Manager, Ads Solutions
+
+Go To Market • San Francisco; New York City • Full time • Hybrid
+
+$162K – $230K • Offers Equity
+
+Customer Success Manager, Ads Solutions
+
+Go To Market • London, UK • Full time
+
+Customer Success Manager, Ads Solutions
+
+Go To Market • Sydney, Australia • Full time • Hybrid
+
+Customer Success Manager, Ads Solutions
+
+Go To Market • Seoul, South Korea • Full time • Hybrid
+
+Customer Success Manager, Ads Solutions
+
+Go To Market • Singapore • Full time • Hybrid
+
+Customer Success Manager, Ads Solutions (Brazil)
+
+Go To Market • São Paulo • Full time
+
+Customer Success Manager, Ads Solutions (Spanish Speaking)
+
+Go To Market • Remote - US • Full time • Remote
+
+$162K – $230K • Offers Equity
+
+Developer Education Lead
+
+Go To Market • San Francisco • Full time • Hybrid
+
+$198K – $335K • Offers Equity
+
+Developer Experience Engineer
+
+Go To Market • India - Remote • Full time • Remote
+
+Developer Experience Engineer
+
+Go To Market • San Francisco • Full time
+
+$198K – $335K • Offers Equity
+
+Developer Experience Engineer
+
+Go To Market • Seoul, South Korea • Full time • Hybrid
+
+Developer Experience Engineer (Mandarin-Speaking)
+
+Go To Market • Singapore • Full time • Hybrid
+
+Director, Certifications
+
+Go To Market • Remote - US • Full time • Remote
+
+$239.4K – $335K • Offers Equity
+
+Full Stack Software Engineer, GTM Innovation
+
+Go To Market • San Francisco • Full time
+
+$230K – $385K • Offers Equity
+
+Growth Marketing, Creative System and Optimization
+
+Go To Market • San Francisco; New York City • Full time • Hybrid
+
+$239K – $265K • Offers Equity
+
+Growth, Korea
+
+Go To Market • Seoul, South Korea; Singapore • Full time • Hybrid
+
+GTM Business Operations & Strategy Lead, Codex
+
+Go To Market • San Francisco • Full time • Hybrid
+
+$285K – $385K • Offers Equity
+
+GTM Business Operations & Strategy Lead, Platform
+
+Go To Market • San Francisco • Full time
+
+$285K – $385K • Offers Equity
+
+GTM Cyber Security Leader
+
+Go To Market • San Francisco; New York City; Remote - US • Full time • Hybrid
+
+$385K – $405K • Offers Equity
+
+GTM Enablement Lead
+
+Go To Market • India - Remote • Full time • Remote
+
+GTM Readiness & Activation
+
+Go To Market • New York City; San Francisco • Full time • Hybrid
+
+$226K – $251K • Offers Equity
+
+GTM Strategy & Operations, Enterprise
+
+Go To Market • San Francisco • Full time • Hybrid
+
+$189K – $210K • Offers Equity
+
+GTM Strategy & Planning
+
+Go To Market • San Francisco • Full time • Hybrid
+
+$239K – $265K • Offers Equity
+
+Head of Enterprise Sales, Korea
+
+Go To Market • Seoul, South Korea • Full time • Hybrid
+
+Head of Growth GSIs - Cognizant Infosys & Wipro
+
+Go To Market • San Francisco • Full time • Hybrid
+
+$378K – $500K • Offers Equity
+
+Head of GTM Business Operations & Strategy, Safety & Security
+
+Go To Market • San Francisco • Full time
+
+$347K – $405K
+
+Head of GTM Partnerships, EMEA
+
+Go To Market • London, UK • Full time • Hybrid
+
+Lead, AI Deployment Manager
+
+Go To Market • Singapore • Full time • Hybrid
+
+Manager, AI Deployment Engineering - Codex
+
+Go To Market • Munich, Germany • Full time • Hybrid
+
+Manager, AI Deployment Engineering - Codex
+
+Go To Market • London, UK • Full time
+
+Manager, AI Deployment Engineering (Korea)
+
+Go To Market • Seoul, South Korea • Full time • Hybrid
+
+Manager, AI Success Engineers - NYC
+
+Go To Market • New York City • Full time • Hybrid
+
+$234K – $335K • Offers Equity
+
+Manager, AI Success Engineers - San Francisco
+
+Go To Market • San Francisco • Full time
+
+$234K – $335K • Offers Equity
+
+Manager, Partner AI Deployment Engineering - AWS
+
+Go To Market • San Francisco • Full time • Hybrid
+
+$251K – $335K • Offers Equity
+
+Manager, Solutions Engineering (India)
+
+Go To Market • India - Remote • Full time • Remote
+
+Partner AI Deployment Engineer
+
+Go To Market • San Francisco; New York City • Full time • Hybrid
+
+$197K – $278K • Offers Equity
+
+Partner AI Deployment Engineer - AWS
+
+Go To Market • India - Remote • Full time • Remote
+
+Partner AI Deployment Engineer - AWS
+
+Go To Market • San Francisco; New York City; Seattle • Full time
+
+$197K – $278K • Offers Equity
+
+Partner AI Deployment Engineer - AWS
+
+Go To Market • Seoul, South Korea • Full time • Hybrid
+
+Partner AI Deployment Engineer - AWS
+
+Go To Market • Sydney, Australia • Full time • Hybrid
+
+Partner AI Deployment Engineer - AWS
+
+Go To Market • London, UK • Full time
+
+Partner Business Intelligence
+
+Go To Market • Seattle; San Francisco • Full time • Hybrid
+
+$293K – $325K • Offers Equity
+
+Partner Director
+
+Go To Market • Tokyo, Japan • Full time
+
+Partner Director - AWS Alliance Partnership, APAC
+
+Go To Market • Singapore • Full time • Hybrid
+
+Partner Director GSIs - Cognizant and Infosys
+
+Go To Market • San Francisco; New York City • Full time • Hybrid
+
+$297K – $440K • Offers Equity
+
+Partner Director, India
+
+Go To Market • India - Remote • Full time • Remote
+
+Partner Director, SI Partnerships
+
+Go To Market • San Francisco • Full time • Hybrid
+
+$266K – $380K • Offers Equity
+
+Private Equity Lead
+
+Go To Market • New York City • Full time • Hybrid
+
+$335K – $350K • Offers Equity
+
+Product Enablement Manager
+
+Go To Market • New York City • Full time • Hybrid
+
+$177K – $196K • Offers Equity
+
+Product Engineer, GTM Innovation
+
+Go To Market • San Francisco • Full time
+
+$230K – $385K • Offers Equity
+
+Product Engineer, Marketing Innovation
+
+Go To Market • San Francisco • Full time
+
+$230K – $385K • Offers Equity
+
+Regional Client Partner, Ads Solutions
+
+Go To Market • Tokyo, Japan • Full time
+
+Regional Client Partner, Ads Solutions
+
+Go To Market • Singapore • Full time • Hybrid
+
+Regional Client Partner, Ads Solutions
+
+Go To Market • Seoul, South Korea • Full time • Hybrid
+
+Regional Client Partner, Ads Solutions
+
+Go To Market • São Paulo • Full time • Hybrid
+
+Regional Client Partner, Ads Solutions
+
+Go To Market • Sydney, Australia • Full time
+
+Regional Client Partner, Ads Solutions (Spanish Speaking)
+
+Go To Market • Remote - US • Full time • Remote
+
+$261K – $352K • Offers Equity
+
+Regional Manager, Ads Solutions (APAC)
+
+Go To Market • Singapore • Full time • Hybrid
+
+Regional Sales Manager, Ads Solutions EMEA
+
+Go To Market • London, UK; Dublin, Ireland • Full time • Hybrid
+
+Revenue Operations BP - Technical Success
+
+Go To Market • San Francisco • Full time • Hybrid
+
+$239K – $265K • Offers Equity
+
+Revenue Strategy & Operations - Central Cadence
+
+Go To Market • San Francisco • Full time • Hybrid
+
+$239K – $265K • Offers Equity
+
+Sales Development Manager, Enterprise (AMER)
+
+Go To Market • San Francisco • Full time • Hybrid
+
+$261K – $305K • Offers Equity
+
+Sales Development Representative - SF
+
+Go To Market • San Francisco • Full time • Hybrid
+
+Sales Manager, Enterprise - Japan
+
+Go To Market • Tokyo, Japan • Full time • Hybrid
+
+Sales Manager, Large Enterprise
+
+Go To Market • San Francisco • Full time
+
+$302K – $350K
+
+Sales Strategy and Operations, ANZ
+
+Go To Market • Sydney, Australia • Full time • Hybrid
+
+Software Engineer, Marketing Innovation
+
+Go To Market • San Francisco • Full time • On-site
+
+$230K – $385K • Offers Equity
+
+Solutions Architect, Digital Natives
+
+Go To Market • San Francisco • Full time • Hybrid
+
+$175K – $240K • Offers Equity
+
+Solutions Engineer
+
+Go To Market • Delhi, India • Full time • Hybrid
+
+Solutions Engineer, Core Digital Native
+
+Go To Market • San Francisco • Full time • Hybrid
+
+$221K – $278K • Offers Equity
+
+Solutions Engineer, Core Digital Natives
+
+Go To Market • San Francisco • Full time • Hybrid
+
+$174K – $245K • Offers Equity
+
+Solutions Engineer, Core Enterprise
+
+Go To Market • San Francisco • Full time • Hybrid
+
+$221K – $245K • Offers Equity
+
+Solutions Engineer, Digital Natives
+
+Go To Market • Paris, France • Full time • Hybrid
+
+Solutions Engineer, Digital Natives
+
+Go To Market • Munich, Germany • Full time • Hybrid
+
+Solutions Engineer, Digital Natives
+
+Go To Market • Dublin, Ireland • Full time
+
+Solutions Engineer, Financial Services
+
+Go To Market • San Francisco • Full time • Hybrid
+
+$221K – $278K • Offers Equity
+
+Solutions Engineer, Large Enterprise
+
+Go To Market • Paris, France • Full time • Hybrid
+
+Solutions Engineer, Large Enterprise
+
+Go To Market • London, UK • Full time
+
+Solutions Engineer, Large Enterprise
+
+Go To Market • Munich, Germany • Full time • Hybrid
+
+Solutions Engineer, Pre-Sales
+
+Go To Market • São Paulo • Full time • Hybrid
+
+Solutions Engineer, Pre-Sales
+
+Go To Market • New York City • Full time • Hybrid
+
+$156.6K – $245K • Offers Equity • Multiple Ranges
+
+Solutions Engineer, Pre-Sales
+
+Go To Market • San Francisco • Full time
+
+$156.6K – $245K • Offers Equity • Multiple Ranges
+
+Solutions Engineer, Pre-Sales - Tokyo
+
+Go To Market • Tokyo, Japan • Full time
+
+Solutions Engineer, Private Equity
+
+Go To Market • San Francisco • Full time • Hybrid
+
+$221K – $278K • Offers Equity
+
+Solutions Engineering, Ads Solutions
+
+Go To Market • San Francisco • Full time
+
+$185K – $260K • Offers Equity
+
+VC Partnerships Lead, APAC
+
+Go To Market • Singapore • Full time • Hybrid
+
+VC Partnerships Manager
+
+Go To Market • London, UK • Full time • Hybrid
+
+Intelligence & Investigations
+Abuse Investigator
+
+Intelligence & Investigations • San Francisco; Remote - US • Full time
+
+$288K – $425K • Offers Equity
+
+Abuse Investigator (AI Self-Improvement Risk)
+
+Intelligence & Investigations • San Francisco • Full time • Hybrid
+
+$288K – $320K • Offers Equity
+
+AI Emerging Risks Analyst
+
+Intelligence & Investigations • San Francisco • Full time • Hybrid
+
+$198K – $320K • Offers Equity
+
+Fullstack Engineer, Intelligence Systems
+
+Intelligence & Investigations • San Francisco • Full time
+
+$230K – $325K • Offers Equity
+
+Strategic Risk Analyst, Behavioral & Psychological Risk
+
+Intelligence & Investigations • San Francisco • Full time
+
+$288K – $320K • Offers Equity
+
+Technical Abuse Investigator
+
+Intelligence & Investigations • San Francisco; New York City; Remote - US • Full time • Hybrid
+
+$158.4K – $425K • Offers Equity
+
+Technical Intelligence Analyst
+
+Intelligence & Investigations • San Francisco • Full time • Hybrid
+
+$198K – $320K • Offers Equity
+
+IT
+Audiovisual Design Engineer
+
+IT • San Francisco • Full time • Hybrid
+
+$251K – $264K • Offers Equity
+
+Executive IT Support Lead
+
+IT • San Francisco • Full time • On-site
+
+Head of Systems Operations
+
+IT • San Francisco • Full time • On-site
+
+$226K – $285K • Offers Equity
+
+IT Controls Data Engineer
+
+IT • San Francisco • Full time • Hybrid
+
+$293K – $385K • Offers Equity
+
+IT Solutions Engineer
+
+IT • San Francisco • Full time • Hybrid
+
+IT Support Singapore, APAC Regional Lead
+
+IT • Singapore • Full time • Hybrid
+
+IT Support Specialist
+
+IT • Seattle; New York City; San Francisco • Full time • On-site
+
+Program Manager - IT Operations
+
+IT • San Francisco • Full time • Hybrid
+
+$226K – $264K • Offers Equity
+
+Program Manager - Technology Capital Builds
+
+IT • San Francisco • Full time • Hybrid
+
+$216K – $252K • Offers Equity
+
+Senior Staff Software Engineer, Identity Infrastructure Engineering
+
+IT • San Francisco • Full time • Hybrid
+
+$347.7K – $385K • Offers Equity
+
+Software Engineer, Identity Infrastructure Engineering
+
+IT • San Francisco; New York City; Remote - US; Seattle • Full time • Hybrid
+
+$230K – $325K • Offers Equity
+
+Legal
+Associate General Counsel, Executive Compensation & Benefits
+
+Legal • San Francisco • Full time • Hybrid
+
+$347K – $385K • Offers Equity
+
+Associate General Counsel, Hardware IP
+
+Legal • San Francisco • Full time • Hybrid
+
+$347K – $385K • Offers Equity
+
+Associate General Counsel, India
+
+Legal • Delhi, India • Full time • Remote
+
+Compliance Program Manager
+
+Legal • San Francisco • Full time • Hybrid
+
+$162K – $180K • Offers Equity
+
+Counsel, AI Policy
+
+Legal • San Francisco; Washington, DC • Full time • Hybrid
+
+$248K – $275K • Offers Equity
+
+Counsel, Commercial
+
+Legal • San Francisco • Full time • Hybrid
+
+$248K – $275K • Offers Equity
+
+Counsel, Product (Research)
+
+Legal • San Francisco • Full time • Hybrid
+
+$248K – $275K • Offers Equity
+
+Senior Counsel, AI Product
+
+Legal • San Francisco • Full time • Hybrid
+
+$248K – $330K • Offers Equity
+
+Senior Counsel, Commercial
+
+Legal • San Francisco • Full time • Hybrid
+
+$297K – $330K • Offers Equity
+
+Senior Counsel, Corporate (M&A)
+
+Legal • San Francisco • Full time • Hybrid
+
+$297K – $330K • Offers Equity
+
+Senior Counsel, Employment (AI Enablement)
+
+Legal • San Francisco • Full time • Hybrid
+
+$297K – $330K • Offers Equity
+
+Senior Counsel, Product (Hardware Safety & Customer Support)
+
+Legal • San Francisco • Full time • Hybrid
+
+$297K – $330K • Offers Equity
+
+Senior Counsel, Public Sector
+
+Legal • Washington, DC • Full time • Hybrid
+
+$297K – $330K • Offers Equity
+
+Senior Counsel, Sanctions and Trade Compliance
+
+Legal • San Francisco; New York City; Seattle; Washington, DC • Full time • Hybrid
+
+$297K – $330K • Offers Equity
+
+Senior Legal Program Manager (Hardware Compliance)
+
+Legal • San Francisco • Full time • Hybrid
+
+$216K – $240K • Offers Equity
+
+Senior Paralegal, Employment
+
+Legal • San Francisco • Full time • Hybrid
+
+$216K – $240K • Offers Equity
+
+Senior Paralegal, Litigation
+
+Legal • San Francisco • Full time • Hybrid
+
+$216K – $240K • Offers Equity
+
+Marketing
+B2B Marketing Lead, APAC
+
+Marketing • Singapore • Full time • Hybrid
+
+ChatGPT Research Product Marketing Manager
+
+Marketing • San Francisco • Full time • Hybrid
+
+$221K – $245K • Offers Equity
+
+Consumer Marketing Lead, Japan
+
+Marketing • Tokyo, Japan • Full time
+
+Content Lead, APAC
+
+Marketing • Singapore • Full time • Hybrid
+
+Customer Marketing Manager, Enterprise and Digital Natives
+
+Marketing • San Francisco • Full time
+
+$227K – $252K • Offers Equity
+
+Customer Marketing Manager, SMB
+
+Marketing • San Francisco • Full time • Hybrid
+
+$252K • Offers Equity
+
+Demo Studio Engineer
+
+Marketing • San Francisco • Full time • Hybrid
+
+$284K – $315K • Offers Equity
+
+Developer Marketing Lead, APAC
+
+Marketing • Singapore • Full time • Hybrid
+
+Enterprise 3P Field Events Lead
+
+Marketing • San Francisco • Full time • Hybrid
+
+$227K – $252K • Offers Equity
+
+Enterprise Relationship Manager, Customer Marketing
+
+Marketing • San Francisco • Full time • Hybrid
+
+$266K – $295K • Offers Equity
+
+Executive Programs Narrative Lead
+
+Marketing • San Francisco • Full time • Hybrid
+
+$266K – $295K • Offers Equity
+
+Frontend Engineer, Dotcom (Marketing)
+
+Marketing • San Francisco; New York City • Full time • Hybrid
+
+$230K – $385K • Offers Equity
+
+Global Vendor Manager, Ads
+
+Marketing • San Francisco • Full time • Hybrid
+
+$239K – $265K • Offers Equity
+
+GTM Growth Product Manager, Agentic Systems
+
+Marketing • San Francisco • Full time • Hybrid
+
+$239K – $265K • Offers Equity
+
+Head of Ads Enterprise Marketing
+
+Marketing • San Francisco • Full time • Hybrid
+
+$374K – $415K • Offers Equity
+
+Head of Demand Generation
+
+Marketing • San Francisco • Full time • Hybrid
+
+$326K – $362K • Offers Equity
+
+Head of Events, APAC
+
+Marketing • Singapore • Full time • Hybrid
+
+Industry Product Marketing Manager
+
+Marketing • San Francisco • Full time
+
+$221K – $245K • Offers Equity
+
+Market Research Lead
+
+Marketing • San Francisco • Full time
+
+$234K – $260K • Offers Equity
+
+Marketing Analytics Lead
+
+Marketing • San Francisco • Full time • Hybrid
+
+$187K – $260K • Offers Equity
+
+Partner Marketing Lead, APAC
+
+Marketing • Singapore • Full time • Hybrid
+
+Performance Producer
+
+Marketing • San Francisco • Full time • Hybrid
+
+$266K – $295K • Offers Equity
+
+Producer, Global Events
+
+Marketing • San Francisco • Full time • Hybrid
+
+$162K – $180K • Offers Equity
+
+Product Marketing Lead, Advertising
+
+Marketing • San Francisco • Full time
+
+$284K – $315K
+
+Product Marketing Lead, Privacy
+
+Marketing • San Francisco • Full time
+
+$284K – $300K
+
+Product Marketing Manager, Cybersecurity
+
+Marketing • San Francisco • Full time • Hybrid
+
+$221K – $245K • Offers Equity
+
+Readiness & Enablement Lead, SMB Sales
+
+Marketing • San Francisco • Full time • Hybrid
+
+$239K – $265K • Offers Equity
+
+Social Marketing Lead, Japan
+
+Marketing • Tokyo, Japan • Full time
+
+Startup Content Marketing Lead
+
+Marketing • San Francisco • Full time • Hybrid
+
+$266K – $295K • Offers Equity
+
+Startup Field Marketer
+
+Marketing • San Francisco • Full time • Hybrid
+
+$227K – $252K • Offers Equity
+
+Strategy & Operations Lead, B2B Marketing
+
+Marketing • San Francisco • Full time • Hybrid
+
+$302K – $335K • Offers Equity
+
+Model Deployment for Business
+Forward Deployed Engineer - Dublin
+
+Model Deployment for Business • Dublin, Ireland • Full time • Hybrid
+
+Forward Deployed Engineer - London
+
+Model Deployment for Business • London, UK • Full time • Hybrid
+
+Forward Deployed Engineer - Munich
+
+Model Deployment for Business • Munich, Germany • Full time • Hybrid
+
+Forward Deployed Engineer - Paris
+
+Model Deployment for Business • Paris, France • Full time • Hybrid
+
+Forward Deployed Engineer - Singapore
+
+Model Deployment for Business • Singapore • Full time • Hybrid
+
+Forward Deployed Engineer - Sydney
+
+Model Deployment for Business • Sydney, Australia • Full time • Hybrid
+
+Forward Deployed Engineer - Tokyo
+
+Model Deployment for Business • Tokyo, Japan • Full time • Hybrid
+
+Forward Deployed Engineer (FDE) - NYC
+
+Model Deployment for Business • New York City • Full time • Hybrid
+
+$162K – $280K • Offers Equity
+
+Forward Deployed Engineer (FDE) - Seattle
+
+Model Deployment for Business • Seattle • Full time
+
+$162K – $280K • Offers Equity
+
+Forward Deployed Engineer (FDE) - SF
+
+Model Deployment for Business • San Francisco • Full time • Hybrid
+
+$162K – $280K • Offers Equity
+
+Forward Deployed Software Engineer - Dublin
+
+Model Deployment for Business • Dublin, Ireland • Full time • Hybrid
+
+Forward Deployed Software Engineer - London
+
+Model Deployment for Business • London, UK • Full time • Hybrid
+
+Forward Deployed Software Engineer - Munich
+
+Model Deployment for Business • Munich, Germany • Full time • Hybrid
+
+Forward Deployed Software Engineer - NYC
+
+Model Deployment for Business • New York City • Full time • Hybrid
+
+$153K – $325K • Offers Equity
+
+Forward Deployed Software Engineer - Paris
+
+Model Deployment for Business • Paris, France • Full time • Hybrid
+
+Forward Deployed Software Engineer - Seattle
+
+Model Deployment for Business • Seattle • Full time • Hybrid
+
+$153K – $325K • Offers Equity
+
+Forward Deployed Software Engineer - SF
+
+Model Deployment for Business • San Francisco • Full time • Hybrid
+
+$185K – $325K • Offers Equity
+
+Forward Deployed Software Engineer - Singapore
+
+Model Deployment for Business • Singapore • Full time • Hybrid
+
+Forward Deployed Software Engineer - Tokyo
+
+Model Deployment for Business • Tokyo, Japan • Full time • Hybrid
+
+Manager, Forward Deployed Engineering - London
+
+Model Deployment for Business • London, UK • Full time • Hybrid
+
+Manager, Forward Deployed Engineering - Munich
+
+Model Deployment for Business • Munich, Germany • Full time • Hybrid
+
+Onboarding & Enablement Program Manager, FDE
+
+Model Deployment for Business • San Francisco • Full time
+
+$177K – $251K • Offers Equity
+
+Physical Design Engineer, Forward Deployed Engineering
+
+Model Deployment for Business • San Francisco • Full time • Hybrid
+
+$162K – $302K • Offers Equity
+
+Platform Engineer, Forward Deployed Engineering (FDE) - NYC
+
+Model Deployment for Business • New York City • Full time • Hybrid
+
+$230K – $385K • Offers Equity
+
+Platform Engineer, Forward Deployed Engineering (FDE) -SF
+
+Model Deployment for Business • San Francisco • Full time • Hybrid
+
+$230K – $385K • Offers Equity
+
+Platform Engineering Manager, Forward Deployed Engineering (FDE)
+
+Model Deployment for Business • San Francisco • Full time • Hybrid
+
+$302K – $335K • Offers Equity
+
+Technical Deployment Lead - Singapore
+
+Model Deployment for Business • Singapore • Full time • Hybrid
+
+Technical Deployment Lead - Tokyo
+
+Model Deployment for Business • Tokyo, Japan • Full time • Hybrid
+
+Technical Deployment Lead, Forward Deployed Engineering (FDE) - NYC
+
+Model Deployment for Business • New York City • Full time • Hybrid
+
+$198K – $294K • Offers Equity
+
+Technical Deployment Lead, Forward Deployed Engineering (FDE) - SF
+
+Model Deployment for Business • San Francisco • Full time • Hybrid
+
+$198K – $294K • Offers Equity
+
+Technical Deployment Lead, Forward Deployed Engineering (FDE)- Platform
+
+Model Deployment for Business • San Francisco • Full time
+
+$198K – $335K • Offers Equity
+
+Technical Deployment Lead, Life Sciences
+
+Model Deployment for Business • San Francisco • Full time • Hybrid
+
+$198K – $335K • Offers Equity
+
+OpenAI for Gov
+Account Director, Federal Partnerships
+
+OpenAI for Gov • Washington, DC • Full time • Hybrid
+
+$178.2K – $301.5K • Offers Equity
+
+Account Director, State and Local Government
+
+OpenAI for Gov • Washington, DC; San Francisco • Full time • Hybrid
+
+$178.2K – $301.5K • Offers Equity
+
+AI Adoption, Content & Community Manager, OpenAI for Government
+
+OpenAI for Gov • Washington, DC • Full time • Hybrid
+
+$186.3K – $207K • Offers Equity
+
+AI Deployment Engineer, Public Sector - Federal Civilian
+
+OpenAI for Gov • Washington, DC • Full time • Hybrid
+
+$137K – $250.2K • Offers Equity
+
+AI Success Engineer, Government
+
+OpenAI for Gov • Washington, DC; San Francisco • Full time • Hybrid
+
+$186K – $265.5K • Offers Equity
+
+Forward Deployed Engineer, Gov
+
+OpenAI for Gov • Washington, DC; San Francisco; Seattle • Full time • Hybrid
+
+$145.8K – $280K • Offers Equity
+
+Government Account Director, National Security
+
+OpenAI for Gov • Washington, DC • Full time • Hybrid
+
+$261K – $335K • Offers Equity
+
+Partner Manager, OpenAI for Government
+
+OpenAI for Gov • Washington, DC • Full time • Hybrid
+
+$239.4K – $295K • Offers Equity
+
+Strategic Delivery Lead, International Public Sector
+
+OpenAI for Gov • London, UK; Munich, Germany; Zurich, Switzerland • Full time • Hybrid
+
+People
+Business Recruiter, APAC
+
+People • Singapore • Full time • Hybrid
+
+Compensation Analyst, Equity & Executive Compensation
+
+People • San Francisco • Full time • Hybrid
+
+$234K – $260K • Offers Equity
+
+Compensation Business Partner
+
+People • San Francisco • Full time • Hybrid
+
+$180K – $260K • Offers Equity
+
+Data Engineer, People Innovation Labs
+
+People • San Francisco • Full time • Hybrid
+
+$293K – $325K • Offers Equity
+
+Executive Recruiter, International
+
+People • London, UK • Full time • Hybrid
+
+Global Head of Benefits
+
+People • San Francisco • Full time
+
+$260K – $300K • Offers Equity
+
+Head of People Science and Operations
+
+People • San Francisco • Full time
+
+$347K – $385K • Offers Equity
+
+HR Business Partner
+
+People • San Francisco; New York City; Seattle • Full time • Hybrid
+
+$234K – $260K • Offers Equity
+
+M&A Recruiter, People
+
+People • San Francisco • Full time
+
+$240K • Offers Equity
+
+People (HR) Operations Specialist
+
+People • San Francisco; New York City • Full time • Hybrid
+
+$162K – $180K • Offers Equity
+
+People Data Scientist
+
+People • San Francisco • Full time • Hybrid
+
+$198K – $220K • Offers Equity
+
+Product Designer, People Innovation Labs
+
+People • San Francisco • Full time • On-site
+
+$230K – $385K • Offers Equity
+
+Program Manager, M&A Recruiting | People
+
+People • San Francisco • Full time
+
+$162K – $240K • Offers Equity
+
+Recruiter, AI/ML Research
+
+People • San Francisco • Full time • Hybrid
+
+$216K – $240K • Offers Equity
+
+Recruiting Optimization Manager
+
+People • San Francisco • Full time • Hybrid
+
+$216K – $240K • Offers Equity
+
+Senior Manager, People Compliance
+
+People • San Francisco • Full time • Hybrid
+
+$228K – $285K • Offers Equity
+
+Software Engineer, Full Stack (People Innovation)
+
+People • Remote - US; San Francisco • Full time • Hybrid
+
+$153K – $385K • Offers Equity
+
+Systems & Enablement Lead, Recruiting Operations
+
+People • Singapore • Full time • Hybrid
+
+Technical Sourcer, Research
+
+People • San Francisco; New York City; Remote - US; Seattle • Full time • Hybrid
+
+$136.8K – $240K • Offers Equity • Multiple Ranges
+
+Product Design
+Content Designer
+
+Product Design • San Francisco; New York City • Full time
+
+$207K – $295K • Offers Equity
+
+Product Design Manager
+
+Product Design • San Francisco • Full time
+
+$347K – $385K • Offers Equity
+
+Product Design Program Manager
+
+Product Design • San Francisco • Full time • Hybrid
+
+$216K – $240K • Offers Equity
+
+Product Designer, ChatGPT
+
+Product Design • San Francisco • Full time
+
+$207K – $295K • Offers Equity
+
+Product Management
+Product Manager, API Agents
+
+Product Management • San Francisco • Full time
+
+$293K – $325K • Offers Equity
+
+Product Manager, API Infrastructure
+
+Product Management • San Francisco • Full time • Hybrid
+
+$325K – $347K • Offers Equity
+
+Product Manager, Bio Safety
+
+Product Management • San Francisco • Full time • On-site
+
+$293K – $325K • Offers Equity
+
+Product Manager, Families
+
+Product Management • San Francisco • Full time • Hybrid
+
+$293K – $325K • Offers Equity
+
+Product Manager, Financial Engineering
+
+Product Management • San Francisco • Full time • Hybrid
+
+$293K – $325K • Offers Equity
+
+Product Manager, Integrity
+
+Product Management • London, UK • Full time • Hybrid
+
+Product Manager, Premium Subscriptions
+
+Product Management • San Francisco • Full time
+
+$293K – $325K • Offers Equity
+
+Product Manager, Private Computing & Encryption
+
+Product Management • San Francisco • Full time
+
+$347K – $490K • Offers Equity
+
+Product Manager, Safety Measurement
+
+Product Management • San Francisco • Full time
+
+$293K – $385K • Offers Equity
+
+Product Manager, Self-Serve Business Growth Lead
+
+Product Management • San Francisco • Full time
+
+$347K – $385K • Offers Equity
+
+Product Manager, Sensitive Deployments
+
+Product Management • San Francisco • Full time • Hybrid
+
+$347K – $385K • Offers Equity
+
+Product Operations
+Product Operations Manager
+
+Product Operations • San Francisco • Full time • Hybrid
+
+$257K – $285K • Offers Equity
+
+Product Partnerships
+Partner Manager - Search, Commerce
+
+Product Partnerships • San Francisco • Full time
+
+$266K – $295K • Offers Equity
+
+Partner Manager, Cloud Service Provider Partnerships
+
+Product Partnerships • San Francisco • Full time • Hybrid
+
+$333K – $370K • Offers Equity
+
+Partnerships Deal Lead - Search, Commerce
+
+Product Partnerships • San Francisco • Full time
+
+$266K – $295K • Offers Equity
+
+Platform Product Partnerships Lead
+
+Product Partnerships • San Francisco; New York City • Full time • Hybrid
+
+$266K – $370K • Offers Equity
+
+Strategic Hardware Partnerships
+
+Product Partnerships • San Francisco • Full time • Hybrid
+
+$400K – $445K • Offers Equity
+
+Product Policy
+Product Policy, Biosecurity Policy Manager
+
+Product Policy • San Francisco • Full time • Hybrid
+
+$261K – $290K • Offers Equity
+
+Product Policy, Cyber Policy Manager
+
+Product Policy • San Francisco • Full time • Hybrid
+
+$261K – $290K • Offers Equity
+
+Research
+3D Printing Lab Technician, Robotics
+
+Research • San Francisco • Full time • Hybrid
+
+$266K – $399K • Offers Equity
+
+Actuator Design Engineer
+
+Research • San Francisco • Full time • Hybrid
+
+$342K – $445K • Offers Equity
+
+DAQ Station Engineer
+
+Research • San Francisco • Full time • On-site
+
+$342K – $380K • Offers Equity
+
+Distributed Training Engineer, Sora
+
+Research • San Francisco • Full time
+
+$293K – $490K • Offers Equity
+
+Electrical Engineer, Robotics
+
+Research • San Francisco • Full time
+
+$295K – $380K • Offers Equity
+
+Firmware Lead, Robotics
+
+Research • San Francisco • Full time • On-site
+
+$185K – $268K • Offers Equity
+
+Full-Stack SWE, Data Acquisition (Foundations)
+
+Research • San Francisco • Full time
+
+$293K – $385K • Offers Equity
+
+Inference Technical Lead, Sora
+
+Research • San Francisco • Full time • Hybrid
+
+$380K • Offers Equity
+
+Machine Learning Engineer, Distributed Data Systems - Robotics
+
+Research • San Francisco • Full time • Hybrid
+
+$295K – $445K • Offers Equity
+
+Operations Manager, Data Acquisition
+
+Research • San Francisco • Full time • On-site
+
+$251K – $285K • Offers Equity
+
+Performance & Systems Engineer, Codex
+
+Research • San Francisco • Full time
+
+$295K – $445K • Offers Equity
+
+Principal Recruiter, Strategic AI Talent
+
+Research • San Francisco • Full time • Hybrid
+
+$216K – $240K • Offers Equity
+
+Product Manager, Cyber Safety
+
+Research • San Francisco • Full time
+
+$293K – $325K • Offers Equity
+
+Program Manager, Alignment
+
+Research • San Francisco • Full time
+
+$162K – $240K • Offers Equity
+
+Program Manager, Human Data
+
+Research • San Francisco • Full time
+
+$162K – $240K • Offers Equity
+
+Program Manager, Partner Operations
+
+Research • San Francisco • Full time
+
+$162K – $240K • Offers Equity
+
+RE / RS - Foundations, Search
+
+Research • San Francisco • Full time
+
+$445K – $555K • Offers Equity
+
+RE/RS, Data Understanding - Foundations
+
+Research • San Francisco • Full time
+
+$445K – $555K • Offers Equity
+
+RE/RS, Data Understanding (MM)
+
+Research • San Francisco • Full time • Hybrid
+
+$445K – $555K • Offers Equity
+
+Research Engineer
+
+Research • San Francisco • Full time
+
+$250K – $445K • Offers Equity
+
+Research Engineer / Research Scientist, Post-Training
+
+Research • San Francisco • Full time
+
+$295K – $555K • Offers Equity
+
+Research Engineer, Codex
+
+Research • San Francisco • Full time
+
+$295K – $445K • Offers Equity
+
+Research Engineer, Frontier Evals & Environments
+
+Research • San Francisco • Full time
+
+$205K – $380K • Offers Equity
+
+Research Engineer/Research Scientist, RL/Reasoning
+
+Research • San Francisco • Full time
+
+$295K – $445K • Offers Equity
+
+Research Infrastructure Engineer, Training Systems
+
+Research • San Francisco • Full time • Hybrid
+
+$295K – $380K • Offers Equity
+
+Research Scientist
+
+Research • San Francisco • Full time
+
+$250K – $445K • Offers Equity
+
+Researcher, Alignment
+
+Research • San Francisco • Full time
+
+$250K – $445K • Offers Equity
+
+Researcher, Alignment Oversight
+
+Research • San Francisco • Full time
+
+$250K – $445K • Offers Equity
+
+Researcher, Alignment Science
+
+Research • San Francisco • Full time
+
+$250K – $445K • Offers Equity
+
+Researcher, Alignment Training
+
+Research • San Francisco • Full time
+
+$250K – $445K • Offers Equity
+
+Researcher, Artifacts - Agent Post-Training
+
+Research • San Francisco • Full time • Hybrid
+
+$250K – $380K • Offers Equity
+
+Researcher, Computer Use - Agent Post-Training
+
+Research • San Francisco • Full time
+
+$250K – $380K • Offers Equity
+
+Researcher, Connectors - Agent Post-Training
+
+Research • San Francisco • Full time • Hybrid
+
+$250K – $380K • Offers Equity
+
+Researcher, Context - Agent Post-Training
+
+Research • San Francisco • Full time • Hybrid
+
+$250K – $380K • Offers Equity
+
+Researcher, Synthetic RL
+
+Research • San Francisco • Full time
+
+$295K – $445K • Offers Equity
+
+Researcher, Training
+
+Research • San Francisco • Full time
+
+$360K – $440K • Offers Equity
+
+Researcher, Training - London
+
+Research • London, UK • Full time
+
+£170K – £445K • Offers Equity
+
+Researcher: Agent Post-Training, API & Power-Users
+
+Research • San Francisco • Full time • Hybrid
+
+$295K – $445K • Offers Equity
+
+Robotics Software Engineer
+
+Research • San Francisco • Full time • On-site
+
+$255K – $325K • Offers Equity
+
+Simulation Applications Engineer
+
+Research • San Francisco • Full time
+
+$230K – $385K • Offers Equity
+
+Simulation Realism Engineer
+
+Research • San Francisco • Full time
+
+$293K – $385K • Offers Equity
+
+Software Engineer, ML Systems & Training Architecture
+
+Research • San Francisco • Full time • On-site
+
+$295K – $380K • Offers Equity
+
+Software Engineer, Data Acquisition
+
+Research • San Francisco • Full time
+
+$293K – $385K • Offers Equity
+
+Software Engineer, Distributed Data Systems - Robotics
+
+Research • San Francisco • Full time
+
+$230K – $385K • Offers Equity
+
+Software Engineer, Foundations Search
+
+Research • San Francisco • Full time
+
+$380K – $555K • Offers Equity
+
+Software Engineer, Post-Training Research
+
+Research • San Francisco • Full time
+
+$255K – $405K • Offers Equity
+
+Software Engineer, Research - Human Data
+
+Research • San Francisco • Full time
+
+$230K – $385K • Offers Equity • Multiple Ranges
+
+Software Engineer, RL Training Infra
+
+Research • San Francisco • Full time • Hybrid
+
+$295K – $445K • Offers Equity
+
+Technical Program Manager – Adversarial Model Research
+
+Research • San Francisco • Full time
+
+$207K – $285K • Offers Equity
+
+Technical Program Manager, Robotics Data Acquisition
+
+Research • San Francisco • Full time • Hybrid
+
+$257K – $300K • Offers Equity
+
+TL, Research Inference
+
+Research • San Francisco • Full time
+
+$380K – $555K • Offers Equity
+
+Safety Systems
+Fullstack Engineer, Safety Engineering
+
+Safety Systems • San Francisco • Full time
+
+$210K – $325K
+
+Model Policy
+
+Safety Systems • San Francisco • Full time • Hybrid
+
+$207K – $295K • Offers Equity
+
+Model Policy, Chemical & Biological Risk
+
+Safety Systems • San Francisco • Full time • Hybrid
+
+$207K – $295K • Offers Equity
+
+Model Policy, Frontier Cyber Risk
+
+Safety Systems • San Francisco • Full time • Hybrid
+
+$207K – $295K • Offers Equity
+
+Program Manager, Safety
+
+Safety Systems • San Francisco • Full time • Hybrid
+
+$162K – $240K • Offers Equity
+
+Researcher, Automated Red Teaming
+
+Safety Systems • San Francisco • Full time
+
+$295K – $445K
+
+Researcher, Frontier Biological and Chemical Risks
+
+Safety Systems • San Francisco • Full time
+
+$295K – $445K
+
+Researcher, Frontier Cybersecurity Risks
+
+Safety Systems • San Francisco • Full time
+
+$295K – $445K
+
+Researcher, Health AI
+
+Safety Systems • San Francisco • Full time
+
+$295K – $445K • Offers Equity
+
+Researcher, Interpretability
+
+Safety Systems • San Francisco • Full time • Hybrid
+
+$295K – $445K • Offers Equity
+
+Researcher, Misalignment Research
+
+Safety Systems • San Francisco • Full time
+
+$295K – $445K • Offers Equity
+
+Researcher, Pretraining Safety
+
+Safety Systems • San Francisco • Full time
+
+$295K – $445K • Offers Equity
+
+Researcher, Recursive Self-Improvement Preparedness
+
+Safety Systems • San Francisco • Full time
+
+$295K – $445K
+
+Researcher, Robustness & Safety Training
+
+Safety Systems • San Francisco • Full time
+
+$295K – $445K • Offers Equity
+
+Researcher, Safety & Privacy
+
+Safety Systems • San Francisco • Full time
+
+$295K – $445K • Offers Equity
+
+Researcher, Safety Oversight
+
+Safety Systems • San Francisco • Full time
+
+$295K – $445K • Offers Equity
+
+Researcher, Trustworthy AI
+
+Safety Systems • San Francisco • Full time • Hybrid
+
+$380K • Offers Equity
+
+Security Preparedness Lead, Coding Agents
+
+Safety Systems • San Francisco • Full time • Hybrid
+
+$293K – $405K • Offers Equity
+
+Security Researcher, Agentic AI Threats
+
+Safety Systems • San Francisco • Full time • Hybrid
+
+$293K – $405K • Offers Equity
+
+Software Engineer, AI Safety
+
+Safety Systems • San Francisco • Full time • Hybrid
+
+$185K – $325K • Offers Equity
+
+Technical Lead, Safety Research
+
+Safety Systems • San Francisco • Full time
+
+$460K – $555K
+
+Scaling
+3P Architect
+
+Scaling • San Francisco; Seattle • Full time • Hybrid
+
+$342K – $555K • Offers Equity
+
+Advanced Packaging Multi-Physics Modeling Engineer
+
+Scaling • San Francisco • Full time • Hybrid
+
+$266K – $445K • Offers Equity
+
+ASIC Firmware Engineer, Modeling
+
+Scaling • San Francisco • Full time
+
+$226K – $445K • Offers Equity
+
+Capacity Systems Software Engineer
+
+Scaling • San Francisco • Full time
+
+$293K – $455K • Offers Equity
+
+Component and Product Quality Engineer, Interconnects
+
+Scaling • San Francisco • Full time • Hybrid
+
+$207K – $365K • Offers Equity
+
+Compute Optimization Researcher/Engineer
+
+Scaling • San Francisco; Seattle • Full time • Hybrid
+
+$293K – $455K • Offers Equity
+
+CPU Storage Tech Lead
+
+Scaling • San Francisco; Seattle • Full time • Hybrid
+
+$342K – $555K • Offers Equity
+
+CPU/Storage/PoP-WAN Program Manager
+
+Scaling • San Francisco; Seattle • Full time • Hybrid
+
+$342K – $555K • Offers Equity
+
+Data Center Controls Network Engineer
+
+Scaling • San Francisco • Full time • Hybrid
+
+$257K – $327K • Offers Equity
+
+Data Center Infrastructure Electrical Engineer
+
+Scaling • San Francisco • Full time
+
+$257K – $327K • Offers Equity
+
+Data Center Infrastructure Engineering Program Manager (Network and Whitespace)
+
+Scaling • San Francisco • Full time
+
+$257K – $327K
+
+Data Center Infrastructure Mechanical Engineer
+
+Scaling • San Francisco • Full time • Hybrid
+
+Datacenter NetDeploy Lead - Stargate
+
+Scaling • Remote - US • Full time • Remote
+
+$125.6K – $228K • Offers Equity
+
+Datacenter Networking Technician, AI Compute Deployment - Stargate
+
+Scaling • Remote - US • Full time • Remote
+
+$86.4K – $228K • Offers Equity
+
+Design Verification Engineer
+
+Scaling • San Francisco • Full time • Hybrid
+
+Design Verification, Forward Deployed Engineering
+
+Scaling • San Francisco; London, UK • Full time • Hybrid
+
+$162K – $302K • Offers Equity
+
+Facilities Operations Lead - Stargate
+
+Scaling • San Francisco • Full time
+
+$159K – $285K • Offers Equity
+
+Facilities Operations Manager
+
+Scaling • Remote - US • Full time • Remote
+
+$159K – $240K • Offers Equity
+
+Full Stack Engineer, Fleet Scheduling
+
+Scaling • San Francisco • Full time
+
+$230K – $490K • Offers Equity
+
+Full-Stack Software Engineer, Compute Foundations
+
+Scaling • San Francisco • Full time • On-site
+
+$230K – $347K • Offers Equity
+
+Hardware / Software CoDesign Engineer - 3P
+
+Scaling • San Francisco; Seattle • Full time • Hybrid
+
+Hardware Architecture Expert - 3P
+
+Scaling • San Francisco; Seattle • Full time • Hybrid
+
+$342K – $555K • Offers Equity
+
+Hardware Operations Technical Program Manager
+
+Scaling • San Francisco; Remote - US • Full time • Hybrid
+
+$225K – $335K • Offers Equity
+
+Hardware Tools Engineer
+
+Scaling • San Francisco • Full time • Hybrid
+
+$225K – $445K • Offers Equity
+
+Head of Data Center Rack and Cluster
+
+Scaling • San Francisco • Full time
+
+$391K – $456K • Offers Equity
+
+Host Systems Software Engineer
+
+Scaling • San Francisco • Full time • Hybrid
+
+$266K – $445K • Offers Equity
+
+IC Agentic Engineering Manager - Stargate
+
+Scaling • San Francisco • Full time
+
+$342K – $555K • Offers Equity
+
+Infrastructure Partnership Delivery Lead – Stargate
+
+Scaling • Remote - US • Full time • Remote
+
+$180K – $378K • Offers Equity
+
+Manufacturing Test Engineer
+
+Scaling • San Francisco • Full time • Hybrid
+
+$207K – $365K • Offers Equity
+
+Manufacturing Test Engineer, AI Compute Infrastructure - Stargate
+
+Scaling • Remote - US • Full time • Remote
+
+$205K – $335K • Offers Equity
+
+Mechanical Engineer, Hardware Systems
+
+Scaling • San Francisco • Full time
+
+$266K – $455K • Offers Equity
+
+ML Research Engineer - Hardware Codesign
+
+Scaling • San Francisco • Full time
+
+$185K – $455K • Offers Equity
+
+Networking Operating System Firmware Engineer
+
+Scaling • San Francisco • Full time • Hybrid
+
+$266K – $445K • Offers Equity
+
+Optical Network Engineer
+
+Scaling • San Francisco • Full time
+
+$342K – $445K • Offers Equity
+
+Performance Modeling Engineer
+
+Scaling • San Francisco; Seattle • Full time • Hybrid
+
+$266K – $445K • Offers Equity
+
+Performance Modeling Engineer ~2
+
+Scaling • San Francisco; Seattle • Full time • Hybrid
+
+$266K – $445K • Offers Equity
+
+Performance Modeling Lead
+
+Scaling • San Francisco; Seattle • Full time • Hybrid
+
+$342K – $555K • Offers Equity
+
+Physical Design Engineer
+
+Scaling • San Francisco • Full time
+
+$266K – $445K • Offers Equity
+
+Product Manufacturing Engineer
+
+Scaling • San Francisco • Full time
+
+$207K – $365K • Offers Equity
+
+Quality Engineer - Rack Infrastructure & Site Operations - Stargate
+
+Scaling • San Francisco • Full time • Hybrid
+
+$205K – $344K • Offers Equity
+
+Reliability/DFX Engineer
+
+Scaling • San Francisco • Full time
+
+$225K – $445K • Offers Equity
+
+RTL & Co-design Engineer (junior)
+
+Scaling • San Francisco • Full time
+
+RTL & Codesign Engineer
+
+Scaling • San Francisco • Full time
+
+Signal Integrity Engineer
+
+Scaling • San Francisco • Full time
+
+$225K – $445K • Offers Equity
+
+Site Reliability Engineer, Frontier Systems Infrastructure
+
+Scaling • San Francisco • Full time
+
+SOC Architect
+
+Scaling • San Francisco • Full time
+
+$266K – $445K • Offers Equity
+
+Software Engineer, Accelerators
+
+Scaling • San Francisco • Full time
+
+$295K – $380K • Offers Equity
+
+Software Engineer, Agent Infrastructure
+
+Scaling • San Francisco; New York City • Full time
+
+$230K – $385K • Offers Equity
+
+Software Engineer, Collective Communication
+
+Scaling • San Francisco • Full time
+
+$380K – $555K • Offers Equity
+
+Software Engineer, Compute - Storage
+
+Scaling • San Francisco; New York City • Full time • Hybrid
+
+$230K – $385K • Offers Equity
+
+Software Engineer, Compute Infrastructure
+
+Scaling • San Francisco; London, UK; New York City; Seattle • Full time • Hybrid
+
+$230K – $405K • Offers Equity
+
+Software Engineer, Core Network Engineering
+
+Scaling • San Francisco • Full time
+
+Software Engineer, Data Infrastructure - Research
+
+Scaling • San Francisco • Full time
+
+$250K – $380K • Offers Equity
+
+Software Engineer, Fleet Hardware Health
+
+Scaling • San Francisco • Full time
+
+Software Engineer, Fleet Infrastructure
+
+Scaling • San Francisco • Full time
+
+Software Engineer, Fleet Management
+
+Scaling • San Francisco • Full time
+
+Software Engineer, Frontier Clusters Infrastructure
+
+Scaling • San Francisco • Full time
+
+Software Engineer, Frontier Systems - Power Management
+
+Scaling • San Francisco • Full time
+
+$295K – $445K • Offers Equity
+
+Software Engineer, GPU Infrastructure - HPC
+
+Scaling • San Francisco • Full time
+
+Software Engineer, Hardware
+
+Scaling • San Francisco • Full time
+
+$225K – $455K • Offers Equity
+
+Software Engineer, Hardware Health
+
+Scaling • San Francisco • Full time
+
+$250K – $445K • Offers Equity
+
+Software Engineer, Inference - Multi Modal
+
+Scaling • San Francisco • Full time
+
+$295K – $555K • Offers Equity
+
+Software Engineer, Inference - Performance Optimization
+
+Scaling • San Francisco • Full time
+
+$295K – $555K • Offers Equity
+
+Software Engineer, Inference – AMD GPU Enablement
+
+Scaling • San Francisco • Full time
+
+$295K – $555K • Offers Equity
+
+Software Engineer, Infrastructure - Analytics Platform
+
+Scaling • San Francisco • Full time • Hybrid
+
+$230K – $385K • Offers Equity
+
+Software Engineer, Kernel Performance & AI Tooling
+
+Scaling • San Francisco • Full time • Hybrid
+
+$266K – $445K • Offers Equity
+
+Software Engineer, Model Inference
+
+Scaling • San Francisco • Full time
+
+$295K – $555K • Offers Equity
+
+Software Engineer, Platform Systems
+
+Scaling • San Francisco • Full time
+
+$310K – $460K • Offers Equity
+
+Software Engineer, Platform Systems
+
+Scaling • London, UK • Full time
+
+Software Engineer, Productivity - Inference Runtime
+
+Scaling • San Francisco • Full time
+
+$230K – $385K
+
+Software Engineer, Productivity - Model Performance
+
+Scaling • San Francisco • Full time
+
+$230K – $385K
+
+Software Engineer, Productivity - Networking
+
+Scaling • San Francisco • Full time
+
+$230K – $385K
+
+Software Engineer, Productivity - Training Runtime
+
+Scaling • San Francisco • Full time
+
+$230K – $385K
+
+Software Engineer, Research Developer Productivity
+
+Scaling • San Francisco • Full time
+
+$230K – $325K • Offers Equity
+
+Software Engineer, System Enablement
+
+Scaling • San Francisco; Seattle • Full time
+
+$293K – $490K • Offers Equity
+
+Software Engineer, Workload Enablement
+
+Scaling • San Francisco; Seattle • Full time • Hybrid
+
+$293K – $455K • Offers Equity
+
+Strategic Sourcing Manager, Compute
+
+Scaling • San Francisco • Full time
+
+$226K – $378K • Offers Equity
+
+Strategic Sourcing Manager, DC Networking Infrastructure - Stargate
+
+Scaling • San Francisco • Full time
+
+$226K – $378K • Offers Equity
+
+Strategic Sourcing Manager, Memory Storage & CPUs
+
+Scaling • San Francisco • Full time
+
+Supply Chain Operations Program Manager, AI Infrastructure
+
+Scaling • San Francisco • Full time • Hybrid
+
+$177K – $285K • Offers Equity
+
+Supply Chain Program Manager (SCPM) - AI Infrastructure
+
+Scaling • San Francisco • Full time • Hybrid
+
+$226K – $285K • Offers Equity
+
+Systems Engineer (Network / Storage / Systems)
+
+Scaling • San Francisco • Full time
+
+Systems Software Engineer, Management Plane
+
+Scaling • San Francisco • Full time • Hybrid
+
+$266K – $445K • Offers Equity
+
+Tech Lead, Deployment & Operations — Custom Infrastructure
+
+Scaling • San Francisco • Full time • Hybrid
+
+$342K – $445K • Offers Equity
+
+Technical Program Manager, Partnership Site Deployment - Stargate
+
+Scaling • San Francisco • Full time
+
+$180.8K – $228K
+
+Technical Program Manager, Rack Delivery
+
+Scaling • Remote - US • Full time • Remote
+
+$205K – $335K • Offers Equity
+
+Token-as-a-Service Technical Program Manager
+
+Scaling • San Francisco; Seattle • Full time • Hybrid
+
+$342K – $555K
+
+Tokens-as-a-Service (TaaS) Lead
+
+Scaling • San Francisco; Seattle • Full time • Hybrid
+
+$266K – $455K • Offers Equity
+
+Tokens-as-a-Service (Taas) Software Engineer
+
+Scaling • San Francisco; Seattle • Full time • Hybrid
+
+$293K – $455K • Offers Equity
+
+Training Performance Engineer
+
+Scaling • San Francisco • Full time • Hybrid
+
+$250K – $445K • Offers Equity
+
+Training, Process Management Engineer
+
+Scaling • London, UK • Full time • Hybrid
+
+Training: ML Framework Engineer
+
+Scaling • San Francisco • Full time
+
+$205K – $445K • Offers Equity
+
+Workload Porting & Performance Engineer
+
+Scaling • San Francisco; Seattle • Full time • Hybrid
+
+$342K – $555K
+
+Security
+Data Center Security Engineer
+
+Security • San Francisco; New York City; Remote - US; Seattle • Full time • Hybrid
+
+$293K – $385K • Offers Equity
+
+Forward Deployed Security Engineer
+
+Security • Washington, DC • Full time • Hybrid
+
+$293K – $385K • Offers Equity
+
+Global Detection and Response Lead
+
+Security • San Francisco; New York City; Seattle • Full time • Hybrid
+
+$347K – $490K • Offers Equity
+
+GRC Program Manager, US Government Compliance
+
+Security • Washington, DC • Full time • Hybrid
+
+$162K – $310K • Offers Equity
+
+Offensive Security Engineer, Agent Products
+
+Security • San Francisco; New York City; Remote - US; Seattle; Washington, DC • Full time
+
+$277.6K – $490K • Offers Equity • Multiple Ranges
+
+Principal Security Engineer, Infrastructure Security
+
+Security • Remote - US; New York City; San Francisco; Seattle • Full time • Remote
+
+$347K – $490K • Offers Equity
+
+Principal Software Engineer, Infrastructure Security
+
+Security • Remote - US; New York City; San Francisco; Seattle • Full time • Remote
+
+$347K – $490K • Offers Equity
+
+Research Engineer, Privacy
+
+Security • San Francisco • Full time • Hybrid
+
+$380K – $445K • Offers Equity
+
+Security Engineer, Agent Security
+
+Security • San Francisco; Remote - US • Full time
+
+$234.4K – $385K • Offers Equity
+
+Security Engineer, Application Security
+
+Security • New York City • Full time • Hybrid
+
+$234.4K – $385K • Offers Equity
+
+Security Engineer, Application Security
+
+Security • Seattle • Full time
+
+$234.4K – $385K • Offers Equity
+
+Security Engineer, Application Security
+
+Security • San Francisco; Remote - US • Full time • Hybrid
+
+$234.4K – $385K • Offers Equity
+
+Security Engineer, Detection and Response
+
+Security • San Francisco; New York City; Remote - US; Seattle • Full time
+
+$293K – $385K • Offers Equity
+
+Security Engineer, Detection and Response
+
+Security • Sydney, Australia; Singapore; Tokyo, Japan • Full time • Hybrid
+
+Security Engineer, Detection and Response - EMEA
+
+Security • London, UK; Dublin, Ireland; Zurich, Switzerland • Full time
+
+Security Engineer, Host Assurance
+
+Security • San Francisco; Seattle • Full time • Hybrid
+
+$293K – $385K • Offers Equity
+
+Security Engineer, Infrastructure Security
+
+Security • Remote - US; New York City; San Francisco; Seattle • Full time • Remote
+
+$230K – $385K • Offers Equity
+
+Security Engineer, Insider Threat Detection & Response
+
+Security • San Francisco; New York City; Remote - US; Seattle • Full time
+
+$230K – $385K • Offers Equity
+
+Security Reliability Engineer
+
+Security • San Francisco • Full time
+
+$293K – $385K
+
+SMS Prototype Handling Specialist
+
+Security • San Francisco • Full time • Hybrid
+
+$288K – $320K • Offers Equity
+
+Software Engineer, Infrastructure Security
+
+Security • Remote - US; New York City; San Francisco; Seattle • Full time • Remote
+
+$230K – $385K • Offers Equity
+
+Software Engineer, Privacy
+
+Security • San Francisco • Full time • Hybrid
+
+$230K – $325K
+
+Software Engineer, Privacy
+
+Security • Dublin, Ireland • Full time
+
+Software Engineer, Privacy Infrastructure
+
+Security • San Francisco • Full time • Hybrid
+
+$230K – $325K • Offers Equity
+
+Software Engineer, Security Observability
+
+Security • San Francisco; New York City; Remote - US; Seattle • Full time
+
+$260K – $385K • Offers Equity
+
+Technical Threat Investigator, Threat Intel Engineering
+
+Security • San Francisco; New York City; Remote - US • Full time • Remote
+
+$230K – $385K • Offers Equity
+
+Technical Threat Investigator, Threat Intel Engineering - UK
+
+Security • London, UK • Full time • Remote
+
+Strategic Finance
+Director of Product Finance, Compute & Infrastructure Demand
+
+Strategic Finance • San Francisco • Full time
+
+$293K – $325K • Offers Equity
+
+Director, Compute & Infrastructure FP&A
+
+Strategic Finance • San Francisco • Full time
+
+$234K – $325K • Offers Equity
+
+Finance Manager - Hardware Consolidations
+
+Strategic Finance • San Francisco • Full time • Hybrid
+
+$234K – $260K • Offers Equity
+
+Strategic Finance Generalist
+
+Strategic Finance • San Francisco • Full time • Hybrid
+
+$234K – $260K • Offers Equity
+
+Strategic Finance Lead, B2B Strategy & Planning
+
+Strategic Finance • San Francisco • Full time • Hybrid
+
+$293K – $325K • Offers Equity
+
+Strategic Finance Lead, Corporate Finance and Capital Strategy
+
+Strategic Finance • San Francisco • Full time • Hybrid
+
+$293K – $325K • Offers Equity
+
+Strategic Finance, Compute
+
+Strategic Finance • San Francisco • Full time
+
+$185K – $260K • Offers Equity
+
+Strategic Finance, GTM
+
+Strategic Finance • San Francisco • Full time • Hybrid
+
+$234K – $260K • Offers Equity
+
+Strategic Finance, International
+
+Strategic Finance • San Francisco • Full time
+
+$234K – $260K • Offers Equity
+
+Strategic Finance, Product
+
+Strategic Finance • San Francisco • Full time • Hybrid
+
+$234K – $260K • Offers Equity
+
+Technical Program Management
+Technical Program Manager, Compute Infrastructure
+
+Technical Program Management • San Francisco • Full time
+
+$257K – $335K • Offers Equity
+
+Technical Program Manager, Data Acquisition
+
+Technical Program Management • San Francisco • Full time
+
+$257K – $335K • Offers Equity
+
+Technical Program Manager, Safety Systems Engineering
+
+Technical Program Management • San Francisco • Full time
+
+$207K – $335K • Offers Equity
+
+User Operations
+AI Support Engineer - Dublin
+
+User Operations • Dublin, Ireland • Full time
+
+AI Support Engineer - San Francisco
+
+User Operations • San Francisco • Full time
+
+$180K – $260K • Offers Equity
+
+AI Support Engineer - Singapore
+
+User Operations • Singapore • Full time • Hybrid
+
+AI Support Engineer - Tokyo
+
+User Operations • Tokyo, Japan • Full time
+
+AI Support Engineer, Government - San Francisco
+
+User Operations • San Francisco • Full time
+
+$180K – $260K • Offers Equity
+
+AI Support Engineer, Government - Washington, D.C.
+
+User Operations • Washington, DC • Full time • Hybrid
+
+$162K – $234K • Offers Equity
+
+Analytics & Automation Lead, User Safety & Risk Operations
+
+User Operations • San Francisco • Full time • Hybrid
+
+$302K – $335K • Offers Equity
+
+Backend Software Engineer (Evals)
+
+User Operations • San Francisco; Seattle • Full time
+
+$230K – $385K • Offers Equity
+
+Data Scientist, Safety
+
+User Operations • London, UK • Full time • Hybrid
+
+$0
+
+Data Scientist, Safety
+
+User Operations • San Francisco; New York City • Full time • Hybrid
+
+$230K – $325K • Offers Equity
+
+Data Scientist, Support
+
+User Operations • San Francisco • Full time • Hybrid
+
+$230K – $255K • Offers Equity
+
+Engineering Manager, Cooperative Systems
+
+User Operations • Seattle • Full time • Hybrid
+
+$325K – $385K • Offers Equity
+
+Global Safety Response Operations Analyst
+
+User Operations • San Francisco • Full time
+
+$189K – $210K • Offers Equity
+
+Operations Enablement Program Manager, User Safety & Risk Operations
+
+User Operations • San Francisco • Full time • Hybrid
+
+$252K – $280K • Offers Equity
+
+Safety Response Operations Lead
+
+User Operations • Singapore • Full time • Hybrid
+
+Senior Support Engineer - Tokyo
+
+User Operations • Tokyo, Japan • Full time
+
+Senior Support Engineer - Dublin
+
+User Operations • Dublin, Ireland • Full time
+
+Senior Support Engineer - San Francisco
+
+User Operations • San Francisco • Full time
+
+$234K – $260K • Offers Equity
+
+Software Engineer, Backend (Cooperative AI)
+
+User Operations • San Francisco; Seattle • Full time
+
+$230K – $385K • Offers Equity
+
+Software Engineer, Cooperative AI
+
+User Operations • San Francisco; Seattle • Full time
+
+$230K – $385K • Offers Equity
+
+Strategic Operations Lead, User Safety & Risk Operations
+
+User Operations • San Francisco • Full time • Hybrid
+
+$252K – $335K • Offers Equity
+
+Strategy & Operations, Support
+
+User Operations • San Francisco • Full time
+
+$240K • Offers Equity
+
+Support Delivery Lead, EMEA - Dublin
+
+User Operations • Dublin, Ireland • Full time
+
+Support Systems Architect
+
+User Operations • San Francisco • Full time
+
+$216K – $240K • Offers Equity
+
+Technical Program Manager, Support Delivery
+
+User Operations • San Francisco • Full time
+
+$216K – $240K • Offers Equity
+
+Trust & Safety Operations Analyst, Ads
+
+User Operations • San Francisco • Full time
+
+$189K – $280K • Offers Equity
+
+User Safety & Risk Operations Analyst, Global Response
+
+User Operations • Dublin, Ireland • Full time • Hybrid
+
+Workplace
+Environmental Health and Safety, Engineering & Technical Program Manager
+
+Workplace • San Francisco • Full time • Hybrid
+
+$203K – $225K • Offers Equity
+
+Global Food Operations Specialist
+
+Workplace • San Francisco • Full time • Hybrid
+
+$158K – $175K • Offers Equity
+
+Industrial Builds, Senior Project Manager, Design and Construction
+
+Workplace • San Francisco • Full time
+
+$203K – $225K • Offers Equity
+
+Senior Leasing & Strategy Manager, Real Estate & Workplace
+
+Workplace • San Francisco • Full time
+
+$205K – $225K • Offers Equity
+
+Senior Project Manager, Design and Construction
+
+Workplace • San Francisco • Full time • Hybrid
+
+$216K – $240K • Offers Equity
+
+Workplace Business Partner
+
+Workplace • San Francisco • Full time • On-site
+
+$158K – $175K • Offers Equity
+
+Powered by 
+
+Privacy PolicySecurityVulnerability Disclosure

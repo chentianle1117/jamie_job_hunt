@@ -1,0 +1,177 @@
+{
+ "meta": {
+  "company": "Forth",
+  "role": "Program Associate",
+  "date": "2026-06-05",
+  "pageMargins": {
+   "top": "0.35in",
+   "right": "0.45in",
+   "bottom": "0.35in",
+   "left": "0.45in"
+  },
+  "autoFit": true,
+  "fontRange": [
+   8.5,
+   10.0
+  ]
+ },
+ "header": {
+  "location": "Portland, OR"
+ },
+ "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Organizational Development</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve people experience—through human-centered, data-driven approaches.",
+ "keywordGroups": {
+  "data": "Data/Analytics",
+  "coord": "Coordination/Ops",
+  "cross": "Stakeholders/Collab",
+  "ex": "Employee Experience",
+  "tools": "Tools/Systems",
+  "prog": "Programs/L&D"
+ },
+ "experience": [
+  {
+   "id": "odn",
+   "title": "Consultant, Organization & Talent Development",
+   "company": "Organization Development Network (ODN) Oregon",
+   "location": "Remote, USA",
+   "dates": "August 2025–Present",
+   "workSampleUrl": null,
+   "bullets": [
+    {
+     "text": "Facilitate CEO/HR discovery and {cross|stakeholder interviews} to diagnose absenteeism drivers; analyze leave data to quantify costs"
+    },
+    {
+     "text": "Conduct focus groups and 1:1 semi-structured interviews with an NGO leadership team to surface {cross|decision-making and accountability gaps}"
+    },
+    {
+     "text": "Analyze qualitative {data|interview data} to identify themes, then challenge the leadership team to redesign cross-functional processes"
+    }
+   ]
+  },
+  {
+   "id": "ingenius",
+   "title": "Program Manager, Enablement",
+   "company": "InGenius Prep, LLC",
+   "location": "Remote, USA",
+   "dates": "September 2023–Present",
+   "workSampleUrl": null,
+   "bullets": [
+    {
+     "text": "Establish {cross|cross-functional} processes and {coord|documentation} for 70+ staff, streamlining {coord|operations} and reducing onboarding time by 75%"
+    },
+    {
+     "text": "Facilitate listening sessions and needs assessments with 25 global {cross|stakeholders}, resulting in 3 new learning programs best aligned with needs"
+    },
+    {
+     "text": "Manage 20+ programs and 10+ vendors, refining {coord|program positioning} and {cross|communications strategy} via {data|feedback analysis}"
+    },
+    {
+     "text": "Facilitate training webinars for 600+ participants, boosting {prog|program engagement} and achieving a 78% {prog|program enrollment rate}"
+    }
+   ]
+  },
+  {
+   "id": "nextgen",
+   "title": "Organizational Development Intern",
+   "company": "NextGen Healthcare",
+   "location": "Los Angeles, CA",
+   "dates": "January 2023–May 2023",
+   "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+   "bullets": [
+    {
+     "text": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on {data|satisfaction drivers}"
+    },
+    {
+     "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed engagement strategies"
+    },
+    {
+     "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review"
+    },
+    {
+     "text": "Improved employee experience via 5 {cross|cross-functional} projects focusing on survey development, rewards & recognition, and L&D"
+    }
+   ]
+  },
+  {
+   "id": "vestas",
+   "title": "HR Business Partner Assistant",
+   "company": "Vestas Wind Systems",
+   "location": "Taipei, Taiwan",
+   "dates": "February 2022–October 2022",
+   "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+   "bullets": [
+    {
+     "text": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations"
+    },
+    {
+     "text": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, overseeing {cross|cross-functional stakeholders}"
+    },
+    {
+     "text": "Optimized onboarding processes across 3 global locations by conducting process analysis and clarifying job responsibilities"
+    },
+    {
+     "text": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors"
+    }
+   ]
+  },
+  {
+   "id": "kronos",
+   "title": "Human Resources Intern",
+   "company": "Kronos Research",
+   "location": "Taipei, Taiwan",
+   "dates": "January 2021–August 2021",
+   "workSampleUrl": null,
+   "bullets": [
+    {
+     "text": "Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management"
+    },
+    {
+     "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details"
+    },
+    {
+     "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months"
+    },
+    {
+     "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants"
+    }
+   ]
+  }
+ ],
+ "education": [
+  {
+   "school": "University of Southern California",
+   "location": "Los Angeles, CA",
+   "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+   "dates": "August 2022–May 2023",
+   "bullets": [
+    "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+   ]
+  },
+  {
+   "school": "Wesleyan University",
+   "location": "Middletown, CT",
+   "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+   "dates": "August 2017–December 2021",
+   "bullets": [
+    "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
+   ]
+  }
+ ],
+ "projects": [
+  "<b>Consulting Projects:</b> Enhanced <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+  "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+  "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+ ],
+ "skills": [
+  "<b>Data & PM Tools:</b> Data Analysis (Excel, Google Sheets, SPSS) · Project Management (Asana, Airtable) · Google Workspace",
+  "<b>Productivity:</b> Microsoft Office (Word, PowerPoint, Excel) · Knowledge Management (Notion) · AI Tools (ChatGPT, Gemini)",
+  "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+  "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+ ],
+ "jd": {
+  "meta": "Forth Program Associate — Portland OR hybrid, nonprofit electric mobility, $49.5–59.5K",
+  "sections": []
+ },
+ "changeLog": [
+  "2026-06-05: Tailored from base resume.json for Forth Program Associate (Portland nonprofit, electric-mobility). Recipe: Program Management/Engagement. Summary identity = Program Management professional. InGenius title = Program Manager, Enablement. InGenius bullets = Set B (cross-functional processes, listening sessions, communications strategy, 78% program enrollment rate). ODN = 3 bullets covering both projects using Pair B diagnostic framing (stakeholder interviews, qualitative data analysis, process redesign) — best match for JD's 'collect/analyze project data + stakeholder convening' duties. Header location = Portland, OR (role is Portland). Skills: removed HRIS/ATS/LMS (not JD-relevant for a nonprofit program coord role); added Google Workspace (JD-relevant for nonprofit ops); kept foundational MS Office, Data Analysis, PM tools; Notion retained as JD-gated (nonprofit knowledge mgmt); Languages line kept prominent (JD lists multilingual as a 'helpful' criterion — genuine hit). Bullet reordering: NextGen leads with 2,000+ employee experiences bullet (data collection/analysis — closest match to JD's data-collection duty)."
+ ]
+}
