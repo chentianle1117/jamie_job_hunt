@@ -43,3 +43,14 @@ autopilot_profile_clone/
 outputs/**/apply_audit_*.json
 runs/**/apply_audit_*.json
 apply_audit_*.json
+
+# ── SECRETS — never commit (per-machine, local only) ──
+# OAuth credentials, client secrets, tokens, and the MCP server config all live
+# outside the repo (~/.google_workspace_mcp/ and ~/.claude.json). Guard against
+# anyone ever copying them in. Templates live in setup/ instead.
+**/client_secret*.json
+**/.google_workspace_mcp/**
+**/credentials/*.json
+.claude.json
+**/*token*.json
+peopleadmin_*_creds.json
