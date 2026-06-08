@@ -53,4 +53,5 @@ apply_audit_*.json
 **/credentials/*.json
 .claude.json
 **/*token*.json
-peopleadmin_*_creds.json
+# NOTE: jamie/peopleadmin_*_creds.json is intentionally tracked (private repo, by David's call 2026-06-08).
+# The guards above cover OAuth secrets/tokens, which must never be committed.
