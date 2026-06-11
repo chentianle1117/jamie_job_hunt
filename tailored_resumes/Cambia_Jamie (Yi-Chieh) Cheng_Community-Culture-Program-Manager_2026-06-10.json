@@ -4,7 +4,7 @@
     "role": "Community and Culture Program Manager",
     "date": "2026-06-10",
     "pageMargins": {
-      "top": "0.46in",
+      "top": "0.44in",
       "right": "0.42in",
       "bottom": "0.30in",
       "left": "0.42in"
@@ -18,9 +18,9 @@
   "header": {
     "location": "Portland, OR (Open to Remote or Relocation)"
   },
-  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Organization Development</b> professional who thrives on <b>building inclusive employee programs</b>, <b>connecting people across teams</b>, and <b>collaborating with stakeholders for sustainable culture impact</b>. Expect me to strengthen <b>belonging and employee experience</b>—through human-centered, data-driven approaches.",
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>People &amp; Organizational Development</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve people experience—through human-centered, data-driven approaches.",
   "keywordGroups": {
-    "prog": "Programs/ERG",
+    "prog": "Programs",
     "coord": "Events/Logistics",
     "cross": "Stakeholders/Cross-Functional",
     "ex": "Employee Experience",
@@ -37,24 +37,12 @@
       "workSampleUrl": null,
       "bullets": [
         {
-          "text": "Facilitate CEO/HR discovery sessions and stakeholder interviews to diagnose {ex|employee engagement} drivers",
-          "change": "swap",
-          "original": "Upskill HR team in data analytics to audit 300+ leave cases, successfully refuting cost assumptions via evidence-based insights",
-          "jd": [
-            "jd8",
-            "jd9"
-          ],
-          "reason": "Pair B (Facilitate/Redesign) — diagnostic stakeholder engagement maps to JD's 'serve as resource and thought partner to leaders strengthening team culture'; surfaces listening and discovery work over quantitative audit"
+          "text": "With a consulting team, audit 300+ {data|leave cases} (${data|362K}) to refute client cost assumptions and inform policy",
+          "reason": "ODN Project 1 (leave-cost diagnosis) — collective 'we' voice; real metric; data/insight skill the JD values for connecting work to business priorities"
         },
         {
-          "text": "Diagnose {ex|accountability and engagement gaps} via qualitative analysis; partner with leadership to {prog|redesign decision-making}",
-          "change": "swap",
-          "original": "Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training",
-          "jd": [
-            "jd6",
-            "jd9"
-          ],
-          "reason": "Pair B (Redesign) — partnering with leadership to redesign structures maps to JD's culture integration + belonging program design work"
+          "text": "Run {cross|focus groups and interviews} with an NGO leadership team to diagnose decision-making and accountability gaps",
+          "reason": "ODN Project 2 (NGO leadership) — separate project, never blended; stakeholder/diagnostic skill, kept light (part-time role)"
         }
       ]
     },
@@ -74,7 +62,7 @@
             "jd1",
             "jd5"
           ],
-          "reason": "Lead with program ops scale + communications strategy — maps to JD's ERG program manager and communications coordination responsibilities"
+          "reason": "Lead with program ops scale + communications strategy — real program-management work the JD's stakeholder/coordination duties value"
         },
         {
           "text": "Collaborate with {cross|cross-functional teams} and 10+ vendors to {prog|launch 20+ programs}; conduct {ex|engagement} research for HR",
@@ -97,14 +85,14 @@
           "reason": "Process + documentation for program ops — maps to JD's 'strong execution skills' and program logistics support"
         },
         {
-          "text": "Facilitate {prog|listening sessions} with 25+ {cross|stakeholders}, launching 3 {prog|programs} aligned with community needs (78% {prog|enrollment rate})",
+          "text": "Facilitate {prog|listening sessions} with 25+ {cross|stakeholders}, launching 3 {prog|programs} aligned with stakeholder needs (78% {prog|enrollment rate})",
           "change": "swap",
           "original": "Facilitate training webinars for 600+ participants, enhancing program understanding and driving a 78% client conversion rate",
           "jd": [
             "jd4",
             "jd7"
           ],
-          "reason": "Listening sessions + community needs alignment maps to JD's ERG/community support and culture program design; 'program enrollment rate' (not 'conversion') is the engagement framing"
+          "reason": "Listening sessions with stakeholders + 3 real programs (78% enrollment) — genuine program-design evidence; 'enrollment rate' (not 'conversion') per people-impact framing"
         }
       ]
     },
@@ -165,7 +153,7 @@
             "jd6",
             "jd7"
           ],
-          "reason": "Lead bullet — DEI/Inclusive Leadership workshop maps directly to JD's ERG support and embedding inclusive practices across the talent lifecycle"
+          "reason": "Lead bullet — real Inclusive Leadership workshop pilot (scaled to 23 locations) is Jamie's strongest true inclusion-program evidence"
         },
         {
           "text": "Strengthened {ex|employee connection} via an {prog|HR newsletter} and award-winning well-being programs (1,000+ competitors)",
@@ -356,7 +344,7 @@
   "changeLog": [
     {
       "section": "Summary",
-      "change": "Identity → 'Organization Development professional'; replaced standard pillars with culture/community framing: 'building inclusive employee programs', 'connecting people across teams and communities', 'partnering with stakeholders for sustainable culture impact'. Ends with 'belonging and employee experience' to mirror JD's stated mission."
+      "change": "Summary kept as the canonical broad 3-pillar People & Organizational Development umbrella (data analysis / evidence-based programs / stakeholder collaboration) per JAMIE_FEEDBACK_RULES §0+§1 — NOT niched into culture/belonging language the experience doesn't support."
     },
     {
       "section": "ODN Oregon — Pair B (Facilitate/Redesign)",
