@@ -24,7 +24,7 @@ While the H1B clock is running, these adjustments OVERRIDE the v2.0 defaults bel
 - **Role priority expanded**: Education Program Manager, Curriculum Program Manager, Learning Program Manager, EdTech Program Manager all join P1 as "P1b" (InGenius bridge — strong skill match into educational program ops).
 
 ### What stays strict (do NOT loosen these)
-- **H1B sponsorship is binary**: applying to non-sponsors or sponsors-without-pattern wastes runway. ALWAYS verify h1bdata.info for non-tech filings before applying to a remote role.
+- **H1B sponsorship**: ALWAYS verify h1bdata.info for non-tech/People filings before applying. Nuance (Jamie, 2026-06-11): zero non-tech filings = a ⚠️ **warning + score penalty**, NOT an automatic hard PASS, for **large established non-tech brands** (Nike, Starbucks, Disney, etc.) — they plausibly will sponsor a People role even if filing data lags. Reserve the hard PASS for **small / no-filing-history firms** (startups, small nonprofits, niche shops) and roles with explicit "no sponsorship" JD language, where zero filings genuinely means no sponsorship path.
 - **AVOID list still hard rejects**: pure recruiting/TA, payroll, leave, ER casework, HRIS admin, instructional design (80%+ content), senior titles. Bad-fit roles at desperation-volume hurt more than help.
 - **Pure-tactical coordinator/admin roles**: still reject — they don't sponsor and they don't move the career forward.
 

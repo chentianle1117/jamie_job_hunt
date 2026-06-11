@@ -11,7 +11,9 @@ import json, base64, glob, os, html
 from pathlib import Path
 from datetime import datetime
 
-ROOT = Path(r"C:\Users\chent\Agentic_Workflows_2026\oracle-job-search")
+# Portable repo root: this script lives at the repo root, so derive ROOT from its own location
+# (was hardcoded to David's Windows path C:\Users\chent\... — broke on Jamie's Mac).
+ROOT = Path(__file__).resolve().parent
 RUNS = ROOT/"runs"
 esc = html.escape
 
