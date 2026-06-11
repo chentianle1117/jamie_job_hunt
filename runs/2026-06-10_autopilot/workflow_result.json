@@ -1,0 +1,418 @@
+{
+  "summary": "Broad job discovery → dedup → evaluate → tailor strong matches → dashboard for Jamie",
+  "agentCount": 40,
+  "logs": [
+    "Discovery: 31 found, 30 unique",
+    "Evaluated 30: 0 GO, 5 STRETCH",
+    "Tailored 3 plans"
+  ],
+  "result": {
+    "discovered": 30,
+    "evaluated": 30,
+    "go": [],
+    "stretch": [
+      {
+        "company": "Dow Jones",
+        "title": "Learning & Talent Development Coordinator",
+        "score": 82,
+        "h1b": "CONFIRMED — Dow Jones has 7 verified non-tech People/HR/Training H1B filings including \"TRAINING & OUTREACH PROGRAMMING COORDINATOR\" and \"PEOPLE ADVISOR\" titles; clear pattern of sponsoring People-function roles.",
+        "url": "https://dowjones.jobs/new-york-ny/learning-talent-development-coordinator/0B2E603D75D64FCCB9FD951291EBFC45/job/",
+        "location": "New York, NY (onsite/hybrid — relocation required)"
+      },
+      {
+        "company": "Guidehouse",
+        "title": "Change Management Analyst",
+        "score": 78,
+        "h1b": "CONFIRMED — Guidehouse filed 29 non-tech consulting H1Bs in 2025 (Managing Consultant, Consultant titles); zero exact \"Change Management\" SOC filings but strong consulting-role sponsor pattern. Sponsorship likely for this level.",
+        "url": "https://www.linkedin.com/jobs/view/change-management-analyst-at-guidehouse-4426366152",
+        "location": "Arlington, VA (relocation required)"
+      },
+      {
+        "company": "McKinsey & Company",
+        "title": "Business Analyst (Culture & Change track)",
+        "score": 73,
+        "h1b": "CONFIRMED — McKinsey filed 33 LCAs for \"Business Analyst Management Consultant\" and 56 for \"Senior Business Analyst Management Consultant\" in 2025 alone; non-tech sponsorship is well-established at this exact role level.",
+        "url": "https://www.mckinsey.com/careers/search-jobs/jobs/businessanalyst-15136",
+        "location": "Various US offices (no Portland office; nearest likely Seattle or San Francisco)"
+      },
+      {
+        "company": "PwC (PricewaterhouseCoopers)",
+        "title": "Entry Level Management Consulting – Workforce Transformation (People Analytics)",
+        "score": 78,
+        "h1b": "CONFIRMED — PwC filed 196 H1B LCAs for Associates in 2024 at $93K median; Big 4 professional services firm with a clear non-tech sponsorship pattern at the Associate/entry-consulting level.",
+        "url": "https://jobs.us.pwc.com/entry-level-management-consulting-workforce-transformation-people-analytics",
+        "location": "Multiple US Locations (relocation required)"
+      },
+      {
+        "company": "McKinsey & Company",
+        "title": "Business Analyst / People Analytics Consultant",
+        "score": 72,
+        "h1b": "CONFIRMED — McKinsey filed 32 H1B LCAs for \"Business Analyst Management Consultant\" and 87 for \"Associate Management Consultant\" in 2024; strong non-tech consulting sponsorship pattern.",
+        "url": "https://www.mckinsey.com/careers/search-jobs",
+        "location": "Multiple US Locations (Seattle, Portland regional options)"
+      }
+    ],
+    "pass_count": 25,
+    "tailored_plans": [
+      {
+        "company": "Dow Jones",
+        "title": "Learning & Talent Development Coordinator",
+        "status": "STRETCH-GO pending H1B verification",
+        "summary_line": "I'm Jamie — a curious, people-loving Learning & Development professional who thrives on solving problems through data analysis, developing programs grounded in evidence, and collaborating with stakeholders for sustainable impact. Expect me to always be seeking ways we can improve people experience — through human-centered, systematic approaches.",
+        "cover_hook": "With a master's in Applied Organizational Psychology and hands-on experience facilitating training webinars for 600+ participants and designing needs-assessment-driven learning programs, I'm drawn to the Dow Jones L&T Development Coordinator role because it sits at the exact intersection of program operations, stakeholder partnership, and data-informed learning design where I do my best work.",
+        "bullets_chosen": "SUMMARY: Use the L&D variant — role-title noun = \"Learning & Development.\" Keep all three pillars unchanged. Drop \"97% extrovert!\" only if applying to a traditional consulting firm (Dow Jones is media/corporate — keep it).\n\nODN OREGON (2 bullets — Pair A \"Upskill/Empower\" — L&D diagnostic results match this coordinator role well):\n1. \"Upskill HR team in data analytics to audit 300+ leave cases, refuting cost assumptions via evidence-based insights\"\n2. \"Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training\"\nRationale: Pair A shows completed, quantified L&D impact (upskilling, evidence-based design, stakeholder reporting). Matches L&D coordinator duties around facilitating learning and measuring outcomes.\n\nINGENIUS — L&D/Operations emphasis set (4 bullets):\n1. \"Collaborate with 4 teams and 8 vendors to launch 15+ educational programs; drive continuous improvement via feedback analysis\"\n2. \"Conduct needs assessments with 25+ global stakeholders to identify learning gaps and design 3 new educational programs\"\n3. \"Develop guides and workflows for 70+ cross-functional staff, improving program knowledge and reducing onboarding time by 75%\"\n4. \"Facilitate training webinars for 600+ participants, enhancing program understanding and driving a 78% client conversion rate\"\nRationale: These four bullets directly mirror L&D coordinator duties: program logistics/vendor coordination, needs assessment, learning material development, training facilitation. All numbers are verified canonical — no banned content.\n\nVESTAS (4 bullets — standard set, DEI pilot leads):\n1. \"Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to other global locations\"\n2. \"Facilitated smooth organizational change by directing a Merger & Acquisition project, migrating and merging employee records\"\n3. \"Optimized onboarding processes across global locations by conducting process analysis and clarifying job responsibilities\"\n4. \"Improved employee experience by streamlining immigration and relocation processes through close coordination with immigration attorneys and cross-functional teams\"\nRationale: DEI workshop bullet shows training design/facilitation; onboarding process bullet shows L&D ops. M&A records and immigration bullets demonstrate breadth of HR program coordination.\n\nNEXTGEN (4 bullets — standard set):\n1. \"Led a manager effectiveness initiative, translating data into actionable reports demonstrating impact on employee engagement\"\n2. \"Analyzed 2,000+ employee responses, reporting insights and recommending actions to the C-suite for employee engagement\"\n3. \"Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review\"\n4. \"Elevated employee experience through projects focused on engagement, rewards & recognition, survey development, and L&D\"\nRationale: All four are directly relevant — survey analysis (data pillar), training support (L&D pillar), C-suite reporting (stakeholder pillar). This is strong for a talent development coordinator role.\n\nKRONOS (4 bullets — standard set):\n1. \"Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management\"\n2. \"Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details\"\n3. \"Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months\"\n4. \"Organized campus recruiting events and moderated panels with C-suite executives at top universities to attract talent\"\nRationale: Event/program coordination and stakeholder communication bullets are relevant to a coordinator role. Keep all four per the fixed bullet count rule.\n\nSKILLS BLOCK — L&D variant (include LMS tools since JD likely references them for a Talent Dev role):\nHR Systems: HRIS (SAP, Rippling, ADP) · ATS (Greenhouse) · LMS (Canvas, Moodle)\nData & PM Tools: Data Analysis (Excel, Google Sheets, SPSS) · Project Management (Asana, Airtable) · CRM (HubSpot)\nProductivity: Knowledge Management (SharePoint, Notion) · AI Tools (ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint)\nLanguages: English (fluent) · Mandarin Chinese (native) · Spanish (basic)\nCertifications: HRCI Human Resource Associate Certificate (in progress)\nNote: Include SharePoint/Notion in this role since L&D coordinators routinely use knowledge management systems for training content; include LMS (Canvas, Moodle) as they are canonical for any L&D role.\n\nHEADER LOCATION: New York, NY (role is NYC-based; use this city so recruiters see Jamie as willing to be in-area — per the header location rule for relocation roles tied to a specific city)",
+        "gaps": "1. LOCATION GAP (significant): Role is New York, NY — Jamie is in Portland, OR. This is a Tier 3 relocation scenario. Dow Jones H1B status is NOT yet verified (not in h1b_verified.md cache). H1B must be confirmed via h1bdata.info (SOC 13-1151 / 13-1071 filings for People/L&D roles, not just tech filings) before submitting. If Dow Jones/News Corp has no non-tech People-role H1B filings, this is a PASS regardless of fit.\n\n2. H1B UNKNOWN: Dow Jones (subsidiary of News Corp) is a large media corporation — likely sponsors for corporate roles, but this is not confirmed. Action required: verify via h1bdata.info before applying.\n\n3. INSTRUCTIONAL DESIGN DEPTH: If the JD requires building e-learning content, writing scripts, or using authoring tools (Articulate, Rise, Captivate), Jamie does not have that depth. She can manage L&D programs and develop guides/job aids, but not full-course instructional design. If the JD leans heavily on \"design and develop e-learning modules,\" this becomes a primary ★☆☆ gap and would cap the fit score.\n\n4. LMS ADMINISTRATION: Jamie has LMS exposure (Canvas, Moodle) at the user level, not as an admin. If the role requires LMS administration (building courses, managing enrollments in Cornerstone/Workday Learning/CSOD), she can reference familiarity but not deep hands-on admin experience.\n\n5. EXPERIENCE LEVEL / YEARS: Dow Jones is a marquee brand; if the JD requires 2+ years of dedicated L&D experience, Jamie's L&D work is distributed across roles rather than a single focused L&D position. Her most relevant experience (InGenius) is labeled Program Enablement, not L&D. This may affect ATS scoring — the resume should use language that maps her actual work to L&D functions explicitly.\n\n6. NO DIRECT REPORT / TEAM LEAD: If coordinator role eventually references team leadership, Jamie has none. Not a blocker at coordinator level but worth noting."
+      },
+      {
+        "company": "Guidehouse",
+        "title": "Change Management Analyst",
+        "status": "STRETCH — strong consulting profile match, OCM framework gap is real but not fatal at analyst level",
+        "summary_line": "I'm Jamie — an Organizational Development professional who thrives on solving problems through data analysis, developing programs grounded in evidence, and collaborating with stakeholders for sustainable impact. Expect me to always seek ways to improve business outcomes through human-centered, data-driven approaches.",
+        "bullets_chosen": "ODN Oregon (Project 2 — NGO leadership diagnosis, consulting-forward):\n1. \"Conduct focus groups and 1:1 semi-structured interviews with an NGO leadership team to surface decision-making and accountability gaps\"\n2. \"Diagnose root causes of process inefficiency and challenge the leadership team to redesign decision-making and accountability structures\"\n\nODN Oregon (Project 1 — HR data/leave diagnosis, results-focused):\n3. \"Upskill HR team in data analytics to audit 300+ leave cases, refuting cost assumptions via evidence-based insights\"\n\nInGenius (Consulting Set G — stakeholder/data analysis emphasis):\n1. \"Drive continuous improvement by conducting interviews and needs assessments with 25+ global stakeholders for needs alignment\" [note: consulting playbook uses 30+ for Mercer; use 25+ here — don't inflate without direct Mercer context]\n2. \"Collaborate with 4 teams and 8 vendors to launch 15+ educational programs; drive continuous improvement via feedback analysis\"\n3. \"Developed learning materials such as guides and protocols that enabled 70 salespeople and reduced onboarding time by 75%\"\n4. \"Facilitated training webinars for 600+ participants, boosting product understanding and achieving a 78% client conversion rate\"\n   [Use \"client conversion rate\" — consulting/business-impact framing]\n\nVestas (Consulting variant):\n1. \"Partnered with HRBP team to design and pilot an Inclusive Leadership workshop for senior leaders, later scaled to 23 global locations\"\n2. \"Facilitated smooth organizational change by directing a Mergers & Acquisitions project, overseeing cross-functional stakeholders\"\n3. \"Streamlined onboarding processes across 3 global locations by conducting gap analyses and clarifying job responsibilities\"\n4. \"Spearheaded an HR Award-winning communications strategy, outperforming 1,000+ competitors to drive employee engagement\"\n   [M&A project bullet is directly relevant to OCM context — put it second or first]\n\nNextGen (Consulting variant):\n1. \"Led a manager effectiveness initiative, translating data into actionable reports demonstrating impact on employee engagement\"\n2. \"Analyzed 2,000+ employee responses, reporting insights and recommending actions to the C-suite for employee engagement\"\n3. \"Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review\"\n4. \"Elevated employee experience through projects focused on engagement, rewards & recognition, survey development, and L&D\"\n\nInGenius title: Strategic Partnership & Program Enablement Manager (consulting playbook)\nLocation header: Match role city if specified, otherwise use open-to-relocation framing\nHRCI cert: Drop (consulting playbook)\nSkills: Survey Design & Data Analysis (Qualtrics — if JD mentions, else R, SPSS) · MS Office · HRIS · ATS · CRM",
+        "cover_hook": "My background sits at the intersection of organizational diagnostics and stakeholder-driven change — from facilitating leadership interviews to surface decision-making gaps at an NGO, to supporting an M&A data migration across global locations. I'm drawn to Guidehouse's change management practice because it applies that same structured, evidence-based lens to clients navigating transformation at scale.",
+        "gaps": "1. NO Prosci/ADKAR certification — Jamie has no formal change management framework credentials. At analyst level this is often trainable, but if the JD requires framework fluency on day one, it's a real gap. Do not claim OCM framework expertise.\n2. NO government/public sector experience — Guidehouse is heavily federal/state. If the JD references federal client delivery or clearance, Jamie has no exposure. Flag honestly.\n3. NO security clearance — most Guidehouse roles are clearance-eligible or clearance-required. If this posting requires clearance, it is a hard disqualifier.\n4. InGenius Prep is a small education company (~70 staff), NOT enterprise-scale. Do not frame as enterprise consulting.\n5. H1B not yet verified for Guidehouse — needs live check on h1bdata.info for SOC 13-1151 (Management Analyst) or 11-3121 (HR Managers). Guidehouse is a known large filer but the cache does not have a confirmed entry. Verify before finalizing application.\n6. Change management here likely means OCM (organizational change management for technology or process transformations), not L&D program changes — the ODN/InGenius experience is adjacent but not a direct match. Honest positioning: \"exposure to change-related diagnostics and stakeholder engagement, developing formal OCM framework knowledge.\""
+      },
+      {
+        "company": "PwC (PricewaterhouseCoopers)",
+        "title": "Entry Level Management Consulting – Workforce Transformation (People Analytics)",
+        "status": "GO — P2 consulting associate/analyst, Big 4 confirmed H1B sponsor, strong analytical + OD background alignment. Role type is exactly the consulting entry track Jamie's profile is built for.",
+        "cover_hook": "With an MS in Applied Organizational Psychology and hands-on experience analyzing leave-cost data to drive executive-level HR decisions, I'm drawn to PwC's Workforce Transformation practice because it sits at the intersection I care most about: using rigorous data analysis to solve real people and organizational challenges for clients.",
+        "summary_line": "I'm Jamie—a curious, people-loving Organization Development professional who thrives on solving problems through data analysis, developing programs grounded in evidence, and collaborating with stakeholders for sustainable impact. Expect me to always be seeking ways we can improve people experience—through human-centered, data-driven approaches. [Drop \"97% extrovert!\" per consulting firm rule. Use \"Organization Development professional\" as the role-title noun. Keep three pillars identical.]",
+        "bullets_chosen": "ROLE TYPE: Consulting (Set G / Pair A)\n\nInGenius title: Strategic Partnership & Program Enablement Manager\n\nODN Oregon — Pair A \"Upskill/Empower\" (Project 1 lead — HR data diagnosis):\n- \"Upskill HR team in data analytics to audit 300+ leave cases, refuting cost assumptions via evidence-based insights\"\n- \"Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training\"\n(Optional 3rd if space: \"Facilitate CEO/HR discovery and stakeholder interviews to diagnose absenteeism drivers; analyze leave data to quantify costs\" — swap in if Project 2/leadership-diagnosis angle fits a specific JD bullet)\n\nInGenius — Set G (consulting variant, 30+ stakeholders, \"data analysis\" language):\n- \"Conduct needs assessments and analyze feedback from 30+ global stakeholders to inform program design and strategy\" [inflate to 30+ only for consulting per library rule]\n- \"Facilitate training webinars for 600+ participants, boosting product understanding and achieving a 78% client conversion rate\"\n- \"Collaborate with teams (Sales, Ops, etc.) and 8 vendors to launch and manage 15+ educational programs worth $115K in revenue\"\n- \"Developed learning materials such as guides and protocols that enabled 70 salespeople and reduced onboarding time by 75%\"\n\nVestas — Consulting variant:\n- \"Launched a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to other global locations\"\n- \"Directed a Merger & Acquisition project, migrating and merging employee records across cross-functional stakeholders\"\n- \"Optimized onboarding processes across global locations by conducting process analysis and clarifying role responsibilities\"\n- \"Spearheaded an HR Award-winning communications strategy, outperforming 1,000+ competitors to drive employee engagement\"\n\nNextGen — Consulting variant:\n- \"Led a manager effectiveness initiative, translating data into actionable reports demonstrating impact on employee engagement\"\n- \"Analyzed 2,000+ employee responses, reporting insights and recommending actions to the C-suite for employee engagement\"\n- \"Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review\"\n- \"Delivered projects in engagement, rewards & recognition, survey design & execution, and L&D to elevate employee experience\"\n\nKronos — Consulting variant:\n- \"Standardized interview workflows and job description templates, filling a challenging international hard-to-fill role\"\n- \"Engaged global talent via personalized outreach and service, increasing applications by 566% in 2 months\"\n- \"Organized campus recruiting events and moderated panels with C-suite executives at top universities to attract talent\"\n\nGraduate Consulting Projects (promote YouTube capstone to full project line per consulting playbook):\nElanco: \"Designed a global research study and led focus group interviews with employees across international locations; delivered executive recommendations to optimize recruitment messaging for R&D talent\"\nYouTube/USC: \"Conducted research for YouTube to identify non-monetary factors motivating Gen-Z survey completion; produced data-driven capstone thesis adopted by the YouTube Insights team\"\n\nSkills block (consulting variant — drop HRCI cert, surface Qualtrics/R/SPSS, add Survey Design):\n- HR Systems: HRIS (SAP, Rippling, ADP) · ATS (Greenhouse) · LMS (Canvas, Moodle)\n- Data & Analytics: Survey Design & Data Analysis (Qualtrics, R, SPSS, Excel) · Data Visualization · Google Sheets\n- PM Tools: Project Management (Asana, Airtable) · CRM (HubSpot) · Microsoft Office (Word, PowerPoint)\n- AI & Knowledge Mgmt: AI Tools (ChatGPT, Gemini) · Knowledge Management (SharePoint, Notion)\n- Languages: English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+        "gaps": "1. PEOPLE ANALYTICS DEPTH: The role title includes \"People Analytics\" — JD likely expects familiarity with workforce data modeling, HR metrics dashboards, or tools like Tableau/Power BI. Jamie has SPSS + Excel analytics and the ODN leave-cost audit, but no explicit people analytics dashboard or workforce planning project. This is the most material gap. Disclose: \"Strong analytical foundation; no enterprise HR analytics platform experience.\"\n\n2. MANAGEMENT CONSULTING FRAMING: Jamie's ODN role is pro bono OD diagnostic consulting through a nonprofit network — real work, real insights, but NOT a paid client-facing consulting firm engagement. The scope is modest. Do not frame it as \"management consulting experience.\" Frame it as: \"OD diagnostic consulting through ODN Oregon.\"\n\n3. NO BIG 4 / CONSULTING FIRM PRIOR EXPERIENCE: PwC entry-level roles often attract candidates with prior Big 4 internships, consulting clubs, or MBB experience. Jamie has none of that. Her consulting-adjacent experience is ODN Oregon + USC graduate projects (Elanco, YouTube/USC capstone). Disclose this gap honestly; the graduate projects are the strongest offset.\n\n4. QUANTITATIVE MODELING: People Analytics consulting sometimes involves regression, workforce forecasting, or org network analysis. Jamie's quantitative exposure is SPSS + Excel + survey analysis — solid for an entry-level candidate but not deep modeling. She can credibly claim applied statistics from her MS program without over-claiming.\n\n5. NO PROSCI/OCM CERTIFICATION: Workforce Transformation often references change management frameworks. Jamie has OD knowledge from her MS but no Prosci/ADKAR cert. Do not claim change management framework expertise.\n\n6. H1B NOTE: PwC is a top-10 US H1B sponsor with extensive non-tech LCA filings (Management Analysts, HR Specialists). Entry-level consulting track at Big 4 routinely sponsors. Not in Jamie's cache yet — add after confirming JD language. Treat as confirmed-likely for this plan; verify JD for explicit sponsorship language before submit."
+      }
+    ],
+    "all_evals": [
+      {
+        "company": "Mercury",
+        "title": "Learning and Development Program Manager",
+        "url": "https://job-boards.greenhouse.io/mercury/jobs/5495609004",
+        "verdict": "PASS",
+        "score": 40,
+        "h1b": "No non-tech/People H1B filings found. Mercury Technologies' 41 h1bdata.info records are 100% Senior SWE, Staff Engineer, Senior Product Manager, and Senior Risk Strategist — zero People/HR/L&D filings. No evidence Mercury sponsors H1B for People roles.",
+        "reason": "Role is no longer live (job ID 5495609004 returns an error on Greenhouse — taken down). Even if active, Mercury has no H1B sponsorship history for People/L&D roles — all filings are senior engineering/product. H1B hard fail overrides the otherwise strong title-and-location fit.",
+        "location": "Portland, OR (or Remote within US/Canada)",
+        "apply_mechanism": "Greenhouse (job-boards.greenhouse.io/mercury) — but role is no longer posted"
+      },
+      {
+        "company": "Port of Portland",
+        "title": "Talent Acquisition Coordinator",
+        "url": "https://www.governmentjobs.com/careers/portofportland/jobs/newprint/4568815",
+        "verdict": "PASS",
+        "score": 30,
+        "h1b": "No sponsor — zero H1B filings on h1bdata.info for Port of Portland; government port authority entities do not typically sponsor H1B visas.",
+        "reason": "Hard PASS on two independent grounds: (1) no H1B sponsorship history whatsoever, and (2) the role is pure recruiting/TA administration (ATS management, interview scheduling, I-9 compliance, background checks) — explicitly in Jamie's hard-reject list. Requires 3 years of recruitment admin experience Jamie does not have.",
+        "location": "Portland, OR (on-site, Port HQ)",
+        "apply_mechanism": "Government job portal (NEOGOV)"
+      },
+      {
+        "company": "Dow Jones",
+        "title": "Learning & Talent Development Coordinator",
+        "url": "https://dowjones.jobs/new-york-ny/learning-talent-development-coordinator/0B2E603D75D64FCCB9FD951291EBFC45/job/",
+        "verdict": "STRETCH",
+        "score": 82,
+        "h1b": "CONFIRMED — Dow Jones has 7 verified non-tech People/HR/Training H1B filings including \"TRAINING & OUTREACH PROGRAMMING COORDINATOR\" and \"PEOPLE ADVISOR\" titles; clear pattern of sponsoring People-function roles.",
+        "reason": "Strong P1 L&D scope match — program coordination, talent tools support, stakeholder communications all map directly to Jamie's strengths. Held to STRETCH (not GO) because (1) role is New York onsite requiring relocation, which under Tier 3 rules needs ≥85% honest match, and (2) LMS administration is a meaningful component where Jamie has only basic (★☆☆) platform experience, keeping honest match at ~82-83% — just under the Tier 3 relocation threshold. H1B sponsorship confirmed for non-tech roles.",
+        "location": "New York, NY (onsite/hybrid — relocation required)",
+        "apply_mechanism": "Direct via dowjones.jobs"
+      },
+      {
+        "company": "Nike",
+        "title": "Talent Mobility Coordinator",
+        "url": "https://employeereferrals.nike.com/jobs/talent-mobility-coordinator-77687",
+        "verdict": "PASS",
+        "score": 45,
+        "h1b": "Nike sponsors H1B at high volume (~388 filings in 2024) but almost exclusively for tech/SWE. Zero non-tech People/HR/Talent filings in 2023 or 2024 — the one \"People\" filing was a Data Engineer. Per hard rule: zero non-tech filings = no effective sponsorship for a Talent Coordinator role. Not cap-exempt.",
+        "reason": "The role title and scope (Talent Mobility, Beaverton Tier 1 location) are a genuine P1 fit for Jamie, but Nike has no documented H1B sponsorship pattern for People/HR roles. Applying would consume runway with near-zero realistic sponsorship probability.",
+        "location": "Beaverton, OR (Nike World HQ)",
+        "apply_mechanism": "Employee referral portal (employeereferrals.nike.com) — JD not publicly accessible"
+      },
+      {
+        "company": "CommunityAmerica Credit Union",
+        "title": "Talent Development Coordinator",
+        "url": "https://www.linkedin.com/jobs/view/talent-development-coordinator-at-communityamerica-credit-union-4419977490",
+        "verdict": "PASS",
+        "score": 42,
+        "location": "Lenexa, KS",
+        "h1b": "No sponsor for People/HR roles. h1bdata shows 18 total filings — all tech (SWE, QA, cloud, data engineering) or product/Salesforce admin. Zero filings in SOC 13-1151/13-1071/11-3121 or any HR/Training category. JD makes no mention of sponsorship.",
+        "reason": "H1B hard pass: CommunityAmerica has never filed an LCA for a People, HR, or Talent role — only tech engineering titles. Relocation-tier (Lenexa KS) requires SOC-confirmed non-tech sponsor, which this fails. Role content is also heavily administrative/logistics (LMS management, room booking, compliance tracking) rather than program design.",
+        "apply_mechanism": "LinkedIn Easy Apply (moot — PASS)"
+      },
+      {
+        "company": "Oregon State University",
+        "title": "Human Resources Recruitment Specialist (Consultant-HR 1)",
+        "url": "https://jobs.oregonstate.edu/postings/181005",
+        "verdict": "PASS",
+        "score": 45,
+        "h1b": "Cap-exempt institution (OSU is a public university), but zero non-tech HR/People H1B filings on record and JD contains no sponsorship language — cap-exempt sponsorship unconfirmed at this grade/role.",
+        "reason": "Core function is recruiting/TA (55% hiring operations + 25% executive search support = 80% TA work) — a Hard Reject category per Jamie's profile. The 5% T&D component is insufficient to reframe this as an L&D or OD role. Auto-PASS regardless of cap-exempt status.",
+        "location": "Corvallis, OR (remote/hybrid option)",
+        "apply_mechanism": "University ATS (jobs.oregonstate.edu)"
+      },
+      {
+        "company": "Providence Health",
+        "title": "Program Coordinator - Staffing",
+        "url": "https://providence.jobs/portland-or/program-coordinator-staffing/BDEF4CB1B8234FC5B826D2EBD8713F32/job/",
+        "verdict": "PASS",
+        "score": 40,
+        "h1b": "Cap-exempt (Providence Health is a hospital system — qualifies as cap-exempt employer). H1B sponsorship available in principle, but moot given role fit.",
+        "reason": "The job posting has expired (confirmed via live browser fetch — page shows \"has expired\"). Beyond that, \"Program Coordinator - Staffing\" at a hospital system is a staffing operations/float pool/contingent workforce scheduling role — squarely in Jamie's hard-reject category (recruiting/staffing admin, not OD/talent dev/program mgmt). No JD content was recoverable to override this assessment.",
+        "location": "Portland, OR",
+        "apply_mechanism": "N/A — expired posting"
+      },
+      {
+        "company": "DaBella",
+        "title": "HRIS Coordinator",
+        "url": "https://www.indeed.com/q-hr-coordinator-l-portland,-or-jobs.html",
+        "verdict": "PASS",
+        "score": 30,
+        "h1b": "NO — zero LCA filings found on h1bdata.info for DaBella (searched \"dabella\" and \"da bella\"); no H1B sponsorship history at all, People or otherwise. DaBella is a home improvement/exteriors company with no pattern of sponsoring non-tech roles.",
+        "reason": "Double hard-reject: (1) \"HRIS Coordinator\" with primary responsibility of day-to-day HRIS administration is an explicit auto-PASS category (HRIS-admin = ★☆☆ primary function, capped at auto-PASS per scoring rules). (2) DaBella has zero H1B LCA filings on record — no sponsorship history whatsoever, making this a non-starter for Jamie regardless of role fit.",
+        "location": "Hillsboro, OR",
+        "apply_mechanism": "Indeed / Workday (careers.dabella.us)"
+      },
+      {
+        "company": "Catlin Gabel School",
+        "title": "Payroll & Benefits Operations Specialist",
+        "url": "https://talents.vaia.com/companies/catlin-gabel-school/north-portland/payroll-benefits-operations-specialist-86534548/",
+        "verdict": "PASS",
+        "score": 30,
+        "h1b": "No sponsor — only 4 H1B filings ever, all for a Social Studies Teacher role; no People/HR filings; K-12 private school is not cap-exempt.",
+        "reason": "Dual hard-reject: payroll processing and benefits administration are both listed as the primary functions (★☆☆ skills, auto-PASS per guardrails), and Catlin Gabel has zero H1B history for any administrative or HR role with no cap-exempt classification.",
+        "location": "Portland, OR (on-site)",
+        "apply_mechanism": "N/A — PASS"
+      },
+      {
+        "company": "Guidehouse",
+        "title": "Change Management Analyst",
+        "url": "https://www.linkedin.com/jobs/view/change-management-analyst-at-guidehouse-4426366152",
+        "verdict": "STRETCH",
+        "score": 78,
+        "location": "Arlington, VA (relocation required)",
+        "h1b": "CONFIRMED — Guidehouse filed 29 non-tech consulting H1Bs in 2025 (Managing Consultant, Consultant titles); zero exact \"Change Management\" SOC filings but strong consulting-role sponsor pattern. Sponsorship likely for this level.",
+        "reason": "H1B sponsor with consulting pattern and fresh posting (under 25 applicants), but Arlington VA is a relocation-only role and change management is Jamie's ★★☆ developing skill — not her P1 sweet spot. Doesn't clear Tier 3 relocation bar (requires P1/P1b/P1c scope + 85%+ match); YOE ask of 3-5 years is at Jamie's ceiling. Legitimate stretch, not a pass.",
+        "apply_mechanism": "LinkedIn Easy Apply or Guidehouse careers site"
+      },
+      {
+        "company": "Osprey Life Sciences",
+        "title": "Communications & Organizational Change Management (OCM) Analyst",
+        "url": "https://www.linkedin.com/jobs/view/change-management-analyst-at-osprey-life-sciences-4423165458",
+        "verdict": "PASS",
+        "score": 58,
+        "location": "Cambridge, MA (Hybrid)",
+        "h1b": "NO — Zero LCA filings on h1bdata.info; small IT/life sciences consulting firm with no H1B sponsorship history; cannot confirm sponsorship",
+        "apply_mechanism": "LinkedIn Easy Apply",
+        "reason": "Requires 5+ years (Jamie has ~3 — 2-year gap caps score at 60 per guardrail), H1B sponsorship unconfirmed (zero filings on h1bdata.info), and the role is a Cambridge relocation requiring all 4 Tier 3 criteria which this role fails on both match and sponsor verification. Change mgmt is only Jamie's ★★☆ Developing skill, not primary strength."
+      },
+      {
+        "company": "Deloitte",
+        "title": "Organization, Workforce & Change Consultant",
+        "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Organization-Workforce-Change-Consultant/326836",
+        "verdict": "PASS",
+        "score": 30,
+        "h1b": "NO SPONSOR — Deloitte is explicitly listed as a non-sponsor in Jamie's verified cache. H1bdata confirms zero non-tech/People/Change LCA filings (only 1 stale 2019 Human Capital BA record; zero OD or Change Management filings). This is a hard H1B disqualifier.",
+        "reason": "Deloitte does not sponsor H1B for People/OD/Change roles — confirmed via cached record and h1bdata verification. The role title (Consultant, not Senior Consultant) would otherwise be consulting-exception eligible and the scope (org, workforce, change) aligns well with Jamie's OD background, but sponsorship is binary. PASS — no exceptions apply.",
+        "location": "Portland, OR",
+        "apply_mechanism": "N/A — PASS due to no H1B sponsorship"
+      },
+      {
+        "company": "Mercer",
+        "title": "Change Management Consultant (entry-level)",
+        "url": "https://careers.marsh.com/global/en/mercer",
+        "verdict": "PASS",
+        "score": 0,
+        "h1b": "Confirmed sponsor (non-tech/People filings verified)",
+        "reason": "Mercer appears in applied_companies.txt — dedup skip. Company already encountered in this autopilot run; no further evaluation performed.",
+        "location": "Remote / Multiple US locations",
+        "apply_mechanism": "N/A — deduped"
+      },
+      {
+        "company": "Korn Ferry",
+        "title": "Change Management / Organizational Change Consultant (entry-level track)",
+        "url": "https://www.kornferry.com/capabilities/organization-strategy/change-culture-comms/change-management-consulting",
+        "verdict": "PASS",
+        "score": 63,
+        "h1b": "CONFIRMED — Korn Ferry filed H1B LCAs in 2024 for ASSOCIATE CONSULTANT and SENIOR CONSULTANT (non-tech consulting track), confirming sponsorship for People/Consulting roles.",
+        "reason": "The provided URL is a services/capabilities page, not a job posting — no actual JD, YOE requirements, or sponsorship language could be verified. Based on Korn Ferry's consulting structure, an entry-level change management consultant role falls under P2 (consulting associate/analyst), and change mgmt frameworks are only ★★☆ Developing for Jamie — not her primary strength. \"Various US locations\" triggers the Tier 2 bar (80%+ match required), which this role cannot clear given the skill gap and absence of a verifiable JD. Score: 70 base − 10 (remote/various US) + 5 (H1B confirmed) + 3 (P2) − 5 (★★☆ primary skill, developing) = 63. PASS: does not clear the 80% Tier 2 threshold and no actual JD to evaluate.",
+        "location": "Various US locations",
+        "apply_mechanism": "kornferry.com/careers — JD URL provided is a capabilities page, not a job posting; actual opening not confirmed"
+      },
+      {
+        "company": "Accenture",
+        "title": "Change Analyst",
+        "url": "https://www.accenture.com/us-en/careers/jobdetails?id=10679948_en&title=Change+Analyst",
+        "verdict": "PASS",
+        "score": 0,
+        "h1b": "NO — Accenture US T&O roles explicitly state \"must have work authorization that does not now or in the future require sponsorship\" (confirmed no-sponsor, h1b_verified.md, reconfirmed 2026-05-20). Accenture's 3,487 H1B filings in 2024 are overwhelmingly tech titles (Packaged App Dev, Custom Software Engineering, Business Architecture) with zero People/HR/Change/OD filings found.",
+        "reason": "Accenture US is a confirmed no-sponsor for T&O/People roles per canonical H1B cache. The role is disqualified on H1B grounds alone before any fit scoring — Jamie cannot apply.",
+        "location": "Multiple US locations",
+        "apply_mechanism": "N/A — PASS"
+      },
+      {
+        "company": "McKinsey & Company",
+        "title": "Business Analyst (Culture & Change track)",
+        "url": "https://www.mckinsey.com/careers/search-jobs/jobs/businessanalyst-15136",
+        "verdict": "STRETCH",
+        "score": 73,
+        "h1b": "CONFIRMED — McKinsey filed 33 LCAs for \"Business Analyst Management Consultant\" and 56 for \"Senior Business Analyst Management Consultant\" in 2025 alone; non-tech sponsorship is well-established at this exact role level.",
+        "reason": "The Culture & Change track is a genuine OD/change management scope (P2 consulting analyst — passes hard-reject filter) and aligns with Jamie's ★★☆ developing OD/change skills and ★★★ data analysis. H1B sponsorship is confirmed. The stretch factors are: (1) McKinsey BA hiring is hyper-competitive with a rigorous case interview bar that Jamie would need to prepare intensively for, (2) the role requires ~80% travel from a Portland base which is logistically demanding given H1B timeline pressure, and (3) \"Various US offices\" means no Portland location advantage. Worth applying if Jamie is prepared for case interviews and open to heavy travel.",
+        "location": "Various US offices (no Portland office; nearest likely Seattle or San Francisco)",
+        "apply_mechanism": "McKinsey careers portal (mckinsey.com/careers) — direct application with resume + cover letter; case interview process required"
+      },
+      {
+        "company": "Grafana Labs",
+        "title": "People Analytics Analyst",
+        "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/5980199004",
+        "verdict": "PASS",
+        "score": 40,
+        "h1b": "No sponsorship history — zero LCA filings on h1bdata.info across all years (no tech, no People/HR, no analytics roles). VC-backed startup, not cap-exempt. Remote role requires confirmed non-tech sponsor pattern; none exists.",
+        "reason": "H1B is a hard binary: Grafana Labs has no LCA filing history whatsoever, making sponsorship effectively impossible. Additionally, the job posting (ID 5980199004) is no longer live on Grafana's job board (115 current openings visible, this role absent), suggesting it has been filled or withdrawn. Remote-only further compounds the issue. Role content (People Analytics) would otherwise be a strong P1 fit, but sponsorship blocks any application.",
+        "location": "Remote (United States)",
+        "apply_mechanism": "Greenhouse (job-boards.greenhouse.io) — posting appears to be taken down"
+      },
+      {
+        "company": "Coursera",
+        "title": "People Analytics Analyst",
+        "url": "https://job-boards.greenhouse.io/coursera/jobs/4572149004",
+        "verdict": "PASS",
+        "score": 30,
+        "h1b": "NO — Coursera shows 16 H1B filings (2025), all tech/engineering or senior finance/data roles; zero HR/People/Analytics non-senior filings. For-profit tech company, not cap-exempt. No confirmed non-tech People role sponsorship pattern.",
+        "reason": "Job posting is no longer open (Greenhouse confirms \"The job you are looking for is no longer open\"). Even if active, Coursera has no H1B sponsorship history for People/HR/Analytics non-senior roles — it's an engineer-only sponsor pattern — making this a hard PASS on H1B grounds regardless of fit.",
+        "location": "Remote (United States)",
+        "apply_mechanism": "Greenhouse (closed)"
+      },
+      {
+        "company": "Intuit",
+        "title": "People Analytics Business Data Analyst",
+        "url": "https://jobs.intuit.com/job/mountain-view/people-analytics-business-data-analyst/27595/89848897200",
+        "verdict": "PASS",
+        "score": 65,
+        "h1b": "Confirmed — Intuit filed H1B for Business Data Analyst (5 filings, median $107K in 2024); large-tech sponsor with strong overall H1B history.",
+        "reason": "People Analytics at a 15B fintech (Mountain View, CA) is analytics-IC work requiring SQL/Python/Tableau proficiency at intermediate-advanced level — Jamie's analytics experience is applied/operational (program metrics, leave-cost spreadsheet analysis) rather than dedicated People Analytics. The role requires relocation and Tier 3's 85% honest match threshold is not met (~65% fit). JD is no longer live (404) but role type and location confirmed.",
+        "location": "Mountain View, CA (onsite/hybrid — relocation required)",
+        "apply_mechanism": "jobs.intuit.com (posting expired)"
+      },
+      {
+        "company": "New Relic",
+        "title": "Data Analyst, People Analytics",
+        "url": "https://job-boards.greenhouse.io/newrelic/jobs/5230863008",
+        "verdict": "PASS",
+        "score": 42,
+        "h1b": "No non-tech/People filings. New Relic's 73 LCA records (2019-2025) are entirely engineering, TAM, solutions consulting, and product roles — zero People Analytics, HR, or non-tech sponsorship history. Cannot confirm sponsorship for a People role.",
+        "reason": "The role appears to be expired/closed (job ID 5230863008 is absent from New Relic's current 70-position job board). Even if active, New Relic has no H1B sponsorship history for People/HR roles, and this is a remote role — remote + unconfirmed non-tech sponsor is a hard PASS under Jamie's rules regardless of title fit.",
+        "location": "Remote",
+        "apply_mechanism": "Greenhouse"
+      },
+      {
+        "company": "PwC (PricewaterhouseCoopers)",
+        "title": "Entry Level Management Consulting – Workforce Transformation (People Analytics)",
+        "url": "https://jobs.us.pwc.com/entry-level-management-consulting-workforce-transformation-people-analytics",
+        "verdict": "STRETCH",
+        "score": 78,
+        "h1b": "CONFIRMED — PwC filed 196 H1B LCAs for Associates in 2024 at $93K median; Big 4 professional services firm with a clear non-tech sponsorship pattern at the Associate/entry-consulting level.",
+        "reason": "Jamie's MS in Applied Org Psych directly matches the preferred field of study, and her data analytics and employee experience strengths align well with the survey-design/people-analytics scope. Scored STRETCH (not GO) because this is a P2 Big4 consulting role at multiple US locations requiring relocation, and Tier 3 relocation rules demand P1/P1b/P1c scope — P2 consulting qualifies only for Tier 2 (remote at confirmed sponsor), where the 80% honest match threshold isn't quite met given limited direct people-analytics project experience.",
+        "location": "Multiple US Locations (relocation required)",
+        "apply_mechanism": "PwC careers portal (jobs.us.pwc.com)"
+      },
+      {
+        "company": "McKinsey & Company",
+        "title": "Business Analyst / People Analytics Consultant",
+        "url": "https://www.mckinsey.com/careers/search-jobs",
+        "verdict": "STRETCH",
+        "score": 72,
+        "h1b": "CONFIRMED — McKinsey filed 32 H1B LCAs for \"Business Analyst Management Consultant\" and 87 for \"Associate Management Consultant\" in 2024; strong non-tech consulting sponsorship pattern.",
+        "reason": "Jamie's People Analytics content fit is real — her data analytics strength (★★★) and MS in Applied Org Psych align well with the role's subject matter — and McKinsey's H1B record for BA/consulting tracks is strong. However, MBB Business Analyst hiring is among the most competitive in the industry (target schools, case interviews, quant pedigree expected), and Jamie's ~3 years of experience places her in an awkward gap between McKinsey's typical fresh-grad BA cohort and their experienced Associate track. Worth applying if she can prep the case interview, but realistic odds are low without a warm alumni referral or direct McKinsey recruiter contact.",
+        "location": "Multiple US Locations (Seattle, Portland regional options)",
+        "apply_mechanism": "mckinsey.com/careers (direct application + case interview prep required)"
+      },
+      {
+        "company": "Mercer",
+        "title": "HR Analytics / Workforce Strategy Analyst",
+        "url": "https://www.mercer.com/careers/mercer-careers/",
+        "verdict": "PASS",
+        "score": 0,
+        "h1b": "Confirmed sponsor (People/HR roles verified)",
+        "reason": "Mercer is already in applied_companies.txt from this autopilot run — dedup rule requires a hard skip regardless of fit score.",
+        "location": "Multiple US Locations (Remote Options)",
+        "apply_mechanism": "N/A — deduped"
+      },
+      {
+        "company": "Fannie Mae",
+        "title": "People Analytics Senior Data Analyst",
+        "url": "https://www.fanniemae.com/careers/our-teams/data-analytics",
+        "verdict": "PASS",
+        "score": 40,
+        "h1b": "NO — Federal National Mortgage Association has 249 LCA filings (all tech: Software Engineers, Data Engineers, Financial Engineers, Quantitative Modelers). Zero non-tech/People/HR filings found; no SOC 13-1151/13-1071/11-3121 present. Fannie Mae does not sponsor H1B for People Analytics roles.",
+        "reason": "Hard reject on two counts: (1) Title is \"Senior Data Analyst\" — not a consulting Senior Associate exception, fails the Senior/5+ yr title rule outright. (2) Fannie Mae has zero non-tech H1B LCA filings; all 249 filings are engineering/tech roles, meaning no sponsorship path exists for a People Analytics position. Remote-nationwide adds a further -10. Even setting aside the title issue, this is a non-sponsor for People roles.",
+        "location": "Remote (Nationwide)",
+        "apply_mechanism": "N/A — PASS"
+      },
+      {
+        "company": "Go Lloyd",
+        "title": "Outreach and TDM Program Manager",
+        "url": "https://www.idealist.org/en/nonprofit-job/a75dbf6ce1b84ecf8b92041b5e0b5659-outreach-and-tdm-program-manager-go-lloyd-portland",
+        "verdict": "PASS",
+        "score": 55,
+        "h1b": "No filings on h1bdata.info (zero LCA records); no sponsorship language in JD; Go Lloyd is a nonprofit transportation management association — not a university/research org, so not H1B cap-exempt. Hard H1B blocker.",
+        "reason": "Zero H1B filing history and no cap-exempt status make this a hard pass regardless of fit. Even setting aside H1B, the role is squarely transportation demand management (TriMet, PBOT, bike/pedestrian infrastructure, commuter rewards) — a domain Jamie has no background in — which would cap honest fit around 55.",
+        "location": "Portland, OR (on-site)",
+        "apply_mechanism": "Idealist"
+      },
+      {
+        "company": "Forth",
+        "title": "Program Associate",
+        "url": "https://www.idealist.org/en/nonprofit-job/1bd2578f9c6c4b05908b202d7b3e22ca-program-associate-forth-portland",
+        "verdict": "PASS",
+        "score": 40,
+        "h1b": "No H1B filings found for Forth on h1bdata.info (zero LCA records, any year); not cap-exempt (small nonprofit, not a university/hospital/research institution). Sponsorship probability: none.",
+        "reason": "Application deadline was June 9 (already closed), and Forth has no H1B sponsorship history whatsoever. Even if the role were open, the scope is electric mobility/EV fleet coordination — not People/OD/Talent Development — with no meaningful overlap with Jamie's core skills.",
+        "location": "Portland, OR (Hybrid)",
+        "apply_mechanism": "Idealist (closed — deadline June 9, 2026)"
+      },
+      {
+        "company": "Depave",
+        "title": "Outreach Manager",
+        "url": "https://www.idealist.org/en/nonprofit-job/ed8d9e66b5204b2ea59e654413519aba-outreach-manager-depave-portland",
+        "verdict": "PASS",
+        "score": 42,
+        "h1b": "No filings on h1bdata.info. Depave is a small Portland 501(c)(3) environmental nonprofit with zero H1B LCA history — cap-exempt by classification but no sponsorship infrastructure or budget. Effectively no sponsor.",
+        "reason": "The Idealist posting is no longer live (404) and Depave has zero H1B filings. As a small environmental nonprofit with no visa sponsorship history, this is a hard block regardless of role fit. Even if the JD were a strong P1c match, no viable path to H1B sponsorship here.",
+        "location": "Portland, OR",
+        "apply_mechanism": "Idealist (posting pulled/404)"
+      },
+      {
+        "company": "Philanthropy Northwest",
+        "title": "Program Officer (Thriving Communities / EPA Environmental Justice)",
+        "url": "https://philanthropynw.org/jobs/program-officer",
+        "verdict": "PASS",
+        "score": 43,
+        "h1b": "No H1B sponsorship history (zero filings on h1bdata.info). Philanthropy Northwest is a 501(c)(3) philanthropic network but does NOT qualify as a cap-exempt employer (not a university, hospital, or university-affiliated nonprofit). No evidence they sponsor H1B at any grade — effectively no-sponsor for immigration purposes.",
+        "reason": "Role is a limited-term (ends July 2027) environmental justice grantmaking position requiring 4+ years of BIPOC community engagement in PNW and grants management experience — two domains where Jamie has no verifiable background. Zero H1B filings and no cap-exempt status make this a hard pass regardless of fit; the sector (environmental grantmaking/EPA compliance) is also entirely outside Jamie's OD/talent-dev sweet spot.",
+        "location": "Remote: Alaska, Idaho, Oregon, or Washington (hybrid option in Seattle)",
+        "apply_mechanism": "Direct application via Philanthropy Northwest careers page (deadline June 18, 2026) — moot given PASS verdict"
+      },
+      {
+        "company": "United Way of the Columbia-Willamette",
+        "title": "Community Engagement Coordinator — Early Learning Multnomah",
+        "url": "https://unitedwayofthecolumbiawillamette.applytojob.com/apply/aSb11LsUgK/Community-Engagement-Coordinator",
+        "verdict": "PASS",
+        "score": 62,
+        "h1b": "No LCA filings found on h1bdata.info. United Way CW is a 501(c)(3) nonprofit = cap-exempt employer in principle, but the JD makes no sponsorship commitment and salary ($48–61K) is below typical H1B wage floor for a degree-level role. Treat as cap-exempt possible, unconfirmed.",
+        "reason": "The role is P1c at a named Portland target nonprofit, but the 2–3 year early childhood / family engagement domain requirement is a genuine gap — Jamie's background is in organizational/corporate HR contexts, not direct community-facing family services. The posting is also classified Entry Level Non-exempt with 25% event logistics and 30% governance council admin, making it primarily an operational coordinator role well below her MS Applied Org Psych level. Salary ($48–61K) is low for her credentials. Portland + cap-exempt modifiers lift the raw score to ~62, but the domain mismatch prevents a clean STRETCH.",
+        "location": "Portland, OR (in-person, Multnomah County travel required)",
+        "apply_mechanism": "applytojob.com (Paylocity-backed)"
+      },
+      {
+        "company": "Northwest Health Foundation",
+        "title": "Program Coordinator",
+        "url": "https://www.northwesthealth.org/",
+        "verdict": "PASS",
+        "score": 45,
+        "h1b": "NO SPONSOR — Zero LCA filings on h1bdata.info (Oct 2013–Sept 2025). Northwest Health Foundation is a 501(c)(3) grantmaking foundation but does NOT qualify for H1B cap-exemption (cap-exempt requires affiliation with a university, hospital, or nonprofit research org — a standalone health equity grantmaking foundation does not meet that threshold). Small staff, no H1B history.",
+        "reason": "Role scope (P1c NGO Program Coordinator, Portland) is a genuine fit for Jamie's profile, but H1B sponsorship is the hard blocker — zero LCA filings across 12 years of DOL data and no cap-exempt basis means applying would be futile. Pass on sponsorship grounds alone.",
+        "location": "Portland, OR",
+        "apply_mechanism": "Direct (northwesthealth.org)"
+      }
+    ]
+  }
+}

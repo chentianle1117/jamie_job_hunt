@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<title>Autopilot Run — 2026-06-11</title>
+<style>
+  :root{--ink:#1a1a2e;--muted:#6b7280;--line:#e5e7eb;--bg:#f3f4f6;--accent:#2563eb;--go:#16a34a;--warn:#d97706;--bad:#dc2626;}
+  body{font-family:-apple-system,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--ink);margin:0;padding:24px;}
+  .wrap{max-width:1000px;margin:0 auto;}
+  h1{font-size:22px;margin:0 0 2px;} .sub{color:var(--muted);font-size:13px;margin-bottom:18px;}
+  .kpi{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0;}
+  .kpi div{background:#fff;border:1px solid var(--line);border-radius:8px;padding:10px 14px;font-size:12.5px;}
+  .kpi b{display:block;font-size:20px;}
+  .card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin-bottom:14px;}
+  h2{font-size:14px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin:0 0 10px;}
+  table{border-collapse:collapse;width:100%;font-size:13px;}
+  td,th{padding:7px 9px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;}
+  th{color:var(--muted);font-size:11.5px;}
+  .badge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11px;font-weight:600;}
+  .b-bad{background:#fee2e2;color:#991b1b;} .b-warn{background:#fef3c7;color:#92400e;} .b-go{background:#dcfce7;color:#166534;}
+  a{color:var(--accent);text-decoration:none;} a:hover{text-decoration:underline;}
+  .note{font-size:12.5px;color:var(--muted);} ul{margin:6px 0;padding-left:18px;font-size:13px;line-height:1.6;}
+</style></head><body><div class="wrap">
+
+<h1>🌙 Autopilot run — broad sweep</h1>
+<div class="sub">2026-06-11 · 7 discovery lanes · 40 agents · ~1.57M tokens · grounded in RULE 0 + live H1B checks</div>
+
+<div class="kpi">
+  <div><b>30</b>roles discovered</div>
+  <div><b style="color:var(--go)">0</b>GO</div>
+  <div><b style="color:var(--warn)">5</b>STRETCH (raw)</div>
+  <div><b>25</b>PASS</div>
+  <div><b style="color:var(--bad)">0</b>clean eligible after live-verify</div>
+</div>
+
+<div class="card" style="border-left:4px solid var(--warn);">
+  <b>Honest verdict: thin market tonight.</b> The 5 STRETCH roles all fell out on live verification — none is a clean, eligible auto-submit right now. Most of the 25 PASSes were genuine H1B hard-fails (company has zero non-tech/People LCA filings) or already-dead postings. Per the discovery doctrine, this is reported straight — not padded with senior/ineligible/dead roles to inflate the count. No applications were forced to dead or ineligible postings (would waste H1B runway).
+</div>
+
+<div class="card">
+  <h2>The 5 STRETCH roles — why each isn't applyable</h2>
+  <table>
+    <tr><th>Company / Role</th><th>Score</th><th>Live-verify outcome</th></tr>
+    <tr><td><b>Dow Jones</b> — L&amp;T Development Coordinator (NYC)</td><td>82</td><td><span class="badge b-bad">DEAD</span> Posting no longer available (browser-verified, 0 apply buttons).</td></tr>
+    <tr><td><b>Guidehouse</b> — Change Management Analyst (Arlington VA)</td><td>78</td><td><span class="badge b-bad">DISQUALIFIER</span> JD requires US <b>security clearance</b> → needs citizenship; Jamie on H1B can't obtain. (Evaluator missed the clearance line — now patched into the discovery prompt.)</td></tr>
+    <tr><td><b>PwC</b> — Entry Mgmt Consulting, Workforce Transformation / People Analytics</td><td>78</td><td><span class="badge b-warn">NO LIVE REQ</span> The "entry level" URL is a category landing page. PwC's portal currently shows only Senior Associate / Manager reqs (hard-reject level). No open entry req to apply to.</td></tr>
+    <tr><td><b>McKinsey</b> — Business Analyst, Culture &amp; Change</td><td>73</td><td><span class="badge b-warn">LOW-PROB</span> Case-interview track, hyper-competitive, ~80% travel from Portland. No clean auto-submit; evaluator rated realistic odds low.</td></tr>
+    <tr><td><b>McKinsey</b> — BA / People Analytics</td><td>72</td><td><span class="badge b-warn">NO POSTING</span> URL is a bare job-search page, not a specific requisition.</td></tr>
+  </table>
+</div>
+
+<div class="card">
+  <h2>What this tells us (lessons applied)</h2>
+  <ul>
+    <li><b>Added a clearance/citizenship auto-disqualifier</b> to the discovery fit-judge prompt — gov-consulting roles (Guidehouse, Booz Allen, SAIC, MITRE) often require clearance = H1B dead-end.</li>
+    <li><b>Verify postings live in the authenticated browser</b> before counting — tonight Mercury, Coursera, Grafana, New Relic, Providence, Forth, Depave were all already expired/404 on web search.</li>
+    <li><b>Big4/MBB "entry level" landing pages ≠ live reqs</b> — must locate the actual open Associate/Analyst requisition with a real job ID.</li>
+    <li>The H1B filter is doing its job: ~15 of the 25 PASSes were companies with zero non-tech/People sponsorship history (Nike, Mercury, Grafana, New Relic, Coursera, Fannie Mae, etc. — all tech-only sponsors).</li>
+  </ul>
+</div>
+
+<div class="card note">
+  Full machine results: <a href="run_summary.json">run_summary.json</a> · <a href="workflow_result.json">workflow_result.json</a> (all 30 evals with reasons + tailoring plans for the STRETCH roles, kept for reference even though none is applyable now).
+  <br><br>Next run will catch more live inventory with the clearance check + browser-verify-first rules now baked into the pipeline. Cambia (submitted earlier today) remains the live application in flight.
+</div>
+
+</div></body></html>

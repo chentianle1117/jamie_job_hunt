@@ -1,0 +1,45 @@
+{
+  "date": "2026-06-11",
+  "discovered": 30,
+  "go": 0,
+  "stretch": 5,
+  "pass": 25,
+  "stretch_live_verification": [
+    {
+      "company": "PwC",
+      "title": "Entry Mgmt Consulting WT - People Analytics",
+      "outcome": "NO LIVE ENTRY REQ \u2014 portal only shows Senior Assoc/Manager roles (hard-reject level). The 'entry level' URL is a category landing page, not an open requisition.",
+      "action": "not applyable now"
+    },
+    {
+      "company": "Guidehouse",
+      "title": "Change Management Analyst",
+      "outcome": "DISQUALIFIER \u2014 JD requires US security clearance (needs citizenship); Jamie on H1B cannot obtain. Evaluator missed the clearance line.",
+      "action": "PASS"
+    },
+    {
+      "company": "Dow Jones",
+      "title": "L&T Development Coordinator",
+      "outcome": "DEAD \u2014 posting no longer available (browser-verified, 0 apply buttons).",
+      "action": "PASS"
+    },
+    {
+      "company": "McKinsey",
+      "title": "BA Culture & Change",
+      "outcome": "Case-interview track, hyper-competitive, ~80% travel; no clean auto-submit path.",
+      "action": "low-probability, skip auto-submit"
+    },
+    {
+      "company": "McKinsey",
+      "title": "BA / People Analytics",
+      "outcome": "URL is a bare search page, no concrete posting.",
+      "action": "skip"
+    }
+  ],
+  "conclusion": "Thin market tonight. 0 clean eligible auto-submits after live verification. Most PASSes were genuine H1B hard-fails (zero non-tech filings) or dead/expired postings. Reported honestly per discovery doctrine \u2014 did NOT pad or force applications to dead/ineligible roles.",
+  "lessons": [
+    "Add a CLEARANCE/citizenship check to discovery eval (Guidehouse-type gov-consulting roles often require clearance = H1B disqualifier).",
+    "Verify postings live in the authenticated browser before counting them \u2014 many web-search hits were already dead (Mercury, Coursera, Grafana, New Relic, Providence, Forth, Depave postings all expired/404).",
+    "Big4/MBB 'entry level' category landing pages are NOT live reqs \u2014 must find the specific open Associate/Analyst requisition."
+  ]
+}
