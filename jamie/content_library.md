@@ -26,7 +26,7 @@ Changes applied from Jamie's review of first 5 applications:
 
 ## Contact Info
 
-515 NW 28th Ave, Apt 9, Portland Oregon, 97210
+1784 NW Northrup Street, Portland, Oregon 97209
 
 ---
 
