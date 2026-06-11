@@ -1,0 +1,221 @@
+{
+  "name": "Jamie (Yi-Chieh) Cheng",
+  "email": "jamiecheng0103@gmail.com",
+  "phone": "213-700-3831",
+  "location": "Portland, OR",
+  "authorized_to_work": true,
+  "requires_sponsorship": true,
+  "linkedin": "http://www.linkedin.com/in/jamieyccheng",
+  "role_url": "https://cambiahealth.wd504.myworkdayjobs.com/External/job/Fargo-ND/Community-and-Culture-Program-Manager_R-6627-1",
+  "ats": "workday",
+  "company": "Cambia Health Solutions",
+  "role": "Community and Culture Program Manager",
+  "meta": {
+    "company": "Cambia Health Solutions",
+    "role": "Community and Culture Program Manager",
+    "req_id": "R-6627",
+    "url": "https://cambiahealth.wd504.myworkdayjobs.com/External/job/Fargo-ND/Community-and-Culture-Program-Manager_R-6627-1",
+    "ats": "workday",
+    "date": "2026-06-10",
+    "id": "cambia_culture_pm"
+  },
+  "personal": {
+    "first_name": "Yi-Chieh",
+    "last_name": "Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "213-700-3831",
+    "location": "Portland, OR",
+    "country": "United States"
+  },
+  "links": {
+    "linkedin": "http://www.linkedin.com/in/jamieyccheng"
+  },
+  "workday_standard_questions": {
+    "authorized_to_work_us": {
+      "question": "Are you authorized to work in the United States?",
+      "answer": "Yes",
+      "context": "Currently on H1B work authorization (valid status)"
+    },
+    "sponsorship_required": {
+      "question": "Will you now or in the future require sponsorship to work in the United States?",
+      "answer": "Yes",
+      "detail": "H1B transfer required. Currently holds H1B status (counted against cap — no lottery needed). Seeking H1B transfer sponsor.",
+      "context": "Jamie is a current H1B holder seeking transfer to Cambia. She is NOT on the cap lottery — her current H1B counts toward the aggregate, so any new sponsor absorbs the transfer without lottery eligibility. This is favorable for employers."
+    },
+    "location_preference": {
+      "question": "Which office location(s) are you interested in or available for?",
+      "answer": "Portland, OR (Primary preference — Jamie lives in Portland)",
+      "alternatives": "Also open to Boise, Seattle-area (if relocated within same region)",
+      "context": "Workday job lists multiple hybrid 3-day/week locations (Salt Lake City, Fargo, Boise, Lewiston, Portland, Renton). Portland is Jamie's home; no relocation cost. Hybrid 3 days/week is compatible with her remote-first background."
+    },
+    "how_did_you_hear": {
+      "question": "How did you hear about this job?",
+      "answer": "LinkedIn",
+      "context": "This is the truthful source. Never claim 'employee referral' unless a named contact exists."
+    },
+    "phone": "213-700-3831",
+    "email": "jamiecheng0103@gmail.com",
+    "linkedin": "http://www.linkedin.com/in/jamieyccheng"
+  },
+  "education": [
+    {
+      "school": "University of Southern California (USC)",
+      "degree": "Master of Science",
+      "field": "Applied Organizational Psychology",
+      "gpa": "3.95",
+      "graduation_date": "May 2023",
+      "currently_attending": false,
+      "context": "Completed May 2023. This is Jamie's strongest credential for HR/OD/culture program work."
+    },
+    {
+      "school": "Wesleyan University",
+      "degree": "Bachelor of Arts",
+      "field": "Psychology & Education Studies",
+      "gpa": "4.00",
+      "graduation_date": "December 2021",
+      "currently_attending": false,
+      "context": "Completed Dec 2021. Psychology + Education Studies foundation directly supports program management and community/culture work."
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "Transition Projects Inc.",
+      "job_title": "Consultant, OD & Employee Engagement",
+      "start_date": "August 2025",
+      "end_date": "Present (ongoing)",
+      "currently_working_here": true,
+      "location": "Remote",
+      "description": "HR data analytics, leave case audits (300+ cases), executive-level reporting, organizational development and employee engagement consulting. Work conducted via ODN Oregon engagement.",
+      "highlights": [
+        "Conducted audits and data analysis on 300+ leave cases with executive-level insights",
+        "Provided organizational development guidance on employee engagement",
+        "Worked cross-functionally on HR analytics and strategic reporting"
+      ],
+      "context": "This is volunteer OD consulting through ODN Oregon partner. Real work, real impact, but unpaid/volunteer context. Keep descriptions factual; do not overstate as 'management consulting.'"
+    },
+    {
+      "company": "InGenius Prep, LLC",
+      "job_title": "Program Enablement Manager",
+      "start_date": "September 2023",
+      "end_date": "Present (ongoing)",
+      "currently_working_here": true,
+      "location": "Remote, USA",
+      "description": "Designed and launched 3 new educational programs. Trained 600+ participants via webinars. Managed 20+ programs and 10+ vendor relationships. Optimized cross-functional workflows for 70+ staff, reducing onboarding time by 75%.",
+      "highlights": [
+        "Designed 3 new educational programs from needs assessment through launch",
+        "Managed vendor relationships and program operations across 20+ active programs",
+        "Delivered training to 600+ participants, with strong feedback and completion rates",
+        "Redesigned onboarding workflow for 70+ staff, reducing onboarding time by 75%",
+        "Led cross-functional coordination across program, vendor, and delivery teams"
+      ],
+      "context": "Core program management experience. This is where Jamie demonstrates hands-on program ops, vendor management, stakeholder coordination, and execution. CAMBIA FIT: InGenius taught her how to manage ERG-like communities (student communities, teacher networks) and coordinate across distributed teams."
+    },
+    {
+      "company": "NextGen Healthcare",
+      "job_title": "OD Intern (Work Sample / Capstone)",
+      "start_date": "January 2023",
+      "end_date": "May 2023",
+      "currently_working_here": false,
+      "location": "Los Angeles, CA",
+      "description": "Supported organizational development initiatives including employee engagement survey design, DEI program development, and OD project work as part of graduate capstone.",
+      "highlights": [
+        "Designed and administered employee engagement survey",
+        "Supported DEI initiatives and culture programming",
+        "Developed OD project recommendations based on organizational analysis"
+      ],
+      "context": "Academic work sample / capstone, not paid employment. Real work, real organizational insights, but context is academic. Use for culture/engagement fit, not as primary experience."
+    },
+    {
+      "company": "Vestas Wind Systems",
+      "job_title": "HR Business Partner Assistant (Work Sample / Capstone)",
+      "start_date": "February 2022",
+      "end_date": "October 2022",
+      "currently_working_here": false,
+      "location": "Taipei, Taiwan",
+      "description": "Supported HRBP function on DEI pilot programs, M&A transition project support, and onboarding program design during gap year before grad school.",
+      "highlights": [
+        "Designed DEI pilot programs in partnership with local HR teams",
+        "Supported M&A integration project (transition planning and communications)",
+        "Redesigned onboarding experience for new hires"
+      ],
+      "context": "Pre-MBA gap-year work. Real HRBP exposure; Jamie saw how HR supports business transitions. Demonstrates onboarding + DEI experience."
+    },
+    {
+      "company": "Kronos Research",
+      "job_title": "HR Intern",
+      "start_date": "January 2021",
+      "end_date": "August 2021",
+      "currently_working_here": false,
+      "location": "Taipei, Taiwan",
+      "description": "Full-cycle recruitment, compensation analysis, performance management in early-stage crypto trading firm.",
+      "highlights": [
+        "Conducted full-cycle recruiting for technical and business roles",
+        "Analyzed compensation data and conducted market benchmarking",
+        "Supported performance management and employee feedback processes"
+      ],
+      "context": "Early internship; limited relevance to culture/people program manager role. Include for completeness, but don't emphasize."
+    }
+  ],
+  "key_screening_answers": {
+    "culture_program_experience": {
+      "question": "Tell us about your experience managing employee programs or culture initiatives. What types of programs have you managed? How did you measure success?",
+      "answer_framework": [
+        "At InGenius Prep, I designed and managed 20+ educational programs serving 600+ participants annually. I conducted needs assessments to identify skill gaps, worked with vendors and cross-functional teams to design tailored programs, and measured success through participant feedback (NPS), completion rates, and business impact (e.g., 75% reduction in onboarding time).",
+        "Through my OD consulting work at Transition Projects Inc., I've supported organizational culture and engagement initiatives, including employee survey design and analysis — giving me insight into how to translate culture strategy into actionable programs.",
+        "At NextGen Healthcare (capstone), I contributed to DEI program design and employee engagement surveys, deepening my understanding of how culture initiatives intersect with hiring, development, and day-to-day employee experience."
+      ],
+      "emphasis": "Program management + stakeholder coordination + measurement-driven approach"
+    },
+    "erg_community_experience": {
+      "question": "Have you worked with Employee Resource Groups (ERGs), employee communities, or volunteer/foundation partnerships?",
+      "answer_framework": [
+        "While I haven't managed formal ERGs, my InGenius experience taught me how to build and sustain employee communities at scale. I coordinated with teachers, students, and partner organizations — essentially serving as the program backbone that keeps communities connected and resourced.",
+        "My OD and DEI work gives me familiarity with how ERGs and employee communities drive inclusion and belonging — and how critical the 'program management backbone' is to keep them thriving (logistics, visibility, resources, cross-functional alignment).",
+        "I'm excited to learn Cambia's ERG model and bring my community-building and operational excellence mindset to supporting ERG leaders and growing employee connections across locations."
+      ],
+      "emphasis": "Program ops skills transfer; enthusiasm to learn Cambia's specific model; understands ERG criticality"
+    },
+    "cross_functional_collaboration": {
+      "question": "Describe a time you had to coordinate across multiple teams or stakeholders with competing priorities. How did you manage it?",
+      "answer_framework": [
+        "At InGenius, I coordinated across program teams, vendors, and 70+ staff with different priorities — teachers needed curriculum resources, program managers needed vendor updates, and staff needed clear onboarding. I built a shared roadmap, held weekly check-ins with stakeholders, documented decisions in a central repository, and prioritized based on business impact and timeline. This coordination reduced onboarding time by 75%.",
+        "In my OD consulting work, I work across different organizational functions to understand challenges and design solutions that move the needle. This requires translating between HR language and operational language, and building buy-in from multiple levels."
+      ],
+      "emphasis": "Systems thinking; stakeholder management; documentation; results-oriented"
+    },
+    "why_cambia": {
+      "question": "Why are you interested in the Community and Culture Program Manager role at Cambia?",
+      "answer_framework": [
+        "Cambia's mission of 'Belonging isn't a program — it's how we work' resonates deeply with me. I've spent my career designing programs that bring people together and foster a sense of community — from managing educational programs that connected 600+ learners to supporting DEI and engagement initiatives.",
+        "This role sits at the intersection of program management and culture — exactly where I thrive. I love the systems-thinking part of keeping communities resourced and connected, and I'm drawn to Cambia's commitment to embedding belonging into how work gets done, not just as a side program.",
+        "The hybrid 3-day/week model in Portland works perfectly with my location, and I'm excited to bring my program operations, vendor coordination, and cross-functional collaboration skills to support Cambia's ERG leaders and culture initiatives across multiple locations."
+      ],
+      "emphasis": "Mission alignment; skill-role fit; location/flexibility fit; genuine enthusiasm"
+    }
+  },
+  "voluntary_disclosures": {
+    "disability": {
+      "question": "Do you have a disability (physical, mental, or sensory) that substantially limits one or more major life activities?",
+      "answer": "No",
+      "context": "Jamie has not disclosed any disability. Answer honestly."
+    },
+    "veteran_status": {
+      "question": "Are you a veteran or member of the Armed Forces?",
+      "answer": "No",
+      "context": "Jamie is not a veteran. Answer honestly."
+    },
+    "race_ethnicity": {
+      "question": "What is your race or ethnicity? (Optional — EEOC collecting data)",
+      "answer": "Prefer to self-identify if Workday prompts for write-in: 'Asian American (Taiwanese heritage)'",
+      "context": "Jamie is Taiwanese American. She can disclose or skip per her comfort. If Workday has dropdown, select closest match (Asian or Asian American if available). Do NOT skip if it's free-text."
+    }
+  },
+  "truthfulness_flags": {
+    "h1b_status_accuracy": "Jamie currently holds valid H1B status. She is a TRANSFER case (not lottery/cap subject). This is a strong position for employers — make it clear in the sponsorship answer.",
+    "title_accuracy": "Her actual title at InGenius is 'Program Enablement Manager'; at Transition Projects/ODN is volunteer OD consulting. Do NOT overstate as 'Program Manager' or 'Senior' roles.",
+    "experience_context": "NextGen and Vestas were work samples/capstones — real work, real insight, but academic context. Don't claim 'full-time OD role' or 'HRBP role'; claim the experience truthfully.",
+    "no_fabrications": "Do NOT claim InGenius is enterprise-scale, do NOT claim direct reports, do NOT claim PMP/ADKAR certification, do NOT claim instructional design depth.",
+    "location_honest": "Portland, OR is Jamie's actual home. She's not relocating for this role. If Workday location logic requires relocation flag, clarify: 'Open to hybrid Portland office; no relocation needed.'",
+    "vendor_management_accurate": "Jamie managed 20+ programs and 10+ vendors at InGenius — this is real and directly relevant to Cambia's ERG support role."
+  }
+}
