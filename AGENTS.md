@@ -12,6 +12,14 @@
 - **The most important rule:** anything written in Jamie's voice (resume bullets, cover letters,
   outreach, essays) follows `jamie/JAMIE_FEEDBACK_RULES.md` + `jamie/jamie_voice_corpus.md` —
   her real phrasing, her real stories, never invented or inflated. Truth over polish.
+- **🚨 RULE 0 — NO FABRICATION + SELF-QUALITY-GATE** (`jamie/JAMIE_FEEDBACK_RULES.md` §0, and
+  `CLAUDE.md` "RULE 0"). Highest-priority rule in the system. Truth beats fit: every claim must trace
+  to `jamie/resume.md` / `content_library.md` / `profile_compact.md`. Don't relabel real experience to
+  fit the JD (ODN = OD diagnostic consulting, NOT community/ERG/network-building — adjacent ≠ same).
+  Disclose gaps; when unsure, ASK Jamie — never guess. **Orchestrator must (1) brief every Jamie-voice
+  sub-agent with RULE 0 + the true "What Jamie actually does / DON'T claim" notes from `resume.md` in the
+  dispatch prompt, and (2) READ + fact-check agent output against source before Jamie sees it. "Agent said
+  done" is not verification.**
 
 ## 1. Skills (how Jamie triggers work)
 Codex skills live in `.agents/skills/<name>/SKILL.md` and are invoked with `/<name>` or `$<name>`:
