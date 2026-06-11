@@ -186,6 +186,12 @@ The full guardrails are in `/evaluate` skill Step 5b. Quick reference:
 7. **Pre-report sanity check:** Is the score driven by ROLE fit or by score-modifiers? If by modifiers, subtract 10. Modifiers should support a real fit, not manufacture one.
 
 ## H1B Quick Reference
+> ⚠️ **This is a fast-lookup EXCERPT, not the source of truth.** The canonical H1B cache is
+> `jamie/h1b_verified.md` (full LCA detail, tech-only vs People-role nuance, dates). When this
+> list and `h1b_verified.md` disagree, **`h1b_verified.md` wins** — and many "confirmed sponsors"
+> below are TECH-ONLY (no People/HR filings), so always check the full file before applying to a
+> People role. The pipeline reads `h1b_verified.md` via `jamie-autopilot/lib/h1b_prefilter.py`.
+
 **Confirmed sponsors:** Google, Meta, Amazon, Microsoft, Apple, Stripe, Spotify, Netflix, Disney, EA, Epic, Riot, HubSpot, T-Mobile, Salesforce, Adobe, Intel, Nike, Mercer, Aon, Korn Ferry, WTW (senior only), Accenture, McKinsey, Axon, dbt Labs, Plaid, BCG
 **Cap-exempt:** PSU, U of Portland, Reed, LC, OSU, UO, UW, OHSU, PeaceHealth, Providence, Legacy, Kaiser NW, Seattle Children's, Fred Hutch
 **No sponsor:** Deloitte, PCC, Customer.io, DriveWealth, Boeing

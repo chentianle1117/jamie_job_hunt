@@ -54,7 +54,7 @@ Not in git (machine-specific + points at the local secret path). Add this block 
   }
 }
 ```
-(On Mac/Codex this lives in `~/.codex/config.toml` instead — see `codex-config.example.toml`.)
+(On Mac, add the same block to `~/.claude.json` under `mcpServers` — see `SETUP.md` section E.)
 
 ---
 
@@ -82,7 +82,7 @@ A `David Chen` rule simply never matches on the `chent` PC and vice-versa, so on
 
 ## Sanity check (after setup)
 1. `python jamie-autopilot/lib/platform_utils.py` → prints Chrome binary, debug profile, ports, repo roots (all resolved for THIS machine).
-2. Ask Claude/Codex: "search my Gmail inbox, 1 message, for tianlechen0324@gmail.com" → returns JSON, not an auth error.
+2. Ask Claude Code: "search my Gmail inbox, 1 message, for tianlechen0324@gmail.com" → returns JSON, not an auth error.
 3. Launch the debug Chrome → log into LinkedIn + Google once (the profile is per-machine, re-cloned on first run).
 
 ---

@@ -1,16 +1,18 @@
-# RUN_GUIDE — Running the Job-Search Pipeline (Jamie · Mac · Codex)
+# RUN_GUIDE — Running the Job-Search Pipeline (Jamie · Mac · Claude Code)
 
 > Plain-English run guide. One-time setup once; then the "every run" routine. For the deeper
-> system map see `AGENTS.md`, `SETUP.md`, and `jamie-second-brain/Work/Career/Job Search System.md`.
+> system map see `repo_map.md`, `SETUP.md`, and `jamie-second-brain/Work/Career/Job Search System.md`.
 
 ---
 
 ## ⚙️ ONE-TIME SETUP
 
-**1. Confirm all three repos are cloned as siblings:**
+**1. Confirm the repos are cloned as siblings:**
 ```bash
 cd ~/Agentic_Workflows_2026 && ls   # expect: oracle-job-search  jamie-autopilot  jamie-second-brain
 ```
+`oracle-job-search` is the local checkout of `chentianle1117/jamie_job_hunt` — the same repo as
+`~/jamie_job_hunt`. Keep both pulled/synced.
 
 **2. Pull the latest:**
 ```bash
@@ -31,42 +33,36 @@ python3 -m playwright install chromium
 python3 -m patchright install chrome
 ```
 
-**4. Google credential (the workspace-MCP blocker):**
+**4. Google credential (the workspace-MCP requirement):**
 - Get **`client_secret.json`** from David (shared OAuth app credential — not in any repo by design).
 - Save it: `mkdir -p ~/.google_workspace_mcp` then move the file to `~/.google_workspace_mcp/client_secret.json`.
 
-**5. Codex config:**
-```bash
-cp ~/Agentic_Workflows_2026/oracle-job-search/codex-config.example.toml ~/.codex/config.toml
-```
-Edit `~/.codex/config.toml`: set `writable_roots` to `/Users/jamiecheng/Agentic_Workflows_2026`.
-It already sets `AI_BRAIN=codex` (routes fit-analysis to your ChatGPT Plus).
-
-**6. Restart Codex, then authorize your Google:**
-In `codex`, run:
+**5. Authorize Google via workspace-mcp:**
+In Claude Code, run:
 ```
 start_google_auth(service_name="drive", user_google_email="jamiecheng0103@gmail.com")
 ```
 Click the link → sign in → done. **If "port 8765 in use":** `lsof -ti tcp:8765 | xargs kill -9`, retry.
-(Full detail: `jamie-second-brain/Work/Career/Workspace MCP — Multi-Account Google Setup (Mac, Codex).md`.)
+(Full detail: `jamie-second-brain/Work/Career/Workspace MCP — Multi-Account Google Setup (Mac).md`.)
 
-**7. Verify:** ask Codex to "search my Gmail inbox for the last day via workspace-mcp" → JSON, not an auth error.
+**6. Verify:** Ask Claude Code to "search my Gmail inbox for the last day via workspace-mcp" → JSON, not an auth error.
 
 ---
 
 ## ▶️ EVERY RUN
 
-**1. Open Terminal → repo → pull → launch Codex:**
+**1. Open Terminal → repo → pull → open Claude Code:**
 ```bash
 cd ~/Agentic_Workflows_2026/oracle-job-search
 git pull origin main
-codex
+claude
 ```
-Codex auto-reads `AGENTS.md`.
+Claude Code reads `CLAUDE.md` automatically and loads skills from `.claude/skills/`.
 
-**2. Start the debug Chrome** (needed for browser/apply steps) — tell Codex:
+**2. Start the debug Chrome** (needed for browser/apply steps) — tell Claude Code:
 > "Launch the debug Chrome for the pipeline."
 First time, log into LinkedIn + Google in that window so the session is authenticated.
+For interactive captcha/login steps, use Claude Code with the Claude-in-Chrome MCP.
 
 **3. Run — just ask, or use a skill:**
 - `/jamie-autopilot` — full round (discover → tailor → audit → package)
@@ -95,7 +91,6 @@ First time, log into LinkedIn + Google in that window so the session is authenti
 
 ## 🆘 Troubleshooting
 - **Workspace-MCP / OAuth error** → re-run the `start_google_auth` step (port-8765 fix above).
-- **"couldn't reach a brain" / Gemini error** → confirm `AI_BRAIN=codex` is in `~/.codex/config.toml`.
 - **`git pull` refuses (local changes)** → `git -C <repo> fetch && git -C <repo> reset --hard origin/main`
   (safe — you're a user of these repos, not an editor).
 - **Anything else** → screenshot + send to David.

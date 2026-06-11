@@ -379,4 +379,4 @@ Audit agents MUST verify ALL of these and flag any failure.
   package re-described ODN Oregon as "ERG / community building." Codified: every claim must be sourced; adjacent
   ≠ same; disclose gaps; ask-don't-guess; orchestrator must brief agents with ground truth up front AND read +
   fact-check agent output against source before Jamie sees it (self-imposed quality gate). Mirrored into
-  `CLAUDE.md`, oracle `AGENTS.md`, and `jamie-autopilot/AGENTS.md`.
+  `CLAUDE.md` and `jamie-autopilot/CLAUDE.md`. (Codex `AGENTS.md` layer retired 2026-06-10.)
