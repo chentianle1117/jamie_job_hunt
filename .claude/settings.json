@@ -4,6 +4,18 @@
     "defaultMode": "bypassPermissions"
   },
   "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/jamiecheng/jamie_job_hunt/.claude/hooks/session_sources.sh",
+            "timeout": 10,
+            "statusMessage": "Loading Jamie job-search source-of-truth checklist..."
+          }
+        ]
+      }
+    ],
     "PostToolUse": [
       {
         "matcher": "Edit|Write|Bash",
