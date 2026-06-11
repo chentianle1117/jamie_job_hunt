@@ -1,0 +1,14 @@
+{
+  "company": "Carnegie Mellon University",
+  "title": "Coordinator of Student Involvement and Traditions",
+  "url": "https://cmu.wd5.myworkdayjobs.com/en-US/CMU/job/Pittsburgh-PA/Coordinator-of-Student-Involvement-and-Traditions---Division-of-Student-Affairs_2024598",
+  "score": 78,
+  "verdict": "STRETCH",
+  "resume_pdf": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/cmu_student_involvement_traditions/resume.pdf",
+  "cover_letter_pdf": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/cmu_student_involvement_traditions/cover_letter.pdf",
+  "submission_guide": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/cmu_student_involvement_traditions/submission_guide.md",
+  "form_fields": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/cmu_student_involvement_traditions/form_fields.json",
+  "live_form_status": "login_or_account_required",
+  "deep_form_status": null,
+  "human_action": "Create/sign into Workday candidate account, verify email if prompted, then upload PDFs and use form_fields.json."
+}

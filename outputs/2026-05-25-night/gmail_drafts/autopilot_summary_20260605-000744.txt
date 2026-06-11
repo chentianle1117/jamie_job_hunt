@@ -1,0 +1,28 @@
+To: jamiecheng0103@gmail.com
+Subject: [DRY RUN] 🤖 Autopilot Run Complete — 2026-06-05
+
+🤖 Jamie Autopilot — Apply Orchestrator Run Complete
+Date: 2026-06-05 00:07  |  Mode: DRY RUN (no real submissions)
+Audit log: /Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/outputs/2026-05-25-night/apply_audit_20260605-000744.json
+
+── SUMMARY ──────────────────────────────────
+  🔵 Dry-run completed (no submissions): 3
+  👀 Stopped for your review: 0
+  🤚 Requires manual apply:   0
+  ❌ Failed / error:           0
+
+── PER-ROLE STATUS ──────────────────────────
+  🔵 [PACKAGE] University of Portland — Program Manager, Community Engagement  score=88
+     ATS: PeopleAdmin (browser)  |  decision: dry_run_completed
+     reason: Dry run — would have dispatched to peopleadmin browser handler. Re-run with --live to execute.
+
+  🔵 [PACKAGE] University of Portland — Program Manager, Social Justice Education  score=76
+     ATS: PeopleAdmin (browser)  |  decision: dry_run_completed
+     reason: Dry run — would have dispatched to peopleadmin browser handler. Re-run with --live to execute.
+
+  🔵 [DECISION] Sandvik Inc — HR Specialist / Training & Development  score=78
+     ATS: Workday (browser)  |  decision: dry_run_completed
+     reason: Dry run — would have dispatched to workday browser handler. Re-run with --live to execute.
+
+Dashboard: https://notion.so (see Jamie Job Search Tracker > Applications)
+─────────────────────────────────────────────

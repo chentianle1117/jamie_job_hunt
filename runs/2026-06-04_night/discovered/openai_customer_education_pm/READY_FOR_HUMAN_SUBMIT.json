@@ -1,0 +1,16 @@
+{
+  "status": "ready_for_human_submit",
+  "checked_at": "2026-06-05",
+  "url": "https://jobs.ashbyhq.com/openai/1778fbc9-b9c5-4ea5-a1d3-aa7bea0be272/application",
+  "reason_human_required": "Ashby form is CAPTCHA-protected; autonomous submit is prohibited.",
+  "missing_required_fields": [],
+  "verified_answers": {
+    "legal_name": "Yi-Chieh Cheng",
+    "current_location": "Portland, Oregon, United States",
+    "start_date": "07/01/2026",
+    "authorized_to_work": "Yes",
+    "requires_sponsorship": "Yes",
+    "can_work_from_us_office_three_days_per_week": "Yes"
+  },
+  "human_next_step": "Review the open Chrome tab, clear any CAPTCHA if shown, then click Submit only if Jamie is comfortable with hybrid US-office expectations."
+}

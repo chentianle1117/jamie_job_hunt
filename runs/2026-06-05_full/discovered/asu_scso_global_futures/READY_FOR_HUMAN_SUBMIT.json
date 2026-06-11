@@ -1,0 +1,14 @@
+{
+  "company": "Arizona State University",
+  "title": "Program Coordinator, SCSO and Global Futures Impact Scholars",
+  "url": "https://asu.wd1.myworkdayjobs.com/en-US/ASUStaffCareers/job/Campus-Tempe/Program-Coordinator--SCSO-and-Global-Futures-Impact-Scholars_JR119323",
+  "score": 82,
+  "verdict": "STRETCH",
+  "resume_pdf": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/asu_scso_global_futures/resume.pdf",
+  "cover_letter_pdf": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/asu_scso_global_futures/cover_letter.pdf",
+  "submission_guide": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/asu_scso_global_futures/submission_guide.md",
+  "form_fields": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/asu_scso_global_futures/form_fields.json",
+  "live_form_status": "login_or_account_required",
+  "deep_form_status": null,
+  "human_action": "Create/sign into Workday candidate account, verify email if prompted, then upload PDFs and use form_fields.json."
+}

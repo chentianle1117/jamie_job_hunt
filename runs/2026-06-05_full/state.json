@@ -1,0 +1,101 @@
+{
+  "run_id": "2026-06-05_full",
+  "mode": "full_guarded",
+  "generated_at": "2026-06-05",
+  "summary": {
+    "verified_candidates": 23,
+    "packaged": 4,
+    "auto_submitted": 0,
+    "notes": "Direct Sheets API is disabled; tracker update deferred. Workday roles prepared for human final submit.",
+    "package_ready": 3,
+    "needs_decision": 1,
+    "finalized_at": "2026-06-05T20:45:12.443424",
+    "live_form_result": "Workday account creation/sign-in required before field fill."
+  },
+  "applications": [
+    {
+      "id": "cmu_corporate_startup_lab",
+      "company": "Carnegie Mellon University",
+      "title": "Academic Program Manager, Corporate Startup Lab",
+      "url": "https://cmu.wd5.myworkdayjobs.com/en-US/CMU/job/Pittsburgh-PA/Academic-Program-Manager--Corporate-Startup-Lab--CSL----Tepper-School-of-Business_2024527",
+      "score": 86,
+      "verdict": "GO",
+      "lane": "PACKAGE_READY",
+      "ats": "workday",
+      "folder": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/cmu_corporate_startup_lab",
+      "h1b": "Cap-exempt university employer; no no-sponsorship language found in captured JD.",
+      "risk": "Relocation to Pittsburgh; Workday may require account sign-in before final submit.",
+      "submission": {
+        "status": "ready_for_human_submit",
+        "mode": "workday_account_required",
+        "live_form_status_path": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/cmu_corporate_startup_lab/LIVE_FORM_STATUS.json",
+        "deep_status_path": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/cmu_corporate_startup_lab/LIVE_FORM_DEEP_STATUS.json",
+        "screenshots_dir": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/cmu_corporate_startup_lab/screenshots",
+        "note": "Apply opened; Workday requires account creation/sign-in before form fields are reachable."
+      }
+    },
+    {
+      "id": "asu_graduate_programs_support",
+      "company": "Arizona State University",
+      "title": "Graduate Programs Student Services Support Coordinator",
+      "url": "https://asu.wd1.myworkdayjobs.com/en-US/ASUStaffCareers/job/Campus-Tempe/Graduate-Programs-Student-Services-Support-Coordinator_JR121920",
+      "score": 84,
+      "verdict": "STRETCH",
+      "lane": "PACKAGE_READY",
+      "ats": "workday",
+      "folder": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/asu_graduate_programs_support",
+      "h1b": "Cap-exempt university employer; no no-sponsorship language found in captured JD.",
+      "risk": "Hybrid Tempe relocation; role is student-services heavy, so advising/admin load should be confirmed.",
+      "submission": {
+        "status": "ready_for_human_submit",
+        "mode": "workday_account_required",
+        "live_form_status_path": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/asu_graduate_programs_support/LIVE_FORM_STATUS.json",
+        "deep_status_path": null,
+        "screenshots_dir": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/asu_graduate_programs_support/screenshots",
+        "note": "Apply opened; Workday requires account creation/sign-in before form fields are reachable."
+      }
+    },
+    {
+      "id": "asu_scso_global_futures",
+      "company": "Arizona State University",
+      "title": "Program Coordinator, SCSO and Global Futures Impact Scholars",
+      "url": "https://asu.wd1.myworkdayjobs.com/en-US/ASUStaffCareers/job/Campus-Tempe/Program-Coordinator--SCSO-and-Global-Futures-Impact-Scholars_JR119323",
+      "score": 82,
+      "verdict": "STRETCH",
+      "lane": "PACKAGE_READY",
+      "ats": "workday",
+      "folder": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/asu_scso_global_futures",
+      "h1b": "Cap-exempt university employer; no no-sponsorship language found in captured JD.",
+      "risk": "Low salary and June 8, 2026 application deadline; apply only if the mission fit outweighs comp.",
+      "submission": {
+        "status": "ready_for_human_submit",
+        "mode": "workday_account_required",
+        "live_form_status_path": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/asu_scso_global_futures/LIVE_FORM_STATUS.json",
+        "deep_status_path": null,
+        "screenshots_dir": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/asu_scso_global_futures/screenshots",
+        "note": "Apply opened; Workday requires account creation/sign-in before form fields are reachable."
+      }
+    },
+    {
+      "id": "cmu_student_involvement_traditions",
+      "company": "Carnegie Mellon University",
+      "title": "Coordinator of Student Involvement and Traditions",
+      "url": "https://cmu.wd5.myworkdayjobs.com/en-US/CMU/job/Pittsburgh-PA/Coordinator-of-Student-Involvement-and-Traditions---Division-of-Student-Affairs_2024598",
+      "score": 78,
+      "verdict": "STRETCH",
+      "lane": "NEEDS_DECISION",
+      "ats": "workday",
+      "folder": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/cmu_student_involvement_traditions",
+      "h1b": "Cap-exempt university employer; no no-sponsorship language found in captured JD.",
+      "risk": "More student-affairs/event-advising than Jamie's core OD target; good package but not auto-submit.",
+      "submission": {
+        "status": "ready_for_human_submit",
+        "mode": "workday_account_required",
+        "live_form_status_path": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/cmu_student_involvement_traditions/LIVE_FORM_STATUS.json",
+        "deep_status_path": null,
+        "screenshots_dir": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/cmu_student_involvement_traditions/screenshots",
+        "note": "Apply opened; Workday requires account creation/sign-in before form fields are reachable."
+      }
+    }
+  ]
+}

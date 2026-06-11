@@ -1,0 +1,19 @@
+{
+  "overall_verdict": "PACKAGE_OR_DECISION",
+  "score": 82,
+  "verdict": "STRETCH",
+  "lane_recommendation": "PACKAGE_READY",
+  "checks": {
+    "resume_broad_summary": true,
+    "no_fabricated_metrics": true,
+    "one_page_required": true,
+    "h1b_truthful": true,
+    "captcha_policy": "Do not solve or bypass; hand to Jamie if present."
+  },
+  "failures": [
+    "Sponsorship truth not represented"
+  ],
+  "risk_flags": [
+    "Low salary and June 8, 2026 application deadline; apply only if the mission fit outweighs comp."
+  ]
+}

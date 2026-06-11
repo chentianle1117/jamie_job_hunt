@@ -1,0 +1,19 @@
+{
+  "overall_verdict": "PACKAGE_OR_DECISION",
+  "score": 86,
+  "verdict": "GO",
+  "lane_recommendation": "PACKAGE_READY",
+  "checks": {
+    "resume_broad_summary": true,
+    "no_fabricated_metrics": true,
+    "one_page_required": true,
+    "h1b_truthful": true,
+    "captcha_policy": "Do not solve or bypass; hand to Jamie if present."
+  },
+  "failures": [
+    "Sponsorship truth not represented"
+  ],
+  "risk_flags": [
+    "Relocation to Pittsburgh; Workday may require account sign-in before final submit."
+  ]
+}

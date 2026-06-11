@@ -1,0 +1,30 @@
+{
+  "first_name": "Jamie (Yi-Chieh)",
+  "last_name": "Cheng",
+  "preferred_name": "Jamie",
+  "email": "jamiecheng0103@gmail.com",
+  "phone": "+1-213-700-3831",
+  "address_line_1": "515 NW 28th Ave, Apt 9",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97210",
+  "country": "United States",
+  "linkedin_url": "https://www.linkedin.com/in/jamieyccheng",
+  "work_authorization": {
+    "authorized_to_work_us": true,
+    "requires_sponsorship": true,
+    "us_citizen_or_pr": false,
+    "current_status": "Requires H-1B sponsorship or transfer"
+  },
+  "demographics": {
+    "gender": "Female",
+    "ethnicity": "Asian",
+    "veteran_status": "No",
+    "disability_status": "No"
+  },
+  "salary_expectations_range": "$70,000 - $95,000",
+  "preferred_start_date": "Negotiable, ideally July 2026",
+  "willing_to_relocate": true,
+  "open_to_remote": true,
+  "preferred_location": "Pittsburgh, PA"
+}

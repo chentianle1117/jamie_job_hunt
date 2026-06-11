@@ -1,0 +1,14 @@
+{
+  "company": "Carnegie Mellon University",
+  "title": "Academic Program Manager, Corporate Startup Lab",
+  "url": "https://cmu.wd5.myworkdayjobs.com/en-US/CMU/job/Pittsburgh-PA/Academic-Program-Manager--Corporate-Startup-Lab--CSL----Tepper-School-of-Business_2024527",
+  "score": 86,
+  "verdict": "GO",
+  "resume_pdf": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/cmu_corporate_startup_lab/resume.pdf",
+  "cover_letter_pdf": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/cmu_corporate_startup_lab/cover_letter.pdf",
+  "submission_guide": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/cmu_corporate_startup_lab/submission_guide.md",
+  "form_fields": "/Users/jamiecheng/Agentic_Workflows_2026/oracle-job-search/runs/2026-06-05_full/discovered/cmu_corporate_startup_lab/form_fields.json",
+  "live_form_status": "login_or_account_required",
+  "deep_form_status": "Create Account",
+  "human_action": "Create/sign into Workday candidate account, verify email if prompted, then upload PDFs and use form_fields.json."
+}
