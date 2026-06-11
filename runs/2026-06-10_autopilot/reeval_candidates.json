@@ -1,0 +1,30 @@
+[
+  {
+    "company": "Nike",
+    "title": "Talent Mobility Coordinator",
+    "url": "https://careers.nike.com/",
+    "location": "Beaverton, OR",
+    "note": "Tier1 local P1 fit; passed only on tech-only H1B history \u2192 now warning. RE-VERIFY live req."
+  },
+  {
+    "company": "Grafana Labs",
+    "title": "People Analytics Analyst",
+    "url": "https://grafana.com/about/careers/open-positions/",
+    "location": "Remote US",
+    "note": "P1 fit; zero-filing-history \u2192 warning now. Re-verify if live."
+  },
+  {
+    "company": "Coursera",
+    "title": "People Analytics Analyst",
+    "url": "https://careers.coursera.com/",
+    "location": "Remote US",
+    "note": "P1 fit; tech-only filings \u2192 warning. Re-verify live."
+  },
+  {
+    "company": "New Relic",
+    "title": "Data Analyst, People Analytics",
+    "url": "https://newrelic.com/about/careers",
+    "location": "Remote",
+    "note": "P1 fit; tech-only filings \u2192 warning. Re-verify live."
+  }
+]
