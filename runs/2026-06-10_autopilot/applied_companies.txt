@@ -1,0 +1,54 @@
+Anduril
+Aquent
+AuditBoard
+Axon
+BCG
+BNY
+Block
+ButterflyMX
+CRB
+Camunda
+DoorDash
+Dropbox
+EPAM
+Fairmarkit
+Forrester
+Frontline Education
+GAP
+Gap Inc.
+Gartner
+Gecko Robotics
+Genentech
+Genesys
+GlobalFoundries
+Grow Therapy
+HICO America
+Headlight
+Hitachi
+IDB Group
+Janney Montgomery Scott LLC
+Latham & Watkins
+Masis Professional Group
+Mercer
+Microsoft
+NBCUniversal
+One Inc
+Owens Corning
+PNC
+PPG
+Pinterest
+REI
+RHI Magnesita
+RedCross
+Saint Anthony Hospital
+Servicenow
+Skanska
+Snap
+Stripe
+Taksrabbit
+Thrive Global
+UPMC
+Under Armour
+Volve
+WM
+Xpanse
