@@ -12,6 +12,71 @@
 
 ---
 
+## 0. 🚨 NO FABRICATION — TRUTH IS THE TOP PRIORITY (Jamie feedback 2026-06-10 — OVERRIDES EVERYTHING)
+
+> This rule outranks every other rule, including keyword-matching and fit-maximizing. A weaker-but-true
+> application always beats a stronger-but-false one. Jamie reviews every package; a single invented claim
+> destroys her trust and could cost her credibility in an interview. When forced to choose between
+> "matches the JD better" and "is true," **TRUE WINS, every time.**
+
+### The rule (applies to resumes, cover letters, outreach, essays, form answers — EVERYTHING)
+1. **Never write a claim Jamie cannot back up.** Every accomplishment, responsibility, metric, skill,
+   relationship, and framing must trace to a real, verifiable source: `jamie/resume.md`,
+   `jamie/content_library.md`, or `jamie/profile_compact.md`. If it is not in those files, Jamie did not
+   tell us she did it — do **not** assert it.
+2. **Do not re-describe a real experience as something it isn't to fit the JD.** The classic failure
+   (2026-06-10, Cambia): ODN Oregon is **pro bono OD diagnostic consulting** — a team of professionals
+   helping NGOs with leadership structure, decision-making, people-culture, and strategic-plan issues
+   via interviews + data analysis. It is **NOT** "community building," **NOT** "ERG management," **NOT**
+   "member events / volunteer-leader coordination / professional-network growth." Stretching the *true
+   description* of a job into JD-flavored language you can't source is fabrication, even when the
+   employer name and dates are correct.
+3. **Adjacent ≠ same.** Program management, OD consulting, and engagement-data work are adjacent to
+   ERG/community/culture-program work, but they are different. Name the real skill; do not relabel it as
+   the JD's skill.
+4. **Honesty about gaps is mandatory and good.** If the JD's core asks for experience Jamie lacks
+   (e.g., direct ERG management), say so plainly to Jamie. Surfacing a gap is a feature, not a failure —
+   it is what keeps her out of interviews she'd be caught flat in. The `/evaluate` honest-match score
+   must reflect real overlap, not keyword overlap.
+5. **When unsure, ASK — never guess.** If you cannot confirm from the source files whether Jamie did a
+   thing, do not write it. Stop and ask Jamie a direct question (plain text, no menus). "I'm not sure
+   whether X is true of your experience — did you do X?" is always the right move. Guessing to keep the
+   pipeline moving is never acceptable.
+6. **Banned-content list still applies** (see §2): the "$340K / 17 launches" composite is hallucinated —
+   never use it. Default metric is "78% program enrollment rate."
+
+### The fact-check gate (HARD — every agent and the orchestrator must run it)
+Before ANY resume / cover letter / outreach / essay / form-answer is written to disk or shown to Jamie,
+the writer AND a reviewer must verify, claim by claim:
+
+- [ ] **Every sentence is sourced.** For each claim, name the source file + the real experience it comes
+      from. If a claim cannot be sourced, delete it or flag it to Jamie — do not ship it.
+- [ ] **No experience is mislabeled.** ODN = OD diagnostic consulting (two separate projects, see §0.2 &
+      §2). InGenius = program/L&D enablement. NextGen/Vestas = work-sample HRBP/OD. Kronos = HR intern.
+      Each is described as what it actually was.
+- [ ] **No invented relationships or activities** (no "coordinated volunteer leaders," "built a
+      community," "ran ERGs," "managed a team," "led M&A integration," etc. unless `resume.md` supports it —
+      most of these are explicitly flagged as DON'T-claim in `resume.md`).
+- [ ] **Metrics are real** (only `content_library.md` figures; banned composite absent).
+- [ ] **Gaps are disclosed**, not papered over with JD vocabulary.
+
+If the gate fails, the orchestrator sends the work back to the agent with the specific failing claims and
+the true source text, and re-checks. Nothing ships until the gate passes.
+
+### How the orchestrator (main model) must operate this
+- **Brief first:** When dispatching any sub-agent that writes Jamie-voice content, the dispatch prompt MUST
+  include this §0 rule and the relevant true descriptions from `resume.md` — quote the "What Jamie actually
+  does" + "DON'T claim" notes for every experience the agent will touch. Do not assume the agent will read
+  the files; hand it the ground truth.
+- **Quality-gate after:** When agent results return, the orchestrator does NOT trust them. Read the actual
+  produced text (open the .md / .json), run the fact-check gate above against `resume.md`/`content_library.md`,
+  and only then show Jamie. If any claim fails, send it back to the agent with the correction, or fix it
+  directly, and re-verify. The main model is the last line of defense before Jamie sees anything.
+- **This is self-imposed and non-negotiable.** "The agent said it was done" is not verification. Reading the
+  output and checking it against source is verification.
+
+---
+
 ## 1. RESUME SUMMARY (top intro) — KEEP IT BROAD
 
 ❌ **WRONG (too niche):** "ensuring HRIS data accurate," "managing LMS systems," any single narrow task.
@@ -265,7 +330,14 @@ Dedicated to Improving People Experience
 
 ## 9. AUDIT-AGENT CHECKLIST (every application must pass before submit)
 
-Audit agents MUST verify ALL of these and flag any failure:
+Audit agents MUST verify ALL of these and flag any failure.
+
+**🚨 GATE 0 — TRUTH (run FIRST, see §0; a failure here blocks the whole package):**
+- [ ] Every claim in resume/cover/outreach/essays is sourced to `resume.md` / `content_library.md` / `profile_compact.md`
+- [ ] No experience is mislabeled (ODN = OD diagnostic consulting, NOT community/ERG/network-building)
+- [ ] No invented relationships, activities, team management, or metrics
+- [ ] Gaps vs the JD's core are disclosed to Jamie, not hidden behind JD keywords
+- [ ] Orchestrator has READ the actual output (not just trusted the agent) and checked it against source
 
 **Resume:**
 - [ ] Summary is BROAD (no niche single-task framing) + uses the 3 pillars (data / evidence-based programs / stakeholder collaboration)
@@ -303,3 +375,8 @@ Audit agents MUST verify ALL of these and flag any failure:
 - **2026-05-28:** Initial creation from Jamie's review of first 5 applications (Aurora People PM, Pacific Seafood,
   Built In, Roivant, Aurora HR Gen). Demographics switched to truthful. Cover template anchored to Roblox sample.
   Location-by-role-city rule added. ODN naming bug documented. Bullet-count rule fixed.
+- **2026-06-10:** Added **§0 NO FABRICATION** (top-priority rule) + **Gate 0 — TRUTH** to §9, after the Cambia
+  package re-described ODN Oregon as "ERG / community building." Codified: every claim must be sourced; adjacent
+  ≠ same; disclose gaps; ask-don't-guess; orchestrator must brief agents with ground truth up front AND read +
+  fact-check agent output against source before Jamie sees it (self-imposed quality gate). Mirrored into
+  `CLAUDE.md`, oracle `AGENTS.md`, and `jamie-autopilot/AGENTS.md`.
