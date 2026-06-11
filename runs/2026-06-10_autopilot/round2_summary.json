@@ -1,0 +1,71 @@
+{
+  "date": "2026-06-11",
+  "round": 2,
+  "rule_change": "H1B tech-only/zero-non-tech filings = warning (not hard PASS) for ALL firm sizes; hard PASS only for explicit no-sponsorship language, confirmed no-sponsor list, or tiny zero-total-history orgs.",
+  "rescued_then_verified": [
+    {
+      "company": "Nike",
+      "role": "Specialist, L&D Operations",
+      "agent_verdict": "GO 87",
+      "live_recheck": "DEAD \u2014 careers.nike.com/.../R-79157 returns 404; Nike HR job category shows 0 open roles. Agent's 'active via aggregator mirror' was an over-claim. NOT applyable.",
+      "action": "PASS (dead)"
+    },
+    {
+      "company": "Grafana/Coursera/New Relic",
+      "role": "People Analytics",
+      "live_recheck": "postings dead",
+      "action": "PASS"
+    }
+  ],
+  "live_applyable_stretch": [
+    {
+      "company": "University of Washington",
+      "role": "Program Manager, Deaf & Disability Cultural Center",
+      "score": 78,
+      "loc": "Seattle (hybrid)",
+      "h1b": "cap-exempt",
+      "ats": "Workday (UWHires), no CAPTCHA reported",
+      "url": "https://wd5.myworkdaysite.com/en-US/recruiting/uw/UWHires/job/Seattle-WA/Program-Manager--Deaf-and-Disability-Cultural-Center-_REQ-0000128291",
+      "gap": "disability-community specialization (real)"
+    },
+    {
+      "company": "Oregon State University",
+      "role": "Academic Advising Specialist",
+      "score": 76,
+      "loc": "Corvallis (~85mi)",
+      "h1b": "cap-exempt, confirmed advisor H1B filings",
+      "ats": "OSU postings (jobs.oregonstate.edu/postings/180935)",
+      "url": "https://jobs.oregonstate.edu/postings/180935",
+      "gap": "caseload advising experience"
+    },
+    {
+      "company": "PwC",
+      "role": "Entry Mgmt Consulting - Talent, Change & Behavior",
+      "score": 78,
+      "loc": "Multi-US (reloc)",
+      "h1b": "warning (Associate filings, not SOC-confirmed for People)",
+      "ats": "PwC portal \u2014 talent POOL page, not single req",
+      "url": "https://jobs.us.pwc.com/entry-level-management-consulting-workforce-transformation-talent-change-behavior",
+      "gap": "talent-pool placement uncertain"
+    },
+    {
+      "company": "Portland State University",
+      "role": "Coordinator, Basic Needs Center",
+      "score": 65,
+      "loc": "Portland",
+      "h1b": "cap-exempt",
+      "url": "https://jobs.hrc.pdx.edu/postings/49905",
+      "gap": "social-services domain"
+    },
+    {
+      "company": "University of Oregon",
+      "role": "Program Coordinator, Health Promotion",
+      "score": 63,
+      "loc": "Eugene",
+      "h1b": "cap-exempt",
+      "url": "https://careers.uoregon.edu/en-us/job/536629/",
+      "gap": "public-health domain"
+    }
+  ],
+  "conclusion": "Looser H1B rule working as intended (kept big-brand + cap-exempt roles in play). Best genuinely-live targets are cap-exempt PNW university roles (UW 78, OSU 76) + PwC talent pool (78). Nike GO did not survive live re-verification (dead posting). Cambia remains the one submitted application."
+}
