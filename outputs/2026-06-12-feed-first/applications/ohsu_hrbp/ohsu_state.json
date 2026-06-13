@@ -1,5 +1,27 @@
 {
-  "status": "FILLED_TO_CAPTCHA",
-  "url": "https://externalcareers-ohsu.icims.com/jobs/39450/hr-business-partner/candidate?from=login&eem=pYifBVY-JedYml6P6Jlh0nsdicWoNNlCowLLdHebKCrmKpiQ6YSqPqk6hc4uhBaF&code=ad2893c9b5948da9558dc903bac01445b41e6b65839d09ab46dfb579b9ddb4e2",
-  "note": "OHSU iCIMS: filled email/account up to reCAPTCHA challenge. Human solves captcha + continues."
+  "company": "OHSU",
+  "role": "HR Business Partner",
+  "req_id": "39450",
+  "apply_url": "https://externalcareers-ohsu.icims.com/jobs/39450/hr-business-partner/job",
+  "ats": "iCIMS",
+  "status": "captcha-staged",
+  "staged_at": "2026-06-13T07:25:02Z",
+  "screenshot": "C:/Users/chent/Agentic_Workflows_2026/oracle-job-search/outputs/2026-06-12-feed-first/applications/ohsu_hrbp/screenshots/ohsu_FINAL_STAGED.png",
+  "field_verification": {
+    "firstName": "Yi-Chieh",
+    "lastName": "Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "+1 213 700-3831",
+    "street": "1784 NW Northrup Street",
+    "city": "Portland",
+    "zip": "97209",
+    "country": "12781",
+    "state": "12821",
+    "resumeFile": "resume.pdf",
+    "coverFile": "cover_letter.pdf",
+    "howHear": "Indeed",
+    "exp1_emp": "Kronos Research",
+    "exp5_emp": "Development Network (ODN)"
+  },
+  "notes": "FULLY STAGED. Resume (resume.pdf) + cover (cover_letter.pdf) uploaded. Personal: Yi-Chieh Cheng, jamiecheng0103@gmail.com, Mobile (213)700-3831. Address: 1784 NW Northrup St, Portland OR 97209. Experience: 5 entries pre-populated from Jamie iCIMS profile (Kronos HR Intern, InGenius Program Enablement Mgr, Vestas HRBP Asst, NextGen OD Intern, ODN Oregon Consultant). How did you hear: Indeed. hCaptcha at bottom before Submit Profile button. HUMAN ACTION: scroll to bottom, solve hCaptcha, click Submit Profile."
 }

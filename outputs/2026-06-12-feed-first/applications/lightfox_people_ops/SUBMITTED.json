@@ -1,0 +1,27 @@
+{
+  "company": "Lightfox Games",
+  "role": "People & Operations Coordinator",
+  "ats": "Custom form (lightfoxgames.com/careers via Google Cloud Function)",
+  "status": "submitted",
+  "confirmed_at": "2026-06-13T00:15:00",
+  "screenshot": "screenshots\\10_after_submit.png",
+  "confirmation_text": "Application received! Thanks for applying to the People & Operations Coordinator role. We've sent a confirmation to your email and will be in touch if there's a fit.",
+  "notes": "SUBMITTED AND CONFIRMED via on-page confirmation message. LinkedIn job does NOT use Easy Apply -- redirects to custom lightfoxgames.com careers page with Cloudflare Turnstile CAPTCHA. Form fields: name=Jamie Cheng, email=jamiecheng0103@gmail.com, linkedinUrl=linkedin.com/in/jamieyccheng, resume.pdf uploaded, hybrid ack checked. Turnstile auto-solved in real Chrome session (645-char token). Submit POST to https://us-west1-lfg-recruit-prod.cloudfunctions.net/submitApplication -> HTTP 200. On-page banner confirmed: 'Application received!' Confirmation email sent to jamiecheng0103@gmail.com.",
+  "job_url": "https://www.lightfoxgames.com/careers/?id=people-operations-coordinator",
+  "linkedin_job_url": "https://www.linkedin.com/jobs/view/people-operations-coordinator-at-lightfox-games-4421646290",
+  "submit_endpoint": "https://us-west1-lfg-recruit-prod.cloudfunctions.net/submitApplication",
+  "submit_http_status": 200,
+  "captcha_type": "cloudflare_turnstile",
+  "captcha_solved": true,
+  "form_fields_submitted": {
+    "name": "Jamie Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "linkedinUrl": "https://www.linkedin.com/in/jamieyccheng/",
+    "resume": "resume.pdf (tailored)",
+    "ack_hybrid": true,
+    "portfolioUrl": "",
+    "note": ""
+  },
+  "sponsorship_disclosed": true,
+  "sponsorship_note": "Custom form had no sponsorship question \u2014 sponsorship disclosed in resume/cover letter package"
+}

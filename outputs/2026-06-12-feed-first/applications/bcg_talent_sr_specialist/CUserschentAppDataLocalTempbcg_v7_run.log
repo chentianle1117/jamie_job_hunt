@@ -1,0 +1,195 @@
+============================================================
+BCG Phenom v7 -- Talent Senior Specialist - People
+============================================================
+
+[1] Launching Chrome (port 9402)...
+  PID 41792, waiting 15s...
+  [ss] v7_01_initial.png
+  URL: https://experiencedtalent.bcg.com/candidate/login?domain=bcg.com&hl=en&microsite=microsite_1&next=http%3A%2F%2Fexperiencedtalent.bcg.com%2Fcareerhub%2Fexplore%2Fjobs%2F790315808241%3Fpost_onboarding_pid%3D790315808241%26show_apply%3D1%26profile_type%3Dcandidate%26customredirect%3D1
+
+[2] Login...
+  [fill] email
+  [ss] v7_02_after_email.png
+  [fill] password
+  [ss] v7_03_after_signin.png
+  Post-signin URL: https://experiencedtalent.bcg.com/careerhub/explore/jobs/790315808241?post_onboarding_pid=790315808241&show_apply=1&profile_type=candidate&customredirect=1
+
+[3] Loading application form...
+  [ss] v7_10_form.png
+  URL: https://experiencedtalent.bcg.com/careerhub/explore/jobs/apply?pid=790315808241
+
+[4] Debugging dropdown options...
+  === Available Start Date (Available_Start_Date_start_date) ===
+  [dd-debug] Opening Available_Start_Date_start_date to inspect options...
+  [ss] v7_debug_Available_Start_Date.png
+    Options: {'count': 0, 'options': [], 'selector': 'various'}
+  === Work Auth 1 (input-10) ===
+  [dd-debug] Opening input-10 to inspect options...
+  [ss] v7_debug_input-10.png
+    Options: {'count': 2, 'options': ['Yes', 'No'], 'selector': 'various'}
+  === Work Auth 2 (input-13) ===
+  [dd-debug] Opening input-13 to inspect options...
+  [ss] v7_debug_input-13.png
+    Options: {'count': 2, 'options': ['Yes', 'No'], 'selector': 'various'}
+  === Gender (input-16) ===
+  [dd-debug] Opening input-16 to inspect options...
+  [ss] v7_debug_input-16.png
+    Options: {'count': 5, 'options': ['Man', 'Woman', 'Non-binary/non-conforming', 'Not listed/other', 'Prefer not to answer'], 'selector': 'various'}
+  === Ethnicity (input-19) ===
+  [dd-debug] Opening input-19 to inspect options...
+  [ss] v7_debug_input-19.png
+    Options: {'count': 3, 'options': ['Hispanic/Latino', 'Non Hispanic/Latino', 'I prefer not to provide this information'], 'selector': 'various'}
+  === Disability (input-22) ===
+  [dd-debug] Opening input-22 to inspect options...
+  [ss] v7_debug_input-22.png
+    Options: {'count': 3, 'options': ['Yes, I have a disability or a history/record of having a dis', "No, I don't have a disability or a history/record of having ", "I Don't Wish to Answer"], 'selector': 'various'}
+  === Veteran (input-25) ===
+  [dd-debug] Opening input-25 to inspect options...
+  [ss] v7_debug_input-25.png
+    Options: {'count': 3, 'options': ['Yes', 'No', 'I prefer not to provide this information'], 'selector': 'various'}
+  [ss] v7_11_after_debug.png
+
+[5] Uploading resume...
+  [upload] resume via input[type='file'][accept*='pdf' i]
+  [ss] v7_12_after_resume.png
+
+[6] Filling personal info...
+  [skip] email already = 'jamiecheng0103@gmail.com'
+  [skip] first_name already = 'Jamie'
+  [skip] last_name already = 'Cheng'
+  [skip] phone already = '(213) 700-3831'
+  [skip] city already = 'Seattle'
+  [country] Setting United States...
+  [dropdown] country → 'United States'
+  [ss] v7_dd_input-7_open.png
+    [dropdown-ok] selected 'United States' (sel=[role='listbox'] li), field now='United States'
+  [state] Setting Oregon...
+  [dropdown] state → 'Oregon'
+  [dropdown!] state: Locator.wait_for: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#i
+  [ss] v7_13_personal_filled.png
+
+[7] Filling Available Start Date...
+  [ss] v7_14a_date_picker_open.png
+  [date] Calendar elements: ['Select date', 'resume.pdfDownloadDelete', 'Jun2026SuMoTuWeThFrSa311234567891011121314151617181920212223242526272829301234567891011Today']
+  [date] Filled via text: '09/01/2025'
+  [ss] v7_14_date_filled.png
+
+[8] Filling Work Authorization Status...
+  [work_auth] Q1: authorized → selecting from options: ['Yes', 'No']
+  [dropdown] work_auth_Q1 → 'Yes'
+  [ss] v7_dd_input-10_open.png
+    [dropdown-ok] selected 'Yes' (sel=[role='listbox'] li), field now='Yes'
+  [work_auth] Q2: sponsorship → selecting from options: ['Yes', 'No']
+  [dropdown] work_auth_Q2 → 'Yes'
+  [ss] v7_dd_input-13_open.png
+    [dropdown-ok] selected 'Yes' (sel=[role='listbox'] li), field now='Yes'
+  [ss] v7_15_workauth_filled.png
+
+[9] Filling Voluntary Self-Identification...
+  [gender] Options: ['Man', 'Woman', 'Non-binary/non-conforming', 'Not listed/other', 'Prefer not to answer']
+  [dropdown] gender → 'Woman'
+  [ss] v7_dd_input-16_open.png
+    [dropdown-ok] selected 'Woman' (sel=[role='listbox'] li), field now='Woman'
+  [ethnicity] Options: ['Hispanic/Latino', 'Non Hispanic/Latino', 'I prefer not to provide this information']
+  [dropdown] hispanic_Q → 'Hispanic/Latino'
+  [ss] v7_dd_input-19_open.png
+    [dropdown-ok] selected 'Hispanic/Latino' (sel=[role='listbox'] li), field now='Hispanic/Latino'
+  [race] Checking Asian checkbox...
+  [checkbox] Asian checked = False
+  [disability] Options: ['Yes, I have a disability or a history/record of having a dis', "No, I don't have a disability or a history/record of having ", "I Don't Wish to Answer"]
+  [dropdown] disability → 'No, I don't have a disability or a history/record of having '
+  [ss] v7_dd_input-22_open.png
+    [dropdown-ok] selected 'No, I don't have a disability or a history/record of having a disability' (sel=[role='listbox'] li), field now='No, I don''
+  [veteran] Options: ['Yes', 'No', 'I prefer not to provide this information']
+  [dropdown] veteran → 'No'
+  [ss] v7_dd_input-25_open.png
+    [dropdown-ok] selected 'No' (sel=[role='listbox'] li), field now='No'
+  [ss] v7_16_eeoc_filled.png
+
+[10] Checking for remaining errors...
+  [ss] v7_17_full_scroll.png
+  Errors found: ['Required fields are marked with *', 'Required fields are indicated with', 'Voluntary Self-Identification of Disability Form CC-305 OMB Control Number 1250-0005 Expires 04/30/2026 Why are you being asked to complete this form? We are a federal contractor or subcontractor required by law to provide equal employment opportunity to qualified people with disabilities. We are also required to measure our progress toward having at least 7% of our workforce be individuals with disabilities. To do this, we must ask applicants and employees if they have a disability or have ever had a disability. Because a person may become disabled at any time, we ask all of our employees to update their information at least every five years. Identifying yourself as an individual with a disability is voluntary, and we hope that you will choose to do so. Your answer will be maintained confidentially and not be seen by selecting officials or anyone else involved in making personnel decisions. Completing the form will not negatively impact you in any way, regardless of whether you have self-identified in the past. For more information about this form or the equal employment obligations of federal contractors under Section 503 of the Rehabilitation Act, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at www.dol.gov/ofccp. How do you know if you have a disability A disability is a condition that substantially limits one or more of your “major life activities.” If you have or have ever had such a condition, you are a person with a disability. Disabilities include, but are not limited to:', 'If you believe you belong to any of the categories of protected veterans listed above, please indicate by checking the appropriate box below. As a government contractor subject to VEVRAA, we request this information in order to measure the effectiveness of the outreach and positive recruitment efforts we undertake pursuant to VEVRAA. This information is being requested on a voluntary basis and will be kept confidential as required by law. Refusal to provide the requested information will not subject you to any adverse treatment. If provided, this information will not be used in a manner inconsistent with VEVRAA.']
+  [ss] v7_18_pre_submit.png
+
+[11] Submitting...
+  [ss] v7_19_about_to_submit.png
+  Clicked: button:has-text('Submit Application')
+  [ss] v7_20_post_submit.png
+
+  Post-submit URL: https://experiencedtalent.bcg.com/careerhub/explore/jobs/apply?pid=790315808241
+  Post-submit body: Skip to main content
+Experienced
+
+Home
+
+Profile
+
+Job Search
+
+Applications
+
+My Events
+
+My Interviews
+
+BCG Students
+
+0 results
+Career Hub search
+YC
+
+Resume
+Before applying
+Available Start Date
+Work Authorization Status
+1 error found
+Voluntary Self-Identification
+2 errors found
+Required fields are marked with *
+Application Form
+Application for
+Talent Senior Specialist - People
+Los Angeles, California, United States of AmericaSeattle, Washington, United States of America
+Required fields are indicated with
+*
+Resume
+Resume
+Upload your resume by selecting a previously uploaded file or adding a new on
+  Errors still present: ['1 error found', 'Required fields are marked with *', 'Required fields are indicated with', 'Error: Select a value.', 'Error: Select at least one Race.']
+
+[SAVED] C:\Users\chent\Agentic_Workflows_2026\oracle-job-search\outputs\2026-06-12-feed-first\applications\bcg_talent_sr_specialist\SUBMITTED.json
+============================================================
+RESULT: blocked
+Notes:  Submit clicked but form still has errors: ['1 error found', 'Required fields are marked with *', 'Required fields are indicated with', 'Error: Select a value.', 'Error: Select at least one Race.']. URL: https://experiencedtalent.bcg.com/careerhub/explore/jobs/apply?pid=790315808241. Body: Skip to main content
+Experienced
+
+Home
+
+Profile
+
+Job Search
+
+Applications
+
+My Events
+
+My Interviews
+
+BCG Students
+
+0 results
+Career Hub search
+YC
+
+Resume
+Before applying
+Available Start Date
+Work Authorization Status
+1 error found
+Voluntary Self-Identification
+2 errors found
+Required fields are marked with *
+
+============================================================

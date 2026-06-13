@@ -5,6 +5,7 @@
 |---|---------|------|-----|--------|-------|
 | 1 | MaintainX | Educational Program Manager | Greenhouse (no acct) | ✅ Confirmation page | Genuine STRONG fit via mined InGenius BD/partnership experience ($316K B2B partnerships, 15+ ed programs, sales enablement). Fact-check PASS, PDFs visually verified. Location field = fixed hub list → "Other" (remote). Sponsorship=Yes, WorkAuth=Yes (truthful). |
 | 2 | **PeaceHealth** | **HR Consultant** (req 128515, cand 275601) | **Infor CloudSuite (account)** | ✅ **"Application Submitted — Thank you for applying" (screenshot-verified)** | **Confirmed H-1B sponsor (40 LCAs).** Drove the FULL 11-section Infor wizard end-to-end: account created → Contact → Employment (parsed 5 real jobs; deleted stray parse-row; corrected ODN 'CEO/HR'→true title per RULE 0) → Education → Credentials → Attachments (resume + cover) → Profile Questions (sponsorship=Yes truthful, current/former-employee=No) → Job Specific Questions (3yr=Yes, shared-svc HR=Yes, **administer leave/benefits=No** honest, ER support=Yes, salary $85-100K) → Self-ID (Asian/Female/no-disability/non-veteran, truthful) → Finalize (I-Agree + signature; SoHo ack needed scrolling the content panel) → **Submit**. Every section visually verified. Resume + cover letter both attached. |
+| 3 | **Lightfox Games** | **People & Operations Coordinator** | **Custom form (lightfoxgames.com via Google Cloud Function)** | ✅ **"Application received!" on-page banner + confirmation email (screenshot-verified)** | LinkedIn "Apply" → redirects to custom careers form (NOT Easy Apply). Fields: name, email, LinkedIn URL, resume.pdf upload, hybrid-ack checkbox. **Cloudflare Turnstile auto-solved in the authenticated real Chrome session (port 9222 CDP-attach)** — no human needed. Submit POST → HTTP 200. No sponsorship/YOE/salary question (disclosed via package). 3yr ✓, $80-95K, Seattle hybrid. RULE-0 fact-checked, PDFs visually verified. |
 
 ## ❌ INELIGIBLE (form/JD pre-scan killed before build)
 | Company | Role | Killer |
@@ -40,6 +41,22 @@
 - **Account/healthcare ATS** (Infor/Workday/iGreentree) = multi-step, often captcha or account-gated; package-ready + screenshot-staged, finish manually.
 - The reliable autopilot win is the **no-account Greenhouse/Lever/Ashby pool** — prioritize discovering MORE of those (like MaintainX) over grinding captcha-gated account ATSes.
 
-## 📊 Run tally so far
-- **10 roles pre-scanned · 1 clean auto-apply SUBMITTED (MaintainX) · 7 ineligible (5+YOE / ITAR / no-sponsor / gov — killed pre-build) · 3 caution/account-gated**
-- Pre-scan doctrine prevented ~6 wasted account-builds. The single eligible role got a genuine strong-fit package built on mined real BD/partnership experience.
+| 4 | **Ripple** | **Program Manager, DEI** (GH job 7951682) | **Greenhouse (no-acct embed via ripple.com)** | ✅ **"Thank you for applying. Your application has been received." (page-verified)** | Greenhouse form embedded in ripple.com via lazy-loaded iframe (Application tab → `job-boards.greenhouse.io/embed/job_app?for=ripple`). Patchright `launch_persistent_context` (not CDP attach) solved cross-origin frame access. All fields: Yi-Chieh Cheng / jamiecheng0103@gmail.com / +12137003831 / NY. Preferred=Jamie. LinkedIn=https://www.linkedin.com/in/jamieyccheng/. Auth=Yes, **Sponsorship=Yes (truthful)**, PrevRipple=No. Resume.pdf attached. Demographics: Woman/Asian/No/non-veteran/no-disability. Confirmed H-1B sponsor. New York NY, $116-130K, 4+YOE ✓ strong fit. |
+
+## 🧩 HUMAN-FINISH lane (account + everything filled; human does the final step)
+| Company | Role | Status | What the human does |
+|---------|------|--------|---------------------|
+| **OHSU** | HR Business Partner (req 39450, iCIMS) | **STAGED at hCaptcha (live tab port 9403).** Account/email step, full Candidate Profile filled + resume.pdf + cover_letter.pdf uploaded; leaked Drive links in Vestas/NextGen description fields CLEANED + verified. | Open the live Chrome tab → scroll to bottom → solve hCaptcha → click **Submit Profile**. (Also: clean the Drive links from Jamie's *saved* iCIMS profile so they stop auto-filling — spawned task.) |
+| **BCG** | Talent Senior Specialist - People (Phenom ATS) | **BLOCKED on automation, account CREATED + all fields filled** (incl. Sponsorship=Yes, EEO). The "Available Start Date" React date-picker is automation-resistant (19 attempts; commits a past 2025 date, fails validation). NOT a fit/eligibility problem. | Log into `experiencedtalent.bcg.com` (jamiecheng0103@gmail.com) → open the in-progress application → set Available Start Date to a 2026 date → **Submit**. Everything else is done. |
+
+## 📊 Run tally (this overnight run)
+- **SUBMITTED live: 4** — MaintainX, PeaceHealth, Lightfox, Ripple (all confirmation-page/banner verified).
+- **Human-finish staged: 2** — OHSU (solve hCaptcha + Submit), BCG (set start-date + Submit).
+- **Ineligible (hard-stop, correctly skipped): 9+** — incl. Customer.io (no-sponsor), Axon (hard 4-day onsite), Sonos/Anduril/Applied Intuition/DraftKings/Seattle PU/Valley Medical/Pacific Office/ICHS/Xenium(clerical)/Trend(no mechanism).
+- Pre-scan doctrine prevented ~7 wasted account-builds. Greenhouse/custom no-account embed pool = reliable autopilot wins.
+
+## 🔑 NEW MECHANISM LEARNINGS (this batch)
+- **Lightfox** = LinkedIn "Apply" → custom careers form w/ Cloudflare Turnstile that **auto-solves in an authenticated real Chrome session** (CDP-attach 9222); submit POST → 200. No human needed.
+- **Ripple** = ripple.com embeds Greenhouse via a lazy-loaded iframe revealed by the Application tab; **`launch_persistent_context` beats CDP-attach** for cross-origin frame access. (Reusable for other site-embedded Greenhouse forms.)
+- **BCG = Phenom ATS** (not Workday). Account-create works; the React date-picker is automation-resistant → human-finish lane.
+- **iCIMS stored-profile autofill leaks `workSampleUrl` Drive links** into description fields → must clean per-field at staging (and clean the saved profile to stop recurrence).
