@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "company": "Twitch",
+    "role": "Program Manager, Culture & People Development",
+    "date": "2026-06-13",
+    "pageMargins": { "top": "0.35in", "right": "0.45in", "bottom": "0.35in", "left": "0.45in" },
+    "autoFit": true,
+    "fontRange": [8.5, 10.0]
+  },
+  "header": {
+    "location": "San Francisco, CA (Open to Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>People &amp; Culture Program</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can strengthen culture, development, and the people experience—through human-centered, data-driven programs.",
+  "keywordGroups": {
+    "data": "Data/Analytics",
+    "coord": "Program/Ops",
+    "cross": "Stakeholders/Collab",
+    "ex": "Employee Experience",
+    "tools": "Tools/Systems",
+    "prog": "Culture/Development"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Manage end-to-end {coord|lifecycles for 20+ programs} and 10+ vendors, refining delivery strategy and operations via {data|feedback analysis}" },
+        { "text": "Conduct needs assessments with 25+ {cross|stakeholders} to identify gaps and design 3 new {prog|programs}" },
+        { "text": "Facilitate {prog|training} webinars for 600+ participants, enhancing program understanding and engagement" },
+        { "text": "Develop guides and workflows for 70+ {cross|cross-functional} staff, improving knowledge and reducing onboarding time by 75%" }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Analyzed 2,000+ {data|employee experiences} to amplify employee voice and guide C-suite decisions on {prog|culture} and engagement" },
+        { "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable development reports" },
+        { "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review" },
+        { "text": "Improved {ex|employee experience} via 5 {cross|cross-functional} projects on survey development, rewards &amp; recognition, and L&D" }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Initiated a {prog|DEI} pilot with an Inclusive Leadership workshop for 12 senior leaders, later scaled to 23 global locations" },
+        { "text": "Spearheaded an HR Award-winning {prog|culture} and engagement communications strategy, outperforming 1,000+ competitors" },
+        { "text": "Facilitated organizational change by directing a Mergers &amp; Acquisitions project, overseeing {cross|cross-functional stakeholders}" },
+        { "text": "Optimized {coord|onboarding} across 3 global locations via process analysis and clarifying job responsibilities" }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Facilitate CEO/HR discovery interviews to diagnose absenteeism, then {data|analyze} 300+ leave cases—surfacing $362K in costs driving policy redesigns" },
+        { "text": "Conduct focus groups and 1:1 interviews with an NGO leadership team to surface decision-making and {cross|accountability} gaps" }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Developed proficiency across HR functions, ranging from recruitment and compensation to performance management" },
+        { "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation" },
+        { "text": "Engaged global talent via personalized communication and service, increasing applications by 566% in 2 months" },
+        { "text": "Organized recruiting events and moderated C-suite panels at top 3 universities, reaching 230+ students and 80+ applicants" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": ["Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": ["Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Enhanced <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Technical Skills:</b> HRIS (SAP, Rippling, ADP) · ATS (Greenhouse) · LMS (Canvas, Moodle) · Data Analysis (Excel, SPSS) · Project Management (Asana, Airtable) · MS Office",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic) &nbsp; | &nbsp; <b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": { "meta": "", "sections": [] },
+  "changeLog": []
+}

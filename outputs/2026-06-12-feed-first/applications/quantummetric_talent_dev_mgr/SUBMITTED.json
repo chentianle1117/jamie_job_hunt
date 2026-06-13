@@ -1,0 +1,29 @@
+{
+  "company": "Quantum Metric",
+  "role": "Talent Development Manager",
+  "ats": "Lever",
+  "job_url": "https://jobs.lever.co/quantummetric/6fbf169b-05f7-40f1-a3f0-8349bb4e494e",
+  "apply_url": "https://jobs.lever.co/quantummetric/6fbf169b-05f7-40f1-a3f0-8349bb4e494e/apply",
+  "status": "skip-dead",
+  "confirmed_at": "2026-06-13T07:02:00.000000",
+  "dead_confirmed": true,
+  "board_url": "https://jobs.lever.co/quantummetric",
+  "board_scanned_at": "2026-06-13T07:02:00.000000",
+  "alternative_people_roles": [],
+  "live_roles_on_board": [
+    {"title": "Senior Account Manager (Spanish Speaking)", "team": "Customer Success / Account Management", "url": "https://jobs.lever.co/quantummetric/7d027326-400f-4781-9adb-b949c48283f4"},
+    {"title": "Vice President, Global Growth Marketing", "team": "Marketing / Growth Marketing", "url": "https://jobs.lever.co/quantummetric/2f14c32e-4e3f-4147-91f2-5c2f01881c54"},
+    {"title": "Enterprise Account Executive - Retail", "team": "Sales / Account Executive", "url": "https://jobs.lever.co/quantummetric/10301829-7995-4364-abcc-e4ea153eb2b3"},
+    {"title": "Strategic Account Executive, Banking and Financial Services", "team": "Sales / Account Executive", "url": "https://jobs.lever.co/quantummetric/b616f767-f970-4a1e-924a-02f443fbad7c"},
+    {"title": "Strategic Account Executive, Insurance", "team": "Sales / Account Executive", "url": "https://jobs.lever.co/quantummetric/965f0abf-fd0c-4e45-92f6-85368327a3e0"},
+    {"title": "Senior Solutions Engineer - Voice of Customer", "team": "Solutions Engineering", "url": "https://jobs.lever.co/quantummetric/34ceba82-d42d-4b91-ab12-35d776ae8e95"},
+    {"title": "Solutions Engineer - Spain (German Speaking)", "team": "Solutions Engineering", "url": "https://jobs.lever.co/quantummetric/f9db8790-d5ab-452b-92c0-767566111737"},
+    {"title": "Solutions Engineer - Spain (Italian Speaking)", "team": "Solutions Engineering", "url": "https://jobs.lever.co/quantummetric/41546a4c-c536-4f4d-aabf-1f7bef72ac42"},
+    {"title": "Solutions Engineer - UK (German Speaking)", "team": "Solutions Engineering", "url": "https://jobs.lever.co/quantummetric/7ecbd978-fdb2-4099-8c4d-b842222fb76a"},
+    {"title": "Solutions Engineer - UK (Italian Speaking)", "team": "Solutions Engineering", "url": "https://jobs.lever.co/quantummetric/c893a254-5a71-486f-ad33-200e25c3a102"}
+  ],
+  "notes": "Posting 6fbf169b-05f7-40f1-a3f0-8349bb4e494e returned '404 error' title. Full board scanned: 10 live roles, ALL in Sales/SE/Marketing. Zero People/HR/Talent/L&D roles live. No hard-stop language check needed. Package (resume.pdf + cover_letter.pdf) preserved for future use if role is reposted.",
+  "screenshot_landing": "screenshots/00_landing.png",
+  "screenshot_dead": "screenshots/00_dead.png",
+  "screenshot_board": "screenshots/00_board.png"
+}

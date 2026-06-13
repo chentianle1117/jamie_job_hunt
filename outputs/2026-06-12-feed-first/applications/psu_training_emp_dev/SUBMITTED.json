@@ -1,0 +1,29 @@
+{
+  "company": "Portland State University",
+  "role": "Senior Specialist, Training and Employee Development",
+  "ats": "PeopleAdmin (jobs.hrc.pdx.edu)",
+  "status": "blocked-security-question",
+  "staged_at": "2026-06-13",
+  "job_url": "https://jobs.hrc.pdx.edu/postings/49997",
+  "screenshot": "screenshots/blocked_security_question.png",
+  "notes": {
+    "posting_status": "LIVE - verified",
+    "sponsorship": "POSITIVE - E-3 Employee notice on page header; no explicit no-sponsorship language",
+    "min_quals": "Bachelor's + 4 years training/HR; Jamie has ~3 years (stretch but apply)",
+    "required_docs": ["Resume", "Cover Letter", "Professional References (3 required)"],
+    "supplemental_questions": ["Do you have a Bachelor's Degree?", "How did you hear about this role?", "Open-ended other"],
+    "ats_mechanism": "PeopleAdmin account-gated; hCaptcha at account creation (checkbox only, no image challenge required); security question at password recovery",
+    "account_status": "Account EXISTS for jamiecheng0103@gmail.com (username taken error on new account attempt)",
+    "blocking_issue": "Account password unknown; security question 'In what city did you meet your spouse/significant other?' cannot be answered by pipeline agent - requires Jamie or David to answer",
+    "tried_passwords": ["Career0324! - wrong"],
+    "tried_security_answers": ["Portland - wrong", "Taipei - not submitted (stopped to avoid lockout)"],
+    "action_required": "David: answer the security question (city where you and Jamie met) at https://jobs.hrc.pdx.edu/user/forgot, then log in and complete the application. Account username = jamiecheng0103@gmail.com. Once logged in, navigate to https://jobs.hrc.pdx.edu/postings/49997 and click Apply for this Job. The pipeline has the resume + cover PDFs ready at outputs/2026-06-12-feed-first/applications/psu_training_emp_dev/",
+    "resume_pdf": "C:/Users/chent/Agentic_Workflows_2026/oracle-job-search/outputs/2026-06-12-feed-first/applications/psu_training_emp_dev/resume.pdf",
+    "cover_pdf": "C:/Users/chent/Agentic_Workflows_2026/oracle-job-search/outputs/2026-06-12-feed-first/applications/psu_training_emp_dev/cover_letter.pdf",
+    "salary": "$65,100-$70,000",
+    "start_date": "08/17/2026",
+    "contact": "Sean Duffy at duffy4@pdx.edu",
+    "open_until": "Open Until Finalists Identified (no hard close date shown)",
+    "references_note": "3 professional references required (names, phone, email) - do NOT use InGenius Prep"
+  }
+}

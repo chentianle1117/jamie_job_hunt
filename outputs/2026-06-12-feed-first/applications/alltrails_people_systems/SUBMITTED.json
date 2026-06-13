@@ -1,0 +1,21 @@
+{
+  "company": "AllTrails",
+  "role": "People Systems & Operations Analyst",
+  "ats": "Lever",
+  "status": "skip-dead",
+  "confirmed_at": "2026-06-13T00:00:00",
+  "screenshot": "screenshots/lever_alltrails_board_2026-06-13.png",
+  "notes": "Original posting URL https://jobs.lever.co/alltrails/6356713a-4757-4044-b679-fd963adb0033 returned HTTP 404 (expired/filled). Full AllTrails Lever board checked at https://jobs.lever.co/alltrails — only ONE active role live as of 2026-06-13: 'IT Manager' (Engineering, Hybrid, San Francisco). No People, HR, Operations, Analytics, or people-systems roles of any kind are currently listed. AllTrails main careers site (alltrails.com/about/jobs) hit a bot-verification wall and could not be parsed, but the Lever board is the canonical source. Role is dead — do not submit.",
+  "job_url": "https://jobs.lever.co/alltrails/6356713a-4757-4044-b679-fd963adb0033",
+  "live_board_url": "https://jobs.lever.co/alltrails",
+  "live_roles_found": [
+    {
+      "title": "IT Manager",
+      "team": "Engineering",
+      "type": "Hybrid / Full-time",
+      "location": "San Francisco",
+      "url": "https://jobs.lever.co/alltrails/11b7a0d8-7b8f-456c-a9ff-d15e0d59613b",
+      "fit_for_jamie": false
+    }
+  ]
+}
