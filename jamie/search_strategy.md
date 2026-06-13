@@ -122,6 +122,36 @@ Every discovery run MUST sweep the FULL taxonomy below in parallel. Do not start
 ("Program Manager") and stop. Do not wait to be told "go broader." Cover all 7 recipes + consulting
 + cap-exempt **on every run**.
 
+## Rule 0.5 — ⭐ START FROM JAMIE'S OWN TWO LINKEDIN SIGNALS (David's hard rule, 2026-06-12)
+> These are **the two single most important sources** — higher-signal than any keyword search,
+> because they reflect what Jamie herself bookmarked + what LinkedIn's algorithm matched to her
+> profile/activity. David had to point at them repeatedly; never undershoot them again. Both require
+> the **authenticated browser** (CDP-attach port 9222 or Chrome MCP) — they are login-gated.
+
+**SOURCE 1 — Jamie's SAVED jobs + Job Tracker (her deliberate bookmarks = highest intent).**
+- Hub: `https://www.linkedin.com/my-items/saved-jobs/?cardType=SAVED` (NOT the bare `/saved-jobs/`,
+  which shows only ~1). Tabs in the tracker: **Saved / In Progress / Applied / Archived.**
+- **Saved** is paginated with `&start=10,20,30…` (≈10/page). Harvest ALL pages — she keeps 30-40 saved.
+- **Applied** tab = the TRUE dedup ground-truth: ~300 roles across ~31 pages. This is the dedup source
+  the pipeline historically missed (it only checked the Google Sheet + Notion + 26-row tracker), which
+  is why already-applied roles (e.g. C1) kept resurfacing as "new." Cross-check every new pick against
+  this Applied tab + Gmail prior-contact before surfacing/applying.
+
+**SOURCE 2 — "Top job picks for you" → "Show all" (the discovery firehose, ~450 results).**
+- From `https://www.linkedin.com/jobs/` the "Top job picks for you" block has a **"Show all →"** link →
+  opens `https://www.linkedin.com/jobs/collections/recommended/` (two-panel: left list, right JD).
+- Harvest reliably via **`?start=0,25,50…` pagination** (each page ≈7-25 fresh roles; ~18 pages total).
+  The left panel ALSO infinite-scrolls but virtualizes/recycles to ~24 then needs "Load more" — so
+  `?start=` paging through Chrome MCP `get_page_text` is the robust method; CDP panel-scroll caps ~24.
+- The feed has a **Job Screener toggle** with filters: **H1B · E-Verify · PERM · Non-STEM · Exempt ·
+  Hide Viewed · Hide ICC** + Company Size/Industry + a resume-keyword **match %**. Use the **H1B**
+  screener to surface sponsor-likely roles fast.
+- Tooling: `jamie-autopilot/lib/harvest_recommended.py` (CDP deep-scroll, caps ~24) and
+  `lib/discover_feed_first.py` (saved + recommended). For a FULL sweep, page `?start=` via Chrome MCP.
+
+**Run order:** Source 1 (saved + dedup-vs-Applied) → Source 2 (recommended `?start=` sweep) → THEN the
+keyword/ATS/cap-exempt lanes below. The two LinkedIn signals come first, every run.
+
 ## Rule 1 — Search against Jamie's 7 résumé RECIPES, not just titles
 Jamie's `content_library.md` Tailoring Playbook proves she can credibly fill **7 role types**. Each is
 a search lane with its own title cluster. The honest fit test: *does the role map to a bullet set she

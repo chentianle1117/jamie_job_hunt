@@ -129,7 +129,18 @@ These URLs still need Chrome/WebFetch verification (alerts often contain expired
 
 > **This is the single highest-signal discovery source.** LinkedIn's recommendation algorithm
 > already knows Jamie's profile, skills, work history, and search behavior — it pre-filters
-> all 500M+ listings down to the ~381 most relevant. Use it at the start of EVERY run.
+> all 500M+ listings down to the ~450 most relevant. Use it at the start of EVERY run.
+
+> ⭐ **TWO LINKEDIN SIGNALS, BOTH MANDATORY (David's hard rule 2026-06-12).** Canonical detail:
+> `jamie/search_strategy.md` §"Rule 0.5". Run BOTH before any keyword search:
+> 1. **SAVED jobs + Job Tracker** — `linkedin.com/my-items/saved-jobs/?cardType=SAVED` (tabs:
+>    Saved / In Progress / Applied / Archived; page with `&start=10,20,30…`). Saved (~30-40) =
+>    Jamie's highest-intent bookmarks. **The Applied tab (~300 / ~31 pages) is the TRUE dedup source**
+>    historically missed (pipeline only checked Sheet + Notion) — which is why already-applied roles
+>    like C1 resurfaced. Cross-check every pick against Applied + Gmail prior-contact.
+> 2. **"Top job picks for you → Show all"** — the `/jobs/collections/recommended/` feed below. Harvest
+>    via `?start=0,25,50…` paging (Chrome MCP `get_page_text` robust; CDP panel-scroll caps ~24 then
+>    needs "Load more"). Use the on-page **Job Screener** (H1B / E-Verify / PERM / Exempt) filters.
 
 **How to access:**
 
