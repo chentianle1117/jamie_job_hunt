@@ -4,6 +4,7 @@
 | # | Company | Role | ATS | Result | Notes |
 |---|---------|------|-----|--------|-------|
 | 1 | MaintainX | Educational Program Manager | Greenhouse (no acct) | ✅ Confirmation page | Genuine STRONG fit via mined InGenius BD/partnership experience ($316K B2B partnerships, 15+ ed programs, sales enablement). Fact-check PASS, PDFs visually verified. Location field = fixed hub list → "Other" (remote). Sponsorship=Yes, WorkAuth=Yes (truthful). |
+| 2 | **PeaceHealth** | **HR Consultant** (req 128515, cand 275601) | **Infor CloudSuite (account)** | ✅ **"Application Submitted — Thank you for applying" (screenshot-verified)** | **Confirmed H-1B sponsor (40 LCAs).** Drove the FULL 11-section Infor wizard end-to-end: account created → Contact → Employment (parsed 5 real jobs; deleted stray parse-row; corrected ODN 'CEO/HR'→true title per RULE 0) → Education → Credentials → Attachments (resume + cover) → Profile Questions (sponsorship=Yes truthful, current/former-employee=No) → Job Specific Questions (3yr=Yes, shared-svc HR=Yes, **administer leave/benefits=No** honest, ER support=Yes, salary $85-100K) → Self-ID (Asian/Female/no-disability/non-veteran, truthful) → Finalize (I-Agree + signature; SoHo ack needed scrolling the content panel) → **Submit**. Every section visually verified. Resume + cover letter both attached. |
 
 ## ❌ INELIGIBLE (form/JD pre-scan killed before build)
 | Company | Role | Killer |
