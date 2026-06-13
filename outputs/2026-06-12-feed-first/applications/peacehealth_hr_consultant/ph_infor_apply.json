@@ -1,0 +1,19 @@
+{
+  "url": "https://css-peacehealth-prd.inforcloudsuite.com/sso/SSOServlet?_action=LOGINREQD&_logininst=1sUwvV4Jr5EwXngSYVU2g3X31qFPVsbKa61xIEHNfWpyGeSofRZlHwAAAZ6!2Fabu!2F&_TKM=1470989431&_serviceName=HCM.HCMAPP.JOBS",
+  "captcha": false,
+  "clicked": true,
+  "fields": [
+    {
+      "t": "input:text",
+      "lbl": "_ssoUser"
+    },
+    {
+      "t": "input:password",
+      "lbl": "_ssoPass"
+    },
+    {
+      "t": "button:submit",
+      "lbl": "btnLogin"
+    }
+  ]
+}

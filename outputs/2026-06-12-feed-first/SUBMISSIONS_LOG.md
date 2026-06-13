@@ -20,10 +20,11 @@
 | Sonos | People Programs Coordinator | Explicit "unable to sponsor" |
 | Seattle Public Utilities | Workforce Development Advisor | Gov role — citizenship/residency |
 
-## 🧩 CAPTCHA-GATED → HUMAN-SUBMIT lane (package built + verified; Jamie/David finishes captcha+account)
+## 🧩 CAPTCHA-GATED → HUMAN-SUBMIT lane (FILLED up to captcha; human just solves captcha + clicks Submit)
 | Company | Role | Status | Apply URL |
 |---------|------|--------|-----------|
-| OHSU | HR Business Partner (req 39450) | Package READY (resume+cover fact-checked + visually verified, 1-page). LIVE posting confirmed; **no explicit no-sponsor → GO**; 3+yr ✓; cap-exempt. iCIMS account entry is **reCAPTCHA-protected** at the email step → cannot auto-create (never bypass captcha). PDFs staged in role folder. | https://externalcareers-ohsu.icims.com/jobs/39450/hr-business-partner/job |
+| **PeaceHealth** | HR Consultant (req 128515) | ✅ **Infor registration FULLY FILLED up to the captcha** (name Yi-Chieh Cheng, email jamiecheng0103@gmail.com, shared password ×2, **resume uploaded**) — visually verified. Only the image-captcha + Submit remain → creates the account, then the application continues. **Confirmed H-1B sponsor (40 LCAs).** Cracked the hard Infor flow: JD `/apply?tm_src=0` (target=_blank) → redirects to `css-peacehealth-prd.inforcloudsuite.com/hcm/Jobs/...JobPostingDisplay` → click `#...ApplyButtonLabel` → Infor SSO (`/sso/SSOServlet`) → **Register** → `Candidate.SelfRegistrationForm` (fields `SelfRegistrationForm_Name_prd_GivenName/FamilyName`, `_LocalLoginName`, `_Password`, `_ConfirmPassword`, file input `_LocalResume_prd_File`) → image captcha. | https://careers.peacehealth.org/jobs/17583716-hr-consultant |
+| OHSU | HR Business Partner (req 39450) | Package READY (resume+cover fact-checked + visually verified, 1-page). LIVE posting confirmed; **no explicit no-sponsor → GO**; 3+yr ✓; cap-exempt. iCIMS account entry is **reCAPTCHA-protected** at the email step → fill up to captcha + leave open (re-drive with the fill-to-captcha pattern). PDFs staged. | https://externalcareers-ohsu.icims.com/jobs/39450/hr-business-partner/job |
 
 ## ⏭️ GO — package ready / partway, still to drive (no explicit no-sponsor)
 | Company | Role | Mechanism | Status |

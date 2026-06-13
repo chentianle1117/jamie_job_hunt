@@ -1,0 +1,86 @@
+{
+  "url": "https://css-peacehealth-prd.inforcloudsuite.com/hcm/Jobs/form/Candidate.SelfRegistrationForm?action=CreateJobsLoginCasual&csk.JobBoard=EXTERNAL%202.0&csk.HROrganization=PH&csk.Source=PEACEHEALTH%20JOBS&fromLogin=true",
+  "captcha": false,
+  "fields": [
+    {
+      "t": "button:submit",
+      "id": "module-nav-homepage-btn",
+      "lbl": ""
+    },
+    {
+      "t": "button:button",
+      "id": "app-menu-trigger",
+      "lbl": ""
+    },
+    {
+      "t": "input:text",
+      "id": "SelfRegistrationForm_Name_prd_GivenName",
+      "lbl": ""
+    },
+    {
+      "t": "input:text",
+      "id": "SelfRegistrationForm_Name_prd_FamilyName",
+      "lbl": ""
+    },
+    {
+      "t": "input:text",
+      "id": "SelfRegistrationForm_LocalLoginName",
+      "lbl": ""
+    },
+    {
+      "t": "input:password",
+      "id": "SelfRegistrationForm_Password",
+      "lbl": ""
+    },
+    {
+      "t": "input:password",
+      "id": "SelfRegistrationForm_ConfirmPassword",
+      "lbl": ""
+    },
+    {
+      "t": "input:text",
+      "id": "",
+      "lbl": ""
+    },
+    {
+      "t": "input:text",
+      "id": "SelfRegistrationForm_LocalResume_prd_Fil",
+      "lbl": ""
+    },
+    {
+      "t": "input:file",
+      "id": "SelfRegistrationForm_LocalResume_prd_Fil",
+      "lbl": ""
+    },
+    {
+      "t": "input:checkbox",
+      "id": "SelfRegistrationForm_RegisterWithoutResu",
+      "lbl": ""
+    },
+    {
+      "t": "button:button",
+      "id": "SelfRegistrationForm_Button_Submit",
+      "lbl": ""
+    },
+    {
+      "t": "button:button",
+      "id": "",
+      "lbl": ""
+    },
+    {
+      "t": "button:button",
+      "id": "",
+      "lbl": ""
+    },
+    {
+      "t": "button:button",
+      "id": "",
+      "lbl": ""
+    },
+    {
+      "t": "button:button",
+      "id": "",
+      "lbl": ""
+    }
+  ]
+}

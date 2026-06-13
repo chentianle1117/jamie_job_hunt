@@ -1,12 +1,8 @@
 {
   "url": "https://css-peacehealth-prd.inforcloudsuite.com/hcm/Jobs/form/JobPosting%5BJobPostingSet%5D%28PH,128515,1%29.JobPostingDisplay?navigation=JobPosting%5BJobPostingSet%5D%28PH,128515,1%29.JobPostingDisplayNav&csk.JobBoard=EXTERNAL%202.0&csk.HROrganization=PH&csk.Source=PEACEHEALTH%20JOBS",
   "captcha": false,
-  "account_gate": true,
+  "account": true,
   "fields": [
-    {
-      "t": "button:submit",
-      "lbl": "module-nav-homepage-btn"
-    },
     {
       "t": "button:button",
       "lbl": "JobPostingDisplay_Button__pdf-file"
@@ -18,10 +14,6 @@
     {
       "t": "button:button",
       "lbl": "JobPostingDisplay_Button__lab_SaveMF_rab_"
-    },
-    {
-      "t": "a",
-      "lbl": "Inclusivity, Respect for Diversity and Cultur"
     },
     {
       "t": "button:button",
@@ -38,6 +30,22 @@
     {
       "t": "button:button",
       "lbl": "Create New Report"
+    },
+    {
+      "t": "button:submit",
+      "lbl": "facebookShareButton"
+    },
+    {
+      "t": "button:submit",
+      "lbl": "twitterShareButton"
+    },
+    {
+      "t": "button:submit",
+      "lbl": "mailButton"
+    },
+    {
+      "t": "button:submit",
+      "lbl": "copyToClipboardButton"
     }
   ]
 }

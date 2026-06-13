@@ -1,0 +1,7 @@
+{
+  "status": "FILLED_TO_CAPTCHA",
+  "url": "https://css-peacehealth-prd.inforcloudsuite.com/hcm/Jobs/form/Candidate.SelfRegistrationForm?action=CreateJobsLoginCasual&csk.JobBoard=EXTERNAL%202.0&csk.HROrganization=PH&csk.Source=PEACEHEALTH%20JOBS&fromLogin=true",
+  "resume_uploaded": true,
+  "captcha_present": true,
+  "note": "Registration filled (name/email/password/resume). STOPPED at image captcha. Human: type the captcha text + click Submit, then the candidate account is created and the application continues."
+}
