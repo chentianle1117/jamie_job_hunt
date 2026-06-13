@@ -318,11 +318,15 @@ def build_cover_html(md_content):
                 continue
             continue
 
-        # Between rule 1 and rule 2: date + salutation block
+        # Between rule 1 and rule 2: date + salutation block.
+        # ROBUSTNESS FIX (2026-06-12): the salutation ("Dear ...,") marks the start of the
+        # body even if there is NO second `---` rule. Previously, with only one `---`, body
+        # paragraphs fell through here and were SILENTLY DROPPED (the empty-cover bug).
         if rule_count == 1 and not collecting_body:
             low = s.lower()
             if s.startswith("Dear") or low.startswith("dear"):
                 salutation = s
+                collecting_body = True   # everything AFTER the salutation is body
                 continue
             # Date line (contains a year or month)
             if re.search(r'(19|20)\d{2}', s) and not s.startswith("Dear"):
@@ -330,7 +334,7 @@ def build_cover_html(md_content):
                 if re.search(r'(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|\d{1,2}[/-]\d)', s):
                     date_str = s
                 continue
-            # Hiring Manager / company / city address block — skip (we use Dear line)
+            # Contact sidebar line (phone · city · email · LinkedIn) before the date — skip
             continue
 
         # Body region
@@ -470,6 +474,20 @@ def render_role(role_id, page, is_carlos=False, screenshots_dir=None):
     # ── Render cover letter to PDF ──
     cover_md = cover_md_path.read_text(encoding="utf-8")
     cover_html = build_cover_html(cover_md)
+
+    # ── CONTENT GATE (2026-06-12): block the silent empty-cover bug ──
+    # A real cover has 3-5 body <p> paragraphs. If the parser produced <3, the markdown
+    # structure didn't match and the body was dropped — FAIL loudly, never ship a blank cover.
+    cover_para_count = cover_html.count("<p>")
+    if cover_para_count < 3:
+        return {
+            "blocker": f"Cover letter body has only {cover_para_count} paragraph(s) for {role_id} — likely a parse/drop failure",
+            "role_id": role_id,
+            "diagnostic": "build_cover_html() did not capture the body paragraphs. Check the cover_letter.md "
+                          "structure (needs a 'Dear ...,' salutation line; body follows it).",
+            "recommendation": "Verify cover_letter.md has real body paragraphs after the salutation; re-render.",
+        }
+
     page.set_content(cover_html, wait_until="networkidle")
     page.wait_for_timeout(200)
     page.pdf(
