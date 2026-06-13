@@ -1,0 +1,110 @@
+{
+  "url": "https://css-peacehealth-prd.inforcloudsuite.com/hcm/Jobs/form/JobApplication%28PH,275601,128515,1%29.ApplicationTasks?navigation=JobPosting%5BJobPostingSet%5D%28PH,128515,1%29.JobApplicationTask&csk.JobBoard=EXTERNAL%202.0&csk.HROrganization=PH&csk.Source=PEACEHEALTH%20JOBS",
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "txt": "Candidate Experience",
+      "id": "module-nav-homepage-btn"
+    },
+    {
+      "tag": "A",
+      "txt": "YC",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "Toggle Navigation",
+      "id": "app-menu-trigger"
+    },
+    {
+      "tag": "A",
+      "txt": "Application Tasks",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "txt": "Welcome",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "txt": "Contact Information",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "txt": "Employment",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "txt": "Education",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "txt": "Credentials",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "txt": "Attachments",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "txt": "Profile Questions",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "txt": "Job Specific Questions",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "txt": "Self Identification",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "txt": "Finalize Application",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "txt": "Submit Application",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "Toggle Navigation",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "Previous",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "Next",
+      "id": ""
+    },
+    {
+      "tag": "A",
+      "txt": "here",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "Add to Existing Report",
+      "id": ""
+    },
+    {
+      "tag": "BUTTON",
+      "txt": "Create New Report",
+      "id": ""
+    }
+  ]
+}
