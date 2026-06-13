@@ -1,0 +1,176 @@
+{
+ "meta": {
+  "company": "Valley Medical Center",
+  "role": "Talent & Organizational Development Partner",
+  "date": "2026-06-12",
+  "pageMargins": {
+   "top": "0.35in",
+   "right": "0.45in",
+   "bottom": "0.35in",
+   "left": "0.45in"
+  },
+  "autoFit": true,
+  "fontRange": [
+   8.2,
+   9.8
+  ]
+ },
+ "header": {
+  "location": "Renton, WA (Open to Relocation)"
+ },
+ "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Organization & Talent Development</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve people experience—through human-centered, data-driven approaches.",
+ "keywordGroups": {
+  "data": "Data/Analytics",
+  "od": "Org Development",
+  "cross": "Stakeholders/Collab",
+  "ex": "Engagement/EX",
+  "ld": "Leadership/L&D",
+  "perf": "Performance Mgmt"
+ },
+ "experience": [
+  {
+   "id": "odn",
+   "title": "Consultant, Organization & Talent Development",
+   "company": "Organization Development Network (ODN) Oregon",
+   "location": "Remote, USA",
+   "dates": "August 2025–Present",
+   "workSampleUrl": null,
+   "bullets": [
+    {
+     "text": "Facilitate CEO/HR discovery {cross|interviews} to diagnose absenteeism and engagement drivers; analyze leave data to quantify costs"
+    },
+    {
+     "text": "Upskill an HR team to audit 300+ leave cases and present executive insights on $362K in costs, driving {od|policy redesigns} and training"
+    },
+    {
+     "text": "Run focus groups and 1:1 interviews with an NGO leadership team; analyze qualitative {data|data} to surface {od|accountability gaps} and redesign processes"
+    }
+   ]
+  },
+  {
+   "id": "ingenius",
+   "title": "Program Enablement Manager",
+   "company": "InGenius Prep, LLC",
+   "location": "Remote, USA",
+   "dates": "September 2023–Present",
+   "workSampleUrl": null,
+   "bullets": [
+    {
+     "text": "Deliver {ld|onboarding and training initiatives} for 70+ staff, streamlining {cross|cross-functional} processes and reducing onboarding time by 75%"
+    },
+    {
+     "text": "Facilitate {ld|listening sessions and needs assessments} with 25 global {cross|stakeholders}, producing 3 new {ld|learning programs} aligned to needs"
+    },
+    {
+     "text": "Manage 20+ programs and 10+ vendors, refining program positioning and {cross|communications strategy} via {data|feedback analysis}"
+    },
+    {
+     "text": "Facilitate {ld|training webinars} for 600+ participants, boosting {ex|program engagement} and achieving a 78% {ex|program enrollment rate}"
+    }
+   ]
+  },
+  {
+   "id": "nextgen",
+   "title": "Organizational Development Intern",
+   "company": "NextGen Healthcare",
+   "location": "Los Angeles, CA",
+   "dates": "January 2023–May 2023",
+   "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+   "bullets": [
+    {
+     "text": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on {data|engagement and satisfaction drivers}"
+    },
+    {
+     "text": "Led a {ld|manager effectiveness initiative}, transforming {data|feedback data} into actionable reports that informed {ex|engagement strategies}"
+    },
+    {
+     "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and {perf|performance review}"
+    },
+    {
+     "text": "Improved employee experience via 5 {cross|cross-functional} projects focusing on {ex|survey development, rewards & recognition}, and L&D"
+    }
+   ]
+  },
+  {
+   "id": "vestas",
+   "title": "HR Business Partner Assistant",
+   "company": "Vestas Wind Systems",
+   "location": "Taipei, Taiwan",
+   "dates": "February 2022–October 2022",
+   "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+   "bullets": [
+    {
+     "text": "Initiated a DEI pilot with an {ld|Inclusive Leadership workshop} for 12 senior leaders, later expanded to 23 other global locations"
+    },
+    {
+     "text": "Facilitated smooth {od|organizational change} by directing a Mergers & Acquisitions project, overseeing {cross|cross-functional stakeholders}"
+    },
+    {
+     "text": "Optimized onboarding processes across 3 global locations by conducting process analysis and clarifying job responsibilities"
+    },
+    {
+     "text": "Strengthened {ex|engagement} via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors"
+    }
+   ]
+  },
+  {
+   "id": "kronos",
+   "title": "Human Resources Intern",
+   "company": "Kronos Research",
+   "location": "Taipei, Taiwan",
+   "dates": "January 2021–August 2021",
+   "workSampleUrl": null,
+   "bullets": [
+    {
+     "text": "Developed proficiency across various HR functions, ranging from recruitment and compensation to {perf|performance management}"
+    },
+    {
+     "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details"
+    },
+    {
+     "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months"
+    },
+    {
+     "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants"
+    }
+   ]
+  }
+ ],
+ "education": [
+  {
+   "school": "University of Southern California",
+   "location": "Los Angeles, CA",
+   "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+   "dates": "August 2022–May 2023",
+   "bullets": [
+    "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+   ]
+  },
+  {
+   "school": "Wesleyan University",
+   "location": "Middletown, CT",
+   "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+   "dates": "August 2017–December 2021",
+   "bullets": [
+    "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
+   ]
+  }
+ ],
+ "projects": [
+  "<b>Consulting Projects:</b> Enhanced <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+  "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+  "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+ ],
+ "skills": [
+  "<b>Org Development:</b> Organizational Development · Change Management · Talent Strategy · Performance Management · Leadership Development",
+  "<b>Data & PM:</b> Data Analysis (Excel, Google Sheets, SPSS) · Project Management (Asana, Airtable) · LMS (Canvas, Moodle) · MS Office",
+  "<b>Languages & Certs:</b> English (fluent) · Mandarin (native) · Spanish (basic) · HRCI HR Associate Certificate (in progress)"
+ ],
+ "jd": {
+  "meta": "Valley Medical Center (UW Medicine) — Talent & Organizational Development Partner, Renton WA, cap-exempt hospital, $86.3-129.4K. Scope: OD strategy, employee engagement (surveys/action planning), leadership development, performance management (annual eval design), onboarding/orientation facilitation, externship/pipeline partnerships with educational institutions. Reports to Dir Employee & Labor Relations. Reqs: BA + 5yr HR/OD/Talent (Jamie ~3yr = STRETCH); LMS preferred; healthcare preferred not required.",
+  "sections": []
+ },
+ "changeLog": [
+  "2026-06-12: Tailored from base for Valley Medical Talent & OD Partner (cap-exempt hospital, Renton WA). Recipe: Talent Management / OD. Summary identity = Organization & Talent Development professional (3 pillars intact). InGenius title = Program Enablement Manager. ODN = 3 bullets, BOTH projects kept separate (Pair A quantified $362K leave-cost result + Project 2 NGO leadership/accountability diagnosis) — matches JD's OD-diagnosis + data-to-recommendations scope. Bullet emphasis surfaces: leadership development (Vestas Inclusive Leadership, NextGen manager effectiveness), employee engagement (NextGen 2,000+ analysis, survey/rewards), performance management (NextGen perf review consult, Kronos perf mgmt), onboarding facilitation (InGenius + Vestas). Added an OD-skills line (Org Development/Change Mgmt/Talent Strategy/Performance Mgmt/Leadership Dev) — all truthful to her OD work; LMS listed (JD-preferred). Header = Renton WA (role city) + Open to Relocation. HONEST GAP: JD asks 5yr min; Jamie has ~3 + MS — applied as STRETCH per recalibrated filter + cap-exempt context. No fabricated claims; all bullets sourced to content_library.md."
+ ]
+}
