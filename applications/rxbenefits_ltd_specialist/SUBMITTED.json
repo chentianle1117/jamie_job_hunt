@@ -1,0 +1,36 @@
+{
+  "company": "RxBenefits, Inc.",
+  "role": "Learning and Talent Development Specialist",
+  "ats": "ADP WorkforceNow (Career Center / Recruitment)",
+  "status": "submitted",
+  "confirmed_at": "2026-06-13T10:08:00-07:00",
+  "screenshot": "applications/rxbenefits_ltd_specialist/screenshots/ (see ss_7398pmy9d & ss_8351od9qp — green 'Application Submitted!' banner)",
+  "job_url": "https://www.linkedin.com/jobs/view/4425318327",
+  "ats_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=5c500a2b-27a7-4828-9817-166ddd8fb76e&ccId=19000101_000001&jobId=940320&lang=en_US",
+  "requisition_id": "2068 (jobId 940320)",
+  "remote": true,
+  "posted": "2026-06-12 (~20h before submit)",
+  "salary_posted_range": "$67,200-$84,000 annually",
+  "notes": {
+    "fit": "STRETCH. Genuine L&D/OD program role (P1/P1b) — design/develop/deliver training, onboarding, needs assessments, LMS, adult-learning theory. NOT clerical/benefits-admin despite RxBenefits being a PBO. Strong skill match (InGenius: needs assessments + 3 programs + 600+ trainings; MS Org Psych USC).",
+    "yoe_note": "JD asks Minimum 5 years; Jamie has ~3 yrs + MS = 2-yr stretch. Applied per recalibrated rule (5-yr ask is stretchable, not a hard stop).",
+    "hard_stop_check": "PASS — no explicit 'no sponsorship' clause, no ITAR/US-Person requirement. Proceeded.",
+    "auth_flow": "LinkedIn Apply -> external ADP ATS. ADP OTP email verification: code retrieved from Jamie's Gmail (jamiecheng0103@gmail.com) via workspace-mcp, entered, verified. No password/account-creation needed (OTP magic-link login).",
+    "resume_upload": "MCP file_upload sandbox rejected disk path. Used Simplify browser-extension autofill -> attached Jamie's stored resume (YiChieh_Cheng_resume.pdf, her real base resume) to the ADP file input. Base resume, not the L&D-tailored variant (sandbox blocked the tailored PDF), but truthful and accepted as application of record.",
+    "ai_review_optout": "Simplify auto-checked 'opt out from AI resume review' = Yes (neutral/pro-applicant; left as-is).",
+    "screening_answers": {
+      "employed_here_before": "No",
+      "legally_authorized": "Yes",
+      "require_immigration_sponsorship": "Yes (RULE 0 — truthful, never No)",
+      "willing_background_check": "Yes",
+      "able_to_perform_essential_functions": "Yes",
+      "desired_salary": "$80,000 USD Annually (DEFAULTED — within posted $67.2k-$84k range; FLAG for Jamie to confirm)",
+      "informed_by_employee": "No",
+      "anything_else": "Brief truthful L&D intro in Jamie's voice (needs assessments w/ 25+ stakeholders, 3 programs, 600+ webinar participants, MS Org Psych). NOTE: ADP review-page summary showed this free-text field as blank — may not have persisted; it was optional/non-required."
+    },
+    "demographics": "Woman/Female, Not Hispanic or Latino, Asian, Not a protected veteran, No disability (per profile).",
+    "esignature": "Yi-Chieh Cheng (typed e-signature on Self-Attest step)",
+    "verification": "Review page read-back confirmed all values truthful BEFORE submit. Final confirmation = green 'Application Submitted!' banner observed post-submit.",
+    "quirk": "First Submit attempt errored 'Self Attestation is required' (React checkbox state not registered from JS click). Re-clicked checkbox via real mouse clicks, then submitted via dispatched full mouse-event chain -> success."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "company": "Logic Staffing (part of Array Corporation)",
+  "role": "Talent Management Specialist",
+  "location": "Sumner, WA (On-site)",
+  "ats": "LinkedIn listing -> external 'Apply' redirect (NOT Easy Apply)",
+  "status": "skip-clerical-primary",
+  "submitted": false,
+  "confirmed_at": null,
+  "evaluated_at": "2026-06-13T09:56:00-07:00",
+  "job_url": "https://www.linkedin.com/jobs/view/4405803392/",
+  "search_url": "https://www.linkedin.com/jobs/search/?currentJobId=4405803392&keywords=Logic%20Staffing%20Talent%20Management%20Specialist%20Sumner",
+  "verified_live": true,
+  "listing_signals": {
+    "freshness": "Reposted 2 days ago",
+    "applicants": "19 people clicked apply",
+    "early_applicant_badge": true,
+    "apply_type": "External redirect (Apply ↗), responses managed off LinkedIn — NOT LinkedIn Easy Apply",
+    "simplify_resume_match": "No keywords in job description (Simplify's own signal of zero L&D/talent-dev overlap)"
+  },
+  "agency_vs_internal": "Internal-to-the-agency role, but duties = coordinating the temp 'associates' Logic Staffing places into client shifts. Effectively staffing/workforce-ops, NOT internal talent development. Either reading fails on duties.",
+  "pay": "$61,000-$62,000/year (framed as 'competitive hourly pay')",
+  "sponsorship": "No explicit 'no sponsorship' line, but a $61K hourly shift-coordination role at a staffing agency will not file an H-1B. Sponsorship moot.",
+  "decision_reason": "HARD PASS — confirmed ★☆☆ clerical/operational-PRIMARY duties in the JD body: attendance tracking, shift coordination, basic issue resolution, records/documentation, 'smooth shift operations', evening shifts. This is workforce-ops coordination at a staffing agency, not the L&D/OD/program 'Talent Management' work Jamie does. Trips profile_compact hard-blocker #3 (clerical-primary) + AVOID list (recruiting/staffing-ops scope). Title is misleading; duties decide. No fabrication could bridge this honestly.",
+  "rule_0_check": "No resume/cover tailored — role does not warrant an application. No false 'submitted' claim.",
+  "notes": "Requirements ask only 'customer service or people-facing experience' + 'basic management or team coordination' — far below Jamie's MS Org Psych + 3yr OD/program profile, and the scope is wrong direction. Recommend SKIP."
+}
