@@ -243,8 +243,14 @@ def build_resume_html(data):
     return html
 
 
-def build_cover_html(md_content):
+def build_cover_html(md_content, location=None):
     """Convert cover letter markdown to Jamie's CANONICAL 2-column cover format.
+
+    `location` (optional): the role's header location string (e.g.
+    "Seattle, WA (Open to Hybrid or Relocation)"). Used to render the sidebar
+    city line so the cover matches the resume header per role — NOT hardcoded to
+    Portland (2026-06-13 fix: sidebar location was previously always "Portland, OR",
+    ignoring the target role's city).
 
     Canonical reference: jamie/cover_letter_template.html (from RRD_..._2026-05-12.html).
     Layout: cream header band (name + 2-line tagline) → 2-column body (left sidebar
@@ -363,6 +369,23 @@ def build_cover_html(md_content):
 
     body_html = "\n    ".join(body_paras)
 
+    # ── Sidebar location lines (per-role, not hardcoded) ──
+    # Default mirrors the canonical template; override from the role's header location.
+    sidebar_city = "Portland, OR"
+    sidebar_paren = "(Open to Remote or Relocation)"
+    if location:
+        loc = location.strip()
+        m = re.match(r'^(.*?)\s*(\([^)]*\))\s*$', loc)
+        if m:
+            sidebar_city = m.group(1).strip()
+            sidebar_paren = m.group(2).strip()
+        else:
+            sidebar_city = loc
+            sidebar_paren = ""
+    sidebar_loc_html = sidebar_city + "<br>"
+    if sidebar_paren:
+        sidebar_loc_html += sidebar_paren + "<br>"
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -407,8 +430,7 @@ def build_cover_html(md_content):
 <div class="body-wrap">
   <div class="sidebar">
     213-700-3831<br>
-    Portland, OR<br>
-    (Open to Remote or Relocation)<br>
+    {sidebar_loc_html}
     <a href="mailto:jamiecheng0103@gmail.com">jamiecheng0103@gmail.com</a><br>
     <a href="http://www.linkedin.com/in/jamieyccheng">LinkedIn</a>
   </div>
@@ -480,7 +502,7 @@ def render_role(role_id, page, is_carlos=False, screenshots_dir=None):
 
     # ── Render cover letter to PDF ──
     cover_md = cover_md_path.read_text(encoding="utf-8")
-    cover_html = build_cover_html(cover_md)
+    cover_html = build_cover_html(cover_md, location=resume_data.get("header", {}).get("location"))
 
     # ── CONTENT GATE (2026-06-12): block the silent empty-cover bug ──
     # A real cover has 3-5 body <p> paragraphs. If the parser produced <3, the markdown
