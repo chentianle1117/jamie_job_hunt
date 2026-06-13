@@ -1,0 +1,24 @@
+You are triaging LinkedIn recommended-feed jobs for Jamie Cheng, a job seeker who NEEDS H-1B visa sponsorship. Below is JSON of 216 roles with title, company, location, posted age, applicant count, and apply-mechanism markers embedded in 'context'.
+
+JAMIE'S FIT PROFILE (GOOD = include):
+- Talent Development, People Program Manager, People Ops PM, Education/Learning/Curriculum PM, L&D, Employee Experience (EX), Organizational Development (OD) Analyst, People/HR consulting associate, NGO/community/student-success PM, cap-exempt university + hospital roles.
+- Senior / 4-6yr titles = STRETCH (still include, mark STRETCH).
+
+HARD-STOP (EXCLUDE, and quote the trigger):
+- Recruiting / Talent Acquisition as the PRIMARY function (coordinator/recruiter/sourcer) = weak, exclude or mark very-low.
+- Clerical-PRIMARY (badging, staffing coordinator, pure admin).
+- Heavy-engineering / construction / water/wastewater / power-delivery / data-center PROJECT MANAGER roles (these are civil/construction PM, NOT people PM) = EXCLUDE.
+- Anything requiring ITAR / US-Person / gov clearance / citizenship.
+
+REALISM FILTER (flag, don't necessarily exclude):
+- "Over 100 people clicked apply" or "100+ applicants" = high-competition flag.
+- "Promoted" = promoted listing.
+- "Easy Apply" = easy mechanism (good, ease=high).
+- Note location: Portland OR / Seattle WA / Vancouver WA hybrid/onsite = LOCAL (good). Remote = note it.
+
+ALREADY-DONE / KNOWN-NO-SPONSOR (EXCLUDE): MaintainX, PeaceHealth, Lightfox, Ripple, Twitch, OHSU, BCG, PSU, Customer.io, Boeing, Sonos, Deloitte, Flatiron, Anduril, Applied Intuition.
+
+TASK: Output a markdown table of ONLY the roles that pass (GOOD or STRETCH fit, not hard-stopped). Columns:
+RANK | TITLE | COMPANY | LOCATION | POSTED | APPLICANTS | MECHANISM (Easy Apply / company-ATS / unknown) | FIT (GOOD/STRETCH) | REALISM FLAGS | LinkedIn job id
+
+Rank best-fit + lowest-competition + local + freshest at top. Then below the table, list the EXCLUDED roles grouped by reason (one line each: title @ company — reason). Be decisive. Aim for ~25-45 passing roles.
