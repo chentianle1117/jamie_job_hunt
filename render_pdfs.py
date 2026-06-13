@@ -310,18 +310,19 @@ def build_cover_html(md_content):
                 t = re.sub(r'\*\*(.+?)\*\*', r'\1', t)   # **bold**
                 t = re.sub(r'\*(.+?)\*', r'\1', t)        # *italic*
                 return t.strip('* ').strip()
-            # Tagline lines (the two descriptor lines under the name)
-            if "Solution-focused" in s or "Data-driven" in s:
-                tagline1 = _clean_tagline(s)
+            # Tagline lines = the two descriptor lines under the name, BEFORE the first ---.
+            # Capture STRUCTURALLY (1st such line -> tagline1, 2nd -> tagline2) rather than by
+            # keyword, so custom taglines per role render correctly (2026-06-12 fix: previously
+            # only the hardcoded "Solution-focused"/"Dedicated to" phrasing was honored, silently
+            # falling back to defaults for any other tagline).
+            cleaned = _clean_tagline(s)
+            if not cleaned:
+                continue
+            if not seen_tagline1:
+                tagline1 = cleaned
                 seen_tagline1 = True
-                continue
-            if seen_tagline1 and ("Dedicated to" in s or "Improving" in s or "Driving" in s):
-                tagline2 = _clean_tagline(s)
-                continue
-            # Any other tagline-ish line right after name
-            if "Dedicated to" in s:
-                tagline2 = _clean_tagline(s)
-                continue
+            else:
+                tagline2 = cleaned
             continue
 
         # Between rule 1 and rule 2: date + salutation block.

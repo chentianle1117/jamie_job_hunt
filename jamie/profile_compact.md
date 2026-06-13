@@ -9,15 +9,46 @@
 - Requires H1B sponsorship or cap-exempt employer
 - Location: Portland OR | Open to: Remote US, Seattle
 
-## Hard Rejects (instant PASS)
-- "No sponsorship" / "must be authorized without sponsorship"
-- Senior / Director / VP / Principal / C-level (exception: "Senior Associate" at consulting firms only)
-- "Senior Consultant," "Senior Specialist," etc. at consulting firms → REJECT (5+ yr roles)
-- "Lead" / "Leader" titles → REJECT (implies team mgmt / 5+ years)
-- HRIS platform-specific roles (Workday, SAP, Oracle HCM implementation) → REJECT (no platform exp)
-- Roles requiring 4-5+ years → REJECT any "Senior" title (except Senior Associate)
-- Pure Sales, Pure SWE, Senior HRBP, Instructional Designer (80%+ content), Technical PM (PMP)
-- Pure recruiting/TA roles
+## Hard Rejects — RECALIBRATED 2026-06-12 (only 3 are TRUE hard blockers)
+
+> **Why recalibrated:** David's challenge + Jamie's own 288-role applied history proved the old
+> filter was FAR too strict. Jamie has applied to **40+ "Senior / Manager / Lead / II / III" roles**
+> herself (Senior Talent Mgmt Specialist, L&D Program Manager II, Senior Associate Learning Programs,
+> Early Talent Development Manager, People Consulting Change Mgmt–Senior, etc.). She treats title-
+> seniority and a 5-year ask as **stretchable**, not disqualifying — she has a master's + 3 yrs and
+> lets the employer decide. Passing those roles contradicted her actual behavior. The filter, not the
+> roles, was wrong.
+
+### TRUE HARD BLOCKERS (instant PASS — these are the ONLY three):
+1. **Explicit "no sponsorship"** / "must be authorized without sponsorship" / "unable to sponsor a visa"
+   — legally pointless for Jamie. (e.g., Sonos.)
+2. **ITAR / export-control / "must be a U.S. Person"** — Jamie needs sponsorship, cannot satisfy a
+   US-Person requirement. Legal wall. (Common at defense/AV/semiconductor: Anduril, Applied Intuition,
+   Coherent — must read the JD for this clause specifically.)
+3. **Confirmed ★☆☆ CLERICAL-PRIMARY duties** — payroll processing, benefits admin, ER casework /
+   grievance investigation, garnishments/W2/paystub support, HRIS data-entry as the PRIMARY function.
+   **Must be confirmed in the JD BODY (real duties), not inferred from the title.** (e.g., Xenium
+   "Employee Experience Rep" = paystub/garnishment support → reject; but a true EX/engagement role keep.)
+
+### STRETCH — APPLY ANYWAY (do NOT auto-PASS these; they were wrongly rejected before):
+- **"Senior" / "Sr." IC titles** (Senior Specialist, Senior Associate, Senior Analyst, PM II/III) — Jamie
+  applies to these. Only PASS true people-management seniority: **Director / VP / Head of / Principal /
+  "Manager, [Team]" with direct reports + 7+ yrs.**
+- **"Manager" in a program/IC sense** (Program Manager, L&D Program Manager, Talent Development Manager)
+  — APPLY. Not a people-manager unless JD says "manage a team of N."
+- **Roles asking 4-6 years** — STRETCH, apply. Jamie's MS + 3 yrs + strong fit clears the interview bar
+  often enough that she applies. (Cap the *fit score* modestly for a 2-yr gap, but DO surface + apply.)
+- **"Talent" in the title** — judge the DUTIES. "Talent Development / Talent Enablement / Talent Mgmt"
+  that is L&D/OD/program work = GO/STRETCH. Only "Talent Acquisition / recruiting / sourcing" as the
+  primary duty = the recruiting reject.
+- **HRBP / generalist** at associate-to-mid level — STRETCH (she applies); only reject if duties are
+  ER-casework-primary (blocker #3).
+- **Remote at unknown sponsor** — APPLY (sponsorship gate loosened for auto-apply); only the explicit
+  no-sponsor clause (#1) blocks.
+
+**Net:** surface + apply to Senior-IC / 5-yr / Manager-IC / Talent / HRBP / remote-unknown roles as
+STRETCH. Reserve PASS for the 3 true blockers + roles that need a skill Jamie genuinely lacks
+(deep instructional-design-only, HRIS implementation/config, pure sales, pure SWE, security clearance).
 
 ## LinkedIn Competition Filter (Added Apr 30, 2026 — REALISM RULES)
 

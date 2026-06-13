@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "nike_ld_search",
+    "label": "Nike L&D (careers search)",
+    "url": "https://careers.nike.com/jobs?keywords=learning%20development&page=1",
+    "title": "Search Open Nike Jobs",
+    "final": "https://careers.nike.com/jobs?keywords=learning%20development&page=1",
+    "length": 1889,
+    "alive": true,
+    "no_results": false
+  },
+  {
+    "slug": "adidas_portland",
+    "label": "Adidas Portland (search)",
+    "url": "https://careers.adidas-group.com/jobs?country=United+States+of+America&location=Portland",
+    "title": "adidas Careers \u2013 Through sport, we have the power to change lives. All Job Openings",
+    "final": "https://careers.adidas-group.com/jobs?country=United+States+of+America&location=Portland",
+    "length": 3131,
+    "alive": true,
+    "no_results": false
+  },
+  {
+    "slug": "mercer_tr",
+    "label": "Mercer T&R Analyst",
+    "url": "https://careers.marsh.com/global/en/job/R_330688/Talent-Rewards-Consulting-Analyst",
+    "title": "",
+    "final": "https://careers.marsh.com/global/en/job/R_330688/Talent-Rewards-Consulting-Analyst",
+    "length": 1940,
+    "alive": true,
+    "no_results": false
+  },
+  {
+    "slug": "bcg_assoc",
+    "label": "BCG Associate 2026",
+    "url": "https://studenttalent.bcg.com/careers/job/790315150718",
+    "title": "Login",
+    "final": "https://studenttalent.bcg.com/candidate/login?domain=bcg.com&hl=en&next=http%3A%2F%2Fstudenttalent.bcg.com%2Fcareerhub%2Fexplore%2Fjobs%2F790315150718%3Fprofile_type%3Dcandidate%26post_onboarding_pid%3D790315150718",
+    "length": 1207,
+    "alive": true,
+    "no_results": false
+  },
+  {
+    "slug": "psu_search",
+    "label": "PSU coordinator postings",
+    "url": "https://jobs.hrc.pdx.edu/postings/search?query=coordinator",
+    "title": "Portland State Careers | Search Jobs",
+    "final": "https://jobs.hrc.pdx.edu/postings/search?query=coordinator",
+    "length": 4156,
+    "alive": true,
+    "no_results": false
+  },
+  {
+    "slug": "forth",
+    "label": "Forth Program Associate",
+    "url": "https://forth.bamboohr.com/careers/49",
+    "title": "BambooHR",
+    "final": "https://forth.bamboohr.com/careers/49",
+    "length": 8613,
+    "alive": true,
+    "no_results": false
+  }
+]

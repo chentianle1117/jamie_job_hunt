@@ -1,0 +1,69 @@
+[
+  {
+    "slug": "notion_people_pm",
+    "label": "Notion People Program Manager",
+    "url": "https://boards.greenhouse.io/notion/jobs/5961531003",
+    "title": "Page not found",
+    "final_url": "https://job-boards.greenhouse.io/notion?error=true",
+    "length": 67,
+    "flags": [],
+    "alive": false
+  },
+  {
+    "slug": "tailscale_peopleops",
+    "label": "Tailscale People Ops Partner",
+    "url": "https://job-boards.greenhouse.io/tailscale/jobs/4509628005",
+    "title": "Jobs at Tailscale",
+    "final_url": "https://job-boards.greenhouse.io/tailscale?error=true",
+    "length": 3691,
+    "flags": [
+      "senior"
+    ],
+    "alive": true
+  },
+  {
+    "slug": "twitch_culture_pd",
+    "label": "Twitch Culture & People Development PM",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8532650002",
+    "title": "Job Application for Program Manager - Culture & People Development at Twitch",
+    "final_url": "https://job-boards.greenhouse.io/twitch/jobs/8532650002",
+    "length": 15731,
+    "flags": [
+      "4+ years",
+      "director"
+    ],
+    "alive": true
+  },
+  {
+    "slug": "mercer_tr_analyst",
+    "label": "Mercer Talent & Rewards Analyst",
+    "url": "https://careers.marsh.com/global/en/job/R_330688/Talent-Rewards-Consulting-Analyst",
+    "title": "",
+    "final_url": "https://careers.marsh.com/global/en/job/R_330688/Talent-Rewards-Consulting-Analyst",
+    "length": 1940,
+    "flags": [
+      "principal"
+    ],
+    "alive": true
+  },
+  {
+    "slug": "bcg_associate",
+    "label": "BCG Associate 2026",
+    "url": "https://studenttalent.bcg.com/careers/job/790315150718",
+    "title": "Login",
+    "final_url": "https://studenttalent.bcg.com/candidate/login?domain=bcg.com&hl=en&next=http%3A%2F%2Fstudenttalent.bcg.com%2Fcareerhub%2Fexplore%2Fjobs%2F790315150718%3Fprofile_type%3Dcandidate%26post_onboarding_pid%3D790315150718",
+    "length": 1199,
+    "flags": [],
+    "alive": true
+  },
+  {
+    "slug": "nike_ld_ops",
+    "label": "Nike L&D Ops Specialist",
+    "url": "https://careers.nike.com/specialist-learning-and-development-operations/job/R-79157",
+    "title": "404 - Page Not Found",
+    "final_url": "https://careers.nike.com/specialist-learning-and-development-operations/job/R-79157",
+    "length": 927,
+    "flags": [],
+    "alive": false
+  }
+]
