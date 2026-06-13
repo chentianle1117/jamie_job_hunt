@@ -1,0 +1,13 @@
+{
+  "company": "Gong",
+  "role": "Senior Talent Development Program Manager",
+  "ats": "Greenhouse",
+  "job_url": "https://job-boards.greenhouse.io/gongio/jobs/4669018006",
+  "status": "skip-dead",
+  "confirmed_at": "2026-06-13",
+  "url_after_load": "https://job-boards.greenhouse.io/gongio?error=true",
+  "title_after_load": "Jobs at Gong.io",
+  "body_preview": "Job ID 4669018006 redirects to general job board with ?error=true. Posting was live when package was built (2026-06-12) but has been taken down. Gong currently shows 93 open roles, none in Talent Development/L&D. People/HR section only shows Compensation Director and EMEA GTM Sourcer.",
+  "screenshot": "screenshots/00_landing.png",
+  "notes": "Posting closed overnight 2026-06-12->2026-06-13. No hard-stop language present in original JD. Role simply filled or was pulled. Package is clean and ready if the role re-posts."
+}

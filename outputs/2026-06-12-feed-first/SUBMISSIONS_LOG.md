@@ -55,6 +55,18 @@
 - **Ineligible (hard-stop, correctly skipped): 9+** — incl. Customer.io (no-sponsor), Axon (hard 4-day onsite), Sonos/Anduril/Applied Intuition/DraftKings/Seattle PU/Valley Medical/Pacific Office/ICHS/Xenium(clerical)/Trend(no mechanism).
 - Pre-scan doctrine prevented ~7 wasted account-builds. Greenhouse/custom no-account embed pool = reliable autopilot wins.
 
+## ⚰️ DEAD POSTINGS (live at discovery, pulled before submit — packages staged for reuse)
+| Company | Role | Note |
+|---------|------|------|
+| Zip | People Operations Program Manager | Ashby UUID 404 "Job not found" — pulled overnight. Package built + visually verified, staged at applications/zip_people_ops_pm/ for reuse if reposts. |
+| Gong | Senior Talent Development Program Manager | Greenhouse job 4669018006 → `?error=true` (closed). No other Talent/L&D roles on Gong's board. Package staged at applications/gong_talent_dev_pm/ for reuse. |
+
+## 🚫 ADDED TO HARD-STOP (verified via h1b_verified cache — truth gate caught what discovery missed)
+| Company | Role | Killer |
+|---------|------|--------|
+| Customer.io | Talent Development PM | h1b_verified: JD explicit "we're not able to offer visa sponsorship" (confirmed 2026-03-26). Discovery wave-2 ranked it #1 GO — SKIPPED on cache. |
+| Boeing | Sr Exec Development Specialist | h1b_verified: JD explicit "Employer will not sponsor applicants for employment visa status." |
+
 ## 🔑 NEW MECHANISM LEARNINGS (this batch)
 - **Lightfox** = LinkedIn "Apply" → custom careers form w/ Cloudflare Turnstile that **auto-solves in an authenticated real Chrome session** (CDP-attach 9222); submit POST → 200. No human needed.
 - **Ripple** = ripple.com embeds Greenhouse via a lazy-loaded iframe revealed by the Application tab; **`launch_persistent_context` beats CDP-attach** for cross-origin frame access. (Reusable for other site-embedded Greenhouse forms.)
