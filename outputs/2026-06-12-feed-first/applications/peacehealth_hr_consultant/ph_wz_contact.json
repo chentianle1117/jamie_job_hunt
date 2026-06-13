@@ -1,0 +1,120 @@
+{
+  "url": "https://css-peacehealth-prd.inforcloudsuite.com/hcm/Jobs/form/JobApplication%28PH,275601,128515,1%29.ApplicationTasks?navigation=JobPosting%5BJobPostingSet%5D%28PH,128515,1%29.JobApplicationTask&csk.JobBoard=EXTERNAL%202.0&csk.HROrganization=PH&csk.Source=PEACEHEALTH%20JOBS",
+  "fields": [
+    {
+      "t": "input:text",
+      "id": "ApplicationTasks_SubmitApplicationTasksResponsive_2_1_C",
+      "val": "",
+      "lbl": "Title"
+    },
+    {
+      "t": "input:text",
+      "id": "ApplicationTasks_SubmitApplicationTasksResponsive_2_1_C",
+      "val": "Yi-Chieh",
+      "lbl": "First Name"
+    },
+    {
+      "t": "input:text",
+      "id": "ApplicationTasks_SubmitApplicationTasksResponsive_2_1_C",
+      "val": "",
+      "lbl": "Middle Name"
+    },
+    {
+      "t": "input:text",
+      "id": "ApplicationTasks_SubmitApplicationTasksResponsive_2_1_C",
+      "val": "Cheng",
+      "lbl": "Last Name"
+    },
+    {
+      "t": "input:text",
+      "id": "ApplicationTasks_SubmitApplicationTasksResponsive_2_1_C",
+      "val": "",
+      "lbl": "Suffix"
+    },
+    {
+      "t": "input:text",
+      "id": "ApplicationTasks_SubmitApplicationTasksResponsive_2_1_C",
+      "val": "Yi-Chieh",
+      "lbl": "Preferred First Name"
+    },
+    {
+      "t": "input:text",
+      "id": "ApplicationTasks_SubmitApplicationTasksResponsive_2_1_C",
+      "val": "Cheng",
+      "lbl": "Preferred Last Name"
+    },
+    {
+      "t": "input:text",
+      "id": "ApplicationTasks_SubmitApplicationTasksResponsive_2_1_C",
+      "val": "",
+      "lbl": "Home Country/Jurisdiction\nPress down arrow to"
+    },
+    {
+      "t": "input:text",
+      "id": "ApplicationTasks_SubmitApplicationTasksResponsive_2_1_C",
+      "val": "",
+      "lbl": "Preferred Contact Time"
+    },
+    {
+      "t": "input:text",
+      "id": "ApplicationTasks_SubmitApplicationTasksResponsive_2_1_C",
+      "val": "jamiecheng0103@gmail.com",
+      "lbl": "Primary Email"
+    },
+    {
+      "t": "input:text",
+      "id": "ApplicationTasks_SubmitApplicationTasksResponsive_2_1_C",
+      "val": "",
+      "lbl": "Resume Email"
+    },
+    {
+      "t": "input:text",
+      "id": "ApplicationTasks_SubmitApplicationTasksResponsive_2_1_C",
+      "val": "",
+      "lbl": "Country/Jurisdiction Code\nPress down arrow to"
+    },
+    {
+      "t": "input:text",
+      "id": "ApplicationTasks_SubmitApplicationTasksResponsive_2_1_C",
+      "val": "",
+      "lbl": "Phone Number"
+    },
+    {
+      "t": "input:checkbox",
+      "id": "ApplicationTasks_SubmitApplicationTasksResponsive_2_1_C",
+      "val": "on",
+      "lbl": "Preferred"
+    },
+    {
+      "t": "input:text",
+      "id": "ApplicationTasks_SubmitApplicationTasksResponsive_2_1_C",
+      "val": "1",
+      "lbl": "Country/Jurisdiction Code\nPress down arrow to"
+    },
+    {
+      "t": "input:text",
+      "id": "ApplicationTasks_SubmitApplicationTasksResponsive_2_1_C",
+      "val": "(213)700-3831",
+      "lbl": "My Phone Number"
+    },
+    {
+      "t": "input:checkbox",
+      "id": "ApplicationTasks_SubmitApplicationTasksResponsive_2_1_C",
+      "val": "on",
+      "lbl": "Preferred"
+    },
+    {
+      "t": "input:text",
+      "id": "search-address",
+      "val": "",
+      "lbl": ""
+    },
+    {
+      "t": "input:checkbox",
+      "id": "showAddressFields",
+      "val": "on",
+      "lbl": "Enter Address Manually"
+    }
+  ],
+  "text_head": "skip to main content\nCandidate Experience\nJob Search\nProfile\nApplications\nSaved Jobs And Alerts\nDocuments\nNotifications\nSign Out\nMore\nYC\nToggle Navigation\nApplication For HR Consultant\nApplication For HR Consultant\nApplication Tasks\nWelcome\nContact Information\nEmployment\nEducation\nCredentials\nAttachments\nProfile Questions\nJob Specific Questions\nSelf Identification\nFinalize Application\nSubmit Application\nToggle Navigation\nApplication Tasks\nContact Information\nPreviousNext\n` ` `\nConfirm your name\nTitle\nFirst Name\nMiddle Name\nLast Name\nSuffix\nPreferred First Name\nPreferred Last Name\nHome Country/Jurisdiction\nPress down arrow to select\nLookup trigger\nPreferred Contact Time\nPreferred Mailing Address\nPreferred Contact Method\nWhere do you live?\nHow do we contact you?\nPrimary Email\nRequired\nResume"
+}
