@@ -304,17 +304,23 @@ def build_cover_html(md_content):
 
         # Before first rule: capture taglines
         if rule_count == 0:
+            # Strip markdown emphasis wrappers (*italic* / **bold**) — the cream header
+            # already styles these; raw asterisks must NEVER show in the PDF (2026-06-12 fix).
+            def _clean_tagline(t):
+                t = re.sub(r'\*\*(.+?)\*\*', r'\1', t)   # **bold**
+                t = re.sub(r'\*(.+?)\*', r'\1', t)        # *italic*
+                return t.strip('* ').strip()
             # Tagline lines (the two descriptor lines under the name)
             if "Solution-focused" in s or "Data-driven" in s:
-                tagline1 = s
+                tagline1 = _clean_tagline(s)
                 seen_tagline1 = True
                 continue
             if seen_tagline1 and ("Dedicated to" in s or "Improving" in s or "Driving" in s):
-                tagline2 = s
+                tagline2 = _clean_tagline(s)
                 continue
             # Any other tagline-ish line right after name
             if "Dedicated to" in s:
-                tagline2 = s
+                tagline2 = _clean_tagline(s)
                 continue
             continue
 
