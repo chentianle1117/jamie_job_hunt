@@ -18,14 +18,15 @@ navigating: https://www.coinbase.com/careers/positions/7773124?gh_jid=7773124
 -- Employment --
   [text] emp_company = InGenius Prep
   [text] emp_title = Program Enablement Manager
-  [text] emp_start_month = 09
+  [combo] emp_start_month = September
   [text] emp_start_year = 2023
   [check] current role
 
 -- Education --
-  [text] edu_school = University of Southern California
-  [text] edu_degree = Master's Degree
-  [text] edu_discipline = Applied Organizational Psychology
+  [combo] edu_school = University of Southern California
+  [combo] edu_degree = Master's Degree
+  [combo] edu_discipline (discipline--0): NO MATCH for 'Applied Organizational Psychology'
+  [combo] edu_discipline = Psychology
 
 -- Custom questions --
   [text] q_linkedin = https://www.linkedin.com/in/jamieyccheng/
@@ -56,3 +57,14 @@ navigating: https://www.coinbase.com/careers/positions/7773124?gh_jid=7773124
   [options:demo_disability] ['Yes, I have a disability, or have had one in the past', 'No, I do not have a disability and have not had one in the past', 'I do not want to answer']
   [combo] demo_disability = No, I do not have a disability and have not had one in the past
   [options:demo_race] ['American Indian or Alaskan Native', 'Asian', 'Black or African American', 'White', 'Native Hawaiian or Other Pacific Islander', 'Two or More Races', 'Decline To Self Identify']
+  [combo] demo_race = Asian
+
+CAPTCHA state: {'challenge_iframe_present': False, 'challenge_visible': False, 'checkbox_iframe_visible': True}
+
+>>> PRE-SUBMIT screenshot + drive_state.json written. WAITING for DECISION.txt (SUBMIT/STAGE) ...
+
+*** DECISION=SUBMIT — clicking Submit application ***
+URL: https://job-boards.greenhouse.io/embed/job_app/confirmation?for=coinbase&token=7773124
+success: True
+
+Keeping browser open ~8 more minutes for human review/finish...

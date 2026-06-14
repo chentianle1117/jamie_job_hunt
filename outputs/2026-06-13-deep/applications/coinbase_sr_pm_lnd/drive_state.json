@@ -8,12 +8,12 @@
     "location": "Portland, OR (or nearest suggestion)",
     "emp_company": "InGenius Prep",
     "emp_title": "Program Enablement Manager",
-    "emp_start_month": "09",
+    "emp_start_month": "September",
     "emp_start_year": "2023",
     "emp_current": "checked",
     "edu_school": "University of Southern California",
     "edu_degree": "Master's Degree",
-    "edu_discipline": "Applied Organizational Psychology",
+    "edu_discipline": "Psychology",
     "q_linkedin": "https://www.linkedin.com/in/jamieyccheng/",
     "q_18plus": "Yes",
     "q_prev_coinbase": "No",
@@ -35,7 +35,9 @@
     "demo_disability": "No, I do not have a disability and have not had one in the past",
     "demo_race": "Asian"
   },
-  "unknowns": [],
+  "unknowns": [
+    "edu_discipline (wanted 'Applied Organizational Psychology')"
+  ],
   "review_flags": [],
   "captcha": {
     "challenge_iframe_present": false,

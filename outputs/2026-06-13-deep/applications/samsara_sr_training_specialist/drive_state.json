@@ -1,0 +1,57 @@
+{
+  "filled": {
+    "first_name": "Yi-Chieh",
+    "last_name": "Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "(213) 700-3831",
+    "country": "United States",
+    "location": "Portland, OR (or nearest suggestion)",
+    "q_pref_first": "Jamie",
+    "q_pref_last": "Cheng",
+    "q_yoe": "2-3 years",
+    "q_highest_edu": "Master\u2019s",
+    "q_reside_us": "Yes",
+    "q_sponsorship": "Yes",
+    "q_authorized": "Yes",
+    "q_hours": "Yes",
+    "q_linkedin": "https://www.linkedin.com/in/jamieyccheng/",
+    "q_ack_first": "Acknowledge/Confirm",
+    "q_zip": "97209",
+    "q_source": "LinkedIn Jobs",
+    "q_ack": "Yes",
+    "q_current_employer": "InGenius Prep",
+    "q_learned_samsara": "LinkedIn",
+    "q_prev_samsara": "No",
+    "demo2_gender": "Woman",
+    "demo2_race": "East Asian (inclusive of Chinese, Japanese, Korean, Mongolian, Tibetan, and Taiwanese)",
+    "demo2_veteran": "I am not a protected veteran",
+    "demo2_disability": "No, I don\u2019t have a disability"
+  },
+  "unknowns": [
+    "q_ack (wanted 'Yes')",
+    "q_ack (wanted 'I agree')",
+    "q_ack (wanted 'I acknowledge')",
+    "q_ack (wanted 'I consent')",
+    "q_ack (wanted 'Acknowledged')",
+    "q_ack (wanted 'I have read and agree')",
+    "q_ack (wanted 'Agree')",
+    "q_ack (wanted 'I Accept')",
+    "q_ack (wanted 'Accept')"
+  ],
+  "review_flags": [],
+  "captcha": {
+    "challenge_iframe_present": false,
+    "challenge_visible": false,
+    "checkbox_iframe_visible": true
+  },
+  "upload": {
+    "chips": [
+      "Create a Job Alert\n\nInterested in building your career at Samsara? Get future op",
+      "Create a Job Alert\n\nInterested in building your career at Samsara? Get future op",
+      "Apply for this job\n\n*\n\nindicates a required field\n\nQuick Apply with MyGreenhouse",
+      "First Name*\nLast Name*\nEmail*\nPhone\nCountry\n+1\nPhone\nLocation (City)*\noption Nor",
+      "First Name*\nLast Name*\nEmail*\nPhone\nCountry\n+1\nPhone\nLocation (City)*\noption Nor",
+      "Resume/CV*\n\nresume.pdf"
+    ]
+  }
+}

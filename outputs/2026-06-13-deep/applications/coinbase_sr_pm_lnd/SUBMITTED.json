@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-06-13T23:21:08.889449",
+  "url": "https://job-boards.greenhouse.io/embed/job_app/confirmation?for=coinbase&token=7773124",
+  "title": "Thank you for applying",
+  "success": true,
+  "body_preview": "Thank you for applying.\n\nYour application has been received. If there is a fit, someone will be getting back to you.?\n\nView more jobs at Coinbase\nBack to job post",
+  "state": {
+    "filled": {
+      "first_name": "Yi-Chieh",
+      "last_name": "Cheng",
+      "email": "jamiecheng0103@gmail.com",
+      "phone": "(213) 700-3831",
+      "country": "United States",
+      "location": "Portland, OR (or nearest suggestion)",
+      "emp_company": "InGenius Prep",
+      "emp_title": "Program Enablement Manager",
+      "emp_start_month": "September",
+      "emp_start_year": "2023",
+      "emp_current": "checked",
+      "edu_school": "University of Southern California",
+      "edu_degree": "Master's Degree",
+      "edu_discipline": "Psychology",
+      "q_linkedin": "https://www.linkedin.com/in/jamieyccheng/",
+      "q_18plus": "Yes",
+      "q_prev_coinbase": "No",
+      "q_source": "LinkedIn",
+      "q_privacy_arbitration": "Confirmed",
+      "q_ai_ack": "Yes",
+      "q_ai_usage": "I design or automate workflows with AI tools (e.g., building agents, integrating AI into team processes).",
+      "q_authorized": "Yes",
+      "q_sponsorship": "Yes",
+      "q_govt_self": "No, I am not a current or former Government Official",
+      "q_govt_relative": "No, I am not a relative of a government official.",
+      "q_financial_conflict": "No",
+      "q_referral_client": "No",
+      "q_travel20": "Yes",
+      "q_proximity": "Other",
+      "demo_gender": "Female",
+      "demo_hispanic": "No",
+      "demo_veteran": "I am not a protected veteran",
+      "demo_disability": "No, I do not have a disability and have not had one in the past",
+      "demo_race": "Asian"
+    },
+    "unknowns": [
+      "edu_discipline (wanted 'Applied Organizational Psychology')"
+    ],
+    "review_flags": [],
+    "captcha": {
+      "challenge_iframe_present": false,
+      "challenge_visible": false,
+      "checkbox_iframe_visible": true
+    },
+    "upload": {
+      "chips": [
+        "Back to jobs\nNew\nSr. Program Manager, Learning & Development\nRemote - USA\nApply\n",
+        "Back to jobs\nNew\nSr. Program Manager, Learning & Development\nRemote - USA\nApply\n",
+        "Apply for this job\n\n*\n\nindicates a required field\n\nFirst Name*\nLast Name*\nEmail*",
+        "First Name*\nLast Name*\nEmail*\nPhone\nCountry*\n+1\nPhone*\nLocation (City)*\noption N",
+        "First Name*\nLast Name*\nEmail*\nPhone\nCountry*\n+1\nPhone*\nLocation (City)*\noption N",
+        "Resume/CV*\n\nresume.pdf"
+      ]
+    }
+  }
+}

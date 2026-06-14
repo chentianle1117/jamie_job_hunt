@@ -1,0 +1,103 @@
+navigating: https://job-boards.greenhouse.io/embed/job_app?token=7822470&for=samsara&gh_jid=7822470
+
+-- Personal --
+  [text] first_name = Yi-Chieh
+  [text] last_name = Cheng
+  [text] email = jamiecheng0103@gmail.com
+  [text] phone = (213) 700-3831
+  [combo] country = United States
+  [text] location typed Portland, OR
+
+-- Uploads --
+  resume uploaded (88289 bytes)
+  cover uploaded
+  filename chips: ['Create a Job Alert\n\nInterested in building your career at Samsara? Get future op', 'Create a Job Alert\n\nInterested in building your career at Samsara? Get future op', 'Apply for this job\n\n*\n\nindicates a required field\n\nQuick Apply with MyGreenhouse', 'First Name*\nLast Name*\nEmail*\nPhone\nCountry\n+1\nPhone\nLocation (City)*\noption Nor', 'First Name*\nLast Name*\nEmail*\nPhone\nCountry\n+1\nPhone\nLocation (City)*\noption Nor', 'Resume/CV*\n\nresume.pdf']
+
+-- Employment: no structured block on this form (skip) --
+
+-- Education: no structured block on this form (skip) --
+
+-- Custom questions (dynamic) --
+  found 18 REAL question_* fields
+   - question_65680804 | select=False multi=False | Preferred First Name*
+   - question_65680805 | select=False multi=False | Preferred Last Name*
+   - question_67592041 | select=True multi=False | How many years of experience do you have teaching or delivering training?*
+   - question_67592042 | select=True multi=False | What is your highest level of education?*
+   - question_67592043 | select=True multi=False | I confirm that I reside in the United States.*
+   - question_65680807 | select=True multi=False | Will you now or in the future require Samsara to commence (?sponsor?) an immigration case in or
+   - question_65680810 | select=True multi=False | Are you currently legally authorized to work in the country in which this job is based (e.g. yo
+   - question_67592044 | select=True multi=False | Are you comfortable working business hours that align with both the U.S. East Coast and Midwest
+   - question_65680806 | select=False multi=False | LinkedIn Profile
+   - question_65680808 | select=False multi=False | At Samsara, we encourage employees to bring their whole selves to work (this includes applicant
+   - question_65680809 | select=True multi=False | Processing of Personal Data*
+   - question_65680811 | select=False multi=False | What is the zip code of your primary residence?*
+   - question_65680812 | select=True multi=False | How did you hear about this opportunity?*
+   - question_65680813 | select=True multi=False | AI Policy for Interviewers*
+   - question_65680814 | select=False multi=False | Current Employer (if applicable)*
+   - question_66377140[] | select=True multi=True | Where have you learned about Samsara? Select all that apply.*
+   - question_66381085 | select=False multi=False | If you selected 'Other' for where you learned about Samsara, please share additional details.
+   - question_67406855 | select=True multi=False | Have you previously worked at Samsara?*
+  [text] q_pref_first = Jamie
+  [text] q_pref_last = Cheng
+  [combo] q_yoe = 2-3 years
+  [combo] q_highest_edu = Master?s
+  [combo] q_reside_us = Yes
+  [combo] q_sponsorship = Yes
+  [combo] q_authorized = Yes
+  [combo] q_hours = Yes
+  [text] q_linkedin = https://www.linkedin.com/in/jamieyccheng/
+   (skip optional text question_65680808)
+  [combo] q_ack (question_65680809): NO MATCH for 'Yes'
+  [combo] q_ack (question_65680809): NO MATCH for 'I agree'
+  [combo] q_ack (question_65680809): NO MATCH for 'I acknowledge'
+  [combo] q_ack (question_65680809): NO MATCH for 'I consent'
+  [combo] q_ack (question_65680809): NO MATCH for 'Acknowledged'
+  [combo] q_ack (question_65680809): NO MATCH for 'I have read and agree'
+  [combo] q_ack (question_65680809): NO MATCH for 'Agree'
+  [combo] q_ack (question_65680809): NO MATCH for 'I Accept'
+  [combo] q_ack (question_65680809): NO MATCH for 'Accept'
+  [combo] q_ack_first (first) = Acknowledge/Confirm
+  [text] q_zip = 97209
+  [combo] q_source = LinkedIn Jobs
+  [combo] q_ack = Yes
+  [text] q_current_employer = InGenius Prep
+  [combo] q_learned_samsara = LinkedIn
+   (skip optional text question_66381085)
+  [combo] q_prev_samsara = No
+
+-- Demographics --
+  (no #gender field — skip demographics block)
+  Samsara EEO selects: [('498', 'gender'), ('500', 'race'), ('501', 'veteran'), ('502', 'disability')]
+  [combo] demo2_gender = Woman
+  [combo] demo2_race = East Asian (inclusive of Chinese, Japanese, Korean, Mongo
+*** DECISION=SUBMIT — clicking Submit application ***
+  submit err: Page.evaluate: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "C:\Users\chent\Agentic_Workflows_2026\jamie-autopilot\_drive_samsara.py", line 467, in <module>
+    const cb = document.querySelector('iframe[title="reCAPTCHA"]');
+    ^^^^^^^^^^^^^^
+*** DECISION=SUBMIT — clicking Submit application ***
+URL: https://job-boards.greenhouse.io/embed/job_app/confirmation?for=samsara&token=7822470
+success: True
+
+Keeping browser open ~8 more minutes for human review/finish...
+a\Roaming\Python\P
+*** DECISION=SUBMIT — clicking Submit application ***
+  submit err: Page.evaluate: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "C:\Users\chent\Agentic_Workflows_2026\jamie-autopilot\_drive_samsara.py", line 488, in <module>
+    
+  File "C:\Users\chent\AppData\Roaming\Python\Python312\site-packages\patchright\sync_api\_generated.py", line 10388, in screenshot
+    self._sync(
+  File "C:\Users\chent\AppData\Roaming\Python\Python312\site-packages\patchright\_impl\_sync_base.py", line 94, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\chent\AppData\Roaming\Python\Python312\site-packages\patchright\_impl\_page.py", line 780, in screenshot
+    encoded_binary = await self._channel.send(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chent\AppData\Roaming\Python\Python312\site-packages\patchright\_impl\_connection.py", line 52, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chent\AppData\Roaming\Python\Python312\site-packages\patchright\_impl\_connection.py", line 500, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+patchright._impl._errors.TargetClosedError: Page.screenshot: Target page, context or browser has been closed

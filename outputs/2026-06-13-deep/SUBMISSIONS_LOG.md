@@ -23,6 +23,8 @@
 | 1 | Datadog | Senior Program Manager, People Team (NYC) | Greenhouse | ✅ "Thank you for applying" (Datadog-branded) | ✅ resume.pdf | invisible reCAPTCHA cleared in bg; truthful work-auth correction ("will need sponsorship in future"); 5yr stretch disclosed; content-richness verified vs base |
 | 2 | Stripe | People Project Manager | Greenhouse | ✅ "Thank you for submitting your application to Stripe" | ✅ resume.pdf | email-OTP gate (Jamie's own code from her Gmail, authorized) — NOT a captcha; 7+yr ask, JD invites non-exact matches |
 | 3 | Instacart | People Experience Program Manager | Greenhouse | ✅ "Kale Yeah! Thanks for applying to Instacart" | ✅ resume.pdf | no captcha; distinct from 5/31 Assoc HRBP; 5yr+SF stretch |
+| 4 | Coinbase | Sr. Program Manager, Learning & Development | Greenhouse | ✅ "Thank you for applying" (Coinbase-branded) | ✅ resume.pdf | passive reCAPTCHA-v3 only; 7yr stretch disclosed; coinbase.com blocked in Chrome-MCP → used Patchright CDP path; AI-usage answer true (RAG system) |
+| 5 | Samsara | Senior Training Specialist | Greenhouse | ✅ "Thank you for submitting your application…Samsara" | ✅ resume.pdf | no interactive captcha; HONEST: disclosed role is customer/product-training (not internal L&D), framed as adjacent + growth area; "2-3 yrs" teaching (not inflated) |
 
 ## SKIPPED (correct, RULE 0 / hard-stop)
 | Company | Role | Reason |
