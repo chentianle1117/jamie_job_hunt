@@ -1,0 +1,538 @@
+
+=== 2026-06-14T04:37:35.130272 :: Gainsight / Senior Program Manager, People Programs & AI (R-101711) ===
+landed: https://gainsight.wd5.myworkdayjobs.com/en-US/Gainsight_External_Careers/job/USA---FL---Remote/Senior-Program-Manager--People-Programs---AI_R-101711/apply/applyManually | title: Senior Program Manager, People Programs & AI
+---- STEP1 LANDING ----
+Skip to main content
+Sign In
+Careers Home
+Search for Jobs
+Join Our Talent Community
+Back to Job Posting
+Senior Program Manager, People Programs & AI
+current step 1 of 6
+My Information
+step 2 of 6
+My Experience
+step 3 of 6
+Application Questions
+step 4 of 6
+Voluntary Disclosures
+step 5 of 6
+Self Identify
+step 6 of 6
+Review
+My Information
+* Indicates a required field
+How Did You Hear About Us?*
+0 items selected
+Have you ever worked for Gainsight?*
+Yes
+No
+Country*
+United States of America
+Legal Name
+First Name*
+Last Name*
+I have a preferred name
+Address
+Address Line 1
+City
+State
+Select One
+Postal Code
+Email Address
+Email*
+Phone
+Phone Device Type*
+Mobile
+Country Phone Code*
+1 item selected, United States of America (+1)
+
+United States of America (+1)
+
+Phone Number*
+Phone Extension
+Next
+Follow U
+---- END STEP1 LANDING ----
+  [shot] 01_my_information_blank
+
+-- STEP 1: My Information --
+  [ms] how_did_you_hear = LinkedIn (enter)
+  [radio] 'previously worked' = no
+  [text] first_name = Yi-Chieh
+  [text] last_name = Cheng
+  [text] address1 = 1784 NW Northrup Street
+  [text] city = Portland
+  [text] zip = 97209
+  [dd] state: opts = LinkedIn|LinkedIn|LinkedIn|United States of America (+1)|United States of America (+1)|United States of America (+1)|Select One|Alabama|Alaska|American Samoa|Arizona|Arkansas|Armed Forces Americas|Armed Forces Europe|Armed Forces Pacific|Ca
+  [dd] state = Oregon
+  [text] email = jamiecheng0103@gmail.com
+  [text] phone = 2137003831
+  [dd] phone_device_type: opts = LinkedIn|LinkedIn|LinkedIn|United States of America (+1)|United States of America (+1)|United States of America (+1)|Select One|Landline|Mobile
+  [dd] phone_device_type = Mobile
+  [shot] 02_my_information_filled
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  -> progress: Senior Program Manager, People Programs & AI
+---- STEP2 LANDING ----
+Skip to main content
+Back to Job Posting
+Senior Program Manager, People Programs & AI
+completed step 1 of 6
+My Information
+current step 2 of 6
+My Experience
+step 3 of 6
+Application Questions
+step 4 of 6
+Voluntary Disclosures
+step 5 of 6
+Self Identify
+step 6 of 6
+Review
+My Experience
+* Indicates a required field
+Work Experience
+Add
+Education
+Add
+Languages
+Add
+Resume/CV
+
+Upload a file (5MB max)*
+Drop files here
+or
+Select files
+
+Websites
+Add any relevant websites.
+Add
+Social Network URLs
+Please provide your LinkedIn URL
+Back
+Next
+Follow Us
+Gainsight Privacy Policy
+? 2026 Workday, Inc. All rights reserved.
+---- END STEP2 LANDING ----
+
+-- STEP 2: My Experience (resume upload) --
+  resume uploaded via input[type='file'][data-automation-id*='file-upload-input'] (88858 bytes)
+  attached chip: Skip to main content
+Back to Job Posting
+Senior Program Manager, People Programs & AI
+completed step 1 of 6
+My Informati
+  [text] linkedin = https://www.linkedin.com/in/jamieyccheng/
+  [shot] 03_my_experience_resume_uploaded
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  -> progress: Senior Program Manager, People Programs & AI
+---- STEP3 LANDING ----
+Skip to main content
+Back to Job Posting
+Senior Program Manager, People Programs & AI
+completed step 1 of 6
+My Information
+completed step 2 of 6
+My Experience
+current step 3 of 6
+Application Questions
+step 4 of 6
+Voluntary Disclosures
+step 5 of 6
+Self Identify
+step 6 of 6
+Review
+Application Questions
+* Indicates a required field
+
+What is your salary requirement?*
+
+Are you 18 Years or Older?*
+
+Select One
+
+Are you Authorized to work in the United States?*
+
+Select One
+
+Do you now or will you at any time in the future require visa sponsorship?*
+
+Select One
+
+Are you related to any current Gainsight Employees?*
+
+Select One
+
+Are you currently employed by a Vista Equity portfolio company?*
+
+Select One
+Back
+Next
+Follow Us
+Gainsight Privacy Policy
+? 2026 Workday, Inc. All rights reserved.
+---- END STEP3 LANDING ----
+
+-- Wizard page round 0 (step 3) review={'review': False, 'submitted': False, 'hasSubmit': False, 'onLastStep': False, 'reviewHeader': False} --
+---- ROUND 0 LIVE ----
+Skip to main content
+Back to Job Posting
+Senior Program Manager, People Programs & AI
+completed step 1 of 6
+My Information
+completed step 2 of 6
+My Experience
+current step 3 of 6
+Application Questions
+step 4 of 6
+Voluntary Disclosures
+step 5 of 6
+Self Identify
+step 6 of 6
+Review
+Application Questions
+* Indicates a required field
+
+What is your salary requirement?*
+
+Are you 18 Years or Older?*
+
+Select One
+
+Are you Authorized to work in the United States?*
+
+Select One
+
+Do you now or will you at any time in the future require visa sponsorship?*
+
+Select One
+
+Are you related to any current Gainsight Employees?*
+
+Select One
+
+Are you currently employed by a Vista Equity portfolio company?*
+
+Select One
+Back
+Next
+Follow Us
+Gainsight Privacy Policy
+? 2026 Workday, Inc. All rights reserved.
+---- END ROUND 0 LIVE ----
+  [radio] 'sponsor': 'Yes' NOT FOUND
+  [dd] sponsorship: opts = Select One|Yes|No
+  [dd] sponsorship = Yes
+  [radio] 'legally authorized': 'Yes' NOT FOUND
+  [dd] work_authorized: opts = Select One|Yes|No
+  [dd] work_authorized = Yes
+  [radio] '18 years': 'Yes' NOT FOUND
+  [dd] age18: opts = Select One|Yes|No
+  [dd] age18 = Yes
+  [text] salary = 135000
+  [radio] 'related to any current': 'No' NOT FOUND
+  [dd] related_to_employee: opts = Select One|Yes|No
+  [dd] related_to_employee = No
+  [radio] 'vista equity': 'No' NOT FOUND
+  [dd] vista_portfolio: opts = Select One|Yes|No
+  [dd] vista_portfolio = No
+  [shot] 04_disclosures_round0
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  -> progress: Senior Program Manager, People Programs & AI
+
+-- Wizard page round 1 (step 4) review={'review': False, 'submitted': False, 'hasSubmit': False, 'onLastStep': False, 'reviewHeader': False} --
+---- ROUND 1 LIVE ----
+Skip to main content
+Back to Job Posting
+Senior Program Manager, People Programs & AI
+completed step 1 of 6
+My Information
+completed step 2 of 6
+My Experience
+completed step 3 of 6
+Application Questions
+current step 4 of 6
+Voluntary Disclosures
+step 5 of 6
+Self Identify
+step 6 of 6
+Review
+Voluntary Disclosures
+* Indicates a required field
+Personal Data Statement
+
+Individuals seeking employment are considered without regards to race, color, religion, national origin, age, sex, marital status, ancestry, physical or mental disability, veteran status, or sexual orientation. You are being given the opportunity to provide the following information in order to help us comply with federal and state Equal Employment Opportunity/Affirmative Action record keeping, reporting, and other legal requirements.
+
+Completion of the form is entirely voluntary. Whatever your decision, it will not be considered in the hiring process or thereafter. Any information that you do provide will be recorded and maintained in a confidential file.
+
+Please select your ethnicity.
+Select One
+Please select the gender you most identify with.
+Select One
+What is your veteran status?
+Select One
+Terms and Conditions
+
+By submitting my application, I consent to the processing of my personal data by Gainsight and its affiliates for the purposes of recruitment and employment consideration, in accordance with applicable data protection laws and Gainsight?s privacy policy.
+
+I understand that my information may be retained for future recruitment efforts where permitted by local law, and that I may withdraw my consent at any time.
+
+I acknowledge that I have reviewed Gainsight's Applicant Privacy Notice linked on this page.*
+Back
+Next
+Follow Us
+Gainsight Privacy Policy
+? 2026 Workday, Inc. All rights reserved.
+---- END ROUND 1 LIVE ----
+  [dd] gender: opts = Select One|Do Not Wish to Answer|Female|Male|Non-Binary
+  [dd] gender = Female
+  [dd] ethnicity: opts = Select One|American Indian or Alaska Native (Not Hispanic or Latino) (United States of America)|Asian (Not Hispanic or Latino) (United States of America)|Black or African American (Not Hispanic or Latino) (United States of America)|Hispanic
+  [dd] ethnicity = Asian (Not Hispanic or Latino) (United States of America)
+  [dd] veteran: opts = Select One|I IDENTIFY AS ONE OR MORE OF THE CLASSIFICATIONS OF PROTECTED VETERANS LISTED ABOVE|I IDENTIFY AS A VETERAN, JUST NOT A PROTECTED VETERAN|I AM NOT A VETERAN|I DO NOT WISH TO SELF-IDENTIFY
+  [dd] veteran = I AM NOT A VETERAN
+  [dd] disability: no dropdown for labels ['disability']
+  [check] acknowledgment(s): ["i acknowledge that i have reviewed gainsight's app"]
+  [shot] 04_disclosures_round1
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  -> progress: Senior Program Manager, People Programs & AI
+
+-- Wizard page round 2 (step 5) review={'review': False, 'submitted': False, 'hasSubmit': False, 'onLastStep': False, 'reviewHeader': False} --
+---- ROUND 2 LIVE ----
+Skip to main content
+Back to Job Posting
+Senior Program Manager, People Programs & AI
+completed step 1 of 6
+My Information
+completed step 2 of 6
+My Experience
+completed step 3 of 6
+Application Questions
+completed step 4 of 6
+Voluntary Disclosures
+current step 5 of 6
+Self Identify
+step 6 of 6
+Review
+Self Identify
+* Indicates a required field
+Language*
+English
+Voluntary Self-Identification of Disability
+Form
+CC-305
+OMB Control Number
+1250-0005
+Expires
+04/30/2026
+Name*
+Employee ID (if applicable)
+Date*
+current value is MM/DD/YYYY
+MM
+/
+DD
+/
+YYYY
+Why are you being asked to complete this form?
+We are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.
+
+Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor?s Office of Federal Contract Compliance Programs (OFCCP) website at www.dol.gov/ofccp.
+How do you know if you have a disability?
+A disability is a condition that substantially limits one or more of your ?major life activities.? If you have or have ever had such a condition, you are a person with a disability. Disabilities include, but are not limited to:
+
+
+Alcohol or other substance use disorder (not curre
+---- END ROUND 2 LIVE ----
+  [dd] disability: no dropdown for labels ['disability']
+  -- Self-Identify (CC-305) --
+  [text] selfid_name = Jamie Cheng
+  [date] selfid_date typed 06/14/2026
+  [check] disability = No ( No, I do not have a disability and have not had one in the past )
+  [shot] 04_disclosures_round2
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  -> progress: Senior Program Manager, People Programs & AI
+
+-- Wizard page round 3 (step 5) review={'review': False, 'submitted': False, 'hasSubmit': False, 'onLastStep': False, 'reviewHeader': False} --
+---- ROUND 3 LIVE ----
+Skip to main content
+Back to Job Posting
+Senior Program Manager, People Programs & AI
+completed step 1 of 6
+My Information
+completed step 2 of 6
+My Experience
+completed step 3 of 6
+Application Questions
+completed step 4 of 6
+Voluntary Disclosures
+current step 5 of 6
+Self Identify
+step 6 of 6
+Review
+Self Identify
+* Indicates a required field
+Language*
+English
+Voluntary Self-Identification of Disability
+Form
+CC-305
+OMB Control Number
+1250-0005
+Expires
+04/30/2026
+Name*
+Employee ID (if applicable)
+Date*
+current value is 6/14/2026
+06
+/
+14
+/
+2026
+Why are you being asked to complete this form?
+We are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.
+
+Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor?s Office of Federal Contract Compliance Programs (OFCCP) website at www.dol.gov/ofccp.
+How do you know if you have a disability?
+A disability is a condition that substantially limits one or more of your ?major life activities.? If you have or have ever had such a condition, you are a person with a disability. Disabilities include, but are not limited to:
+
+
+Alcohol or other substance use disorder (not curren
+---- END ROUND 3 LIVE ----
+  -- Self-Identify (CC-305) --
+  [date] selfid_date typed 06/14/2026
+  [check] disability = No ( No, I do not have a disability and have not had one in the past )
+  [shot] 04_disclosures_round3
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  advanced to REVIEW/results after Next a0 ? STOP clicking
+  -> progress: Senior Program Manager, People Programs & AI
+
+-- Wizard page round 4 (step 6) review={'review': True, 'submitted': False, 'hasSubmit': True, 'onLastStep': True, 'reviewHeader': False} --
+  reached REVIEW ? STOP (will not click Next on Review)
+
+-- REVIEW page reached --
+  captcha: {'present': False, 'visible': False, 'checkbox': False}
+  REVIEW errors: ['resume.pdf successfully uploaded']
+  [shot] 07_review_full
+
+>>> REVIEW reached. drive_state.json + 07_review_full.png written. WAITING for DECISION.txt (SUBMIT/STAGE)...
+
+*** DECISION=SUBMIT ? clicking Submit ***
+  submit clicked [data-automation-id='pageFooterNextButton']
+  [shot] 08_after_submit
+  success: False | url: https://gainsight.wd5.myworkdayjobs.com/en-US/Gainsight_External_Careers?Job_Application_ID=51d4d251452f90005dcd135ce3030000
+---- CONFIRMATION ----
+Skip to main content
+Search
+Filters
+Location
+Full/Part-time
+Job Category
+More
+Search for Jobs page is loaded
+
+27 JOBS FOUND
+
+Senior Program Manager, People Programs & AI
+locations
+44 Locations
+time type
+Full time
+posted on
+Posted 2 Days Ago
+R-101711
+Enterprise Account Executive
+locations
+44 Locations
+time type
+Full time
+posted on
+Posted 4 Days Ago
+R-101691
+Strategic Technical Project Manager
+locations
+USA - NY - Remote
+posted on
+Posted 4 Days Ago
+R-101698
+Solutions Architect
+locations
+JPN - Tokyo
+time type
+Full time
+posted on
+Posted 4 Days Ago
+R-101650
+Strategic Corporate Finance Partner
+locations
+44 Locations
+time type
+Full time
+posted on
+Posted 5 Days Ago
+R-101668
+People Operations Program Manager
+locations
+IND - Hyderabad
+time type
+Full time
+posted on
+Posted 5 Days Ago
+R-101705
+Senior Software Engineer
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 5 Days Ago
+R-101704
+Senior Renewals Manager
+locations
+44 Locations
+time type
+Full time
+posted on
+Posted 6 Days Ago
+R-101692
+Principal Engineer - II
+locations
+IND - Bengaluru
+time type
+Full time
+posted on
+Posted 5 Days Ago
+R-101701
+Director of Communications
+locations
+44 Locations
+time type
+Full time
+posted on
+Posted 12 Days Ago
+R-101688
+Director of Content Marketing
+locations
+44 Locations
+time type
+Full time
+posted on
+Posted 12 Days Ago
+R-101687
+Senior PS Operations Analyst
+locations
+IND - Hyderabad
+time type
+Full time
+posted on
+Posted 17 Days Ago
+R-101686
+Senior Revenue Analytics Lead
+locations
+44 Locations
+time typ
+---- END CONFIRMATION ----
+
+Keeping browser open ~5 more minutes...

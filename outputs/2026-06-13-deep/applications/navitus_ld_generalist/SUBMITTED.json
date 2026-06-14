@@ -1,0 +1,55 @@
+{
+  "company": "Navitus Health Solutions",
+  "role": "Learning and Development Generalist",
+  "slug": "navitus_ld_generalist",
+  "status": "SUBMITTED",
+  "confirmed_at": "2026-06-14",
+  "live_verified": true,
+  "linkedin_url": "https://www.linkedin.com/jobs/view/4428320190/",
+  "linkedin_jid": "4428320190",
+  "ats": "iCIMS (careers-navitus.icims.com)",
+  "ats_req_id": "2026-5784",
+  "ats_apply_url": "https://careers-navitus.icims.com/jobs/5784/learning-and-development-generalist/job",
+  "remote": true,
+  "pay_range_posted": "USD $67,656.79 - USD $81,514.20 / Yr",
+  "confirmation_evidence": {
+    "page_text": "Your application was submitted successfully. Thank you for applying. You are currently submitted to this job.",
+    "final_url": "https://careers-navitus.icims.com/jobs/5784/learning-and-development-generalist/job?mode=submit_apply",
+    "screenshot": "navitus_ld_generalist/_CONFIRMATION.png (orchestrator-verified: green success banner + 'currently submitted to this job', logged in as Yi-Chieh Cheng)",
+    "account_created": "Yes — iCIMS candidate account created at submit (login = jamiecheng0103@gmail.com; shared ATS password from ~/Downloads/job_password.txt, NOT stored here)",
+    "email_confirmation": "INDEPENDENTLY VERIFIED in Jamie's Gmail (orchestrator read it): Gmail msg 19ec5eb80046822d, from navitus+autoreply@talent.icims.com, Sun 14 Jun 2026 07:36, subject 'Thank You For Your Application', body confirms 'your recent application to the Learning and Development Generalist (2026-5784) position at Navitus Health Solutions'. DUAL-CONFIRMED (page + email)."
+  },
+  "captcha": "hCaptcha present on every step (footer 'Protected by hCaptcha') but cleared INVISIBLY/passively at all 4 step-transitions incl. final Submit — NO interactive challenge ever appeared. Not bypassed; it self-cleared (score-based).",
+  "resume_attached": "resume.pdf (tailored L&D variant, 87,778 bytes) — CDP set_input_files to #PortalProfileFields.Resume_File, verified el.files[0].name='resume.pdf' size=87778 BEFORE Step-1 submit.",
+  "cover_letter": "cover_letter.pdf built + rendered (1 page) + cover_truth_gate scan = 0 flags. NOTE: the iCIMS flow had NO cover-letter upload field (only resume). Cover not attachable on this ATS; resume + structured answers are the application of record.",
+  "sponsor_check": {
+    "jd_sponsorship_language": "SILENT (no explicit no-sponsorship clause; no ITAR/US-Person) — NOT a hard stop.",
+    "h1b_pattern": "LOW CONFIDENCE. h1bdata/myvisajobs: Navitus filed 0 LCAs FY2024; only ~7 lifetime H1B hires, all TECH (DBAs, Software Developers). Zero non-tech/HR/L&D LCA history. Tech-only / near-zero sponsor pattern for People roles.",
+    "verdict": "STRETCH submitted per recalibrated filter (only explicit no-sponsor is a hard stop). Work-auth answered TRUTHFULLY as H1B in the form (Q22). Low sponsor-confidence noted.",
+    "form_eligibility_prescan": "Application FORM contained a work-auth question (Q22) with H1B as an explicit option — answered H1B truthfully. NO 'no sponsorship' disqualifier gate in the form. Remote-state exclusion list does NOT include Oregon (Jamie eligible)."
+  },
+  "fit": {
+    "yoe": "JD asks '3 years of experience in a learning and development role' — Jamie has ~3 yrs. BEST YOE match of the batch (clean, not a stretch on YOE).",
+    "match": "Strong L&D-ops fit: design/deliver/evaluate training, needs assessments with HRBPs/SMEs, LMS administration, measurement. Maps to InGenius (needs assessments + 3 programs + 600+ webinars), NextGen (2,000+ EX analysis), ODN (HR data analytics).",
+    "honest_gaps_disclosed": "SCORM e-learning authoring (Captivate/Articulate/Lectora) = 'strongly preferred', Jamie is newer to it (disclosed truthfully in cover + in Step-4 e-learning-tools answer, framed as ramp-up area, NOT claimed). 'Supervising direct reports' = 'preferred', Jamie has none (not claimed)."
+  },
+  "form_answers_truthful": {
+    "name": "Yi-Chieh Cheng", "email": "jamiecheng0103@gmail.com", "phone": "Mobile 2137003831",
+    "address": "1784 NW Northrup Street, Portland, OR 97209, United States",
+    "sms_consent": "No",
+    "highest_education": "Completed master's degree (USC, MS Applied Organizational Psychology)",
+    "institution": "University of Southern California",
+    "work_authorization": "H1B (truthful)",
+    "age_18plus": "Yes", "certify_info_true": "Yes", "understand_falsification": "Yes",
+    "former_employee": "No, never worked for Navitus/Archimedes/Lumicera/EpiphanyRX",
+    "nda_noncompete": "I don't have a copy of my employment paperwork/Unsure if this applies (honest — genuinely unknown, did NOT guess)",
+    "tribal_affiliation": "Not a member of a tribe",
+    "remote_wired_internet": "Will have and maintain required wired internet (open to remote)",
+    "eeo": "Gender=Female, Race=Asian (Not Hispanic or Latino), Disability=No, Veteran=No",
+    "elearning_tools_experience": "Honest: LMS (Canvas, Moodle) + content creation + 600+ trainings; newer to SCORM authoring tools (Articulate/Captivate), eager to ramp",
+    "state_of_residence": "Oregon",
+    "salary_expectation": "$70,001 - $80,000 (band containing midpoint of posted $67.7k-$81.5k range; per answer-profile midpoint rule)"
+  },
+  "pre_submit_gate": "Full text read-back of all 4 steps' selected values performed before final Submit (visual screenshot blocked by the persistent hCaptcha widget's animation — text read-back used as verification; all values confirmed truthful, 0 form errors). Post-submit confirmation screenshot captured via iframe-body method.",
+  "unknowns": "Sponsor willingness genuinely uncertain (near-zero non-tech LCA history). NDA/noncompete status genuinely unknown (answered 'unsure' honestly). Email confirmation check pending."
+}

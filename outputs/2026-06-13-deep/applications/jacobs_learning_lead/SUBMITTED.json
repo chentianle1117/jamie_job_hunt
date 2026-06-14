@@ -19,7 +19,7 @@
   "account": {
     "created_this_run": true,
     "email_username": "jamiecheng0103@gmail.com",
-    "password_note": "Shared 'Career0324!' was REJECTED by Jacobs' strict pw policy ('no common words'). Per re-probe brief authorization, a COMPLIANT variant was generated + used + recorded in jamie-autopilot/jamie/account_registry.json (NOT printed in this log). The compliant password is the prior blocker's resolution.",
+    "password_note": "Shared '[REDACTED-shared-ATS-pw]' was REJECTED by Jacobs' strict pw policy ('no common words'). Per re-probe brief authorization, a COMPLIANT variant was generated + used + recorded in jamie-autopilot/jamie/account_registry.json (NOT printed in this log). The compliant password is the prior blocker's resolution.",
     "registry_updated": "jamie-autopilot/jamie/account_registry.json (Jacobs entry added, status=created_verified)"
   },
   "apply_path": "Apply -> 'Without Resume / Upload CV later' (Phenom structured Register — avoids sandboxed file-upload AND LinkedIn/Google OAuth grant). Multi-step: (1) Application details [register: name/contact/address/email-username/COMPLIANT-password + how-heard=LinkedIn + skills(Training & Development)/capabilities(Business and Sales)/market(Enterprise Functions) + work-experience(InGenius Prep, Program Enablement Manager, 09/2023-present, current=Yes) + privacy ack] -> (2) Additional + Job-specific questions -> (3) Inclusion & belonging -> (4) Review -> Submit -> Success.",

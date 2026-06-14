@@ -19,7 +19,7 @@
     "created": true,
     "verified": true,
     "email": "jamiecheng0103@gmail.com",
-    "password_location": "shared ~/Downloads/job_password.txt (Career0324!)",
+    "password_location": "shared ~/Downloads/job_password.txt ([REDACTED-shared-ATS-pw])",
     "note": "Premera Workday required a candidate account before the apply form. Created with shared ATS password; verification email from premera@otp.workday.com clicked + account activated + signed in. Recorded in jamie-autopilot/jamie/account_registry.json. NO CAPTCHA encountered at any step.",
     "captcha_seen": false
   },
@@ -58,7 +58,7 @@
     "page_6_review": "NOT YET REACHED."
   },
 
-  "human_handoff": "Tab is LEFT OPEN at the My Experience page (Chrome 'Job Serach' browser, tabId 868509293), signed in to Jamie's Premera Workday candidate account. To finish: (1) drag-drop or Select a resume PDF into the Resume/CV box (resume_pdf_available below); (2) click Save and Continue; (3) on 'Application Questions' answer Sponsorship-required = YES (and any salary -> $95,000-$120,000); (4) on Voluntary Disclosures use Woman/Asian/not-Hispanic/no-disability/non-veteran (or decline); (5) Self Identify; (6) Review; (7) Submit. Account login if the session drops: jamiecheng0103@gmail.com / Career0324! at https://premera.wd5.myworkdayjobs.com/en-US/Premera/login",
+  "human_handoff": "Tab is LEFT OPEN at the My Experience page (Chrome 'Job Serach' browser, tabId 868509293), signed in to Jamie's Premera Workday candidate account. To finish: (1) drag-drop or Select a resume PDF into the Resume/CV box (resume_pdf_available below); (2) click Save and Continue; (3) on 'Application Questions' answer Sponsorship-required = YES (and any salary -> $95,000-$120,000); (4) on Voluntary Disclosures use Woman/Asian/not-Hispanic/no-disability/non-veteran (or decline); (5) Self Identify; (6) Review; (7) Submit. Account login if the session drops: jamiecheng0103@gmail.com / [REDACTED-shared-ATS-pw] at https://premera.wd5.myworkdayjobs.com/en-US/Premera/login",
   "resume_pdf_available": "C:\\Users\\chent\\.claude\\downloads\\Jamie_Cheng_Resume.pdf (also oracle-job-search/jamie/resume.pdf and resume_tailored.pdf) — ready for the human to drop in.",
 
   "rule_0_check": "All entered values trace to jamie/profile_compact.md, resume.md, references.md. Legal name Yi-Chieh Cheng (preferred Jamie). Role description uses only resume.md CAN-claim items — no fabrication, no enterprise-scale framing, no 'managed a team', no invented numbers. Sponsorship-required=YES (never No). No InGenius listed as a reference. No false 'submitted' claim — status is honestly cannot-finish-staged-needs-upload.",

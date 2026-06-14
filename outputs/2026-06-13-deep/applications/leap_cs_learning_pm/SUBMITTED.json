@@ -1,0 +1,51 @@
+{
+  "company": "LEAP Legal Software",
+  "role": "Client Success Learning Program Manager",
+  "slug": "leap_cs_learning_pm",
+  "status": "SUBMITTED",
+  "confirmed_at": "2026-06-14",
+  "live_verified": true,
+  "linkedin_url": "https://www.linkedin.com/jobs/view/4426973823/",
+  "linkedin_jid": "4426973823",
+  "ats": "Workable (apply.workable.com/leap-legal-software)",
+  "ats_req_id": "816A98B85B",
+  "ats_apply_url": "https://apply.workable.com/leap-legal-software/j/816A98B85B/apply/",
+  "remote": true,
+  "pay_range_posted": "OTE $115,000 - $140,000",
+  "confirmation_evidence": {
+    "page_text": "Thank you! Your application has been submitted successfully. A copy of your application will be sent to jamiecheng0103@gmail.com for your records.",
+    "final_url": "https://apply.workable.com/leap-legal-software/j/816A98B85B/apply/?success",
+    "screenshot": "leap_cs_learning_pm/_CONFIRMATION.png (orchestrator-verified: LEAP logo + checkmark + 'Your application has been submitted successfully')",
+    "optional_eeo": "Post-submit voluntary EEO survey ALSO completed (Race=Asian, Gender=Female) — 'Your EEO form has been submitted successfully.' Application was already submitted before EEO; EEO is voluntary.",
+    "account_created": "No — Workable is no-account, anonymous apply."
+  },
+  "captcha": "NONE. Workable form had 0 captcha frames before or after Submit (no reCAPTCHA/hCaptcha/Turnstile). Clean no-account auto-submit.",
+  "resume_attached": "resume.pdf (tailored CS-education/program-mgmt variant, 88,384 bytes) — CDP set_input_files to the Workable file input, verified el.files[0].name='resume.pdf' size=88384.",
+  "cover_letter": "Pasted into Workable cover_letter textarea (2,056 chars, CLEAN PLAIN TEXT — markdown stripped, no header block, no links/markup). cover_truth_gate scan = 0 flags. (cover_letter.pdf also built+rendered 1 page.)",
+  "sponsor_check": {
+    "jd_sponsorship_language": "SILENT (no explicit no-sponsorship clause; no ITAR/US-Person) — NOT a hard stop.",
+    "h1b_pattern": "VERY LOW CONFIDENCE. myvisajobs: LEAP Legal Software filed only ~1 LCA total (FY2018-2020). Legal-tech SMB (~900 employees globally, AU-founded). Near-zero non-tech H1B sponsor pattern.",
+    "verdict": "STRETCH submitted per recalibrated filter (only explicit no-sponsor is a hard stop). Form asked eligibility/auth questions (answered truthfully YES — she IS currently authorized via valid H-1B); the form did NOT ask 'will you need sponsorship in the future' (if it had, answer would be YES). Low sponsor-confidence noted.",
+    "form_eligibility_prescan": "FORM pre-scanned: CA_13749 'eligible to work in this country' = YES (true, valid H-1B); QA 'based in US + legally authorized' = YES (true). NO 'no sponsorship' disqualifier gate. NO future-sponsorship question present."
+  },
+  "fit": {
+    "yoe": "JD asks '4+ years customer education, enablement, client success, training, or related'; Jamie ~3 yrs (mild stretch, but 'or related/training' is broad).",
+    "match": "STRETCH — this is a Customer Success / Customer-Education role centered on Gainsight + product-adoption, NOT internal L&D. Jamie's REAL mapping: live facilitation (600+ webinars, personally presenting), end-to-end program logistics, SME-partnered curriculum/facilitator guides, success-metrics/measurement. Closest precedent = Samsara (customer/product-training framed honestly as adjacent).",
+    "honest_gaps_disclosed": "(1) GAINSIGHT — the #1 responsibility area; Jamie has NEVER used it. Disclosed honestly in cover ('I haven't yet worked hands-on in Gainsight, which I'd be eager to ramp on'). NOT claimed in resume (skills list shows CRM=HubSpot, NOT Gainsight). (2) Customer-success CONTEXT — her facilitation/enablement was internal/program audiences, not external software customers; disclosed honestly in cover. NOT relabeled.",
+    "qa_facilitation_answer_note": "QA_11923742 'Have you personally facilitated live training/webinars — actually presenting, not only building?' = YES. TRUTHFUL: Jamie personally hosts/facilitates live webinars for 600+ participants (resume bullet). The question's core (personally presenting live training) is unambiguously true; the 'customer' nuance (her audiences = program participants/students, not external customers) is disclosed in the cover letter. Not a fabrication."
+  },
+  "form_answers_truthful": {
+    "name": "Yi-Chieh Cheng", "email": "jamiecheng0103@gmail.com", "phone": "+1 2137003831",
+    "address": "1784 NW Northrup Street, Portland, OR 97209, United States",
+    "eligible_to_work_in_country": "YES (valid H-1B)",
+    "based_in_us_legally_authorized": "YES (Portland OR; valid H-1B)",
+    "personally_facilitated_live_training": "YES (600+ participant webinars, personally presenting)",
+    "ote_115_140_aligns": "YES (open/flexible within posted band)",
+    "where_heard": "LinkedIn",
+    "employee_referral_name": "N/A",
+    "salary_requirements": "Open / flexible within the posted OTE range of $115,000-$140,000.",
+    "eeo": "Race=Asian, Gender=Female (voluntary post-submit survey)"
+  },
+  "pre_submit_gate": "Full text read-back of every field performed before Submit (name/email/phone/resume-file/4 radios/where-heard/referral/salary/cover-len), 0 visible validation errors. Visual screenshot blocked pre-submit by Workable widget animations (text read-back used); post-submit confirmation screenshot captured + orchestrator-verified.",
+  "unknowns": "Sponsor willingness genuinely uncertain (~1 LCA ever, legal-tech SMB). Gainsight & external-customer-success are real gaps (disclosed, not claimed). YOE ~3 vs 4+ ask."
+}
