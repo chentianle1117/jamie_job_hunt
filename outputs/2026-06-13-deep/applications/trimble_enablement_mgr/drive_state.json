@@ -24,17 +24,17 @@
     "veteran": "I am not a protected veteran",
     "acknowledgment": "checked",
     "selfid_name": "Jamie Cheng",
-    "selfid_date": "06/14/2026"
+    "selfid_date": "06/14/2026",
+    "disability": "No, I do not have a disability"
   },
   "unknowns": [
     "how_did_you_hear",
     "disability",
-    "disability",
-    "disability",
-    "disability",
     "disability"
   ],
-  "review_flags": [],
+  "review_flags": [
+    "resume.pdf successfully uploaded"
+  ],
   "steps": [
     "my_information_filled",
     "resume_uploaded",

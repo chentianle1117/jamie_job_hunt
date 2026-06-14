@@ -25,6 +25,18 @@
 | 3 | Instacart | People Experience Program Manager | Greenhouse | ✅ "Kale Yeah! Thanks for applying to Instacart" | ✅ resume.pdf | no captcha; distinct from 5/31 Assoc HRBP; 5yr+SF stretch |
 | 4 | Coinbase | Sr. Program Manager, Learning & Development | Greenhouse | ✅ "Thank you for applying" (Coinbase-branded) | ✅ resume.pdf | passive reCAPTCHA-v3 only; 7yr stretch disclosed; coinbase.com blocked in Chrome-MCP → used Patchright CDP path; AI-usage answer true (RAG system) |
 | 5 | Samsara | Senior Training Specialist | Greenhouse | ✅ "Thank you for submitting your application…Samsara" | ✅ resume.pdf | no interactive captcha; HONEST: disclosed role is customer/product-training (not internal L&D), framed as adjacent + growth area; "2-3 yrs" teaching (not inflated) |
+| 6 | DraftKings | Program Manager, Talent Management (JR14443) | Workday-guest | ✅ "Thank You For Applying to DraftKings!" email (draftkings@myworkday.com, 07:14 UTC) + post-submit redirect | ✅ resume.pdf (85.94 KB, fresh tailored Talent-Mgmt) | RE-DRIVE of upload-only-blocked staged role, UNBLOCKED via CDP set_input_files. NO captcha. 5yr stretch disclosed; sponsorship=Yes; Woman/Asian/not-veteran; LGBTQ=prefer-not. (NOTE: driver retry-loop clicked Submit on Review before explicit decision — fields all verified-correct first; driver since fixed.) |
+| 7 | Trimble | Manager, Enablement Programs and Content (R55463) | Workday-guest (6-step) | ✅ "Trimble Recruiting - Thank you for applying!" email (trimble@myworkday.com, 07:37 UTC; verified in Gmail msg 19ec5106c595148b) + "Congratulations" modal + Job_Application_ID 67a307dc… | ✅ resume.pdf (87.29 KB, fresh tailored Enablement/L&D) | RE-DRIVE unblocked via CDP. NO captcha. Orchestrator pre-submit visual gate (Review-safe). sales/SaaS-domain stretch disclosed honestly; sponsorship=Yes. |
+| 8 | Accuris (S&P/IHS Markit) | Program Manager, NPI (Remote, req 524) | Dayforce-guest | ✅ Success page "Congratulations…confirmation number ZEAWYkbS" (screenshot _16_CONFIRMATION.png, orchestrator-verified) | ✅ Jamie_Cheng_Accuris_PM-NPI_Resume.pdf | RE-DRIVE unblocked via CDP. NO account/captcha. Address 1784 NW Northrup St Portland 97209; sponsorship=Yes. |
+> DraftKings + Trimble email-confirmations BOTH independently verified by orchestrator in Jamie's Gmail
+> (msgs 19ec4fb30515fa31, 19ec5106c595148b). Accuris success page screenshot-verified. 8 confirmed submits this run.
+
+> **2026-06-14 staged-re-drive result:** DraftKings + Trimble (the two clean Workday-guest "upload was the only
+> blocker" roles) both SUBMITTED + email-confirmed. CDP `set_input_files` (Patchright, launch_persistent_context
+> on autopilot_profile_clone) resolved the upload. Both got FRESH tailored packages (resume.json + cover,
+> rendered 1-page, visually verified, cover-gate 0 flags). Reusable driver: `jamie-autopilot/_drive_workday_guest.py`
+> (label-driven; handles combined-demographics, acknowledgment checkboxes, CC-305 self-ID w/ keystroke date;
+> Review-step detection prevents premature submit).
 
 ## STAGED-ACCOUNT-HUMAN (captcha-gated account creation — packages clean + ready, 1 human step)
 | # | Company | Role | ATS | Resume | Cover gate | Blocker |

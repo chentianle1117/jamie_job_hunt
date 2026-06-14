@@ -1,5 +1,5 @@
 
-=== 2026-06-14T00:34:57.705643 :: Trimble / Manager, Enablement Programs and Content (R55463) ===
+=== 2026-06-14T00:32:02.581200 :: Trimble / Manager, Enablement Programs and Content (R55463) ===
 landed: https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers/job/US---CO%2C-Westminster/Manager--Enablement-Programs-and-Content_R55463-1/apply/applyManually | title: Manager, Enablement Programs and Content
 ---- STEP1 LANDING ----
 Skip to main content
@@ -342,14 +342,39 @@ Alcohol or other
   [dd] disability: no dropdown for labels ['disability']
   -- Self-Identify (CC-305) --
   [text] selfid_name = Jamie Cheng
-  [date] selfid_date typed 06/14/2026
+  [date] type err: Locator.click: Timeout 25000ms exceeded.
+Call log:
+  - waiting for locator("[data-automation-id='dateSectionMonth-input']").first
+    - locator resolved to <input value="" role="spinbutton" aria-valuemin="1" aria-label="Month" aria-valuemax="12" class="css-72im0m" aria-valuetext="MM" data-automation-id="dateSectionMonth-input" aria-describedby="helpText-selfIdentifiedDisabilityData--dateSignedOn" id="selfIdentifiedDisabilityData--dateSignedOn-dateSectionMonth-input"/>
+  - attempting click action
+    2 ? waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - element is outside of the viewport
+    - retrying click action
+    - waiting 20ms
+    2 ? waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - element is outside of the viewport
+    - retrying click action
+      - waiting 100ms
+    48 ? waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - element is outside of the viewport
+     - retrying click action
+       - waiting 500ms
+
+  [date] selfid_date: NOT FOUND
   [check] disability = No ( No, I do not have a disability and have not had one in the past )
   [shot] 04_disclosures_round2
   [next] clicked [data-automation-id='pageFooterNextButton']
-  -> progress: Manager, Enablement Programs and Content
-
--- Wizard page round 3 (step 5) review={'review': False, 'submitted': False, 'hasSubmit': False, 'onLastStep': False, 'reviewHeader': False} --
----- ROUND 3 LIVE ----
+  [REAL errors after Next a0] ['Error-Date\nThe field Date is required and must have a value.']
+---- R2A0 REFILL ----
 Skip to main content
 Transforming the way the world works
 Back to Job Posting
@@ -368,6 +393,9 @@ step 6 of 6
 Review
 Self Identify
 * Indicates a required field
+Errors Found
+Error-Date
+The field Date is required and must have a value.
 Language*
 English
 Voluntary Self-Identification of Disability
@@ -380,142 +408,62 @@ Expires
 Name*
 Employee ID (if applicable)
 Date*
-current value is 6/14/2026
-06
+current value is MM/DD/YYYY
+MM
 /
-14
+DD
 /
-2026
+YYYY
+
+Error: The field Date is required and must have a value.
+
 Why are you being asked to complete this form?
 We are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.
 
-Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor?s Office of Federal Contract Compliance Programs (OFCCP) website at www.dol.gov/ofccp.
-How do you know if you have a disability?
-A disability is a condition that substantially limits one or more of your ?major life activities.? If you have or have ever had such a condition, you are a person with a disability. Disabilities include, but are not limited to:
-
-
-Alcohol or other s
----- END ROUND 3 LIVE ----
+Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about 
+---- END R2A0 REFILL ----
   -- Self-Identify (CC-305) --
-  [date] selfid_date typed 06/14/2026
-  [check] disability = No ( No, I do not have a disability and have not had one in the past )
-  [shot] 04_disclosures_round3
-  [next] clicked [data-automation-id='pageFooterNextButton']
-  advanced to REVIEW/results after Next a0 ? STOP clicking
-  -> progress: Manager, Enablement Programs and Content
+  [date] type err: Locator.click: Target page, context or browser has been closed
+Browser logs:
 
--- Wizard page round 4 (step 6) review={'review': True, 'submitted': False, 'hasSubmit': True, 'onLastStep': True, 'reviewHeader': False} --
-  reached REVIEW ? STOP (will not click Next on Review)
+<launching> C:\Program Files\Google\Chrome\Application\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-breakpad --no-default-browser-check --disable-dev-shm-usage --disable-edgeupdater --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --disable-hang-monitor --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --disable-blink-features=AutomationControlled --no-sandbox --user-data-dir=C:\Users\chent\AppData\Local\Google\Chrome\User Data\autopilot_profile_clone --remote-debugging-pipe about:blank
+<launched> pid=50660
+[pid=50660][err] [50660:51472:0614/003202.202:ERROR:components\signin\public\webdata\token_service_table.cc:246] Failed to decrypt token for service AccountId-108234005240395506558
+[pid=50660][err] [50660:51472:0614/003202.202:ERROR:components\signin\public\webdata\token_service_table.cc:246] Failed to decrypt token for service AccountId-101441531904077395678
+[pid=50660][err] [50660:51472:0614/003202.202:ERROR:components\signin\public\webdata\token_service_table.cc:246] Failed to decrypt token for service AccountId-117582796291243954456
+[pid=50660][err] [50660:51472:0614/003202.202:ERROR:components\signin\public\webdata\token_service_table.cc:246] Failed to decrypt token for service AccountId-118009228054031475855
+[pid=50660][err] [50660:51472:0614/003202.202:ERROR:components\signin\public\webdata\token_service_table.cc:246] Failed to decrypt token for service AccountId-109100044489435069358
+[pid=50660][err] [50660:40136:0614/003206.362:ERROR:components\device_event_log\device_event_log_impl.cc:202] [00:32:06.362] USB: usb_service_win.cc:108 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[pid=50660][err] [50660:12332:0614/003206.443:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[pid=50660][err] [50660:12332:0614/003226.671:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[pid=50660][err] [50660:12332:0614/003251.458:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:484] ConnectionHandler failed with net error: -2
+[pid=50660][err] [50660:12332:0614/003314.268:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[pid=50660][err] [50660:12332:0614/003336.522:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:484] ConnectionHandler failed with net error: -2
+Call log:
+  - waiting for locator("[data-automation-id='dateSectionMonth-input']").first
+    - locator resolved to <input value="" role="spinbutton" aria-valuemin="1" aria-label="Month" aria-valuemax="12" class="css-72im0m" aria-valuetext="MM" aria-invalid="true" data-automation-id="dateSectionMonth-input" aria-describedby="helpText-selfIdentifiedDisabilityData--dateSignedOn" id="selfIdentifiedDisabilityData--dateSignedOn-dateSectionMonth-input"/>
+  - attempting click action
+    2 ? waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - element is outside of the viewport
+    - retrying click action
+    - waiting 20ms
+    2 ? waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - element is outside of the viewport
+    - retrying click action
+      - waiting 100ms
+    42 ? waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - element is outside of the viewport
+     - retrying click action
+       - waiting 500ms
+    - waiting for element to be visible, enabled and stable
 
--- REVIEW page reached --
-  captcha: {'present': False, 'visible': False, 'checkbox': False}
-  REVIEW errors: ['resume.pdf successfully uploaded']
-  [shot] 07_review_full
-
->>> REVIEW reached. drive_state.json + 07_review_full.png written. WAITING for DECISION.txt (SUBMIT/STAGE)...
-
-*** DECISION=SUBMIT ? clicking Submit ***
-  submit clicked [data-automation-id='pageFooterNextButton']
-  [shot] 08_after_submit
-  success: True | url: https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers?Job_Application_ID=67a307dcf54790004fe6eaacc0760000
----- CONFIRMATION ----
-Skip to main content
-Transforming the way the world works
-Search
-Filters
-Distance or Location
-Job Category
-Job Family
-More
-Search for Jobs page is loaded
-
-352 JOBS FOUND
-
-Lead Agentic AI Engineer
-locations
-8 Locations
-posted on
-Posted Yesterday
-R55403
-Senior Agentic AI Engineer
-locations
-8 Locations
-posted on
-Posted Yesterday
-R55402
-AI Software Engineer
-locations
-Mexico - Mexicali
-posted on
-Posted 2 Days Ago
-R51283
-Systems Support Specialist
-locations
-US - NH, Portsmouth
-posted on
-Posted 2 Days Ago
-R56059
-Software Engineer
-locations
-US - CO, Westminster
-posted on
-Posted 2 Days Ago
-R55169
-Software Engineer
-locations
-US - CO, Westminster
-posted on
-Posted 2 Days Ago
-R52999
-Channel Sales Manager
-locations
-India - Gurugram
-posted on
-Posted 2 Days Ago
-R56351
-Product Manager (AI empowered product environment)
-locations
-10 Locations
-posted on
-Posted 2 Days Ago
-R55505
-Lead Software Engineer - Fullstack (React/.Net)
-locations
-India - Chennai
-posted on
-Posted 2 Days Ago
-R54929
-Technical Customer Support Professional
-locations
-2 Locations
-posted on
-Posted 2 Days Ago
-R56646
-Data Entry Specialist Freight Audit
-locations
-2 Locations
-posted on
-Posted 2 Days Ago
-R56458
-Country Channel Manager (Civil / Survey)
-locations
-Indonesia - Jakarta
-posted on
-Posted 2 Days Ago
-R47133
-Cloud Engineer (Early Career/Intermediate)
-locations
-New Zealand - Christchurch
-posted on
-Posted 2 Days Ago
-R56637
-Content Governance Strategist
-locations
-2 Locations
-posted on
-Posted 3 Days Ago
-R53478
-Mobile Software Devel
----- END CONFIRMATION ----
-
-Keeping browser open ~5 more minutes...
+  [date] selfid_date: NOT FOUND
