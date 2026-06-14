@@ -36,6 +36,12 @@
 | 11 | C1 / ConductorOne, Inc. | Talent & Workplace Coordinator | Ashby | ✅ "Your application was successfully submitted" banner + "Application Received - C1" email from no-reply@ashbyhq.com (verified Gmail msg 19ec5283757fdf6c) | ✅ resume.pdf | Portland-local P3 (genuine talent+workplace coordination, NOT clerical — vetted); minimal form (no sponsorship/EEO gate); invisible reCAPTCHA-v3 self-cleared (no challenge). Corrected company identity: ConductorOne (AI access-gov startup), NOT ConvergeOne. |
 > **Wave B (Portland-local) COMPLETE:** EY + C1 both SUBMITTED + dual-confirmed (page + email, orchestrator-verified in Gmail).
 > EY tailored-resume invariant: replaced the stale Feb on-file resume with the fresh 06/14 tailored one. 11 confirmed submits this run.
+| 12 | Sierra (AI startup, Bret Taylor) | People Operations | Ashby | ✅ "Awesome! Your application was successfully submitted" banner | ✅ resume.pdf | sponsor-unknown STRETCH (surfaced per recalibrated filter); ER not primary; invisible reCAPTCHA self-cleared; Ashby had no cover slot (resume only) |
+| 13 | Chime | Senior People Partner | Greenhouse | ✅ /confirmation "Thanks for your interest in Chime!" (Chime-branded, orchestrator-verified screenshot) | ✅ resume.pdf + cover_letter.pdf | sponsor-unknown STRETCH; ER not primary; seniority gap disclosed honestly; Vestas-HRBP-led tailoring |
+| 14 | Vercel | Senior HRBP - EPD | Greenhouse | ✅ /confirmation "Thank you for applying. Your application has been received." | ✅ resume.pdf + cover_letter.pdf | sponsor-unknown STRETCH; ER not primary; work-auth answered exactly as H-1B-needs-sponsorship; seniority gap disclosed |
+> **Stretch-batch (no-account growth-co) COMPLETE:** Sierra + Chime + Vercel all SUBMITTED + confirmed. All passed the
+> ER-casework-primary check (ER supporting, not primary), cover-gate 0 flags, seniority gap disclosed honestly, real
+> DEI/diagnostic evidence (no ERG/community fabrication). **14 confirmed submissions this run — viable discovered pool exhausted.**
 > DraftKings + Trimble email-confirmations BOTH independently verified by orchestrator in Jamie's Gmail
 > (msgs 19ec4fb30515fa31, 19ec5106c595148b). Accuris success page screenshot-verified. 8 confirmed submits this run.
 
