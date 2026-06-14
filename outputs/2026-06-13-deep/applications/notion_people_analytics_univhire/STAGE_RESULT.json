@@ -1,0 +1,17 @@
+{
+  "role_dir": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-13-deep\\applications\\notion_people_analytics_univhire",
+  "company": "Notion",
+  "role": "People Analytics & Operations, University Hire (Rotational Program)",
+  "ats": "Ashby (jobs.ashbyhq.com, no account)",
+  "lane_ats": "ashby",
+  "form_url": "https://jobs.ashbyhq.com/notion/e4229ca4-8210-4282-98ed-2071478f72aa/application",
+  "staged_at": "2026-06-14T11:19:42",
+  "submit_port": 9400,
+  "synthesized_form_fields": true,
+  "ashby_submitter_stdout": "CDP-attached on :9400\nNav: https://jobs.ashbyhq.com/notion/e4229ca4-8210-4282-98ed-2071478f72aa/application\n  nav application: https://jobs.ashbyhq.com/notion/e4229ca4-8210-4282-98ed-2071478f72aa/application\n  form mounted: 36 controls\n  [CAPTCHA] form is captcha-protected -> HUMAN-SUBMIT (cannot auto-submit; bypass prohibited)\n  resume uploaded\n  extracted 9 questions (5 after dropping std)\n    - [text] req=True :: Location\n    - [text] req=True :: Please link us something challenging you've built. This coul\n    - [yesno] req=True :: We work from our offices on Mondays, Tuesdays, and Thursdays  opts=['Yes', 'No']\n    - [yesno] req=True :: Will you now or in the future require Notion to sponsor an i  opts=['Yes', 'No']\n    - [checkbox-group] req=False :: How did you hear about this opportunity? (select all that ap  opts=['LinkedIn', 'Glassdoor', 'Notion Blog', 'Notion Employee']\n  [OK] Location -> Portland, OR, USA\n  [OK] We work from our offices on Mondays, Tuesdays, -> Yes\n  [OK] Will you now or in the future require Notion t -> Yes\n  [OK] How did you hear about this opportunity? (sele -> LinkedIn\n  [EEO gender] -> female\n  [EEO race] -> asian (not hispanic or latino)\n  [EEO status] -> i am not a protected veteran\n  [CAPTCHA] left form filled; NOT clicking submit (captcha bypass prohibited). Wrote HUMAN_SUBMIT_REQUIRED.json.\n  KEEP_OPEN=1 — leaving filled form open in Chrome for human review.\n",
+  "ashby_submitter_stderr": "",
+  "screenshot": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-13-deep\\applications\\notion_people_analytics_univhire\\screenshots\\03_filled_human_submit.png",
+  "note": "Ashby staged via delegated submit_ashby_generic.py (synthesized form_fields.json).",
+  "lane": "ONE-CLICK",
+  "human_next": "Open the staged Notion/Ashby tab in the submit Chrome → if a captcha shows, clear it → click Submit Application."
+}

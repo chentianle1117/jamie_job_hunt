@@ -1,0 +1,81 @@
+{
+  "role_dir": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-13-deep\\applications\\mongodb_leadership_dev_mgr",
+  "company": "MongoDB",
+  "role": "Leadership Development Manager",
+  "ats": "Greenhouse (job-boards.greenhouse.io embed, no account)",
+  "lane_ats": "greenhouse",
+  "form_url": "https://boards.greenhouse.io/embed/job_app?for=mongodb&token=7844159",
+  "staged_at": "2026-06-14T11:16:50",
+  "submit_port": 9400,
+  "contact": {
+    "first_name": "Jamie",
+    "last_name": "Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "2137003831"
+  },
+  "country": {
+    "status": "SET",
+    "chosen": "United States +1"
+  },
+  "location": "Portland, Oregon, United States",
+  "uploads": {
+    "resume": "resume.pdf",
+    "cover_letter": "cover_letter.pdf"
+  },
+  "combos": [
+    {
+      "q": "how_heard",
+      "status": "SET",
+      "chosen": "LinkedIn"
+    },
+    {
+      "q": "sponsorship",
+      "status": "SET",
+      "chosen": "Yes"
+    },
+    {
+      "q": "prior_employer",
+      "status": "SET",
+      "chosen": "No"
+    },
+    {
+      "q": "gender",
+      "status": "SET",
+      "chosen": "Female"
+    },
+    {
+      "q": "gender_identity",
+      "status": "SET",
+      "chosen": "Woman"
+    },
+    {
+      "q": "race",
+      "status": "SET",
+      "chosen": "Asian"
+    },
+    {
+      "q": "hispanic",
+      "status": "SET",
+      "chosen": "No"
+    },
+    {
+      "q": "veteran",
+      "status": "SET",
+      "chosen": "I am not a protected veteran"
+    },
+    {
+      "q": "disability",
+      "status": "SET",
+      "chosen": "No, I do not have a disability and have not had one in the past"
+    }
+  ],
+  "consent_checked": true,
+  "captcha": {
+    "present": true,
+    "interactive_visible": false
+  },
+  "screenshot": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-13-deep\\applications\\mongodb_leadership_dev_mgr\\_v2_stage_review.png",
+  "final_url": "https://job-boards.greenhouse.io/embed/job_app?for=mongodb&token=7844159",
+  "lane": "ONE-CLICK",
+  "human_next": "Open the staged tab in the submit Chrome (port 9400) → clear the captcha → click Submit application."
+}
