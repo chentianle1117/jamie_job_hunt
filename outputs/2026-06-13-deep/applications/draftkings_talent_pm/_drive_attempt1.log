@@ -1,0 +1,444 @@
+
+=== 2026-06-13T23:57:05.741298 :: DraftKings / Program Manager, Talent Management MODE=fill ===
+navigating: https://draftkings.wd1.myworkdayjobs.com/en-US/DraftKings/job/Boston-MA/Program-Manager--Talent-Management_JR14443/apply/applyManually
+landed: https://draftkings.wd1.myworkdayjobs.com/en-US/DraftKings/job/Boston-MA/Program-Manager--Talent-Management_JR14443/apply/applyManually
+title: Program Manager, Talent Management
+  [shot] 00_landing
+---- PAGE TEXT (first 1500) ----
+Skip to main content
+
+This website uses cookies and similar technology for performance purposes. By clicking ?Accept Cookies? you consent to the use of these cookies.
+
+Decline
+Accept Cookies
+Careers at DraftKings
+Sign In
+Careers Home
+Back to Job Posting
+Program Manager, Talent Management
+current step 1 of 5
+My Information
+step 2 of 5
+My Experience
+step 3 of 5
+Application Questions
+step 4 of 5
+Voluntary Disclosures
+step 5 of 5
+Review
+My Information
+* Indicates a required field
+How Did You Hear About Us?*
+0 items selected
+Have you previously worked for DraftKings? If Yes, please answer the questions below. If No, please continue to the next section.*
+Yes
+No
+Country*
+United States of America
+Legal Name
+First Name*
+Middle Name
+Last Name*
+I have a preferred name
+Address
+Address Line 1
+Address Line 2
+City
+State
+Select One
+Postal Code
+Email Address
+Email*
+Phone
+Phone Device Type*
+Mobile
+Country Phone Code*
+1 item selected, United States of America (+1)
+
+United States of America (+1)
+
+Phone Number*
+Phone Extension
+Next
+Follow Us
+Terms of Use ? DraftKings Careers
+? 2026 Workday, Inc. All rights reserved.
+---- END PAGE TEXT ----
+progress: current step 1 of 5 My Information step 2 of 5 My Experience step 3 of 5 Application Questions step 4 of 5 Voluntary Dis
+
+>>> Landing captured. Browser stays open. Re-run with explicit step actions as needed.
+>>> Keeping browser open ~30 min; poll DECISION.txt for SUBMIT/STAGE.
+
+=== 2026-06-14T00:00:43.027326 :: DraftKings / Program Manager, Talent Management (JR14443) ===
+landed: https://draftkings.wd1.myworkdayjobs.com/en-US/DraftKings/job/Boston-MA/Program-Manager--Talent-Management_JR14443/apply/applyManually | title: Program Manager, Talent Management
+  cookie dismissed: button:has-text('Accept Cookies')
+---- STEP1 LANDING TEXT ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Back to Job Posting
+Program Manager, Talent Management
+current step 1 of 5
+My Information
+step 2 of 5
+My Experience
+step 3 of 5
+Application Questions
+step 4 of 5
+Voluntary Disclosures
+step 5 of 5
+Review
+My Information
+* Indicates a required field
+How Did You Hear About Us?*
+0 items selected
+Have you previously worked for DraftKings? If Yes, please answer the questions below. If No, please continue to the next section.*
+Yes
+No
+Country*
+United States of America
+Legal Name
+First Name*
+Middle Name
+Last Name*
+I have a preferred name
+Address
+Address Line 1
+Address Line 2
+City
+State
+Select One
+Postal Code
+Email Address
+Email*
+Phone
+Phone Device Type*
+Mobile
+Country Phone Code*
+1 item selected, United States of America (+1)
+
+United States of America (+1)
+
+Phone Number*
+Phone Extension
+Next
+Follow Us
+Terms of Use ? DraftKings Careers
+? 2026 Workday, Inc. All rights reserved.
+---- END STEP1 LANDING ----
+  [shot] 01_my_information_blank
+
+-- STEP 1: My Information --
+  [dd] how_did_you_hear: button not found (source)
+  [radio] prev_worked: NOT FOUND
+  [text] first_name: NOT FOUND (legalNameSection_firstName)
+  [text] last_name: NOT FOUND (legalNameSection_lastName)
+  [text] address1: NOT FOUND (addressSection_addressLine1)
+  [text] city: NOT FOUND (addressSection_city)
+  [text] zip: NOT FOUND (addressSection_postalCode)
+  [sel] state: None
+  [dd] state: button not found (addressSection_countryRegion)
+  [text] email: NOT FOUND (email)
+  [sel] phone_device_type: None
+  [dd] phone_device_type: button not found (phoneType)
+  [text] phone: NOT FOUND (phoneNumber)
+  [shot] 02_my_information_filled
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  -> after Next, progress: current step 1 of 5 My Information
+---- STEP2 LANDING TEXT ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Back to Job Posting
+Program Manager, Talent Management
+current step 1 of 5
+My Information
+step 2 of 5
+My Experience
+step 3 of 5
+Application Questions
+step 4 of 5
+Voluntary Disclosures
+step 5 of 5
+Review
+My Information
+* Indicates a required field
+Errors Found
+Error-How Did You Hear About Us?
+The field How Did You Hear About Us? is required and must have a value.
+Error-Have you previously worked for DraftKings? If Yes, please answer the questions below. If No, please continue to the next section.
+The field Have you previously worked for DraftKings? If Yes, please answer the questions below. If No, please continue to the next section. is required and must have a value.
+Error-First Name
+The field First Name is required and must h
+---- END STEP2 LANDING ----
+
+-- STEP 2: My Experience (resume upload) --
+  [text] linkedin: NOT FOUND (linkedinQuestion)
+  [shot] 03_my_experience_resume_uploaded
+  !!! RESUME UPLOAD FAILED ? stopping before submit (tailored-resume-or-STOP)
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  -> after Next, progress: current step 1 of 5 My Information
+---- STEP3 LANDING TEXT ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Back to Job Posting
+Program Manager, Talent Management
+current step 1 of 5
+My Information
+step 2 of 5
+My Experience
+step 3 of 5
+Application Questions
+step 4 of 5
+Voluntary Disclosures
+step 5 of 5
+Review
+My Information
+* Indicates a required field
+Errors Found
+Error-How Did You Hear About Us?
+The field How Did You Hear About Us? is required and must have a value.
+Error-Have you previously worked for DraftKings? If Yes, please answer the questions below. If No, please continue to the next section.
+The field Have you previously worked for DraftKings? If Yes, please answer the questions below. If No, please continue to the next section. is required and must have a value.
+Error-First Name
+The field First Name is required and must have a value.
+Error-Last Name
+The field Last Name is required and must have a value.
+Error-Email
+The field Email is required and must have a value.
+Error-Phone Number
+The field Phone Number is required and must have a value.
+How Did You Hear About Us?*
+0 items selected
+
+Error: The field How Did You Hear About Us? is required and must have a value.
+
+Have you previously worked for DraftKings? If Yes, please answer the questions below. If No, please continue to the next section.*
+Yes
+No
+
+Error: The field Have you previously worked for DraftKings? If Yes, please answer the questions below. If No, please continue to the next section. is required and must have a value.
+
+Country*
+United States of America
+Legal Name
+First Name*
+
+Error: The field First Name is required and must have a value.
+
+Middle Name
+Last Name*
+
+Error: The field Last Name is required and must have a value.
+
+I have a preferred name
+Address
+Address Line 1
+Address Line 2
+City
+State
+Select One
+Postal Code
+Email Address
+Email*
+
+Error: The field Email is required and must have a value.
+
+Phone
+Phone Device Type*
+Mobile
+Country Phone Code*
+1 item selected, United States of America (+1)
+
+United States of America (+1)
+
+Phone Number*
+
+Error: The field Phone Number is required and must have a value.
+
+Phone Extension
+Next
+Follow Us
+Terms of Use ? DraftKings Careers
+? 2026 Workday, Inc. All rights reserved.
+---- END STEP3 LANDING ----
+
+-- STEP 3: Application Questions --
+  [shot] 04_application_questions
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  -> after Next, progress: current step 1 of 5 My Information
+---- STEP4 LANDING TEXT ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Back to Job Posting
+Program Manager, Talent Management
+current step 1 of 5
+My Information
+step 2 of 5
+My Experience
+step 3 of 5
+Application Questions
+step 4 of 5
+Voluntary Disclosures
+step 5 of 5
+Review
+My Information
+* Indicates a required field
+Errors Found
+Error-How Did You Hear About Us?
+The field How Did You Hear About Us? is required and must have a value.
+Error-Have you previously worked for DraftKings? If Yes, please answer the questions below. If No, please continue to the next section.
+The field Have you previously worked for DraftKings? If Yes, please answer the questions below. If No, please continue to the next section. is required and must have a value.
+Error-First Name
+The field First Name is required and must have a value.
+Error-Last Name
+The field Last Name is required and must have a value.
+Error-Email
+The field Email is required and must have a value.
+Error-Phone Number
+The field Phone Number is required and must have a value.
+How Did You Hear About Us?*
+0 items selected
+
+Error: The field How Did You Hear About Us? is required and must have a value.
+
+Have you previously worked for DraftKings? If Yes, please answer the questions below. If No, please continue to the next section.*
+Yes
+No
+
+Error: The field Have you previously worked for DraftKings? If Yes, please answer the questions below. If No, please continue to the next section. is required and must have a value.
+
+Country*
+United States of America
+Legal Name
+First Name*
+
+Error: The field First Name is required and must have a value.
+
+Middle Name
+Last Name*
+
+Error: The field Last Name is required and must have a value.
+
+I have a preferred name
+Address
+Address Line 1
+Address Line 2
+City
+State
+Select One
+Postal Code
+Email Address
+Email*
+
+Error: The field Email is required and must have a value.
+
+Phone
+Phone Device Type*
+Mobile
+Country Phone Code*
+1 item selected, United States of America (+1)
+
+United States of America (+1)
+
+Phone Numbe
+---- END STEP4 LANDING ----
+
+-- STEP 4: Voluntary Disclosures --
+  [shot] 05_voluntary_disclosures
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  -> after Next, progress: current step 1 of 5 My Information
+---- STEP5 LANDING TEXT ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Back to Job Posting
+Program Manager, Talent Management
+current step 1 of 5
+My Information
+step 2 of 5
+My Experience
+step 3 of 5
+Application Questions
+step 4 of 5
+Voluntary Disclosures
+step 5 of 5
+Review
+My Information
+* Indicates a required field
+Errors Found
+Error-How Did You Hear About Us?
+The field How Did You Hear About Us? is required and must have a value.
+Error-Have you previously worked for DraftKings? If Yes, please answer the questions below. If No, please continue to the next section.
+The field Have you previously worked for DraftKings? If Yes, please answer the questions below. If No, please continue to the next section. is required and must have a value.
+Error-First Name
+The field First Name is required and must have a value.
+Error-Last Name
+The field Last Name is required and must have a value.
+Error-Email
+The field Email is required and must have a value.
+Error-Phone Number
+The field Phone Number is required and must have a value.
+How Did You Hear About Us?*
+0 items selected
+
+Error: The field How Did You Hear About Us? is required and must have a value.
+
+Have you previously worked for DraftKings? If Yes, please answer the questions below. If No, please continue to the next section.*
+Yes
+No
+
+Error: The field Have you previously worked for DraftKings? If Yes, please answer the questions below. If No, please continue to the next section. is required and must have a value.
+
+Country*
+United States of America
+Legal Name
+First Name*
+
+Error: The field First Name is required and must have a value.
+
+Middle Name
+Last Name*
+
+Error: The field Last Name is required and must have a value.
+
+I have a preferred name
+Address
+Address Line 1
+Address Line 2
+City
+State
+Select One
+Postal Code
+Email Address
+Email*
+
+Error: The field Email is required and must have a value.
+
+Phone
+Phone Device Type*
+Mobile
+Country Phone Code*
+1 item selected, United States of America (+1)
+
+United States of America (+1)
+
+Phone Numbe
+---- END STEP5 LANDING ----
+
+-- REVIEW page reached --
+  captcha: {'present': False, 'visible': False, 'checkbox': False}
+  [shot] 07_review_full
+
+>>> REVIEW reached. drive_state.json + 07_review_full.png written. WAITING for DECISION.txt (SUBMIT/STAGE)...
+
+*** No SUBMIT/STAGE decision ? closing (state saved) ***
+
+Keeping browser open ~6 more minutes...

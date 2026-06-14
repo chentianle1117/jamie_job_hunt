@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "company": "Oregon State University",
+    "role": "Scholarship Program Coordinator (Office of Scholarships)",
+    "date": "2026-06-14",
+    "pageMargins": { "top": "0.35in", "right": "0.45in", "bottom": "0.35in", "left": "0.45in" },
+    "autoFit": true,
+    "fontRange": [8.5, 10.0]
+  },
+  "header": {
+    "location": "Portland, OR (Open to Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>program coordination &amp; student support</b> professional who thrives on <b>guiding people toward their goals</b>, <b>coordinating programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve people's experience—through human-centered, service-oriented approaches.",
+  "keywordGroups": {
+    "data": "Data/Analytics",
+    "coord": "Coordination/Ops",
+    "cross": "Stakeholders/Collab",
+    "ex": "Student/People Experience",
+    "tools": "Tools/Systems",
+    "prog": "Programs/Advising"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Serve as a primary point of contact for students and program participants, advising on processes, deadlines, and requirements in person, by phone, and over email" },
+        { "text": "Coordinate 20+ {prog|programs} end-to-end with 10+ partners, managing applications, records, and resolution of process issues via {data|feedback analysis}" },
+        { "text": "Facilitate {prog|outreach} workshops and webinars for 600+ participants, delivering presentations and clear guidance to audiences of varying sizes" },
+        { "text": "Develop guides, sample plans, and workflows for 70+ {cross|cross-functional} staff, improving program understanding and reducing onboarding time by 75%" }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        { "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed strategy and decisions" },
+        { "text": "Analyzed 2,000+ {data|individual experiences} to amplify people's voice and guide C-suite decisions on satisfaction and retention drivers" },
+        { "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review" },
+        { "text": "Improved {ex|people experience} via 5 {cross|cross-functional} projects focusing on survey development, recognition, and learning &amp; development" }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        { "text": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations" },
+        { "text": "Supported individuals across cultures through onboarding and relocation, handling sensitive conversations with care and clarity" },
+        { "text": "Optimized onboarding across 3 global locations by conducting process analysis and clarifying roles and responsibilities" },
+        { "text": "Strengthened engagement via a newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors" }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Conduct discovery interviews and focus groups with leadership to diagnose challenges and identify {data|evidence-based} improvements" },
+        { "text": "Translate findings into executive-ready insights that lead to redesigned policies and process improvements" }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Engaged candidates and stakeholders via personalized communication and customer service, increasing applications by 566% in 2 months" },
+        { "text": "Organized recruiting events and moderated panels with leaders at top 3 universities, reaching 230+ students and 80+ applicants" },
+        { "text": "Drafted clear postings and materials, researching details to give people accurate, timely information for decisions" },
+        { "text": "Developed proficiency across functions ranging from communication and records to coordination and process management" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": ["Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"]
+    },
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": ["Relevant Coursework: Educational Psychology, Research Methods, Group Dynamics & Leadership, Adult Learning"]
+    }
+  ],
+  "projects": [
+    "<b>Scholarship Recipient:</b> Freeman Asian Scholarship (4-year full-tuition) and Tuck Bridge Scholarship (full)—firsthand experience of scholarship impact",
+    "<b>Practicum in Education Studies (Wesleyan):</b> Applied field experience in educational settings, grounded in learning and student-development theory",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping motivation and engagement via mixed-method research"
+  ],
+  "skills": [
+    "<b>Coordination &amp; Service:</b> Program Coordination · Student/Participant Advising · Customer Service · Public Speaking &amp; Presentations · Records &amp; Application Management",
+    "<b>Data &amp; Tools:</b> Microsoft Office (Word, Excel, PowerPoint) · Data Analysis (Excel, Google Sheets, SPSS) · Records &amp; CRM Systems · Google Workspace",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": { "meta": "", "sections": [] },
+  "changeLog": []
+}

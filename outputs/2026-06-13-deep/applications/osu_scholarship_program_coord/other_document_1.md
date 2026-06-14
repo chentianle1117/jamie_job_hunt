@@ -1,0 +1,11 @@
+# Why I Want to Join the OSU Scholarship Office
+
+**Jamie (Yi-Chieh) Cheng**
+
+I want to join the OSU Scholarship Office because I know, firsthand, what a scholarship can change. I attended college on the Freeman Asian Scholarship, a four-year full-tuition award, and later received the Tuck Bridge Scholarship. Those awards did more than make school affordable—they told me that someone believed my education was worth investing in, and that belief shaped everything that came after. The chance to be part of an office whose mission is increasing opportunities for access is, for me, a chance to pass on something I was given.
+
+The Office's mission lines up closely with how I've come to define my own professional goals. Across my career, the through-line has been helping people navigate complex processes and make confident decisions about their futures—whether that's advising students and program participants at InGenius Prep, where I'm a primary point of contact for questions about deadlines and requirements, or coordinating programs end-to-end so that the experience feels clear rather than overwhelming. Providing financial guidance to students and families sits squarely in that space. I'm drawn to work where good information, delivered with patience and warmth, directly lowers a barrier for someone—and scholarship advising is exactly that.
+
+I'm also energized by the outreach and engagement side of the mission. I genuinely enjoy meeting people where they are: presenting to audiences of all sizes, traveling to events, and connecting with prospective students and families who may be the first in their family to consider college, just as I was navigating a system that wasn't built with me in mind. I care about doing this equitably, across backgrounds and languages, and I bring an academic foundation in psychology and education studies, plus a habit of looking for ways to make a process smoother for the next student who comes through.
+
+My longer-term goal is to build a career supporting student success and access in higher education, and this role is the kind of work I most want to do: relationship-driven, mission-aligned, and concrete in its impact. I would be honored to help OSU students see, as I once did, that the door is open to them.

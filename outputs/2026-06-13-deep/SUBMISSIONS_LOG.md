@@ -26,6 +26,17 @@
 | 4 | Coinbase | Sr. Program Manager, Learning & Development | Greenhouse | ✅ "Thank you for applying" (Coinbase-branded) | ✅ resume.pdf | passive reCAPTCHA-v3 only; 7yr stretch disclosed; coinbase.com blocked in Chrome-MCP → used Patchright CDP path; AI-usage answer true (RAG system) |
 | 5 | Samsara | Senior Training Specialist | Greenhouse | ✅ "Thank you for submitting your application…Samsara" | ✅ resume.pdf | no interactive captcha; HONEST: disclosed role is customer/product-training (not internal L&D), framed as adjacent + growth area; "2-3 yrs" teaching (not inflated) |
 
+## STAGED-ACCOUNT-HUMAN (captcha-gated account creation — packages clean + ready, 1 human step)
+| # | Company | Role | ATS | Resume | Cover gate | Blocker |
+|---|---------|------|-----|--------|-----------|---------|
+| 6 | Oregon State Univ (cap-exempt) | Academic Advising Specialist (180935) | PageUp | ✅ built+verified | 0 flags | Imperva hCaptcha on account creation; honest higher-ed stretch disclosed |
+| 7 | Oregon State Univ (cap-exempt) | Scholarship Program Coordinator (180253) | PageUp | ✅ built+verified +essay | 0 flags | same hCaptcha; scholarship-recipient angle anchors cover (true) |
+| 8 | Oregon State Univ (cap-exempt) | Academic Advisor/Coordinator Pool (180241) | PageUp | ✅ built+verified +statement | 0 flags | same hCaptcha (rolling pool, closes 12/15) |
+> OSU learning: PageUp account creation is gated by an **Imperva/Incapsula hCaptcha** ("I am human") —
+> a HARD STOP (not bypassed). ONE OSU account covers all 3 postings. Detached Chrome on CDP 9334 parked
+> on /user/new for 1-click human finish; 3 real references staged (Kendall, Jeffrey, Limschou; never InGenius).
+> Cap-exempt = sponsorship-safe. Packages are submit-ready the moment the human clears the captcha.
+
 ## SKIPPED (correct, RULE 0 / hard-stop)
 | Company | Role | Reason |
 |---------|------|--------|

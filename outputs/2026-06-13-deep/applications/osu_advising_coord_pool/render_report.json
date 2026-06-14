@@ -1,0 +1,13 @@
+{
+  "role_id": "osu_advising_coord_pool",
+  "resume_pages": 1,
+  "cover_pages": 1,
+  "resume_size_bytes": 87463,
+  "cover_size_bytes": 50036,
+  "resume_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-13-deep\\applications\\osu_advising_coord_pool\\resume.pdf",
+  "cover_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-13-deep\\applications\\osu_advising_coord_pool\\cover_letter.pdf",
+  "rendered_at": "2026-06-14T07:12:13.032588Z",
+  "warnings": [
+    "autofit: resume fit to 1 page at font_scale=0.97 (content preserved, type shrunk)"
+  ]
+}

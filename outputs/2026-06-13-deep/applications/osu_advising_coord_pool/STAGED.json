@@ -1,0 +1,48 @@
+{
+  "company": "Oregon State University",
+  "title": "Academic Advisor/Coordinator Pool 2025-26 + Fall 2026 (Integrative Biology)",
+  "slug": "osu_advising_coord_pool",
+  "job_url": "https://jobs.oregonstate.edu/postings/180241",
+  "apply_url": "https://jobs.oregonstate.edu/postings/180241/pre_apply",
+  "ats": "PageUp / OSU Jobs Portal (jobs.oregonstate.edu) — account-required",
+  "live": true,
+  "live_evidence": "HTTP 200; rolling recruitment pool (Posted 07/21/2025, Closing 12/15/2026) — 'Applications submitted to this recruitment pool are reviewed on an as-needed basis... Qualified applicants will be contacted when positions become available.' Open. _jd_raw.txt saved.",
+  "cap_exempt": true,
+  "sponsorship_safe": true,
+  "sponsorship_note": "Cap-exempt public university. No 'no sponsorship'/ITAR/citizenship language. EEO + fair-chance employer. Sponsorship-safe.",
+  "status": "STAGED-ACCOUNT-HUMAN",
+  "blocker": "SAME shared blocker: account creation gated by Imperva/Incapsula hCaptcha 'I am human' at /user/new (only registration path). Jamie has no OSU account. Confirmed on shared (9333) + clean dedicated (9334) Chrome. CAPTCHA not solved/bypassed. ONE human-created OSU account covers this + the other two postings.",
+  "why_not_submitted": "Package fully built + verified incl. the required 1-page Personal Statement. Only the human-only hCaptcha on account creation blocks submission; no non-CAPTCHA route. Portal application mandatory (emailing Tara Bevandich not an accepted substitute).",
+  "package_built": true,
+  "package_verified": true,
+  "tailored_resume_filename": "OSU_Jamie (Yi-Chieh) Cheng_Academic-Advisor-Coordinator_2026-06-14.pdf",
+  "cover_filename": "OSU_Jamie (Yi-Chieh) Cheng_Academic-Advisor-Coordinator_Cover_2026-06-14.pdf",
+  "other_document_1_filename": "OSU_Jamie (Yi-Chieh) Cheng_Advising-Personal-Statement_2026-06-14.pdf",
+  "other_document_1_prompt": "Personal Statement (not to exceed one page): Reflect on any aspect of your identity, values and experiences that contributed to your professional path up to this point; and how you will contribute to promoting inclusive advising practices at our institution.",
+  "render_report": "resume=1p cover=1p (render_one.py [OK]); personal_statement=1p; autoFit OK; no bullet wraps; even margins; visually verified via _verify_resume.png + _verify_cover.png + _verify_essay.png.",
+  "cover_gate_result": "[] (0 flags) on BOTH the cover AND the Personal Statement (scan_cover).",
+  "fit": "P1c — advising + 30% program/initiative coordination. JD 'What You Will Need': Bachelor's, 2+ yrs higher-ed student-services OR related advising/counseling/mentoring (K-12/non-profits OK), diverse-population experience, large-group communication/presentations, retention/student-development/proactive-advising knowledge, effective with varied audiences, MS Office. 'Would like': Life Sciences background (Jamie has Psych/Education — adjacent, NOT biology; NOT claimed), program-coordination experience (Jamie HAS — strong), SIS/CRM (DegreeWorks/Banner — Jamie does not, candid in cover). 30% coordination (newsletters, orientation, comms schedules, online-learner engagement, advising materials) maps WELL to her InGenius program-coordination + communications + remote-engagement work. Cover candid about higher-ed-office + life-sciences ramp-up. No fabrication of biology knowledge or formal advising-office tenure.",
+  "resume_tailoring": "Advising + program-coordination blend. Summary role-noun 'student support & program coordination'. InGenius first, bullets blend advise/support + coordinate programs/orientation/comms-schedules/online-learner engagement — full richness. Skills 'Advising & Coordination' cluster. ODN = 2 collective bullets. NextGen/Vestas/Kronos 4 each. Wesleyan leads education, Relevant Coursework kept. Header 'Portland, OR (Open to Relocation)'. No banned content. Personal Statement draws on TRUE identity material (Taiwan -> US international student; scholarship recipient; cross-cultural work incl. 22 nationalities/120 employees at Vestas; Inclusive Leadership pilot scaled to 23 locations) — all from jamie_voice_corpus.md.",
+  "documents_required_by_posting": ["Resume/CV (built)", "Cover Letter (built)", "Other Document 1 = Personal Statement, 1pg max (built)", "3 professional references (ready)"],
+  "references_to_use": [
+    {"name": "Heather Kendall", "title": "Organizational Development Specialist, NextGen Healthcare", "email": "Hjeankendall@gmail.com", "phone": "(480) 440-9488"},
+    {"name": "Carroll Jeffrey", "title": "Vice President, Organizational Development, NextGen Healthcare", "email": "jcarroll@nextgen.com", "phone": "(570) 417-2311"},
+    {"name": "Irene Yu Limschou", "title": "APAC Regional Lead, People & Culture, Vestas Wind Systems", "email": "ireneylimschou@gmail.com", "phone": "+886 (928) 875-513"}
+  ],
+  "references_note": "Hannah Parten (Wesleyan, Asst Director Study Abroad) is an especially fitting ALTERNATE for an academic-advising pool if an academic referee is preferred. NEVER use InGenius Prep (active litigation).",
+  "answers_ready": {
+    "Legal name": "Yi-Chieh Cheng (Jamie)", "Email": "jamiecheng0103@gmail.com", "Phone": "(213) 700-3831",
+    "Address": "1784 NW Northrup Street, Portland, OR 97209",
+    "Work authorization": "Authorized now (H-1B); requires future sponsorship = YES (cap-exempt OK).",
+    "Willing to relocate to Corvallis + some evening/weekend + in/out-of-state travel": "Yes",
+    "Driver's license": "Yes (valid)",
+    "EEO": "Woman/Asian/Not Hispanic/Not veteran/No disability", "How heard": "LinkedIn"
+  },
+  "human_handoff": {
+    "browser": "Dedicated isolated detached Chrome on CDP port 9334 (profile %LOCALAPPDATA%\\Google\\Chrome\\osu_agent_profile), parked on the /user/new hCaptcha. Sibling Chrome on 9333 untouched.",
+    "what_human_does": "Pass the hCaptcha 'I am human' once, create the OSU account (jamiecheng0103@gmail.com + shared ATS pw; pick a username; Gmail OTP if asked). ONE account covers all 3 OSU postings. Then finish/auto-fill: attach resume + cover + Personal Statement (Other Document 1) + the 3 references.",
+    "screenshots": ["_ats_01_posting.png", "_ats_03_captcha_account_creation.png"]
+  },
+  "unknowns": [],
+  "recorded_at_local": "2026-06-14 00:30"
+}

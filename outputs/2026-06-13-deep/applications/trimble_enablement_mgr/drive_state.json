@@ -1,0 +1,49 @@
+{
+  "slug": "trimble_enablement_mgr",
+  "company": "Trimble",
+  "role": "Manager, Enablement Programs and Content",
+  "filled": {
+    "how_did_you_hear": "LinkedIn",
+    "first_name": "Yi-Chieh",
+    "last_name": "Cheng",
+    "address1": "1784 NW Northrup Street",
+    "city": "Portland",
+    "zip": "97209",
+    "state": "Oregon",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "2137003831",
+    "phone_device_type": "Mobile",
+    "resume_chip": "Skip to main content\nTransforming the way the world works\nBack to Job Posting\nManager, Enablement Programs and Content\nc",
+    "sponsorship": "Yes",
+    "work_authorized": "Yes",
+    "age18": "Yes",
+    "relocation": "Yes",
+    "gender": "Female",
+    "hispanic": "No",
+    "ethnicity": "Asian (Not Hispanic or Latino) (United States of America)",
+    "veteran": "I am not a protected veteran",
+    "acknowledgment": "checked",
+    "selfid_name": "Jamie Cheng",
+    "selfid_date": "06/14/2026"
+  },
+  "unknowns": [
+    "how_did_you_hear",
+    "disability",
+    "disability",
+    "disability",
+    "disability",
+    "disability"
+  ],
+  "review_flags": [],
+  "steps": [
+    "my_information_filled",
+    "resume_uploaded",
+    "disclosures_done"
+  ],
+  "captcha": {
+    "present": false,
+    "visible": false,
+    "checkbox": false
+  },
+  "attached_resume": "resume.pdf"
+}

@@ -1,0 +1,2679 @@
+
+=== 2026-06-14T00:13:07.237328 :: DraftKings / Program Manager, Talent Management (JR14443) ===
+landed: https://draftkings.wd1.myworkdayjobs.com/en-US/DraftKings/job/Boston-MA/Program-Manager--Talent-Management_JR14443/apply/applyManually | title: Program Manager, Talent Management
+---- STEP1 LANDING ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Back to Job Posting
+Program Manager, Talent Management
+current step 1 of 5
+My Information
+step 2 of 5
+My Experience
+step 3 of 5
+Application Questions
+step 4 of 5
+Voluntary Disclosures
+step 5 of 5
+Review
+My Information
+* Indicates a required field
+How Did You Hear About Us?*
+0 items selected
+Have you previously worked for DraftKings? If Yes, please answer the questions below. If No, please continue to the next section.*
+Yes
+No
+Country*
+United States of America
+Legal Name
+First Name*
+Middle Name
+Last Name*
+I have a preferred name
+Address
+Address Line 1
+Address Line 2
+City
+State
+Select One
+Postal Code
+Email Address
+Email*
+Phone
+Phone Device Type*
+Mobile
+Country Phone Code*
+1 item selected, United States of America (+1)
+
+United St
+---- END STEP1 LANDING ----
+  [shot] 01_my_information_blank
+
+-- STEP 1: My Information --
+  [ms] how_did_you_hear = LinkedIn (enter)
+  [radio] 'previously worked' = no
+  [text] first_name = Yi-Chieh
+  [text] last_name = Cheng
+  [text] address1 = 1784 NW Northrup Street
+  [text] city = Portland
+  [text] zip = 97209
+  [dd] state: opts = LinkedIn|LinkedIn|LinkedIn|United States of America (+1)|United States of America (+1)|United States of America (+1)|Select One|Alabama|Alaska|American Samoa|Arizona|Arkansas|Armed Forces Americas|Armed Forces Europe|Armed Forces Pacific|Ca
+  [dd] state = Oregon
+  [text] email = jamiecheng0103@gmail.com
+  [text] phone = 2137003831
+  [dd] phone_device_type: opts = LinkedIn|LinkedIn|LinkedIn|United States of America (+1)|United States of America (+1)|United States of America (+1)|Select One|Landline|Mobile
+  [dd] phone_device_type = Mobile
+  [shot] 02_my_information_filled
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  -> progress: Program Manager, Talent Management
+---- STEP2 LANDING ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Back to Job Posting
+Program Manager, Talent Management
+completed step 1 of 5
+My Information
+current step 2 of 5
+My Experience
+step 3 of 5
+Application Questions
+step 4 of 5
+Voluntary Disclosures
+step 5 of 5
+Review
+My Experience
+* Indicates a required field
+Resume/CV
+
+Upload a file (5MB max)*
+Drop files here
+or
+Select files
+
+Social Network URLs
+LinkedIn Profile URL
+Back
+Next
+Follow Us
+Terms of Use ? DraftKings Careers
+? 2026 Workday, Inc. All rights reserved.
+---- END STEP2 LANDING ----
+
+-- STEP 2: My Experience (resume upload) --
+  resume uploaded via input[type='file'][data-automation-id*='file-upload-input'] (87999 bytes)
+  attached chip: Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Back to Job Posting
+Program Manager, Talent Management
+c
+  [text] linkedin = https://www.linkedin.com/in/jamieyccheng/
+  [shot] 03_my_experience_resume_uploaded
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  -> progress: Program Manager, Talent Management
+---- STEP3 LANDING ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Back to Job Posting
+Program Manager, Talent Management
+completed step 1 of 5
+My Information
+completed step 2 of 5
+My Experience
+current step 3 of 5
+Application Questions
+step 4 of 5
+Voluntary Disclosures
+step 5 of 5
+Review
+Application Questions
+* Indicates a required field
+
+Demographic Survey/U.S. Equal Employment Opportunity Information
+
+To ensure that we comply with reporting requirements and to learn more about how we can increase diversity in our candidate pool, we invite you to provide demographic information in a confidential survey.
+
+Providing this information is optional. It will not be used in the hiring process, and has no effect on your opportunity for employment.
+
+DraftKings ensures equal employment opportunity without discrimination or harassment based on race, color, religion, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender identity or expression, age, disability, national origin, marital or domestic/civil partnership status, genetic information, citizenship status, veteran status, or any other characteristic protected by law.
+
+By clicking "Next" below, I consent to DraftKings? collection and use of my sensitive personal information, including race or ethnicity and sexual orientation data for purposes of evaluating our Inclusion, Equity, & Belonging initiatives. The provision of such information is optional. You may withdraw your consent by emailing privacy@draftkings.com. For details about DraftKings? collection and use of your information, please see our Privacy Notice.
+
+Are you legally authorized to work in the country where this job is located?*
+
+Select One
+
+Will you now or in the future require sponsorship for employment visa status (i.e. H1B visa)?*
+
+Select One
+
+Please select your gender.*
+
+Select One
+
+Please select the race/ethnicity with which you primarily identify.*
+
+Select One
+
+What is your veteran status?*
+
+Select One
+
+Do you identify as LGBTQ+?*
+
+Select One
+Back
+Next
+Follow Us
+Terms of Use ? DraftKings Careers
+? 2026 Workday, Inc. All rights reserved.
+---- END STEP3 LANDING ----
+
+-- Wizard page round 0 (step 3) --
+  [radio] 'sponsor': 'Yes' NOT FOUND
+  [dd] sponsorship: opts = Select One|Yes|No
+  [dd] sponsorship = Yes
+  [radio] 'legally authorized': 'Yes' NOT FOUND
+  [dd] work_authorized: opts = Select One|Yes|No
+  [dd] work_authorized = Yes
+  [dd] gender: opts = Select One|Man|Woman|Non-binary|I prefer not to disclose
+  [dd] gender = Woman
+  [dd] ethnicity: opts = Select One|American Indian or Alaska Native|Asian|Black or African American|Hispanic or Latino|Native Hawaiian or Other Pacific Islander|White|Two or more races|I prefer not to disclose
+  [dd] ethnicity = Asian
+  [dd] veteran: opts = Select One|I am a veteran|I am not a veteran|I prefer not to disclose
+  [dd] veteran = I am not a veteran
+  [dd] lgbtq: opts = Select One|I do identify as LGBTQ+|I do not identify as LGBTQ+|I prefer not to disclose
+  [dd] lgbtq = I prefer not to disclose
+  [shot] 04_disclosures_round0
+  [next] clicked [data-automation-id='pageFooterNextButton']
+---- AFTER ROUND 0 ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Back to Job Posting
+Program Manager, Talent Management
+completed step 1 of 5
+My Information
+completed step 2 of 5
+My Experience
+completed step 3 of 5
+Application Questions
+current step 4 of 5
+Voluntary Disclosures
+step 5 of 5
+Review
+Voluntary Disclosures
+* Indicates a required field
+Terms and Conditions
+
+I understand if I become employed at DraftKings, my role may require me to obtain a gaming license issued by appropriate state agencies and to submit a criminal background check to such agencies.
+
+I acknowledge DraftKings Personal Data Processing policy.*
+Back
+Next
+Follow Us
+Terms of Use ? DraftKings Careers
+? 2026 Workday, Inc. All rights reserved.
+---- END AFTER ROUND 0 ----
+  -> progress: Program Manager, Talent Management
+
+-- Wizard page round 1 (step 4) --
+  [check] acknowledgment(s): ['i acknowledge draftkings personal data processing ']
+  [shot] 04_disclosures_round1
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  [errors after Next a0] ['resume.pdf successfully uploaded']
+---- R1A0 REFILL ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Back to Job Posting
+Program Manager, Talent Management
+completed step 1 of 5
+My Information
+completed step 2 of 5
+My Experience
+completed step 3 of 5
+Application Questions
+completed step 4 of 5
+Voluntary Disclosures
+current step 5 of 5
+Review
+Review
+My Information
+How Did You Hear About Us?
+LinkedIn
+Have you previously worked for DraftKings? If Yes, please answer the questions below. If No, please continue to the next section.
+No
+Legal Name
+Yi-Chieh Cheng
+I have a preferred name
+No
+Address
+1784 NW Northrup Street
+Portland, OR 97209
+United States of America
+Email Address
+jamiecheng0103@gmail.com
+Phone
++1 (213) 7003831 (Mobile)
+My Experience
+Resume/CV
+
+resume.pdf
+85.94 KB
+
+Social Network URLs
+LinkedIn Profile URL
+https://www.linkedin.com/in/jamieyccheng/
+Application Questions
+
+Are you legally authorized to work in the country where this job is located?*
+
+Yes
+
+Will you now or in the future require sponsorship for employment visa status (i.e. H1B visa)?*
+
+Yes
+
+Please select your gender.*
+
+Woman
+
+Please select the race/ethnicity with which you primarily identify.*
+
+Asian
+
+What is your veteran status?*
+
+I am not a veteran
+
+Do you identify as LGBTQ+?*
+
+I prefer not to disclose
+Voluntary Disclosures
+Terms and Conditions
+I acknowledge DraftKings Personal Data Processing policy.
+Yes
+Back
+Submit
+Follow Us
+Terms of Use ? DraftKings Careers
+? 2026 Workday, Inc. All rights reserved.
+---- END R1A0 REFILL ----
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  [errors after Next a1] ['Search for Jobs page is loaded']
+---- R1A1 REFILL ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Search
+Filters
+Location
+Full/Part-time
+Job Category
+More
+Search for Jobs page is loaded
+
+86 JOBS FOUND
+
+Senior Compliance Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR13433
+Program Manager, Talent Management
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14443
+Risk and QA Innovation Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14110
+ASO Specialist
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14406
+Operations Associate, Jackpocket (Part Time)
+locations
+Manchester, NH
+time type
+Part time
+posted on
+Posted 3 Days Ago
+JR14460
+Operations Associate, Jackpocket
+locations
+Pueblo, CO
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR13404
+Campus Talent Acquisition Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14425
+Finance Data Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14357
+Player Development Executive, Colorado
+locations
+Remote - US
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14449
+Executive Assistant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14234
+Senior Accountant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14438
+Operations Associate, Jackpocket (Part Time)
+locations
+Newburgh, NY
+time type
+Part time
+posted on
+Posted 5 Days Ago
+JR14315
+Operations Associate, Jackpoc
+---- END R1A1 REFILL ----
+  [next] NONE found
+  [errors after Next a2] ['Search for Jobs page is loaded']
+---- R1A2 REFILL ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Search
+Filters
+Location
+Full/Part-time
+Job Category
+More
+Search for Jobs page is loaded
+
+86 JOBS FOUND
+
+Senior Compliance Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR13433
+Program Manager, Talent Management
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14443
+Risk and QA Innovation Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14110
+ASO Specialist
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14406
+Operations Associate, Jackpocket (Part Time)
+locations
+Manchester, NH
+time type
+Part time
+posted on
+Posted 3 Days Ago
+JR14460
+Operations Associate, Jackpocket
+locations
+Pueblo, CO
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR13404
+Campus Talent Acquisition Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14425
+Finance Data Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14357
+Player Development Executive, Colorado
+locations
+Remote - US
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14449
+Executive Assistant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14234
+Senior Accountant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14438
+Operations Associate, Jackpocket (Part Time)
+locations
+Newburgh, NY
+time type
+Part time
+posted on
+Posted 5 Days Ago
+JR14315
+Operations Associate, Jackpoc
+---- END R1A2 REFILL ----
+---- AFTER ROUND 1 ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Search
+Filters
+Location
+Full/Part-time
+Job Category
+More
+Search for Jobs page is loaded
+
+86 JOBS FOUND
+
+Senior Compliance Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR13433
+Program Manager, Talent Management
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14443
+Risk and QA Innovation Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14110
+ASO Specialist
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14406
+Operations Associate, Jackpocket (Part Time)
+locations
+Manchester, NH
+time type
+Part time
+posted on
+Posted 3 Days Ago
+JR14460
+Operations Associate, Jackpocket
+locations
+Pueblo, CO
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR13404
+Campus Talent Acquisition Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14425
+Finance Data Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14357
+Player Development Executive, Colorado
+locations
+Remote - US
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14449
+Executive Assistant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14234
+Senior Accountant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14438
+Operations Associate, Jackpocket (Part Time)
+locations
+Newburgh, NY
+time type
+Part time
+posted on
+Posted 5 Days Ago
+JR14315
+Operations Associate, Jackpocket
+locations
+Newburgh, NY
+time type
+Full time
+posted on
+Posted 5 Days Ago
+JR13430
+Regional HR Business Partner (Maternity cover)
+locations
+Sofia, BG
+time type
+Full time
+posted on
+Posted 5 Days Ago
+JR14393
+Senior Technical Product Manager, Talent & Rewards
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 5 Days Ago
+JR14452
+Lead Software Engineer, Infrastructure Platform
+locations
+Remote - Canada
+time type
+Full time
+posted on
+Posted 5 Days Ago
+JR14309
+Senior Software Engineer, Platform T
+---- END AFTER ROUND 1 ----
+  -> progress: 
+  !! could not advance this page
+
+-- Wizard page round 2 (step None) --
+  [shot] 04_disclosures_round2
+  [next] NONE found
+  [errors after Next a0] ['Search for Jobs page is loaded']
+---- R2A0 REFILL ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Search
+Filters
+Location
+Full/Part-time
+Job Category
+More
+Search for Jobs page is loaded
+
+86 JOBS FOUND
+
+Senior Compliance Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR13433
+Program Manager, Talent Management
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14443
+Risk and QA Innovation Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14110
+ASO Specialist
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14406
+Operations Associate, Jackpocket (Part Time)
+locations
+Manchester, NH
+time type
+Part time
+posted on
+Posted 3 Days Ago
+JR14460
+Operations Associate, Jackpocket
+locations
+Pueblo, CO
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR13404
+Campus Talent Acquisition Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14425
+Finance Data Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14357
+Player Development Executive, Colorado
+locations
+Remote - US
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14449
+Executive Assistant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14234
+Senior Accountant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14438
+Operations Associate, Jackpocket (Part Time)
+locations
+Newburgh, NY
+time type
+Part time
+posted on
+Posted 5 Days Ago
+JR14315
+Operations Associate, Jackpoc
+---- END R2A0 REFILL ----
+  [next] NONE found
+  [errors after Next a1] ['Search for Jobs page is loaded']
+---- R2A1 REFILL ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Search
+Filters
+Location
+Full/Part-time
+Job Category
+More
+Search for Jobs page is loaded
+
+86 JOBS FOUND
+
+Senior Compliance Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR13433
+Program Manager, Talent Management
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14443
+Risk and QA Innovation Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14110
+ASO Specialist
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14406
+Operations Associate, Jackpocket (Part Time)
+locations
+Manchester, NH
+time type
+Part time
+posted on
+Posted 3 Days Ago
+JR14460
+Operations Associate, Jackpocket
+locations
+Pueblo, CO
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR13404
+Campus Talent Acquisition Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14425
+Finance Data Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14357
+Player Development Executive, Colorado
+locations
+Remote - US
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14449
+Executive Assistant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14234
+Senior Accountant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14438
+Operations Associate, Jackpocket (Part Time)
+locations
+Newburgh, NY
+time type
+Part time
+posted on
+Posted 5 Days Ago
+JR14315
+Operations Associate, Jackpoc
+---- END R2A1 REFILL ----
+  [next] NONE found
+  [errors after Next a2] ['Search for Jobs page is loaded']
+---- R2A2 REFILL ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Search
+Filters
+Location
+Full/Part-time
+Job Category
+More
+Search for Jobs page is loaded
+
+86 JOBS FOUND
+
+Senior Compliance Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR13433
+Program Manager, Talent Management
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14443
+Risk and QA Innovation Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14110
+ASO Specialist
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14406
+Operations Associate, Jackpocket (Part Time)
+locations
+Manchester, NH
+time type
+Part time
+posted on
+Posted 3 Days Ago
+JR14460
+Operations Associate, Jackpocket
+locations
+Pueblo, CO
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR13404
+Campus Talent Acquisition Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14425
+Finance Data Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14357
+Player Development Executive, Colorado
+locations
+Remote - US
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14449
+Executive Assistant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14234
+Senior Accountant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14438
+Operations Associate, Jackpocket (Part Time)
+locations
+Newburgh, NY
+time type
+Part time
+posted on
+Posted 5 Days Ago
+JR14315
+Operations Associate, Jackpoc
+---- END R2A2 REFILL ----
+---- AFTER ROUND 2 ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Search
+Filters
+Location
+Full/Part-time
+Job Category
+More
+Search for Jobs page is loaded
+
+86 JOBS FOUND
+
+Senior Compliance Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR13433
+Program Manager, Talent Management
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14443
+Risk and QA Innovation Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14110
+ASO Specialist
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14406
+Operations Associate, Jackpocket (Part Time)
+locations
+Manchester, NH
+time type
+Part time
+posted on
+Posted 3 Days Ago
+JR14460
+Operations Associate, Jackpocket
+locations
+Pueblo, CO
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR13404
+Campus Talent Acquisition Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14425
+Finance Data Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14357
+Player Development Executive, Colorado
+locations
+Remote - US
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14449
+Executive Assistant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14234
+Senior Accountant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14438
+Operations Associate, Jackpocket (Part Time)
+locations
+Newburgh, NY
+time type
+Part time
+posted on
+Posted 5 Days Ago
+JR14315
+Operations Associate, Jackpocket
+locations
+Newburgh, NY
+time type
+Full time
+posted on
+Posted 5 Days Ago
+JR13430
+Regional HR Business Partner (Maternity cover)
+locations
+Sofia, BG
+time type
+Full time
+posted on
+Posted 5 Days Ago
+JR14393
+Senior Technical Product Manager, Talent & Rewards
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 5 Days Ago
+JR14452
+Lead Software Engineer, Infrastructure Platform
+locations
+Remote - Canada
+time type
+Full time
+posted on
+Posted 5 Days Ago
+JR14309
+Senior Software Engineer, Platform T
+---- END AFTER ROUND 2 ----
+  -> progress: 
+  !! could not advance this page
+
+-- Wizard page round 3 (step None) --
+  [shot] 04_disclosures_round3
+  [next] NONE found
+  [errors after Next a0] ['Search for Jobs page is loaded']
+---- R3A0 REFILL ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Search
+Filters
+Location
+Full/Part-time
+Job Category
+More
+Search for Jobs page is loaded
+
+86 JOBS FOUND
+
+Senior Compliance Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR13433
+Program Manager, Talent Management
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14443
+Risk and QA Innovation Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14110
+ASO Specialist
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14406
+Operations Associate, Jackpocket (Part Time)
+locations
+Manchester, NH
+time type
+Part time
+posted on
+Posted 3 Days Ago
+JR14460
+Operations Associate, Jackpocket
+locations
+Pueblo, CO
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR13404
+Campus Talent Acquisition Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14425
+Finance Data Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14357
+Player Development Executive, Colorado
+locations
+Remote - US
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14449
+Executive Assistant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14234
+Senior Accountant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14438
+Operations Associate, Jackpocket (Part Time)
+locations
+Newburgh, NY
+time type
+Part time
+posted on
+Posted 5 Days Ago
+JR14315
+Operations Associate, Jackpoc
+---- END R3A0 REFILL ----
+  [next] NONE found
+  [errors after Next a1] ['Search for Jobs page is loaded']
+---- R3A1 REFILL ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Search
+Filters
+Location
+Full/Part-time
+Job Category
+More
+Search for Jobs page is loaded
+
+86 JOBS FOUND
+
+Senior Compliance Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR13433
+Program Manager, Talent Management
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14443
+Risk and QA Innovation Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14110
+ASO Specialist
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14406
+Operations Associate, Jackpocket (Part Time)
+locations
+Manchester, NH
+time type
+Part time
+posted on
+Posted 3 Days Ago
+JR14460
+Operations Associate, Jackpocket
+locations
+Pueblo, CO
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR13404
+Campus Talent Acquisition Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14425
+Finance Data Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14357
+Player Development Executive, Colorado
+locations
+Remote - US
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14449
+Executive Assistant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14234
+Senior Accountant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14438
+Operations Associate, Jackpocket (Part Time)
+locations
+Newburgh, NY
+time type
+Part time
+posted on
+Posted 5 Days Ago
+JR14315
+Operations Associate, Jackpoc
+---- END R3A1 REFILL ----
+  [next] NONE found
+  [errors after Next a2] ['Search for Jobs page is loaded']
+---- R3A2 REFILL ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Search
+Filters
+Location
+Full/Part-time
+Job Category
+More
+Search for Jobs page is loaded
+
+86 JOBS FOUND
+
+Senior Compliance Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR13433
+Program Manager, Talent Management
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14443
+Risk and QA Innovation Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14110
+ASO Specialist
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14406
+Operations Associate, Jackpocket (Part Time)
+locations
+Manchester, NH
+time type
+Part time
+posted on
+Posted 3 Days Ago
+JR14460
+Operations Associate, Jackpocket
+locations
+Pueblo, CO
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR13404
+Campus Talent Acquisition Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14425
+Finance Data Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14357
+Player Development Executive, Colorado
+locations
+Remote - US
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14449
+Executive Assistant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14234
+Senior Accountant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14438
+Operations Associate, Jackpocket (Part Time)
+locations
+Newburgh, NY
+time type
+Part time
+posted on
+Posted 5 Days Ago
+JR14315
+Operations Associate, Jackpoc
+---- END R3A2 REFILL ----
+---- AFTER ROUND 3 ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Search
+Filters
+Location
+Full/Part-time
+Job Category
+More
+Search for Jobs page is loaded
+
+86 JOBS FOUND
+
+Senior Compliance Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR13433
+Program Manager, Talent Management
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14443
+Risk and QA Innovation Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14110
+ASO Specialist
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14406
+Operations Associate, Jackpocket (Part Time)
+locations
+Manchester, NH
+time type
+Part time
+posted on
+Posted 3 Days Ago
+JR14460
+Operations Associate, Jackpocket
+locations
+Pueblo, CO
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR13404
+Campus Talent Acquisition Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14425
+Finance Data Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14357
+Player Development Executive, Colorado
+locations
+Remote - US
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14449
+Executive Assistant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14234
+Senior Accountant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14438
+Operations Associate, Jackpocket (Part Time)
+locations
+Newburgh, NY
+time type
+Part time
+posted on
+Posted 5 Days Ago
+JR14315
+Operations Associate, Jackpocket
+locations
+Newburgh, NY
+time type
+Full time
+posted on
+Posted 5 Days Ago
+JR13430
+Regional HR Business Partner (Maternity cover)
+locations
+Sofia, BG
+time type
+Full time
+posted on
+Posted 5 Days Ago
+JR14393
+Senior Technical Product Manager, Talent & Rewards
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 5 Days Ago
+JR14452
+Lead Software Engineer, Infrastructure Platform
+locations
+Remote - Canada
+time type
+Full time
+posted on
+Posted 5 Days Ago
+JR14309
+Senior Software Engineer, Platform T
+---- END AFTER ROUND 3 ----
+  -> progress: 
+  !! could not advance this page
+
+-- Wizard page round 4 (step None) --
+  [shot] 04_disclosures_round4
+  [next] NONE found
+  [errors after Next a0] ['Search for Jobs page is loaded']
+---- R4A0 REFILL ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Search
+Filters
+Location
+Full/Part-time
+Job Category
+More
+Search for Jobs page is loaded
+
+86 JOBS FOUND
+
+Senior Compliance Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR13433
+Program Manager, Talent Management
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14443
+Risk and QA Innovation Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14110
+ASO Specialist
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14406
+Operations Associate, Jackpocket (Part Time)
+locations
+Manchester, NH
+time type
+Part time
+posted on
+Posted 3 Days Ago
+JR14460
+Operations Associate, Jackpocket
+locations
+Pueblo, CO
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR13404
+Campus Talent Acquisition Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14425
+Finance Data Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14357
+Player Development Executive, Colorado
+locations
+Remote - US
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14449
+Executive Assistant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14234
+Senior Accountant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14438
+Operations Associate, Jackpocket (Part Time)
+locations
+Newburgh, NY
+time type
+Part time
+posted on
+Posted 5 Days Ago
+JR14315
+Operations Associate, Jackpoc
+---- END R4A0 REFILL ----
+  [next] NONE found
+  [errors after Next a1] ['Search for Jobs page is loaded']
+---- R4A1 REFILL ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Search
+Filters
+Location
+Full/Part-time
+Job Category
+More
+Search for Jobs page is loaded
+
+86 JOBS FOUND
+
+Senior Compliance Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR13433
+Program Manager, Talent Management
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14443
+Risk and QA Innovation Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14110
+ASO Specialist
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14406
+Operations Associate, Jackpocket (Part Time)
+locations
+Manchester, NH
+time type
+Part time
+posted on
+Posted 3 Days Ago
+JR14460
+Operations Associate, Jackpocket
+locations
+Pueblo, CO
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR13404
+Campus Talent Acquisition Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14425
+Finance Data Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14357
+Player Development Executive, Colorado
+locations
+Remote - US
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14449
+Executive Assistant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14234
+Senior Accountant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14438
+Operations Associate, Jackpocket (Part Time)
+locations
+Newburgh, NY
+time type
+Part time
+posted on
+Posted 5 Days Ago
+JR14315
+Operations Associate, Jackpoc
+---- END R4A1 REFILL ----
+  [next] NONE found
+  [errors after Next a2] ['Search for Jobs page is loaded']
+---- R4A2 REFILL ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Search
+Filters
+Location
+Full/Part-time
+Job Category
+More
+Search for Jobs page is loaded
+
+86 JOBS FOUND
+
+Senior Compliance Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR13433
+Program Manager, Talent Management
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14443
+Risk and QA Innovation Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14110
+ASO Specialist
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14406
+Operations Associate, Jackpocket (Part Time)
+locations
+Manchester, NH
+time type
+Part time
+posted on
+Posted 3 Days Ago
+JR14460
+Operations Associate, Jackpocket
+locations
+Pueblo, CO
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR13404
+Campus Talent Acquisition Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14425
+Finance Data Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14357
+Player Development Executive, Colorado
+locations
+Remote - US
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14449
+Executive Assistant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14234
+Senior Accountant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14438
+Operations Associate, Jackpocket (Part Time)
+locations
+Newburgh, NY
+time type
+Part time
+posted on
+Posted 5 Days Ago
+JR14315
+Operations Associate, Jackpoc
+---- END R4A2 REFILL ----
+---- AFTER ROUND 4 ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Search
+Filters
+Location
+Full/Part-time
+Job Category
+More
+Search for Jobs page is loaded
+
+86 JOBS FOUND
+
+Senior Compliance Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR13433
+Program Manager, Talent Management
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14443
+Risk and QA Innovation Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14110
+ASO Specialist
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14406
+Operations Associate, Jackpocket (Part Time)
+locations
+Manchester, NH
+time type
+Part time
+posted on
+Posted 3 Days Ago
+JR14460
+Operations Associate, Jackpocket
+locations
+Pueblo, CO
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR13404
+Campus Talent Acquisition Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14425
+Finance Data Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14357
+Player Development Executive, Colorado
+locations
+Remote - US
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14449
+Executive Assistant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14234
+Senior Accountant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14438
+Operations Associate, Jackpocket (Part Time)
+locations
+Newburgh, NY
+time type
+Part time
+posted on
+Posted 5 Days Ago
+JR14315
+Operations Associate, Jackpocket
+locations
+Newburgh, NY
+time type
+Full time
+posted on
+Posted 5 Days Ago
+JR13430
+Regional HR Business Partner (Maternity cover)
+locations
+Sofia, BG
+time type
+Full time
+posted on
+Posted 5 Days Ago
+JR14393
+Senior Technical Product Manager, Talent & Rewards
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 5 Days Ago
+JR14452
+Lead Software Engineer, Infrastructure Platform
+locations
+Remote - Canada
+time type
+Full time
+posted on
+Posted 5 Days Ago
+JR14309
+Senior Software Engineer, Platform T
+---- END AFTER ROUND 4 ----
+  -> progress: 
+  !! could not advance this page
+
+-- Wizard page round 5 (step None) --
+  [shot] 04_disclosures_round5
+  [next] NONE found
+  [errors after Next a0] ['Search for Jobs page is loaded']
+---- R5A0 REFILL ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Search
+Filters
+Location
+Full/Part-time
+Job Category
+More
+Search for Jobs page is loaded
+
+86 JOBS FOUND
+
+Senior Compliance Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR13433
+Program Manager, Talent Management
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14443
+Risk and QA Innovation Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14110
+ASO Specialist
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14406
+Operations Associate, Jackpocket (Part Time)
+locations
+Manchester, NH
+time type
+Part time
+posted on
+Posted 3 Days Ago
+JR14460
+Operations Associate, Jackpocket
+locations
+Pueblo, CO
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR13404
+Campus Talent Acquisition Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14425
+Finance Data Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14357
+Player Development Executive, Colorado
+locations
+Remote - US
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14449
+Executive Assistant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14234
+Senior Accountant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14438
+Operations Associate, Jackpocket (Part Time)
+locations
+Newburgh, NY
+time type
+Part time
+posted on
+Posted 5 Days Ago
+JR14315
+Operations Associate, Jackpoc
+---- END R5A0 REFILL ----
+  [next] NONE found
+  [errors after Next a1] ['Search for Jobs page is loaded']
+---- R5A1 REFILL ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Search
+Filters
+Location
+Full/Part-time
+Job Category
+More
+Search for Jobs page is loaded
+
+86 JOBS FOUND
+
+Senior Compliance Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR13433
+Program Manager, Talent Management
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14443
+Risk and QA Innovation Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14110
+ASO Specialist
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14406
+Operations Associate, Jackpocket (Part Time)
+locations
+Manchester, NH
+time type
+Part time
+posted on
+Posted 3 Days Ago
+JR14460
+Operations Associate, Jackpocket
+locations
+Pueblo, CO
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR13404
+Campus Talent Acquisition Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14425
+Finance Data Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14357
+Player Development Executive, Colorado
+locations
+Remote - US
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14449
+Executive Assistant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14234
+Senior Accountant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14438
+Operations Associate, Jackpocket (Part Time)
+locations
+Newburgh, NY
+time type
+Part time
+posted on
+Posted 5 Days Ago
+JR14315
+Operations Associate, Jackpoc
+---- END R5A1 REFILL ----
+  [next] NONE found
+  [errors after Next a2] ['Search for Jobs page is loaded']
+---- R5A2 REFILL ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Search
+Filters
+Location
+Full/Part-time
+Job Category
+More
+Search for Jobs page is loaded
+
+86 JOBS FOUND
+
+Senior Compliance Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR13433
+Program Manager, Talent Management
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14443
+Risk and QA Innovation Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14110
+ASO Specialist
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14406
+Operations Associate, Jackpocket (Part Time)
+locations
+Manchester, NH
+time type
+Part time
+posted on
+Posted 3 Days Ago
+JR14460
+Operations Associate, Jackpocket
+locations
+Pueblo, CO
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR13404
+Campus Talent Acquisition Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14425
+Finance Data Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14357
+Player Development Executive, Colorado
+locations
+Remote - US
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14449
+Executive Assistant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14234
+Senior Accountant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14438
+Operations Associate, Jackpocket (Part Time)
+locations
+Newburgh, NY
+time type
+Part time
+posted on
+Posted 5 Days Ago
+JR14315
+Operations Associate, Jackpoc
+---- END R5A2 REFILL ----
+---- AFTER ROUND 5 ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Search
+Filters
+Location
+Full/Part-time
+Job Category
+More
+Search for Jobs page is loaded
+
+86 JOBS FOUND
+
+Senior Compliance Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR13433
+Program Manager, Talent Management
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14443
+Risk and QA Innovation Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 2 Days Ago
+JR14110
+ASO Specialist
+locations
+2 Locations
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14406
+Operations Associate, Jackpocket (Part Time)
+locations
+Manchester, NH
+time type
+Part time
+posted on
+Posted 3 Days Ago
+JR14460
+Operations Associate, Jackpocket
+locations
+Pueblo, CO
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR13404
+Campus Talent Acquisition Specialist
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14425
+Finance Data Analyst
+locations
+Plovdiv, BG
+time type
+Full time
+posted on
+Posted 3 Days Ago
+JR14357
+Player Development Executive, Colorado
+locations
+Remote - US
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14449
+Executive Assistant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14234
+Senior Accountant
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 4 Days Ago
+JR14438
+Operations Associate, Jackpocket (Part Time)
+locations
+Newburgh, NY
+time type
+Part time
+posted on
+Posted 5 Days Ago
+JR14315
+Operations Associate, Jackpocket
+locations
+Newburgh, NY
+time type
+Full time
+posted on
+Posted 5 Days Ago
+JR13430
+Regional HR Business Partner (Maternity cover)
+locations
+Sofia, BG
+time type
+Full time
+posted on
+Posted 5 Days Ago
+JR14393
+Senior Technical Product Manager, Talent & Rewards
+locations
+Boston, MA
+time type
+Full time
+posted on
+Posted 5 Days Ago
+JR14452
+Lead Software Engineer, Infrastructure Platform
+locations
+Remote - Canada
+time type
+Full time
+posted on
+Posted 5 Days Ago
+JR14309
+Senior Software Engineer, Platform T
+---- END AFTER ROUND 5 ----
+  -> progress: 
+  !! could not advance this page
+
+-- REVIEW page reached --
+  captcha: {'present': False, 'visible': False, 'checkbox': False}
+  REVIEW errors: ['Search for Jobs page is loaded']
+  [shot] 07_review_full
+
+>>> REVIEW reached. drive_state.json + 07_review_full.png written. WAITING for DECISION.txt (SUBMIT/STAGE)...
+
+*** DECISION=STAGE ? leaving filled, NOT submitting ***
+
+Keeping browser open ~5 more minutes...

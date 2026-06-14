@@ -1,0 +1,49 @@
+{
+  "company": "Oregon State University",
+  "title": "Scholarship Program Coordinator (Office of Scholarships, 0.75 FTE)",
+  "slug": "osu_scholarship_program_coord",
+  "job_url": "https://jobs.oregonstate.edu/postings/180253",
+  "apply_url": "https://jobs.oregonstate.edu/postings/180253/pre_apply",
+  "ats": "PageUp / OSU Jobs Portal (jobs.oregonstate.edu) — account-required",
+  "live": true,
+  "live_evidence": "HTTP 200 on posting; posting open (Posted 05/19/2026, Closing 07/10/2026). NOTE: Full Consideration Date was 06/12/2026 (now passed) — JD states applications 'will continue to be accepted after the full consideration date, until a sufficient applicant pool has been achieved or the position is filled,' so still open/worth applying, just past first-look. JD read in full; _jd_raw.txt saved.",
+  "cap_exempt": true,
+  "sponsorship_safe": true,
+  "sponsorship_note": "Cap-exempt public university. No 'no sponsorship'/ITAR/citizenship language. EEO + fair-chance employer. Sponsorship-safe.",
+  "status": "STAGED-ACCOUNT-HUMAN",
+  "blocker": "SAME shared blocker as all OSU postings: account creation is gated by an Imperva/Incapsula hCaptcha 'I am human' challenge at /user/new (the only registration path on the login page). Jamie has no existing OSU account. Confirmed on both the shared (9333) and a clean dedicated (9334) Chrome. CAPTCHA not solved/bypassed per doctrine. ONE OSU account (created by a human past the hCaptcha) covers this posting + the other two.",
+  "why_not_submitted": "Package fully built + verified incl. the required 3rd document. Only the human-only hCaptcha on account creation blocks submission; no non-CAPTCHA route exists. Portal application is mandatory (emailing Christina Peltier is not an accepted substitute).",
+  "package_built": true,
+  "package_verified": true,
+  "tailored_resume_filename": "OSU_Jamie (Yi-Chieh) Cheng_Scholarship-Program-Coordinator_2026-06-14.pdf",
+  "cover_filename": "OSU_Jamie (Yi-Chieh) Cheng_Scholarship-Program-Coordinator_Cover_2026-06-14.pdf",
+  "other_document_1_filename": "OSU_Jamie (Yi-Chieh) Cheng_Scholarship-Statement_2026-06-14.pdf",
+  "other_document_1_prompt": "Why are you interested in joining the OSU Scholarship Office team and how do your professional goals align with our office's mission of increasing opportunities for access, providing financial guidance to students and families, and encouraging engagement and research...",
+  "render_report": "resume=1p cover=1p (render_one.py [OK]); other_document_1=1p; autoFit OK; no bullet wraps; even margins; visually verified via _verify_resume.png + _verify_cover.png + _verify_essay.png.",
+  "cover_gate_result": "[] (0 flags) on BOTH the cover AND the Other Document 1 essay (scan_cover).",
+  "fit": "P1c — strong on program coordination + student-facing service; honest stretch on financial-aid-office specifics. JD 'What You Will Need': Bachelor's, higher-ed environment experience, exceptional customer service, sensitive conversations, strong communication, office software, public speaking, planning/organizational/analytical skills, team orientation, equity commitment. Jamie's TRUE bridge: primary point of contact for students/participants at InGenius (advising on processes/deadlines), 20+ program coordination, 600+ webinar facilitation/presentations, Kronos customer service + recruiting-event/panel hosting, data/records fluency. POWERFUL authentic hook: she is a major scholarship recipient herself (Freeman Asian full-tuition + Tuck Bridge) — used truthfully in cover + essay. She does NOT have financial-aid/scholarship-office experience (ScholarDollars/Slate) — cover is candid. DRIVER'S LICENSE required (role drives univ/personal vehicle): Jamie HAS a valid license — eligible.",
+  "resume_tailoring": "Program-coordination + student-support recipe. Summary role-noun 'program coordination & student support'. InGenius first, bullets re-angled to point-of-contact/coordination/customer-service/presentations — full richness. Projects lead with scholarship-recipient line. Skills 'Coordination & Service' cluster (customer service, public speaking, records/application mgmt). ODN = 2 collective bullets. NextGen/Vestas/Kronos 4 each. Wesleyan Relevant Coursework kept; education leads with Wesleyan. Header 'Portland, OR (Open to Relocation)'. No banned content.",
+  "documents_required_by_posting": ["Resume/CV (built)", "Cover Letter (built)", "Other Document 1 = mission-alignment essay (built)", "3 professional references (ready)"],
+  "references_to_use": [
+    {"name": "Heather Kendall", "title": "Organizational Development Specialist, NextGen Healthcare", "email": "Hjeankendall@gmail.com", "phone": "(480) 440-9488"},
+    {"name": "Carroll Jeffrey", "title": "Vice President, Organizational Development, NextGen Healthcare", "email": "jcarroll@nextgen.com", "phone": "(570) 417-2311"},
+    {"name": "Irene Yu Limschou", "title": "APAC Regional Lead, People & Culture, Vestas Wind Systems", "email": "ireneylimschou@gmail.com", "phone": "+886 (928) 875-513"}
+  ],
+  "references_note": "Hannah Parten (Wesleyan) available as alternate. NEVER use InGenius Prep (active litigation).",
+  "answers_ready": {
+    "Legal name": "Yi-Chieh Cheng (Jamie)", "Email": "jamiecheng0103@gmail.com", "Phone": "(213) 700-3831",
+    "Address": "1784 NW Northrup Street, Portland, OR 97209",
+    "Work authorization": "Authorized now (H-1B); requires future sponsorship = YES (cap-exempt OK).",
+    "Driver's license (REQUIRED for this role)": "Yes — valid driver's license. Eligible.",
+    "Willing to relocate to Corvallis + travel for outreach": "Yes",
+    "EEO": "Woman/Asian/Not Hispanic/Not veteran/No disability", "How heard": "LinkedIn",
+    "Second language (preferred Spanish)": "Spanish (basic); Mandarin (native)"
+  },
+  "human_handoff": {
+    "browser": "Dedicated isolated detached Chrome on CDP port 9334 (profile %LOCALAPPDATA%\\Google\\Chrome\\osu_agent_profile), parked on the /user/new hCaptcha. Sibling Chrome on 9333 untouched.",
+    "what_human_does": "Pass the hCaptcha 'I am human' once, create the OSU account (jamiecheng0103@gmail.com + shared ATS pw; choose a username; Gmail OTP if asked). That ONE account covers all 3 OSU postings. Then finish/auto-fill: attach resume + cover + the mission-alignment essay (Other Document 1) + the 3 references.",
+    "screenshots": ["_ats_01_posting.png", "_ats_03_captcha_account_creation.png"]
+  },
+  "unknowns": [],
+  "recorded_at_local": "2026-06-14 00:30"
+}

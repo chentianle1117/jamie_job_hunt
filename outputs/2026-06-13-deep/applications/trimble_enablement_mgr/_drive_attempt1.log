@@ -1,0 +1,743 @@
+
+=== 2026-06-14T00:17:02.653070 :: Trimble / Manager, Enablement Programs and Content (R55463) ===
+landed: https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers/job/US---CO%2C-Westminster/Manager--Enablement-Programs-and-Content_R55463-1/apply/applyManually | title: Manager, Enablement Programs and Content
+---- STEP1 LANDING ----
+Skip to main content
+Transforming the way the world works
+Back to Job Posting
+Manager, Enablement Programs and Content
+current step 1 of 6
+My Information
+step 2 of 6
+My Experience
+step 3 of 6
+Application Questions
+step 4 of 6
+Voluntary Disclosures
+step 5 of 6
+Self Identify
+step 6 of 6
+Review
+My Information
+* Indicates a required field
+How Did You Hear About Us?*
+Select One
+Have you previously worked for this organization? If Yes, please answer the questions below. If No, please continue to the next page.*
+Yes
+No
+Country*
+United States of America
+Legal Name
+First Name*
+Last Name*
+I have a preferred name
+Address
+Address Line 1
+City
+State
+Select One
+Postal Code
+Email Address
+Email*
+Phone
+Phone Device Type*
+Mobile
+Country Phone Code*
+1 item selected, United States of America (+1)
+
+United State
+---- END STEP1 LANDING ----
+  [shot] 01_my_information_blank
+
+-- STEP 1: My Information --
+  [ms] how_did_you_hear ERR: Locator.scroll_into_view_if_needed: Timeout 25000ms exceeded.
+Call log:
+  - waiting for locator("input[data-automation-id='multiselectInputContainer']").first
+
+  [radio] 'previously worked' = no
+  [text] first_name = Yi-Chieh
+  [text] last_name = Cheng
+  [text] address1 = 1784 NW Northrup Street
+  [text] city = Portland
+  [text] zip = 97209
+  [dd] state: opts = United States of America (+1)|United States of America (+1)|United States of America (+1)|Select One|Alabama|Alaska|American Samoa|Arizona|Arkansas|Armed Forces Americas|Armed Forces Europe|Armed Forces Pacific|California|Colorado|Connectic
+  [dd] state = Oregon
+  [text] email = jamiecheng0103@gmail.com
+  [text] phone = 2137003831
+  [dd] phone_device_type: opts = United States of America (+1)|United States of America (+1)|United States of America (+1)|Select One|Mobile|Telephone
+  [dd] phone_device_type = Mobile
+  [shot] 02_my_information_filled
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  -> progress: Manager, Enablement Programs and Content
+  [STEP1 STILL ERRORS] ['Error-How Did You Hear About Us?\nThe field How Did You Hear About Us? is required and must have a value.']
+---- STEP2 LANDING ----
+Skip to main content
+Transforming the way the world works
+Back to Job Posting
+Manager, Enablement Programs and Content
+current step 1 of 6
+My Information
+step 2 of 6
+My Experience
+step 3 of 6
+Application Questions
+step 4 of 6
+Voluntary Disclosures
+step 5 of 6
+Self Identify
+step 6 of 6
+Review
+My Information
+* Indicates a required field
+Errors Found
+Error-How Did You Hear About Us?
+The field How Did You Hear About Us? is required and must have a value.
+How Did You Hear About Us?*
+Select One
+
+Error: The field How Did You Hear About Us? is required and must have a value.
+
+Have you previously worked for this organization? If Yes, please answer the questions below. If No, please continue to the next page.*
+Yes
+No
+Country*
+United States of America
+Legal Name
+First Name*
+Last Name*
+I have a preferred name
+Address
+Address Line 1
+City
+State
+Oregon
+Postal Code
+Email Address
+Email*
+Phone
+Phone Devic
+---- END STEP2 LANDING ----
+
+-- STEP 2: My Experience (resume upload) --
+  [text] linkedin: NO field for labels ['linkedin']
+  [shot] 03_my_experience_resume_uploaded
+  !!! RESUME UPLOAD FAILED ? will STOP at review, not submit
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  -> progress: Manager, Enablement Programs and Content
+  [STEP2 errors] ['Error-How Did You Hear About Us?\nThe field How Did You Hear About Us? is required and must have a value.']
+---- STEP3 LANDING ----
+Skip to main content
+Transforming the way the world works
+Back to Job Posting
+Manager, Enablement Programs and Content
+current step 1 of 6
+My Information
+step 2 of 6
+My Experience
+step 3 of 6
+Application Questions
+step 4 of 6
+Voluntary Disclosures
+step 5 of 6
+Self Identify
+step 6 of 6
+Review
+My Information
+* Indicates a required field
+Errors Found
+Error-How Did You Hear About Us?
+The field How Did You Hear About Us? is required and must have a value.
+How Did You Hear About Us?*
+Select One
+
+Error: The field How Did You Hear About Us? is required and must have a value.
+
+Have you previously worked for this organization? If Yes, please answer the questions below. If No, please continue to the next page.*
+Yes
+No
+Country*
+United States of America
+Legal Name
+First Name*
+Last Name*
+I have a preferred name
+Address
+Address Line 1
+City
+State
+Oregon
+Postal Code
+Email Address
+Email*
+Phone
+Phone Device Type*
+Mobile
+Country Phone Code*
+1 item selected, United States of America (+1)
+
+United States of America (+1)
+
+Phone Number*
+Phone Extension
+Next
+Follow Us
+Trimble Employment Data Privacy Statement
+? 2026 Workday, Inc. All rights reserved.
+---- END STEP3 LANDING ----
+
+-- Wizard page round 0 (step 1) review={'review': False, 'submitted': False, 'hasSubmit': False, 'onLastStep': False, 'reviewHeader': False} --
+---- ROUND 0 LIVE ----
+Skip to main content
+Transforming the way the world works
+Back to Job Posting
+Manager, Enablement Programs and Content
+current step 1 of 6
+My Information
+step 2 of 6
+My Experience
+step 3 of 6
+Application Questions
+step 4 of 6
+Voluntary Disclosures
+step 5 of 6
+Self Identify
+step 6 of 6
+Review
+My Information
+* Indicates a required field
+Errors Found
+Error-How Did You Hear About Us?
+The field How Did You Hear About Us? is required and must have a value.
+How Did You Hear About Us?*
+Select One
+
+Error: The field How Did You Hear About Us? is required and must have a value.
+
+Have you previously worked for this organization? If Yes, please answer the questions below. If No, please continue to the next page.*
+Yes
+No
+Country*
+United States of America
+Legal Name
+First Name*
+Last Name*
+I have a preferred name
+Address
+Address Line 1
+City
+State
+Oregon
+Postal Code
+Email Address
+Email*
+Phone
+Phone Device Type*
+Mobile
+Country Phone Code*
+1 item selected, United States of America (+1)
+
+United States of America (+1)
+
+Phone Number*
+Phone Extension
+Next
+Follow Us
+Trimble Employment Data Privacy Statement
+? 2026 Workday, Inc. All rights reserved.
+---- END ROUND 0 LIVE ----
+  [shot] 04_disclosures_round0
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  [REAL errors after Next a0] ['Error-How Did You Hear About Us?\nThe field How Did You Hear About Us? is required and must have a value.']
+---- R0A0 REFILL ----
+Skip to main content
+Transforming the way the world works
+Back to Job Posting
+Manager, Enablement Programs and Content
+current step 1 of 6
+My Information
+step 2 of 6
+My Experience
+step 3 of 6
+Application Questions
+step 4 of 6
+Voluntary Disclosures
+step 5 of 6
+Self Identify
+step 6 of 6
+Review
+My Information
+* Indicates a required field
+Errors Found
+Error-How Did You Hear About Us?
+The field How Did You Hear About Us? is required and must have a value.
+How Did You Hear About Us?*
+Select One
+
+Error: The field How Did You Hear About Us? is required and must have a value.
+
+Have you previously worked for this organization? If Yes, please answer the questions below. If No, please continue to the next page.*
+Yes
+No
+Country*
+United States of America
+Legal Name
+First Name*
+Last Name*
+I have a preferred name
+Address
+Address Line 1
+City
+State
+Oregon
+Postal Code
+Email Address
+Email*
+Phone
+Phone Device Type*
+Mobile
+Country Phone Code*
+1 item selected, United States of America (+1)
+
+United States of America (+1)
+
+Phone Number*
+Phone Extension
+Next
+Follow Us
+Trimble Employment Data Privacy Statement
+? 2026 Workday, Inc. All rights reserved.
+---- END R0A0 REFILL ----
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  [REAL errors after Next a1] ['Error-How Did You Hear About Us?\nThe field How Did You Hear About Us? is required and must have a value.']
+---- R0A1 REFILL ----
+Skip to main content
+Transforming the way the world works
+Back to Job Posting
+Manager, Enablement Programs and Content
+current step 1 of 6
+My Information
+step 2 of 6
+My Experience
+step 3 of 6
+Application Questions
+step 4 of 6
+Voluntary Disclosures
+step 5 of 6
+Self Identify
+step 6 of 6
+Review
+My Information
+* Indicates a required field
+Errors Found
+Error-How Did You Hear About Us?
+The field How Did You Hear About Us? is required and must have a value.
+How Did You Hear About Us?*
+Select One
+
+Error: The field How Did You Hear About Us? is required and must have a value.
+
+Have you previously worked for this organization? If Yes, please answer the questions below. If No, please continue to the next page.*
+Yes
+No
+Country*
+United States of America
+Legal Name
+First Name*
+Last Name*
+I have a preferred name
+Address
+Address Line 1
+City
+State
+Oregon
+Postal Code
+Email Address
+Email*
+Phone
+Phone Device Type*
+Mobile
+Country Phone Code*
+1 item selected, United States of America (+1)
+
+United States of America (+1)
+
+Phone Number*
+Phone Extension
+Next
+Follow Us
+Trimble Employment Data Privacy Statement
+? 2026 Workday, Inc. All rights reserved.
+---- END R0A1 REFILL ----
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  [REAL errors after Next a2] ['Error-How Did You Hear About Us?\nThe field How Did You Hear About Us? is required and must have a value.']
+---- R0A2 REFILL ----
+Skip to main content
+Transforming the way the world works
+Back to Job Posting
+Manager, Enablement Programs and Content
+current step 1 of 6
+My Information
+step 2 of 6
+My Experience
+step 3 of 6
+Application Questions
+step 4 of 6
+Voluntary Disclosures
+step 5 of 6
+Self Identify
+step 6 of 6
+Review
+My Information
+* Indicates a required field
+Errors Found
+Error-How Did You Hear About Us?
+The field How Did You Hear About Us? is required and must have a value.
+How Did You Hear About Us?*
+Select One
+
+Error: The field How Did You Hear About Us? is required and must have a value.
+
+Have you previously worked for this organization? If Yes, please answer the questions below. If No, please continue to the next page.*
+Yes
+No
+Country*
+United States of America
+Legal Name
+First Name*
+Last Name*
+I have a preferred name
+Address
+Address Line 1
+City
+State
+Oregon
+Postal Code
+Email Address
+Email*
+Phone
+Phone Device Type*
+Mobile
+Country Phone Code*
+1 item selected, United States of America (+1)
+
+United States of America (+1)
+
+Phone Number*
+Phone Extension
+Next
+Follow Us
+Trimble Employment Data Privacy Statement
+? 2026 Workday, Inc. All rights reserved.
+---- END R0A2 REFILL ----
+  -> progress: Manager, Enablement Programs and Content
+  !! could not advance this page
+
+-- Wizard page round 1 (step 1) review={'review': False, 'submitted': False, 'hasSubmit': False, 'onLastStep': False, 'reviewHeader': False} --
+---- ROUND 1 LIVE ----
+Skip to main content
+Transforming the way the world works
+Back to Job Posting
+Manager, Enablement Programs and Content
+current step 1 of 6
+My Information
+step 2 of 6
+My Experience
+step 3 of 6
+Application Questions
+step 4 of 6
+Voluntary Disclosures
+step 5 of 6
+Self Identify
+step 6 of 6
+Review
+My Information
+* Indicates a required field
+Errors Found
+Error-How Did You Hear About Us?
+The field How Did You Hear About Us? is required and must have a value.
+How Did You Hear About Us?*
+Select One
+
+Error: The field How Did You Hear About Us? is required and must have a value.
+
+Have you previously worked for this organization? If Yes, please answer the questions below. If No, please continue to the next page.*
+Yes
+No
+Country*
+United States of America
+Legal Name
+First Name*
+Last Name*
+I have a preferred name
+Address
+Address Line 1
+City
+State
+Oregon
+Postal Code
+Email Address
+Email*
+Phone
+Phone Device Type*
+Mobile
+Country Phone Code*
+1 item selected, United States of America (+1)
+
+United States of America (+1)
+
+Phone Number*
+Phone Extension
+Next
+Follow Us
+Trimble Employment Data Privacy Statement
+? 2026 Workday, Inc. All rights reserved.
+---- END ROUND 1 LIVE ----
+  [shot] 04_disclosures_round1
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  [REAL errors after Next a0] ['Error-How Did You Hear About Us?\nThe field How Did You Hear About Us? is required and must have a value.']
+---- R1A0 REFILL ----
+Skip to main content
+Transforming the way the world works
+Back to Job Posting
+Manager, Enablement Programs and Content
+current step 1 of 6
+My Information
+step 2 of 6
+My Experience
+step 3 of 6
+Application Questions
+step 4 of 6
+Voluntary Disclosures
+step 5 of 6
+Self Identify
+step 6 of 6
+Review
+My Information
+* Indicates a required field
+Errors Found
+Error-How Did You Hear About Us?
+The field How Did You Hear About Us? is required and must have a value.
+How Did You Hear About Us?*
+Select One
+
+Error: The field How Did You Hear About Us? is required and must have a value.
+
+Have you previously worked for this organization? If Yes, please answer the questions below. If No, please continue to the next page.*
+Yes
+No
+Country*
+United States of America
+Legal Name
+First Name*
+Last Name*
+I have a preferred name
+Address
+Address Line 1
+City
+State
+Oregon
+Postal Code
+Email Address
+Email*
+Phone
+Phone Device Type*
+Mobile
+Country Phone Code*
+1 item selected, United States of America (+1)
+
+United States of America (+1)
+
+Phone Number*
+Phone Extension
+Next
+Follow Us
+Trimble Employment Data Privacy Statement
+? 2026 Workday, Inc. All rights reserved.
+---- END R1A0 REFILL ----
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  [REAL errors after Next a1] ['Error-How Did You Hear About Us?\nThe field How Did You Hear About Us? is required and must have a value.']
+---- R1A1 REFILL ----
+Skip to main content
+Transforming the way the world works
+Back to Job Posting
+Manager, Enablement Programs and Content
+current step 1 of 6
+My Information
+step 2 of 6
+My Experience
+step 3 of 6
+Application Questions
+step 4 of 6
+Voluntary Disclosures
+step 5 of 6
+Self Identify
+step 6 of 6
+Review
+My Information
+* Indicates a required field
+Errors Found
+Error-How Did You Hear About Us?
+The field How Did You Hear About Us? is required and must have a value.
+How Did You Hear About Us?*
+Select One
+
+Error: The field How Did You Hear About Us? is required and must have a value.
+
+Have you previously worked for this organization? If Yes, please answer the questions below. If No, please continue to the next page.*
+Yes
+No
+Country*
+United States of America
+Legal Name
+First Name*
+Last Name*
+I have a preferred name
+Address
+Address Line 1
+City
+State
+Oregon
+Postal Code
+Email Address
+Email*
+Phone
+Phone Device Type*
+Mobile
+Country Phone Code*
+1 item selected, United States of America (+1)
+
+United States of America (+1)
+
+Phone Number*
+Phone Extension
+Next
+Follow Us
+Trimble Employment Data Privacy Statement
+? 2026 Workday, Inc. All rights reserved.
+---- END R1A1 REFILL ----
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  [REAL errors after Next a2] ['Error-How Did You Hear About Us?\nThe field How Did You Hear About Us? is required and must have a value.']
+---- R1A2 REFILL ----
+Skip to main content
+Transforming the way the world works
+Back to Job Posting
+Manager, Enablement Programs and Content
+current step 1 of 6
+My Information
+step 2 of 6
+My Experience
+step 3 of 6
+Application Questions
+step 4 of 6
+Voluntary Disclosures
+step 5 of 6
+Self Identify
+step 6 of 6
+Review
+My Information
+* Indicates a required field
+Errors Found
+Error-How Did You Hear About Us?
+The field How Did You Hear About Us? is required and must have a value.
+How Did You Hear About Us?*
+Select One
+
+Error: The field How Did You Hear About Us? is required and must have a value.
+
+Have you previously worked for this organization? If Yes, please answer the questions below. If No, please continue to the next page.*
+Yes
+No
+Country*
+United States of America
+Legal Name
+First Name*
+Last Name*
+I have a preferred name
+Address
+Address Line 1
+City
+State
+Oregon
+Postal Code
+Email Address
+Email*
+Phone
+Phone Device Type*
+Mobile
+Country Phone Code*
+1 item selected, United States of America (+1)
+
+United States of America (+1)
+
+Phone Number*
+Phone Extension
+Next
+Follow Us
+Trimble Employment Data Privacy Statement
+? 2026 Workday, Inc. All rights reserved.
+---- END R1A2 REFILL ----
+  -> progress: Manager, Enablement Programs and Content
+  !! could not advance this page
+
+-- Wizard page round 2 (step 1) review={'review': False, 'submitted': False, 'hasSubmit': False, 'onLastStep': False, 'reviewHeader': False} --
+---- ROUND 2 LIVE ----
+Skip to main content
+Transforming the way the world works
+Back to Job Posting
+Manager, Enablement Programs and Content
+current step 1 of 6
+My Information
+step 2 of 6
+My Experience
+step 3 of 6
+Application Questions
+step 4 of 6
+Voluntary Disclosures
+step 5 of 6
+Self Identify
+step 6 of 6
+Review
+My Information
+* Indicates a required field
+Errors Found
+Error-How Did You Hear About Us?
+The field How Did You Hear About Us? is required and must have a value.
+How Did You Hear About Us?*
+Select One
+
+Error: The field How Did You Hear About Us? is required and must have a value.
+
+Have you previously worked for this organization? If Yes, please answer the questions below. If No, please continue to the next page.*
+Yes
+No
+Country*
+United States of America
+Legal Name
+First Name*
+Last Name*
+I have a preferred name
+Address
+Address Line 1
+City
+State
+Oregon
+Postal Code
+Email Address
+Email*
+Phone
+Phone Device Type*
+Mobile
+Country Phone Code*
+1 item selected, United States of America (+1)
+
+United States of America (+1)
+
+Phone Number*
+Phone Extension
+Next
+Follow Us
+Trimble Employment Data Privacy Statement
+? 2026 Workday, Inc. All rights reserved.
+---- END ROUND 2 LIVE ----
+  [shot] 04_disclosures_round2
+  [next] clicked [data-automation-id='pageFooterNextButton']

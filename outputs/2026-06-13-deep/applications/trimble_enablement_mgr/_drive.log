@@ -1,0 +1,344 @@
+
+=== 2026-06-14T00:32:02.581200 :: Trimble / Manager, Enablement Programs and Content (R55463) ===
+landed: https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers/job/US---CO%2C-Westminster/Manager--Enablement-Programs-and-Content_R55463-1/apply/applyManually | title: Manager, Enablement Programs and Content
+---- STEP1 LANDING ----
+Skip to main content
+Transforming the way the world works
+Back to Job Posting
+Manager, Enablement Programs and Content
+current step 1 of 6
+My Information
+step 2 of 6
+My Experience
+step 3 of 6
+Application Questions
+step 4 of 6
+Voluntary Disclosures
+step 5 of 6
+Self Identify
+step 6 of 6
+Review
+My Information
+* Indicates a required field
+How Did You Hear About Us?*
+Select One
+Have you previously worked for this organization? If Yes, please answer the questions below. If No, please continue to the next page.*
+Yes
+No
+Country*
+United States of America
+Legal Name
+First Name*
+Last Name*
+I have a preferred name
+Address
+Address Line 1
+City
+State
+Select One
+Postal Code
+Email Address
+Email*
+Phone
+Phone Device Type*
+Mobile
+Country Phone Code*
+1 item selected, United States of America (+1)
+
+United State
+---- END STEP1 LANDING ----
+  [shot] 01_my_information_blank
+
+-- STEP 1: My Information --
+  [ms] how_did_you_hear ERR: Locator.scroll_into_view_if_needed: Timeout 25000ms exceeded.
+Call log:
+  - waiting for locator("input[data-automation-id='multiselectInputContainer']").first
+
+  [dd] how_did_you_hear: opts = United States of America (+1)|United States of America (+1)|United States of America (+1)|Select One|Advertisement|AUBI-plus|bestjobs.eu|CareerFit+Colorado|College/University|Company Website|CWJobs.co.uk|Event|Facebook|Google|Have a connect
+  [dd] how_did_you_hear = LinkedIn
+  [radio] 'previously worked' = no
+  [text] first_name = Yi-Chieh
+  [text] last_name = Cheng
+  [text] address1 = 1784 NW Northrup Street
+  [text] city = Portland
+  [text] zip = 97209
+  [dd] state: opts = United States of America (+1)|United States of America (+1)|United States of America (+1)|Select One|Alabama|Alaska|American Samoa|Arizona|Arkansas|Armed Forces Americas|Armed Forces Europe|Armed Forces Pacific|California|Colorado|Connectic
+  [dd] state = Oregon
+  [text] email = jamiecheng0103@gmail.com
+  [text] phone = 2137003831
+  [dd] phone_device_type: opts = United States of America (+1)|United States of America (+1)|United States of America (+1)|Select One|Mobile|Telephone
+  [dd] phone_device_type = Mobile
+  [shot] 02_my_information_filled
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  -> progress: Manager, Enablement Programs and Content
+---- STEP2 LANDING ----
+Skip to main content
+Transforming the way the world works
+Back to Job Posting
+Manager, Enablement Programs and Content
+completed step 1 of 6
+My Information
+current step 2 of 6
+My Experience
+step 3 of 6
+Application Questions
+step 4 of 6
+Voluntary Disclosures
+step 5 of 6
+Self Identify
+step 6 of 6
+Review
+My Experience
+* Indicates a required field
+Work Experience
+Add
+Education
+Add
+Languages
+Add
+Skills
+Type to Add Skills
+0 items selected
+Resume/CV
+
+Upload a file (5MB max)*
+Drop files here
+or
+Select files
+
+Websites
+Add any relevant websites.
+Add
+Back
+Next
+Follow Us
+Trimble Employment Data Privacy Statement
+? 2026 Workday, Inc. All rights reserved.
+---- END STEP2 LANDING ----
+
+-- STEP 2: My Experience (resume upload) --
+  resume uploaded via input[type='file'][data-automation-id*='file-upload-input'] (89383 bytes)
+  attached chip: Skip to main content
+Transforming the way the world works
+Back to Job Posting
+Manager, Enablement Programs and Content
+c
+  [text] linkedin: NO field for labels ['linkedin']
+  [shot] 03_my_experience_resume_uploaded
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  -> progress: Manager, Enablement Programs and Content
+---- STEP3 LANDING ----
+Skip to main content
+Transforming the way the world works
+Back to Job Posting
+Manager, Enablement Programs and Content
+completed step 1 of 6
+My Information
+completed step 2 of 6
+My Experience
+current step 3 of 6
+Application Questions
+step 4 of 6
+Voluntary Disclosures
+step 5 of 6
+Self Identify
+step 6 of 6
+Review
+Application Questions
+* Indicates a required field
+
+Are you at least 18 years of age?*
+
+Select One
+
+Are you legally eligible to work in the country where this job is located?*
+
+Select One
+
+Will you now or in the future require visa sponsorship at this job location?*
+
+Select One
+
+Are you open to relocation?*
+
+Select One
+
+What is your desired salary?
+
+Back
+Next
+Follow Us
+Trimble Employment Data Privacy Statement
+? 2026 Workday, Inc. All rights reserved.
+---- END STEP3 LANDING ----
+
+-- Wizard page round 0 (step 3) review={'review': False, 'submitted': False, 'hasSubmit': False, 'onLastStep': False, 'reviewHeader': False} --
+---- ROUND 0 LIVE ----
+Skip to main content
+Transforming the way the world works
+Back to Job Posting
+Manager, Enablement Programs and Content
+completed step 1 of 6
+My Information
+completed step 2 of 6
+My Experience
+current step 3 of 6
+Application Questions
+step 4 of 6
+Voluntary Disclosures
+step 5 of 6
+Self Identify
+step 6 of 6
+Review
+Application Questions
+* Indicates a required field
+
+Are you at least 18 years of age?*
+
+Select One
+
+Are you legally eligible to work in the country where this job is located?*
+
+Select One
+
+Will you now or in the future require visa sponsorship at this job location?*
+
+Select One
+
+Are you open to relocation?*
+
+Select One
+
+What is your desired salary?
+
+Back
+Next
+Follow Us
+Trimble Employment Data Privacy Statement
+? 2026 Workday, Inc. All rights reserved.
+---- END ROUND 0 LIVE ----
+  [radio] 'sponsor': 'Yes' NOT FOUND
+  [dd] sponsorship: opts = Select One|Yes|No
+  [dd] sponsorship = Yes
+  [radio] 'legally authorized': 'Yes' NOT FOUND
+  [dd] work_authorized: opts = Select One|Yes|No
+  [dd] work_authorized = Yes
+  [radio] '18 years': 'Yes' NOT FOUND
+  [dd] age18: opts = Select One|Yes|No
+  [dd] age18 = Yes
+  [radio] 'open to relocation': 'Yes' NOT FOUND
+  [dd] relocation: opts = Select One|Yes|No
+  [dd] relocation = Yes
+  [shot] 04_disclosures_round0
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  -> progress: Manager, Enablement Programs and Content
+
+-- Wizard page round 1 (step 4) review={'review': False, 'submitted': False, 'hasSubmit': False, 'onLastStep': False, 'reviewHeader': False} --
+---- ROUND 1 LIVE ----
+Skip to main content
+Transforming the way the world works
+Back to Job Posting
+Manager, Enablement Programs and Content
+completed step 1 of 6
+My Information
+completed step 2 of 6
+My Experience
+completed step 3 of 6
+Application Questions
+current step 4 of 6
+Voluntary Disclosures
+step 5 of 6
+Self Identify
+step 6 of 6
+Review
+Voluntary Disclosures
+* Indicates a required field
+Personal Data Statement
+Trimble Inc. is proud to be an Equal Opportunity and Affirmative Action Employer and considers qualified applicants for employment without regard to race, gender, age, color, religion, national origin, marital status, disability, sexual orientation, status as a covered veteran in accordance with applicable federal, state and local laws, or any other protected factor. EOE/M/F/V/D?
+
+You are being given the opportunity to provide the following information in order to help us comply with federal and State Equal Employment Opportunity/Affirmative Action record keeping, reporting and other legal requirements. Completion of the form is entirely voluntary. The information you provide will not be considered in the hiring process or thereafter. ?Any ?information provided will be used for confidential data reporting and maintained in a confidential file.
+
+Please select your gender.*
+Select One
+Please select the ethnicity which most accurately describes how you identify yourself.*
+Select One
+Do you identify as Hispanic or Latino?
+Select One
+Please identify your veteran status.*
+Select One
+Terms and Conditions
+
+Candidate and Employee Privacy Notice
+
+Yes, I have read and consent to the terms and conditions.*
+Back
+Next
+Follow Us
+Trimble Employment Data Privacy Statement
+? 2026 Workday, Inc. All rights reserved.
+---- END ROUND 1 LIVE ----
+  [dd] gender: opts = Select One|Female|Male|Not declared
+  [dd] gender = Female
+  [dd] hispanic: opts = Select One|Yes|No
+  [dd] hispanic = No
+  [dd] ethnicity: opts = Select One|American Indian or Alaska Native (Not Hispanic or Latino) (United States of America)|Asian (Not Hispanic or Latino) (United States of America)|Black or African American (Not Hispanic or Latino) (United States of America)|Hispanic
+  [dd] ethnicity = Asian (Not Hispanic or Latino) (United States of America)
+  [dd] veteran: opts = Select One|I identify as one or more of the classifications of protected veterans|I am not a protected veteran|I choose not to self-identify
+  [dd] veteran = I am not a protected veteran
+  [dd] disability: no dropdown for labels ['disability']
+  [check] acknowledgment(s): ['yes, i have read and consent to the terms and cond']
+  [shot] 04_disclosures_round1
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  -> progress: Manager, Enablement Programs and Content
+
+-- Wizard page round 2 (step 5) review={'review': False, 'submitted': False, 'hasSubmit': False, 'onLastStep': False, 'reviewHeader': False} --
+---- ROUND 2 LIVE ----
+Skip to main content
+Transforming the way the world works
+Back to Job Posting
+Manager, Enablement Programs and Content
+completed step 1 of 6
+My Information
+completed step 2 of 6
+My Experience
+completed step 3 of 6
+Application Questions
+completed step 4 of 6
+Voluntary Disclosures
+current step 5 of 6
+Self Identify
+step 6 of 6
+Review
+Self Identify
+* Indicates a required field
+Language*
+English
+Voluntary Self-Identification of Disability
+Form
+CC-305
+OMB Control Number
+1250-0005
+Expires
+04/30/2026
+Name*
+Employee ID (if applicable)
+Date*
+current value is MM/DD/YYYY
+MM
+/
+DD
+/
+YYYY
+Why are you being asked to complete this form?
+We are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.
+
+Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor?s Office of Federal Contract Compliance Programs (OFCCP) website at www.dol.gov/ofccp.
+How do you know if you have a disability?
+A disability is a condition that substantially limits one or more of your ?major life activities.? If you have or have ever had such a condition, you are a person with a disability. Disabilities include, but are not limited to:
+
+
+Alcohol or other 
+---- END ROUND 2 LIVE ----
+  [dd] disability: no dropdown for labels ['disability']
+  -- Self-Identify (CC-305) --
+  [text] selfid_name = Jamie Cheng

@@ -1,0 +1,328 @@
+
+=== 2026-06-14T00:04:39.030148 :: DraftKings / Program Manager, Talent Management (JR14443) ===
+landed: https://draftkings.wd1.myworkdayjobs.com/en-US/DraftKings/job/Boston-MA/Program-Manager--Talent-Management_JR14443/apply/applyManually | title: Program Manager, Talent Management
+---- STEP1 LANDING ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Back to Job Posting
+Program Manager, Talent Management
+current step 1 of 5
+My Information
+step 2 of 5
+My Experience
+step 3 of 5
+Application Questions
+step 4 of 5
+Voluntary Disclosures
+step 5 of 5
+Review
+My Information
+* Indicates a required field
+How Did You Hear About Us?*
+0 items selected
+Have you previously worked for DraftKings? If Yes, please answer the questions below. If No, please continue to the next section.*
+Yes
+No
+Country*
+United States of America
+Legal Name
+First Name*
+Middle Name
+Last Name*
+I have a preferred name
+Address
+Address Line 1
+Address Line 2
+City
+State
+Select One
+Postal Code
+Email Address
+Email*
+Phone
+Phone Device Type*
+Mobile
+Country Phone Code*
+1 item selected, United States of America (+1)
+
+United St
+---- END STEP1 LANDING ----
+  [shot] 01_my_information_blank
+
+-- STEP 1: My Information --
+  [ms] how_did_you_hear = LinkedIn (enter)
+  [radio] 'previously worked' = no
+  [text] first_name = Yi-Chieh
+  [text] last_name = Cheng
+  [text] address1 = 1784 NW Northrup Street
+  [text] city = Portland
+  [text] zip = 97209
+  [dd] state = Oregon
+  [text] email = jamiecheng0103@gmail.com
+  [text] phone = 2137003831
+  [dd] phone_device_type = Mobile
+  [shot] 02_my_information_filled
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  -> progress: Program Manager, Talent Management
+---- STEP2 LANDING ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Back to Job Posting
+Program Manager, Talent Management
+completed step 1 of 5
+My Information
+current step 2 of 5
+My Experience
+step 3 of 5
+Application Questions
+step 4 of 5
+Voluntary Disclosures
+step 5 of 5
+Review
+My Experience
+* Indicates a required field
+Resume/CV
+
+Upload a file (5MB max)*
+Drop files here
+or
+Select files
+
+Social Network URLs
+LinkedIn Profile URL
+Back
+Next
+Follow Us
+Terms of Use ? DraftKings Careers
+? 2026 Workday, Inc. All rights reserved.
+---- END STEP2 LANDING ----
+
+-- STEP 2: My Experience (resume upload) --
+  resume uploaded via input[type='file'][data-automation-id*='file-upload-input'] (87999 bytes)
+  attached chip: Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Back to Job Posting
+Program Manager, Talent Management
+c
+  [text] linkedin = https://www.linkedin.com/in/jamieyccheng/
+  [shot] 03_my_experience_resume_uploaded
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  -> progress: Program Manager, Talent Management
+---- STEP3 LANDING ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Back to Job Posting
+Program Manager, Talent Management
+completed step 1 of 5
+My Information
+completed step 2 of 5
+My Experience
+current step 3 of 5
+Application Questions
+step 4 of 5
+Voluntary Disclosures
+step 5 of 5
+Review
+Application Questions
+* Indicates a required field
+
+Demographic Survey/U.S. Equal Employment Opportunity Information
+
+To ensure that we comply with reporting requirements and to learn more about how we can increase diversity in our candidate pool, we invite you to provide demographic information in a confidential survey.
+
+Providing this information is optional. It will not be used in the hiring process, and has no effect on your opportunity for employment.
+
+DraftKings ensures equal employment opportunity without discrimination or harassment based on race, color, religion, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender identity or expression, age, disability, national origin, marital or domestic/civil partnership status, genetic information, citizenship status, veteran status, or any other characteristic protected by law.
+
+By clicking "Next" below, I consent to DraftKings? collection and use of my sensitive personal information, including race or ethnicity and sexual orientation data for purposes of evaluating our Inclusion, Equity, & Belonging initiatives. The provision of such information is optional. You may withdraw your consent by emailing privacy@draftkings.com. For details about DraftKings? collection and use of your information, please see our Privacy Notice.
+
+Are you legally authorized to work in the country where this job is located?*
+
+Select One
+
+Will you now or in the future require sponsorship for employment visa status (i.e. H1B visa)?*
+
+Select One
+
+Please select your gender.*
+
+Select One
+
+Please select the race/ethnicity with which you primarily identify.*
+
+Select One
+
+What is your veteran status?*
+
+Select One
+
+Do you identify as LGBTQ+?*
+
+Select One
+Back
+Next
+Follow Us
+Terms of Use ? DraftKings Careers
+? 2026 Workday, Inc. All rights reserved.
+---- END STEP3 LANDING ----
+
+-- STEP 3: Application Questions --
+  [radio] 'sponsor': 'Yes' NOT FOUND
+  [dd] sponsorship = Yes
+  [radio] 'authorized': 'Yes' NOT FOUND
+  [dd] work_authorized = Yes
+  [shot] 04_application_questions
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  -> progress: Program Manager, Talent Management
+---- STEP4 LANDING ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Back to Job Posting
+Program Manager, Talent Management
+completed step 1 of 5
+My Information
+completed step 2 of 5
+My Experience
+current step 3 of 5
+Application Questions
+step 4 of 5
+Voluntary Disclosures
+step 5 of 5
+Review
+Application Questions
+* Indicates a required field
+Errors Found
+Error-Please select your gender.
+The field Please select your gender. is required and must have a value.
+Error-Please select the race/ethnicity with which you primarily identify.
+The field Please select the race/ethnicity with which you primarily identify. is required and must have a value.
+Error-What is your veteran status?
+The field What is your veteran status? is required and must have a value.
+Error-Do you identify as LGBTQ+?
+The field Do you identify as LGBTQ+? is required and must have a value.
+
+Demographic Survey/U.S. Equal Employment Opportunity Information
+
+To ensure that we comply with reporting requirements and to learn more about how we can increase diversity in our candidate pool, we invite you to provide demographic information in a confidential survey.
+
+Providing this information is optional. It will not be used in the hiring process, and has no effect on your opportunity for employment.
+
+DraftKings ensures equal employment opportunity without discrimination or harassment based on race, color, religion, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender identity or expression, age, disability, national origin, marital or domestic/civil partnership status, genetic information, citizenship status, veteran status, or any other characteristic protected by law.
+
+By clicking "Next" below, I consent to DraftKings? collection and use of my sensitive personal information, including race or ethnicity and sexual orientation data for purposes of evaluating our Inclusion, Equity, & Belonging initiatives. The provision of such information is optional. You may withdraw your consent by emailing privacy@draftkings.com. For details about DraftKings? collection and use of your information, please see our Privacy Notice.
+
+Are you legally authorized to work in the country where this job is located?*
+
+Yes
+
+Will you now or in the future require sponsorship for employment visa status (i.e. H1B visa)?*
+
+Yes
+
+Please select your gender.*
+
+Select One
+
+Error: The field Please select your gender. is required and must have a value.
+
+Please select the race/ethnicity with which you pr
+---- END STEP4 LANDING ----
+
+-- STEP 4: Voluntary Disclosures --
+  [dd] gender: no option 'Female'
+  [dd] gender = Woman
+  [dd] ethnicity = Asian
+  [dd] veteran: no option 'not a protected'
+  [dd] disability: no dropdown for labels ['disability']
+  [shot] 05_voluntary_disclosures
+  [next] clicked [data-automation-id='pageFooterNextButton']
+  -> progress: Program Manager, Talent Management
+---- STEP5 LANDING ----
+Skip to main content
+Careers at DraftKings
+Sign In
+Careers Home
+Back to Job Posting
+Program Manager, Talent Management
+completed step 1 of 5
+My Information
+completed step 2 of 5
+My Experience
+current step 3 of 5
+Application Questions
+step 4 of 5
+Voluntary Disclosures
+step 5 of 5
+Review
+Application Questions
+* Indicates a required field
+Errors Found
+Error-What is your veteran status?
+The field What is your veteran status? is required and must have a value.
+Error-Do you identify as LGBTQ+?
+The field Do you identify as LGBTQ+? is required and must have a value.
+
+Demographic Survey/U.S. Equal Employment Opportunity Information
+
+To ensure that we comply with reporting requirements and to learn more about how we can increase diversity in our candidate pool, we invite you to provide demographic information in a confidential survey.
+
+Providing this information is optional. It will not be used in the hiring process, and has no effect on your opportunity for employment.
+
+DraftKings ensures equal employment opportunity without discrimination or harassment based on race, color, religion, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender identity or expression, age, disability, national origin, marital or domestic/civil partnership status, genetic information, citizenship status, veteran status, or any other characteristic protected by law.
+
+By clicking "Next" below, I consent to DraftKings? collection and use of my sensitive personal information, including race or ethnicity and sexual orientation data for purposes of evaluating our Inclusion, Equity, & Belonging initiatives. The provision of such information is optional. You may withdraw your consent by emailing privacy@draftkings.com. For details about DraftKings? collection and use of your information, please see our Privacy Notice.
+
+Are you legally authorized to work in the country where this job is located?*
+
+Yes
+
+Will you now or in the future require sponsorship for employment visa status (i.e. H1B visa)?*
+
+Yes
+
+Please select your gender.*
+
+Woman
+
+Please select the race/ethnicity with which you primarily identify.*
+
+Asian
+
+What is your veteran status?*
+
+Select One
+
+Error: The field What is your veteran status? is required and must have a value.
+
+Do you identify as LGBTQ+?*
+
+Select One
+
+Error: The field Do you identify as LGBTQ+? is required and must have a value.
+
+Back
+Next
+Follow Us
+Terms of Use ? DraftKings Careers
+? 2026 Workday, Inc. All rights reserved.
+---- END STEP5 LANDING ----
+
+-- REVIEW page reached --
+  captcha: {'present': False, 'visible': False, 'checkbox': False}
+  [shot] 07_review_full
+
+>>> REVIEW reached. drive_state.json + 07_review_full.png written. WAITING for DECISION.txt (SUBMIT/STAGE)...
+
+*** No SUBMIT/STAGE decision (or CLOSE) ? closing, state saved ***
+
+Keeping browser open ~5 more minutes...

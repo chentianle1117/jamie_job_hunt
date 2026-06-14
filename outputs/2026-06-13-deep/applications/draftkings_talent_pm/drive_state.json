@@ -1,0 +1,46 @@
+{
+  "slug": "draftkings_talent_pm",
+  "company": "DraftKings",
+  "role": "Program Manager, Talent Management",
+  "filled": {
+    "how_did_you_hear": "LinkedIn",
+    "first_name": "Yi-Chieh",
+    "last_name": "Cheng",
+    "address1": "1784 NW Northrup Street",
+    "city": "Portland",
+    "zip": "97209",
+    "state": "Oregon",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "2137003831",
+    "phone_device_type": "Mobile",
+    "resume_chip": "Skip to main content\nCareers at DraftKings\nSign In\nCareers Home\nBack to Job Posting\nProgram Manager, Talent Management\nc",
+    "linkedin": "https://www.linkedin.com/in/jamieyccheng/",
+    "sponsorship": "Yes",
+    "work_authorized": "Yes",
+    "gender": "Woman",
+    "ethnicity": "Asian",
+    "veteran": "I am not a veteran",
+    "lgbtq": "I prefer not to disclose",
+    "acknowledgment": "checked"
+  },
+  "unknowns": [],
+  "review_flags": [
+    "r1:Search for Jobs page is loaded",
+    "r2:Search for Jobs page is loaded",
+    "r3:Search for Jobs page is loaded",
+    "r4:Search for Jobs page is loaded",
+    "r5:Search for Jobs page is loaded",
+    "Search for Jobs page is loaded"
+  ],
+  "steps": [
+    "my_information_filled",
+    "resume_uploaded",
+    "disclosures_done"
+  ],
+  "captcha": {
+    "present": false,
+    "visible": false,
+    "checkbox": false
+  },
+  "attached_resume": "resume.pdf"
+}

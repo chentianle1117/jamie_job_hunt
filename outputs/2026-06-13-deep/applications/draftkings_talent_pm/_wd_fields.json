@@ -1,0 +1,232 @@
+[
+  {
+    "tag": "button",
+    "type": "",
+    "role": "",
+    "aid": "hammyMenuIcon",
+    "id": "hammyMenuIcon",
+    "name": "",
+    "label": "main menu",
+    "haspopup": "true"
+  },
+  {
+    "tag": "input",
+    "type": "",
+    "role": "",
+    "aid": "multiselectInputContainer",
+    "id": "source--source",
+    "name": "",
+    "label": "How Did You Hear About Us?*",
+    "haspopup": ""
+  },
+  {
+    "tag": "input",
+    "type": "radio",
+    "role": "",
+    "aid": "formField-candidateIsPreviousWorker",
+    "id": "sq1b6",
+    "name": "candidateIsPreviousWorker",
+    "label": "Yes",
+    "haspopup": ""
+  },
+  {
+    "tag": "input",
+    "type": "radio",
+    "role": "",
+    "aid": "formField-candidateIsPreviousWorker",
+    "id": "sq1b7",
+    "name": "candidateIsPreviousWorker",
+    "label": "No",
+    "haspopup": ""
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "role": "",
+    "aid": "formField-country",
+    "id": "country--country",
+    "name": "country",
+    "label": "Country*",
+    "haspopup": "listbox"
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "role": "",
+    "aid": "formField-country",
+    "id": "",
+    "name": "",
+    "label": "Country*",
+    "haspopup": ""
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "role": "",
+    "aid": "formField-legalName--firstName",
+    "id": "name--legalName--firstName",
+    "name": "legalName--firstName",
+    "label": "First Name*",
+    "haspopup": ""
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "role": "",
+    "aid": "formField-legalName--middleName",
+    "id": "name--legalName--middleName",
+    "name": "legalName--middleName",
+    "label": "Middle Name",
+    "haspopup": ""
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "role": "",
+    "aid": "formField-legalName--lastName",
+    "id": "name--legalName--lastName",
+    "name": "legalName--lastName",
+    "label": "Last Name*",
+    "haspopup": ""
+  },
+  {
+    "tag": "input",
+    "type": "checkbox",
+    "role": "",
+    "aid": "formField-preferredCheck",
+    "id": "name--preferredCheck",
+    "name": "preferredCheck",
+    "label": "I have a preferred name",
+    "haspopup": ""
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "role": "",
+    "aid": "formField-addressLine1",
+    "id": "address--addressLine1",
+    "name": "addressLine1",
+    "label": "Address Line 1",
+    "haspopup": ""
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "role": "",
+    "aid": "formField-addressLine2",
+    "id": "address--addressLine2",
+    "name": "addressLine2",
+    "label": "Address Line 2",
+    "haspopup": ""
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "role": "",
+    "aid": "formField-city",
+    "id": "address--city",
+    "name": "city",
+    "label": "City",
+    "haspopup": ""
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "role": "",
+    "aid": "formField-countryRegion",
+    "id": "address--countryRegion",
+    "name": "countryRegion",
+    "label": "State",
+    "haspopup": "listbox"
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "role": "",
+    "aid": "formField-countryRegion",
+    "id": "",
+    "name": "",
+    "label": "State",
+    "haspopup": ""
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "role": "",
+    "aid": "formField-postalCode",
+    "id": "address--postalCode",
+    "name": "postalCode",
+    "label": "Postal Code",
+    "haspopup": ""
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "role": "",
+    "aid": "formField-emailAddress",
+    "id": "emailAddress--emailAddress",
+    "name": "emailAddress",
+    "label": "Email*",
+    "haspopup": ""
+  },
+  {
+    "tag": "button",
+    "type": "button",
+    "role": "",
+    "aid": "formField-phoneType",
+    "id": "phoneNumber--phoneType",
+    "name": "phoneType",
+    "label": "Phone Device Type*",
+    "haspopup": "listbox"
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "role": "",
+    "aid": "formField-phoneType",
+    "id": "",
+    "name": "",
+    "label": "Phone Device Type*",
+    "haspopup": ""
+  },
+  {
+    "tag": "input",
+    "type": "",
+    "role": "",
+    "aid": "multiselectInputContainer",
+    "id": "phoneNumber--countryPhoneCode",
+    "name": "",
+    "label": "Country Phone Code*",
+    "haspopup": ""
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "role": "",
+    "aid": "formField-phoneNumber",
+    "id": "phoneNumber--phoneNumber",
+    "name": "phoneNumber",
+    "label": "Phone Number*",
+    "haspopup": ""
+  },
+  {
+    "tag": "input",
+    "type": "text",
+    "role": "",
+    "aid": "formField-extension",
+    "id": "phoneNumber--extension",
+    "name": "extension",
+    "label": "Phone Extension",
+    "haspopup": ""
+  },
+  {
+    "tag": "input",
+    "type": "checkbox",
+    "role": "",
+    "aid": "phone-sms-opt-in",
+    "id": "sq1b5",
+    "name": "",
+    "label": "How Did You Hear About Us?*",
+    "haspopup": ""
+  }
+]
