@@ -1,0 +1,32 @@
+{
+  "company": "nextSource",
+  "role": "Program Specialist",
+  "location": "Cambridge, MA (Hybrid — onsite at client 3 days/week)",
+  "ats": "LiveHire / Humanforce Talent (www.livehire.com/careers/nextsource)",
+  "ats_job_code": "NTR8B (FQFPCL1CXD)",
+  "status": "STAGED-human (existing-account password login wall) + FLAGGED weak-fit/below-floor",
+  "staged_at": "2026-06-14T00:00:00-07:00",
+  "job_url": "https://www.livehire.com/careers/nextsource/job/NTR8B/FQFPCL1CXD/program-specialist-cambridge-ma",
+  "linkedin_url": "https://www.linkedin.com/jobs/view/4390359901",
+  "job_status_verified": "LIVE 2026-06-14 — title 'Program Specialist - Cambridge, MA - nextSource | Humanforce Talent' renders; 'I'm interested' active.",
+  "real_blocker": {
+    "type": "ACCOUNT_AUTHENTICATION_WALL (existing Humanforce password)",
+    "detail": "Re-probed end-to-end this run: 'I'm interested' -> Humanforce candidate T&C (5 consents incl Electronic Signature Authorization) -> accepted -> apply-method picker (LinkedIn/Google/Facebook OAuth / your resume / Apply with email) -> 'Apply with email' -> entered jamiecheng0103@gmail.com -> platform responds 'It looks like you're already registered with Humanforce Talent. Log in to complete your application.' with a PASSWORD field + 'Forgot password?' + 'Log in and continue'. NO passwordless / magic-link / email-code option exists (LiveHire is a shared candidate platform; Jamie has a pre-existing account, likely from a prior staffing application). Authenticating into an existing account via password is a human-only / explicit-permission step. Screenshot: screenshots/email_result.png.",
+    "captcha": "NONE seen.",
+    "matches_prior_finding": true
+  },
+  "fit_flags": {
+    "verdict": "BORDERLINE STRETCH (weak) — recommend SKIP unless Jamie specifically wants it.",
+    "scope": "Title is 'Program Specialist' but this is contingent-workforce / MSP-VMS program OPERATIONS at a woman-owned MSP/EOR/payrolling firm. Genuine program-coordination duties exist (requisition intake, supplier engagement, hiring-manager relationships, Power BI/VMS/HRIS reporting, SOP/continuous-improvement = Jamie's zone), BUT a large share is operational/admin: background checks, drug screens, I-9, onboarding forms, timekeeping & payroll-question support, ticketing case resolution, system deactivation/badge retrieval. Per profile hard-blocker #3 this leans ★☆☆ operational/onboarding-admin, NOT her program-management sweet spot.",
+    "salary": "JD + LinkedIn list $60K-$70K/yr — BELOW Jamie's standard $70K-$90K floor."
+  },
+  "no_package_built": "Given (a) the password wall is a hard human-only step and (b) the weak-fit + below-floor salary, a fresh tailored package was NOT built this run (low ROI). If Jamie wants to pursue it, a Program/Operations-framed resume can be generated quickly.",
+  "human_finish_steps": [
+    "ONLY IF Jamie wants this borderline role: open the staged tab (LiveHire 'Apply' panel, email pre-entered) -> enter Jamie's Humanforce/LiveHire password (shared file ~/Downloads/job_password.txt; if it doesn't match this older account, 'Forgot password?' to reset via Gmail) OR use the LinkedIn OAuth button (browser is logged into LinkedIn as Jamie).",
+    "Her Humanforce profile should pre-fill the application; review every field.",
+    "Sponsorship if asked = Yes (truthful). Salary if forced = note JD is $60-70K (below her usual floor).",
+    "Do NOT list InGenius as a reference. Submit + screenshot."
+  ],
+  "recommendation": "SKIP or deprioritize — login-walled AND weak-fit AND below salary floor. The brief authorized skipping login-walled/weak-fit roles with reason; this is one.",
+  "supersedes": "oracle-job-search/jamie/applications/nextsource_program_specialist/SUBMITTED.json (prior 'staged-needs-jamie-login'; re-confirmed same wall this run)."
+}

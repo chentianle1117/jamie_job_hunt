@@ -1,0 +1,37 @@
+{
+  "company": "OHSU (Oregon Health & Science University)",
+  "role": "HR Business Partner",
+  "req_id": "2026-39450",
+  "ats": "iCIMS",
+  "cap_exempt": true,
+  "status": "STAGED-human (real hCaptcha wall at Submit Profile)",
+  "staged_at": "2026-06-14T00:00:00-07:00",
+  "job_url": "https://externalcareers-ohsu.icims.com/jobs/39450/job",
+  "candidate_form_url": "https://externalcareers-ohsu.icims.com/jobs/39450/hr-business-partner/candidate",
+  "job_status_verified": "LIVE 2026-06-14 — title 'HR Business Partner in Hybrid', Req 2026-39450, Regular Full-Time, US-Hybrid, Salary $84,884.80-$135,595.20/yr.",
+  "fit_verdict": "STRETCH (surfaced honestly, NOT overclaimed)",
+  "fit_reasoning": "This is a genuine MID-TO-SENIOR strategic HRBP role: 'work with senior leaders to define/design strategic initiatives', 'Lead organizational redesign process', 'Lead talent review process', succession planning, 'use data to forecast needs', leader onboarding/accelerations. Jamie's DIRECT HRBP experience is ~8 months as an HRBP ASSISTANT at Vestas (work-sample context) + OD diagnostic consulting via ODN. She has real adjacent strengths (diagnostic consultation, change/talent-development support, DEIB, data-driven partnership, M&A-project + Inclusive-Leadership-pilot exposure) but would be GROWING INTO the full senior scope. Salary band ($85-135K) is strong / above her floor. Cover is explicitly candid: 'my direct HRBP experience has been as an assistant and consultant rather than years owning a senior client portfolio, so I'd be growing into the full scope of this role.'",
+  "real_blocker": {
+    "type": "INTERACTIVE_HCAPTCHA",
+    "detail": "Same iCIMS pattern as Program Admin (req 39497): visible hCaptcha gates 'Submit Profile' (hCaptcha iframe + 'Protected by hCaptcha' badge confirmed in DOM). HARD STOP per no-CAPTCHA doctrine — never solved/bypassed. The email-magic-link login passed automatically; the captcha is the only wall.",
+    "is_only_wall": true
+  },
+  "value_added_this_run": "TAILORED resume.pdf (HRBP framing — ODN diagnostic pair lead, Vestas HRBP-variant bullets: employee relations/headcount/succession) AND cover_letter.pdf (cover-gate CLEAN, candid about seniority) BOTH uploaded into the iCIMS profile via CDP set_input_files (verified: resume 'Replace Resume', cover 'C:\\fakepath\\cover_letter.pdf Delete File'). The cover was also tightened this run to fix an M&A phrasing risk ('directed an M&A integration' -> approved 'facilitate organizational change by directing a Mergers & Acquisitions project, overseeing cross-functional stakeholders') per resume.md DON'T-claim.",
+  "profile_completeness": {
+    "documents": "resume.pdf + cover_letter.pdf BOTH uploaded (tailored).",
+    "login": "Password + Re-enter set (shared ATS password; NOT printed/committed).",
+    "identity": "First=Yi-Chieh, Last=Cheng, Email=jamiecheng0103@gmail.com",
+    "contact": "Phone (213) 700-3831; Address Primary / 1784 NW Northrup Street / Portland / 97209 / United States / Oregon / Multnomah",
+    "how_heard": "LinkedIn (+ 'No additional source details needed')",
+    "education": "University of Southern California / Master's Degree (MA, MS) / Did You Graduate=Yes",
+    "experience": "(Unlike the 39497 session, the work-experience entries did NOT auto-persist on this req's fresh form — if the Work Experience section is required and blank, the human should add at least the current InGenius role, or re-use the experiences from the 39497 profile. Resume PDF carries full dated experience regardless.)"
+  },
+  "captcha_safety": "hCaptcha NOT touched. Tab left OPEN at the HRBP candidate page (logged in as jamiecheng0103@gmail.com).",
+  "human_finish_steps": [
+    "1. Open the staged HRBP tab (logged in) or re-open candidate_form_url + email magic-link.",
+    "2. Resume + cover already attached (tailored). VERIFY the Work Experience section — if required and empty, add InGenius (Program Enablement Manager, Sep 2023-present) + others from resume.pdf.",
+    "3. Solve the hCaptcha at the bottom (the ONE human-only step).",
+    "4. Click 'Submit Profile' and confirm.",
+    "NOTE: This is a genuine STRETCH on seniority — apply at Jamie's discretion. The cover is candid about it."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "company": "BCG (Boston Consulting Group)",
+  "role": "Talent Senior Specialist - People",
+  "ats": "Phenom / Eightfold career hub (experiencedtalent.bcg.com) behind BCG Okta SSO",
+  "status": "STAGED-human (account-authentication wall — Okta password)",
+  "staged_at": "2026-06-14T00:00:00-07:00",
+  "job_url": "https://careers.bcg.com/global/en/job/57988/Talent-Senior-Specialist-People",
+  "apply_url": "https://experiencedtalent.bcg.com/careerhub/explore/jobs/apply?pid=790315808241",
+  "job_status_verified": "Apply URL resolves (redirects to BCG Okta SSO). Posting referenced as live; the apply form itself is behind the login wall and could not be re-reached this run.",
+  "real_blocker": {
+    "type": "ACCOUNT_AUTHENTICATION_WALL (Okta password)",
+    "detail": "The apply URL redirects to logon.bcg.com Okta SSO ('Sign in with your account to access Eightfold'). Entering Jamie's email (jamiecheng0103@gmail.com) advances to 'Verify with your password' — a PASSWORD field + Verify + 'Forgot password?'. The email is recognized as an EXISTING account (no 'sign up / account does not exist' path). There is NO email-code / magic-link / passwordless option offered (only password). Per the safety doctrine, authenticating into an existing account via password is a human-only / explicit-permission step the agent does not perform autonomously. Screenshot: screenshots/okta_login.png.",
+    "captcha": "NONE seen (no hCaptcha/reCAPTCHA on the Okta page).",
+    "datepicker_note": "The prior block (React 'Available Start Date' date-picker '1 error found' + non-persistent account) is MOOT this run — the apply form is gated behind the Okta password wall and was not reachable to re-test the date-picker. The wall is upstream of the form."
+  },
+  "package_ready": "TAILORED resume.pdf + cover_letter.pdf built + cover-gate CLEAN + 1 page each (copied from the prior verified feed-first build; Talent & People Operations framing, Seattle header). Ready to attach once the human is authenticated.",
+  "fit_note": "Consulting/talent role; Jamie's talent + people-ops + OD background is a reasonable fit (consulting variant). H-1B: BCG sponsors. The wall is purely authentication, not eligibility.",
+  "human_finish_steps": [
+    "1. Open the BCG apply URL (apply_url) — it redirects to the BCG Okta sign-in.",
+    "2. Enter jamiecheng0103@gmail.com, then enter Jamie's BCG/Okta password (try the shared ATS password from ~/Downloads/job_password.txt; if it doesn't match this Okta account, use 'Forgot password?' to reset via Jamie's Gmail).",
+    "3. Once in the Eightfold career hub apply form: attach the tailored resume.pdf + cover_letter.pdf from this folder.",
+    "4. Fill the 'Available Start Date' (the React date-picker that was automation-resistant — a human can set it directly), Work Authorization (authorized = Yes; sponsorship = Yes), and Voluntary Self-ID (Woman / Asian / not Hispanic / no disability / non-veteran or decline).",
+    "5. Submit and screenshot the confirmation."
+  ],
+  "supersedes": "outputs/2026-06-12-feed-first/applications/bcg_talent_sr_specialist/SUBMITTED.json (prior status 'blocked: 1 error found' on the date-picker; this run identifies the upstream Okta password wall as the true current blocker)."
+}

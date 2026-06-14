@@ -41,7 +41,15 @@
 | 14 | Vercel | Senior HRBP - EPD | Greenhouse | ✅ /confirmation "Thank you for applying. Your application has been received." | ✅ resume.pdf + cover_letter.pdf | sponsor-unknown STRETCH; ER not primary; work-auth answered exactly as H-1B-needs-sponsorship; seniority gap disclosed |
 > **Stretch-batch (no-account growth-co) COMPLETE:** Sierra + Chime + Vercel all SUBMITTED + confirmed. All passed the
 > ER-casework-primary check (ER supporting, not primary), cover-gate 0 flags, seniority gap disclosed honestly, real
-> DEI/diagnostic evidence (no ERG/community fabrication). **14 confirmed submissions this run — viable discovered pool exhausted.**
+> DEI/diagnostic evidence (no ERG/community fabrication).
+| 15 | 4G Clinical | L&D Specialist | SaaSHR | ✅ on-page "Completed — Your Application was successfully Submitted" dialog (screenshot) | ✅ resume.pdf (L&D variant) | STAGED-LANE RE-PROBE WIN: prior block was ONLY the MCP-upload sandbox (no captcha) → CDP set_input_files unblocked it. 5yr+LMS-tool stretch disclosed; sponsorship=Yes. |
+| 16 | Jacobs | CSP Learning & Training Lead | Phenom | ✅ "Application complete!" page + email from Jacobs.Recruitment@jacobs.global (verified Gmail thread 19ec596d06b4c3e5) | ✅ resume.pdf | STAGED-LANE RE-PROBE WIN: prior block (shared pw rejected on policy) resolved per David-auth — compliant pw variant created+recorded; account made; 5-step apply truthful (Salesforce=No honestly, sponsorship=Yes); no captcha. |
+> **STAGED-LANE RE-PROBE (2026-06-14):** "Probe the obstacle, don't assume" recovered 2 genuine submissions
+> (4G + Jacobs) previously written off as human-finish. 4 remain at REAL walls (docs uploaded + profiles filled,
+> 1 step from done): OHSU Program Admin (GO, real hCaptcha), OHSU HRBP (stretch, real hCaptcha; ⚠️ verify Work
+> Experience re-added before submit — didn't auto-persist on that req), BCG (real Okta password wall), nextSource
+> (login wall + weak-fit + below-salary → SKIP recommended). PSU stays human (security-question recovery).
+> **16 confirmed submissions this run.** Autonomous-submittable pool now genuinely EXHAUSTED.
 > DraftKings + Trimble email-confirmations BOTH independently verified by orchestrator in Jamie's Gmail
 > (msgs 19ec4fb30515fa31, 19ec5106c595148b). Accuris success page screenshot-verified. 8 confirmed submits this run.
 

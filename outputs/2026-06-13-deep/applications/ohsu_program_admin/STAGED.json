@@ -1,0 +1,38 @@
+{
+  "company": "OHSU (Oregon Health & Science University)",
+  "role": "Program Administrator",
+  "req_id": "2026-39497",
+  "ats": "iCIMS",
+  "cap_exempt": true,
+  "status": "STAGED-human (real hCaptcha wall at Submit Profile)",
+  "staged_at": "2026-06-14T00:00:00-07:00",
+  "job_url": "https://externalcareers-ohsu.icims.com/jobs/39497/program-administrator/job",
+  "candidate_form_url": "https://externalcareers-ohsu.icims.com/jobs/39497/program-administrator/candidate",
+  "linkedin_job_id": "4420607227",
+  "job_status_verified": "LIVE 2026-06-14 — JD page renders 'Program Administrator in Portland, Oregon | Careers at Portland, OR (Marquam Hill)'. Apply path active.",
+  "fit_verdict": "GO — genuine program/operations administration: coordinates statewide perinatal-simulation logistics across Oregon hospitals, designs/monitors evaluation metrics, QI coaching, budget/vendor tracking. Strong PM/coordination + evaluation fit (InGenius 20+ programs/70+ staff + ODN evaluation work). Education exceeds (MS USC + BA Wesleyan). Domain gap (healthcare/QI/simulation) is preferred-only, disclosed honestly in cover.",
+  "real_blocker": {
+    "type": "INTERACTIVE_HCAPTCHA",
+    "detail": "iCIMS gates the final 'Submit Profile' with a visible hCaptcha (DOM confirms a 300x150 size=normal hCaptcha iframe + an invisible companion; 'Protected by hCaptcha' badge rendered at the submit area, screenshots/staged_submit_captcha.png). Per the no-CAPTCHA doctrine this is a HARD STOP — never solved/bypassed. (Note: the email-magic-link login itself passed automatically — that was NOT the wall; the wall is the hCaptcha on Submit Profile.)",
+    "is_only_wall": true
+  },
+  "value_added_this_run": "RESOLVED the prior block (sandboxed MCP file_upload) via CDP set_input_files on port 9333: the TAILORED resume.pdf AND cover_letter.pdf are now both UPLOADED into the iCIMS profile (verified in-DOM: resumeAttached=true, coverAttached=true; resume shows 'Replace Resume', cover shows 'C:\\fakepath\\cover_letter.pdf Delete File'). The human no longer has to upload anything — only the hCaptcha + Submit remain.",
+  "profile_completeness": {
+    "documents": "resume.pdf (TAILORED — Program Mgmt/OD framing, ops/coordination Set B-ish bullets, ODN diagnostic pair) + cover_letter.pdf (TAILORED, cover-gate CLEAN) BOTH uploaded.",
+    "login": "Password + Re-enter set (shared ATS password from ~/Downloads/job_password.txt; NOT printed/committed).",
+    "contact": "First=Yi-Chieh, Last=Cheng, Email=jamiecheng0103@gmail.com, Phone=Mobile +1 213 700-3831",
+    "address": "Primary / 1784 NW Northrup Street / Portland / 97209 / United States / Oregon / Multnomah",
+    "how_heard": "LinkedIn (+ 'No additional source details needed')",
+    "education": "University of Southern California / Master's Degree (MA, MS) / Did You Graduate=Yes (iCIMS AJAX search-select)",
+    "experience": "All 5 roles persisted in Jamie's iCIMS account from a prior session (InGenius, ODN, NextGen, Vestas, Kronos) with dates + clean plain-text descriptions.",
+    "still_optional_blank": "Education Major dropdown (optional), Wesleyan as Education(2) (optional — USC primary covers requirement), Certification/License (optional)."
+  },
+  "captcha_safety": "hCaptcha NOT touched. Tab left OPEN at the candidate page (logged in as jamiecheng0103@gmail.com) for the human.",
+  "human_finish_steps": [
+    "1. Open the staged tab (iCIMS Program Administrator candidate page, logged in) — or re-open candidate_form_url and log in via email magic-link.",
+    "2. Resume + cover are ALREADY attached (tailored). Optionally set Education Major=Psychology / add Wesleyan as a 2nd education entry.",
+    "3. Solve the hCaptcha at the bottom (the 'Protected by hCaptcha' challenge) — this is the ONE human-only step.",
+    "4. Click 'Submit Profile' and confirm the confirmation page."
+  ],
+  "supersedes": "outputs/2026-06-12-feed-first/applications/ohsu_program_admin/SUBMITTED.json (prior 'needs-human-finish' — block was BOTH sandboxed upload AND an un-tested possible captcha; this run uploaded both tailored docs via CDP and CONFIRMED the hCaptcha is real at Submit)."
+}

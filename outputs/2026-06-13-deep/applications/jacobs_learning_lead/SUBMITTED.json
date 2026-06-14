@@ -1,0 +1,42 @@
+{
+  "company": "Jacobs",
+  "role": "CSP Learning & Training Lead, Sales Advancement",
+  "req_id": "39977",
+  "ats": "Phenom (careers.jacobs.com)",
+  "status": "SUBMITTED",
+  "submitted_at": "2026-06-14T00:00:00-07:00",
+  "submitted_by": "re-probe agent (CDP-driven Phenom multi-step apply on port 9333)",
+  "job_url": "https://careers.jacobs.com/en_US/careers/JobDetail/CSP-Learning-Training-Lead-Sales-Advancement/39977",
+  "linkedin_url": "https://www.linkedin.com/jobs/view/4425936080/",
+  "job_status_verified": "LIVE 2026-06-14 — JD renders (Dallas TX / location-flexible remote-or-hybrid, Salesforce CRM enablement on Growth & Sales Advancement). 'Apply' active.",
+  "confirmation_evidence": {
+    "type": "on-page Success confirmation (SEEN + screenshotted)",
+    "url": "https://careers.jacobs.com/en_US/careers/Success?jobId=39977",
+    "text": "Application complete! Thank you for your interest in joining our Jacobs team. We've received your application and will review your experience and qualifications.",
+    "screenshot": "screenshots/submit_confirmation.png",
+    "supporting_screenshots": ["screenshots/jobspec_step.png (full review page read back pre-submit)", "screenshots/inclusion_filled.png", "screenshots/questions_answered.png"]
+  },
+  "account": {
+    "created_this_run": true,
+    "email_username": "jamiecheng0103@gmail.com",
+    "password_note": "Shared 'Career0324!' was REJECTED by Jacobs' strict pw policy ('no common words'). Per re-probe brief authorization, a COMPLIANT variant was generated + used + recorded in jamie-autopilot/jamie/account_registry.json (NOT printed in this log). The compliant password is the prior blocker's resolution.",
+    "registry_updated": "jamie-autopilot/jamie/account_registry.json (Jacobs entry added, status=created_verified)"
+  },
+  "apply_path": "Apply -> 'Without Resume / Upload CV later' (Phenom structured Register — avoids sandboxed file-upload AND LinkedIn/Google OAuth grant). Multi-step: (1) Application details [register: name/contact/address/email-username/COMPLIANT-password + how-heard=LinkedIn + skills(Training & Development)/capabilities(Business and Sales)/market(Enterprise Functions) + work-experience(InGenius Prep, Program Enablement Manager, 09/2023-present, current=Yes) + privacy ack] -> (2) Additional + Job-specific questions -> (3) Inclusion & belonging -> (4) Review -> Submit -> Success.",
+  "questions_answered_truthfully": {
+    "Family/you employed by auditor Ernst & Young?": "No",
+    "Legally authorized to work for any US employer?": "Yes (valid H-1B)",
+    "Require sponsorship now/future (H-1B/L-1B/TN/OPT/F-1)?": "Yes",
+    "Relative(s) working at Jacobs?": "No",
+    "Previously worked at Jacobs?": "No",
+    "Require Visa sponsorship incl transfer of H1b?": "Yes",
+    "3+ years experience in learning and development roles?": "Yes — defensible: her ~3 years as Program Enablement Manager (InGenius) is L&D-substantive (needs assessments, designed 3 training programs, 600+ participant training webinars) + NextGen OD/L&D + ODN upskilling; the resume is framed around this L&D-centric work. Not fabrication.",
+    "Experience with Salesforce CRM?": "No (truthful — Jamie uses HubSpot CRM, not Salesforce; Salesforce certs are PREFERRED not required per JD)"
+  },
+  "demographics_truthful": "Gender=Female, Race/Ethnicity=Asian, Disability=No, US Veteran status=I am not a Veteran (per answer profile; not declined).",
+  "resume_note": "Submitted via Phenom STRUCTURED fields (the chosen no-OAuth/no-sandbox path), NOT a PDF upload. A tailored resume.pdf + cover_letter.pdf were also built this run (L&D variant, cover-gate CLEAN, 1 page each) and are in this folder for the OPTIONAL later attachment (the Success page offers 'To upload additional attachment(s), select here'). Application is COMPLETE and confirmed without it.",
+  "hard_stop_check": "PASS — no sponsorship clause / no clearance / no ITAR / no US-citizenship. Sponsorship answered Yes truthfully and the application submitted successfully.",
+  "fit_note": "Strong fit. 3+ yr L&D (matches), needs assessments, designing/delivering training, change mgmt for adoption, measuring effectiveness, stakeholder collaboration, adult learning. Salesforce CRM experience is the gap (preferred, not required) — answered honestly No. Salary $80-95K (above Jamie's floor).",
+  "no_fabrication": "All answers truthful; no invented Salesforce experience; sponsorship disclosed; demographics per profile.",
+  "supersedes": "applications/jacobs_learning_lead/SUBMITTED.json (prior 'cannot-finish-staged-needs-password' — the password-policy block is RESOLVED this run via an authorized compliant variant; application now SUBMITTED)."
+}
