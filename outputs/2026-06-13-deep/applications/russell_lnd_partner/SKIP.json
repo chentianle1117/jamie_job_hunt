@@ -1,0 +1,18 @@
+{
+  "company": "Russell Investments",
+  "role": "Learning & Talent Development Partner",
+  "location": "Seattle, WA (on-site)",
+  "slug": "russell_lnd_partner",
+  "linkedin_jd": "https://www.linkedin.com/jobs/view/4415123284/",
+  "live": true,
+  "status": "SKIP",
+  "submitted": false,
+  "reason": "HARD BLOCKER #1 — explicit no-sponsorship. The role is legally ineligible for Jamie (requires H-1B sponsorship). Building/submitting would be pointless and waste runway.",
+  "blocker_quote_from_jd": "This role is not eligible for employment-based immigration sponsorship. Applicants must be legally authorized to work in the United States without employer sponsorship, now or in the future.",
+  "ats_discovered": "Not pursued past the JD — the LinkedIn public apply link is a signup wall; real ATS (likely Workday at russellinvestments careers) not opened because the hard blocker makes it moot.",
+  "fit_note": "Title fit was strong (L&D + Talent Development sweet spot) and 6 USC alumni at the company; 5+ yr ask was a stretch (Jamie ~3). None of that matters given the explicit no-sponsor clause.",
+  "yoe_note": "JD: '5+ years of experience in learning & development, HR, program coordination, or a related role' — STRETCH (Jamie ~3), but not the reason for skip.",
+  "h1b_cache_updated": true,
+  "h1b_cache_entry": "Added to h1b_verified.md ❌ CONFIRMED NO H1B table (2026-06-14).",
+  "discovered_at": "2026-06-14 (overnight run)"
+}

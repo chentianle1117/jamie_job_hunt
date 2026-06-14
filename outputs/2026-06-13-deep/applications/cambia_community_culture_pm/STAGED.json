@@ -1,0 +1,34 @@
+{
+  "company": "Cambia Health Solutions",
+  "role": "Community and Culture Program Manager",
+  "location": "Portland, OR (hybrid, 3 days/week; also SLC / Fargo / Boise / Lewiston / Renton)",
+  "slug": "cambia_community_culture_pm",
+  "linkedin_jd": "https://www.linkedin.com/jobs/view/4425531292/",
+  "live": true,
+  "status": "STAGED — NEEDS HUMAN REVIEW (do NOT auto-submit)",
+  "submitted": false,
+  "captcha": false,
+  "reason": "RULE-0 / §0.2 FABRICATION TRAP CONFIRMED IN THE LIVE JD. This is the exact role that created Jamie's #1 fabrication lesson, and the full JD confirms why. The role's PRIMARY, defining duties are ERG management, community-building program expansion, employee-club growth, and Foundation/volunteer partnerships — the exact `cover_truth_gate.LACKS_HANDSON` set Jamie has NO hands-on track record in. A truthful package cannot make her read as a MATCH (vs. a merely interested applicant) without relabeling her engagement-analysis / DEI-pilot / OD-diagnostic / program-management experience as ERG/community/culture-program management. Per the zero-quality-degradation doctrine and the explicit dispatch instruction ('If you cannot build a truthful Cambia application without relabeling, STOP and mark it staged-needs-human-review rather than fabricate'), no package was built and nothing was submitted.",
+  "jd_primary_duties_verbatim": [
+    "Serve as the primary HR point of contact and program manager for Cambia's Employee Resource Groups",
+    "Support ERG leaders with programming, logistics, development resources, and visibility",
+    "Help grow and sustain employee clubs and communities across the organization",
+    "Drive expansion of Blue Squad and similar community-building programs to all Cambia office locations",
+    "Partner with the Cambia Foundation to identify and build community-based cultural opportunities",
+    "Connect employee volunteerism and community engagement to the broader culture strategy"
+  ],
+  "jd_qualifications_verbatim": "3-5 years of experience in employee engagement, culture, inclusion, talent, communications, or related HR/people functions, with experience embedding inclusive practices into employee or talent programs; Familiarity with Employee Resource Groups, employee communities, or volunteer/foundation partnerships a plus.",
+  "honest_overlap": "PARTIAL and adjacent only. Real, sourceable overlap: (1) program/event management with multiple stakeholders (InGenius 20+ programs, 600+ webinar participants, vendor/cross-functional coordination); (2) engagement work via DATA ANALYSIS (NextGen 2,000+ employee responses to C-suite); (3) DEI/inclusion via the Vestas Inclusive-Leadership pilot (12 -> 23 locations) + NextGen DEI consulting; (4) cross-functional partnership with HRBP/Comms-type stakeholders. The JD's INCLUSION half ('embedding inclusive practices across the talent lifecycle') has genuine overlap with the Vestas/NextGen DEI evidence.",
+  "honest_gap": "The COMMUNITY half — ERG ownership, employee-club growth, Blue-Squad-style community-building program expansion, Foundation/volunteer-partnership building — is the role's #1 listed bucket and is exactly what Jamie has NOT done. content_library/voice_corpus confirm no ERG/employee-club/foundation-partnership management; the closest items (InGenius 'support internal HR initiatives on culture-building' = a small side-assist; Global Shapers volunteer = remote hiring/onboarding revamp, NOT community-building) do not credibly cover the core.",
+  "sponsor_status": "UNKNOWN — Cambia has NO confirmed People/HR LCA in the h1b cache (10 FY2025 LCAs all clinical/tech). The LinkedIn JD contained NO explicit no-sponsor / ITAR / citizenship clause (so NOT a hard blocker on that axis), but willingness is unverified. This was NOT the reason for staging — the fabrication-trap was.",
+  "odn_relabel_check": "CONFIRMED CLEAN. ODN Oregon was NOT relabeled as community-building/ERG/member-events anywhere — no package was written at all, so there is nothing to relabel. The whole point of staging was to avoid exactly that relabel.",
+  "recommended_human_options": [
+    "A) PASS — honest verdict is the role's primary function (ERG/community/foundation-partnership ownership) is a genuine gap; Jamie would be applying as an interested-but-not-matched candidate to a role whose #1 duty she hasn't done. Cleanest given RULE-0.",
+    "B) APPLY HONESTLY AS A STRETCH — only if Jamie/David explicitly accept a resume+cover that lead with her REAL evidence (program/event mgmt + engagement-data + Vestas/NextGen DEI/inclusion) and frame the ERG/community/foundation work as the role's work she'd GROW INTO (aspiration framing the cover gate permits), with an explicit honest 'I haven't owned ERGs directly' line. This will read as a clear stretch, not a match — acceptable ONLY with human sign-off, never as a silent auto-submit.",
+    "C) Sponsor-verify first — confirm Cambia will sponsor a People role before spending effort either way."
+  ],
+  "ats_discovered": "Not opened. The LinkedIn public apply link is a signup wall (offsite contextual sign-in). Real ATS not pursued because the role was staged at the truth gate before any build/drive step. (Cambia careers typically Workday — confirm at build time if option B is chosen.)",
+  "h1b_cache_updated": true,
+  "files_present": ["JD.txt (full live JD)", "STAGED.json (this file)"],
+  "discovered_at": "2026-06-14 (overnight run)"
+}

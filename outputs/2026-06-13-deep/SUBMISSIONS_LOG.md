@@ -61,6 +61,12 @@
 | Company | Role | Reason |
 |---------|------|--------|
 | Asana | Workplace Coordinator | JD body = reception/facilities-primary (clerical ★☆☆); truthful resume can't be built — skip on fit, not sponsorship |
+| Russell Investments | Learning & Talent Development Partner | EXPLICIT no-sponsorship clause in live JD ("not eligible for employment-based immigration sponsorship… now or in the future") = hard-block #1. Strong title fit + 6 USC alumni but legally moot. Added to h1b_verified ❌. |
+
+## STAGED — NEEDS DAVID DECISION (truthful build impossible without relabeling = doctrine held)
+| Company | Role | Why staged (not submitted, not fabricated) |
+|---------|------|---------------------------------------------|
+| Cambia Health Solutions | Community and Culture Program Manager | Live JD's PRIMARY duties = ERG management / employee-club growth / Blue-Squad community-building / volunteer partnerships — the exact LACKS_HANDSON set (the role that created the §0 fabrication lesson). A truthful package can't make Jamie read as a MATCH without relabeling her OD/engagement/DEI work as ERG/community work. Agent built NO package + submitted nothing (so ODN was never relabeled). Decision A/B/C pending David (A=pass recommended; B=apply as honest STRETCH with aspiration-framing + explicit "haven't owned ERGs" line; C=sponsor-verify first). |
 
 ## Wave A complete (8 roles): Datadog ✅SUB · Stripe ✅SUB · Instacart ✅SUB · MongoDB 📋staged-captcha · Notion×2 📋staged-captcha · Asana ⊘skip · Coinbase+Samsara (results pending)
 
