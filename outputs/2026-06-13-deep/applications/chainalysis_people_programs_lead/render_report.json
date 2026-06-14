@@ -1,0 +1,13 @@
+{
+  "role_id": "chainalysis_people_programs_lead",
+  "resume_pages": 1,
+  "cover_pages": 1,
+  "resume_size_bytes": 88615,
+  "cover_size_bytes": 54543,
+  "resume_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-13-deep\\applications\\chainalysis_people_programs_lead\\resume.pdf",
+  "cover_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-13-deep\\applications\\chainalysis_people_programs_lead\\cover_letter.pdf",
+  "rendered_at": "2026-06-14T11:19:01.528924Z",
+  "warnings": [
+    "autofit: resume fit to 1 page at font_scale=0.97 (content preserved, type shrunk)"
+  ]
+}

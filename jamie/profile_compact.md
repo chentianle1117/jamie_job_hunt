@@ -32,23 +32,36 @@
 
 ### STRETCH — APPLY ANYWAY (do NOT auto-PASS these; they were wrongly rejected before):
 - **"Senior" / "Sr." IC titles** (Senior Specialist, Senior Associate, Senior Analyst, PM II/III) — Jamie
-  applies to these. Only PASS true people-management seniority: **Director / VP / Head of / Principal /
-  "Manager, [Team]" with direct reports + 7+ yrs.**
+  applies to these IF the YEARS are within the cap below. Only PASS true people-management seniority:
+  **Director / VP / Head of / Principal / "Manager, [Team]" with direct reports + 7+ yrs.**
 - **"Manager" in a program/IC sense** (Program Manager, L&D Program Manager, Talent Development Manager)
   — APPLY. Not a people-manager unless JD says "manage a team of N."
-- **Roles asking 4-6 years** — STRETCH, apply. Jamie's MS + 3 yrs + strong fit clears the interview bar
-  often enough that she applies. (Cap the *fit score* modestly for a 2-yr gap, but DO surface + apply.)
 - **"Talent" in the title** — judge the DUTIES. "Talent Development / Talent Enablement / Talent Mgmt"
   that is L&D/OD/program work = GO/STRETCH. Only "Talent Acquisition / recruiting / sourcing" as the
   primary duty = the recruiting reject.
 - **HRBP / generalist** at associate-to-mid level — STRETCH (she applies); only reject if duties are
-  ER-casework-primary (blocker #3).
-- **Remote at unknown sponsor** — APPLY (sponsorship gate loosened for auto-apply); only the explicit
-  no-sponsor clause (#1) blocks.
+  ER-casework-primary (blocker #3). NOTE: "**Senior People Partner**"/"Senior HRBP" asking 5+yr now
+  DE-PRIORITIZED (see YOE CAP below).
+- **Remote at unknown sponsor** — APPLY (only the explicit no-sponsor clause #1 blocks); flag low-confidence.
 
-**Net:** surface + apply to Senior-IC / 5-yr / Manager-IC / Talent / HRBP / remote-unknown roles as
-STRETCH. Reserve PASS for the 3 true blockers + roles that need a skill Jamie genuinely lacks
-(deep instructional-design-only, HRIS implementation/config, pure sales, pure SWE, security clearance).
+### ⭐ YOE STRETCH CAP (David 2026-06-14 — calibrates the above; apply on every run)
+Jamie has ~3 yrs. **APPLY up to ~5-year asks (a ~2-yr gap is "makeable").** Roles asking **6, 7, 8+ years**,
+OR titles implying real seniority/people-management beyond an IC ("Senior People Partner", "Director",
+"Head of", "Manager + direct reports + 7yr") are **GENUINELY TOO FAR — do NOT spend submit-energy on them.**
+- Exception: pursue a 6+yr role ONLY with a real offsetting advantage — cap-exempt + perfect P1/P1b scope,
+  OR a warm intro/alumni referral. Even then, flag it; never bulk-apply 6-8yr reaches.
+- Program-IC "Manager"/"Sr Program Manager" (NOT people-mgmt) can still qualify if years ≤~5 — judge the
+  years + people-mgmt, not the word "Senior".
+- **REDIRECT the freed energy into DEEPER FIT-DIGGING:** the bottleneck is finding genuine AT-LEVEL roles,
+  not apply-throughput. Spend more of each run on discovery for coordinator / associate / specialist /
+  analyst / entry-consulting / cap-exempt (university·hospital·nonprofit) roles asking ~1-4 yrs (Jamie's
+  true band). Better to submit 5 genuine at-level fits than 10 where 6 are 6-8yr reaches.
+  **FIT-quality is now a metric alongside artifact-quality.** (Full rule: memory feedback_cap_yoe_stretch_dig_for_fit.)
+
+**Net:** surface + apply to Senior-IC / **≤~5-yr** / Manager-IC / Talent / HRBP / remote-unknown roles as
+STRETCH. DE-PRIORITIZE 6-8+yr & Senior-People-Partner/people-mgr roles (only with cap-exempt+scope or warm
+intro). Reserve PASS for the 3 true blockers + roles needing a skill Jamie genuinely lacks (deep
+instructional-design-only, HRIS implementation/config, pure sales, pure SWE, security clearance).
 
 ## LinkedIn Competition Filter (Added Apr 30, 2026 — REALISM RULES)
 

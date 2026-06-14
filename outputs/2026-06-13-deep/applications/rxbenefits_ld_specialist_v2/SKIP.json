@@ -1,0 +1,22 @@
+{
+  "company": "RxBenefits, Inc.",
+  "role": "Learning and Talent Development Specialist",
+  "slug": "rxbenefits_ld_specialist_v2",
+  "decision": "SKIP — DUPLICATE of an already-submitted application",
+  "decided_at": "2026-06-14",
+  "harvest_jid": "4425318327",
+  "harvest_url": "https://www.linkedin.com/jobs/view/4425318327/",
+  "dedup_evidence": {
+    "prior_record": "C:/Users/chent/Agentic_Workflows_2026/oracle-job-search/applications/rxbenefits_ltd_specialist/SUBMITTED.json",
+    "prior_job_url": "https://www.linkedin.com/jobs/view/4425318327",
+    "prior_jid": "4425318327",
+    "match": "EXACT — same LinkedIn job id 4425318327 and same role title 'Learning and Talent Development Specialist' at RxBenefits, Inc. (Remote).",
+    "prior_status": "submitted",
+    "prior_confirmed_at": "2026-06-13T10:08:00-07:00",
+    "prior_ats": "ADP WorkforceNow (jobId 940320, requisition 2068)",
+    "prior_confirmation": "Green 'Application Submitted!' banner observed post-submit (screenshots ss_7398pmy9d, ss_8351od9qp)"
+  },
+  "reasoning": "The harvest entry's linkedin_url/jid is byte-identical to the posting already submitted on 2026-06-13. This is the SAME live req, not a new/different one. Re-applying would create a duplicate application to the same requisition — explicitly to be avoided per the dedup instruction. Therefore SKIP.",
+  "quality_debt_note": "The prior submission used Jamie's BASE resume (the MCP-upload sandbox blocked the tailored PDF at the time), not an L&D-tailored variant. A tailored resume would have been a quality upgrade, BUT submitting it now to the same req = a duplicate application, which is a worse outcome than the existing generic-resume submission. The application of record stands. No action taken.",
+  "no_action": "No package built, no ATS opened, nothing submitted."
+}
