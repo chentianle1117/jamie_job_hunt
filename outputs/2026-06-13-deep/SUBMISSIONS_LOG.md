@@ -76,6 +76,25 @@
 
 ## Wave A complete (8 roles): Datadog ✅SUB · Stripe ✅SUB · Instacart ✅SUB · MongoDB 📋staged-captcha · Notion×2 📋staged-captcha · Asana ⊘skip · Coinbase+Samsara (results pending)
 
+## DISCOVERY ROUND 2 (2026-06-14 ~02:25) — thin market, no clean autonomous submits
+Honest verdict after 2 thorough sweeps + ~163 lifetime apps: Jamie's accessible at-level pool is largely
+SATURATED. 5 new live roles found, NONE cleanly auto-submittable:
+- **PSU Student Services Coordinator** (cap-exempt, closes 6/26) + **PSU Coordinator of Basic Needs Center** —
+  PeopleAdmin, account-required, SAME security-question gate that blocks the staged PSU role = HUMAN-FINISH.
+- **U of Oregon Program Coordinator, Health Promotion & Wellness** (Eugene, cap-exempt) — PageUp, account
+  (likely same Imperva hCaptcha as OSU) = HUMAN-FINISH; + wage flag + Eugene relocation.
+- **Mercy Corps Program Officer** (Portland NGO) — Jobvite, account; sponsor-willingness + exact posting
+  UNCONFIRMED — re-verify before pursuing.
+- **PagerDuty Sr PM, Talent & Culture** — sweet-spot title BUT 7yr ask + ERG-PRIMARY duties = the §0
+  fabrication trap (same class as Cambia). NOT RECOMMENDED / do not force.
+Dedup catches (excluded): Twitch PM Culture (already SUBMITTED 6/13), PSU Sr Specialist Training (STAGED 6/13),
+OSU advising/scholarship trio (STAGED 6/13). No new ITAR/no-sponsor hard-blockers.
+⚠️ Limitation: LinkedIn saved+feed could NOT be re-harvested (port-9333 Chrome not LinkedIn-authed this run);
+round-1 already pulled 41 saved + 216 recommended so likely tapped, but the two highest-signal sources weren't
+independently re-checked. Files: DISCOVERED_ROLES_ROUND2.{json,md}.
+**Conclusion: the autonomous-submittable discovered pool is EXHAUSTED.** Remaining net value = account/captcha
+human-finish lane + Jamie's review queue. Holding rather than padding weak fits (doctrine: quality over volume).
+
 ## OPEN POLICY QUESTION for David
 **Email-OTP gates:** Stripe's Greenhouse form required an 8-char code emailed to Jamie's OWN inbox to submit.
 The agent retrieved it from her authorized Gmail and completed the submit. An email OTP only proves control

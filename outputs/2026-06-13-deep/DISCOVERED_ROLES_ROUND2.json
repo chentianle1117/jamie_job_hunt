@@ -1,0 +1,138 @@
+{
+  "run": "2026-06-13-deep / ROUND 2 (widened net)",
+  "generated": "2026-06-14",
+  "agent": "deep-discovery-round2",
+  "summary": {
+    "new_roles_surfaced": 5,
+    "verdict": "THIN MARKET — honest. After two thorough sweeps (round-1 = 27) + ~163 lifetime applications, the genuinely-new, eligible, fitting, live pool is small. 5 clean new roles found; all others swept were already-submitted/staged dups, senior/people-mgmt seniority, overseas, contract/LTE, comp/payroll/ERG-primary, or non-sponsoring. Quality over volume per Rule-6.",
+    "no_account_ats": 1,
+    "account_or_verify": 4,
+    "all_live_verified": true,
+    "biggest_dedup_catches": [
+      "Twitch — Program Manager, Culture & People Development (Greenhouse 8582338002) = ALREADY SUBMITTED 2026-06-13 (run feed-first). Would have been the top 'new' find; excluded.",
+      "PSU — Senior Specialist, Training & Employee Development (jobs.hrc.pdx.edu/postings/49997) = ALREADY STAGED 2026-06-13 (blocked on security question). Excluded.",
+      "OSU — Academic Advising Specialist + Academic Advisor/Coordinator Pool + Scholarship Program Coordinator = all 3 ALREADY STAGED tonight (in prompt dedup list). Excluded."
+    ]
+  },
+  "sources_swept_round2": [
+    "Greenhouse public API — ~90 boards (tech/EdTech/healthtech/fintech/people-tech). Most 404 (wrong token) or returned senior/overseas/dup roles.",
+    "Lever public API — ~26 boards. Palantir People Partner (NYC/DC) only non-dup hit (defense-adjacent, ITAR-risk).",
+    "Ashby public API — ~40 boards. Notion/Sierra/OpenAI/Cohere/Crusoe hits = senior, overseas, or already-tracked.",
+    "Cap-exempt PNW careers LIVE in-browser (CDP 9333 own tab): PSU PeopleAdmin (LIVE, richest vein), OSU PageUp (LIVE, all relevant roles already staged), U of Oregon PageUp (LIVE), UW (board down — new system launches Aug 18 2026), Providence/Kaiser (404/cookie-walled).",
+    "PNW NGO/foundation: Mercy Corps Jobvite (LIVE — mostly overseas field roles), Gates Foundation Workday (LIVE — senior/overseas/LTE only), Casey Family (JS-walled), Idealist (JS-walled to WebFetch).",
+    "LinkedIn saved + recommended feed: NOT reachable — port 9333 Chrome is NOT logged into LinkedIn this run. Round-1 sibling agent already harvested 41 saved + 216 recommended; feed considered tapped for tonight. FLAGGED."
+  ],
+  "roles": [
+    {
+      "company": "Portland State University",
+      "title": "Student Services Coordinator",
+      "location": "Portland, OR (on-site; cap-exempt)",
+      "url": "https://jobs.hrc.pdx.edu/postings/50004",
+      "ats": "PeopleAdmin (jobs.hrc.pdx.edu) — account-required",
+      "source": "careers-capexempt (live browser)",
+      "live_verified": "true (CDP own-tab 2026-06-14; JD body read; no no-sponsor / no ITAR text)",
+      "sponsorship": "cap-exempt (PSU university; board carries an active 'Notice of Intent to Hire E-3 Employee' = PSU does hire visa/international employees — positive willingness signal, though E-3 is AUS-specific; H-1B is cap-exempt-eligible)",
+      "priority": "P1c",
+      "fit": "Student success / advising-adjacent program coordination: 'enhance the student experience with a focus on retention, program completion, addressing student needs; coordinates accommodated testing; new-student orientation; student engagement.' Direct InGenius educational-program adjacency. Min quals = Bachelor's + only 1+ yr higher-ed + project management + public outreach — LOW YOE bar, Jamie clears it. Cap-exempt = sponsorship-safe.",
+      "competition": "cap-exempt local (low competition); closes 2026-06-26",
+      "score": 73,
+      "flags": "Salary $55,704 — flag for H-1B prevailing wage; cap-exempt coordinator roles can still clear at this grade but verify. Closes 6/26 — time-sensitive.",
+      "apply_mechanism": "account-required (PeopleAdmin)"
+    },
+    {
+      "company": "University of Oregon",
+      "title": "Program Coordinator, Health Promotion and Wellness Services",
+      "location": "Eugene, OR (on-site; cap-exempt; ~1.5hr from Portland)",
+      "url": "https://careers.uoregon.edu/en-us/job/536629/program-coordinator-health-promotion-and-wellness-services",
+      "ats": "PageUp (careers.uoregon.edu) — account-required",
+      "source": "careers-capexempt (live browser)",
+      "live_verified": "true (CDP own-tab 2026-06-14; full JD read; no no-sponsor / no ITAR text)",
+      "sponsorship": "cap-exempt (UO university; willingness verify per posting — UO HR sponsors some OA roles)",
+      "priority": "P1c",
+      "fit": "Officer-of-Administration program coordination in Student Life (Division of Student Life / University Health Services): 'comprehensive programs and services that promote and advance student learning and success.' Program-mgmt + student-stakeholder + wellness-programming = P1c InGenius adjacency. Classified Planning/Project Management.",
+      "competition": "cap-exempt; review began 5/20, open until filled (aging but live)",
+      "score": 68,
+      "flags": "Salary $55,000-$62,000 — flag for H-1B prevailing wage. Eugene relocation (not Portland-local). 'Health promotion/wellness' domain is adjacent, not core People/L&D — honest fit is moderate.",
+      "apply_mechanism": "account-required (PageUp)"
+    },
+    {
+      "company": "Portland State University",
+      "title": "Coordinator of Basic Needs Center",
+      "location": "Portland, OR (on-site; cap-exempt)",
+      "url": "https://jobs.hrc.pdx.edu/postings/49905",
+      "ats": "PeopleAdmin (jobs.hrc.pdx.edu) — account-required",
+      "source": "careers-capexempt (live browser)",
+      "live_verified": "true (CDP own-tab 2026-06-14; surfaced live on PSU board; JD not deep-read — verify before apply)",
+      "sponsorship": "cap-exempt (PSU; E-3 hiring-notice present = visa-willingness signal)",
+      "priority": "P1c",
+      "fit": "Student-support program coordination (basic-needs services = food/housing/resource navigation for students). Community-outreach + program-coordination + student-stakeholder = P1c adjacency. Surface as moderate fit; confirm duties aren't pure case-management (which would be off-sweet-spot).",
+      "competition": "cap-exempt local (low competition)",
+      "score": 64,
+      "flags": "JD not fully read — verify duties (program-coordination vs 1:1 case-management) + salary/prevailing-wage + sponsorship-willingness before apply. Lower-confidence than the other two PSU/UO roles.",
+      "apply_mechanism": "account-required (PeopleAdmin)"
+    },
+    {
+      "company": "PagerDuty",
+      "title": "Senior Program Manager, Talent & Culture",
+      "location": "San Francisco / Atlanta / Toronto (remote-friendly within those)",
+      "url": "https://job-boards.greenhouse.io/pagerduty/jobs/6006440004",
+      "ats": "Greenhouse — no-account",
+      "source": "board (Greenhouse API)",
+      "live_verified": "true (CDP own-tab 2026-06-14; full JD read; NO no-sponsor clause; ITAR flag was a FALSE POSITIVE — 'itar' matched inside 'veteran/military' in EEO boilerplate, not an export-control clause; form asks the sponsorship question neutrally)",
+      "sponsorship": "unknown — PagerDuty H-1B/People-LCA pattern NOT verified (myvisajobs landing page gave no data this run). Treat as unknown sponsor = stretch.",
+      "priority": "P1b (weak)",
+      "fit": "Title is sweet-spot (Talent & Culture program ownership, L&D facilitation). BUT two substantive problems: (1) 7+ year ask — Jamie ~3, scoring guardrail caps score <=60 for a 2+yr gap; (2) JD PRIMARY duties = ERG management + Global Belonging programs + cultural heritage months — the RULE-0 'don't relabel ODN/engagement as ERG/belonging program mgmt' trap (same failure mode as Cambia). Jamie lacks hands-on ERG-ownership track record; a truthful resume can't make her a match without relabeling.",
+      "competition": "remote-eligible; senior + ERG-primary",
+      "score": 55,
+      "flags": "Surfaced for completeness/honesty, NOT recommended. 7yr YOE gap + ERG-primary duties (RULE-0 fabrication risk) + unverified sponsor. If pursued, must be via honest framing only; likely below interview bar.",
+      "apply_mechanism": "no-account"
+    },
+    {
+      "company": "Mercy Corps",
+      "title": "Program Officer, Asia (and Assistant Program Officer roles)",
+      "location": "Washington DC / Portland OR / US-Remote (Eastern Time preferred)",
+      "url": "https://jobs.jobvite.com/mercycorps/jobs",
+      "ats": "Jobvite — account-required",
+      "source": "WebSearch lead + Mercy Corps Jobvite (live, JS-rendered; specific US role not on featured list at check time)",
+      "live_verified": "partial — Jobvite board loaded live (CDP own-tab) but is JS-paginated; the Portland/DC/Remote Program Officer (Asia) role surfaced via WebSearch (LinkedIn + Glassdoor) not confirmed on the live board this pass. RE-VERIFY the specific posting before apply.",
+      "sponsorship": "unknown for US People/program roles — Mercy Corps has INTERNATIONAL mobility infrastructure (NGO) but that does NOT confirm H-1B for a US-HQ Program Officer. Verify per posting.",
+      "priority": "P1c",
+      "fit": "Major Portland-HQ global-development NGO; Program Officer = program-mgmt + global-partnerships scope = P1c adjacency, and Portland-local/remote-US is in budget. BUT Mercy Corps Program-Officer roles lean international-development-portfolio (donor/grant/field-program mgmt) — honest fit depends on the specific portfolio; not a guaranteed match to Jamie's HR/OD/L&D recipes.",
+      "competition": "Portland-HQ NGO; 28 PDX-area Mercy Corps jobs live per LinkedIn (mostly field)",
+      "score": 60,
+      "flags": "Lower-confidence: specific US posting not live-confirmed this pass + sponsor-willingness unverified + portfolio may be development-finance not People. Re-verify the exact posting (and that it's US-based + still open) before tailoring.",
+      "apply_mechanism": "account-required (Jobvite)"
+    }
+  ],
+  "swept_but_excluded": {
+    "already_submitted_or_staged_tonight": [
+      "Twitch — Program Manager, Culture & People Development (Greenhouse 8582338002) — SUBMITTED 6/13",
+      "PSU — Senior Specialist, Training & Employee Development (postings/49997) — STAGED 6/13",
+      "OSU — Academic Advising Specialist / Advisor-Coordinator Pool / Scholarship Program Coordinator — all STAGED 6/13",
+      "Notion — Employee Experience PM, People Analytics University Hire, People Partner EPD — round-1 staged / tracker",
+      "Sierra — People Operations (round-1 staged, agent tab open on 9333 now)",
+      "Chime — Senior People Partner, Vercel — Senior HRBP (round-1; agent tabs show confirmation pages now)",
+      "Instacart — People Experience PM (round-1 surfaced)",
+      "Stripe — People Project Manager (round-1), MongoDB — Leadership Development Manager (round-1), Coinbase L&D PM (round-1), Datadog Sr PM People Team + People Solutions Coord (round-1), Samsara Sr Training Specialist (round-1), Asana Workplace Coordinator + People Partner (round-1)"
+    ],
+    "seen_live_but_non_fit": [
+      "Dropbox — Director, People Operations (people-mgmt seniority = true PASS)",
+      "Duolingo — Head of Talent Management Programs & PMO (Head-of = PASS)",
+      "SoFi — Director, Learning & Development (Director = PASS)",
+      "Figma — People Partner Engineering (generalist; SF/NY/intl; non-sweet-spot), Figma People Partner London/Singapore (overseas)",
+      "Palantir — People Partner NYC + DC (Lever) — defense-adjacent ITAR-risk; human-gate required, not auto-surfaced",
+      "Cohere — Senior HRBP / Senior Mgr People Ops (London/Europe/NY; senior + overseas)",
+      "Crusoe — Senior People Ops Manager (senior) + Manufacturing Training Manager (manufacturing-specific)",
+      "Okta — L&D Program Manager (TORONTO, not US) + People Ops Specialist (Bengaluru) + Lead Specialist People Ops (round-1, 8yr ask)",
+      "Toast — Principal HRBP x4 (Principal = PASS)",
+      "Gates Foundation — Sr Program Officer / Principal Officer (senior) + overseas (Nairobi/Seoul) + LTE/contract (11-mo, 23-mo — fail 'stable role')",
+      "Twitch/Fastly/Lyft — senior 'People Partner Lead (Sr Mgr)' / 'Data Analyst People Analytics Toronto' — senior or non-US or analyst-data not people-program",
+      "PSU — Program Director, Financial Wellness Initiative — requires Finance/Econ degree + 5yr financial-advisory + CFP/CFA; genuine skill mismatch (not a hard blocker, but not an honest fit)"
+    ],
+    "blocked_to_agent": [
+      "LinkedIn saved-jobs + recommended feed — 9333 Chrome NOT authenticated to LinkedIn; could not independently re-harvest (round-1 already pulled 41 saved + 216 recommended).",
+      "UW careers — board in migration (new system launches 2026-08-18), effectively down.",
+      "Idealist / Casey Family Programs / Mercy Corps specific postings — JS-rendered, WebFetch returns shell only; would need deep authenticated browsing for full inventory."
+    ]
+  }
+}

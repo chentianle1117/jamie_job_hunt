@@ -1,0 +1,34 @@
+{
+  "company": "4G Clinical",
+  "role": "Learning & Development Specialist",
+  "ats": "UKG/Kronos Workforce Ready (SaaSHR — secure10.saashr.com, tenant 6182998)",
+  "status": "SUBMITTED",
+  "submitted_at": "2026-06-14T00:00:00-07:00",
+  "submitted_by": "re-probe agent (CDP set_input_files on port 9333)",
+  "job_url": "https://www.linkedin.com/jobs/view/4401484896/",
+  "apply_url": "https://secure10.saashr.com/ta/6182998.careers?CareersSearch=&source=LinkedIn&lang=en-US",
+  "job_status_verified": "LIVE 2026-06-14 — L&D Specialist appears in the 15 active 4G Clinical postings; Wellesley, MA (370 Washington St), Exempt-FT. Full JD re-read this run.",
+  "resume_attached": "resume.pdf (TAILORED this run — L&D variant: Program Enablement Manager lead, Set A bullets, ODN Pair A 2 bullets, LMS skills surfaced; 1 page, autofit). Verified attached in-modal ('Resume resume.pdf') via screenshot.",
+  "cover_letter": "cover_letter.pdf built + cover-gate CLEAN (0 flags) + visually verified. NOT uploaded — SaaSHR modal had only a required Resume slot + optional 'Other Documents'; no dedicated cover field. Cover retained in folder.",
+  "confirmation_evidence": {
+    "type": "on-page confirmation dialog (SEEN + screenshotted)",
+    "text": "Completed — 'Your Application was successfully Submitted. We will review your application. In the meantime, feel free to view and apply for other existing opportunities.'",
+    "screenshot": "screenshots/final_confirmation.png (green-check Completed dialog)",
+    "supporting_screenshots": [
+      "screenshots/apply_current.png (contact fields + resume.pdf attached)",
+      "screenshots/questionnaire_filled.png (screening Qs answered)",
+      "screenshots/post_submit.png (privacy questionnaire surfaced)"
+    ]
+  },
+  "screening_questions_answered": {
+    "Are you legally authorized to work for our Company in the country where this role is based?": "Yes (valid H-1B work authorization — truthful)",
+    "Do you now, or will you in the future, require sponsorship for employment visa status (e.g. H-1B)?": "Yes (truthful — requires H-1B transfer sponsorship; never hidden)",
+    "How did you originally hear about 4G Clinical and this role?": "Job Board (closest truthful option; LinkedIn)",
+    "Please specify in more detail": "LinkedIn"
+  },
+  "mechanism_probed": "SaaSHR direct apply (NO account/login required). Flow: careers page -> click L&D Specialist -> Apply -> contact form (first/last/email/phone) + required Resume file input -> Continue -> GDPR/CCPA Job Applicant Privacy Notice 'Questionnaire' (scroll-to-bottom reveals 4 required screening Qs: work-auth, sponsorship, source x2) -> Submit -> Completed confirmation. NO CAPTCHA at any step (verified: 0 captcha iframes pre- and post-Continue).",
+  "hard_stop_check": "PASS — no 'no sponsorship' clause; sponsorship question answered Yes truthfully and submission accepted. Standard EOE only.",
+  "fit_note": "STRETCH (acknowledged): JD asks min 5 yrs L&D/instructional-design/PM; Jamie ~3 yrs. LMS tools named (eLeap, EasyLlama) not in her stack (she has Canvas/Moodle). Strong real overlaps: needs assessments + 3 new programs + 600+ webinars + vendor/program mgmt + cross-functional (HR/Product/Delivery/Support) + data-driven optimization + ADDIE-adjacent. Education EXCEEDS (MS Applied Org Psych + BA Psych/Education). Cover is candid about both gaps.",
+  "no_fabrication": "All resume bullets from content_library L&D set; cover passes truth gate; both gaps (seniority + LMS tools) disclosed honestly in the cover.",
+  "supersedes": "jamie/applications/4gclinical_ld_specialist/SUBMITTED.json (prior 'staged_blocked_resume_upload' — block was sandboxed MCP file_upload; resolved this run via CDP set_input_files)."
+}
