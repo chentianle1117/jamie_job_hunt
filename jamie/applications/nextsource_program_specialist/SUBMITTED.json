@@ -1,0 +1,41 @@
+{
+  "company": "nextSource",
+  "role": "Program Specialist",
+  "location": "Cambridge, MA, USA (Hybrid — onsite at client 3 days/week)",
+  "ats": "LiveHire / Humanforce Talent (www.livehire.com/careers/nextsource) — reached via LinkedIn 'Apply on company website' -> linkedin.com/safety/go redirect",
+  "ats_job_code": "NTR8B (FQFPCL1CXD)",
+  "status": "staged-needs-jamie-login (BLOCKED at account authentication wall — NOT submitted)",
+  "confirmed_at": null,
+  "staged_at": "2026-06-13T00:00:00-07:00",
+  "job_url": "https://www.livehire.com/careers/nextsource/job/NTR8B/FQFPCL1CXD/program-specialist-cambridge-ma",
+  "linkedin_url": "https://www.linkedin.com/jobs/view/4390359901",
+  "verified_live": true,
+  "no_sponsor_hardstop": false,
+  "sponsorship_note": "Full JD scanned programmatically + visually. ZERO sponsorship/visa/ITAR/US-Person/security-clearance/citizenship language anywhere (only the standard EEO statement). No hard stop on sponsorship. Sponsorship question, if asked, was NOT reached (login wall is before the application form). Answer 'Yes, requires sponsorship' (TRUTHFUL) if/when it appears.",
+  "yoe_note": "JD asks '3-5 years of experience in high-volume workforce management, or contingent labor environments.' Jamie ~3 yrs = bottom of range, within the band. Applied per recalibrated rules (5-yr ask stretchable; only explicit no-sponsor / ITAR / clerical-primary are hard stops).",
+  "scope_assessment": {
+    "verdict": "BORDERLINE STRETCH — mixed role leaning operational, NOT a clean P1 program-management fit (and NOT a clean clerical-primary hard-block either).",
+    "honest_read": "Title is 'Program Specialist' but this is contingent-workforce / MSP-VMS program OPERATIONS at a staffing firm (nextSource is a woman-owned MSP/EOR/payrolling firm). Genuine program-coordination duties exist (requisition intake, supplier engagement, hiring-manager relationships, Power BI / VMS / HRIS reporting, SOP & continuous-improvement = Jamie's strong zone), BUT a large share of the recurring duties are operational/admin: background checks, drug screens, I-9 completion, onboarding forms, timekeeping & payroll question support, case resolution via ticketing, system deactivation/badge retrieval. Per profile_compact.md hard-blocker #3 this leans toward ★☆☆ operational territory, though it is not exclusively payroll/benefits/ER-casework. The briefing explicitly flagged this as a ~5yr stretch and directed driving it to submission absent an explicit no-sponsor clause; there is none, so it was driven. Flag to Jamie: the duty mix is heavier on workforce-ops/onboarding-admin than her sweet-spot program-management roles.",
+    "salary_flag": "JD + LinkedIn list $60K-$70K/yr. This is BELOW Jamie's standard $70K-$90K forced range from the briefing. Surfacing as a flag — comp is at/under the floor."
+  },
+  "blocker": "ACCOUNT AUTHENTICATION WALL. The 'Apply on company website' button routes to LiveHire/Humanforce Talent. Apply options offered: LinkedIn OAuth / Google OAuth / Facebook OAuth / 'Your resume' (file upload) / 'Apply with email'. Chose 'Apply with email' (the guest path that avoids OAuth + avoids the sandboxed file_upload). Entered Jamie's real email jamiecheng0103@gmail.com -> the platform responded: 'It looks like you're already registered with Humanforce Talent. Log in to complete your application.' and now requires a PASSWORD to log in. There is NO passwordless / email-magic-link / send-code option on this form (verified via element search). Jamie ALREADY HAS a LiveHire/Humanforce account under this email (LiveHire is a shared candidate platform across many staffing firms — likely created during a prior application). Completing the application requires authenticating into her existing account, which is a login/password (or OAuth) step. Per the operative safety policy, entering a password to authenticate / granting OAuth is a prohibited/explicit-permission action the agent does not perform on the user's behalf — so this is staged for Jamie rather than grinding. NO file-upload or CAPTCHA was even reached; the login gate is upstream of the application form.",
+  "human_finish_steps": [
+    "1. Open the staged tab (Chrome tab 868509252, LiveHire/Humanforce 'Apply' panel) OR re-open: https://www.livehire.com/careers/nextsource/job/NTR8B/FQFPCL1CXD/program-specialist-cambridge-ma -> click 'I'm interested' -> accept T&Cs -> 'Apply with email' -> email is already entered as jamiecheng0103@gmail.com.",
+    "2. Enter Jamie's shared Humanforce/LiveHire password in the Password field and click 'Log in and continue'. (Shared password file: C:\\Users\\chent\\Downloads\\job_password.txt. If that password doesn't match this older account, use 'Forgot password?' to reset via Jamie's Gmail.) Alternatively click the LinkedIn OAuth button on the prior step — the browser is logged into LinkedIn as Jamie.",
+    "3. Because Jamie's Humanforce profile is already registered, the application form should be largely PRE-FILLED from her stored profile. Review every field for accuracy.",
+    "4. If a sponsorship question appears: 'Yes, I will require sponsorship' (TRUTHFUL — never No). Authorized to work in US = Yes. Years of experience = ~3. Salary if forced = $70,000-$90,000 (note JD is $60-70K). Driver's license = Yes.",
+    "5. Resume: Jamie's profile likely already has a resume on file in Humanforce; if it asks to attach a fresh one, use jamie/resume.pdf or a tailored Program/Talent resume.",
+    "6. Demographics if asked: Woman / Asian / not Hispanic / no disability / non-veteran (or decline). Do NOT list InGenius as a reference.",
+    "7. Submit. Screenshot the confirmation page."
+  ],
+  "completed_so_far": {
+    "linkedin_verified_live": "Yes — Program Specialist, Cambridge MA, Hybrid, Full-time, Reposted 2 weeks ago, Over 100 clicked apply, 'Responses managed off LinkedIn'.",
+    "jd_read": "Full JD captured + scanned for hard-stops (none).",
+    "terms_and_conditions": "Humanforce candidate T&Cs accepted (per-application consent checkbox + Continue) to reach the apply-method step.",
+    "apply_method_chosen": "Apply with email",
+    "email_entered": "jamiecheng0103@gmail.com (Jamie's real email — committed)",
+    "result": "Platform recognized email as an EXISTING Humanforce account -> password login required -> STOPPED at auth wall."
+  },
+  "screenshots": "Chrome MCP store (NOT saved to the folder — save_to_disk lands in the Chrome MCP store, not the local FS, same limitation as prior DraftKings run). Key staged-state IDs: ss_713913787 (LiveHire JD page), ss_7130gs1k2 (apply-method picker: LinkedIn/Google/Facebook/Your resume/Apply with email), ss_25403t0g8 (the BLOCKER: 'already registered with Humanforce Talent' + Password login field).",
+  "honest_summary": "Drove the application from the LIVE LinkedIn posting (4390359901) -> 'Apply on company website' -> LiveHire/Humanforce Talent ATS for nextSource (job NTR8B). Confirmed the JD is live and has NO sponsorship/ITAR/clearance hard-stop. Accepted the candidate T&Cs and chose 'Apply with email'. Jamie's real email is already tied to an existing Humanforce Talent account, so the platform demands a password login (no passwordless option exists) BEFORE the application form is reachable. Authenticating into her account (password or OAuth) is outside what the agent does autonomously under the safety policy, so the application is STAGED one login away — Jamie logs in (shared password file, or LinkedIn OAuth, or reset via Gmail) and the form should be largely pre-filled from her stored profile; she answers sponsorship=Yes + screening Qs and submits. NO false 'submitted'. SEPARATE FLAGS for Jamie: (a) scope is a borderline STRETCH — heavier on contingent-workforce ops / onboarding-admin (background checks, I-9, payroll/timekeeping support, ticketing) than her sweet-spot program management; (b) comp $60-70K is below her usual $70-90K floor."
+}

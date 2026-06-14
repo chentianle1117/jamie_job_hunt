@@ -1,0 +1,52 @@
+{
+  "company": "4G Clinical",
+  "role": "Learning & Development Specialist",
+  "ats": "UKG/Kronos Workforce Ready (SaaSHR — secure10.saashr.com, tenant 6182998)",
+  "status": "staged_blocked_resume_upload",
+  "confirmed_at": null,
+  "staged_at": "2026-06-13T18:24:00-07:00",
+  "job_url": "https://www.linkedin.com/jobs/view/4401484896/",
+  "apply_url": "https://secure10.saashr.com/ta/6182998.careers?CareersSearch=&source=LinkedIn&lang=en-US",
+  "job_status_verified": "LIVE — reposted 2 weeks ago, 100+ clicked apply, Remote, Full-time, 'Considering US East Coast Candidates'. Confirmed on official 4G Clinical careers site (search 'Learning' returns exactly 1 job: L&D Specialist, Wellesley MA, Exempt-FT).",
+  "hard_stop_check": {
+    "no_sponsorship_clause": "NONE — JD has no 'no visa sponsorship' / 'must be authorized without sponsorship' language. Standard EOE statement only.",
+    "itar_us_person": "N/A — clinical trial software (RTSM), no export-control/US-Person requirement.",
+    "verdict": "PASS hard-stop checks — eligible to apply."
+  },
+  "fit_summary": {
+    "verdict": "STRETCH",
+    "yoe_required": "Minimum 5 years (learning strategy, instructional design, project mgmt). Jamie has ~3 yrs — 2-yr stretch.",
+    "education_required": "Bachelor's in HR/Psych/Education/Business. Jamie EXCEEDS: MS Applied Org Psych (USC 3.95) + BA Psych/Education (Wesleyan 4.00).",
+    "strong_overlaps": "Needs assessments + 3 new training programs + 600+ participant webinars (InGenius); vendor/LMS management; cross-functional collaboration (Marketing/Tech/Sales); program inventory/logistics; data-driven program optimization. ADDIE-adjacent.",
+    "gaps": "5-yr seniority bar; deep instructional-design-as-primary may be lighter than asked; specific LMS tools named (eLeap, EasyLlama) not in Jamie's stack (she has Canvas/Moodle)."
+  },
+  "fields_filled": {
+    "first_name": "Yi-Chieh",
+    "last_name": "Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "(213) 700-3831"
+  },
+  "blocker": {
+    "type": "REQUIRED_RESUME_UPLOAD",
+    "detail": "SaaSHR application modal requires a resume file (red asterisk). Clicking Continue with contact fields filled produced a hard validation error: 'Resume is Required'. The form will not advance to any screening questions / EEO / sponsorship step until a resume file is uploaded.",
+    "upload_attempts": [
+      "C:\\Users\\chent\\Downloads\\Jamie (Yi-Chieh) Cheng's Resume_2026.pdf — REJECTED (file not shared with session)",
+      "C:\\Users\\chent\\.claude\\downloads\\Jamie_Cheng_Resume.pdf — REJECTED (file not shared with session)"
+    ],
+    "root_cause": "MCP file_upload tool is sandboxed: it only accepts files explicitly attached to THIS session or in this session's own upload/output folders. Resume PDFs in the repo / user Downloads / .claude/downloads are all rejected. This is the known sandboxed-upload failure mode (per autopilot brief efficiency/bail rule)."
+  },
+  "human_action_required": {
+    "summary": "ONE manual step to finish: upload Jamie's resume, then Continue + submit.",
+    "steps": [
+      "Tab is left OPEN on the 4G Clinical SaaSHR 'Apply for Job' modal (secure10.saashr.com), L&D Specialist, contact fields pre-filled.",
+      "Click 'Add Resume' (or 'Upload File'), select Jamie's resume PDF (canonical: C:\\Users\\chent\\Downloads\\Jamie (Yi-Chieh) Cheng's Resume_2026.pdf — a copy is also at applications/4gclinical_ld_specialist/Jamie_Cheng_Resume.pdf).",
+      "Click Continue. Watch for any further step (screening Qs / sponsorship / EEO).",
+      "If a sponsorship question appears: answer 'Yes, I require sponsorship' (TRUTHFUL — Jamie needs H1B). Work authorization = Yes.",
+      "Review + submit. The L&D resume variant (Program Enablement Manager title, Set A bullets) is the best fit per content_library.md."
+    ],
+    "no_account_needed": "Direct apply — no login required.",
+    "no_captcha_seen": "No CAPTCHA encountered up to the resume gate."
+  },
+  "screenshots": "Captured to MCP attachment store (surfaced to user, not written to disk path): (1) careers search showing 1 job L&D Specialist Wellesley MA; (2) Apply-for-Job modal with contact fields filled; (3) 'Resume is Required' validation block after Continue. Local screenshots dir created at applications/4gclinical_ld_specialist/screenshots/ (empty — MCP stores images in its own attachment store).",
+  "notes": "Truthful values used throughout: sponsorship would be answered YES if asked (never reached that step — resume gate blocks first). No fabrication. Not a duplicate (no prior 4G Clinical entry in master_tracker.csv). Apply link from LinkedIn lands on the general 4G Clinical careers search page, not the role directly — had to search 'Learning' to reach the single matching posting."
+}

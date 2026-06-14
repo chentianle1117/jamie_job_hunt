@@ -1,0 +1,54 @@
+{
+  "company": "Trimble Inc.",
+  "role": "Manager, Enablement Programs and Content",
+  "req_id": "R55463",
+  "location": "US - CO, Westminster (Workday canonical). LinkedIn cross-post displayed Lake Oswego, OR per orchestrator; only ONE live req of this title exists in Trimble Workday = Westminster.",
+  "ats": "Workday (trimble.wd1.myworkdayjobs.com) — guest 'Apply Manually' flow, NO account/login required to start",
+  "status": "cannot-finish-staged",
+  "submitted": false,
+  "confirmed_at": null,
+  "evaluated_at": "2026-06-13T18:30:00-07:00",
+  "staged_at": "2026-06-13T18:31:00-07:00",
+  "job_url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/Manager--Enablement-Programs-and-Content_R55463-1",
+  "apply_url": "https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers/job/US---CO%2C-Westminster/Manager--Enablement-Programs-and-Content_R55463-1/apply/applyManually",
+  "verified_live": true,
+  "live_evidence": "Workday CXS API: canApply=true, posted=true, postedOn='Posted 11 Days Ago', startDate 2026-06-02. Confirmed 2026-06-13.",
+
+  "hard_stop_checks": {
+    "sponsorship_no_clause": false,
+    "sponsorship_note": "JD contains NO 'sponsor' language at all and NO 'no sponsorship' / 'must be authorized without sponsorship' clause. NOT a hard stop. (Jamie's sponsorship-required=YES still must be answered YES on the form when continued.)",
+    "itar_uscitizen_clearance": false,
+    "itar_note": "No ITAR / export-control / 'U.S. Person' / citizenship / security-clearance language. This is a Customer Success enablement role, not a Trimble gov/geospatial defense line. NOT a hard stop.",
+    "result": "BOTH hard-stops CLEAR — application is appropriate to pursue."
+  },
+
+  "fit": {
+    "verdict": "STRETCH",
+    "yoe_required": "3-5 years (JD: 'Sales Enablement, Product Marketing, or SaaS management with a proven track record of managing people')",
+    "yoe_jamie": "~3 years (bottom of band)",
+    "notes": "Duties (onboarding programs, content/knowledge library, evaluation + analytics, ROI of enablement) map strongly to Jamie's strengths: program management, L&D ops, content/guides, data analytics (InGenius: 20+ programs, 10+ vendors, guides/workflows for 70+ staff, 75% onboarding-time reduction, 600+ participant trainings). Domain framing is sales/SaaS/customer enablement vs Jamie's HR/L&D internal-staff enablement — adjacent/transferable, not identical. 'Managing people' = program leadership, not formal direct reports. Genuine stretch; applying per recalibrated profile rules + orchestrator instruction ('Manager' here = program/content enablement IC-manager sense)."
+  },
+
+  "blocker": "REQUIRED resume upload (Resume/CV → 'Upload a file (5MB max) *') on the 'My Experience' page. MCP file_upload is sandboxed to a session-share allowlist and HARD-REJECTS every filesystem path attempted (project dir, C:\\Windows\\Temp, C:\\Users\\chent\\.claude\\downloads). Workday will not advance past page 2/6 without a file. Cannot satisfy autonomously.",
+  "upload_attempts": [
+    "oracle-job-search/jamie/resume.pdf -> rejected (not session-shared)",
+    "C:\\Windows\\Temp\\Jamie_Cheng_Resume.pdf -> rejected (not session-shared)",
+    "C:\\Users\\chent\\.claude\\downloads\\Jamie_Cheng_Resume.pdf -> rejected (not session-shared)"
+  ],
+
+  "progress": {
+    "page_1_my_information": "COMPLETE + SAVED (green checkmark). How Did You Hear About Us=LinkedIn; Previously worked here=No; Country=USA; Legal Name=Yi-Chieh Cheng; Preferred Name=Jamie Cheng; Address=1784 NW Northrup St, Portland, OR 97209; Email=jamiecheng0103@gmail.com; Phone=Mobile +1 (213) 700-3831.",
+    "page_2_my_experience": "FILLED (work + education saved; blocked only at required resume upload). Work Experience 1: Program Enablement Manager, InGenius Prep LLC, Remote USA, currently work here, From 09/2023, truthful role description. Education 1: University of Southern California, Masters, Field=Psychology, GPA 3.95, 2022-2023. Languages/Skills/Websites left blank (optional).",
+    "page_3_application_questions": "NOT YET REACHED — sponsorship question lives here. MUST be answered Sponsorship-required = YES when human continues.",
+    "page_4_voluntary_disclosures": "NOT YET REACHED (demographics: Woman/Asian/not-Hispanic/no-disability/non-veteran or decline).",
+    "page_5_self_identify": "NOT YET REACHED.",
+    "page_6_review": "NOT YET REACHED."
+  },
+
+  "human_handoff": "Tab is LEFT OPEN at the My Experience page (Chrome 'Job Serach', tabId 868509260). To finish: (1) drag-drop or Select a resume PDF into the Resume/CV box, (2) click Next, (3) on 'Application Questions' answer sponsorship-required = YES, (4) on Voluntary Disclosures use Woman/Asian/not-Hispanic/no-disability/non-veteran (or decline), (5) Review, (6) Submit. No account/login required.",
+  "resume_pdf_available": "C:\\Users\\chent\\.claude\\downloads\\Jamie_Cheng_Resume.pdf (and oracle-job-search/jamie/resume.pdf, resume_tailored.pdf) — ready for the human to drop in.",
+
+  "rule_0_check": "All entered values trace to jamie/profile_compact.md, resume.md, references.md. Role description uses only resume.md CAN-claim items (needs assessments, 3 new programs, 20+ programs/10+ vendors, 70+ staff onboarding guides, 75% reduction, 600+ trainings). No fabrication. No InGenius listed as a reference. No false 'submitted' claim — status is honestly cannot-finish-staged.",
+  "screenshots": "Staged-state screenshots captured via Chrome MCP (job page + Resume/CV required-upload error 'The field Upload a file (5MB max) is required and must have a value'). Stored in MCP session, attached to conversation. screenshots/ dir created at applications/trimble_enablement_mgr/screenshots/.",
+  "notes": "Trimble Workday guest manual-apply is fully submittable without an account — the ONLY blocker is the mandatory resume file upload, which the MCP sandbox forbids. Everything else is filled and saved. This is a clean human-finish: one drag-drop + 3 dropdown answers + submit."
+}

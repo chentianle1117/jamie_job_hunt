@@ -1,0 +1,31 @@
+{
+  "company": "Clarion Events Inc. - North America",
+  "role": "Learning And Development Specialist",
+  "ats": "LinkedIn Easy Apply (SDUI apply flow)",
+  "status": "submitted",
+  "confirmed_at": "2026-06-13T18:40:00-07:00",
+  "confirmation_text": "Your application was sent to Clarion Events Inc. - North America! Application status: Application submitted (now).",
+  "screenshot": "Captured to Chrome MCP screenshot store (ss_122005mkz success modal, ss_8204mvhgq saved-to-disk). NOTE: Chrome MCP `computer` save_to_disk writes to the MCP store, not the application folder; folder/screenshots is empty by design of the MCP.",
+  "job_url": "https://www.linkedin.com/jobs/view/4424240371",
+  "location": "Remote (United States)",
+  "salary_posted": "$65,000 - $75,000/yr + bonus",
+  "yoe_required": "3-5+ years (Jamie ~3 yrs — low-end STRETCH, within range)",
+  "resume_used": "LinkedIn on-file master resume: 'Jamie (Yi-Chieh) Cheng's Resume_2026.pdf' (121 KB, last used 6/13/2026). Easy Apply reused on-file resume — no disk upload needed. NOTE: this is Jamie's broad master OD/L&D resume, NOT a Clarion-tailored variant (none existed for this run; master resume is broad + truthful for L&D).",
+  "sponsorship_hardstop_check": "PASS — no 'no sponsorship' / no ITAR / no US-Person clause in JD. EEO clause is standard (race/color/religion/national origin/age/sex/orientation/veteran/disability/genetics). Events company, Blackstone-backed.",
+  "screening_questions": [
+    {"q": "Do you currently reside in one of the following states? (AZ CA CO CT D.C. FL GA IL IA KS KY MA MD ME MI MN MT NC NH NJ NV NY OH OK OR PA TN TX UT VA WA)", "a": "Yes (Jamie resides in Portland, OR — OR is in the list)"},
+    {"q": "Based on your review of the job's essential functions, are you able to perform these functions with or without a reasonable accommodation?", "a": "Yes"},
+    {"q": "The total compensation range for this role is $65K-$75K, depending on experience. Is that within your expectations?", "a": "Yes"},
+    {"q": "Were you referred to this position by a current employee of Clarion Events or one of its subsidiaries?", "a": "No"},
+    {"q": "Have you used AI tools to support your professional work? If so, how many years of experience do you have? (numeric field)", "a": "3"},
+    {"q": "Are you legally authorized to work in the United States?", "a": "Yes"},
+    {"q": "Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)?", "a": "Yes (TRUTHFUL — never lie; RULE 0)"}
+  ],
+  "contact": {
+    "name": "Jamie (Yi-Chieh) Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "+1 213-700-3831",
+    "location": "Portland, Oregon, United States"
+  },
+  "notes": "Confirmed submission via LinkedIn Easy Apply on jamiecheng0103's logged-in session (CDP browser 'Job Serach', tab 868509251). 5 Additional Questions + 2 Work-authorization questions, all answered truthfully. Contact info + work-auth were pre-filled correctly from Jamie's LinkedIn profile; verified before submit. Verification gate passed: full review screen read back field-by-field (Yes/Yes/Yes/No/3 + auth Yes / sponsorship Yes) before clicking Submit. 'Over 100 applicants', promoted-by-hirer, actively reviewing. Fit = P1/P1b sweet spot (L&D: needs assessments, instructional design, facilitation, LMS, onboarding, analytics). No tailored resume/cover produced this run — master resume used (broad + truthful)."
+}
