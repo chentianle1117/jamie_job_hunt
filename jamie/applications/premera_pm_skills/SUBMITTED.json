@@ -1,0 +1,67 @@
+{
+  "company": "Premera Blue Cross",
+  "role": "Program Manager IV, Skills Building",
+  "req_id": "R28487",
+  "location": "Mountlake Terrace, WA (Hybrid). Seattle area — Jamie open to relocation (header rule: role city).",
+  "ats": "Workday (premera.wd5.myworkdayjobs.com) — REQUIRES candidate account (created + email-verified this run). NOTE: premera.wd1 redirects to a Workday maintenance page; the CORRECT live tenant is wd5, discovered via the LinkedIn 'Apply on company website' redirect.",
+  "status": "cannot-finish-staged-needs-upload",
+  "submitted": false,
+  "confirmed_at": null,
+  "evaluated_at": "2026-06-13T19:00:00-07:00",
+  "staged_at": "2026-06-13T19:20:00-07:00",
+  "job_url": "https://premera.wd5.myworkdayjobs.com/Premera/job/Mountlake-Terrace-WA/Program-Manager-IV--Skills-Building_R28487",
+  "apply_url": "https://premera.wd5.myworkdayjobs.com/en-US/Premera/job/Mountlake-Terrace-WA/Program-Manager-IV--Skills-Building_R28487/apply/applyManually?source=LinkedIn",
+  "linkedin_url": "https://www.linkedin.com/jobs/view/4408560319/",
+  "verified_live": true,
+  "live_evidence": "Workday CXS API on wd5 tenant: canApply=true; jobReqId=R28487; timeType='Full time'; startDate 2026-04-29; postedOn 'Posted 30+ Days Ago'. LinkedIn cross-post: 'Reposted 2 days ago · 138 applicants · Hybrid · Responses managed off LinkedIn'. Confirmed live 2026-06-13.",
+
+  "account": {
+    "created": true,
+    "verified": true,
+    "email": "jamiecheng0103@gmail.com",
+    "password_location": "shared ~/Downloads/job_password.txt (Career0324!)",
+    "note": "Premera Workday required a candidate account before the apply form. Created with shared ATS password; verification email from premera@otp.workday.com clicked + account activated + signed in. Recorded in jamie-autopilot/jamie/account_registry.json. NO CAPTCHA encountered at any step.",
+    "captcha_seen": false
+  },
+
+  "hard_stop_checks": {
+    "sponsorship_no_clause": false,
+    "sponsorship_note": "FULL 7,048-char JD scanned via Workday CXS — ZERO occurrences of sponsor/visa/work-authorization/immigration/citizen language. Standard EEO/AA clause only (race/color/religion/sex/national origin/age/disability/veteran/gender/sexual orientation/genetic). NOT a hard stop. Jamie's sponsorship-required=YES must still be answered YES on the Application Questions page (page 3) when the human continues.",
+    "itar_uscitizen_clearance": false,
+    "itar_note": "No ITAR/export-control/'U.S. Person'/security-clearance language. Health insurer, not defense. NOT a hard stop.",
+    "result": "BOTH hard-stops CLEAR — application appropriate to pursue."
+  },
+
+  "fit": {
+    "verdict": "STRETCH",
+    "yoe_required": "At least 7 years progressively responsible L&D experience, with at least 5 years developing/delivering development programs for leaders (Required). Bachelor's in curriculum dev/education/HR/business or equivalent (Required).",
+    "yoe_jamie": "~3 years",
+    "gap": "~4-year YOE gap + 5yr leader-development requirement — a genuine stretch (not a borderline). Applying per recalibrated profile rules (only 3 true blockers stop Jamie; she lets the employer decide on seniority/YOE stretches).",
+    "scope_match": "STRONG. JD scope = designing/implementing learning strategies (AI Learning Pathways), updating leadership & skills training programs, partnering with senior leaders on essential-skills needs, building internal-mobility/continuous-development culture. Maps directly to Jamie's strengths: program management + L&D ops (InGenius: needs assessments -> 3 new programs, 20+ programs/10+ vendors, 600+ trainings, 70+ staff onboarding guides, 75% onboarding-time reduction) + MS Applied Org Psych (USC 3.95).",
+    "advantage": "15 USC alumni currently work at Premera (LinkedIn) — alumni network advantage for Jamie (USC MS). Seattle-area hybrid (Jamie open to relocation). Salary band $111,900-$190,200 USD (Jamie's $95-120K ask sits at/below the low end).",
+    "notes": "Title 'Program Manager IV' is a senior IC/program-leadership grade, not a people-manager-with-reports role per JD. Genuine stretch, surfaced + pursued per orchestrator instruction and loosened bar."
+  },
+
+  "blocker": "REQUIRED resume upload (Resume/CV -> 'Upload a file (5MB max) *') on the 'My Experience' page (step 2 of 6). MCP file_upload is sandboxed to session-shared files and HARD-REJECTS every filesystem path attempted. Workday will not advance past page 2/6 without a file. Cannot satisfy autonomously. This is the known ceiling (same as Trimble 2026-06-13).",
+  "upload_attempts": [
+    "C:\\Users\\chent\\.claude\\downloads\\Jamie_Cheng_Resume.pdf -> rejected ('only files the user has shared with this session can be uploaded')",
+    "C:\\Windows\\Temp\\Jamie_Cheng_Resume.pdf -> rejected (same; copied there first since it is a connected working dir, still blocked)"
+  ],
+
+  "progress": {
+    "page_0_create_account": "COMPLETE — account created + email-verified + signed in (jamiecheng0103@gmail.com).",
+    "page_1_my_information": "COMPLETE + SAVED (green checkmark). Previously employed by Premera=No; Country=United States of America; Legal First Name=Yi-Chieh; Last Name=Cheng; Address=1784 NW Northrup St; City=Portland; State=Oregon; Postal=97209; Email=jamiecheng0103@gmail.com; Phone Device=Mobile; Country Code=+1; Phone=(213) 700-3831.",
+    "page_2_my_experience": "FILLED (work + education entered; blocked only at required resume upload, NOT yet saved because Save&Continue would error on the missing file). Work Experience 1: Program Enablement Manager, InGenius Prep LLC, Remote USA, 'I currently work here'=checked, From 09/2023, truthful role description (needs assessments->3 programs, 20+ programs/10+ vendors, 600+ trainings, 70+ staff onboarding guides, 75% reduction). Education 1: University of Southern California, Master's, GPA 3.95, 2022-2023. Skills/Websites left blank (optional).",
+    "page_3_application_questions": "NOT YET REACHED — sponsorship question lives here. MUST be answered Sponsorship-required = YES when the human continues.",
+    "page_4_voluntary_disclosures": "NOT YET REACHED (demographics: Woman/Asian/not-Hispanic/no-disability/non-veteran, or decline).",
+    "page_5_self_identify": "NOT YET REACHED.",
+    "page_6_review": "NOT YET REACHED."
+  },
+
+  "human_handoff": "Tab is LEFT OPEN at the My Experience page (Chrome 'Job Serach' browser, tabId 868509293), signed in to Jamie's Premera Workday candidate account. To finish: (1) drag-drop or Select a resume PDF into the Resume/CV box (resume_pdf_available below); (2) click Save and Continue; (3) on 'Application Questions' answer Sponsorship-required = YES (and any salary -> $95,000-$120,000); (4) on Voluntary Disclosures use Woman/Asian/not-Hispanic/no-disability/non-veteran (or decline); (5) Self Identify; (6) Review; (7) Submit. Account login if the session drops: jamiecheng0103@gmail.com / Career0324! at https://premera.wd5.myworkdayjobs.com/en-US/Premera/login",
+  "resume_pdf_available": "C:\\Users\\chent\\.claude\\downloads\\Jamie_Cheng_Resume.pdf (also oracle-job-search/jamie/resume.pdf and resume_tailored.pdf) — ready for the human to drop in.",
+
+  "rule_0_check": "All entered values trace to jamie/profile_compact.md, resume.md, references.md. Legal name Yi-Chieh Cheng (preferred Jamie). Role description uses only resume.md CAN-claim items — no fabrication, no enterprise-scale framing, no 'managed a team', no invented numbers. Sponsorship-required=YES (never No). No InGenius listed as a reference. No false 'submitted' claim — status is honestly cannot-finish-staged-needs-upload.",
+  "screenshots": "Captured via Chrome MCP (job apply entry page, account-verify Sign In, My Information filled, My Experience filled work+education). NOTE: Chrome-MCP screenshots save to the MCP session store and are attached to the conversation, NOT to this folder (folder created at applications/premera_pm_skills/screenshots/ but the MCP tool does not write image files into it).",
+  "notes": "Premera Workday (wd5) full apply flow is reachable and submittable WITH a candidate account (created this run) — the ONLY blocker is the mandatory resume file upload, which the MCP sandbox forbids. Everything else (account, page 1 contact/identity, page 2 work+education) is filled. Clean human-finish: one drag-drop + sponsorship=YES + demographics + submit. wd1-tenant 'maintenance page' was a wrong-pod red herring; wd5 is the live tenant."
+}

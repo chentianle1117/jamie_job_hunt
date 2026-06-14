@@ -1,0 +1,33 @@
+{
+  "company": "Keller Rohrback L.L.P.",
+  "role": "Professional Development Specialist",
+  "location": "Seattle, WA (On-site, hybrid per JD)",
+  "ats": "LinkedIn Easy Apply (native)",
+  "status": "submitted",
+  "confirmed_at": "2026-06-13T18:55:00-07:00",
+  "confirmation_text": "Your application was sent to Keller Rohrback L.L.P.! — green check confirmation; job card shows 'Applied'",
+  "screenshot": "LinkedIn Easy Apply confirmation captured in-session (review screen + 'Application sent' green-check screen). Stored to session disk via save_to_disk.",
+  "job_url": "https://www.linkedin.com/jobs/view/4415920828/",
+  "linkedin_job_id": "4415920828",
+  "salary": "Starting at $125,000/year (DOE)",
+  "posting_age": "3 weeks ago, 58 applicants — LIVE (not expired)",
+  "scope_verdict": "GO — P1 Talent Dev / L&D sweet spot. Genuine professional-development/L&D program design: learning requirements analysis, attorney training programs/workshops/orientations, coaching, individual/group assessments, performance-review development, DEI/career-development initiatives, CLE compliance, Summer Associate Program management.",
+  "hard_stop_check": "PASS — no explicit 'no sponsorship' clause; no ITAR/US-Person requirement; not clerical-primary (real L&D program work, not payroll/benefits/ER). Law firm = standard W-2 employer.",
+  "yoe": "JD asks 3+ years L&D/professional services/legal — Jamie has ~3 yrs (within range, not a stretch).",
+  "preferred_gaps": "JD 'preferred' items Jamie lacks: direct legal career-tracking/competency-modeling, multi-office law-firm PD experience. These are preferred-not-required and did not block.",
+  "application_method": "Native LinkedIn Easy Apply (3 steps: Contact info -> Resume -> Review -> Submit). NOTE: JD body also says 'submit cover letter and resume by email to careers@kellerrohrback.com' — that email path was NOT used; the firm enabled LinkedIn Easy Apply as a native-accepted path, so submission went through Easy Apply (no autonomous email sent, per agent email-send restriction).",
+  "screening_questions": "NONE. No work-authorization/sponsorship question, no YOE question, no free-text/essay. Clean 3-step flow.",
+  "fields_submitted": {
+    "name": "Jamie (Yi-Chieh) Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone_country_code": "United States (+1)",
+    "mobile_phone": "2137003831",
+    "location_on_profile": "Portland, Oregon, United States",
+    "resume": "Jamie (Yi-Chieh) Cheng's Resume_2026.pdf (121 KB, on-file, last used 6/13/2026 — her current general resume)",
+    "follow_company_checkbox": "left checked (harmless default)"
+  },
+  "sponsorship_answer": "N/A — no sponsorship question was asked in this Easy Apply flow (so no risk of an incorrect 'No').",
+  "truthfulness": "All submitted values trace to source (profile_compact.md / RULE 0). Resume is Jamie's own on-file PDF. No fabrication. No screening free-text to compose.",
+  "captcha": "none",
+  "notes": "First-time application to Keller Rohrback (not in h1b_verified.md, no prior submission). Confirmed submission via green-check 'Application sent' screen + 'Applied' badge on job card. Post-submit 'Update profile' prompt declined ('Not now') to avoid modifying Jamie's LinkedIn profile (out of scope). Optional follow-up for Jamie: she MAY additionally email a tailored cover letter + resume to careers@kellerrohrback.com (the JD's stated preferred channel) to strengthen the application — flagged as needs-human-email-send if desired, NOT done autonomously."
+}
