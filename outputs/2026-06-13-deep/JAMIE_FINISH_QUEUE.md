@@ -1,5 +1,12 @@
-# Jamie — Finish Queue (CORRECTED 2026-06-14)
-> ⚠️ **IMPORTANT — how these are staged:** the filled forms live in **already-open tabs in your main Chrome**
+# Jamie — Finish Queue (CLEANED 2026-06-14)
+> ✅ **Your Chrome is now cleaned up.** The clutter tabs (PeaceHealth/ValleyMed/Instacart/Stripe/Lightfox
+> leftovers + Lenovo) were closed. Your window now has only: the **3 staged application tabs** below + your
+> 5 LinkedIn tabs (+ a harmless Lenovo Vantage widget that auto-respawns — ignore it).
+> **DO NOT fully close/restart Chrome before submitting Group A** — those 3 fills live only in those tabs'
+> memory (no server-saved draft). If a tab dies, see "re-stage" note at the bottom.
+> Verified live: each Group-A tab has resume.pdf attached + sponsorship answered + Submit + the captcha present.
+
+> ⚠️ **How these are staged:** the filled forms live in **already-open tabs in your main Chrome**
 > (the debugging Chrome on port 9222). They are NOT server-saved drafts. So:
 > - **Find the EXISTING tab** (URLs below) — do NOT click a fresh "Apply" / job-posting link, that opens a
 >   blank form. The filled one is a tab already open.
