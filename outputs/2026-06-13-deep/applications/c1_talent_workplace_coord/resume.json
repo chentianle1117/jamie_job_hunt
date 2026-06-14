@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "company": "C1 (ConductorOne)",
+    "role": "Talent & Workplace Coordinator",
+    "date": "2026-06-14",
+    "pageMargins": { "top": "0.35in", "right": "0.45in", "bottom": "0.35in", "left": "0.45in" },
+    "autoFit": true,
+    "fontRange": [8.5, 10.0]
+  },
+  "header": {
+    "location": "Portland, OR"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Talent & People Operations</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve candidate and employee experience—through organized, human-centered approaches.",
+  "keywordGroups": {
+    "data": "Data/Analytics",
+    "coord": "Coordination/Ops",
+    "cross": "Stakeholders/Collab",
+    "ex": "Candidate/Employee Exp",
+    "tools": "Tools/Systems",
+    "prog": "Programs/Process"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Manage end-to-end {coord|logistics} for 20+ programs and 10+ vendors, juggling multiple calendars and moving pieces with high accuracy" },
+        { "text": "Establish {prog|scalable processes} and documentation for 70+ {cross|cross-functional staff}, reducing onboarding time by 75%" },
+        { "text": "Identify {prog|process improvements} and streamline repetitive work via {data|feedback analysis}, helping the team scale efficiently" },
+        { "text": "Facilitate training webinars and events for 600+ participants, boosting engagement and achieving a 78% {ex|program enrollment rate}" }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern (Recruiting & Talent)",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Supported full-cycle {ex|recruiting logistics}—drafting job descriptions, posting openings, and coordinating with hiring teams across functions" },
+        { "text": "Engaged {ex|candidates} via personalized, warm communication and service, increasing applications by 566% in 2 months" },
+        { "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants" },
+        { "text": "Maintained {tools|recruiting data} and pipelines, keeping candidate records organized and up to date across {cross|hiring teams}" }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        { "text": "Streamlined onboarding {prog|processes} across 3 global locations by conducting process analysis and clarifying job responsibilities" },
+        { "text": "Coordinated a Mergers & Acquisitions project, overseeing {cross|cross-functional stakeholders} and migrating employee records" },
+        { "text": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations" },
+        { "text": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors" }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        { "text": "Analyzed 2,000+ employee experiences to amplify {ex|employee voice} and guide C-suite decisions on satisfaction drivers" },
+        { "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed engagement strategies" },
+        { "text": "Improved {ex|employee experience} via 5 {cross|cross-functional} projects in survey development, rewards & recognition, and L&D" },
+        { "text": "Supported internal training and consultations on DEI, Inclusive Leadership, and performance review" }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Upskill HR team in {data|data analytics} to audit 300+ leave cases, refuting cost assumptions via {data|evidence-based insights}" },
+        { "text": "Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": ["Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": ["Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Enhanced <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Recognition:</b> Employee of the Year, InGenius Prep (2025) · Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Coordination & Tools:</b> Scheduling & Interview Coordination · ATS (Greenhouse) · Google Workspace · Slack · Zoom · Project Management (Asana, Airtable)",
+    "<b>Data & Productivity:</b> Data Analysis (Excel, Google Sheets, SPSS) · HRIS (SAP, Rippling, ADP) · Knowledge Management (Notion) · MS Office (Word, PowerPoint)",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
+    "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "",
+    "sections": []
+  },
+  "changeLog": []
+}
