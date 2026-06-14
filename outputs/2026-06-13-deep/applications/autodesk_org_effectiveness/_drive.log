@@ -52,3 +52,1162 @@ To read and acknowledge Autodesk?s Candidate Privacy Statement, please click her
 
 Once you have review
 ---- END STEP2 ----
+
+=== 2026-06-14T04:55:48.199022 :: Autodesk CONTINUE (signed-in, 7-step) ===
+  start step: 1 | url: https://autodesk.wd1.myworkdayjobs.com/en-US/Ext/job/AMER---United-States---Colorado---Denver---Wewatta/Senior-Org-Effectiveness-Consultant_26WD97717/apply/applyManually
+
+-- My Information --
+---- MYINFO ----
+Skip to main content
+Careers
+English
+Settings
+jamiecheng0103@gmail.com
+Search for Jobs
+Candidate Home
+Job Alerts
+Back to Job Posting
+Senior Org Effectiveness Consultant
+current step 1 of 7
+My Information
+step 2 of 7
+My Experience
+step 3 of 7
+Application Questions 1 of 2
+step 4 of 7
+Application Questions 2 of 2
+step 5 of 7
+Voluntary Disclosures
+step 6 of 7
+Self Identify
+step 7 of 7
+Review
+My Information
+* Indicates a required field
+How Did You Hear About Us?*
+0 items selected
+Have you previously worked for Autodesk? If Yes, please answer the questions below. If No, please continue to the next page.*
+Yes
+No
+Country*
+United States of America
+Legal Name
+First Name*
+Middle Name
+Last Name*
+I have 
+---- END MYINFO ----
+  [ms] how_did_you_hear = LinkedIn (enter)
+  [radio] previously worked = no
+  [text] first_name = Yi-Chieh
+  [text] last_name = Cheng
+  [text] address1 = 1784 NW Northrup Street
+  [text] city = Portland
+  [text] zip = 97209
+  [dd] state: opts=LinkedIn|LinkedIn|LinkedIn|United States of America (+1)|United States of America (+1)|United States of America (+1)|Select One|Alabama|Alaska|American Samoa|Arizona|Arkansas|Armed Forces Americas|Armed Forces Europe|Armed Forces Pacific|Ca
+  [dd] state = Oregon
+  [text] email: no field ['email']
+  [text] phone = 2137003831
+  [dd] phone_device_type: opts=LinkedIn|LinkedIn|LinkedIn|United States of America (+1)|United States of America (+1)|United States of America (+1)|Select One|Fax|Mobile|Pager|Telephone
+  [dd] phone_device_type = Mobile
+  [shot] 02_my_information
+  [next] [data-automation-id='pageFooterNextButton']
+  step now: 2
+
+-- My Experience (resume) --
+---- MYEXP ----
+Skip to main content
+Careers
+English
+Settings
+jamiecheng0103@gmail.com
+Search for Jobs
+Candidate Home
+Job Alerts
+Back to Job Posting
+Senior Org Effectiveness Consultant
+completed step 1 of 7
+My Information
+current step 2 of 7
+My Experience
+step 3 of 7
+Application Questions 1 of 2
+step 4 of 7
+Application Questions 2 of 2
+step 5 of 7
+Voluntary Disclosures
+step 6 of 7
+Self Identify
+step 7 of 7
+Review
+My Experience
+* Indicates a required field
+Work Experience
+Work Experience 1
+Job Title*
+Company*
+Lo
+---- END MYEXP ----
+  resume uploaded via input[type='file'][data-automation-id*='file-upload-input']
+  [text] linkedin: no field ['linkedin']
+  [shot] 03_my_experience
+  [next] [data-automation-id='pageFooterNextButton']
+  step now: 2
+
+-- round 0 (step 2) review={'review': False, 'submitted': False} --
+---- R0 ----
+Skip to main content
+Careers
+English
+Settings
+jamiecheng0103@gmail.com
+Search for Jobs
+Candidate Home
+Job Alerts
+Back to Job Posting
+Senior Org Effectiveness Consultant
+completed step 1 of 7
+My Information
+current step 2 of 7
+My Experience
+step 3 of 7
+Application Questions 1 of 2
+step 4 of 7
+Application Questions 2 of 2
+step 5 of 7
+Voluntary Disclosures
+step 6 of 7
+Self Identify
+step 7 of 7
+Review
+My Experience
+* Indicates a required field
+Errors Found
+Error-Job Title
+The field Job Title is required and must have a value.
+Error-Company
+The field Company is required and must have a value.
+Error-From
+The field From is required and must have a value.
+Error-To
+The field To is required and must have a value.
+Work Experience
+Work Experience 1
+Job Title*
+
+Error: The field Job Title is required and must have a value.
+
+Company*
+
+Error: The field Company is required and must have a value.
+
+Location
+I currently work here
+From*
+current value is MM/YYYY
+MM
+/
+YYYY
+
+Error: The field From is required and must have a value.
+
+To*
+current value is MM/YYYY
+MM
+/
+YYYY
+
+Error: The field To is required and must have a value.
+
+Role Description
+Add Another
+Education
+
+*When selecting your degree type, you will first select which country you received your degree type from.
+
+Add
+Languages
+Add
+Skills
+Type to Add Skills
+0 items selected
+Resume/CV
+
+Upload a file (5MB max)*
+Drop files here
+or
+Select files
+resume.pdf successfully uploaded
+resume.pdf
+88.03 KB
+Successfully Uploaded!
+
+Websites
+Add any relevant websites.
+Add
+Back
+Save and Continue
+Follow Us
+Autodesk?s Candidate Privacy Statement
+? 2026 Workday,
+---- END R0 ----
+  [shot] 04_round0
+  [next] [data-automation-id='pageFooterNextButton']
+  step now: 2
+
+-- round 1 (step 2) review={'review': False, 'submitted': False} --
+---- R1 ----
+Skip to main content
+Careers
+English
+Settings
+jamiecheng0103@gmail.com
+Search for Jobs
+Candidate Home
+Job Alerts
+Back to Job Posting
+Senior Org Effectiveness Consultant
+completed step 1 of 7
+My Information
+current step 2 of 7
+My Experience
+step 3 of 7
+Application Questions 1 of 2
+step 4 of 7
+Application Questions 2 of 2
+step 5 of 7
+Voluntary Disclosures
+step 6 of 7
+Self Identify
+step 7 of 7
+Review
+My Experience
+* Indicates a required field
+Errors Found
+Error-Job Title
+The field Job Title is required and must have a value.
+Error-Company
+The field Company is required and must have a value.
+Error-From
+The field From is required and must have a value.
+Error-To
+The field To is required and must have a value.
+Work Experience
+Work Experience 1
+Job Title*
+
+Error: The field Job Title is required and must have a value.
+
+Company*
+
+Error: The field Company is required and must have a value.
+
+Location
+I currently work here
+From*
+current value is MM/YYYY
+MM
+/
+YYYY
+
+Error: The field From is required and must have a value.
+
+To*
+current value is MM/YYYY
+MM
+/
+YYYY
+
+Error: The field To is required and must have a value.
+
+Role Description
+Add Another
+Education
+
+*When selecting your degree type, you will first select which country you received your degree type from.
+
+Add
+Languages
+Add
+Skills
+Type to Add Skills
+0 items selected
+Resume/CV
+
+Upload a file (5MB max)*
+Drop files here
+or
+Select files
+resume.pdf
+88.03 KB
+Successfully Uploaded!
+
+Websites
+Add any relevant websites.
+Add
+Back
+Save and Continue
+Follow Us
+Autodesk?s Candidate Privacy Statement
+? 2026 Workday, Inc. All rights reserved.
+---- END R1 ----
+  [shot] 04_round1
+  [next] [data-automation-id='pageFooterNextButton']
+  step now: 2
+
+-- round 2 (step 2) review={'review': False, 'submitted': False} --
+---- R2 ----
+Skip to main content
+Careers
+English
+Settings
+jamiecheng0103@gmail.com
+Search for Jobs
+Candidate Home
+Job Alerts
+Back to Job Posting
+Senior Org Effectiveness Consultant
+completed step 1 of 7
+My Information
+current step 2 of 7
+My Experience
+step 3 of 7
+Application Questions 1 of 2
+step 4 of 7
+Application Questions 2 of 2
+step 5 of 7
+Voluntary Disclosures
+step 6 of 7
+Self Identify
+step 7 of 7
+Review
+My Experience
+* Indicates a required field
+Errors Found
+Error-Job Title
+The field Job Title is required and must have a value.
+Error-Company
+The field Company is required and must have a value.
+Error-From
+The field From is required and must have a value.
+Error-To
+The field To is required and must have a value.
+Work Experience
+Work Experience 1
+Job Title*
+
+Error: The field Job Title is required and must have a value.
+
+Company*
+
+Error: The field Company is required and must have a value.
+
+Location
+I currently work here
+From*
+current value is MM/YYYY
+MM
+/
+YYYY
+
+Error: The field From is required and must have a value.
+
+To*
+current value is MM/YYYY
+MM
+/
+YYYY
+
+Error: The field To is required and must have a value.
+
+Role Description
+Add Another
+Education
+
+*When selecting your degree type, you will first select which country you received your degree type from.
+
+Add
+Languages
+Add
+Skills
+Type to Add Skills
+0 items selected
+Resume/CV
+
+Upload a file (5MB max)*
+Drop files here
+or
+Select files
+resume.pdf
+88.03 KB
+Successfully Uploaded!
+
+Websites
+Add any relevant websites.
+Add
+Back
+Save and Continue
+Follow Us
+Autodesk?s Candidate Privacy Statement
+? 2026 Workday, Inc. All rights reserved.
+---- END R2 ----
+  [shot] 04_round2
+  [next] [data-automation-id='pageFooterNextButton']
+  step now: 2
+
+-- round 3 (step 2) review={'review': False, 'submitted': False} --
+---- R3 ----
+Skip to main content
+Careers
+English
+Settings
+jamiecheng0103@gmail.com
+Search for Jobs
+Candidate Home
+Job Alerts
+Back to Job Posting
+Senior Org Effectiveness Consultant
+completed step 1 of 7
+My Information
+current step 2 of 7
+My Experience
+step 3 of 7
+Application Questions 1 of 2
+step 4 of 7
+Application Questions 2 of 2
+step 5 of 7
+Voluntary Disclosures
+step 6 of 7
+Self Identify
+step 7 of 7
+Review
+My Experience
+* Indicates a required field
+Errors Found
+Error-Job Title
+The field Job Title is required and must have a value.
+Error-Company
+The field Company is required and must have a value.
+Error-From
+The field From is required and must have a value.
+Error-To
+The field To is required and must have a value.
+Work Experience
+Work Experience 1
+Job Title*
+
+Error: The field Job Title is required and must have a value.
+
+Company*
+
+Error: The field Company is required and must have a value.
+
+Location
+I currently work here
+From*
+current value is MM/YYYY
+MM
+/
+YYYY
+
+Error: The field From is required and must have a value.
+
+To*
+current value is MM/YYYY
+MM
+/
+YYYY
+
+Error: The field To is required and must have a value.
+
+Role Description
+Add Another
+Education
+
+*When selecting your degree type, you will first select which country you received your degree type from.
+
+Add
+Languages
+Add
+Skills
+Type to Add Skills
+0 items selected
+Resume/CV
+
+Upload a file (5MB max)*
+Drop files here
+or
+Select files
+resume.pdf
+88.03 KB
+Successfully Uploaded!
+
+Websites
+Add any relevant websites.
+Add
+Back
+Save and Continue
+Follow Us
+Autodesk?s Candidate Privacy Statement
+? 2026 Workday, Inc. All rights reserved.
+---- END R3 ----
+  [shot] 04_round3
+  [next] [data-automation-id='pageFooterNextButton']
+
+=== 2026-06-14T05:02:52.002771 :: Autodesk CONTINUE (signed-in, 7-step) ===
+  start step: 3 | url: https://autodesk.wd1.myworkdayjobs.com/en-US/Ext/job/AMER---United-States---Colorado---Denver---Wewatta/Senior-Org-Effectiveness-Consultant_26WD97717/apply/applyManually
+  START_AT_ROUNDS=1 -> skipping My Information + My Experience (already done); going to question rounds
+
+-- round 0 (step 3) review={'review': False, 'submitted': False} --
+---- R0 ----
+Skip to main content
+Careers
+English
+Settings
+jamiecheng0103@gmail.com
+Search for Jobs
+Candidate Home
+Job Alerts
+Back to Job Posting
+Senior Org Effectiveness Consultant
+completed step 1 of 7
+My Information
+completed step 2 of 7
+My Experience
+current step 3 of 7
+Application Questions 1 of 2
+step 4 of 7
+Application Questions 2 of 2
+step 5 of 7
+Voluntary Disclosures
+step 6 of 7
+Self Identify
+step 7 of 7
+Review
+Application Questions 1 of 2
+* Indicates a required field
+
+Are you eligible to work in the country in which this position is located?*
+
+Select One
+
+Will you now or in the future require sponsorship for employment visa status?*
+
+Select One
+
+I would like to be part of the Autodesk, Inc. Talent Community, and receive information about opportunities with Autodesk.*
+
+Select One
+Back
+Save and Continue
+Follow Us
+Autodesk?s Candidate Privacy Statement
+? 2026 Workday, Inc. All rights reserved.
+---- END R0 ----
+  [dd] sponsorship: opts=Select One|Yes|No
+  [dd] sponsorship = Yes
+  [dd] work_authorized: opts=Select One|Yes|No
+  [dd] work_authorized = Yes
+  [shot] 04_round0
+  [next] [data-automation-id='pageFooterNextButton']
+  step now: 3
+
+-- round 1 (step 3) review={'review': False, 'submitted': False} --
+---- R1 ----
+Skip to main content
+Careers
+English
+Settings
+jamiecheng0103@gmail.com
+Search for Jobs
+Candidate Home
+Job Alerts
+Back to Job Posting
+Senior Org Effectiveness Consultant
+completed step 1 of 7
+My Information
+completed step 2 of 7
+My Experience
+current step 3 of 7
+Application Questions 1 of 2
+step 4 of 7
+Application Questions 2 of 2
+step 5 of 7
+Voluntary Disclosures
+step 6 of 7
+Self Identify
+step 7 of 7
+Review
+Application Questions 1 of 2
+* Indicates a required field
+Errors Found
+Error-I would like to be part of the Autodesk, Inc. Talent Community, and receive information about opportunities with Autodesk.
+The field I would like to be part of the Autodesk, Inc. Talent Community, and receive information about opportunities with Autodesk. is required and must have a value.
+
+Are you eligible to work in the country in which this position is located?*
+
+Yes
+
+Will you now or in the future require sponsorship for employment visa status?*
+
+Yes
+
+I would like to be part of the Autodesk, Inc. Talent Community, and receive information about opportunities with Autodesk.*
+
+Select One
+
+Error: The field I would like to be part of the Autodesk, Inc. Talent Community, and receive information about opportunities with Autodesk. is required and must have a value.
+
+Back
+Save and Continue
+Follow Us
+Autodesk?s Candidate Privacy Statement
+? 2026 Workday, Inc. All rights reserved.
+---- END R1 ----
+  [shot] 04_round1
+  [next] [data-automation-id='pageFooterNextButton']
+  step now: 3
+
+-- round 2 (step 3) review={'review': False, 'submitted': False} --
+---- R2 ----
+Skip to main content
+Careers
+English
+Settings
+jamiecheng0103@gmail.com
+Search for Jobs
+Candidate Home
+Job Alerts
+Back to Job Posting
+Senior Org Effectiveness Consultant
+completed step 1 of 7
+My Information
+completed step 2 of 7
+My Experience
+current step 3 of 7
+Application Questions 1 of 2
+step 4 of 7
+Application Questions 2 of 2
+step 5 of 7
+Voluntary Disclosures
+step 6 of 7
+Self Identify
+step 7 of 7
+Review
+Application Questions 1 of 2
+* Indicates a required field
+Errors Found
+Error-I would like to be part of the Autodesk, Inc. Talent Community, and receive information about opportunities with Autodesk.
+The field I would like to be part of the Autodesk, Inc. Talent Community, and receive information about opportunities with Autodesk. is required and must have a value.
+
+Are you eligible to work in the country in which this position is located?*
+
+Yes
+
+Will you now or in the future require sponsorship for employment visa status?*
+
+Yes
+
+I would like to be part of the Autodesk, Inc. Talent Community, and receive information about opportunities with Autodesk.*
+
+Select One
+
+Error: The field I would like to be part of the Autodesk, Inc. Talent Community, and receive information about opportunities with Autodesk. is required and must have a value.
+
+Back
+Save and Continue
+Follow Us
+Autodesk?s Candidate Privacy Statement
+? 2026 Workday, Inc. All rights reserved.
+---- END R2 ----
+  [shot] 04_round2
+  [next] [data-automation-id='pageFooterNextButton']
+
+=== 2026-06-14T05:03:51.441929 :: Autodesk CONTINUE (signed-in, 7-step) ===
+  start step: 3 | url: https://autodesk.wd1.myworkdayjobs.com/en-US/Ext/job/AMER---United-States---Colorado---Denver---Wewatta/Senior-Org-Effectiveness-Consultant_26WD97717/apply/applyManually
+  START_AT_ROUNDS=1 -> skipping My Information + My Experience (already done); going to question rounds
+
+-- round 0 (step 3) review={'review': False, 'submitted': False} --
+---- R0 ----
+Skip to main content
+Careers
+English
+Settings
+jamiecheng0103@gmail.com
+Search for Jobs
+Candidate Home
+Job Alerts
+Back to Job Posting
+Senior Org Effectiveness Consultant
+completed step 1 of 7
+My Information
+completed step 2 of 7
+My Experience
+current step 3 of 7
+Application Questions 1 of 2
+step 4 of 7
+Application Questions 2 of 2
+step 5 of 7
+Voluntary Disclosures
+step 6 of 7
+Self Identify
+step 7 of 7
+Review
+Application Questions 1 of 2
+* Indicates a required field
+Errors Found
+Error-I would like to be part of the Autodesk, Inc. Talent Community, and receive information about opportunities with Autodesk.
+The field I would like to be part of the Autodesk, Inc. Talent Community, and receive information about opportunities with Autodesk. is required and must have a value.
+
+Are you eligible to work in the country in which this position is located?*
+
+Yes
+
+Will you now or in the future require sponsorship for employment visa status?*
+
+Yes
+
+I would like to be part of the Autodesk, Inc. Talent Community, and receive information about opportunities with Autodesk.*
+
+Select One
+
+Error: The field I would like to be part of the Autodesk, Inc. Talent Community, and receive information about opportunities with Autodesk. is required and must have a value.
+
+Back
+Save and Continue
+Follow Us
+Autodesk?s Candidate Privacy Statement
+? 2026 Workday, Inc. All rights reserved.
+---- END R0 ----
+  [dd] sponsorship: opts=Select One|Yes|No
+  [dd] sponsorship = Yes
+  [dd] work_authorized: opts=Select One|Yes|No
+  [dd] work_authorized = Yes
+  [dd] talent_community: opts=Select One|Yes|No
+  [dd] talent_community = No
+  [shot] 04_round0
+  [next] [data-automation-id='pageFooterNextButton']
+  step now: 4
+
+-- round 1 (step 4) review={'review': False, 'submitted': False} --
+---- R1 ----
+Skip to main content
+Careers
+English
+Settings
+jamiecheng0103@gmail.com
+Search for Jobs
+Candidate Home
+Job Alerts
+Back to Job Posting
+Senior Org Effectiveness Consultant
+completed step 1 of 7
+My Information
+completed step 2 of 7
+My Experience
+completed step 3 of 7
+Application Questions 1 of 2
+current step 4 of 7
+Application Questions 2 of 2
+step 5 of 7
+Voluntary Disclosures
+step 6 of 7
+Self Identify
+step 7 of 7
+Review
+Application Questions 2 of 2
+* Indicates a required field
+
+Affiliation, for this application, means active involvement with the specified organizations, including attending their events or participating in their programs. Disclosure of such affiliations does not influence the consideration of your application, which is based solely on skills and qualifications.
+
+Please select any Afflilations.
+
+Afro Tech
+Blacks in Tech
+Code2040
+Fairygodboss
+Girl Geek X
+Girls Who Code
+HBCU20x20
+HSI Career Collaborative
+Latinas in Tech
+Lesbians Who Tech
+Management Leadership for Tomorrow - MLT
+MyGwork
+National Action Council for Minorities Engineering - NACME
+Nextplay Events
+OutGeek Women
+Power to Fly
+Sistas in Sales
+Society of Women Engineers
+STEM Women
+targetjobs, built by GTI
+The Hidden Genius Project
+WomenHack
+Women in Sales Everywhere - WISE
+I am not affiliated with any of these groups
+Back
+Save and Continue
+Follow Us
+Autodesk?s Candidate Privacy Statement
+? 2026 Workday, Inc. All rights reserved.
+---- END R1 ----
+  [shot] 04_round1
+  [next] [data-automation-id='pageFooterNextButton']
+  step now: 5
+
+-- round 2 (step 5) review={'review': False, 'submitted': False} --
+---- R2 ----
+Skip to main content
+Careers
+English
+Settings
+jamiecheng0103@gmail.com
+Search for Jobs
+Candidate Home
+Job Alerts
+Back to Job Posting
+Senior Org Effectiveness Consultant
+completed step 1 of 7
+My Information
+completed step 2 of 7
+My Experience
+completed step 3 of 7
+Application Questions 1 of 2
+completed step 4 of 7
+Application Questions 2 of 2
+current step 5 of 7
+Voluntary Disclosures
+step 6 of 7
+Self Identify
+step 7 of 7
+Review
+Voluntary Disclosures
+* Indicates a required field
+U.S. Equal Employment Opportunity Personal Data Statement (Voluntary Self-Identification)
+Autodesk values all dimensions of diversity. At Autodesk, we?re building a diverse workplace and an inclusive culture to give more people the chance to imagine, design, and make a better world. ?As a federal contractor or subcontractor, Autodesk is subject to certain record-keeping and reporting regulations for data on diversity and affirmative action.? These regulations require us to invite candidates to self-identify their gender and race/ethnicity. Any information that you choose to provide will not be considered by Autodesk for employment purposes, will be treated as personal and confi?dential, and will only be used to further our Belonging & Diversity efforts in accordance with applicable federal laws and regulations, including those which require the information to be summarized and reported to the federal government for civil rights enforcement purposes. Your volun?tary cooperation is appreciated.
+?
+Autodesk is proud to be an equal opportunity employer and considers all qualified applicants for employment 
+---- END R2 ----
+  [dd] gender: opts=Select One|Female|Male
+  [dd] gender = Female
+  [dd] ethnicity: opts=Select One|Asian (Not Hispanic or Latino) (United States of America)|Black or African American (Not Hispanic or Latino) (United States of America)|Declined to State (United States of America)|Hispanic or Latino (United States of America)|Na
+  [dd] ethnicity = Asian (Not Hispanic or Latino) (United States of America)
+  [shot] 04_round2
+  [next] [data-automation-id='pageFooterNextButton']
+  step now: 5
+
+-- round 3 (step 5) review={'review': False, 'submitted': False} --
+---- R3 ----
+Skip to main content
+Careers
+English
+Settings
+jamiecheng0103@gmail.com
+Search for Jobs
+Candidate Home
+Job Alerts
+Back to Job Posting
+Senior Org Effectiveness Consultant
+completed step 1 of 7
+My Information
+completed step 2 of 7
+My Experience
+completed step 3 of 7
+Application Questions 1 of 2
+completed step 4 of 7
+Application Questions 2 of 2
+current step 5 of 7
+Voluntary Disclosures
+step 6 of 7
+Self Identify
+step 7 of 7
+Review
+Voluntary Disclosures
+* Indicates a required field
+Errors Found
+Error-Please identify your veteran status.
+The field Please identify your veteran status. is required and must have a value.
+Error-Hispanic or Latino?
+The field Hispanic or Latino? is required and must have a value.
+Error-Yes, I have read and acknowledge Autodesk?s Candidate Privacy Statement.
+Field and Value required
+U.S. Equal Employment Opportunity Personal Data Statement (Voluntary Self-Identification)
+Autodesk values all dimensions of diversity. At Autodesk, we?re building a diverse workplace and an inclusive culture to give more people the chance to imagine, design, and make a better world. ?As a federal contractor or subcontractor, Autodesk is subject to certain record-keeping and reporting regulations for data on diversity and affirmative action.? These regulations require us to invite candidates to self-identify their gender and race/ethnicity. Any information that you choose to provide will not be considered by Autodesk for employment purposes, will be treated as personal and confi?dential, and will only be used to further our Belonging & Diversity efforts in accordance with app
+---- END R3 ----
+  [dd] hispanic: opts=Select One|Yes|No
+  [dd] hispanic = No
+  [dd] veteran: opts=Select One|I IDENTIFY AS ONE OR MORE OF THE CLASSIFICATIONS OF PROTECTED VETERANS LISTED ABOVE|I IDENTIFY AS A VETERAN, JUST NOT A PROTECTED VETERAN|I AM NOT A VETERAN|I DO NOT WISH TO SELF-IDENTIFY
+  [dd] veteran = I AM NOT A VETERAN
+  [check] ack: ['yes, i have read and acknowledge autodesk?s candid']
+  [shot] 04_round3
+  [next] [data-automation-id='pageFooterNextButton']
+  step now: 6
+
+-- round 4 (step 6) review={'review': False, 'submitted': False} --
+---- R4 ----
+Skip to main content
+Careers
+English
+Settings
+jamiecheng0103@gmail.com
+Search for Jobs
+Candidate Home
+Job Alerts
+Back to Job Posting
+Senior Org Effectiveness Consultant
+completed step 1 of 7
+My Information
+completed step 2 of 7
+My Experience
+completed step 3 of 7
+Application Questions 1 of 2
+completed step 4 of 7
+Application Questions 2 of 2
+completed step 5 of 7
+Voluntary Disclosures
+current step 6 of 7
+Self Identify
+step 7 of 7
+Review
+Self Identify
+* Indicates a required field
+Language*
+English
+Voluntary Self-Identification of Disability
+Form
+CC-305
+OMB Control Number
+1250-0005
+Expires
+04/30/2026
+Name*
+Employee ID (if applicable)
+Date*
+current value is MM/DD/YYYY
+MM
+/
+DD
+/
+YYYY
+Why are you being asked to complete this form?
+We are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.
+
+Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor?s Office of Federal Contract Compliance Programs (OFCCP) website at 
+---- END R4 ----
+  -- CC-305 --
+  [text] selfid_name = Jamie Cheng
+  [date] selfid_date set
+  [check] disability=No ( No, I do not have a disability and have not had one in the past )
+  [shot] 04_round4
+  [next] [data-automation-id='pageFooterNextButton']
+  step now: 6
+
+-- round 5 (step 6) review={'review': False, 'submitted': False} --
+---- R5 ----
+Skip to main content
+Careers
+English
+Settings
+jamiecheng0103@gmail.com
+Search for Jobs
+Candidate Home
+Job Alerts
+Back to Job Posting
+Senior Org Effectiveness Consultant
+completed step 1 of 7
+My Information
+completed step 2 of 7
+My Experience
+completed step 3 of 7
+Application Questions 1 of 2
+completed step 4 of 7
+Application Questions 2 of 2
+completed step 5 of 7
+Voluntary Disclosures
+current step 6 of 7
+Self Identify
+step 7 of 7
+Review
+Self Identify
+* Indicates a required field
+Language*
+English
+Voluntary Self-Identification of Disability
+Form
+CC-305
+OMB Control Number
+1250-0005
+Expires
+04/30/2026
+Name*
+Employee ID (if applicable)
+Date*
+current value is 6/14/2026
+06
+/
+14
+/
+2026
+Why are you being asked to complete this form?
+We are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.
+
+Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor?s Office of Federal Contract Compliance Programs (OFCCP) website at w
+---- END R5 ----
+  -- CC-305 --
+  [date] selfid_date set
+  [check] disability=No ( No, I do not have a disability and have not had one in the past )
+  [shot] 04_round5
+  [next] [data-automation-id='pageFooterNextButton']
+  step now: 7
+
+-- round 6 (step 7) review={'review': False, 'submitted': False} --
+---- R6 ----
+Skip to main content
+Careers
+English
+Settings
+jamiecheng0103@gmail.com
+Search for Jobs
+Candidate Home
+Job Alerts
+Back to Job Posting
+Senior Org Effectiveness Consultant
+completed step 1 of 7
+My Information
+completed step 2 of 7
+My Experience
+completed step 3 of 7
+Application Questions 1 of 2
+completed step 4 of 7
+Application Questions 2 of 2
+completed step 5 of 7
+Voluntary Disclosures
+completed step 6 of 7
+Self Identify
+current step 7 of 7
+Review
+Review
+My Information
+How Did You Hear About Us?
+LinkedIn
+Have you previously worked for Autodesk? If Yes, please answer the questions below. If No, please continue to the next page.
+No
+Legal Name
+Yi-Chieh Cheng
+I have a preferred name
+No
+Address
+1784 NW Northrup Street
+Portland, OR 97209
+United States of America
+Email Address
+jamiecheng0103@gmail.com
+Phone
++1 (213) 7003831 (Mobile)
+My Experience
+Work Experience
+Work Experience 1
+Job Title
+Program Enablement Manager
+Company
+InGenius Prep, LLC
+Location
+No Response
+I currently work here
+Yes
+From
+09/2023
+Role Description
+No Response
+Education
+No Response
+Languages
+No Response
+Skills
+Resume/CV
+
+resume.pdf successfully uploaded
+resume.pdf
+88.03 KB
+
+Websites
+Add any relevant websites.
+No Response
+Application Questions 1 of 2
+
+Are you eligible to work in the country in which this position is located?*
+
+Yes
+
+Will you now or in the future require sponsorship for employment visa status?*
+
+Yes
+
+I would like to be part of the Autodesk, Inc. Talent Community, and receive information about opportunities with Autodesk.*
+
+No
+Application Questions 2 of 2
+
+Please select any Afflilations.
+
+No Respons
+---- END R6 ----
+  [dd] prev_autodesk: none for ['previously', 'former employee', 'contingent']
+  [shot] 04_round6
+  [next] [data-automation-id='pageFooterNextButton']
+  step now: None
+
+-- round 7 (step None) review={'review': False, 'submitted': False} --
+---- R7 ----
+Skip to main content
+Careers
+English
+Settings
+jamiecheng0103@gmail.com
+Search for Jobs
+Candidate Home
+Job Alerts
+Welcome, Yi-Chieh Cheng
+My Tasks
+
+You have no tasks.
+
+My Applications
+Follow us to learn more about our Culture and our People!? #AutodeskLife
+Active (1)
+Inactive (3)
+Job Title
+Job Req
+My Application Status
+Date Submitted
+Action
+Senior Org Effectiveness Consultant
+26WD97717
+Under Review
+June 14, 2026
+Suggested Jobs
+
+There are currently no suggested jobs.
+
+Welcome
+Thank you for creating a login to our careers site. We?re excited about your interest in an opportunity at Autodesk. This portal will allow you to check the status of your application and review related materials.
+#AutodeskLife
+Read More
+About Us
+From the greenest buildings to the cleanest cars, from the smartest factories to the biggest stories, amazing things are created every day with Autodesk. Over four decades we?ve worked together with our customers to transform?how?things are made, and in doing so, we?ve also transformed?what?can be made. A car?s performance now inspires the method of its manufacture, a city?s infrastructure helps predict the unpredictable, and the creation of ever-bigger universes shapes ever-bigger stories.?
+Today our solutions span countless industries empowering innovators everywhere. But we?re restless to do more. We don?t believe in waiting for progress, we believe in making it. By combining and recombining technologies. By blurring boundaries, reinventing rules, and merging fields. By unleashing talent and unlocking insights across industries. By helping our customers conve
+---- END R7 ----
+  [shot] 04_round7
+  [next] NONE
+  step now: None
+
+-- REVIEW --
+  captcha: {'present': False, 'visible': False}
+  [shot] 07_review_full
+
+>>> REVIEW reached. WAITING for DECISION.txt...
+
+*** CLOSE/none ***
+
+Keeping tab ~4 more min...
