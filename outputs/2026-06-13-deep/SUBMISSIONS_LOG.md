@@ -32,6 +32,10 @@
 > **Staged-9 re-drive COMPLETE for the clean lane:** DraftKings + Trimble + Accuris + Premera — ALL 4 SUBMITTED
 > + confirmed (CDP set_input_files unblocked every upload-only-blocked role). Remaining staged-9 = account/captcha
 > lanes (OHSU iCIMS, Chartis Ashby-captcha, Jacobs/BCG Phenom, PSU PeopleAdmin, 4G SaaSHR, nextSource Humanforce) = human-finish.
+| 10 | EY | People Consulting, Organization Design, Senior Consultant (req 1668151) | SAP SuccessFactors (account) | ✅ "You have successfully submitted your application" + email from TalentAttractionandAcquisition@ey.com (verified Gmail msg 19ec54540a70699d) | ✅ resume.pdf (06/14, REPLACED stale Feb on-file resume+cover — tailored invariant enforced) | Portland-local P2 consulting; existing EY account (added to registry); sponsorship=Yes; comp $130-140K (all-geo midpoint). ⚠️ Required agreeing to EY's mandatory-arbitration "Common Ground Dispute Resolution Program" (jury/court waiver) — unavoidable to apply; checked as precondition, flagged to David. |
+| 11 | C1 / ConductorOne, Inc. | Talent & Workplace Coordinator | Ashby | ✅ "Your application was successfully submitted" banner + "Application Received - C1" email from no-reply@ashbyhq.com (verified Gmail msg 19ec5283757fdf6c) | ✅ resume.pdf | Portland-local P3 (genuine talent+workplace coordination, NOT clerical — vetted); minimal form (no sponsorship/EEO gate); invisible reCAPTCHA-v3 self-cleared (no challenge). Corrected company identity: ConductorOne (AI access-gov startup), NOT ConvergeOne. |
+> **Wave B (Portland-local) COMPLETE:** EY + C1 both SUBMITTED + dual-confirmed (page + email, orchestrator-verified in Gmail).
+> EY tailored-resume invariant: replaced the stale Feb on-file resume with the fresh 06/14 tailored one. 11 confirmed submits this run.
 > DraftKings + Trimble email-confirmations BOTH independently verified by orchestrator in Jamie's Gmail
 > (msgs 19ec4fb30515fa31, 19ec5106c595148b). Accuris success page screenshot-verified. 8 confirmed submits this run.
 

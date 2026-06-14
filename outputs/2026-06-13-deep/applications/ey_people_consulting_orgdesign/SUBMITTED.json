@@ -1,0 +1,54 @@
+{
+  "company": "EY (Ernst & Young)",
+  "role": "People Consulting - Organization Design - Senior Consultant",
+  "requisition_id": "1668151",
+  "location": "Portland, OR (listed eligible location; canonical posting titled Dallas)",
+  "ats": "SAP SuccessFactors (career5.successfactors.eu, company=EYHRISPRD1) — reached via careers.ey.com Phenom 'Apply Now' (NOT Workday as originally briefed)",
+  "linkedin_jd": "https://www.linkedin.com/jobs/view/4385088257/",
+  "apply_entry": "https://careers.ey.com/ey/job/Dallas-People-Consulting-Organization-Design-Senior-Consulting-TX-75219/1275661001/ -> Apply Now (manual) -> SuccessFactors candidate portal",
+  "status": "SUBMITTED",
+  "confirmed": true,
+  "submitted_at": "2026-06-14 (overnight run)",
+  "confirmation_evidence": "Page title became 'Career Opportunities: Successfully Applied to People Consulting-Organization Design-Senior-Consulting (1668151)' and body rendered 'You have successfully submitted your application to this role. The exceptional EY experience. It's yours to build.' Verified by body-text scrape AND full viewport screenshot read-back (_ey_success_viewport.png).",
+  "account": "EXISTING EY SuccessFactors candidate account for jamiecheng0103@gmail.com (NOT newly created — 'Account Already Exists' on registration). Signed in with shared ATS password. A prior application (02/25/2026) had pre-populated the profile + stale documents.",
+  "attached_resume_filename": "resume.pdf",
+  "attached_resume_note": "REPLACED a stale prior-application resume (Resume_Jamie (Yi-Chieh) Cheng _2026_EY.pdf, dated 02/25/2026) with THIS role's tailored resume.pdf via the document-edit upload (fileData1). Resume tile read back as 'resume.pdf (06/14/2026)'. Tailored-resume invariant satisfied.",
+  "attached_cover_filename": "cover_letter.pdf",
+  "attached_cover_note": "DELETED stale prior cover (Cover Letter_Jamie (Yi-Chieh) Cheng_EY.pdf, 02/25/2026) and uploaded THIS role's tailored cover_letter.pdf. Cover tile read back as 'cover_letter.pdf (06/14/2026)'.",
+  "other_documents_left_on_file": [
+    "Reference List_Jamie (Yi-Chieh) Cheng.pdf",
+    "Work Sample_Manager Effectiveness Project_Jamie (Yi-Chieh) Cheng.pdf"
+  ],
+  "answers": {
+    "legal_name": "Yi-Chieh Cheng (preferred: Jamie)",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "2137003831",
+    "country": "United States",
+    "work_experience": "OD Network Oregon (Consultant, Organizational Development); InGenius Prep (Strategic Partnership & Program ...); NextGen Healthcare (Organizational Development Intern); Vestas Wind Systems (HR Business Partner Assistant) — all pre-populated from prior application, verified present",
+    "geographic_mobility": "Willing to Relocate = Yes; Location Desired = Portland, OR",
+    "language_skills": "English (Fluent x3), Chinese (Fluent x3)",
+    "eeo_gender": "Female",
+    "eeo_ethnicity": "Not Hispanic or Latino",
+    "eeo_race": "Asian",
+    "eeo_veteran": "No",
+    "eeo_disability": "No, I do not have a disability and have not had one in the past",
+    "legally_authorized_to_work_beyond_practical_training": "Yes",
+    "require_work_authorization_or_visa_now_or_future": "Yes (truthful — H-1B transfer required; EY = confirmed sponsor, JD had no no-sponsor language)",
+    "resident_of_5_boroughs_nyc": "No",
+    "total_compensation_expectation": "$130,001-$140,000 (midpoint of EY all-geo posted band $100,600-$165,900 per answer-profile midpoint rule; Portland is all-geo, not WA/CA/NYC)"
+  },
+  "legal_acknowledgments": {
+    "data_privacy_statement": "Acknowledged/Consented (SAP SuccessFactors Recruiting Privacy Notice) — required to use the candidate account.",
+    "alternative_dispute_resolution": "AGREED. EY 'Common Ground Dispute Resolution Program' (25747-251US): by submitting, Jamie acknowledges all disputes/claims are subject to MANDATORY mediation/arbitration and WAIVES right to a jury or court of law. Required checkbox to submit any EY US application; checked as an unavoidable precondition of the David-authorized submission. FLAGGED FOR DAVID'S AWARENESS."
+  },
+  "captcha_note": "NO CAPTCHA encountered anywhere in the EY flow (account sign-in, document upload, profile, or final Apply). captcha=false at submit.",
+  "unknowns": [],
+  "screenshots": [
+    "_ey_after_signin.png (apply page after login)",
+    "_ey_cover_added.png (both tailored docs attached)",
+    "_ey_answers_final.png (work-auth/sponsorship/NYC/salary answers selected)",
+    "_ey_presubmit_full.png (full-page pre-submit, all-clean audit)",
+    "_ey_bottom.png (Apply button + salary selection)",
+    "_ey_after_apply.png + _ey_success_viewport.png (SUCCESS confirmation)"
+  ]
+}
