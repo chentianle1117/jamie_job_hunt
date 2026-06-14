@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "company": "Notion",
+    "role": "People Analytics & Operations, University Hire (Rotational Program)",
+    "date": "2026-06-13",
+    "pageMargins": { "top": "0.35in", "right": "0.45in", "bottom": "0.35in", "left": "0.45in" },
+    "autoFit": true,
+    "fontRange": [8.5, 10.0]
+  },
+  "header": {
+    "location": "San Francisco, CA (Open to Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>People &amp; Organizational Development</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve people experience and operations—through human-centered, data-driven approaches.",
+  "keywordGroups": {
+    "data": "Data/Analytics",
+    "coord": "Coordination/Ops",
+    "cross": "Stakeholders/Collab",
+    "ex": "Employee Experience",
+    "tools": "Tools/Systems",
+    "prog": "Programs/L&D"
+  },
+  "experience": [
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        { "text": "Analyzed 2,000+ {data|employee survey responses} to turn a messy people question into a clean narrative guiding C-suite decisions" },
+        { "text": "Led a manager-effectiveness {data|analysis}, transforming raw feedback data into executive-ready reports that informed engagement strategy" },
+        { "text": "Owned the analytical arc end-to-end—from pulling the {data|data} to presenting recommendations to senior leadership" },
+        { "text": "Improved {ex|employee experience} via 5 {cross|cross-functional} projects spanning survey development, rewards & recognition, and L&D" }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Upskill an HR team in {data|data analytics} to audit 300+ leave cases, refuting cost assumptions via {data|evidence-based insights}" },
+        { "text": "Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training" }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Redesigned {coord|onboarding} workflows and documentation for 70+ {cross|cross-functional} staff, surfacing process gaps that cut onboarding time 75%" },
+        { "text": "Manage 20+ programs and 10+ {coord|vendors}, keeping {data|program data} clean and refining delivery via {data|feedback analysis}" },
+        { "text": "Prototype {tools|AI-assisted workflows} (ChatGPT, Gemini) to replace manual, repetitive operations tasks and move faster" },
+        { "text": "Conduct needs assessments with 25+ global {cross|stakeholders} to identify gaps and design 3 new programs, reaching a 78% enrollment rate" }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        { "text": "Optimized {coord|onboarding} processes for new hires across 3 global locations via process analysis and clearer job responsibilities" },
+        { "text": "Facilitated organizational change by directing a Mergers & Acquisitions project, overseeing {cross|cross-functional stakeholders}" },
+        { "text": "Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations" },
+        { "text": "Strengthened engagement via an HR newsletter and award-winning well-being initiatives, recognized among 1,000+ competitors" }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Developed proficiency across HR functions, ranging from recruitment and compensation to performance management" },
+        { "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation data" },
+        { "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months" },
+        { "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": ["Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": ["Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"]
+    }
+  ],
+  "projects": [
+    "<b>AI Build:</b> Building a <b>RAG-based job-search system</b> with a developer that evaluates role fit from my own resumes, experience, and preferences",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Data &amp; Tools:</b> Data Analysis (Excel, Google Sheets, SPSS) · HRIS (SAP, Rippling, ADP) · ATS (Greenhouse) · Knowledge Management (Notion, SharePoint)",
+    "<b>AI &amp; Productivity:</b> AI Tools (ChatGPT, Gemini) · Project Management (Asana, Airtable) · Microsoft Office (Word, PowerPoint) · Google Workspace",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)"
+  ],
+  "jd": {
+    "meta": "",
+    "sections": []
+  },
+  "changeLog": []
+}

@@ -1,0 +1,25 @@
+{
+  "company": "Asana",
+  "title": "Workplace Coordinator",
+  "slug": "asana_workplace_coordinator",
+  "url": "https://www.asana.com/jobs/apply/7714359?gh_jid=7714359",
+  "ats": "Greenhouse (no-account)",
+  "live": true,
+  "final_url": "https://asana.com/jobs/apply/7714359?gh_jid=7714359",
+  "status": "SKIPPED",
+  "decision": "SKIP — clerical/facilities-primary role per JD body (per submit-agent instruction: 'if clerical-primary per JD body, SKIP').",
+  "reasoning": [
+    "The 'What you'll achieve' list is overwhelmingly reception + facilities/office-operations: greet all visitors, enforce Guest Policy sign-in, receive/distribute packages & mail, open/close the office, vendor management, kitchen stock, waste management, repairs & maintenance, office supplies, inventory/storage of food & beverage & office equipment, keep office clean and stocked, maintain seating plans with Space Planning.",
+    "Required qualifications are hands-on office-operations/customer-service: '1-2 years of direct customer service experience' + '2-3 years of office operations experience'; set schedule 9am-5pm Mon-Fri, fully in-office (SF HQ).",
+    "The employee-experience / events component is explicitly a SUPPORTING role ('Assist the Workplace Lead/Manager... in partnership with the Internal Events and the Employee engagement teams'), not ownership of EX programs.",
+    "RULE 0 (no fabrication): Jamie has NO facilities, reception, front-desk, office-operations, or direct customer-service experience in her ground-truth files. A truthful resume/cover cannot be built for this role's core requirements without misrepresenting her OD/program-management background as facilities/reception work. The honest action is to skip rather than inflate.",
+    "Distinct from the Asana Implementation / Customer-Enablement roles applied 5/30 (confirmed)."
+  ],
+  "sponsor_status": "Asana = confirmed sponsor (per orchestrator note); not a blocker. Skip is purely on role-fit/truthfulness grounds, NOT sponsorship.",
+  "no_hard_blocker_present": "No explicit no-sponsorship / ITAR / clearance language in JD; salary band $54,000-$60,000 base posted.",
+  "package_built": false,
+  "submitted": false,
+  "screenshots": [],
+  "cover_gate_result": "n/a (no cover built)",
+  "recorded_at_local": "2026-06-13"
+}

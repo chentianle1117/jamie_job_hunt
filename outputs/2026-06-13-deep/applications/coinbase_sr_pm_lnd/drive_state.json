@@ -1,0 +1,55 @@
+{
+  "filled": {
+    "first_name": "Yi-Chieh",
+    "last_name": "Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "(213) 700-3831",
+    "country": "United States",
+    "location": "Portland, OR (or nearest suggestion)",
+    "emp_company": "InGenius Prep",
+    "emp_title": "Program Enablement Manager",
+    "emp_start_month": "09",
+    "emp_start_year": "2023",
+    "emp_current": "checked",
+    "edu_school": "University of Southern California",
+    "edu_degree": "Master's Degree",
+    "edu_discipline": "Applied Organizational Psychology",
+    "q_linkedin": "https://www.linkedin.com/in/yi-chieh-cheng/"
+  },
+  "unknowns": [
+    "q_18plus (wanted 'Yes')",
+    "q_prev_coinbase (wanted 'No')",
+    "q_source (wanted 'LinkedIn')",
+    "q_privacy_arbitration (wanted 'Yes')",
+    "q_ai_ack (wanted 'Yes')",
+    "q_ai_usage (options: [])",
+    "q_authorized (wanted 'Yes')",
+    "q_sponsorship (wanted 'Yes')",
+    "q_govt_self (wanted 'No')",
+    "q_govt_relative (wanted 'No')",
+    "q_financial_conflict (wanted 'No')",
+    "q_referral_client (wanted 'No')",
+    "q_travel20 (wanted 'Yes')",
+    "q_proximity (options: [])",
+    "demo_gender (wanted 'Woman')",
+    "demo_hispanic (wanted 'No')",
+    "demo_veteran (wanted 'No')",
+    "demo_disability (error)"
+  ],
+  "review_flags": [],
+  "captcha": {
+    "challenge_iframe_present": false,
+    "challenge_visible": false,
+    "checkbox_iframe_visible": true
+  },
+  "upload": {
+    "chips": [
+      "Back to jobs\nNew\nSr. Program Manager, Learning & Development\nRemote - USA\nApply\n",
+      "Back to jobs\nNew\nSr. Program Manager, Learning & Development\nRemote - USA\nApply\n",
+      "Apply for this job\n\n*\n\nindicates a required field\n\nFirst Name*\nLast Name*\nEmail*",
+      "First Name*\nLast Name*\nEmail*\nPhone\nCountry*\n+1\nPhone*\nLocation (City)*\noption N",
+      "First Name*\nLast Name*\nEmail*\nPhone\nCountry*\n+1\nPhone*\nLocation (City)*\noption N",
+      "Resume/CV*\n\nresume.pdf"
+    ]
+  }
+}

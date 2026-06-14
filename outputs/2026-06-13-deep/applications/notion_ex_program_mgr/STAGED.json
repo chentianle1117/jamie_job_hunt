@@ -1,0 +1,61 @@
+{
+  "role": "Employee Experience Program Manager (Onboarding + Adoption)",
+  "company": "Notion",
+  "ats": "Ashby (jobs.ashbyhq.com, no account)",
+  "url": "https://jobs.ashbyhq.com/notion/c2299d80-c3a5-45fa-bf49-29372a4d9aec",
+  "form_url": "https://jobs.ashbyhq.com/notion/c2299d80-c3a5-45fa-bf49-29372a4d9aec/application",
+  "verified_live": true,
+  "live_evidence": "Ashby SPA rendered full posting + application form (6,770 chars). Title 'Employee Experience Program Manager (Onboarding + Adoption) @ Notion'. No 'Job not found' / 'no longer accepting'. Form renders all fields, accepts upload, Submit Application button present.",
+  "fit": "P1 sweet-spot — EX onboarding program management is Jamie's strongest match. Real overlap: onboarding redesign (Vestas across 3 global locations; InGenius -75% time, 70+ staff), program management (20+ programs, 10+ vendors), measure-impact-not-participation (NextGen 2,000+ analysis -> manager-effectiveness driver -> C-suite), cross-functional partnership, AI-as-daily-collaborator. GAP disclosed in cover: JD wants an experienced PM who's 'led global onboarding end to end' at Notion's scale ($195-210K band, senior); Jamie's onboarding work was as enablement manager / HRBP partner — real but more junior in scope. Cover names this growth edge honestly; resume does NOT claim she owned a global program end-to-end.",
+  "hard_blocker_check": {
+    "no_sponsorship_clause": false,
+    "itar_us_person": false,
+    "clerical_primary": false,
+    "verdict": "NO hard blocker. Notion = confirmed H1B sponsor; EEO employer; no ITAR. #LI-Onsite SF/Hybrid (Mon/Tue/Thu Anchor Days) handled via relocation=Yes + Anchor-Days=Yes. Proceed."
+  },
+  "posted_salary_band_usd": "San Francisco base $195,000-$210,000 / year",
+  "attached_resume_filename": "resume.pdf",
+  "attached_resume_confirmed": "YES — filename chip read back from the form DOM = 'resume.pdf'; visually confirmed in _review_top_crop.png (Resume field shows 'resume.pdf' + Replace button). This is THIS role's tailored PDF (EX/onboarding angle: InGenius program-mgmt/onboarding bullets lead; Vestas global-onboarding + 23-location DEI scale; Notion in skills; HRCI included; San Francisco header).",
+  "cover_letter_status": "Built + truth-gated (cover_letter.md / cover_letter.pdf, 1 page, visually verified non-empty). NOT uploaded: Ashby form has a Resume file field but NO dedicated cover-letter file field (and no 'something you've built' field on this posting). Cover is on disk for outreach/email use.",
+  "upload_method": "Patchright connect_over_cdp(9222) -> click 'Upload File' to mount input -> input[type=file].set_input_files(resume.pdf); Ashby renders a 'resume.pdf' chip + Replace button; chip text read back = 'resume.pdf'.",
+  "tailored_upload_confirmed": true,
+  "form_answers": {
+    "full_name": "Jamie Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "(213) 700-3831",
+    "location": "San Francisco, California, United States",
+    "resume": "resume.pdf (tailored, confirmed attached)",
+    "linkedin_profile": "https://www.linkedin.com/in/yi-chieh-cheng/",
+    "pronouns": "She/Her",
+    "anchor_days_commitment (Mon/Tue/Thu onsite)": "Yes",
+    "sponsorship_required (Will you now or in future require Notion to sponsor an immigration case)": "Yes",
+    "how_did_you_hear": "LinkedIn",
+    "gender": "Female",
+    "race": "Asian (Not Hispanic or Latino)",
+    "veteran_status": "I am not a protected veteran",
+    "disability_status": "(not asked on this form / standard EEO; would be 'No' if asked)"
+  },
+  "answer_source": "lib/jamie_answer_profile.py + JAMIE_FEEDBACK_RULES.md §8 (David-authorized): sponsorship=Yes (truthful, never hidden), work-auth=Yes, Woman/Female, Asian, not-Hispanic, not-protected-veteran, ~3yr, onsite/relocation=Yes.",
+  "unknown_or_guessed_fields": [],
+  "active_required_errors_at_stage_time": 0,
+  "captcha_present": true,
+  "captcha_note": "INVISIBLE reCAPTCHA detected — iframe src 'recaptcha.net/recaptcha/api2/anchor?...size=invisible' present on the form; it executes on the Submit click. Per doctrine, CAPTCHA is the human boundary: all fields filled UP TO submit, Submit Application NOT clicked, tab LEFT OPEN for the human to finish. CAPTCHA never bypassed.",
+  "clean_plaintext_verified": "Yes — every field is clean plain text; no Drive workSample links, no {kw} markup, no HTML/markdown leaked. (Resume workSampleUrl links live only inside the uploaded PDF.)",
+  "screenshots": [
+    "outputs/2026-06-13-deep/applications/notion_ex_program_mgr/_review_fullpage.png",
+    "outputs/2026-06-13-deep/applications/notion_ex_program_mgr/_review_top_crop.png",
+    "outputs/2026-06-13-deep/applications/notion_ex_program_mgr/_verify_resume.png",
+    "outputs/2026-06-13-deep/applications/notion_ex_program_mgr/_verify_cover.png"
+  ],
+  "package_files": {
+    "resume_json": "resume.json",
+    "resume_pdf": "resume.pdf (1 page, visually verified, no wraps, even margins)",
+    "cover_md": "cover_letter.md (passed cover_truth_gate.scan_cover() = 0 flags)",
+    "cover_pdf": "cover_letter.pdf (1 page, non-empty, visually verified)"
+  },
+  "truth_gate": "PASS — cover scanned by lib/cover_truth_gate.scan_cover() = 0 flags. Onboarding work framed truthfully (InGenius 'friction not resistance' rebuild = real story from jamie_voice_corpus.md STAR #3; Vestas 3-location onboarding + 23-location Inclusive-Leadership scale = real). NO claim she 'led a global onboarding program end-to-end' at scale; growth edge (seniority/scope) disclosed in cover. NO ERG/team-management/instructional-design-from-scratch fabrication. AI/RAG anecdote is real. Resume: canonical numbers only, ODN collective + two projects kept separate (absenteeism-diagnosis vs NGO-leadership-accountability), fixed bullet counts (InGenius/Vestas/NextGen/Kronos=4, ODN=2), Wesleyan coursework present, NO banned $340K/17-launches, NO 'Transition Projects'.",
+  "tab_state": "Tab LEFT OPEN in user's Chrome (CDP 9222), filled to the pre-submit state, Submit Application NOT clicked. Other tabs untouched.",
+  "readiness_verdict": "STAGED & READY — tailored resume.pdf confirmed attached, all required fields truthfully filled, 0 active errors, invisible reCAPTCHA is the only thing between this and submit. Human clicks Submit Application to finish.",
+  "status": "staged-captcha-human-finish",
+  "staged_at_local": "2026-06-13"
+}

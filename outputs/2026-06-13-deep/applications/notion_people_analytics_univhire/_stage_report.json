@@ -1,0 +1,53 @@
+{
+  "slug": "notion_people_analytics_univhire",
+  "filled": {
+    "full_name": "Jamie Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "(213) 700-3831",
+    "location": "San Francisco, California, United States",
+    "resume_chip": "resume.pdf",
+    "linkedin": "https://www.linkedin.com/in/yi-chieh-cheng/",
+    "504d329c-1035-4a51-adb9-": "She/Her",
+    "eafec677-946e-48e2-8a9f-": "I am not a protected veteran",
+    "yesno_questions": [
+      {
+        "q": "We work from our offices on Mondays, Tue",
+        "setYes": true
+      },
+      {
+        "q": "Will you now or in the future require No",
+        "setYes": true
+      },
+      {
+        "q": "\n      window.__appData = {\"ddRumApplica",
+        "setYes": true
+      }
+    ],
+    "how_heard": "LinkedIn"
+  },
+  "unknowns": [],
+  "steps": [
+    "page: https://jobs.ashbyhq.com/notion/e4229ca4-8210-4282-98ed-2071478f72aa/application",
+    "filled full_name",
+    "filled email",
+    "filled phone",
+    "location: San Francisco, California, United States",
+    "file inputs: 2",
+    "resume chip: resume.pdf",
+    "linkedin: True",
+    "radio[504d329c-1035-4a51] -> She/Her",
+    "radio[eafec677-946e-48e2] -> Female",
+    "radio[eafec677-946e-48e2] -> Asian (Not Hispanic or Latino)",
+    "radio[eafec677-946e-48e2] -> I am not a protected veteran",
+    "yes/no set: [{\"q\": \"We work from our offices on Mondays, Tue\", \"setYes\": true}, {\"q\": \"Will you now or in the future require No\", \"setYes\": true}, {\"q\": \"\\n      window.__appData = {\\\"ddRumApplica\", \"setYes\": true}]",
+    "how_heard LinkedIn: True",
+    "review screenshot: C:/Users/chent/Agentic_Workflows_2026/oracle-job-search/outputs/2026-06-13-deep/applications/notion_people_analytics_univhire/_review_fullpage.png",
+    "captcha+submit: {\"iframe\": true, \"widget\": false, \"text\": false, \"submitDisabled\": false}"
+  ],
+  "captcha": {
+    "iframe": true,
+    "widget": false,
+    "text": false,
+    "submitDisabled": false
+  }
+}

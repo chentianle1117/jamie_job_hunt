@@ -39,8 +39,22 @@ def expand_kw(text):
     return re.sub(r'\{(\w+)\|([^}]+)\}', r'\2', text)
 
 
-def build_resume_html(data):
-    """Build standalone print-ready resume HTML from resume.json data."""
+def build_resume_html(data, font_scale=1.0):
+    """Build standalone print-ready resume HTML from resume.json data.
+
+    font_scale (autoFit): multiplier applied to all font sizes. render_role() calls this at 1.0
+    and, if the resume overflows one page, RE-RENDERS at progressively smaller scales (down to a
+    floor) so the resume fits ONE page by shrinking type — NEVER by cutting content. This enforces
+    the no-content-thinning rule (David 2026-06-13): tailoring must not drop metrics/scope/bullets;
+    page-fit is a typographic problem, not a content problem.
+    """
+    def _pt(v):
+        # scale a "9.5pt" string by font_scale, clamped to a readable floor
+        try:
+            n = float(str(v).replace("pt", "").strip())
+        except ValueError:
+            return v
+        return f"{round(max(n * font_scale, n * 0.86), 2)}pt"
     d = data
     meta = d.get("meta", {})
     margins = meta.get("pageMargins", {})
@@ -132,14 +146,14 @@ def build_resume_html(data):
 <meta charset="UTF-8">
 <style>
   :root {{
-    --body-font-size: 9.5pt;
-    --bullet-font-size: 9.2pt;
-    --summary-font-size: 9pt;
-    --header-name-size: 19pt;
-    --header-contact-size: 8.8pt;
-    --section-header-size: 9pt;
-    --job-title-size: 9.5pt;
-    --work-sample-size: 7.5pt;
+    --body-font-size: {_pt('9.5pt')};
+    --bullet-font-size: {_pt('9.2pt')};
+    --summary-font-size: {_pt('9pt')};
+    --header-name-size: {_pt('19pt')};
+    --header-contact-size: {_pt('8.8pt')};
+    --section-header-size: {_pt('9pt')};
+    --job-title-size: {_pt('9.5pt')};
+    --work-sample-size: {_pt('7.5pt')};
     --body-line-height: 1.18;
     --bullet-line-height: 1.28;
     --summary-line-height: 1.30;
@@ -475,29 +489,42 @@ def render_role(role_id, page, is_carlos=False, screenshots_dir=None):
     # ── Load resume.json ──
     resume_data = json.loads(resume_json_path.read_text(encoding="utf-8"))
 
-    # ── Build resume HTML ──
-    resume_html = build_resume_html(resume_data)
-
-    # ── Render resume to PDF ──
-    page.set_content(resume_html, wait_until="networkidle")
-    page.wait_for_timeout(300)  # small settle
-    page.pdf(
-        path=str(resume_pdf_path),
-        format="Letter",
-        margin={"top": "0", "right": "0", "bottom": "0", "left": "0"},
-        print_background=True,
-    )
-    resume_pages = count_pdf_pages(resume_pdf_path)
+    # ── Render resume to PDF with AUTOFIT (shrink type to fit 1 page; NEVER cut content) ──
+    # Try full size first, then progressively smaller font scales. This enforces the
+    # no-content-thinning rule: a tailored resume keeps ALL metrics/scope/bullets; if it
+    # overflows, we shrink the font (down to ~86% = ~8.2pt body) rather than dropping content.
+    autofit_scales = [1.0, 0.97, 0.94, 0.91, 0.88, 0.86]
+    resume_pages = None
+    used_scale = None
+    for scale in autofit_scales:
+        resume_html = build_resume_html(resume_data, font_scale=scale)
+        page.set_content(resume_html, wait_until="networkidle")
+        page.wait_for_timeout(250)  # small settle
+        page.pdf(
+            path=str(resume_pdf_path),
+            format="Letter",
+            margin={"top": "0", "right": "0", "bottom": "0", "left": "0"},
+            print_background=True,
+        )
+        resume_pages = count_pdf_pages(resume_pdf_path)
+        used_scale = scale
+        if resume_pages == 1:
+            break
     resume_size = resume_pdf_path.stat().st_size if resume_pdf_path.exists() else 0
+    if used_scale < 1.0 and resume_pages == 1:
+        warnings.append(f"autofit: resume fit to 1 page at font_scale={used_scale} (content preserved, type shrunk)")
 
-    # ── HARD CHECK: resume must be 1 page ──
+    # ── HARD CHECK: if even the smallest scale overflows, BLOCK (do NOT silently cut content) ──
     if resume_pages != 1:
         return {
-            "blocker": f"1-page resume constraint violated for {role_id}",
+            "blocker": f"1-page resume constraint violated for {role_id} even at min font_scale {autofit_scales[-1]}",
             "current_page_count": resume_pages,
             "role_id": role_id,
-            "diagnostic": "Resume content exceeded one page. Check bullet count and lengths.",
-            "recommendation": "Remove 1-2 bullets from longest experience entries or shorten summary.",
+            "diagnostic": "Resume overflowed one page even after autofit shrink to the readable floor. "
+                          "The content is genuinely too long for one page at a legible size.",
+            "recommendation": "Do NOT drop metrics/scope. Tighten WORDING on the longest 1-2 bullets "
+                              "(same facts, fewer words) or swap to a more concise content_library variant. "
+                              "Re-render. Never delete a bullet or a number to fit.",
         }
 
     # ── Render cover letter to PDF ──

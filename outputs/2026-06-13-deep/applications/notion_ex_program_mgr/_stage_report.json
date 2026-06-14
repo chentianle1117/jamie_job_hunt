@@ -1,0 +1,52 @@
+{
+  "slug": "notion_ex_program_mgr",
+  "filled": {
+    "full_name": "Jamie Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "(213) 700-3831",
+    "location": "San Francisco, California, United States",
+    "resume_chip": "resume.pdf",
+    "linkedin": "https://www.linkedin.com/in/yi-chieh-cheng/",
+    "yesno_questions": [
+      {
+        "q": "We work from our offices on Mondays, Tue",
+        "setYes": true
+      },
+      {
+        "q": "Will you now or in the future require No",
+        "setYes": true
+      },
+      {
+        "q": "\n      window.__appData = {\"ddRumApplica",
+        "setYes": true
+      }
+    ],
+    "how_heard": "LinkedIn"
+  },
+  "unknowns": [
+    "504d329c-1035-4a51-adb9-697f852a2432_22a93b1f-3b9a-41e8-929e-7f5edf297fa8",
+    "eafec677-946e-48e2-8a9f-3436d4eaf1d4__systemfield_eeoc_gender",
+    "eafec677-946e-48e2-8a9f-3436d4eaf1d4__systemfield_eeoc_race",
+    "eafec677-946e-48e2-8a9f-3436d4eaf1d4__systemfield_eeoc_veteran_status"
+  ],
+  "steps": [
+    "page: https://jobs.ashbyhq.com/notion/c2299d80-c3a5-45fa-bf49-29372a4d9aec/application",
+    "filled full_name",
+    "filled email",
+    "filled phone",
+    "location: San Francisco, California, United States",
+    "file inputs: 2",
+    "resume chip: resume.pdf",
+    "linkedin: True",
+    "yes/no set: [{\"q\": \"We work from our offices on Mondays, Tue\", \"setYes\": true}, {\"q\": \"Will you now or in the future require No\", \"setYes\": true}, {\"q\": \"\\n      window.__appData = {\\\"ddRumApplica\", \"setYes\": true}]",
+    "how_heard LinkedIn: True",
+    "review screenshot: C:/Users/chent/Agentic_Workflows_2026/oracle-job-search/outputs/2026-06-13-deep/applications/notion_ex_program_mgr/_review_fullpage.png",
+    "captcha+submit: {\"iframe\": true, \"widget\": false, \"text\": false, \"submitDisabled\": false}"
+  ],
+  "captcha": {
+    "iframe": true,
+    "widget": false,
+    "text": false,
+    "submitDisabled": false
+  }
+}
