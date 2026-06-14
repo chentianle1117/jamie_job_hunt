@@ -1,0 +1,173 @@
+{
+  "run": "2026-06-14 LinkedIn-authed harvest (Round 3)",
+  "generated": "2026-06-14",
+  "agent": "linkedin-discovery-harvester-round3",
+  "auth_status": "AUTHENTICATED — port 9222 CDP session, Jamie logged in (verified: /feed, /my-items, /jobs all rendered authed surfaces incl. 'X University of Southern California school alumni work here' annotations + Premium upsells)",
+  "method": "Connected to existing Chrome via connect_over_cdp('http://localhost:9222'); opened own tab; harvested Saved/Applied/Archived tabs, Recommended collection, and 11 targeted authed searches (past-week / past-24h, sortBy=DD, mixed geos + remote filter). Did NOT close any other tab. READ-ONLY — no submit, no account, no apply, no save.",
+  "surfaces_harvested": {
+    "saved_jobs": "10 saved — 9 already in our pipeline (C1, EY, Premera, Jacobs, Banfield, Syneos, OHSU-HRBP, Aptive, 4G Clinical), 1 NEW (RxBenefits)",
+    "applied_tab": "9 jobs Jamie applied to herself — all excluded (Keller Rohrback, Clarion, Equus dup; + More Than Models, Golden Tree, Interface Education, CampusPoint, Onward Search, RRD)",
+    "archived_tab": "10 — all closed/'No longer accepting' (DESC, Slalom, NRG, Headway, Navy FFR, BlinkRx, Pacific Seafood, Opus Group, Fluidstack, Adobe) — excluded",
+    "recommended_collection": "7 cards — mostly known HARD-STOPS recycled (Deloitte no-H1B, Sonos no-sponsor, Seattle Public Utilities gov, Propeller 7yr, ONA Director-level); IA Interior Architects + L3Harris surfaced (see notes)",
+    "targeted_searches": "11 searches run. Heavy keyword pollution (Technical PM / IT / ERP / manufacturing / recruiters / Saudi job-portal spam). The '\"People Programs\"' quoted search was the single highest-yield NEW surface."
+  },
+  "competition_filter_applied": "LinkedIn realism rules v4.0 + 48h-fresh exception. Remote+100+apps NOT auto-skipped when <=48h fresh AND P1/P1b. Reposted-remote aggregators (RemoteHunter, Swooped, Crossing Hurdles, etc.) treated as low-signal.",
+  "hard_blocker_exclusions_this_run": [
+    "Deloitte (Org Workforce & Change Analyst, Portland) — confirmed NO H1B (h1b_verified)",
+    "Sonos (People Programs Coordinator, Boston) — explicit no-sponsor (h1b_verified hard-stop)",
+    "Seattle Public Utilities (Workforce Development Advisor) — municipal gov, no sponsorship pathway (h1b_verified)",
+    "Propeller (Consultant IV People & Change) — 7+ yr YOE wall (h1b_verified)",
+    "L3Harris (Sr Specialist HRBP, Redmond WA) — DEFENSE contractor, very high ITAR/US-Person probability; not opened — treat as ITAR hard-stop unless a JD explicitly says otherwise",
+    "Oregon Nurses Association (Equity & HR Director, Tualatin) — Director-level people-management seniority = PASS per filter (7+ yr + direct reports)",
+    "Stanley House Consulting (Executive Culture & Talent Coach) — 10-12 yr senior coaching = PASS, too senior",
+    "Legacy Health (Employee Relations Consultant) — ER-casework-primary = blocker #3 (clerical/ER primary)"
+  ],
+  "new_roles": [
+    {
+      "company": "Navitus Health Solutions",
+      "title": "Learning and Development Generalist",
+      "location": "United States (Remote)",
+      "linkedin_url": "https://www.linkedin.com/jobs/view/4428320190/",
+      "jid": "4428320190",
+      "apply_mechanism": "external ATS (LinkedIn 'Apply' off-site; PBM/healthcare ATS)",
+      "sponsorship_signal": "silent in JD — sponsor-unknown STRETCH; PBM/healthcare, verify h1bdata before build",
+      "priority_tier": "P1b",
+      "fit_note": "Clean YOE match (JD asks ~3 yrs) — best YOE alignment of the batch. L&D program/facilitation generalist = squarely Jamie's L&D-ops strength. Remote.",
+      "competition_signals": "Posted ~1 day ago (fresh); no 100+/repost flag seen; remote",
+      "live_verified": true,
+      "status": "BUILD_NEXT_WINDOW"
+    },
+    {
+      "company": "Autodesk",
+      "title": "Senior Org Effectiveness Consultant",
+      "location": "Portland, OR (Hybrid)",
+      "linkedin_url": "https://www.linkedin.com/jobs/view/4417543009/",
+      "jid": "4417543009",
+      "apply_mechanism": "external ATS (Workday — Autodesk careers)",
+      "sponsorship_signal": "silent in JD — sponsor-unknown; Autodesk is a known tech H1B sponsor but verify NON-tech/OD pattern (likely tech-only like peers) before treating as confirmed",
+      "priority_tier": "P3 (OD) — but Portland-LOCAL, so Tier-1 geography advantage",
+      "fit_note": "ONLY Portland-hybrid sweet-spot find this run. OD/org-effectiveness = Jamie's ODN-Oregon + Applied Org Psych core. JD asks ~8 yrs = stretch (cap fit per v3.5 YOE guardrail), but local + 'Senior IC' title = apply-anyway per recalibrated filter. Jamie already 'Viewed' this posting.",
+      "competition_signals": "Hybrid Portland (local pool); '4 connections work here'; freshness not date-stamped on card but live",
+      "live_verified": true,
+      "status": "BUILD_NEXT_WINDOW"
+    },
+    {
+      "company": "RxBenefits, Inc.",
+      "title": "Learning and Talent Development Specialist",
+      "location": "United States (Remote)",
+      "linkedin_url": "https://www.linkedin.com/jobs/view/4425318327/",
+      "jid": "4425318327",
+      "apply_mechanism": "external ATS (LinkedIn 'Apply' off-site)",
+      "sponsorship_signal": "silent — sponsor-unknown STRETCH; verify",
+      "priority_tier": "P1b",
+      "fit_note": "From Jamie's own Saved list (she saved it 1d ago — high intent signal). L&TD specialist, JD ~5 yrs (mild stretch). Title is a direct P1b hit. Remote.",
+      "competition_signals": "Posted ~1 day ago (fresh); no volume flag seen; remote",
+      "live_verified": true,
+      "status": "BUILD_NEXT_WINDOW"
+    },
+    {
+      "company": "LEAP Legal Software",
+      "title": "Client Success Learning Program Manager",
+      "location": "United States (Remote)",
+      "linkedin_url": "https://www.linkedin.com/jobs/view/4426973823/",
+      "jid": "4426973823",
+      "apply_mechanism": "Easy Apply",
+      "sponsorship_signal": "silent — sponsor-unknown STRETCH; verify (legal-tech SMB, H1B history unknown — likely thin)",
+      "priority_tier": "P1b",
+      "fit_note": "CS-enablement / learning program management, $115-140K. JD ~4 yrs (within stretch). Maps to Jamie's L&D-ops + program-mgmt + customer/stakeholder-enablement bullets. Remote, Easy Apply.",
+      "competition_signals": "Posted ~1 day ago; 'Actively reviewing applicants'; remote; Easy Apply (=higher volume risk but 48h-fresh exception applies)",
+      "live_verified": true,
+      "status": "BUILD_NEXT_WINDOW"
+    },
+    {
+      "company": "Gainsight",
+      "title": "Senior Program Manager, People Programs & AI",
+      "location": "United States (Remote)",
+      "linkedin_url": "https://www.linkedin.com/jobs/view/4427205207/",
+      "jid": "4427205207",
+      "apply_mechanism": "external ATS ('Responses managed off LinkedIn' — Gainsight careers/Greenhouse)",
+      "sponsorship_signal": "silent in JD (full JD read) — sponsor-unknown STRETCH; Vista Equity portfolio SaaS, verify H1B for People roles",
+      "priority_tier": "P1 (People Programs) — sweet spot title",
+      "fit_note": "Title is bullseye (People Programs + cross-functional HR program/transformation + stakeholder mgmt + data) — BUT JD requires 5+ yrs HR AND 6-10+ yrs program management. That is a real 2+ yr YOE gap on the PM axis -> v3.5 caps fit ~60 (STRETCH-borderline). Surface + apply per recalibrated 'let employer decide', but flag the YOE stretch honestly to Jamie. $120-150K.",
+      "competition_signals": "Posted ~1 day ago + 76 clicked apply + Remote + 'Promoted by hirer'. 48h-fresh exception KEEPS it (>=75% match debatable given YOE); note as fresh-but-high-volume.",
+      "live_verified": true,
+      "status": "BUILD_NEXT_WINDOW"
+    },
+    {
+      "company": "Chainalysis",
+      "title": "People Programs Lead",
+      "location": "United States (Remote — listed Maine)",
+      "linkedin_url": "https://www.linkedin.com/jobs/view/4415857859/",
+      "jid": "4415857859",
+      "apply_mechanism": "external ATS (likely Greenhouse)",
+      "sponsorship_signal": "silent — sponsor-unknown STRETCH; blockchain-analytics firm (some gov/LE customers — re-check ITAR/clearance language at build, JD body was silent)",
+      "priority_tier": "P1 (People Programs)",
+      "fit_note": "'Lead' is IC-program sense here (People Programs), not stated people-manager. JD ~6 yrs = stretch. Direct P1 title. Remote.",
+      "competition_signals": "Posted ~6 days ago (still <=14d fresh); '8 USC alumni work here'; remote — at 6 days remote with no volume flag, borderline; KEEP as record (no repost flag).",
+      "live_verified": true,
+      "status": "BUILD_NEXT_WINDOW"
+    },
+    {
+      "company": "Core & Main",
+      "title": "Operations & Learning Specialist",
+      "location": "Texas, United States (Remote)",
+      "linkedin_url": "https://www.linkedin.com/jobs/view/4418441664/",
+      "jid": "4418441664",
+      "apply_mechanism": "external ATS",
+      "sponsorship_signal": "silent (JD thin, ~1.9K chars) — sponsor-unknown; industrial-distribution firm, H1B for L&D unlikely — LOW confidence, verify",
+      "priority_tier": "P1b (lean)",
+      "fit_note": "Ops + learning specialist hybrid. Thin JD. Plausible L&D-ops fit but low signal. Record as low-priority lead.",
+      "competition_signals": "Posted ~23h ago (fresh); remote; no volume flag",
+      "live_verified": true,
+      "status": "BUILD_NEXT_WINDOW"
+    },
+    {
+      "company": "Exact Sciences",
+      "title": "Clinical Lab Learning Program Manager",
+      "location": "Madison, WI (On-site)",
+      "linkedin_url": "https://www.linkedin.com/jobs/view/4422776325/",
+      "jid": "4422776325",
+      "apply_mechanism": "external ATS (Workday)",
+      "sponsorship_signal": "silent — sponsor-unknown; large dx/healthcare co (some H1B history) verify",
+      "priority_tier": "P1b (niche)",
+      "fit_note": "Learning PM but clinical-lab-specific domain + ON-SITE Madison WI (relocation, Tier-3 bar = 85%+, this is ~niche so misses Tier-3). JD ~2-4 yrs. Record as low-priority (onsite-relocation + clinical niche).",
+      "competition_signals": "Posted ~4 days ago; 'Be an early applicant'; on-site; 21 USC alumni",
+      "live_verified": true,
+      "status": "BUILD_NEXT_WINDOW"
+    },
+    {
+      "company": "Tenstorrent",
+      "title": "HR Project Manager, People Programs (Contractor)",
+      "location": "Santa Clara, CA (Remote)",
+      "linkedin_url": "https://www.linkedin.com/jobs/view/4426197720/",
+      "jid": "4426197720",
+      "apply_mechanism": "external ATS",
+      "sponsorship_signal": "silent in this JD — BUT semiconductor (chip design); FTE roles at chip cos often carry ITAR/export-control. This is a CONTRACTOR role (1099/agency) which typically does NOT carry sponsorship anyway. LOW priority.",
+      "priority_tier": "P1 (title) but CONTRACT",
+      "fit_note": "People Programs PM title fits, but it is a CONTRACTOR posting — contract roles rarely sponsor H1B and Tier-3 explicitly excludes contract. Record as low-priority/likely-ineligible; verify contract+sponsorship before any effort.",
+      "competition_signals": "Posted ~3 days ago; remote; 27 USC alumni",
+      "live_verified": true,
+      "status": "BUILD_NEXT_WINDOW"
+    }
+  ],
+  "leads_seen_in_authed_sidebar_need_jid_resolution_next_window": [
+    {"company": "Wrapbook", "title": "Senior People Programs Manager", "location": "United States (Remote)", "salary": "$130K-$211.5K", "note": "P1 sweet-spot title, ~2 weeks old, 3 USC alumni. Surfaced in authed 'More jobs' rail off Gainsight. Could not isolate clean jid via title-search; resolve + verify next window.", "priority_tier": "P1", "status": "BUILD_NEXT_WINDOW"},
+    {"company": "Ashby", "title": "Customer Education Program Manager", "location": "United States (Remote)", "salary": "$135K-$153K", "note": "P1b CS-education PM, ~2 days old, 5 USC alumni. NOTE: a DIFFERENT 'Customer Education Program Manager' (OpenAI) is already attempt-failed in our pipeline — this Ashby one is distinct. Resolve jid + verify.", "priority_tier": "P1b", "status": "BUILD_NEXT_WINDOW"},
+    {"company": "Spring Health", "title": "Senior Program Manager, Dedicated Workplace Teams", "location": "United States (Remote)", "note": "~6 days old, 31 USC alumni. People/workplace PM. Resolve jid + verify scope (could be client-delivery vs internal-People).", "priority_tier": "P2/P3", "status": "BUILD_NEXT_WINDOW"},
+    {"company": "Superior Plus Propane", "title": "Program Manager, Talent Performance and Experience", "location": "United States (Remote)", "note": "~1 week old. Talent performance + EX PM = P1/P3. Resolve jid + verify sponsor (utility/propane distributor — H1B likely thin).", "priority_tier": "P1/P3", "status": "BUILD_NEXT_WINDOW"},
+    {"company": "Activate", "title": "Program Manager, Fellowship & Programs Recruitment", "location": "United States (Remote)", "note": "~2 weeks old. Fellowship/program mgmt (science-NGO) — P1c-adjacent — but 'Recruitment' in title may push toward TA. Verify duties before effort.", "priority_tier": "P1c?/verify", "status": "BUILD_NEXT_WINDOW"}
+  ],
+  "weak_or_borderline_not_recommended": [
+    {"company": "IA Interior Architects", "title": "Workplace Strategist", "jid": "4388972895", "location": "Seattle, WA (Hybrid)", "why": "'Workplace strategy' here = physical-space/real-estate workplace consulting (architecture firm), NOT HR employee-experience. JD ~1-2 yrs. Weak HR fit; borderline PASS. 10 USC alumni. Recorded as borderline only.", "priority_tier": "weak-P3"},
+    {"company": "Educational Service Center of Central Ohio", "title": "Early Development and Learning Program Manager", "jid": "4425340551", "location": "Columbus, OH (On-site)", "why": "Likely early-childhood/K-12 education-services program (public ESC = gov-adjacent, sponsorship improbable) + on-site Ohio (out of geo). P1b by title but fails geography + sponsor-likelihood. Borderline.", "priority_tier": "weak-P1b"}
+  ],
+  "summary_counts": {
+    "genuinely_new_recordable_roles": 9,
+    "of_which_strong_or_clean_fit": 4,
+    "of_which_stretch_or_low_priority": 5,
+    "additional_authed_sidebar_leads_to_resolve": 5,
+    "weak_borderline_noted": 2,
+    "hard_blocker_or_already_known_excluded": "saved 9, applied 9, archived 10, recommended ~5 hard-stops, + dedup against 115-record master_submissions + round-1/round-2 discovery"
+  },
+  "honesty_note": "LinkedIn is now LIGHTLY tapped, not saturated. Saved/Applied/Archived are fully consumed (only RxBenefits new). Recommended is recycling known hard-stops. The targeted authed searches DID surface a genuine fresh batch (Navitus, Autodesk-Portland, RxBenefits, LEAP, Gainsight, Chainalysis + the sidebar rail). But note: of the 9 new, only ~4 are clean fits; the rest carry a real YOE stretch (Gainsight 6-10yr PM, Autodesk 8yr, Chainalysis 6yr) or eligibility caveat (Tenstorrent contract, Exact Sciences onsite-WI). Most P1 hits are sponsor-SILENT remote roles at firms with unverified non-tech H1B patterns — each needs an h1bdata SOC check before build. This is incremental yield, not a fresh goldmine."
+}
