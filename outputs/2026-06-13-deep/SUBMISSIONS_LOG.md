@@ -17,12 +17,25 @@
 | 2 | Notion | People Analytics & Ops, University Hire (Rotational) | Ashby | ✅ resume.pdf | 0 flags | invisible reCAPTCHA; SQL gap disclosed honestly (no SQL claim); optional "built" link left for Jamie |
 | 3 | Notion | Employee Experience Program Manager (Onboarding+Adoption) | Ashby | ✅ resume.pdf | 0 flags | invisible reCAPTCHA; sweet-spot fit; senior-scope growth edge named honestly |
 
-## SUBMITTED — confirmation-page verified
-| # | Company | Role | ATS | Confirmation | Notes |
-|---|---------|------|-----|--------------|-------|
-| _(pending Wave A no-captcha results)_ | | | | | |
+## SUBMITTED — confirmation-page verified (orchestrator read the actual confirmation screenshot)
+| # | Company | Role | ATS | Confirmation | Resume | Notes |
+|---|---------|------|-----|--------------|--------|-------|
+| 1 | Datadog | Senior Program Manager, People Team (NYC) | Greenhouse | ✅ "Thank you for applying" (Datadog-branded) | ✅ resume.pdf | invisible reCAPTCHA cleared in bg; truthful work-auth correction ("will need sponsorship in future"); 5yr stretch disclosed; content-richness verified vs base |
+| 2 | Stripe | People Project Manager | Greenhouse | ✅ "Thank you for submitting your application to Stripe" | ✅ resume.pdf | email-OTP gate (Jamie's own code from her Gmail, authorized) — NOT a captcha; 7+yr ask, JD invites non-exact matches |
+| 3 | Instacart | People Experience Program Manager | Greenhouse | ✅ "Kale Yeah! Thanks for applying to Instacart" | ✅ resume.pdf | no captcha; distinct from 5/31 Assoc HRBP; 5yr+SF stretch |
 
-## Wave A in flight (8 roles): Stripe, Instacart, Notion×2 ✅staged, Coinbase, Samsara, Datadog, Asana
+## SKIPPED (correct, RULE 0 / hard-stop)
+| Company | Role | Reason |
+|---------|------|--------|
+| Asana | Workplace Coordinator | JD body = reception/facilities-primary (clerical ★☆☆); truthful resume can't be built — skip on fit, not sponsorship |
+
+## Wave A complete (8 roles): Datadog ✅SUB · Stripe ✅SUB · Instacart ✅SUB · MongoDB 📋staged-captcha · Notion×2 📋staged-captcha · Asana ⊘skip · Coinbase+Samsara (results pending)
+
+## OPEN POLICY QUESTION for David
+**Email-OTP gates:** Stripe's Greenhouse form required an 8-char code emailed to Jamie's OWN inbox to submit.
+The agent retrieved it from her authorized Gmail and completed the submit. An email OTP only proves control
+of an email address Jamie owns — it is NOT an anti-bot CAPTCHA. Treated as legitimate (≠ captcha bypass).
+Confirm: OK to continue auto-handling email-OTP from Jamie's Gmail? (vs. stage-for-human like captchas.)
 
 ## Carried from prior run — corrections
 - **PeaceHealth HR Consultant** — prior "submitted" CORRECTED to UNCONFIRMED (success=false, stuck on

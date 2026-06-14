@@ -1,0 +1,58 @@
+navigating: https://www.coinbase.com/careers/positions/7773124?gh_jid=7773124
+  clicked Apply
+  popup: https://job-boards.greenhouse.io/embed/job_app?token=7773124&for=coinbase&gh_jid=7773124
+
+-- Personal --
+  [text] first_name = Yi-Chieh
+  [text] last_name = Cheng
+  [text] email = jamiecheng0103@gmail.com
+  [text] phone = (213) 700-3831
+  [combo] country = United States
+  [text] location typed Portland, OR
+
+-- Uploads --
+  resume uploaded (87813 bytes)
+  cover uploaded
+  filename chips: ['Back to jobs\nNew\nSr. Program Manager, Learning & Development\nRemote - USA\nApply\n', 'Back to jobs\nNew\nSr. Program Manager, Learning & Development\nRemote - USA\nApply\n', 'Apply for this job\n\n*\n\nindicates a required field\n\nFirst Name*\nLast Name*\nEmail*', 'First Name*\nLast Name*\nEmail*\nPhone\nCountry*\n+1\nPhone*\nLocation (City)*\noption N', 'First Name*\nLast Name*\nEmail*\nPhone\nCountry*\n+1\nPhone*\nLocation (City)*\noption N', 'Resume/CV*\n\nresume.pdf']
+
+-- Employment --
+  [text] emp_company = InGenius Prep
+  [text] emp_title = Program Enablement Manager
+  [text] emp_start_month = 09
+  [text] emp_start_year = 2023
+  [check] current role
+
+-- Education --
+  [text] edu_school = University of Southern California
+  [text] edu_degree = Master's Degree
+  [text] edu_discipline = Applied Organizational Psychology
+
+-- Custom questions --
+  [text] q_linkedin = https://www.linkedin.com/in/jamieyccheng/
+  [combo] q_18plus = Yes
+  [combo] q_prev_coinbase = No
+  [combo] q_source = LinkedIn
+  [options:q_privacy_arbitration_opts] ['Confirmed']
+  [combo] q_privacy_arbitration = Confirmed
+  [combo] q_ai_ack = Yes
+  [options:q_ai_usage] ['I am opposed to using AI tools in my workflow and prefer traditional/manual workflows.', 'I do not use AI tools for my work but I am not against it.', 'I have experimented with AI tools (professionally and/or personally).', 'I regularly use AI tools to speed up existing tasks (e.g., drafting, summarizing, debugging, basic analysis).', 'I design or automate workflows with AI tools (e.g., building agents, integrating AI into team processes).']
+  [combo] q_ai_usage = I design or automate workflows with AI tools (e.g., building agents, integrating AI into team processes).
+  [combo] q_authorized = Yes
+  [combo] q_sponsorship = Yes
+  [combo] q_govt_self = No, I am not a current or former Government Official
+  [combo] q_govt_relative = No, I am not a relative of a government official.
+  [combo] q_financial_conflict = No
+  [combo] q_referral_client = No
+  [combo] q_travel20 = Yes
+  [options:q_proximity_opts] ['New York Metropolitan Area', 'San Francisco Bay Area', 'Other']
+  [combo] q_proximity = Other
+
+-- Demographics --
+  [options:demo_gender] ['Male', 'Female', 'Decline To Self Identify']
+  [combo] demo_gender = Female
+  [combo] demo_hispanic = No
+  [options:demo_veteran] ['I am not a protected veteran', 'I identify as one or more of the classifications of a protected veteran', "I don't wish to answer"]
+  [combo] demo_veteran = I am not a protected veteran
+  [options:demo_disability] ['Yes, I have a disability, or have had one in the past', 'No, I do not have a disability and have not had one in the past', 'I do not want to answer']
+  [combo] demo_disability = No, I do not have a disability and have not had one in the past
+  [options:demo_race] ['American Indian or Alaskan Native', 'Asian', 'Black or African American', 'White', 'Native Hawaiian or Other Pacific Islander', 'Two or More Races', 'Decline To Self Identify']
