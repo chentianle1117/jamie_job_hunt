@@ -1,0 +1,439 @@
+{
+  "meta": {
+    "company": "Adventure EXP",
+    "role": "Experiential Education / Program & Operations",
+    "date": "2026-06-10",
+    "pageMargins": {
+      "top": "0.32in",
+      "right": "0.45in",
+      "bottom": "0.32in",
+      "left": "0.45in"
+    },
+    "autoFit": true,
+    "fontRange": [
+      8.5,
+      10
+    ]
+  },
+  "header": {
+    "location": "Portland, OR (Open to Remote or Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Program &amp; Operations professional</b> who thrives on <b>solving problems through data</b>, <b>building experiential-education programs</b>, and <b>collaborating with stakeholders</b> to scale them. Expect me to always be improving the student experience—through human-centered approaches.",
+  "keywordGroups": {
+    "prog": "Programs/Education",
+    "coord": "Coordination/Ops",
+    "cross": "Stakeholders/Faculty",
+    "data": "Data/Assessment",
+    "ex": "Student Experience",
+    "tools": "Tools/Systems"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Educational Program Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Manage 20+ educational programs and 10+ vendor/partner relationships, coordinating operations, communications, and {prog|program promotion} to reach the right students",
+          "change": "swap",
+          "original": "Conduct needs assessments with 25+ global stakeholders to identify learning gaps and design 3 new educational programs",
+          "jd": [
+            "jd5",
+            "jd6",
+            "jd9"
+          ],
+          "reason": "Lead bullet swapped to program operations + communications — matches Columbia's mandate to 'oversee day-to-day administration' and 'manage communications, including program newsletters'"
+        },
+        {
+          "text": "Facilitate listening sessions with 25+ {cross|stakeholders} (students, counselors, partners), resulting in 3 new programs aligned with {ex|student needs}",
+          "change": "swap",
+          "original": "Develop guides and workflows for 70+ cross-functional staff, improving program knowledge and reducing onboarding time by 75%",
+          "jd": [
+            "jd3",
+            "jd11"
+          ],
+          "reason": "Surfaces student + counselor coordination — direct InGenius-to-Columbia bridge for 'primary administrative liaison between students, DUS, and university offices'"
+        },
+        {
+          "text": "Establish {coord|cross-functional processes} and documentation for 70+ staff, streamlining program operations and reducing onboarding time by 75%",
+          "change": "swap",
+          "original": "Facilitate training webinars for 600+ participants, enhancing program understanding and driving a 78% client conversion rate",
+          "jd": [
+            "jd2",
+            "jd14"
+          ],
+          "reason": "Process documentation + supervisory adjacency — supports 'supervise and coordinate workflow of the Undergraduate Program Coordinator' and registrar/admin office coordination"
+        },
+        {
+          "text": "Facilitate {prog|webinars and info sessions} for 600+ student and parent participants, driving a 78% {prog|program enrollment rate}",
+          "change": "word",
+          "original": "Manage 20+ programs and 10+ vendors, refining program positioning, delivery strategy, and operations via feedback analysis",
+          "jd": [
+            "jd7",
+            "jd8"
+          ],
+          "reason": "Reworded 'training webinars/participants/client conversion' → 'webinars and info sessions/student and parent participants/program enrollment' — mirrors Columbia's 'workshops, advising initiatives, informational sessions' and outreach to current/prospective majors"
+        }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into {data|actionable reports} that informed engagement strategies",
+          "change": null,
+          "jd": [
+            "jd10",
+            "jd12"
+          ]
+        },
+        {
+          "text": "Analyzed 2,000+ {data|survey responses} to amplify employee voice and guide C-suite decisions on satisfaction drivers",
+          "change": "word",
+          "original": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on satisfaction drivers",
+          "jd": [
+            "jd11",
+            "jd12"
+          ],
+          "reason": "Surfaced 'survey responses' to directly map JD's 'surveys related to program quality and student experience' + 'analyze survey results and prepare summary reports'"
+        },
+        {
+          "text": "Provided {prog|consultations} to improve strategic plans and {prog|internal training} on DEI, Inclusive Leadership, and performance review",
+          "change": null
+        },
+        {
+          "text": "Improved {ex|people experience} via 5 {cross|cross-functional} projects focusing on survey development, rewards & recognition, and L&D",
+          "change": null
+        }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        {
+          "text": "Strengthened engagement via an {prog|HR newsletter} and award-winning well-being initiatives, recognized among 1,000+ competitors",
+          "change": "reorder",
+          "was": 4,
+          "jd": [
+            "jd9",
+            "jd13"
+          ],
+          "reason": "Moved to lead — newsletter + award-winning recognition is the closest signal to Columbia's 'program newsletters and announcements' + 'Wueller Teaching Awards process' coordination"
+        },
+        {
+          "text": "Initiated a DEI pilot with an {prog|Inclusive Leadership workshop} for 12 senior leaders, later expanded to 23 other global locations",
+          "change": "reorder",
+          "was": 1,
+          "reason": "Moved down — workshop design parallels 'workshops, advising initiatives' but newsletter bullet wins lead"
+        },
+        {
+          "text": "Facilitated smooth organizational change by directing a Mergers & Acquisitions project, overseeing {cross|cross-functional stakeholders}",
+          "change": null,
+          "jd": [
+            "jd3"
+          ]
+        },
+        {
+          "text": "Optimized {coord|onboarding processes} across 3 global locations by conducting process analysis and clarifying job responsibilities",
+          "change": null,
+          "jd": [
+            "jd14"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wes_sa",
+      "title": "Study Abroad Ambassador",
+      "company": "Wesleyan University — Fries Center for Global Studies",
+      "location": "Middletown, CT",
+      "dates": "August 2021–December 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Core planning committee member for annual {prog|International Education Week}, partnering with {cross|university offices and student organizations}",
+          "change": "swap",
+          "original": "[Kronos: Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management]",
+          "jd": [
+            "jd7",
+            "jd8"
+          ],
+          "reason": "Wesleyan SA replaces Kronos/EXPLO — direct university-side event coordination with multiple school offices is the literal match for Columbia's 'coordinate departmental participation in university-wide student engagement events' + 'organize departmental events and outreach for prospective majors and current students'"
+        },
+        {
+          "text": "Organized globally-focused events to promote {prog|intercultural learning} and strengthen a more cohesive, globally-conscious {ex|student community}",
+          "change": "swap",
+          "original": "[Kronos bullet]",
+          "jd": [
+            "jd7"
+          ],
+          "reason": "Student engagement programming — direct match for JD's 'develop and coordinate programming that supports academic enrichment and community building'"
+        },
+        {
+          "text": "Analyzed {data|focus group interviews} via MaxQda to surface {ex|study abroad barriers}, informing {prog|Study Abroad Office programming} and outreach",
+          "change": "swap",
+          "original": "[Kronos bullet]",
+          "jd": [
+            "jd11",
+            "jd12"
+          ],
+          "reason": "Direct qualitative program assessment — matches JD's 'coordinate program assessment initiatives, including student exit interviews and surveys' + 'analyze results and prepare summary reports'. Strengthened ending to tie data work to program impact."
+        }
+      ]
+    },
+    {
+      "id": "explo",
+      "title": "Curriculum Developer & Course Instructor",
+      "company": "EXPLO",
+      "location": "Norton, MA",
+      "dates": "June 2019–August 2019",
+      "workSampleUrl": null,
+      "bullets": [
+        {
+          "text": "Designed and facilitated a 3-week {prog|English immersion curriculum} for 12 students, using {data|feedback} to improve learning outcomes",
+          "change": "swap",
+          "original": "[ODN bullet — removed; HR consulting framing too distant from undergraduate program admin]",
+          "jd": [
+            "jd5",
+            "jd6"
+          ],
+          "reason": "EXPLO added back after ODN dropped — curriculum design + facilitation directly touches JD's 'coordinate course scheduling, curricular planning'"
+        },
+        {
+          "text": "Delivered culturally responsive lessons, adjusting content and pacing in real time to meet diverse {ex|learner needs}",
+          "change": "swap",
+          "original": "[ODN bullet]",
+          "jd": [
+            "jd7",
+            "jd8"
+          ],
+          "reason": "Student-facing teaching with responsive instruction — adjacent to student advising and program delivery"
+        },
+        {
+          "text": "Developed {prog|instructional materials} aligned to {prog|learning objectives} to support knowledge retention and skill application",
+          "change": "swap",
+          "original": "[ODN bullet]",
+          "jd": [
+            "jd5",
+            "jd7"
+          ],
+          "reason": "Direct instructional materials development — extends the educational programming credential"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": [
+        "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
+      ]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": [
+        "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Learning and Motivation, Psychological Testing"
+      ]
+    }
+  ],
+  "projects": [
+    "<b>College Admissions Counseling (Part-Time):</b> Guided 4 students through career exploration, college list development, and essay writing over 2 years; all gained admission to reach and top-choice schools",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Technical Skills:</b> LMS (Canvas, Moodle) · Project Management (Asana, Airtable) · Data Analysis (Google Sheets, Excel, SPSS) · Survey Design (Qualtrics, Google Forms, MaxQda) · Knowledge Management (Notion, SharePoint) · Google Workspace · Microsoft Office (Word, PowerPoint) · Event Planning · Canva · GenAI Tools (ChatGPT, Gemini, Claude)",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)"
+  ],
+  "jd": {
+    "meta": "Columbia University, INCITE/Trust Collaboratory & Center for Smart Streetscapes — Community Outreach Program Coordinator · New York, NY · $66,300–$67,300 · Officer of Administration, Grade 10 · 1-year contract (renewable) · Posted Apr 25, 2026 · ⚠️ Internal candidate identified",
+    "sections": [
+      {
+        "title": "Role Overview",
+        "type": "paragraph",
+        "content": "Reports to the Director of Academic Administration and Finance. Oversees {coord|day-to-day administration and coordination} of the Department's undergraduate program. Manages {prog|program operations}, {coord|student advising coordination}, {prog|communications}, and {prog|academic initiatives} that support {ex|student success and program quality}. Works closely with faculty, students, and university offices."
+      },
+      {
+        "title": "Undergraduate Program Administration & Student Advising",
+        "type": "list",
+        "items": [
+          {
+            "id": "jd1",
+            "text": "Serve as {cross|primary administrative liaison} between students, DUS, Columbia College, GS, and the Registrar's Office",
+            "changeType": "covered"
+          },
+          {
+            "id": "jd2",
+            "text": "Coordinate with advising offices across the University (Berick Center, GS Advising, CCE, Global Engagement)",
+            "changeType": "covered"
+          },
+          {
+            "id": "jd3",
+            "text": "Manage {prog|faculty advisor assignment} process and Graduate Student Advisors Program",
+            "changeType": "covered"
+          },
+          {
+            "id": "jd14",
+            "text": "Supervise and coordinate workflow of the Undergraduate Program Coordinator",
+            "changeType": "partial"
+          }
+        ]
+      },
+      {
+        "title": "Academic Program Operations & Curriculum Coordination",
+        "type": "list",
+        "items": [
+          {
+            "id": "jd5",
+            "text": "Partner with faculty committees to implement {prog|departmental policies and procedures}",
+            "changeType": "covered"
+          },
+          {
+            "id": "jd6",
+            "text": "Coordinate course scheduling, curricular planning, and {coord|TA assignments} with MA/PhD Program Managers",
+            "changeType": "covered"
+          },
+          {
+            "id": "jd10",
+            "text": "Compile and analyze {data|program data} to prepare {data|reports} for faculty leadership and committees",
+            "changeType": "covered"
+          }
+        ]
+      },
+      {
+        "title": "Student Engagement, Communications & Program Initiatives",
+        "type": "list",
+        "items": [
+          {
+            "id": "jd7",
+            "text": "Develop and coordinate {prog|workshops, advising initiatives, informational sessions} for academic enrichment",
+            "changeType": "covered"
+          },
+          {
+            "id": "jd8",
+            "text": "Organize departmental events and {prog|outreach for prospective majors and current students}",
+            "changeType": "covered"
+          },
+          {
+            "id": "jd9",
+            "text": "Manage communications: {prog|newsletters, announcements}, program policies, deadlines, opportunities",
+            "changeType": "covered"
+          },
+          {
+            "id": "jd13",
+            "text": "Coordinate undergraduate {prog|honors, prizes, and Wueller Teaching Awards} process",
+            "changeType": "covered"
+          }
+        ]
+      },
+      {
+        "title": "Assessment, Reporting & Program Improvement",
+        "type": "list",
+        "items": [
+          {
+            "id": "jd11",
+            "text": "Coordinate {data|program assessment}, {data|student exit interviews and surveys} on program quality and experience",
+            "changeType": "covered"
+          },
+          {
+            "id": "jd12",
+            "text": "Analyze survey results and prepare {data|summary reports} for faculty leadership to inform improvements",
+            "changeType": "covered"
+          }
+        ]
+      },
+      {
+        "title": "Minimum Qualifications",
+        "type": "list",
+        "items": [
+          {
+            "text": "Bachelor's degree or equivalent ✅ (BA Psychology & Education Studies + MS Organizational Psychology)",
+            "changeType": "covered"
+          },
+          {
+            "text": "Minimum 1-3 years of relevant experience ✅ (~3 years OD/PM/HR)",
+            "changeType": "covered"
+          },
+          {
+            "text": "Preferred: Prior experience in academic environment ⚠️ (InGenius Prep is adjacent — higher-ed counseling, not university administration)",
+            "changeType": "partial"
+          },
+          {
+            "text": "Preferred: Knowledge of university academic systems ⚠️ (limited direct university admin exposure)",
+            "changeType": "gap"
+          },
+          {
+            "text": "Proficiency with Microsoft Office and Google Drive ✅",
+            "changeType": "covered"
+          }
+        ]
+      },
+      {
+        "title": "🏛️ H1B Status",
+        "type": "paragraph",
+        "content": "Columbia University = accredited non-profit university → <b>CAP-EXEMPT</b>. No H1B lottery risk. Cap-exempt status is the fastest sponsorship lane during Jamie's runway window — applications submittable year-round, processing typically 2-4 months."
+      }
+    ]
+  },
+  "changeLog": [
+    {
+      "section": "Summary (v2 — tightened)",
+      "change": "Per Jamie's feedback: identity changed to 'Strategic Program Manager' (dropped OD framing). Removed 'across stakeholders', 'educational', 'actionable', and 'and teams' to bring summary to 3 lines. Core phrases now: coordinating programs / translating program data into improvements / communicating with students."
+    },
+    {
+      "section": "ODN removed; EXPLO added back",
+      "change": "Per Jamie: dropped ODN (HR consulting on absenteeism is methodologically transferable but framing too distant from undergraduate program administration). Added EXPLO Curriculum Developer & Course Instructor (June–Aug 2019) back to surface curriculum design + instructional materials credential. All 5 remaining roles are now education/student-facing. The diagnostic data analysis ODN was carrying is already covered by NextGen 2,000+ survey work, Wesleyan SA MaxQda focus groups, and InGenius feedback analysis."
+    },
+    {
+      "section": "InGenius — Set B (Program Management/Engagement) with student-facing tilt",
+      "change": "Changed InGenius title to 'Educational Program Manager' (direct higher-ed bridge, cleaner than 'Program Manager, Educational Programs'). Lead bullet: program operations + communications strategy. Bullet 2: listening sessions with students/counselors/partners. Bullet 3: cross-functional processes (process documentation + supervisory adjacency). Bullet 4: webinars/info sessions for student and parent participants → program enrollment rate."
+    },
+    {
+      "section": "NextGen — word swap, kept order",
+      "change": "Bullet 2 changed 'employee experiences' to 'survey responses' to directly mirror JD's 'analyze survey results and prepare summary reports' language."
+    },
+    {
+      "section": "Vestas reordered",
+      "change": "Moved HR newsletter + well-being initiatives bullet to lead — direct bridge to JD's 'program newsletters and announcements' + 'Wueller Teaching Awards process' (recognition coordination)."
+    },
+    {
+      "section": "Kronos replaced with Wesleyan Study Abroad Ambassador",
+      "change": "Per Jamie: removed Kronos (HR internship) and added Wesleyan University — Fries Center for Global Studies, Study Abroad Ambassador (Aug–Dec 2021, part-time). Three bullets surface (1) coordinating annual International Education Week with school offices + student orgs, (2) MaxQda qualitative focus-group analysis on study abroad barriers, (3) globally-focused event programming for community building. Initially considered EXPLO (curriculum/teaching) but Wesleyan SA is the LITERAL match — it's university-side administration + event coordination + focus group assessment, all at a university, which is exactly Columbia's setting."
+    },
+    {
+      "section": "Projects — Elanco out, College Admissions Counseling in",
+      "change": "Per Jamie's request: removed Elanco employer-branding line (employer-branding consulting is not relevant to undergrad program management) and added College Admissions Counseling (Part-Time): 4 students over 2 years through career exploration, college list development, essay writing — direct student-advising credential."
+    },
+    {
+      "section": "Wesleyan",
+      "change": "Added Education Studies coursework (Educational Psychology, Practicum in Education Studies, Learning and Motivation, Psychological Testing) — material credential for higher-ed program manager role."
+    },
+    {
+      "section": "ODN company name",
+      "change": "Per memory rule: 'Organization Development Network (ODN) Oregon' (full form, never 'Transition Projects Inc.')."
+    },
+    {
+      "section": "Skills",
+      "change": "Led with Project Management (Asana, Airtable, Notion) + Google Workspace + MS Office — directly mirrors JD's 'Proficiency with Microsoft Office and Google Drive.' Preserved Data Analysis and LMS for higher-ed context. Dropped HRCI cert (not relevant for academic admin)."
+    }
+  ]
+}
