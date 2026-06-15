@@ -1,0 +1,13 @@
+{
+  "role_id": "elevenlabs_people_operations",
+  "resume_pages": 1,
+  "cover_pages": 1,
+  "resume_size_bytes": 88609,
+  "cover_size_bytes": 50900,
+  "resume_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\elevenlabs_people_operations\\resume.pdf",
+  "cover_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\elevenlabs_people_operations\\cover_letter.pdf",
+  "rendered_at": "2026-06-15T08:42:10.870899Z",
+  "warnings": [
+    "autofit: resume fit to 1 page at font_scale=0.97 (content preserved, type shrunk)"
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "reason": "captcha_present",
+  "detail": "Form is gated by a CAPTCHA (reCAPTCHA/hCaptcha/Turnstile). Autonomous submit is not possible \u2014 solving/bypassing CAPTCHAs is prohibited. The form fills correctly; a human must clear the captcha and click Submit (Ashby/Greenhouse need no account).",
+  "url": "https://jobs.ashbyhq.com/elevenlabs/ca331e5d-19ee-4585-a97e-f1a6224949cb"
+}

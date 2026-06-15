@@ -1,0 +1,17 @@
+{
+  "role_dir": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\elevenlabs_people_operations",
+  "company": "ElevenLabs",
+  "role": "People Operations",
+  "ats": "ashby",
+  "lane_ats": "ashby",
+  "form_url": "https://jobs.ashbyhq.com/elevenlabs/ca331e5d-19ee-4585-a97e-f1a6224949cb",
+  "staged_at": "2026-06-15T01:58:59",
+  "submit_port": 9400,
+  "synthesized_form_fields": true,
+  "ashby_submitter_stdout": "CDP-attached on :9400\nNav: https://jobs.ashbyhq.com/elevenlabs/ca331e5d-19ee-4585-a97e-f1a6224949cb\n  nav application: https://jobs.ashbyhq.com/elevenlabs/ca331e5d-19ee-4585-a97e-f1a6224949cb/application\n  form mounted: 9 controls\n  [CAPTCHA] form is captcha-protected -> HUMAN-SUBMIT (cannot auto-submit; bypass prohibited)\n  resume uploaded\n  extracted 7 questions (5 after dropping std)\n    - [text] req=True :: Location\n    - [text] req=True :: Link to your LinkedIn profile\n    - [yesno] req=True :: Are you based in the UK or the US?  opts=['Yes', 'No']\n    - [yesno] req=True :: Do you have experience working in a start-up or scale-up env  opts=['Yes', 'No']\n    - [yesno] req=True :: Do you have experience in a People Operations role or simila  opts=['Yes', 'No']\n  [OK] Location -> Portland, OR, USA\n  [OK] Link to your LinkedIn profile -> https://www.linkedin.com/in/jamieyccheng/\n  [OK] Are you based in the UK or the US? -> Yes\n  [OK] Do you have experience in a People Operations  -> Yes\n  [CAPTCHA] left form filled; NOT clicking submit (captcha bypass prohibited). Wrote HUMAN_SUBMIT_REQUIRED.json.\n  KEEP_OPEN=1 — leaving filled form open in Chrome for human review.\n",
+  "ashby_submitter_stderr": "",
+  "screenshot": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\elevenlabs_people_operations\\screenshots\\03_filled_human_submit.png",
+  "note": "Ashby staged via delegated submit_ashby_generic.py (synthesized form_fields.json).",
+  "lane": "ONE-CLICK",
+  "human_next": "Open the staged Notion/Ashby tab in the submit Chrome → if a captcha shows, clear it → click Submit Application."
+}

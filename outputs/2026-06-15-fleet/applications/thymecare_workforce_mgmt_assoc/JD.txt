@@ -1,0 +1,79 @@
+OUR MISSION
+
+We exist to create a more connected, compassionate, and confident experience for people with cancer and those who care for them. We make it easier to get answers, access high-quality care quickly, and feel supported throughout treatment and beyond.
+
+Today, Thyme Care is a market-leading value-based oncology care enabler, partnering with national and regional health plans, providers, and employers to deliver better outcomes and lower costs for thousands of people across the country. Our model combines high-touch human support with powerful technology and AI to bring together everyone involved in a person’s cancer journey: caregivers, oncologists, health plans, and employers.
+
+As a tech-native organization, we believe technology should strengthen the human connection at the center of care. Through data science, automation, and AI, we simplify complexity, improve collaboration, and help care teams focus on what matters most: supporting people through cancer.
+
+Looking ahead, our vision is bold: to become a household name in cancer care, where every person diagnosed asks for Thyme Care by name. If you’re inspired to make cancer care more human and to help reimagine what’s possible, we’d love to meet you. Together, we can build a future where every person with cancer feels truly cared for, in every moment that matters.
+
+What You’ll Do
+
+As Thyme Care’s newest Sr. Associate, Workforce Management, you’ll play a pivotal role in driving day-to-day operational excellence. You'll be responsible for developing forecasts, maintaining coverage models, and building scalable reporting tools that ensure our teams are equipped to meet demand and uphold service levels.
+
+Our care model includes proactive communications and back-office tasking, which means precision and timing are everything. The staff groups you'll support are often lean and specialized, so your ability to manage capacity with accuracy and agility will have a direct impact on patient outcomes.
+
+This role sits within the Care Delivery team and serves as a critical connector between frontline teams and leadership. You’ll lead stakeholder sessions, translate data into workforce plans, and build models that answer complex “what if” questions—like how we staff for expanded hours or prepare for new contract growth.
+
+Key Responsibilities Include
+
+
+Develop, maintain, and update short-term staffing and forecasting models aligned to shifting operational needs
+Monitor workforce adherence and interval coverage, flagging risks and generating recommendations
+Build dashboards and reporting tools using Google Sheets, App Script and Looker to support planning, hiring, and performance monitoring
+Collaborate with care delivery leaders to ensure schedules reflect training, holidays, and business priorities
+Support scenario planning for expanded hours, fluctuating volumes, and new contract launches
+Partner closely with small, high-sensitivity teams where minor errors can have major impact—applying rigor, empathy, and precision in every plan
+
+
+What You’ve Done
+
+
+3–5 years of experience in workforce management, analytics, or scheduling in a service or operations environment
+Hands-on experience with one or more WFM platforms: Verint, Calabrio, NICE IEX/Playvox, Alvaria, Planbase, or Assembled
+Familiarity with CCaaS platforms such as Amazon Connect, Genesys, Five9, NICE CXone, Zoom Contact Center, 8x8, or Talkdesk
+Experience supporting proactive and back-office service models
+Proficiency in Google Sheets or Excel, including pivot tables and time-based modeling
+A strong attention to detail when working with small and specialized staff groups where margin for error is limited
+Effective communicator with the ability to collaborate across care delivery, operations, and leadership
+Experience building dashboards in Looker, Metabase, or Google Analytics
+Helpful if you know any SQL or scripting (Python, R) for advanced analysis
+Exposure to high-growth, startup, or remote-first environments
+Knowledge of service-level metrics and contact center operations
+
+
+What Leads To Success
+
+Success in this role means being a reliable, agile partner to the teams that rely on accurate staffing, thoughtful scheduling, and responsive analysis. You’ll stand out if you bring a strong operational mindset, communicate clearly across functions, and thrive in environments where priorities can shift quickly and the work requires both precision and flexibility.
+
+These are the traits and behaviors that will set you up for success:
+
+Act with our members in mind: Thyme Care’s mission matters deeply to you—especially when it comes to delivering a seamless, supportive experience for our members through well-staffed, well-run teams.
+
+WFM Versatility: You’re comfortable working across the full spectrum of workforce functions—forecasting, scheduling, reporting, and real-time monitoring—and can pivot between them as business needs evolve.
+
+Proactive problem-solving: You don’t wait for perfect information. You move work forward, follow up, and take initiative to unblock others.
+
+Detail-Oriented Thinking: You catch what others miss, especially when small errors can create big ripple effects for teammates and patients.
+
+Operational Judgment: You make decisions grounded in data and context, with a practical understanding of tradeoffs and urgency.
+
+Clear, Purposeful Communication: You can explain complex models or scheduling changes in a way that makes sense to frontline teammates, leaders, and everyone in between.
+
+Adaptability: You’re comfortable navigating ambiguity, adjusting course when plans shift, and staying focused on impact.
+
+Team Orientation: You value collaboration and show up as a steady, trusted partner across care delivery, operations, and analytics.
+
+OUR VALUES
+
+At Thyme Care, our core values guide us in everything we do: Act with our members in mind, Move with purpose, and Seek diverse perspectives. They anchor our business decisions, including how we grow, the products we make, and the paths we choose—or don’t choose.
+
+Our salary ranges are based on paying competitively for our size and industry, and are one part of the total compensation package that also includes equity, benefits, and other opportunities at Thyme Care. Individual pay decisions are based on several factors, including qualifications, experience level, skillset, and balancing internal equity relative to other Thyme Care employees. The base salary for this role is $93,500 - 110,000 / year. The salary range could be lower or higher than this if the role is hired at another level.
+
+We recognize a history of inequality in healthcare. We’re here to challenge the status quo and create a culture of inclusion through the care we give and the company we build. We embrace and celebrate a diversity of perspectives in reflection of our members and the members we serve. We are an equal-opportunity employer.
+
+Be cautious of recruitment fraud, and always confirm that communications are coming from an official Thyme Care email.
+
+
+… more

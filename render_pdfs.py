@@ -322,8 +322,19 @@ def build_cover_html(md_content, location=None):
         if s.startswith("**") and ("|" in s or "Cheng" in s) and not collecting_body:
             continue
 
-        # Before first rule: capture taglines
-        if rule_count == 0:
+        # Before first rule: capture taglines.
+        # ROBUSTNESS FIX (2026-06-15): guard with `not collecting_body`. A bare cover_letter.md
+        # with NO `---` dividers (just "Dear ...,\n<body>\nWarm regards,\nName") never increments
+        # rule_count, so EVERY line — including body paragraphs after the salutation — used to
+        # re-enter this tagline branch and get swallowed, leaving 0 body paragraphs (the
+        # empty-cover gate then blocked the render). Once the salutation flips collecting_body on,
+        # fall through to the body region below instead of treating body text as taglines.
+        if rule_count == 0 and not collecting_body:
+            # The salutation marks the body start regardless of divider structure.
+            if s.startswith("Dear") or s.lower().startswith("dear"):
+                salutation = s
+                collecting_body = True
+                continue
             # Strip markdown emphasis wrappers (*italic* / **bold**) — the cream header
             # already styles these; raw asterisks must NEVER show in the PDF (2026-06-12 fix).
             def _clean_tagline(t):

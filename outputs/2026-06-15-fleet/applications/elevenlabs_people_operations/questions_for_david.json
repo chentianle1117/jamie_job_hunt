@@ -1,0 +1,15 @@
+{
+  "could_not_answer": [],
+  "resolved_by_orchestrator": [
+    {
+      "q": "Do you have experience working in a start-up or scale-up environment?",
+      "a": "Yes",
+      "basis": "InGenius Prep is a ~70-staff small education company (scale-up)"
+    },
+    {
+      "q": "Are you based in the UK or the US?",
+      "a": "Yes (US)",
+      "basis": "Jamie is US-based (Portland, OR)"
+    }
+  ]
+}

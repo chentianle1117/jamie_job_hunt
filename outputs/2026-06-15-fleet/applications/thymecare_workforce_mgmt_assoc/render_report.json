@@ -1,0 +1,13 @@
+{
+  "role_id": "thymecare_workforce_mgmt_assoc",
+  "resume_pages": 1,
+  "cover_pages": 1,
+  "resume_size_bytes": 89043,
+  "cover_size_bytes": 52084,
+  "resume_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\thymecare_workforce_mgmt_assoc\\resume.pdf",
+  "cover_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\thymecare_workforce_mgmt_assoc\\cover_letter.pdf",
+  "rendered_at": "2026-06-15T08:42:23.630214Z",
+  "warnings": [
+    "autofit: resume fit to 1 page at font_scale=0.97 (content preserved, type shrunk)"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "role_id": "woodland_park_zoo_hr_advisor",
+  "resume_pages": 1,
+  "cover_pages": 1,
+  "resume_size_bytes": 90563,
+  "cover_size_bytes": 50987,
+  "resume_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\woodland_park_zoo_hr_advisor\\resume.pdf",
+  "cover_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\woodland_park_zoo_hr_advisor\\cover_letter.pdf",
+  "rendered_at": "2026-06-15T08:42:32.428188Z",
+  "warnings": [
+    "autofit: resume fit to 1 page at font_scale=0.94 (content preserved, type shrunk)"
+  ]
+}

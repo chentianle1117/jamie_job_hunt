@@ -1,0 +1,75 @@
+{
+  "role_dir": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\clear_ld_generalist",
+  "company": "CLEAR",
+  "role": "Learning & Development Generalist",
+  "ats": "greenhouse",
+  "lane_ats": "greenhouse",
+  "form_url": "https://job-boards.greenhouse.io/clear/jobs/7868581",
+  "staged_at": "2026-06-15T01:56:15",
+  "submit_port": 9400,
+  "contact": {
+    "first_name": "Jamie",
+    "last_name": "Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "2137003831"
+  },
+  "country": {
+    "status": "SET",
+    "chosen": "United States +1"
+  },
+  "location": "Portland, Oregon, United States",
+  "uploads": {
+    "resume": "resume.pdf",
+    "cover_letter": "cover_letter.pdf"
+  },
+  "combos": [
+    {
+      "q": "authorized",
+      "status": "SET",
+      "chosen": "Yes"
+    },
+    {
+      "q": "gender_identity",
+      "status": "SET",
+      "chosen": "Woman"
+    },
+    {
+      "q": "gender",
+      "status": "NO_MATCH",
+      "wants": [
+        "woman",
+        "female"
+      ],
+      "options": [
+        "Afghanistan+93",
+        "Åland Islands+358",
+        "Albania+355",
+        "Algeria+213",
+        "American Samoa+1",
+        "Andorra+376",
+        "Angola+244",
+        "Anguilla+1",
+        "Antigua & Barbuda+1",
+        "Argentina+54"
+      ]
+    },
+    {
+      "q": "disability",
+      "status": "SET",
+      "chosen": "No"
+    },
+    {
+      "q": "veteran",
+      "status": "SET",
+      "chosen": "No, I am not a veteran or active member"
+    }
+  ],
+  "captcha": {
+    "present": true,
+    "interactive_visible": false
+  },
+  "screenshot": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\clear_ld_generalist\\_v2_stage_review.png",
+  "final_url": "https://job-boards.greenhouse.io/clear/jobs/7868581",
+  "lane": "ONE-CLICK",
+  "human_next": "Open the staged tab in the submit Chrome (port 9400) → clear the captcha → click Submit application."
+}

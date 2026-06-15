@@ -1,0 +1,13 @@
+{
+  "role_id": "align_hr_ops_generalist",
+  "resume_pages": 1,
+  "cover_pages": 1,
+  "resume_size_bytes": 90180,
+  "cover_size_bytes": 50401,
+  "resume_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\align_hr_ops_generalist\\resume.pdf",
+  "cover_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\align_hr_ops_generalist\\cover_letter.pdf",
+  "rendered_at": "2026-06-15T08:42:18.846237Z",
+  "warnings": [
+    "autofit: resume fit to 1 page at font_scale=0.94 (content preserved, type shrunk)"
+  ]
+}

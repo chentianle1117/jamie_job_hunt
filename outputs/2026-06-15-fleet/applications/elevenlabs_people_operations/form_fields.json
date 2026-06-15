@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "company": "ElevenLabs",
+    "role": "People Operations",
+    "url": "https://jobs.ashbyhq.com/elevenlabs/ca331e5d-19ee-4585-a97e-f1a6224949cb",
+    "ats": "Ashby"
+  },
+  "personal": {
+    "first_name": "Jamie",
+    "last_name": "Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "+1-213-700-3831",
+    "location": "Portland, OR"
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/jamieyccheng/"
+  },
+  "work_authorization": {
+    "currently_authorized_to_work_in_us": "Yes",
+    "sponsorship_required": "Yes"
+  },
+  "demographics": {
+    "gender": "Woman",
+    "race_ethnicity": "Asian",
+    "veteran": "I am not a protected veteran",
+    "disability": "No, I do not have a disability"
+  }
+}

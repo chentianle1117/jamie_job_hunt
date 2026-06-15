@@ -1,0 +1,45 @@
+{
+  "role_dir": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\align_hr_ops_generalist",
+  "company": "A-LIGN",
+  "role": "Human Resources Operations Generalist",
+  "ats": "greenhouse",
+  "lane_ats": "greenhouse",
+  "form_url": "https://job-boards.greenhouse.io/align/jobs/8564701002",
+  "staged_at": "2026-06-15T01:57:56",
+  "submit_port": 9400,
+  "contact": {
+    "first_name": "Jamie",
+    "last_name": "Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "2137003831"
+  },
+  "country": {
+    "status": "SET",
+    "chosen": "United States +1"
+  },
+  "location": "Portland, Oregon, United States",
+  "uploads": {
+    "resume": "resume.pdf",
+    "cover_letter": null
+  },
+  "combos": [
+    {
+      "q": "authorized",
+      "status": "SET",
+      "chosen": "Yes"
+    },
+    {
+      "q": "sponsorship",
+      "status": "SET",
+      "chosen": "Yes"
+    }
+  ],
+  "captcha": {
+    "present": true,
+    "interactive_visible": false
+  },
+  "screenshot": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\align_hr_ops_generalist\\_v2_stage_review.png",
+  "final_url": "https://job-boards.greenhouse.io/align/jobs/8564701002",
+  "lane": "ONE-CLICK",
+  "human_next": "Open the staged tab in the submit Chrome (port 9400) → clear the captcha → click Submit application."
+}

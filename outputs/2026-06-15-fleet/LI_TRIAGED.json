@@ -1,0 +1,935 @@
+{
+  "count": 62,
+  "items": [
+    {
+      "job_id": "4426946194",
+      "title": "People Operations Specialist",
+      "company": "Jobgether",
+      "location": "United States (Remote)",
+      "url": "/jobs/view/4426946194",
+      "easy_apply": true,
+      "source": "search_people_pdx",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 15
+    },
+    {
+      "job_id": "4415981108",
+      "title": "People Operations Specialist",
+      "company": "Vanta",
+      "location": "United States (Remote)",
+      "url": "/jobs/view/4415981108",
+      "easy_apply": false,
+      "source": "search_people_pdx",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 15
+    },
+    {
+      "job_id": "4419863132",
+      "title": "Organization Workforce & Change Analyst",
+      "company": "Deloitte",
+      "location": "Portland, OR (Hybrid)",
+      "url": "/jobs/view/4419863132",
+      "easy_apply": false,
+      "source": "recommended",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 14
+    },
+    {
+      "job_id": "search",
+      "title": "Organization Workforce & Change Analyst",
+      "company": "Deloitte",
+      "location": "Portland, OR (Hybrid)",
+      "url": "https://www.linkedin.com/jobs/view/search",
+      "easy_apply": false,
+      "source": "search_people_pdx",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 14
+    },
+    {
+      "job_id": "4405859844",
+      "title": "Associate Learning & Development Specialist - Healthcare Call Center",
+      "company": "SS&C Technologies",
+      "location": "California, United States (Remote)",
+      "url": "/jobs/view/4405859844",
+      "easy_apply": false,
+      "source": "recommended",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 13
+    },
+    {
+      "job_id": "4425303580",
+      "title": "Learning And Development Specialist",
+      "company": "DTI (Diversified Technology Inc.)",
+      "location": "United States (Remote)",
+      "url": "/jobs/view/4425303580",
+      "easy_apply": true,
+      "source": "search_people_pdx",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 13
+    },
+    {
+      "job_id": "4423015338",
+      "title": "People Operations",
+      "company": "ElevenLabs",
+      "location": "United States (Remote)",
+      "url": "/jobs/view/4423015338",
+      "easy_apply": false,
+      "source": "search_people_pdx",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 13
+    },
+    {
+      "job_id": "4402673221",
+      "title": "People Operations & Employee Lifecycle Specialist",
+      "company": "Sandisk",
+      "location": "Milpitas, CA (On-site)",
+      "url": "/jobs/view/4402673221",
+      "easy_apply": false,
+      "source": "recommended",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 12
+    },
+    {
+      "job_id": "4380828044",
+      "title": "People Business Partner",
+      "company": "FreedomCare",
+      "location": "Las Vegas, NV (Hybrid)",
+      "url": "/jobs/view/4380828044",
+      "easy_apply": false,
+      "source": "search_od_change",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 12
+    },
+    {
+      "job_id": "4414278954",
+      "title": "Human Resources Specialist",
+      "company": "EC Electric",
+      "location": "Portland, OR (On-site)",
+      "url": "/jobs/view/4414278954",
+      "easy_apply": false,
+      "source": "search_people_pdx",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 11
+    },
+    {
+      "job_id": "4423960454",
+      "title": "Learning & Development Specialist",
+      "company": "Morrison-Maierle",
+      "location": "Spokane, WA (Hybrid)",
+      "url": "/jobs/view/4423960454",
+      "easy_apply": true,
+      "source": "recommended",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 10
+    },
+    {
+      "job_id": "4425330704",
+      "title": "Technical Learning & Development Specialist",
+      "company": "Ascentec Engineering, LLC",
+      "location": "Tualatin, OR (On-site)",
+      "url": "/jobs/view/4425330704",
+      "easy_apply": false,
+      "source": "recommended",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 10
+    },
+    {
+      "job_id": "4428109825",
+      "title": "Human Resources Operations Generalist",
+      "company": "A-LIGN",
+      "location": "United States (Remote)",
+      "url": "/jobs/view/4428109825",
+      "easy_apply": false,
+      "source": "search_people_pdx",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 10
+    },
+    {
+      "job_id": "4418627669",
+      "title": "People Business Partner (Corporate Services)",
+      "company": "True Anomaly",
+      "location": "Long Beach, CA (Hybrid)",
+      "url": "/jobs/view/4418627669",
+      "easy_apply": false,
+      "source": "search_od_change",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 10
+    },
+    {
+      "job_id": "4409402746",
+      "title": "Learning & Development Generalist",
+      "company": "CLEAR",
+      "location": "New York, NY (On-site)",
+      "url": "/jobs/view/4409402746",
+      "easy_apply": false,
+      "source": "search_od_change",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 10
+    },
+    {
+      "job_id": "4426170013",
+      "title": "Talent Attraction Specialist",
+      "company": "LHH",
+      "location": "Portland, Oregon Metropolitan Area (Hybrid)",
+      "url": "/jobs/view/4426170013",
+      "easy_apply": true,
+      "source": "recommended",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 9
+    },
+    {
+      "job_id": "4427225557",
+      "title": "Senior Associate, Workforce Management",
+      "company": "Thyme Care",
+      "location": "United States (Remote)",
+      "url": "/jobs/view/4427225557",
+      "easy_apply": false,
+      "source": "search_people_pdx",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 9
+    },
+    {
+      "job_id": "4427629585",
+      "title": "Human Resources Advisor",
+      "company": "Woodland Park Zoo",
+      "location": "Seattle, WA (Hybrid)",
+      "url": "/jobs/view/4427629585",
+      "easy_apply": false,
+      "source": "recommended",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 8
+    },
+    {
+      "job_id": "4427148543",
+      "title": "Human Resources Professional",
+      "company": "Handshake",
+      "location": "United States (Remote)",
+      "url": "/jobs/view/4427148543",
+      "easy_apply": false,
+      "source": "search_people_pdx",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 8
+    },
+    {
+      "job_id": "4418441664",
+      "title": "Operations & Learning Specialist",
+      "company": "Core & Main",
+      "location": "Texas, United States (Remote)",
+      "url": "/jobs/view/4418441664",
+      "easy_apply": false,
+      "source": "search_ld_remote",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 8
+    },
+    {
+      "job_id": "4425760973",
+      "title": "Remote Leadership Position for Experienced People Professionals",
+      "company": "3 Years On A Rock",
+      "location": "Houston, TX (Remote)",
+      "url": "/jobs/view/4425760973",
+      "easy_apply": false,
+      "source": "search_od_change",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 8
+    },
+    {
+      "job_id": "4427440472",
+      "title": "Remote Project Team Coordinator",
+      "company": "Talentoma",
+      "location": "New Jersey, United States (Remote)",
+      "url": "/jobs/view/4427440472",
+      "easy_apply": true,
+      "source": "search_talent_coord",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 8
+    },
+    {
+      "job_id": "4424333249",
+      "title": "Recruiting Coordinator",
+      "company": "Delta Dental of Washington",
+      "location": "Spokane, WA (Hybrid)",
+      "url": "/jobs/view/4424333249",
+      "easy_apply": false,
+      "source": "recommended",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 7
+    },
+    {
+      "job_id": "4417233903",
+      "title": "Senior People Transformation Strategist",
+      "company": "DoorDash",
+      "location": "United States (Remote)",
+      "url": "/jobs/view/4417233903",
+      "easy_apply": false,
+      "source": "search_people_pdx",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 7
+    },
+    {
+      "job_id": "4427449707",
+      "title": "Project Specialist",
+      "company": "Kalaimoku Foundation",
+      "location": "Honolulu, HI (Hybrid)",
+      "url": "/jobs/view/4427449707",
+      "easy_apply": true,
+      "source": "search_talent_coord",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 7
+    },
+    {
+      "job_id": "4408885021",
+      "title": "Workplace Coordinator",
+      "company": "Lambda",
+      "location": "Seattle, WA (Hybrid)",
+      "url": "/jobs/view/4408885021",
+      "easy_apply": false,
+      "source": "recommended",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 6
+    },
+    {
+      "job_id": "4427132476",
+      "title": "People Practices Advisor-Meta Project - Monroe LA",
+      "company": "DPR Construction",
+      "location": "Seattle, WA (On-site)",
+      "url": "/jobs/view/4427132476",
+      "easy_apply": false,
+      "source": "recommended",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 6
+    },
+    {
+      "job_id": "4427212681",
+      "title": "Mobility Operation Specialist (AI & Automation) - HR Operation - Seattle",
+      "company": "TikTok",
+      "location": "Seattle, WA (On-site)",
+      "url": "/jobs/view/4427212681",
+      "easy_apply": true,
+      "source": "recommended",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 6
+    },
+    {
+      "job_id": "4421697630",
+      "title": "Educational Services Recruiter",
+      "company": "Amergis Healthcare Staffing",
+      "location": "Portland, OR (On-site)",
+      "url": "/jobs/view/4421697630",
+      "easy_apply": false,
+      "source": "recommended",
+      "verdict": "REVIEW",
+      "fit_reasons": [
+        "title not obviously people/L&D/program — needs eyeball"
+      ],
+      "bucket": "REVIEW",
+      "score": 6
+    },
+    {
+      "job_id": "4414383540",
+      "title": "Talent Partner (Virtual, US/CAN)",
+      "company": "Sirva",
+      "location": "NAMER (Remote)",
+      "url": "/jobs/view/4414383540",
+      "easy_apply": false,
+      "source": "search_od_change",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 6
+    },
+    {
+      "job_id": "4418438292",
+      "title": "Change Management Program Leader",
+      "company": "Kforce Inc",
+      "location": "Farmington, CT (Remote)",
+      "url": "/jobs/view/4418438292",
+      "easy_apply": true,
+      "source": "search_od_change",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 6
+    },
+    {
+      "job_id": "4411155595",
+      "title": "Project Management Specialist",
+      "company": "Boeing",
+      "location": "Everett, WA (On-site)",
+      "url": "/jobs/view/4411155595",
+      "easy_apply": false,
+      "source": "recommended",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 5
+    },
+    {
+      "job_id": "4388301064",
+      "title": "Talent Acquisition Specialist",
+      "company": "Wyld",
+      "location": "Clackamas, OR (On-site)",
+      "url": "/jobs/view/4388301064",
+      "easy_apply": false,
+      "source": "search_people_pdx",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 5
+    },
+    {
+      "job_id": "4418689162",
+      "title": "Human Resources",
+      "company": "Walmart",
+      "location": "Phoenix, AZ (On-site)",
+      "url": "/jobs/view/4418689162",
+      "easy_apply": false,
+      "source": "search_od_change",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 5
+    },
+    {
+      "job_id": "4385087389",
+      "title": "People Consulting - Organizational Design- Manager-Consulting",
+      "company": "EY",
+      "location": "Philadelphia, PA (On-site)",
+      "url": "/jobs/view/4385087389",
+      "easy_apply": false,
+      "source": "search_od_change",
+      "verdict": "STRETCH",
+      "fit_reasons": [
+        "manager-track — within-cap per directive, verify YOE"
+      ],
+      "bucket": "DUP-COMPANY",
+      "score": 5
+    },
+    {
+      "job_id": "4418626748",
+      "title": "Manager, Learning & Development Programs & Consulting",
+      "company": "Cisco",
+      "location": "Austin, TX (On-site)",
+      "url": "/jobs/view/4418626748",
+      "easy_apply": false,
+      "source": "search_od_change",
+      "verdict": "STRETCH",
+      "fit_reasons": [
+        "manager-track — within-cap per directive, verify YOE"
+      ],
+      "bucket": "STRETCH",
+      "score": 5
+    },
+    {
+      "job_id": "4399089121",
+      "title": "Senior Associate, Insights - Strategy & Operations",
+      "company": "DoorDash",
+      "location": "Seattle, WA (On-site)",
+      "url": "/jobs/view/4399089121",
+      "easy_apply": false,
+      "source": "search_od_change",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 5
+    },
+    {
+      "job_id": "4406472141",
+      "title": "HR Business Partner",
+      "company": "CrowdStrike",
+      "location": "Redmond, WA (On-site)",
+      "url": "/jobs/view/4406472141",
+      "easy_apply": false,
+      "source": "search_od_change",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 5
+    },
+    {
+      "job_id": "4427477421",
+      "title": "PROJECT MANAGEMENT ANALYST 3",
+      "company": "Newport News Shipbuilding, A Division of HII",
+      "location": "Newport News, VA (Hybrid)",
+      "url": "/jobs/view/4427477421",
+      "easy_apply": false,
+      "source": "search_talent_coord",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 5
+    },
+    {
+      "job_id": "4428664707",
+      "title": "Project Leader",
+      "company": "Elevance Health",
+      "location": "Richmond, VA (Hybrid)",
+      "url": "/jobs/view/4428664707",
+      "easy_apply": false,
+      "source": "search_talent_coord",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 5
+    },
+    {
+      "job_id": "4428651928",
+      "title": "Organizational Change Management (OCM) Lead",
+      "company": "SIRITECH SOLUTIONS CORP",
+      "location": "Tallahassee, FL (On-site)",
+      "url": "/jobs/view/4428651928",
+      "easy_apply": false,
+      "source": "search_talent_coord",
+      "verdict": "STRETCH-SENIOR",
+      "fit_reasons": [
+        "senior/director/lead/principal title — likely >5yr, warm-intro only"
+      ],
+      "bucket": "STRETCH-SENIOR",
+      "score": 5
+    },
+    {
+      "job_id": "4427124337",
+      "title": "HR Business Partner",
+      "company": "Amazon",
+      "location": "Portland, OR (On-site)",
+      "url": "/jobs/view/4427124337",
+      "easy_apply": false,
+      "source": "recommended",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "DUP-COMPANY",
+      "score": 4
+    },
+    {
+      "job_id": "4426182272",
+      "title": "Temporary Change Management Practitioner",
+      "company": "Intel",
+      "location": "Hillsboro, OR (Hybrid)",
+      "url": "/jobs/view/4426182272",
+      "easy_apply": false,
+      "source": "recommended",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 3
+    },
+    {
+      "job_id": "4426378765",
+      "title": "Early Career Manufacturing Development Program",
+      "company": "Albertsons Companies",
+      "location": "Clackamas, OR (On-site)",
+      "url": "/jobs/view/4426378765",
+      "easy_apply": false,
+      "source": "recommended",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 3
+    },
+    {
+      "job_id": "4426102761",
+      "title": "Client Business Partner",
+      "company": "BBSI",
+      "location": "Salem, OR (On-site)",
+      "url": "/jobs/view/4426102761",
+      "easy_apply": true,
+      "source": "recommended",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 3
+    },
+    {
+      "job_id": "4390542245",
+      "title": "People Consulting-HR Transactions-Senior",
+      "company": "EY",
+      "location": "Portland, OR (On-site)",
+      "url": "/jobs/view/4390542245",
+      "easy_apply": false,
+      "source": "search_people_pdx",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "DUP-COMPANY",
+      "score": 3
+    },
+    {
+      "job_id": "4428805396",
+      "title": "Project Assistant",
+      "company": "Torentify",
+      "location": "California, United States (On-site)",
+      "url": "/jobs/view/4428805396",
+      "easy_apply": false,
+      "source": "search_od_change",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "GO",
+      "score": 3
+    },
+    {
+      "job_id": "4388972895",
+      "title": "Workplace Strategist",
+      "company": "IA Interior Architects",
+      "location": "Seattle, WA (Hybrid)",
+      "url": "/jobs/view/4388972895",
+      "easy_apply": true,
+      "source": "recommended",
+      "verdict": "REVIEW",
+      "fit_reasons": [
+        "title not obviously people/L&D/program — needs eyeball"
+      ],
+      "bucket": "REVIEW",
+      "score": 1
+    },
+    {
+      "job_id": "4425885569",
+      "title": "Lead Instructional Coach, Alpha - $200,000/year USD",
+      "company": "Crossover",
+      "location": "Seattle, WA (On-site)",
+      "url": "/jobs/view/4425885569",
+      "easy_apply": false,
+      "source": "search_od_change",
+      "verdict": "REVIEW",
+      "fit_reasons": [
+        "title not obviously people/L&D/program — needs eyeball"
+      ],
+      "bucket": "REVIEW",
+      "score": 1
+    },
+    {
+      "job_id": "4427011770",
+      "title": null,
+      "company": null,
+      "location": null,
+      "url": "https://www.linkedin.com/jobs/view/4427011770",
+      "easy_apply": false,
+      "source": "saved",
+      "verdict": "SKIP",
+      "fit_reasons": [
+        "no title"
+      ],
+      "bucket": "SKIP",
+      "score": 0
+    },
+    {
+      "job_id": "4425366715",
+      "title": "Employee Listening and Insights Lead",
+      "company": "NetApp",
+      "location": "San Jose, CA (Hybrid)",
+      "url": "/jobs/view/4425366715",
+      "easy_apply": false,
+      "source": "recommended",
+      "verdict": "STRETCH-SENIOR",
+      "fit_reasons": [
+        "senior/director/lead/principal title — likely >5yr, warm-intro only"
+      ],
+      "bucket": "STRETCH-SENIOR",
+      "score": 0
+    },
+    {
+      "job_id": "4425312991",
+      "title": "Change Management Practitioner/Project Manager",
+      "company": "KLA",
+      "location": "Hillsboro, OR (On-site)",
+      "url": "/jobs/view/4425312991",
+      "easy_apply": false,
+      "source": "recommended",
+      "verdict": "STRETCH",
+      "fit_reasons": [
+        "manager-track — within-cap per directive, verify YOE"
+      ],
+      "bucket": "STRETCH",
+      "score": 0
+    },
+    {
+      "job_id": "4427450327",
+      "title": "Program Manager, TikTok Program Management Office",
+      "company": "TikTok",
+      "location": "San Jose, CA (On-site)",
+      "url": "/jobs/view/4427450327",
+      "easy_apply": true,
+      "source": "search_od_change",
+      "verdict": "STRETCH",
+      "fit_reasons": [
+        "manager-track — within-cap per directive, verify YOE"
+      ],
+      "bucket": "STRETCH",
+      "score": 0
+    },
+    {
+      "job_id": "4379228708",
+      "title": "Management Trainee",
+      "company": "Carrier Enterprise",
+      "location": "Knightdale, NC (On-site)",
+      "url": "/jobs/view/4379228708",
+      "easy_apply": false,
+      "source": "search_od_change",
+      "verdict": "REVIEW",
+      "fit_reasons": [
+        "title not obviously people/L&D/program — needs eyeball"
+      ],
+      "bucket": "REVIEW",
+      "score": 0
+    },
+    {
+      "job_id": "4400663887",
+      "title": "HR Project Management Lead",
+      "company": "Whirlpool Corporation",
+      "location": "Benton Harbor, MI (On-site)",
+      "url": "/jobs/view/4400663887",
+      "easy_apply": false,
+      "source": "search_od_change",
+      "verdict": "STRETCH-SENIOR",
+      "fit_reasons": [
+        "senior/director/lead/principal title — likely >5yr, warm-intro only"
+      ],
+      "bucket": "STRETCH-SENIOR",
+      "score": 0
+    },
+    {
+      "job_id": "4425741391",
+      "title": "Program Manager",
+      "company": "EVONA",
+      "location": "Denver, CO (On-site)",
+      "url": "/jobs/view/4425741391",
+      "easy_apply": true,
+      "source": "search_od_change",
+      "verdict": "STRETCH",
+      "fit_reasons": [
+        "manager-track — within-cap per directive, verify YOE"
+      ],
+      "bucket": "STRETCH",
+      "score": 0
+    },
+    {
+      "job_id": "4428371299",
+      "title": "Engagement Manager",
+      "company": "Capgemini",
+      "location": "Milano, TX (Hybrid)",
+      "url": "/jobs/view/4428371299",
+      "easy_apply": false,
+      "source": "search_od_change",
+      "verdict": "REVIEW",
+      "fit_reasons": [
+        "title not obviously people/L&D/program — needs eyeball"
+      ],
+      "bucket": "REVIEW",
+      "score": 0
+    },
+    {
+      "job_id": "4378301777",
+      "title": "Global Relocation Program Manager",
+      "company": "SpaceX",
+      "location": "Hawthorne, CA (On-site)",
+      "url": "/jobs/view/4378301777",
+      "easy_apply": false,
+      "source": "search_od_change",
+      "verdict": "STRETCH",
+      "fit_reasons": [
+        "manager-track — within-cap per directive, verify YOE"
+      ],
+      "bucket": "STRETCH",
+      "score": 0
+    },
+    {
+      "job_id": "4417167200",
+      "title": "AI Deployment Manager - NYC",
+      "company": "OpenAI",
+      "location": "New York, NY (Hybrid)",
+      "url": "/jobs/view/4417167200",
+      "easy_apply": false,
+      "source": "search_od_change",
+      "verdict": "REVIEW",
+      "fit_reasons": [
+        "title not obviously people/L&D/program — needs eyeball"
+      ],
+      "bucket": "REVIEW",
+      "score": 0
+    },
+    {
+      "job_id": "4428344592",
+      "title": "Business Administrator",
+      "company": "Microsoft",
+      "location": "Redmond, WA (Hybrid)",
+      "url": "/jobs/view/4428344592",
+      "easy_apply": false,
+      "source": "search_od_change",
+      "verdict": "REVIEW",
+      "fit_reasons": [
+        "title not obviously people/L&D/program — needs eyeball"
+      ],
+      "bucket": "REVIEW",
+      "score": 0
+    },
+    {
+      "job_id": "4427439716",
+      "title": "Change Management Lead",
+      "company": "Insight Global",
+      "location": "Plano, TX (Hybrid)",
+      "url": "/jobs/view/4427439716",
+      "easy_apply": true,
+      "source": "search_talent_coord",
+      "verdict": "STRETCH-SENIOR",
+      "fit_reasons": [
+        "senior/director/lead/principal title — likely >5yr, warm-intro only"
+      ],
+      "bucket": "STRETCH-SENIOR",
+      "score": 0
+    },
+    {
+      "job_id": "4428677081",
+      "title": "Sr. Recruiting Business Partner, Legal and Public Policy Recruiting",
+      "company": "Amazon",
+      "location": "Bellevue, WA (On-site)",
+      "url": "/jobs/view/4428677081",
+      "easy_apply": false,
+      "source": "search_od_change",
+      "verdict": "GO",
+      "fit_reasons": [
+        "fits people/L&D/program, non-senior title"
+      ],
+      "bucket": "DUP-COMPANY",
+      "score": -2
+    }
+  ]
+}
