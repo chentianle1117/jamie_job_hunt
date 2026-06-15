@@ -1,0 +1,15 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Equus Workforce Solutions",
+  "role": "Talent Development Specialist (req 800017)",
+  "url": "https://www.linkedin.com/jobs/view/4414046241/",
+  "ats": "LinkedIn Easy Apply (powered by SMART_RECRUITERS)",
+  "location": "St Helens, OR (On-site) — local-ish to Portland",
+  "jd_source": "none",
+  "key_points": {
+    "sponsorship_signal": "unknown",
+    "source_note": "no full JD captured; key points composed from our record fields (jd_source=none)."
+  },
+  "no_sponsor_hardstop": false,
+  "verified_live": true
+}

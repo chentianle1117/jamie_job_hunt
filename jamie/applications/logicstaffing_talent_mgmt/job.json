@@ -1,0 +1,14 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Logic Staffing (part of Array Corporation)",
+  "role": "Talent Management Specialist",
+  "url": "https://www.linkedin.com/jobs/view/4405803392/",
+  "ats": "LinkedIn listing -> external 'Apply' redirect (NOT Easy Apply)",
+  "location": "Sumner, WA (On-site)",
+  "jd_source": "none",
+  "key_points": {
+    "sponsorship_signal": "unknown",
+    "source_note": "no full JD captured; key points composed from our record fields (jd_source=none)."
+  },
+  "verified_live": true
+}

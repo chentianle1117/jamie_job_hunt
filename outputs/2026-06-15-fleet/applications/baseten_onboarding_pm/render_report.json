@@ -1,0 +1,13 @@
+{
+  "role_id": "baseten_onboarding_pm",
+  "resume_pages": 1,
+  "cover_pages": 1,
+  "resume_size_bytes": 88706,
+  "cover_size_bytes": 56594,
+  "resume_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\baseten_onboarding_pm\\resume.pdf",
+  "cover_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\baseten_onboarding_pm\\cover_letter.pdf",
+  "rendered_at": "2026-06-15T07:41:01.451267Z",
+  "warnings": [
+    "autofit: resume fit to 1 page at font_scale=0.94 (content preserved, type shrunk)"
+  ]
+}

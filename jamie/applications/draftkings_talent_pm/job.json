@@ -1,0 +1,17 @@
+{
+  "$schema": "job.json/v1",
+  "company": "DraftKings Inc.",
+  "role": "Program Manager, Talent Management",
+  "url": "https://draftkings.wd1.myworkdayjobs.com/en-US/DraftKings/job/Boston-MA/Program-Manager--Talent-Management_JR14443",
+  "ats": "Workday (draftkings.wd1.myworkdayjobs.com) — guest apply, NO account/login required, NO captcha",
+  "req_id": "JR14443",
+  "location": "Boston, MA (also posted New York, NY)",
+  "jd_source": "none",
+  "key_points": {
+    "sponsorship_signal": "No 'no sponsorship' clause anywhere in JD. NOT asked on Steps 1-2 (may appear on Step 3 Application Questions — answer Sponsorship Required = YES when it does). Gaming-license condition is conditional ('if relevant to your role'), not an ITAR/US-Person wall. DraftKings = gaming/tech, generally sponsors.",
+    "source_note": "no full JD captured; key points composed from our record fields (jd_source=none)."
+  },
+  "sponsorship_note": "No 'no sponsorship' clause anywhere in JD. NOT asked on Steps 1-2 (may appear on Step 3 Application Questions — answer Sponsorship Required = YES when it does). Gaming-license condition is conditional ('if relevant to your role'), not an ITAR/US-Person wall. DraftKings = gaming/tech, generally sponsors.",
+  "no_sponsor_hardstop": false,
+  "verified_live": true
+}

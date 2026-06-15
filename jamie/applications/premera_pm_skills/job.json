@@ -1,0 +1,26 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Premera Blue Cross",
+  "role": "Program Manager IV, Skills Building",
+  "url": "https://premera.wd5.myworkdayjobs.com/Premera/job/Mountlake-Terrace-WA/Program-Manager-IV--Skills-Building_R28487",
+  "ats": "Workday (premera.wd5.myworkdayjobs.com) — REQUIRES candidate account (created + email-verified this run). NOTE: premera.wd1 redirects to a Workday maintenance page; the CORRECT live tenant is wd5, discovered via the LinkedIn 'Apply on company website' redirect.",
+  "req_id": "R28487",
+  "location": "Mountlake Terrace, WA (Hybrid). Seattle area — Jamie open to relocation (header rule: role city).",
+  "jd_source": "none",
+  "key_points": {
+    "one_liner": "{\"verdict\": \"STRETCH\", \"yoe_required\": \"At least 7 years progressively responsible L&D experience, with at least 5 years developing/deliveri",
+    "our_fit_analysis": "{\"verdict\": \"STRETCH\", \"yoe_required\": \"At least 7 years progressively responsible L&D experience, with at least 5 years developing/delivering development programs for leaders (Required). Bachelor's in curriculum dev/education/HR/business or equivalent (Required).\", \"yoe_jamie\": \"~3 years\", \"gap\": \"~4-year YOE gap + 5yr leader-development requirement — a genuine stretch (not a borderline). Applying per recalibrated profile rules (only 3 true blockers stop Jamie; she lets the employer decide on seniority/YOE stretches).\", \"scope_match\": \"STRONG. JD scope = designing/implementing learning strategies (AI Learning Pathways), updating leadership & skills training programs, partnering with senior leaders on essential-skills needs, building internal-mobility/continuous-development culture. Maps directly to Jamie's strengths: program management + L&D ops (InGenius: needs assessments -> 3 new programs, 20+ programs/10+ vendors, 600+ trainings, 70+ staff onboarding guides, 75% onboarding-time reduction) + MS Applied Org Psych (USC 3.95).\", \"advantage\": \"15 USC alumni currently work at Premera (LinkedIn) — alumni network advantage for Jamie (USC MS). Seattle-area hybrid (Jamie open to relocation). Salary band $111,900-$190,200 USD (Jamie's $95-120K ask sits at/below the low end).\", \"notes\": \"Title 'Program Manager IV' is a senior IC/program-leadership grade, not a people-manager-with-reports role per JD. Genuine stretch, surfaced + pursued per orchestrator instruction and loosened bar.\"}",
+    "sponsorship_signal": "unknown",
+    "source_note": "no full JD captured; key points composed from our record fields (jd_source=none)."
+  },
+  "fit": {
+    "verdict": "STRETCH",
+    "yoe_required": "At least 7 years progressively responsible L&D experience, with at least 5 years developing/delivering development programs for leaders (Required). Bachelor's in curriculum dev/education/HR/business or equivalent (Required).",
+    "yoe_jamie": "~3 years",
+    "gap": "~4-year YOE gap + 5yr leader-development requirement — a genuine stretch (not a borderline). Applying per recalibrated profile rules (only 3 true blockers stop Jamie; she lets the employer decide on seniority/YOE stretches).",
+    "scope_match": "STRONG. JD scope = designing/implementing learning strategies (AI Learning Pathways), updating leadership & skills training programs, partnering with senior leaders on essential-skills needs, building internal-mobility/continuous-development culture. Maps directly to Jamie's strengths: program management + L&D ops (InGenius: needs assessments -> 3 new programs, 20+ programs/10+ vendors, 600+ trainings, 70+ staff onboarding guides, 75% onboarding-time reduction) + MS Applied Org Psych (USC 3.95).",
+    "advantage": "15 USC alumni currently work at Premera (LinkedIn) — alumni network advantage for Jamie (USC MS). Seattle-area hybrid (Jamie open to relocation). Salary band $111,900-$190,200 USD (Jamie's $95-120K ask sits at/below the low end).",
+    "notes": "Title 'Program Manager IV' is a senior IC/program-leadership grade, not a people-manager-with-reports role per JD. Genuine stretch, surfaced + pursued per orchestrator instruction and loosened bar."
+  },
+  "verified_live": true
+}

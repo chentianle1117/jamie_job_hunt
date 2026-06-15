@@ -1,0 +1,40 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Figma",
+  "role": "People Partner, Engineering",
+  "url": "https://job-boards.greenhouse.io/figma/jobs/6004746004",
+  "ats": "Greenhouse",
+  "jd_source": "webfetch",
+  "fetched": "2026-06-15",
+  "jd_text": "People Partner, Engineering. Locations: San Francisco, CA / New York, NY / United States (remote within US). Partner with Product Engineering and Data leadership as a trusted advisor on leadership effectiveness, organizational design, and talent strategy. Support scaling by evolving team structures and operating models. Coach senior leaders on effectiveness and performance. Evolve performance and compensation frameworks and succession strategies. Address organizational friction points and improve cross-functional alignment. Embed across cross-functional stakeholders to drive people initiatives. Leverage data, organizational insights, and employee feedback to proactively inform decisions. Develop people strategy aligned with Engineering priorities. Requirements: 8+ years in HR/People roles, including 5+ years as an HR Business Partner supporting senior leaders in a high-growth company; proven track record partnering with Product/Data Engineering clients; strong background in organizational design, leadership coaching, change management; ability to influence senior leaders and drive alignment on complex initiatives in fast-paced environments; skilled at leveraging data and insights to inform decisions and translate business strategy into talent strategy. Preferred: experience in high-growth SaaS or product-led companies; scaling organizations through rapid growth and transformation; partnering closely with executive leadership teams.",
+  "key_points": {
+    "one_liner": "Senior IC People Partner / HRBP embedded with Product, Data, and Engineering leadership at Figma; org design, leadership coaching, performance/comp/succession strategy.",
+    "key_requirements": [
+      "8+ years in HR/People roles total",
+      "5+ years specifically as an HR Business Partner supporting SENIOR leaders in a high-growth company",
+      "Proven track record partnering with Product / Data / Engineering clients",
+      "Organizational design, leadership coaching, change management depth",
+      "Influence senior/executive leaders; drive alignment on complex initiatives",
+      "Translate business strategy into talent strategy using data"
+    ],
+    "years_experience_asked": "8+ years total HR/People; including 5+ years as an HRBP supporting senior leaders (exact quote: \"8+ years in HR / People roles, including 5+ years as an HR Business Partner supporting senior leaders in a high-growth company\")",
+    "must_have_skills": [
+      "HRBP / People Partner tenure with senior leaders",
+      "Organizational design",
+      "Leadership coaching",
+      "Change management",
+      "Performance & compensation framework design",
+      "Succession planning",
+      "Executive influence",
+      "Data-informed talent strategy"
+    ],
+    "sponsorship_signal": "No sponsorship language in the posting. Figma is a confirmed H1B sponsor per our cache, so sponsorship is NOT a hard stop here.",
+    "level": "Senior individual-contributor People Partner (no direct reports, not Director/Head), but scoped to advise senior/executive Engineering leadership."
+  },
+  "fit": {
+    "verdict": "SKIP",
+    "reason": "YOE far beyond cap. JD requires 8+ years total in HR/People AND 5+ years specifically as an HR Business Partner supporting senior leaders. Jamie has ~3 years total, with HRBP exposure only as an HRBP *Assistant* at Vestas (~8 months). The +2yr stretch cap (apply only to <=~5yr asks) is exceeded on both the 8+ headline and the 5+ HRBP sub-requirement. Per feedback_cap_yoe_stretch_dig_for_fit and the explicit fit-gate instruction ('if 6+ report SKIP with the YOE quote'), this is a hard SKIP. Building a package would require fabricating tenure or a knowingly-misframed seniority claim, violating RULE 0 + the zero-quality-degradation doctrine. Note: sponsorship is fine (Figma confirmed H1B sponsor); the disqualifier is purely seniority/YOE, not visa.",
+    "yoe_gap": "Asks 8+ total / 5+ as HRBP; Jamie ~3 total / <1yr HRBP-assistant. Gap of ~5yr on headline, ~4yr+ on the HRBP-specific sub-bar.",
+    "scope_gap": "JD core = coaching senior/exec leaders, evolving comp & succession frameworks, org design for a scaling eng org. Jamie's real adjacent work (Vestas ER/onboarding/M&A support as an assistant; NextGen manager-effectiveness analysis as an intern; ODN OD diagnostics) is genuine but operates one to two levels below 'trusted advisor to senior Engineering leadership with 5+ yrs HRBP'."
+  }
+}

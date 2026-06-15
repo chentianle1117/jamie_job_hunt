@@ -1,0 +1,38 @@
+{
+  "run": "2026-06-15-fleet round 2 (live board APIs, not training-data)",
+  "method": "Queried live Greenhouse/Ashby/Lever current-openings APIs across ~70 sponsor boards + tight People/L&D/OD filter + US + non-senior + dedup. Only returns roles that exist right now.",
+  "verified_live_candidates": [
+    {
+      "company": "Figma",
+      "role": "People Partner, Engineering",
+      "ats": "Greenhouse",
+      "verdict": "SKIP \u2014 JD asks 8+ yr incl 5+ as HRBP (way past ~5yr cap); Figma sponsors but YOE is the blocker"
+    },
+    {
+      "company": "Baseten",
+      "role": "Onboarding Program Manager (employee)",
+      "ats": "Ashby",
+      "verdict": "BUILT but WARM-INTRO-ONLY \u2014 perfect P1b scope (employee onboarding, her sweet spot) BUT 7+ yr ask + not confirmed sponsor. Package ready if a warm intro materializes; do not bulk-submit."
+    },
+    {
+      "company": "Verkada",
+      "role": "People Partner",
+      "ats": "Greenhouse",
+      "verdict": "HARD SKIP \u2014 8+ yr AND explicit \"unable to sponsor an employment visa\" (true hard blocker)"
+    },
+    {
+      "company": "OpenAI",
+      "role": "(no generalist HRBP live)",
+      "ats": "Ashby",
+      "verdict": "SKIP \u2014 only Compensation BP / Executive BP live = wrong function"
+    },
+    {
+      "company": "Asana",
+      "role": "People Partner",
+      "ats": "Greenhouse",
+      "verdict": "not built \u2014 Asana prior-skipped + People Partner likely senior; deprioritized"
+    }
+  ],
+  "net": "Live-API discovery is HONEST (no stale URLs) but confirms at-level + sponsoring + no-account People roles are scarce right now. The cap discipline held: agents SKIPd 8yr roles rather than fabricate tenure. Goalbook remains the 1 submit-ready find; Baseten is a strong-scope warm-intro hold.",
+  "pipeline_win": "Replaced training-data discovery (90% stale last round) with live board-API queries (0% stale). Worth baking into the discovery step."
+}

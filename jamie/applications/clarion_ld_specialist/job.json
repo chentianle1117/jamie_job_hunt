@@ -1,0 +1,13 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Clarion Events Inc. - North America",
+  "role": "Learning And Development Specialist",
+  "url": "https://www.linkedin.com/jobs/view/4424240371",
+  "ats": "LinkedIn Easy Apply (SDUI apply flow)",
+  "location": "Remote (United States)",
+  "jd_source": "none",
+  "key_points": {
+    "sponsorship_signal": "unknown",
+    "source_note": "no full JD captured; key points composed from our record fields (jd_source=none)."
+  }
+}

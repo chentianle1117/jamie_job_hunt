@@ -1,0 +1,16 @@
+{
+  "$schema": "job.json/v1",
+  "company": "nextSource",
+  "role": "Program Specialist",
+  "url": "https://www.livehire.com/careers/nextsource/job/NTR8B/FQFPCL1CXD/program-specialist-cambridge-ma",
+  "ats": "LiveHire / Humanforce Talent (www.livehire.com/careers/nextsource) — reached via LinkedIn 'Apply on company website' -> linkedin.com/safety/go redirect",
+  "location": "Cambridge, MA, USA (Hybrid — onsite at client 3 days/week)",
+  "jd_source": "none",
+  "key_points": {
+    "sponsorship_signal": "Full JD scanned programmatically + visually. ZERO sponsorship/visa/ITAR/US-Person/security-clearance/citizenship language anywhere (only the standard EEO statement). No hard stop on sponsorship. Sponsorship question, if asked, was NOT reached (login wall is before the application form). Answer 'Yes, requires sponsorship' (TRUTHFUL) if/when it appears.",
+    "source_note": "no full JD captured; key points composed from our record fields (jd_source=none)."
+  },
+  "sponsorship_note": "Full JD scanned programmatically + visually. ZERO sponsorship/visa/ITAR/US-Person/security-clearance/citizenship language anywhere (only the standard EEO statement). No hard stop on sponsorship. Sponsorship question, if asked, was NOT reached (login wall is before the application form). Answer 'Yes, requires sponsorship' (TRUTHFUL) if/when it appears.",
+  "no_sponsor_hardstop": false,
+  "verified_live": true
+}

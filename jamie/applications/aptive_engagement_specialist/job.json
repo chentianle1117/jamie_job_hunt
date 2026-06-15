@@ -1,0 +1,14 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Aptive Environmental, LLC",
+  "role": "Employee Engagement Specialist",
+  "url": "https://www.linkedin.com/jobs/view/4422139084",
+  "ats": "Workday (aptive.wd1.myworkdayjobs.com)",
+  "req_id": "R106961",
+  "location": "Provo, UT 84604 (4931 N 300 W)",
+  "jd_source": "none",
+  "key_points": {
+    "sponsorship_signal": "unknown",
+    "source_note": "no full JD captured; key points composed from our record fields (jd_source=none)."
+  }
+}

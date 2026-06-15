@@ -1,0 +1,23 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Trimble Inc.",
+  "role": "Manager, Enablement Programs and Content",
+  "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/Manager--Enablement-Programs-and-Content_R55463-1",
+  "ats": "Workday (trimble.wd1.myworkdayjobs.com) — guest 'Apply Manually' flow, NO account/login required to start",
+  "req_id": "R55463",
+  "location": "US - CO, Westminster (Workday canonical). LinkedIn cross-post displayed Lake Oswego, OR per orchestrator; only ONE live req of this title exists in Trimble Workday = Westminster.",
+  "jd_source": "none",
+  "key_points": {
+    "one_liner": "{\"verdict\": \"STRETCH\", \"yoe_required\": \"3-5 years (JD: 'Sales Enablement, Product Marketing, or SaaS management with a proven track record o",
+    "our_fit_analysis": "{\"verdict\": \"STRETCH\", \"yoe_required\": \"3-5 years (JD: 'Sales Enablement, Product Marketing, or SaaS management with a proven track record of managing people')\", \"yoe_jamie\": \"~3 years (bottom of band)\", \"notes\": \"Duties (onboarding programs, content/knowledge library, evaluation + analytics, ROI of enablement) map strongly to Jamie's strengths: program management, L&D ops, content/guides, data analytics (InGenius: 20+ programs, 10+ vendors, guides/workflows for 70+ staff, 75% onboarding-time reduction, 600+ participant trainings). Domain framing is sales/SaaS/customer enablement vs Jamie's HR/L&D internal-staff enablement — adjacent/transferable, not identical. 'Managing people' = program leadership, not formal direct reports. Genuine stretch; applying per recalibrated profile rules + orchestrator instruction ('Manager' here = program/content enablement IC-manager sense).\"}",
+    "sponsorship_signal": "unknown",
+    "source_note": "no full JD captured; key points composed from our record fields (jd_source=none)."
+  },
+  "fit": {
+    "verdict": "STRETCH",
+    "yoe_required": "3-5 years (JD: 'Sales Enablement, Product Marketing, or SaaS management with a proven track record of managing people')",
+    "yoe_jamie": "~3 years (bottom of band)",
+    "notes": "Duties (onboarding programs, content/knowledge library, evaluation + analytics, ROI of enablement) map strongly to Jamie's strengths: program management, L&D ops, content/guides, data analytics (InGenius: 20+ programs, 10+ vendors, guides/workflows for 70+ staff, 75% onboarding-time reduction, 600+ participant trainings). Domain framing is sales/SaaS/customer enablement vs Jamie's HR/L&D internal-staff enablement — adjacent/transferable, not identical. 'Managing people' = program leadership, not formal direct reports. Genuine stretch; applying per recalibrated profile rules + orchestrator instruction ('Manager' here = program/content enablement IC-manager sense)."
+  },
+  "verified_live": true
+}
