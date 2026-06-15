@@ -37,7 +37,7 @@
       "workSampleUrl": null,
       "bullets": [
         {
-          "text": "Manage 20+ educational programs and 10+ vendor/partner relationships, coordinating operations, communications, and {prog|program promotion} to reach the right students",
+          "text": "Manage 20+ educational programs and 10+ vendor/partner relationships, coordinating operations and {prog|program promotion}",
           "change": "swap",
           "original": "Conduct needs assessments with 25+ global stakeholders to identify learning gaps and design 3 new educational programs",
           "jd": [
@@ -48,7 +48,7 @@
           "reason": "Lead bullet swapped to program operations + communications — matches Columbia's mandate to 'oversee day-to-day administration' and 'manage communications, including program newsletters'"
         },
         {
-          "text": "Facilitate listening sessions with 25+ {cross|stakeholders} (students, counselors, partners), resulting in 3 new programs aligned with {ex|student needs}",
+          "text": "Facilitate listening sessions with 25+ {cross|stakeholders}, launching 3 new programs aligned with {ex|student needs}",
           "change": "swap",
           "original": "Develop guides and workflows for 70+ cross-functional staff, improving program knowledge and reducing onboarding time by 75%",
           "jd": [
@@ -58,7 +58,7 @@
           "reason": "Surfaces student + counselor coordination — direct InGenius-to-Columbia bridge for 'primary administrative liaison between students, DUS, and university offices'"
         },
         {
-          "text": "Establish {coord|cross-functional processes} and documentation for 70+ staff, streamlining program operations and reducing onboarding time by 75%",
+          "text": "Establish {coord|cross-functional processes} and documentation for 70+ staff, reducing onboarding time by 75%",
           "change": "swap",
           "original": "Facilitate training webinars for 600+ participants, enhancing program understanding and driving a 78% client conversion rate",
           "jd": [
@@ -164,7 +164,7 @@
       "workSampleUrl": null,
       "bullets": [
         {
-          "text": "Core planning committee member for annual {prog|International Education Week}, partnering with {cross|university offices and student organizations}",
+          "text": "Planned the annual {prog|International Education Week}, partnering with {cross|university offices and student organizations}",
           "change": "swap",
           "original": "[Kronos: Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management]",
           "jd": [
@@ -174,7 +174,7 @@
           "reason": "Wesleyan SA replaces Kronos/EXPLO — direct university-side event coordination with multiple school offices is the literal match for Columbia's 'coordinate departmental participation in university-wide student engagement events' + 'organize departmental events and outreach for prospective majors and current students'"
         },
         {
-          "text": "Organized globally-focused events to promote {prog|intercultural learning} and strengthen a more cohesive, globally-conscious {ex|student community}",
+          "text": "Organized globally-focused events to promote {prog|intercultural learning} and build a more globally-conscious {ex|student community}",
           "change": "swap",
           "original": "[Kronos bullet]",
           "jd": [
@@ -183,7 +183,7 @@
           "reason": "Student engagement programming — direct match for JD's 'develop and coordinate programming that supports academic enrichment and community building'"
         },
         {
-          "text": "Analyzed {data|focus group interviews} via MaxQda to surface {ex|study abroad barriers}, informing {prog|Study Abroad Office programming} and outreach",
+          "text": "Analyzed {data|focus group interviews} via MaxQda to surface {ex|study abroad barriers} for the Study Abroad Office",
           "change": "swap",
           "original": "[Kronos bullet]",
           "jd": [
