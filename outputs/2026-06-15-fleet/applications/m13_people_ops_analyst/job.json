@@ -1,0 +1,22 @@
+{
+  "$schema": "job.json/v1",
+  "company": "M13",
+  "role": "People Operations Analyst",
+  "url": "https://jobs.ashbyhq.com/m13/850093ad-58f3-4324-9698-35291d420852",
+  "ats": "Ashby",
+  "jd_source": "none",
+  "verdict": "DEAD",
+  "jd_text": "",
+  "key_points": {
+    "sponsorship_signal": "unknown",
+    "yoe_signal": "unknown",
+    "fit": "not_evaluated_posting_dead"
+  },
+  "dead_evidence": {
+    "checked": "2026-06-15",
+    "ashby_graphql_ApiJobPosting": "jobPosting: null (valid query, resolver returned no posting)",
+    "ashby_public_board_api": "job id absent; only 3 live M13 postings (Talent Community, Director of Marketing, Account Executive at Chord)",
+    "live_browser_render": "page shows 'Job not found — The job you requested was not found.'",
+    "conclusion": "Posting is expired/removed/unlisted; no JD retrievable. No package built per RULE 0 (no fabrication) and prompt DEAD instruction."
+  }
+}

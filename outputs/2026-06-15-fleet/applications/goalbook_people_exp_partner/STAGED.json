@@ -1,0 +1,15 @@
+{
+  "company": "Goalbook",
+  "role": "People Experience Partner (HRBP)",
+  "ats": "Lever",
+  "url": "https://jobs.lever.co/goalbookapp-2/96b21554-c429-4281-b505-8c14927b06de",
+  "form_url": "https://jobs.lever.co/goalbookapp-2/96b21554-c429-4281-b505-8c14927b06de/apply",
+  "status": "staged",
+  "staged_at": "2026-06-15",
+  "blocker": "hCaptcha on submit (hidden #hcaptchaSubmitBtn) \u2014 human clears captcha + clicks SUBMIT APPLICATION",
+  "resume_used": "tailored resume.pdf (attached, verified)",
+  "cover_used": "cover_letter.pdf (attached, verified)",
+  "fill_state": "ALL required filled: LinkedIn link, how-heard=LinkedIn, work-auth=Yes, sponsorship=Yes, contact, resume+cover. Demographics optional left blank.",
+  "verification": "visual screenshot _v2_stage_review.png read back \u2014 all required green",
+  "human_next": "Open the staged Goalbook tab in submit Chrome (port 9400) -> click SUBMIT APPLICATION -> clear hCaptcha."
+}

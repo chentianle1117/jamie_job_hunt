@@ -1,0 +1,11 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Roivant Sciences",
+  "role": "People Operations Associate",
+  "jd_source": "body_preview (post-submit page text, partial)",
+  "jd_text": "Thank you for applying.\n\nYour application has been received. If there is a fit, someone will be getting back to you. \n\n \n\n \n\nView more jobs at Roivant Sciences\nBack to job post\n\nTrack your status\n\nSign in to MyGreenhouse to keep tabs on your application, get status updates and more.\n\nSign in to MyGreenhouse\n\nPowered by",
+  "key_points": {
+    "sponsorship_signal": "unknown",
+    "source_note": "full JD captured (jd_source=body_preview (post-submit page text, partial)); structured key_points not generated (run --gemini to summarize)."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "job.json/v1",
+  "company": "OHSU",
+  "role": "Program Administrator",
+  "url": "https://externalcareers-ohsu.icims.com/jobs/39497/program-administrator/job",
+  "ats": "iCIMS",
+  "req_id": "2026-39497",
+  "location": "US-OR-Portland (Marquam Hill)",
+  "jd_source": "none",
+  "key_points": {
+    "sponsorship_signal": "OHSU is a cap-exempt public academic health center; sponsorship answered truthfully = required. No explicit no-sponsorship hard stop in JD.",
+    "source_note": "no full JD captured; key points composed from our record fields (jd_source=none)."
+  },
+  "sponsorship_note": "OHSU is a cap-exempt public academic health center; sponsorship answered truthfully = required. No explicit no-sponsorship hard stop in JD."
+}

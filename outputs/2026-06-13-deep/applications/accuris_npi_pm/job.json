@@ -1,0 +1,16 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Accuris (formerly S&P Global Engineering Solutions / IHS Markit)",
+  "role": "Program Manager, NPI (New Product Introduction) — Remote (USA)",
+  "url": "https://jobs.dayforcehcm.com/en-US/accuris/CANDIDATEPORTAL/jobs/1609",
+  "ats": "Dayforce HCM (jobs.dayforcehcm.com/accuris) — guest 'Apply without an Account', NO login/account, NO captcha encountered.",
+  "req_id": "524",
+  "jd_source": "none",
+  "key_points": {
+    "sponsorship_signal": "No 'no sponsorship' clause anywhere in the JD. Standard EEO statement only, no U.S.-Person/ITAR/clearance language. SAFE. Work-auth question answered Yes; legal-right-to-work free text disclosed H-1B + sponsorship-transfer requirement truthfully.",
+    "source_note": "no full JD captured; key points composed from our record fields (jd_source=none)."
+  },
+  "sponsorship_note": "No 'no sponsorship' clause anywhere in the JD. Standard EEO statement only, no U.S.-Person/ITAR/clearance language. SAFE. Work-auth question answered Yes; legal-right-to-work free text disclosed H-1B + sponsorship-transfer requirement truthfully.",
+  "no_sponsor_hardstop": false,
+  "verified_live": true
+}

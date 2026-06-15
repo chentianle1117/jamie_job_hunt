@@ -1,0 +1,28 @@
+{
+  "role_dir": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\goalbook_people_exp_partner",
+  "company": "Goalbook",
+  "role": "People Experience Partner (HR Business Partner)",
+  "ats": "Lever",
+  "lane_ats": "lever",
+  "form_url": "https://jobs.lever.co/goalbookapp-2/96b21554-c429-4281-b505-8c14927b06de",
+  "staged_at": "2026-06-15T00:18:39",
+  "submit_port": 9400,
+  "contact": {
+    "name": "Jamie Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "(213) 700-3831",
+    "org": "InGenius Prep",
+    "urls[LinkedIn]": null
+  },
+  "resume_uploaded": true,
+  "cover_uploaded": true,
+  "still_required": [],
+  "screenshot": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\goalbook_people_exp_partner\\_v2_stage_review.png",
+  "final_url": "https://jobs.lever.co/goalbookapp-2/96b21554-c429-4281-b505-8c14927b06de/apply",
+  "captcha": {
+    "present": true,
+    "interactive_visible": false
+  },
+  "lane": "ONE-CLICK",
+  "human_next": "Open the staged tab in the submit Chrome (port 9400) → clear the captcha → click Submit application."
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Portland State University",
+  "role": "Senior Specialist, Training and Employee Development",
+  "url": "https://jobs.hrc.pdx.edu/postings/49997",
+  "ats": "PeopleAdmin (jobs.hrc.pdx.edu)",
+  "jd_source": "none",
+  "key_points": {
+    "sponsorship_signal": "unknown",
+    "source_note": "no full JD captured; key points composed from our record fields (jd_source=none)."
+  }
+}

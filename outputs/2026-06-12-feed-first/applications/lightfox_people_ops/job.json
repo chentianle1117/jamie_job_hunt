@@ -1,0 +1,13 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Lightfox Games",
+  "role": "People & Operations Coordinator",
+  "url": "https://www.lightfoxgames.com/careers/?id=people-operations-coordinator",
+  "ats": "Custom form (lightfoxgames.com/careers via Google Cloud Function)",
+  "jd_source": "none",
+  "key_points": {
+    "sponsorship_signal": "Custom form had no sponsorship question — sponsorship disclosed in resume/cover letter package",
+    "source_note": "no full JD captured; key points composed from our record fields (jd_source=none)."
+  },
+  "sponsorship_note": "Custom form had no sponsorship question — sponsorship disclosed in resume/cover letter package"
+}

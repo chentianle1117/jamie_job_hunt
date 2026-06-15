@@ -1,0 +1,32 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Perforce",
+  "role": "Learning & Development Coordinator",
+  "url": "https://jobs.lever.co/perforce/83c8e0be-c347-47a5-aeea-69ada7072448",
+  "ats": "Lever",
+  "jd_text": "Position Summary: We are looking for a detail-oriented, collaborative, and AI-fluent Learning & Development Coordinator to join Perforce's global People & Culture team in Pune, India. You'll be a key operational partner supporting enterprise-wide learning programs — serving as a primary administrator for Perforce Learning (Docebo) and Showpad while leveraging Microsoft 365 Copilot and Claude to accelerate content creation and scale learning globally. You'll partner with L&D, GTM/Sales, and global HRBPs to operationalize initiatives and drive measurable impact.\n\nResponsibilities:\n- Administer Perforce Learning (Docebo Learning Management System): course creation, enrollment, learning paths, SCORM/xAPI content, reporting, and platform troubleshooting\n- Administer Showpad: maintain and update pages, coordinate content uploads/tagging/retirement with GTM leaders, and train users on navigation including onboarding new sellers\n- Use AI (i.e. Copilot, Claude) to draft learning content, AI Agents, course narratives, scenario-based activities, learner guides, and communications per Perforce's AI policy\n- Build and maintain a prompt library and reusable templates; support personalized learning paths and automated learner nudges within the LMS\n- Coordinate scheduling, logistics, and communications for cohort-based learning, onboarding, and program launches (Self Leadership, HPT, SLII, Insights Discovery, Coaching)\n- Track key L&D metrics i.e. completions, satisfaction (>= 4.0/5.0), NPS and maintain L&D resources on OnePlace\n- Partner with HRBPs, Sales Enablement, and P&C across India & APAC, EMEA, and the Americas; manage deliverables via Asana/SharePoint\n\nRequirements:\n- 1–2 years of experience in L&D, HR Ops, sales enablement, or training coordination, preferably in a global tech company, with experience supporting GTM teams and familiarity with ADP as a plus\n- Hands-on LMS administration required (Docebo strongly preferred), with SCORM/xAPI proficiency and experience with Showpad or similar sales enablement platforms like Highspot or Seismic\n- Strong proficiency in Microsoft 365 tools (Teams, Copilot, SharePoint, Excel, PowerPoint, Outlook) along with practical experience using AI tools like Copilot or Claude for creating, editing, organizing, and optimizing work content\n- Ability to write effective AI prompts, refine outputs for accuracy/tone/audience, build reusable prompt templates, and work within AI governance guidelines including data privacy and IP protection\n- Strong project management, attention to detail, communication, and stakeholder management skills across global time zones; bachelor's degree preferred but equivalent experience and relevant certifications (ATD, SHRM, LMS, AI tools, etc.) will also be considered\n\nDepartment: People and Culture | Team: Talent Management | Location: Pune, Maharashtra, India | Workplace: Hybrid | Commitment: Full-Time",
+  "key_points": {
+    "one_liner": "Operational L&D Coordinator on Perforce's global People & Culture team — LMS administration (Docebo), Showpad sales-enablement, AI-assisted content creation, and cohort/program logistics across global time zones.",
+    "key_requirements": [
+      "Hands-on LMS administration (Docebo strongly preferred); SCORM/xAPI proficiency",
+      "Showpad or similar sales-enablement platform (Highspot/Seismic) administration",
+      "AI tools (Copilot, Claude) for content creation + prompt-library building",
+      "Coordinate logistics/communications for cohort-based learning and program launches",
+      "Track L&D metrics (completions, satisfaction, NPS); maintain resources",
+      "Partner with L&D, GTM/Sales, and global HRBPs across APAC/EMEA/Americas",
+      "Project management + stakeholder management via Asana/SharePoint"
+    ],
+    "years_experience_asked": "1-2 years",
+    "must_have_skills": [
+      "LMS administration (Docebo)",
+      "SCORM/xAPI",
+      "Showpad / Highspot / Seismic",
+      "Microsoft 365 (Teams, Copilot, SharePoint, Excel, PowerPoint, Outlook)",
+      "AI tools (Copilot, Claude) for content",
+      "Project & stakeholder management",
+      "L&D metrics tracking"
+    ],
+    "sponsorship_signal": "unknown — no sponsorship language in JD (neither offered nor refused). Role is based in Pune, Maharashtra, India (hybrid), which is a relocation/location consideration distinct from US visa sponsorship; flagged for David."
+  },
+  "fit": "Strong at-level fit on the L&D-coordination core. JD asks 1-2 yrs (Jamie ~3 yrs = at/above level, no YOE stretch). Real overlap: training facilitation (600+ participants, 78% enrollment), program + vendor management (20+ programs, 10+ vendors), SOPs/self-service knowledge base (onboarding -75%), needs assessments (25+ stakeholders), AI tools for content/process (ChatGPT, Gemini — Claude named in JD), cross-functional partnering (Sales, Tech, vendors), Asana + SharePoint (both JD-named). GAPS (disclosed): no hands-on Docebo (has Canvas/Moodle at user level), no Showpad/Highspot/Seismic, no SCORM/xAPI authoring, no Microsoft 365 Copilot specifically. These are the named must-have tools — genuine growth edges, not blockers (JD accepts 'LMS' admin generally + relevant certs). LOCATION FLAG: Pune, India hybrid role, not US — David to decide if this is in scope for Jamie's search."
+}

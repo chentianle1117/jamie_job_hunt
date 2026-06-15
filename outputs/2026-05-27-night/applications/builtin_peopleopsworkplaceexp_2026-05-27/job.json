@@ -1,0 +1,11 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Built In",
+  "role": "People Ops & Workplace Experience Specialist",
+  "jd_source": "body_preview (post-submit page text, partial)",
+  "jd_text": "Hi there!\nThanks for applying! We seriously respect the time it takes to prepare a job application for us. Assuming yours contains all the required materials, an actual human being here at Built In will review it and reach out if we have something that matches your background. \nThanks again for your interest in Built In!\nView more jobs at Built In\nBack to job post\n\nTrack your status\n\nSign in to MyGreenhouse to keep tabs on your application, get status updates and more.\n\nSign in to MyGreenhouse\n\nPowered by",
+  "key_points": {
+    "sponsorship_signal": "unknown",
+    "source_note": "full JD captured (jd_source=body_preview (post-submit page text, partial)); structured key_points not generated (run --gemini to summarize)."
+  }
+}

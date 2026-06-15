@@ -1,0 +1,12 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Stripe",
+  "role": "People Project Manager",
+  "url": "https://stripe.com/jobs/search?gh_jid=7953899",
+  "ats": "Greenhouse (embedded job_app, for=stripe token=7953899)",
+  "jd_source": "none",
+  "key_points": {
+    "sponsorship_signal": "unknown",
+    "source_note": "no full JD captured; key points composed from our record fields (jd_source=none)."
+  }
+}

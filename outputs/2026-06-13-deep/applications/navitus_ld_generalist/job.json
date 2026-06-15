@@ -1,0 +1,18 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Navitus Health Solutions",
+  "role": "Learning and Development Generalist",
+  "ats": "iCIMS (careers-navitus.icims.com)",
+  "jd_source": "none",
+  "key_points": {
+    "one_liner": "{\"yoe\": \"JD asks '3 years of experience in a learning and development role' — Jamie has ~3 yrs. BEST YOE match of the batch (clean, not a st",
+    "our_fit_analysis": "{\"yoe\": \"JD asks '3 years of experience in a learning and development role' — Jamie has ~3 yrs. BEST YOE match of the batch (clean, not a stretch on YOE).\", \"match\": \"Strong L&D-ops fit: design/deliver/evaluate training, needs assessments with HRBPs/SMEs, LMS administration, measurement. Maps to InGenius (needs assessments + 3 programs + 600+ webinars), NextGen (2,000+ EX analysis), ODN (HR data analytics).\", \"honest_gaps_disclosed\": \"SCORM e-learning authoring (Captivate/Articulate/Lectora) = 'strongly preferred', Jamie is newer to it (disclosed truthfully in cover + in Step-4 e-learning-tools answer, framed as ramp-up area, NOT claimed). 'Supervising direct reports' = 'preferred', Jamie has none (not claimed).\"}",
+    "sponsorship_signal": "unknown",
+    "source_note": "no full JD captured; key points composed from our record fields (jd_source=none)."
+  },
+  "fit": {
+    "yoe": "JD asks '3 years of experience in a learning and development role' — Jamie has ~3 yrs. BEST YOE match of the batch (clean, not a stretch on YOE).",
+    "match": "Strong L&D-ops fit: design/deliver/evaluate training, needs assessments with HRBPs/SMEs, LMS administration, measurement. Maps to InGenius (needs assessments + 3 programs + 600+ webinars), NextGen (2,000+ EX analysis), ODN (HR data analytics).",
+    "honest_gaps_disclosed": "SCORM e-learning authoring (Captivate/Articulate/Lectora) = 'strongly preferred', Jamie is newer to it (disclosed truthfully in cover + in Step-4 e-learning-tools answer, framed as ramp-up area, NOT claimed). 'Supervising direct reports' = 'preferred', Jamie has none (not claimed)."
+  }
+}

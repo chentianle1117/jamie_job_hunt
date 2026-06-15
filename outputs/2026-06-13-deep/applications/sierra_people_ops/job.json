@@ -1,0 +1,14 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Sierra",
+  "role": "People Operations",
+  "ats": "Ashby (jobs.ashbyhq.com)",
+  "jd_source": "none",
+  "key_points": {
+    "one_liner": "P3 People-ops generalist stretch (8+ yrs ask vs ~3 yrs); seniority gap disclosed candidly in cover.",
+    "our_fit_analysis": "P3 People-ops generalist stretch (8+ yrs ask vs ~3 yrs); seniority gap disclosed candidly in cover.",
+    "sponsorship_signal": "unknown",
+    "source_note": "no full JD captured; key points composed from our record fields (jd_source=none)."
+  },
+  "fit": "P3 People-ops generalist stretch (8+ yrs ask vs ~3 yrs); seniority gap disclosed candidly in cover."
+}

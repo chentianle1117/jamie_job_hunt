@@ -1,0 +1,16 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Trimble Inc.",
+  "role": "Manager, Enablement Programs and Content",
+  "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---CO-Westminster/Manager--Enablement-Programs-and-Content_R55463-1",
+  "ats": "Workday (trimble.wd1.myworkdayjobs.com) — guest 'Apply Manually', NO account/login, NO captcha",
+  "req_id": "R55463",
+  "location": "US - CO, Westminster (LinkedIn cross-post showed Lake Oswego, OR)",
+  "jd_source": "none",
+  "key_points": {
+    "sponsorship_signal": "unknown",
+    "source_note": "no full JD captured; key points composed from our record fields (jd_source=none)."
+  },
+  "no_sponsor_hardstop": false,
+  "verified_live": true
+}

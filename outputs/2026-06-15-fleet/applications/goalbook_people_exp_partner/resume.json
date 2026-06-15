@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "company": "Goalbook",
+    "role": "People Experience Partner (HRBP)",
+    "date": "2026-06-15",
+    "pageMargins": { "top": "0.3in", "right": "0.45in", "bottom": "0.3in", "left": "0.45in" },
+    "autoFit": true,
+    "fontRange": [8.5, 10.0]
+  },
+  "header": {
+    "location": "Portland, OR (Open to Remote or Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>People Experience Partner / HRBP</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing people programs grounded in evidence</b>, and <b>partnering with managers and stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve people experience—through human-centered, systematic approaches.",
+  "keywordGroups": {
+    "data": "Data/Metrics",
+    "coord": "Program/Project Mgmt",
+    "cross": "Manager/Stakeholder Partnership",
+    "ex": "Process/People Systems",
+    "er": "Employee Relations/Compliance",
+    "prog": "Performance/Engagement"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Establish {ex|cross-functional processes, SOPs, and onboarding documentation} for 70+ staff, strengthening clarity and consistency while reducing onboarding time by 75%" },
+        { "text": "Own {coord|end-to-end project management} across 20+ concurrent initiatives and 10+ vendors—driving follow-through so work is completed, tracked, and visible to {cross|stakeholders}" },
+        { "text": "Facilitate {prog|listening sessions and needs assessments} with 25+ {cross|global stakeholders}, translating {data|feedback analysis} into program improvements best aligned with their needs" },
+        { "text": "Run training for 600+ participants and refine program {prog|communications and engagement} strategy via {data|feedback analysis}, achieving a 78% program enrollment rate" }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Facilitate CEO/HR discovery interviews to diagnose absenteeism, then {data|analyze} 300+ {er|leave cases}—surfacing $362K in costs that drove {er|policy} redesigns and first aid training" },
+        { "text": "Conduct focus groups and 1:1 interviews with an NGO leadership team to surface decision-making and {cross|accountability} gaps and recommend fairer process changes" }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        { "text": "Led a {prog|manager-effectiveness} initiative, translating {data|feedback data} into actionable reports that coached leaders and informed {prog|engagement} strategies" },
+        { "text": "Analyzed 2,000+ {data|employee experiences} to surface satisfaction drivers and guide C-suite decisions on where to focus" },
+        { "text": "Provided consultation and internal training to leadership on DEI, Inclusive Leadership, and {prog|performance review}" },
+        { "text": "Improved {ex|employee experience} via 5 {cross|cross-functional} projects on survey development, rewards &amp; recognition, and L&amp;D" }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        { "text": "Assisted in {er|employee relations cases}, ensuring {er|compliance with local labor laws} and confidentiality while supporting a positive work environment" },
+        { "text": "Optimized {ex|onboarding} across 3 global locations via process analysis and clarifying job responsibilities across the employee lifecycle" },
+        { "text": "Partnered with the HRBP team to pilot an Inclusive Leadership (DEI) workshop for 12 senior leaders, later expanded to 23 global locations" },
+        { "text": "Supported organizational change by helping direct a Mergers &amp; Acquisitions project, coordinating {cross|cross-functional stakeholders}" }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Developed proficiency across various HR functions, ranging from recruitment and compensation to {prog|performance management}" },
+        { "text": "Supported {er|employee relations} and a challenging international role by drafting job descriptions, posting openings, and researching global compensation" },
+        { "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months" },
+        { "text": "Organized recruiting events and moderated panels with C-suite at top 3 universities, reaching 230+ students and 80+ applicants" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": ["Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": ["Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding & talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>HR Systems:</b> HRIS (SAP, Rippling, ADP) · ATS (Greenhouse) · Performance & Engagement Survey Tools · Data Analysis (Excel, Google Sheets, SPSS)",
+    "<b>Productivity:</b> Project Management (Asana, Airtable) · Knowledge Management (Notion, SharePoint) · AI Tools (ChatGPT, Gemini) · Microsoft Office &amp; Google Workspace · Slack",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic) &nbsp; | &nbsp; <b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": { "meta": "", "sections": [] },
+  "changeLog": []
+}

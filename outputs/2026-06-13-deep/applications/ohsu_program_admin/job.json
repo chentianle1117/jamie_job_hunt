@@ -1,0 +1,13 @@
+{
+  "$schema": "job.json/v1",
+  "company": "OHSU (Oregon Health & Science University)",
+  "role": "Program Administrator",
+  "url": "https://externalcareers-ohsu.icims.com/jobs/39497/program-administrator/job",
+  "ats": "iCIMS",
+  "req_id": "2026-39497",
+  "jd_source": "none",
+  "key_points": {
+    "sponsorship_signal": "unknown",
+    "source_note": "no full JD captured; key points composed from our record fields (jd_source=none)."
+  }
+}

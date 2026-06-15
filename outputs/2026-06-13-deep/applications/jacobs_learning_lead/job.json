@@ -1,0 +1,13 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Jacobs",
+  "role": "CSP Learning & Training Lead, Sales Advancement",
+  "url": "https://careers.jacobs.com/en_US/careers/JobDetail/CSP-Learning-Training-Lead-Sales-Advancement/39977",
+  "ats": "Phenom (careers.jacobs.com)",
+  "req_id": "39977",
+  "jd_source": "none",
+  "key_points": {
+    "sponsorship_signal": "unknown",
+    "source_note": "no full JD captured; key points composed from our record fields (jd_source=none)."
+  }
+}

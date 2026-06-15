@@ -1,0 +1,114 @@
+{
+  "run": "2026-06-15-fleet",
+  "discovered_at": "2026-06-15",
+  "yoe_cap": "apply <=~5yr; only explicit-no-sponsorship is a hard stop",
+  "roles": [
+    {
+      "slug": "wiz_people_ops_analyst",
+      "company": "Wiz",
+      "role": "People Operations Analyst",
+      "url": "https://boards.greenhouse.io/wizinc/jobs/4427073006",
+      "ats": "Greenhouse",
+      "tier": "clean",
+      "fit": "P1/P5-strategic People Ops at security SaaS; ~2-3yr",
+      "verdict": "DEAD (Greenhouse 404)"
+    },
+    {
+      "slug": "goalbook_people_exp_partner",
+      "company": "Goalbook",
+      "role": "People Experience Partner (HRBP)",
+      "url": "https://jobs.lever.co/goalbookapp-2/96b21554-c429-4281-b505-8c14927b06de",
+      "ats": "Lever",
+      "tier": "clean",
+      "fit": "P3/P4 junior HRBP at EdTech; ~2-3yr; remote",
+      "verdict": "BUILT + gated-clean — LIVE, in-scope, submit-ready (Lever)"
+    },
+    {
+      "slug": "perforce_ld_coordinator",
+      "company": "Perforce",
+      "role": "Learning & Development Coordinator",
+      "url": "https://jobs.lever.co/perforce/83c8e0be-c347-47a5-aeea-69ada7072448",
+      "ats": "Lever",
+      "tier": "clean",
+      "fit": "P1b L&D coordinator (LMS+content); ~1-2yr",
+      "verdict": "BUILT but SKIP — role is Pune India, out of US-scope"
+    },
+    {
+      "slug": "fictiv_ee_experience_mgr",
+      "company": "Fictiv",
+      "role": "Employee Experience Manager",
+      "url": "https://boards.greenhouse.io/fictiv/jobs/5962729002",
+      "ats": "Greenhouse",
+      "tier": "clean",
+      "fit": "P3 EX engagement programs; ~3-4yr; remote",
+      "verdict": "DEAD (Greenhouse 404)"
+    },
+    {
+      "slug": "zip_people_ops_pm",
+      "company": "Zip",
+      "role": "People Operations Program Manager",
+      "url": "https://jobs.ashbyhq.com/zip/169788f8-be99-4efb-bc73-092ed4bfde0b",
+      "ats": "Ashby",
+      "tier": "clean",
+      "fit": "P1 People program mgmt; ~3-5yr",
+      "verdict": "DEAD (not in Ashby board)"
+    },
+    {
+      "slug": "kindred_people_ops_mgr",
+      "company": "Kindred",
+      "role": "People Operations Manager",
+      "url": "https://jobs.ashbyhq.com/kindred/313a6210-2e1f-46f2-b65b-f69a6c36fdd7",
+      "ats": "Ashby",
+      "tier": "manager-edge",
+      "fit": "P1/P5 People Ops Mgr; ~3-4yr",
+      "verdict": "DEAD (not in Ashby board)"
+    },
+    {
+      "slug": "assembled_people_ops_mgr",
+      "company": "Assembled",
+      "role": "People Operations Manager",
+      "url": "https://jobs.ashbyhq.com/assembledhq/b5685d92-8a9c-482d-a735-ee7affdf150b",
+      "ats": "Ashby",
+      "tier": "manager-edge",
+      "fit": "P1/P5 People Ops Mgr; ~3-4yr",
+      "verdict": "DEAD (not in Ashby board)"
+    },
+    {
+      "slug": "m13_people_ops_analyst",
+      "company": "M13",
+      "role": "People Operations Analyst",
+      "url": "https://jobs.ashbyhq.com/m13/850093ad-58f3-4324-9698-35291d420852",
+      "ats": "Ashby",
+      "tier": "clean",
+      "fit": "P1/P5 People Ops at VC; ~1-2yr",
+      "verdict": "DEAD (Ashby posting null)"
+    },
+    {
+      "slug": "pendo_benefits_people_ops_analyst",
+      "company": "Pendo",
+      "role": "Benefits & People Operations Analyst",
+      "url": "https://boards.greenhouse.io/pendo/jobs/7817609002",
+      "ats": "Greenhouse",
+      "tier": "READ-JD-FIRST",
+      "fit": "benefits-leaning — check blocker #3 (benefits-admin-primary) before building",
+      "verdict": "DEAD (Greenhouse 404)"
+    },
+    {
+      "slug": "collibra_people_ops_analyst",
+      "company": "Collibra",
+      "role": "People Operations Analyst",
+      "url": "https://boards.greenhouse.io/collibra/jobs/6678501",
+      "ats": "Greenhouse",
+      "tier": "READ-JD-FIRST",
+      "fit": "check duties; HR-ops lifecycle — confirm not clerical-primary",
+      "verdict": "DEAD (Greenhouse 404)"
+    }
+  ],
+  "result_summary": {
+    "total": 10,
+    "live_in_scope_submitready": 1,
+    "built_out_of_scope": 1,
+    "dead": 8,
+    "note": "Discovery agent URLs were ~90% stale; build-agents + API pre-screen caught all before any wasted submit. Only Goalbook real+live+in-scope."
+  }
+}

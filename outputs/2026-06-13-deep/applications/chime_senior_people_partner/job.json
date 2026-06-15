@@ -1,0 +1,14 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Chime Financial, Inc",
+  "role": "Senior People Partner",
+  "ats": "Greenhouse (job-boards.greenhouse.io)",
+  "jd_source": "none",
+  "key_points": {
+    "one_liner": "P4 Senior HRBP stretch (6+ yrs ask vs ~3 yrs); seniority gap disclosed candidly in cover.",
+    "our_fit_analysis": "P4 Senior HRBP stretch (6+ yrs ask vs ~3 yrs); seniority gap disclosed candidly in cover.",
+    "sponsorship_signal": "unknown",
+    "source_note": "no full JD captured; key points composed from our record fields (jd_source=none)."
+  },
+  "fit": "P4 Senior HRBP stretch (6+ yrs ask vs ~3 yrs); seniority gap disclosed candidly in cover."
+}

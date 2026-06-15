@@ -1,0 +1,16 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Premera Blue Cross",
+  "role": "Program Manager IV, Skills Building",
+  "url": "https://premera.wd5.myworkdayjobs.com/Premera/job/Mountlake-Terrace-WA/Program-Manager-IV--Skills-Building_R28487",
+  "ats": "Workday (premera.wd5.myworkdayjobs.com) — REQUIRES candidate account (created + email-verified prior run). Logged in with existing account. NO captcha encountered.",
+  "req_id": "R28487",
+  "jd_source": "none",
+  "key_points": {
+    "sponsorship_signal": "No 'no sponsorship' clause; standard EEO statement only. Premera = PNW health plan (cap-exempt-adjacent / confirmed-sponsor pattern). App Questions answered truthfully: authorized to work = Yes; require sponsorship now/future (H-1B/F1) = Yes; visa type = H-1B. Sponsorship fully disclosed, never hidden.",
+    "source_note": "no full JD captured; key points composed from our record fields (jd_source=none)."
+  },
+  "sponsorship_note": "No 'no sponsorship' clause; standard EEO statement only. Premera = PNW health plan (cap-exempt-adjacent / confirmed-sponsor pattern). App Questions answered truthfully: authorized to work = Yes; require sponsorship now/future (H-1B/F1) = Yes; visa type = H-1B. Sponsorship fully disclosed, never hidden.",
+  "no_sponsor_hardstop": false,
+  "verified_live": true
+}
