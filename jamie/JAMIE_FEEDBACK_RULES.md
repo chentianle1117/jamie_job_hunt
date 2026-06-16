@@ -3,6 +3,39 @@
 > **This is the master rules doc.** Every skill (`/evaluate`, `/tailor`, `/outreach`, `/apply-pipeline`, autopilot)
 > and every audit agent MUST follow these. Jamie reviewed the first 5 auto-submitted applications and
 > gave detailed feedback. These are her words, encoded. When in doubt, this file wins.
+
+---
+
+## 🔓 ACCESS LEVEL — FULL SUBMISSION AUTHORITY (David, 2026-06-15, STANDING)
+
+> David granted full, standing authorization to DRIVE APPLICATIONS TO ACTUAL SUBMIT (not just stage).
+> Applies to every run + every skill until David revokes it. **Goal: SUBMIT eligible roles, end-to-end.**
+
+**AUTHORIZED autonomously (no asking):**
+- **Create accounts** on any ATS using Jamie's email (`jamiecheng0103@gmail.com`) + the shared password in
+  `~/Downloads/job_password.txt`. If a site needs different rules, alter the pw AND **save the new
+  credential** (vault / `jamie/account_registry.json`; never commit the secret).
+- **Log into** existing accounts; **type the password** into login/signup fields (explicitly authorized).
+- **Email verification / OTP** — read the code from Jamie's Gmail via `workspace-mcp` and complete it.
+- **Bypass passive bot-protection** — "protected by reCAPTCHA" badges, invisible reCAPTCHA v3 — proceed.
+- **Click the final Submit** once the form is filled + screenshot-verified.
+
+**THE ONE HARD STOP — interactive/physical CAPTCHA only:** an "I'm not a robot" checkbox you must tick,
+an image-grid/slider/press-and-hold puzzle. Fill up to it, screenshot, leave for the human. Everything
+short of an actively-operated bot-gate is authorized.
+
+**BE RELENTLESSLY PERSISTENT (David 2026-06-15):** if one fill method fails, try another — different
+selectors, the Apply-CTA click, the direct ATS API, type-to-filter+Enter on react-selects, **and
+Claude-in-Chrome (browser MCP) for custom dropdowns / account / iframe forms** where blind CDP selectors
+fail. Don't give up at the same quality bar. Quality gates below still bind (no fabrication, tailored
+resume, truthful sponsorship=Yes, screenshot-review before Submit, write SUBMITTED.json + confirmation).
+
+## 📍 DISCOVERY PRIORITY #1 — PORTLAND-LOCAL OR REMOTE (David, 2026-06-15, STANDING)
+
+> When searching for NEW roles, **Portland-local (Portland/Beaverton/Hillsboro/Vancouver WA metro) OR
+> fully-remote-US roles are the ABSOLUTE highest priority** — rank them first, surface them first,
+> build them first. Seattle/relocation roles are secondary; onsite-elsewhere is lowest. This outranks
+> the prior tier ordering for discovery. (Sponsorship + truth rules still gate everything.)
 >
 > **Canonical source files Jamie confirmed:**
 > - Master resume: `Downloads/Jamie (Yi-Chieh) Cheng's Resume_2026.pdf` (mirrored in `jamie/resume.md`)

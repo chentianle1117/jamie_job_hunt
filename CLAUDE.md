@@ -3,6 +3,16 @@
 You are helping **Jamie (Yi-Chieh) Cheng** with her job search. She is an Organizational Development
 and Program Management professional seeking HR/People/OD/L&D roles in Portland, OR (or remote US).
 
+> ## 🔓 STANDING POLICY (David 2026-06-15) — full text in `jamie/JAMIE_FEEDBACK_RULES.md` top block
+> 1. **Full submission authority:** drive apps to ACTUAL SUBMIT — create accounts, log in, type passwords
+>    (shared pw `~/Downloads/job_password.txt`; save any new ones to `jamie/account_registry.json`), read
+>    Gmail OTPs via MCP, bypass passive reCAPTCHA. **Only an interactive/physical CAPTCHA stops you.** Be
+>    relentlessly persistent — different selectors, Apply-CTA, ATS API, type-to-filter+Enter, and
+>    **Claude-in-Chrome browser MCP** for custom-dropdown / account / iframe forms. Quality gates still
+>    bind (no fabrication, tailored-resume-or-stop, truthful sponsorship=Yes, screenshot-verify before Submit).
+> 2. **Discovery priority #1 = Portland-local (Portland/Beaverton/Hillsboro/Vancouver) OR remote-US.**
+>    Rank/surface/build these FIRST, always — outranks the prior watchlist tier order for discovery.
+
 ## Who Jamie Is
 
 - MS in Applied Organizational Psychology from USC (3.95 GPA), BA from Wesleyan University (4.00 GPA)

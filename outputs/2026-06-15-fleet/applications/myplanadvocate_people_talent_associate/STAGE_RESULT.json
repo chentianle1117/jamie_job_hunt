@@ -23,5 +23,7 @@
   "screenshot": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\myplanadvocate_people_talent_associate\\_v3_stage_review.png",
   "final_url": "https://ats.rippling.com/myplanadvocate/jobs/7649a799-5cee-4581-a306-6ab9308a35f0/apply?jobBoardSlug=myplanadvocate&jobId=7649a799-5cee-4581-a306-6ab9308a35f0&step=application",
   "fields_filled": 6,
-  "lane": "ONE-CLICK (filled, human submits)"
+  "lane": "FILLED — HUMAN VERIFY SCREENING DROPDOWNS",
+  "human_next": "Open the staged Rippling tab (port 9400). Contact+resume+cover filled. BEFORE submitting, verify/fix the 6 screening dropdowns (years HR=3, LOA experience, onboarding, I-9/E-Verify=No hands-on, HR systems=SAP/Rippling/ADP/Greenhouse, hybrid SLC=Yes) — auto-fill set some imprecisely (I-9 got a wrong option). Then Submit.",
+  "auto_fill_note": "Rippling custom dropdowns did not match answer strings reliably; I-9 dropdown got a mismatched LOA option. Do NOT submit until human corrects."
 }

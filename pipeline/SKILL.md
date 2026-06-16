@@ -17,16 +17,24 @@ version: 4.0.0
 
 ---
 
-## ⭐ DISCOVERY DOCTRINE — BROAD BY DEFAULT (v5.0, 2026-06-05) — READ FIRST
+## 🔓 STANDING POLICY (David 2026-06-15) — full text in `jamie/JAMIE_FEEDBACK_RULES.md` top block
+> 1. **Full submission authority:** drive to ACTUAL SUBMIT — create accounts / log in / type passwords
+>    (shared pw `~/Downloads/job_password.txt`, save new ones) / read Gmail OTPs via MCP / bypass passive
+>    reCAPTCHA. **Only an interactive/physical CAPTCHA stops you.** Persist via different selectors,
+>    Apply-CTA, ATS API, type-to-filter, and **Claude-in-Chrome browser MCP** for custom/account/iframe forms.
+> 2. **Discovery priority #1 = Portland-local OR remote-US** (see doctrine below — now elevated to #1).
+
+## ⭐ DISCOVERY DOCTRINE — BROAD BY DEFAULT (v5.0, 2026-06-05; Portland/remote elevated to #1 on 2026-06-15) — READ FIRST
 
 > **Never wait to be told "search broader / more titles."** Breadth is the default. Canonical detail:
 > `jamie/search_strategy.md` §"CANONICAL DISCOVERY DOCTRINE (v5.0)". Enforce every run:
+> - **🥇 PORTLAND-LOCAL OR REMOTE-US IS THE #1 PRIORITY (David 2026-06-15):** rank, surface, and build
+>   Portland-metro (Portland/Beaverton/Hillsboro/Vancouver WA) and fully-remote-US roles FIRST, before
+>   anything else. Seattle/relocation = secondary; onsite-elsewhere = lowest. Titles stay broad regardless.
 > - **Sweep all 7 résumé recipes + entry consulting + cap-exempt** (3 parallel lanes: tech/local sponsors ·
 >   consulting/change · cap-exempt universities/hospitals/nonprofits). NOT just "Program Manager".
 >   Title clusters: L&D · People Program Mgmt · People Ops/HR · Talent Dev/Mgmt · EX/OD/OCM/Change ·
 >   People Analytics · People Project Mgr · Business Transformation/People Advisory/Talent&Org/Human Capital (entry).
-> - **Weight LOCATION toward Portland (Jamie's 70-80% preference) but keep TITLES broad regardless** —
->   location-narrow ≠ title-narrow.
 > - **Run the MCP learning loop first** (Step 0.5c already reads Gmail) — capture rejections, feed the
 >   lesson into the hard-pass filter (Ramp → no Senior/Mgr titles; Persona → no comp/total-rewards analyst).
 > - **Verify-before-trust** (postings die within hours); **route by apply-mechanism** (🟢 no-account vs
