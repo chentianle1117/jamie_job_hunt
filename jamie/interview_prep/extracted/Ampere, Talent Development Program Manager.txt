@@ -1,0 +1,188 @@
+Talent Development Program Manager
+Location: Portland, OR, United States
+Description
+Invent the future with us.   
+Ampere is a semiconductor design company for a new era, leading the future of computing with an innovative approach to CPU design focused on high-performance, energy efficient AI compute.  
+As a pioneer in the new frontier of energy efficient high-performance computing, Ampere is part of the Softbank Group of companies driving sustainable computing for AI, Cloud, and edge applications. 
+Join us at Ampere and work alongside a passionate and growing team - we’d love to have you apply! 
+ About the role: 
+In alignment with our strong learning culture at Ampere Computing, we are seeking a Program Manager to expand our Talent Development (TD) team within the People & Culture (P&C) organization. As a Talent Development Program Manager, you will focus on co-designing, deploying, and tracking learning curriculum and ensure the successful ongoing rollout of programs and resources for all employees at Ampere. You’ll partner closely with P&C colleagues and business leaders to design, develop and deploy learning solutions in service of continuous development. The ideal candidate will be a proven collaborator, self-motivated with sharp attention to detail. If you are passionate about joining a fast-paced, high-energy, creative team, we would love to meet you!
+What you’ll achieve: 
+In partnership with the Head of Talent, you will design, develop and deploy new programs and resources across a variety of topics, bringing together external experts and internal stakeholders to build customized global learning solutions. 
+Through collaboration with subject matter experts, stakeholders and business teams you will partner to identify goals and outcomes for technical development programs.   
+Develop learning tools, performance support mechanisms, practice activities, scenario-based learning, online tutorials, and other materials to meet identified needs. 
+Maintain knowledge of new developments in learning science, learning design, and learning technologies. 
+Build implementation plans and coordinate the ongoing offerings of centralized learning solutions. 
+Regularly report out on engagement and efficacy of TD initiatives, programs and resources to ensure learning standards are met. 
+Work with our learning management system and data analytics tools.  
+Stay current on innovations in learning design and delivery; network and build relationships with professional organizations and training providers.
+Build mechanisms to manage specific process changes with stakeholder groups to ensure future state fidelity and field relevance. 
+About you: 
+Bachelors degree & 5 years of related experience; or Master's degree & 3 years experience required. 
+Minimum 3 years of experience in a technical learning & development, training and/or content management role. Experience with DEI curriculum, assessments and partnering with vendors is a plus. 
+Excellent verbal and written communication skills.  Skilled facilitation experience preferred. 
+Prior success in design, development and execution of learning programs and resources.  Experience deploying remote learning solutions is desired. 
+Effective organizational skills with demonstrated ability to simultaneously manage multiple programs at the same time 
+Experience working with learning management systems, data analysis tools and surveys.    
+You are an outstanding project manager with experience managing complex and ambiguous projects to great outcomes applying clear objectives, timeline, budget and communications to keep team members aligned. 
+You’re a quick-thinking, hard-working, and fast-learning problem solver with a proficiency in data analytics. 
+You are agile and know how to shift between strategy and tactical execution.
+What we’ll offer: 
+At Ampere we believe in taking care of our employees and providing a competitive total rewards package that includes base pay, cash long-term incentive, and comprehensive benefits. The full base pay range for this role is between $119,000 and $179,000, except in the San Francisco Bay Area where the range is between $133,500 and $200,500.
+Our benefits include health, wellness, and financial programs that support employees through every stage of life.
+Benefit highlights include:
+• Premium medical insurance, dental insurance, vision insurance, as well as income protection and a 401K retirement plan, so that you can feel secure in your health and financial future.
+• Unlimited Flextime and 10+ paid holidays so that you can embrace a healthy work-life balance.
+• A variety of healthy snacks, energizing espresso, and refreshing drinks to keep you fueled and focused throughout the day.
+And there is much more than compensation and benefits. At Ampere, we foster an inclusive culture that empowers our employees to do more and grow more. We are excited to share more about our career opportunities with you through the interview process. 
+Ampere is an inclusive and equal opportunity employer and welcomes applicants from all backgrounds. All qualified applicants will receive consideration for employment without regard to race, color, national origin, citizenship, religion, age, veteran and/or military status, sex, sexual orientation, gender, gender identity, gender expression, physical or mental disability, or any other basis protected by federal, state or local law.
+
+
+
+
+
+
+
+
+
+
+
+
+🧠 
+1. What Ampere Actually Does
+Ampere Computing is a fabless semiconductor design company — meaning it designs high-performance CPUs (central processing units) but does not manufacture the chips itself.  
+Focus: energy-efficient, high-performance compute for cloud, data center, AI and edge workloads.  
+Known for: Ampere® Altra® and AmpereOne® processor families — with very high core counts (up to 192 cores) and strong performance per watt.
+Market positioning: Designed to compete in the fast-growing world of cloud-native and AI workloads where efficiency and scalability are key.  
+This matters for Talent Development because the company is deeply technical, innovation-driven, and values people who understand emerging tech trends and how to support technical learners and high performers.
+
+🏛️ 
+2. SoftBank Acquisition — A Major Strategic Shift
+In 2025, SoftBank Group completed acquisition of Ampere for $6.5 billion.  
+Ampere is now a wholly-owned subsidiary of SoftBank but is retaining its brand and operational identity.  
+This investment is tied to SoftBank’s broader AI and compute infrastructure strategy — SoftBank is investing heavily in AI projects (including OpenAI, Stargate) and sees Ampere as part of that stack.  
+It positions Ampere alongside other major holdings like Arm, which SoftBank also controls.  
+Why this matters in your conversation:
+Recruiters may ask what you know about the company’s direction — understanding this transition shows you’ve done current business context research, not just read a JD.
+
+💡 
+3. Leadership & Culture Signals
+Founded in 2018 by Renée James, a veteran in semiconductors and former Intel President.  
+The company prides itself on innovation, collaboration, inclusion, and continuous learning — evidenced by recognition on lists like Fast Company’s 100 Best Workplaces for Innovators.  
+Reviews and employee feedback suggest a fast-paced, open environment where learning and growth are emphasized.  
+For a Talent Development role, culture fit and being able to speak to their values (innovation, growth, collaboration) will be especially important.
+
+📊 
+4. Market Context (Optional, Useful in Interviews)
+Ampere’s ARM-based chip strategy is part of a broader shift in cloud and AI compute away from traditional x86 processors toward energy-efficient alternatives.  
+However, the landscape is highly competitive — with other silicon players (Intel, AMD) and hyperscalers developing their own CPUs.  
+This competition underscores why Ampere’s innovation culture and ability to attract and develop top talent matters so much.
+This kind of market insight shows you see the bigger picture and understand why Talent Development isn’t just internal training — it supports business strategy.
+
+📌 
+Key Points You Could Use in Your Call
+Here are a few you can drop casually when asked why you’re excited about Ampere:
+✔ Ampere is pushing industry boundaries in energy-efficient, high-performance computing for cloud & AI workloads.  
+✔ The company’s acquisition by SoftBank positions it at the center of a larger AI infrastructure strategy.  
+✔ A culture recognized for innovation, collaboration, and learning aligns well with roles focused on talent development.  
+✔ The company’s rapid growth and technical focus mean Talent Development has real impact potential — from onboarding to upskilling engineers and cross-functional teams.
+
+🧩 How This Ties to the Role
+This research isn’t just trivia — it helps you frame:
+Why you are interested in Ampere
+Why you’d be excited to help scale learning solutions in a fast-moving engineering context
+How your experience with analytics, stakeholder management, and program design fits a company stepping into a major growth chapter
+
+
+
+Talent Development Program Manager at Ampere
+Research:
+
+Company culture:
+Efficiency 
+Innovation
+
+
+
+Org & Department:
+People & Culture → Talent Development team
+Potential groups with training needs:
+Engineers: software, firmware, and hardware/silicon 
+Engineer managers
+Product teams
+Manufacturing operations
+
+Core requirement: 
+how?
+Design… 
+Deploy… 
+Track…
+Partner with external experts and internal stakeholders
+Report efficacy
+what?
+New programs and resources
+Learning solutions
+Learning materials and tools
+LMS
+Learning science and technologies
+ADDIE — Analysis, Design, Development, Implementation, Evaluation 
+Intro & examples:
+I describe myself as a data-driven program manager with a master’s in Organizational Psychology and work experience in the people space.
+Currently, I serve as a Program Enablement Manager where I collaborate with global vendors and cross-functional teams to manage over 20 educational programs.
+What’s unique about my approach is that I bring my background in psychology—specifically in needs assessments, feedback collection, and data analytics—to refine learning design and outcomes.
+While currently working at an Education company, I’ve also worked at medical technology, fintech, as well as renewable energy.
+In these roles, I’ve also managed global initiatives like designing a DEI workshop that was later scaled to 23 global locations, as well as a self-started project where I translated 2,000+ employee survey responses into insights that informed L&D strategy for a leadership team.
+When I first learned about the Talent Development program manager opportunity at Ampere, I’m truly excited about this role because it sits at the intersection of program management, talent development, and data analytics — which is exactly where I’m most confident I can contribute to the company.
+
+Examples: 
+
+Design programs?
+Vestas:
+DEI workshop
+IGP:
+End to end
+Identify program needs via stakeholder analysis
+Source and engage global vendors teach on the subject
+Launch programs by collaborating with the marketing, product and other functions for the rollout
+Continuously refinement via conducting interviews and developing surveys to measure success
+Results 
+Course Structure revision; signed up learners grew almost 2 times
+Built guides and onboarding protocols from scratch for cross-functional teams to help them best understand these programs, leading to 78% conversion rate
+
+LMS?
+Learning science and technologies
+ADDIE — Analysis, Design, Development, Implementation, Evaluation
+
+Fast Learning?
+Kronos: library learning initiative
+IGP: asking for Coursera and book and a development plan
+
+Questions:
+Team org:
+Who will I be reporting to?
+How will the role fit into the Talent Development team?
+
+Learning Programs:
+I saw the news about the Stargate Project and the SoftBank acquisition, it’s clear Ampere is in a massive and exciting growth phase right now. How is the Talent Development team evolving to ensure the engineering teams stay ahead during such an exciting phase?
+One person joined 3-4 years ago
+Management training; several modules
+Compliance training; harassment 
+
+What does the biggest learning need lie at Ampere?
+Integration with SoftBank
+What are some challenges and growth areas?
+When designing training programs, how does Ampere decide between using external vendors and engaging internal employees as trainers?
+Other questions:
+Preferred start date?
+Mid March; March
+What are some resources out there to support industry-specific learning?
+What would training and learning look like for this role?
+How many days in office?
+Diane:
+Culture
+Collaborative; open 
+
+
+Do you actually fit the core requirements?
+Can you communicate clearly and professionally?
+Are you aligned with what Ampere needs right now?

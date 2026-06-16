@@ -150,6 +150,7 @@ Jamie can trigger these individually or let them chain:
 | `/evaluate` | Paste a JD → get fit analysis, H1B check, go/stretch/pass |
 | `/tailor` | Select best resume bullets + fine-tune wording for a specific JD |
 | `/outreach` | Find LinkedIn contacts + draft personalized messages |
+| `/interview-prep` | Build a paste-ready 7-section interview-prep doc (screen/HM/panel) for a given company + JD |
 | `/apply-pipeline` | Run all 4 stages end-to-end with dashboards at each step |
 | `/jamie-job-search` | (David's machine only) Run the Oracle daily discovery pipeline |
 
