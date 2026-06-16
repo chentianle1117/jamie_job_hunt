@@ -7,8 +7,9 @@
   "form_url": "https://jobs.exeloncorp.com",
   "staged_at": "2026-06-15T22:45:00",
   "submit_port": 9400,
-  "lane": "ACCOUNT-REQUIRED (iCIMS)",
-  "human_next": "Open Exelon iCIMS portal, search 'Talent Transformation Specialist' -> sign in/create account -> upload resume.pdf -> submit.",
+  "lane": "ACCOUNT-REQUIRED (iCIMS) — STOPPED at interactive hCaptcha",
+  "human_next": "iCIMS login requires email magic-link + has an INTERACTIVE hCaptcha (visible challenge). Open the login page, solve the hCaptcha, get the magic link from Jamie Gmail, then fill the app. Chrome was on port 9422.",
   "package_status": "BUILT + FACT-CHECKED + VISUALLY-VERIFIED (1p resume + 1p cover); tailored PDFs ready",
-  "source": "linkedin_primary_2026-06-15_round2"
+  "source": "linkedin_primary_2026-06-15_round2",
+  "captcha": "hCaptcha interactive challenge on iCIMS login (height=570 visible) — TRUE hard stop"
 }
