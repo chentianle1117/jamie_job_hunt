@@ -1,0 +1,14 @@
+{
+  "role_dir": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\coherent_ee_specialist",
+  "company": "Coherent Corp.",
+  "role": "Employee Experience Specialist",
+  "ats": "oracle",
+  "lane_ats": "oracle",
+  "form_url": "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2012324",
+  "staged_at": "2026-06-15T22:45:00",
+  "submit_port": 9400,
+  "lane": "ACCOUNT-REQUIRED (Oracle)",
+  "human_next": "Sign in/create Coherent Oracle candidate account -> upload resume.pdf -> submit.",
+  "package_status": "BUILT + FACT-CHECKED + VISUALLY-VERIFIED (1p resume + 1p cover); tailored PDFs ready",
+  "source": "linkedin_primary_2026-06-15_round2"
+}

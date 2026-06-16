@@ -1,0 +1,14 @@
+{
+  "role_dir": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\sandisk_people_ops_lifecycle",
+  "company": "Sandisk",
+  "role": "People Operations & Employee Lifecycle Specialist",
+  "ats": "smartrecruiters",
+  "lane_ats": "smartrecruiters",
+  "form_url": "https://jobs.smartrecruiters.com/Sandisk/744000121056577-people-operations-employee-lifecycle-specialist",
+  "staged_at": "2026-06-15T22:45:00",
+  "submit_port": 9400,
+  "lane": "ACCOUNT-REQUIRED (SmartRecruiters) - STRETCH",
+  "human_next": "Sign in/create SmartRecruiters account -> upload resume.pdf -> submit. STRETCH (5+yr Workday/ServiceNow); gap disclosed in cover.",
+  "package_status": "BUILT + FACT-CHECKED + VISUALLY-VERIFIED (1p resume + 1p cover); tailored PDFs ready",
+  "source": "linkedin_primary_2026-06-15_round2"
+}

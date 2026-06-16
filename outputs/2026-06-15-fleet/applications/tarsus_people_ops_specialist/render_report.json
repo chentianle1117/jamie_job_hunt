@@ -1,0 +1,13 @@
+{
+  "role_id": "tarsus_people_ops_specialist",
+  "resume_pages": 1,
+  "cover_pages": 1,
+  "resume_size_bytes": 88354,
+  "cover_size_bytes": 52988,
+  "resume_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\tarsus_people_ops_specialist\\resume.pdf",
+  "cover_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\tarsus_people_ops_specialist\\cover_letter.pdf",
+  "rendered_at": "2026-06-16T05:22:43.864019Z",
+  "warnings": [
+    "autofit: resume fit to 1 page at font_scale=0.97 (content preserved, type shrunk)"
+  ]
+}

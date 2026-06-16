@@ -1,0 +1,24 @@
+{
+  "run": "2026-06-15-fleet round 2 (LinkedIn-primary, deeper harvest)",
+  "resolved_at": "2026-06-15",
+  "GO": [
+    {"slug":"uw_ld_specialist","company":"University of Washington","title":"Learning & Development Specialist","ats":"Workday","needs_account":true,"url":"https://uw.wd5.myworkdayjobs.com/en-US/uwhires/job/Seattle-WA/Learning---Development-Specialist_REQ-0000133162","role_type":"L&D","yoe":"3-4yr","note":"cap-exempt public univ; CLOSES JUNE 17 — urgent","verdict":"GO"},
+    {"slug":"healthcorps_ld_specialist","company":"HealthCorps","title":"Learning & Development Specialist","ats":"Workable","needs_account":false,"url":"https://apply.workable.com/healthcorpsorg/j/4A11F75C29/","role_type":"L&D","yoe":"3+yr","note":"no-account; remote; nonprofit","verdict":"GO"},
+    {"slug":"coherent_ee_specialist","company":"Coherent Corp.","title":"Employee Experience Specialist","ats":"Oracle","needs_account":true,"url":"https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2012324","role_type":"EX","yoe":"3-5yr","note":"corporate HR, no ITAR","verdict":"GO"},
+    {"slug":"uchicago_onboarding_specialist","company":"University of Chicago BSD","title":"Onboarding Specialist","ats":"Workday","needs_account":true,"url":"https://uchicago.wd5.myworkdayjobs.com/External/job/Chicago-IL/Onboarding-Specialist_JR34080","role_type":"HR/Ops","yoe":"2-4yr","note":"cap-exempt private univ","verdict":"GO"},
+    {"slug":"exelon_talent_transformation","company":"Exelon","title":"Talent Transformation Specialist","ats":"iCIMS","needs_account":true,"url":"https://jobs.exeloncorp.com","role_type":"Talent/Program","yoe":"2-4yr","note":"Talent COE program support; fresh","verdict":"GO"},
+    {"slug":"tarsus_people_ops_specialist","company":"Tarsus Pharmaceuticals","title":"Specialist, People Operations","ats":"Greenhouse","needs_account":false,"url":"https://tarsusrx.com/careers?gh_jid=6015456004","role_type":"People Ops","yoe":"3-5yr","note":"no-account; lifecycle/HRIS","verdict":"GO"},
+    {"slug":"myplanadvocate_people_talent_associate","company":"MyPlanAdvocate","title":"People & Talent HR Associate","ats":"Rippling","needs_account":false,"url":"https://ats.rippling.com/myplanadvocate/jobs/7649a799-5cee-4581-a306-6ab9308a35f0","role_type":"People Ops","yoe":"2+yr","note":"no-account; leave-admin (FMLA/ADA) fit","verdict":"GO"}
+  ],
+  "STRETCH": [
+    {"slug":"sandisk_people_ops_lifecycle","company":"Sandisk","title":"People Operations & Employee Lifecycle Specialist","ats":"SmartRecruiters","needs_account":true,"url":"https://jobs.smartrecruiters.com/Sandisk/744000121056577-people-operations-employee-lifecycle-specialist","role_type":"People Ops","yoe":"5+yr Workday/ServiceNow","note":"systems-heavy stretch","verdict":"STRETCH"},
+    {"slug":"aicf_learning_experience_designer","company":"American Indian College Fund","title":"Learning Experience Designer","ats":"Paycor","needs_account":false,"url":"https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d08604cb44018604fdfee40044&id=8a7885a89e6b0ba1019eb2f1d5a6696d","role_type":"L&D/ID","yoe":"4+yr","note":"no-account; ID portfolio gated; mission-fit","verdict":"STRETCH"}
+  ],
+  "DROP": [
+    {"company":"McKinstry","title":"Learning Specialist","reason":"explicit no-sponsorship clause"},
+    {"company":"Seattle Public Utilities","title":"Workforce Development Advisor","reason":"posting closed Apr 2025"},
+    {"company":"Chartis","title":"Associate, Learning","reason":"Jobvite posting dead/filled"},
+    {"company":"KINETIC","title":"People Operations Generalist","reason":"no canonical URL + likely no-sponsor startup"},
+    {"company":"Inizio Engage","title":"People & Culture Operations Associate","reason":"TEMP/fixed-term role (contract hard-pass)"}
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "role_dir": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\myplanadvocate_people_talent_associate",
+  "company": "MyPlanAdvocate",
+  "role": "People & Talent HR Associate",
+  "ats": "rippling",
+  "form_url": "https://ats.rippling.com/myplanadvocate/jobs/7649a799-5cee-4581-a306-6ab9308a35f0",
+  "filler": "stage_generic_v3",
+  "cookie_dismissed": null,
+  "apply_cta_clicked": "Apply now",
+  "form_frame": "https://ats.rippling.com/myplanadvocate/jobs/7649a799-5cee-4581-a306-6ab9308a35f",
+  "contact": {
+    "first_name": "input[placeholder='First name']",
+    "last_name": "input[placeholder='Last name']",
+    "email": "input[placeholder='Email']",
+    "phone": "input[placeholder*='Phone' i]"
+  },
+  "uploads": {
+    "resume": "resume.pdf",
+    "cover_letter": "cover_letter.pdf"
+  },
+  "combos": [],
+  "captcha_present": true,
+  "screenshot": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\myplanadvocate_people_talent_associate\\_v3_stage_review.png",
+  "final_url": "https://ats.rippling.com/myplanadvocate/jobs/7649a799-5cee-4581-a306-6ab9308a35f0/apply?jobBoardSlug=myplanadvocate&jobId=7649a799-5cee-4581-a306-6ab9308a35f0&step=application",
+  "fields_filled": 6,
+  "lane": "ONE-CLICK (filled, human submits)"
+}

@@ -1,0 +1,13 @@
+{
+  "role_id": "myplanadvocate_people_talent_associate",
+  "resume_pages": 1,
+  "cover_pages": 1,
+  "resume_size_bytes": 88129,
+  "cover_size_bytes": 51255,
+  "resume_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\myplanadvocate_people_talent_associate\\resume.pdf",
+  "cover_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\myplanadvocate_people_talent_associate\\cover_letter.pdf",
+  "rendered_at": "2026-06-16T05:27:16.153208Z",
+  "warnings": [
+    "autofit: resume fit to 1 page at font_scale=0.97 (content preserved, type shrunk)"
+  ]
+}

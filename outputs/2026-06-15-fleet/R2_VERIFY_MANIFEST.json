@@ -1,0 +1,18 @@
+{
+  "verified_at": "2026-06-15",
+  "method": "programmatic fact-check (bullet counts, banned numbers, ODN framing, leaks) + visual screenshot inspection of all 18 PDFs",
+  "result": "ALL 9 PASS",
+  "packages": [
+    {"slug":"uw_ld_specialist","resume":"1p","cover":"1p","fact_check":"PASS","visual":"PASS — Stepping Stones/ADDIE hook, sponsorship disclosed","lane":"account (Workday)"},
+    {"slug":"healthcorps_ld_specialist","resume":"1p","cover":"1p","fact_check":"PASS","visual":"PASS — near-peer mentor hook, college-student gap disclosed honestly","lane":"no-account (Workable)"},
+    {"slug":"coherent_ee_specialist","resume":"1p","cover":"1p","fact_check":"PASS","visual":"PASS — engagement/EX framing, early-career + relocation disclosed","lane":"account (Oracle)"},
+    {"slug":"uchicago_onboarding_specialist","resume":"1p","cover":"1p","fact_check":"PASS","visual":"PASS — faculty onboarding lifecycle, at-level","lane":"account (Workday)"},
+    {"slug":"exelon_talent_transformation","resume":"1p","cover":"1p","fact_check":"PASS","visual":"PASS — vendor/program ops + GenAI, early-career disclosed","lane":"account (iCIMS)"},
+    {"slug":"tarsus_people_ops_specialist","resume":"1p","cover":"1p","fact_check":"PASS","visual":"PASS — lifecycle/HCM/ADP, 3-vs-3-5yr + ADP user-level disclosed","lane":"no-account (Greenhouse)"},
+    {"slug":"myplanadvocate_people_talent_associate","resume":"1p","cover":"1p","fact_check":"PASS","visual":"PASS — leave-admin strength led, at-level (no sponsor clause in JD)","lane":"no-account (Rippling)"},
+    {"slug":"sandisk_people_ops_lifecycle","resume":"1p","cover":"1p","fact_check":"PASS","visual":"PASS — STRETCH; 5+yr Workday/ServiceNow gap disclosed honestly, no false systems claim","lane":"account (SmartRecruiters)"},
+    {"slug":"aicf_learning_experience_designer","resume":"1p","cover":"1p","fact_check":"PASS","visual":"PASS — STRETCH; +1yr + Articulate/portfolio gap disclosed, no false tool claim","lane":"no-account (Paycor)"}
+  ],
+  "no_account_auto_stageable": ["healthcorps_ld_specialist","tarsus_people_ops_specialist","myplanadvocate_people_talent_associate","aicf_learning_experience_designer"],
+  "account_required": ["uw_ld_specialist","coherent_ee_specialist","uchicago_onboarding_specialist","exelon_talent_transformation","sandisk_people_ops_lifecycle"]
+}

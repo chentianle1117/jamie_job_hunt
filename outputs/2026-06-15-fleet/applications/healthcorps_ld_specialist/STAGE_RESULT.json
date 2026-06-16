@@ -1,0 +1,27 @@
+{
+  "role_dir": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\healthcorps_ld_specialist",
+  "company": "HealthCorps",
+  "role": "Learning & Development Specialist",
+  "ats": "workable",
+  "form_url": "https://apply.workable.com/healthcorpsorg/j/4A11F75C29/",
+  "filler": "stage_generic_v3",
+  "cookie_dismissed": null,
+  "apply_cta_clicked": "workable:/apply/",
+  "form_frame": "https://apply.workable.com/healthcorpsorg/j/4A11F75C29/apply/",
+  "contact": {
+    "first_name": "#firstname",
+    "last_name": "#lastname",
+    "email": "#email",
+    "phone": "input[type=tel]"
+  },
+  "uploads": {
+    "resume": "resume.pdf",
+    "cover_letter": null
+  },
+  "combos": [],
+  "captcha_present": true,
+  "screenshot": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\healthcorps_ld_specialist\\_v3_stage_review.png",
+  "final_url": "https://apply.workable.com/healthcorpsorg/j/4A11F75C29/apply/",
+  "fields_filled": 5,
+  "lane": "ONE-CLICK (filled, human submits)"
+}

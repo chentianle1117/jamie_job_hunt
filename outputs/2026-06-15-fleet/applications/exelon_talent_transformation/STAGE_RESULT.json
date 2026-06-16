@@ -1,0 +1,14 @@
+{
+  "role_dir": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\exelon_talent_transformation",
+  "company": "Exelon",
+  "role": "Talent Transformation Specialist",
+  "ats": "icims",
+  "lane_ats": "icims",
+  "form_url": "https://jobs.exeloncorp.com",
+  "staged_at": "2026-06-15T22:45:00",
+  "submit_port": 9400,
+  "lane": "ACCOUNT-REQUIRED (iCIMS)",
+  "human_next": "Open Exelon iCIMS portal, search 'Talent Transformation Specialist' -> sign in/create account -> upload resume.pdf -> submit.",
+  "package_status": "BUILT + FACT-CHECKED + VISUALLY-VERIFIED (1p resume + 1p cover); tailored PDFs ready",
+  "source": "linkedin_primary_2026-06-15_round2"
+}

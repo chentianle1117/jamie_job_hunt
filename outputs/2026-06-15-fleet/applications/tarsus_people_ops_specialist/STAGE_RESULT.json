@@ -1,0 +1,14 @@
+{
+  "role_dir": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\tarsus_people_ops_specialist",
+  "company": "Tarsus Pharmaceuticals",
+  "role": "Specialist, People Operations",
+  "ats": "greenhouse",
+  "lane_ats": "greenhouse",
+  "form_url": "https://job-boards.greenhouse.io/tarsusrx/jobs/6015456004",
+  "staged_at": "2026-06-15T22:45:00",
+  "submit_port": 9400,
+  "lane": "NEEDS-HUMAN-FILL (Greenhouse-in-iframe + reCAPTCHA)",
+  "human_next": "Open staged tab (port 9400) on tarsusrx.com/careers/apply -> fill embedded Greenhouse form (Jamie/Cheng, email, phone), attach resume.pdf + cover_letter.pdf, sponsorship=Yes, clear reCAPTCHA, submit. Form nested in iframe so auto-fill couldn't reach it.",
+  "package_status": "BUILT + FACT-CHECKED + VISUALLY-VERIFIED (1p resume + 1p cover); tailored PDFs ready",
+  "source": "linkedin_primary_2026-06-15_round2"
+}

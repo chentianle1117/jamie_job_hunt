@@ -1,0 +1,13 @@
+{
+  "role_id": "exelon_talent_transformation",
+  "resume_pages": 1,
+  "cover_pages": 1,
+  "resume_size_bytes": 88335,
+  "cover_size_bytes": 51131,
+  "resume_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\exelon_talent_transformation\\resume.pdf",
+  "cover_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\exelon_talent_transformation\\cover_letter.pdf",
+  "rendered_at": "2026-06-16T05:27:21.739021Z",
+  "warnings": [
+    "autofit: resume fit to 1 page at font_scale=0.97 (content preserved, type shrunk)"
+  ]
+}

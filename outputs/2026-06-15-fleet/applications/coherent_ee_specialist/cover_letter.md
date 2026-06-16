@@ -1,0 +1,12 @@
+Dear Coherent People & Culture Team,
+
+The Employee Experience Specialist role caught my attention because it brings together the work I care most about—engagement, recognition, wellness, and the full employee lifecycle—and asks for someone who can ground all of it in data rather than guesswork. Coherent's scale across materials, networking, and laser technology means culture has to travel across very different teams and sites, and I'd find a lot of meaning in helping design the programs that make a 28,000-person company feel like a place people actually want to stay.
+
+My background sits squarely in this space. As an Organizational Development intern at NextGen Healthcare, I analyzed 2,000+ employee engagement survey responses to surface what was really driving satisfaction, then translated that data into reports that guided C-suite decisions—alongside cross-functional projects on rewards & recognition, survey development, and DEI/Inclusive Leadership. At Vestas, I launched a DEI pilot and Inclusive Leadership workshop for senior leaders that scaled to 23 global locations, and optimized onboarding across three regions. In my consulting work with ODN Oregon, I diagnosed an organization's absenteeism by analyzing 300+ leave cases and surfacing $362K in costs that drove policy redesigns. Reading pulse and survey data, then turning it into programs leaders will act on, is the through-line of my career.
+
+I want to be candid about two things. I'm earlier in my career than a senior specialist—roughly three years across OD consulting, program management, and HR—so I'd be growing into the full breadth of this scope rather than arriving with a decade behind me. I'm also currently based in Portland and would be relocating for an onsite Santa Clara role, which I'm genuinely open to. What I'd bring on day one is a master's in Applied Organizational Psychology, real fluency with engagement analytics, and a track record of running employee-facing programs end-to-end for cross-functional populations.
+
+What draws me to Coherent specifically is that this role treats employee experience as a designed system—engagement, recognition, wellness, internal comms, and lifecycle programs that reinforce one another—rather than a set of one-off events. That systematic, human-centered way of working is exactly how I approach my own. I would also note that I would require visa sponsorship, and I'd welcome the chance to discuss how I could contribute to your team.
+
+Warm regards,
+Jamie (Yi-Chieh) Cheng

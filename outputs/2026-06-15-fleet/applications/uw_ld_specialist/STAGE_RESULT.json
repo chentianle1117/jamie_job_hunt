@@ -1,0 +1,14 @@
+{
+  "role_dir": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\uw_ld_specialist",
+  "company": "University of Washington",
+  "role": "Learning & Development Specialist",
+  "ats": "workday",
+  "lane_ats": "workday",
+  "form_url": "https://uw.wd5.myworkdayjobs.com/en-US/uwhires/job/Seattle-WA/Learning---Development-Specialist_REQ-0000133162",
+  "staged_at": "2026-06-15T22:45:00",
+  "submit_port": 9400,
+  "lane": "ACCOUNT-REQUIRED (Workday)",
+  "human_next": "Sign in/create UW Workday candidate account -> upload resume.pdf -> submit. CLOSES JUNE 17 — do FIRST.",
+  "package_status": "BUILT + FACT-CHECKED + VISUALLY-VERIFIED (1p resume + 1p cover); tailored PDFs ready",
+  "source": "linkedin_primary_2026-06-15_round2"
+}

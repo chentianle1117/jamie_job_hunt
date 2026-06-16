@@ -1,0 +1,14 @@
+{
+  "role_dir": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\uchicago_onboarding_specialist",
+  "company": "University of Chicago BSD",
+  "role": "Onboarding Specialist (Faculty Onboarding Specialist)",
+  "ats": "workday",
+  "lane_ats": "workday",
+  "form_url": "https://uchicago.wd5.myworkdayjobs.com/External/job/Chicago-IL/Onboarding-Specialist_JR34080",
+  "staged_at": "2026-06-15T22:45:00",
+  "submit_port": 9400,
+  "lane": "ACCOUNT-REQUIRED (Workday)",
+  "human_next": "Sign in/create UChicago Workday candidate account -> upload resume.pdf + cover_letter.pdf -> submit.",
+  "package_status": "BUILT + FACT-CHECKED + VISUALLY-VERIFIED (1p resume + 1p cover); tailored PDFs ready",
+  "source": "linkedin_primary_2026-06-15_round2"
+}

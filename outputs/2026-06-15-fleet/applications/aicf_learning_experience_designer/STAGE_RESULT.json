@@ -1,0 +1,14 @@
+{
+  "role_dir": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\aicf_learning_experience_designer",
+  "company": "American Indian College Fund",
+  "role": "Learning Experience Designer",
+  "ats": "paycor",
+  "lane_ats": "paycor",
+  "form_url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d08604cb44018604fdfee40044&id=8a7885a89e6b0ba1019eb2f1d5a6696d",
+  "staged_at": "2026-06-15T22:45:00",
+  "submit_port": 9400,
+  "lane": "NEEDS-HUMAN-FILL (Paycor) - STRETCH",
+  "human_next": "Open Paycor posting -> click Apply -> fill contact, attach resume.pdf + cover_letter.pdf, submit. No-account but apply form not auto-reachable. STRETCH (+1yr + ID portfolio); gap disclosed in cover.",
+  "package_status": "BUILT + FACT-CHECKED + VISUALLY-VERIFIED (1p resume + 1p cover); tailored PDFs ready",
+  "source": "linkedin_primary_2026-06-15_round2"
+}
