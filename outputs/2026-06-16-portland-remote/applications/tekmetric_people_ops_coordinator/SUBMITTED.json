@@ -1,0 +1,32 @@
+{
+  "slug": "tekmetric_people_ops_coordinator",
+  "company": "Tekmetric",
+  "role": "People Operations Coordinator",
+  "submitted_at": "2026-06-16",
+  "ats": "greenhouse",
+  "result": "SUBMITTED",
+  "confirmation": "Thank you for applying! Your application has been received. If there is a fit, someone will be getting back to you shortly.",
+  "confirmation_shot": "_submit_confirmation.png",
+  "apply_url": "https://job-boards.greenhouse.io/tekmetric/jobs/5996893004",
+  "applicant": {
+    "name": "Jamie Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "(213) 700-3831",
+    "location": "Portland, Oregon, United States",
+    "linkedin": "https://www.linkedin.com/in/jamieyccheng/"
+  },
+  "screening_answers": {
+    "2_4_yrs_experience": "Yes",
+    "hris_hcm_experience": "Yes",
+    "i9_verification_experience": "Yes",
+    "salary_expectations": "55000 - 70000",
+    "requires_sponsorship": "Yes",
+    "base_salary_expectations": "55000 - 70000",
+    "authorized_to_work_us": "Yes",
+    "requires_sponsorship_2": "Yes",
+    "houston_hybrid": "No - I am based in Portland, OR and would work fully remotely."
+  },
+  "resume_pdf": "resume.pdf",
+  "cover_letter_pdf": "cover_letter.pdf",
+  "notes": "Location field required selecting from react-select dropdown ('Portland, Oregon, United States'). First submit bounced on location validation; fixed by selecting correct option from dropdown. Second submit succeeded with Greenhouse confirmation page. Sponsorship truthfully disclosed as Yes on both sponsorship questions."
+}

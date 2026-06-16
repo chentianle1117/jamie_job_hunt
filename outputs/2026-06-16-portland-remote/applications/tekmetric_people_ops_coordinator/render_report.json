@@ -1,0 +1,13 @@
+{
+  "role_id": "tekmetric_people_ops_coordinator",
+  "resume_pages": 1,
+  "cover_pages": 1,
+  "resume_size_bytes": 87489,
+  "cover_size_bytes": 49962,
+  "resume_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-16-portland-remote\\applications\\tekmetric_people_ops_coordinator\\resume.pdf",
+  "cover_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-16-portland-remote\\applications\\tekmetric_people_ops_coordinator\\cover_letter.pdf",
+  "rendered_at": "2026-06-16T08:43:45.889511Z",
+  "warnings": [
+    "autofit: resume fit to 1 page at font_scale=0.97 (content preserved, type shrunk)"
+  ]
+}

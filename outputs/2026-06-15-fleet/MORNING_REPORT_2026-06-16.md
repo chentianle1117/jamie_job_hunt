@@ -105,3 +105,36 @@ attract talent"). It currently lives in `jamie/resume.json` line 88, untouched, 
   need your hands. I stopped pouring tokens into those once that was clear.
 
 *(Portland/remote discovery round was running in the background as I wrote this — new finds appended below if it finished.)*
+
+---
+
+## 🔎 Portland/remote discovery round (your #1 priority) — 13 fresh finds + 1 more SUBMITTED
+
+A Sonnet discovery agent found **8 GO + 4 STRETCH** new remote-US People/L&D/HR roles, all on the
+no-account auto-submit lane (Greenhouse/Lever/Ashby). Full list: `DISCOVERY_R3_PORTLAND_REMOTE.json`.
+It correctly excluded Caylent (explicit no-sponsor), Vanta (already dropped), Quanata (likely closed).
+
+**✅ SUBMITTED from this round:** **Tekmetric** — People Operations Coordinator (Remote) — built tailored
++ auto-submitted end-to-end by a Sonnet agent. "Thank you for applying! Your application has been received."
+(2-4yr = exact match; the form proactively asks about sponsorship = good sponsor signal.) → **5 total submitted tonight.**
+
+**dbt Labs** (was the #1 find) turned out to be **delisted** — agent verified + reported, no fabrication.
+
+**Best remaining GO finds for a quick build+submit (all no-account, all remote — I can knock these out next run, or you can one-click them):**
+| Company | Role | ATS | Why |
+|---|---|---|---|
+| Pair Team | L&D Specialist ($90-100K) | Greenhouse | 2-4yr, digital health, remote |
+| Altarum | HR Coordinator | Lever | freshest (May 2026), healthcare nonprofit |
+| Waymark | People Ops Generalist | Greenhouse | full lifecycle, reports to VP People |
+| Ennoble Care | HR Generalist | Greenhouse | healthcare remote (sponsor-friendly sector) |
+| Automatiq | HR & Recruiting Coordinator | Lever | tech, remote |
+| Nava Benefits | People Ops Generalist | Ashby | benefits tech, remote |
+
+These are queued in `DISCOVERY_R3_PORTLAND_REMOTE.json` — next run can build+auto-submit them via Sonnet agents (proven tonight).
+
+## FINAL TALLY (overnight 06-15 → 06-16)
+- **5 applications truly submitted** (confirmations captured): HealthCorps, CLEAR, A-LIGN, ElevenLabs, Tekmetric.
+- **1 captcha-click from done:** Goalbook.
+- **~10 built + filled to the account/captcha wall:** UW (closes today!), UChicago, Coherent, Exelon, Core & Main, Woodland Park Zoo, MyPlanAdvocate, Tarsus, AICF (your queue above).
+- **13 fresh Portland/remote finds** ready to build+submit next run.
+- **Model-routing decision validated + saved:** Opus orchestrator + Sonnet sub-agents (Tekmetric end-to-end proves Sonnet can build AND submit autonomously).
