@@ -1,0 +1,31 @@
+{
+  "slug": "goalbook_people_exp_partner",
+  "model": "sonnet",
+  "result": "STOPPED_AT_CAPTCHA",
+  "confirmation": "hCaptcha image puzzle appeared on submit (drag-the-letter challenge). Form is fully filled — waiting for human to solve captcha and click Submit.",
+  "confirmation_shot": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\goalbook_people_exp_partner\\_submit_confirmation.png",
+  "form_state": {
+    "name": "Jamie Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "(213) 700-3831",
+    "location": "Portland, OR",
+    "company": "InGenius Prep",
+    "linkedin_profile_link": "https://www.linkedin.com/in/jamieyccheng/",
+    "how_did_you_hear": "LinkedIn",
+    "resume": "resume.pdf (uploaded - Success!)",
+    "cover_letter": "cover_letter.pdf (uploaded)",
+    "work_auth_eligible_us": "Yes",
+    "visa_sponsorship_required": "Yes",
+    "gender": "Female",
+    "race": "Asian (Not Hispanic or Latino)"
+  },
+  "captcha_type": "hCaptcha image puzzle (drag-the-letter)",
+  "captcha_iframes_count": 2,
+  "stopped_at_url": "https://jobs.lever.co/goalbookapp-2/96b21554-c429-4281-b505-8c14927b06de/apply",
+  "self_report": {
+    "approx_steps": 22,
+    "hardest_part": "hCaptcha image puzzle triggered on submit — physically requires human drag interaction",
+    "where_persistence_needed": "First button[type=submit] resolved to hidden hCaptcha internal button; needed JS scan to identify and skip it; real submit triggered captcha"
+  },
+  "notes": "All form fields filled correctly. hCaptcha (drag letter image puzzle) appeared when submit was clicked. Form is staged and ready — human must solve captcha and click Submit. Chrome tab still open on port 9413 with form filled."
+}

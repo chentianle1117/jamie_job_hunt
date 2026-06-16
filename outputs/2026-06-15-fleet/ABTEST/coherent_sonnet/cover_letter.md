@@ -1,0 +1,12 @@
+Dear Coherent Corp. People Team,
+
+Coherent's mission to reshape how light and sound transform industries is compelling precisely because it demands a workforce that is equally cohesive and energized — and the Employee Experience Specialist role sits at the heart of that. Designing the programs that shape how employees experience Coherent across the full lifecycle, from onboarding to recognition to culture, is exactly the kind of work I find most meaningful and have spent my career building toward.
+
+My strongest match for this role comes from two experiences. At NextGen Healthcare, I analyzed 2,000+ employee survey responses to surface engagement drivers and presented data-backed recommendations directly to the C-suite, informing their DEI, Inclusive Leadership, and recognition strategy. That same data-to-action cycle — surveying, analyzing, translating findings into programs — is precisely what this role asks for in pulse engagement and lifecycle design. At InGenius Prep, I manage 20+ concurrent programs and have established cross-functional processes that reduced onboarding time by 75% across 70+ staff, while facilitating listening sessions with 25+ stakeholders to drive a 78% program enrollment rate. Alongside this, my consulting work at Organization Development Network Oregon deepened my diagnostic toolkit: I facilitated discovery interviews to identify absenteeism root causes across 300+ leave cases, surfacing $362K in hidden costs that drove policy change — the kind of rigorous, employee-data-grounded work Coherent's DEIB and wellness mandate calls for.
+
+I want to be candid about two things. The role asks for 3–5 years of experience, and I am closer to the three-year mark with roughly three years of combined HR, OD, and program management work. I believe the quality and scope of that experience — C-suite-facing analysis, global onboarding redesign, a DEI pilot scaled to 23 global locations at Vestas Wind Systems — speaks to readiness beyond raw years. I am also currently based in Portland, Oregon, and am fully open to relocation to Santa Clara; I have relocated internationally before and view this move as straightforward.
+
+Coherent sits at the intersection of deep technology and human-scale teams, where getting the employee experience right actually determines whether ambitious engineering goals become real. I would bring a systematic, evidence-based approach to building the engagement and culture programs that make that possible — and I am genuinely excited to do it.
+
+Warm regards,
+Jamie (Yi-Chieh) Cheng

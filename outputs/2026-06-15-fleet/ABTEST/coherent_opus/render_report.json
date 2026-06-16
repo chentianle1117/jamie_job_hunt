@@ -1,0 +1,13 @@
+{
+  "role_id": "coherent_opus",
+  "resume_pages": 1,
+  "cover_pages": 1,
+  "resume_size_bytes": 88992,
+  "cover_size_bytes": 51798,
+  "resume_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\ABTEST\\coherent_opus\\resume.pdf",
+  "cover_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\ABTEST\\coherent_opus\\cover_letter.pdf",
+  "rendered_at": "2026-06-16T06:44:20.170429Z",
+  "warnings": [
+    "autofit: resume fit to 1 page at font_scale=0.97 (content preserved, type shrunk)"
+  ]
+}

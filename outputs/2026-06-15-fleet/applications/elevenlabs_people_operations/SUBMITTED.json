@@ -1,0 +1,20 @@
+{
+  "company": "ElevenLabs",
+  "role": "People Operations",
+  "ats": "ashby",
+  "status": "submitted",
+  "submitted_at": "2026-06-15T23:39:36",
+  "confirmation": "Success — Thank you for applying to ElevenLabs! We will be in touch via email shortly.",
+  "confirmation_shot": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\elevenlabs_people_operations\\_submit_confirmation.png",
+  "form_url": "https://jobs.ashbyhq.com/elevenlabs/ca331e5d-19ee-4585-a97e-f1a6224949cb",
+  "resume_tailored": true,
+  "submitted_by": "autopilot (David submission authority 2026-06-15)",
+  "no_account": true,
+  "screening": {
+    "US_based": "Yes",
+    "startup_scaleup": "Yes",
+    "people_ops_exp": "Yes"
+  },
+  "captcha": "invisible reCAPTCHA v3 (passive, self-cleared) — NOT interactive",
+  "verified": "A/B Opus agent independently re-verified live server state shows Success banner; did NOT duplicate"
+}

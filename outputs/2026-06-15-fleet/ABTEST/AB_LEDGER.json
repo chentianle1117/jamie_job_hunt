@@ -1,0 +1,26 @@
+{
+  "experiment": "Opus vs Sonnet at each pipeline stage (David 2026-06-15 overnight)",
+  "goal": "Validate Opus-orchestrator + Sonnet-subagents to protect daily token budget",
+  "judge_model": "opus (held constant as Master Auditor)",
+  "stages": {
+    "tailor_cover": {
+      "role": "Coherent EE Specialist (identical inputs to both)",
+      "opus":   {"tokens": 95055, "duration_ms": 150498, "tool_uses": 12, "built": true, "render": "1p/1p", "invariants": "all pass"},
+      "sonnet": {"tokens": 61226, "duration_ms": 122081, "tool_uses": 12, "built": true, "render": "1p/1p", "invariants": "all pass"},
+      "delta": {"sonnet_tokens_pct": -36, "sonnet_faster_pct": -19},
+      "auditor_scores": {"opus_total": 24, "sonnet_total": 21, "axes": "truth4/4, invariants5/5, jd_fit5/4, cover5/4, craft5/4"},
+      "winner": "opus (moderate margin)",
+      "auditor_note": "Both truthful + submission-ready, both passed ODN trap, no blocking defects. Opus sharper on JD-targeting + cover. Sonnet 'genuinely good, perfectly acceptable'. SHARED latent defect caught: Kronos '230+ students/80+ applicants/top 3 universities' not in content_library — present in BOTH (and likely prior shipped resumes) → fix repo-wide.",
+      "verdict": "For tailoring, Sonnet is VIABLE (36% cheaper, 19% faster, clean). Opus adds moderate polish. At sub-agent scale, Sonnet's cost/speed likely wins."
+    },
+    "submit": {
+      "opus_role": "ElevenLabs (Ashby)",
+      "sonnet_role": "Goalbook (Lever)",
+      "opus":   {"tokens": 84540, "duration_ms": 106400, "tool_uses": 13, "result": "SUBMITTED (verified already-submitted, correctly did NOT duplicate; diagnosed invisible-reCAPTCHA-v3 false-positive)"},
+      "sonnet": {"tokens": 93884, "duration_ms": 577942, "tool_uses": 27, "result": "STOPPED_AT_CAPTCHA (correctly) — filled ENTIRE Goalbook Lever form incl demographics, hit hCaptcha drag-puzzle on submit, stopped"},
+      "winner": "not-apples-to-apples (Goalbook form much harder than ElevenLabs verify-only path)",
+      "verdict": "BOTH drove competently + honored rules. Sonnet handled the HARDER form correctly + stopped at the true hCaptcha (right call). Opus showed verify-not-duplicate discipline. No quality gap attributable to model; Sonnet fully capable of driving submissions."
+    }
+  },
+  "OVERALL_RECOMMENDATION": "Opus-orchestrator + Sonnet-subagents is VALIDATED. Sonnet sub-agents are cheaper/faster and produce truthful, invariant-clean, submission-ready work at the same correctness bar. Reserve Opus for: the orchestrator, the Master Auditor (judge consistency), and occasional highest-stakes tailoring where the moderate polish edge matters. Route all routine tailor/cover/submit sub-agents to Sonnet to protect daily token budget."
+}
