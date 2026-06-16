@@ -1,0 +1,25 @@
+{
+  "slug": "align_hr_ops_generalist",
+  "company": "A-LIGN",
+  "form_url": "https://job-boards.greenhouse.io/align/jobs/8564701002",
+  "screening_answered": [
+    "authorized to work->Yes",
+    "legally authorized->Yes",
+    "require sponsorship->Yes",
+    "will you now or in the future->Yes",
+    "essential functions->Yes",
+    "perform the (essential )?(functions|duties)->Yes",
+    "reasonable accommodation->Yes"
+  ],
+  "interactive_captcha": {
+    "checkbox": false,
+    "challenge": false,
+    "robot": false
+  },
+  "review_shot": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\align_hr_ops_generalist\\_submit_review.png",
+  "final_url": "https://job-boards.greenhouse.io/align/jobs/8564701002/confirmation",
+  "confirmed": true,
+  "result": "SUBMITTED",
+  "status": "submitted",
+  "submitted_by": "autopilot (David submission authority 2026-06-15)"
+}

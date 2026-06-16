@@ -1,0 +1,20 @@
+{
+  "company": "CLEAR",
+  "role": "Learning & Development Generalist",
+  "ats": "greenhouse",
+  "status": "submitted",
+  "submitted_at": "2026-06-15T23:25:00",
+  "confirmation": "Thank you for applying to CLEAR. A member of our team will reach out if your background is a match.",
+  "confirmation_shot": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-15-fleet\\applications\\clear_ld_generalist\\_submit_confirmation.png",
+  "form_url": "https://job-boards.greenhouse.io/clear/jobs/7868581",
+  "resume_tailored": true,
+  "submitted_by": "autopilot (David submission authority 2026-06-15)",
+  "no_account": true,
+  "screening": {
+    "authorized": "Yes",
+    "sponsorship": "Yes",
+    "travel40": "Yes",
+    "nyc_5day": "Yes"
+  },
+  "captcha": "passive reCAPTCHA badge (no interactive challenge)"
+}
