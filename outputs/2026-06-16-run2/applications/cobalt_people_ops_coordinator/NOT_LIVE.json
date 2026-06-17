@@ -1,0 +1,11 @@
+{
+  "slug": "cobalt_people_ops_coordinator",
+  "company": "Cobalt",
+  "role": "People Operations Coordinator (Entry Level)",
+  "ats": "Greenhouse",
+  "url": "https://job-boards.greenhouse.io/cobaltio/jobs/7892084002",
+  "outcome": "NOT_LIVE",
+  "checked_at": "2026-06-16",
+  "evidence": "The Greenhouse URL https://job-boards.greenhouse.io/cobaltio/jobs/7892084002 does not resolve to the specific People Operations Coordinator posting. Instead, both direct fetches returned the generic Cobalt careers listing page showing only 8 current openings (all in Sales or Pentester roles). The People Operations Coordinator (Entry Level) role is NOT present in the current active job listing. The job ID 7892084002 appears to have been removed or closed. Cobalt's current openings as of 2026-06-16: Enterprise Account Director CA, Senior Director of Sales Enterprise, Mid-Market AE West Coast, Account Executive SMB West, Director Solutions Architect, and 3x Cobalt Core Pentester variants.",
+  "notes": "Discovery agent flagged this as aging — confirmed. Role was likely filled or pulled before this run. No submit action taken."
+}

@@ -1,0 +1,8 @@
+{
+  "slug": "pacificoffice_ld_specialist",
+  "company": "Pacific Office Automation",
+  "outcome": "STAGED_AT_WALL",
+  "wall_reason": "Advanced to page 3 but confirmation text not detected - page 3 may have additional form fields",
+  "human_next": "Open https://pacificoffice.clearcompany.com/careers/jobs/c86729e9-9135-d633-b501-5d67aa605679/apply/56719941-235a-8f09-6466-aaeed76aee30?source=3738119-JB-1018 and check page 3 content / complete submission",
+  "notes": "Page 2 form filled successfully (no validation errors). Unclear if page 3 requires more input."
+}

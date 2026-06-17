@@ -1,0 +1,11 @@
+{
+  "company": "Neighborhood House",
+  "role": "HR Generalist",
+  "ats": "ADP Workforce Now",
+  "status": "STAGED_AT_ACCOUNT_WALL",
+  "lane": "ADP account/OTP identity verification wall",
+  "live_check": "2026-06-17 orchestrator read live ADP tabs (port 9223): page is on \"Tell us about yourself\" identity/OTP step, NO confirmation text. NOT submitted.",
+  "package_status": "BUILT + tailored resume.pdf + cover_letter.pdf ready + visually verified",
+  "human_next": "Open the Neighborhood House ADP careers page (Portland HR Generalist), sign in / complete the ADP email-OTP identity verification, finish the short remaining form, Submit. Tailored resume + cover are in this folder. Portland nonprofit, cap-exempt angle, strong fit.",
+  "portland_local": true
+}

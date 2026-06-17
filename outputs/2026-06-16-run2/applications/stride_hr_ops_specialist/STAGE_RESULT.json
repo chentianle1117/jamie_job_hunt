@@ -1,0 +1,16 @@
+{
+  "slug": "stride_hr_ops_specialist",
+  "company": "Stride Inc",
+  "role": "HR Operations Specialist",
+  "outcome": "STAGED_AT_WALL",
+  "ats": "Workday",
+  "job_id": "JR115213",
+  "job_url": "https://stride.wd1.myworkdayjobs.com/en-US/External/job/USA-Remote/HR-Operations-Specialist_JR115213",
+  "submitted_at": null,
+  "confirmation_number": null,
+  "confirmation_url": null,
+  "confirmation_text": null,
+  "wall_reason": "Workday platform-wide maintenance outage — entire Workday Jobs network redirecting to https://community.workday.com/maintenance-page. Applies to ALL Workday tenants, not just Stride. Confirmed blocked at both initial attempt and re-check after Legence submission.",
+  "human_next": "Retry when Workday is back online. Direct URL: https://stride.wd1.myworkdayjobs.com/en-US/External/job/USA-Remote/HR-Operations-Specialist_JR115213",
+  "notes": "Blocked twice — once before Legence (confirmed maintenance), once after Legence completion (still maintenance page). Job listing was verified live on LinkedIn prior to run. No application data entered — Workday never loaded. Tailored resume.pdf and cover_letter.pdf are staged in the folder and ready to use when Workday comes back up."
+}

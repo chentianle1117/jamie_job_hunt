@@ -1,0 +1,19 @@
+{
+  "slug": "khanacademy_people_ops_coordinator",
+  "company": "Khan Academy",
+  "role": "People Operations Coordinator",
+  "ats": "Greenhouse",
+  "url": "https://job-boards.greenhouse.io/khanacademy/jobs/6928178",
+  "outcome": "NOT_LIVE",
+  "evidence": {
+    "greenhouse_api_response": {"status": 404, "error": "Job not found"},
+    "api_endpoint_checked": "https://boards-api.greenhouse.io/v1/boards/khanacademy/jobs/6928178",
+    "job_boards_url_status": "302 redirect to board index (no specific job page)",
+    "current_open_jobs_count": 25,
+    "job_6928178_in_open_list": false,
+    "open_job_ids": [7923227, 7438660, 7859431, 8008395, 7767902, 7957057, 7974527, 7156991, 7691865, 7958915, 7765059, 7358482, 7685583, 7881982, 7956007, 7956970, 6907425, 7892974, 7721057, 7765105, 7685566, 7786887, 7822591, 7282212, 7244562],
+    "checked_at": "2026-06-16"
+  },
+  "notes": "Greenhouse API returned 404 for job ID 6928178. Confirmed by checking all 25 currently open Khan Academy jobs via the public Greenhouse board API — this job ID does not appear. The job-boards URL redirects to the main board listing, not a live posting. Role has been closed/filled. Possibly aged out since it was queued.",
+  "human_next": null
+}

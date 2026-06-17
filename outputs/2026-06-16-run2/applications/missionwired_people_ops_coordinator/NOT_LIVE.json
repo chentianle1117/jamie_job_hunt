@@ -1,0 +1,16 @@
+{
+  "slug": "missionwired_people_ops_coordinator",
+  "company": "MissionWired",
+  "role": "People Operations Coordinator",
+  "ats": "Lever",
+  "url": "https://jobs.lever.co/MissionWired/ed1e27a5-a486-44d8-ac30-f8afd64db8ae",
+  "outcome": "NOT_LIVE",
+  "checked_at": "2026-06-16",
+  "evidence": {
+    "webfetch_result": "HTTP 403 Forbidden (initially blocked by Cloudflare/Lever bot-protection)",
+    "playwright_headless_result": "HTTP 404 — Lever returned 'Sorry, we couldn't find anything here. The job posting you're looking for might have closed, or it has been removed. (404 error).'",
+    "page_title": "Not found — 404 error",
+    "content_length": 146
+  },
+  "notes": "Role confirmed closed/removed on Lever. Both WebFetch (403) and Playwright headless (404) attempts confirm the posting is no longer accepting applications. Stopping per playbook Step 1."
+}

@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "company": "Pacific Office Automation",
+    "role": "Learning & Development Specialist",
+    "date": "2026-06-17",
+    "pageMargins": { "top": "0.25in", "right": "0.4in", "bottom": "0.25in", "left": "0.4in" },
+    "autoFit": true,
+    "fontRange": [8.0, 9.5]
+  },
+  "header": {
+    "location": "Beaverton, OR (Open to On-Site)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Learning &amp; Development</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve people experience—through human-centered, data-driven approaches.",
+  "keywordGroups": {
+    "data": "Data/Metrics",
+    "coord": "Program/Project Mgmt",
+    "cross": "Cross-functional",
+    "ex": "L&D/Operations",
+    "tools": "LMS/Tools",
+    "prog": "Training/Facilitation"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Program Manager, Enablement",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Develop and maintain {prog|training materials, SOPs, and a self-service knowledge base} for 70+ {cross|cross-functional} staff, reducing onboarding time by 75%" },
+        { "text": "Facilitate {prog|training webinars} for 600+ participants using live sessions and video production, achieving a 78% program enrollment rate" },
+        { "text": "Conduct needs assessments with 25+ {cross|global stakeholders} to {data|analyze feedback} and design 3 new learning programs aligned with organizational goals" },
+        { "text": "Lead {coord|end-to-end program management} across 20+ concurrent initiatives—coordinating vendors, tracking {data|completion metrics}, and optimizing delivery via {ex|continuous improvement}" }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Facilitate CEO/HR discovery interviews to diagnose absenteeism, then {data|analyze} 300+ leave cases—surfacing $362K in costs that drove policy redesigns" },
+        { "text": "Conduct focus groups and 1:1 interviews with an NGO leadership team to surface decision-making gaps and recommend {ex|process} changes" }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        { "text": "Analyzed 2,000+ {data|employee survey responses} to surface satisfaction and engagement drivers for C-suite decision-making" },
+        { "text": "Led a manager-effectiveness initiative, transforming {data|feedback data} into actionable reports that informed training and engagement strategies" },
+        { "text": "Delivered internal presentations on DEI, Inclusive Leadership, and performance review to senior leadership" },
+        { "text": "Enhanced employee experience through {ex|5 cross-functional projects} on survey development, rewards &amp; recognition, and {prog|L&amp;D program design}" }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        { "text": "Initiated a DEI pilot with an Inclusive Leadership {prog|workshop} for 12 senior leaders, later expanded to 23 other global locations" },
+        { "text": "Optimized {ex|onboarding processes} across 3 global locations via process analysis and clarifying job responsibilities" },
+        { "text": "Supported organizational change by directing a Mergers &amp; Acquisitions project, coordinating {cross|cross-functional stakeholders}" },
+        { "text": "Assisted in employee relations cases, ensuring compliance with local labor laws and confidentiality" }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Developed proficiency across HR functions including recruitment, compensation, and performance management" },
+        { "text": "Drafted job descriptions, posted openings, and researched global compensation across international markets" },
+        { "text": "Engaged global talent via personalized communication, increasing applications by 566% in 2 months" },
+        { "text": "Organized campus recruiting events and moderated panels with C-suite executives at top universities" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": ["Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics &amp; Leadership, Consumer Psychology"]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": ["Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Enhanced <b>Elanco Animal Health</b> employer branding &amp; talent attraction strategy via survey design/execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Technical Skills:</b> LMS (Canvas, Moodle) · Data Analysis (Excel, Google Sheets, SPSS) · Project Management (Asana, Airtable) · HRIS (SAP, Rippling, ADP) · Microsoft Office (Word, PowerPoint) · AI Tools (ChatGPT, Gemini) · Knowledge Mgmt (SharePoint, Notion)",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic) &nbsp; | &nbsp; <b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": { "meta": "Learning & Development Specialist — Pacific Office Automation, Beaverton OR. LMS admin (2yr req), ADDIE model, e-learning content, facilitation, Excel analytics, training coordination.", "sections": [] },
+  "changeLog": []
+}

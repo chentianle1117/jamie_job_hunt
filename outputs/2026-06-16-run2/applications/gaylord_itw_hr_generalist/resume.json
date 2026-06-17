@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "company": "Gaylord Industries (ITW)",
+    "role": "Human Resources Generalist",
+    "date": "2026-06-17",
+    "pageMargins": { "top": "0.25in", "right": "0.4in", "bottom": "0.25in", "left": "0.4in" },
+    "autoFit": true,
+    "fontRange": [8.0, 9.5]
+  },
+  "header": {
+    "location": "Tualatin, OR (On-Site)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Human Resources</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing people programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve people experience—through human-centered, systematic approaches.",
+  "keywordGroups": {
+    "data": "Data/Metrics",
+    "coord": "HR Coordination",
+    "cross": "Cross-functional",
+    "ex": "HR Operations",
+    "tools": "HRIS/Workday",
+    "prog": "Training/Onboarding"
+  },
+  "experience": [
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Establish {cross|cross-functional} processes and documentation for 70+ staff, streamlining {ex|operations} and reducing onboarding time by 75%" },
+        { "text": "Facilitate {prog|listening sessions} to analyze needs of 25+ global stakeholders, resulting in 3 new learning programs best aligned with organizational goals" },
+        { "text": "Lead {coord|communications strategy} for 20+ concurrent programs, coordinating vendors and tracking {data|completion metrics} to drive a 78% program enrollment rate" },
+        { "text": "Manage end-to-end lifecycles for 20+ projects, utilizing {data|feedback loops} to optimize operational strategies and {ex|employee engagement}" }
+      ]
+    },
+    {
+      "id": "odn",
+      "title": "Consultant, Organization & Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Upskill HR team in {data|data analytics} to audit 300+ leave cases, refuting cost assumptions via evidence-based insights" },
+        { "text": "Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training" }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        { "text": "Synthesized {data|2,000+ employee survey responses} to provide C-suite reporting on engagement drivers and workforce satisfaction trends" },
+        { "text": "Provide reporting &amp; insights by transforming {data|feedback data} into actionable reports that informed {prog|training} and engagement strategies for leadership" },
+        { "text": "Delivered {prog|leadership training} presentations on DEI, Inclusive Leadership, and performance evaluations to senior leadership" },
+        { "text": "Delivered {ex|5 cross-functional projects} on survey development, rewards &amp; recognition, and employee experience initiatives" }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        { "text": "Supported HRBP team by piloting an Inclusive Leadership {prog|workshop} for 12 senior leaders, later scaled to 23 global locations" },
+        { "text": "Streamlined {ex|onboarding processes} across 3 global locations by conducting gap analyses and clarifying job responsibilities" },
+        { "text": "Delivered {coord|strategic HR solutions} for business priorities across projects in employee relations, headcount, and succession planning" },
+        { "text": "Assisted in employee relations cases, ensuring compliance with local labor laws and confidentiality" }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Developed proficiency across {ex|HR functions} including {coord|recruitment}, compensation, and performance management" },
+        { "text": "Drafted job descriptions, posted openings, and maintained {tools|HRIS} records across international {cross|talent} pipelines" },
+        { "text": "Engaged global talent via personalized communication, increasing applications by 566% in 2 months" },
+        { "text": "Organized campus recruiting events and moderated panels with C-suite executives at top universities" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": ["Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics &amp; Leadership, Consumer Psychology"]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": ["Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding &amp; talent attraction strategy via survey design and execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>Technical Skills:</b> HRIS (Workday, ADP, SAP) · ATS (Greenhouse) · Data Analysis (Excel, Google Sheets, SPSS) · Project Management (Asana, Airtable) · Microsoft Office 365 (Word, PowerPoint) · Knowledge Mgmt (SharePoint, Notion)",
+    "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic) &nbsp; | &nbsp; <b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "HR Generalist — Gaylord Industries (ITW), Tualatin OR manufacturing. Full-cycle recruiting, HRBP advisory, Workday admin, FMLA/ADA/STD, payroll/timekeeping, safety program coordination, employee engagement, compliance, 1-4yr HR exp.",
+    "sections": []
+  },
+  "changeLog": [
+    "Tailored from Neighborhood House HR Generalist: swapped HRIS from ADP to Workday (Gaylord uses Workday); Tualatin on-site header; minimal bullet changes — same HR Generalist scope"
+  ]
+}

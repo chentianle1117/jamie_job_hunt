@@ -1,0 +1,76 @@
+[
+  {
+    "slug": "pacificoffice_ld_specialist",
+    "company": "Pacific Office Automation",
+    "role": "Learning & Development Specialist",
+    "outcome": "SUBMITTED",
+    "ats": "ClearCompany",
+    "submitted_at": "2026-06-16",
+    "confirmation_text": "Application submitted via ClearCompany ATS. Account created with shared credentials. Resume and cover letter uploaded.",
+    "wall_reason": null,
+    "human_next": null,
+    "notes": "Successfully submitted in previous session. Portland-based role, P1 priority."
+  },
+  {
+    "slug": "neighborhoodhouse_hr_generalist",
+    "company": "Neighborhood House",
+    "role": "HR Generalist",
+    "outcome": "SUBMITTED",
+    "ats": "ADP Workforce Now",
+    "submitted_at": "2026-06-16",
+    "confirmation_text": "Application submitted via ADP Workforce Now. Resume uploaded, all fields completed.",
+    "wall_reason": null,
+    "human_next": null,
+    "notes": "Successfully submitted in previous session. Portland cap-exempt NGO, strong fit."
+  },
+  {
+    "slug": "gaylord_itw_hr_generalist",
+    "company": "Gaylord Industries (ITW)",
+    "role": "HR Generalist",
+    "outcome": "SUBMITTED",
+    "ats": "SmartRecruiters (careers.itw.com)",
+    "submitted_at": "2026-06-16",
+    "confirmation_text": "Application submitted. Confirmation page: https://careers.itw.com/us/en/applythankyou?status=success&jobSeqNo=ITWITWUSJR8435EXTERNALENUS",
+    "wall_reason": null,
+    "human_next": null,
+    "notes": "Successfully submitted in previous session. Tualatin OR (Portland metro), ITW global — H1B sponsor confirmed. 3-step SmartRecruiters flow."
+  },
+  {
+    "slug": "clarion_hr_coordinator",
+    "company": "Clarion Events",
+    "role": "HR Coordinator",
+    "outcome": "NOT_LIVE",
+    "ats": null,
+    "submitted_at": null,
+    "confirmation_text": null,
+    "wall_reason": "Job posting closed/not live. Jamie confirmed she already applied to this role herself.",
+    "human_next": null,
+    "notes": "Dropped — job no longer active and Jamie had already applied."
+  },
+  {
+    "slug": "stride_hr_ops_specialist",
+    "company": "Stride Inc",
+    "role": "HR Operations Specialist",
+    "outcome": "STAGED_AT_WALL",
+    "ats": "Workday",
+    "submitted_at": null,
+    "confirmation_text": null,
+    "wall_reason": "Workday platform-wide maintenance outage. All Workday tenants redirect to https://community.workday.com/maintenance-page. Confirmed blocked at two separate attempts (before and after Legence submission).",
+    "human_next": "Retry at https://stride.wd1.myworkdayjobs.com/en-US/External/job/USA-Remote/HR-Operations-Specialist_JR115213 when Workday maintenance ends. Tailored resume.pdf and cover_letter.pdf staged and ready.",
+    "notes": "Job ID JR115213. Remote US. Workday was down for the entire run window — not a site-specific or account issue. High-priority retry when platform recovers."
+  },
+  {
+    "slug": "legence_talent_dev_generalist",
+    "company": "Legence",
+    "role": "Talent Development Generalist",
+    "outcome": "SUBMITTED",
+    "ats": "Dayforce HCM",
+    "submitted_at": "2026-06-17",
+    "confirmation_number": "R24ICmwF",
+    "confirmation_text": "Congratulations, your application has been submitted. The confirmation number is R24ICmwF. You must save this confirmation number now, in case you need it for future reference.",
+    "confirmation_url": "https://jobs.dayforcehcm.com/legence/CANDIDATEPORTAL/jobs/31619/apply/success?canUpdateProfile=no&hasSavedProfile=true&withAcc=false",
+    "wall_reason": null,
+    "human_next": null,
+    "notes": "Applied without account via Dayforce HCM. Full 3-step flow: Candidate Info (personal details, +12137003831, Portland OR, USA, LinkedIn source) -> 5 Questionnaires (Standard/SMS/EEO/Disability/Veteran, sponsorship=Yes truthfully) -> Submit with Candidate Acknowledgement. Resume auto-parsed education and work history. Submitted after overcoming multiple AntD custom dropdown issues and checkbox coordinate-click workarounds. Confirmation URL confirms success."
+  }
+]

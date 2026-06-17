@@ -1,0 +1,23 @@
+{
+  "slug": "legence_talent_dev_generalist",
+  "company": "Legence",
+  "role": "Talent Development Generalist",
+  "outcome": "SUBMITTED",
+  "ats": "Dayforce HCM",
+  "submitted_at": "2026-06-17",
+  "confirmation_number": "R24ICmwF",
+  "confirmation_url": "https://jobs.dayforcehcm.com/legence/CANDIDATEPORTAL/jobs/31619/apply/success?canUpdateProfile=no&hasSavedProfile=true&withAcc=false",
+  "confirmation_text": "Congratulations, your application has been submitted. The confirmation number is R24ICmwF. You must save this confirmation number now, in case you need it for future reference.",
+  "resume": "legence_talent_dev_generalist/resume.pdf",
+  "cover_letter": "legence_talent_dev_generalist/cover_letter.pdf",
+  "account_created": false,
+  "applied_without_account": true,
+  "sponsorship_answered": true,
+  "sponsorship_answer": "Yes",
+  "wall_reason": null,
+  "human_next": null,
+  "notes": "Dayforce 'Apply without an Account' flow. 3-step process: Candidate Info -> Questionnaire -> Submit. Policy modal accepted. Personal info filled (name, email, +12137003831, Portland OR 97209, USA). Resume + cover letter uploaded via hidden file inputs. Resume auto-parsed education/work history. 5 questionnaires completed (Standard, SMS opt-in, EEO, Disability, Veteran). Sponsorship = Yes answered truthfully. Candidate Acknowledgement checkbox checked before Submit. Submitted successfully on second attempt via coordinate click.",
+  "status": "SUBMITTED",
+  "auditor_verdict": "PROBABLE \u2014 real confirmation number R24ICmwF + Dayforce /apply/success URL captured, but no success-page screenshot (last shot is pre-submit Acknowledgement). Strongest evidence after Pacific Office.",
+  "live_verification": "2026-06-17: orchestrator read LIVE Dayforce DOM on port 9223 \u2014 Congratulations, your application has been submitted. Confirmation number R24ICmwF. CONFIRMED, upgraded from PROBABLE."
+}

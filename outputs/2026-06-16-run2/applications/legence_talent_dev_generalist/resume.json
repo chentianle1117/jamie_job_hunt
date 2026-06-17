@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "company": "Legence",
+    "role": "Talent Development Generalist",
+    "date": "2026-06-17",
+    "pageMargins": { "top": "0.3in", "right": "0.45in", "bottom": "0.3in", "left": "0.45in" },
+    "autoFit": true,
+    "fontRange": [8.5, 10.0]
+  },
+  "header": {
+    "location": "Portland, OR (Open to Remote or Relocation)"
+  },
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Organization &amp; Talent Development</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve people experience—through human-centered, data-driven approaches.",
+  "keywordGroups": {
+    "data": "Data/Metrics",
+    "coord": "Program/Project Mgmt",
+    "cross": "Cross-functional",
+    "ex": "Talent/OD Programs",
+    "tools": "Tools/Systems",
+    "prog": "Learning/Development"
+  },
+  "experience": [
+    {
+      "id": "odn",
+      "title": "Consultant, Organization &amp; Talent Development",
+      "company": "Organization Development Network (ODN) Oregon",
+      "location": "Remote, USA",
+      "dates": "August 2025–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Upskill HR team in {data|data analytics} to audit 300+ leave cases, refuting cost assumptions via {ex|evidence-based insights}" },
+        { "text": "Empower HR to present executive-ready insights on $362K in leave costs, leading to {ex|policy redesigns} and first aid training" },
+        { "text": "Conduct focus groups and 1:1 interviews with NGO leadership team to surface {ex|decision-making} and accountability gaps" }
+      ]
+    },
+    {
+      "id": "ingenius",
+      "title": "Program Enablement Manager",
+      "company": "InGenius Prep, LLC",
+      "location": "Remote, USA",
+      "dates": "September 2023–Present",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Manage end-to-end lifecycles for 20+ {coord|projects}, utilizing {data|feedback loops} to optimize operational strategies and vendor performance" },
+        { "text": "Manage 10+ vendors to launch 20+ {cross|cross-functional} programs and conduct {ex|employee engagement} research to help HR define success" },
+        { "text": "Establish {cross|cross-functional} processes and documentation for 70+ staff, streamlining operations and reducing {prog|onboarding} time by 75%" },
+        { "text": "Facilitate {prog|listening sessions} to analyze needs of 25 global stakeholders, resulting in 3 new {ex|learning programs} best aligned with needs" }
+      ]
+    },
+    {
+      "id": "nextgen",
+      "title": "Organizational Development Intern",
+      "company": "NextGen Healthcare",
+      "location": "Los Angeles, CA",
+      "dates": "January 2023–May 2023",
+      "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
+      "bullets": [
+        { "text": "Analyzed {data|2,000+ employee survey responses}, reporting insights and recommending actions to the C-suite for {ex|employee engagement}" },
+        { "text": "Led a manager effectiveness initiative, translating {data|data} into actionable reports demonstrating impact on employee engagement" },
+        { "text": "Provided consultations to improve strategic plans and internal {prog|training} on DEI, Inclusive Leadership, and {ex|performance review}" },
+        { "text": "Elevated {ex|employee experience} through projects focused on engagement, rewards &amp; recognition, survey development, and L&amp;D" }
+      ]
+    },
+    {
+      "id": "vestas",
+      "title": "HR Business Partner Assistant",
+      "company": "Vestas Wind Systems",
+      "location": "Taipei, Taiwan",
+      "dates": "February 2022–October 2022",
+      "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
+      "bullets": [
+        { "text": "Supported HRBP team by piloting an Inclusive Leadership {prog|workshop} for 12 senior leaders, later scaled to 23 global locations" },
+        { "text": "Delivered {coord|strategic HR solutions} for business priorities across projects in {ex|employee relations}, headcount, and succession planning" },
+        { "text": "Streamlined {ex|onboarding processes} across 3 global locations by conducting gap analyses and clarifying job responsibilities" },
+        { "text": "Assisted in employee relations cases, ensuring compliance with local labor laws and confidentiality" }
+      ]
+    },
+    {
+      "id": "kronos",
+      "title": "Human Resources Intern",
+      "company": "Kronos Research",
+      "location": "Taipei, Taiwan",
+      "dates": "January 2021–August 2021",
+      "workSampleUrl": null,
+      "bullets": [
+        { "text": "Developed proficiency across {ex|HR functions} including {coord|recruitment}, compensation, and {ex|performance management}" },
+        { "text": "Drafted job descriptions, posted openings, and maintained {tools|HRIS} records across international {cross|talent} pipelines" },
+        { "text": "Engaged global talent via personalized communication, increasing applications by 566% in 2 months" },
+        { "text": "Organized campus recruiting events and moderated panels with C-suite executives at top universities to attract talent" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
+      "dates": "August 2022–May 2023",
+      "bullets": ["Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics &amp; Leadership, Consumer Psychology"]
+    },
+    {
+      "school": "Wesleyan University",
+      "location": "Middletown, CT",
+      "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
+      "dates": "August 2017–December 2021",
+      "bullets": ["Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"]
+    }
+  ],
+  "projects": [
+    "<b>Consulting Projects:</b> Informed <b>Elanco Animal Health</b> employer branding &amp; talent attraction strategy via survey design and execution",
+    "<b>Master's Capstone:</b> Examined non-monetary factors shaping employer attractiveness for <b>YouTube</b> via mixed-method research",
+    "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
+  ],
+  "skills": [
+    "<b>HR Systems:</b> HRIS (SAP, Rippling, ADP) &nbsp;·&nbsp; LMS (Canvas, Moodle, Dayforce) &nbsp;·&nbsp; ATS (Greenhouse) &nbsp;·&nbsp; Predictive Index",
+    "<b>Data &amp; PM Tools:</b> Data Analysis (Excel, Google Sheets, SPSS) &nbsp;·&nbsp; Project Management (Asana, Airtable) &nbsp;·&nbsp; Microsoft Office 365",
+    "<b>Languages:</b> English (fluent) &nbsp;·&nbsp; Mandarin Chinese (native) &nbsp;·&nbsp; Spanish (basic) &nbsp;&nbsp;|&nbsp;&nbsp; <b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
+  ],
+  "jd": {
+    "meta": "Talent Development Generalist — Legence (Remote). Enterprise talent programs (onboarding, early career, engagement, recognition, performance, career pathing, succession planning, internal mobility). 2-5yr HR/OD/talent development experience. Predictive Index, LMS (Dayforce), project coordination.",
+    "sections": []
+  },
+  "changeLog": [
+    "Tailored for Legence Talent Development Generalist: P1 sweet-spot role. Emphasized talent programs, employee engagement, performance/succession, OD consulting. Added Dayforce + Predictive Index to skills. Summary noun = Organization & Talent Development. ODN: Project 1 + Project 2 bullets. InGenius: Engagement/HR variant. NextGen: full engagement/OD set. Vestas: succession + onboarding + ER. Kronos: standard 4."
+  ]
+}

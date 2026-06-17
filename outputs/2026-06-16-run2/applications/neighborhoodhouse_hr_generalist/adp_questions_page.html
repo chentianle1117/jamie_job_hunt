@@ -1,0 +1,461 @@
+<!DOCTYPE html><html lang="en-us" class="hydrated js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" style="--sfc-ext-shell-app-bar-bottom: 0px; --sfc-ext-shell-side-panel-top: 0px; --sfc-ext-shell-app-bar-fg-color: var(--sfc-ext-shell-app-bar-fg-color-light); --sfc-ext-shell-app-bar-bg-color: var(--sfc-ext-shell-app-bar-bg-color-light);"><head>
+  <style>:host{display:inline}</style><style data-theme-for="sdf-variables">:root{--sdf-color-base-black:#000;--sdf-color-base-white:#fff;--sdf-color-base-gray-50:#f7f6f4;--sdf-color-base-gray-100:#f2f0ed;--sdf-color-base-gray-200:#e3dfda;--sdf-color-base-gray-300:#cdc7c2;--sdf-color-base-gray-400:#b2aba5;--sdf-color-base-gray-500:#938c85;--sdf-color-base-gray-600:#726c66;--sdf-color-base-gray-700:#544e4a;--sdf-color-base-gray-800:#393533;--sdf-color-base-gray-900:#262321;--sdf-color-purpose-status-progress-50:#e8effa;--sdf-color-purpose-status-progress-100:#d8e5f9;--sdf-color-purpose-status-progress-200:#bad1f5;--sdf-color-purpose-status-progress-300:#9abaef;--sdf-color-purpose-status-progress-400:#7ca1e6;--sdf-color-purpose-status-progress-500:#5f86d8;--sdf-color-purpose-status-progress-600:#476bc3;--sdf-color-purpose-status-progress-700:#324fa5;--sdf-color-purpose-status-progress-800:#20337d;--sdf-color-purpose-status-progress-900:#121c4e;--sdf-color-purpose-status-default-50:#f7f6f4;--sdf-color-purpose-status-default-100:#f2f0ed;--sdf-color-purpose-status-default-200:#e3dfda;--sdf-color-purpose-status-default-300:#cdc7c2;--sdf-color-purpose-status-default-400:#b2aba5;--sdf-color-purpose-status-default-500:#938c85;--sdf-color-purpose-status-default-600:#726c66;--sdf-color-purpose-status-default-700:#544e4a;--sdf-color-purpose-status-default-800:#393533;--sdf-color-purpose-status-default-900:#262321;--sdf-color-purpose-status-complete-50:#dbf7dc;--sdf-color-purpose-status-complete-100:#c2f2c3;--sdf-color-purpose-status-complete-200:#99e596;--sdf-color-purpose-status-complete-300:#7cd273;--sdf-color-purpose-status-complete-400:#65ba58;--sdf-color-purpose-status-complete-500:#529c42;--sdf-color-purpose-status-complete-600:#407b30;--sdf-color-purpose-status-complete-700:#2f5b22;--sdf-color-purpose-status-complete-800:#214017;--sdf-color-purpose-status-complete-900:#162a0f;--sdf-color-purpose-status-changed-50:#f8eed9;--sdf-color-purpose-status-changed-100:#f5e3c0;--sdf-color-purpose-status-changed-200:#efcc8d;--sdf-color-purpose-status-changed-300:#e6b25d;--sdf-color-purpose-status-changed-400:#db9431;--sdf-color-purpose-status-changed-500:#cc730d;--sdf-color-purpose-status-changed-600:#b65700;--sdf-color-purpose-status-changed-700:#983f00;--sdf-color-purpose-status-changed-800:#772900;--sdf-color-purpose-status-changed-900:#601b00;--sdf-color-purpose-status-failed-50:#fad9d9;--sdf-color-purpose-status-failed-100:#f9c4c3;--sdf-color-purpose-status-failed-200:#f79a96;--sdf-color-purpose-status-failed-300:#f3776f;--sdf-color-purpose-status-failed-400:#ec5b4e;--sdf-color-purpose-status-failed-500:#de4635;--sdf-color-purpose-status-failed-600:#c53422;--sdf-color-purpose-status-failed-700:#9c2514;--sdf-color-purpose-status-failed-800:#71190c;--sdf-color-purpose-status-failed-900:#4e1007;--sdf-color-purpose-status-new-50:#ece8f8;--sdf-color-purpose-status-new-100:#e3ddf4;--sdf-color-purpose-status-new-200:#cfc5ec;--sdf-color-purpose-status-new-300:#b9ace2;--sdf-color-purpose-status-new-400:#a494d6;--sdf-color-purpose-status-new-500:#8f7dc5;--sdf-color-purpose-status-new-600:#7967ae;--sdf-color-purpose-status-new-700:#5f4b92;--sdf-color-purpose-status-new-800:#413069;--sdf-color-purpose-status-new-900:#2a1d47;--sdf-color-purpose-priority-trivial-50:#f7f6f4;--sdf-color-purpose-priority-trivial-100:#f2f0ed;--sdf-color-purpose-priority-trivial-200:#e3dfda;--sdf-color-purpose-priority-trivial-300:#cdc7c2;--sdf-color-purpose-priority-trivial-400:#b2aba5;--sdf-color-purpose-priority-trivial-500:#938c85;--sdf-color-purpose-priority-trivial-600:#726c66;--sdf-color-purpose-priority-trivial-700:#544e4a;--sdf-color-purpose-priority-trivial-800:#393533;--sdf-color-purpose-priority-trivial-900:#262321;--sdf-color-purpose-priority-minor-50:#dbf7dc;--sdf-color-purpose-priority-minor-100:#c2f2c3;--sdf-color-purpose-priority-minor-200:#99e596;--sdf-color-purpose-priority-minor-300:#7cd273;--sdf-color-purpose-priority-minor-400:#65ba58;--sdf-color-purpose-priority-minor-500:#529c42;--sdf-color-purpose-priority-minor-600:#407b30;--sdf-color-purpose-priority-minor-700:#2f5b22;--sdf-color-purpose-priority-minor-800:#214017;--sdf-color-purpose-priority-minor-900:#162a0f;--sdf-color-purpose-priority-normal-50:#f8eed9;--sdf-color-purpose-priority-normal-100:#f5e3c0;--sdf-color-purpose-priority-normal-200:#efcc8d;--sdf-color-purpose-priority-normal-300:#e6b25d;--sdf-color-purpose-priority-normal-400:#db9431;--sdf-color-purpose-priority-normal-500:#cc730d;--sdf-color-purpose-priority-normal-600:#b65700;--sdf-color-purpose-priority-normal-700:#983f00;--sdf-color-purpose-priority-normal-800:#772900;--sdf-color-purpose-priority-normal-900:#601b00;--sdf-color-purpose-priority-major-50:#fad9d9;--sdf-color-purpose-priority-major-100:#f9c4c3;--sdf-color-purpose-priority-major-200:#f79a96;--sdf-color-purpose-priority-major-300:#f3776f;--sdf-color-purpose-priority-major-400:#ec5b4e;--sdf-color-purpose-priority-major-500:#de4635;--sdf-color-purpose-priority-major-600:#c53422;--sdf-color-purpose-priority-major-700:#9c2514;--sdf-color-purpose-priority-major-800:#71190c;--sdf-color-purpose-priority-major-900:#4e1007;--sdf-color-purpose-brand-primary-50:#f8e0df;--sdf-color-purpose-brand-primary-100:#fdd6d3;--sdf-color-purpose-brand-primary-200:#ffbbb6;--sdf-color-purpose-brand-primary-300:#fe9e98;--sdf-color-purpose-brand-primary-400:#fb807a;--sdf-color-purpose-brand-primary-500:#f2635d;--sdf-color-purpose-brand-primary-600:#c94742;--sdf-color-purpose-brand-primary-700:#8f2d2a;--sdf-color-purpose-brand-primary-800:#6a1f1d;--sdf-color-purpose-brand-primary-900:#511716;--sdf-color-purpose-brand-secondary-50:#f9e8de;--sdf-color-purpose-brand-secondary-100:#fddbc8;--sdf-color-purpose-brand-secondary-200:#febf9e;--sdf-color-purpose-brand-secondary-300:#fe9f73;--sdf-color-purpose-brand-secondary-400:#fa7e48;--sdf-color-purpose-brand-secondary-500:#f15c22;--sdf-color-purpose-brand-secondary-600:#d14912;--sdf-color-purpose-brand-secondary-700:#a53709;--sdf-color-purpose-brand-secondary-800:#7e2a06;--sdf-color-purpose-brand-secondary-900:#5f2105;--sdf-color-purpose-brand-tertiary-50:#f8e8e1;--sdf-color-purpose-brand-tertiary-100:#fcddcf;--sdf-color-purpose-brand-tertiary-200:#fcc5aa;--sdf-color-purpose-brand-tertiary-300:#f9ac84;--sdf-color-purpose-brand-tertiary-400:#ea9061;--sdf-color-purpose-brand-tertiary-500:#d47543;--sdf-color-purpose-brand-tertiary-600:#b2592a;--sdf-color-purpose-brand-tertiary-700:#833d17;--sdf-color-purpose-brand-tertiary-800:#5a280d;--sdf-color-purpose-brand-tertiary-900:#3f1c08;--sdf-color-purpose-brand-quaternary-50:#f9e4de;--sdf-color-purpose-brand-quaternary-100:#f5d5cc;--sdf-color-purpose-brand-quaternary-200:#eebaaa;--sdf-color-purpose-brand-quaternary-300:#e49e89;--sdf-color-purpose-brand-quaternary-400:#d7846b;--sdf-color-purpose-brand-quaternary-500:#c36a4f;--sdf-color-purpose-brand-quaternary-600:#a64f36;--sdf-color-purpose-brand-quaternary-700:#7d3520;--sdf-color-purpose-brand-quaternary-800:#5e2514;--sdf-color-purpose-brand-quaternary-900:#4c1d0e;--sdf-color-purpose-neutral-50:#f7f6f4;--sdf-color-purpose-neutral-100:#f2f0ed;--sdf-color-purpose-neutral-200:#e3dfda;--sdf-color-purpose-neutral-300:#cdc7c2;--sdf-color-purpose-neutral-400:#b2aba5;--sdf-color-purpose-neutral-500:#938c85;--sdf-color-purpose-neutral-600:#726c66;--sdf-color-purpose-neutral-700:#544e4a;--sdf-color-purpose-neutral-800:#393533;--sdf-color-purpose-neutral-900:#262321;--sdf-color-purpose-positive-50:#dbf7dc;--sdf-color-purpose-positive-100:#c2f2c3;--sdf-color-purpose-positive-200:#99e596;--sdf-color-purpose-positive-300:#7cd273;--sdf-color-purpose-positive-400:#65ba58;--sdf-color-purpose-positive-500:#529c42;--sdf-color-purpose-positive-600:#407b30;--sdf-color-purpose-positive-700:#2f5b22;--sdf-color-purpose-positive-800:#214017;--sdf-color-purpose-positive-900:#162a0f;--sdf-color-purpose-caution-50:#f8eed9;--sdf-color-purpose-caution-100:#f5e3c0;--sdf-color-purpose-caution-200:#efcc8d;--sdf-color-purpose-caution-300:#e6b25d;--sdf-color-purpose-caution-400:#db9431;--sdf-color-purpose-caution-500:#cc730d;--sdf-color-purpose-caution-600:#b65700;--sdf-color-purpose-caution-700:#983f00;--sdf-color-purpose-caution-800:#772900;--sdf-color-purpose-caution-900:#601b00;--sdf-color-purpose-negative-50:#fad9d9;--sdf-color-purpose-negative-100:#f9c4c3;--sdf-color-purpose-negative-200:#f79a96;--sdf-color-purpose-negative-300:#f3776f;--sdf-color-purpose-negative-400:#ec5b4e;--sdf-color-purpose-negative-500:#de4635;--sdf-color-purpose-negative-600:#c53422;--sdf-color-purpose-negative-700:#9c2514;--sdf-color-purpose-negative-800:#71190c;--sdf-color-purpose-negative-900:#4e1007;--sdf-color-purpose-highlight-50:#ece8f8;--sdf-color-purpose-highlight-100:#e3ddf4;--sdf-color-purpose-highlight-200:#cfc5ec;--sdf-color-purpose-highlight-300:#b9ace2;--sdf-color-purpose-highlight-400:#a494d6;--sdf-color-purpose-highlight-500:#8f7dc5;--sdf-color-purpose-highlight-600:#7967ae;--sdf-color-purpose-highlight-700:#5f4b92;--sdf-color-purpose-highlight-800:#413069;--sdf-color-purpose-highlight-900:#2a1d47;--sdf-color-purpose-info-50:#e8effa;--sdf-color-purpose-info-100:#d8e5f9;--sdf-color-purpose-info-200:#bad1f5;--sdf-color-purpose-info-300:#9abaef;--sdf-color-purpose-info-400:#7ca1e6;--sdf-color-purpose-info-500:#5f86d8;--sdf-color-purpose-info-600:#476bc3;--sdf-color-purpose-info-700:#324fa5;--sdf-color-purpose-info-800:#20337d;--sdf-color-purpose-info-900:#121c4e;--sdf-color-purpose-alert-success-50:#dbf7dc;--sdf-color-purpose-alert-success-100:#c2f2c3;--sdf-color-purpose-alert-success-200:#99e596;--sdf-color-purpose-alert-success-300:#7cd273;--sdf-color-purpose-alert-success-400:#65ba58;--sdf-color-purpose-alert-success-500:#529c42;--sdf-color-purpose-alert-success-600:#407b30;--sdf-color-purpose-alert-success-700:#2f5b22;--sdf-color-purpose-alert-success-800:#214017;--sdf-color-purpose-alert-success-900:#162a0f;--sdf-color-purpose-alert-warning-50:#f8eed9;--sdf-color-purpose-alert-warning-100:#f5e3c0;--sdf-color-purpose-alert-warning-200:#efcc8d;--sdf-color-purpose-alert-warning-300:#e6b25d;--sdf-color-purpose-alert-warning-400:#db9431;--sdf-color-purpose-alert-warning-500:#cc730d;--sdf-color-purpose-alert-warning-600:#b65700;--sdf-color-purpose-alert-warning-700:#983f00;--sdf-color-purpose-alert-warning-800:#772900;--sdf-color-purpose-alert-warning-900:#601b00;--sdf-color-purpose-alert-error-50:#fad9d9;--sdf-color-purpose-alert-error-100:#f9c4c3;--sdf-color-purpose-alert-error-200:#f79a96;--sdf-color-purpose-alert-error-300:#f3776f;--sdf-color-purpose-alert-error-400:#ec5b4e;--sdf-color-purpose-alert-error-500:#de4635;--sdf-color-purpose-alert-error-600:#c53422;--sdf-color-purpose-alert-error-700:#9c2514;--sdf-color-purpose-alert-error-800:#71190c;--sdf-color-purpose-alert-error-900:#4e1007;--sdf-color-purpose-alert-info-50:#e8effa;--sdf-color-purpose-alert-info-100:#d8e5f9;--sdf-color-purpose-alert-info-200:#bad1f5;--sdf-color-purpose-alert-info-300:#9abaef;--sdf-color-purpose-alert-info-400:#7ca1e6;--sdf-color-purpose-alert-info-500:#5f86d8;--sdf-color-purpose-alert-info-600:#476bc3;--sdf-color-purpose-alert-info-700:#324fa5;--sdf-color-purpose-alert-info-800:#20337d;--sdf-color-purpose-alert-info-900:#121c4e;--sdf-color-purpose-alert-neutral-50:#f7f6f4;--sdf-color-purpose-alert-neutral-100:#f2f0ed;--sdf-color-purpose-alert-neutral-200:#e3dfda;--sdf-color-purpose-alert-neutral-300:#cdc7c2;--sdf-color-purpose-alert-neutral-400:#b2aba5;--sdf-color-purpose-alert-neutral-500:#938c85;--sdf-color-purpose-alert-neutral-600:#726c66;--sdf-color-purpose-alert-neutral-700:#544e4a;--sdf-color-purpose-alert-neutral-800:#393533;--sdf-color-purpose-alert-neutral-900:#262321;--sdf-color-purpose-action-primary-50:#e8effa;--sdf-color-purpose-action-primary-100:#d8e5f9;--sdf-color-purpose-action-primary-200:#bad1f5;--sdf-color-purpose-action-primary-300:#9abaef;--sdf-color-purpose-action-primary-400:#7ca1e6;--sdf-color-purpose-action-primary-500:#5f86d8;--sdf-color-purpose-action-primary-600:#476bc3;--sdf-color-purpose-action-primary-700:#324fa5;--sdf-color-purpose-action-primary-800:#20337d;--sdf-color-purpose-action-primary-900:#121c4e;--sdf-color-purpose-action-default-50:#f7f6f4;--sdf-color-purpose-action-default-100:#f2f0ed;--sdf-color-purpose-action-default-200:#e3dfda;--sdf-color-purpose-action-default-300:#cdc7c2;--sdf-color-purpose-action-default-400:#b2aba5;--sdf-color-purpose-action-default-500:#938c85;--sdf-color-purpose-action-default-600:#726c66;--sdf-color-purpose-action-default-700:#544e4a;--sdf-color-purpose-action-default-800:#393533;--sdf-color-purpose-action-default-900:#262321;--sdf-color-purpose-action-confirm-50:#dbf7dc;--sdf-color-purpose-action-confirm-100:#c2f2c3;--sdf-color-purpose-action-confirm-200:#99e596;--sdf-color-purpose-action-confirm-300:#7cd273;--sdf-color-purpose-action-confirm-400:#65ba58;--sdf-color-purpose-action-confirm-500:#529c42;--sdf-color-purpose-action-confirm-600:#407b30;--sdf-color-purpose-action-confirm-700:#2f5b22;--sdf-color-purpose-action-confirm-800:#214017;--sdf-color-purpose-action-confirm-900:#162a0f;--sdf-color-purpose-action-destructive-50:#fad9d9;--sdf-color-purpose-action-destructive-100:#f9c4c3;--sdf-color-purpose-action-destructive-200:#f79a96;--sdf-color-purpose-action-destructive-300:#f3776f;--sdf-color-purpose-action-destructive-400:#ec5b4e;--sdf-color-purpose-action-destructive-500:#de4635;--sdf-color-purpose-action-destructive-600:#c53422;--sdf-color-purpose-action-destructive-700:#9c2514;--sdf-color-purpose-action-destructive-800:#71190c;--sdf-color-purpose-action-destructive-900:#4e1007;--sdf-color-purpose-action-help-50:#ece8f8;--sdf-color-purpose-action-help-100:#e3ddf4;--sdf-color-purpose-action-help-200:#cfc5ec;--sdf-color-purpose-action-help-300:#b9ace2;--sdf-color-purpose-action-help-400:#a494d6;--sdf-color-purpose-action-help-500:#8f7dc5;--sdf-color-purpose-action-help-600:#7967ae;--sdf-color-purpose-action-help-700:#5f4b92;--sdf-color-purpose-action-help-800:#413069;--sdf-color-purpose-action-help-900:#2a1d47;--sdf-color-purpose-action-disabled-50:#f7f6f4;--sdf-color-purpose-action-disabled-100:#f2f0ed;--sdf-color-purpose-action-disabled-200:#e3dfda;--sdf-color-purpose-action-disabled-300:#cdc7c2;--sdf-color-purpose-action-disabled-400:#b2aba5;--sdf-color-purpose-action-disabled-500:#938c85;--sdf-color-purpose-action-disabled-600:#726c66;--sdf-color-purpose-action-disabled-700:#544e4a;--sdf-color-purpose-action-disabled-800:#393533;--sdf-color-purpose-action-disabled-900:#262321;--sdf-color-illustration-purpose-base-white:#fff;--sdf-color-illustration-purpose-base-neutral-light:#f7f6f4;--sdf-color-illustration-purpose-base-neutral-dark:#393533;--sdf-color-illustration-purpose-base-primary-light:#ffbbb6;--sdf-color-illustration-purpose-base-primary-dark:#f2635d;--sdf-color-illustration-purpose-base-secondary-light:#cfc5ec;--sdf-color-illustration-purpose-base-secondary-dark:#8f7dc5;--sdf-color-illustration-purpose-base-alert-success:#65ba58;--sdf-color-illustration-purpose-base-alert-warning:#db9431;--sdf-color-illustration-purpose-base-alert-error:#ec5b4e;--sdf-color-illustration-purpose-base-alert-info:#7ca1e6;--sdf-color-illustration-purpose-empty-white:#fff;--sdf-color-illustration-purpose-empty-neutral-light:#f7f6f4;--sdf-color-illustration-purpose-empty-neutral-dark:#938c85;--sdf-color-illustration-purpose-empty-primary-light:#f2f0ed;--sdf-color-illustration-purpose-empty-primary-dark:#cdc7c2;--sdf-color-illustration-purpose-empty-secondary-light:#e3dfda;--sdf-color-illustration-purpose-empty-secondary-dark:#b2aba5;--sdf-color-illustration-purpose-empty-alert-success:#cdc7c2;--sdf-color-illustration-purpose-empty-alert-warning:#cdc7c2;--sdf-color-illustration-purpose-empty-alert-error:#cdc7c2;--sdf-color-illustration-purpose-empty-alert-info:#cdc7c2;--sdf-color-chart-purpose-base-10:#2f5b22;--sdf-color-chart-purpose-base-11:#7c08c7;--sdf-color-chart-purpose-base-12:#e646ff;--sdf-color-chart-purpose-base-01:#7967ae;--sdf-color-chart-purpose-base-02:#2ba0c9;--sdf-color-chart-purpose-base-03:#d97f01;--sdf-color-chart-purpose-base-04:#f25d71;--sdf-color-chart-purpose-base-05:#20337d;--sdf-color-chart-purpose-base-06:#529c42;--sdf-color-chart-purpose-base-07:#7e2a06;--sdf-color-chart-purpose-base-08:#c53422;--sdf-color-chart-purpose-base-09:#d1229b;--sdf-font-family-base:Circular,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;--sdf-size-spacing-0:0px;--sdf-size-spacing-1:0.25rem;--sdf-size-spacing-2:0.5rem;--sdf-size-spacing-3:0.75rem;--sdf-size-spacing-4:1rem;--sdf-size-spacing-5:1.25rem;--sdf-size-spacing-6:1.5rem;--sdf-size-spacing-8:2rem;--sdf-size-spacing-10:2.5rem;--sdf-size-spacing-12:3rem;--sdf-size-spacing-16:4rem;--sdf-size-spacing-20:5rem;--sdf-size-spacing-24:6rem;--sdf-size-spacing-32:8rem;--sdf-size-spacing-40:10rem;--sdf-size-spacing-48:12rem;--sdf-size-spacing-56:14rem;--sdf-size-spacing-64:16rem;--sdf-size-spacing-purpose-touch-min:2.75rem;--sdf-size-spacing-purpose-stack-2xs:0.25rem;--sdf-size-spacing-purpose-stack-xs:0.5rem;--sdf-size-spacing-purpose-stack-sm:0.75rem;--sdf-size-spacing-purpose-stack-md:1rem;--sdf-size-spacing-purpose-stack-lg:1.5rem;--sdf-size-spacing-purpose-stack-xl:2rem;--sdf-size-spacing-purpose-stack-2xl:2.5rem;--sdf-size-spacing-purpose-stack-3xl:3rem;--sdf-size-spacing-purpose-safe-t:env(safe-area-inset-top);--sdf-size-spacing-purpose-safe-r:env(safe-area-inset-right);--sdf-size-spacing-purpose-safe-b:env(safe-area-inset-bottom);--sdf-size-spacing-purpose-safe-l:env(safe-area-inset-left);--sdf-size-spacing-purpose-layout-1:0.5rem;--sdf-size-spacing-purpose-layout-2:1rem;--sdf-size-spacing-purpose-layout-3:1.5rem;--sdf-size-spacing-purpose-layout-4:2rem;--sdf-size-spacing-purpose-layout-6:3rem;--sdf-size-spacing-purpose-layout-8:4rem;--sdf-size-spacing-purpose-layout-12:6rem;--sdf-size-spacing-purpose-layout-16:8rem;--sdf-size-spacing-purpose-layout-24:12rem;--sdf-size-spacing-purpose-inline-2xs:0.25rem;--sdf-size-spacing-purpose-inline-xs:0.5rem;--sdf-size-spacing-purpose-inline-sm:0.75rem;--sdf-size-spacing-purpose-inline-md:1rem;--sdf-size-spacing-purpose-inline-lg:1.5rem;--sdf-size-spacing-purpose-inline-xl:2rem;--sdf-size-spacing-purpose-inline-2xl:2.5rem;--sdf-size-spacing-purpose-inline-3xl:3rem;--sdf-size-spacing-purpose-gutter-none:0px;--sdf-size-spacing-purpose-gutter-tight-base:0.5rem;--sdf-size-spacing-purpose-gutter-tight-one-half:0.25rem;--sdf-size-spacing-purpose-gutter-narrow-base:1rem;--sdf-size-spacing-purpose-gutter-narrow-one-half:0.5rem;--sdf-size-spacing-purpose-gutter-wide-base:2rem;--sdf-size-spacing-purpose-gutter-wide-one-half:1rem;--sdf-size-spacing-purpose-gutter-base:1rem;--sdf-size-spacing-purpose-gutter-one-half:0.5rem;--sdf-size-spacing-purpose-inset-stretch-sm:0.5rem 0.25rem;--sdf-size-spacing-purpose-inset-stretch-md:1rem 0.5rem;--sdf-size-spacing-purpose-inset-stretch-lg:1.5rem 0.75rem;--sdf-size-spacing-purpose-inset-stretch-xl:2rem 1rem;--sdf-size-spacing-purpose-inset-squish-sm:0.25rem 0.5rem;--sdf-size-spacing-purpose-inset-squish-md:0.5rem 1rem;--sdf-size-spacing-purpose-inset-squish-lg:0.75rem 1.5rem;--sdf-size-spacing-purpose-inset-squish-xl:1rem 2rem;--sdf-size-spacing-purpose-inset-sm:0.5rem;--sdf-size-spacing-purpose-inset-md:1rem;--sdf-size-spacing-purpose-inset-lg:1.5rem;--sdf-size-spacing-purpose-inset-xl:2rem;--sdf-size-spacing-px:1px;--sdf-context-chart-style-base-fill-color:#fff;--sdf-context-chart-style-base-title-text-color:#393533;--sdf-context-chart-style-base-subtitle-text-color:#544e4a;--sdf-context-chart-grid-style-base-stroke-color:#e3dfda;--sdf-context-chart-legend-style-base-text-color:#544e4a;--sdf-context-chart-legend-style-hover-text-color:#262321;--sdf-context-chart-axis-style-base-title-text-color:#726c66;--sdf-context-chart-axis-style-base-text-color:#726c66;--sdf-context-chart-axis-style-base-stroke-color:#544e4a;--sdf-context-chart-palette-style-default-10:#2f5b22;--sdf-context-chart-palette-style-default-11:#7c08c7;--sdf-context-chart-palette-style-default-12:#e646ff;--sdf-context-chart-palette-style-default-01:#7967ae;--sdf-context-chart-palette-style-default-02:#2ba0c9;--sdf-context-chart-palette-style-default-03:#d97f01;--sdf-context-chart-palette-style-default-04:#f25d71;--sdf-context-chart-palette-style-default-05:#20337d;--sdf-context-chart-palette-style-default-06:#529c42;--sdf-context-chart-palette-style-default-07:#7e2a06;--sdf-context-chart-palette-style-default-08:#c53422;--sdf-context-chart-palette-style-default-09:#d1229b;--sdf-context-chart-tooltip-style-default-text-color:#262321}</style><meta charset="utf-8"><style data-styles="">slot-fb{display:contents}slot-fb[hidden]{display:none}wfn-action-menu,wfn-address,wfn-autocomplete-address,wfn-avatar,wfn-badge,wfn-bbq-plate-loader,wfn-box,wfn-box-with-carousel,wfn-box-with-carousel-page,wfn-business-card-modal,wfn-checkbox-tree,wfn-country,wfn-currency,wfn-currency-box,wfn-date,wfn-date-picker,wfn-drag-handle,wfn-dropdown-list,wfn-employee-id-bar,wfn-expandable-box,wfn-file-uploader,wfn-focus-pane,wfn-focus-pane-clone,wfn-form,wfn-froala-editor,wfn-full-calendar,wfn-grid,wfn-home-hero,wfn-home-page-layout,wfn-infinite-list,wfn-input,wfn-iterator,wfn-link-preview,wfn-map,wfn-mfe-loader,wfn-multi-select,wfn-news-feed,wfn-news-feed-item,wfn-number,wfn-number-box,wfn-obfuscation,wfn-page-header-button,wfn-percent-input,wfn-phone-number-input,wfn-quick-stat,wfn-radio-button,wfn-radio-group,wfn-right-rail-layout,wfn-search-for-people,wfn-sfp-add-edit-filter-modal,wfn-sfp-delete-filter-modal,wfn-sfp-employee-modal,wfn-sfp-filter-modal,wfn-shell-app-bar-search,wfn-shell-mega-menu,wfn-shell-top-nav,wfn-simple-help-icon,wfn-sse-listener,wfn-tax-id,wfn-tax-id-input,wfn-tax-id-selection,wfn-text,wfn-textarea,wfn-timeline-card,wfn-timeline-container,wfn-tracker,wfn-vertical-wizard{visibility:hidden}.hydrated{visibility:inherit}</style><style data-styles="">sfc-shell-top-nav,sfc-shell-app-bar,sfc-shell,sfc-shell-app-bar-search,sfc-shell-breadcrumbs,sfc-shell-footer,sfc-shell-footer-link,sfc-shell-left-nav-flat,sfc-shell-top-hat,sfc-shell-uni,sfc-shell-app-bar-icon,sfc-shell-bookmarks,sfc-shell-left-nav-section,sfc-shell-left-nav,sfc-shell-left-nav-v2,sfc-shell-mega-menu{visibility:hidden}.hydrated{visibility:inherit}</style><style data-styles="">slot-fb{display:contents}slot-fb[hidden]{display:none}sdfx-mdf-survey,sdfx-help,sdfx-search,sdfx-box,sdfx-box-stack,sdfx-carousel,sdfx-carousel-item,sdfx-confetti,sdfx-inline-modal,sdfx-mdf-button-card-stack,sdfx-mdf-button-stack,sdfx-mdf-checkbox,sdfx-mdf-checkbox-group,sdfx-mdf-radio-group,sdfx-mdf-readonly,sdfx-mdf-segmented,sdfx-mdf-select,sdfx-mdf-text,sdfx-mdf-textarea,sdfx-pagination,sdfx-wizard-layout,sdfx-wizard-steps-vertical,sdfx-wizard-steps-vertical-item,sdfx-mdf-layout-meta-driven,sdfx-help-dialog,sdfx-listbox,sdfx-mdf-form,sdfx-mdf-input,sdfx-mdf-layout-columns,sdfx-mdf-layout-masonry,sdfx-mdf-layout-vertical{visibility:hidden}.hydrated{visibility:inherit}</style><style data-styles="">slot-fb{display:contents}slot-fb[hidden]{display:none}sdf-icon,sdf-file-uploader,sdf-search,sdf-select,sdf-time-picker-v2,sdf-time-picker,sdf-virtual-select,sdf-currency-input,sdf-date-picker,sdf-file-selector,sdf-page-layout,sdf-date-picker-v2,sdf-file-item,sdf-pagination,sdf-readonly-field,sdf-tab-group,sdf-alert-toast,sdf-phone-number-input,sdf-wizard-steps-vertical,sdf-checkbox-group,sdf-focus-pane,sdf-form-control-layout,sdf-home-page-layout,sdf-radio-group,sdf-switch,sdf-textarea,sdf-carousel,sdf-table,sdf-action-area,sdf-alert-banner,sdf-wizard-steps-vertical-item,sdf-a11y-footer-link,sdf-inline-modal,sdf-promo-box,sdf-tab,sdf-tag,sdf-card-header-collapsible,sdf-local-left-nav-section,sdf-multi-select,sdf-select-option,sdf-timeline-event,sdf-accordion,sdf-alert-toaster,sdf-app-loader,sdf-box-stack,sdf-button-group,sdf-card-footer,sdf-card-header,sdf-card-header-advanced,sdf-carousel-item,sdf-chart,sdf-column-chart,sdf-dashboard,sdf-dashboard-cell,sdf-data-ring,sdf-flag-layout,sdf-global,sdf-grid,sdf-icon-legacy,sdf-icon-stack,sdf-layout-list-item,sdf-layout-row,sdf-layout-three-col,sdf-layout-two-col,sdf-line-chart,sdf-local-left-nav,sdf-local-left-nav-item,sdf-menu-title,sdf-mfe-loader,sdf-pie-chart,sdf-quick-stat,sdf-radio-button,sdf-segment-filler,sdf-segmented-control,sdf-select-list,sdf-slider,sdf-super-title,sdf-text-editor,sdf-timeline,sdf-toggle,sdf-view-stack,sdf-wizard-layout,snapshot-test-bed,sdf-virtual-select-renderer,sdf-button,sdf-busy-indicator,sdf-page-header-layout,sdf-expandable-box,sdf-badge,sdf-help-text,sdf-layout-justify-edge,sdf-scroller,sdf-spot-illustration,sdf-time-spinner,sdf-button-layout,sdf-calendar,sdf-card,sdf-mini-card,sdf-spinner,sdf-shimmer,sdf-avatar,sdf-box,sdf-select-simple,sdf-link,sdf-input,sdf-alert-icon,sdf-alert,sdf-alert-inline,sdf-icon-button,sdf-menu-item,sdf-checkbox,sdf-menu-divider,sdf-select-group,sdf-skeleton,sdf-action-menu,sdf-menu,sdf-progress-bar,sdf-select-item-list,sdf-select-item,sdf-floating-pane,sdf-floating-pane-portal,sdf-close-button,sdf-tooltip{visibility:hidden}.hydrated{visibility:inherit}</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="Ty_uddsUiim55tteitR4CBf-iS7L7IrBrz_Aqt0hyF4">
+  <title>Current Openings | Recruitment</title>
+
+  
+  <link href="https://static.workforcenow.adp.com/mas/mdf/26.23.14/styles/fonts.css" rel="stylesheet">
+  
+  <link href="https://static.workforcenow.adp.com/mas/mdf/26.23.14/styles/mdfCore.css" rel="stylesheet">
+  
+  <link href="https://static.workforcenow.adp.com/mas/mdf-components/26.23.15/styles/mdfComponents.css" rel="stylesheet">
+  
+  
+  <script async="" src="https://cdn.pendo.io/agent/static/847bf1c9-374d-476d-5e87-43c24b72ed98/pendo.js"></script><script src="https://static.workforcenow.adp.com/mas/mdf/26.23.14/vendorCore.js"></script>
+  
+  <script src="https://static.workforcenow.adp.com/mas/mdf/26.23.14/mdfCore.js"></script>
+  
+  <script src="https://static.workforcenow.adp.com/mas/mdf-components/26.23.15/vendorComponents.js"></script>
+  
+  <script src="https://static.workforcenow.adp.com/mas/mdf-components/26.23.15/adpComponents.js"></script>
+  
+  <script src="https://static.workforcenow.adp.com/mas/mdf-components/26.23.15/mdfComponents.js"></script>
+  
+
+  <script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/config/synerg-config-5.51.0.js"></script>
+  <script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/features/config/synerg-config-5.51.0.js"></script>
+  <script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/sdfx/config/sdfx-config-5.51.0.js"></script>
+  <script src="https://static.workforcenow.adp.com/mas/mdf-wc/dist/config/wfn-config-1.33.6.js"></script>
+
+  <script>
+    // Use an IIFE to scope the theme variable
+    (() => {
+      const theme = 'one';
+
+      if (theme === 'one') {
+        window.isADPUnified = true;
+      }
+
+      window.SynergConfig.initialize({ theme, skipFonts: theme === 'vdl', baseUrl: "https://web-components-assets.synerg.dit.paascloud.oneadp.com" }).then((cfg) => {
+        // Something that has to be done to load grid styles
+        window.SynergConfig.getComponentThemeCSSHref('sdf-grid-v32-1').then((href) => {
+          const sheet = document.createElement('link');
+          sheet.type = 'text/css';
+          sheet.rel = 'stylesheet';
+          sheet.href = href;
+
+          document.head.appendChild(sheet);
+        });
+
+        // Now load the global styles for the default theme
+        return cfg.loadGlobalStyles(['sdf-global', 'sdf-table-utilities', 'sdf-utilities', 'sdf-variables']);
+      });
+
+      window.SDFXConfig.initialize({ theme });
+
+      window.WFNConfig.initialize({ theme });
+
+      window.SynergFeaturesConfig.initialize({ baseUrl: "https://web-components-assets.synerg.dit.paascloud.oneadp.com" + "/features", theme });
+
+    })();
+  </script><script type="module" src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/synerg-web-components/synerg-web-components-5.51.0.esm.js" data-stencil-namespace="synerg-web-components"></script><script type="module" src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/sdfx/sdfx/sdfx-5.51.0.esm.js" data-stencil-namespace="sdfx"></script><script type="module" src="https://static.workforcenow.adp.com/mas/mdf-wc/dist/mdf-wc/mdf-wc-1.33.6.esm.js" data-stencil-namespace="mdf-wc"></script><script type="module" src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/features/synerg-web-components-features/synerg-web-components-features-5.51.0.esm.js" data-stencil-namespace="synerg-web-components-features"></script>
+  <style>
+  * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      outline: none;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--font-family-base);
+      font-size: var(--font-size-base);
+    }
+
+    #wfn_body {
+      background-attachment: fixed;
+      background-size: cover;
+      background-color: var(--content-bg-color);
+      font-family: var(--font-family-base);
+      font-size: var(--font-size-base);
+      height: auto;
+      min-height: 100%;
+      width: 100%;
+      padding: 0;
+      cursor: default;
+    }
+    #recPageLoadWaitingIndicator {
+      display: flex;
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+      left: 0;
+      top: 0;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      padding-top: 50px;
+      color: #1a8099;
+    }
+  </style>
+<link type="text/css" rel="stylesheet" href="/mascsr/default/mdf/recruitment/styles/postLogin.e93e94bbf3f9ff7b.css?cid=28dcc7f7-279d-47e4-a3c5-00547cf6a4b2"><script src="/mascsr/default/mdf/recruitment/postLogin.e93e94bbf3f9ff7b.js?cid=28dcc7f7-279d-47e4-a3c5-00547cf6a4b2" type="text/javascript"></script><script src="/mascsr/default/mdf/recruitment/config-loader.js?cid=28dcc7f7-279d-47e4-a3c5-00547cf6a4b2" type="text/javascript"></script><script src="/mascsr/default/mdf/recruitment/detectizr.min.js?cid=28dcc7f7-279d-47e4-a3c5-00547cf6a4b2" type="text/javascript"></script><script src="/mascsr/default/mdf/recruitment/modernizr.min.js?cid=28dcc7f7-279d-47e4-a3c5-00547cf6a4b2" type="text/javascript"></script><script src="/mascsr/default/mdf/recruitment/browser.js?cid=28dcc7f7-279d-47e4-a3c5-00547cf6a4b2" type="text/javascript"></script><script src="https://apis.google.com/js/api.js" type="text/javascript"></script><script type="text/javascript" src="/mascsr/default/mdf/recruitment/recruitment-config-prod.js?cid=28dcc7f7-279d-47e4-a3c5-00547cf6a4b2"></script><link href="https://web-components-assets.synerg.dit.paascloud.oneadp.com/synerg-web-components/circular-fonts/fonts-4d42b8671c.css" type="text/css" rel="stylesheet" data-fonts-for-lib="sdf" data-fonts-for-theme="one" data-fonts-for-mode="one"><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/themes/one/sdf-alert-toaster.aa690c563c.js" data-theme-for="sdf-alert-toaster" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/themes/one/sdf-busy-indicator.6619154db8.js" data-theme-for="sdf-busy-indicator" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/themes/one/sdf-button.73363686bc.js" data-theme-for="sdf-button" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/themes/one/sdf-global.60da8a48e0.js" data-theme-for="sdf-global" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/themes/one/sdf-table-utilities.4e434f72cd.js" data-theme-for="sdf-table-utilities" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/themes/one/sdf-utilities.6e9bf2b1bc.js" data-theme-for="sdf-utilities" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/themes/one/sdf-variables.083b1c418b.js" data-theme-for="sdf-variables" crossorigin=""></script><link type="text/css" rel="stylesheet" href="https://web-components-assets.synerg.dit.paascloud.oneadp.com/themes/one/sdf-grid-v32-1.4132ed1af8.css"><link type="text/css" rel="stylesheet" href="https://pendo-static-5927794921177088.storage.googleapis.com/guide.4852518017171456.1744832487056.css" id="_pendo-css_"><link type="text/css" rel="stylesheet" href="https://pendo-static-5927794921177088.storage.googleapis.com/guide-content/b0UjAoEaGvnlc10uquTDaQFwV3M/YO2qJMW3cglTYoRUeGL1eLDmwVo/Zp2KqKJNFAQdgbcpwDvApMsWNiE.guide.css?sha256=j6E8q93Y-pd_KYx6B0J_ikss-fz9oRvoJ-h6aehWznU"><style data-shelled-styles="">
+        .sfc-shelled {
+          margin: 0 !important;
+          padding: 0 !important;
+        }
+        </style><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/features/themes/one/sfc-shell.f25a0d2c62.js" data-theme-for="sfc-shell" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/features/themes/one/sfc-global.bfb56e55c5.js" data-theme-for="sfc-global" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/features/themes/one/sfc-shell-app-bar.0f67a97152.js" data-theme-for="sfc-shell-app-bar" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/features/themes/one/sfc-shell-left-nav-base.f1e34ee255.js" data-theme-for="sfc-shell-left-nav-base" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/features/themes/one/sfc-shell-left-nav-flat.4f9c1f6d74.js" data-theme-for="sfc-shell-left-nav-flat" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/themes/one/sdf-link.c9b942b024.js" data-theme-for="sdf-link" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/themes/one/sdf-menu-item.ed0906e7a6.js" data-theme-for="sdf-menu-item" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/themes/one/sdf-action-menu.484e393790.js" data-theme-for="sdf-action-menu" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/themes/one/sdf-menu.8f6d9cb3d0.js" data-theme-for="sdf-menu" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/themes/one/sdf-icon.823e5d2a4d.js" data-theme-for="sdf-icon" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/themes/one/sdf-alert.3ce5508bab.js" data-theme-for="sdf-alert" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/themes/one/sdf-alert-inline.e8aa68c672.js" data-theme-for="sdf-alert-inline" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/themes/one/sdf-icon-button.96110924a4.js" data-theme-for="sdf-icon-button" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/features/themes/one/sfc-shell-app-bar-icon.828ba0b9d5.js" data-theme-for="sfc-shell-app-bar-icon" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/themes/one/sdf-avatar.1bc543c380.js" data-theme-for="sdf-avatar" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/themes/one/sdf-a11y.091ec15ade.js" data-theme-for="sdf-a11y" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/themes/one/sdf-close-button.af8ed06a56.js" data-theme-for="sdf-close-button" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/themes/one/sdf-floating-pane.9ffb08ef78.js" data-theme-for="sdf-floating-pane" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/themes/one/sdf-radio-button.ddab649a31.js" data-theme-for="sdf-radio-button" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/themes/one/sdf-radio-group.0e751ff2dd.js" data-theme-for="sdf-radio-group" crossorigin=""></script><script src="https://web-components-assets.synerg.dit.paascloud.oneadp.com/themes/one/sdf-form-control-layout-partial.1185ad6dfa.js" data-theme-for="sdf-form-control-layout-partial" crossorigin=""></script></head>
+<body id="wfn_body" role="main" class="mdf recruitment-body one-ux">
+  <div class="">
+    <div id="postLogin_root" class="recruitment recruitment_styles postLogin_root vdl-container-fluid" data-mdf-root-id="application_root" role="presentation" style="display: block;"><div class="recruitment-style-new-shell-container"><div class="recruitment-style-container" style="background-color: rgb(235, 235, 235);"><div class="recruitment-container vdl-container"><div id="jobApplicationSubmit" class="job-application-submit"><div class="job-application-header"><h2 class="applying-for-title">Applying for Human Resources Generalist</h2><div class="job-application-exit-button" id="ja_sv_exit_btn"><svg xmlns="http://www.w3.org/2000/svg" class="job-application-exit-icon" viewBox="0 0 1025.816 1043.776" height="1em" width="0.9828em" fill="currentColor" focusable="false" style="vertical-align: text-bottom; display: inline-block; overflow: visible;"><g><path d="M36.69 1030.16L.124 993.594 989.25 4.468l36.566 36.566L36.69 1030.16zm989.016-36.532l-36.566 36.566L.014 41.068 36.58 4.502l989.126 989.126z"></path></g></svg></div></div><div class="mdf-custom-wizard step-wizard job-Application-wizard-container"><div><div class="application-submit-wizard-container"><div class="application-submit-wizard-step-header hide-in-mobile-view"><div class="mdf-segmented-wizard-header" role="list"><div class="mdf-segmented-wizard-header-item mdf-segmented-wizard-header-visited-item mdf-segmented-wizard-header-item-bar-disabled" aria-current="false" role="listitem"><div class="mdf-segmented-wizard-header-item-bar"></div><span class="mdf-segmented-wizard-header-item-text">Personal Information</span></div><div class="mdf-segmented-wizard-header-item mdf-segmented-wizard-header-visited-item mdf-segmented-wizard-header-item-bar-disabled" aria-current="false" role="listitem"><div class="mdf-segmented-wizard-header-item-bar"></div><span class="mdf-segmented-wizard-header-item-text">Resume</span></div><div class="mdf-segmented-wizard-header-item mdf-segmented-wizard-header-visited-item mdf-segmented-wizard-header-current-item mdf-segmented-wizard-header-item-bar-disabled" aria-current="true" role="listitem" tabindex="0"><div class="mdf-segmented-wizard-header-item-bar"></div><span class="mdf-segmented-wizard-header-item-text">Questions</span></div><div class="mdf-segmented-wizard-header-item  mdf-segmented-wizard-header-item-bar-disabled" aria-current="false" role="listitem"><div class="mdf-segmented-wizard-header-item-bar"></div><span class="mdf-segmented-wizard-header-item-text">Voluntary Self-ID</span></div><div class="mdf-segmented-wizard-header-item  mdf-segmented-wizard-header-item-bar-disabled" aria-current="false" role="listitem"><div class="mdf-segmented-wizard-header-item-bar"></div><span class="mdf-segmented-wizard-header-item-text">Review your application</span></div><div class="mdf-segmented-wizard-header-item  mdf-segmented-wizard-header-item-bar-disabled" aria-current="false" role="listitem"><div class="mdf-segmented-wizard-header-item-bar"></div><span class="mdf-segmented-wizard-header-item-text">Self-Attest &amp; Submit</span></div></div></div><div class="application-submit-wizard-step-header hide-in-desktop-view "><div class="vdl-progress-bar"><div class="vdl-progress-bar__bar"><div class="vdl-progress-bar__percentage" style="width: 50%;"></div></div></div></div></div></div><div class="mdf-custom-wizard-steps"><div class="mdf-custom-wizard-step"><div tabindex="-1" id="jobApplicationSubmitContainer"></div><div class="vdl-accordian-panel questions-main-container"><div class="quesitions-container"><div><h3>Please answer the following questions:</h3></div><h4 class="error-color margin-top-0" role="alert">Correct the information in highlighted fields.</h4><div class="qContainerRowsWhite"><div class="qMainDiv"><div class="question-label-container"><label class="qLabel" for="question_0">Can you legally work in the U.S. without sponsorship?<span class="mdf-required-indicator ">*</span></label></div><div class="itemPadLeft"><div></div><div></div><div><sdf-radio-group label="Can you legally work in the U.S. without sponsorship?" hide-label="true" direction="row" value="" class="addition-Info-radio prop_group radio-question hydrated question-error" style="--sdf-math-label-width: 1px;"><!----><style type="text/css">sdf-radio-group{display:flex;flex-direction:column;position:relative;width:-moz-fit-content;width:fit-content}sdf-radio-group .direction-column{display:flex;flex-direction:column;gap:var(--sdf-context-input-radio-group-layout-column-vert-gap,.625rem)}sdf-radio-group .direction-row{display:flex;flex-direction:row;flex-wrap:wrap;gap:var(--sdf-context-input-radio-group-layout-row-horiz-gap,1rem)}sdf-radio-group .direction-column,sdf-radio-group .direction-row{margin-top:calc((var(--sdf-context-input-text-layout-base-text-line-height, 1.5rem) + var(--sdf-context-input-text-layout-base-padding-top, .375rem) + var(--sdf-context-input-text-layout-base-padding-bottom, .375rem) + var(--sdf-context-input-text-layout-base-stroke-top-weight, 2px) + var(--sdf-context-input-text-layout-base-stroke-bottom-weight, 2px) - var(--sdf-context-input-radio-indicator-layout-base-height, 1.5rem))/2)}@media screen and (max-width:479px){sdf-radio-group .direction-column{gap:var(--sdf-context-input-radio-group-layout-column-variant-media-screen-max-xs-vert-gap,0)}}
+.sdf-form-control-wrapper--container .sdf-form-control-wrapper--label,.sdf-form-control-wrapper--container .sdf-form-control-wrapper--label-error{color:var(--sdf-context-form-control-label-style-base-text-color,#262321);display:block;font-size:var(--sdf-context-form-control-label-layout-base-text-size,.875rem);font-weight:var(--sdf-context-form-control-label-layout-base-text-weight,500);line-height:var(--sdf-context-form-control-label-layout-base-text-line-height,1.5);margin-bottom:var(--sdf-context-form-control-label-layout-base-margin-bottom,.375rem);padding-inline-end:0;padding-inline-start:0}.sdf-form-control-wrapper--container{gap:var(--sdf-context-form-control-label-layout-base-horiz-gap,.5rem)}.sdf-form-control-wrapper--container .sdf-form-control-wrapper--label-disabled{pointer-events:none}.sdf-form-control-wrapper--container .sdf-form-control-wrapper--optional-hint{display:inline-block;margin-inline-start:var(--sdf-context-form-control-label-layout-base-horiz-gap,.5rem)}sdf-tooltip.sdf-form-control-wrapper--tooltip .sdf-form-control-wrapper--tooltip-hint sdf-icon{color:var(--sdf-context-form-control-label-help-indicator-style-base-icon-color,#324fa5);cursor:pointer;height:var(--sdf-context-form-control-label-help-indicator-style-base-icon-height,1.5rem);vertical-align:0;width:var(--sdf-context-form-control-label-help-indicator-style-base-icon-width,1.5rem)}@media (forced-colors:active){sdf-tooltip.sdf-form-control-wrapper--tooltip .sdf-form-control-wrapper--tooltip-hint sdf-icon{color:CanvasText}}.sdf-form-control-wrapper--tooltip-trigger sdf-icon,sdf-tooltip.sdf-form-control-wrapper--tooltip .sdf-form-control-wrapper--tooltip-trigger sdf-icon{color:var(--sdf-context-form-control-label-help-indicator-style-base-icon-color,#324fa5)}@media (forced-colors:active){.sdf-form-control-wrapper--tooltip-trigger sdf-icon,sdf-tooltip.sdf-form-control-wrapper--tooltip .sdf-form-control-wrapper--tooltip-trigger sdf-icon{color:CanvasText}}.sdf-form-control-wrapper--required-hint{color:var(--sdf-context-form-control-label-required-indicator-style-base-icon-color,#9c2514);display:inline-block}.sdf-form-control-wrapper--sr-only{height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;clip:rect(0,0,0,0);border-width:0;white-space:nowrap}.sdf-form-control-wrapper--container{align-items:flex-start;display:flex}.w-input-2xs{width:var(--sdf-context-input-frame-layout-base-variant-size-2xs-width,4rem)}.w-input-xs{width:var(--sdf-context-input-frame-layout-base-variant-size-xs-width,7rem)}.w-input-sm{width:var(--sdf-context-input-frame-layout-base-variant-size-sm-width,10rem)}.w-input-md{width:var(--sdf-context-input-frame-layout-base-variant-size-md-width,13rem)}.w-input-lg{width:var(--sdf-context-input-frame-layout-base-variant-size-lg-width,16rem)}.w-input-xl{width:var(--sdf-context-input-frame-layout-base-variant-size-xl-width,20rem)}.w-input-full{width:100%}.w-input-auto{width:auto}:host(.w-input-full){width:100%}.sdf-form-control-wrapper--tooltip sdf-icon-button{font-size:var(--sdf-context-form-control-label-help-indicator-layout-base-icon-size,1rem);padding:var(--sdf-context-form-control-label-help-indicator-layout-base-padding-top,0) var(--sdf-context-form-control-label-help-indicator-layout-base-padding-right,0) var(--sdf-context-form-control-label-help-indicator-layout-base-padding-bottom,0) var(--sdf-context-form-control-label-help-indicator-layout-base-padding-left,0)}.sdf-form-control-wrapper--tooltip sdf-icon-button sdf-icon{margin:0;padding:0}.sdf-form-control-wrapper--popover-content:focus-visible{box-shadow:0 0 0 var(--sdf-context-box-interaction-focus-style-stroke-inner-weight,1px) var(--sdf-context-box-interaction-focus-style-stroke-inner-color,#fff),0 0 0 calc(var(--sdf-context-box-interaction-focus-style-stroke-outer-weight, 2px) + var(--sdf-context-box-interaction-focus-style-stroke-inner-weight, 1px)) var(--sdf-context-box-interaction-focus-style-stroke-outer-color,#476bc3);outline:0}@media (forced-colors:active){.sdf-form-control-wrapper--popover-content:focus-visible{box-shadow:none!important;outline:var(--sdf-context-box-interaction-focus-style-stroke-outer-weight,2px) solid Highlight;outline-offset:var(--sdf-context-box-interaction-focus-style-stroke-inner-weight,1px)}}::slotted([slot=alert]),::slotted([slot=help]),[slot=alert],[slot=help]{margin-top:var(--sdf-context-form-control-alerts-layout-base-vert-gap,.5rem)}@media (min-width:480px){.xs\:w-input-2xs{width:var(--sdf-context-input-frame-layout-base-variant-size-2xs-width,4rem)}.xs\:w-input-xs{width:var(--sdf-context-input-frame-layout-base-variant-size-xs-width,7rem)}.xs\:w-input-sm{width:var(--sdf-context-input-frame-layout-base-variant-size-sm-width,10rem)}.xs\:w-input-md{width:var(--sdf-context-input-frame-layout-base-variant-size-md-width,13rem)}.xs\:w-input-lg{width:var(--sdf-context-input-frame-layout-base-variant-size-lg-width,16rem)}.xs\:w-input-xl{width:var(--sdf-context-input-frame-layout-base-variant-size-xl-width,20rem)}}@media (min-width:640px){.sm\:w-input-2xs{width:var(--sdf-context-input-frame-layout-base-variant-size-2xs-width,4rem)}.sm\:w-input-xs{width:var(--sdf-context-input-frame-layout-base-variant-size-xs-width,7rem)}.sm\:w-input-sm{width:var(--sdf-context-input-frame-layout-base-variant-size-sm-width,10rem)}.sm\:w-input-md{width:var(--sdf-context-input-frame-layout-base-variant-size-md-width,13rem)}.sm\:w-input-lg{width:var(--sdf-context-input-frame-layout-base-variant-size-lg-width,16rem)}.sm\:w-input-xl{width:var(--sdf-context-input-frame-layout-base-variant-size-xl-width,20rem)}}@media (min-width:768px){.md\:w-input-2xs{width:var(--sdf-context-input-frame-layout-base-variant-size-2xs-width,4rem)}.md\:w-input-xs{width:var(--sdf-context-input-frame-layout-base-variant-size-xs-width,7rem)}.md\:w-input-sm{width:var(--sdf-context-input-frame-layout-base-variant-size-sm-width,10rem)}.md\:w-input-md{width:var(--sdf-context-input-frame-layout-base-variant-size-md-width,13rem)}.md\:w-input-lg{width:var(--sdf-context-input-frame-layout-base-variant-size-lg-width,16rem)}.md\:w-input-xl{width:var(--sdf-context-input-frame-layout-base-variant-size-xl-width,20rem)}}@media (min-width:1024px){.lg\:w-input-2xs{width:var(--sdf-context-input-frame-layout-base-variant-size-2xs-width,4rem)}.lg\:w-input-xs{width:var(--sdf-context-input-frame-layout-base-variant-size-xs-width,7rem)}.lg\:w-input-sm{width:var(--sdf-context-input-frame-layout-base-variant-size-sm-width,10rem)}.lg\:w-input-md{width:var(--sdf-context-input-frame-layout-base-variant-size-md-width,13rem)}.lg\:w-input-lg{width:var(--sdf-context-input-frame-layout-base-variant-size-lg-width,16rem)}.lg\:w-input-xl{width:var(--sdf-context-input-frame-layout-base-variant-size-xl-width,20rem)}}@media (min-width:1280px){.xl\:w-input-2xs{width:var(--sdf-context-input-frame-layout-base-variant-size-2xs-width,4rem)}.xl\:w-input-xs{width:var(--sdf-context-input-frame-layout-base-variant-size-xs-width,7rem)}.xl\:w-input-sm{width:var(--sdf-context-input-frame-layout-base-variant-size-sm-width,10rem)}.xl\:w-input-md{width:var(--sdf-context-input-frame-layout-base-variant-size-md-width,13rem)}.xl\:w-input-lg{width:var(--sdf-context-input-frame-layout-base-variant-size-lg-width,16rem)}.xl\:w-input-xl{width:var(--sdf-context-input-frame-layout-base-variant-size-xl-width,20rem)}}button.sdf-form-control-wrapper--tooltip-trigger{background-color:var(--sdf-context-form-control-label-help-indicator-style-base-fill-color,transparent);border-end-end-radius:var(--sdf-context-form-control-label-help-indicator-layout-base-radius-bottom-right,9999px);border-end-start-radius:var(--sdf-context-form-control-label-help-indicator-layout-base-radius-bottom-left,9999px);border-start-end-radius:var(--sdf-context-form-control-label-help-indicator-layout-base-radius-top-right,9999px);border-start-start-radius:var(--sdf-context-form-control-label-help-indicator-layout-base-radius-top-left,9999px);border-style:none;color:var(--sdf-context-form-control-label-help-indicator-style-base-text-color,#324fa5);cursor:pointer;font-family:inherit;font-size:var(--sdf-context-form-control-label-help-indicator-layout-base-icon-size,1rem);line-height:1;outline:0;padding:var(--sdf-context-form-control-label-help-indicator-layout-base-padding-top,0) var(--sdf-context-form-control-label-help-indicator-layout-base-padding-right,0) var(--sdf-context-form-control-label-help-indicator-layout-base-padding-bottom,0) var(--sdf-context-form-control-label-help-indicator-layout-base-padding-left,0)}button.active.sdf-form-control-wrapper--tooltip-trigger{background-color:var(--sdf-context-form-control-label-help-indicator-style-active-fill-color,#fff);box-shadow:0 0 0 var(--sdf-context-form-control-label-help-indicator-style-active-stroke-inner-weight,0) var(--sdf-context-form-control-label-help-indicator-style-active-stroke-inner-color,transparent),0 0 0 calc(var(--sdf-context-form-control-label-help-indicator-style-active-stroke-outer-weight, 0px) + var(--sdf-context-form-control-label-help-indicator-style-active-stroke-inner-weight, 0px)) var(--sdf-context-form-control-label-help-indicator-style-active-stroke-outer-color,transparent);color:var(--sdf-context-form-control-label-help-indicator-style-active-text-color,#324fa5)}@media (forced-colors:active){button.active.sdf-form-control-wrapper--tooltip-trigger{box-shadow:none!important;outline:var(--sdf-context-form-control-label-help-indicator-style-active-stroke-outer-weight,0) solid Highlight;outline-offset:var(--sdf-context-form-control-label-help-indicator-style-active-stroke-inner-weight,0)}}button:hover.sdf-form-control-wrapper--tooltip-trigger{border-end-end-radius:var(--sdf-context-form-control-label-help-indicator-layout-base-radius-bottom-right,9999px);border-end-start-radius:var(--sdf-context-form-control-label-help-indicator-layout-base-radius-bottom-left,9999px);border-start-end-radius:var(--sdf-context-form-control-label-help-indicator-layout-base-radius-top-right,9999px);border-start-start-radius:var(--sdf-context-form-control-label-help-indicator-layout-base-radius-top-left,9999px)}button.active.sdf-form-control-wrapper--tooltip-trigger:hover{background-color:var(--sdf-context-form-control-label-help-indicator-style-hover-selected-fill-color,#e8effa);box-shadow:0 0 0 var(--sdf-context-form-control-label-help-indicator-style-hover-selected-stroke-inner-weight,0) var(--sdf-context-form-control-label-help-indicator-style-hover-selected-stroke-inner-color,transparent),0 0 0 calc(var(--sdf-context-form-control-label-help-indicator-style-hover-selected-stroke-outer-weight, 0px) + var(--sdf-context-form-control-label-help-indicator-style-hover-selected-stroke-inner-weight, 0px)) var(--sdf-context-form-control-label-help-indicator-style-hover-selected-stroke-outer-color,transparent);color:var(--sdf-context-form-control-label-help-indicator-style-hover-selected-text-color,#324fa5)}@media (forced-colors:active){button.active.sdf-form-control-wrapper--tooltip-trigger:hover{box-shadow:none!important;outline:var(--sdf-context-form-control-label-help-indicator-style-hover-selected-stroke-outer-weight,0) solid Highlight;outline-offset:var(--sdf-context-form-control-label-help-indicator-style-hover-selected-stroke-inner-weight,0)}}button:focus-visible.sdf-form-control-wrapper--tooltip-trigger,button:focus.sdf-form-control-wrapper--tooltip-trigger{box-shadow:0 0 0 var(--sdf-context-form-control-label-help-indicator-style-focus-stroke-inner-weight,1px) var(--sdf-context-form-control-label-help-indicator-style-focus-stroke-inner-color,#fff),0 0 0 calc(var(--sdf-context-form-control-label-help-indicator-style-focus-stroke-outer-weight, 2px) + var(--sdf-context-form-control-label-help-indicator-style-focus-stroke-inner-weight, 1px)) var(--sdf-context-form-control-label-help-indicator-style-focus-stroke-outer-color,#476bc3)}@media (forced-colors:active){button:focus-visible.sdf-form-control-wrapper--tooltip-trigger,button:focus.sdf-form-control-wrapper--tooltip-trigger{box-shadow:none!important;outline:var(--sdf-context-form-control-label-help-indicator-style-focus-stroke-outer-weight,2px) solid Highlight;outline-offset:var(--sdf-context-form-control-label-help-indicator-style-focus-stroke-inner-weight,1px)}}button:active:focus-visible.sdf-form-control-wrapper--tooltip-trigger,button:active:focus.sdf-form-control-wrapper--tooltip-trigger{box-shadow:0 0 0 var(--sdf-context-form-control-label-help-indicator-style-focus-selected-stroke-inner-weight,1px) var(--sdf-context-form-control-label-help-indicator-style-focus-selected-stroke-inner-color,#fff),0 0 0 calc(var(--sdf-context-form-control-label-help-indicator-style-focus-selected-stroke-outer-weight, 2px) + var(--sdf-context-form-control-label-help-indicator-style-focus-selected-stroke-inner-weight, 1px)) var(--sdf-context-form-control-label-help-indicator-style-focus-selected-stroke-outer-color,#476bc3)}@media (forced-colors:active){button:active:focus-visible.sdf-form-control-wrapper--tooltip-trigger,button:active:focus.sdf-form-control-wrapper--tooltip-trigger{box-shadow:none!important;outline:var(--sdf-context-form-control-label-help-indicator-style-focus-selected-stroke-outer-weight,2px) solid Highlight;outline-offset:var(--sdf-context-form-control-label-help-indicator-style-focus-selected-stroke-inner-weight,1px)}}</style><div class="sdf-form-control-wrapper--sr-only sdf-form-control-wrapper--container" part="label-container"><span id="sdf-radio-group-2-label" class="sdf-form-control-wrapper--label sdf-form-control-wrapper--sr-only" part="label">Can you legally work in the U.S. without sponsorship?</span></div><div class="direction-row" role="radiogroup" aria-labelledby="sdf-radio-group-2-label" aria-describedby="sdf-radio-group-2-description sdf-radio-group-2-errorMessage"><sdf-radio-button label="Yes" value="Yes" id="questionYes_0" class="addition-Info-radio-type question-yes-option hydrated" role="radio" aria-checked="false" tabindex="0"></sdf-radio-button><sdf-radio-button label="No" value="No" id="questionNo_0" class="addition-Info-radio-type question-no-option hydrated" role="radio" aria-checked="false" tabindex="-1"></sdf-radio-button></div><div aria-live="polite" id="sdf-radio-group-2-errorMessage"></div><div id="sdf-radio-group-2-description"></div></sdf-radio-group></div></div></div><div class="qMainDiv"><div class="question-label-container"><label class="qLabel" for="question_1">Do you have a minimum of three years of experience in Human Resources, administrative support, customer service, or a related field<span class="mdf-required-indicator ">*</span></label></div><div class="itemPadLeft"><div></div><div></div><div><sdf-radio-group label="Do you have a minimum of three years of experience in Human Resources, administrative support, customer service, or a related field" hide-label="true" direction="row" value="" class="addition-Info-radio prop_group radio-question hydrated question-error" style="--sdf-math-label-width: 1px;"><!----><style type="text/css">sdf-radio-group{display:flex;flex-direction:column;position:relative;width:-moz-fit-content;width:fit-content}sdf-radio-group .direction-column{display:flex;flex-direction:column;gap:var(--sdf-context-input-radio-group-layout-column-vert-gap,.625rem)}sdf-radio-group .direction-row{display:flex;flex-direction:row;flex-wrap:wrap;gap:var(--sdf-context-input-radio-group-layout-row-horiz-gap,1rem)}sdf-radio-group .direction-column,sdf-radio-group .direction-row{margin-top:calc((var(--sdf-context-input-text-layout-base-text-line-height, 1.5rem) + var(--sdf-context-input-text-layout-base-padding-top, .375rem) + var(--sdf-context-input-text-layout-base-padding-bottom, .375rem) + var(--sdf-context-input-text-layout-base-stroke-top-weight, 2px) + var(--sdf-context-input-text-layout-base-stroke-bottom-weight, 2px) - var(--sdf-context-input-radio-indicator-layout-base-height, 1.5rem))/2)}@media screen and (max-width:479px){sdf-radio-group .direction-column{gap:var(--sdf-context-input-radio-group-layout-column-variant-media-screen-max-xs-vert-gap,0)}}
+.sdf-form-control-wrapper--container .sdf-form-control-wrapper--label,.sdf-form-control-wrapper--container .sdf-form-control-wrapper--label-error{color:var(--sdf-context-form-control-label-style-base-text-color,#262321);display:block;font-size:var(--sdf-context-form-control-label-layout-base-text-size,.875rem);font-weight:var(--sdf-context-form-control-label-layout-base-text-weight,500);line-height:var(--sdf-context-form-control-label-layout-base-text-line-height,1.5);margin-bottom:var(--sdf-context-form-control-label-layout-base-margin-bottom,.375rem);padding-inline-end:0;padding-inline-start:0}.sdf-form-control-wrapper--container{gap:var(--sdf-context-form-control-label-layout-base-horiz-gap,.5rem)}.sdf-form-control-wrapper--container .sdf-form-control-wrapper--label-disabled{pointer-events:none}.sdf-form-control-wrapper--container .sdf-form-control-wrapper--optional-hint{display:inline-block;margin-inline-start:var(--sdf-context-form-control-label-layout-base-horiz-gap,.5rem)}sdf-tooltip.sdf-form-control-wrapper--tooltip .sdf-form-control-wrapper--tooltip-hint sdf-icon{color:var(--sdf-context-form-control-label-help-indicator-style-base-icon-color,#324fa5);cursor:pointer;height:var(--sdf-context-form-control-label-help-indicator-style-base-icon-height,1.5rem);vertical-align:0;width:var(--sdf-context-form-control-label-help-indicator-style-base-icon-width,1.5rem)}@media (forced-colors:active){sdf-tooltip.sdf-form-control-wrapper--tooltip .sdf-form-control-wrapper--tooltip-hint sdf-icon{color:CanvasText}}.sdf-form-control-wrapper--tooltip-trigger sdf-icon,sdf-tooltip.sdf-form-control-wrapper--tooltip .sdf-form-control-wrapper--tooltip-trigger sdf-icon{color:var(--sdf-context-form-control-label-help-indicator-style-base-icon-color,#324fa5)}@media (forced-colors:active){.sdf-form-control-wrapper--tooltip-trigger sdf-icon,sdf-tooltip.sdf-form-control-wrapper--tooltip .sdf-form-control-wrapper--tooltip-trigger sdf-icon{color:CanvasText}}.sdf-form-control-wrapper--required-hint{color:var(--sdf-context-form-control-label-required-indicator-style-base-icon-color,#9c2514);display:inline-block}.sdf-form-control-wrapper--sr-only{height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;clip:rect(0,0,0,0);border-width:0;white-space:nowrap}.sdf-form-control-wrapper--container{align-items:flex-start;display:flex}.w-input-2xs{width:var(--sdf-context-input-frame-layout-base-variant-size-2xs-width,4rem)}.w-input-xs{width:var(--sdf-context-input-frame-layout-base-variant-size-xs-width,7rem)}.w-input-sm{width:var(--sdf-context-input-frame-layout-base-variant-size-sm-width,10rem)}.w-input-md{width:var(--sdf-context-input-frame-layout-base-variant-size-md-width,13rem)}.w-input-lg{width:var(--sdf-context-input-frame-layout-base-variant-size-lg-width,16rem)}.w-input-xl{width:var(--sdf-context-input-frame-layout-base-variant-size-xl-width,20rem)}.w-input-full{width:100%}.w-input-auto{width:auto}:host(.w-input-full){width:100%}.sdf-form-control-wrapper--tooltip sdf-icon-button{font-size:var(--sdf-context-form-control-label-help-indicator-layout-base-icon-size,1rem);padding:var(--sdf-context-form-control-label-help-indicator-layout-base-padding-top,0) var(--sdf-context-form-control-label-help-indicator-layout-base-padding-right,0) var(--sdf-context-form-control-label-help-indicator-layout-base-padding-bottom,0) var(--sdf-context-form-control-label-help-indicator-layout-base-padding-left,0)}.sdf-form-control-wrapper--tooltip sdf-icon-button sdf-icon{margin:0;padding:0}.sdf-form-control-wrapper--popover-content:focus-visible{box-shadow:0 0 0 var(--sdf-context-box-interaction-focus-style-stroke-inner-weight,1px) var(--sdf-context-box-interaction-focus-style-stroke-inner-color,#fff),0 0 0 calc(var(--sdf-context-box-interaction-focus-style-stroke-outer-weight, 2px) + var(--sdf-context-box-interaction-focus-style-stroke-inner-weight, 1px)) var(--sdf-context-box-interaction-focus-style-stroke-outer-color,#476bc3);outline:0}@media (forced-colors:active){.sdf-form-control-wrapper--popover-content:focus-visible{box-shadow:none!important;outline:var(--sdf-context-box-interaction-focus-style-stroke-outer-weight,2px) solid Highlight;outline-offset:var(--sdf-context-box-interaction-focus-style-stroke-inner-weight,1px)}}::slotted([slot=alert]),::slotted([slot=help]),[slot=alert],[slot=help]{margin-top:var(--sdf-context-form-control-alerts-layout-base-vert-gap,.5rem)}@media (min-width:480px){.xs\:w-input-2xs{width:var(--sdf-context-input-frame-layout-base-variant-size-2xs-width,4rem)}.xs\:w-input-xs{width:var(--sdf-context-input-frame-layout-base-variant-size-xs-width,7rem)}.xs\:w-input-sm{width:var(--sdf-context-input-frame-layout-base-variant-size-sm-width,10rem)}.xs\:w-input-md{width:var(--sdf-context-input-frame-layout-base-variant-size-md-width,13rem)}.xs\:w-input-lg{width:var(--sdf-context-input-frame-layout-base-variant-size-lg-width,16rem)}.xs\:w-input-xl{width:var(--sdf-context-input-frame-layout-base-variant-size-xl-width,20rem)}}@media (min-width:640px){.sm\:w-input-2xs{width:var(--sdf-context-input-frame-layout-base-variant-size-2xs-width,4rem)}.sm\:w-input-xs{width:var(--sdf-context-input-frame-layout-base-variant-size-xs-width,7rem)}.sm\:w-input-sm{width:var(--sdf-context-input-frame-layout-base-variant-size-sm-width,10rem)}.sm\:w-input-md{width:var(--sdf-context-input-frame-layout-base-variant-size-md-width,13rem)}.sm\:w-input-lg{width:var(--sdf-context-input-frame-layout-base-variant-size-lg-width,16rem)}.sm\:w-input-xl{width:var(--sdf-context-input-frame-layout-base-variant-size-xl-width,20rem)}}@media (min-width:768px){.md\:w-input-2xs{width:var(--sdf-context-input-frame-layout-base-variant-size-2xs-width,4rem)}.md\:w-input-xs{width:var(--sdf-context-input-frame-layout-base-variant-size-xs-width,7rem)}.md\:w-input-sm{width:var(--sdf-context-input-frame-layout-base-variant-size-sm-width,10rem)}.md\:w-input-md{width:var(--sdf-context-input-frame-layout-base-variant-size-md-width,13rem)}.md\:w-input-lg{width:var(--sdf-context-input-frame-layout-base-variant-size-lg-width,16rem)}.md\:w-input-xl{width:var(--sdf-context-input-frame-layout-base-variant-size-xl-width,20rem)}}@media (min-width:1024px){.lg\:w-input-2xs{width:var(--sdf-context-input-frame-layout-base-variant-size-2xs-width,4rem)}.lg\:w-input-xs{width:var(--sdf-context-input-frame-layout-base-variant-size-xs-width,7rem)}.lg\:w-input-sm{width:var(--sdf-context-input-frame-layout-base-variant-size-sm-width,10rem)}.lg\:w-input-md{width:var(--sdf-context-input-frame-layout-base-variant-size-md-width,13rem)}.lg\:w-input-lg{width:var(--sdf-context-input-frame-layout-base-variant-size-lg-width,16rem)}.lg\:w-input-xl{width:var(--sdf-context-input-frame-layout-base-variant-size-xl-width,20rem)}}@media (min-width:1280px){.xl\:w-input-2xs{width:var(--sdf-context-input-frame-layout-base-variant-size-2xs-width,4rem)}.xl\:w-input-xs{width:var(--sdf-context-input-frame-layout-base-variant-size-xs-width,7rem)}.xl\:w-input-sm{width:var(--sdf-context-input-frame-layout-base-variant-size-sm-width,10rem)}.xl\:w-input-md{width:var(--sdf-context-input-frame-layout-base-variant-size-md-width,13rem)}.xl\:w-input-lg{width:var(--sdf-context-input-frame-layout-base-variant-size-lg-width,16rem)}.xl\:w-input-xl{width:var(--sdf-context-input-frame-layout-base-variant-size-xl-width,20rem)}}button.sdf-form-control-wrapper--tooltip-trigger{background-color:var(--sdf-context-form-control-label-help-indicator-style-base-fill-color,transparent);border-end-end-radius:var(--sdf-context-form-control-label-help-indicator-layout-base-radius-bottom-right,9999px);border-end-start-radius:var(--sdf-context-form-control-label-help-indicator-layout-base-radius-bottom-left,9999px);border-start-end-radius:var(--sdf-context-form-control-label-help-indicator-layout-base-radius-top-right,9999px);border-start-start-radius:var(--sdf-context-form-control-label-help-indicator-layout-base-radius-top-left,9999px);border-style:none;color:var(--sdf-context-form-control-label-help-indicator-style-base-text-color,#324fa5);cursor:pointer;font-family:inherit;font-size:var(--sdf-context-form-control-label-help-indicator-layout-base-icon-size,1rem);line-height:1;outline:0;padding:var(--sdf-context-form-control-label-help-indicator-layout-base-padding-top,0) var(--sdf-context-form-control-label-help-indicator-layout-base-padding-right,0) var(--sdf-context-form-control-label-help-indicator-layout-base-padding-bottom,0) var(--sdf-context-form-control-label-help-indicator-layout-base-padding-left,0)}button.active.sdf-form-control-wrapper--tooltip-trigger{background-color:var(--sdf-context-form-control-label-help-indicator-style-active-fill-color,#fff);box-shadow:0 0 0 var(--sdf-context-form-control-label-help-indicator-style-active-stroke-inner-weight,0) var(--sdf-context-form-control-label-help-indicator-style-active-stroke-inner-color,transparent),0 0 0 calc(var(--sdf-context-form-control-label-help-indicator-style-active-stroke-outer-weight, 0px) + var(--sdf-context-form-control-label-help-indicator-style-active-stroke-inner-weight, 0px)) var(--sdf-context-form-control-label-help-indicator-style-active-stroke-outer-color,transparent);color:var(--sdf-context-form-control-label-help-indicator-style-active-text-color,#324fa5)}@media (forced-colors:active){button.active.sdf-form-control-wrapper--tooltip-trigger{box-shadow:none!important;outline:var(--sdf-context-form-control-label-help-indicator-style-active-stroke-outer-weight,0) solid Highlight;outline-offset:var(--sdf-context-form-control-label-help-indicator-style-active-stroke-inner-weight,0)}}button:hover.sdf-form-control-wrapper--tooltip-trigger{border-end-end-radius:var(--sdf-context-form-control-label-help-indicator-layout-base-radius-bottom-right,9999px);border-end-start-radius:var(--sdf-context-form-control-label-help-indicator-layout-base-radius-bottom-left,9999px);border-start-end-radius:var(--sdf-context-form-control-label-help-indicator-layout-base-radius-top-right,9999px);border-start-start-radius:var(--sdf-context-form-control-label-help-indicator-layout-base-radius-top-left,9999px)}button.active.sdf-form-control-wrapper--tooltip-trigger:hover{background-color:var(--sdf-context-form-control-label-help-indicator-style-hover-selected-fill-color,#e8effa);box-shadow:0 0 0 var(--sdf-context-form-control-label-help-indicator-style-hover-selected-stroke-inner-weight,0) var(--sdf-context-form-control-label-help-indicator-style-hover-selected-stroke-inner-color,transparent),0 0 0 calc(var(--sdf-context-form-control-label-help-indicator-style-hover-selected-stroke-outer-weight, 0px) + var(--sdf-context-form-control-label-help-indicator-style-hover-selected-stroke-inner-weight, 0px)) var(--sdf-context-form-control-label-help-indicator-style-hover-selected-stroke-outer-color,transparent);color:var(--sdf-context-form-control-label-help-indicator-style-hover-selected-text-color,#324fa5)}@media (forced-colors:active){button.active.sdf-form-control-wrapper--tooltip-trigger:hover{box-shadow:none!important;outline:var(--sdf-context-form-control-label-help-indicator-style-hover-selected-stroke-outer-weight,0) solid Highlight;outline-offset:var(--sdf-context-form-control-label-help-indicator-style-hover-selected-stroke-inner-weight,0)}}button:focus-visible.sdf-form-control-wrapper--tooltip-trigger,button:focus.sdf-form-control-wrapper--tooltip-trigger{box-shadow:0 0 0 var(--sdf-context-form-control-label-help-indicator-style-focus-stroke-inner-weight,1px) var(--sdf-context-form-control-label-help-indicator-style-focus-stroke-inner-color,#fff),0 0 0 calc(var(--sdf-context-form-control-label-help-indicator-style-focus-stroke-outer-weight, 2px) + var(--sdf-context-form-control-label-help-indicator-style-focus-stroke-inner-weight, 1px)) var(--sdf-context-form-control-label-help-indicator-style-focus-stroke-outer-color,#476bc3)}@media (forced-colors:active){button:focus-visible.sdf-form-control-wrapper--tooltip-trigger,button:focus.sdf-form-control-wrapper--tooltip-trigger{box-shadow:none!important;outline:var(--sdf-context-form-control-label-help-indicator-style-focus-stroke-outer-weight,2px) solid Highlight;outline-offset:var(--sdf-context-form-control-label-help-indicator-style-focus-stroke-inner-weight,1px)}}button:active:focus-visible.sdf-form-control-wrapper--tooltip-trigger,button:active:focus.sdf-form-control-wrapper--tooltip-trigger{box-shadow:0 0 0 var(--sdf-context-form-control-label-help-indicator-style-focus-selected-stroke-inner-weight,1px) var(--sdf-context-form-control-label-help-indicator-style-focus-selected-stroke-inner-color,#fff),0 0 0 calc(var(--sdf-context-form-control-label-help-indicator-style-focus-selected-stroke-outer-weight, 2px) + var(--sdf-context-form-control-label-help-indicator-style-focus-selected-stroke-inner-weight, 1px)) var(--sdf-context-form-control-label-help-indicator-style-focus-selected-stroke-outer-color,#476bc3)}@media (forced-colors:active){button:active:focus-visible.sdf-form-control-wrapper--tooltip-trigger,button:active:focus.sdf-form-control-wrapper--tooltip-trigger{box-shadow:none!important;outline:var(--sdf-context-form-control-label-help-indicator-style-focus-selected-stroke-outer-weight,2px) solid Highlight;outline-offset:var(--sdf-context-form-control-label-help-indicator-style-focus-selected-stroke-inner-weight,1px)}}</style><div class="sdf-form-control-wrapper--sr-only sdf-form-control-wrapper--container" part="label-container"><span id="sdf-radio-group-1-label" class="sdf-form-control-wrapper--label sdf-form-control-wrapper--sr-only" part="label">Do you have a minimum of three years of experience in Human Resources, administrative support, customer service, or a related field</span></div><div class="direction-row" role="radiogroup" aria-labelledby="sdf-radio-group-1-label" aria-describedby="sdf-radio-group-1-description sdf-radio-group-1-errorMessage"><sdf-radio-button label="Yes" value="Yes" id="questionYes_1" class="addition-Info-radio-type question-yes-option hydrated" role="radio" aria-checked="false" tabindex="0"></sdf-radio-button><sdf-radio-button label="No" value="No" id="questionNo_1" class="addition-Info-radio-type question-no-option hydrated" role="radio" aria-checked="false" tabindex="-1"></sdf-radio-button></div><div aria-live="polite" id="sdf-radio-group-1-errorMessage"></div><div id="sdf-radio-group-1-description"></div></sdf-radio-group></div></div></div><div><div id="employeeRefferalBlock" class="additional-question qMainDiv additional-info-empl-block qMainDiv additional-question"><div class="additional-info-card"><span id="employeeRefferalIndicator" class="question-label-container qLabel ">Did any of our employees inform you about this position?</span></div><div id="refferalOptions" class="itemPadLeft addition-Info-radio prop_group "><wfn-radio-button class="addition-Info-radio-type addition-Info-rd-referral-yes hydrated" id="yes" radio-group-value="No" value="Yes">Yes</wfn-radio-button><wfn-radio-button class="addition-Info-radio-type addition-Info-rd-referral-no hydrated" id="no" radio-group-value="No" value="No">No</wfn-radio-button></div><div id="refferalEmplDetailBlock" class="addition-Info-label"></div><div class="itemPadLeft"></div></div></div></div></div></div></div></div><div class="wizard-custom-margin"><div class="mdf-snackbar"><div class="mdf-custom-wizard-footer"><button id="ja_sv_cw_prev_footer_btn" type="button" aria-disabled="false" class="mdf-custom-wizard-footer-navbutton wizard-prev-button button-align-right-prev vdl-button vdl-button--secondary"><span class="vdl-button__container"><i class="fa fa-chevron-left"></i>Previous</span></button><button id="finishLaterApplication" type="button" aria-disabled="false" class="mdf-custom-wizard-footer-navbutton finish-later-button vdl-button vdl-button--secondary"><span class="vdl-button__container">Finish later </span></button><button id="ja_sv_cw_next_footer_btn" type="button" aria-disabled="false" class="mdf-custom-wizard-footer-navbutton wizard-next-button button-align-right vdl-button vdl-button--primary"><span class="vdl-button__container">Next<i class="fa fa-chevron-right"></i></span></button></div></div></div></div></div></div></div><div class="join-talent-community-modal-custom-style"></div><div class="join-talent-community-modal-custom-style"></div><div><div class="join-talent-community-modal-custom-style"></div></div></div></div>
+    <div id="recPageLoadWaitingIndicator" class="vdl-busy-indicator vdl-busy-indicator--overlay vdl-busy-indicator--md" style="display: none; z-index: 1000; justify-content: center; align-items: center; left: 0px; top: 0px; position: absolute; height: 100%; width: 100%; padding-top: 50px; color: rgb(26, 128, 153);">
+      <svg version="1.1" x="0px" y="0px" width="40" height="40" viewBox="0 0 40 40" class="vdl-busy-indicator__icon"><defs><clipPath id="clipPath"><rect x="0" y="0" width="20" height="20"></rect></clipPath></defs><circle cx="20" cy="20" stroke-width="4" r="18"></circle><circle cx="20" cy="20" stroke-width="4" r="18" clip-path="url(#clipPath)"></circle></svg>
+    </div>
+    <div id="warning-block-wfn" style="display: none">
+      Please switch to a supported browser listed
+      <a href="https://support.adp.com/pub/paas/login_page/common/en_US/empl/netscr/base/logon/wfn_req.htm">here</a>,
+      or some features may not work correctly.
+    </div>
+  </div>
+  <script>
+    window.onload = function () {
+      try {
+        checkBrowserSupport('postLogin_root');
+      }
+      catch(e) {
+        // Do nothing if it's not defined.
+      }
+    };
+
+    try {
+      try {
+        // This will not work starting with Chrome 115.
+        window.document.domain = 'adp.com';
+      }
+      catch(e) {
+        // Do nothing if fails.
+      }
+
+      if (!window['wfnCdnPath']) {
+        const currentPage = document.location.href;
+        const isProduction = currentPage.indexOf('workforcenow.adp.com') > -1 || currentPage.indexOf('wfn-prod-test.adp.com') > -1 || currentPage.indexOf('workforcenow.cloud.adp.com') > -1;
+        const cookies = document.cookie.match(new RegExp('WFNCDN=([^;]+)'));
+        let cdn = cookies && cookies[1] ? cookies[1] : 'wfn';
+        cdn = cdn.toLowerCase();
+        let cdnPath;
+
+        if (cdn === 'myadp') {
+          cdnPath = isProduction ? 'static.adp.com/mas' : 'static-iat.adp.com/mas';
+        }
+        else {
+          cdnPath = isProduction ? 'static.workforcenow.adp.com/mas' : 'static.wfn-iat.adp.com/mas';
+        }
+
+        window['wfnCdnPath'] = cdnPath;
+      }
+    }
+     catch (e) {
+      console.error('Error while setting domain ' + e);
+    }
+
+    // Workaround for Highcharts Error #16
+    if (window.Highcharts) {
+      window.SAVED_Highcharts = window.Highcharts;
+      delete window.Highcharts;
+    }
+
+    (function() {
+      // Dynamic CSS and JS loader
+      const mdfLoader = {
+        cssFiles: [
+          
+          '/mascsr/default/mdf/recruitment/styles/postLogin.e93e94bbf3f9ff7b.css',
+          
+        ],
+        jsFiles: [
+          
+          '/mascsr/default/mdf/recruitment/postLogin.e93e94bbf3f9ff7b.js',
+          
+          '/mascsr/default/mdf/recruitment/config-loader.js',
+          '/mascsr/default/mdf/recruitment/detectizr.min.js',
+          '/mascsr/default/mdf/recruitment/modernizr.min.js',
+          '/mascsr/default/mdf/recruitment/browser.js'
+        ],
+        loadMethods: [],
+        filesLoaded: [],
+        whenFinished: function() {
+          if (document.getElementById('recPageLoadWaitingIndicator')) {
+            document.getElementById('recPageLoadWaitingIndicator').style.display = 'none';
+          }
+
+          if (window.SAVED_Highcharts) {
+            window.Highcharts = window.SAVED_Highcharts;
+          }
+        },
+        mdfLoaded: false,
+        cdnPath: window['wfnCdnPath'] || 'static.workforcenow.adp.com/mas',
+        publicPath: 'https://cdn-path',
+        applicationPath: '/mascsr/default/mdf/recruitment',
+        applicationName: 'postLogin',
+
+        resetFileLists: function() {
+          if (!window.gapi) {
+            this.jsFiles.push('https://apis.google.com/js/api.js');
+          }
+
+          const langMap = {
+            en_US: 'en',
+            fr_CA: 'fr-CA',
+            es_US: 'es-US',
+            en_CA: 'en-CA'
+          };
+
+          let adpLang = this.getParameterByName('lang');
+
+          if (adpLang) {
+            const tempLang = langMap[adpLang];
+
+            if (!tempLang && adpLang.replace('-', '_').split('_').length > 1) {
+              let url = window.location.href;
+              let finalLang = adpLang.replace('-', '_').split('_')[0] + '_' + (adpLang.replace('-', '_').split('_')[1]).toUpperCase();
+              finalLang = finalLang.replace(/^\s+|\s+$/g, '');
+
+              if (langMap[finalLang]) {
+                adpLang = adpLang.match(/^\s|\s$/) ? encodeURIComponent(adpLang) : adpLang;
+                url = url.replace(adpLang, finalLang);
+                window.location.href = url;
+              }
+              else {
+                const firstPart = adpLang.replace('-', '_').split('_')[0];
+
+                if (firstPart.toLowerCase() === 'es') {
+                  url = url.replace(adpLang, 'es_US');
+                  window.location.href = url;
+                }
+                else if (firstPart.toLowerCase() === 'fr') {
+                  url = url.replace(adpLang, 'fr_CA');
+                  window.location.href = url;
+                }
+              }
+            }
+
+            if (document.getElementsByTagName('html') && document.getElementsByTagName('html')[0] && !document.getElementsByTagName('html')[0].lang) {
+              document.getElementsByTagName('html')[0].lang = adpLang.replace('-', '_').split('_')[0];
+            }
+          }
+        },
+
+        getParameterByName: function (name, url) {
+          if (!url) {
+            url = window.location.href;
+          }
+
+          name = name.replace(/[\[\]]/g, '\\$&');
+
+          const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
+          const results = regex.exec(url);
+
+          if (!results) {
+            return null;
+          }
+
+          if (!results[2]) {
+            return '';
+          }
+
+          return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        },
+
+        endsWith: function(str, suffix) {
+          // Strip off any ./ or ../ at the start of the suffix.
+          const firstSlash = suffix.indexOf('/');
+          suffix = suffix.substring(firstSlash);
+          // Do the comparison
+          return str.indexOf(suffix, str.length - suffix.length) !== -1;
+        },
+
+        isStyleSheetLoaded: function(url) {
+          let linkTags = document.getElementsByTagName('link');
+          let link;
+
+          for (let i = 0; i < linkTags.length; i++) {
+            link = linkTags[i];
+
+            if (this.endsWith(link.href, url)) {
+              return true;
+            }
+          }
+
+          return false;
+        },
+
+        isScriptLoaded: function(url) {
+          let scriptTags = document.getElementsByTagName('script');
+          let script;
+          let href;
+
+          for (let i = 0; i < scriptTags.length; i++) {
+            script = scriptTags[i];
+            href = script.src;
+
+            if (this.endsWith(href, url)) {
+              return true;
+            }
+          }
+
+          return false;
+        },
+
+        loadStyleSheet: function(url, media) {
+          let sheet = null;
+
+          // We want to load stylesheets under 2 conditions:
+          // 1. The stylesheet has not been loaded before.
+          // 2. The stylesheet is application-specific and needs to be reloaded when we return to the application.
+          if (url.indexOf(this.applicationName) >= 0 || !this.isStyleSheetLoaded(url)) {
+            console.log('mdfLoader.loadStyleSheet(): LOADING [' + url + ']');
+
+            sheet = document.createElement('link');
+            sheet.type = 'text/css';
+            sheet.rel = 'stylesheet';
+            sheet.href = this.appendCidToUrl(url);
+
+            if (media) {
+              sheet.media = media;
+            }
+
+            document.head.appendChild(sheet);
+          }
+          else {
+            console.log('mdfLoader.loadStyleSheet(): SKIPPING [' + url + ']');
+          }
+        },
+
+        appendCidToUrl: function(url) {
+          try {
+            const cid = new URLSearchParams(window.location.search).get('cid');
+            if (cid && url.indexOf('recruitment') > -1 && url.indexOf('cid') === -1) {
+              if (cid) {
+                url = `${url}?cid=${cid}`;
+              }
+            }
+            return url;
+          } catch {
+            return url;
+          }
+        },
+
+        loadScript: function(url, language, onLoad) {
+          let script = null;
+          let _this = this;
+
+          // We want to load JavaScript files under 2 conditions:
+          // 1. The JavaScript has not been loaded before.
+          // 2. The JavaScript is application-specific and needs to be reloaded when we return to the application.
+          if (url.indexOf(this.applicationName) >= 0 || !this.isScriptLoaded(url)) {
+            console.log('mdfLoader.loadScript(): LOADING [' + url + ']');
+
+            this.filesLoaded.push(false);
+            let fileIndex = this.filesLoaded.length - 1;
+            script = document.createElement('script');
+            script.src = this.appendCidToUrl(url);
+            script.async = false;
+
+            if (language) {
+              script.type = language;
+            }
+            else {
+              script.type = 'text/javascript';
+            }
+
+            script.onload = function() {
+              _this.filesLoaded[fileIndex] = true;
+
+              if (onLoad) {
+                onLoad(arguments);
+              }
+
+              if (_this.filesLoaded.every(function(item) { return item; })) {
+                _this.whenFinished();
+              }
+            };
+
+            document.head.appendChild(script);
+          }
+          else {
+            console.log('mdfLoader.loadScript(): SKIPPING [' + url + ']');
+          }
+        },
+
+        fixPath: function(path) {
+          return path.replace('cdn-path', this.cdnPath);
+        },
+
+        pageSetup: function() {
+          const isProduction = this.publicPath.startsWith('https');
+          this.publicPath = this.fixPath(this.publicPath);
+
+          // Create window.process.env.NODE_ENV completely, otherwise the GraphQL library will break.
+          if (!window.process) {
+            window.process = {};
+          }
+  
+          if (!window.process.env) {
+            window.process.env = {};
+          }
+
+          if (isProduction && window['wfnCdnPath']) {
+            window.process.env.NODE_ENV = 'production';
+
+            const node = document.getElementById('postLogin_root');
+            if (node && node.parentNode) {
+              node.parentNode.className = '';
+            }
+          }
+          else {
+            window.process.env.NODE_ENV = 'development';
+          }
+
+          this.cssFiles.forEach((file) => {
+            const itemUrl = this.fixPath(file);
+
+            if (window['dojoConfig'] || window['angular']) {
+              if (file.indexOf('fonts') < 0) {
+                this.loadStyleSheet(itemUrl);
+              }
+            }
+            else {
+              this.loadStyleSheet(itemUrl);
+            }
+          });
+
+          this.jsFiles.forEach((file) => {
+            const itemUrl = this.fixPath(file);
+            this.loadScript(itemUrl);
+          });
+        },
+      };
+
+      mdfLoader.resetFileLists();
+
+      // Code to run when all the scripts have loaded.
+      mdfLoader.whenFinished = function () {
+        if (document.getElementById('recPageLoadWaitingIndicator')) {
+          document.getElementById('recPageLoadWaitingIndicator').style.display = 'none';
+        }
+
+        if (window.SAVED_Highcharts) {
+          window.Highcharts = window.SAVED_Highcharts;
+        }
+      };
+
+      // Load the CSS and JS files based on the environment.
+      mdfLoader.pageSetup();
+    })();
+  </script>
+
+
+<sdf-global aria-hidden="true" hidden="" class="hydrated"></sdf-global><sdf-alert-toaster id="sdf-alert-toaster" aria-live="polite" role="region" class="hydrated"></sdf-alert-toaster></body></html>
