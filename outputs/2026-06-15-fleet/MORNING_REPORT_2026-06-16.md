@@ -40,7 +40,7 @@ This is a genuinely strong remote HRBP fit and the package is complete — just 
 ### ⏰ DO FIRST — closes TODAY (June 17)
 | Company | Role | Steps |
 |---|---|---|
-| **University of Washington** | L&D Specialist (Seattle, cap-exempt → sponsors) | Go to the UW Workday link → **Apply → Apply Manually** → sign in (`jamiecheng0103@gmail.com` / `Career0324!x1` — I may have created the account; if not, create it) → the resume is in the folder, upload it, sponsorship=Yes, phone type=Mobile → Submit. **Closes June 17.** |
+| **University of Washington** | L&D Specialist (Seattle, cap-exempt → sponsors) | Go to the UW Workday link → **Apply → Apply Manually** → sign in (`jamiecheng0103@gmail.com` / `[SHARED_PW — see ~/Downloads/job_password.txt]` — I may have created the account; if not, create it) → the resume is in the folder, upload it, sponsorship=Yes, phone type=Mobile → Submit. **Closes June 17.** |
 
 ### Account-required (cap-exempt / strong fits) — worth the 5 min each
 | Company | Role | ATS | Note |
