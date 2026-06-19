@@ -1,0 +1,22 @@
+{
+  "company": "Housecall Pro",
+  "role": "Senior Associate, Training",
+  "req_id": "6031104004",
+  "ats": "greenhouse",
+  "url": "https://boards.greenhouse.io/embed/job_app?for=housecall&token=6031104004",
+  "linkedin_url": "https://www.linkedin.com/jobs/view/4429154460/",
+  "status": "submitted",
+  "submitted_at": "2026-06-19",
+  "confirmation": "Confirmation page reached (/confirmation), 'Thank you for applying!' — visually verified screenshot 04_after_submit.png",
+  "resume_used": "tailored (HousecallPro_Senior-Associate-Training/resume.pdf) — L&D-angled, 1 page, gates PASS",
+  "cover_used": "tailored cover_letter.pdf — keyword-bolded, 1 page",
+  "answers": {
+    "first_name": "Jamie (Yi-Chieh)", "last_name": "Cheng", "email": "jamiecheng0103@gmail.com",
+    "worked_here_before": "No", "interviewed_before": "No",
+    "authorized_to_work": "Yes", "require_sponsorship": "Yes",
+    "linkedin": "https://www.linkedin.com/in/jamieyccheng/"
+  },
+  "source": "jamie_saved_linkedin",
+  "fit_note": "2+yr ask (no stretch); training facilitation+development+analytics maps to InGenius 600+/78%/75% + NextGen L&D + ODN data. RULE-0 clean.",
+  "verified_by": "orchestrator read-back of confirmation URL + body + screenshot"
+}

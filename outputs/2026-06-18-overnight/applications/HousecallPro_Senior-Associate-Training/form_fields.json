@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "company": "Housecall Pro",
+    "role": "Senior Associate, Training",
+    "url": "https://boards.greenhouse.io/embed/job_app?for=housecall&token=6031104004",
+    "ats": "greenhouse"
+  },
+  "personal": {
+    "first_name": "Jamie (Yi-Chieh)",
+    "last_name": "Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "+1-213-700-3831",
+    "country": "United States",
+    "location": "Portland, OR"
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/jamieyccheng/"
+  },
+  "work_authorization": {
+    "currently_authorized_to_work_in_us": "Yes",
+    "sponsorship_required": "Yes"
+  },
+  "role_specific": {
+    "preferred_first_name": "Jamie",
+    "worked_for_housecall_pro_in_the_past": "No",
+    "ever_interviewed_with_housecall_pro": "No"
+  }
+}
