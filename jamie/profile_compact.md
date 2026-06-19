@@ -121,7 +121,15 @@ instructional-design-only, HRIS implementation/config, pure sales, pure SWE, sec
 
 **Auto-PASS if JD requires ★☆☆ skills as primary** (payroll, HRIS admin, benefits, ER casework, recruiting as main function). Override only if cap-exempt + perfect title + Portland + personal connection.
 
-## Location & Remote Bar (Updated May 12, 2026 — H1B Timeline Window)
+## ⛔ GEOGRAPHY HARD-STOP (David 2026-06-18 — OVERRIDES the relocation tiers below)
+**In bounds ONLY: Portland-area (Portland / Beaverton / Hillsboro / Vancouver WA) · Seattle · fully-remote-US.**
+**Relocation FARTHER than Seattle/Vancouver-WA (CA, NY, TX, anywhere-else on-site/hybrid) = HARD STOP** — do NOT
+build, do NOT submit. This RETIRES the old "Tier 3 relocation anywhere" + "relocation NOW OPEN" language below
+(kept for history only). When a farther role looks great, redirect energy into MORE local + remote discovery,
+including adjacent/remotely-relevant titles. Catch relocation in the JD AND on the application form (on-site
+requirement is often form-only). [[feedback_geography_hard_stop_local_remote_seattle]]
+
+## Location & Remote Bar (Updated May 12, 2026 — H1B Timeline Window) — SUPERSEDED by the geography hard-stop above for relocation
 
 > ⏰ **Timeline context:** Current role ends ~June 2, 2026. H1B 60-day grace period
 > after that. Total runway ~11 weeks. Search strategy is broadened accordingly until
