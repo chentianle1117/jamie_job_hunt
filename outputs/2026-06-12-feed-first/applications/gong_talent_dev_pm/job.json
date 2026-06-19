@@ -7,7 +7,8 @@
   "jd_source": "body_preview (post-submit page text, partial)",
   "jd_text": "Job ID 4669018006 redirects to general job board with ?error=true. Posting was live when package was built (2026-06-12) but has been taken down. Gong currently shows 93 open roles, none in Talent Development/L&D. People/HR section only shows Compensation Director and EMEA GTM Sourcer.",
   "key_points": {
-    "sponsorship_signal": "unknown",
-    "source_note": "full JD captured (jd_source=body_preview (post-submit page text, partial)); structured key_points not generated (run --gemini to summarize)."
+    "years_experience_asked": "not stated",
+    "comp": "not stated",
+    "sponsorship_signal": "unknown"
   }
 }

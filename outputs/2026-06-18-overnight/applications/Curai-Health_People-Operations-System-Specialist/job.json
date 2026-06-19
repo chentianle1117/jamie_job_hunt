@@ -1,11 +1,20 @@
 {
+  "$schema": "job.json/v1",
   "company": "Curai Health",
   "role": "People Operations & System Specialist",
-  "location": "Remote, US",
-  "apply_url": "https://jobs.lever.co/curai/6bbb82d9-042b-4adf-ae49-9b4135906417/apply",
+  "url": "https://jobs.lever.co/curai/6bbb82d9-042b-4adf-ae49-9b4135906417/apply",
   "ats": "Lever",
-  "lane": "AUTO",
-  "jd_summary": "Health-tech (AI-powered virtual primary care) hire splitting time ~50% HR operations (onboarding/offboarding, semi-monthly payroll coordination, benefits/compliance, policy rollout, EOR for international staff, recruiting interview coordination) and ~50% HRIS management (administer BambooHR, Remote, Notion, Sequoia One; data integrity, reporting/dashboards, system enhancements/integrations, regular HR data audits). Streamline people processes via technology.",
+  "location": "Remote, US",
+  "jd_summary": "Health-tech (AI-powered virtual primary care) hire splitting time ~50% HR operations (onboarding/offboarding, semi-monthly payroll coordinat",
   "yoe_required": "3-5 years in HR / people operations / related (employment law, legal ops, compliance-adjacent acceptable)",
+  "jd_source": "body_preview (post-submit page text, partial)",
+  "jd_text": "People Operations & System Specialist\nRemotePeople – People Operations /W2 /Remote\nApplication submitted!\nRETURN TO THE MAIN PAGE\n\nCurai Home Page\n\nWe may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about",
+  "key_points": {
+    "one_liner": "Health-tech (AI-powered virtual primary care) hire splitting time ~50% HR operations (onboarding/offboarding, semi-monthly payroll coordinat",
+    "years_experience_asked": "3-5 years in HR / people operations / related (employment law, legal ops, compliance-adjacent acceptable)",
+    "comp": "not stated",
+    "location": "Remote, US",
+    "sponsorship_signal": "No sponsorship statement in JD (neither offered nor excluded). No ITAR/citizenship requirement. Sponsorship answer = truthful YES (Jamie needs H-1B transfer)."
+  },
   "sponsorship_note": "No sponsorship statement in JD (neither offered nor excluded). No ITAR/citizenship requirement. Sponsorship answer = truthful YES (Jamie needs H-1B transfer)."
 }

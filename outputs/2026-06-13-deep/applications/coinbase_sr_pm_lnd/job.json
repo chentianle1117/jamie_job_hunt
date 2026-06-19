@@ -5,7 +5,8 @@
   "jd_source": "body_preview (post-submit page text, partial)",
   "jd_text": "Thank you for applying.\n\nYour application has been received. If there is a fit, someone will be getting back to you.?\n\nView more jobs at Coinbase\nBack to job post",
   "key_points": {
-    "sponsorship_signal": "unknown",
-    "source_note": "full JD captured (jd_source=body_preview (post-submit page text, partial)); structured key_points not generated (run --gemini to summarize)."
+    "years_experience_asked": "not stated",
+    "comp": "not stated",
+    "sponsorship_signal": "unknown"
   }
 }

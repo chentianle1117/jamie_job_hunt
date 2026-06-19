@@ -1,14 +1,19 @@
 {
+  "$schema": "job.json/v1",
   "company": "Amazon",
   "role": "HR Specialist, PXT Programs, One Medical PXT",
+  "url": "https://www.amazon.jobs/en/jobs/A3206934",
+  "ats": "amazon.jobs",
   "location": "Seattle, WA",
-  "apply_url": "https://www.amazon.jobs/en/jobs/A3206934",
-  "linkedin_url": "https://www.linkedin.com/jobs/view/4427972201/",
-  "job_id": "A3206934",
-  "ats": "amazon",
-  "lane": "ACCOUNT",
-  "jd_summary": "One Medical PXT (Amazon's People eXperience & Technology org) seeks an HR Specialist to establish program-management excellence and drive strategic HR initiatives. Implements PMO frameworks, tools, and processes for consistent delivery across a transformation portfolio; leads HR policy evolution in partnership with Legal and HRBPs; partners with PXT and business leaders across Clinical Care Delivery and Clinical Operations; structures and delivers complex project plans with multiple dependencies and stakeholders. Salary $125,800-$170,200.",
+  "jd_summary": "One Medical PXT (Amazon's People eXperience & Technology org) seeks an HR Specialist to establish program-management excellence and drive st",
   "yoe_required": "5+ years of HR, talent acquisition, management consulting, or project/program management experience",
-  "sponsorship_note": "Amazon is a confirmed H-1B sponsor; posting specifies no no-sponsorship restriction. Jamie is H-1B transfer-only (cap-selected) — sponsorship feasible.",
-  "concern": "5+ YOE required vs Jamie's ~3 yrs (+2 stretch, at the standing cap). Title is 'Specialist' = program-IC, not manager-with-reports, so at-level by title. Duties are genuine program/PMO + policy + data work (in scope, not clerical)."
+  "jd_source": "jd_summary",
+  "key_points": {
+    "one_liner": "One Medical PXT (Amazon's People eXperience & Technology org) seeks an HR Specialist to establish program-management excellence and drive st",
+    "years_experience_asked": "5+ years of HR, talent acquisition, management consulting, or project/program management experience",
+    "comp": "not stated",
+    "location": "Seattle, WA",
+    "sponsorship_signal": "Amazon is a confirmed H-1B sponsor; posting specifies no no-sponsorship restriction. Jamie is H-1B transfer-only (cap-selected) — sponsorship feasible."
+  },
+  "sponsorship_note": "Amazon is a confirmed H-1B sponsor; posting specifies no no-sponsorship restriction. Jamie is H-1B transfer-only (cap-selected) — sponsorship feasible."
 }

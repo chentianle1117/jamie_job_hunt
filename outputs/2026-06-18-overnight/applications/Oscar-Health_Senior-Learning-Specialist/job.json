@@ -1,11 +1,20 @@
 {
+  "$schema": "job.json/v1",
   "company": "Oscar Health",
   "role": "Senior Learning Specialist",
-  "location": "New York, NY",
-  "apply_url": "http://www.hioscar.com/careers/7927693?gh_jid=7927693",
+  "url": "http://www.hioscar.com/careers/7927693?gh_jid=7927693",
   "ats": "greenhouse",
-  "lane": "AUTO",
-  "jd_summary": "Decentralized Learning team L&D specialist. Create and develop instructor-led and eLearning content using authoring and LMS tools, applying adult learning theory; facilitate instructor-led courses for in-person and remote audiences; collaborate with SMEs to source content; audit and update training content using SME and learner feedback; reduce waste via consolidation and standardization. Hybrid, 3 days/week in NYC office (Thursdays mandatory). Comp $75,348-$98,894.",
-  "yoe_required": "2+ years developing training in a production environment (incl. eLearning design); 2+ years working with cross-location, multi-discipline teams; 2+ years in a collaborative environment with diverse people. Bonus: instructional design credentials, PMP/Six Sigma, health insurance industry experience, bachelor's degree, facilitation, regulated-industry experience.",
+  "location": "New York, NY",
+  "posted_salary_band": "$75,348–$98,894",
+  "jd_summary": "Decentralized Learning team L&D specialist — create instructor-led + eLearning content (authoring/LMS tools, adult learning theory), facilitate courses for in-person/remote learners, partner with SMEs, audit/update training.",
+  "yoe_required": "2+ years developing training (incl. eLearning design); 2+ yrs cross-location multi-discipline teams",
+  "jd_source": "jd_summary",
+  "key_points": {
+    "one_liner": "Decentralized Learning team L&D specialist — create instructor-led + eLearning content (authoring/LMS tools, adult learning theory), facilit",
+    "years_experience_asked": "2+ years developing training (incl. eLearning design); 2+ yrs cross-location multi-discipline teams",
+    "comp": "$75,348–$98,894",
+    "location": "New York, NY",
+    "sponsorship_signal": "No sponsorship/visa/work-authorization statement found in JD (verified via Greenhouse API). Oscar Health is a known H-1B sponsor (health-tech). Treated as sponsor-friendly; sponsorship=Yes truthfully applicable."
+  },
   "sponsorship_note": "No sponsorship/visa/work-authorization statement found in JD (verified via Greenhouse API). Oscar Health is a known H-1B sponsor (health-tech). Treated as sponsor-friendly; sponsorship=Yes truthfully applicable."
 }

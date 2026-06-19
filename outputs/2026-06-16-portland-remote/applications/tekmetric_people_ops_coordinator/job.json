@@ -1,16 +1,19 @@
 {
+  "$schema": "job.json/v1",
   "company": "Tekmetric",
   "role": "People Operations Coordinator",
-  "li_url": "",
-  "job_id": "5996893004",
-  "location": "Remote or Houston, TX",
+  "url": "https://job-boards.greenhouse.io/tekmetric/jobs/5996893004",
   "ats": "greenhouse",
-  "source": "direct_greenhouse_2026-06-16",
-  "jd_full_text": "People Operations Coordinator — Tekmetric. Remote or Houston, Texas. Supporting the People & Culture team across recruiting coordination (~20 hrs/wk), new hire onboarding (~8-10 hrs/wk), and culture & engagement (~4-5 hrs/wk). Required: 2-4 years in recruiting coordination, HR/people operations, or comparable roles; HRIS/HCM knowledge; high-volume scheduling across time zones; AI tools interest. Screening questions include work authorization, I-9 experience, HRIS platform, salary expectations, and Houston hybrid capability.",
-  "hard_stop": "None",
-  "fit": "GO — 2-4yr exactly matches Jamie's YOE; recruiting coordination + onboarding + HRIS are all present in her background; sponsorship question proactively surfaced (good signal); remote-eligible",
-  "apply_type": "external",
-  "account_required": "False",
-  "form_url": "https://job-boards.greenhouse.io/tekmetric/jobs/5996893004",
-  "external_url": "https://job-boards.greenhouse.io/tekmetric/jobs/5996893004"
+  "location": "Remote or Houston, TX",
+  "jd_source": "JD.txt",
+  "jd_text": "People Operations Coordinator — Tekmetric\nRemote or Houston, Texas\n\nPOSITION OVERVIEW\nRemote or Houston, Texas position supporting the People & Culture team across recruiting, onboarding, and employee experience.\n\nKEY RESPONSIBILITIES\n\nRecruiting Coordination (~20 hrs/week)\n- Manage complex interview scheduling across multiple time zones in various formats\n- Coordinate onsite interview logistics including rooms, access, travel, and accommodations\n- Serve as primary contact for candidates and interviewers during scheduling changes\n- Ensure consistent, high-quality candidate experience throughout interview process\n- Implement AI and automation improvements to scheduling processes\n\nNew Hire Onboarding (~8-10 hrs/week)\n- Execute end-to-end onboarding logistics including travel, accommodations, and training sessions\n- Manage I-9 completion and verification; maintain accurate HRIS records\n- Track mandatory training completion to 100%\n\nCulture & Engagement (~4-5 hrs/week)\n- Administer employee recognition programs and pulse surveys\n- Process swag, postal, and gift card requests\n\nREQUIRED QUALIFICATIONS\n- 2-4 years in recruiting coordination, HR/people operations, or comparable roles\n- Experience scheduling high-volume, multi-interviewer interviews across time zones\n- Strong organizational and triaging skills\n- HRIS/HCM working knowledge preferred\n- Exceptional attention to detail\n- Professional written and verbal communication\n- Interest in leveraging AI tools for productivity\n\nSCREENING QUESTIONS\n- 2-4 years relevant experience?\n- HRIS/HCM platform experience?\n- I-9 verification or employee records experience?\n- Salary expectations?\n- Work authorization status?\n- Houston location or hybrid capability?",
+  "key_points": {
+    "one_liner": "GO — 2-4yr exactly matches Jamie's YOE; recruiting coordination + onboarding + HRIS are all present in her background; sponsorship question ",
+    "years_experience_asked": "not stated",
+    "comp": "not stated",
+    "location": "Remote or Houston, TX",
+    "sponsorship_signal": "unknown",
+    "our_fit_analysis": "GO — 2-4yr exactly matches Jamie's YOE; recruiting coordination + onboarding + HRIS are all present in her background; sponsorship question proactively surfaced (good signal); remote-eligible"
+  },
+  "fit": "GO — 2-4yr exactly matches Jamie's YOE; recruiting coordination + onboarding + HRIS are all present in her background; sponsorship question proactively surfaced (good signal); remote-eligible"
 }
