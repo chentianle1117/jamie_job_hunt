@@ -1,0 +1,36 @@
+{
+  "company": "Oregon Health & Science University (OHSU)",
+  "role": "Health System Transformation Research Project Coordinator",
+  "req_id": "39893",
+  "job_code": "#LI-CC1",
+  "ats": "iCIMS",
+  "form_url": "https://externalcareers-ohsu.icims.com/jobs/39893/health-system-transformation-research-project-coordinator/job",
+  "apply_login_url": "https://externalcareers-ohsu.icims.com/jobs/39893/health-system-transformation-research-project-coordinator/login",
+  "account_email": "jamiecheng0103@gmail.com",
+  "account_created": true,
+  "submitted_at": "2026-06-19",
+  "confirmation_text": "Your application was submitted successfully. Thank you for applying. You are currently submitted to this job.",
+  "resume_uploaded": "resume.pdf (this role's tailored PDF — verified attached, filename read back from form)",
+  "cover_uploaded": "cover_letter.pdf (this role's tailored PDF — verified attached)",
+  "tailored_verified": true,
+  "sponsorship_answer": "Need Sponsorship = Yes (truthful); Authorized to work in US = Yes",
+  "screenshots": [
+    "screenshots/rpc_s02_job_page.png",
+    "screenshots/rpc_s04_login_gate.png",
+    "screenshots/rpc_s09_top_section.png",
+    "screenshots/rpc_s16_education_done.png",
+    "screenshots/rpc_s28_jobanswers_top.png",
+    "screenshots/rpc_s37_confirmation.png",
+    "screenshots/rpc_s38_success_banner.png"
+  ],
+  "flow_steps_completed": [
+    "1. Candidate Profile (email-first account create + resume parse + name/phone/address/how-heard=LinkedIn + USC/Psychology/Master's education + resume.pdf & cover_letter.pdf upload)",
+    "2. Candidate Forms (employment application: 5 parsed work experiences verified+cleaned of Drive links/markup; Work-in-US=Yes, Need-Sponsorship=Yes, Over-18=Yes, Previously-Employed=No; initials YC/YC + signature)",
+    "3. Candidate Questions (PERS non-retiree attestation checkbox)",
+    "4. EEO (Gender=Female, Race=Asian Not Hispanic/Latino)",
+    "5. Job Specific Questions (6 free-text essays grounded in real corpus, Jamie's voice; salary range accepted; learned via LinkedIn)",
+    "6. Voluntary Self-ID packet (Disability=No + signature; Veteran=Not a protected veteran + signature)"
+  ],
+  "icims_mechanics_notes": "OHSU iCIMS = externalcareers-ohsu.icims.com. Email-first flow at /login (input#email + #enterEmailSubmitButton) renders the full single-page Candidate Profile for a new applicant. Form fields live in an iframe (frame index ~1). Custom AJAX dropdowns (icimsdropdown-ajax=1) need: open via a[id=\"<select-id>_icimsDropdown\"] (use attribute selector, NOT escaped-dot CSS id — the id contains literal dots), then press_sequentially into input.dropdown-search to fire the AJAX filter (fill() alone does NOT trigger it), then click the matching li:visible. For static custom dropdowns (search=0, e.g. EEO Gender/Race, How-hear) set native select value + dispatch change via JS. iCIMS parses uploaded resume into name/email/work-history/education but NOT into Education School/Degree (those stayed empty + required) — fill manually. hCaptcha present but data-size=invisible (self-clearing badge, never an interactive challenge). Signature checkboxes: use Patchright .check() (idempotent); JS checked=true + .click() double-flips to false. Multi-step packet: Profile->Forms->Questions->EEO->JobQuestions->SelfID(disability THEN veteran as two sub-forms). Confirmation: /job?mode=submit_apply with green 'submitted successfully' banner.",
+  "status": "submitted"
+}

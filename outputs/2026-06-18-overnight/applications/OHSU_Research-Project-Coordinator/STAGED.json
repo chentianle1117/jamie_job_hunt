@@ -2,16 +2,17 @@
   "company": "Oregon Health & Science University",
   "role": "Health System Transformation Research Project Coordinator",
   "ats": "icims",
-  "status": "package-ready",
-  "status_reason": "ACCOUNT lane (iCIMS+captcha) — Jamie finishes account; cap-exempt, at-level, strongest",
+  "status": "SUBMITTED",
+  "status_reason": "Submitted via iCIMS req 39893 on 2026-06-19; account created; tailored resume+cover uploaded; confirmation banner captured",
   "location": "Portland, OR (Hybrid)",
   "url": "https://externalcareers-ohsu.icims.com/jobs",
-  "form_url": "https://externalcareers-ohsu.icims.com/jobs",
-  "submitted_at": null,
+  "form_url": "https://externalcareers-ohsu.icims.com/jobs/39893/health-system-transformation-research-project-coordinator/job",
+  "submitted_at": "2026-06-19",
   "staged_at": "2026-06-18",
   "verified_live": true,
   "resume_tailored": true,
   "cover_tailored": true,
   "pipeline": "2026-06-18-overnight",
-  "sponsorship_note": "OHSU is a cap-exempt employer (sidesteps H-1B lottery; sponsorship feasible). Posting contains NO explicit 'no sponsorship', ITAR, or US-Person clause. No hard stop."
+  "sponsorship_note": "OHSU is a cap-exempt employer (sidesteps H-1B lottery; sponsorship feasible). Posting contains NO explicit 'no sponsorship', ITAR, or US-Person clause. No hard stop.",
+  "req_id": "39893"
 }

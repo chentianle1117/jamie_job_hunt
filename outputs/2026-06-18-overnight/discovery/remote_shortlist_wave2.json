@@ -1,0 +1,11 @@
+{
+  "source": "Jamie authed LinkedIn — remote-US (f_WT=2) People Operations Specialist search, past-week, 21 harvested",
+  "geography": "all REMOTE-US (in-bounds per geography hard-stop)",
+  "in_scope_keep": [
+    {"id":"4430910167","company":"Curai Health","title":"People Operations & System Specialist","remote":true,"fit":"P1","note":"health-tech, fresh (1hr), at-level — STRONG; verify apply ATS","linkedin":"https://www.linkedin.com/jobs/view/4430910167/"},
+    {"id":"4429615683","company":"Thrivent","title":"Sr Training Specialist","remote":true,"fit":"P1","note":"L&D, remote; verify sponsor + ATS","linkedin":"https://www.linkedin.com/jobs/view/4429615683/"},
+    {"id":"4417240809","company":"(TBD)","title":"Senior Learning Specialist","remote":true,"fit":"P1","note":"resolve company + ATS","linkedin":"https://www.linkedin.com/jobs/view/4417240809/"},
+    {"id":"4428214109","company":"(TBD)","title":"Learning & Development Specialist","remote":true,"fit":"P1","note":"resolve company + ATS","linkedin":"https://www.linkedin.com/jobs/view/4428214109/"}
+  ],
+  "dropped": "Talent Acquisition Specialist (recruiting), Workday Benefits Specialist + Costpoint Time&Labor (clerical/benefits ★☆☆), H&R Block seasonal rep, Curriculum Dev contractor (temp)"
+}
