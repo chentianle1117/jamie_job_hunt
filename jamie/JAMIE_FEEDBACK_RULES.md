@@ -345,7 +345,19 @@ Dedicated to Improving People Experience
   mission to [X] and the [role challenge] are both draws..." (the Aurora closer Jamie loved — broad, ties to
   mission without being cliché or over-flattering).
 
-**Bold formatting:** Bold the high-value keyword phrases throughout (like the Roblox sample does).
+**Bold formatting:** Bold the high-value keyword phrases throughout (like the Roblox sample does). Concretely —
+bold (a) each past-employer name at first mention, (b) the quantified accomplishment phrases WITH THE NUMBER
+INSIDE the bold (e.g. "**cut onboarding time by 75%**", "**analyzed 2,000+ employee experiences**", "**$362K in
+costs**"), and (c) the credential ("**MS in Applied Organizational Psychology (USC)**"). Aim for ~6-10 bolds in
+the body — enough that a recruiter skim catches her impact. This is mechanically enforced by
+`jamie-autopilot/lib/verify_cover_format.py` (staging blocks below the floor). NOTE: this reinforces the
+long-standing rule with concrete targets observed across the covers that earned recruiter engagement (Brex →
+call, Nike → warm, BCG → screening call); it is NOT new doctrine — don't over-fit to a few samples.
+
+**Honest gap disclosure is SAFE (and on-brand):** when the JD wants something Jamie hasn't done, a candid
+"I'll be candid: I haven't [done X] myself — but the heart of this role, [the genuine overlap], is exactly the
+work I've been doing" reads as trustworthy, not disqualifying (it's what the Brex cover did before its recruiter
+call). This is also just RULE 0. Disclose-then-bridge; never paper over a real gap.
 
 ### Relocation / commitment language:
 - ❌ Do NOT write "I am fully committed to relocating to [city]" or over-commit.
