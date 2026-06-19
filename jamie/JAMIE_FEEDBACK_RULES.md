@@ -334,6 +334,28 @@ renderer `render_pdfs.py → build_cover_html()` reproduces this layout (cream h
 cursive signature). NOTE: the RRD sample carries the OLDER generic close; the canonical close is the org-psych
 version in `cover_letter_canonical.md`. Do NOT tailor by editing the HTML.
 
+### COVER TAILORING RULES (Jamie 2026-06-19 — GATED + AUDITED, like the resume)
+The cover is a LOCKED structure. Tailoring is bounded by these rules, each enforced:
+1. **Stick to the default paragraph as much as possible.** Tailor by (a) filling the `{SWAP}` slots and
+   (b) rewording the bolded skill phrases to MATCH the JD's vocabulary (JD "partner with cross-functional
+   teams" → "partnering with cross-functional teams"). Do NOT free-write standalone new sentences, and do
+   NOT change the paragraph order or sentence flow.
+2. **Approved-variant swap — only when clearly better, only if truthful.** If a *different real experience/
+   bullet* for the same employer clearly stands out as more JD-relevant, you MAY lead that paragraph with it
+   — but it must trace to a real bullet in `resume.json` / `content_library.md`. (e.g. lead Vestas with the
+   Inclusive Leadership workshop for a global-L&D role.) Default-paragraph-first; swap is the exception.
+3. **NEVER invent experience.** The JD asking for a tool/skill (Jira, Articulate, Storyline, video editing,
+   LMS-admin) is NOT license to claim it. Map to Jamie's REAL adjacent skill, or disclose the gap. (§0.)
+4. **NEVER upgrade her role.** Word every claim to what the source bullet says. The Vestas workshop: she
+   "Initiated a DEI pilot" / "Supported the HRBP team in piloting" it + equipped others — she did NOT
+   "build and facilitate" / "lead" / "own" / "create" it. Adjacent verb ≠ same verb; use the source-exact
+   (weaker) verb when unsure. (§0.)
+
+**Enforcement:** `jamie-autopilot/lib/verify_cover_structure.py` mechanically blocks anecdote openers,
+invented taglines, merged/dropped experience paragraphs, role-upgrade verbs on the workshop, invented tools,
+and the banned $340K composite (exit-4 in stage_one). The per-submission auditor (`AUDITOR_AGENT_SPEC.md`
+check F) judges the subtler "did the swap stay a true keyword-swap vs free-writing/JD-parroting/invention."
+
 **VISUAL LAYOUT (the renderer produces this automatically):**
 - Cream header band (#f5ede0), centered "Jamie Cheng" + 2-line tagline
 - Two-column body: left sidebar (phone / Portland, OR / Open to Relocation / email / LinkedIn) + right justified letter
