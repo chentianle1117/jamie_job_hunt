@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jamie — Review & Feedback</title>
+<style>
+  :root{
+    --bg:#0f1115; --panel:#171a21; --panel2:#1e222b; --ink:#e8eaed; --muted:#9aa3b2;
+    --line:#2a2f3a; --accent:#ff5a3c; --green:#39d98a; --amber:#ffcf5c; --red:#ff6b6b; --blue:#6cb8ff;
+    --radius:14px;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  .wrap{max-width:1040px;margin:0 auto;padding:28px 20px 80px}
+  h1{font-size:26px;margin:0 0 4px} h2{font-size:19px;margin:34px 0 12px;letter-spacing:.2px}
+  h3{font-size:16px;margin:0 0 6px}
+  .sub{color:var(--muted);margin:0 0 18px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin:14px 0}
+  .row{display:flex;gap:14px;flex-wrap:wrap}
+  .pill{display:inline-block;font-size:12px;font-weight:600;padding:3px 10px;border-radius:999px;border:1px solid var(--line)}
+  .pill.green{color:var(--green);border-color:#1f5d44;background:#10241c}
+  .pill.amber{color:var(--amber);border-color:#5d4f1f;background:#241f10}
+  .pill.red{color:var(--red);border-color:#5d1f1f;background:#241010}
+  .pill.blue{color:var(--blue);border-color:#1f3f5d;background:#101a24}
+  .stat{flex:1;min-width:120px;background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:14px 16px;text-align:center}
+  .stat .n{font-size:30px;font-weight:700} .stat .l{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.6px}
+  .stat.good .n{color:var(--green)} .stat.warn .n{color:var(--amber)} .stat.bad .n{color:var(--red)}
+  details{background:var(--panel2);border:1px solid var(--line);border-radius:12px;margin:10px 0;overflow:hidden}
+  summary{cursor:pointer;padding:13px 16px;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:10px;align-items:center}
+  summary::-webkit-details-marker{display:none}
+  summary:hover{background:#222633}
+  .body{padding:0 16px 16px;border-top:1px solid var(--line)}
+  .doc{background:#0c0e12;border:1px solid var(--line);border-radius:10px;padding:14px 16px;white-space:pre-wrap;font-size:13.5px;color:#d4d8df;max-height:340px;overflow:auto}
+  .label{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.6px;margin:14px 0 5px}
+  .flag{background:#241f10;border-left:3px solid var(--amber);padding:8px 12px;border-radius:6px;margin:8px 0;font-size:13.5px}
+  textarea{width:100%;background:#0c0e12;border:1px solid var(--line);border-radius:8px;color:var(--ink);padding:9px 11px;font:inherit;font-size:13.5px;resize:vertical;min-height:52px}
+  .fbrow{display:flex;gap:8px;align-items:center;margin:8px 0;flex-wrap:wrap}
+  .vote{cursor:pointer;border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:5px 11px;font-size:13px;color:var(--muted)}
+  .vote.on.keep{background:#10241c;color:var(--green);border-color:#1f5d44}
+  .vote.on.tweak{background:#241f10;color:var(--amber);border-color:#5d4f1f}
+  .vote.on.drop{background:#241010;color:var(--red);border-color:#5d1f1f}
+  table{width:100%;border-collapse:collapse;font-size:13.5px}
+  th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.5px}
+  .rng td:first-child{font-weight:600}
+  .mini{font-size:12.5px;color:var(--muted)}
+  .bar{height:8px;border-radius:6px;background:#222633;overflow:hidden;margin-top:6px}
+  .bar>i{display:block;height:100%}
+  .toolbar{position:sticky;top:0;z-index:5;background:rgba(15,17,21,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:10px 0;margin:-28px -20px 18px;padding-left:20px;padding-right:20px}
+  button.exp{background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 16px;font-weight:600;cursor:pointer}
+  button.sec{background:var(--panel2);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:9px 14px;cursor:pointer}
+  a{color:var(--blue)}
+  .note{color:var(--muted);font-size:12.5px;margin-top:6px}
+  code{background:#0c0e12;border:1px solid var(--line);border-radius:5px;padding:1px 5px;font-size:12.5px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="toolbar row" style="align-items:center;justify-content:space-between">
+    <strong style="font-size:15px">Jamie — Review & Feedback</strong>
+    <span class="row" style="gap:8px">
+      <button class="sec" onclick="document.querySelectorAll('details').forEach(d=>d.open=true)">Expand all</button>
+      <button class="sec" onclick="document.querySelectorAll('details').forEach(d=>d.open=false)">Collapse</button>
+      <button class="exp" onclick="exportFeedback()">⬇ Export my feedback</button>
+    </span>
+  </div>
+
+  <h1>Your job search — what to review</h1>
+  <p class="sub">A focused review, not a stats wall. Skim the four sections, react where you have an opinion. Your notes save in this browser; hit <b>Export my feedback</b> when done and send the file back. Built Jun 18, 2026 from your real inbox + the pipeline tracker.</p>
+
+  <!-- ============ SNAPSHOT ============ -->
+  <div class="row">
+    <div class="stat"><div class="n">~134</div><div class="l">Applications</div></div>
+    <div class="stat good"><div class="n">2</div><div class="l">Live interviews</div></div>
+    <div class="stat warn"><div class="n">2</div><div class="l">Warm threads</div></div>
+    <div class="stat bad"><div class="n">30+</div><div class="l">Rejections</div></div>
+  </div>
+  <p class="note">Both interviews are <b>at-level, operational/local</b> roles. Almost every <b>"Senior"</b> or big-tech-volume application was a rejection or silence. That contrast is the whole strategy story — detail in §4.</p>
+
+  <!-- ============ 1. INTERVIEWS TO PREP ============ -->
+  <h2>1 · Interviews to prep <span class="pill green">act this week</span></h2>
+
+  <details open>
+    <summary><span>🟢 Bank of China (USA) — HR / Quality Control Associate</span><span class="pill green">panel · ~Tue</span></summary>
+    <div class="body">
+      <p>Video panel interview (Phoebe Chuang + 3 others). Originally Jun 23; you rescheduled (illness) → moved to <b>next Tue 2–4pm ET</b>. You confirmed.</p>
+      <div class="label">What to do</div>
+      <p class="mini">Confirm the calendar invite + meeting link is in your calendar. Then prep: this is an HR/operations role at a bank — lean into accuracy, compliance, process discipline, and your data/operations strengths (less "scrappy startup," more "careful and reliable").</p>
+      <div class="fbrow" data-k="iv_boc"><span class="mini">Want a full prep doc?</span>
+        <span class="vote keep" onclick="vote(this)">Yes, build prep</span>
+        <span class="vote tweak" onclick="vote(this)">I'll self-prep</span></div>
+      <textarea data-k="iv_boc_n" placeholder="Anything specific you want covered for BoC?"></textarea>
+    </div>
+  </details>
+
+  <details open>
+    <summary><span>🟢 More Than Models — Talent Coordinator (Portland, OR)</span><span class="pill green">requested · awaiting time</span></summary>
+    <div class="body">
+      <p>Recruiter <b>Tarryn Muhl</b> reached out (Jun 18) to schedule a video interview — this is the same employer that "viewed your application" the day before. You replied asking for <b>Mon/Wed afternoon</b>. Ball's in her court.</p>
+      <div class="label">Why it matters</div>
+      <p class="mini">Portland-local + Talent Coordinator = squarely in your target box. Highest-probability of the two on fit.</p>
+      <div class="fbrow" data-k="iv_mtm"><span class="mini">Prep doc for this too?</span>
+        <span class="vote keep" onclick="vote(this)">Yes</span>
+        <span class="vote tweak" onclick="vote(this)">Light only</span>
+        <span class="vote drop" onclick="vote(this)">Not needed</span></div>
+      <textarea data-k="iv_mtm_n" placeholder="Notes…"></textarea>
+    </div>
+  </details>
+
+  <!-- ============ 2. APPLICATION QUALITY ============ -->
+  <h2>2 · Application quality — does anything read off?</h2>
+  <p class="sub">A few real packages we submitted. Skim resume summary + cover. Flag anything that feels wrong, weak, or not-you. I've pre-flagged judgment calls in <span style="color:var(--amber)">amber</span>.</p>
+
+  <details open>
+    <summary><span>📄 Pacific Office Automation — L&D Specialist <span class="mini">(Beaverton — got the autosubmit through)</span></span><span class="pill blue">L&D</span></summary>
+    <div class="body">
+      <div class="label">Resume summary (as sent)</div>
+      <div class="doc">I'm Jamie—a curious, people-loving (97% extrovert!) Learning & Development professional who thrives on solving problems through data analysis, developing programs grounded in evidence, and collaborating with stakeholders for sustainable impact. Expect me to always be seeking ways we can improve people experience—through human-centered, data-driven approaches.</div>
+      <div class="flag">⚠️ <b>Judgment call:</b> the "<b>97% extrovert!</b>" opener is distinctive and memorable — but reads casual for some audiences. Keep as-is, or save it for facilitation-heavy roles only?</div>
+      <div class="label">Cover letter (as sent)</div>
+      <div class="doc">Dear Hiring Manager,
+
+What drew me to Pacific Office Automation's L&D Specialist role is the combination of hands-on facilitation and data-driven program evaluation reporting to an Organizational Development leader—that's exactly the kind of structured, evidence-based L&D environment where I do my best work.
+
+I've spent the last three years in program management and learning operations roles where designing training, facilitating workshops, and tracking effectiveness metrics were core to the job. At InGenius Prep, I built and maintained a self-service knowledge base for 70+ cross-functional staff—cutting onboarding time by 75%—and facilitated training webinars for 600+ participants, sustaining a 78% enrollment rate through iterative feedback loops…
+
+What I bring beyond execution is an analytical lens on learning. I naturally reach for Excel to understand what the data says… I also have direct experience partnering with subject matter experts to lead content development sessions and building out SOPs and guides that actually get used.
+
+POA's 25% travel requirement sounds like the kind of facilitation-forward role that keeps the work grounded in real people and real branches—not just slide decks. I'd love to bring that same energy and rigor to your team.</div>
+      <div class="fbrow" data-k="q_poa"><span class="mini">Your read:</span>
+        <span class="vote keep" onclick="vote(this)">👍 Strong</span>
+        <span class="vote tweak" onclick="vote(this)">✎ Needs tweaks</span>
+        <span class="vote drop" onclick="vote(this)">👎 Off</span></div>
+      <textarea data-k="q_poa_n" placeholder="What works / what's off?"></textarea>
+    </div>
+  </details>
+
+  <details>
+    <summary><span>📄 CLEAR — L&D Generalist <span class="mini">(submitted)</span></span><span class="pill blue">L&D</span></summary>
+    <div class="body">
+      <div class="label">Cover letter (excerpt — this one is dense + specific)</div>
+      <div class="doc">When I read the Learning & Development Generalist posting, I recognized the role immediately—not because I've done something adjacent to it, but because it maps almost exactly onto work I do right now. Coordinating training logistics, building facilitator guides and job aids, running needs assessments, facilitating sessions…
+
+At InGenius Prep, I serve as the central coordinator for our training and enablement function. I've run needs assessments with 25+ stakeholders, facilitated training sessions for 600+ participants (driving a 78% enrollment rate), and built the SOPs, facilitator guides, and self-service knowledge base that our 70+ staff rely on. I manage 20+ concurrent programs…I also have hands-on experience with LMS platforms including Canvas and Moodle…
+
+…As a 97% extrovert, facilitation is where I do my best work, and I'd welcome the 40% travel component…</div>
+      <div class="flag">⚠️ Strong + specific (good). Same "97% extrovert" line — here it fits (facilitation role). Consistency question: keep it everywhere, or only on facilitation-heavy roles?</div>
+      <div class="fbrow" data-k="q_clear"><span class="mini">Your read:</span>
+        <span class="vote keep" onclick="vote(this)">👍 Strong</span>
+        <span class="vote tweak" onclick="vote(this)">✎ Tweaks</span>
+        <span class="vote drop" onclick="vote(this)">👎 Off</span></div>
+      <textarea data-k="q_clear_n" placeholder="Notes…"></textarea>
+    </div>
+  </details>
+
+  <details>
+    <summary><span>📄 ElevenLabs — People Operations <span class="mini">(submitted — top fit)</span></span><span class="pill blue">People Ops</span></summary>
+    <div class="body">
+      <div class="label">Cover letter (excerpt)</div>
+      <div class="doc">There aren't many companies where "no job titles" and "AI first" aren't just culture-deck lines—they're operating principles… I want to be part of a team that actually uses AI to move faster… not one that talks about it while the onboarding checklist still lives in someone's inbox.
+
+My day-to-day at InGenius Prep is closest to what you're describing: I own the full operational layer for 70+ cross-functional staff—building SOPs, guides, and a self-service knowledge base that cut onboarding time by 75%…
+
+At ODN Oregon, I analyzed 300+ leave cases, surfaced $362K in costs, and helped translate data into policy redesigns…ElevenLabs runs HiBob and Deel; I've worked with SAP, Rippling, and ADP…</div>
+      <div class="flag">⚠️ Confident, opinionated voice (the "checklist in someone's inbox" line). Reads great for a startup; double-check the ODN "$362K / 300+ leave cases" numbers are accurate — they recur across covers.</div>
+      <div class="fbrow" data-k="q_11l"><span class="mini">Your read:</span>
+        <span class="vote keep" onclick="vote(this)">👍 Strong</span>
+        <span class="vote tweak" onclick="vote(this)">✎ Tweaks</span>
+        <span class="vote drop" onclick="vote(this)">👎 Off</span></div>
+      <textarea data-k="q_11l_n" placeholder="Notes…"></textarea>
+    </div>
+  </details>
+
+  <div class="card">
+    <h3>Cross-cutting things to weigh in on (the recurring patterns)</h3>
+    <div class="fbrow" data-k="x_extro"><span style="flex-basis:100%">1. The <b>"97% extrovert!"</b> opener — keep everywhere / facilitation-roles-only / cut it?</span>
+      <span class="vote keep" onclick="vote(this)">Everywhere</span><span class="vote tweak" onclick="vote(this)">Facilitation only</span><span class="vote drop" onclick="vote(this)">Cut</span></div>
+    <div class="fbrow" data-k="x_nums"><span style="flex-basis:100%">2. Recurring metrics (<b>70+ staff, 600+ participants, 78%, 75% onboarding cut, $362K/300+ leave cases, Vestas 12→23 sites</b>) — all accurate as written?</span>
+      <span class="vote keep" onclick="vote(this)">All accurate</span><span class="vote tweak" onclick="vote(this)">Some need fixing</span></div>
+    <textarea data-k="x_nums_n" placeholder="If any number is wrong, tell me which → I'll scrub it everywhere."></textarea>
+    <div class="fbrow" data-k="x_ingenius"><span style="flex-basis:100%">3. <b>InGenius Prep</b> is described as your current role across all covers (you're in active litigation with them). OK to keep citing as current employer, or reframe?</span>
+      <span class="vote keep" onclick="vote(this)">Keep as-is</span><span class="vote tweak" onclick="vote(this)">Reframe — let's talk</span></div>
+  </div>
+
+  <!-- ============ 3. RANGE OF ROLES ============ -->
+  <h2>3 · The range we've applied to — does the targeting feel right?</h2>
+  <p class="sub">Grouped by type. React 👍/✎/👎 to whole categories so I can re-train the discovery filter. This is the most useful feedback you can give.</p>
+
+  <table class="rng">
+    <tr><th>Category</th><th>Examples (real, from your tracker)</th><th>Your call</th></tr>
+    <tr><td>People Ops / HR Coordinator-Generalist <span class="pill green">core</span></td>
+      <td class="mini">ElevenLabs People Ops · Flexport People Ops Coord · Aurora HR Generalist · Gaylord/ITW HR Generalist · Neighborhood House HR Gen · Roivant People Ops Assoc</td>
+      <td><div class="fbrow" data-k="r_peopleops"><span class="vote keep" onclick="vote(this)">👍</span><span class="vote tweak" onclick="vote(this)">✎</span><span class="vote drop" onclick="vote(this)">👎</span></div></td></tr>
+    <tr><td>L&D / Talent Development <span class="pill green">core</span></td>
+      <td class="mini">CLEAR L&D Generalist · HealthCorps L&D Specialist · Pacific Office L&D · Legence Talent Dev · Navitus L&D Generalist · Syneos Leadership Dev Coordinator</td>
+      <td><div class="fbrow" data-k="r_lnd"><span class="vote keep" onclick="vote(this)">👍</span><span class="vote tweak" onclick="vote(this)">✎</span><span class="vote drop" onclick="vote(this)">👎</span></div></td></tr>
+    <tr><td>Talent / Workplace Coordinator <span class="pill green">core</span></td>
+      <td class="mini">C1 Talent & Workplace Coord · More Than Models Talent Coord · Tekmetric People Ops Coord · Built In People Ops & Workplace</td>
+      <td><div class="fbrow" data-k="r_coord"><span class="vote keep" onclick="vote(this)">👍</span><span class="vote tweak" onclick="vote(this)">✎</span><span class="vote drop" onclick="vote(this)">👎</span></div></td></tr>
+    <tr><td>OD / Employee Experience <span class="pill blue">good</span></td>
+      <td class="mini">Coherent EE Specialist · Cambia Community & Culture PM · Sandisk Employee Lifecycle · Affirm People Knowledge Experience Mgr</td>
+      <td><div class="fbrow" data-k="r_od"><span class="vote keep" onclick="vote(this)">👍</span><span class="vote tweak" onclick="vote(this)">✎</span><span class="vote drop" onclick="vote(this)">👎</span></div></td></tr>
+    <tr><td>Cap-exempt: university / hospital / nonprofit <span class="pill amber">underused — easiest sponsorship</span></td>
+      <td class="mini">OHSU HRBP · OSU Academic Advisor / Scholarship Coord · PSU Training & Employee Dev · U Washington L&D · U Chicago Onboarding · Woodland Park Zoo HR · American Indian College Fund</td>
+      <td><div class="fbrow" data-k="r_capexempt"><span class="vote keep" onclick="vote(this)">👍 more of these</span><span class="vote tweak" onclick="vote(this)">✎</span><span class="vote drop" onclick="vote(this)">👎</span></div></td></tr>
+    <tr><td>"Senior" / Manager titles <span class="pill red">0 conversions</span></td>
+      <td class="mini">EY People Consulting Senior · Datadog Senior PM · Autodesk Senior Org Effectiveness Consultant · Gainsight Senior PM · MongoDB Leadership Dev Mgr · Ramp Senior People Events Mgr · Chime Senior People Partner</td>
+      <td><div class="fbrow" data-k="r_senior"><span class="vote keep" onclick="vote(this)">Keep trying</span><span class="vote drop" onclick="vote(this)">👎 Stop</span></div></td></tr>
+    <tr><td>Big-tech volume (selective, rarely sponsors junior) <span class="pill red">mostly silent</span></td>
+      <td class="mini">Stripe · Affirm · Scale AI · Instacart · Datadog · Notion · OpenAI · Anthropic · Figma · Robinhood · Twilio</td>
+      <td><div class="fbrow" data-k="r_bigtech"><span class="vote keep" onclick="vote(this)">Keep some</span><span class="vote drop" onclick="vote(this)">👎 Deprioritize</span></div></td></tr>
+    <tr><td>Customer/Sales Enablement & Implementation <span class="pill amber">adjacent — is this you?</span></td>
+      <td class="mini">Brex Sales Enablement · Mercury CS Learning · Asana Implementation Mgr · Decagon Implementation · Scale Engagement Mgr · Commure Ops Assoc</td>
+      <td><div class="fbrow" data-k="r_enable"><span class="vote keep" onclick="vote(this)">👍 yes apply</span><span class="vote tweak" onclick="vote(this)">✎ sometimes</span><span class="vote drop" onclick="vote(this)">👎 not me</span></div></td></tr>
+  </table>
+  <textarea data-k="r_freeform" placeholder="Any title/company that feels especially right or especially wrong? Anything we're missing entirely?" style="margin-top:12px"></textarea>
+
+  <!-- ============ 4. OUTREACH ============ -->
+  <h2>4 · Outreach — the channel that's actually working</h2>
+  <p class="sub">Your <b>own</b> emails to humans (C1, Nike) created every warm thread you have. The auto-apply machine created mostly rejections. The strategy: do more of the former. Drafts below — react & I'll finalize.</p>
+
+  <div class="card">
+    <h3>The reset in one line</h3>
+    <p>Shift to <b>70% warm / 30% auto</b>: for each fitting role, send one short personal note to a human; keep auto-apply small and pointed only at <b>at-level + sponsor-plausible + Portland/remote</b> roles. Full reasoning in <code>STRATEGY_AND_OUTREACH.md</code>.</p>
+    <div class="fbrow" data-k="o_buyin"><span class="mini">Buy into the 70/30 warm-first reset?</span>
+      <span class="vote keep" onclick="vote(this)">Yes, do it</span><span class="vote tweak" onclick="vote(this)">Partly</span><span class="vote drop" onclick="vote(this)">No</span></div>
+  </div>
+
+  <details open>
+    <summary><span>✉️ Draft — Brex / Diane (gracious reply to rejection, bank the relationship)</span><span class="pill amber">ready</span></summary>
+    <div class="body">
+      <div class="doc">Hi Diane,
+
+Thank you so much for letting me know, and for the time you took to talk with me about the role — I really enjoyed our conversation. I'd genuinely welcome staying in touch as Brex grows; People Operations and L&D are where my experience sits most naturally, so if something opens up on that side of the house, I'd love to be considered.
+
+Wishing you and the team all the best, and thanks again for being so thoughtful throughout.
+
+Warmly,
+Jamie</div>
+      <div class="fbrow" data-k="o_brex"><span class="vote keep" onclick="vote(this)">👍 Send it</span><span class="vote tweak" onclick="vote(this)">✎ Edit</span><span class="vote drop" onclick="vote(this)">Skip</span></div>
+      <textarea data-k="o_brex_n" placeholder="Edits…"></textarea>
+    </div>
+  </details>
+
+  <details>
+    <summary><span>✉️ Draft — Nike / Jen Scales (warm nudge to lock the call)</span><span class="pill amber">ready</span></summary>
+    <div class="body">
+      <div class="doc">Hi Jen,
+
+Hope your summer's off to a great start! Just floating back up to the top of your inbox — I'd still love to find a time to connect whenever works for you. I'm pretty flexible mornings this week and next, and happy to work around your schedule.
+
+No rush at all — looking forward to it whenever the timing's right!
+
+Warmly,
+Jamie</div>
+      <div class="fbrow" data-k="o_nike"><span class="vote keep" onclick="vote(this)">👍 Send</span><span class="vote tweak" onclick="vote(this)">✎ Edit</span><span class="vote drop" onclick="vote(this)">Wait</span></div>
+      <textarea data-k="o_nike_n" placeholder="Edits…"></textarea>
+    </div>
+  </details>
+
+  <details>
+    <summary><span>✉️ Draft — C1 / Blake (one final low-key nudge — or let go)</span><span class="pill amber">optional</span></summary>
+    <div class="body">
+      <p class="mini">Note: Blake's address now resolves to ConductorOne — he may have changed companies, which would explain the silence. This is a "one last try, then drop it" note.</p>
+      <div class="doc">Hi Blake,
+
+Circling back one more time in case the timing's better now — I'm still really interested in the Talent & Workplace Coordinator role and would love even a quick 15 minutes to hear your perspective. Totally understand if things have shifted on your end; either way, I appreciated your openness back in May.
+
+Warmly,
+Jamie</div>
+      <div class="fbrow" data-k="o_c1"><span class="vote keep" onclick="vote(this)">👍 Send</span><span class="vote tweak" onclick="vote(this)">✎ Edit</span><span class="vote drop" onclick="vote(this)">Let go</span></div>
+      <textarea data-k="o_c1_n" placeholder="Edits…"></textarea>
+    </div>
+  </details>
+
+  <div class="card">
+    <h3>Reusable template (the proven shape — your C1/Nike voice)</h3>
+    <div class="doc">Hi [Name],
+
+[One warm, specific opener — a detail about them/the company, not generic.]
+
+I recently applied for the [Role] at [Company] and wanted to reach out personally in case my application doesn't fully capture the picture. In my current role I [one concrete, relevant thing — coordinate X, built Y for Z people]. I'm especially drawn to [specific thing about this team/role], and as someone with a background in organizational psychology and people/L&D work, I'd love to learn more about [genuine question].
+
+[If natural, near the end: a light line on being based in Portland / open to the role's setup.]
+
+Would you be open to a quick 15-minute chat? Happy to work around your schedule.
+
+Warmly,
+Jamie</div>
+      <div class="fbrow" data-k="o_template"><span class="mini">Template voice right?</span>
+        <span class="vote keep" onclick="vote(this)">👍 Yes</span><span class="vote tweak" onclick="vote(this)">✎ Adjust</span></div>
+      <textarea data-k="o_template_n" placeholder="Voice notes…"></textarea>
+  </div>
+
+  <h2>5 · Anything else for me?</h2>
+  <textarea data-k="final" placeholder="Open mic — goals, constraints, gut reactions, what you want next." style="min-height:90px"></textarea>
+
+  <p class="note" style="margin-top:24px">When you're done: hit <b>⬇ Export my feedback</b> (top right) and send David/Claude the downloaded file. Everything you typed/clicked is captured.</p>
+
+</div>
+
+<script>
+const KEY='jamie_review_v1';
+const store=JSON.parse(localStorage.getItem(KEY)||'{}');
+// restore
+document.querySelectorAll('textarea[data-k]').forEach(t=>{ if(store[t.dataset.k])t.value=store[t.dataset.k];
+  t.addEventListener('input',()=>{store[t.dataset.k]=t.value;save();}); });
+document.querySelectorAll('.fbrow[data-k]').forEach(row=>{
+  const k=row.dataset.k; const sel=store[k+'__vote'];
+  row.querySelectorAll('.vote').forEach(v=>{
+    if(sel && v.textContent===sel)v.classList.add('on');
+    v.addEventListener('click',()=>{
+      row.querySelectorAll('.vote').forEach(x=>x.classList.remove('on'));
+      v.classList.add('on'); store[k+'__vote']=v.textContent; save();
+    });
+  });
+});
+function vote(el){} // handled above
+function save(){localStorage.setItem(KEY,JSON.stringify(store));}
+function exportFeedback(){
+  // refresh textareas
+  document.querySelectorAll('textarea[data-k]').forEach(t=>store[t.dataset.k]=t.value);
+  let out='JAMIE — REVIEW FEEDBACK\n'+new Date().toString()+'\n\n';
+  const labels={};
+  document.querySelectorAll('.fbrow[data-k]').forEach(r=>{labels[r.dataset.k]=(r.innerText||'').replace(/\s+/g,' ').slice(0,80);});
+  for(const k in store){
+    if(k.endsWith('__vote')) out+='• ['+k.replace('__vote','')+'] CHOICE: '+store[k]+'\n';
+    else if(store[k] && store[k].trim()) out+='• ['+k+'] NOTE: '+store[k].trim()+'\n';
+  }
+  const blob=new Blob([out],{type:'text/plain'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);
+  a.download='jamie_feedback_'+new Date().toISOString().slice(0,10)+'.txt';a.click();
+}
+</script>
+</body>
+</html>

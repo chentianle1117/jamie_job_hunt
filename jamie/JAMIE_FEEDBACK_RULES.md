@@ -77,12 +77,16 @@ resume, truthful sponsorship=Yes, screenshot-review before Submit, write SUBMITT
    pipeline moving is never acceptable.
 6. **Banned-content list still applies** (see §2): the "$340K / 17 launches" composite is hallucinated —
    never use it. Default metric is "78% program enrollment rate."
-7. **NEVER invent a skill/tool/claim to match a JD (Jamie 2026-06-18).** Tailoring = surfacing what Jamie
-   *truly has* in the canonical files, re-angled toward the role. It is NOT adding anything to hit a JD
-   keyword. Concrete instance: **Jira was added to a resume — Jamie has NEVER used Jira. Remove it; never
-   add it.** The rule is general: if the JD names a tool/skill/experience Jamie doesn't have in
-   `resume.md`/`content_library.md`, you LEAVE IT OUT. Do not invent a new line, bullet, or skill to satisfy
-   a JD. Adding anything new requires asking Jamie first — every time.
+7. **The skills/tools section contains ONLY what Jamie actually has (Jamie 2026-06-18).** Tailoring =
+   surfacing what Jamie *truly has* in the canonical files (`resume.md` / `content_library.md`), re-angled
+   toward the role. The rule is simple and general: a tool/skill belongs on the resume **if and only if it
+   is in Jamie's canonical skills vocabulary** — if she genuinely used it, it belongs; if it isn't there,
+   leave it out. The violation is **inventing** a tool to match a JD keyword, never the tool itself. For
+   example, **Jira** does not appear in `content_library.md`, so adding "Jira" to match a JD is fabrication
+   and must be removed — but Jira is just an instance of the rule, not a special-cased blacklist: the same
+   logic applies to any tool not in her vocabulary. If a JD names a tool/skill Jamie doesn't have, you LEAVE
+   IT OUT — do not invent a new line, bullet, or skill to satisfy a JD. Adding anything genuinely new to her
+   vocabulary requires asking Jamie first — every time.
 8. **NO clichés, NO JD-copy-paste (Jamie 2026-06-18 — applies to summary, bullets, cover, outreach).**
    Do not lift the JD's phrasing and paste it into Jamie's materials, and do not use clichés. That is lazy,
    fake-sounding tailoring and Jamie can spot it instantly. Instead: look at what Jamie *actually* has in the
@@ -135,6 +139,22 @@ Niche framing makes Jamie look like she can do ONE thing, not her full skill set
 1. solving problems through **data analysis**
 2. developing programs **grounded in evidence**
 3. **collaborating with stakeholders** for sustainable impact
+
+### ⭐ CLOSING SENTENCE — only the "we can ___" verb phrase flexes (Jamie 2026-06-18)
+Keep the stem and the tail FIXED: *"Expect me to always be seeking ways we can ___ — through human-centered,
+evidence-based approaches."* **Customize ONLY the "we can ___" clause** to fit the team/role, truthfully:
+- People Ops / EX → "improve the people experience"
+- Ops-heavy role → "optimize operational work"
+- OD role → "achieve organizational effectiveness"
+- L&D / talent development → "support people's growth" / "enable people to do their best work"
+- Sales Enablement → "enable sales teams to succeed"
+- …or any honest fit for that team. The tail ("through human-centered, evidence-based approaches") never changes.
+(Do NOT swap the whole sentence — only the verb phrase after "we can". This is the §0.8 graceful-adapt rule applied.)
+
+### ⭐ "97% extrovert!" — KEEP IT (Jamie 2026-06-18)
+The "(97% extrovert!)" parenthetical stays in the summary by default — it shows her personality and is true.
+Only drop it in a rare special case where the role clearly wouldn't want it (e.g. a very formal/conservative
+context) — and FLAG that to Jamie first rather than silently cutting. Default = keep.
 
 ### ⭐ TITLE NOUN MUST STAY A BROAD UMBRELLA (Jamie feedback 2026-05-29 — applies to ALL future resumes)
 The self-title Jamie gives herself must be a **big-umbrella term**, never a niche single-function label.
@@ -381,8 +401,10 @@ Audit agents MUST verify ALL of these and flag any failure.
 - [ ] Every claim in resume/cover/outreach/essays is sourced to `resume.md` / `content_library.md` / `profile_compact.md`
 - [ ] No experience is mislabeled (ODN = OD diagnostic consulting, NOT community/ERG/network-building)
 - [ ] No invented relationships, activities, team management, or metrics
-- [ ] **No invented skill/tool** added to match the JD (§0.7). Jira is BANNED (Jamie never used it); grep the
-      resume/cover for any tool NOT in `content_library.md` skills — if present and unsourced, remove it.
+- [ ] **No invented skill/tool** added to match the JD (§0.7). The skills section = ONLY tools in Jamie's
+      canonical vocabulary (`content_library.md`). Grep the resume/cover for any tool NOT in that vocabulary —
+      if present and unsourced, remove it. (Jira is the known example: not in `content_library.md`, so it must
+      never appear — but the check is general, any out-of-vocabulary tool fails.)
 - [ ] **No clichés, no JD-phrasing copy-pasted** (§0.8). Read the summary/bullets/cover: does any line mirror
       the JD's vocabulary or read as a cliché? If yes, rewrite in Jamie's real words from the canonical source.
 - [ ] Gaps vs the JD's core are disclosed to Jamie, not hidden behind JD keywords

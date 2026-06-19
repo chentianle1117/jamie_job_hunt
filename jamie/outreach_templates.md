@@ -57,17 +57,44 @@ the company (broader), warm closing.
 
 ---
 
-## Step 0 — Recipient Verification (HARD RULE — 2026-05-28)
+## Step 0 — Recipient Finding + Verification (HARD RULE — Jamie's canonical method, 2026-06-18)
 
-**ALWAYS verify the person CURRENTLY works at the target company before drafting any message.**
+**The proven way to find the RIGHT person (Jamie's method — use this, in order):**
 
-1. Open their live LinkedIn profile (not just search results).
-2. Confirm their current position and employer match the company you're drafting for.
-3. If you cannot confirm → **do NOT draft outreach** → tell Jamie the verification failed and why.
+1. **Go to the target company's LinkedIn page → "People" tab.** (The People tab shows CURRENT employees only,
+   which does half the verification for you.) E.g. applying to Microsoft → Microsoft LinkedIn page → People.
+2. **Filter the People tab by the team/title keyword** that matches the role's team — e.g. type
+   `people and culture` (or `people operations`, `talent development`, `L&D`) in the People-tab search box.
+   This surfaces people whose title/current-team contains that phrase.
+3. **Optionally narrow by region/location** for big multi-office companies — but team-match ALWAYS beats
+   region. A People-&-Culture person on the right team anywhere > a Portland person on a different team.
+   **HIGHEST priority = same team AND same region.**
+4. **Who to reach — three EQUALLY-important categories (Jamie 2026-06-18):**
+   - **(A) The recruiter actually hiring for THIS role** — NOT just any recruiter (each carries 3+ reqs).
+     Prioritize the one with a signal they own this req: they **shared/posted this exact job** on their feed,
+     or their profile/activity says they're hiring for it. A random company recruiter with no tie to this role
+     is NOT a priority.
+   - **(B) A peer-titled teammate** on the role's team (Coordinator/Specialist — Jamie's "fellow practitioner" angle).
+   - **(C) The hiring manager** (e.g. "Manager, People & Culture"). Avoid VP/Head-of cold unless there's a warm tie.
+   - A, B, C are **equally important** — reach all three categories.
+5. **VOLUME CAP (HARD — Jamie 2026-06-18):** 2–3 people per category is fine, but **NEVER more than ~5 (max 6)
+   total per company.** Over-reaching backfires: if many people on one team all get a Jamie message, they compare
+   notes and it reads as desperate/eager. Stay broad enough to earn a reply, capped enough to stay classy.
+6. **Alumni overlay:** always prefer a team-match. If a USC / Wesleyan / MAPP alum is **on the target team or in
+   the target role**, that is the single BEST reach — grab it if it exists (rare, don't hunt hard for it).
+7. **VERIFY = just "is this company their CURRENT role" (Jamie 2026-06-18).** Open the profile, confirm the
+   target company is listed as their current employer (no end date). That's the bar — do NOT also require the
+   team to still match (Jamie can't control who updates their profile; not worth blocking a draft over). Example:
+   applying to Microsoft, found "Jason" under People & Culture → open Jason → confirm Microsoft is his current role → draft.
+8. **If you cannot confirm the company is their current role → do NOT draft → tell Jamie why.**
 
-**Why this rule exists:** We drafted outreach for Jessica Redeman (had left Roivant) and Kaitlyn Major-Hale (is at Google, not Built In). Both would have been sent to the wrong person at the wrong company.
+**Why this rule exists:** We drafted outreach for Jessica Redeman (had left Roivant) and Kaitlyn Major-Hale
+(was at Google, not Built In). Both would have gone to the wrong person at the wrong company. No exceptions —
+verification (current employer + current team) is a required pre-condition for every draft.
 
-No exceptions. Verification = required pre-condition.
+> **LinkedIn access (2026-06-18):** Jamie is getting **LinkedIn Premium** (unlocks InMail to people she isn't
+> connected to + better People-tab visibility). The drive mechanism (Claude-in-Chrome on her authed session
+> vs. draft-and-she-navigates) is TBD — to be decided after the message templates are locked.
 
 ---
 
@@ -101,6 +128,89 @@ Before drafting, read their profile for:
 - **Something specific they've worked on** (a post, a project, a promotion, a skill)
 - **Shared background** (same school, same city, same previous employer, same interest)
 - **Their tone** (formal vs casual — match it in the message)
+
+---
+
+## ⭐⭐ CANONICAL TEMPLATES v2 (Jamie-approved 2026-06-18 — USE THESE; supersede the older ones below)
+
+> **Governing rules for ALL templates:**
+> - **Tailored self-intro slot:** the "what I do" clause is NOT fixed — pick 1–2 GENERAL, TRUE capabilities
+>   that match the JD's focus (check the JD + her resume/content_library). General accurate terms only
+>   ("training materials" NOT "training videos"; "optimize people processes" NOT "mobility process development").
+>   Never invent a capability she lacks. (Same discipline as §0.7/§0.8 of JAMIE_FEEDBACK_RULES.)
+> - **Company-type line is truthful + tailored:** startup → InGenius; multinational/global/cross-cultural →
+>   Vestas; renewable energy → Vestas; healthcare → NextGen. Only state what's real.
+> - **Bridge sentence is OPTIONAL — never force it.** Include a "shared background" line ONLY if a genuine
+>   similarity exists (they studied psychology, lived/worked abroad, came from a shared industry —
+>   fintech/startup/multinational/renewable energy, or same school). No genuine bridge → omit entirely.
+> - **"Organizational Psychology" spelled out** — never abbreviate to "org-psych."
+> - **Portland hook ONLY when the person AND/OR role is Portland-based or remote** — never on a non-Portland reach.
+> - **Cadence:** one reach → wait **≥5 days** (don't pressure) → ONE follow-up → then stop.
+> - **🚨 FIRST-TIME + INBOUND-RECRUITER GATE:** The FIRST time these templates are used to draft real messages,
+>   Jamie reviews before ANY send. And ANY reply to an inbound recruiter is DRAFT-ONLY — confirm Jamie's real
+>   availability with her before sending. Never auto-send outreach until Jamie has approved a batch.
+
+### Tailored self-intro slot — menu (pick 1–2 matching the JD; all true to her real work)
+| JD emphasizes… | True clause (general terms) |
+|---|---|
+| Data / analysis | "I run both qualitative and quantitative analysis to surface and zero in on the real issues" |
+| Process / operations | "I optimize people processes and operations end-to-end" |
+| L&D / training | "I design training materials and learning programs" |
+| Programs / coordination | "I run cross-functional programs and coordinate across teams" |
+| Onboarding / lifecycle | "I support onboarding and the employee experience" |
+| Cross-functional / ambiguity | "I partner across functions to turn ambiguity into systems" |
+
+### Template 1 — LinkedIn connection request (≤300 chars)
+**1a · Portland person/role + genuine bridge:**
+> Hi {First}, this is Jamie! I recently moved to Portland and came across the {Role} at {Company}. I noticed you {real bridge} — would love to connect and hear about your experience on the team!
+
+**1b · Portland, no genuine bridge:**
+> Hi {First}, this is Jamie! I recently moved to Portland and came across the {Role} at {Company}. I come from an Organizational Psychology + people/L&D background and would genuinely love to connect and learn about your work on the team. Hope to chat!
+
+**1c · NOT Portland-based (person or role elsewhere) — no Portland hook:**
+> Hi {First}, this is Jamie! I recently applied for the {Role} at {Company} and came across your profile on the team. I'd genuinely love to connect and learn about your experience there{, and any advice you'd be open to sharing}. Thanks so much!
+> *(With a real bridge: swap middle → "I noticed you {bridge} — same path I took — and would love to connect.")*
+
+**1d · Alum:**
+> Hi {First}, this is Jamie — fellow USC grad! I recently applied for the {Role} at {Company} and noticed you're on the team. {Real bridge if one exists.} Would love to connect and hear about your experience ✌️
+> *("MAPP alum" ONLY if they're from the same Master of Applied Psychology program; otherwise "USC grad.")*
+
+### Template 2 — Post-application email (HER STRONGEST FORMAT — the C1 spine)
+> Hi {First},
+>
+> I hope you're settling into the week well! Apologies if this is a bit out of the blue — I came across your profile while looking into the {Role} at {Company}, which I recently applied for, and wanted to reach out personally in case the application alone doesn't capture the full picture.
+>
+> I'm trained in Organizational Psychology, and {TAILORED SELF-INTRO SLOT — 1–2 general true capabilities matching the JD}. {Company-type line, truthful — startup/multinational/renewable/healthcare as fits.}
+>
+> {Bridge sentence ONLY if a genuine similarity exists — else omit.}
+> {Portland line ONLY if Portland/remote: "On a personal note, my husband and I recently settled in Portland, so I was excited this role is {Portland-based/remote-friendly}."}
+>
+> I'd genuinely love to hear what the {team} is like day-to-day. I've attached my resume — thanks so much for your time, {First}!
+>
+> Warmly,
+> Jamie
+
+### Template 3 — Alumni / warm-connection email (150–250 words)
+> Hi {First},
+>
+> This is Jamie — fellow {USC grad / Wesleyan grad} ✌️ I recently applied for the {Role} at {Company} and came across your profile on the team.
+>
+> {Genuine bridge ONLY if real — else skip this line entirely.}
+>
+> A bit about me: trained in Organizational Psychology at USC, with ~3 years across OD consulting, program management, and people/L&D at startups and a multinational. I'm reaching out because I'd genuinely love to hear what the {team} is actually like and how you've found {Company}.
+>
+> Would you be open to a quick 15 minutes in the next couple of weeks? Totally understand if the timing's tough.
+>
+> Warmly,
+> Jamie
+
+### Template 4 — Inbound recruiter reply (⚠️ DRAFT ONLY — confirm Jamie's availability before sending)
+> Hi {First}, thank you so much for reaching out — I'd genuinely love to learn more about the {Role}. {One specific line on why it resonates.} **[Availability — CONFIRM WITH JAMIE before sending]** Looking forward to it!
+>
+> Best, Jamie
+
+### Template 5 — Follow-up (ONE only, after ≥5 days; interest in THEM, not the job)
+> Hi {First}, just gently following up — no pressure at all. I'd still genuinely love to connect and hear about your experience on the {team} at {Company} whenever the timing works for you. Thanks so much! — Jamie
 
 ---
 
