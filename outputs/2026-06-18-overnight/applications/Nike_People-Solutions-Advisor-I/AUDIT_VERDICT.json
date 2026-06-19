@@ -1,0 +1,55 @@
+{
+  "role": "Nike — People Solutions Advisor I",
+  "verdict": "PASS",
+  "resume_sha": "97ef4ee8f58faa8ba179650881b1cf706f736b49b0c22bc7a770e08a671432bc",
+  "cover_sha": "045996fc905ff4706382b38beaf9b4fc167e0f7ffab6091e1d901b2ba1ea4627",
+  "checks": [
+    {
+      "id": 1,
+      "name": "SUBSTANCE FLOOR (RULE -1)",
+      "result": "PASS",
+      "evidence": "Every tailored bullet is character-identical to its canonical counterpart in jamie/resume.json; tailoring was re-ORDER only, zero rewording. Vestas retains all 4 bullets incl. onboarding-3-locations + engagement-1000+; NextGen retains all 4 verbatim (consultations/2000+/manager-effectiveness/5-projects) — the earlier Vestas-drop + NextGen-reword issue is fully restored. All metrics present: 600+/78%/75%/25+/20+/10+/2,000+/$362K/566%/3-locations/12/23/1,000+."
+    },
+    {
+      "id": 2,
+      "name": "TRUTH / NO-RELABEL (RULE 0)",
+      "result": "PASS",
+      "evidence": "All claims trace to jamie/resume.json. ODN described as OD diagnostic consulting (leave-cost audit + NGO leadership focus groups) — NOT community/ERG. No invented tools (skills block identical to canonical). No fabricated numbers. Kronos campus bullet reads 'top universities' — NO banned '230+/80+/top-3-univ' line."
+    },
+    {
+      "id": 3,
+      "name": "NO CLICHES / NO JD-COPY-PASTE",
+      "result": "PASS",
+      "evidence": "Resume bullets carried verbatim from canonical (Jamie's voice). Cover letter uses her own phrasing ('good data meets real human attention', 'hold a high case volume without losing the warmth'); no JD vocabulary mirrored, no clichés."
+    },
+    {
+      "id": 4,
+      "name": "ODN TWO-PROJECTS NOT MIXED",
+      "result": "PASS",
+      "evidence": "Bullets 1-2 = leave-cost/absenteeism project (300+ cases, $362K, policy redesign); bullet 3 = separate NGO leadership project (focus groups + 1:1 interviews, decision-making/accountability). Each bullet stays within ONE project."
+    },
+    {
+      "id": 5,
+      "name": "BULLET COUNTS",
+      "result": "PASS",
+      "evidence": "ODN=3, InGenius=4, NextGen=4, Vestas=4, Kronos=4. Matches §2 fixed counts."
+    },
+    {
+      "id": 6,
+      "name": "COVER LETTER",
+      "result": "PASS",
+      "evidence": "Warm human voice (not AI-flavored); 'Dear Hiring Team,'; org-psych scientific-method close present ('form a hypothesis... gather the evidence, test the solution... refine'); bolding includes company (**Nike**, **NextGen Healthcare**, **InGenius Prep**, **Vestas Wind Systems**, **Kronos Research**) + metrics-with-number-inside (**2,000+ employee experiences**, **75%**, **566%**, **25+ stakeholders**, **70+ staff**); no relocation over-promise (light 'glad to be on-site'); no visa mention; header location = Beaverton, OR."
+    },
+    {
+      "id": 7,
+      "name": "HONEST GAP",
+      "result": "PASS",
+      "evidence": "No fabricated case-management/HR-advisory experience claimed beyond what is real; cover bridges her real consultation/point-of-contact/customer-service work to the advisory role without over-claiming. No dishonest gap-papering detected."
+    }
+  ],
+  "failures": [],
+  "soft_flags": [
+    "78% metric reads '78% client conversion rate' rather than the rule-default '78% program enrollment rate'. NOT a violation: it is carried verbatim from canonical jamie/resume.json (line 65), so no substance loss or fabrication. The §9 default leans 'enrollment rate' for non-sales roles; People Solutions Advisor is not sales, so 'enrollment rate' would be marginally more on-convention. Flag only, does not block PASS since it faithfully matches the canonical source file."
+  ],
+  "audited_at": "2026-06-19"
+}

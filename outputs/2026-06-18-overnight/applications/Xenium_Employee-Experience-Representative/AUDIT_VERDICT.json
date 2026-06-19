@@ -1,0 +1,18 @@
+{
+  "role": "Xenium HR — Employee Experience Representative",
+  "verdict": "PASS",
+  "resume_sha": "b44b46d1b9dfb8e3a504c77c336815ae4cc6aebc49c8d0d22fdccb1daca24c64",
+  "cover_sha": "d675f200b46d2ff6ce1d1bea151735416f5edc8a4e6ddba8b09ac2cf33680487",
+  "checks": [
+    {"id": 1, "name": "SUBSTANCE FLOOR (RULE -1)", "result": "PASS", "evidence": "Every tailored bullet matches canonical concretes. ingenius/odn/vestas verbatim to canonical; nextgen reordered (2,000+ employee experiences led first) with all 4 bullets + all metrics intact; kronos reordered (566% led first) all 4 intact. No metric/clause/bullet dropped.", "canonical": "jamie/resume.json experience[*].bullets"},
+    {"id": 2, "name": "TRUTH / NO-RELABEL (RULE 0)", "result": "PASS", "evidence": "ODN framed as OD consulting (leave-cost audit + NGO leadership), not community/ERG. No invented tools beyond canonical skills block. Summary noun swapped to 'People Operations & Employee Experience' (broad umbrella, traces to source). No fabricated numbers. No Kronos '230+/80+/top-3-univ' line present.", "canonical": "JAMIE_FEEDBACK_RULES §0; resume.json odn bullets"},
+    {"id": 3, "name": "NO CLICHÉS / NO JD-COPY-PASTE", "result": "PASS", "evidence": "Cover uses Jamie's own framing ('first point of contact', 'careful, organized list-checker', 'approach this work like a scientist'); no lifted JD vocabulary or clichés. Summary in her voice.", "canonical": "JAMIE_FEEDBACK_RULES §0.8"},
+    {"id": 4, "name": "ODN TWO-PROJECTS NOT MIXED", "result": "PASS", "evidence": "Bullets 1-2 = leave-cost diagnosis project (300+ cases, $362K); bullet 3 = NGO leadership focus groups/1:1 interviews. No blending across projects.", "canonical": "JAMIE_FEEDBACK_RULES §2 ODN two-projects rule"},
+    {"id": 5, "name": "BULLET COUNTS", "result": "PASS", "evidence": "ODN = 3; ingenius/nextgen/vestas/kronos = exactly 4 each.", "canonical": "JAMIE_FEEDBACK_RULES §2 count table"},
+    {"id": 6, "name": "COVER VOICE/FORMAT", "result": "PASS", "evidence": "'Dear Hiring Team,' present; header 'Portland, OR' (Tualatin metro-local, no relocation over-promise, no visa mention); org-psych close present ('My background in organizational psychology means I approach this work like a scientist'); bolds include **Xenium** (company), **2,000+**, **566%**, **$362K** (metrics-with-number-inside), and employer names. Warm human voice.", "canonical": "JAMIE_FEEDBACK_RULES §6"},
+    {"id": 7, "name": "HONEST GAP", "result": "PASS", "evidence": "Cover bridges from adjacent EX/customer-service/data work without overclaiming direct PEO benefits-rep tenure; disclose-then-bridge tone, no papering-over.", "canonical": "JAMIE_FEEDBACK_RULES §6 honest gap"}
+  ],
+  "failures": [],
+  "notes": "Summary closing verb-phrase customized to 'make every employee feel supported' (EX-appropriate per §1 flex rule); fixed tail preserved as 'human-centered, data-driven approaches'. Minor: tail says 'data-driven' vs canonical 'evidence-based' — both in Jamie's approved vocabulary, not a violation. Header drops the canonical '(Open to Remote or Relocation)' suffix in favor of clean 'Portland, OR' — acceptable for a metro-local PEO role.",
+  "audited_at": "2026-06-19"
+}

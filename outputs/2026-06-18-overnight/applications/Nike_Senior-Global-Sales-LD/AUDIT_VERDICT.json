@@ -1,0 +1,52 @@
+{
+  "role": "Nike — Senior, Global Sales, Learning & Development",
+  "verdict": "PASS",
+  "resume_sha": "cb8148ae8d4fc0c3f824db70bfa17453242cf5785bee7f72aa279a69047e64da",
+  "cover_sha": "10e52b795d7d8820a5d3ef5e140b8dbc30e8cf824a2acc823f7583091d5552eb",
+  "checks": [
+    {
+      "check": "1. SUBSTANCE FLOOR (RULE -1)",
+      "result": "PASS",
+      "evidence": "Every tailored bullet matches its canonical jamie/resume.json counterpart with all concretes intact. InGenius all 4 verbatim (only reordered: facilitation-600+ leads vs needs-assessment in canonical). NextGen all 4 verbatim. ODN all 3 verbatim. Vestas all 4 verbatim. Kronos all 4 verbatim. No metric/clause/scope-word dropped; {kw|text} markup preserved.",
+      "canonical": "JAMIE_FEEDBACK_RULES.md RULE -1: 'Every concrete in the base bullet must survive into the tailored one.'"
+    },
+    {
+      "check": "2. TRUTH / NO-RELABEL (RULE 0)",
+      "result": "PASS",
+      "evidence": "ODN described as OD consulting (leave-cost audit + NGO leadership focus groups), NOT community/ERG. Skills line identical to canonical (HRIS/ATS/LMS/PM/Data/KM/GenAI) — NO Articulate, Storyline, Captivate, or video-editing added despite this being an L&D role. No Kronos '230+/80+' fabrication (reads '566% in 2 months' + 'top universities', matches canonical). All numbers trace to canonical. '78% client conversion rate' is the canonical InGenius wording AND is justified here because this is a Global Sales role (sales-focused exception in §9).",
+      "canonical": "JAMIE_FEEDBACK_RULES.md §0.7 (only canonical-vocabulary tools), §0.2 (ODN=OD consulting), §9 (78% client-conversion only for sales/product roles)."
+    },
+    {
+      "check": "3. NO CLICHES / NO JD-COPY-PASTE",
+      "result": "PASS",
+      "evidence": "Cover opens in Jamie's own voice ('I believe learning sticks when it is designed around how people actually grow'). No JD phrasing lifted; 'diagnose then design then deliver then measure' is her framing. Summary uses her 3 pillars in her words.",
+      "canonical": "JAMIE_FEEDBACK_RULES.md §0.8: hit the JD's ideas using HER real words, never mirror its vocabulary."
+    },
+    {
+      "check": "4. ODN TWO-PROJECTS not mixed",
+      "result": "PASS",
+      "evidence": "Bullets 1+2 = leave-cost/absenteeism project (300+ cases, $362K, first aid training). Bullet 3 = NGO leadership project (focus groups + 1:1 interviews, decision-making/accountability gaps). No blending across projects.",
+      "canonical": "JAMIE_FEEDBACK_RULES.md §2: 'each bullet must stay within ONE project.'"
+    },
+    {
+      "check": "5. BULLET COUNTS",
+      "result": "PASS",
+      "evidence": "ODN=3, InGenius=4, NextGen=4, Vestas=4, Kronos=4.",
+      "canonical": "JAMIE_FEEDBACK_RULES.md §2: ODN 2-3; all others exactly 4."
+    },
+    {
+      "check": "6. COVER — voice, salutation, honesty, close, bolding, no-visa, header",
+      "result": "PASS",
+      "evidence": "Warm human voice; 'Dear Hiring Team,' present. HONEST about earlier-career: 'I'll be candid that I'm earlier in my career than the posting's 5-year mark, but the depth of L&D craft I've built in the last three years is real' — does NOT claim 5 years. Org-psych scientific-method close present (hypothesis -> intervention -> measure -> iterate). Bolding includes company (Nike), employers (InGenius Prep, NextGen Healthcare) + metrics (600+ participants, 78% enrollment rate, 70+ staff, 75%, 2,000+ employee experiences, $362K) — ~10 bolds. No visa/sponsorship mention. Header 'Beaverton, OR'.",
+      "canonical": "JAMIE_FEEDBACK_RULES.md §6: Dear Hiring Team / org-psych close / numbers-inside-bold / honest disclose-then-bridge."
+    },
+    {
+      "check": "7. HONEST GAP — +2yr stretch handled truthfully",
+      "result": "PASS",
+      "evidence": "Para 1 openly states earlier-career vs 5-year ask, then bridges to genuine L&D depth. Stretch is disclosed, not hidden. Resume changeLog also notes '~3yr vs 5+ ask = honest +2yr stretch, no fabrication.'",
+      "canonical": "JAMIE_FEEDBACK_RULES.md §0.4 + §6: 'Honesty about gaps is mandatory'; disclose-then-bridge."
+    }
+  ],
+  "failures": [],
+  "audited_at": "2026-06-19"
+}

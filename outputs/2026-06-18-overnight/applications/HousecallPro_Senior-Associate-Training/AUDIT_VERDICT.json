@@ -1,0 +1,56 @@
+{
+  "role": "Housecall Pro — Senior Associate, Training",
+  "verdict": "PASS",
+  "resume_sha": "78e6a4ee46595a35f1e36244db8b142fb457b8e18882e2ac162a1ea8b6f3e9b9",
+  "cover_sha": "577141c6b1a2222190ec665cb51df40811e79b13bad9a1b49ffa2a9f1f9f7d67",
+  "checks": [
+    {
+      "check": "1. SUBSTANCE FLOOR (RULE -1) — every tailored bullet retains all concretes of its canonical counterpart",
+      "result": "PASS",
+      "evidence": "Every bullet text in the tailored resume is byte-identical to its canonical counterpart in jamie/resume.json. InGenius was only REORDERED (facilitation bullet lifted to top) — no clause/metric/markup dropped. All concretes survive: InGenius 600+/78%/70+/75%/25+/3-programs/20+/10+; NextGen 2,000+; ODN 300+/$362K; Vestas 12/23/3/1,000+; Kronos 566%. {kw|text} highlight markup fully preserved. This is exactly the failure mode RULE -1 was written to catch (Housecall thinning 2026-06-19) and it is NOT present here.",
+      "canonical_source": "jamie/resume.json experience[*].bullets (all 5 experiences) + RULE -1"
+    },
+    {
+      "check": "2. TRUTH / NO-RELABEL (RULE 0) — every claim traces to canonical; ODN=OD consulting; no invented tools/numbers; no banned Kronos line",
+      "result": "PASS",
+      "evidence": "All bullets trace to canonical resume.json verbatim. ODN described as OD diagnostic consulting (leave-cost audit + NGO decision-making focus groups) — NOT community/ERG. No invented tools: skills block identical to canonical (no Jira/Articulate). No fabricated numbers. The banned '230+/80+/top-3-univ' Kronos composite is ABSENT (Kronos bullets are the 4 canonical ones, incl. real 566%). Cover claims all sourced.",
+      "canonical_source": "jamie/resume.json + JAMIE_FEEDBACK_RULES.md §0, §0.7"
+    },
+    {
+      "check": "3. NO CLICHÉS / NO JD-COPY-PASTE — Jamie's real words, not lifted JD phrasing or AI clichés",
+      "result": "PASS",
+      "evidence": "Cover opens with a genuine belief sentence ('the best training does two things at once...'), uses warm first-person voice ('I'd rather measure whether a program worked than assume it did'), no generic AI clichés ('drove strategic transformation' etc.) and no verbatim JD vocabulary dumps. Resume summary re-angles the canonical L&D framing in her own words.",
+      "canonical_source": "JAMIE_FEEDBACK_RULES.md §0.8"
+    },
+    {
+      "check": "4. ODN TWO-PROJECTS not mixed in one bullet",
+      "result": "PASS",
+      "evidence": "ODN bullet 1 (upskill HR / audit 300+ leave cases) and bullet 2 ($362K leave costs / policy redesigns) = Project 1 (leave-cost diagnosis). Bullet 3 (focus groups + 1:1 interviews with NGO leadership re: decision-making/accountability) = Project 2. No bullet blends the two projects. Identical to canonical separation.",
+      "canonical_source": "jamie/resume.json odn.bullets + §2 ODN-two-projects rule"
+    },
+    {
+      "check": "5. BULLET COUNTS — ODN 2-3, every other experience exactly 4",
+      "result": "PASS",
+      "evidence": "ODN = 3 bullets; InGenius = 4; NextGen = 4; Vestas = 4; Kronos = 4. Matches the fixed-count rule exactly.",
+      "canonical_source": "JAMIE_FEEDBACK_RULES.md §2 bullet-count table"
+    },
+    {
+      "check": "6. COVER — warm/human voice; 'Dear Hiring Team,'; org-psych scientific-method close; keyword bolding incl company + metric; no relocation over-promise; no visa mention",
+      "result": "PASS",
+      "evidence": "Salutation 'Dear Hiring Team,' present. Voice warm + human. Final para = explicit scientific-method/experiment close ('form a clear hypothesis, build the program, test it with the people closest to the work, and let the results shape the next version'). Bolds include company (**Housecall Pro**), employers (**InGenius Prep**/**NextGen Healthcare**/**ODN Oregon**), and metrics-with-number-inside-bold (**600+ participants**, **78% program enrollment rate**, **cut onboarding time by 75%**, **2,000+ employee experiences**, **$362K in leave costs**). No relocation over-commitment, no 'applied N days ago', no visa/sponsorship mention.",
+      "canonical_source": "JAMIE_FEEDBACK_RULES.md §6 + §9 cover-letter checklist"
+    },
+    {
+      "check": "7. HONEST GAP — role needs not papered over with JD vocabulary",
+      "result": "PASS",
+      "evidence": "Jamie genuinely owns both facilitation (600+ webinars) and development (guides/workflows/content) of training at InGenius, plus needs assessments — this is real, sourced overlap with a Training role, so no gap is being papered over. No fabricated 'instructional design' tooling or LMS-admin over-claim was inserted to fake a fit.",
+      "canonical_source": "jamie/resume.json ingenius.bullets + §0.4 honest-gap rule"
+    }
+  ],
+  "failures": [],
+  "notes": [
+    "MINOR (not a failure): summary tail reads 'through human-centered, data-driven approaches' vs §1's nominal fixed tail 'evidence-based approaches' — but this matches the master-resume canonical variant and 'data-driven' appears in the §1 model text itself; no substance lost.",
+    "MINOR (not a failure): InGenius bullet 1 keeps canonical phrasing '78% client conversion rate' while the cover uses the §9-default '78% program enrollment rate'. The resume matches its canonical source verbatim (substance floor satisfied); the cover uses the safer default. Both trace to the same real 78% figure. A tidy-up to align the resume to 'enrollment rate' for this non-sales Training role would be ideal but is not a quality/truth violation."
+  ],
+  "audited_at": "2026-06-19"
+}
