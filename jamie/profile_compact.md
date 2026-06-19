@@ -7,6 +7,12 @@
 - MS Applied Org Psych, USC (3.95) | BA Wesleyan (4.00)
 - ~3 years: OD consulting, program management, HRBP, HR internships
 - Requires H1B sponsorship or cap-exempt employer
+- **H-1B status (precise, from canonical resume desc 2026-06-18):** Jamie is on ACTIVE H-1B — already
+  cap-selected with her current employer, so a new role needs a **TRANSFER ONLY (no new cap lottery)**.
+  Current visa valid to **10/10/2027**; with her full 3-year extension she can work on H-1B until **~late 2030**.
+  Previously held an EAD during F-1 OPT (no active EAD now). → On forms, "requires sponsorship = Yes" is
+  truthful, but the stronger/accurate framing for recruiters is **"H-1B transfer only, already cap-selected,
+  authorized through 2030"** — surface this when a sponsorship/work-auth question allows a note.
 - Location: Portland OR | Open to: Remote US, Seattle
 
 ## Hard Rejects — RECALIBRATED 2026-06-12 (only 3 are TRUE hard blockers)
