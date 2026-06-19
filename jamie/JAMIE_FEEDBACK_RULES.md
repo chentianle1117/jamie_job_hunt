@@ -77,6 +77,18 @@ resume, truthful sponsorship=Yes, screenshot-review before Submit, write SUBMITT
    pipeline moving is never acceptable.
 6. **Banned-content list still applies** (see §2): the "$340K / 17 launches" composite is hallucinated —
    never use it. Default metric is "78% program enrollment rate."
+7. **NEVER invent a skill/tool/claim to match a JD (Jamie 2026-06-18).** Tailoring = surfacing what Jamie
+   *truly has* in the canonical files, re-angled toward the role. It is NOT adding anything to hit a JD
+   keyword. Concrete instance: **Jira was added to a resume — Jamie has NEVER used Jira. Remove it; never
+   add it.** The rule is general: if the JD names a tool/skill/experience Jamie doesn't have in
+   `resume.md`/`content_library.md`, you LEAVE IT OUT. Do not invent a new line, bullet, or skill to satisfy
+   a JD. Adding anything new requires asking Jamie first — every time.
+8. **NO clichés, NO JD-copy-paste (Jamie 2026-06-18 — applies to summary, bullets, cover, outreach).**
+   Do not lift the JD's phrasing and paste it into Jamie's materials, and do not use clichés. That is lazy,
+   fake-sounding tailoring and Jamie can spot it instantly. Instead: look at what Jamie *actually* has in the
+   canonical source and **gracefully adapt it** toward the role in her own voice. Hit the JD's underlying
+   IDEAS using HER real words — never mirror its vocabulary to seem like a fit. Truth + her voice over
+   surface keyword-matching, always.
 
 ### The fact-check gate (HARD — every agent and the orchestrator must run it)
 Before ANY resume / cover letter / outreach / essay / form-answer is written to disk or shown to Jamie,
@@ -369,6 +381,10 @@ Audit agents MUST verify ALL of these and flag any failure.
 - [ ] Every claim in resume/cover/outreach/essays is sourced to `resume.md` / `content_library.md` / `profile_compact.md`
 - [ ] No experience is mislabeled (ODN = OD diagnostic consulting, NOT community/ERG/network-building)
 - [ ] No invented relationships, activities, team management, or metrics
+- [ ] **No invented skill/tool** added to match the JD (§0.7). Jira is BANNED (Jamie never used it); grep the
+      resume/cover for any tool NOT in `content_library.md` skills — if present and unsourced, remove it.
+- [ ] **No clichés, no JD-phrasing copy-pasted** (§0.8). Read the summary/bullets/cover: does any line mirror
+      the JD's vocabulary or read as a cliché? If yes, rewrite in Jamie's real words from the canonical source.
 - [ ] Gaps vs the JD's core are disclosed to Jamie, not hidden behind JD keywords
 - [ ] Orchestrator has READ the actual output (not just trusted the agent) and checked it against source
 
