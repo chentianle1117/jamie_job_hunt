@@ -1,7 +1,7 @@
 {
  "meta": {
-  "company": "Housecall Pro",
-  "role": "Senior Associate, Training",
+  "company": "Xenium HR",
+  "role": "Employee Experience Representative",
   "date": "2026-06-19",
   "pageMargins": {
    "top": "0.35in",
@@ -16,9 +16,9 @@
   ]
  },
  "header": {
-  "location": "Portland, OR (Open to Remote)"
+  "location": "Portland, OR"
  },
- "summary": "I'm Jamie\u2014a curious, people-loving (97% extrovert!) <b>Learning &amp; Development</b> professional who thrives on <b>developing training grounded in evidence</b>, <b>solving problems through data analysis</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can <b>improve how people learn and grow</b>\u2014through human-centered, data-driven approaches.",
+ "summary": "I'm Jamie\u2014a curious, people-loving (97% extrovert!) <b>People Operations &amp; Employee Experience</b> professional who thrives on <b>developing programs grounded in evidence</b>, <b>solving problems through data analysis</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can <b>make every employee feel supported</b>\u2014through human-centered, data-driven approaches.",
  "keywordGroups": {
   "data": "Data/Analytics",
   "coord": "Coordination/Ops",
@@ -37,13 +37,13 @@
    "workSampleUrl": null,
    "bullets": [
     {
-     "text": "Facilitate training webinars for 600+ participants, enhancing {prog|program understanding} and driving a 78% program enrollment rate"
+     "text": "Conduct needs assessments with 25+ global {cross|stakeholders} to identify learning gaps and design 3 new {prog|programs}"
     },
     {
      "text": "Develop guides and workflows for 70+ {cross|cross-functional} staff, improving program knowledge and reducing onboarding time by 75%"
     },
     {
-     "text": "Conduct needs assessments with 25+ global {cross|stakeholders} to identify learning gaps and design 3 new {prog|programs}"
+     "text": "Facilitate training webinars for 600+ participants, enhancing {prog|program understanding} and driving a 78% program enrollment rate"
     },
     {
      "text": "Manage 20+ {prog|programs} and 10+ vendors, refining program positioning, delivery strategy, and operations via {data|feedback analysis}"
@@ -59,16 +59,16 @@
    "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
    "bullets": [
     {
-     "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed engagement strategies"
-    },
-    {
-     "text": "Analyzed 2,000+ employee experiences to amplify employee voice and guide C-suite decisions on satisfaction drivers"
-    },
-    {
-     "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review"
+     "text": "Analyzed 2,000+ {ex|employee experiences} to amplify employee voice and guide C-suite decisions on satisfaction drivers"
     },
     {
      "text": "Improved {ex|employee experience} via 5 {cross|cross-functional} projects focusing on survey development, rewards & recognition, and L&D"
+    },
+    {
+     "text": "Led a manager effectiveness initiative, transforming {data|feedback data} into actionable reports that informed engagement strategies"
+    },
+    {
+     "text": "Provided consultations to improve strategic plans and internal training on DEI, Inclusive Leadership, and performance review"
     }
    ]
   },
@@ -122,13 +122,13 @@
    "workSampleUrl": null,
    "bullets": [
     {
+     "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months"
+    },
+    {
      "text": "Developed proficiency across various HR functions, ranging from recruitment and compensation to performance management"
     },
     {
      "text": "Filled a challenging international role by drafting job descriptions, posting openings, and researching global compensation details"
-    },
-    {
-     "text": "Engaged global talent via personalized communication and customer service, increasing applications by 566% in 2 months"
     },
     {
      "text": "Organized campus recruiting events and moderated panels with C-suite executives at top universities to attract talent"
@@ -167,13 +167,13 @@
   "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
  ],
  "jd": {
-  "company": "Housecall Pro",
-  "role": "Senior Associate, Training"
+  "company": "Xenium HR",
+  "role": "Employee Experience Representative"
  },
  "changeLog": [
   {
    "date": "2026-06-19",
-   "note": "Tailored for Housecall Pro Senior Associate, Training \u2014 re-angled summary noun to L&D, lifted training/facilitation bullet to top of InGenius, added Zoom/Webinars to facilitation skills. No metrics dropped; all bullets kept at count."
+   "note": "Tailored for Xenium HR Employee Experience Representative (Tualatin PEO, hybrid) \u2014 re-angled summary noun to People Operations & Employee Experience (kept 3 pillars), header to Portland, OR (metro-local). Reordered InGenius to lead with first-point-of-contact staff support + meticulous tracking; NextGen to lead with 2,000+ employee-experience analysis; surfaced Kronos customer-service/566% and ODN HR leave/data-accuracy relevance via existing bullets. No metrics dropped; ODN at 3, all others at 4."
   }
  ]
 }

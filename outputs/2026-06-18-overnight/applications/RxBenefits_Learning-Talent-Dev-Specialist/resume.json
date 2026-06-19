@@ -1,7 +1,7 @@
 {
  "meta": {
-  "company": "Housecall Pro",
-  "role": "Senior Associate, Training",
+  "company": "RxBenefits",
+  "role": "Learning and Talent Development Specialist",
   "date": "2026-06-19",
   "pageMargins": {
    "top": "0.35in",
@@ -18,7 +18,7 @@
  "header": {
   "location": "Portland, OR (Open to Remote)"
  },
- "summary": "I'm Jamie\u2014a curious, people-loving (97% extrovert!) <b>Learning &amp; Development</b> professional who thrives on <b>developing training grounded in evidence</b>, <b>solving problems through data analysis</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can <b>improve how people learn and grow</b>\u2014through human-centered, data-driven approaches.",
+ "summary": "I'm Jamie\u2014a curious, people-loving (97% extrovert!) <b>Learning &amp; Talent Development</b> professional who thrives on <b>designing and delivering training grounded in evidence</b>, <b>solving problems through data analysis</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can <b>improve how people learn and grow</b>\u2014through human-centered, data-driven approaches.",
  "keywordGroups": {
   "data": "Data/Analytics",
   "coord": "Coordination/Ops",
@@ -167,13 +167,13 @@
   "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
  ],
  "jd": {
-  "company": "Housecall Pro",
-  "role": "Senior Associate, Training"
+  "company": "RxBenefits",
+  "role": "Learning and Talent Development Specialist"
  },
  "changeLog": [
   {
    "date": "2026-06-19",
-   "note": "Tailored for Housecall Pro Senior Associate, Training \u2014 re-angled summary noun to L&D, lifted training/facilitation bullet to top of InGenius, added Zoom/Webinars to facilitation skills. No metrics dropped; all bullets kept at count."
+   "note": "Tailored for RxBenefits Learning and Talent Development Specialist \u2014 re-angled summary noun to Learning & Talent Development + design/deliver framing; InGenius b1 now 'Design and deliver training', b4 'simultaneous programs' (PM-multiple cue); ODN 'Organization & Talent Development' title surfaces talent-dev; NextGen L&D + adult-learning coursework + Canva/InDesign content-creation tools all retained. No metrics dropped; ODN 3 bullets, rest 4. Video editing NOT claimed (Jamie lacks it)."
   }
  ]
 }

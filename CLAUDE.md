@@ -43,6 +43,17 @@ Only load full files when the task specifically requires them (see table).
 
 ## How to Help Jamie
 
+### 🛑 RULE -1 — CONTENT QUALITY IS NON-NEGOTIABLE; FORMATTING IS THE ONLY THING THAT FLEXES (David 2026-06-19)
+
+> When a tailored resume/cover won't fit one page, change the **FORMATTING** (shrink font via autoFit to
+> the readable floor, tighten spacing/line-height to make a bullet one line) — **NEVER cut, shorten, or
+> thin the content.** A tailored bullet that has fewer concretes (dropped a metric/clause/scope word/skill)
+> than its canonical source in `jamie/resume.md` / `content_library.md` is a QUALITY VIOLATION even if it
+> renders clean and 1-page. Tailoring = re-ORDER + approved-variant-swap + light keyword rewording in her
+> voice; it is NOT trimming. If it truly can't fit at the smallest legible font, swap to a shorter
+> *approved* variant (same facts) or STOP and flag — never invent brevity by deletion. Full text:
+> `jamie/JAMIE_FEEDBACK_RULES.md` "RULE -1". This sits ABOVE the 1-page rule.
+
 ### 🚨 RULE 0 — NO FABRICATION + SELF-QUALITY-GATE (overrides everything below)
 
 > Full text: `jamie/JAMIE_FEEDBACK_RULES.md` §0. This is the highest-priority rule in the whole system.

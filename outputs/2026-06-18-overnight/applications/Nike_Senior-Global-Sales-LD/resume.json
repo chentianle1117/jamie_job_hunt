@@ -1,7 +1,7 @@
 {
  "meta": {
-  "company": "Housecall Pro",
-  "role": "Senior Associate, Training",
+  "company": "Nike",
+  "role": "Senior, Global Sales, Learning & Development",
   "date": "2026-06-19",
   "pageMargins": {
    "top": "0.35in",
@@ -16,7 +16,7 @@
   ]
  },
  "header": {
-  "location": "Portland, OR (Open to Remote)"
+  "location": "Beaverton, OR"
  },
  "summary": "I'm Jamie\u2014a curious, people-loving (97% extrovert!) <b>Learning &amp; Development</b> professional who thrives on <b>developing training grounded in evidence</b>, <b>solving problems through data analysis</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can <b>improve how people learn and grow</b>\u2014through human-centered, data-driven approaches.",
  "keywordGroups": {
@@ -167,13 +167,13 @@
   "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
  ],
  "jd": {
-  "company": "Housecall Pro",
-  "role": "Senior Associate, Training"
+  "company": "Nike",
+  "role": "Senior, Global Sales, Learning & Development"
  },
  "changeLog": [
   {
    "date": "2026-06-19",
-   "note": "Tailored for Housecall Pro Senior Associate, Training \u2014 re-angled summary noun to L&D, lifted training/facilitation bullet to top of InGenius, added Zoom/Webinars to facilitation skills. No metrics dropped; all bullets kept at count."
+   "note": "Tailored for Nike Senior, Global Sales, Learning & Development \u2014 company/role/date updated, header set to Beaverton, OR. Summary noun = Learning & Development. InGenius leads with facilitation (600+ participants) + training-content development bullets; NextGen surfaces internal L&D training + 5 cross-functional projects incl. L&D; Vestas surfaces Inclusive Leadership workshop; Wesleyan Learning & Motivation coursework retained. ODN kept at 3 bullets, all others at 4; all metrics preserved. autoFit on. ~3yr vs 5+ ask = honest +2yr stretch, no fabrication."
   }
  ]
 }

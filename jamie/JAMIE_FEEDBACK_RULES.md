@@ -30,6 +30,37 @@ Claude-in-Chrome (browser MCP) for custom dropdowns / account / iframe forms** w
 fail. Don't give up at the same quality bar. Quality gates below still bind (no fabrication, tailored
 resume, truthful sponsorship=Yes, screenshot-review before Submit, write SUBMITTED.json + confirmation).
 
+## 🛑 RULE -1 — CONTENT QUALITY IS NON-NEGOTIABLE; FORMATTING IS THE ONLY THING THAT FLEXES (David, 2026-06-19, HIGHEST PRIORITY)
+
+> **There is NO negotiation on content quality. Ever.** When a tailored resume/cover doesn't fit one
+> page, you change the FORMATTING — never the content. This sits ABOVE the 1-page rule: the page
+> constraint is satisfied by shrinking type and tightening spacing, NOT by cutting words.
+
+**The variable is always formatting, never substance:**
+- ✅ Shrink the font (autoFit down to the readable floor ~8.2pt), tighten line-height / job-margins,
+  reduce inter-section spacing — whatever makes a bullet fit on one line.
+- ❌ NEVER shorten a bullet, drop a clause, remove a metric, delete a bullet, or "tighten wording"
+  in a way that loses any concrete (positioning/operations/scope/number/skill). A shorter, barer
+  bullet than the canonical source = a QUALITY VIOLATION, even if it still reads fine.
+- The canonical bullets in `resume.md` / `content_library.md` are the **floor for substance**.
+  Tailoring = re-ORDER for relevance + swap to an approved variant + light keyword rewording in
+  Jamie's voice. It is NOT trimming. Every concrete in the base bullet must survive into the tailored one.
+- If it genuinely cannot fit even at the smallest legible font: that's a real signal to swap to a more
+  concise *approved variant* (same facts, fewer words, from content_library) — still never to invent
+  brevity by deletion. If no such variant exists, STOP and flag, don't thin.
+
+**The failure that created this rule (2026-06-19):** tailoring Housecall + 4 others, I shortened the
+InGenius bullets to win the 1-page fight — e.g. dropped "positioning, and operations" and "improving
+program knowledge" and "enhancing program understanding," and stripped the `{kw|text}` highlight markup.
+The render *looked* clean and 1-page, but it had quietly thinned Jamie's strongest experience. David
+caught it on sight. The fix: restore the full canonical bullets + markup, re-order only, let autoFit
+shrink the type. This extends the existing no-content-thinning doctrine, now elevated to the top:
+**formatting bends to fit content; content never bends to fit formatting.**
+
+**Auditor gate:** before any render is accepted, diff each tailored bullet against its canonical source —
+if the tailored version has FEWER concretes (dropped a metric/clause/scope word) than the base, it FAILS,
+regardless of 1-page status.
+
 ## 📍 DISCOVERY PRIORITY #1 — PORTLAND-LOCAL OR REMOTE (David, 2026-06-15, STANDING)
 
 > When searching for NEW roles, **Portland-local (Portland/Beaverton/Hillsboro/Vancouver WA metro) OR
