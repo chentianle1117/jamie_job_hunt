@@ -101,12 +101,9 @@
 
 ## 🔧 Skills & Tools
 
-- **HRIS/ATS:** Greenhouse
-- **LMS:** Canvas, Moodle
-- **Analytics:** SPSS, Excel (advanced), data visualization
-- **PM Tools:** Airtable, Asana, Jira, MS Office Suite
+- **Technical Skills:** HRIS (Rippling, ADP, SAP) · ATS (Greenhouse) · LMS (Canvas, Moodle) · Project Management (Asana, Airtable) · Data Analysis (Google Sheets, Excel, SPSS) · Knowledge Management (Notion, SharePoint) · Google Workspace · Microsoft Office (Word, PowerPoint) · Design Tools (Canva, Adobe InDesign) · GenAI Tools (ChatGPT, Gemini, Claude)
 - **Languages:** English (fluent), Mandarin Chinese (native), Spanish (basic)
-- **Certifications:** HRCI certification in progress
+- **Certifications:** HRCI Human Resource Associate Certificate (in progress)
 
 ---
 

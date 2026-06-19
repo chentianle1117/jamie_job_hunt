@@ -187,15 +187,24 @@ Use the exact JD phrasing when Jamie genuinely did the thing. Never invent; thes
 
 | Experience | Bullet count | Notes |
 |---|---|---|
-| ODN Oregon (Organization Development Network) | **2-4 bullets** | TWO separate projects (see below) — may use 3-4 if both projects need coverage. |
-| InGenius Prep (Program Enablement Manager) | **exactly 4** | |
-| NextGen Healthcare | **exactly 4** | NEVER delete bullets to save space |
-| Vestas Wind Systems | **exactly 4** | |
-| Kronos Research | **exactly 4** | |
+| ODN Oregon (Organization Development Network) | **3 canonical (default); 2-4 range** | TWO separate projects (default = cover both: ~2 from one + 1 from the other). Drop to 2 only if one isn't JD-relevant; a 4th is an optional/stretch add. SELECT from the real variants in `content_library.md` — never invent. **For non-OD/HR/consulting roles, DEMOTE ODN to a Projects bullet — see §2.1; NEVER remove it entirely.** |
+| InGenius Prep (Program Enablement Manager) | **exactly 4** | 20+ real variants in content_library — swap freely. |
+| NextGen Healthcare | **exactly 4 (use the 4 that exist)** | ⚠️ content_library has EXACTLY 4 real bullets, no spare variants. Use all 4; REWORD lightly for JD keywords (truthfully), but you CANNOT "swap for a more relevant variant" — there are none. Do NOT invent a 5th to swap in. |
+| Vestas Wind Systems | **exactly 4** | 5 core + alternative framings exist — swap freely. |
+| Kronos Research | **exactly 4 (use the 4 that exist)** | ⚠️ EXACTLY 4 real bullets, no spares — same as NextGen: reword, don't swap, don't invent. |
 
-**HARD RULE:** Never drop a bullet point to fit the page. Always 4 for every experience except ODN.
+**HARD RULE:** Never drop a bullet to fit the page. Always 4 for every experience except ODN (3 default).
 If space is tight, tighten wording — do NOT delete bullets.
-**Only SWAP a bullet** when you have a more JD-relevant variant from `content_library.md`. Swapping ≠ deleting.
+**SWAP a bullet** for a more JD-relevant variant ONLY where variants exist (InGenius, Vestas). For NextGen &
+Kronos there are exactly 4 and no alternates — use them as-is, reword lightly, never invent a replacement (§0).
+
+### 2.1 ⭐ ODN PLACEMENT — demote to Projects for non-OD roles (Jamie 2026-06-18, NEVER remove)
+ODN is OD diagnostic consulting. For roles that are **NOT OD / HR / consulting-relevant** (e.g. a pure
+education-counseling or advising role with no people/consulting capacity), do NOT keep ODN as a full
+Experience entry AND do NOT delete it — **DEMOTE it to a one-line Projects entry** (the worst case is a
+Projects bullet; removal is never allowed). For OD/HR/People/consulting-relevant roles, keep ODN as a full
+Experience entry at the top (most-recent). When unsure whether the role is OD-relevant enough, keep it in
+Experience. (No template for the demoted form existed as of 2026-06-18 — build one when first needed.)
 
 ### ⭐ BULLET REORDERING BY RELEVANCE (Jamie feedback 2026-05-29 — all future resumes)
 Within each experience, **lead with the most JD-relevant bullet.** E.g. for People/EX roles, put

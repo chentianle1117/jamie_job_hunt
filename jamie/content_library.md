@@ -65,12 +65,14 @@ Drop "97% extrovert!" only for traditional consulting firms (Mercer, Deloitte, e
 > Only add JD-gated tools when the JD names them.
 
 ```
-HR Systems: HRIS (SAP, Rippling, ADP) · ATS (Greenhouse) · LMS (Canvas, Moodle)
-Data & PM Tools: Data Analysis (Excel, Google Sheets, SPSS) · Project Management (Asana, Airtable) · CRM (HubSpot)
-Productivity: Knowledge Management (SharePoint, Notion) · AI Tools (ChatGPT, Gemini) · Microsoft Office (Word, PowerPoint)
+Technical Skills: HRIS (Rippling, ADP, SAP) · ATS (Greenhouse) · LMS (Canvas, Moodle) · Project Management (Asana, Airtable) · Data Analysis (Google Sheets, Excel, SPSS) · Knowledge Management (Notion, SharePoint) · Google Workspace · Microsoft Office (Word, PowerPoint) · Design Tools (Canva, Adobe InDesign) · GenAI Tools (ChatGPT, Gemini, Claude)
 Languages: English (fluent) · Mandarin Chinese (native) · Spanish (basic)
 Certifications: HRCI Human Resource Associate Certificate (in progress)
 ```
+> ⭐ The line above is Jamie's CANONICAL skills vocabulary (confirmed 2026-06-18) AND the exact one-line format
+> she wants rendered. It is the complete allow-list (§0.7): anything not in it does NOT go on a resume without
+> asking Jamie. HubSpot/CRM from older drafts is NOT canonical — JD-gated + Jamie-confirm only. Jira is NOT
+> hers — removed everywhere.
 
 ### Always list (foundational — regardless of JD):
 - Microsoft Office (Word, PowerPoint, Excel)
