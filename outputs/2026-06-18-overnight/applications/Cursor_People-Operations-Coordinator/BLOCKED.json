@@ -1,0 +1,27 @@
+{
+  "company": "Cursor (Anysphere)",
+  "role": "People Operations Coordinator",
+  "ats": "Ashby",
+  "form_url": "https://jobs.ashbyhq.com/cursor/db8e4abb-aa17-44cb-8d72-156f0d400641",
+  "status": "BLOCKED",
+  "reason": "posting-delisted",
+  "detail": "The Ashby apply page returns 'Page not found' on both the job-detail URL and the /application sub-route. The live Cursor Ashby board root (jobs.ashbyhq.com/cursor) does NOT list this role (0 matching links/elements). The Ashby posting-api cache still reports isListed:true for this exact id (db8e4abb-aa17-44cb-8d72-156f0d400641) and returns it among 103 jobs, but the rendered board has already pulled it — classic stale-API false-positive. No alternate live posting id exists for this title. Per zero-degradation doctrine, did NOT substitute a different Cursor role.",
+  "verified": {
+    "api_isListed": true,
+    "api_jobUrl": "https://jobs.ashbyhq.com/cursor/db8e4abb-aa17-44cb-8d72-156f0d400641",
+    "rendered_detail_page": "Page not found",
+    "rendered_application_route": "Page not found (0 form fields after reload)",
+    "board_root_lists_role": false
+  },
+  "tailored_files_ready": {
+    "resume_pdf": "resume.pdf (89001 bytes, tailored for this role)",
+    "cover_letter_pdf": "cover_letter.pdf (49598 bytes)",
+    "form_fields_json": "created (Ashby nested schema: meta/personal/links/demographics)"
+  },
+  "screenshots": [
+    "screenshots/diag_landing.png",
+    "screenshots/blocked_page_not_found.png"
+  ],
+  "checked_at": "2026-06-18T23:30:00-07:00",
+  "recommendation": "Re-check in a few days; if the role re-lists with a new id, the tailored package + form_fields.json are ready to resubmit. Sibling live Cursor People roles seen in API: HRBP/GTM, HRBP/Core Business, Recruiting Coordinator, Technical Recruiter (different roles — not auto-substituted)."
+}

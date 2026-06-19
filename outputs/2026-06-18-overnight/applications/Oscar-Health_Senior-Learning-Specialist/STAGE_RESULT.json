@@ -1,0 +1,29 @@
+{
+  "role_dir": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-18-overnight\\applications\\Oscar-Health_Senior-Learning-Specialist",
+  "company": "Oscar Health",
+  "role": "Senior Learning Specialist",
+  "ats": "greenhouse",
+  "lane_ats": "greenhouse",
+  "form_url": "http://www.hioscar.com/careers/7927693?gh_jid=7927693",
+  "staged_at": "2026-06-18T23:15:01",
+  "submit_port": 9400,
+  "contact": {
+    "first_name": null,
+    "last_name": null,
+    "email": null,
+    "phone": null
+  },
+  "uploads": {
+    "resume": null,
+    "cover_letter": null
+  },
+  "combos": [],
+  "captcha": {
+    "present": false,
+    "interactive_visible": false
+  },
+  "screenshot": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-18-overnight\\applications\\Oscar-Health_Senior-Learning-Specialist\\_v2_stage_review.png",
+  "final_url": "https://www.hioscar.com/careers/7927693?gh_jid=7927693",
+  "lane": "AUTO-SUBMITTABLE (no captcha detected)",
+  "human_next": "No captcha detected — submit_runner.py can submit this after the pre-submit gate review, or click Submit in the staged tab."
+}

@@ -1,0 +1,13 @@
+{
+  "company": "Modal Labs",
+  "role": "People Operations Generalist",
+  "ats": "Ashby",
+  "form_url": "https://jobs.ashbyhq.com/modal/17eba4cc-3a50-4f6e-b55b-bf20180091f2/application",
+  "status": "blocked-eligibility",
+  "blocked_at": "2026-06-18",
+  "reason": "Role is On-site, New York, 5x/week (shown on form: Location Type = On-site, Location = New York). The first REQUIRED screener question is 'Are you excited and able to work from our NYC office 5x/week?'. Jamie is Portland, OR based; truthful answer is 'No'. Submitting 'No' to a required on-site screener = guaranteed auto-reject; answering 'Yes' would be fabrication (violates RULE 0 no-fabrication). This on-site-5x/week NYC requirement was NOT in the JD summary (job.json) — surfaced only on the application form.",
+  "captcha_note": "Form carries an INVISIBLE reCAPTCHA v3 badge (size=invisible, self-clearing) — NOT an interactive/physical CAPTCHA, so not the blocker. The repo submitter's captcha detector is over-broad and false-flags invisible v3 as HUMAN-SUBMIT; the real blocker is the on-site eligibility screener.",
+  "form_structure": "Ashby anonymous form at /application. Fields: Name (single field), Email, Resume (file upload, NO cover-letter field), then 2 required yes/no screeners (NYC 5x/week on-site; 2+ yrs People Ops exp). Submit Application button. Compensation $115K-145K + equity.",
+  "resume_uploaded_filename": "resume.pdf",
+  "screenshot": "screenshots/03_pre_submit.png"
+}

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "company": "",
-    "role": "",
-    "date": "",
+    "company": "Oscar Health",
+    "role": "Senior Learning Specialist",
+    "date": "2026-06-18",
     "pageMargins": {
       "top": "0.35in",
       "right": "0.45in",
@@ -18,7 +18,7 @@
   "header": {
     "location": "Portland, OR (Open to Remote or Relocation)"
   },
-  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Organizational Development</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can improve the people experience—through human-centered, evidence-based approaches.",
+  "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>Learning & Development</b> professional who thrives on <b>solving problems through data analysis</b>, <b>developing programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can <b>support learning and development</b>—through human-centered, evidence-based approaches.",
   "keywordGroups": {
     "data": "Data/Analytics",
     "coord": "Coordination/Ops",
@@ -59,7 +59,7 @@
           "text": "Conduct needs assessments with 25+ global {cross|stakeholders} to identify learning gaps and design 3 new educational programs"
         },
         {
-          "text": "Develop guides and workflows for 70+ {cross|cross-functional} staff, improving program knowledge and reducing onboarding time by 75%"
+          "text": "Develop training guides and workflows for 70+ {cross|cross-functional} staff, reducing onboarding time by 75%"
         },
         {
           "text": "Facilitate training webinars for 600+ participants, enhancing {prog|program understanding} and driving a 78% client conversion rate"

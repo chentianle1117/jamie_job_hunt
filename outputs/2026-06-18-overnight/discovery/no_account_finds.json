@@ -1,0 +1,15 @@
+{
+  "source": "ATS public-API sweep (Greenhouse/Lever/Ashby) for no-account auto-submittable at-level People/L&D roles. ~70 boards scanned.",
+  "market_note": "NO-ACCOUNT at-level People/L&D is genuinely THIN this week — most hits were dedup'd (Notion/Sierra/Vanta/Crusoe/etc) or too senior (Gamma 9yr, OpenAI HRBP 10yr, Cohere Sr HRBP, Oscar Director TM). 8 real keepers, all API-confirmed-active this run.",
+  "building": [
+    {"company":"Oscar Health","title":"Senior Learning Specialist","location":"New York, NY","apply_url":"http://www.hioscar.com/careers/7927693?gh_jid=7927693","ats":"greenhouse","yoe":"~2yr","fit":"P1","why":"True L&D specialist, health-tech sponsor, at-level — STRONGEST"},
+    {"company":"Modal Labs","title":"People Operations Generalist","location":"New York","apply_url":"https://jobs.ashbyhq.com/modal/17eba4cc-3a50-4f6e-b55b-bf20180091f2","ats":"ashby","yoe":"~2yr","fit":"P1","why":"clean generalist scope, at-level"},
+    {"company":"Cursor (Anysphere)","title":"People Operations Coordinator","location":"San Francisco (in-person)","apply_url":"https://jobs.ashbyhq.com/cursor/db8e4abb-aa17-44cb-8d72-156f0d400641","ats":"ashby","yoe":"~3yr","fit":"P1b","why":"at-level coordinator; SF in-person (relocation flag)"}
+  ],
+  "queued_backup": [
+    {"company":"Oscar Health","title":"Senior Learning Specialist","location":"Atlanta, GA","apply_url":"http://www.hioscar.com/careers/7961317?gh_jid=7961317","ats":"greenhouse","note":"same role alt location"},
+    {"company":"Oscar Health","title":"Senior Learning Specialist","location":"Tempe, AZ","apply_url":"http://www.hioscar.com/careers/7961312?gh_jid=7961312","ats":"greenhouse","note":"same role alt location"},
+    {"company":"Lattice","title":"Senior People Operations Specialist","location":"San Francisco / New York","apply_url":"https://lattice.com/job?gh_jid=8572148002","ats":"greenhouse","yoe":"~5yr (cap-ok)","fit":"P2","note":"operational-leaning (benefits/reporting/audit) — weaker fit, backup"},
+    {"company":"Cursor (Anysphere)","title":"HRBP, GTM","location":"New York","apply_url":"https://jobs.ashbyhq.com/cursor/736ebf73-beb1-417f-87a3-a74176399ba6","ats":"ashby","yoe":"~3-4yr","fit":"P2","note":"HRBP at small flat org — backup"}
+  ]
+}

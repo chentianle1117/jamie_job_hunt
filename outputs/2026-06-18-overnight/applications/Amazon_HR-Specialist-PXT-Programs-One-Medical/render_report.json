@@ -1,0 +1,13 @@
+{
+  "role_id": "Amazon_HR-Specialist-PXT-Programs-One-Medical",
+  "resume_pages": 1,
+  "cover_pages": 1,
+  "resume_size_bytes": 88979,
+  "cover_size_bytes": 50963,
+  "resume_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-18-overnight\\applications\\Amazon_HR-Specialist-PXT-Programs-One-Medical\\resume.pdf",
+  "cover_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-18-overnight\\applications\\Amazon_HR-Specialist-PXT-Programs-One-Medical\\cover_letter.pdf",
+  "rendered_at": "2026-06-19T06:05:29.740115Z",
+  "warnings": [
+    "autofit: resume fit to 1 page at font_scale=0.97 (content preserved, type shrunk)"
+  ]
+}

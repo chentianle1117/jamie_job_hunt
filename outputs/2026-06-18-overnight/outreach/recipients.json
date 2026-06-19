@@ -1,0 +1,19 @@
+{
+  "note": "Recipients verified CURRENT via Jamie's authed LinkedIn (Step-0 method). Only for SURVIVING roles. DRAFTS ONLY — Jamie reviews before any send.",
+  "OHSU_Research-Project-Coordinator": {
+    "role_survives": true,
+    "company_linkedin_method": "people search 'OHSU ORPRN research' on authed feed",
+    "recipients": [
+      {"name": "Mari Tasche, MPH", "title": "Research Project Coordinator — Oregon Rural Practice-based Research Network (ORPRN)", "url": "https://www.linkedin.com/in/mari-tasche-mph-099219a0/", "category": "peer-teammate (EXACT same team + title)", "current": true, "priority": 1},
+      {"name": "Sky Corby, M.S.", "title": "Research Associate/Project Manager at OHSU", "url": "https://www.linkedin.com/in/sky-corby-m-s-ba147213b/", "category": "peer (research PM)", "current": true, "mutual": "Beth Adams", "priority": 2},
+      {"name": "Jo Yun H.", "title": "Senior Clinical Research Coordinator at OHSU", "url": "https://www.linkedin.com/in/joyunhsu/", "category": "adjacent peer", "current": true, "mutual": "Vivian Rubiano", "priority": 3}
+    ]
+  },
+  "PGE (DROPPED - role out-of-band, recipients parked)": {
+    "role_survives": false,
+    "recipients_found_but_parked": [
+      {"name": "Jack Boudreau, M.Ed.", "title": "Learning and Development Manager at PGE", "url": "https://www.linkedin.com/in/jack-boudreau/", "current": true},
+      {"name": "Jennie Fennelle", "title": "Career Development Program Manager/Principal, Training at PGE", "url": "https://www.linkedin.com/in/jenniefennelle/", "current": true}
+    ]
+  }
+}

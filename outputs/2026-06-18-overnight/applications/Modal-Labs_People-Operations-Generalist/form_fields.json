@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "company": "Modal Labs",
+    "role": "People Operations Generalist",
+    "ats": "ashby",
+    "url": "https://jobs.ashbyhq.com/modal/17eba4cc-3a50-4f6e-b55b-bf20180091f2"
+  },
+  "personal": {
+    "first_name": "Jamie",
+    "last_name": "Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "+1-213-700-3831",
+    "country": "United States",
+    "location": "Portland, OR"
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/jamieyccheng/"
+  },
+  "work_authorization": {
+    "currently_authorized_to_work_in_us": "Yes",
+    "sponsorship_required": "Yes"
+  },
+  "demographics": {
+    "gender": "Woman",
+    "race_ethnicity": "Asian",
+    "veteran": "I am not a protected veteran",
+    "disability": "No, I do not have a disability"
+  },
+  "role_specific": {
+    "preferred_first_name": "Jamie",
+    "years_of_experience_people_ops_hr_generalist": "3 years"
+  }
+}

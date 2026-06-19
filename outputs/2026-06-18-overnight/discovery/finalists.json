@@ -1,0 +1,28 @@
+{
+  "run": "2026-06-18-overnight",
+  "source": "LinkedIn recommended feed (Jamie authed) — 56 harvested, deduped vs 143 prior",
+  "doctrine_note": "Recommended feed skewed heavily to construction/eng Project Managers (off-target). Honest at-level people/OD/L&D pool tonight is small — surfacing genuine fits, not padding.",
+  "dropped_dedup": [
+    {"id":"4391498313","co":"Trimble","role":"Manager, Enablement Programs and Content","why":"already SUBMITTED"},
+    {"id":"4419502776","co":"OHSU","role":"HR Business Partner","why":"already staged"},
+    {"id":"4416364013","co":"OHSU","role":"Sr Project Manager (Program Administrator 3)","why":"likely same as staged Program Administrator — verify"}
+  ],
+  "dropped_rules": [
+    {"id":"4428416758","co":"OHSU","role":"Labor Relations Specialist","why":"ER/LR casework = ★☆☆ blocker #3 (confirm JD)"},
+    {"id":"4421264343","co":"Amazon","role":"Principal HR Business Partner","why":"Principal = seniority"},
+    {"id":"4425939930","co":"Deloitte","role":"ServiceNow HRSD Manager","why":"Deloitte no-sponsor + HRIS-config ★☆☆"},
+    {"id":"4420402651","co":"Deloitte","role":"Cornerstone Manager/Consultant","why":"Deloitte no-sponsor + LMS-config"},
+    {"id":"4417358802","co":"Compass Group","role":"HR Manager","why":"people-mgr seniority"},
+    {"id":"4423638193","co":"Jobot","role":"HR Manager","why":"people-mgr seniority + staffing-agency repost"},
+    {"id":"4430419840","co":"Itron","role":"Contract Benefits Associate","why":"contract + benefits-admin ★☆☆"}
+  ],
+  "finalists": [
+    {"id":"4428314099","co":"OHSU","role":"Health System Transformation Research Project Coordinator","loc":"Portland OR (Hybrid)","pay":"$60.7-101K","prio":"P1c","lane_guess":"ACCOUNT (OHSU iCIMS)","sponsor":"cap-exempt","fit":"coordinator-level, research/health-system PM, Jamie's true band","apply_url":"https://www.linkedin.com/jobs/view/4428314099/"},
+    {"id":"4424755584","co":"Guidehouse","role":"Organizational Change Management & Workforce Senior Consultant","loc":"Olympia/Tacoma WA (On-site)","prio":"P2","lane_guess":"TBD","sponsor":"confirmed H1B consulting sponsor","fit":"change-mgmt + workforce; consulting-exception (Sr Consultant = entry for MS grad)","apply_url":"https://www.linkedin.com/jobs/view/4424755584/"},
+    {"id":"4429104058","co":"Portland General Electric","role":"Senior Manager Talent and Leadership Development","loc":"Portland OR (On-site)","prio":"P1","lane_guess":"TBD","sponsor":"Portland local, check H1B","fit":"talent+leadership dev — sweet spot; CHECK if people-mgr/YOE>5 (Sr Manager flag)","apply_url":"https://www.linkedin.com/jobs/view/4429104058/","caution":"verify not people-manager + YOE"},
+    {"id":"4427972201","co":"Amazon","role":"HR Specialist, PXT Programs (One Medical PXT)","loc":"Seattle WA","prio":"P1","lane_guess":"Amazon.jobs","sponsor":"confirmed sponsor","fit":"PXT program specialist = program-IC people work","apply_url":"https://www.linkedin.com/jobs/view/4427972201/"},
+    {"id":"4429202492","co":"UST","role":"Learning & Development Coordinator","loc":"Santa Clara CA (On-site)","prio":"P1","lane_guess":"TBD","sponsor":"check H1B (UST = IT services, often sponsors)","fit":"at-level L&D coordinator","apply_url":"https://www.linkedin.com/jobs/view/4429202492/","caution":"relocation CA"},
+    {"id":"4419096053","co":"Veriforce","role":"Senior Learning & Development Specialist","loc":"Burlington MA (Hybrid)","prio":"P1","lane_guess":"TBD","sponsor":"check H1B","fit":"Sr L&D Specialist IC","apply_url":"https://www.linkedin.com/jobs/view/4419096053/","caution":"relocation MA; verify remote-ok + sponsor"},
+    {"id":"4426598128","co":"OHSU","role":"Senior HR Business Partner","loc":"Portland OR (Hybrid)","pay":"$103-175K","prio":"P4","lane_guess":"ACCOUNT (OHSU iCIMS)","sponsor":"cap-exempt","fit":"BORDERLINE — Sr HRBP generalist; cap-exempt Portland keeps it; verify not people-mgr","apply_url":"https://www.linkedin.com/jobs/view/4426598128/","caution":"seniority borderline"}
+  ]
+}
