@@ -2,17 +2,46 @@
   "role": "Xenium HR — Employee Experience Representative",
   "verdict": "PASS",
   "resume_sha": "b44b46d1b9dfb8e3a504c77c336815ae4cc6aebc49c8d0d22fdccb1daca24c64",
-  "cover_sha": "d675f200b46d2ff6ce1d1bea151735416f5edc8a4e6ddba8b09ac2cf33680487",
+  "cover_sha": "3a917b354d2b20e0bc4570dad2f48565c3c56b60eda6fe0ce2b35e1a20c0d647",
   "checks": [
-    {"id": 1, "name": "SUBSTANCE FLOOR (RULE -1)", "result": "PASS", "evidence": "Every tailored bullet matches canonical concretes. ingenius/odn/vestas verbatim to canonical; nextgen reordered (2,000+ employee experiences led first) with all 4 bullets + all metrics intact; kronos reordered (566% led first) all 4 intact. No metric/clause/bullet dropped.", "canonical": "jamie/resume.json experience[*].bullets"},
-    {"id": 2, "name": "TRUTH / NO-RELABEL (RULE 0)", "result": "PASS", "evidence": "ODN framed as OD consulting (leave-cost audit + NGO leadership), not community/ERG. No invented tools beyond canonical skills block. Summary noun swapped to 'People Operations & Employee Experience' (broad umbrella, traces to source). No fabricated numbers. No Kronos '230+/80+/top-3-univ' line present.", "canonical": "JAMIE_FEEDBACK_RULES §0; resume.json odn bullets"},
-    {"id": 3, "name": "NO CLICHÉS / NO JD-COPY-PASTE", "result": "PASS", "evidence": "Cover uses Jamie's own framing ('first point of contact', 'careful, organized list-checker', 'approach this work like a scientist'); no lifted JD vocabulary or clichés. Summary in her voice.", "canonical": "JAMIE_FEEDBACK_RULES §0.8"},
-    {"id": 4, "name": "ODN TWO-PROJECTS NOT MIXED", "result": "PASS", "evidence": "Bullets 1-2 = leave-cost diagnosis project (300+ cases, $362K); bullet 3 = NGO leadership focus groups/1:1 interviews. No blending across projects.", "canonical": "JAMIE_FEEDBACK_RULES §2 ODN two-projects rule"},
-    {"id": 5, "name": "BULLET COUNTS", "result": "PASS", "evidence": "ODN = 3; ingenius/nextgen/vestas/kronos = exactly 4 each.", "canonical": "JAMIE_FEEDBACK_RULES §2 count table"},
-    {"id": 6, "name": "COVER VOICE/FORMAT", "result": "PASS", "evidence": "'Dear Hiring Team,' present; header 'Portland, OR' (Tualatin metro-local, no relocation over-promise, no visa mention); org-psych close present ('My background in organizational psychology means I approach this work like a scientist'); bolds include **Xenium** (company), **2,000+**, **566%**, **$362K** (metrics-with-number-inside), and employer names. Warm human voice.", "canonical": "JAMIE_FEEDBACK_RULES §6"},
-    {"id": 7, "name": "HONEST GAP", "result": "PASS", "evidence": "Cover bridges from adjacent EX/customer-service/data work without overclaiming direct PEO benefits-rep tenure; disclose-then-bridge tone, no papering-over.", "canonical": "JAMIE_FEEDBACK_RULES §6 honest gap"}
+    {
+      "check": "A — Substance floor (bullet diff vs canonical)",
+      "result": "PASS",
+      "evidence": "All 19 bullets present and intact vs canonical resume.json. All metrics preserved: 25+ stakeholders, 70+ staff, 75% onboarding reduction, 600+ participants, 78% client conversion rate, 20+/10+ programs/vendors, 2,000+ employee experiences, 5 cross-functional projects, 12/23 DEI locations, 3 global locations, 566% applications, 300+ leave cases, $362K leave costs. Key scope clauses intact: 'positioning, delivery strategy, and operations'; 'improving program knowledge'; 'client conversion rate'; 'award-winning well-being initiatives recognized among 1,000+ competitors'. No bullet dropped or thinned.",
+      "canonical_source": "oracle-job-search/jamie/resume.json — all five experience entries"
+    },
+    {
+      "check": "B — Truth / no-relabel (RULE 0)",
+      "result": "PASS",
+      "evidence": "ODN correctly labeled 'Consultant, Organization & Talent Development' at 'Organization Development Network (ODN) Oregon' — NOT community/ERG. Bullets describe leave-cost diagnosis (300+ cases, $362K) and NGO focus-group/accountability work only. No invented tools: skills block matches content_library.md canonical vocabulary exactly (Rippling/ADP/SAP/Greenhouse/Canvas/Moodle/Asana/Airtable/SPSS/Notion/SharePoint/Canva/Adobe InDesign/GenAI Tools). No '230+/80+/top-3-univ' Kronos fabrication. No '$340K/17 launches' composite. '78% client conversion rate' used (sales-oriented EX role — within allowed variant).",
+      "canonical_source": "oracle-job-search/jamie/JAMIE_FEEDBACK_RULES.md §0; content_library.md canonical skills block"
+    },
+    {
+      "check": "C — Bullet counts (ODN 2–3; all others exactly 4)",
+      "result": "PASS",
+      "evidence": "ODN: 3 bullets (within 2–3 range, both projects covered: absenteeism/leave-cost in bullets 1–2, NGO leadership in bullet 3). InGenius: 4 bullets. NextGen: 4 bullets. Vestas: 4 bullets. Kronos: 4 bullets. Total = 19 bullets. No bullets deleted.",
+      "canonical_source": "oracle-job-search/jamie/JAMIE_FEEDBACK_RULES.md §2 bullet count table"
+    },
+    {
+      "check": "D — Cover substance + voice (metrics, bolds ≥6, org-psych close, salutation)",
+      "result": "PASS",
+      "evidence": "All canonical metrics bolded in cover body: '3 global locations', '2,000+ employee experiences', '20+ programs and 10+ vendors', '70+ staff that cut onboarding time by 75%', '600+ participants', '78% program enrollment rate', '25+ global stakeholders'. 30+ body bolds total including ≥1 company (Vestas Wind Systems, NextGen Healthcare, InGenius Prep, Xenium HR) and ≥1 metric-with-number. Org-psych scientific-method close present: 'MS in Applied Organizational Psychology (USC)...diagnose with data, collaborate cross-functionally on solutions, track metrics to ensure real progress'. 'analytical organizer with a growth mindset' present. Salutation: 'Dear Xenium HR Hiring Team,' — correct. No visa mention. No relocation over-commitment. No clichés or JD-copy-paste.",
+      "canonical_source": "oracle-job-search/jamie/cover_letter_canonical.md §D (AUDITOR_AGENT_SPEC check D); JAMIE_FEEDBACK_RULES.md §6"
+    },
+    {
+      "check": "E — Header location + Wesleyan Relevant Coursework",
+      "result": "PASS",
+      "evidence": "Header: 'Portland, OR' — Xenium HR Tualatin is Portland metro, Portland, OR is correct for a local/hybrid role. Wesleyan Relevant Coursework present: 'Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation'. USC Relevant Coursework also present: 'Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology'.",
+      "canonical_source": "oracle-job-search/jamie/JAMIE_FEEDBACK_RULES.md §3 (Wesleyan), §5 (location rule)"
+    },
+    {
+      "check": "F — Cover canonical-skeleton adherence",
+      "result": "PASS",
+      "evidence": "Belief opener confirmed (NOT anecdote/scene): 'Employee experience isn't just about answering inquiries—from my experience, it's about creating a continuous cycle of collecting insights, analyzing data, and refining solutions so that every employee who reaches out feels genuinely supported.' Tagline line 2 is the approved EX/People Ops variant: 'Dedicated to Improving People/Employee Experience'. Paragraph order: Vestas → NextGen → InGenius — correct per canonical skeleton; no ODN paragraph (appropriate for EX rep role, not OD-diagnostic). Vestas paragraph: M&A sentence present verbatim ('Overseeing the integration of an acquired company during an M&A project further demonstrated my ability to manage organizational change and keep cross-functional teams aligned.'). InGenius paragraph: canonical close present verbatim ('I run needs assessments with 25+ global stakeholders, translating ambiguous asks into structured programs, and apply continuous feedback loops to refine program positioning, delivery strategy, and operations.'). Org-psych close and 'analytical organizer with a growth mindset' present. NOTE: NextGen para uses 'data analysis and advisory skills' (drops 'strategic planning' from canonical 3-part phrase) — this is within the allowed keyword-swap of bolded skill phrases for an EX-focused role; the underlying work is true and no substance is fabricated. No free-written sentences detected outside the {SWAP} slots.",
+      "canonical_source": "oracle-job-search/jamie/cover_letter_canonical.md (full skeleton); jamie-autopilot/AUDITOR_AGENT_SPEC.md check F"
+    }
   ],
   "failures": [],
-  "notes": "Summary closing verb-phrase customized to 'make every employee feel supported' (EX-appropriate per §1 flex rule); fixed tail preserved as 'human-centered, data-driven approaches'. Minor: tail says 'data-driven' vs canonical 'evidence-based' — both in Jamie's approved vocabulary, not a violation. Header drops the canonical '(Open to Remote or Relocation)' suffix in favor of clean 'Portland, OR' — acceptable for a metro-local PEO role.",
-  "audited_at": "2026-06-19"
+  "notes": "RE-AUDIT (post-cover-fix). Prior AUDIT_VERDICT.json (2026-06-19T19:46:21Z) correctly identified 3 Check F failures in an earlier cover version (sha e23d10a6...) — free-written sentences in Vestas, NextGen, and InGenius paragraphs. The cover has since been rebuilt. The CURRENT cover (sha 3a917b354d...) has all three canonical paragraphs restored verbatim. All A–F checks now PASS. Resume was clean in the prior audit and remains unchanged (sha b44b46d1...). Package is CLEARED FOR SUBMIT.",
+  "audited_at": "2026-06-19T20:00:00Z"
 }

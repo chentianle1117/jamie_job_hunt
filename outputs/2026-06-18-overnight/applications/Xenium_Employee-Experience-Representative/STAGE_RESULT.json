@@ -1,0 +1,29 @@
+{
+  "role_dir": "oracle-job-search\\outputs\\2026-06-18-overnight\\applications\\Xenium_Employee-Experience-Representative",
+  "company": "Xenium HR",
+  "role": "Employee Experience Representative",
+  "ats": "",
+  "lane_ats": "other",
+  "form_url": "https://xenium-resources2.prismhr-hire.com/job/1028123/employee-experience-representative",
+  "staged_at": "2026-06-19T12:00:48",
+  "submit_port": 9400,
+  "contact": {
+    "first_name": null,
+    "last_name": null,
+    "email": null,
+    "phone": null
+  },
+  "uploads": {
+    "resume": null,
+    "cover_letter": null
+  },
+  "combos": [],
+  "captcha": {
+    "present": false,
+    "interactive_visible": false
+  },
+  "screenshot": "oracle-job-search\\outputs\\2026-06-18-overnight\\applications\\Xenium_Employee-Experience-Representative\\_v2_stage_review.png",
+  "final_url": "https://xenium-resources2.prismhr-hire.com/job/1028123/employee-experience-representative",
+  "lane": "AUTO-SUBMITTABLE (no captcha detected)",
+  "human_next": "No captcha detected — submit_runner.py can submit this after the pre-submit gate review, or click Submit in the staged tab."
+}

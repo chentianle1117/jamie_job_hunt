@@ -317,12 +317,22 @@ experience entries themselves — that rule is unchanged.)
 
 ---
 
-## 6. COVER LETTER — use the CANONICAL TEMPLATE (confirmed 2026-05-29)
+## 6. COVER LETTER — LOCKED STRUCTURE, swap KEYWORDS only (confirmed 2026-06-19)
 
-**CANONICAL FORMAT FILE:** `jamie/cover_letter_template.html` (saved from the newest real letter,
-`tailored_resumes/RRD_..._Cover-Letter_2026-05-12.html`). The pipeline renderer `render_pdfs.py →
-build_cover_html()` now reproduces this exact layout. Older `resume_bank/*Roblox.pdf` etc. confirm the
-same structure but the RRD HTML is the authoritative current format.
+**⭐ CANONICAL CONTENT SOURCE:** `jamie/cover_letter_canonical.md` — the LOCKED paragraph skeleton (fixed
+voice + sentence-to-sentence structure + the ONLY swappable `{SWAP}` slots). Treat it like the resume's
+`resume.json`: **tailoring = keyword/phrase swap within the fixed skeleton, NEVER free-writing.** Match the
+JD's wording for highlighted skills while staying TRUE to the resume (e.g. JD "partner with cross-functional
+teams" → "partnering with cross-functional teams"); everything else stays verbatim. This is mechanically
+enforced by `jamie-autopilot/lib/verify_cover_structure.py` (approved tagline, belief-sentence opener,
+Vestas→NextGen→InGenius anchors, org-psych close) + the auditor (check F: did the swap stay true vs
+JD-copy-paste). The failure that created this rule: the Xenium overnight cover free-wrote an anecdote opener,
+invented a tagline, merged experiences, dropped the org-psych close — and passed the old gates.
+
+**VISUAL-LAYOUT REFERENCE (not content):** `jamie/cover_letter_template.html` (the RRD letter). The pipeline
+renderer `render_pdfs.py → build_cover_html()` reproduces this layout (cream header band, 2-column body,
+cursive signature). NOTE: the RRD sample carries the OLDER generic close; the canonical close is the org-psych
+version in `cover_letter_canonical.md`. Do NOT tailor by editing the HTML.
 
 **VISUAL LAYOUT (the renderer produces this automatically):**
 - Cream header band (#f5ede0), centered "Jamie Cheng" + 2-line tagline

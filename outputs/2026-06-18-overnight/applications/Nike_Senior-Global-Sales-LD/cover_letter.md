@@ -1,20 +1,26 @@
-# Jamie (Yi-Chieh) Cheng
-
-**Learning & Development professional — instructional design, facilitation, and evidence-based programs**
-
-Beaverton, OR · jamiecheng0103@gmail.com
+# Cover Letter — Nike
+## Senior, Global Sales, Learning & Development
+**Jamie (Yi-Chieh) Cheng** | jamiecheng0103@gmail.com | Beaverton, OR
+A Solution-focused, Data-driven, and People-oriented Professional
+Dedicated to Driving Individual and Organizational Development
 
 ---
 
-Dear Hiring Team,
+June 19, 2026
 
-I believe learning sticks when it is designed around how people actually grow, not around the content we want to deliver. That conviction is what draws me to the Senior, Global Sales, Learning & Development role at **Nike** — a chance to build learning that reaches a global commercial audience and helps people do their best work. I'll be candid that I'm earlier in my career than the posting's 5-year mark, but the depth of L&D craft I've built in the last three years is real, and it is exactly the work this role describes.
+Dear Nike Hiring Team,
 
-At **InGenius Prep**, I own the full learning cycle. I facilitate training webinars for **600+ participants** — virtual delivery at scale — and the programs I designed sustain a **78% enrollment rate**. I develop the guides, workflows, and training content used by **70+ staff**, work that cut onboarding time by **75%**. Before any of that, I run needs assessments with 25+ stakeholders to find the real learning gaps, then design programs to close them — three new ones to date. That sequence, diagnose then design then deliver then measure, is how I approach every learning problem.
+---
 
-My instructional-design instinct is grounded in evidence, not guesswork. As an Organizational Development intern at **NextGen Healthcare**, I analyzed **2,000+ employee experiences** and delivered internal training on inclusive leadership and performance, across five cross-functional projects including L&D. At Vestas, I built and facilitated an Inclusive Leadership workshop for 12 senior leaders that was later scaled to 23 global locations — proof I can take a single well-designed session and make it travel across markets, which is the heart of global learning. My ODN Oregon consulting work then turned a **$362K** leave-cost analysis into executive insights that drove new first-aid training.
+**Learning** isn't just about delivering content—from my experience, it's about creating a continuous cycle of collecting insights, analyzing data, and refining solutions so that programs actually change how people work. With a background in **HR**, **Organizational Development**, and **Program Management**, I have helped organizations design and implement data-informed strategies that strengthen both organizational growth and individual capability. I look forward to bringing a balanced blend of analytical and interpersonal strengths—using **curriculum design** across virtual and in-person formats, **facilitation** at scale, and **data-driven evaluation** of program effectiveness—to **Nike** as a **Senior, Global Sales, Learning & Development** team member.
 
-I trained as an organizational psychologist — a master's at USC and a psychology-and-education background at Wesleyan — so I treat learning design like the scientific method: form a hypothesis about what people need, build the intervention, measure whether behavior actually changed, and iterate. I would love to bring that rigor, and a genuine love of helping people learn, to Nike's global sales teams.
+As an HR Business Partner Assistant at **Vestas Wind Systems**, I supported the HRBP team in **piloting an Inclusive Leadership workshop for 12 senior leaders that was later scaled to 23 global locations**—seeing firsthand how a single well-designed program can be equipped to travel consistently across markets, which is the heart of global learning execution. I also **partnered with cross-functional stakeholders** and **optimized onboarding processes across 3 global locations**, learning how to align program delivery across geographies.
 
-Warmly,
+At **NextGen Healthcare**, I deepened my **strategic planning, data analysis, and advisory skills**. I initiated a manager-effectiveness project that transformed employee feedback into actionable insights, and **analyzed 2,000+ employee experiences** to identify capability gaps. My initiative and **data-driven recommendations** enabled the C-suite to prioritize essential organizational needs and develop targeted L&D strategies—so I assess learning needs and evaluate effectiveness with evidence, not guesswork.
+
+In my current role as a **Program Enablement Manager** at **InGenius Prep**, I lead cross-functional collaboration across partners, vendors, and internal teams—**managing 20+ programs and 10+ vendors**, **designing 3 new educational programs** from needs assessments with **25+ global stakeholders**, **building guides and workflows for 70+ staff that cut onboarding time by 75%**, and **facilitating training webinars for 600+ participants** to a **78% program enrollment rate**. Diagnosing the gap, designing the curriculum, facilitating delivery, and measuring the result is how I approach every learning problem.
+
+My approach is grounded in my **MS in Applied Organizational Psychology (USC)**, which shaped how I think about people problems as systems: I **diagnose with data**, **collaborate cross-functionally on solutions**, and **track metrics to ensure real progress**. As an **analytical organizer with a growth mindset**, **Nike**'s mission to equip a global sales organization to do its best work draws me in. I'd love to bring this methodology to your team.
+
+Sincerely,
 Jamie (Yi-Chieh) Cheng

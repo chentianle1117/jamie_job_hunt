@@ -1,20 +1,26 @@
-# Jamie (Yi-Chieh) Cheng
-
-**People Operations professional — pairing data analysis with hands-on, stakeholder-first HR support**
-
-Beaverton, OR · jamiecheng0103@gmail.com
+# Cover Letter — Nike
+## People Solutions Advisor I
+**Jamie (Yi-Chieh) Cheng** | jamiecheng0103@gmail.com | Beaverton, OR
+A Solution-focused, Data-driven, and People-oriented Professional
+Dedicated to Improving People/Employee Experience
 
 ---
 
-Dear Hiring Team,
+June 19, 2026
 
-I believe the best People work happens when good data meets real human attention — when you can read the numbers behind an employee's experience and still pick up the phone to help one person at a time. That belief is exactly why the **People Solutions Advisor I** role at **Nike** caught my eye: being the trusted first point of contact for HR services, working a case to resolution, and doing it across the US, Canada, and Mexico is the kind of work I genuinely love. I'm based right here in **Beaverton** and would be glad to be on-site with the team.
+Dear Nike Hiring Team,
 
-At **NextGen Healthcare**, I sat at the intersection of policy and people. I provided consultations to leaders on **HR policy, DEI, Inclusive Leadership, and performance review**, and I analyzed **2,000+ employee experiences** to surface what was actually driving satisfaction. That work taught me how to translate a written policy into a clear, fair answer for the person asking — which is the heart of advising employees well.
+---
 
-My current role at **InGenius Prep** is built on being the reliable point of contact. I serve as the go-to for **25+ stakeholders**, run the needs assessments behind three new programs, and document the guides and workflows **70+ staff** rely on — cutting onboarding time by **75%**. Earlier, as an HRBP assistant at **Vestas Wind Systems**, I supported employees and leaders across three global locations, fielding inquiries and clarifying HR processes — and at **Kronos Research**, my personalized, customer-service approach to talent grew applications by **566%** in two months. I'm comfortable holding a high case volume without losing the warmth each person deserves.
+**People support** isn't just about answering questions—from my experience, it's about creating a continuous cycle of collecting insights, analyzing data, and refining solutions so that every teammate who reaches out feels genuinely supported. With a background in **HR**, **Organizational Development**, and **Program Management**, I have helped organizations design and implement data-informed strategies that strengthen both organizational growth and the employee experience. I look forward to bringing a balanced blend of analytical and interpersonal strengths—using **customer service and listening skills** to **resolve teammate inquiries**, **empathy and emotional intelligence** to adapt to different situations, and **fact-based decision making** to **align responses with company policies**—to **Nike** as a **People Solutions Advisor**.
 
-Most of all, I approach People work like the org psychologist I trained to be: form a hypothesis about what an employee or the system actually needs, gather the evidence, test the solution with real people, and refine from what I learn. It's a quietly scientific loop, and it's how I make sure the answer I give today makes the next answer better. I'd be thrilled to bring that mindset to Nike's team.
+As an HR Business Partner Assistant at **Vestas Wind Systems**, I enhanced operational efficiency by **identifying process gaps**, **streamlining workflows**, and **partnering with cross-functional stakeholders**. Through stakeholder interviews, I clarified ambiguous job responsibilities and **optimized onboarding processes across 3 global locations**, improving both efficiency and the people experience. Overseeing the integration of an acquired company during an **M&A project** further demonstrated my ability to manage organizational change and keep cross-functional teams aligned.
 
-Warmly,
+At **NextGen Healthcare**, I deepened my **strategic planning, data analysis, and advisory skills**. I initiated a manager-effectiveness project that transformed employee feedback into actionable insights, and **analyzed 2,000+ employee experiences** to surface what actually drives satisfaction. My initiative and **data-driven recommendations** enabled the C-suite to prioritize essential organizational needs and develop targeted people strategies.
+
+In my current role as a **Program Enablement Manager** at **InGenius Prep**, I lead cross-functional collaboration across partners, vendors, and internal teams—**managing 20+ programs and 10+ vendors**, **building guides and workflows for 70+ staff that cut onboarding time by 75%**, and **facilitating training webinars for 600+ participants** to a **78% program enrollment rate**. I run needs assessments with **25+ global stakeholders**, translating ambiguous asks into structured programs, and apply continuous feedback loops to refine program positioning, delivery strategy, and operations.
+
+My approach is grounded in my **MS in Applied Organizational Psychology (USC)**, which shaped how I think about people problems as systems: I **diagnose with data**, **collaborate cross-functionally on solutions**, and **track metrics to ensure real progress**. As an **analytical organizer with a growth mindset**, **Nike**'s work of giving every teammate fast, empathetic, policy-aligned support draws me in. I'd love to bring this methodology to your team.
+
+Sincerely,
 Jamie (Yi-Chieh) Cheng

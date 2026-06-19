@@ -2,54 +2,45 @@
   "role": "Nike — People Solutions Advisor I",
   "verdict": "PASS",
   "resume_sha": "97ef4ee8f58faa8ba179650881b1cf706f736b49b0c22bc7a770e08a671432bc",
-  "cover_sha": "045996fc905ff4706382b38beaf9b4fc167e0f7ffab6091e1d901b2ba1ea4627",
+  "cover_sha": "5d9cfebddb89e723b427f12266fde467c644b4c86bdc6018afb0fad29cd7e047",
   "checks": [
     {
-      "id": 1,
-      "name": "SUBSTANCE FLOOR (RULE -1)",
+      "id": "A",
+      "label": "Substance floor (RULE -1)",
       "result": "PASS",
-      "evidence": "Every tailored bullet is character-identical to its canonical counterpart in jamie/resume.json; tailoring was re-ORDER only, zero rewording. Vestas retains all 4 bullets incl. onboarding-3-locations + engagement-1000+; NextGen retains all 4 verbatim (consultations/2000+/manager-effectiveness/5-projects) — the earlier Vestas-drop + NextGen-reword issue is fully restored. All metrics present: 600+/78%/75%/25+/20+/10+/2,000+/$362K/566%/3-locations/12/23/1,000+."
+      "evidence": "All 19 bullets present with full canonical substance. InGenius: 4 bullets identical to canonical (20+/10+/25+/70+/600+/78%/75% all intact). NextGen: 4 bullets all present (2,000+ intact, 5 cross-functional projects intact), reordered only. ODN: 3 bullets matching canonical (300+/$362K/NGO decision-making all intact). Vestas: 4 bullets present (12/23/3 locations/1,000+ all intact). Kronos: 4 bullets present (566% intact). No clause dropped, no metric thinned, no bullet deleted."
     },
     {
-      "id": 2,
-      "name": "TRUTH / NO-RELABEL (RULE 0)",
+      "id": "B",
+      "label": "Truth / no-relabel (RULE 0)",
       "result": "PASS",
-      "evidence": "All claims trace to jamie/resume.json. ODN described as OD diagnostic consulting (leave-cost audit + NGO leadership focus groups) — NOT community/ERG. No invented tools (skills block identical to canonical). No fabricated numbers. Kronos campus bullet reads 'top universities' — NO banned '230+/80+/top-3-univ' line."
+      "evidence": "ODN described as leave-cost/absenteeism diagnosis + NGO leadership decision-making - not relabeled as community/ERG. No Jira or invented tools in skills section (matches canonical vocabulary exactly). No 230+/80+/top-3-univ Kronos fabrication. No $340K/17-launches composite. All metrics trace to canonical source. Skills block matches content_library canonical allow-list."
     },
     {
-      "id": 3,
-      "name": "NO CLICHES / NO JD-COPY-PASTE",
+      "id": "C",
+      "label": "Bullet counts",
       "result": "PASS",
-      "evidence": "Resume bullets carried verbatim from canonical (Jamie's voice). Cover letter uses her own phrasing ('good data meets real human attention', 'hold a high case volume without losing the warmth'); no JD vocabulary mirrored, no clichés."
+      "evidence": "InGenius=4, NextGen=4, ODN=3 (canonical 3), Vestas=4, Kronos=4. All counts match fixed requirement. No bullets deleted to save space; reordering only within each experience."
     },
     {
-      "id": 4,
-      "name": "ODN TWO-PROJECTS NOT MIXED",
+      "id": "D",
+      "label": "Cover substance + voice",
       "result": "PASS",
-      "evidence": "Bullets 1-2 = leave-cost/absenteeism project (300+ cases, $362K, policy redesign); bullet 3 = separate NGO leadership project (focus groups + 1:1 interviews, decision-making/accountability). Each bullet stays within ONE project."
+      "evidence": "Real metrics bolded throughout: 3 global locations, 2,000+ employee experiences, 20+ programs/10+ vendors, 70+ staff/75% cut, 600+ participants, 78% program enrollment rate, 25+ global stakeholders. Companies bolded at first mention: Vestas Wind Systems, NextGen Healthcare, InGenius Prep. 14+ body bolds (above 6-bold floor). Org-psych close with diagnose/collaborate/track triad present. analytical organizer with a growth mindset present. No relocation over-commitment. No visa mention. Dear Nike Hiring Team, salutation correct. Voice warm and grounded."
     },
     {
-      "id": 5,
-      "name": "BULLET COUNTS",
+      "id": "E",
+      "label": "Header/location + Wesleyan coursework",
       "result": "PASS",
-      "evidence": "ODN=3, InGenius=4, NextGen=4, Vestas=4, Kronos=4. Matches §2 fixed counts."
+      "evidence": "Header location = Beaverton, OR - correct for Nike Beaverton HQ on-site role (location-follows-role-city rule). Wesleyan Relevant Coursework present: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation. USC Relevant Coursework also present."
     },
     {
-      "id": 6,
-      "name": "COVER LETTER",
+      "id": "F",
+      "label": "Cover canonical-skeleton adherence",
       "result": "PASS",
-      "evidence": "Warm human voice (not AI-flavored); 'Dear Hiring Team,'; org-psych scientific-method close present ('form a hypothesis... gather the evidence, test the solution... refine'); bolding includes company (**Nike**, **NextGen Healthcare**, **InGenius Prep**, **Vestas Wind Systems**, **Kronos Research**) + metrics-with-number-inside (**2,000+ employee experiences**, **75%**, **566%**, **25+ stakeholders**, **70+ staff**); no relocation over-promise (light 'glad to be on-site'); no visa mention; header location = Beaverton, OR."
-    },
-    {
-      "id": 7,
-      "name": "HONEST GAP",
-      "result": "PASS",
-      "evidence": "No fabricated case-management/HR-advisory experience claimed beyond what is real; cover bridges her real consultation/point-of-contact/customer-service work to the advisory role without over-claiming. No dishonest gap-papering detected."
+      "evidence": "Opener = belief sentence (People support isn't just about answering questions - from my experience, it's about creating a continuous cycle of collecting insights, analyzing data, and refining solutions) with approved company bridge clause + background sentence + I look forward to bringing close. Tagline line 2 = Dedicated to Improving People/Employee Experience (approved EX variant). Paragraph order Vestas->NextGen->InGenius preserved. Org-psych close with analytical organizer with a growth mindset present. Prior-FAIL trailing clause confirmed REMOVED - NextGen para ends cleanly at develop targeted people strategies. (period). Skill-phrase swaps in Para-1 are JD-vocabulary rewording of real experience. No free-written standalone new sentences detected."
     }
   ],
   "failures": [],
-  "soft_flags": [
-    "78% metric reads '78% client conversion rate' rather than the rule-default '78% program enrollment rate'. NOT a violation: it is carried verbatim from canonical jamie/resume.json (line 65), so no substance loss or fabrication. The §9 default leans 'enrollment rate' for non-sales roles; People Solutions Advisor is not sales, so 'enrollment rate' would be marginally more on-convention. Flag only, does not block PASS since it faithfully matches the canonical source file."
-  ],
-  "audited_at": "2026-06-19"
+  "audited_at": "2026-06-19T00:00:00Z"
 }

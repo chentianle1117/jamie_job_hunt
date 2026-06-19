@@ -2,51 +2,52 @@
   "role": "Nike — Senior, Global Sales, Learning & Development",
   "verdict": "PASS",
   "resume_sha": "cb8148ae8d4fc0c3f824db70bfa17453242cf5785bee7f72aa279a69047e64da",
-  "cover_sha": "10e52b795d7d8820a5d3ef5e140b8dbc30e8cf824a2acc823f7583091d5552eb",
+  "cover_sha": "a3912f9acbc28a9c0fb85860f91c760a8e9a3a48d2690a81ff85d19a1297a54f",
   "checks": [
     {
-      "check": "1. SUBSTANCE FLOOR (RULE -1)",
+      "id": "A",
+      "label": "Substance floor (RULE -1) — bullet diff vs canonical",
       "result": "PASS",
-      "evidence": "Every tailored bullet matches its canonical jamie/resume.json counterpart with all concretes intact. InGenius all 4 verbatim (only reordered: facilitation-600+ leads vs needs-assessment in canonical). NextGen all 4 verbatim. ODN all 3 verbatim. Vestas all 4 verbatim. Kronos all 4 verbatim. No metric/clause/scope-word dropped; {kw|text} markup preserved.",
-      "canonical": "JAMIE_FEEDBACK_RULES.md RULE -1: 'Every concrete in the base bullet must survive into the tailored one.'"
+      "evidence": "All bullets verified against canonical source (oracle-job-search/jamie/resume.json + content_library.md). InGenius: 4 bullets intact — 600+ participants, 78% client conversion rate, 70+ cross-functional staff, 'improving program knowledge', onboarding -75%, 25+ global stakeholders, 3 new educational programs, 20+ programs/10+ vendors, 'positioning, delivery strategy, and operations' all present. NextGen: 4 bullets exact match canonical including 2,000+ employee experiences. ODN: 3 bullets exact match canonical including 300+ leave cases, $362K, focus groups/1:1 interviews. Vestas: 4 bullets intact — '12 senior leaders', '23 other global locations', M&A project, 'across 3 global locations', 'award-winning well-being initiatives', 'recognized among 1,000+ competitors'. Kronos: 4 bullets exact match canonical including 566%. No metric, scope clause, or whole bullet dropped.",
+      "canonical_source": "oracle-job-search/jamie/resume.json; content_library.md L&D/Operations emphasis set"
     },
     {
-      "check": "2. TRUTH / NO-RELABEL (RULE 0)",
+      "id": "B",
+      "label": "Truth / no-relabel (RULE 0) — fabrication + tool check",
       "result": "PASS",
-      "evidence": "ODN described as OD consulting (leave-cost audit + NGO leadership focus groups), NOT community/ERG. Skills line identical to canonical (HRIS/ATS/LMS/PM/Data/KM/GenAI) — NO Articulate, Storyline, Captivate, or video-editing added despite this being an L&D role. No Kronos '230+/80+' fabrication (reads '566% in 2 months' + 'top universities', matches canonical). All numbers trace to canonical. '78% client conversion rate' is the canonical InGenius wording AND is justified here because this is a Global Sales role (sales-focused exception in §9).",
-      "canonical": "JAMIE_FEEDBACK_RULES.md §0.7 (only canonical-vocabulary tools), §0.2 (ODN=OD consulting), §9 (78% client-conversion only for sales/product roles)."
+      "evidence": "No Articulate/Storyline/video-editing/LMS-admin tools invented. Skills section = canonical vocabulary only (Canvas and Moodle are genuine per content_library.md). No '$340K/17 launches' composite. No Jira. Vestas resume bullet uses 'Initiated a DEI pilot' (canonical resume.json). Cover uses 'I supported the HRBP team in piloting an Inclusive Leadership workshop' — matches content_library.md alternative framing ('Supported HRBP team by piloting an Inclusive Leadership workshop for senior leaders, later scaled to 23 global locations'). NOT 'built and facilitated'. NOT 'proof I can make it travel' as ownership claim. ODN correctly described as OD diagnostic consulting (leave-cost analysis + NGO leadership), not community/ERG. All metrics trace to canonical source. '78% client conversion rate' used appropriately for this sales-org-focused role per JAMIE_FEEDBACK_RULES §9.",
+      "canonical_source": "oracle-job-search/jamie/JAMIE_FEEDBACK_RULES.md §0; content_library.md Canonical Skills block"
     },
     {
-      "check": "3. NO CLICHES / NO JD-COPY-PASTE",
+      "id": "C",
+      "label": "Bullet counts (ODN 2-3; all others exactly 4)",
       "result": "PASS",
-      "evidence": "Cover opens in Jamie's own voice ('I believe learning sticks when it is designed around how people actually grow'). No JD phrasing lifted; 'diagnose then design then deliver then measure' is her framing. Summary uses her 3 pillars in her words.",
-      "canonical": "JAMIE_FEEDBACK_RULES.md §0.8: hit the JD's ideas using HER real words, never mirror its vocabulary."
+      "evidence": "InGenius=4, NextGen=4, ODN=3, Vestas=4, Kronos=4. All correct per JAMIE_FEEDBACK_RULES §2. No bullet deleted to save space.",
+      "canonical_source": "oracle-job-search/jamie/JAMIE_FEEDBACK_RULES.md §2 bullet count table"
     },
     {
-      "check": "4. ODN TWO-PROJECTS not mixed",
+      "id": "D",
+      "label": "Cover substance + voice (metrics, >=6 bolds incl company+metric, org-psych close, salutation)",
       "result": "PASS",
-      "evidence": "Bullets 1+2 = leave-cost/absenteeism project (300+ cases, $362K, first aid training). Bullet 3 = NGO leadership project (focus groups + 1:1 interviews, decision-making/accountability gaps). No blending across projects.",
-      "canonical": "JAMIE_FEEDBACK_RULES.md §2: 'each bullet must stay within ONE project.'"
+      "evidence": "20+ bolds present including company names (Vestas Wind Systems, NextGen Healthcare, InGenius Prep, Nike) and metrics with numbers ('piloting an Inclusive Leadership workshop for 12 senior leaders that was later scaled to 23 global locations', 'optimized onboarding processes across 3 global locations', 'analyzed 2,000+ employee experiences', 'managing 20+ programs and 10+ vendors', 'building guides and workflows for 70+ staff that cut onboarding time by 75%', 'facilitating training webinars for 600+ participants', '78% program enrollment rate'). Org-psych close present: 'diagnose with data, collaborate cross-functionally on solutions, track metrics to ensure real progress'. 'Analytical organizer with a growth mindset' present. 'Dear Nike Hiring Team,' correct. No relocation over-commitment. No visa mention. InGenius paragraph includes 'managing 20+ programs and 10+ vendors' (previously dropped, now restored). No '$340K/17 launches'. Warm, non-cliche voice.",
+      "canonical_source": "oracle-job-search/jamie/JAMIE_FEEDBACK_RULES.md §6; cover_letter_canonical.md"
     },
     {
-      "check": "5. BULLET COUNTS",
+      "id": "E",
+      "label": "Header/location matches role city; Wesleyan Relevant Coursework present",
       "result": "PASS",
-      "evidence": "ODN=3, InGenius=4, NextGen=4, Vestas=4, Kronos=4.",
-      "canonical": "JAMIE_FEEDBACK_RULES.md §2: ODN 2-3; all others exactly 4."
+      "evidence": "Header location = 'Beaverton, OR' — Nike HQ is Beaverton, OR; correctly follows role-city rule from JAMIE_FEEDBACK_RULES §5. Wesleyan Relevant Coursework line present: 'Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation'. USC coursework also present.",
+      "canonical_source": "oracle-job-search/jamie/JAMIE_FEEDBACK_RULES.md §5; §3"
     },
     {
-      "check": "6. COVER — voice, salutation, honesty, close, bolding, no-visa, header",
+      "id": "F",
+      "label": "Cover canonical-skeleton adherence — prior FAIL conditions re-verified",
       "result": "PASS",
-      "evidence": "Warm human voice; 'Dear Hiring Team,' present. HONEST about earlier-career: 'I'll be candid that I'm earlier in my career than the posting's 5-year mark, but the depth of L&D craft I've built in the last three years is real' — does NOT claim 5 years. Org-psych scientific-method close present (hypothesis -> intervention -> measure -> iterate). Bolding includes company (Nike), employers (InGenius Prep, NextGen Healthcare) + metrics (600+ participants, 78% enrollment rate, 70+ staff, 75%, 2,000+ employee experiences, $362K) — ~10 bolds. No visa/sponsorship mention. Header 'Beaverton, OR'.",
-      "canonical": "JAMIE_FEEDBACK_RULES.md §6: Dear Hiring Team / org-psych close / numbers-inside-bold / honest disclose-then-bridge."
-    },
-    {
-      "check": "7. HONEST GAP — +2yr stretch handled truthfully",
-      "result": "PASS",
-      "evidence": "Para 1 openly states earlier-career vs 5-year ask, then bridges to genuine L&D depth. Stretch is disclosed, not hidden. Resume changeLog also notes '~3yr vs 5+ ask = honest +2yr stretch, no fabrication.'",
-      "canonical": "JAMIE_FEEDBACK_RULES.md §0.4 + §6: 'Honesty about gaps is mandatory'; disclose-then-bridge."
+      "evidence": "PRIOR FAIL 1 (Vestas 'built and facilitated' role-upgrade) RESOLVED: cover now reads 'I supported the HRBP team in piloting an Inclusive Leadership workshop for 12 senior leaders that was later scaled to 23 global locations' — NOT 'built and facilitated'. This is an approved-variant swap (cover_letter_canonical.md §5 explicitly permits leading with a different real bullet if more JD-relevant, provided it stays true to source). Source = content_library.md 'Supported HRBP team by piloting...' / 'Partnered with HRBP team to design and pilot...' variants. The phrase 'seeing firsthand how a single well-designed program can be equipped to travel consistently across markets' is a third-party observation of the program's expansion, not a fabricated ownership claim. PRIOR FAIL 2 (InGenius dropped '20+ programs and 10+ vendors') RESOLVED: paragraph now reads 'managing 20+ programs and 10+ vendors, designing 3 new educational programs...building guides and workflows for 70+ staff that cut onboarding time by 75%, and facilitating training webinars for 600+ participants to a 78% program enrollment rate'. All three canonical metrics present. Belief-sentence opener correct ('Learning isn't just about delivering content—from my experience, it's about creating a continuous cycle of collecting insights, analyzing data, and refining solutions...'). Tagline = 'Dedicated to Driving Individual and Organizational Development' (approved OD/L&D variant). Paragraph order = Vestas → NextGen → InGenius correct. Org-psych 'how I work' close present. 'Analytical organizer with a growth mindset' present. No free-written new sentences outside swappable slots.",
+      "canonical_source": "cover_letter_canonical.md PARAGRAPH 2 (Vestas); PARAGRAPH 4 (InGenius); §5 approved-variant swap rule"
     }
   ],
   "failures": [],
-  "audited_at": "2026-06-19"
+  "notes": "RE-AUDIT after cover fix (cover_sha changed from prior FAIL audit at 2026-06-19T19:47:44Z). Both prior FAIL conditions resolved: (1) Vestas paragraph now correctly uses 'supported the HRBP team in piloting' not 'built and facilitated'; (2) InGenius paragraph now includes 'managing 20+ programs and 10+ vendors'. Resume was already clean (resume_sha unchanged). Package is PASS on all A-F. Ready for stage/submit.",
+  "audited_at": "2026-06-19T20:30:00Z"
 }

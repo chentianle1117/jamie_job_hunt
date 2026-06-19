@@ -2,55 +2,45 @@
   "role": "RxBenefits — Learning and Talent Development Specialist",
   "verdict": "PASS",
   "resume_sha": "6c0c844cac257215d7046631c4155edd3c213685cd42942f37d882867edb2563",
-  "cover_sha": "9a563b00fdf30dfd4bb01b67e7d4bdae52cc64380fe1adb3f1f9f9f57e95df54",
+  "cover_sha": "e10d8080c2f2fcc59f87b8655e465110a3a0cc8d6ea366b0219cda9ba6a2416a",
   "checks": [
     {
-      "check": "1. SUBSTANCE FLOOR (RULE -1)",
-      "result": "PASS",
-      "evidence": "All canonical bullets retained verbatim with every concrete: InGenius 4/4 (600+/78%/70+/75%/25+/3 programs/20+ programs/10+ vendors), NextGen 4/4 (2,000+ employee experiences, 5 cross-functional projects, DEI/Inclusive Leadership/performance review), ODN 3/3 (300+ leave cases, $362K, focus groups), Vestas 4/4 (12 leaders/23 locations/3 global locations/1,000+ competitors), Kronos 4/4 (566%). Tailoring = reorder + summary re-angle only; no metric/clause/scope word dropped.",
-      "canonical_ref": "jamie/resume.json lines 38-137; JAMIE_FEEDBACK_RULES.md RULE -1 (lines 33-62)"
+      "check": "A",
+      "label": "Substance floor (RULE -1)",
+      "verdict": "PASS",
+      "evidence": "All 5 experience entries verified bullet-by-bullet against canonical resume.json. InGenius: all 4 bullets present with full metrics (600+, 78% client conversion, 70+, 75%, 25+, 20+, 10+, positioning/delivery strategy/operations clause). ODN: all 3 bullets with $362K, 300+, focus groups. NextGen: all 4 canonical bullets verbatim. Vestas: all 4 canonical bullets verbatim including 12/23/1000+. Kronos: all 4 canonical bullets with 566%. No dropped clauses, no dropped metrics, no thinned bullets."
     },
     {
-      "check": "2. TRUTH / NO-RELABEL (RULE 0)",
-      "result": "PASS",
-      "evidence": "ODN title 'Consultant, Organization & Talent Development' matches canonical exactly; bullets describe OD diagnostic consulting (leave-case audit + NGO focus groups), NOT community/ERG. NO video-editing claim anywhere. Skills design-tools line lists only Canva + Adobe InDesign (both real/permitted). No Kronos '230+/80+' fabrication present. All metrics trace to canonical resume.json.",
-      "canonical_ref": "jamie/resume.json lines 76-92, 117-136, 165; JAMIE_FEEDBACK_RULES.md §0 (lines 79-126)"
+      "check": "B",
+      "label": "Truth / no-relabel (RULE 0)",
+      "verdict": "PASS",
+      "evidence": "Canva and Adobe InDesign confirmed canonical in content_library.md skills block (Design Tools). No Articulate/Storyline/video-editing/EJ4/ThinkZoom/Jira found anywhere. No $340K/17 launches composite. No 230+/80+/top-3-univ Kronos fabrication (canonical 'top universities' phrasing used). ODN correctly labeled as OD diagnostic consulting. All metrics trace to canonical source files. Skills section matches canonical vocabulary exactly per content_library.md."
     },
     {
-      "check": "3. NO CLICHÉS / NO JD-COPY-PASTE",
-      "result": "PASS",
-      "evidence": "Summary and bullets in Jamie's own voice. Cover para 1 references the JD's 'design, develop, and deliver training' but frames it as 'When I read that this role...' (explicit reference, not keyword-stuffing). No clichés detected. Borderline but acceptable.",
-      "canonical_ref": "JAMIE_FEEDBACK_RULES.md §0.8 (lines 121-126)"
+      "check": "C",
+      "label": "Bullet counts",
+      "verdict": "PASS",
+      "evidence": "ODN: 3 bullets (within 2-3 canonical range). InGenius: exactly 4. NextGen: exactly 4. Vestas: exactly 4. Kronos: exactly 4. No bullet deleted to save space."
     },
     {
-      "check": "4. ODN TWO PROJECTS NOT MIXED",
-      "result": "PASS",
-      "evidence": "Bullet 1 (upskill HR, 300+ leave cases) + bullet 2 ($362K leave costs, policy/first-aid) = leave-cost project. Bullet 3 (focus groups + 1:1 interviews, NGO leadership, decision-making/accountability) = separate NGO project. Each bullet stays within one project.",
-      "canonical_ref": "JAMIE_FEEDBACK_RULES.md §2 ODN two-projects (lines 245-258)"
+      "check": "D",
+      "label": "Cover substance + voice",
+      "verdict": "PASS",
+      "evidence": "Body bold count well exceeds 6 minimum: company bolds (Vestas Wind Systems, NextGen Healthcare, InGenius Prep, RxBenefits) plus metric bolds (3 global locations, 2000+ employee experiences, 20+ programs, 70+ staff, 75%, 600+ participants, 78% program enrollment rate). Org-psych close present (diagnose with data / collaborate cross-functionally / track metrics). Analytical organizer with a growth mindset line present. No relocation over-commitment. No visa mention. Salutation Dear RxBenefits Hiring Team correct. Voice is warm, authentic, and not AI-sounding."
     },
     {
-      "check": "5. BULLET COUNTS",
-      "result": "PASS",
-      "evidence": "ODN = 3 (within 2-3 range); InGenius = 4; NextGen = 4; Vestas = 4; Kronos = 4. All exact.",
-      "canonical_ref": "JAMIE_FEEDBACK_RULES.md §2 bullet-count table (lines 219-225)"
+      "check": "E",
+      "label": "Header/location + Wesleyan coursework",
+      "verdict": "PASS",
+      "evidence": "Resume header: Portland, OR (Open to Remote) appropriate for remote-eligible role. Wesleyan Relevant Coursework line present: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation. USC coursework line also present."
     },
     {
-      "check": "6. COVER (voice / salutation / honesty / close / bolding / no-visa / header)",
-      "result": "PASS",
-      "evidence": "Warm human voice; 'Dear Hiring Team,' present (line 9). Explicitly honest about earlier-career: 'I am honest that my title history is earlier-career than a five-year ask, but the depth is real' (line 15) — does NOT claim 5 years. Org-psych close present: 'Trained as an organizational psychologist, I treat every program as a hypothesis...' (line 17). Bolding includes company (RxBenefits, InGenius Prep, NextGen Healthcare), metrics with numbers inside (600+, 78%, 75%, 25+, 3, 300+, $362K, 2,000+), and credential (MS in Applied Organizational Psychology). No visa/sponsorship mention. Header 'Portland, OR (Open to Remote)' (line 5).",
-      "canonical_ref": "JAMIE_FEEDBACK_RULES.md §6 (lines 320-401), §9 cover checklist (lines 479-486)"
-    },
-    {
-      "check": "7. HONEST GAP — +2yr stretch handled truthfully",
-      "result": "PASS",
-      "evidence": "Role asks ~5yr; Jamie ~3yr. Cover discloses-then-bridges: states title history is earlier-career than a five-year ask, then emphasizes real adult-learning/OD depth (ODN, NextGen, InGenius). Disclose-then-bridge per §6 honest-gap rule. No overclaim.",
-      "canonical_ref": "JAMIE_FEEDBACK_RULES.md §6 honest-gap disclosure (lines 388-391)"
+      "check": "F",
+      "label": "Cover canonical-skeleton adherence",
+      "verdict": "PASS",
+      "evidence": "Opener: belief sentence with canonical 'continuous cycle of collecting insights, analyzing data, and refining solutions' preserved verbatim. Tagline line 2: Dedicated to Driving Individual and Organizational Development = correct OD/L&D approved variant. Paragraph order: Vestas > NextGen > InGenius = correct. Vestas: 'supported the HRBP team in piloting' (no role-upgrade); canonical M&A close present; approved-variant swap (DEI pilot leads) from canonical resume.json bullet 1. NextGen: canonical structure preserved with L&D keyword swap. InGenius: canonical close clause 'refine program positioning, delivery strategy, and operations' fully preserved; 'Grounded in adult learning theory' is an approved short participial opener to close clause per prompt spec; 'MS Office, Canva, and Adobe InDesign' folded as keyword reword inside canonical guides/workflows clause (all confirmed canonical tools). Org-psych close with analytical organizer with a growth mindset present. No free-written standalone new sentences."
     }
   ],
   "failures": [],
-  "observations": [
-    "NON-BLOCKING: resume.json InGenius b1 uses '78% client conversion rate' (verbatim from canonical jamie/resume.json line 65), while the cover uses the preferred default '78% program enrollment rate'. Per §9 the 'program enrollment rate' phrasing is the default for non-sales roles (L&D qualifies). The resume mirrors canonical exactly so it is not a substance/truth violation, and the cover already uses the preferred default — both phrasings are real and sourced. Optional polish: align the resume bullet to 'program enrollment rate' for full consistency, but NOT required and NOT a degradation.",
-    "MINOR: header reads 'Portland, OR (Open to Remote)' vs canonical 'Open to Remote or Relocation' — acceptable per §5 location-follows-role rule for a remote/Portland role; intentional tailoring, not a defect."
-  ],
-  "audited_at": "2026-06-19"
+  "audited_at": "2026-06-19T00:00:00Z"
 }
