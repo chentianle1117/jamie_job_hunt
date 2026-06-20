@@ -5,9 +5,13 @@
   "url": "https://www.linkedin.com/jobs/view/4415920828/",
   "ats": "LinkedIn Easy Apply (native)",
   "location": "Seattle, WA (On-site, hybrid per JD)",
+  "yoe_required": "JD asks 3+ years L&D/professional services/legal — Jamie has ~3 yrs (within range, not a stretch).",
   "jd_source": "none",
   "key_points": {
+    "years_experience_asked": "JD asks 3+ years L&D/professional services/legal — Jamie has ~3 yrs (within range, not a stretch).",
+    "comp": "Starting at $125,000/year (DOE)",
+    "location": "Seattle, WA (On-site, hybrid per JD)",
     "sponsorship_signal": "unknown",
-    "source_note": "no full JD captured; key points composed from our record fields (jd_source=none)."
+    "source_note": "key points composed from our record fields (no full JD captured; jd_source=none)."
   }
 }

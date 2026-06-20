@@ -16,9 +16,9 @@
   ]
  },
  "header": {
-  "location": "Beaverton, OR"
+  "location": "Portland, OR (Open to Relocation or Remote)"
  },
- "summary": "I'm Jamie\u2014a curious, people-loving (97% extrovert!) <b>People Operations</b> professional who thrives on <b>solving problems through data analysis</b>, <b>building programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can <b>support employees and improve how people work</b>\u2014through human-centered, data-driven approaches.",
+ "summary": "I'm Jamie—a curious, people-loving (97% extrovert!) <b>People Operations</b> professional who thrives on <b>solving problems through data analysis</b>, <b>building programs grounded in evidence</b>, and <b>collaborating with stakeholders for sustainable impact</b>. Expect me to always be seeking ways we can <b>support employees and improve how people work</b>—through human-centered, data-driven approaches.",
  "keywordGroups": {
   "data": "Data/Analytics",
   "coord": "Coordination/Ops",
@@ -29,11 +29,30 @@
  },
  "experience": [
   {
+   "id": "odn",
+   "title": "Consultant, Organization & Talent Development",
+   "company": "Organization Development Network (ODN) Oregon",
+   "location": "Remote, USA",
+   "dates": "August 2025–Present",
+   "workSampleUrl": null,
+   "bullets": [
+    {
+     "text": "Upskill HR team in {data|data analytics} to audit 300+ leave cases, successfully refuting cost assumptions via {data|evidence-based insights}"
+    },
+    {
+     "text": "Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training"
+    },
+    {
+     "text": "Conduct focus groups and 1:1 interviews with an NGO leadership team to surface decision-making and accountability gaps"
+    }
+   ]
+  },
+  {
    "id": "ingenius",
    "title": "Program Enablement Manager",
    "company": "InGenius Prep, LLC",
    "location": "Remote, USA",
-   "dates": "September 2023\u00e2\u20ac\u201cPresent",
+   "dates": "September 2023–Present",
    "workSampleUrl": null,
    "bullets": [
     {
@@ -46,7 +65,7 @@
      "text": "Develop guides and workflows for 70+ {cross|cross-functional} staff, improving program knowledge and reducing onboarding time by 75%"
     },
     {
-     "text": "Facilitate training webinars for 600+ participants, enhancing {prog|program understanding} and driving a 78% client conversion rate"
+     "text": "Facilitate training webinars for 600+ participants, enhancing {prog|program understanding} and driving a 78% program enrollment rate"
     }
    ]
   },
@@ -55,7 +74,7 @@
    "title": "Organizational Development Intern",
    "company": "NextGen Healthcare",
    "location": "Los Angeles, CA",
-   "dates": "January 2023\u00e2\u20ac\u201cMay 2023",
+   "dates": "January 2023–May 2023",
    "workSampleUrl": "https://drive.google.com/file/d/1Pefhv22MiK30tSu2SUvNYmNRncWPMNNy/view?usp=sharing",
    "bullets": [
     {
@@ -73,30 +92,11 @@
    ]
   },
   {
-   "id": "odn",
-   "title": "Consultant, Organization & Talent Development",
-   "company": "Organization Development Network (ODN) Oregon",
-   "location": "Remote, USA",
-   "dates": "August 2025\u00e2\u20ac\u201cPresent",
-   "workSampleUrl": null,
-   "bullets": [
-    {
-     "text": "Upskill HR team in {data|data analytics} to audit 300+ leave cases, successfully refuting cost assumptions via {data|evidence-based insights}"
-    },
-    {
-     "text": "Empower HR to present executive-ready insights on $362K in leave costs, leading to policy redesigns and first aid training"
-    },
-    {
-     "text": "Conduct {focus groups|focus groups} and 1:1 interviews with an NGO leadership team to surface {decision-making|decision-making} and accountability gaps"
-    }
-   ]
-  },
-  {
    "id": "vestas",
    "title": "HR Business Partner Assistant",
    "company": "Vestas Wind Systems",
    "location": "Taipei, Taiwan",
-   "dates": "February 2022\u00e2\u20ac\u201cOctober 2022",
+   "dates": "February 2022–October 2022",
    "workSampleUrl": "https://drive.google.com/file/d/1iyPfCA75WA6XDGx_cMzP_E5CnWZ8EmVb/view?usp=sharing",
    "bullets": [
     {
@@ -118,7 +118,7 @@
    "title": "Human Resources Intern",
    "company": "Kronos Research",
    "location": "Taipei, Taiwan",
-   "dates": "January 2021\u00e2\u20ac\u201cAugust 2021",
+   "dates": "January 2021–August 2021",
    "workSampleUrl": null,
    "bullets": [
     {
@@ -141,7 +141,7 @@
    "school": "University of Southern California",
    "location": "Los Angeles, CA",
    "degree": "MS in Applied Organizational Psychology (GPA: 3.95)",
-   "dates": "August 2022\u00e2\u20ac\u201cMay 2023",
+   "dates": "August 2022–May 2023",
    "bullets": [
     "Relevant Coursework: Organizational Psychology, Research Methods, Group Dynamics & Leadership, Consumer Psychology"
    ]
@@ -150,7 +150,7 @@
    "school": "Wesleyan University",
    "location": "Middletown, CT",
    "degree": "BA in Psychology and Education Studies (GPA: 4.00)",
-   "dates": "August 2017\u00e2\u20ac\u201cDecember 2021",
+   "dates": "August 2017–December 2021",
    "bullets": [
     "Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation"
    ]
@@ -162,8 +162,8 @@
   "<b>Scholarships:</b> Freeman Asian Scholarship (4-year full-tuition), Tuck Bridge Scholarship (full)"
  ],
  "skills": [
-  "<b>Technical Skills:</b> HRIS (Rippling, ADP, SAP) \u00c2\u00b7 ATS (Greenhouse) \u00c2\u00b7 LMS (Canvas, Moodle) \u00c2\u00b7 Project Management (Asana, Airtable) \u00c2\u00b7 Data Analysis (Google Sheets, Excel, SPSS) \u00c2\u00b7 Knowledge Management (Notion, SharePoint) \u00c2\u00b7 Google Workspace \u00c2\u00b7 Microsoft Office (Word, PowerPoint) \u00c2\u00b7 Design Tools (Canva, Adobe InDesign) \u00c2\u00b7 GenAI Tools (ChatGPT, Gemini, Claude)",
-  "<b>Languages:</b> English (fluent) \u00c2\u00b7 Mandarin Chinese (native) \u00c2\u00b7 Spanish (basic)",
+  "<b>Technical Skills:</b> HRIS (Rippling, ADP, SAP) · ATS (Greenhouse) · LMS (Canvas, Moodle) · Project Management (Asana, Airtable) · Data Analysis (Google Sheets, Excel, SPSS) · Knowledge Management (Notion, SharePoint) · Google Workspace · Microsoft Office (Word, PowerPoint) · Design Tools (Canva, Adobe InDesign) · GenAI Tools (ChatGPT, Gemini, Claude)",
+  "<b>Languages:</b> English (fluent) · Mandarin Chinese (native) · Spanish (basic)",
   "<b>Certifications:</b> HRCI Human Resource Associate Certificate (in progress)"
  ],
  "jd": {
@@ -173,7 +173,11 @@
  "changeLog": [
   {
    "date": "2026-06-19",
-   "note": "Tailored for Nike People Solutions Advisor I (Beaverton, OR on-site) \u2014 header set to Beaverton; summary noun re-angled to People Operations (3 pillars kept); re-ordered bullets to surface HR-advisory/case/stakeholder-service/policy relevance: InGenius point-of-contact + service-delivery lifted; NextGen policy/DEI consultation lifted to top; Vestas HRBP employee-support + onboarding lifted; Kronos customer-service bullet lifted. All metrics kept (600+/78%/75%/25+/2,000+/$362K/566%/3 locations); bullet counts kept (ODN=3, others=4). Smartsheet NOT added (Jamie doesn't have it)."
+   "note": "Tailored for Nike People Solutions Advisor I (Beaverton, OR on-site) — header set to Beaverton; summary noun re-angled to People Operations (3 pillars kept); re-ordered bullets to surface HR-advisory/case/stakeholder-service/policy relevance: InGenius point-of-contact + service-delivery lifted; NextGen policy/DEI consultation lifted to top; Vestas HRBP employee-support + onboarding lifted; Kronos customer-service bullet lifted. All metrics kept (600+/78%/75%/25+/2,000+/$362K/566%/3 locations); bullet counts kept (ODN=3, others=4). Smartsheet NOT added (Jamie doesn't have it)."
+  },
+  {
+   "date": "2026-06-20",
+   "note": "FIX: re-ordered experience most-recent-first (ODN Aug2025 to top); removed bogus self-referential markup {focus groups|focus groups} & {decision-making|decision-making} -> plain text; 'client conversion rate' -> 'program enrollment rate' (non-sales role); header -> 'Portland, OR (Open to Relocation or Remote)' (Jamie does not live in Beaverton). Renderer expand_kw regex also fixed so no {x|y} marker can leak."
   }
  ]
 }

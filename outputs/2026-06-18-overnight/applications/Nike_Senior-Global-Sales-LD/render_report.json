@@ -2,11 +2,11 @@
   "role_id": "Nike_Senior-Global-Sales-LD",
   "resume_pages": 1,
   "cover_pages": 1,
-  "resume_size_bytes": 90128,
-  "cover_size_bytes": 57243,
+  "resume_size_bytes": 88883,
+  "cover_size_bytes": 57308,
   "resume_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-18-overnight\\applications\\Nike_Senior-Global-Sales-LD\\resume.pdf",
   "cover_path": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-18-overnight\\applications\\Nike_Senior-Global-Sales-LD\\cover_letter.pdf",
-  "rendered_at": "2026-06-19T20:16:21.626587Z",
+  "rendered_at": "2026-06-20T05:45:40.696472Z",
   "warnings": [
     "autofit: resume fit to 1 page at font_scale=0.97 (content preserved, type shrunk)"
   ]

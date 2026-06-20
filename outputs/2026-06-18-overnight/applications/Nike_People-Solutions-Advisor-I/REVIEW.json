@@ -1,0 +1,22 @@
+{
+  "status": "review",
+  "company": "Nike",
+  "role": "People Solutions Advisor I",
+  "location": "Beaverton, OR (On-site)",
+  "ats": "Workday (Nike Careers)",
+  "url": "https://careers.nike.com",
+  "linkedin_url": "https://www.linkedin.com/jobs/view/4429950935/",
+  "staged_at": "2026-06-19",
+  "review_reason": "High-stakes + Jamie has warm Nike connections. Built, audited PASS, NOT submitted — awaiting Jamie's go.",
+  "fit": "AT-LEVEL — IC individual contributor, no YOE stretch; Beaverton HQ (Jamie is local). Strongest Nike fit.",
+  "fit_level": "AT-LEVEL",
+  "sponsorship_note": "Silent in JD — Nike is a confirmed H-1B sponsor.",
+  "audit_verdict": "PASS (6 checks, A–F)",
+  "cover_tagline": "Dedicated to Improving People/Employee Experience (EX variant — correct for this role)",
+  "warm_intro": [
+    {"name": "Alison Daugherty", "relationship": "Warm intro — already forwarded Jamie's resume to Nike TA", "status": "Evidenced; prior contact", "use_for": "Primary for this PSA I req", "template": "Hi Alison, just circling back — Nike posted the People Solutions Advisor I role (Beaverton, Workday) which looks exactly like the work we talked about. I just applied / am about to apply. Would it be possible to loop in your Nike TA contact on this specific req? Truly appreciate your support."},
+    {"name": "Jen Scales", "relationship": "Informational thread; call pending; 'highest-value Portland relationship'", "status": "Evidenced; active thread", "use_for": "Flag this role before applying", "template": "Hi Jen, just circling back — Nike posted People Solutions Advisor I which looks exactly like the work we talked about. I just applied / am about to. Would love your read on it if you have a moment."}
+  ],
+  "action_for_jamie": "WARM-INTRO FIRST, then apply. Strongest Nike fit (at-level) + two evidenced warm threads (Alison already forwarded resume; Jen call pending).",
+  "fabrication_note": "Only Alison and Jen listed — the only two evidenced threads in the research record. No other Nike connections claimed."
+}

@@ -33,10 +33,17 @@ VIEWER_HTML_CONTENT = VIEWER_HTML.read_text(encoding="utf-8")
 
 
 def expand_kw(text):
-    """Strip {kwg|text} markers → just text (clean mode for PDF)."""
+    """Strip {kwg|text} markers → just text (clean mode for PDF).
+
+    IMPORTANT (2026-06-20 fix): the old pattern was r'\{(\w+)\|([^}]+)\}' — the \w+ only
+    matched word-char keys, so a malformed marker with a SPACE in the key (e.g.
+    '{focus groups|focus groups}') or any non-word key was left RAW in the PDF. We now
+    match ANY key (non-greedy, no '}' or '|' in it) so NO '{x|y}' marker can ever leak
+    into the rendered output. Right-hand side becomes the visible text.
+    """
     if not text:
         return ""
-    return re.sub(r'\{(\w+)\|([^}]+)\}', r'\2', text)
+    return re.sub(r'\{([^|{}]*)\|([^}]*)\}', r'\2', text)
 
 
 def build_resume_html(data, font_scale=1.0):

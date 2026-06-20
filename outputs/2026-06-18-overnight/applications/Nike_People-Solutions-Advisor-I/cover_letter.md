@@ -1,6 +1,6 @@
 # Cover Letter — Nike
 ## People Solutions Advisor I
-**Jamie (Yi-Chieh) Cheng** | jamiecheng0103@gmail.com | Beaverton, OR
+**Jamie (Yi-Chieh) Cheng** | jamiecheng0103@gmail.com | Portland, OR (Open to Relocation or Remote)
 A Solution-focused, Data-driven, and People-oriented Professional
 Dedicated to Improving People/Employee Experience
 

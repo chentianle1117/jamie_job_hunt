@@ -1,0 +1,12 @@
+{
+  "company": "RxBenefits",
+  "role": "Learning and Development Specialist",
+  "ats": "ADP WorkforceNow",
+  "requisition_id": "2068",
+  "status": "ALREADY SUBMITTED (pre-existing, on file)",
+  "applied_date": "06/13/2026",
+  "verified_via": "ADP 'My Applications' page (authoritative), logged in via email OTP 2026-06-20",
+  "verification_note": "My Applications shows exactly one card: 'Submitted - Learning and Development Specialist - Req 2068 - Applied 06/13/2026'. No 'Continue/Complete application' CTA (not a draft/shell). Tonight's job-page 'Applied 06/19' badge was ADP merging the new OTP login into the existing applicant profile (same email jamiecheng0103@gmail.com); the durable record is the 06/13 submission.",
+  "action": "NO RE-SUBMIT — re-applying would create a duplicate against the same applicant profile.",
+  "screenshots": ["screenshots/ma01_myapplications.png", "screenshots/ma06_app_detail.png", "screenshots/v4_step0_start.png"]
+}

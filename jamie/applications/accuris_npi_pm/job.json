@@ -7,8 +7,10 @@
   "req_id": "524",
   "jd_source": "none",
   "key_points": {
+    "years_experience_asked": "not stated",
+    "comp": "not stated",
     "sponsorship_signal": "No 'no sponsorship' clause anywhere in the official Dayforce JD. Standard EEO statement only. No US-citizenship / 'U.S. Person' / security-clearance / ITAR language — despite Accuris serving aerospace/engineering data, THIS role (Product Operations, B2B SaaS launch PM) has no clearance gate. SAFE. Sponsorship=YES question not reached (would be on Questionnaire step after resume upload).",
-    "source_note": "no full JD captured; key points composed from our record fields (jd_source=none)."
+    "source_note": "key points composed from our record fields (no full JD captured; jd_source=none)."
   },
   "sponsorship_note": "No 'no sponsorship' clause anywhere in the official Dayforce JD. Standard EEO statement only. No US-citizenship / 'U.S. Person' / security-clearance / ITAR language — despite Accuris serving aerospace/engineering data, THIS role (Product Operations, B2B SaaS launch PM) has no clearance gate. SAFE. Sponsorship=YES question not reached (would be on Questionnaire step after resume upload).",
   "no_sponsor_hardstop": false,
