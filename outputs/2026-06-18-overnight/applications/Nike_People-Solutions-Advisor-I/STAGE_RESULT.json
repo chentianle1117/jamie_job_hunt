@@ -1,0 +1,41 @@
+{
+  "role": "Nike — People Solutions Advisor I (R-86130)",
+  "ats": "Workday (nike.wd1.myworkdayjobs.com)",
+  "url": "https://nike.wd1.myworkdayjobs.com/en-US/nke/job/Beaverton-Oregon/People-Solutions-Advisor-I_R-86130",
+  "staged_at": "2026-06-20",
+  "status": "ACCOUNT_CREATED + MY_INFORMATION_SAVED + AT_UPLOAD_STEP",
+  "lane": "HUMAN-FINISH (2 clicks: upload resume + complete remaining steps + Submit)",
+  "account": {
+    "created": true,
+    "email": "jamiecheng0103@gmail.com",
+    "password_location": "~/Downloads/job_password.txt (shared ATS pw; NOT stored here)",
+    "note": "Account created + auto-signed-in via the Chrome-in-Chrome MCP session. My Information page completed + saved."
+  },
+  "my_information_filled_truthfully": {
+    "how_heard": "LinkedIn",
+    "ever_employed_by_nike": "No",
+    "country": "United States of America",
+    "first_name": "Jamie",
+    "last_name": "Cheng",
+    "city": "Portland",
+    "state": "Oregon",
+    "address_line_1": "(left blank — no street address on file for Jamie; NOT fabricated; field not required)",
+    "postal_code": "(left blank — same reason; not required)",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "Mobile, +1 (US), 213-700-3831 (US flag confirmed; format-fixed to local digits per Workday)"
+  },
+  "blocker": {
+    "what": "RESUME UPLOAD could not be completed autonomously tonight.",
+    "why": [
+      "Chrome-in-Chrome MCP file_upload is SANDBOXED — rejects repo + scratchpad paths ('only files the user has shared with this session').",
+      "MCP cannot drive the native OS file picker (out-of-process; typing the path into the page does not reach the dialog).",
+      "Standalone Patchright debug Chrome (port 9466, set_input_files works there) could NOT log into Nike Workday — credentials fill correctly (email+pw) but Sign In silently returns to /login with no error/captcha. Most likely a NEW-DEVICE email verification step that requires Jamie's Gmail (not authed in this session's workspace-mcp, which holds David's accounts, not Jamie's)."
+    ]
+  },
+  "jd_note": {
+    "spanish": "JD lists 'Bilingual in Spanish' (NOT marked required; 'will accept any suitable combination'). Jamie's Spanish = BASIC, not bilingual. Package does NOT claim fluency. Applying is legitimate (strong HR fit; 1-2yr HR exp asked, Jamie has ~3yr). If a Spanish-proficiency screening question appears, answer truthfully (basic) — David's call if it's a hard gate.",
+    "yoe": "Asks 1-2yr customer-service + 1-2yr HR — Jamie EXCEEDS. AT-LEVEL fit."
+  },
+  "human_next": "Open the logged-in Nike tab in the MCP Chrome (already at My Experience) → upload outputs/.../Nike_People-Solutions-Advisor-I/resume.pdf via the Resume/CV 'Select files' picker → click through Application Questions (sponsorship=Yes, authorized=Yes), Voluntary Disclosures (Woman/Asian), Self Identify → screenshot-review → Submit. OR: if Patchright login is wanted, retrieve the Nike device-verification code from Jamie's Gmail first.",
+  "warm_intro": "Alison Daugherty already forwarded Jamie's resume to Nike TA for this req; David to follow up. Jen Scales call pending."
+}
