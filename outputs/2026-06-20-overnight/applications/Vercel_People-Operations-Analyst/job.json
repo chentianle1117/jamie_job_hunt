@@ -1,0 +1,27 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Vercel",
+  "role": "People Operations Analyst (Contract)",
+  "url": "https://job-boards.greenhouse.io/vercel/jobs/6097137004",
+  "ats": "Greenhouse",
+  "location": "Remote - United States",
+  "jd_summary": "A hands-on, execution-focused 6-month contract People Ops role on Vercel's People team (remote-US). Core work: process Workday transactions across the employee lifecycle (hires, terms, job changes, transfers), triage/resolve HR helpdesk tickets in FreshService/Serval, support onboarding/offboarding, and pull standard + ad hoc Workday reports. Explicitly NOT a strategy role.",
+  "yoe_required": "2-4 years of experience in People Operations, HR Shared Services, or a similar operational HR role",
+  "key_points": {
+    "one_liner": "At-level People Ops Analyst, 6-mo contract, remote-US, $95-115K - Workday transactions + HR helpdesk; not strategy.",
+    "years_experience_asked": "2-4 years in People Operations / HR Shared Services / similar operational HR role",
+    "must_have_skills": [
+      "2-4 years in People Operations, HR Shared Services, or similar operational HR role",
+      "Hands-on Workday experience (processing transactions + running reports, not just UI navigation)",
+      "Helpdesk/ticketing queue experience (FreshService, Zendesk, ServiceNow, or similar)",
+      "High attention to detail; catches data errors before they become problems",
+      "Clear, professional written communication",
+      "Self-directed and organized; manages own queue without daily direction"
+    ],
+    "comp": "Estimated annual cash salary $95,000.00 - $115,000.00 (adjusted by location; SF baseline)",
+    "sponsorship_signal": "silent",
+    "location": "Remote - United States"
+  },
+  "sponsorship_note": "silent (JD does not mention visa sponsorship or citizenship requirement; EEO statement explicitly lists 'national origin, citizenship' as protected characteristics. Note: Greenhouse application form may ask work-authorization/sponsorship questions separately.)",
+  "jd_source": "full"
+}

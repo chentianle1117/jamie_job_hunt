@@ -1,0 +1,29 @@
+{
+  "company": "Cushman & Wakefield",
+  "role": "Senior HR Generalist",
+  "req_id": "r321116",
+  "lane": "HOLD-for-Jamie",
+  "status": "package-built-gated-rendered-NOT-submitted",
+  "reason": "Big firm (global real-estate services) + verify-YOE range + a real geo restriction = Jamie's judgment call. Built to submit-ready, held for her review per task instruction.",
+  "apply_url": "https://careers.cushmanwakefield.com/en/jobs/r321116/senior-hr-generalist/",
+  "ats": "Workday",
+  "jd_verify": {
+    "yoe_required": "Minimum of 3-6 years in human resources",
+    "yoe_verdict": "BUILD — 3yr floor is within Jamie's ~3yr band (≤~5yr stretch cap); NOT a 5+ hard floor",
+    "sponsorship_clause": "SILENT — no no-sponsorship / no citizenship / no ITAR clause present. Not a DROP.",
+    "location": "Remote - US, BUT must live in the Philadelphia area or neighboring PA states; role based in Reading, PA; 20% local travel.",
+    "geo_flag": "Jamie is in Portland, OR. This role is remote-but-region-locked to the Philadelphia/PA area — a personal-fit question, NOT an H-1B or YOE blocker. The 'remote' label passes the geo gate; surfaced here for Jamie's decision.",
+    "comp": "$76,296 - $89,760"
+  },
+  "tailoring_angle": "HR/HRBP recipe. Summary identity = 'Human Resources'; Vestas leads its M&A bullet with employee-relations + compliance (matches JD's ER/investigations + DEI/M&A scope, source-exact verbs, no role-upgrade); NextGen reworded to 'engagement and performance strategies' + retains DEI/Inclusive-Leadership/performance-review; InGenius -> 'people-development programs' + 'management webinars'; Kronos keeps performance-management + comp foundation; skills foreground HRIS/ATS/Data-Analysis with Excel+PowerPoint explicit (JD asks advanced Excel/PowerPoint). Spanish (basic) truthful (JD: Spanish strongly preferred). NO Workday/ServiceNow added (Jamie lacks them).",
+  "quality": {
+    "gate_chain": "ALL 11 GATES PASS (exit 0): eligibility, tailored-resume, resume-rules, mojibake, markup-leak, recency-order, client-word, substance-floor, cover-format, cover-structure, pdf-matches-source",
+    "visual_verify": "resume.pdf = 1 page (autofit font_scale 0.97, content preserved per RULE -1); no bullet orphan-wrap; no markup leak; ODN named correctly; Spanish present; no fabricated tools. cover_letter.pdf = 1 page, canonical skeleton intact.",
+    "substance_floor": "All canonical concretes preserved vs base resume.json.",
+    "fabrication_check": "RULE 0 clean — every claim traces to resume.json / content_library.md; no invented tools or numbers."
+  },
+  "fit_note": "Textbook HR/HRBP generalist (talent reviews, performance mgmt, engagement, DEI, ER) — strong real-experience match across Vestas HRBP, NextGen, ODN, Kronos. Title says 'Senior' but duties are IC-generalist, not people-management; 3yr floor = stretchable. Main open question for Jamie is the Philadelphia-area residency requirement.",
+  "submitted": false,
+  "built_at": "2026-06-20",
+  "built_by": "build-only sub-agent (Cushman & Wakefield)"
+}

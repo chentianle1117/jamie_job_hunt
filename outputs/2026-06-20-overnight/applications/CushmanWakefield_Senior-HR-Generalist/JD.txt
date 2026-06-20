@@ -1,0 +1,54 @@
+Cushman & Wakefield — Senior HR Generalist
+Req: r321116
+URL: https://careers.cushmanwakefield.com/en/jobs/r321116/senior-hr-generalist/
+ATS: Workday
+Source: live careers page (fetched 2026-06-20)
+
+LOCATION / REMOTE STATUS
+- Remote position, BUT must live in the Philadelphia area or neighboring states.
+- Role is based out of Reading, Pennsylvania, USA.
+- 20% travel to local sites.
+  ⚠️ Geo flag for Jamie's judgment: she is in Portland, OR. This is remote-but-region-locked
+     to the Philadelphia/PA area. Not an H-1B/YOE blocker — a personal-fit question only.
+
+EXPERIENCE REQUIRED
+- "Minimum of 3-6 years of experience in human resources."
+  → Floor is 3 years; within Jamie's ~3yr band (≤~5yr stretch cap). BUILD-eligible.
+
+SPONSORSHIP / WORK AUTHORIZATION
+- No sponsorship language anywhere in the posting. No "no sponsorship," no citizenship
+  requirement, no ITAR / U.S.-Person / clearance. Sponsorship signal = SILENT (not a DROP).
+
+EDUCATION / QUALIFICATIONS
+- Bachelor's degree in Human Resources, Business, Finance, or related field (preferred).
+- 3-6 years HR experience (minimum).
+- Advanced Excel and PowerPoint proficiency.
+- Strong business acumen and communication skills.
+- Bilingual in Spanish strongly preferred.
+
+CORE RESPONSIBILITIES (People Partnering team)
+- Strategic talent management: talent reviews, development, and succession planning.
+- Performance management and employee engagement initiatives.
+- Diversity, Equity, and Inclusion (DEI) support.
+- Compensation planning and benchmarking.
+- Leadership development and management training collaboration.
+- Employee relations counsel: discipline, policy interpretation, compliance.
+- Talent acquisition partnership and candidate assessment.
+- Internal investigations of employment incidents.
+
+HR SYSTEMS / TOOLS
+- Workday — "a plus."
+- ServiceNow — "a plus."
+  (Jamie has neither in her canonical skills — NOT added to the resume; no fabrication.)
+
+COMPENSATION
+- $76,296.00 - $89,760.00.
+
+FIT NOTES
+- Textbook HR/HRBP generalist role — maps to content_library "HR / HRBP" recipe.
+- Strong real matches: Vestas HRBP (DEI pilot, M&A, onboarding, engagement, ER cases),
+  NextGen (engagement data, DEI/performance-review consulting, 2,000+ experiences),
+  ODN (HR data analytics, $362K leave-cost diagnosis), Kronos (performance management,
+  recruiting/comp foundation).
+- Advanced Excel + PowerPoint: already canonical (MS Office + Data Analysis).
+- Spanish "strongly preferred": Jamie has basic Spanish — already truthfully in skills.

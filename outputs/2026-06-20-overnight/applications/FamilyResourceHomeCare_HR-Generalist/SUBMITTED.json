@@ -1,0 +1,49 @@
+{
+  "company": "Family Resource Home Care",
+  "role": "HR Generalist",
+  "status": "SUBMITTED",
+  "submitted_at": "2026-06-20T11:05:00-07:00",
+  "linkedin_url": "https://www.linkedin.com/jobs/view/4423586852/",
+  "ats": "Breezy HR (no account required)",
+  "apply_url": "https://family-resource-home-care.breezy.hr/p/802c4d718386-hr-generalist",
+  "submitted_url": "https://family-resource-home-care.breezy.hr/p/802c4d718386-hr-generalist/apply/submitted",
+  "confirmation_text": "Application Submitted — Your application has been submitted successfully. Good luck!",
+  "confirmation_method": "no-account confirmation page (green checkmark) + URL changed to /apply/submitted; visually verified",
+  "location": "Clackamas, OR (Portland metro) - Remote (Within Location)",
+  "comp_posted": "$62,000 - $75,000 / year",
+  "resume_attached": "resume.pdf (tailored for this role; verified via el.files[0].name == 'resume.pdf')",
+  "cover_letter": "pasted as clean plain text into the Breezy cover-letter textarea (2259 chars); also rendered as cover_letter.pdf in role folder",
+  "captcha": "none detected (recaptcha/hcaptcha/turnstile all false)",
+  "gate_chain": "ALL GATES PASS (run_all_gates.py exit 0)",
+  "filled_field_values": {
+    "Full Name": "Jamie (Yi-Chieh) Cheng",
+    "Email Address": "jamiecheng0103@gmail.com",
+    "Phone Number": "+1 213-700-3831",
+    "SMS consent checkbox": "left unchecked (optional)",
+    "Cover Letter": "plain-text cover (2259 chars)",
+    "Q0 — Do you live in Oregon?": "Yes",
+    "Q1 — How many years worked in HR-related roles?": "3 years",
+    "Q2 — Years experience in healthcare field?": "Less than 1 year",
+    "Q3 — Are you currently employed?": "Yes",
+    "Q4 — When looking to start a new position?": "Within 2-4 weeks",
+    "Q5 — Acceptable salary range?": "$62,000 - $75,000",
+    "Q6 — Current FRHC employee? (optional)": "No",
+    "Q7 — Authorized to work in US WITHOUT need for current or future sponsorship?": "No (truthful — Jamie needs H-1B sponsorship/transfer)",
+    "honeypot hp_7f2b": "left empty (anti-bot trap)"
+  },
+  "screenshots": [
+    "screenshots/01_job_landing.png",
+    "screenshots/02_external_ats_landing.png",
+    "screenshots/03_breezy_form_top.png",
+    "screenshots/04_filled_form.png",
+    "screenshots/05_after_submit.png"
+  ],
+  "ats_mechanics_learned": {
+    "linkedin_routing": "LinkedIn job 4423586852 = external 'Apply' (Responses managed off LinkedIn) -> opens new tab to Breezy HR. NOT Easy Apply.",
+    "breezy_form": "Single-page form at /p/<id>/apply. Fields: cResume (file, required), cName, cEmail, cPhoneNumber (required text), smsConsent (checkbox), cCoverLetter (textarea, optional), hp_7f2b (HONEYPOT — leave empty), 8 screening questions named section_<ts>_question_0..7 (radios + text + textarea).",
+    "resume_upload": "input[type=file]#main-attachment (name=cResume) — set_input_files works directly; Breezy shows 'Attached' + filename after ~3s parse.",
+    "radio_matching": "Radios have no id; match by associated <label> innerText. check(force=True) needed (custom-styled).",
+    "submit_button": "button:has-text('Submit Application'); success -> URL /apply/submitted + 'Application Submitted' green-check page.",
+    "no_account_no_captcha": "Breezy = no account, no captcha for this posting — clean AUTO-SUBMIT lane."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Amsted Industries",
+  "role": "Human Resources Manager",
+  "url": "https://www.linkedin.com/jobs/view/4423039893/",
+  "ats": "LinkedIn",
+  "location": "Clackamas, OR",
+  "jd_summary": "HR Manager for ConMet (an Amsted Industries company) overseeing the HR function at a unionized Clackamas OR manufacturing plant plus a non-union Vancouver WA machining plant. Reports to the Plant Manager with one direct report; manages CBA application, union relations, retention/training/culture, and payroll. Requires manufacturing HR experience and collective-bargaining-agreement negotiation experience.",
+  "yoe_required": "Five or more years of progressive HR experience (ideally to Sr. HR Generalist / HR Manager level)",
+  "key_points": {
+    "one_liner": "HR Manager (5+ yrs, people-manager) at ConMet manufacturing - requires union/CBA negotiation; manager-level scope.",
+    "years_experience_asked": "Five or more years of progressive HR experience (ideally to Sr. HR Generalist / HR Manager level)",
+    "must_have_skills": [
+      "Five or more years of progressive HR experience (ideally to Sr. HR Generalist or HR Manager level)",
+      "HR experience in manufacturing or closely-related environment required",
+      "Experience managing/negotiating collective bargaining agreement required",
+      "Bachelor's degree (or commensurate HR experience) required",
+      "Payroll experience highly preferred; PHR/SPHR or SHRM-CP preferred"
+    ],
+    "comp": "",
+    "sponsorship_signal": "silent",
+    "location": "Clackamas, OR"
+  },
+  "sponsorship_note": "silent",
+  "jd_source": "full"
+}

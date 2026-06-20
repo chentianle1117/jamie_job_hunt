@@ -1,0 +1,15 @@
+{
+  "company": "Vercel",
+  "role": "People Operations Analyst (Contract)",
+  "lane": "HOLD-for-Jamie",
+  "reason": "Contract role (6-month) + Jamie's judgment required. Package fully built, gated, and visually verified; held for Jamie to review and submit herself — DO NOT auto-submit.",
+  "apply_url": "https://job-boards.greenhouse.io/vercel/jobs/6097137004",
+  "ats": "Greenhouse",
+  "location": "Remote - United States",
+  "comp": "$95,000 - $115,000 (annual cash, location-adjusted)",
+  "yoe_required": "2-4 years People Operations / HR Shared Services",
+  "sponsorship_signal": "silent",
+  "staged_at": "2026-06-20",
+  "submitted": false,
+  "notes": "Build-only agent: tailored resume.json + cover_letter.md written, rendered to 1-page PDFs (resume autoFit font_scale=0.97, content fully preserved per RULE -1), visually verified (no wrap, no markup leak, correct company), and passed the full run_all_gates.py chain. No browser opened. Tailoring angle: People-Ops/HRIS/employee-lifecycle/process-improvement — summary role-noun = 'People Operations'; bullets re-ordered (not thinned) to lead with HR-data/onboarding-process/lifecycle relevance; skills surface real HRIS (Rippling/ADP/SAP) + ATS (Greenhouse). Workday NOT claimed (not in Jamie's canonical vocab; cover-structure gate also bans it) — her real HRIS exposure carries the systems signal truthfully."
+}

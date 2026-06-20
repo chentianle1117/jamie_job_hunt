@@ -1,0 +1,27 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Mercury",
+  "role": "Senior Design Operations Program Manager",
+  "url": "https://www.linkedin.com/jobs/view/4408111217/",
+  "ats": "LinkedIn",
+  "location": "Portland, OR",
+  "jd_summary": "Senior Design Operations Program Manager embedded in Mercury's 40+ person Design team (a fintech/banking company). Owns complex horizontal design programs end-to-end: scoping, sequencing, trade-offs, operational systems, rituals, and cross-team coordination. This is a Design Operations / program-management role, NOT a core HR/People role.",
+  "yoe_required": "3-6+ years in a design-focused operations or program role",
+  "key_points": {
+    "one_liner": "Design Operations program role (3-6+ yrs) on Mercury's design team - adjacent to People ops but Design-org, not HR.",
+    "years_experience_asked": "3-6+ years in a design-focused operations or program role",
+    "must_have_skills": [
+      "3-6+ years in a design-focused operations or program role",
+      "Demonstrated high bar for quality and attention to detail, fostering accountability",
+      "Proven ability to influence without authority and coordinate across teams, product areas, and platforms",
+      "Demonstrated ownership of complex horizontal programs (scoping, sequencing, trade-offs)",
+      "Skill in anticipating and mitigating risks across people, process, and tools",
+      "History of driving operational excellence by improving systems end-to-end"
+    ],
+    "comp": "$163,000-$203,800 (NYC/LA/Seattle/SF Bay); lower tiers for other US locations",
+    "sponsorship_signal": "silent",
+    "location": "Portland, OR"
+  },
+  "sponsorship_note": "silent",
+  "jd_source": "full"
+}

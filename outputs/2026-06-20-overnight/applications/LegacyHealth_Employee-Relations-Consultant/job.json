@@ -1,0 +1,25 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Legacy Health",
+  "role": "Employee Relations Consultant",
+  "url": "https://www.linkedin.com/jobs/view/4404242566/",
+  "ats": "LinkedIn",
+  "location": "Portland, OR",
+  "jd_summary": "Employee Relations Consultant at a Portland health system, advising management and employees on employee/labor relations, investigations, policy, and HR services to foster a respectful, high-performing workplace. Requires deep ER/labor-law knowledge; health-care experience preferred.",
+  "yoe_required": "Seven years or more of progressively responsible HR experience",
+  "key_points": {
+    "one_liner": "Senior Employee Relations Consultant (7+ yrs HR) at Legacy Health - strong ER/labor focus; YOE well above at-level.",
+    "years_experience_asked": "Seven years or more of progressively responsible HR experience",
+    "must_have_skills": [
+      "Bachelor's degree, Master's preferred (relevant experience may substitute)",
+      "Seven years or more of progressively responsible experience in the HR field",
+      "Knowledge of laws, acts and regulations governing employee and labor relations",
+      "Health Care experience preferred"
+    ],
+    "comp": "",
+    "sponsorship_signal": "silent",
+    "location": "Portland, OR"
+  },
+  "sponsorship_note": "silent",
+  "jd_source": "full"
+}

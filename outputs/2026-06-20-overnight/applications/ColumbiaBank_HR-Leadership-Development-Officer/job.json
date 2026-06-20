@@ -1,0 +1,25 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Columbia Bank",
+  "role": "HR Leadership Development Officer",
+  "url": "https://www.linkedin.com/jobs/view/4419815464/",
+  "ats": "LinkedIn",
+  "location": "Portland, OR",
+  "jd_summary": "Leadership Development Partner/Officer at a bank, designing and delivering leadership programs (virtual, in-person, e-learning) grounded in adult-learning principles, partnering with stakeholders to identify development needs and build current/future leaders.",
+  "yoe_required": "5+ years (facilitation/presentation); experience designing & delivering leadership development programs",
+  "key_points": {
+    "one_liner": "HR Leadership Development Officer (~5+ yrs facilitation/L&D), $85-120K, Portland - L&D design + delivery focus.",
+    "years_experience_asked": "5+ years (facilitation/presentation); experience designing & delivering leadership development programs",
+    "must_have_skills": [
+      "Bachelor's degree in HR, Organizational Development, Business, or related field (or equivalent experience); Master's preferred",
+      "5+ years of strong facilitation and presentation skills with the ability to engage diverse audiences",
+      "Experience designing and delivering leadership development programs",
+      "Knowledge of leadership frameworks and adult learning principles"
+    ],
+    "comp": "Base pay range $85,000.00 to $120,000.00",
+    "sponsorship_signal": "silent",
+    "location": "Portland, OR"
+  },
+  "sponsorship_note": "silent",
+  "jd_source": "full"
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "job.json/v1",
+  "company": "Family Resource Home Care",
+  "role": "HR Generalist",
+  "url": "https://www.linkedin.com/jobs/view/4423586852/",
+  "ats": "LinkedIn",
+  "location": "Clackamas, OR",
+  "jd_summary": "Professional-level HR Generalist for a home-care company, supporting designated HR programs across comp/benefits/leave, employee relations, progressive discipline, investigations, I-9 compliance, onboarding/offboarding, and unemployment claims. Works closely with senior HR management and operations managers; ~10% travel, no direct reports.",
+  "yoe_required": "3 years of related experience (minimum qualification)",
+  "key_points": {
+    "one_liner": "At-level HR Generalist (3 yrs), $62-75K, Clackamas OR - broad generalist scope with employee relations.",
+    "years_experience_asked": "3 years of related experience (minimum qualification)",
+    "must_have_skills": [
+      "3 years of related experience",
+      "Demonstrated interpersonal communication, presentation, and organizational skills",
+      "Strong analytical and problem-solving skills",
+      "Technical proficiency in utilizing computers and generating reports",
+      "Excellent negotiation and conflict resolution skills",
+      "PHR or SHRM-CP certification preferred; Bachelor's degree preferred"
+    ],
+    "comp": "Pay Range: $62,000-$75,000 / Yr",
+    "sponsorship_signal": "silent",
+    "location": "Clackamas, OR"
+  },
+  "sponsorship_note": "silent",
+  "jd_source": "full"
+}
