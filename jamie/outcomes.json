@@ -566,5 +566,29 @@
     "data_source": "956eb59d-c478-4e51-a7ef-15421e280892",
     "loaded": "2026-06-20",
     "rows_loaded": 69
-  }
+  },
+  "discovered_2026_06_20": [
+    {
+      "company": "Lattice",
+      "title": "Senior People Operations Specialist",
+      "ats": "Greenhouse",
+      "url": "https://lattice.com/job?gh_jid=8572148002",
+      "status": "lead-not-built"
+    },
+    {
+      "company": "Cursor (Anysphere)",
+      "title": "People Operations Coordinator",
+      "ats": "Ashby",
+      "url": "https://jobs.ashbyhq.com/cursor/db8e4abb-aa17-44cb-8d72-156f0d400641",
+      "status": "lead-not-built",
+      "fit": "at-level"
+    },
+    {
+      "company": "Cursor (Anysphere)",
+      "title": "HRBP, Core Business",
+      "ats": "Ashby",
+      "url": "https://jobs.ashbyhq.com/cursor/9978ffe7-8dac-4f44-9f3f-43cfd033d39c",
+      "status": "lead-not-built"
+    }
+  ]
 }
