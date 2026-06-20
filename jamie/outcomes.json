@@ -559,5 +559,12 @@
       "fit_level": "STRETCH (+2yr at cap)",
       "note": "WARM-INTRO IN PARALLEL with applying. The stretch makes a warm intro from Jen especially valuable on a Senior title."
     }
-  ]
+  ],
+  "notion_ssot": {
+    "database": "✅ Jamie — Applications Submitted & Outcomes",
+    "database_id": "cc8be9916de3462996072984a1bff1b2",
+    "data_source": "956eb59d-c478-4e51-a7ef-15421e280892",
+    "loaded": "2026-06-20",
+    "rows_loaded": 69
+  }
 }

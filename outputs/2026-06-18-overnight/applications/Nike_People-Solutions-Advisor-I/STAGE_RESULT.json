@@ -25,12 +25,14 @@
     "phone": "Mobile, +1 (US), 213-700-3831 (US flag confirmed; format-fixed to local digits per Workday)"
   },
   "blocker": {
-    "what": "RESUME UPLOAD could not be completed autonomously tonight.",
-    "why": [
-      "Chrome-in-Chrome MCP file_upload is SANDBOXED — rejects repo + scratchpad paths ('only files the user has shared with this session').",
-      "MCP cannot drive the native OS file picker (out-of-process; typing the path into the page does not reach the dialog).",
-      "Standalone Patchright debug Chrome (port 9466, set_input_files works there) could NOT log into Nike Workday — credentials fill correctly (email+pw) but Sign In silently returns to /login with no error/captcha. Most likely a NEW-DEVICE email verification step that requires Jamie's Gmail (not authed in this session's workspace-mcp, which holds David's accounts, not Jamie's)."
-    ]
+    "what": "RESUME UPLOAD could not be completed tonight — ROOT CAUSE: Nike Workday is DOWN for planned maintenance.",
+    "ROOT_CAUSE_CONFIRMED": "Nike Workday (nike.wd1.myworkdayjobs.com) served the 'Workday is currently unavailable' maintenance page on 2026-06-20. Stated window: 'June 19, 2026 11:00 PM PDT - June 20, 2026 2:00 AM PDT' (observed still down past that). The earlier 'silent login failure' in Patchright was THIS — the platform is down, not a credential/verification/tooling bug.",
+    "secondary_tooling_notes": [
+      "Chrome-in-Chrome MCP file_upload is SANDBOXED — rejects repo + scratchpad paths. Cannot drive native OS file picker. So MCP can't upload regardless.",
+      "Patchright set_input_files (port 9466) IS the correct upload path once Workday is back up. Jamie's Gmail IS now authed in workspace-mcp (verified this session) — so any new-device verification code can be retrieved.",
+      "Account state: created + My Information saved server-side via the MCP session before maintenance; should resume at My Experience once the site is back."
+    ],
+    "resume_when": "Nike Workday back online (post-maintenance). Re-run: drive full flow in Patchright 9466 (login -> apply manually -> upload resume.pdf via set_input_files -> Application Questions sponsorship=Yes/auth=Yes -> Voluntary Disclosures Woman/Asian -> Self Identify -> screenshot-review -> Submit). Pull any Workday verification code from Jamie's Gmail (jamiecheng0103@gmail.com)."
   },
   "jd_note": {
     "spanish": "JD lists 'Bilingual in Spanish' (NOT marked required; 'will accept any suitable combination'). Jamie's Spanish = BASIC, not bilingual. Package does NOT claim fluency. Applying is legitimate (strong HR fit; 1-2yr HR exp asked, Jamie has ~3yr). If a Spanish-proficiency screening question appears, answer truthfully (basic) — David's call if it's a hard gate.",
