@@ -1,0 +1,29 @@
+{
+  "company": "Lyra Health",
+  "role": "Training Operations Associate II",
+  "role_full": "Training Operations Associate II — Provider Network Operations / Provider Enablement",
+  "location": "Remote, United States",
+  "remote": true,
+  "date_discovered": "2026-06-21",
+  "source": "LinkedIn",
+  "apply_url": "https://jobs.lever.co/lyrahealth/c1df9232-9372-430d-8ec9-c9f3c2794661",
+  "linkedin_url": "https://www.linkedin.com/jobs/view/4430059469/",
+  "ats": "Lever (jobs.lever.co/lyrahealth) — LinkedIn Easy Apply surfaced; native apply is Lever-hosted",
+  "live_status": "LIVE — open, accepting applications (full JD + salary rendered from the live Lever posting on 2026-06-21; 200 OK via Chrome)",
+  "seniority": "Associate II (at-level / junior-mid)",
+  "yoe_required": "3+ years combined relevant experience in operations, provider relations, customer service, or a similar enablement field",
+  "salary_estimate": "$68,000 - $103,500 / year",
+  "sponsorship_signal": "No mention of sponsorship/work-auth/ITAR/US-Person/citizenship in the JD. No explicit hard-stop. Sponsorship status unconfirmed (Lyra is a private healthtech; not pre-verified in h1b cache).",
+  "hard_stop": false,
+  "hard_stop_check": {
+    "sponsorship_itar_citizenship": "PASS — no such language present",
+    "yoe": "PASS — JD asks 3+ years; Jamie has ~3 years; at-level, within +2yr cap",
+    "scope": "PASS — genuine L&D / training-operations role: training content design/maintenance/rollout, facilitating live + async training sessions, managing agendas/invites/attendance, end-to-end training logistics, identifying training-workflow gaps + designing scalable solutions, maintaining training materials in WorkRamp (LMS). Clinical context (mental-health therapists) is the audience, NOT the function — this is training enablement, not clinical-ops or pure data entry."
+  },
+  "priority": "P1b (Learning Program / L&D / Training Operations) — Remote-US (Discovery Priority #1 band)",
+  "fit": "GO",
+  "angle": "At-level training-operations / L&D-enablement fit. Jamie's REAL training-ops + program work maps directly: InGenius (needs assessments / skill gaps -> 3 new programs; guides + workflows for 70+ cross-functional staff at -75% onboarding; facilitating training webinars for 600+ participants at 78% enrollment; managing 20+ programs + 10+ vendors with feedback analysis) covers training content design/rollout, live training facilitation + logistics, and process-gap optimization. NextGen (feedback data -> reports, 2,000+ employee experiences, internal training) + Vestas (onboarding optimization across 3 global locations, cross-functional partnership, change management) round out training logistics, cross-functional partnership, and navigating ambiguity. Google Suite fluency is genuine (canonical skills). Gemini is genuine (canonical GenAI tools). LMS (Canvas, Moodle) is genuine but Lyra's WorkRamp/Salesforce/Zendesk are NOT Jamie's — surfaced only her real LMS/Google/Gemini exposure; WorkRamp/Salesforce/Zendesk NOT added.",
+  "fabrication_guard": "Jamie has NO clinical / mental-health-benefits / provider-network experience and NO Salesforce/Zendesk/WorkRamp experience — NONE fabricated. Framed via transferable training-ops/program/onboarding work only. Real tools surfaced: Google Workspace, Gemini, LMS (Canvas/Moodle). All canonical numbers; no invented metrics.",
+  "competition_flag": "100+ applicants on LinkedIn + role was reposted — crowded. This is a DEPRIORITIZE signal (lower reply odds), NOT a hard-stop. Built anyway as the best fresh L&D/training-ops fit per instruction.",
+  "notes": "Template family: re-tailored from the SS&C Associate L&D Specialist package (same L&D family, already audited). Re-angled to Lyra's training-operations vocabulary (training execution & facilitation, end-to-end training logistics/lifecycle, training-workflow gap-finding, LMS, cross-functional partnership, navigating ambiguity). Header location Portland, OR (remote role). Recency order: ODN -> InGenius -> NextGen -> Vestas -> Kronos."
+}

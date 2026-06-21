@@ -1,0 +1,40 @@
+{
+  "name": "Yi-Chieh Cheng",
+  "email": "jamiecheng0103@gmail.com",
+  "phone": "+12137003831",
+  "org": "InGenius Prep",
+  "location": "Portland, OR",
+  "linkedin": "https://www.linkedin.com/in/jamieyccheng/",
+  "resume_attached": "resume.pdf",
+  "radios": {
+    "lyra_employee": {
+      "label": "are you an employee of lyra, bend or an affiliated company (currently ",
+      "picked": "no"
+    },
+    "authorized": {
+      "label": "are you legally authorized to work in the united states for our compan",
+      "picked": "yes"
+    },
+    "sponsorship": {
+      "label": "do you now, or will you in the future, require sponsorship for employm",
+      "picked": "yes"
+    },
+    "gender_identity": {
+      "label": "to which gender identity do you most identify?",
+      "picked": "woman"
+    },
+    "disability": {
+      "label": "do you identify as a person living with a disability?",
+      "picked": "no"
+    }
+  },
+  "eeo_gender": "Female",
+  "eeo_race": "Asian (Not Hispanic or Latino)",
+  "eeo_veteran": "I am not a veteran",
+  "captcha": {
+    "present": true,
+    "interactive_visible": false
+  },
+  "screenshot": "C:/Users/chent/Agentic_Workflows_2026/oracle-job-search/outputs/2026-06-21-overnight/applications/LyraHealth_Training-Operations-Associate-II/screenshots/01_filled_review.png",
+  "final_url": "https://jobs.lever.co/lyrahealth/c1df9232-9372-430d-8ec9-c9f3c2794661/apply"
+}

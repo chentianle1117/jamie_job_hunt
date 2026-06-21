@@ -1,0 +1,44 @@
+Training Operations Associate II
+Lyra Health
+United States — Provider Network Ops / Provider Network Operations — Full-Time / Remote
+Source: https://jobs.lever.co/lyrahealth/c1df9232-9372-430d-8ec9-c9f3c2794661
+LinkedIn: https://www.linkedin.com/jobs/view/4430059469/
+
+About Lyra Health
+Lyra Health is a leading provider of evidence-based mental health care, serving more than 20 million people globally in partnership with employers and more than 100 million through health plan and partner relationships. The company has delivered more than 15 million sessions of mental health care, published more than 35 peer-reviewed studies, and delivered unmatched outcomes in terms of access, clinical effectiveness, and cost efficiency. Extensive peer-reviewed research confirms Lyra's transformative care model helps people recover twice as fast and results in a 26% annual reduction in overall healthcare claims costs. Lyra is transforming access to life-changing mental health care through Lyra Empower, the only fully integrated, AI-powered platform combining the highest-quality care and technology solutions.
+
+The Role
+Lyra Health is looking for an Operations Associate II to join our Provider Enablement team to help us grow and scale the core operations of our Therapy programs. This role is a great fit if you are energized by working closely with therapists to enable their success, have a passion for creating frictionless clinical onboarding experiences, possess demonstrated project management skills, and have an eye towards scale. As we move through 2026 and beyond, you will play a pivotal role in ensuring our expanding network is technically supported and operationally ready to provide world-class care.
+
+Core Focus Areas
+Core Enablement: Manage high-volume onboarding and training content design/maintenance and rollout for our 1099 and W2 provider networks. Proactively identify process gaps and bottlenecks, implementing scalable solutions and workflows to improve overall enablement efficiency.
+
+Responsibilities
+
+Training Execution & Technical Facilitation
+- Lead & Moderate: Facilitate live and asynchronous training sessions, serving as the operational "anchor" by managing agendas, training invites, troubleshooting technical hurdles in real-time, and tracking attendance.
+- Lifecycle Ownership: Own the end-to-end logistics for the lead-up and follow-on to trainings, ensuring all prerequisites, documentation, and system access are completed accurately and on time.
+
+Provider Advocacy & Support
+- Primary Liaison: Serve as a primary point of contact for providers, delivering high-standard "customer service." While our team is designed for scale, you will ensure individual provider requests are met with the high standard key to our success.
+- Tech Mitigation: Identify trends and patterns in provider technical pain points and support the design of mitigation steps to improve the overall training experience and our program KPIs.
+
+Process Innovation & Collaboration
+- Operational Optimization: Identify gaps in current training workflows and assist in designing and implementing scalable solutions that address efficiency and improve the provider journey.
+- Cross-Functional Partnership: Build strong relationships with Clinical, HR, IT and other tech teams to synchronize training delivery with team needs, mitigating departmental silos and ensuring all enablement materials remain technically and clinically accurate.
+- Bend Integration: Support the onboarding operations and the ongoing evolution of the Bend integration within the Lyra ecosystem.
+- Navigate Ambiguity: Act as a stabilizing force in a fast-paced environment; comfortably pilot unmapped territory, make data-driven decisions with incomplete information, and adapt strategies as business needs evolve.
+- System Management: Update and maintain relevant training materials across internal tools, including Salesforce, WorkRamp, Zendesk, and Google Suite, ensuring all data remains an accurate "Source of Truth."
+
+Qualifications
+- Experience: 3+ years of combined relevant work experience in operations, provider relations, customer service, or a similar enablement field.
+- Communication: Exceptional verbal and written interpersonal skills, with the ability to collaborate cross-functionally and build strong relationships.
+- Technical Proficiency: Fluency in Google Suite is required. Aptitude for and experience with Salesforce, Zendesk, Gemini, and WorkRamp (LMS) is highly preferred.
+- Project Management: Proven ability to manage multiple workstreams, implement process improvements, and resolve technical issues with a high degree of autonomy.
+- Mission-Driven: A genuine passion for supporting clinicians in their learning and development to drive a high-quality experience for Lyra clinicians at scale.
+
+Compensation: $68,000 - $103,500 a year. May also be eligible for discretionary bonuses. Generous benefits (healthcare, Lyra for Lyrians coaching/therapy, equity RSUs, PTO, paid parental leave, 401K up to 3% match, monthly tech allowance).
+
+EEO: We are an Equal Opportunity Employer. We do not discriminate on the basis of race, color, religion, sex (including pregnancy), national origin, age, disability, genetic information or any other category protected by law.
+
+[No mention of visa sponsorship, work authorization, U.S. Person, ITAR, or citizenship requirement.]

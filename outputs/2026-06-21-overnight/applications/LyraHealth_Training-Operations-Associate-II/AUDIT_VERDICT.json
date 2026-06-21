@@ -1,0 +1,81 @@
+{
+  "verdict": "PASS",
+  "auditor": "Master Auditor (independent fresh context)",
+  "audited_at": "2026-06-21",
+  "package": "LyraHealth_Training-Operations-Associate-II",
+  "checks": [
+    {
+      "id": 1,
+      "name": "No fabrication / banned content / no clinical / no invented tools",
+      "result": "PASS",
+      "evidence": "All metrics trace to content_library.md: '$362K in leave costs, leading to policy redesigns and first aid training' (line 114), 'audit 300+ leave cases' (113), '25+ global stakeholders ... design 3 new educational programs' (158), '70+ cross-functional staff ... reducing onboarding time by 75%' (159), '600+ participants ... 78% program enrollment rate' (176), '20+ programs and 10+ vendors' (164), 'Analyzed 2,000+ employee' (206), '566% in 2 months' (216), '23 other global locations' (192), '1,000+ competitors' (198). NO banned $340K/17-launches/Jira/Articulate/Storyline. NO clinical/mental-health/provider-network claim anywhere in resume.json or cover_letter.md. Skills line lists only genuine 'LMS (Canvas, Moodle) · Google Workspace · GenAI Tools (ChatGPT, Gemini, Claude)' — WorkRamp/Salesforce/Zendesk do NOT appear despite JD preferring them."
+    },
+    {
+      "id": 2,
+      "name": "No relabeling — ODN full name + OD-consulting framing",
+      "result": "PASS",
+      "evidence": "resume.json: 'Consultant, Organization & Talent Development' at 'Organization Development Network (ODN) Oregon' with real leave-cost diagnosis + NGO leadership focus-group bullets. Vestas bullet reads 'Initiated a DEI pilot with an Inclusive Leadership workshop' — source-exact verb, not upgraded to 'built/facilitated'."
+    },
+    {
+      "id": 3,
+      "name": "No JD copy-paste / clichés",
+      "result": "PASS",
+      "evidence": "JD's distinctive terms (WorkRamp, Salesforce, Zendesk, 'Bend integration', '1099 and W2 provider networks', 'Source of Truth') are NOT parroted into resume or cover. Cover opener 'Training operations isn't just about scheduling sessions and sending invites' is Jamie's canonical belief-sentence arc, not lifted JD phrasing."
+    },
+    {
+      "id": 4,
+      "name": "Cover canonical skeleton intact",
+      "result": "PASS",
+      "evidence": "'Dear Lyra Health Hiring Team,' with no street-address block; Para-1 belief-opener present; experience order Vestas -> NextGen -> InGenius; org-psych close 'As an analytical organizer with a growth mindset'; tagline line 2 = 'Dedicated to Driving Individual and Organizational Development' (correct OD/L&D line); header Portland, OR; 'Sincerely, Jamie (Yi-Chieh) Cheng'. No Inclusive-Leadership role-upgrade."
+    },
+    {
+      "id": 5,
+      "name": "Substance floor + honest gap",
+      "result": "PASS",
+      "evidence": "Mechanical substance-floor gate PASS. Every canonical metric survives in both resume and cover. Cover voice reads naturally (not AI-templated). Clinical/mental-health experience honestly NOT claimed; Lyra's clinician audience referenced only in the mission line ('to enable its clinicians through learning and development at scale'), framed as motivation, not as Jamie's experience."
+    },
+    {
+      "id": 6,
+      "name": "PDF last-mile",
+      "result": "PASS",
+      "evidence": "resume.pdf renders 1 page, non-empty, all metrics present (362K, 300+, 25+, 70+, 75%, 600+, 78%, 2,000+, 566%, 23, 1,000+). cover_letter.pdf names 'Lyra Health' and 'Training Operations Associate II', cursive signature, phone '213-700-3831'. Both PDFs read visually and are complete."
+    },
+    {
+      "id": 7,
+      "name": "Recency order correct",
+      "result": "PASS",
+      "evidence": "Order in resume.json experience array and PDF: ODN (Aug 2025-Present) -> InGenius (Sep 2023-Present) -> NextGen (Jan-May 2023) -> Vestas (Feb-Oct 2022) -> Kronos (Jan-Aug 2021). Mechanical recency-order gate PASS."
+    },
+    {
+      "id": 8,
+      "name": "Scope/fit honesty",
+      "result": "PASS",
+      "evidence": "Genuine training-ops/L&D fit: InGenius 'training needs assessments', 'training content, guides, and workflows', 'live training sessions and webinars ... owning agendas, invites, and attendance', 'end-to-end logistics for 20+ programs' map truthfully to JD's training-execution/lifecycle-ownership/workflow-gap responsibilities. No overclaim into clinical or provider-network function."
+    }
+  ],
+  "mechanical_gates": {
+    "eligibility": "PASS",
+    "tailored-resume": "PASS",
+    "resume-rules": "PASS",
+    "mojibake": "PASS",
+    "markup-leak": "PASS",
+    "recency-order": "PASS",
+    "client-word": "PASS",
+    "substance-floor": "PASS",
+    "cover-format": "PASS",
+    "cover-structure": "PASS",
+    "pdf-matches-source": "PASS",
+    "all_pass": true
+  },
+  "advisories": [
+    "FIT GAP (honest, not a defect): JD strongly prefers Salesforce/Zendesk/WorkRamp(LMS)/Gemini and the role is clinical provider-enablement. Jamie has none of those specific tools (only genuine Google Workspace + Gemini + Canvas/Moodle LMS) and no clinical/mental-health context. Correctly NOT fabricated; package leans on transferable training-ops framing. This is a genuine stretch on tooling/domain even though title YOE is at-level.",
+    "LOW REPLY ODDS: job.json flags 100+ LinkedIn applicants + reposted role = crowded. Submission quality is clean; expectation should be tempered.",
+    "MINOR: cover_letter.md Para-4 says 'building training content and workflows for 70+ staff' (canonical adds 'guides'); resume bullet keeps full 'training content, guides, and workflows'. Both truthful to canonical; no metric or scope lost."
+  ],
+  "sha": {
+    "resume.json": "69066ae0de78543a5838ad8236da0f10278c8686c2275f6297cbf540d009e903",
+    "cover_letter.md": "e19e74b4dc33ec41c6d04041c9c3a44094a3693f5e55d168ab79d5e7a7c10b5c",
+    "resume.pdf": "a55cf1860047ffdb3d474d9bf170c231e04ebd574fb343978b44358d7e83c40e",
+    "cover_letter.pdf": "73ed025c146ea6088b94e6fce88886f26a8898abe4af992e875bfe210ebfb613"
+  }
+}

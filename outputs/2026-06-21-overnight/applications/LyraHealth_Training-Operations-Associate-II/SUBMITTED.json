@@ -1,0 +1,40 @@
+{
+  "submitted": true,
+  "outcome": "SUBMITTED",
+  "company": "Lyra Health",
+  "role": "Training Operations Associate II",
+  "ats": "Lever (jobs.lever.co/lyrahealth)",
+  "apply_url": "https://jobs.lever.co/lyrahealth/c1df9232-9372-430d-8ec9-c9f3c2794661/apply",
+  "posting_url": "https://jobs.lever.co/lyrahealth/c1df9232-9372-430d-8ec9-c9f3c2794661",
+  "final_url": "https://jobs.lever.co/lyrahealth/c1df9232-9372-430d-8ec9-c9f3c2794661/thanks",
+  "submitted_at": "2026-06-21T14:05:00-07:00",
+  "confirmation_text": "Application submitted!",
+  "confirmation_text_full": "Training Operations Associate II | United States Provider Network Ops – Provider Network Operations / Full-Time / Remote | Application submitted! | RETURN TO THE MAIN PAGE | Jobs powered by LEVER",
+  "screenshot_path": "screenshots/02_confirmation.png",
+  "resume_file_attached": "resume.pdf",
+  "resume_sha256": "a55cf1860047ffdb3d474d9bf170c231e04ebd574fb343978b44358d7e83c40e",
+  "cover_letter": "No cover-letter field on this Lever form (resume-only quick-apply). cover_letter.pdf present in package but not requested by the form.",
+  "audit_verdict": "PASS (Master Auditor, sha-matched)",
+  "form_values_submitted": {
+    "name_legal": "Yi-Chieh Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "+12137003831",
+    "current_company": "InGenius Prep",
+    "location": "Portland, OR",
+    "linkedin": "https://www.linkedin.com/in/jamieyccheng/",
+    "lyra_or_affiliated_employee": "No",
+    "authorized_to_work_us": "Yes",
+    "require_sponsorship": "Yes",
+    "eeo_gender": "Female",
+    "eeo_race": "Asian (Not Hispanic or Latino)",
+    "eeo_veteran": "I am not a veteran",
+    "gender_identity": "Woman",
+    "disability": "No"
+  },
+  "captcha": "Passive/invisible reCAPTCHA v3 only (self-clearing; authorized). No interactive CAPTCHA encountered.",
+  "submission_chrome": {
+    "profile_dir": "C:/Users/chent/jamie_submit_lyra",
+    "debug_port": 9440
+  },
+  "notes": "Lever no-account single-page quick-apply. All values read back from the live DOM pre-submit and visually verified on the /thanks confirmation page. Legal-name field used 'Yi-Chieh Cheng' per David's 2026-06-21 correction (single Full-name field; no separate preferred-name field on this form). Demographics openly disclosed (not declined). Sponsorship truthfully Yes. No markup/HTML/Drive-link leak in any field."
+}
