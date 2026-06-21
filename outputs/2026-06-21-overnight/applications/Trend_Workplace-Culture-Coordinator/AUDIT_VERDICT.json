@@ -1,0 +1,75 @@
+{
+  "role": "Workplace & Culture Coordinator",
+  "company": "Trend (Trend Capital Holdings)",
+  "verdict": "PASS",
+  "auditor": "Master Auditor (fresh context) — Opus",
+  "audited_at": "2026-06-21",
+  "checks": [
+    {
+      "name": "1. No fabrication — every metric/claim traces to content_library.md; banned content absent",
+      "result": "PASS",
+      "evidence": "All numbers trace: '$362K in leave costs' + 'audit 300+ leave cases' (content_library ODN Project 1); '78% program enrollment rate' (canonical DEFAULT metric, NOT conversion — correct for an EX/engagement role); '2,000+ employee experiences', '600+ participants', '70+ ... 75%', '25+ global stakeholders', '566% in 2 months', '1,000+ competitors', '12 senior leaders ... 23 other global locations' — all verbatim from content_library. NO banned '$340K'/'17 launches'; no Jira/Articulate/Storyline/video-editing/LMS-admin anywhere. Skills block is exactly Jamie's canonical 5-line vocabulary."
+    },
+    {
+      "name": "2. No relabeling — ODN = OD diagnostic consulting; full name correct",
+      "result": "PASS",
+      "evidence": "Company rendered as 'Organization Development Network (ODN) Oregon' (full name, not 'Transition Projects'). ODN bullets describe leave-cost diagnosis (Project 1) and NGO 'decision-making and accountability gaps' via 'focus groups and 1:1 interviews' (Project 2) — NOT relabeled as community/ERG/network-building. The two projects are kept in separate bullets, never mixed."
+    },
+    {
+      "name": "3. No JD copy-paste / clichés in cover or resume",
+      "result": "PASS",
+      "evidence": "Cover opener is the canonical belief sentence ('Workplace culture isn't just about perks and events—from my experience, it's about creating a continuous cycle of collecting insights, analyzing data, and refining solutions...'), not a parroted JD line. Resume summary uses Jamie's real voice. JD vocabulary is adapted (events/company-wide communications/culture) through her true engagement work rather than lifted verbatim duty-strings; no cliché phrasing ('drove strategic transformation' etc.) present."
+    },
+    {
+      "name": "4. Cover canonical skeleton intact (salutation, opener, anchors, no role-upgrade, signature)",
+      "result": "PASS",
+      "evidence": "'Dear Trend Hiring Team,' salutation; NO street-address block; Para-1 belief-sentence opener; Vestas -> NextGen -> InGenius paragraph order intact; org-psych close present ('grounded in my MS in Applied Organizational Psychology (USC)... I diagnose with data, collaborate cross-functionally on solutions, and track metrics') + 'As an analytical organizer with a growth mindset'; signature 'Sincerely, / Jamie (Yi-Chieh) Cheng'. Inclusive Leadership workshop kept as 'supported the HRBP team in piloting an Inclusive Leadership workshop later scaled to 23 global locations' — NOT upgraded to built/facilitated/led/owned."
+    },
+    {
+      "name": "5. Substance floor + cover voice + honest gap (down-level fit not over-claimed)",
+      "result": "PASS",
+      "evidence": "Every canonical metric/scope survives in resume (delivery strategy/operations/program positioning all present in InGenius bullet 4; full Vestas/NextGen/Kronos clauses intact). Cover voice reads warm and human, not AI-templated. Package does NOT inflate seniority: summary umbrella is 'Organizational Development professional', no fabricated management scope; it leans into her real culture/EX/events/internal-comms work (Vestas HR newsletter + well-being initiatives, NextGen EX projects, InGenius cross-functional facilitation), which is a genuine fit for a coordinator-level culture role."
+    },
+    {
+      "name": "6. PDF last-mile — 1 page, non-empty, all metrics, right company/role, newer than source",
+      "result": "PASS",
+      "evidence": "resume.pdf is exactly 1 page, fully rendered (no empty sections), contains every metric ($362K, 300+, 70+/75%, 600+/78%, 25+, 2,000+, 1,000+, 12/23, 566%), correct header (Portland, OR). cover_letter.pdf is 1 page and names 'Trend' + 'Workplace & Culture Coordinator'. verify_pdf_matches_source gate PASSES (confirms PDFs newer than source json + all metrics present). resume_preview.png / cover_preview.png match the PDFs visually."
+    },
+    {
+      "name": "7. Truthful form-relevant values present",
+      "result": "PASS",
+      "evidence": "Header location 'Portland, OR (Open to Remote or Relocation)' — Jamie is local to Vancouver WA (~15 min), truthful and in-area. Contact email jamiecheng0103@gmail.com correct. Sponsorship is correctly handled at form-time (always truthful Yes), not asserted in the artifact; JD has no explicit no-sponsorship hard-stop (verify_eligibility PASS)."
+    },
+    {
+      "name": "8. Scope honesty — genuine Employee Experience / culture / events / internal-comms work",
+      "result": "PASS",
+      "evidence": "job.json scope call confirms PRIMARY duties = event planning + company-wide communications + culture/engagement coordination = genuine P3 Employee Experience, not a clerical-primary misframe (no payroll/benefits-admin/ER-casework as primary). Package frames Jamie's real engagement/comms/events experience honestly; it is explicitly noted as down-level ($20-25/hr, HS diploma) but a clean culture/EX fit. No misframing of a clerical role as something it isn't."
+    }
+  ],
+  "mechanical_gates": {
+    "eligibility": "PASS",
+    "tailored-resume": "PASS",
+    "resume-rules": "PASS",
+    "mojibake": "PASS",
+    "markup-leak": "PASS",
+    "recency-order": "PASS",
+    "client-word": "PASS",
+    "substance-floor": "PASS",
+    "cover-format": "PASS",
+    "cover-structure": "PASS",
+    "pdf-matches-source": "PASS",
+    "cover-truth-gate": "PASS"
+  },
+  "advisories": [
+    "MINOR: Cover phrase 'facilitating training webinars AND company-wide sessions for 600+ participants' — 'company-wide sessions' is a light keyword-lean toward the JD's 'company-wide communications/All-Hands'. It maps to Jamie's real large-audience facilitation work (600+ webinar participants is canonical) and is not a fabricated new duty, but it is the softest stretch in the package. Acceptable; flagged for awareness only.",
+    "MINOR: Resume skills line includes Notion/SharePoint though the JD does not explicitly name knowledge-management tools (rule §4 prefers JD-gating these). They are part of Jamie's canonical one-line skills block, so verify_resume_rules accepts them; no action required.",
+    "CONTEXT (not a package defect): job.json + JD note the trend.inc careers widget has a broken Apply-link routing bug (mis-routes to a City-of-Woodland UKG board). The real apply path must be reached from the role card's own UKG req (job id 81691). Surface to the submit step — this is an ATS-navigation issue, not an artifact-quality issue.",
+    "CONTEXT: This is a down-level role (HS diploma, $20-25/hr, on-site Vancouver WA). Kept on a perfect Tier-1 geography hit + genuine culture/EX function. Package correctly does NOT over-claim seniority. Sponsorship status is unconfirmed (small private fintech) — no explicit hard-stop, so not blocking, but low-confidence."
+  ],
+  "sha": {
+    "resume.json": "2dd5d5e792596d6753e7c456a28e7fe98b01b048e6179c92047ade798217e762",
+    "cover_letter.md": "c9d18c868468b477a427f909a14960379c6595958598cedb3f86a5ded228f48a",
+    "resume.pdf": "f1b3a3eaa0cfd22945e6a27d2972ed20ba3a1779436b7002d213f139b5642031",
+    "cover_letter.pdf": "1fb5ea1527929758f87ccc84a3e664cf8dbfd0f9f85994e1ba5e0e397ca9d8d7"
+  }
+}

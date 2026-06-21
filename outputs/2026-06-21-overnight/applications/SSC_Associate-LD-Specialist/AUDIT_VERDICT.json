@@ -1,0 +1,91 @@
+{
+  "role": "SS&C Technologies — Associate Learning & Development Specialist",
+  "verdict": "PASS",
+  "resume_sha": "831b5f0b33ce2dd152ff1a96557436740d1392eebc917528ba50db8838732f3e",
+  "cover_sha": "b4e6b1700a406c5b840afce3c3cddd67fbc2447286015eee2c9e07499f5bdab8",
+  "audited_at": "2026-06-21T00:00:00",
+  "checks": [
+    {
+      "name": "1. No fabrication / metrics trace to content_library",
+      "check": "All metrics + claims trace to canonical; banned $340K/17-launches/Jira/Articulate absent; no call-center/healthcare-call-center fabrication",
+      "result": "PASS",
+      "evidence": "Every number is canonical: $362K leave costs, 300+ leave cases, 25+ stakeholders, 70+ staff, 75% onboarding cut, 600+ webinar participants, 78% program enrollment rate, 2,000+ employee experiences, 23/12 leaders, 3 programs, 566%, 1,000+ competitors — all present in content_library.md. No '$340K', no '17 launches', no Jira/Articulate/Storyline/eLeap/EasyLlama. No call-center or healthcare-call-center claim appears anywhere in resume or cover; the only 'healthcare' token is the real employer name 'NextGen Healthcare'.",
+      "canonical_source": "content_library.md L111-176, L205-217"
+    },
+    {
+      "name": "2. No relabeling — ODN full name + OD-consulting framing",
+      "check": "ODN named in full; described as OD diagnostic consulting, not community/ERG; two projects kept separate",
+      "result": "PASS",
+      "evidence": "'Organization Development Network (ODN) Oregon', title 'Consultant, Organization & Talent Development'. P1 leave-cost diagnosis (bullets 1-2: 'audit 300+ leave cases', '$362K in leave costs') and P2 NGO leadership ('focus groups and 1:1 interviews with an NGO leadership team to surface decision-making and accountability gaps') stay in separate bullets — never blended. No community-building / ERG relabel.",
+      "canonical_source": "content_library.md L106-122; JAMIE_FEEDBACK_RULES §0.2, §2.1"
+    },
+    {
+      "name": "3. No JD copy-paste / clichés",
+      "check": "Summary/bullets/cover adapt Jamie's real words, not JD parroting or clichés",
+      "result": "PASS",
+      "evidence": "InGenius bullets reworded to JD vocab ('training needs assessments', 'skill gaps', 'guides, workflows, and learning materials', 'participant feedback analysis') but each is a truthful re-label of a real canonical Set-A bullet, not lifted JD duty text. Cover belief-opener 'Learning and development isn't just about rolling out courses' is Jamie's signature pattern, not JD phrasing. No clichés like 'drove strategic transformation'.",
+      "canonical_source": "content_library.md L155-160 (L&D emphasis set); cover_letter_canonical.md Para 1"
+    },
+    {
+      "name": "4. Cover canonical skeleton adherence",
+      "check": "Dear Hiring Team salutation, no address block, belief-opener, Vestas->NextGen->InGenius anchors, org-psych close, no role-upgrade, signature",
+      "result": "PASS",
+      "evidence": "'Dear SS&C Technologies Hiring Team,'; no street-address block; Para-1 belief sentence + 'continuous cycle of collecting insights, analyzing data, and refining solutions'; OD/L&D tagline line-2 'Dedicated to Driving Individual and Organizational Development'; four experience paragraphs in canonical order Vestas -> NextGen -> InGenius; org-psych close present with 'analytical organizer with a growth mindset' and 'MS in Applied Organizational Psychology (USC)'; Vestas workshop kept as 'Initiated a DEI pilot' (no build/facilitate/led upgrade); signed 'Sincerely, Jamie (Yi-Chieh) Cheng'.",
+      "canonical_source": "cover_letter_canonical.md (full skeleton)"
+    },
+    {
+      "name": "5. Substance floor + voice + honest gap",
+      "check": "Every canonical metric survives tailoring; cover voice human not AI; no-call-center gap not papered over",
+      "result": "PASS",
+      "evidence": "Mechanical verify_substance_floor PASS (no metric/clause dropped vs canonical). InGenius 4 bullets, NextGen/Vestas/Kronos 4 each, ODN 3 — none deleted to fit. Cover reads in Jamie's warm, concrete voice. The package makes NO claim of call-center or healthcare-call-center experience (a genuine gap) — it frames only transferable L&D/training/program work, which is the honest move rather than overclaiming.",
+      "canonical_source": "verify_substance_floor PASS; JAMIE_FEEDBACK_RULES RULE -1"
+    },
+    {
+      "name": "6. PDF last-mile",
+      "check": "resume.pdf 1 page, non-empty, all metrics, right company/role, newer than source",
+      "result": "PASS",
+      "evidence": "Mechanical verify_pdf_matches_source PASS. Visual read of resume.pdf: exactly 1 page, all five experiences + every metric render correctly, header 'Portland, OR (Open to Remote or Relocation)'. cover_letter.pdf renders the SS&C salutation, role line, bolded keywords, and cursive signature. Tailored-resume gate PASS (company 'SS&C Technologies' + role keywords present in PDF text).",
+      "canonical_source": "verify_pdf_matches_source PASS; verify_tailored_resume PASS"
+    },
+    {
+      "name": "7. LMS honesty",
+      "check": "Only genuine Canvas/Moodle LMS exposure; no invented authoring tools",
+      "result": "PASS",
+      "evidence": "Skills line reads 'LMS (Canvas, Moodle)' moved to front because the JD names LMS administration. No Articulate, Storyline, eLeap, EasyLlama, or any SS&C-specific authoring/LMS tool was added. Canvas/Moodle are Jamie's canonical LMS vocabulary.",
+      "canonical_source": "content_library.md L68, L86 (LMS Canvas/Moodle canonical)"
+    },
+    {
+      "name": "8. Fit honesty",
+      "check": "Genuine entry-level L&D fit, transferable framing, no overclaim",
+      "result": "PASS",
+      "evidence": "JD is entry-level / 1-2 YOE; Jamie (~3yr) is comfortably at-level, not a stretch. Resume/cover frame real L&D delivery (needs assessments, learning-material design, training facilitation, vendor mgmt, feedback analysis) that maps to the JD's responsibilities without inflating seniority or inventing the JD's industry context.",
+      "canonical_source": "JD.txt REQUIRED QUALIFICATIONS (1-2 yr); job.json fit=GO at-level"
+    }
+  ],
+  "mechanical_gates": {
+    "verify_eligibility": "PASS",
+    "verify_tailored_resume": "PASS",
+    "verify_resume_rules": "PASS",
+    "verify_substance_floor": "PASS",
+    "cover_truth_gate": "PASS",
+    "verify_cover_format": "PASS",
+    "verify_cover_structure": "PASS",
+    "verify_pdf_matches_source": "PASS",
+    "verify_no_mojibake": "PASS",
+    "verify_no_markup_leak": "PASS",
+    "verify_recency_order": "PASS",
+    "verify_client_word": "PASS"
+  },
+  "failures": [],
+  "advisories": [
+    "Summary closing verb-phrase customized to 'improve people development' — a valid honest L&D fit per JAMIE_FEEDBACK_RULES §1; tail 'through human-centered, evidence-based approaches' preserved. OK.",
+    "Cover Para-1 closing clause 'how people learn and develop' and skill phrases ('training needs assessment', 'learning-material and program design', 'data-driven program measurement') are JD-aligned re-labels of real work — truthful, not invented. OK.",
+    "Sponsorship required = Yes (must be answered truthfully on the Workday form). JD has no explicit no-sponsorship hard-stop, so not a block; just ensure the form answer stays honest at submit time."
+  ],
+  "sha": {
+    "resume.json": "831b5f0b33ce2dd152ff1a96557436740d1392eebc917528ba50db8838732f3e",
+    "cover_letter.md": "b4e6b1700a406c5b840afce3c3cddd67fbc2447286015eee2c9e07499f5bdab8",
+    "resume.pdf": "bdd60ecdaaefd5a71ae8f06dd26f2f89cedb5237fa43812558efde05968bb50d",
+    "cover_letter.pdf": "2ffe1a49d66f4450308420346de549db2cdbba64c5bdcaa62a46751d77ac6d06"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "company": "SS&C Technologies",
+  "role": "Associate Learning & Development Specialist - Healthcare Call Center",
+  "date": "2026-06-21",
+  "verdict": "GO",
+  "live_status": "LIVE — open, accepting on ongoing basis until filled (LinkedIn, Entry level)",
+  "hard_stops": {"sponsorship": "clear (not mentioned)", "yoe": "clear (1-2yr entry-level, at-level for Jamie's ~3yr)", "scope": "clear (genuine L&D: needs assessment / material design / facilitation / LMS admin / feedback analysis / vendor mgmt)"},
+  "package_status": "BUILT + RENDERED + GATED — NOT SUBMITTED",
+  "render": {"resume_pages": 1, "resume_font_scale": 0.97, "cover_pages": 1},
+  "gates": {
+    "1_eligibility": "PASS",
+    "2_tailored_resume": "PASS",
+    "3_resume_rules": "PASS",
+    "4_substance_floor": "PASS",
+    "5_cover_truth_gate": "PASS",
+    "6_cover_format": "PASS",
+    "7_cover_structure": "PASS",
+    "8_pdf_matches_source": "PASS",
+    "aux_mojibake": "PASS",
+    "aux_markup_leak": "PASS",
+    "aux_recency_order": "PASS",
+    "aux_client_word": "PASS"
+  },
+  "auditor": "NOT RUN (per instruction)",
+  "submitted": false,
+  "notes": "Build-only task. Do not submit; auditor not run. JD is entry-level/1-2yr (NOT the 5+yr feared) — clean at-level L&D fit, not a stretch. No call-center/healthcare-specific or LMS-tool fabrication; framed via Jamie's real L&D/training/program work + genuine Canvas/Moodle LMS exposure."
+}

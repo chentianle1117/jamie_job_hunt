@@ -1,0 +1,35 @@
+{
+  "company": "Trend (Trend Capital Holdings, Inc.)",
+  "role": "Workplace & Culture Coordinator",
+  "ats": "avahr.com careers widget (embedded on trend.inc/career; NOT the UKG/Kronos board the package anticipated)",
+  "req_id": "81691",
+  "apply_url": "https://trend.inc/career#/apply_job/81691",
+  "submitted_at": "2026-06-21T08:31:51-07:00",
+  "submitted_at_utc": "2026-06-21T15:31:51Z",
+  "outcome": "SUBMITTED",
+  "confirmation_method": "Email receipt to jamiecheng0103@gmail.com + two-step apply flow completed (form -> candidate questionnaire -> submitted)",
+  "confirmation_text": "Subject: 'Application to Trend Capital Holdings, Inc.' from candidate-...@mail.avahr.com (2026-06-21 15:31:51 UTC). Body: 'Dear Jamie, Thank you for your interest in working with Trend Capital Holdings, Inc.. We'll review your application and get back to you as soon as possible if there's a suitable match. If we don't feel there's a good match we will keep your application on file in case something more suitable comes up at a later date. Thanks again from all of us at Trend Capital Holdings, Inc.'",
+  "gmail_message_id": "19eeacf478a0a465",
+  "application_code": "6a3803aeb0bfc",
+  "form_id": "8002",
+  "fields_submitted": {
+    "name": "Jamie (Yi-Chieh) Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "+12137003831 (US flag verified)",
+    "address": "Portland, OR",
+    "linkedin": "https://www.linkedin.com/in/jamieyccheng/",
+    "resume": "resume.pdf (tailored + audited, AUDIT_VERDICT PASS, sha-matched)",
+    "cover_letter": "N/A — form has no cover-letter upload field; resume only",
+    "questionnaire_q1_onsite_willing": "Yes (truthful: Vancouver WA role, Jamie is local ~15 min away)",
+    "questionnaire_q2_referral": "(left blank — no Trend referral, truthful)"
+  },
+  "captcha": "None — no interactive captcha at any step; no bot-protection wall",
+  "routing_note": "The known trend.inc careers-widget Apply-link mis-route bug did NOT manifest. Following the role CARD's own apply path (#/apply_job/81691) landed directly on the genuine Trend Capital req 81691 form (footer 'Trend Capital Holdings, Inc.', 655 W Columbia Way Vancouver WA). The form is a 2-step avahr.com widget (contact+resume, then a candidate questionnaire), NOT the UKG/Kronos JobBoard. jobID hidden field verified == 81691 before fill.",
+  "screenshot_path": "screenshots/trend_confirmation.png",
+  "screenshots": [
+    "screenshots/trend_questionnaire_filled.png",
+    "screenshots/trend_confirmation.png",
+    "screenshots/trend_final_state.png",
+    "_trend_filled.png (pre-submit form review)"
+  ]
+}
