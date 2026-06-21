@@ -1,0 +1,22 @@
+{
+  "company": "Trend",
+  "company_legal": "Trend Capital Holdings, Inc.",
+  "role": "Workplace & Culture Coordinator",
+  "location": "Vancouver, WA (On-site)",
+  "remote": false,
+  "date_discovered": "2026-06-21",
+  "source": "LinkedIn (discovered) + trend.inc/career (verified live)",
+  "apply_url": "https://trend.inc/career",
+  "ats_apply_url": "UKG/Kronos recruiting (trend.inc careers widget routes to UKG JobBoard; job id 81691)",
+  "linkedin_url": "",
+  "ats": "UKG/Kronos recruiting (Pro WFM rec board)",
+  "live_status": "LIVE — posted 06/02/2026, listed on trend.inc/career + Indeed (Active, $20-25/hr Full-Time). NOTE: trend.inc careers widget's Apply links currently mis-route to an unrelated UKG board (City of Woodland) — a site bug; the real apply path must be reached from the role card itself.",
+  "yoe_required": "None stated. HS diploma required (some college preferred); HRIS experience preferred; MS Office (Word/PowerPoint/Excel) required.",
+  "salary_estimate": "$20-$25/hour (posted)",
+  "sponsorship_signal": "No mention of sponsorship/work-auth/ITAR/US-Person in any sourced version — no explicit hard-stop. Sponsorship status UNCONFIRMED (small private fintech, not in confirmed-sponsor cache). Flag low-confidence on sponsorship.",
+  "hard_stop": false,
+  "priority": "P3 (Employee Experience / culture / engagement) — Tier 1 (Vancouver WA = in-bounds local)",
+  "fit": "STRETCH (down-level)",
+  "angle": "Real culture/EX + internal-comms + events coordination: Vestas HR newsletter + award-winning well-being/engagement initiatives (recognized among 1,000+), InGenius cross-functional program + event/webinar coordination for 600+ and company-wide comms, NextGen employee-experience projects. Frame as company-culture, events, and internal-communications coordination — her real engagement work, not clerical HR.",
+  "notes": "Scope call (RULE 0 / blocker #3): PRIMARY duties are event planning + company-wide communications + culture/engagement coordination = genuine P3 Employee Experience, NOT a confirmed clerical-primary blocker (no payroll/benefits-admin/ER-casework/garnishments/HRIS-data-entry as the primary function). It IS junior/below-level (HS diploma, $20-25/hr, 'administrative support', 'other duties as assigned'). Kept because geography is a perfect Tier-1 local hit (Vancouver WA, on-site, in-bounds) and the function is true culture/EX. Down-level but clean. trend.inc careers widget has a broken Apply-link routing bug (sends to City-of-Woodland UKG board) — apply path needs the role card's own UKG req; surface this to Jamie/at submit time."
+}

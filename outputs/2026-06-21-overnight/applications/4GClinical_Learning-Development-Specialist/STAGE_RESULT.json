@@ -1,0 +1,29 @@
+{
+  "role_dir": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-21-overnight\\applications\\4GClinical_Learning-Development-Specialist",
+  "company": "4G Clinical",
+  "role": "Learning & Development Specialist",
+  "ats": "UKG/Kronos SaaSHR (secure6.saashr.com/ta/6182998)",
+  "lane_ats": "other",
+  "form_url": "https://careers.4gclinical.com/",
+  "staged_at": "2026-06-21T07:54:23",
+  "submit_port": 9400,
+  "contact": {
+    "first_name": null,
+    "last_name": null,
+    "email": null,
+    "phone": null
+  },
+  "uploads": {
+    "resume": null,
+    "cover_letter": null
+  },
+  "combos": [],
+  "captcha": {
+    "present": false,
+    "interactive_visible": false
+  },
+  "screenshot": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-21-overnight\\applications\\4GClinical_Learning-Development-Specialist\\_v2_stage_review.png",
+  "final_url": "https://careers.4gclinical.com/",
+  "lane": "AUTO-SUBMITTABLE (no captcha detected)",
+  "human_next": "No captcha detected — submit_runner.py can submit this after the pre-submit gate review, or click Submit in the staged tab."
+}

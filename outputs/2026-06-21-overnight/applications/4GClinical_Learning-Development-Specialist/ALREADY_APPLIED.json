@@ -1,0 +1,27 @@
+{
+  "result": "blocked-duplicate",
+  "company": "4G Clinical",
+  "role": "Learning & Development Specialist",
+  "ats": "UKG/Kronos SaaSHR (secure6/secure10.saashr.com/ta/6182998)",
+  "apply_url": "https://secure10.saashr.com/ta/6182998.careers?CareersSearch",
+  "linkedin_url": "https://www.linkedin.com/jobs/view/4401484896",
+  "checked_at": "2026-06-21T08:05:00-07:00",
+  "block_reason": "ATS dedup: on clicking Continue, SaaSHR returned 'You already applied for this job on Jun 14, 2026.' Keyed on jamiecheng0103@gmail.com.",
+  "prior_application_date": "2026-06-14",
+  "ats_dedup_message": "You already applied for this job on Jun 14, 2026.",
+  "gmail_corroboration": "No 4G Clinical confirmation email in Jamie's inbox (SaaSHR direct-portal submits often send none). The 4G Clinical L&D role still appeared in her LinkedIn SAVED jobs as of Jun 19, but the ATS itself — the authoritative record — reports a Jun 14 submit under her email.",
+  "form_values_filled_before_block": {
+    "first_name": "Jamie Yi-Chieh (parens stripped by field sanitizer; entered 'Jamie (Yi-Chieh)')",
+    "last_name": "Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "+1 213-700-3831",
+    "resume_uploaded": "resume.pdf (this role's tailored file)",
+    "cover_uploaded": "cover_letter.pdf (display name 'Cover Letter', doc-type left blank — no Cover Letter option, only CV/Resume/Flag Photo/Open Visibility)"
+  },
+  "auditor": "AUDIT_VERDICT.json = PASS (all checks A-F), written this session",
+  "screenshots": [
+    "screenshots/already_applied.png"
+  ],
+  "decision": "STOP per dedup rule (feedback_dedup_via_ats_my_applications.md). Did NOT duplicate. No second submission created.",
+  "ats_mechanics_learned": "SaaSHR careers portal (secure6 redirects to secureN load-balancer). Public job list is JS-rendered (server shell ~4KB). Job titles are <a href=#> JS clicks. 'Apply' button opens an inline modal with first_name/last_name/email/phone, a required Resume file input (#_file_input_0), and 'Add additional documents' -> Supporting Documents sub-modal (file input #_file_input_1, Display Name text + Document Type <select fileDocumentType_N>: ''/CV/Flag Photo/Open Visibility/Resume). set_input_files works on both file inputs. The first_name field strips parentheses. Dedup is enforced server-side at the Continue step, keyed on email, surfaced as a toast + OK dialog: 'You already applied for this job on <date>.' No login/account or captcha encountered up to that point."
+}

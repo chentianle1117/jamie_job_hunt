@@ -1,0 +1,21 @@
+{
+  "role": "Learning & Development Specialist",
+  "company": "4G Clinical",
+  "verdict": "PASS",
+  "audited_at": "2026-06-21T14:53:28Z",
+  "auditor": "master-auditor-opus",
+  "file_shas": {
+    "resume.json": "70b27923484deb154c9f769302b6348af9b66b7da35a71ea2922f3c62018e046",
+    "cover_letter.md": "3a99bf2afe9be631356838babb5f9f477ab3a8811ac7feb9069719aa9884e774"
+  },
+  "checks": {
+    "A_substance_floor": "PASS",
+    "B_truth_no_relabel": "PASS",
+    "C_bullet_counts": "PASS",
+    "D_cover_substance_voice": "PASS",
+    "E_header_location": "PASS",
+    "F_cover_skeleton": "PASS"
+  },
+  "failures": [],
+  "notes": "Clean PASS. A: Every tailored resume bullet matches canonical resume.json verbatim in substance; only deltas are added highlight-key markup {prog|...} around 'learning gaps'/'educational programs'/'program knowledge' in InGenius (no substance change). All canonical numbers present (300+, $362K, 25+, 3, 70+, 75%, 600+, 78%, 20+, 10+, 2,000+, 12, 23, 3 global locations, 1,000+, 566%); scope clauses intact ('program positioning, delivery strategy, and operations', 'strategic plans and internal training', 'award-winning well-being initiatives... 1,000+ competitors'). B: CRITICAL for this L&D role — package did NOT invent the JD-requested tools Jamie lacks; changeLog explicitly records eLeap/EasyLlama/Articulate/Storyline NOT added, and ADDIE is not claimed anywhere. Only her REAL LMS (Canvas, Moodle) surfaced, confirmed against content_library.md line 86. ODN bullets unchanged = OD diagnostic consulting (leave-cost audit + NGO focus groups), not relabeled to community/ERG. Summary role-noun swap OD->'Learning & Development' is the allowed pillar-noun swap; the three broad pillars preserved. Skills reordered to move LMS to front (allowed; JD names LMS) — no skill dropped. C: ODN=3, InGenius=4, NextGen=4, Vestas=4, Kronos=4 — none deleted. D: Cover carries real metrics+companies; >=6 body bolds incl >=1 company (Vestas/NextGen/InGenius/4G Clinical) and multiple metric-with-number bolds ('analyzed 2,000+ employee experiences', 'managing 20+ programs and 10+ vendors', '70+ staff that cut onboarding time by 75%', '600+ participants', '78% program enrollment rate', '25+ global stakeholders'); org-psych scientific-method close present ('diagnose with data, collaborate cross-functionally on solutions, track metrics', 'analytical organizer with a growth mindset'); warm not cliche; 'Dear 4G Clinical Hiring Team,'; no visa mention; no relocation over-commitment. E: header 'Portland, OR (Open to Remote or Relocation)' correct for remote role; Wesleyan Relevant Coursework line present. F: Opener is the canonical belief sentence ('Learning and development isn't just about delivering courses—from my experience, it's about creating a continuous cycle of collecting insights, analyzing data, and refining solutions...'); tagline line 2 = approved OD/L&D variant 'Dedicated to Driving Individual and Organizational Development'; paragraph order Vestas->NextGen->InGenius preserved; NextGen close uses approved SWAP 'develop targeted L&D strategies'; Vestas verbs are skeleton-exact (identified/streamlined/partnered/optimized) with NO role-upgrade — the Vestas DEI 'Initiated a pilot' claim is correctly absent from the cover, avoiding the role-upgrade trap; org-psych close intact; no free-written sentences, no JD-parroting of duties Jamie didn't do. SHAs computed via sha256sum on current files."
+}
