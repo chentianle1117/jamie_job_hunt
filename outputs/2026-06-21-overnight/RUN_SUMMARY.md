@@ -20,3 +20,27 @@
 - LinkedIn recommended/saved resurfaces ALREADY-APPLIED roles not in the tracker (4G Clinical applied Jun 14 but absent from outcomes.json) → dedup must also check the ATS's own "my applications" / accept the server-side dedup gracefully.
 - UKG/Kronos SaaSHR mechanics captured (secureN load-balancer, JS-rendered list, modal file inputs #_file_input_0/_1, server-side email-dedup at Continue).
 - LinkedIn targeted-search geo bug: Jamie's session geo-resolves to UK, overriding geoId=Portland → searches return UK noise. Recommended + Saved are correctly US-localized; rely on those until locale is reset.
+
+## POST-COMPACT RESUME (2026-06-21 ~08:15–) — SUBMIT-EVERYTHING + EXPAND loop
+
+### Submitted this resume session (4 confirmed):
+1. **Trend Capital — Workplace & Culture Coordinator** (req 81691, Vancouver WA) — avahr.com widget, Gmail-confirmed.
+2. **SS&C Technologies — Associate L&D Specialist** (Req R42246, remote) — Workday, "In Review" confirmed.
+3. **Oberto Snacks — HR Coordinator** (Req 1284, Kent WA) — ADP WFN guest-apply, OTP-confirmed. (Auditor caught recency-order FAIL → reordered → re-audited PASS → submitted.)
+4. **Lyra Health — Training Operations Associate II** (remote) — Lever no-account quick-apply, confirmed.
+
+### Dropped on hard-stops (build agents' correct judgment):
+- Sigma Design EE Mgr — ITAR/U.S.-person form gate + people-mgr/ER scope.
+- One Workplace HR Generalist — ER-casework/leave-admin scope hard-stop #3.
+- McKinstry HR Ops Admin — explicit no-sponsorship clause in JD + HRIS-data-entry scope.
+- 4G Clinical — already applied Jun 14 (ATS dedup).
+
+### Discovery: 3 passes, market tapped out
+Recommended feed (24, recycled) + saved (1 dead) + explicit-US targeted search (recycled ~8 remote roles). Net fresh: Oberto (GO) + Lyra (GO, crowded) = both submitted. Honest thin-market — not padded with senior/out-of-scope/dup roles.
+
+### Pipeline self-fixes this session:
+- AUTH PREAMBLE held across all dispatches (no agent re-litigated auto-submit).
+- Master Auditor MANDATORY + sha-matched verdicts written into each folder (caught Oberto recency FAIL — the keystone working).
+- eligibility city allow-list fixed (Kent/Seattle-metro + Portland-metro cities added) — no more false geo-FAILs.
+- NEW form-value rules (David 2026-06-21): legal name = "Yi-Chieh Cheng"; demographics OPENLY disclosed (Disability=No, Asian, Woman, Vet=No) not "decline". Baked into AUTH PREAMBLE + memory.
+- Dashboard: 77 submitted (4 new this session). Classifier-hardening for ADP/Lever shapes flagged as a follow-up chip.
