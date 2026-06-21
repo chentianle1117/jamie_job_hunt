@@ -1,0 +1,23 @@
+{
+  "company": "Oberto Snacks Inc.",
+  "company_legal": "Oberto Snacks Inc. (Oberto Brands)",
+  "role": "Human Resources Coordinator",
+  "location": "Kent, WA (On-site)",
+  "remote": false,
+  "date_discovered": "2026-06-21",
+  "source": "LinkedIn (recommended) job id 4368843891; cross-listed Yulys, ZipRecruiter, Indeed, Glassdoor; oberto.com/careers",
+  "apply_url": "https://www.oberto.com/pages/careers",
+  "ats_apply_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=6a85901e-2910-4de8-8e20-74a18ef2a4fd&ccId=19000101_000001&lang=en_US",
+  "linkedin_url": "https://www.linkedin.com/jobs/view/4368843891",
+  "ats": "ADP Workforce Now (recruitment portal)",
+  "live_status": "LIKELY-LIVE (needs browser re-verify at submit). Surfaced as LinkedIn recommended + reposted (~86 clicks). oberto.com/careers routes to ADP Workforce Now; the specific HR Coordinator req must be confirmed in a real logged-in/JS-rendered browser at submit time. Yulys aggregator shows 'expired' (aggregators frequently false-expire/lag); LinkedIn and ADP portal are not confirmable via static WebFetch (auth wall + JS render). Re-verify live at submit step.",
+  "yoe_required": "1-2 years administrative HR experience preferred. Bachelor's in HR or related field preferred, or equivalent experience. In-range (~2yr ask).",
+  "salary_estimate": "$25.00-$28.00 / hour (posted)",
+  "sponsorship_signal": "No mention of sponsorship/work-auth/ITAR/US-Person/citizenship in any sourced version of the posting. No explicit hard-stop. Sponsorship status UNCONFIRMED (Oberto = mid-size private CPG, not in confirmed-sponsor cache). No explicit no-sponsor language = not a hard-stop per standing rule (only explicit 'no sponsorship' stops).",
+  "hard_stop": false,
+  "priority": "P1 (bullseye HR Coordinator title) — Tier 1 geography (Kent WA = Seattle-metro, in-bounds)",
+  "fit": "GO (at-level / strong title match)",
+  "angle": "Bullseye HR Coordinator. Maps directly to Jamie's real HR-coordination work: Kronos HR intern (HRIS/recruitment/comp, job postings, drafting JDs, campus events), Vestas HRBP Assistant (onboarding optimization across 3 locations, HR newsletter + award-winning well-being/engagement = internal communications + recognition programs), InGenius cross-functional process + comms + 70+ staff guides/workflows + company-wide sessions (maps to internal-comms content + new-hire enablement), NextGen employee-experience projects, ODN HR leave-data analysis. ADP appears in her canonical skills (HRIS: ADP) — exact JD-named tool match. MS Office (Word/PowerPoint) JD-named. Honest gap: she hasn't owned a US plant's HRIS data-entry as primary duty (her HRIS use is user-level), but the broad coordinator scope (onboarding, internal comms, recognition, general HR support) is squarely her work.",
+  "scope_verdict": "GO. Primary function is broad HR-coordination people-support: 'providing general HR administrative support, coordination and facilitation of new hire orientation, maintenance of employee files, and coordination of employee communication and HR-related programs and events.' Duties span HRIS-maintenance (ADP) + new-hire orientation + internal-communications content creation (intranet/newsletters/toolbox talks) + employee recognition programs + commuter program. HRIS data-entry is ONE component, NOT the dominant duty — it is balanced against internal-comms, onboarding, recognition, and general employee support. This is the 'clerical-but-broad-people-support = GO' case (at-level for Jamie), not a narrow payroll/benefits-admin/ER-casework/recruiting-primary/leave-admin/HRIS-data-entry hard-stop.",
+  "notes": "Role-type = HR/HRBP per content_library Tailoring Playbook. Built: HR identity summary (3 pillars kept), Set H InGenius bullets, HR-variant Vestas/Kronos, ODN Pair A (Upskill/Empower, completed results), ADP + MS Office surfaced in skills (JD-named), header = Kent, WA (city-based on-site role) so recruiter reads Jamie as in-area (Portland ~2.5hr but Seattle-metro in-bounds per geography rule; using role city per location rule). Cover tagline line 2 = 'Improving People/Employee Experience'. No invented tools (canonical skills only). ADP is genuinely in her vocabulary."
+}

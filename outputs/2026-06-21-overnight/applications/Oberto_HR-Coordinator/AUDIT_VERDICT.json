@@ -1,0 +1,85 @@
+{
+  "verdict": "PASS",
+  "role": "Human Resources Coordinator",
+  "company": "Oberto Snacks Inc.",
+  "audited_at": "2026-06-21",
+  "auditor": "Master Auditor (fresh-context re-audit after recency-order fix)",
+  "reaudit_reason": "Prior audit FAILED on recency-order (Vestas above NextGen). Fix agent reordered experience to ODN -> InGenius -> NextGen (Jan 2023) -> Vestas (Feb 2022) -> Kronos and re-rendered. Prior verdict stale (sha mismatch). Full re-audit performed.",
+  "checks": [
+    {
+      "id": 1,
+      "name": "RECENCY ORDER (prior FAIL — confirm fixed)",
+      "result": "PASS",
+      "evidence": "Resume experience now reads ODN 'August 2025-Present' -> InGenius 'September 2023-Present' -> NextGen 'January 2023-May 2023' -> Vestas 'February 2022-October 2022' -> Kronos 'January 2021-August 2021'. NextGen (Jan 2023) now correctly precedes Vestas (Feb 2022). Mechanical verify_recency_order gate PASSES without override."
+    },
+    {
+      "id": 2,
+      "name": "No fabrication — metrics trace to content_library; banned content absent",
+      "result": "PASS",
+      "evidence": "'$362K in leave costs' + '300+ leave cases' = content_library ODN Project 1 (lines 113-114). '600+ participants' + '78% program enrollment rate' + '70+...75%' + '25+ global stakeholders...3 new educational programs' + '20+ programs and 10+ vendors' = InGenius Sets B/H (lines 173-176). '2,000+ employee experiences' = NextGen (line 206). '566% in 2 months' = Kronos (line 216). No '$340K', no '17 launches', no Jira/Articulate/Storyline. ADP is in canonical skills vocabulary (line 68) AND JD-named ('Maintain the Human Resource Information System (ADP)')."
+    },
+    {
+      "id": 3,
+      "name": "No relabeling — ODN full name + OD-consulting framing",
+      "result": "PASS",
+      "evidence": "Company renders as 'Organization Development Network (ODN) Oregon' (full name, not 'Transition Projects'). Bullets stay true to OD diagnostic consulting: 'Upskill HR team in data analytics to audit 300+ leave cases' (Project 1) and 'Conduct focus groups and 1:1 interviews with an NGO leadership team to surface decision-making and accountability gaps' (Project 2). Two projects kept separate, never blended; no community/ERG relabel."
+    },
+    {
+      "id": 4,
+      "name": "Cover canonical skeleton",
+      "result": "PASS",
+      "evidence": "Salutation 'Dear Oberto Snacks Hiring Team,' with no street-address block. Belief-opener present: 'Seamless HR service isn't just about keeping the system updated—from my experience, it's about creating a continuous cycle of collecting insights, analyzing data, and refining solutions'. Anchors Vestas -> NextGen -> InGenius present. Org-psych close present: 'As an analytical organizer with a growth mindset, Oberto Snacks's commitment...'. Signature 'Jamie (Yi-Chieh) Cheng' present. Header location 'Kent, WA (Open to Relocation)'. Inclusive Leadership written as 'supported the HRBP team in piloting' — source-exact verb, NO role-upgrade. Vestas paragraph leads with HR-newsletter/well-being + onboarding (approved-variant swap, truthful to resume.json) instead of the default M&A sentence — permitted under §6 rule 2; verify_cover_structure gate PASSES."
+    },
+    {
+      "id": 5,
+      "name": "Substance floor — reorder dropped nothing; voice not AI-sounding; gap honest",
+      "result": "PASS",
+      "evidence": "All canonical concretes survive the reorder: '600+ participants', '78% program enrollment rate', '70+...75%', '25+ global stakeholders...3 new educational programs', '20+ programs and 10+ vendors', Vestas M&A 'directing a Mergers & Acquisitions project, overseeing cross-functional stakeholders', '1,000+ competitors', '3 global locations', '2,000+ employee experiences', '566%'. verify_substance_floor gate PASSES. HRIS framed honestly at user/coordination level ('HRIS coordination'); no claim to own a plant's HRIS data-entry. Cover reads in Jamie's voice, not AI-generic."
+    },
+    {
+      "id": 6,
+      "name": "PDF last-mile",
+      "result": "PASS",
+      "evidence": "resume.pdf is exactly 1 page, non-empty, renders all metrics ($362K, 78%, 75%, 2,000+, 566%, 1,000+, 3 locations, 12->23). cover_letter.pdf names 'Oberto Snacks' in salutation and closer. Both PDFs (mtime 1782059441/1782059442) are NEWER than resume.json (1782059366) and cover_letter.md (1782058905). verify_pdf_matches_source gate PASSES."
+    },
+    {
+      "id": 7,
+      "name": "Scope honesty — genuine broad HR-coordination fit",
+      "result": "PASS",
+      "evidence": "JD primary function is broad HR-coordination (HRIS maintenance + new-hire orientation + internal communications + recognition programs + general HR support). Maps to Jamie's real work: Vestas onboarding/internal-comms/recognition, Kronos HR-intern recruitment/comp/postings, InGenius internal comms + new-hire enablement. HRIS data-entry is one component, not dominant. At-level (~2yr ask vs ~3yr exp); not a stretch."
+    },
+    {
+      "id": 8,
+      "name": "Geo — Kent WA in-bounds",
+      "result": "PASS",
+      "evidence": "Kent, WA = Seattle-metro, in-bounds per geography rule (Portland-metro/Vancouver-WA/Seattle/remote-US). Header location set to role city 'Kent, WA (Open to Relocation)' per location rule. verify_eligibility gate PASSES without STAGE_SKIP_ELIGIBILITY override; no explicit no-sponsorship language in JD."
+    }
+  ],
+  "mechanical_gates": {
+    "runner": "lib/run_all_gates.py",
+    "result": "ALL GATES PASS",
+    "overrides_used": "none",
+    "eligibility": "PASS",
+    "tailored-resume": "PASS",
+    "resume-rules": "PASS",
+    "mojibake": "PASS",
+    "markup-leak": "PASS",
+    "recency-order": "PASS",
+    "client-word": "PASS",
+    "substance-floor": "PASS",
+    "cover-format": "PASS",
+    "cover-structure": "PASS",
+    "pdf-matches-source": "PASS"
+  },
+  "advisories": [
+    "Cover Vestas paragraph uses an approved-variant swap (leads with HR-newsletter + award-winning well-being + Inclusive-Leadership + onboarding instead of the canonical M&A third sentence). Truthful to resume.json bullets and gate-clean; flagged only as an intentional deviation from the default skeleton paragraph, justified because internal-communications + recognition + new-hire onboarding are this JD's core duties.",
+    "Sponsorship status for Oberto is UNCONFIRMED (mid-size private CPG, not in confirmed-sponsor cache). No explicit no-sponsorship language found = not a hard stop per standing rule, but recruiter may decline on work-auth. Not an audit failure.",
+    "Live-status of the specific ADP Workforce Now req must be re-verified in a real browser at submit time (LinkedIn auth-wall + JS-rendered ADP portal not statically confirmable). Operational note, not a content failure."
+  ],
+  "sha": {
+    "resume.json": "4fc0e7a5d13c3d606ffa072ee4c7a445ee22749b8c947b24df5413f044d8ab50",
+    "cover_letter.md": "9c5b639be16362d7eb8390b1de2f63e08d781109c96138d335dab8bde019111d",
+    "resume.pdf": "0147fda5ed117653f95e981f815b235c1c1963876587b73134f1c031c536ca75",
+    "cover_letter.pdf": "ac860dc168196ce32ede4a3f332e8af8536d39711b2cb9b66801b34342c658dc"
+  }
+}
