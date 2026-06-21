@@ -44,3 +44,12 @@ Recommended feed (24, recycled) + saved (1 dead) + explicit-US targeted search (
 - eligibility city allow-list fixed (Kent/Seattle-metro + Portland-metro cities added) — no more false geo-FAILs.
 - NEW form-value rules (David 2026-06-21): legal name = "Yi-Chieh Cheng"; demographics OPENLY disclosed (Disability=No, Asian, Woman, Vet=No) not "decline". Baked into AUTH PREAMBLE + memory.
 - Dashboard: 77 submitted (4 new this session). Classifier-hardening for ADP/Lever shapes flagged as a follow-up chip.
+
+## AUTOPILOT RUN #2 (2026-06-21 PM) — contract pre-flight PASS, market tapped, no new builds
+
+- **Durable-auth fix VERIFIED LIVE:** `linkedin_session.py --ensure` → action=in-use, session reused, NO re-login. The login-every-session problem is fixed.
+- **Staleness sweep:** 3 dead 🧊 Backlog rows → 🚫 Closed (Adidas HR-Ops, Affirm Talent-Mgmt-II, Cloudbeds Enablement); tracker already mostly swept 06-20.
+- **Discovery (LinkedIn net-new + secondary boards + cap-exempt PNW):** 0 fresh GO/STRETCH fits. 4th cycle today confirming the local+remote-US at-level market is genuinely exhausted. LinkedIn 24h searches = aggregator spam; cap-exempt PNW universities (Reed/L&C/UP/PSU/Seattle-U) = no in-scope live openings this week.
+- **EY HR Transactions Senior** (live in tracker) re-checked → standing PASS upheld (HR M&A scope, ~55% match, zero M&A exposure — honest gap, not a build).
+- **Honest thin-market result per contract** — no padding with senior/out-of-scope/dup/no-sponsor roles. No build/submit this run.
+- Open cap-exempt vein for a FUTURE run (flagged, not swept this pass): deep-dive the big PNW Workday portals — Kaiser PNW, Providence, UW, Fred Hutch, Seattle Children's HR/Talent/L&D filters.
