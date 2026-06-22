@@ -621,3 +621,45 @@ Jamie Cheng
 | 2026-03-24 | Created with 5 templates + Jamie's real samples + contact finding protocol. |
 | 2026-05-14 | Added Distilled Voice Spec v1 — extracted from audit of Jamie's actual successful reaches (C1 Blake, Nike Alison, EY Riddhi, Flatiron Jiun, Morgan Stanley Helen) vs. failed reaches that got no reply. The Portland-move anchor + transparency-about-cold-reach + job-level-texture self-intro identified as the three highest-leverage elements. C1/Blake email captured as the canonical best example. |
 | 2026-05-28 | Added Step 0 recipient-verification protocol (hard rule — got it wrong twice: Jessica/Roivant, Kaitlyn/Built In). Added "Peer Outreach — Fellow Practitioner" template and "Senior Leader (Head of People)" template encoding Jamie's edited examples. Rules: role+JD focus not company structure; peer-curiosity tone; concrete 2-week timeframe; no fabricated "I followed how the org..."; head-of-people version leads with background + strategic lever line + "honored to connect." |
+| 2026-06-21 | Added Outreach Learnings block below (David feedback: identity framing, approved email flow, send mechanics). |
+
+---
+
+## Outreach Learnings (David 2026-06-21)
+
+### ❌ NEVER claim "fellow [people-ops/L&D/X] practitioner" or any current-role peer framing
+
+Jamie's current title is **Program Enablement Manager (InGenius Prep)**. Her people-ops, OD, and L&D work comes through ODN Oregon and past roles — not her current title.
+
+Never frame her as a "fellow People Ops practitioner," "fellow L&D practitioner," or any equivalent phrasing that implies she currently holds a people-ops/HR/L&D title she does not hold. That is a truthfulness violation (ties to §0 / RULE 0 / no fabrication).
+
+**Correct framing:** Share her REAL background — "trained in Organizational Psychology, with experience..." — truthful and accurate. Let the substance speak, not a false peer-title claim.
+
+The old "Peer Outreach — Fellow Practitioner" template (2026-05-28 above) contains a forbidden "As a fellow People Operations practitioner" line — **do not use that line verbatim.** Adapt the template with truthful background framing instead.
+
+---
+
+### ✅ Approved email flow (v2 shape — David 2026-06-21)
+
+The v2 post-application email follows this structure (all 9 emails drafted 2026-06-21 encode this):
+
+1. **Day-safe opener** — a single warm sentence calibrated to send-day (unknown at draft time):
+   - Mon–Tue: "I hope you're settling into the week well!"
+   - Thu–Fri: "I hope you're wrapping up a good week!"
+   - Weekend: "I hope you're having a good weekend!"
+2. **How she found them + why she's reaching out** — transparent, specific (profile on the team / leading X function / on the recruiting side).
+3. **"A little about me:"** — brief, truthful self-intro: "I'm trained in Organizational Psychology, with experience [1–2 true capabilities matching the JD]." Never inflate to a title she doesn't hold.
+4. **Company-type / Portland anchor** (where applicable) — truthful: startup = InGenius, multinational = Vestas, Portland-area role = Portland-move anchor.
+5. **Soft ask** — "If you happen to have some time in the next couple of weeks, I'd love to hear more about what your team is working on right now, any projects on the horizon, and how you've enjoyed the work." NOT "I'd love to hear what the work is actually like" (reads like vetting the employer, not learning from them).
+6. **Close** — "I've attached my resume — thanks so much, and for potentially connecting!" / "Warmly, Jamie Cheng"
+
+---
+
+### ✅ Send mechanics (David 2026-06-21)
+
+| Channel | Who sends | Condition |
+|---|---|---|
+| **LinkedIn connection notes** (≤300 chars) | Claude (automated) | After Jamie AUTHORIZES + once LinkedIn Premium is active. Jamie's free account has exhausted customized invites; Premium unlocks unlimited custom notes. Once Premium is confirmed, Claude IS authorized to send the queued LinkedIn notes. |
+| **Emails** | Jamie sends herself | Claude drafts the emails into Notion (under the `📧 Email drafts` section of each tracker page). Jamie uses her own email-finding software (Apollo etc.) to get the addresses, then sends from her own account. Claude does NOT send emails. |
+
+**Workflow:** Draft emails → Notion page → Jamie finds address → Jamie sends. Draft LinkedIn notes → Notion page → Jamie upgrades to Premium → Claude sends via LinkedIn.
