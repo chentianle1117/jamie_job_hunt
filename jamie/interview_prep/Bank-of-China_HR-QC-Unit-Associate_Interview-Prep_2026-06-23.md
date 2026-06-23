@@ -203,6 +203,40 @@
 | **NextGen 2,000+ data → Director/VP** | data analysis · reporting to seniors · defending findings | KRI-adjacent / audit reporting |
 | **Vendor mgmt — 10+ (source→scope→monitor→SME)** | third-party risk | TPRM |
 
+**📖 The 5 stories in STAR form (keywords bolded — say the beats, not the script):**
+
+**① Vestas onboarding / mobility audit** → *process auditing · control testing · cross-cultural*
+- **S:** At Vestas, local **onboarding & mobility processes** didn't clearly line up with the company's **global guidelines.**
+- **T:** Make sure the local process matched the global standard, with no surprises for incoming foreign employees.
+- **A:** Interviewed stakeholders across **Taiwan / India / Korea** — mobility, finance, the data team on employee-data standards → mapped **actual-vs-should-be** → rebuilt into one aligned, seamless workflow.
+- **R:** A standardized, compliant process — and I kept **checking with function leaders that it was actually followed** (= control testing + continuous monitoring).
+
+**② InGenius onboarding redesign** → *continuous improvement · QC*
+- **S:** Onboarding for **70+ cross-functional staff** was inconsistent and slow.
+- **T:** Find where it broke and make it reliable and repeatable.
+- **A:** Interviewed **~25 stakeholders** (sales mgr, product, education lead) → compared actual vs. documented process → rebuilt workflow + guides + docs.
+- **R:** **75% reduction in onboarding time**; standardized and held up across iterations — plus ongoing check-ins to catch gaps early.
+
+**③ Vestas ER case → root-cause → Inclusive Leadership workshop** → *risk mgmt · corrective action · training* *(keep discreet — no names)*
+- **S:** A **sensitive employee-relations matter** at Vestas.
+- **T:** Handle it carefully AND prevent it from recurring.
+- **A:** Supported the ER response, brought in **external consultants** for advice + training, corrective + disciplinary action taken; root-caused it to **cross-cultural difference**, so I **piloted an Inclusive Leadership workshop** (Denmark-based DEI specialist, **12 senior leaders** to start).
+- **R:** Corrective action taken *and* the underlying cause addressed at the leadership level — not just the surface incident.
+
+**④ NextGen 2,000+ data → Director/VP** → *data analysis · reporting to seniors · defending findings (KRI-adjacent)*
+- **S:** NextGen needed visibility into people metrics / engagement.
+- **T:** Turn scattered data into something leaders could act on.
+- **A:** Ran the full cycle on **2,000+ employee responses** → raw data into reports + recommendations → **presented to Director/VP.**
+- **R:** Findings drove leadership decisions on engagement & L&D. *(Bridge line: "same muscle KRI monitoring needs — define the metric, watch it, flag when it moves.")*
+
+**⑤ Vendor management — 10+ relationships** → *third-party risk · TPRM*
+- **S:** At InGenius I own **10+ vendor relationships** supporting 15+ products.
+- **T:** Pick the right vendors and keep them delivering to standard over time.
+- **A:** **Source → vet fit → define scope → ongoing monitoring**; warm-but-candid check-ins, share honest internal feedback; sometimes engage them as **SMEs** for training. *(also sourced a wellness/benefits vendor at Vestas.)*
+- **R:** A reliable vendor portfolio that let us expand offerings without quality slipping — maps to the full **TPRM** lifecycle (due diligence → contract → monitoring → offboarding).
+
+> 💡 **Conflict/feedback backup story (⑥):** vendor-vs-user disagreement → heard both → checked the **data** → restructured the service to fit users → both felt heard, relationship stayed amicable. *(Use if asked about conflict.)*
+
 **TACTICS:**
 - **Open the regulatory loop early** (three lines of defense + AML backdrop) — almost no one else will.
 - **Name the framework, then USE it:** "HR is 1st line owning its controls; this unit proves it to the 2nd & 3rd."
