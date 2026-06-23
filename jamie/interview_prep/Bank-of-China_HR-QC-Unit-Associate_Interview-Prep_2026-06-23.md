@@ -164,15 +164,18 @@
 
 ---
 
-## 5. QUESTIONS TO ASK (mix across the panel)
-- How is the **QC Unit structured** within HR, and how does it interact with the **2nd line of defense**?
-- How much is **recurring control testing vs. ad-hoc audit/project** support?
-- What does a typical **week / audit cycle** look like?
-- How do you **bring someone up to speed on the banking/regulatory side** if they're strong on HR ops? *(signals self-awareness + seriousness)*
-- Biggest **risk or operational challenges** HR is focused on now?
-- How does this role **grow from associate**?
-- **(save for the end):** *"If I'd been here a year, what would I have accomplished that would make you confident it was the right hire?"* → *"I ask because I want my idea of success to match yours from day one."*
-- **(human closer):** *"What's something you didn't expect about working here, or have really come to like?"*
+## 5. QUESTIONS TO ASK (one list — ask the room, let them decide who answers; you'll get ~3–5)
+
+> Priority order. #1 is your strongest (turns your gap into a green flag). Save the last one for the end.
+
+1. ⭐ **"What learning/training resources are there for someone new to the banking-specific regulations?"** — your best question: shows you're already planning to close your one real gap.
+2. **"The role seems to touch both QC and training/development — how do the day-to-day interactions and the reporting line actually work across those?"** — pictures yourself in the seat.
+3. **"What are the biggest risk or operational challenges the team is focused on right now?"** — best aimed at the dept head.
+4. **(after you've shown interest in the work)** **"How does this role grow — what's the path from associate?"** — pairs with your plant-roots/long-term theme.
+5. ⭐ **(SAVE FOR LAST)** *"If I'd been in this role a year, what would I have accomplished that would make you confident it was the right hire?"* → add: *"I ask because I want my idea of success to line up with yours from day one."*
+6. **(warm human closer, if flow allows)** *"What's something you didn't expect about working here, or have really come to like?"*
+
+*Optional 7th in your back pocket (sounds like you already think in their framework):* "How does the QC unit currently interact with the bank's **second line of defense**?"
 - _My own:_ ________________
 
 ---
