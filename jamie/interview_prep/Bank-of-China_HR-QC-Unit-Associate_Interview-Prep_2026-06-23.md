@@ -222,16 +222,37 @@ _My own to add:_
 
 ---
 
-## 6. ✨ How to stand out & leave an impression (research-backed)
+## 6. ✨ How to stand out & leave an impression
 
-- **Open the regulatory loop early and naturally** (Round 1 or 3): show you understand *why* HR QC exists in a Chinese-bank US branch (three lines of defense, the OCC/AML backdrop). Almost no HR-ops candidate will connect those dots — it's your single biggest differentiator.
-- **Name the framework, then show you can USE it** (friend's Kirkpatrick tip, applied): don't just say "three lines of defense" — say what you'd *do* with it. "HR is part of the first line owning its own controls, and this unit is how HR proves that to the second and third lines."
-- **Mirror their language:** control testing, KRI, ABAC, record retention, corrective action, continuous improvement. Using their vocabulary signals you'll fit the environment.
+### 🎒 Your signature stories + top skills — make sure these land before you leave the room
+
+> These are your verified, repeatable assets. If the panel hasn't heard at least 2–3 of these stories and your top skills by the end, find a natural moment to work them in. They're the proof behind every claim.
+
+**Your TOP 4 skills (lead with these — they ARE the QC profile):**
+1. **Problem-solving / systematic & critical thinking** — getting to the *root cause*, not the symptom. Your headline strength, and exactly what control testing is.
+2. **Process auditing & improvement** — diagnosing how a process *actually* runs vs. how it *should*, then rebuilding it reliably (your 75% onboarding-time cut).
+3. **Data analysis** — MS in Org Psychology; turning raw data into insight, reports, and recommendations (the NextGen 2,000+ analysis).
+4. **Stakeholder / relationship-building & cross-functional coordination** — earning trust so the processes you design actually get followed; the "advisor, not police" temperament.
+> *(Bonus differentiators to surface once each: bilingual Mandarin · financial-services start at Kronos · HRCI HR Associate program finishing in ~1 month.)*
+
+**Your 4 signature stories (each maps to a core part of the JD — tell each ONCE to the panel):**
+| Story | What it proves | JD hook |
+|---|---|---|
+| **Vestas — global onboarding/mobility audit** (interviewed stakeholders across Taiwan/India/Korea, aligned local processes to global standard) | Process auditing, cross-cultural coordination, alignment-to-standard | operational effectiveness / control testing |
+| **InGenius — onboarding redesign** (25+ stakeholder interviews → rebuilt → **75% faster**) + ongoing check-ins with function leaders | Audit→fix→**continuous monitoring** | continuous improvement / QC |
+| **Vestas — ER case → root-cause → Inclusive Leadership workshop I piloted** | Handling a sensitive matter discreetly, corrective action, prevention, training | risk mgmt / corrective action / training HR staff |
+| **NextGen — 2,000+ employee data → insights → presented to Director/VP** | Data analysis, reporting to senior leaders, defending findings | KRI-adjacent analysis / audit reporting |
+| *(+ vendor management — 10+ relationships, sourcing→scope→monitoring→SME)* | Third-party / vendor risk | TPRM responsibilities |
+
+### Tactics
+- **Open the regulatory loop early and naturally:** show you understand *why* HR QC exists in a Chinese-bank US branch (three lines of defense, the OCC/AML backdrop). Almost no HR-ops candidate connects those dots — your single biggest differentiator.
+- **Name the framework, then show you can USE it:** don't just say "three lines of defense" — say what you'd *do* with it. "HR is part of the first line owning its own controls, and this unit is how HR proves that to the second and third lines."
+- **Mirror their language:** control testing, KRI, ABAC, record retention, corrective action, continuous monitoring. Using their vocabulary signals you'll fit.
 - **Be the reliable, precise one** — in a bank, "I get the details right and I follow through" beats "I move fast and break things." Let your calm, organized energy *be* the audition.
 - **Mandarin** — surface it once, naturally. Genuine asset here.
-- **Consistency across rounds:** they'll compare notes. Same core story, different emphasis. Don't contradict a number or a title between rooms.
-- **Close each round well:** "I've really enjoyed this — this is exactly the kind of structured, governance-focused work I want to grow into, and BOC is the kind of institution I want to do it in." Then your specific question.
-- **After:** send a short thank-you to Phoebe (and ask her to pass thanks to the panel, or get names/emails). Reference one specific thing from the conversation — proves you listened.
+- **Consistency across the panel:** with everyone in one room, keep every number and detail consistent — don't let a figure drift between answers.
+- **Close strong:** "I've really enjoyed this — this is exactly the kind of structured, governance-focused work I want to grow into, and BOC is the kind of institution I want to do it in." Then your specific question.
+- **After:** send a short thank-you to Phoebe (ask her to pass thanks to the panel, or get names/emails). Reference one specific thing from the conversation — proves you listened.
 
 ---
 
@@ -240,7 +261,6 @@ _My own to add:_
 - **Comp:** posted $42K–$90K. Target the upper band: *"I'm targeting the upper part of the posted range depending on the full package — what range are you working with?"* Have a real number in your head (~$80–90K) and say it without flinching.
 - **Relocation / 4-days-in-office NYC:** decide your real answer and say it cleanly — *"Yes, I'm open to relocating to New York and the in-office schedule."* Only if true.
 - **Work authorization:** one clean factual line ready; a global bank's US branch has a defined process — don't over-explain.
-- **Title:** **Program Enablement Manager** (matches resume — NOT "Program Director Manager").
 - **Tone:** reliability · precision · discretion · follow-through. Frame InGenius around **process/operations/HR**, never sales/BD, for this role.
 
 ---
