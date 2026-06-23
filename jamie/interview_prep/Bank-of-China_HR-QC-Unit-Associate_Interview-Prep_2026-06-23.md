@@ -221,6 +221,55 @@
 
 > **Your truthful framing for all law/jargon:** *"~1 month from finishing my HRCI HR Associate program (on my resume) — it's covered the legal & compliance side, so it's fresh and I'm building depth."*
 
+## 🔤 ACRONYMS SPELLED OUT (every acronym in this doc — so you never freeze or fumble one)
+
+**The bank & regulators**
+- **BOC** — Bank of China
+- **ICBC** — Industrial and Commercial Bank of China *(peer bank — fined; their action was terminated 2026)*
+- **OCC** — Office of the Comptroller of the Currency *(BOC NY's federal regulator)*
+- **Fed** — Federal Reserve
+- **NYDFS** — New York (State) Department of Financial Services
+- **NYDFS / NY / NYC** — New York · New York (State) Dept. of Financial Services · New York City
+- **US** — United States · **G-SIB** — Global Systemically Important Bank · **FDIC** — Federal Deposit Insurance Corporation
+
+**Risk & compliance**
+- **QC** — Quality Control *(your unit)*
+- **AML** — Anti-Money Laundering
+- **BSA** — Bank Secrecy Act *(the core US AML law; "BSA/AML" go together)*
+- **OFAC** — Office of Foreign Assets Control *(sanctions)*
+- **SAR** — Suspicious Activity Report
+- **KYC** — Know Your Customer
+- **KRI** — Key Risk Indicator *(early-warning risk metric)*
+- **KPI** — Key Performance Indicator *(performance, not risk — know the difference)*
+- **ABAC** — Anti-Bribery & Anti-Corruption
+- **TPRM** — Third-Party Risk Management *(the vendor lifecycle as a risk discipline)*
+- **FLU** — Front Line Unit *(a 1st-line business unit; "FLU Risk Manager" is in the JD)*
+
+**HR & employment law**
+- **HR** — Human Resources
+- **HRBP** — Human Resources Business Partner *(your Vestas role)*
+- **HRCI** — HR Certification Institute *(your "HR Associate" program — ~1 month from done)*
+- **ER** — Employee Relations
+- **OD** — Organizational Development
+- **L&D** — Learning & Development
+- **EEOC** — Equal Employment Opportunity Commission
+- **Title VII** — Title 7 of the Civil Rights Act of 1964 *(say "Title Seven")*
+- **ADA** — Americans with Disabilities Act
+- **ADEA** — Age Discrimination in Employment Act
+- **FLSA** — Fair Labor Standards Act *(wage & hour)*
+- **FMLA** — Family and Medical Leave Act
+- **EEO-1** — Equal Employment Opportunity (annual workforce demographic) report
+- **I-9** — Employment Eligibility Verification form *(E-Verify = the electronic check)*
+
+**Roles, tools, school, misc.**
+- **VP** — Vice President · **SME** — Subject-Matter Expert · **PM** — Project/Program Manager
+- **MS** — Master of Science *(your degree)* · **JD** — Job Description *(in this doc)* — note: "JD" also = Juris Doctor (law degree), context makes it clear
+- **STAR** — Situation · Task · Action · Result *(interview-answer structure)*
+- **FAQ** — Frequently Asked Questions · **AI** — Artificial Intelligence
+- **ODN** — Organization Development Network (Oregon) *(your pro bono OD consulting)*
+- **BD** — Business Development *(frame InGenius as process/ops, NOT BD, for this role)*
+- **TW** — Taiwan *(shorthand in this doc only — say "Taiwan")*
+
 ## A. US EMPLOYMENT LAW (JD requires "Employment Law/EEOC")
 - **EEOC** — Equal Employment Opportunity Commission; enforces anti-discrimination law. The umbrella.
 - **Title VII** — bans discrimination on **race, color, religion, sex, national origin.** Foundational.
