@@ -164,18 +164,23 @@
 
 ---
 
-## 5. QUESTIONS TO ASK (one list — ask the room, let them decide who answers; you'll get ~3–5)
+## 5. QUESTIONS TO ASK (ask the room, let them decide who answers; you'll get ~3–5)
 
-> Priority order. #1 is your strongest (turns your gap into a green flag). Save the last one for the end.
+### ⭐ MUST-ASK 3 — these earn the interview (ask in this order; #3 is your closer)
 
-1. ⭐ **"What learning/training resources are there for someone new to the banking-specific regulations?"** — your best question: shows you're already planning to close your one real gap.
-2. **"The role seems to touch both QC and training/development — how do the day-to-day interactions and the reporting line actually work across those?"** — pictures yourself in the seat.
-3. **"What are the biggest risk or operational challenges the team is focused on right now?"** — best aimed at the dept head.
-4. **(after you've shown interest in the work)** **"How does this role grow — what's the path from associate?"** — pairs with your plant-roots/long-term theme.
-5. ⭐ **(SAVE FOR LAST)** *"If I'd been in this role a year, what would I have accomplished that would make you confident it was the right hire?"* → add: *"I ask because I want my idea of success to line up with yours from day one."*
-6. **(warm human closer, if flow allows)** *"What's something you didn't expect about working here, or have really come to like?"*
+1. ⭐ **"What learning or training resources are there for someone new to the banking-specific regulations?"**
+   → *Proves: self-aware + coachable.* Names your one real gap AND shows you're already planning to close it. Your single highest-leverage question.
+2. ⭐ **"How does the QC unit currently interact with the bank's second line of defense?"**
+   → *Proves: you already think in their framework.* Almost no HR-ops candidate can even ask this — it shows you get *why this unit exists*.
+   *(If "second line of defense" feels risky to say cold, swap to: "How do QC and training/development interact day-to-day, and how does the reporting line work?")*
+3. ⭐ **(SAVE FOR THE VERY END)** *"If I'd been in this role a year, what would I have accomplished that would make you confident it was the right hire?"* → then add: *"I ask because I want my idea of success to line up with yours from day one."*
+   → *Proves: value-driven + mature.* Most memorable question in the set; gives you their definition of success.
 
-*Optional 7th in your back pocket (sounds like you already think in their framework):* "How does the QC unit currently interact with the bank's **second line of defense**?"
+### Fillers — ask only if there's time / the flow opens up
+- "The role seems to touch both QC and training/development — how do the day-to-day interactions and reporting line work across those?" *(if not used as the #2 swap above)*
+- "What are the biggest risk or operational challenges the team is focused on right now?" *(best aimed at the dept head)*
+- "How does this role grow — what's the path from associate?" *(ask only after you've shown interest in the work itself)*
+- *(warm human closer)* "What's something you didn't expect about working here, or have really come to like?"
 - _My own:_ ________________
 
 ---
