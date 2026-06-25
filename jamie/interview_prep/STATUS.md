@@ -9,7 +9,7 @@
 | Company / Role | Interviewer | Status | Gap to full prep |
 |---|---|---|---|
 | **Brex** — Sales Enablement Specialist | Diane (screen) | ✅ FULL (100%) | Ready. Verify acquisition framing is current. |
-| **Bank of China** — HR QC Unit Associate | Phoebe Chuang + 3-round panel | ✅ FULL (100%) | Ready. ⚠️ NY relocation (4 days in-office) decision needed pre-interview. |
+| **Bank of China** — HR QC Unit Associate | Phoebe Chuang + 3-round panel | ✅ FULL (refreshed 2026-06-23 for 2-hr panel) | Upgraded prep: per-round Q&A, gap-challenges, BOC-specific $12.5M OCC penalty intel, friend-guide voice coaching, standout tactics. ⚠️ Lock relocation+comp+work-auth tonight. |
 | **Ampere** — Talent Development Program Manager | (unnamed) | 🟡 FULL (~90%) | In-office days; interviewer name. SoftBank acq context; comp $119–179K PDX. |
 | **Empowerly** — Program Manager | Gelyna Price, Hanmei Wu | 🟡 FULL (~90%) | Finalize logistics. ~$85K; remote-first; reports to Co-founder. |
 | **Flatiron** — Talent & Employee Engagement Associate | (unnamed; research Katherine Perkins) | 🟡 FULL (~90%) | Confirm interviewer. $88–121K NY; hybrid 3-day; oncology health-tech. |
