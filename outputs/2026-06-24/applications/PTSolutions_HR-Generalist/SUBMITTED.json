@@ -1,0 +1,44 @@
+{
+  "status": "SUBMITTED",
+  "submitted_at": "2026-06-24T23:59:00-07:00",
+  "company": "PT Solutions Physical Therapy",
+  "role": "HR Generalist",
+  "ats": "iCIMS",
+  "job_id": "2026-17163",
+  "linkedin_job_id": "4433027234",
+  "apply_url": "https://careers-ptsolutions.icims.com/jobs/17163/hr-generalist/job",
+  "confirmation_url": "https://careers-ptsolutions.icims.com/jobs/17163/hr-generalist/job?mode=submit_apply",
+  "confirmation_message": "Your application was submitted successfully. Thank you for applying. You are currently submitted to this job.",
+  "applicant": {
+    "legal_name": "Yi-Chieh Cheng",
+    "preferred_name": "Jamie Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "+12137003831",
+    "address": "1784 NW Northrup St, Portland, OR 97209"
+  },
+  "resume": {
+    "file": "resume.pdf",
+    "sha256": "581acefdd2e6102bf11c10c9354bc55b12e39376fea67e9a673007f9870f0578",
+    "size_bytes": 89021,
+    "upload_method": "win32_file_dialog"
+  },
+  "form_fields": {
+    "authorized_to_work_us": true,
+    "requires_sponsorship": true,
+    "salary_expectation": 72000,
+    "highest_education": "Master's Degree",
+    "previously_employed_by_pts": false,
+    "eeo_gender": "Female",
+    "eeo_ethnicity": "Asian",
+    "eeo_disability": "No",
+    "eeo_veteran": "No",
+    "eeo_sexual_orientation": "Straight/heterosexual",
+    "eeo_gender_identity": "Female"
+  },
+  "gate_cleared": true,
+  "cover_letter_sha256": "9862bc99e4c4729f27922d5549228276e918dc41e8f99e6350e418587fafeb42",
+  "screenshots": [
+    "screenshots/confirmation_submitted.jpeg"
+  ],
+  "notes": "Resume uploaded via win32 file dialog after iCIMS profile update. Confirmation text verified via JS iframe read: 'Your application was submitted successfully. Thank you for applying. You are currently submitted to this job.' Account created as Yi-Chieh Cheng at jamiecheng0103@gmail.com. Salary Q44=$72,000."
+}
