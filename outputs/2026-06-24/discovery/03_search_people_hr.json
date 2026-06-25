@@ -1,0 +1,27 @@
+{
+  "surface": "search:People Ops/HR Generalist/L&D — Portland +25mi — last 7d",
+  "result_header": "75 results",
+  "cards_fetched": 25,
+  "roles_passing": 5,
+  "candidates": [
+    {"company":"Talkiatry","title":"Learning & Development Specialist","location":"Remote (US)","remote":true,"linkedin_job_id":"4432899318","apply_url":"https://www.linkedin.com/jobs/view/4432899318/","ats":"offsite (Greenhouse/Lever likely)","yoe":"~2-4","competition_signals":[],"fit_note":"Clean L&D fit — develop/deliver courses across org. Fresh (06-24). Telehealth co, sponsors-friendly likely. Strong GO.","live":true,"possible_dup":false,"tier":"GO"},
+    {"company":"PT Solutions Physical Therapy","title":"HR Generalist","location":"Remote (US)","remote":true,"linkedin_job_id":"4433027234","apply_url":"https://www.linkedin.com/jobs/view/4433027234/","ats":"offsite","yoe":"~2-4","competition_signals":[],"fit_note":"Core HR generalist: ER, policy, performance/talent mgmt, training. Fresh (06-25). GO.","live":true,"possible_dup":false,"tier":"GO"},
+    {"company":"Solace (via hackajob)","title":"People Operations Associate","location":"Remote (US)","remote":true,"linkedin_job_id":"4431801165","apply_url":"https://www.linkedin.com/jobs/view/4431801165/","ats":"offsite (hackajob/employer)","yoe":"~2-3","competition_signals":["listed via aggregator hackajob"],"fit_note":"Series C healthcare startup, genuine People Ops Associate at-level. Fresh (06-24). GO but verify employer-direct apply.","live":true,"possible_dup":false,"tier":"GO"},
+    {"company":"Firestone Pacific Foods","title":"People Operations Lead","location":"Vancouver, WA","remote":false,"linkedin_job_id":"4431267924","apply_url":"https://www.linkedin.com/jobs/view/4431267924/","ats":"offsite","yoe":"~4-5","competition_signals":[],"fit_note":"Vancouver WA in-geo, small food processor; 'Lead' title borderline but likely sole-People-Ops scope at-level. Fresh (06-23). STRETCH.","live":true,"possible_dup":false,"tier":"STRETCH"},
+    {"company":"Viventium","title":"Training Specialist","location":"Remote (US)","remote":true,"linkedin_job_id":"4432431612","apply_url":"https://www.linkedin.com/jobs/view/4432431612/","ats":"offsite","yoe":"~2-3","competition_signals":[],"fit_note":"HCM/payroll SaaS Training Specialist — likely client/product training rather than pure internal L&D; verify scope. Fresh (06-23). STRETCH.","live":true,"possible_dup":false,"tier":"STRETCH"}
+  ],
+  "dropped": [
+    {"company":"ClearCaptions","title":"People Generalist (100% Remote)","reason":"JD HARD-STOP: 'does not offer sponsorship for work authorization... without a current or future need for Visa sponsorship'"},
+    {"company":"Ascentec (dup of recommended)","reason":"sponsorship hard-stop (already noted)"},
+    {"company":"SeaHill Consulting Group","title":"HR Generalist","reason":"JD = contractor work-authorization records / high-volume data entry; clerical + staging firm, low fit"},
+    {"company":"Equus Workforce Solutions","title":"Talent Development Specialist (800017)","reason":"DEDUP — already applied (task #158)"},
+    {"company":"Family Resource Home Care","title":"HR Generalist (Clackamas OR)","reason":"POSSIBLE DUP — 'Family Resource HR Generalist' already submitted (task #256); flagged"},
+    {"company":"Catholic Relief Services","title":"Technical Advisor II Emergency Program","reason":"Senior + emergency-program scope, repost (orig 05-19)"},
+    {"company":"OnTrac / ECS Staffing","title":"Total Rewards / Benefits Review","reason":"Comp/benefits-admin primary"},
+    {"company":"Transcend / CacheFly / Jobgether","title":"Partner L&D Strategy / HR Manager / Sr Generalist","reason":"Senior/Manager/Partner level"},
+    {"company":"STI","title":"HRIS Senior Specialist","reason":"HRIS/systems (SuccessFactors), not people-ops"},
+    {"company":"KELLER / CuraLinc / Humana / Career Team / SunStrong","title":"App Specialist / Client Rel Mgr / Provider Engagement / Outreach / General Interest","reason":"Not HR-core or not a real req"},
+    {"company":"Hired / RemoteHunter / MeeBoss / Ecco Group","title":"various HR Generalist/Specialist (Remote)","reason":"Job-aggregator reposts / thin employer-direct signal — deprioritized vs direct-employer roles above"}
+  ],
+  "applied_dedup_list_this_session": ["Family Resource Home Care (Clackamas)","Equus Talent Dev 800017","More Than Models Talent Coord","Keller Rohrback Prof Dev","Clarion Events L&D","Golden Tree Leadership Dev","Interface Education Admissions","CampusPoint HR Coord","Onward Search EE Engagement","BizTek Academic Services Asst"]
+}

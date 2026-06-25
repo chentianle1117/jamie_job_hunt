@@ -1,0 +1,6 @@
+{
+  "surface": "feed",
+  "roles_passing": 0,
+  "note": "Feed loaded under Jamie's auth but yielded no actionable structured hiring posts. Two transient Chrome-extension disconnects occurred during the feed scan; after reconnect the feed DOM returned 0 matchable post nodes (LinkedIn feed virtualization + reset state). Feed is historically the lowest-yield surface for structured at-level roles vs. saved/recommended/search. No new roles captured here; not worth further token spend fighting the DOM.",
+  "candidates": []
+}

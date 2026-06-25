@@ -1,0 +1,23 @@
+{
+  "status": "SUBMITTED",
+  "submitted_at": "2026-06-24",
+  "role": "Learning & Development Specialist",
+  "company": "Talkiatry",
+  "ats": "Ashby",
+  "apply_url": "https://jobs.ashbyhq.com/Talkiatry/13509fcd-db5f-4318-8a9a-8317fdb9d6e7/application",
+  "confirmation_text": "Your application was successfully submitted. We'll contact you if there are next steps.",
+  "confirmation_screenshot": "screenshots/v6_03_confirmation.png",
+  "pre_submit_screenshot": "screenshots/v6_02_pre_submit.png",
+  "fields_submitted": {
+    "name": "Yi-Chieh Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/yi-chieh-cheng/",
+    "resume": "resume.pdf",
+    "cover_letter": "cover_letter.pdf",
+    "sponsorship": "Yes",
+    "salary_aligned": "Yes (clicked first radio via force)",
+    "location": "Portland, Oregon, United States"
+  },
+  "gate_cleared": true,
+  "script": "lib/submit_talkiatry_ashby_v6.py"
+}

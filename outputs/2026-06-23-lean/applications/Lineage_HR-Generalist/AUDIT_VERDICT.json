@@ -1,0 +1,38 @@
+{
+  "role": "Lineage HR Generalist",
+  "verdict": "PASS",
+  "checks": [
+    {
+      "check": "A",
+      "result": "PASS",
+      "evidence": "Substance floor held. Diffed every tailored bullet vs canonical resume.json. ODN (3 bullets) = canonical Pair A; only delta is dropping the adverb 'successfully' from bullet 1 ('audit 300+ leave cases, refuting' vs 'audit 300+ leave cases, successfully refuting') — no metric/scope clause lost ($362K, 300+ both intact). InGenius (4) verbatim incl '20+ programs/10+ vendors', '70+ staff... 75%', '600+ participants... 78%', 'positioning, delivery strategy, and operations'. NextGen (4) reordered HR-variant, all bullets present incl '2,000+ employee experiences', 'strategic plans and internal training on DEI', '5 cross-functional projects'. Vestas (4) reordered, all present incl '12 senior leaders... 23 other global locations', 'award-winning well-being initiatives, recognized among 1,000+ competitors'. Kronos (4) verbatim incl '566% in 2 months'. No metric, scope clause, or whole bullet dropped or clause-merged."
+    },
+    {
+      "check": "B",
+      "result": "PASS",
+      "evidence": "Every claim traces to canonical source. ODN labeled 'Organization Development Network (ODN) Oregon' (NOT Transition Projects, NOT community/ERG); bullets are OD-diagnostic + leave-cost analysis = true nature. No banned '$340K/17 launches' (uses '78% enrollment rate'). No banned Kronos '230+/80+/top-3-univ' fabrication (Kronos bullets canonical). No invented tools — Jira absent; skills list (Rippling/ADP/SAP, Greenhouse, Asana/Airtable, Notion/SharePoint, Canva/InDesign, GenAI) all from canonical resume.json. LMS (Canvas/Moodle) dropped vs canonical — permitted (not a fabrication; JD-irrelevant omission, and changeLog documents it)."
+    },
+    {
+      "check": "C",
+      "result": "PASS",
+      "evidence": "Bullet counts exact: ODN = 3, InGenius = 4, NextGen = 4, Vestas = 4, Kronos = 4. None deleted to save space."
+    },
+    {
+      "check": "D",
+      "result": "PASS",
+      "evidence": "Cover uses Jamie's real metrics (2,000+, 20+ programs/10+ vendors, 70+ staff/75%, 600+/78%, 25+ global stakeholders) + real companies (Vestas, NextGen, InGenius). Keyword bolds well over 6 in body incl companies (Vestas Wind Systems, NextGen Healthcare, InGenius Prep, Lineage) + metrics-with-numbers (2,000+, 20+, 70+, 600+, 78%). Org-psych scientific-method close present ('diagnose with data, collaborate cross-functionally on solutions, track metrics'). Warm, not cliche, not AI-sounding. No relocation over-commitment; no visa mention; 'Dear Lineage Hiring Team,' present."
+    },
+    {
+      "check": "E",
+      "result": "PASS",
+      "evidence": "Resume header = 'Portland, OR' (role is Portland on-site — matches city rule). Cover header location = 'Portland, OR'. Wesleyan Relevant Coursework line present ('Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation'). Summary is broad 3-pillar (data analysis / evidence-based programs / stakeholder collaboration), role-noun swapped to 'Human Resources'."
+    },
+    {
+      "check": "F",
+      "result": "PASS",
+      "evidence": "Cover adheres to locked skeleton. Opener = belief sentence ('Human resources isn't just about administering policies—from my experience, it's about creating a continuous cycle of collecting insights, analyzing data, and refining solutions...') NOT an anecdote. Tagline line 2 = 'Dedicated to Improving People/Employee Experience' (approved EX/HR variant). Four experience paragraphs in fixed order Vestas -> NextGen -> InGenius. Org-psych close + 'analytical organizer with a growth mindset' line present. FLAG 1 (Vestas ER/strategic-HR expansion): VERIFIED truthful — 'assisted in employee relations cases, ensuring compliance with local labor laws and fostering a positive work environment' traces verbatim to content_library.md L188; 'delivered strategic HR solutions across projects in employee relations, headcount, and succession planning' traces verbatim to content_library.md L195; both are approved-variant swaps (real canonical bullets, more JD-relevant; M&A clause dropped in favor of them per the approved-variant rule). Verbs match source ('assisted', 'delivered', 'optimized') — NO role-upgrade. FLAG 2 (Lineage mission phrase): light paraphrase of JD's stated aspiration ('be the very best employer', 'fast paced, highly visible') filling the {SWAP: company mission} slot — not a claim of duties Jamie didn't do; within keyword-swap bounds. NextGen verb 'led a manager-effectiveness project' traces to resume bullet 'Led a manager effectiveness initiative' (truthful, source-exact verb). InGenius 'listening sessions' is an approved canonical variant (content_library Set B/H, L174)."
+    }
+  ],
+  "failures": [],
+  "notes": "PASS on all 6 evidence-bearing checks. Both build-agent-raised flags scrutinized and cleared: (1) Vestas ER/'strategic HR solutions' expansion traces verbatim to content_library.md L188 + L195 with source-exact verbs (no upgrade) — it is a legitimate approved-variant swap that replaced the skeleton's M&A clause for a heavily ER/compliance-weighted HR Generalist JD; (2) Lineage 'world-class, people-first workforce' mission phrase is a light JD-aspiration paraphrase in the designated company-mission swap slot, not a false self-claim. Minor non-blocking observations: (a) ODN bullet 1 dropped the adverb 'successfully' vs canonical — cosmetic, no substance lost; (b) resume summary closes 'systematic approaches' vs canonical 'evidence-based approaches' — within the broad-summary keyword-swap latitude, not a violation. Substance floor fully intact; no thinning, no fabrication, no role-upgrade. Cleared to submit."
+}

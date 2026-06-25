@@ -1,0 +1,26 @@
+﻿{
+  "company": "Solace",
+  "title": "People Operations Associate",
+  "jobId": "4432259441",
+  "live": false,
+  "location": "Unknown — posting expired before JD could be retrieved",
+  "remote": null,
+  "out_of_bounds": false,
+  "yoe_required": "Unknown",
+  "yoe_too_high": false,
+  "sponsorship_hardstop": false,
+  "sponsorship_quote": "",
+  "ats_type": "Ashby",
+  "apply_url": "https://jobs.ashbyhq.com/solace/e3d2bc85-22b1-4caf-8fb6-a1f0c4bb32",
+  "easy_or_hard": "EASY",
+  "jd_text": "",
+  "fit_note": "Cannot assess — role is no longer accepting applications.",
+  "verdict": "DROP",
+  "drop_reason": "EXPIRED: Ashby posting returns 'Job not found — The job you requested was not found.' LinkedIn page also timed out (networkidle), consistent with a closed/delisted posting.",
+  "verification_evidence": {
+    "ashby_direct_body": "Job not found\n\nThe job you requested was not found.\n\nView all open positions",
+    "ashby_final_url": "https://jobs.ashbyhq.com/solace/e3d2bc85-22b1-4caf-8fb6-a1f0c4bb32",
+    "linkedin_page_loaded": false,
+    "linkedin_timeout": "networkidle 30s exceeded"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "role": "Talkiatry — Learning & Development Specialist",
+  "verdict": "PASS",
+  "resume_sha": "6dcc28708dd19c4107933112552ccf945e35abadd722818d3ee8b01d6fe4a36b",
+  "cover_sha": "7a406be1effdec272fa44db27c5b0ee5c389172aa34fdbd77224d6b78a897f79",
+  "checks": [
+    {
+      "check": "A. Substance floor (RULE -1) — InGenius bullets diffed vs canonical",
+      "result": "PASS",
+      "evidence": "All four InGenius bullets preserve every concrete. 'Manage 20+ programs and 10+ vendors, refining program positioning, delivery strategy, and operations via participant feedback analysis' keeps 20+/10+/positioning/delivery strategy/operations from content_library line 164/175. Webinar bullet keeps 600+ and 78% program enrollment rate. Guides bullet keeps 70+ staff and 75% onboarding reduction. No metric or scope clause dropped.",
+      "canonical_source": "content_library.md lines 158-176 (L&D/Vendor emphasis sets); resume.json InGenius block"
+    },
+    {
+      "check": "A2. Substance floor — Vestas / NextGen / Kronos / ODN diffed vs canonical",
+      "result": "PASS",
+      "evidence": "Vestas keeps 12 senior leaders -> 23 global locations, M&A, 3 global locations onboarding, 'award-winning well-being initiatives recognized among 1,000+ competitors'. Kronos keeps 566%. ODN keeps $362K and 300+ leave cases. NextGen keeps 2,000+ employee experiences. Every canonical number survives.",
+      "canonical_source": "content_library.md lines 112-118 (ODN), 184-198 (Vestas), 205-208 (NextGen), 214-217 (Kronos)"
+    },
+    {
+      "check": "B. Truth / no-relabel (RULE 0) — ODN stays OD diagnostic consulting",
+      "result": "PASS",
+      "evidence": "ODN bullets are 'Upskill HR team in data analytics to audit 300+ leave cases' (Project 1) and 'Conduct focus groups and 1:1 interviews with an NGO leadership team to surface decision-making and accountability gaps' (Project 2). No community/ERG/network-building relabel. Two projects kept strictly separate, never blended in one bullet.",
+      "canonical_source": "content_library.md lines 111-119; JAMIE_FEEDBACK_RULES.md §0.2 + §2.1"
+    },
+    {
+      "check": "B2. No invented tools/skills — L&D framing uses real experience, no authoring software faked",
+      "result": "PASS",
+      "evidence": "JD requires 'instructional design software proficiency'. Resume does NOT add Articulate/Storyline/Captivate/Rise 360 (changeLog explicitly notes they were withheld as not Jamie's). Skills line matches canonical vocabulary exactly: 'LMS (Canvas, Moodle) ... GenAI Tools (ChatGPT, Gemini, Claude)'. No Jira. LMS moved front only because JD names LMS experience (allowed JD-gated reorder). Gap correctly left undisclosed-as-fabrication / handled honestly.",
+      "canonical_source": "content_library.md line 68 (canonical skills allow-list); JAMIE_FEEDBACK_RULES.md §0.7"
+    },
+    {
+      "check": "B3. 'adult learning gaps' / 'facilitator guides' / '5 cross-functional projects' traced",
+      "result": "PASS",
+      "evidence": "'5 cross-functional projects focusing on survey development, rewards & recognition, and L&D' appears VERBATIM in canonical resume.json NextGen block (line 90) — sourced, not invented by this tailoring. 'adult learning gaps' is a truthful JD-vocabulary rewording of canonical 'learning gaps' (adult learners are who she serves). 'facilitator guides, learning materials' expands canonical 'guides and workflows' + content_library 'product guides / learning materials' (line 143) — truthful re-angle, not fabrication.",
+      "canonical_source": "resume.json line 90; content_library.md lines 143, 158-159"
+    },
+    {
+      "check": "C. Bullet counts",
+      "result": "PASS",
+      "evidence": "ODN = 3 bullets (within 2-3 rule). InGenius/NextGen/Vestas/Kronos = exactly 4 each. None deleted to fit page (render_report: 1 page at font_scale 0.94).",
+      "canonical_source": "JAMIE_FEEDBACK_RULES.md §2 bullet-count table"
+    },
+    {
+      "check": "D. Cover substance + voice + bolding + org-psych close",
+      "result": "PASS",
+      "evidence": "Belief-sentence opener present ('Learning and development isn't just about delivering training content—from my experience, it's about creating a continuous cycle of collecting insights, analyzing data, and refining solutions'). 36 bolds incl 'Talkiatry' + real metrics ('analyzed 2,000+ employee experiences', 'cut onboarding time by 75%', '600+ participants', '78% program enrollment rate', '25+ global stakeholders'). Org-psych close present: 'MS in Applied Organizational Psychology (USC) ... diagnose with data ... analytical organizer with a growth mindset'. No relocation over-commitment, no visa mention. 'Dear Talkiatry Hiring Team,'. Not AI-cliche.",
+      "canonical_source": "cover_letter_canonical.md; JAMIE_FEEDBACK_RULES.md §6"
+    },
+    {
+      "check": "F. Cover canonical-skeleton adherence — keyword-swap only, no free-write",
+      "result": "PASS",
+      "evidence": "Cover matches cover_letter_canonical.md sentence-for-sentence: Vestas->NextGen->InGenius paragraph order intact, no merge/drop/reorder, org-psych close verbatim. Vestas workshop NOT mentioned in a role-upgrade way (cover leads Vestas with process-gaps/onboarding/M&A, not 'built/led' the workshop). Mission clause 'expand access to high-quality mental health care by equipping clinicians and teams with the knowledge they need' is truthful and JD/About-derived, not invented credentials. Only {SWAP} slots + bolded skills changed to JD vocabulary.",
+      "canonical_source": "cover_letter_canonical.md paragraphs 1-5; AUDITOR_AGENT_SPEC.md check F"
+    },
+    {
+      "check": "E. Header/location + Wesleyan coursework + summary breadth",
+      "result": "PASS",
+      "evidence": "Header = 'Portland, OR (Open to Remote or Relocation)' (role is remote-US — correct). Wesleyan Relevant Coursework line present ('Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation'). Summary is broad L&D umbrella with 3 pillars + '97% extrovert!' kept; closing verb 'improve people development' is an approved L&D variant.",
+      "canonical_source": "JAMIE_FEEDBACK_RULES.md §1, §3, §5"
+    },
+    {
+      "check": "Honest gap disclosure (healthcare sector new; no instructional-design-software overclaim)",
+      "result": "PASS",
+      "evidence": "Healthcare/psychiatry sector is new to Jamie; cover does not claim healthcare experience — it offers her L&D/OD methodology and ties to the mission without faking domain expertise. Instructional-design-software requirement met with her real LMS (Canvas/Moodle) + facilitation experience, not faked authoring tools. No overclaim.",
+      "canonical_source": "JD.txt required qualifications; JAMIE_FEEDBACK_RULES.md §0.4"
+    }
+  ],
+  "failures": [],
+  "audited_at": "2026-06-24T23:30:38-07:00"
+}

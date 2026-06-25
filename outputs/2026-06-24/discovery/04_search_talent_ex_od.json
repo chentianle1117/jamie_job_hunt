@@ -1,0 +1,16 @@
+{
+  "surface": "search:Talent Dev/Employee Experience/OD/People Program — Portland +25mi — last 7d",
+  "result_header": "500+ results (broad OR, mostly noise)",
+  "roles_passing": 1,
+  "candidates": [
+    {"company":"OCHIN, Inc.","title":"Epic Learning Specialist","location":"Remote (Portland-HQ nonprofit)","remote":true,"linkedin_job_id":"4429164400","apply_url":"https://recruiting.paylocity.com/Recruiting/Jobs/Details/4254797","ats":"Paylocity (easy)","yoe":"~2-4","competition_signals":[],"fit_note":"Health-IT nonprofit, training-delivery role — fits Jamie's L&D/curriculum/facilitation. CAVEAT: 'Epic' = Epic EHR-specific trainer, specialized domain; partial fit. No sponsorship hard-stop, Paylocity ATS = easy. STRETCH.","live":true,"possible_dup":false,"tier":"STRETCH"}
+  ],
+  "dropped": [
+    {"company":"Boly:Welch","title":"HR Manager (Beaverton)","reason":"Manager level"},
+    {"company":"Consolidated Metco","title":"HR Manager (Clackamas)","reason":"Manager level"},
+    {"company":"Billtrust / Digital Harbor / FHI360 / Farmers / BioSpace","title":"Director / Sr Director / Head","reason":"Director+ level"},
+    {"company":"Transcend","title":"Partner L&D Strategy","reason":"Partner/senior"},
+    {"company":"Braintrust / WiMLDS / Rithum / gpac / TeachMe.To / DataAnnotation / SOLV / North","title":"Brand PR Dir / AI Coach / Treasury Mgr / GM Construction / Pickleball Coach / AI Trainer / DOT Instructor / TA Spec","reason":"Unrelated to people/HR/L&D or wrong level — broad-OR search noise"}
+  ],
+  "note": "Broad-OR 'Talent Dev/EX/OD/People Program' search in Portland produced almost entirely Director/Manager/unrelated noise. Only net-new genuine fit was OCHIN (and it's an Epic-trainer niche). Talkiatry/Equus already captured in prior file."
+}

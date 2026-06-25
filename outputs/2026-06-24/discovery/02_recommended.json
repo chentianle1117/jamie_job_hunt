@@ -1,0 +1,21 @@
+{
+  "surface": "recommended",
+  "cards_loaded": 24,
+  "roles_passing": 2,
+  "candidates": [
+    {"company":"InterDent Service Corporation","title":"Human Resources Administrator","location":"Vancouver, WA","remote":false,"linkedin_job_id":"4425865496","apply_url":"https://www.linkedin.com/jobs/view/4425865496/","ats":"unknown","yoe":"~2-4","competition_signals":[],"fit_note":"Multi-state DSO HR team role, JD says 'more than an administrative HR role'; Vancouver WA in-geo; $25-27/hr. In-fit-adjacent HR generalist/admin. Listed 06-09.","live":true,"possible_dup":false,"tier":"STRETCH"},
+    {"company":"SS&C Technologies (DST Health Solutions)","title":"Associate Learning & Development Specialist - Healthcare Call Center","location":"Kansas City, MO / Remote","remote":true,"linkedin_job_id":"4416367415","apply_url":"https://www.linkedin.com/jobs/view/4416367415/","ats":"Workday(likely)","yoe":"~2-3","competition_signals":["reposted (orig 05-21, relisted 06-11)"],"fit_note":"Remote-US Assoc L&D, genuine fit for Jamie's L&D/curriculum background. BUT possible dup of prior SS&C Assoc L&D submit (task #261). Reposted.","live":true,"possible_dup":true,"tier":"STRETCH"}
+  ],
+  "dropped": [
+    {"company":"Ascentec Engineering","title":"People Operations Assistant","reason":"JD HARD-STOP: 'not eligible for Visa sponsorship or transfer of Visa sponsorship'"},
+    {"company":"4G Clinical","title":"L&D Specialist","reason":"JD: 'Considering US East Coast Candidates' — geo mismatch despite Remote tag"},
+    {"company":"Siltronic AG","title":"HR Generalist / Recruiter","reason":"Portland in-geo but heavy recruiter focus + stale (listed 2026-04-30, ~8wk old)"},
+    {"company":"Pacific Seafood","title":"Workers Compensation Program Specialist","reason":"DEDUP (already-applied) + comp/WC off-fit"},
+    {"company":"UHC Solutions / Amergis / Anker / Insight Global / Delta Dental","title":"Recruiter / Recruitment Coordinator","reason":"Recruiter-primary off-fit; several also out-of-geo (Seattle/Redmond/Spokane)"},
+    {"company":"TRANSCOLD / Prime Electric","title":"HR Manager / HR Generalist","reason":"Manager level or out-of-geo (Kent WA / San Jose CA)"},
+    {"company":"SanMar / Oberto / Robert Half / JSW Steel / Michels / Kenworth / SF FCU","title":"HR Coord / intern / L&D","reason":"Out-of-geo (Preston WA, Kent WA, Mingo Junction OH, Milwaukee WI, Kirkland WA, San Francisco CA)"},
+    {"company":"RealREPP","title":"TA Coordinator - Temp","reason":"Temp/contract"},
+    {"company":"Kelly","title":"Talent Supply Chain Consultant","reason":"Staffing-agency supply-chain consultant, off-fit"}
+  ],
+  "note": "Recommended surface heavily skewed to Recruiter / HR-Coordinator / out-of-geo. Only 2 marginal candidates, both STRETCH (one possible dup)."
+}

@@ -1,0 +1,13 @@
+{
+  "job_id": "4430702737",
+  "company_name": "OLIPOP PBC",
+  "title": "People Operations Generalist",
+  "linkedin_url": "https://www.linkedin.com/jobs/view/4430702737/",
+  "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.linkedin.com/jobs/view/4430702737/\", waiting until \"networkidle\"\n",
+  "ats_verification": {
+    "apply_url": "https://job-boards.greenhouse.io/olipop/jobs/7777647003",
+    "final_url": "https://job-boards.greenhouse.io/olipop/jobs/7777647003",
+    "page_title": "Job Application for People Operations Generalist at OLIPOP",
+    "body_preview": "New\nPeople Operations Generalist\nRemote\nApply\n\nABOUT OLIPOP\n\nAt OLIPOP, we’re on a mission to positively impact consumer health at scale. And we’re doing it through something simple: soda. But not just any soda, a new kind of soda: one that’s delicious, refreshing, and actually good for you.\n\nThis mission is deeply personal for our CEO, Co-Founder, and Formulator, Ben Goodwin. Like many of us, Ben grew up consuming the Standard American Diet: lots of soda and processed foods that prioritized convenience over nutrition. But at 14, he took his health into his own hands. After making significant "
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cleared": true,
+  "artifact_sha256": {
+    "resume.pdf": "f929d454aaec30e28548580fd27bee54fb2cef48c28ca526098a8f55a0baa7f5",
+    "cover_letter.pdf": "0fc880782ab1d288f2c9c9c0892fc4b3bf0d763d2d87495ec4381d83d95b6099"
+  },
+  "gate_runner": "run_all_gates.py",
+  "note": "Written ONLY after the full gate chain reported ALL GATES PASS on these exact artifacts."
+}

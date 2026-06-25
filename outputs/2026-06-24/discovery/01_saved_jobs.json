@@ -1,0 +1,11 @@
+{
+  "surface": "saved_jobs",
+  "auth": "OK",
+  "logged_in_as": "Jamie (Yi-Chieh) Cheng",
+  "saved_count": 1,
+  "roles_passing": 0,
+  "notes": "Only one saved job present: 'Learning and Development Specialist - Leadership and Professional Development' at DESC (Downtown Emergency Service Center), Seattle WA (On-site). Status: 'No longer accepting applications' = DEAD. Dropped (closed). Saved-jobs list is effectively empty tonight.",
+  "dropped": [
+    {"company": "DESC (Downtown Emergency Service Center)", "title": "L&D Specialist - Leadership and Professional Development", "location": "Seattle, WA (On-site)", "reason": "No longer accepting applications (closed)"}
+  ]
+}

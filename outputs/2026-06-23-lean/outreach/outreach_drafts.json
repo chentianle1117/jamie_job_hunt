@@ -1,0 +1,60 @@
+{
+  "generated": "2026-06-23",
+  "run": "2026-06-23-lean",
+  "status": "PARTIAL: FUJIFILM/Delroy Waugh = LinkedIn connection SENT 2026-06-24 (no-note — Jamie's free custom-note quota was exhausted, Premium upsell declined; the personalized note becomes the FOLLOW-UP once he accepts). Joel Roca (Lineage) NOT sent (weak reach, skipped per David). Emails for both still draft-only for Jamie to send from her own inbox.",
+  "linkedin_sent_log": [
+    {"recipient": "Delroy Waugh", "company": "FUJIFILM", "action": "connection request (no note)", "sent_at": "2026-06-24", "status": "Pending", "reason_no_note": "free custom-note quota exhausted; declined Premium reactivation", "followup_plan": "on accept, Jamie sends the personalized message (her 1st-degree free messaging)"}
+  ],
+  "outreach": [
+    {
+      "role": "FUJIFILM — Culture & Employee Experience Specialist",
+      "ats": "iCIMS (req 2026-38057)",
+      "submitted": true,
+      "recipient": {
+        "name": "Delroy Waugh",
+        "title": "Program & People Strategist (FUJIFILM Holdings America Corporation)",
+        "profile_url": "https://www.linkedin.com/in/delroywaugh/",
+        "degree": "2nd",
+        "current_verified": true,
+        "verify_note": "Profile lists FUJIFILM Holdings America Corporation as current employer (no end date). 2nd-degree with a mutual connection (Kamaria). Title 'Program & People Strategist' = adjacent to the Culture & EX team — strong, on-lane reach.",
+        "category": "B — peer/adjacent teammate on the People/Program side",
+        "connection_path": "2nd degree via mutual connection Kamaria Scott"
+      },
+      "linkedin_note": "Hi Delroy, this is Jamie! I recently applied for the Culture & Employee Experience Specialist role at FUJIFILM and came across your profile on the people-programs side. I come from an Organizational Psychology + people background and would love to connect and hear about your work there. Thanks!",
+      "gate": "verify_outreach.py PASS (2026-06-23)",
+      "email_subject": "Interest in FUJIFILM's Culture & Employee Experience Specialist role — Jamie Cheng",
+      "email_body": "Hi Delroy,\n\nI hope you're settling into the week well! Apologies if this is a bit out of the blue — I came across your profile while looking into the Culture & Employee Experience Specialist role at FUJIFILM, which I recently applied for, and wanted to reach out personally in case the application alone doesn't capture the full picture.\n\nI'm trained in Organizational Psychology, and I run cross-functional programs and support the employee experience — pairing qualitative and quantitative analysis to surface what actually moves engagement. Most of that has been at a fast-growing startup and a multinational, which is part of why a global company like FUJIFILM resonates with me.\n\nI'd genuinely love to hear what the Culture & EX team is like day-to-day, and how you've found building people programs there. I've attached my resume — thanks so much for your time, Delroy!\n\nWarmly,\nJamie",
+      "voice_check": "No 'fellow practitioner' claim. No fabricated affinity. Self-intro slot = programs + EX + data (all true). Company-type line = startup + multinational (true). No referral ask. Portland hook omitted (role is remote, recipient region unknown)."
+    },
+    {
+      "role": "Lineage — Human Resources Generalist",
+      "ats": "Phenom (careers.onelineage.com)",
+      "submitted": true,
+      "recipient": {
+        "name": "Joel Roca",
+        "title": "Human Resources Generalist at Lineage",
+        "profile_url": "https://www.linkedin.com/in/joel-roca-b9235b307/",
+        "degree": "3rd",
+        "current_verified": true,
+        "verify_note": "Confirmed current HR Generalist at Lineage, but based in Moreno Valley, CA — different site than the Portland req. 3rd-degree, no mutual. Lower-value reach (Lineage site HR is distributed; this person is not on the Portland site or the hiring team). Included as a same-title peer only.",
+        "category": "B — same-title peer (different site)",
+        "connection_path": "3rd degree, no mutual"
+      },
+      "linkedin_note": "Hi Joel, this is Jamie! I recently applied for the HR Generalist role at Lineage and noticed you're an HR Generalist there too. I'd genuinely love to connect and hear about your experience on the HR side at Lineage. Thanks so much!",
+      "gate": "verify_outreach.py PASS (2026-06-23)",
+      "email_subject": "Interest in Lineage's HR Generalist role — Jamie Cheng",
+      "email_body": "Hi Joel,\n\nI hope you're having a good week! Apologies if this is a bit out of the blue — I recently applied for the HR Generalist role at Lineage (Portland site) and came across your profile as an HR Generalist there.\n\nI come from an Organizational Psychology background with about three years across people/HR and program work, including HR-generalist responsibilities, employee relations support, and onboarding at a multinational. I was drawn to Lineage's site-HR model and the chance to partner closely with operations leaders.\n\nI'd genuinely love to hear what the HR Generalist experience is actually like at Lineage. Thanks so much for your time, Joel!\n\nWarmly,\nJamie",
+      "voice_check": "No 'fellow' over-claim (says 'an HR Generalist there too' = factual same-title note). No fabricated affinity. Self-intro = true. Weak reach flagged honestly — Jamie may choose to skip."
+    }
+  ],
+  "not_drafted": [
+    {
+      "company": "Lineage",
+      "reason": "No Portland-site HR or hiring-team member surfaced on the People tab (10K+ employee distributed REIT). Dorinda Major (HRBP, Atlanta) was current-verified but out-of-region and not on the hiring team — not worth a draft. Recommend Jamie skip Lineage outreach unless a Portland-site contact appears, or send only the Joel Roca peer note."
+    },
+    {
+      "company": "FUJIFILM",
+      "reason": "Other People-tab names (Tywanna Mathis, Himani Rana, Nicola Mitton) were not profile-verified as current/on-team in this pass; Delroy Waugh is the one strong, verified reach. One good reach > several unverified."
+    }
+  ]
+}

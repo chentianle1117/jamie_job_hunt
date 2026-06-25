@@ -1,0 +1,19 @@
+{
+  "company": "Avista",
+  "role": "HR Coordinator",
+  "location": "Spokane, WA",
+  "location_type": "primarily on-site (occasional hybrid may be available)",
+  "apply_url_linkedin": "https://www.linkedin.com/jobs/view/4429162320/",
+  "apply_url_external": "https://recruiting2.ultipro.com/AVI1000AMAST/JobBoard/362abf68-95c3-4b17-a39d-76a6efe5ff18/OpportunityDetail?opportunityId=6367a75d-09b8-4421-8f96-f8610257a247&source=LinkedIn",
+  "ats": "UltiPro (UKG Pro Recruiting)",
+  "status": "DROPPED",
+  "closes": "2026-06-29",
+  "jd_summary": "HR Coordinator (I or II) at Avista, a Spokane-based utility company. First point of contact for HR; recruiting lifecycle support (posting, scheduling, packets, closing); onboarding coordination; HRIS data entry and maintenance; compliance support (Affirmative Action Plan); administrative process improvement; cross-functional department initiative support. Strong people-service orientation, organized, detail-oriented, MS Office proficient. HRIS and ATS experience preferred.",
+  "yoe_required": "1+ years relevant HR experience",
+  "sponsorship_note": "No sponsorship language found in JD. Avista is a regulated US utility (publicly traded, NYSE: AVA) \u00e2\u20ac\u201d likely requires work authorization but no explicit no-sponsor statement. Mark as UNCONFIRMED; standard form pre-scan required.",
+  "salary_range": "$52,583\u00e2\u20ac\u201c$76,921 depending on level",
+  "geo_flag": "PROMINENT GEO CONCERN \u00e2\u20ac\u201d Spokane WA is ~280 miles east of Seattle, NOT Seattle metro. It is definitively outside the Portland-area and Seattle-metro geography rule. The JD states 'primarily on-site' with only 'occasional hybrid work options may be available based on business need' \u00e2\u20ac\u201d this is NOT a remote role. Spokane in-person = GEOGRAPHY HARD-STOP under the standing rule (Portland-area / Seattle-metro / remote-US only). BUILD PACKAGE per instructions, but orchestrator must make the final geo call. This role likely requires DROP unless David explicitly overrides or Avista confirms hybrid/remote.",
+  "geo_verdict": "LIKELY OUT \u00e2\u20ac\u201d Spokane in-person does not meet geo criteria",
+  "fit_notes": "Strong content fit (HR coordination, HRIS, recruiting lifecycle, onboarding, admin ops all map to Jamie's Vestas HRBP + Kronos HR intern + ODN experience). YOE is met (3yr). Degree: BA from Wesleyan qualifies for HR Coordinator II. The only issue is geography.",
+  "drop_reason": "geography hard-stop: Spokane WA on-site, ~280mi from Seattle, not remote \u2014 out of bounds (David 2026-06-23)"
+}

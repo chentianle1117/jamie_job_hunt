@@ -1,0 +1,38 @@
+{
+  "role": "FUJIFILM Culture & EX Specialist",
+  "verdict": "PASS",
+  "checks": [
+    {
+      "check": "A",
+      "result": "PASS",
+      "evidence": "Substance floor held on every bullet. ODN $362K + 300+ retained; InGenius 25+/70+/75%/600+/78%/20+/10+ all present incl. full scope clause 'refining program positioning, delivery strategy, and operations'; NextGen 2,000+ + 5 cross-functional projects + DEI/Inclusive Leadership/performance-review list retained; Vestas 12/23/3/1,000+ retained; Kronos 566% retained. No metric, scope clause, or bullet dropped vs canonical jamie/resume.json. InGenius B4 swapped 'program understanding'->'program engagement' (traces to content_library Set H line 176) with the 78% metric intact = truthful variant, not thinning."
+    },
+    {
+      "check": "B",
+      "result": "PASS",
+      "evidence": "Every claim traces to canonical source. ODN still framed as HR leave-cost analysis + NGO leadership focus groups (OD diagnostic consulting) — NOT relabeled as community/ERG/culture work. InGenius 'engagement research' side project is NOT surfaced (flag #2 satisfied). No invented tools: Qualtrics/Smartsheet correctly omitted; skills list is verbatim-canonical, no Jira/Articulate/Storyline slipped in (flag #4). No banned $340K/17-launches or Kronos 230+/80+/top-3-univ fabrication. NextGen B1 adding '{ex|engagement}' to the focus list traces to content_library line 208 ('focused on engagement, rewards & recognition, survey development, and L&D')."
+    },
+    {
+      "check": "C",
+      "result": "PASS",
+      "evidence": "ODN = 3 bullets; InGenius = 4; NextGen = 4; Vestas = 4; Kronos = 4. No bullet deleted to save space. Reorders only (InGenius B3/B4 swap; NextGen EX bullet promoted to lead) — all 4 canonical bullets present in each."
+    },
+    {
+      "check": "D",
+      "result": "PASS",
+      "evidence": "Cover uses real metrics + companies (Vestas 12/23/1,000+; NextGen 2,000+; InGenius 20+/10+/70+/75%/600+/78%/25+). ~10 body bolds incl company (FUJIFILM Americas, Vestas, NextGen, InGenius) + metrics-with-numbers. Org-psych 'diagnose with data / collaborate cross-functionally / track metrics' close + 'analytical organizer with a growth mindset' line present. Warm, not cliche, no visa mention, no relocation over-commitment, 'Dear FUJIFILM Americas Hiring Team,'."
+    },
+    {
+      "check": "E",
+      "result": "PASS",
+      "evidence": "Header location = 'Portland, OR (Open to Remote or Relocation)' — correct for a Remote-US role (remote default). Wesleyan 'Relevant Coursework' line present (Educational Psychology, Practicum, Psychological Testing, Learning and Motivation)."
+    },
+    {
+      "check": "F",
+      "result": "PASS",
+      "evidence": "Cover holds the locked skeleton: belief-sentence opener (not anecdote), approved EX tagline variant, paragraph order Vestas->NextGen->InGenius->org-psych-close, all five paragraphs intact, org-psych close intact. Tailoring stayed truthful: Vestas P2 leads with the real DEI-pilot bullet using SOURCE-EXACT verb 'initiated a DEI pilot' (NOT built/led/owned) — flag #3 satisfied; 'Inclusive Leadership workshop for 12 senior leaders / scaled to 23 locations' + 'award-winning well-being initiatives recognized among 1,000+ competitors' both trace to real Vestas bullets. InGenius P4 'listening sessions with 25+ global stakeholders' traces to content_library Set H. No JD-duty parroting of work Jamie didn't do."
+    }
+  ],
+  "failures": [],
+  "notes": "PASS on all 6 evidence-bearing checks; no substance-floor violation, no fabrication, no role-upgrade. The only deviation from the locked cover skeleton is P2 replacing the canonical M&A closing sentence with the DEI-pilot + well-being sentence — this is a permitted approved-variant swap (Jamie 2026-06-19): both items are real Vestas bullets and more JD-relevant for a culture/EX role. One minor watch (NOT a fail): P2 says 'developed award-winning well-being initiatives' where the resume verb is 'Strengthened engagement via ... well-being initiatives' — 'developed' is a mild verb-shift but she is credited with the initiatives in the source (content_library line 198 'Spearheaded an HR Award-winning communications strategy'), so it stays within tolerance and is not the build/led/owned class of upgrade the rule forbids. If the builder wants to be maximally conservative it could read 'helped drive award-winning well-being initiatives,' but this is optional polish, not a required fix. Summary noun swap 'Organizational Development'->'People & Organizational Development' is a legitimate role-title-noun swap for an EX role; 3 pillars + closing unchanged."
+}

@@ -1,0 +1,27 @@
+{
+  "status": "READY — submit-it-yourself packet (built, gated ALL-PASS, Auditor PASS, GATE_CLEARED valid)",
+  "company": "PT Solutions Physical Therapy",
+  "role": "HR Generalist",
+  "location": "Remote (US)",
+  "start_url": "https://www.linkedin.com/jobs/view/4433027234/",
+  "why_not_auto_submitted": "Disciplined stop at ~6.5 of the 10-weekly-point cap, late at night. Package is fully ready; apply destination not yet resolved (LinkedIn view -> external ATS). One short drive away.",
+  "artifacts": {
+    "resume_pdf": "resume.pdf (tailored, gate-cleared)",
+    "cover_pdf": "cover_letter.pdf",
+    "gate": "run_all_gates.py ALL GATES PASS (orchestrator-reran)",
+    "auditor": "AUDIT_VERDICT.json PASS (7 evidence checks)",
+    "clearance": "GATE_CLEARED.json valid"
+  },
+  "form_answers_cheat_sheet": {
+    "legal_name": "Yi-Chieh Cheng",
+    "preferred_name": "Jamie Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "+12137003831 / (213) 700-3831 (verify US flag on intl widgets)",
+    "address": "1784 NW Northrup St, Portland, OR 97209",
+    "authorized_to_work": "Yes",
+    "require_sponsorship": "Yes (truthful — never lie)",
+    "demographics": "Woman/Female, Asian, Veteran=No, Disability=No",
+    "references": "real-only, NEVER InGenius (active litigation)"
+  },
+  "next": "Resume the apply URL (LinkedIn -> external ATS); if easy (Lever/Greenhouse/Ashby) auto-submittable next session, else Jamie submits by hand (~3-4 min)."
+}

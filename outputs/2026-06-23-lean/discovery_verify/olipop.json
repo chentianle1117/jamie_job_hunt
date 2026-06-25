@@ -1,0 +1,27 @@
+﻿{
+  "company": "OLIPOP PBC",
+  "title": "People Operations Generalist",
+  "jobId": "4430702737",
+  "live": true,
+  "location": "Remote",
+  "remote": true,
+  "out_of_bounds": false,
+  "yoe_required": "4-6 years HR/People Ops with direct payroll ownership",
+  "yoe_too_high": true,
+  "sponsorship_hardstop": false,
+  "sponsorship_quote": "Posting asks: 'Will you now or in the future require visa sponsorship to work in the United States?' — question only, no explicit denial. NOT a hard stop.",
+  "ats_type": "Greenhouse",
+  "apply_url": "https://job-boards.greenhouse.io/olipop/jobs/7777647003",
+  "easy_or_hard": "EASY",
+  "jd_text": "People Operations Generalist\nOLIPOP PBC — Remote\n\nABOUT OLIPOP\nAt OLIPOP, we're on a mission to positively impact consumer health at scale through a new kind of soda that supports gut health.\n\nROLE OVERVIEW\nThe People Operations Generalist is the operational backbone of OLIPOP's People function, responsible for maintaining the systems, processes, and data that keep the organization running smoothly. This is a hands-on, detail-oriented role that requires high accuracy, discretion, and a continuous improvement mindset.\n\nKEY RESPONSIBILITIES\n- Payroll Processing: Own end-to-end payroll for ~200 employees (bi-weekly, ADP); multi-state payroll experience a strong plus\n- Onboarding/Offboarding: Lead full-cycle employee transitions including equipment, systems access, I-9 verification, and exit processes\n- Benefits Administration: Serve as day-to-day liaison for health, dental, vision, 401(k); support open enrollment\n- HRIS Management: Maintain ADP Workforce Now as SSOT; audit data integrity, run reports\n- Leave of Absence: Coordinate FMLA, state leaves, ADA accommodations in compliance with applicable law\n- Workers Compensation: Manage claims, coordinate with insurance carrier, track return-to-work\n- Performance Review Cycle: Coordinate logistics and communications for semi-annual reviews\n- Multi-State Compliance: Monitor changes in employment law across CA, TX, NY, OR, WA and others\n- HR Policy Documentation: Draft and maintain employee handbook, SOPs, and compliance notices\n- Process Improvement: Identify manual workflows and build scalable solutions\n\nQUALIFICATIONS\n- 4-6 years of hands-on experience in People Ops/HR operations, with direct payroll ownership (multi-state a strong plus)\n- ADP Workforce Now experience preferred\n- Demonstrated process improvement capabilities\n- High accuracy under compliance pressure\n- Strong spreadsheet skills across Microsoft Suite — comfortable manipulating data sets\n- Independent initiative with collaborative alignment\n- Confidentiality and discretion\n- Clear, empathetic communication\n\nCOMPENSATION\n$90,000-$100,000 base salary + bonus\n\nEQUAL OPPORTUNITY\nOLIPOP is committed to considering all qualified applicants without regard to race, religion, gender, age, veteran status, or any other characteristics protected by law.",
+  "fit_note": "HARD SKILLS MISMATCH: The core of this role is payroll operations (own end-to-end bi-weekly payroll for ~200 employees in ADP), multi-state compliance, workers comp, FMLA administration, and HRIS data governance. Jamie's background is OD/EX consulting, program management, and HRBP — not transactional HR ops or payroll. The 4-6yr YOE is borderline (Jamie ~3yr = -1 to +1 yr stretch), but the payroll ownership requirement is a genuine skill gap, not just a YOE stretch. $90-100K salary signals a mid-senior ops specialist, not an associate/generalist role.",
+  "verdict": "DROP",
+  "drop_reason": "yoe_too_high + skills mismatch: Requires 4-6 years with DIRECT PAYROLL OWNERSHIP as the core deliverable. Jamie has ~3 years and no payroll ops background. Even if YOE were waived (borderline +1yr), the functional mismatch (OD/program vs. payroll/HRIS ops) makes this a non-fit. Not worth the build cost.",
+  "verification_evidence": {
+    "greenhouse_url_live": true,
+    "greenhouse_page_title": "Job Application for People Operations Generalist at OLIPOP",
+    "greenhouse_final_url": "https://job-boards.greenhouse.io/olipop/jobs/7777647003",
+    "linkedin_page_loaded": false,
+    "linkedin_timeout": "networkidle 30s (page likely loads slowly but apply URL confirmed live)"
+  }
+}

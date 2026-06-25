@@ -1,0 +1,52 @@
+{
+  "role": "PT Solutions Physical Therapy — HR Generalist",
+  "verdict": "PASS",
+  "resume_sha": "6501f345a7184bfd7a00c045cbf0f3711d41ad6f89a7c833000aa64a0052b720",
+  "cover_sha": "deb93e6a3295e0426f0eeae46672bbfa9c22fcdbce25011878dec3d4a2105e06",
+  "checks": [
+    {
+      "check": "A. Substance floor (RULE -1) — tailored bullets vs canonical resume.json",
+      "result": "PASS",
+      "evidence": "Every tailored resume bullet is byte-identical to canonical jamie/resume.json; the only delta is InGenius bullet ORDER (leads with 'Manage 20+ programs and 10+ vendors, refining program positioning, delivery strategy, and operations' then needs-assessment/guides/webinars) — an allowed re-order, no concrete dropped. All metrics retained: $362K, 300+, 20+/10+, 25+/3, 70+/75%, 600+/78%, 2,000+, 23, 12, 1,000+, 566%.",
+      "canonical_source": "oracle-job-search/jamie/resume.json (all 5 experiences) + verify_substance_floor.py = ok:true"
+    },
+    {
+      "check": "B. Truth / no-relabel (RULE 0) — every claim traces to source; ODN stays OD-diagnostic",
+      "result": "PASS",
+      "evidence": "ODN titled 'Consultant, Organization & Talent Development'; bullets are leave-cost diagnosis ('audit 300+ leave cases', '$362K in leave costs') + NGO leadership diagnosis ('focus groups and 1:1 interviews with an NGO leadership team to surface decision-making and accountability gaps') — OD diagnostic consulting, NOT community/ERG/CEO/HR relabel. No 'Jira', no invented tools; skills line is the canonical allow-list verbatim.",
+      "canonical_source": "content_library.md lines 112-119 (ODN Project 1 + Project 2) + profile_compact.md ODN definition"
+    },
+    {
+      "check": "ODN two-projects-not-mixed + bullet counts",
+      "result": "PASS",
+      "evidence": "ODN = 3 bullets (within 2-3): bullets 1-2 are Project 1 (leave-cost), bullet 3 is Project 2 (NGO leadership) — the two projects are NEVER combined in one bullet. InGenius/NextGen/Vestas/Kronos each = exactly 4 bullets; none deleted.",
+      "canonical_source": "content_library.md §2 bullet rule; AUDITOR_AGENT_SPEC.md check C"
+    },
+    {
+      "check": "No role-upgrade on Vestas Inclusive Leadership workshop (RULE / check F)",
+      "result": "PASS",
+      "evidence": "Resume bullet 'Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders, later expanded to 23 other global locations' uses source-exact weak verb 'Initiated' — NOT 'built and facilitated'/'led'/'owned'. Matches canonical resume.json verbatim.",
+      "canonical_source": "oracle-job-search/jamie/resume.json Vestas bullet 1; content_library.md line 184"
+    },
+    {
+      "check": "Honest gap disclosure — ER investigations + multi-site healthcare are stretch, not overclaimed",
+      "result": "PASS",
+      "evidence": "JD asks 'Leads investigations and recommends resolutions'; package NEVER claims Jamie leads investigations. Cover P2 says only 'I also assisted in employee relations cases, ensuring compliance with local labor laws and confidentiality' — traces to content_library.md line 199 with weak verb 'assisted'. No fabricated multi-site-healthcare or BI-reporting claim is inserted to chase the JD's preferred quals.",
+      "canonical_source": "content_library.md line 199 (Vestas 'Assisted in employee relations cases'); JD.txt 'Leads investigations'"
+    },
+    {
+      "check": "D/F. Cover substance, voice + canonical-skeleton adherence",
+      "result": "PASS",
+      "evidence": "Belief-sentence opener verbatim ('Human resources isn't just about policies and compliance—from my experience, it's about creating a continuous cycle of collecting insights, analyzing data, and refining solutions'); 'Dear PT Solutions Physical Therapy Hiring Team,'; paragraph order Vestas->NextGen->InGenius preserved; org-psych close present ('MS in Applied Organizational Psychology (USC)... I diagnose with data... As an analytical organizer with a growth mindset'). Bolds incl company 'PT Solutions Physical Therapy' + real metrics ('analyzed 2,000+ employee experiences', '78% program enrollment rate', 'cut onboarding time by 75%') — well over 6. No relocation over-commitment, no visa mention, no JD-duty-parroting of work she didn't do; verify_cover_structure.py = ok:true.",
+      "canonical_source": "cover_letter_canonical.md (opener arc, 5-paragraph spine, org-psych close); approved tagline line 2 EX/HR variant"
+    },
+    {
+      "check": "E. Header/location + Wesleyan coursework + no banned numbers",
+      "result": "PASS",
+      "evidence": "Header location 'Portland, OR (Open to Remote or Relocation)' correct for a remote-US role; Wesleyan 'Relevant Coursework: Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation' present; BANNED '$340K / 17 launches' composite absent everywhere — canonical '78% program enrollment rate' used instead.",
+      "canonical_source": "CLAUDE.md job-location rules; resume.json education[1]; content_library.md BANNED-content block"
+    }
+  ],
+  "failures": [],
+  "audited_at": "2026-06-24T23:40:00-07:00"
+}

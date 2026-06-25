@@ -1,0 +1,13 @@
+{
+  "job_id": "4432259441",
+  "company_name": "Solace",
+  "title": "People Operations Associate",
+  "linkedin_url": "https://www.linkedin.com/jobs/view/4432259441/",
+  "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.linkedin.com/jobs/view/4432259441/\", waiting until \"networkidle\"\n",
+  "ats_verification": {
+    "apply_url": "https://jobs.ashbyhq.com/solace/e3d2bc85-22b1-4caf-8fb6-a1f0c4bb32",
+    "final_url": "https://jobs.ashbyhq.com/solace/e3d2bc85-22b1-4caf-8fb6-a1f0c4bb32",
+    "page_title": "Jobs",
+    "body_preview": "Job not found\n\nThe job you requested was not found.\n\nView all open positions\nPowered by \n\nPrivacy PolicySecurityVulnerability Disclosure"
+  }
+}
