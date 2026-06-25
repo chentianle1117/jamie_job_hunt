@@ -1,0 +1,33 @@
+{
+  "role_dir": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-21-overnight\\applications\\Trend_Workplace-Culture-Coordinator",
+  "company": "Trend (Trend Capital Holdings, Inc.)",
+  "role": "Workplace & Culture Coordinator",
+  "ats": "avahr.com careers widget (embedded on trend.inc/career; NOT the UKG/Kronos board the package anticipated)",
+  "lane_ats": "other",
+  "form_url": "https://trend.inc/career#/apply_job/81691",
+  "staged_at": "2026-06-21T19:05:37",
+  "submit_port": 9400,
+  "contact": {
+    "first_name": null,
+    "last_name": null,
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "(213) 700-3831"
+  },
+  "uploads": {
+    "resume": "resume.pdf",
+    "cover_letter": null
+  },
+  "combos": [],
+  "still_required": [
+    "Full Name *",
+    "Address *"
+  ],
+  "captcha": {
+    "present": false,
+    "interactive_visible": false
+  },
+  "screenshot": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-21-overnight\\applications\\Trend_Workplace-Culture-Coordinator\\_v2_stage_review.png",
+  "final_url": "https://trend.inc/career#/apply_job/81691",
+  "lane": "AUTO-SUBMITTABLE (no captcha detected)",
+  "human_next": "No captcha detected — submit_runner.py can submit this after the pre-submit gate review, or click Submit in the staged tab."
+}
