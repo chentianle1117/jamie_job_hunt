@@ -1,0 +1,27 @@
+{
+  "company": "LAIKA, LLC",
+  "role": "Training & Development Analyst",
+  "location": "Hillsboro, OR (on-site, hybrid-eligible)",
+  "ats": "laika.com/careers (proprietary portal)",
+  "apply_url": "https://www.laika.com/careers/",
+  "linkedin_job_id": "4406932424",
+  "linkedin_url": "https://www.linkedin.com/jobs/view/training-development-analyst-at-laika-studios-4406932424",
+  "posting_status": "LIVE — HTTP 200 via Apify/LinkedIn, posted ~2 weeks ago, 200+ applicants",
+  "yoe_required": "3+",
+  "comp": "Commensurate with skills and experience (no range listed)",
+  "sponsorship_note": "No explicit 'no sponsorship' statement in JD. LAIKA is a private US studio (Nike-adjacent Portland metro employer); sponsorship status UNKNOWN — keep eligible, flag for Jamie to verify during apply.",
+  "geography": "Hillsboro, OR — Portland-metro, IN GEO",
+  "jd_summary": "Support end users of LAIKA's in-house + 3rd-party technical tools across the animation studio. Work under Technology Engagement & Development Supervisor. Core responsibilities: requirements gathering via story mapping, training delivery for new product rollouts, workflow documentation, test feedback collection, bug reporting communications, web-based resource creation (guides, tutorials, release notes, newsletters), end-user surveys.",
+  "key_points": {
+    "training_delivery": "Develop and deliver presentations + training for new product rollouts and feature updates",
+    "documentation": "Document workflows; identify training needs; create application guides, tutorials, release notes, change notifications, newsletters",
+    "requirements_gathering": "Conduct story mapping sessions with users; create user stories for developers",
+    "stakeholder_surveys": "Survey end users on technology use patterns; report findings to developers as user stories",
+    "technical_support": "Front-line support to users; verify bugs; test new releases; track and communicate known issues",
+    "tools": "MS Office suite + Adobe Creative Suite (required); web dev + video production (plus)",
+    "os": "Mac, Windows, Linux familiarity",
+    "agile": "Experience with agile software development terms and tools (required)",
+    "preferred": "Feature animation or VFX production experience; technical writing; web development",
+    "gap_honest": "Jamie has zero VFX/animation experience, no agile tooling (no Jira/sprint boards), no pipeline-engineering background, no bug-tracking experience — these are real gaps vs the JD's preferred/required quals. Strengths: training delivery at scale, guide/resource creation, stakeholder needs-gathering, documentation, MS Office + Adobe InDesign/Canva."
+  }
+}

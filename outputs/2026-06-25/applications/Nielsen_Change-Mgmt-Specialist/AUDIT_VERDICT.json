@@ -1,0 +1,57 @@
+{
+  "role": "Nielsen — Change Management Specialist (Remote US)",
+  "audited_at": "2026-06-25",
+  "auditor": "Master Auditor (fresh-context truth gate)",
+  "resume_pdf_sha256": "d362ee6cfc7860a2ad2783ba22257efc435018cdb501e956a376c2f6378edde2",
+  "verdict": "PASS",
+  "checks": [
+    {
+      "check": "1. RULE 0 — No fabrication (every resume bullet traces to content_library)",
+      "result": "PASS",
+      "evidence": "All 20 resume bullets trace to content_library.md. ODN P2 (focus groups/1:1, diagnose-redesign) = content_library L117-119; ODN P1 (upskill 300+ leave cases, $362K) = L113-114. InGenius (20+ programs/10+ vendors positioning+operations = L164; guides/workflows 70+ staff 75% = L159/166; 600+ webinars 78% enrollment = L176; 25+ stakeholders 3 programs = L158). NextGen 1-3 = L205-207; Vestas M&A/DEI-pilot-12→23/onboarding-3 = L184-196; Kronos all 4 incl. 566% = L214-217. NO '$340K' / '17 launches' anywhere. Canonical numbers $362K/78%/2000+/566%/300+/25+/600+/70+/3/12/23/1000+ all real."
+    },
+    {
+      "check": "2. No relabeling — ODN stays OD diagnostic consulting, two projects unblended",
+      "result": "PASS",
+      "evidence": "ODN titled 'Consultant, Organization & Talent Development' at 'Organization Development Network (ODN) Oregon' (resume.json L33-34). Bullets 1-2 = NGO decision-making/accountability (Project 2); bullets 3-4 = HR leave-cost diagnosis (Project 1). Each bullet stays within ONE project — no blending. No 'community-building / ERG / network' relabel. Cover para 3 describes ODN as 'diagnostic change approach with an NGO leadership team... focus groups and 1:1 interviews... redesign accountability structures' — accurate to Project 2, not relabeled."
+    },
+    {
+      "check": "3. No invented tools/skills (Jira banned; skills = canonical vocab)",
+      "result": "PASS",
+      "evidence": "Skills block (resume.json L168-170) is verbatim the canonical block from content_library.md L68-70: HRIS (Rippling/ADP/SAP), ATS (Greenhouse), LMS (Canvas/Moodle), PM (Asana/Airtable), Data (Sheets/Excel/SPSS), KM (Notion/SharePoint), Google Workspace, MS Office, Design (Canva/InDesign), GenAI (ChatGPT/Gemini/Claude). NO Jira. Cover names no out-of-vocab tools. JD asks 'Google Workspace advanced' — present and real, not invented."
+    },
+    {
+      "check": "4. No clichés / no JD-copy-paste in resume or cover",
+      "result": "PASS",
+      "evidence": "Cover uses Jamie's own framing ('listen first, diagnose the real gaps, then design targeted interventions'; 'people problems as systems'). JD operative words (change management, stakeholder engagement, communications planning, feedback analysis) appear but are bound to her REAL experience (Vestas process gaps, ODN diagnosis, InGenius vendor/program work) rather than parroted as duties she didn't do. Resume summary keeps the canonical 3-pillar broad form, not JD vocabulary."
+    },
+    {
+      "check": "5. Cover canonical-skeleton adherence (belief opener, tagline, paragraph order, org-psych close)",
+      "result": "PASS",
+      "evidence": "Header line-2 tagline = 'A Solution-focused, Data-driven, and People-oriented Professional / Dedicated to Driving Individual and Organizational Development' (approved OD/L&D variant). Opener is the belief sentence: 'Change management isnt just about rolling out new tools and sending announcements—from my experience, its about creating a continuous cycle of collecting insights, analyzing data, and refining solutions...' (matches canonical skeleton). 'Dear Nielsen Hiring Team,' present. Four experience paragraphs Vestas→ODN→InGenius→org-psych close. Close = MS Applied Org Psych scientific-method ('diagnose with data, collaborate cross-functionally, track metrics') + 'analytical organizer with a growth mindset'. Not free-written."
+    },
+    {
+      "check": "6. Gap honesty — JD wants tech-implementation OCM; not fabricated",
+      "result": "PASS",
+      "evidence": "JD core = OCM for technology/process transformations (execute change plans, adoption metrics, training coordination). Jamie's profile_compact rates 'Change mgmt frameworks' as ★★☆ Developing — a genuine stretch. The package does NOT fabricate tech-implementation OCM experience: it bridges via REAL adjacent work (Vestas M&A organizational change, ODN diagnostic change, InGenius program/training/feedback loops) without claiming she ran enterprise tech rollouts. No invented 'led ERP/Workday adoption' type claims. Honest adjacency, not papered-over gap. Role is 2-5yr — within Jamie's stretch cap."
+    },
+    {
+      "check": "7. Bullet counts + order + summary + coursework + header",
+      "result": "PASS",
+      "evidence": "ODN = 4 bullets (within 2-4 range); InGenius/NextGen/Vestas/Kronos = exactly 4 each. Experience order most-recent→oldest (ODN Aug2025 → InGenius Sep2023 → NextGen Jan2023 → Vestas Feb2022 → Kronos Jan2021). Summary = broad 3-pillar canonical ('solving problems through data analysis / developing programs grounded in evidence / collaborating with stakeholders'), closing verb 'drive organizational effectiveness' (approved OD flex), '97% extrovert!' kept. Wesleyan Relevant Coursework line present (resume.json L158). USC coursework present. Header = 'Portland, OR (Open to Remote or Relocation)' — correct for remote role."
+    },
+    {
+      "check": "8. References — InGenius never listed as a reference (active litigation)",
+      "result": "PASS",
+      "evidence": "No references section in resume.json or cover_letter.md. InGenius appears only as current-employment experience entry (which is correct and unavoidable), never as a reference contact. No litigation exposure in package."
+    },
+    {
+      "check": "Minor note — NextGen bullet 4 quantifier",
+      "result": "PASS-with-note",
+      "evidence": "resume.json NextGen bullet 4 reads 'via 5 cross-functional projects focusing on survey development, rewards & recognition, and L&D'. Canonical (content_library L208) is 'projects focused on engagement, rewards & recognition, survey development, and L&D' with NO project count. The '5' is a soft added quantifier not in source. Underlying activities are all real. Low-severity (not a metric Jamie cant back up in the way a fabricated revenue figure would be), but flagging: orchestrator may consider dropping '5' to stay strictly source-exact. Does not rise to a FIX/BLOCK."
+    }
+  ],
+  "fabrication_found": false,
+  "relabel_found": false,
+  "notes": "Clean package. 8 evidence-bearing checks pass + 1 low-severity quantifier note ('5 cross-functional projects' at NextGen adds a count not in content_library, but all activities are real). Truth gate, no-relabel, cover skeleton, bullet counts, header, and references all hold. Verdict bound to resume.pdf sha256 d362ee6c..."
+}

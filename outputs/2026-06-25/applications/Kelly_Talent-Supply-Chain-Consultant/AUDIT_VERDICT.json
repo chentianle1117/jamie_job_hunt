@@ -1,0 +1,66 @@
+{
+  "role": "Kelly — Talent Supply Chain Consultant",
+  "company": "Kelly",
+  "date": "2026-06-25",
+  "auditor": "Master Auditor (fresh-context truth gate, Opus)",
+  "verdict": "PASS",
+  "resume_pdf_sha256": "191d139256d50859b2c1d9d4c14cc184304d4371000e960b2245074ddbdacd94",
+  "checks": [
+    {
+      "check": "RULE 0 — no fabrication (resume bullets trace to canonical)",
+      "result": "PASS",
+      "evidence": "All 19 resume bullets trace verbatim/near-verbatim to content_library. ODN B1/B2 = L113/L114; ODN B3 = L117 (Project 2); InGenius all 4 = L164/L166/L158/L167 (Vendor/PM + L&D sets); NextGen = L205-208; Vestas = L186/L193/L184+L192/L198; Kronos = L214-217. Canonical numbers present and correct: 300+, $362K, 20+/10+, 70+/75%, 25+/3, 600+/78%, 2,000+, 3 locations, 12→23, 1,000+, 566%. BANNED '$340K/17 launches' absent from resume AND cover.",
+      "canonical_source": "content_library.md L104-217"
+    },
+    {
+      "check": "RULE 0 — no invented VMS/staffing-supply-chain/Fieldglass/Beeline experience",
+      "result": "PASS",
+      "evidence": "JD requires VMS tools (Fieldglass/IQN/Beeline) and supply-chain/procurement domain. These appear in JD.txt L24/L27 but are CORRECTLY ABSENT from the resume skills block (canonical block reproduced verbatim, no VMS/procurement line added) and from the cover. The cover opener swaps domain to 'Talent operations ... managing vendors and tracking numbers' — honest adjacent framing of her real 10+-vendor program work, NOT a claim of MSP/VMS/procurement-tech experience. Gap handled by omission, per §0.7 (JD-named tool Jamie lacks = leave out).",
+      "canonical_source": "content_library.md L67-71 (canonical skills); JD.txt L22-28"
+    },
+    {
+      "check": "No relabeling — ODN = OD diagnostic consulting, two projects not blended",
+      "result": "PASS",
+      "evidence": "ODN named 'Organization Development Network (ODN) Oregon' (not Transition Projects). Bullets keep it as OD diagnostic work: Project 1 (leave-cost diagnosis, B1+B2) and Project 2 (NGO leadership decision-making, B3) are SEPARATE bullets, never merged into one. No community/ERG/network-growth relabeling. (Minor: B3 drops 'semi-structured' from canonical 'semi-structured interviews' — wording only, no concrete lost.)",
+      "canonical_source": "content_library.md L106-122"
+    },
+    {
+      "check": "No invented tools; skills = canonical vocab only",
+      "result": "PASS",
+      "evidence": "Skills block is byte-for-byte the canonical 3-line block (resume.json L165-167 == content_library L68-71). No Jira. No VMS/procurement tools added despite JD pressure. GenAI/LMS/HRIS/ATS all canonical.",
+      "canonical_source": "content_library.md L67-71"
+    },
+    {
+      "check": "Cover structure — locked canonical skeleton, order, no free-write",
+      "result": "PASS",
+      "evidence": "Opener = belief sentence ('Talent operations isn''t just about managing vendors and tracking numbers—from my experience, it''s about creating a continuous cycle of collecting insights, analyzing data, and refining solutions') — matches canonical arc, NOT an anecdote. Tagline line-2 = 'Dedicated to Driving Individual and Organizational Development' (approved OD/L&D variant). Paragraph order Vestas→NextGen→InGenius→org-psych close — exact. Org-psych close + 'analytical organizer with a growth mindset' present. Every paragraph tracks the skeleton sentence-for-sentence; only {SWAP} slots filled.",
+      "canonical_source": "cover_letter_canonical.md L75-145"
+    },
+    {
+      "check": "Cover voice/substance — true numbers, bolds, no cliche/JD-parrot, no role-upgrade",
+      "result": "PASS",
+      "evidence": "Cover uses true metrics (3 locations, 2,000+, 20+/10+, 70+/75%, 600+/78%, 25+). ≥6 body bolds incl company (Vestas/NextGen/InGenius/Kelly) + metric-with-number ('analyzed 2,000+ employee experiences', 'managing 20+ programs and 10+ vendors'). Vestas verbs source-exact: 'Initiated a DEI pilot' in resume; cover says 'enhanced operational efficiency... clarified ambiguous job responsibilities' — no 'built/owned/led' upgrade. No visa mention, no relocation over-commitment. Not AI-cliche.",
+      "canonical_source": "cover_letter_canonical.md L42-46; content_library.md"
+    },
+    {
+      "check": "Gap honesty — VMS/supply-chain domain gap not papered over",
+      "result": "PASS",
+      "evidence": "The package neither claims nor invents the staffing-MSP/VMS/procurement domain the role centers on. It surfaces only Jamie''s real adjacent strengths (program mgmt, 10+-vendor coordination, data reporting, cross-functional/stakeholder liaison). The job.json changeLog and fit_flag explicitly record the domain gap. This is the correct §0.4 handling: disclose, don''t fabricate.",
+      "canonical_source": "JAMIE_FEEDBACK_RULES.md §0.4; job.json fit_flag"
+    },
+    {
+      "check": "Bullet counts / order / summary / coursework / header",
+      "result": "PASS",
+      "evidence": "ODN = 3 bullets (within 2-4); InGenius/NextGen/Vestas/Kronos = exactly 4 each. Order most-recent→oldest (Aug2025→Sep2023→Jan2023→Feb2022→Jan2021). Summary broad 3-pillar ('Strategic Program Manager' identity sanctioned by Ops/PM recipe; pillar-2 'developing processes' also sanctioned there). Wesleyan Relevant Coursework line present (resume.json L155). Header location 'Portland, OR' (Hillsboro is Portland-metro — in-area per header rule).",
+      "canonical_source": "JAMIE_FEEDBACK_RULES.md / content_library Tailoring Playbook Operations-PM row"
+    },
+    {
+      "check": "References — InGenius never used as a reference",
+      "result": "PASS",
+      "evidence": "No references section in resume.json; InGenius appears only as a current-employment entry. No referee block anywhere in the package.",
+      "canonical_source": "resume.json (full)"
+    }
+  ],
+  "fabrications_or_relabels": "NONE found.",
+  "notes": "Clean PASS on 9 evidence-bearing checks; no contradiction with the substance gate (all canonical concretes survive). The package is honestly built — its discipline is that it did NOT chase the JD''s VMS/Fieldglass/Beeline/supply-chain keywords with invented skills, the exact trap the build agent flagged. FIT CAVEAT for the orchestrator: this is a marginal-fit role. It is a true Portland-metro local hit (Hillsboro, 4-day hybrid), 2+ YOE matches her ~3yr, $70-75K, no hard-stop, and Kelly is a large H-1B-filing employer. But the CORE of the role is MSP/VMS staffing-supply-chain operations — a domain Jamie has zero direct experience in; her match is on the transferable program-mgmt/data-reporting/liaison shell, not the substance. Honest fit ~55-60% (Operations/PM scope but domain-mismatched). It clears the local-priority + truthful-package bar, so submitting is defensible as a local-volume play, but it is NOT a sweet-spot P1 fit — expect low recruiter conversion. Worth submitting only as a low-effort local application, not a priority. Package quality itself is submission-ready."
+}

@@ -1,0 +1,68 @@
+{
+  "role": "LAIKA — Training & Development Analyst",
+  "company": "LAIKA, LLC",
+  "date": "2026-06-25",
+  "verdict": "PASS",
+  "auditor": "Master Auditor (fresh-context, Opus)",
+  "resume_pdf_sha256": "2b18d13cbd94c2a97608bf859445ccc4a8c7a5b3bc6314474e5708d677a0c66b",
+  "cover_pdf_sha256": "270e350aac2fcaaf7f41aca2171afc0bf771825c23fbdce0f045e675e8ff7940",
+  "checks": [
+    {
+      "check": "GATE 0 — Truth / no invented technical-systems/animation/agile (RULE 0, the headline risk)",
+      "result": "PASS",
+      "evidence": "Scrutinized HARD for overclaim of VFX/animation/pipeline/agile/bug-tracking depth — the JD's core domain. NONE found. Resume never claims animation, VFX, story-mapping software, pipeline engineering, agile/Jira, or bug tracking. The InGenius/NextGen/Vestas bullets stay on Jamie's REAL adjacent work: guides/workflows (70+ staff, 75% onboarding cut), needs assessments (25+ stakeholders), training webinars (600+, 78% enrollment), 2,000+ survey analysis, onboarding process analysis. job.json gap_honest + resume changeLog both explicitly state 'no VFX/animation, no agile tooling, no pipeline-engineering — not claimed anywhere.' Gap is acknowledged, not papered over.",
+      "canonical_source": "content_library.md InGenius/NextGen/Vestas variants; JAMIE_FEEDBACK_RULES §0; job.json gap_honest"
+    },
+    {
+      "check": "NO RELABEL — ODN honesty + story-mapping bridge",
+      "result": "PASS",
+      "evidence": "ODN kept as OD diagnostic consulting. Two projects UNBLENDED: bullet 1 = Project 2 (NGO focus groups + accountability gaps), bullets 2-3 = Project 1 (300+ leave cases, $362K). No mixing in one bullet. Company name correct: 'Organization Development Network (ODN) Oregon' (not Transition Projects). CRITICAL bridge check: the JD's 'story mapping' is a technical-requirements-gathering ritual; the package does NOT claim Jamie did story mapping or pipeline-tool work. The ODN focus-group bullet is left as its TRUE description ('focus groups and 1:1 semi-structured interviews to surface decision-making and accountability gaps') — the changeLog NOTES it 'maps to story mapping' as internal relevance reasoning, but the bullet text itself never adopts JD vocabulary or claims the technical activity. Honest, not a stretch-into-fabrication.",
+      "canonical_source": "content_library.md ODN Project 1/2 variants; JAMIE_FEEDBACK_RULES §0.2, §2.1"
+    },
+    {
+      "check": "NO INVENTED TOOLS — skills = canonical vocab only",
+      "result": "PASS",
+      "evidence": "Skills block is verbatim the canonical line (content_library.md line 68): HRIS, ATS (Greenhouse), LMS (Canvas/Moodle), Asana/Airtable, Data Analysis (Sheets/Excel/SPSS), Notion/SharePoint, Google Workspace, MS Office, Design Tools (Canva, Adobe InDesign), GenAI Tools. NO Jira, NO agile tooling, NO bug-tracking software, NO 'Adobe Creative Suite' added to chase the JD's required tool (only the canonical 'Adobe InDesign' is listed — truthful subset). No out-of-vocabulary tool present.",
+      "canonical_source": "content_library.md Canonical Skills Block (line 68); JAMIE_FEEDBACK_RULES §0.7"
+    },
+    {
+      "check": "BANNED numbers / canonical metrics",
+      "result": "PASS",
+      "evidence": "Banned '$340K / 17 launches' composite ABSENT from resume and cover. Canonical numbers present and correct: $362K (ODN), 300+ leave cases, 75% onboarding, 25+ stakeholders, 600+ participants, 78% PROGRAM ENROLLMENT rate (correct default for a non-sales L&D role — not 'conversion'), 2,000+, 23, 12, 1,000+, 566%, 70+, 20+/10+. No invented revenue figures.",
+      "canonical_source": "content_library.md BANNED section (line 93) + bullet variants; JAMIE_FEEDBACK_RULES §2"
+    },
+    {
+      "check": "COVER canonical-skeleton adherence + voice (check D/F)",
+      "result": "PASS",
+      "evidence": "Opener = belief sentence ('Training and development isn't just about putting people through sessions—from my experience, it's about creating a continuous cycle of collecting insights, analyzing data, and refining solutions...') — matches locked arc, NOT an anecdote. Paragraph order Vestas→NextGen→InGenius→org-psych close = exact skeleton. Org-psych close present ('diagnose with data, collaborate cross-functionally, track metrics') + 'analytical organizer with a growth mindset' line present. Tagline line 2 = 'Dedicated to Driving Individual and Organizational Development' (correct OD/L&D variant for a Training role). 'Dear LAIKA Hiring Team,' — no address block. ~13 body bolds incl company names + metrics-with-numbers (75%, 600+, 78%, 2,000+, 20+/10+). No relocation over-commitment, no visa mention. The mission line ('craft deeply human stories through innovative technology... helping creative production teams build expertise in evolving tools') paraphrases LAIKA's mission without claiming Jamie's animation experience — honest.",
+      "canonical_source": "cover_letter_canonical.md (full skeleton); AUDITOR_AGENT_SPEC check D/F"
+    },
+    {
+      "check": "GAP HONESTY — large technical-systems gap not papered over (check 6)",
+      "result": "PASS",
+      "evidence": "The real gap (animation/VFX/agile/pipeline/bug-tracking) is sizable. Package handles it by NOT claiming any of it and by leading with Jamie's genuine adjacents (training delivery at scale, guide/resource creation, documentation, stakeholder needs-gathering, MS Office + Adobe InDesign). Cover paragraph 1 frames her contribution as 'documenting workflows and identifying training needs / developing guides and resources for cross-functional adoption / gathering stakeholder feedback' — all of which ARE real JD job-functions she can credibly do, leaving the technical-engineer-adjacent functions unclaimed. No false bridge into pipeline/agile/animation.",
+      "canonical_source": "JD.txt Job Functions + Qualifications; job.json gap_honest; JAMIE_FEEDBACK_RULES §0.4"
+    },
+    {
+      "check": "BULLET COUNTS + ordering + education + header",
+      "result": "PASS",
+      "evidence": "ODN = 3 bullets (in 2-4 range). InGenius/NextGen/Vestas/Kronos = exactly 4 each. Experience order most-recent→oldest (ODN Aug2025 / InGenius Sep2023 / NextGen Jan2023 / Vestas Feb2022 / Kronos Jan2021). Summary BROAD with 3 pillars + role-noun 'Learning & Development' + closing clause 'enable teams to do their best work' (valid §1 swap). Wesleyan Relevant Coursework line PRESENT (Educational Psychology, Practicum in Education Studies, Psychological Testing, Learning and Motivation). Header = 'Portland, OR (Open to Hybrid or Relocation)' — correct for Portland-metro Hillsboro on-site/hybrid role.",
+      "canonical_source": "JAMIE_FEEDBACK_RULES §2 (bullet counts), §3 (Wesleyan), §1 (summary), §5 (header)"
+    },
+    {
+      "check": "REFERENCES — InGenius never a reference",
+      "result": "PASS",
+      "evidence": "No references section in resume or cover. InGenius is listed only as current employer (Program Enablement Manager) — never cited as a reference contact. No reference list anywhere in the package.",
+      "canonical_source": "Audit directive check 8"
+    },
+    {
+      "check": "MINOR — NextGen bullet 4 '5 cross-functional projects' number",
+      "result": "PASS-with-note",
+      "evidence": "Tailored bullet: 'Improved employee experience via 5 cross-functional projects focusing on survey development, rewards & recognition, and L&D.' Canonical bullet (content_library): 'Elevated employee experience through projects focused on engagement, rewards & recognition, survey development, and L&D.' The quantifier '5' is NOT in the canonical source — it is a specificity ADDED during tailoring. Low-severity (the canonical says 'projects' plural and lists 4 named domains, so 5 is plausible and not a metric Jamie would be challenged on), but it is technically an unsourced number. NOTE for the builder: prefer the canonical un-numbered phrasing on future renders, or confirm the count with Jamie. Not a blocking fabrication.",
+      "canonical_source": "content_library.md NextGen bullets (line 205-208)"
+    }
+  ],
+  "failures": [],
+  "notes": "9 evidence-bearing checks, 8 clean PASS + 1 PASS-with-note (NextGen '5 projects' unsourced quantifier — non-blocking). The headline risk for this STRETCH — inventing technical-systems/animation/agile/pipeline depth to chase the JD — did NOT materialize anywhere. The package is disciplined: it leads with Jamie's genuine training-delivery/documentation/needs-assessment work, keeps ODN truthful and unblended, uses only canonical skills (no Jira/agile/bug-tracking), no banned numbers, and the cover holds the locked skeleton without free-writing. Cover mission line paraphrases LAIKA without claiming animation work. Truthful sponsorship handling deferred to form (job.json flags sponsorship UNKNOWN at LAIKA — Jamie should verify on apply). PASS clears the package for submit on quality grounds.",
+  "fit_take": "Honest fit is LOW-MODERATE and this is a genuine STRETCH. The JD's REQUIRED quals (agile software dev terms/tools, software lifecycle/engineering terminology) and PREFERRED quals (feature animation/VFX production) are real domains Jamie lacks — she cannot credibly speak to story-mapping-for-developers, pipeline workflows, or bug-tracking-to-engineers in an interview. Her genuine overlap is real but partial: training delivery at scale, guide/tutorial/release-note creation, end-user needs surveys, documentation, MS Office + Adobe InDesign. That covers roughly half the JD's job-functions and almost none of the technical-engineering-adjacent ones. With 200+ applicants and a tech-support/animation-studio screen likely filtering on agile + production-tool fluency, conversion odds are low. Geography is the one strong plus (Hillsboro = Portland-metro, in-bounds) and LAIKA is a marquee local employer. RECOMMENDATION: STAGE, do not auto-submit as a top-priority. It's a defensible low-cost apply IF the run has spare capacity and the build is already done (it is, and it's clean) — submitting a truthful, well-built package costs little. But it should NOT displace at-level P1/P1b/P1c fits in the queue, and outreach energy is better spent elsewhere. If David wants volume + a local-employer shot, submit it; if he wants fit-quality focus per the YOE/fit-dig directive, drop it to the bottom of the stack or skip. Quality gate = PASS; fit gate = low-priority STRETCH."
+}
