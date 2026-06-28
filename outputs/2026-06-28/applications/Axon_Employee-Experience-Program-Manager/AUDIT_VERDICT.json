@@ -1,0 +1,46 @@
+{
+  "role": "Axon — Employee Experience Program Manager",
+  "verdict": "PASS",
+  "resume_sha": "f64c9dddad7dc654311d51aec9617cd35c3aaca4ac36088a4b96291869580da9",
+  "cover_sha": "f78b4dca423a5bbe4c3ac79f9013dcc5e108522b3dff9579f18950fca06429dc",
+  "checks": [
+    {
+      "check": "A. Substance floor",
+      "result": "PASS",
+      "evidence": "All 12 canonical metrics present: $362K (ODN bullet 2), 300+ (ODN bullet 1), 78% (InGenius bullet 4), 2,000+ (NextGen bullet 1), 1,000+ (Vestas bullet 4), 566% (Kronos bullet 3), 25+ (InGenius bullet 3), 600+ (InGenius bullet 4), 70+ (InGenius bullet 1), 23 (Vestas bullet 2), 12 (Vestas bullet 2), 3 (InGenius bullet 3). All scope clauses intact: 'positioning, delivery strategy, and operations' in InGenius bullet 2; 'improving program knowledge and reducing onboarding time by 75%' in InGenius bullet 1. No bullets deleted — ODN=3, InGenius=4, NextGen=4, Vestas=4, Kronos=4.",
+      "canonical_source": "canonical resume.json — all experience sections"
+    },
+    {
+      "check": "B. Truth / no-relabel",
+      "result": "PASS",
+      "evidence": "ODN correctly framed as OD diagnostic consulting: 'audit 300+ leave cases', '$362K in leave costs', 'focus groups and 1:1 interviews with an NGO leadership team to surface decision-making and accountability gaps' — not ERG/community/events. Vestas DEI bullet: 'Initiated a DEI pilot with an Inclusive Leadership workshop for 12 senior leaders' matches canonical verb exactly. No Jira or invented tools present. Banned composite '$340K / 17 launches' absent. All claims trace to canonical resume.json.",
+      "canonical_source": "canonical resume.json; CLAUDE.md RULE 0"
+    },
+    {
+      "check": "C. Bullet counts",
+      "result": "PASS",
+      "evidence": "ODN=3, InGenius=4, NextGen=4, Vestas=4, Kronos=4. All within spec (ODN: 2-3; all others: exactly 4).",
+      "canonical_source": "canonical resume.json; CLAUDE.md bullet count rules"
+    },
+    {
+      "check": "D. Cover substance + voice",
+      "result": "PASS",
+      "evidence": "Salutation: 'Dear Axon Hiring Team,' present. 30+ body bolds including ≥1 company names (**Axon**, **Vestas Wind Systems**, **NextGen Healthcare**, **InGenius Prep**) and ≥6 metric-bearing bolds: **managing 20+ programs and 10+ vendors**, **building guides and workflows for 70+ staff that cut onboarding time by 75%**, **facilitating training webinars for 600+ participants**, **78% program enrollment rate**, **25+ global stakeholders**, **analyzed 2,000+ employee experiences**, **optimized onboarding processes across 3 global locations**. Org-psych close present: 'MS in Applied Organizational Psychology (USC)...diagnose with data, collaborate cross-functionally on solutions, and track metrics'. 'Analytical organizer with a growth mindset' present. No visa mention.",
+      "canonical_source": "cover_letter_canonical.md para 4–5; CLAUDE.md RULE -1"
+    },
+    {
+      "check": "E. Header / location",
+      "result": "PASS",
+      "evidence": "resume.json header.location = 'Seattle, WA'. Cover header: 'Jamie (Yi-Chieh) Cheng | jamiecheng0103@gmail.com | Seattle, WA'. Both match the Axon role city (Seattle).",
+      "canonical_source": "CLAUDE.md job location rules; cover_letter_canonical.md header spec"
+    },
+    {
+      "check": "F. Cover skeleton adherence",
+      "result": "PASS",
+      "evidence": "Previously failed F1 fix confirmed: salutation is now 'Dear Axon Hiring Team,' (company name present). Previously failed F2 fix confirmed: Vestas paragraph now reads 'Overseeing the integration of an acquired company during an M&A project' — exact canonical wording, no 'migration and merging of employee records' invention. Opener is belief sentence (not anecdote): 'Employee experience isn't just about perks and events—from my experience, it's about creating a continuous cycle...'. Para order: Vestas (P2) → NextGen (P3) → InGenius (P4). NextGen SWAP slot: 'develop targeted people strategies'. No free-written sentences detected.",
+      "canonical_source": "cover_letter_canonical.md locked skeleton; salutation + para 2 Vestas"
+    }
+  ],
+  "failures": [],
+  "audited_at": "2026-06-28T00:00:00Z"
+}

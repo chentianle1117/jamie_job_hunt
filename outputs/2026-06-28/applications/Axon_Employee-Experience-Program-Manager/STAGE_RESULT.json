@@ -1,0 +1,98 @@
+{
+  "role_dir": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-28\\applications\\Axon_Employee-Experience-Program-Manager",
+  "company": "Axon",
+  "role": "Employee Experience Program Manager",
+  "ats": "Greenhouse (no-account)",
+  "lane_ats": "greenhouse",
+  "form_url": "https://job-boards.greenhouse.io/axon/jobs/7737749003",
+  "staged_at": "2026-06-28T08:38:50",
+  "submit_port": 9400,
+  "contact": {
+    "first_name": "Jamie",
+    "last_name": "Cheng",
+    "email": "jamiecheng0103@gmail.com",
+    "phone": "2137003831"
+  },
+  "country": {
+    "status": "SET",
+    "chosen": "United States +1"
+  },
+  "location": "Portland, Oregon, United States",
+  "uploads": {
+    "resume": "resume.pdf",
+    "cover_letter": "cover_letter.pdf"
+  },
+  "combos": [
+    {
+      "q": "authorized",
+      "status": "SET",
+      "chosen": "Yes"
+    },
+    {
+      "q": "sponsorship",
+      "status": "SET",
+      "chosen": "Yes"
+    },
+    {
+      "q": "gender",
+      "status": "SET",
+      "chosen": "Female"
+    },
+    {
+      "q": "hispanic",
+      "status": "SET",
+      "chosen": "No"
+    },
+    {
+      "q": "veteran",
+      "status": "SET",
+      "chosen": "I am not a protected veteran"
+    },
+    {
+      "q": "disability",
+      "status": "SET",
+      "chosen": "No, I do not have a disability and have not had one in the past"
+    }
+  ],
+  "still_required": [
+    "Country*",
+    "Location (City)*",
+    "Resume/CV*",
+    "Are you legally authorized to work in the United States for any US employer now ",
+    "Will you now or in the future require sponsorship for employment in the United S",
+    "Can you provide verification of both your identity and authorization to work in ",
+    "Select...",
+    "Are you at least 18 years of age?*",
+    "Based on the below information, would you meet the requirements for a deemed exp",
+    "Do you have any contractual obligations, agreements, relationships, or commitmen",
+    "ACKNOWLEDGMENT OF RECEIPT AND REVIEW I acknowledge that I received a copy of Axo",
+    "Are you a fugitive from justice?*",
+    "Are you an alien illegally or unlawfully in the United States?*",
+    "Are you an alien who has been admitted to the United States under a nonimmigrant",
+    "Are you an unlawful user of, or addicted to, marijuana or any depressant, stimul",
+    "Are you subject to a court order, including a Military Protection Order issued b",
+    "Are you under indictment or information in any court for a felony, or any other ",
+    "Federal Firearms Licensee Employee Accessor Questionnaire *",
+    "Have you ever been adjudicated as a mental defective OR have you ever been commi",
+    "Have you ever been convicted in any court of a misdemeanor crime of domestic vio",
+    "Have you ever been convicted in any court, including a military court, of a felo",
+    "Have you ever been discharged from the Armed Forces under dishonorable condition",
+    "Have you ever renounced your United States citizenship?*",
+    "What city do you currently reside in?*",
+    "Do you currently reside in the greater Seattle area?*",
+    "This role requires you to work onsite at our Seattle office 4 days per week, Tue",
+    "Gender*",
+    "Are you Hispanic/Latino?*",
+    "Please identify your race*",
+    "Veteran Status*",
+    "Disability Status*"
+  ],
+  "captcha": {
+    "present": true,
+    "interactive_visible": false
+  },
+  "screenshot": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-28\\applications\\Axon_Employee-Experience-Program-Manager\\_v2_stage_review.png",
+  "final_url": "https://job-boards.greenhouse.io/axon/jobs/7737749003",
+  "lane": "ONE-CLICK",
+  "human_next": "Open the staged tab in the submit Chrome (port 9400) → clear the captcha → click Submit application."
+}
