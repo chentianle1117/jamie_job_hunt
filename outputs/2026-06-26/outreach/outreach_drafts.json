@@ -1,0 +1,282 @@
+{
+  "generated": "2026-06-26",
+  "run": "8% run 06-26",
+  "routing": "no-note LinkedIn invites sent by Claude + emails to Notion for Jamie",
+  "auditor": "FIX->fixed->clean (5 clean + 3 fixed: SS&C/Lyra trimmed, Oberto fabrication removed)",
+  "linkedin_sent_log": [
+    {
+      "recipient": "Lorena Grenet (Guardia)",
+      "company": "Talkiatry",
+      "action": "connection request (no note)",
+      "sent_at": "2026-06-26",
+      "status": "ALREADY_PENDING",
+      "screenshot": null,
+      "note": "Invite already pending from prior run — no action needed"
+    },
+    {
+      "recipient": "Madison Crook",
+      "company": "PT Solutions",
+      "action": "connection request (no note)",
+      "sent_at": "2026-06-26",
+      "status": "SENT",
+      "screenshot": "oracle-job-search/outputs/2026-06-26/outreach/invite_crook.png",
+      "note": "SENT_VERIFIED — Pending state confirmed"
+    },
+    {
+      "recipient": "Tanner Tate",
+      "company": "Nielsen",
+      "action": "connection request (no note)",
+      "sent_at": "2026-06-26",
+      "status": "SENT",
+      "screenshot": "oracle-job-search/outputs/2026-06-26/outreach/invite_tate.png",
+      "note": "SENT_VERIFIED — Pending text confirmed in page"
+    },
+    {
+      "recipient": "Anna Pashkevych",
+      "company": "Trend",
+      "action": "connection request (no note)",
+      "sent_at": "2026-06-26",
+      "status": "SENT",
+      "screenshot": "oracle-job-search/outputs/2026-06-26/outreach/invite_pashkevych.png",
+      "note": "SENT_VERIFIED — Pending text confirmed in page"
+    },
+    {
+      "recipient": "Jeanne Walker",
+      "company": "SS&C",
+      "action": "connection request (no note)",
+      "sent_at": "2026-06-26",
+      "status": "FAILED",
+      "screenshot": "oracle-job-search/outputs/2026-06-26/outreach/invite_walker_no_connect.png",
+      "note": "LinkedIn does not show Connect option for this profile (Follow-only mode or restricted) — no Invite Jeanne Walker to connect link found"
+    },
+    {
+      "recipient": "Zac Boggis",
+      "company": "Family Resource Home Care",
+      "action": "connection request (no note)",
+      "sent_at": "2026-06-26",
+      "status": "SENT",
+      "screenshot": "oracle-job-search/outputs/2026-06-26/outreach/invite_boggis.png",
+      "note": "SENT_VERIFIED — Pending state confirmed"
+    },
+    {
+      "recipient": "Lauren Sheline",
+      "company": "Lyra Health",
+      "action": "connection request (no note)",
+      "sent_at": "2026-06-26",
+      "status": "FAILED",
+      "screenshot": "oracle-job-search/outputs/2026-06-26/outreach/invite_sheline_no_connect.png",
+      "note": "LinkedIn does not show Connect option for this profile (Follow-only mode or restricted) — no Invite Lauren Sheline to connect link found"
+    },
+    {
+      "recipient": "Angela Martinez",
+      "company": "Oberto Snacks",
+      "action": "connection request (no note)",
+      "sent_at": "2026-06-26",
+      "status": "ALREADY_CONNECTED",
+      "screenshot": null,
+      "note": "1st-degree connection — already connected, can send direct message"
+    }
+  ],
+  "outreach": [
+    {
+      "role": "L&D Specialist",
+      "company": "Talkiatry",
+      "recipient": {
+        "name": "Lorena Grenet (Guardia)",
+        "title": "Learning & Development Manager",
+        "profile_url": "https://www.linkedin.com/in/lorenamguardia/",
+        "degree": "2nd",
+        "current_verified": true,
+        "evidence": "LinkedIn profile shows 'Learning & Development Manager at Talkiatry | Apr 2024 - Present (2 yrs 3 mos)'. No end date. Jacob Quintanilla is a mutual connection.",
+        "why_on_lane": "Direct hiring-team peer — she manages the L&D function Jamie is applying to join. Most relevant possible contact."
+      },
+      "linkedin_note": "Hi Lorena — I'm a People & OD professional with an L&D background and just applied for the L&D Specialist role at Talkiatry. Your focus on clinical onboarding and employee learning really resonates. Would love to connect.",
+      "email": {
+        "subject": "L&D Specialist role at Talkiatry — Jamie Cheng",
+        "body": "Hi Lorena,\n\nEffective L&D isn't just about delivering training — from my experience, it's about understanding how people actually learn on the job and building systems that close real performance gaps.\n\nI'm reaching out because I recently applied for the L&D Specialist role at Talkiatry, and the work your team does building clinical and corporate learning programs stood out to me. With a background in HR, Organizational Development, and Program Management, I've designed and facilitated programs that reached a 78% enrollment and adoption rate, and have worked directly with C-suite leaders to prioritize L&D strategy at NextGen Healthcare.\n\nI'd welcome a brief conversation — I have some time in the next two weeks if you're free.\n\nSincerely,\nJamie (Yi-Chieh) Cheng\njamiecheng0103@gmail.com | 213-700-3831"
+      },
+      "gate_selfcheck": {
+        "recipient_verified_current": true,
+        "no_banned_number": true,
+        "no_fellow_claim": true,
+        "on_lane": true,
+        "char_count_note": 221
+      }
+    },
+    {
+      "role": "HR Generalist",
+      "company": "PT Solutions Physical Therapy",
+      "recipient": {
+        "name": "Madison Crook",
+        "title": "HR Ops Specialist",
+        "profile_url": "https://www.linkedin.com/in/madison-crook-4667ab230/",
+        "degree": "2nd",
+        "current_verified": true,
+        "evidence": "LinkedIn profile headline: 'HR Ops Specialist at PT Solutions Physical Therapy'. Post from ~11 months ago: 'I'm happy to share that I'm starting a new position as HR Operations Specialist at PT Solutions Physical Therapy!' — no end date, active profile. Cassady Duarte, MSIO is a mutual connection.",
+        "why_on_lane": "HR Ops Specialist on the same People team Jamie is applying to join. Peer-level, most likely to have insight on the HR Generalist opening."
+      },
+      "linkedin_note": "Hi Madison — I'm an HR & OD professional and just applied for the HR Generalist opening at PT Solutions. Your People Ops work there looks really interesting. Would love to connect and learn more about the team.",
+      "email": {
+        "subject": "HR Generalist role at PT Solutions — Jamie Cheng",
+        "body": "Hi Madison,\n\nI came across the HR Generalist opening at PT Solutions and wanted to reach out to someone on the team directly.\n\nI bring a background in HR, Organizational Development, and Program Management, and have experience building feedback systems and supporting employee relations across distributed workforces. Most recently I contributed to a 78% program adoption rate and supported HR and L&D strategy at NextGen Healthcare.\n\nI'd love to hear what day-to-day HR work looks like at PT Solutions — I have some time in the next two weeks if you're open to a brief chat.\n\nSincerely,\nJamie (Yi-Chieh) Cheng\njamiecheng0103@gmail.com | 213-700-3831"
+      },
+      "gate_selfcheck": {
+        "recipient_verified_current": true,
+        "no_banned_number": true,
+        "no_fellow_claim": true,
+        "on_lane": true,
+        "char_count_note": 210
+      }
+    },
+    {
+      "role": "Change Management Specialist",
+      "company": "Nielsen",
+      "recipient": {
+        "name": "Tanner Tate",
+        "title": "Strategic Change Management Leader",
+        "profile_url": "https://www.linkedin.com/in/tannerwtate/",
+        "degree": "2nd",
+        "current_verified": true,
+        "evidence": "LinkedIn headline: 'Strategic Change Management Leader @ Nielsen | Business Transformation, Project Management, Communications'. Active profile with detailed experience block at Nielsen. Alan Landers, MHRD is a mutual connection.",
+        "why_on_lane": "Directly on-lane — he leads change management at Nielsen, the exact function Jamie applied to. Peer-to-peer is ideal here."
+      },
+      "linkedin_note": "Hi Tanner — I'm a People & OD professional who just applied for the Change Management Specialist role at Nielsen. Your work driving large-scale transformation there is exactly the kind of environment I'm drawn to. Would love to connect.",
+      "email": {
+        "subject": "Change Management Specialist at Nielsen — Jamie Cheng",
+        "body": "Hi Tanner,\n\nChange management isn't just about communications plans — from my experience, it's about understanding how organizational structures and people's day-to-day workflows interact, and designing for adoption from the ground up.\n\nI recently applied for the Change Management Specialist opening at Nielsen and wanted to reach out directly. Your background driving large-scale technology and business transformation at Nielsen resonates with what I've done — I've built stakeholder engagement frameworks and feedback systems that informed organizational priorities at the C-suite level, and supported M&A integration work at Vestas.\n\nI'd welcome a 20-minute conversation. I have some time in the next two weeks if you're free.\n\nSincerely,\nJamie (Yi-Chieh) Cheng\njamiecheng0103@gmail.com | 213-700-3831"
+      },
+      "gate_selfcheck": {
+        "recipient_verified_current": true,
+        "no_banned_number": true,
+        "no_fellow_claim": true,
+        "on_lane": true,
+        "char_count_note": 236
+      }
+    },
+    {
+      "role": "Workplace & Culture Coordinator",
+      "company": "Trend Capital Holdings",
+      "recipient": {
+        "name": "Anna Pashkevych",
+        "title": "HR Manager | SHRM-CP",
+        "profile_url": "https://www.linkedin.com/in/anna-pashkevych-3762a3153/",
+        "degree": "2nd",
+        "current_verified": true,
+        "evidence": "LinkedIn headline: 'HR Manager | SHRM-CP @ Trend, Inc.' — profile shows current role at Trend Capital Holdings, Inc. Most recent post 3 weeks ago re-sharing Trend company content: 'Proud to be part of Trend!' No end date visible. Active engagement.",
+        "why_on_lane": "Direct hiring manager — she is the HR Manager at Trend who would own or oversee the Workplace & Culture Coordinator role."
+      },
+      "linkedin_note": "Hi Anna — I'm a People & OD professional and recently applied for the Workplace & Culture Coordinator role at Trend. The culture-forward environment you're building there is genuinely appealing. Would love to connect.",
+      "email": {
+        "subject": "Workplace & Culture Coordinator at Trend — Jamie Cheng",
+        "body": "Hi Anna,\n\nWorkplace culture isn't built through events alone — from my experience, it grows when internal communications, recognition, and people programs are designed around what employees actually care about.\n\nI recently applied for the Workplace & Culture Coordinator opening at Trend and wanted to reach out directly. I bring a background in HR, Organizational Development, and Program Management, and have built employee feedback systems and coordinated company-wide programs that drove measurable engagement outcomes, including a 78% adoption rate across a distributed workforce.\n\nTrend's people-first culture — the kind that earns a Top Workplace designation — is exactly the kind of environment I want to contribute to. I'd love to hear what the role looks like day-to-day. I have some time in the next two weeks if you're open to a brief conversation.\n\nSincerely,\nJamie (Yi-Chieh) Cheng\njamiecheng0103@gmail.com | 213-700-3831"
+      },
+      "gate_selfcheck": {
+        "recipient_verified_current": true,
+        "no_banned_number": true,
+        "no_fellow_claim": true,
+        "on_lane": true,
+        "char_count_note": 217
+      }
+    },
+    {
+      "role": "Associate L&D Specialist",
+      "company": "SS&C Technologies",
+      "recipient": {
+        "name": "Jeanne Walker",
+        "title": "Learning & Development Specialist",
+        "profile_url": "https://www.linkedin.com/in/jeanne-walker-205543100/",
+        "degree": "3rd",
+        "current_verified": true,
+        "evidence": "LinkedIn experience section explicitly shows: 'Learning And Development Specialist | SS&C Technologies | Sep 2025 - Present (10 mos)'. Currently employed, no end date.",
+        "why_on_lane": "Direct peer on the L&D team at SS&C — she does the same role Jamie is applying to. Strong signal she can speak to day-to-day and team culture."
+      },
+      "linkedin_note": "Hi Jeanne — I'm a People & OD professional with an L&D background and just applied for the Associate L&D Specialist role at SS&C. Your instructional design work in healthcare training is exactly the context I'd love to learn from. Hoping to connect.",
+      "email": {
+        "subject": "Associate L&D Specialist at SS&C — Jamie Cheng",
+        "body": "Hi Jeanne,\n\nEffective learning design in a healthcare operations context requires more than content expertise — it takes a deep understanding of how call center employees actually retain and apply training in high-volume, high-stakes environments.\n\nI recently applied for the Associate L&D Specialist opening at SS&C and wanted to reach out directly. I bring a background in HR, Organizational Development, and Program Management, with hands-on experience facilitating adult learning programs and using LMS systems to track and improve adoption. Most recently, I contributed to a 78% enrollment and adoption rate across a distributed program at NextGen Healthcare.\n\nI'd love to hear what the L&D team's day-to-day looks like at SS&C. I have some time in the next two weeks if you're available for a brief conversation.\n\nSincerely,\nJamie (Yi-Chieh) Cheng\njamiecheng0103@gmail.com | 213-700-3831"
+      },
+      "gate_selfcheck": {
+        "recipient_verified_current": true,
+        "no_banned_number": true,
+        "no_fellow_claim": true,
+        "on_lane": true,
+        "char_count_note": 249
+      }
+    },
+    {
+      "role": "HR Generalist",
+      "company": "Family Resource Home Care",
+      "recipient": {
+        "name": "Zac Boggis",
+        "title": "Talent Acquisition Specialist",
+        "profile_url": "https://www.linkedin.com/in/zacboggis/",
+        "degree": "2nd",
+        "current_verified": true,
+        "evidence": "LinkedIn headline: 'Talent Acquisition Specialist at Family Resource Home Care'. Post from 2 months ago actively recruiting for FRHC caregiver roles — clearly current. Portland State University alum (Portland area connection). No end date.",
+        "why_on_lane": "Recruiter directly on the People team at FRHC — the natural first contact for a submitted application. Strong warm signal: 2nd degree, local Portland-area connection."
+      },
+      "linkedin_note": "Hi Zac — I recently applied for the HR Generalist opening at Family Resource Home Care and wanted to connect directly. The mission-driven care model you're supporting there is exactly what draws me to this role. Would love to chat.",
+      "email": {
+        "subject": "HR Generalist application at Family Resource Home Care — Jamie Cheng",
+        "body": "Hi Zac,\n\nI recently submitted my application for the HR Generalist opening at Family Resource Home Care and wanted to reach out directly.\n\nI bring a background in HR, Organizational Development, and Program Management, and have experience supporting HR operations and employee development in mission-driven organizations. I've built feedback systems that helped leadership prioritize essential people needs, and contributed to a 78% program adoption rate in a distributed workforce context.\n\nThe work Family Resource does — supporting caregivers and clients across the Pacific Northwest — resonates deeply with me. I'd love to hear more about what the HR Generalist role looks like day-to-day. I have some time in the next two weeks if you're open to a brief conversation.\n\nSincerely,\nJamie (Yi-Chieh) Cheng\njamiecheng0103@gmail.com | 213-700-3831"
+      },
+      "gate_selfcheck": {
+        "recipient_verified_current": true,
+        "no_banned_number": true,
+        "no_fellow_claim": true,
+        "on_lane": true,
+        "char_count_note": 231
+      }
+    },
+    {
+      "role": "Training Operations Associate II",
+      "company": "Lyra Health",
+      "recipient": {
+        "name": "Lauren Sheline",
+        "title": "Learning & Enablement Program Leader",
+        "profile_url": "https://www.linkedin.com/in/lauren-sheline-b2138898/",
+        "degree": "3rd",
+        "current_verified": true,
+        "evidence": "LinkedIn headline and profile institution both confirm 'Lyra Health' as current employer. Headline reads 'Learning & Enablement Program Leader' with Lyra Health listed as current company. No end date; profile active.",
+        "why_on_lane": "Direct team peer — she leads Learning & Enablement at Lyra, the exact function Jamie's Training Operations role sits under. Best possible signal of current team culture and workflow."
+      },
+      "linkedin_note": "Hi Lauren — I'm a People Ops & OD professional and just applied for the Training Operations Associate II role at Lyra. Your work building scalable enablement programs for clinicians is exactly what I want to be part of. Would love to connect.",
+      "email": {
+        "subject": "Training Operations Associate II at Lyra — Jamie Cheng",
+        "body": "Hi Lauren,\n\nBuilding learning programs at scale for a clinical workforce isn't just an instructional design problem — it's an operations challenge, and one that requires genuine empathy for the provider experience.\n\nI recently applied for the Training Operations Associate II opening at Lyra and wanted to reach out directly. I bring a background in HR, Organizational Development, and Program Management, with experience facilitating live and asynchronous training, managing program logistics end-to-end, and improving adoption through data-informed iteration. I've supported C-suite L&D strategy at NextGen Healthcare and contributed to a 78% program enrollment and adoption rate.\n\nLyra's mission and the depth of your enablement work are what drew me to apply. I'd welcome a 20-minute conversation — I have some time in the next two weeks if you're available.\n\nSincerely,\nJamie (Yi-Chieh) Cheng\njamiecheng0103@gmail.com | 213-700-3831"
+      },
+      "gate_selfcheck": {
+        "recipient_verified_current": true,
+        "no_banned_number": true,
+        "no_fellow_claim": true,
+        "on_lane": true,
+        "char_count_note": 242
+      }
+    },
+    {
+      "role": "HR Coordinator",
+      "company": "Oberto Snacks",
+      "recipient": {
+        "name": "Angela Martinez",
+        "title": "Talent Acquisition Manager",
+        "profile_url": "https://www.linkedin.com/in/angela-martinez-3b31b713b/",
+        "degree": "3rd",
+        "current_verified": true,
+        "evidence": "LinkedIn headline: 'Talent Acquisition Manager @ Oberto Snacks Inc. | HR | Recruitment'. Posted 2 weeks ago actively recruiting for Oberto Snacks roles (QA Technician for Hempler's Foods Group via ADP). Current employer confirmed, no end date.",
+        "why_on_lane": "Talent Acquisition Manager at Oberto — directly owns the recruitment pipeline for the HR Coordinator role Jamie applied to. Best first contact."
+      },
+      "linkedin_note": "Hi Angela — I recently applied for the HR Coordinator opening at Oberto Snacks and wanted to connect directly. The culture and mission you've built there stand out. I bring a strong HR & OD background and would love to learn more about the team.",
+      "email": {
+        "subject": "HR Coordinator application at Oberto Snacks — Jamie Cheng",
+        "body": "Hi Angela,\n\nI recently submitted my application for the HR Coordinator opening at Oberto Snacks and wanted to reach out directly.\n\nI bring a background in HR, Organizational Development, and Program Management. I've coordinated people programs end-to-end, built internal communications and training resources for staff, and developed employee feedback systems that helped leadership prioritize real organizational needs — work that maps closely to what the HR Coordinator role involves.\n\nOberto's employee-owned culture and long track record in the Pacific Northwest make it a genuinely compelling place to grow in HR. I'd love to hear more about the team. I have some time in the next two weeks if you're open to a brief conversation.\n\nSincerely,\nJamie (Yi-Chieh) Cheng\njamiecheng0103@gmail.com | 213-700-3831"
+      },
+      "gate_selfcheck": {
+        "recipient_verified_current": true,
+        "no_banned_number": true,
+        "no_fellow_claim": true,
+        "on_lane": true,
+        "char_count_note": 245
+      }
+    }
+  ]
+}

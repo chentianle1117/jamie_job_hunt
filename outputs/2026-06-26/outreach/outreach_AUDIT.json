@@ -1,0 +1,181 @@
+{
+  "verdict": "FIX",
+  "audited_by": "Master Outreach Auditor (fresh context)",
+  "audited_at": "2026-06-26",
+  "file_audited": "oracle-job-search/outputs/2026-06-26/outreach/outreach_drafts.json",
+  "ground_truth": [
+    "jamie/outreach_patterns.md",
+    "jamie/content_library.md",
+    "jamie/profile_compact.md"
+  ],
+  "mechanical_checks": {
+    "char_limit_rule": "Jamie target <=250; hard cap 300 (>250 FIX, >300 BLOCK)",
+    "note_self_check_field_unreliable": true,
+    "self_check_note": "gate_selfcheck.char_count_note is WRONG on every row (understates SS&C by 35, Lyra by 15). Do not trust it."
+  },
+  "per_role": [
+    {
+      "role": "L&D Specialist",
+      "company": "Talkiatry",
+      "recipient": "Lorena Grenet (Guardia)",
+      "degree": "2nd",
+      "char_count_true": 221,
+      "char_count_claimed": 238,
+      "note_ok": true,
+      "banned_number": false,
+      "fabrication_flags": [],
+      "recipient_currency_ok": true,
+      "recipient_currency_note": "2nd-degree, explicit 'Apr 2024 - Present', mutual connection cited. Solid.",
+      "on_lane": true,
+      "verdict": "PASS",
+      "notes": "Email NextGen C-suite L&D claim supported by content_library (2,000+ responses to C-suite; L&D project)."
+    },
+    {
+      "role": "HR Generalist",
+      "company": "PT Solutions Physical Therapy",
+      "recipient": "Madison Crook",
+      "degree": "2nd",
+      "char_count_true": 210,
+      "char_count_claimed": 236,
+      "note_ok": true,
+      "banned_number": false,
+      "fabrication_flags": [],
+      "recipient_currency_ok": true,
+      "recipient_currency_note": "2nd-degree, 'starting new position' post ~11mo ago + active profile + mutual connection. Solid.",
+      "on_lane": true,
+      "verdict": "PASS",
+      "notes": "'feedback systems' + '78% adoption' + NextGen support all trace to content_library."
+    },
+    {
+      "role": "Change Management Specialist",
+      "company": "Nielsen",
+      "recipient": "Tanner Tate",
+      "degree": "2nd",
+      "char_count_true": 236,
+      "char_count_claimed": 239,
+      "note_ok": true,
+      "banned_number": false,
+      "fabrication_flags": [],
+      "recipient_currency_ok": true,
+      "recipient_currency_note": "2nd-degree, detailed current Nielsen experience block + mutual connection. Solid.",
+      "on_lane": true,
+      "verdict": "PASS",
+      "notes": "'supported M&A integration work at Vestas' is SUPPORTED and actually UNDERSTATED vs content_library ('directing a Merger & Acquisition project, migrating and merging employee records'). 'stakeholder engagement frameworks / feedback systems that informed C-suite priorities' traces to NextGen + 'built a feedback system from scratch'. OK."
+    },
+    {
+      "role": "Workplace & Culture Coordinator",
+      "company": "Trend Capital Holdings",
+      "recipient": "Anna Pashkevych",
+      "degree": "2nd",
+      "char_count_true": 217,
+      "char_count_claimed": 234,
+      "note_ok": true,
+      "banned_number": false,
+      "fabrication_flags": [],
+      "recipient_currency_ok": true,
+      "recipient_currency_note": "2nd-degree, 'HR Manager @ Trend', recent re-share 3wk ago, no end date. Solid.",
+      "on_lane": true,
+      "verdict": "PASS",
+      "notes": "'Top Workplace designation' is a claim ABOUT TREND, not about Jamie - acceptable if true of the company; not a Jamie-fabrication. '78% adoption across distributed workforce' traces to content_library."
+    },
+    {
+      "role": "Associate L&D Specialist",
+      "company": "SS&C Technologies",
+      "recipient": "Jeanne Walker",
+      "degree": "3rd",
+      "char_count_true": 280,
+      "char_count_claimed": 245,
+      "note_ok": false,
+      "note_fix_required": "Trim LinkedIn note from 280 to <=250 chars (30+ chars over). Self-check claimed 245 - WRONG by 35.",
+      "banned_number": false,
+      "fabrication_flags": [],
+      "recipient_currency_ok": true,
+      "recipient_currency_note": "3rd-degree (NOT directly visible to Jamie); evidence cites explicit 'Sep 2025 - Present (10 mos)'. Currency asserted by drafter from profile read - plausible and dated, but cannot be re-verified in this audit. Treat as asserted-not-independently-confirmed.",
+      "on_lane": true,
+      "verdict": "FIX",
+      "notes": "Only issue is the over-length note. Email body is clean - 78% enrollment + LMS + adult-learning all trace to content_library."
+    },
+    {
+      "role": "HR Generalist",
+      "company": "Family Resource Home Care",
+      "recipient": "Zac Boggis",
+      "degree": "2nd",
+      "char_count_true": 231,
+      "char_count_claimed": 235,
+      "note_ok": true,
+      "banned_number": false,
+      "fabrication_flags": [],
+      "recipient_currency_ok": true,
+      "recipient_currency_note": "2nd-degree, recruiting post 2mo ago, PSU alum (Portland-local). Solid warm contact.",
+      "on_lane": true,
+      "verdict": "PASS",
+      "notes": "Recipient is a recruiter (TA) - on the People team and the natural first contact for a submitted app, so on-lane is fine; note he is TA not the HRBP. Claims trace to content_library."
+    },
+    {
+      "role": "Training Operations Associate II",
+      "company": "Lyra Health",
+      "recipient": "Lauren Sheline",
+      "degree": "3rd",
+      "char_count_true": 258,
+      "char_count_claimed": 243,
+      "note_ok": false,
+      "note_fix_required": "Trim LinkedIn note from 258 to <=250 chars (8 over). Self-check claimed 243 - WRONG by 15.",
+      "banned_number": false,
+      "fabrication_flags": [],
+      "recipient_currency_ok": "thin",
+      "recipient_currency_note": "3rd-degree; evidence is ONLY 'headline + institution = Lyra Health, no end date' - no dates, no recent activity cited. Thinnest currency evidence in the batch. Asserted, not independently confirmed - verify on live LinkedIn before sending.",
+      "on_lane": true,
+      "verdict": "FIX",
+      "notes": "Over-length note + thin recipient-currency evidence. Email body clean (78% + facilitation + NextGen C-suite L&D trace to content_library)."
+    },
+    {
+      "role": "HR Coordinator",
+      "company": "Oberto Snacks",
+      "recipient": "Angela Martinez",
+      "degree": "3rd",
+      "char_count_true": 245,
+      "char_count_claimed": 237,
+      "note_ok": true,
+      "banned_number": false,
+      "fabrication_flags": [
+        "EMAIL: 'experience supporting HR administrative operations, HRIS accuracy' - content_library lists HRIS only as a USER-LEVEL TOOL skill (SAP/Rippling/ADP), NOT as an accomplishment. No bullet supports 'HRIS accuracy' work. profile_compact lists HRIS admin/data-entry under AVOID and as a basic (one-star) skill. Overstates a tool into experience AND pitches her into the clerical lane she avoids. REMOVE.",
+        "EMAIL: 'I've coordinated new hire orientation programs' - NO bullet in content_library supports new-hire-orientation. Closest is Vestas 'optimized onboarding processes via process analysis' (process work, not running orientations). Invented to match the HR Coordinator JD. REMOVE or replace with the true onboarding-process bullet.",
+        "EMAIL (minor): 'built internal communications content' - only traceable via the consulting-variant Vestas line ('internal communications and award-winning HR initiatives') / Kronos. Weak but borderline-OK; keep only if reworded to her real comms work, not generic."
+      ],
+      "recipient_currency_ok": true,
+      "recipient_currency_note": "3rd-degree; recruiting post 2wk ago for Oberto/Hempler's roles - reasonable currency signal. Asserted but plausible.",
+      "on_lane": true,
+      "verdict": "FIX",
+      "notes": "Worst of the batch on RULE 0. The email leans on JD-keyword matching (HRIS accuracy / new-hire orientation) rather than Jamie's real record. Rewrite the credentials paragraph to her TRUE coordinator-adjacent experience (program coordination, onboarding-process analysis, feedback systems, recognition) and drop HRIS-accuracy + new-hire-orientation."
+    }
+  ],
+  "summary": {
+    "overall_verdict": "FIX",
+    "banned_numbers_found": false,
+    "fellow_X_or_false_current_role_claims": false,
+    "ingenius_referenced": false,
+    "notes_over_250": [
+      {"company": "SS&C Technologies", "true": 280, "claimed": 245, "trim_needed": 30},
+      {"company": "Lyra Health", "true": 258, "claimed": 243, "trim_needed": 8}
+    ],
+    "notes_over_300_block": [],
+    "fabrications": [
+      "Oberto email: 'HRIS accuracy' (tool != accomplishment; AVOID-lane)",
+      "Oberto email: 'coordinated new hire orientation programs' (not in content_library)"
+    ],
+    "thin_recipients": [
+      "Lyra/Lauren Sheline (3rd-degree, no dates/activity in evidence - verify live before send)",
+      "SS&C/Jeanne Walker (3rd-degree, dated but asserted-not-confirmed)"
+    ],
+    "char_count_field_systematically_wrong": "gate_selfcheck.char_count_note understated true length on every row - do not trust it; recount before send.",
+    "ready_to_send": false,
+    "what_must_change_before_send": [
+      "1. Trim SS&C LinkedIn note 280 -> <=250.",
+      "2. Trim Lyra LinkedIn note 258 -> <=250.",
+      "3. Rewrite Oberto email credentials paragraph: remove 'HRIS accuracy' and 'coordinated new hire orientation programs'; ground in her real program-coordination / onboarding-process-analysis / feedback-system / recognition experience.",
+      "4. Re-verify Lyra/Lauren currency on live LinkedIn (thin evidence) before any send.",
+      "5. Fix the char_count_note self-check field on all rows so it stops lying."
+    ],
+    "what_is_clean": "5 of 8 (Talkiatry, PT Solutions, Nielsen, Trend, Family Resource) PASS as-is. No banned numbers, no fellow-X claims, no false current-role claims, no InGenius reference anywhere. The Vestas M&A and NextGen C-suite-L&D claims are all properly grounded."
+  }
+}
