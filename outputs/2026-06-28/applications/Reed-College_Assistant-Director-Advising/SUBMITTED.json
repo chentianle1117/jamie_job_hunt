@@ -1,0 +1,33 @@
+{
+  "status": "SUBMITTED",
+  "role": "Assistant Director, Advising",
+  "employer": "Reed College",
+  "ats": "Interfolio",
+  "application_id": "6681742",
+  "application_url": "https://dossier.interfolio.com/facultysearch/applications/6681742",
+  "apply_url": "https://apply.interfolio.com/188362",
+  "submitted_at": "2026-06-29",
+  "confirmation": "APPLICATION SUBMITTED banner displayed on dossier.interfolio.com/deliveries/search after clicking Submit Delivery",
+  "confirmation_screenshot": "screenshots/deliveries_after_submit.png",
+  "documents_submitted": [
+    "resume.pdf (tailored, Auditor-PASSED)",
+    "cover_letter.pdf (tailored, Auditor-PASSED)"
+  ],
+  "forms_completed": [
+    "Reed College Employment Application",
+    "How did you first hear about this job opening? (LinkedIn)",
+    "Accommodation (No)",
+    "Reed EEO Form (Female / Not Hispanic / Asian / Not protected veteran)"
+  ],
+  "education_submitted": {
+    "degree": "M.S. - Master of Science",
+    "institution": "University of Southern California",
+    "date_earned": "May 1, 2022"
+  },
+  "account": {
+    "ats_domain": "apply.interfolio.com",
+    "email": "jamiecheng0103@gmail.com",
+    "registry_entry": "jamie/account_registry.json"
+  },
+  "notes": "New Interfolio account created during this run. All 4 application steps completed: Documents (resume + cover letter), Personal Information (USC MS degree), Forms (4 sub-forms), Review & Submit. Genuine confirmation: 'APPLICATION SUBMITTED - Your application has been submitted.' displayed on deliveries search page post-submit."
+}

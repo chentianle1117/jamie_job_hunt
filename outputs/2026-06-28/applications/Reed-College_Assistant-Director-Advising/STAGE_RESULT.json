@@ -1,0 +1,35 @@
+{
+  "company": "Reed College",
+  "role": "Assistant Director, Advising",
+  "ats": "Interfolio",
+  "apply_url": "https://apply.interfolio.com/188362",
+  "submitted_at": "2026-06-29T08:28:36.782554+00:00",
+  "status": "account-staged",
+  "confirmation_message": null,
+  "human_next": "Application stalled at step 1, URL: https://apply.interfolio.com/188362. Resume/cover uploaded, fields filled. Complete submission manually.",
+  "resume_file": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-28\\applications\\Reed-College_Assistant-Director-Advising\\resume.pdf",
+  "cover_file": "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-28\\applications\\Reed-College_Assistant-Director-Advising\\cover_letter.pdf",
+  "account_used": "interfolio:jamiecheng0103@gmail.com",
+  "screenshots": [
+    "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-28\\applications\\Reed-College_Assistant-Director-Advising\\screenshots\\01_landing.png",
+    "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-28\\applications\\Reed-College_Assistant-Director-Advising\\screenshots\\02_login_page.png",
+    "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-28\\applications\\Reed-College_Assistant-Director-Advising\\screenshots\\03_auth_form_filled.png",
+    "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-28\\applications\\Reed-College_Assistant-Director-Advising\\screenshots\\04_after_auth.png",
+    "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-28\\applications\\Reed-College_Assistant-Director-Advising\\screenshots\\05_on_application.png",
+    "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-28\\applications\\Reed-College_Assistant-Director-Advising\\screenshots\\06_after_uploads.png",
+    "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-28\\applications\\Reed-College_Assistant-Director-Advising\\screenshots\\07_fields_filled.png",
+    "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-28\\applications\\Reed-College_Assistant-Director-Advising\\screenshots\\s01_state.png",
+    "C:\\Users\\chent\\Agentic_Workflows_2026\\oracle-job-search\\outputs\\2026-06-28\\applications\\Reed-College_Assistant-Director-Advising\\screenshots\\s01_no_btn.png"
+  ],
+  "field_readback": {
+    "email": "jamiecheng0103@gmail.com",
+    "preferred_name": "Jamie Cheng",
+    "legal_name": "Yi-Chieh Cheng",
+    "phone": "+1 213 700 3831",
+    "address": "1784 NW Northrup St, Portland, OR 97209",
+    "sponsorship_required": "Yes",
+    "authorized_us": "Yes",
+    "resume_uploaded": false,
+    "cover_uploaded": false
+  }
+}
