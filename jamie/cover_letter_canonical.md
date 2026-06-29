@@ -102,7 +102,7 @@ As an HR Business Partner Assistant at **Vestas Wind Systems**, I enhanced opera
 **identifying process gaps**, **streamlining workflows**, and **partnering with cross-functional
 stakeholders**. Through stakeholder interviews, I clarified ambiguous job responsibilities and
 **optimized onboarding processes across 3 global locations**, improving both efficiency and the
-people experience. Overseeing the integration of an acquired company during an **M&A project**
+people experience. Overseeing the migration and merging of employee records during an **M&A project**
 further demonstrated my ability to manage organizational change and keep cross-functional teams aligned.
 ```
 
