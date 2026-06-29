@@ -639,77 +639,185 @@
       "apply_url": "https://externalcareers-ohsu.icims.com/jobs/39450/hr-business-partner/job",
       "req_id": "39450",
       "ats": "icims",
-      "stage": "🙋 Needs Jamie",
+      "stage": "✅ Submitted",
       "applied_date": "2026-06-29",
-      "source": "notion",
+      "source": "both",
       "notion_page_id": "38533d12-d95a-81a8-9272-c089ffc596de",
       "_note": "STAGED 2026-06-29 — filled in Jamie's iCIMS account, blocked at captcha. NOT confirmed-submitted. Jamie must manually click Submit. Cap-exempt OHSU. HIGH PRIORITY."
     }
   ],
   "by_company": {
-    "4G Clinical": ["Learning & Development Specialist (UKG/SaaSHR)"],
-    "A-LIGN": ["HR Operations Generalist (GH 8564701002)"],
-    "Accuris": ["Program Manager, NPI (Dayforce req 524)"],
-    "Amazon (One Medical)": ["HR Specialist, PXT Programs (amazon req 3206934) — CLOSED"],
-    "Anthropic": ["EXCLUDED — disk status=not_submitted (never confirmed)"],
+    "4G Clinical": [
+      "Learning & Development Specialist (UKG/SaaSHR)"
+    ],
+    "A-LIGN": [
+      "HR Operations Generalist (GH 8564701002)"
+    ],
+    "Accuris": [
+      "Program Manager, NPI (Dayforce req 524)"
+    ],
+    "Amazon (One Medical)": [
+      "HR Specialist, PXT Programs (amazon req 3206934) — CLOSED"
+    ],
+    "Anthropic": [
+      "EXCLUDED — disk status=not_submitted (never confirmed)"
+    ],
     "Aurora Innovation": [
       "Program Manager, People Team (GH 8359484002) — 2026-05-25",
       "HR Generalist (GH 8520165002) — 2026-05-28"
     ],
-    "Autodesk": ["Senior Org Effectiveness Consultant (Workday 26WD97717)"],
-    "Axon": ["Employee Experience Program Manager (GH 7737749003)"],
-    "Banfield Pet Hospital (Mars Veterinary Health)": ["Sr. Enablement Manager Contract (Workday R-243765)"],
-    "Built In": ["People Ops & Workplace Experience Specialist (GH 7834159)"],
-    "C1 (ConductorOne)": ["Talent & Workplace Coordinator (Ashby a0a09208)"],
-    "Chainalysis": ["People Programs Lead (Ashby a44d04f1)"],
-    "Chime": ["Senior People Partner (GH 8326233002)"],
-    "CLEAR": ["Learning & Development Generalist (GH 7868581)"],
-    "Coinbase": ["Sr. Program Manager, L&D (GH 7773124)"],
-    "Curai Health": ["People Operations & System Specialist (Lever 6bbb82d9)"],
-    "Datadog": ["Senior Program Manager, People Team (GH 7958756)"],
-    "DraftKings": ["Program Manager, Talent Management (Workday JR14443)"],
-    "ElevenLabs": ["People Operations (Ashby ca331e5d)"],
-    "EY (Ernst & Young)": ["People Consulting - Org Design - Senior Consultant (SF 1668151)"],
-    "Family Resource Home Care": ["HR Generalist (Breezy 802c4d718386)"],
-    "FUJIFILM Holdings America": ["Culture & Employee Experience Specialist (iCIMS 38057)"],
-    "Gainsight": ["Senior Program Manager, People Programs & AI (Workday R-101711)"],
-    "Gaylord Industries (ITW)": ["Human Resources Generalist (Phenom JR8435)"],
-    "HealthCorps": ["Learning & Development Specialist (Workable 4A11F75C29)"],
-    "HousecallPro": ["Senior Associate, Training (GH 6031104004)"],
-    "Instacart": ["People Experience PM (GH 7985466) — CLOSED/GEO-OOB"],
-    "Jacobs": ["CSP Learning & Training Lead, Sales Advancement (Phenom 39977)"],
-    "LEAP Legal Software": ["Client Success Learning Program Manager (Workable 816A98B85B)"],
-    "Legence": ["Talent Development Generalist (Dayforce 31619)"],
-    "Lightfox Games": ["People & Operations Coordinator (custom form)"],
-    "Lineage": ["HR Generalist (Phenom R0103931)"],
-    "Lyra Health": ["Training Operations Associate II (Lever c1df9232)"],
-    "MaintainX": ["Educational Program Manager (GH 5109355007)"],
-    "Navitus Health Solutions": ["Learning and Development Generalist (iCIMS 5784)"],
-    "Nielsen": ["Change Management Specialist (LinkedIn 4429419341)"],
-    "Oberto Snacks": ["Human Resources Coordinator (ADP req 1284)"],
+    "Autodesk": [
+      "Senior Org Effectiveness Consultant (Workday 26WD97717)"
+    ],
+    "Axon": [
+      "Employee Experience Program Manager (GH 7737749003)"
+    ],
+    "Banfield Pet Hospital (Mars Veterinary Health)": [
+      "Sr. Enablement Manager Contract (Workday R-243765)"
+    ],
+    "Built In": [
+      "People Ops & Workplace Experience Specialist (GH 7834159)"
+    ],
+    "C1 (ConductorOne)": [
+      "Talent & Workplace Coordinator (Ashby a0a09208)"
+    ],
+    "Chainalysis": [
+      "People Programs Lead (Ashby a44d04f1)"
+    ],
+    "Chime": [
+      "Senior People Partner (GH 8326233002)"
+    ],
+    "CLEAR": [
+      "Learning & Development Generalist (GH 7868581)"
+    ],
+    "Coinbase": [
+      "Sr. Program Manager, L&D (GH 7773124)"
+    ],
+    "Curai Health": [
+      "People Operations & System Specialist (Lever 6bbb82d9)"
+    ],
+    "Datadog": [
+      "Senior Program Manager, People Team (GH 7958756)"
+    ],
+    "DraftKings": [
+      "Program Manager, Talent Management (Workday JR14443)"
+    ],
+    "ElevenLabs": [
+      "People Operations (Ashby ca331e5d)"
+    ],
+    "EY (Ernst & Young)": [
+      "People Consulting - Org Design - Senior Consultant (SF 1668151)"
+    ],
+    "Family Resource Home Care": [
+      "HR Generalist (Breezy 802c4d718386)"
+    ],
+    "FUJIFILM Holdings America": [
+      "Culture & Employee Experience Specialist (iCIMS 38057)"
+    ],
+    "Gainsight": [
+      "Senior Program Manager, People Programs & AI (Workday R-101711)"
+    ],
+    "Gaylord Industries (ITW)": [
+      "Human Resources Generalist (Phenom JR8435)"
+    ],
+    "HealthCorps": [
+      "Learning & Development Specialist (Workable 4A11F75C29)"
+    ],
+    "HousecallPro": [
+      "Senior Associate, Training (GH 6031104004)"
+    ],
+    "Instacart": [
+      "People Experience PM (GH 7985466) — CLOSED/GEO-OOB"
+    ],
+    "Jacobs": [
+      "CSP Learning & Training Lead, Sales Advancement (Phenom 39977)"
+    ],
+    "LEAP Legal Software": [
+      "Client Success Learning Program Manager (Workable 816A98B85B)"
+    ],
+    "Legence": [
+      "Talent Development Generalist (Dayforce 31619)"
+    ],
+    "Lightfox Games": [
+      "People & Operations Coordinator (custom form)"
+    ],
+    "Lineage": [
+      "HR Generalist (Phenom R0103931)"
+    ],
+    "Lyra Health": [
+      "Training Operations Associate II (Lever c1df9232)"
+    ],
+    "MaintainX": [
+      "Educational Program Manager (GH 5109355007)"
+    ],
+    "Navitus Health Solutions": [
+      "Learning and Development Generalist (iCIMS 5784)"
+    ],
+    "Nielsen": [
+      "Change Management Specialist (LinkedIn 4429419341)"
+    ],
+    "Oberto Snacks": [
+      "Human Resources Coordinator (ADP req 1284)"
+    ],
     "OHSU": [
       "Program Administrator (iCIMS 39497) — 2026-06-12 ✅ Submitted",
       "Health System Transformation Research Project Coordinator (iCIMS 39893) — 2026-06-19 ✅ Submitted",
       "HR Business Partner (iCIMS 39450) — 2026-06-29 🙋 Needs Jamie (staged/not-submitted)"
     ],
-    "Oscar Health": ["Senior Learning Specialist (GH 7927693)"],
-    "Pacific Office Automation": ["Learning & Development Specialist (ClearCompany c86729e9)"],
-    "Pacific Seafood": ["Training and Development Specialist (custom fdbbfc87)"],
-    "Premera Blue Cross": ["Program Manager IV, Skills Building (Workday R28487)"],
-    "PT Solutions Physical Therapy": ["HR Generalist (iCIMS 17163)"],
-    "Ripple": ["Program Manager, DEI (GH 7951682)"],
-    "Roivant Sciences": ["People Operations Associate (GH 7922791)"],
-    "Samsara": ["Senior Training Specialist (GH 7822470)"],
-    "Sierra": ["People Operations (Ashby 48fb4d34)"],
-    "SS&C Technologies": ["Associate Learning & Development Specialist (Workday R42246)"],
-    "Stripe": ["People Project Manager (GH 7953899)"],
-    "Syneos Health": ["Leadership Development Coordinator (Talemetry 16348)"],
-    "Talkiatry": ["Learning & Development Specialist (Ashby 13509fcd) — CLOSED"],
-    "Tekmetric": ["People Operations Coordinator (GH 5996893004) — CLOSED"],
-    "Trend (Trend Capital Holdings)": ["Workplace & Culture Coordinator (avahr 81691)"],
-    "Trimble": ["Manager, Enablement Programs and Content (Workday R55463)"],
-    "Twitch": ["Program Manager, Culture & People Development (GH 8582338002)"],
-    "Vercel": ["Senior HRBP - EPD (GH 5735397004)"]
+    "Oscar Health": [
+      "Senior Learning Specialist (GH 7927693)"
+    ],
+    "Pacific Office Automation": [
+      "Learning & Development Specialist (ClearCompany c86729e9)"
+    ],
+    "Pacific Seafood": [
+      "Training and Development Specialist (custom fdbbfc87)"
+    ],
+    "Premera Blue Cross": [
+      "Program Manager IV, Skills Building (Workday R28487)"
+    ],
+    "PT Solutions Physical Therapy": [
+      "HR Generalist (iCIMS 17163)"
+    ],
+    "Ripple": [
+      "Program Manager, DEI (GH 7951682)"
+    ],
+    "Roivant Sciences": [
+      "People Operations Associate (GH 7922791)"
+    ],
+    "Samsara": [
+      "Senior Training Specialist (GH 7822470)"
+    ],
+    "Sierra": [
+      "People Operations (Ashby 48fb4d34)"
+    ],
+    "SS&C Technologies": [
+      "Associate Learning & Development Specialist (Workday R42246)"
+    ],
+    "Stripe": [
+      "People Project Manager (GH 7953899)"
+    ],
+    "Syneos Health": [
+      "Leadership Development Coordinator (Talemetry 16348)"
+    ],
+    "Talkiatry": [
+      "Learning & Development Specialist (Ashby 13509fcd) — CLOSED"
+    ],
+    "Tekmetric": [
+      "People Operations Coordinator (GH 5996893004) — CLOSED"
+    ],
+    "Trend (Trend Capital Holdings)": [
+      "Workplace & Culture Coordinator (avahr 81691)"
+    ],
+    "Trimble": [
+      "Manager, Enablement Programs and Content (Workday R55463)"
+    ],
+    "Twitch": [
+      "Program Manager, Culture & People Development (GH 8582338002)"
+    ],
+    "Vercel": [
+      "Senior HRBP - EPD (GH 5735397004)"
+    ]
   },
   "greenhouse_jids": [
     "8359484002",
@@ -782,10 +890,23 @@
   },
   "count": 59,
   "_excluded_disk_records": {
-    "dry_runs_not_counted": ["Equus Workforce Solutions (dry run)", "LHH (dry run)"],
-    "skip_dead_postings": ["AllTrails", "Gong", "Quantum Metric — all had dead Lever posting at time of run; Notion shows QM submitted, cross-referenced as GH 6fbf169b in Lever. NOTE: Notion has QM as Submitted — check if actually applied."],
-    "blocked_or_failed": ["PeaceHealth (Infor, not submitted)", "BCG (Phenom, blocked)", "PSU (PeopleAdmin, security-question block)"],
-    "not_submitted_status": ["Anthropic (disk status=not_submitted)"]
+    "dry_runs_not_counted": [
+      "Equus Workforce Solutions (dry run)",
+      "LHH (dry run)"
+    ],
+    "skip_dead_postings": [
+      "AllTrails",
+      "Gong",
+      "Quantum Metric — all had dead Lever posting at time of run; Notion shows QM submitted, cross-referenced as GH 6fbf169b in Lever. NOTE: Notion has QM as Submitted — check if actually applied."
+    ],
+    "blocked_or_failed": [
+      "PeaceHealth (Infor, not submitted)",
+      "BCG (Phenom, blocked)",
+      "PSU (PeopleAdmin, security-question block)"
+    ],
+    "not_submitted_status": [
+      "Anthropic (disk status=not_submitted)"
+    ]
   },
   "_dedup_flags": {
     "duplicate_alerts": [
